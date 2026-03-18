@@ -9,7 +9,8 @@
 - **Wordmark:** `steel|r` — the pipe is a CSS element (not a character), 1.5px wide, gold (#c9a96e)
 - **Tagline:** Bespoke Entrance Doors
 - **Hero tagline:** "Engineered for permanence. Designed for distinction."
-- **Logo file:** `public/steelr-logo-v5.html` — full brand sheet with all variants
+- **Logo PNGs:** `public/brand/` — 6 variants (primary, reversed, icon, social, google, favicon)
+- **Logo generator:** `generate-logos.mjs` — Puppeteer + Google Fonts
 
 ### Logo Variants
 - **Inline:** Wordmark + separator + tagline in one line (nav, headers)
@@ -138,14 +139,29 @@ Orientation is noted so code can handle layout correctly.
 ## Build & Deploy
 - `npm run dev` — local dev server on port 3000
 - `npm run build` — production build
-- Push to `main` branch triggers Netlify auto-deploy
+- Push to `main` branch triggers **Vercel** auto-deploy (migrated from Netlify)
 - `.next` cache corruption: if styles break, run `rm -rf .next && npm run build`
 - Dev server launch config in `.claude/launch.json` (name: steelr-dev)
 
+## Hosting & Infrastructure
+- **Hosting:** Vercel (steelr.vercel.app) — Netlify suspended due to build credit exhaustion
+- **Domain:** steelr.co.uk (Fasthosts) → A record `216.198.79.1`, CNAME www → `cname.vercel-dns.com`
+- **Email:** info@steelr.co.uk → info@supplywindows.co.uk via ImprovMX (MX records on Fasthosts)
+- **Google Search Console:** verified via DNS TXT record, sitemap submitted
+- **Google Business Profile:** verified as "SteelR - Bespoke Steel Entrance Doors", nationwide UK, address hidden
+- **OG image:** `/public/og-image.png` (1200x630) — referenced in layout.tsx openGraph metadata
+
+## SEO
+- Schema: HomeAndConstructionBusiness, FAQPage, HowTo, BreadcrumbList on all pages
+- Canonical URLs on all 5 pages
+- H1 on every page (sr-only where visual design conflicts)
+- Collection page has intro paragraph for Google crawlability (client component)
+
 ## Gotchas
 - **Never run `npm run build` while dev server is running** — corrupts .next cache, breaks all CSS
-- **Netlify Forms + Next.js SSR:** Netlify can't detect forms in SSR output. Must have `public/form.html` with matching field names for form detection
-- **Netlify Forms:** Must enable "Form detection" in Netlify dashboard before forms work
+- **Google Business Profile edit panel** — renders as overlay on Google Search, not automatable for text/photo upload
+- **Fasthosts DNS sessions** expire frequently — may need re-login during long sessions
+- **ImprovMX free tier** — forwarding only, no SMTP send (need Premium for sending as info@steelr.co.uk)
 - **Hero images:** Only landscape images work in full-screen hero. Portrait images get cropped badly. Current hero uses 5 landscape images from gallery/
 - **Chrome extension screenshots** cannot capture CSS animations (Ken Burns, opacity transitions) — images appear blank in screenshots but render correctly in browser
 - **Image object-position:** Each hero image needs custom objectPosition to centre on the door. Values are per-image in Hero.tsx
