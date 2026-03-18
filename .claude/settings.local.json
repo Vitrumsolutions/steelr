@@ -56,7 +56,11 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://steelr.vercel.app)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://steelr.co.uk)",
       "Bash(curl -s https://steelr.vercel.app/robots.txt)",
-      "Bash(curl -s https://steelr.vercel.app/sitemap.xml)"
+      "Bash(curl -s https://steelr.vercel.app/sitemap.xml)",
+      "Bash(ls /c/Users/SOT/Documents/Projects/steelr/public/favicon* /c/Users/SOT/Documents/Projects/steelr/public/*.svg /c/Users/SOT/Documents/Projects/steelr/public/*.png)",
+      "Bash(npm list:*)",
+      "Bash(node /c/Users/SOT/Documents/Projects/steelr/generate-logos.mjs)",
+      "Bash(node /c/Users/SOT/Documents/Projects/steelr/generate-og.mjs)"
     ]
   }
 }

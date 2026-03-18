@@ -39,11 +39,20 @@ export const metadata: Metadata = {
     url: "https://steelr.co.uk",
     siteName: "SteelR",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 2400,
+        height: 1260,
+        alt: "SteelR — Bespoke Steel Entrance Doors",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "SteelR | Bespoke Steel Entrance Doors",
     description: "Bespoke steel entrance doors designed and installed nationwide. SR3 rated, ISO 9001 certified.",
+    images: ["/og-image.png"],
   },
   alternates: {
     canonical: "https://steelr.co.uk",
