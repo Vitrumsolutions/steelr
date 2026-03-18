@@ -66,7 +66,7 @@ export default function Hero() {
   }, [previous]);
 
   return (
-    <section id="hero" className="relative w-full h-screen overflow-hidden">
+    <section id="hero" className="relative w-full h-[70vh] overflow-hidden">
       {heroImages.map((img, i) => {
         const isActive = i === current;
         const isPrevious = i === previous;
