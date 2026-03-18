@@ -28,6 +28,7 @@ export default function AboutPage() {
           src="/images/hero/steelr-hero-02.jpg"
           alt="Grand entrance with SteelR bespoke steel door"
           fill
+          quality={100}
           className="object-cover"
           priority
           sizes="100vw"
@@ -139,7 +140,8 @@ export default function AboutPage() {
               src="/images/detail/steelr-detail-01.jpg"
               alt="Close-up of steel door bolt locking mechanism"
               fill
-              className="object-cover"
+              quality={90}
+              className="object-cover rounded-[4px]"
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
           </div>
@@ -148,7 +150,8 @@ export default function AboutPage() {
               src="/images/detail/steelr-detail-02.jpg"
               alt="Open steel entrance door showing door thickness and interior"
               fill
-              className="object-cover"
+              quality={90}
+              className="object-cover rounded-[4px]"
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
           </div>
@@ -157,7 +160,8 @@ export default function AboutPage() {
               src="/images/detail/steelr-detail-03.jpg"
               alt="Luxury interior hallway through steel entrance door"
               fill
-              className="object-cover"
+              quality={90}
+              className="object-cover rounded-[4px]"
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
           </div>
@@ -166,7 +170,8 @@ export default function AboutPage() {
               src="/images/detail/steelr-detail-04.jpeg"
               alt="Steel entrance door detail craftsmanship close-up"
               fill
-              className="object-cover"
+              quality={90}
+              className="object-cover rounded-[4px]"
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
           </div>

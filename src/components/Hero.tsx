@@ -25,36 +25,59 @@ const heroImages = [
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
+  const [previous, setPrevious] = useState<number | null>(null);
 
   useEffect(() => {
     const timer = setInterval(() => {
+      setPrevious(current);
       setCurrent((prev) => (prev + 1) % heroImages.length);
     }, 6000);
     return () => clearInterval(timer);
-  }, []);
+  }, [current]);
+
+  useEffect(() => {
+    if (previous === null) return;
+    const timeout = setTimeout(() => setPrevious(null), 1500);
+    return () => clearTimeout(timeout);
+  }, [previous]);
 
   return (
     <section id="hero" className="relative w-full h-screen overflow-hidden">
       {/* Images */}
-      {heroImages.map((img, i) => (
-        <div
-          key={img.src}
-          className="absolute inset-0 transition-opacity duration-[1500ms] ease-in-out"
-          style={{ opacity: i === current ? 1 : 0 }}
-        >
-          <Image
-            src={img.src}
-            alt={img.alt}
-            fill
-            className="object-cover"
+      {heroImages.map((img, i) => {
+        const isActive = i === current;
+        const isPrevious = i === previous;
+        const isVisible = isActive || isPrevious;
+
+        return (
+          <div
+            key={img.src}
+            className="absolute inset-0"
             style={{
-              animation: i === current ? "kenburns 6s ease-out forwards" : "none",
+              opacity: isActive ? 1 : 0,
+              transition: "opacity 1.5s ease-in-out",
+              zIndex: isActive ? 2 : isPrevious ? 1 : 0,
             }}
-            priority={i === 0}
-            sizes="100vw"
-          />
-        </div>
-      ))}
+          >
+            <Image
+              src={img.src}
+              alt={img.alt}
+              fill
+              quality={100}
+              className="object-cover"
+              style={{
+                transformOrigin: "center center",
+                animation: isVisible
+                  ? "kenburns 6s ease-out forwards"
+                  : "none",
+                transform: isVisible ? undefined : "scale(1)",
+              }}
+              priority={i === 0}
+              sizes="100vw"
+            />
+          </div>
+        );
+      })}
 
       {/* Gradient overlay */}
       <div
@@ -67,7 +90,6 @@ export default function Hero() {
 
       {/* Content — bottom left */}
       <div className="absolute bottom-0 left-0 z-20 p-8 md:p-16 max-w-2xl">
-        {/* Credentials label */}
         <p
           className="mb-5"
           style={{
@@ -82,7 +104,6 @@ export default function Hero() {
           SR3 Rated &middot; ISO 9001 Certified &middot; Secured by Design
         </p>
 
-        {/* Headline */}
         <h1
           style={{
             fontFamily:
@@ -98,7 +119,6 @@ export default function Hero() {
           Entrance Doors
         </h1>
 
-        {/* Subline */}
         <p
           className="mt-5"
           style={{
@@ -112,7 +132,6 @@ export default function Hero() {
           Designed and installed nationwide
         </p>
 
-        {/* CTA */}
         <Link
           href="/contact"
           className="inline-block mt-10 transition-colors duration-300 hover:bg-cream"
@@ -131,7 +150,7 @@ export default function Hero() {
         </Link>
       </div>
 
-      {/* Scroll indicator — bottom right */}
+      {/* Scroll indicator */}
       <div className="absolute bottom-8 right-8 md:bottom-16 md:right-16 z-20 flex flex-col items-center gap-3">
         <span
           style={{

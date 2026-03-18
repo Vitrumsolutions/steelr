@@ -11,16 +11,19 @@ const sizeConfig = {
     fontSize: 24,
     pipeHeight: 28,
     taglineSize: 7,
+    taglineSpacing: "0.22em",
   },
   standard: {
     fontSize: 48,
     pipeHeight: 52,
-    taglineSize: 9,
+    taglineSize: 8,
+    taglineSpacing: "0.28em",
   },
   hero: {
     fontSize: 72,
     pipeHeight: 78,
-    taglineSize: 12,
+    taglineSize: 9,
+    taglineSpacing: "0.32em",
   },
 };
 
@@ -31,7 +34,10 @@ export default function Logo({
 }: LogoProps) {
   const config = sizeConfig[size];
   const wordmarkColor = theme === "dark" ? "#1a1a18" : "#f5f0e8";
-  const taglineColor = theme === "dark" ? "#8a6f4e" : "#c9a96e";
+  const taglineColor =
+    theme === "dark"
+      ? "rgba(138, 111, 78, 0.8)"
+      : "rgba(201, 169, 110, 0.6)";
 
   const wordmark = (
     <span
@@ -63,9 +69,9 @@ export default function Logo({
     <span
       style={{
         fontFamily: "var(--font-body), Montserrat, sans-serif",
-        fontWeight: 400,
+        fontWeight: 300,
         fontSize: config.taglineSize,
-        letterSpacing: "0.3em",
+        letterSpacing: config.taglineSpacing,
         textTransform: "uppercase" as const,
         color: taglineColor,
       }}
@@ -92,7 +98,7 @@ export default function Logo({
         style={{
           width: 1,
           height: config.pipeHeight * 0.6,
-          background: taglineColor,
+          background: theme === "dark" ? "rgba(138, 111, 78, 0.3)" : "rgba(201, 169, 110, 0.3)",
           opacity: 0.4,
         }}
       />

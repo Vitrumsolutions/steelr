@@ -86,6 +86,7 @@ export default function CollectionPage() {
           src="/images/hero/steelr-hero-01.jpg"
           alt="SteelR door collection hero"
           fill
+          quality={100}
           className="object-cover"
           priority
           sizes="100vw"
@@ -157,7 +158,8 @@ export default function CollectionPage() {
                 src={img.src}
                 alt={img.alt}
                 fill
-                className="object-cover"
+                quality={90}
+                className="object-cover rounded-[4px]"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
               {/* Hover overlay */}
@@ -273,6 +275,7 @@ export default function CollectionPage() {
               src={filtered[lightbox].src}
               alt={filtered[lightbox].alt}
               fill
+              quality={100}
               className="object-contain"
               sizes="90vw"
             />

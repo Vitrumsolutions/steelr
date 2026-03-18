@@ -75,23 +75,24 @@ export default function Nav() {
                 className="transition-colors duration-300"
                 style={{
                   fontFamily: "var(--font-body), Montserrat, sans-serif",
-                  fontWeight: 200,
+                  fontWeight: 300,
                   fontSize: 9,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
                   color: scrolled
                     ? "rgba(26, 26, 24, 0.6)"
-                    : "rgba(245, 240, 232, 0.7)",
+                    : "rgba(245, 240, 232, 0.95)",
+                  textShadow: scrolled
+                    ? "none"
+                    : "0 1px 4px rgba(0, 0, 0, 0.3)",
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.color = scrolled
-                    ? "#1a1a18"
-                    : "#f5f0e8";
+                  e.currentTarget.style.color = "#c9a96e";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.color = scrolled
                     ? "rgba(26, 26, 24, 0.6)"
-                    : "rgba(245, 240, 232, 0.7)";
+                    : "rgba(245, 240, 232, 0.95)";
                 }}
               >
                 {link.label}
@@ -106,12 +107,15 @@ export default function Nav() {
               className="hidden md:block transition-colors duration-300"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 200,
+                fontWeight: 300,
                 fontSize: 10,
                 letterSpacing: "0.1em",
                 color: scrolled
                   ? "rgba(26, 26, 24, 0.5)"
-                  : "rgba(245, 240, 232, 0.6)",
+                  : "rgba(245, 240, 232, 1)",
+                textShadow: scrolled
+                  ? "none"
+                  : "0 1px 4px rgba(0, 0, 0, 0.3)",
               }}
             >
               0800 861 1450
