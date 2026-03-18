@@ -46,16 +46,20 @@
 All images follow the naming convention: `steelr-{colour}-{style}-{feature}.jpg`
 Orientation is noted so code can handle layout correctly.
 
-### hero/ (5 images)
+### hero/ (9 images)
 | File | Orientation | Dimensions |
 |------|-------------|------------|
 | `steelr-black-contemporary-sidelight.jpg` | portrait | 1200x1600 |
+| `steelr-black-ornate-checkerboard-canopy-wide.jpg` | portrait | 1200x1600 |
 | `steelr-black-ornate-checkerboard.jpg` | portrait | 1200x1600 |
+| `steelr-black-ornate-medallion-stone.jpg` | **landscape** | 1536x1024 |
 | `steelr-black-traditional-lion-knocker.jpg` | portrait | 1068x1600 |
+| `steelr-cream-panelled-glass-atrium.jpg` | portrait | 1200x1600 |
+| `steelr-navy-panelled-chrome-frosted.jpg` | **landscape** | 1018x980 |
 | `steelr-navy-panelled-lanterns.jpg` | portrait | 1068x1600 |
 | `steelr-navy-traditional-vine-porch.jpg` | portrait | 1200x1600 |
 
-### gallery/ (39 images)
+### gallery/ (50 images)
 | File | Orientation | Dimensions |
 |------|-------------|------------|
 | `steelr-black-contemporary-dual-sidelights.jpg` | portrait | 899x1599 |
@@ -66,6 +70,7 @@ Orientation is noted so code can handle layout correctly.
 | `steelr-black-ornate-checkerboard-canopy.jpg` | portrait | 1200x1600 |
 | `steelr-black-ornate-circular-fluted.jpg` | portrait | 874x1600 |
 | `steelr-black-ornate-double-gable.jpg` | portrait | 1200x1600 |
+| `steelr-black-ornate-lion-knocker-gable.jpg` | portrait | 959x1536 |
 | `steelr-black-ornate-lion-knocker-sidelights.jpg` | portrait | 1200x1600 |
 | `steelr-black-ornate-medallion-driveway.jpeg` | portrait | 1200x1600 |
 | `steelr-black-ornate-medallion-sidelights.jpg` | portrait | 738x1600 |
@@ -74,16 +79,25 @@ Orientation is noted so code can handle layout correctly.
 | `steelr-black-panelled-sidelights-palms.jpg` | **landscape** | 1500x1001 |
 | `steelr-black-traditional-chrome-interior.jpg` | portrait | 1200x1600 |
 | `steelr-black-traditional-columns-mansion.jpg` | **landscape** | 897x636 |
+| `steelr-black-traditional-double-columns.jpg` | portrait | 1024x1382 |
+| `steelr-black-traditional-glazed-double.jpg` | portrait | 1024x1536 |
 | `steelr-black-traditional-lion-knocker-fanlight.jpg` | portrait | 1068x1600 |
 | `steelr-black-traditional-lion-knocker-open.jpg` | portrait | 769x947 |
+| `steelr-black-traditional-lion-knocker-sidelights-garden.jpg` | portrait | 1024x1536 |
 | `steelr-black-traditional-ring-knocker-open.jpg` | portrait | 1200x1600 |
 | `steelr-black-traditional-stained-glass.jpg` | portrait | 1001x1500 |
 | `steelr-black-traditional-wide-frosted.jpg` | **landscape** | 1600x720 |
 | `steelr-champagne-arched-geometric-double.jpg` | portrait | 681x1600 |
+| `steelr-charcoal-contemporary-horizontal-double.jpg` | portrait | 1024x1536 |
+| `steelr-charcoal-traditional-oval-window-lantern.jpg` | portrait | 1024x1536 |
 | `steelr-cobalt-ornate-lion-knocker.jpg` | portrait | 1080x1920 |
 | `steelr-cream-panelled-chrome-sidelight.jpg` | portrait | 354x494 |
+| `steelr-cream-traditional-lion-knocker-topiary.jpg` | portrait | 1024x1536 |
+| `steelr-espresso-contemporary-gold-inlay.jpg` | portrait | 1024x1536 |
+| `steelr-grey-contemporary-horizontal-slots.jpg` | portrait | 1024x1536 |
 | `steelr-grey-panelled-lever-handle.jpg` | portrait | 1080x1920 |
 | `steelr-grey-panelled-stone-surround.jpg` | portrait | 872x943 |
+| `steelr-navy-contemporary-square-knocker.jpg` | portrait | 1024x1536 |
 | `steelr-navy-panelled-chrome-palms.jpg` | portrait | 1001x1500 |
 | `steelr-navy-panelled-lanterns-fanlight.jpg` | portrait | 1068x1600 |
 | `steelr-navy-traditional-vine-porch.jpg` | portrait | 1200x1600 |
@@ -91,6 +105,7 @@ Orientation is noted so code can handle layout correctly.
 | `steelr-olive-traditional-arched-surround.jpg` | portrait | 1200x1600 |
 | `steelr-olive-traditional-brass-pendant.jpg` | portrait | 1001x1500 |
 | `steelr-red-traditional-lion-knocker.jpg` | portrait | 1200x1600 |
+| `steelr-sage-contemporary-bar-handle-sidelight.jpg` | portrait | 1024x1536 |
 | `steelr-sage-panelled-arched-wreath.jpg` | portrait | 768x1024 |
 | `steelr-sage-traditional-arched-brick.jpg` | portrait | 1001x1500 |
 | `steelr-taupe-panelled-chrome-dual-sidelights.jpg` | portrait | 1200x1600 |
@@ -107,9 +122,9 @@ Orientation is noted so code can handle layout correctly.
 | `steelr-navy-panelled-chrome-ring-closeup.jpg` | portrait | 433x1093 |
 
 ### Orientation Summary
-- **Portrait:** 45 images (most door shots are naturally tall)
-- **Landscape:** 3 images (good for full-width hero banners, feature sections)
-- Landscape files: `steelr-black-panelled-sidelights-palms.jpg`, `steelr-black-traditional-columns-mansion.jpg`, `steelr-black-traditional-wide-frosted.jpg`
+- **Portrait:** 58 images (most door shots are naturally tall)
+- **Landscape:** 5 images (good for full-width hero banners, feature sections)
+- Landscape files: `steelr-black-ornate-medallion-stone.jpg`, `steelr-navy-panelled-chrome-frosted.jpg`, `steelr-black-panelled-sidelights-palms.jpg`, `steelr-black-traditional-columns-mansion.jpg`, `steelr-black-traditional-wide-frosted.jpg`
 
 ## Tech Stack
 _To be confirmed — update this section once decided._

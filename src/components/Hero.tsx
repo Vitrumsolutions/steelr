@@ -26,6 +26,22 @@ const heroImages = [
     src: "/images/hero/steelr-black-contemporary-sidelight.jpg",
     alt: "Black contemporary steel entrance door with sidelight",
   },
+  {
+    src: "/images/hero/steelr-black-ornate-checkerboard-canopy-wide.jpg",
+    alt: "Black ornate steel door with checkerboard step and canopy wide view",
+  },
+  {
+    src: "/images/hero/steelr-black-ornate-medallion-stone.jpg",
+    alt: "Black ornate steel door with medallion on stone entrance",
+  },
+  {
+    src: "/images/hero/steelr-cream-panelled-glass-atrium.jpg",
+    alt: "Cream panelled steel door with glass atrium entrance",
+  },
+  {
+    src: "/images/hero/steelr-navy-panelled-chrome-frosted.jpg",
+    alt: "Navy panelled steel door with chrome hardware and frosted glass",
+  },
 ];
 
 // Total cycle: 8s per image

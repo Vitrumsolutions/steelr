@@ -44,6 +44,17 @@ const galleryImages = [
   { src: "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg", alt: "Black contemporary ribbed steel door open view", style: "Contemporary" },
   { src: "/images/gallery/steelr-black-traditional-columns-mansion.jpg", alt: "Black traditional steel door with columns on mansion", style: "Traditional" },
   { src: "/images/gallery/steelr-black-ornate-medallion-driveway.jpeg", alt: "Black ornate steel door with medallion on driveway", style: "Traditional" },
+  { src: "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg", alt: "Black ornate steel door with lion knocker and gable", style: "Traditional" },
+  { src: "/images/gallery/steelr-black-traditional-double-columns.jpg", alt: "Black traditional double steel doors with columns", style: "Double Doors" },
+  { src: "/images/gallery/steelr-black-traditional-glazed-double.jpg", alt: "Black traditional glazed double steel doors", style: "Double Doors" },
+  { src: "/images/gallery/steelr-black-traditional-lion-knocker-sidelights-garden.jpg", alt: "Black traditional steel door with lion knocker sidelights and garden", style: "Traditional" },
+  { src: "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg", alt: "Charcoal contemporary horizontal double steel doors", style: "Double Doors" },
+  { src: "/images/gallery/steelr-charcoal-traditional-oval-window-lantern.jpg", alt: "Charcoal traditional steel door with oval window and lantern", style: "Traditional" },
+  { src: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg", alt: "Cream traditional steel door with lion knocker and topiary", style: "Traditional" },
+  { src: "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg", alt: "Espresso contemporary steel door with gold inlay detail", style: "Contemporary" },
+  { src: "/images/gallery/steelr-grey-contemporary-horizontal-slots.jpg", alt: "Grey contemporary steel door with horizontal slots", style: "Contemporary" },
+  { src: "/images/gallery/steelr-navy-contemporary-square-knocker.jpg", alt: "Navy contemporary steel door with square knocker", style: "Contemporary" },
+  { src: "/images/gallery/steelr-sage-contemporary-bar-handle-sidelight.jpg", alt: "Sage contemporary steel door with bar handle and sidelight", style: "Contemporary" },
 ];
 
 const filters = ["All", "Contemporary", "Traditional", "Double Doors"];
