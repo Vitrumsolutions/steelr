@@ -93,38 +93,28 @@ export default function CollectionPage() {
 
   return (
     <>
-      {/* Hero banner */}
-      <section className="relative h-[50vh] overflow-hidden">
-        <Image
-          src="/images/gallery/steelr-black-panelled-sidelights-palms.jpg"
-          alt="SteelR door collection hero"
-          fill
-          quality={100}
-          className="object-cover"
-          style={{ objectPosition: "center center" }}
-          priority
-          sizes="100vw"
-        />
-        <div
-          className="absolute inset-0"
+      {/* Page banner — branded dark design */}
+      <section
+        className="relative flex items-center justify-center overflow-hidden"
+        style={{ height: 240, background: "#1a1a18", paddingTop: 80 }}
+      >
+        {/* Subtle gold geometric accent */}
+        <div className="absolute inset-0 pointer-events-none" style={{
+          background: "linear-gradient(135deg, transparent 40%, rgba(201,169,110,0.06) 50%, transparent 60%)",
+        }} />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16" style={{ height: 1, background: "rgba(201,169,110,0.3)" }} />
+        <h1
           style={{
-            background:
-              "linear-gradient(to bottom, rgba(10,10,9,0.4), rgba(10,10,9,0.7))",
+            fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+            fontWeight: 300,
+            fontSize: "clamp(36px, 5vw, 56px)",
+            color: "#f5f0e8",
+            lineHeight: 1.1,
+            textAlign: "center",
           }}
-        />
-        <div className="absolute inset-0 flex items-end p-8 md:p-16 z-10">
-          <h1
-            style={{
-              fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
-              fontWeight: 300,
-              fontSize: "clamp(36px, 5vw, 64px)",
-              color: "#f5f0e8",
-              lineHeight: 1.1,
-            }}
-          >
-            The Collection
-          </h1>
-        </div>
+        >
+          The Collection
+        </h1>
       </section>
 
       {/* Filter bar */}

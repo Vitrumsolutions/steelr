@@ -22,42 +22,31 @@ const credentials = [
 export default function AboutPage() {
   return (
     <>
-      {/* Hero */}
-      <section className="relative h-[60vh] overflow-hidden">
-        <Image
-          src="/images/hero/steelr-black-ornate-medallion-stone.jpg"
-          alt="Grand entrance with SteelR bespoke steel door"
-          fill
-          quality={100}
-          className="object-cover"
-          style={{ objectPosition: "center 30%" }}
-          priority
-          sizes="100vw"
-        />
-        <div
-          className="absolute inset-0"
+      {/* Page banner — branded dark design */}
+      <section
+        className="relative flex items-center justify-center overflow-hidden"
+        style={{ height: 240, background: "#1a1a18", paddingTop: 80 }}
+      >
+        <div className="absolute inset-0 pointer-events-none" style={{
+          background: "linear-gradient(135deg, transparent 40%, rgba(201,169,110,0.06) 50%, transparent 60%)",
+        }} />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16" style={{ height: 1, background: "rgba(201,169,110,0.3)" }} />
+        <h1
           style={{
-            background:
-              "linear-gradient(to bottom, rgba(10,10,9,0.3), rgba(10,10,9,0.6))",
+            fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+            fontWeight: 300,
+            fontSize: "clamp(36px, 5vw, 56px)",
+            color: "#f5f0e8",
+            lineHeight: 1.1,
+            textAlign: "center",
           }}
-        />
-        <div className="absolute inset-0 flex items-end p-12 md:p-16 z-10">
-          <h1
-            style={{
-              fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
-              fontWeight: 300,
-              fontSize: "clamp(36px, 5vw, 64px)",
-              color: "#f5f0e8",
-              lineHeight: 1.1,
-            }}
-          >
-            About
-          </h1>
-        </div>
+        >
+          About
+        </h1>
       </section>
 
       {/* Brand statement */}
-      <section className="bg-cream py-24 md:py-40 px-6 md:px-16">
+      <section className="bg-cream ribbon-bg py-24 md:py-40 px-6 md:px-16">
         <div className="max-w-3xl mx-auto text-center">
           <h1
             style={{
@@ -75,7 +64,7 @@ export default function AboutPage() {
       </section>
 
       {/* Two column — text + credentials */}
-      <section className="bg-cream pb-24 md:pb-40 px-6 md:px-16">
+      <section className="bg-cream ribbon-bg pb-24 md:pb-40 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
           {/* Left — copy */}
           <div>
@@ -86,7 +75,7 @@ export default function AboutPage() {
                 fontWeight: 200,
                 fontSize: 14,
                 lineHeight: 1.9,
-                color: "#8a6f4e",
+                color: "#6b5a42",
               }}
             >
               SteelR produces bespoke steel entrance doors for homes across the
@@ -100,7 +89,7 @@ export default function AboutPage() {
                 fontWeight: 200,
                 fontSize: 14,
                 lineHeight: 1.9,
-                color: "#8a6f4e",
+                color: "#6b5a42",
               }}
             >
               We work with homeowners, architects and developers who understand
@@ -114,7 +103,7 @@ export default function AboutPage() {
                 fontWeight: 200,
                 fontSize: 14,
                 lineHeight: 1.9,
-                color: "#8a6f4e",
+                color: "#6b5a42",
               }}
             >
               No standard sizes. No off-the-shelf finishes. Every SteelR door is

@@ -37,7 +37,11 @@
       "Bash(git push:*)",
       "Bash(gh auth:*)",
       "Bash(find /c/Users/SOT/Documents/Projects/steelr/public/images/ -name *.jpg -o -name *.jpeg -o -name *.png -o -name *.webp)",
-      "Bash(node -e \":*)"
+      "Bash(node -e \":*)",
+      "Bash(python3 -c \":*)",
+      "Bash(python -c \":*)",
+      "Bash(ipconfig)",
+      "Bash(npx next:*)"
     ]
   }
 }

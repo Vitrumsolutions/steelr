@@ -56,7 +56,7 @@ export default function Home() {
       <Hero />
 
       {/* Section 2 — Collection Teaser */}
-      <section style={{ background: "#f5f0e8" }} className="py-20 md:py-32 px-6 md:px-16">
+      <section style={{ background: "#f5f0e8" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <p
             className="mb-4"
@@ -66,7 +66,7 @@ export default function Home() {
               fontSize: 10,
               letterSpacing: "0.3em",
               textTransform: "uppercase",
-              color: "#c9a96e",
+              color: "#b8943f",
             }}
           >
             The Collection
@@ -148,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* Section 4 — Statement */}
-      <section style={{ background: "linear-gradient(180deg, #f5f0e8 0%, #e5dfd5 100%)" }} className="py-24 md:py-40 px-6 md:px-16">
+      <section style={{ background: "linear-gradient(180deg, #f5f0e8 0%, #ede8df 100%)" }} className="ribbon-bg py-24 md:py-40 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
           <div>
             <p
@@ -159,7 +159,7 @@ export default function Home() {
                 fontSize: 9,
                 letterSpacing: "0.3em",
                 textTransform: "uppercase",
-                color: "#c9a96e",
+                color: "#b8943f",
               }}
             >
               Our Philosophy
@@ -186,7 +186,7 @@ export default function Home() {
                 fontWeight: 200,
                 fontSize: 14,
                 lineHeight: 1.9,
-                color: "#8a6f4e",
+                color: "#6b5a42",
               }}
             >
               Every SteelR door is manufactured to SR3 high security standards
@@ -200,7 +200,7 @@ export default function Home() {
                 fontWeight: 200,
                 fontSize: 14,
                 lineHeight: 1.9,
-                color: "#8a6f4e",
+                color: "#6b5a42",
               }}
             >
               No standard sizes. No off-the-shelf finishes. Every door is made
@@ -208,14 +208,14 @@ export default function Home() {
               final installation.
             </p>
           </div>
-          <div className="relative aspect-[3/4] lg:aspect-auto">
+          <div className="relative aspect-[3/4]">
             <Image
-              src="/images/hero/steelr-navy-panelled-chrome-frosted.jpg"
-              alt="Navy panelled steel door with chrome hardware"
+              src="/images/gallery/steelr-navy-panelled-chrome-palms.jpg"
+              alt="Navy panelled steel door with chrome hardware and palms"
               fill
               quality={100}
-              className="object-cover"
-              style={{ objectPosition: "center top" }}
+              className="object-cover rounded-[4px]"
+              style={{ objectPosition: "center 30%" }}
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
@@ -223,7 +223,7 @@ export default function Home() {
       </section>
 
       {/* Section 5 — Process */}
-      <section style={{ background: "#e5dfd5" }} className="py-16 md:py-24 px-6 md:px-16">
+      <section style={{ background: "#ede8df" }} className="ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <h2
             className="text-center mb-16"
@@ -261,7 +261,7 @@ export default function Home() {
                     fontSize: 12,
                     letterSpacing: "0.2em",
                     textTransform: "uppercase",
-                    color: "#c9a96e",
+                    color: "#b8943f",
                   }}
                 >
                   {step.title}
@@ -272,7 +272,7 @@ export default function Home() {
                     fontWeight: 200,
                     fontSize: 13,
                     lineHeight: 1.8,
-                    color: "#8a6f4e",
+                    color: "#6b5a42",
                   }}
                 >
                   {step.desc}
@@ -319,7 +319,7 @@ export default function Home() {
       </section>
 
       {/* Section 7 — Contact */}
-      <section style={{ background: "linear-gradient(180deg, #e5dfd5 0%, #f5f0e8 100%)" }} className="py-20 md:py-32 px-6 md:px-16">
+      <section style={{ background: "linear-gradient(180deg, #ede8df 0%, #f5f0e8 100%)" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left — info */}
           <div>
@@ -331,7 +331,7 @@ export default function Home() {
                 fontSize: 9,
                 letterSpacing: "0.3em",
                 textTransform: "uppercase",
-                color: "#c9a96e",
+                color: "#b8943f",
               }}
             >
               Get in Touch
@@ -369,7 +369,7 @@ export default function Home() {
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
                 fontWeight: 200,
                 fontSize: 12,
-                color: "#8a6f4e",
+                color: "#6b5a42",
               }}
             >
               Monday to Friday, 8am to 6pm

@@ -42,67 +42,54 @@ const stages = [
 export default function ProcessPage() {
   return (
     <>
-      {/* Hero */}
-      <section className="relative h-[50vh] overflow-hidden">
-        <Image
-          src="/images/gallery/steelr-black-traditional-columns-mansion.jpg"
-          alt="SteelR bespoke door process"
-          fill
-          quality={100}
-          className="object-cover"
-          style={{ objectPosition: "center 45%" }}
-          priority
-          sizes="100vw"
-        />
-        <div
-          className="absolute inset-0"
+      {/* Page banner — branded dark design */}
+      <section
+        className="relative flex items-center justify-center overflow-hidden"
+        style={{ height: 240, background: "#1a1a18", paddingTop: 80 }}
+      >
+        <div className="absolute inset-0 pointer-events-none" style={{
+          background: "linear-gradient(135deg, transparent 40%, rgba(201,169,110,0.06) 50%, transparent 60%)",
+        }} />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16" style={{ height: 1, background: "rgba(201,169,110,0.3)" }} />
+        <h1
           style={{
-            background:
-              "linear-gradient(to bottom, rgba(10,10,9,0.3), rgba(10,10,9,0.7))",
+            fontFamily:
+              "var(--font-display), 'Cormorant Garamond', serif",
+            fontWeight: 300,
+            fontSize: "clamp(36px, 5vw, 56px)",
+            color: "#f5f0e8",
+            lineHeight: 1.1,
+            textAlign: "center",
           }}
-        />
-        <div className="absolute inset-0 flex items-end p-8 md:p-16 z-10">
-          <h1
-            style={{
-              fontFamily:
-                "var(--font-display), 'Cormorant Garamond', serif",
-              fontWeight: 300,
-              fontSize: "clamp(36px, 5vw, 64px)",
-              color: "#f5f0e8",
-              lineHeight: 1.1,
-            }}
-          >
-            Our Process
-          </h1>
-        </div>
+        >
+          Our Process
+        </h1>
       </section>
 
-      {/* Process stages */}
+      {/* Process stages — clean alternating layout */}
       {stages.map((stage, i) => {
-        const imageLeft = i % 2 === 0;
+        const imageRight = i % 2 === 0;
         return (
           <section
             key={stage.num}
-            className="bg-cream py-16 md:py-28 px-6 md:px-16"
+            className="ribbon-bg py-16 md:py-24 px-6 md:px-16"
+            style={{ background: i % 2 === 0 ? "#f5f0e8" : "#ede8df" }}
           >
-            <div
-              className={`max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 ${
-                imageLeft ? "" : "direction-rtl"
-              }`}
-            >
+            <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
               {/* Image */}
               <div
-                className={`relative aspect-[3/4] max-h-[500px] ${
-                  !imageLeft ? "lg:order-2" : ""
+                className={`relative aspect-[3/4] overflow-hidden rounded-[4px] ${
+                  imageRight ? "lg:order-2" : "lg:order-1"
                 }`}
+                style={{ maxHeight: 520 }}
               >
                 <Image
                   src={stage.image}
                   alt={stage.alt}
                   fill
                   quality={100}
-                  className="object-cover rounded-[4px]"
-                  style={{ objectPosition: "center top" }}
+                  className="object-cover"
+                  style={{ objectPosition: "center 35%" }}
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
@@ -110,16 +97,16 @@ export default function ProcessPage() {
               {/* Text */}
               <div
                 className={`flex flex-col justify-center ${
-                  !imageLeft ? "lg:order-1" : ""
+                  imageRight ? "lg:order-1" : "lg:order-2"
                 }`}
               >
                 <span
-                  className="block mb-4"
+                  className="block mb-2"
                   style={{
                     fontFamily:
                       "var(--font-display), 'Cormorant Garamond', serif",
                     fontWeight: 300,
-                    fontSize: 80,
+                    fontSize: 72,
                     lineHeight: 1,
                     color: "rgba(201, 169, 110, 0.15)",
                   }}
@@ -127,7 +114,7 @@ export default function ProcessPage() {
                   {stage.num}
                 </span>
                 <p
-                  className="mb-6"
+                  className="mb-5"
                   style={{
                     fontFamily: "var(--font-body), Montserrat, sans-serif",
                     fontWeight: 400,
@@ -142,11 +129,11 @@ export default function ProcessPage() {
                 <p
                   style={{
                     fontFamily: "var(--font-body), Montserrat, sans-serif",
-                    fontWeight: 200,
-                    fontSize: 14,
+                    fontWeight: 300,
+                    fontSize: 15,
                     lineHeight: 1.9,
-                    color: "#8a6f4e",
-                    maxWidth: 480,
+                    color: "#6b5a42",
+                    maxWidth: 440,
                   }}
                 >
                   {stage.text}

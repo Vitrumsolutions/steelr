@@ -10,7 +10,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-site-black py-16 px-6 md:px-16">
+    <footer className="bg-site-black py-16 px-6 md:px-16 ribbon-bg">
       <div className="max-w-6xl mx-auto flex flex-col items-center">
         {/* Logo */}
         <Logo variant="stacked" theme="light" size="standard" />

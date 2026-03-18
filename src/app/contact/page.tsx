@@ -28,7 +28,7 @@ export default function ContactPage() {
         </h1>
       </section>
 
-      <section className="bg-cream py-20 md:py-32 px-6 md:px-16">
+      <section className="ribbon-bg bg-cream py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left */}
           <div>
@@ -37,10 +37,10 @@ export default function ContactPage() {
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
                 fontWeight: 400,
-                fontSize: 11,
+                fontSize: 12,
                 letterSpacing: "0.3em",
                 textTransform: "uppercase",
-                color: "#c9a96e",
+                color: "#b8943f",
               }}
             >
               Get in Touch
@@ -76,9 +76,9 @@ export default function ContactPage() {
               className="mt-3 mb-3"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 200,
-                fontSize: 12,
-                color: "#8a6f4e",
+                fontWeight: 300,
+                fontSize: 13,
+                color: "#6b5a42",
               }}
             >
               Monday to Friday, 8am to 6pm
@@ -88,9 +88,9 @@ export default function ContactPage() {
               className="transition-opacity duration-300 hover:opacity-70"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 200,
-                fontSize: 13,
-                color: "#8a6f4e",
+                fontWeight: 300,
+                fontSize: 14,
+                color: "#6b5a42",
               }}
             >
               info@steelr.co.uk
@@ -102,10 +102,10 @@ export default function ContactPage() {
                 style={{
                   fontFamily: "var(--font-body), Montserrat, sans-serif",
                   fontWeight: 400,
-                  fontSize: 9,
+                  fontSize: 11,
                   letterSpacing: "0.3em",
                   textTransform: "uppercase",
-                  color: "#c9a96e",
+                  color: "#b8943f",
                 }}
               >
                 Coverage
@@ -113,8 +113,8 @@ export default function ContactPage() {
               <p
                 style={{
                   fontFamily: "var(--font-body), Montserrat, sans-serif",
-                  fontWeight: 200,
-                  fontSize: 14,
+                  fontWeight: 300,
+                  fontSize: 15,
                   lineHeight: 1.9,
                   color: "#8a6f4e",
                 }}

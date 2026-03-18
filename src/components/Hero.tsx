@@ -4,38 +4,41 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-// Only use images that work well in landscape viewport
-// Landscape and near-square images show full door without cropping
 const heroImages = [
   {
     src: "/images/hero/steelr-black-ornate-medallion-stone.jpg",
-    alt: "Black ornate steel entrance door with medallion and sidelights",
-    pos: "center center",
+    alt: "Black ornate steel entrance door with medallion and sidelights set in stone surround",
+    objectPos: "center 48%",
+    zoomOrigin: "center 48%",
   },
   {
     src: "/images/hero/steelr-navy-panelled-chrome-frosted.jpg",
-    alt: "Navy panelled steel door with chrome hardware and frosted glass",
-    pos: "center center",
+    alt: "Navy panelled steel door with chrome hardware and frosted glass panels",
+    objectPos: "center 50%",
+    zoomOrigin: "center 50%",
   },
   {
     src: "/images/gallery/steelr-black-panelled-sidelights-palms.jpg",
     alt: "Black panelled steel door with sidelights and potted palms",
-    pos: "center center",
+    objectPos: "center 45%",
+    zoomOrigin: "center 45%",
   },
   {
     src: "/images/gallery/steelr-black-traditional-wide-frosted.jpg",
-    alt: "Black traditional steel door with frosted sidelights",
-    pos: "center center",
+    alt: "Black traditional steel door with wide frosted sidelights",
+    objectPos: "center 40%",
+    zoomOrigin: "center 40%",
   },
   {
     src: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
-    alt: "Grand mansion entrance with black steel door and columns",
-    pos: "center 40%",
+    alt: "Grand mansion entrance with black steel door flanked by classical columns",
+    objectPos: "center 80%",
+    zoomOrigin: "center 80%",
   },
 ];
 
-const CYCLE_DURATION = 8000;
-const LOGO_FADE_IN_START = 5500;
+const CYCLE_DURATION = 12000;
+const LOGO_FADE_IN_START = 8000;
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
@@ -61,12 +64,12 @@ export default function Hero() {
 
   useEffect(() => {
     if (previous === null) return;
-    const timeout = setTimeout(() => setPrevious(null), 1500);
+    const timeout = setTimeout(() => setPrevious(null), 2000);
     return () => clearTimeout(timeout);
   }, [previous]);
 
   return (
-    <section id="hero" className="relative w-full h-[70vh] overflow-hidden">
+    <section id="hero" className="relative w-full h-screen overflow-hidden">
       {heroImages.map((img, i) => {
         const isActive = i === current;
         const isPrevious = i === previous;
@@ -78,7 +81,7 @@ export default function Hero() {
             className="absolute inset-0"
             style={{
               opacity: isActive ? 1 : 0,
-              transition: "opacity 1s ease-in-out",
+              transition: "opacity 2s ease-in-out",
               zIndex: isActive ? 2 : isPrevious ? 1 : 0,
             }}
           >
@@ -89,10 +92,10 @@ export default function Hero() {
               quality={100}
               className="object-cover"
               style={{
-                objectPosition: img.pos,
-                transformOrigin: img.pos,
+                objectPosition: img.objectPos,
+                transformOrigin: img.zoomOrigin,
                 animation: isVisible
-                  ? "kenburns 8s ease-out forwards"
+                  ? "kenburns 12s ease-out forwards"
                   : "none",
                 transform: isVisible ? undefined : "scale(1)",
               }}
@@ -103,13 +106,13 @@ export default function Hero() {
         );
       })}
 
-      {/* Logo flash between transitions */}
+      {/* Logo flash between transitions — visible on all devices */}
       <div
         className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none"
         style={{
           opacity: showLogo ? 1 : 0,
-          transition: "opacity 0.5s ease-in-out",
-          background: showLogo ? "rgba(10, 10, 9, 0.4)" : "transparent",
+          transition: "opacity 0.6s ease-in-out",
+          background: showLogo ? "rgba(10, 10, 9, 0.45)" : "transparent",
         }}
       >
         <div className="flex flex-col items-center text-center px-8">
@@ -138,7 +141,7 @@ export default function Hero() {
               fontSize: 10,
               letterSpacing: "0.35em",
               textTransform: "uppercase",
-              color: "rgba(201, 169, 110, 0.7)",
+              color: "rgba(201, 169, 110, 0.8)",
               marginTop: 12,
             }}
           >
@@ -152,51 +155,37 @@ export default function Hero() {
         className="absolute inset-0 z-10"
         style={{
           background:
-            "linear-gradient(to bottom, rgba(10,10,9,0.0) 0%, rgba(10,10,9,0.0) 50%, rgba(10,10,9,0.6) 100%)",
+            "linear-gradient(to bottom, rgba(10,10,9,0.15) 0%, rgba(10,10,9,0.0) 40%, rgba(10,10,9,0.55) 100%)",
         }}
       />
 
-      {/* Content — bottom left */}
-      <div className="absolute bottom-0 left-0 z-20 p-8 md:p-16 max-w-2xl">
+      {/* Credentials — top left below nav, never overlaps centred logo */}
+      <div className="absolute top-24 md:top-28 left-0 z-30 px-8 md:px-16">
         <p
-          className="mb-5"
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
             fontWeight: 300,
             fontSize: 10,
             letterSpacing: "0.35em",
             textTransform: "uppercase",
-            color: "rgba(245, 240, 232, 0.9)",
+            color: "rgba(245, 240, 232, 0.85)",
             textShadow: "0 1px 8px rgba(0, 0, 0, 0.6)",
           }}
         >
           SR3 Rated &middot; ISO 9001 Certified &middot; Secured by Design
         </p>
+      </div>
 
-        <h1
-          style={{
-            fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
-            fontWeight: 300,
-            fontSize: "clamp(36px, 5vw, 64px)",
-            lineHeight: 1.1,
-            letterSpacing: "0.05em",
-            color: "#f5f0e8",
-            textShadow: "0 2px 12px rgba(0, 0, 0, 0.4)",
-          }}
-        >
-          Bespoke Steel
-          <br />
-          Entrance Doors
-        </h1>
-
+      {/* CTA — bottom left */}
+      <div className="absolute bottom-0 left-0 z-30 p-8 md:p-16">
         <p
-          className="mt-5"
+          className="mb-5"
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
             fontWeight: 300,
-            fontSize: 14,
+            fontSize: 15,
             letterSpacing: "0.08em",
-            color: "rgba(245, 240, 232, 0.8)",
+            color: "rgba(245, 240, 232, 0.85)",
             textShadow: "0 1px 6px rgba(0, 0, 0, 0.4)",
           }}
         >
@@ -205,7 +194,7 @@ export default function Hero() {
 
         <Link
           href="/contact"
-          className="inline-block mt-10 transition-colors duration-300 hover:bg-cream"
+          className="inline-block transition-colors duration-300 hover:bg-cream"
           style={{
             background: "#c9a96e",
             color: "#1a1a18",
