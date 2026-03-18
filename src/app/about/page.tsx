@@ -30,7 +30,7 @@ export default function AboutPage() {
           fill
           quality={100}
           className="object-cover"
-          style={{ objectPosition: "center top" }}
+          style={{ objectPosition: "center 30%" }}
           priority
           sizes="100vw"
         />
@@ -41,6 +41,19 @@ export default function AboutPage() {
               "linear-gradient(to bottom, rgba(10,10,9,0.3), rgba(10,10,9,0.6))",
           }}
         />
+        <div className="absolute inset-0 flex items-end p-12 md:p-16 z-10">
+          <h1
+            style={{
+              fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+              fontWeight: 300,
+              fontSize: "clamp(36px, 5vw, 64px)",
+              color: "#f5f0e8",
+              lineHeight: 1.1,
+            }}
+          >
+            About SteelR
+          </h1>
+        </div>
       </section>
 
       {/* Brand statement */}
@@ -133,54 +146,58 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Detail images */}
+      {/* Detail images — flex layout */}
       <section className="bg-cream pb-4 px-6 md:px-16">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="relative aspect-[4/3]">
+        <div className="max-w-7xl mx-auto flex flex-wrap md:flex-nowrap gap-3 overflow-hidden">
+          <div className="relative flex-1 min-w-[calc(50%-6px)] md:min-w-0 h-[320px]">
             <Image
               src="/images/detail/steelr-navy-panelled-chrome-ring-closeup.jpg"
-              alt="Close-up of steel door bolt locking mechanism"
+              alt="Close-up of steel door chrome ring knocker"
               fill
               quality={100}
-              className="object-cover rounded-[4px]" style={{ objectPosition: "center top" }}
-              sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
+              className="object-cover rounded-[4px]"
+              style={{ objectPosition: "center top" }}
+              sizes="(max-width: 768px) 50vw, 25vw"
             />
           </div>
-          <div className="relative aspect-[4/3]">
+          <div className="relative flex-1 min-w-[calc(50%-6px)] md:min-w-0 h-[320px]">
             <Image
               src="/images/detail/steelr-black-panelled-brass-lion-closeup.jpg"
-              alt="Open steel entrance door showing door thickness and interior"
+              alt="Brass lion head door knocker close-up"
               fill
               quality={100}
-              className="object-cover rounded-[4px]" style={{ objectPosition: "center top" }}
-              sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
+              className="object-cover rounded-[4px]"
+              style={{ objectPosition: "center top" }}
+              sizes="(max-width: 768px) 50vw, 25vw"
             />
           </div>
-          <div className="relative aspect-[4/3]">
+          <div className="relative flex-1 min-w-[calc(50%-6px)] md:min-w-0 h-[320px]">
             <Image
               src="/images/detail/steelr-grey-panelled-chrome-multilock.jpg"
-              alt="Luxury interior hallway through steel entrance door"
+              alt="Multi-point chrome locking mechanism detail"
               fill
               quality={100}
-              className="object-cover rounded-[4px]" style={{ objectPosition: "center top" }}
-              sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
+              className="object-cover rounded-[4px]"
+              style={{ objectPosition: "center top" }}
+              sizes="(max-width: 768px) 50vw, 25vw"
             />
           </div>
-          <div className="relative aspect-[4/3]">
+          <div className="relative flex-1 min-w-[calc(50%-6px)] md:min-w-0 h-[320px]">
             <Image
               src="/images/detail/steelr-grey-panelled-brass-handle-closeup.jpeg"
-              alt="Steel entrance door detail craftsmanship close-up"
+              alt="Brass lever handle craftsmanship close-up"
               fill
               quality={100}
-              className="object-cover rounded-[4px]" style={{ objectPosition: "center top" }}
-              sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
+              className="object-cover rounded-[4px]"
+              style={{ objectPosition: "center top" }}
+              sizes="(max-width: 768px) 50vw, 25vw"
             />
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="bg-site-black py-20 md:py-28 px-6 md:px-16 mt-20">
+      <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-20">
         <div className="max-w-4xl mx-auto text-center">
           <h2
             className="mb-10"

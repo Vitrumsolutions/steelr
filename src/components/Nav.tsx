@@ -57,7 +57,6 @@ export default function Nav() {
         }}
       >
         <div className="flex items-center justify-between px-6 md:px-12 py-5">
-          {/* Logo */}
           <Link href="/" onClick={() => setMenuOpen(false)}>
             <Logo
               variant="inline"
@@ -66,7 +65,7 @@ export default function Nav() {
             />
           </Link>
 
-          {/* Desktop nav links */}
+          {/* Desktop nav links — Fix 10: 11px */}
           <div className="hidden lg:flex items-center gap-10">
             {navLinks.map((link) => (
               <Link
@@ -76,7 +75,7 @@ export default function Nav() {
                 style={{
                   fontFamily: "var(--font-body), Montserrat, sans-serif",
                   fontWeight: 300,
-                  fontSize: 9,
+                  fontSize: 11,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
                   color: scrolled
@@ -100,15 +99,15 @@ export default function Nav() {
             ))}
           </div>
 
-          {/* Phone + Hamburger */}
+          {/* Phone (Fix 18: hidden below lg) + Hamburger */}
           <div className="flex items-center gap-6">
             <a
               href="tel:08008611450"
-              className="hidden md:block transition-colors duration-300"
+              className="hidden lg:block transition-colors duration-300"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
                 fontWeight: 300,
-                fontSize: 10,
+                fontSize: 12,
                 letterSpacing: "0.1em",
                 color: scrolled
                   ? "rgba(26, 26, 24, 0.5)"
@@ -121,7 +120,6 @@ export default function Nav() {
               0800 861 1450
             </a>
 
-            {/* Mobile hamburger */}
             <button
               className="lg:hidden flex flex-col justify-center items-center w-8 h-8 gap-[5px]"
               onClick={() => setMenuOpen(!menuOpen)}
@@ -194,7 +192,7 @@ export default function Nav() {
             style={{
               fontFamily: "var(--font-body), Montserrat, sans-serif",
               fontWeight: 200,
-              fontSize: 11,
+              fontSize: 12,
               letterSpacing: "0.15em",
               color: "rgba(245, 240, 232, 0.4)",
             }}

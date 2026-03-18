@@ -3,52 +3,56 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "./Logo";
-
 const heroImages = [
   {
     src: "/images/hero/steelr-black-ornate-checkerboard.jpg",
     alt: "Black ornate steel entrance door with checkerboard step",
+    origin: "center 55%",
   },
   {
     src: "/images/hero/steelr-navy-panelled-lanterns.jpg",
     alt: "Navy blue panelled entrance door with lanterns and stone steps",
+    origin: "center 50%",
   },
   {
     src: "/images/hero/steelr-black-traditional-lion-knocker.jpg",
     alt: "Black traditional steel door with lion knocker and gold hardware",
+    origin: "center 60%",
   },
   {
     src: "/images/hero/steelr-navy-traditional-vine-porch.jpg",
     alt: "Navy traditional steel door with vine-covered porch",
+    origin: "center 45%",
   },
   {
     src: "/images/hero/steelr-black-contemporary-sidelight.jpg",
     alt: "Black contemporary steel entrance door with sidelight",
+    origin: "center 55%",
   },
   {
     src: "/images/hero/steelr-black-ornate-checkerboard-canopy-wide.jpg",
     alt: "Black ornate steel door with checkerboard step and canopy wide view",
+    origin: "center 50%",
   },
   {
     src: "/images/hero/steelr-black-ornate-medallion-stone.jpg",
     alt: "Black ornate steel door with medallion on stone entrance",
+    origin: "center 55%",
   },
   {
     src: "/images/hero/steelr-cream-panelled-glass-atrium.jpg",
     alt: "Cream panelled steel door with glass atrium entrance",
+    origin: "center 45%",
   },
   {
     src: "/images/hero/steelr-navy-panelled-chrome-frosted.jpg",
     alt: "Navy panelled steel door with chrome hardware and frosted glass",
+    origin: "center 50%",
   },
 ];
 
-// Total cycle: 8s per image
-// Image displays: 5s → logo fades in 0.5s → logo holds 1s → logo fades out 0.5s → next image crossfades 1s
 const CYCLE_DURATION = 8000;
-const LOGO_FADE_IN_START = 5300;
-// Logo visible for 2.7s total: 0.6s fade in + 1.5s hold + 0.6s fade out
+const LOGO_FADE_IN_START = 5500;
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
@@ -62,7 +66,6 @@ export default function Hero() {
       setShowLogo(false);
     }, CYCLE_DURATION);
 
-    // Show logo before transition
     const logoTimer = setTimeout(() => {
       setShowLogo(true);
     }, LOGO_FADE_IN_START);
@@ -81,7 +84,6 @@ export default function Hero() {
 
   return (
     <section id="hero" className="relative w-full h-screen overflow-hidden">
-      {/* Images */}
       {heroImages.map((img, i) => {
         const isActive = i === current;
         const isPrevious = i === previous;
@@ -104,10 +106,10 @@ export default function Hero() {
               quality={100}
               className="object-cover"
               style={{
-                objectPosition: "center top",
-                transformOrigin: "center center",
+                objectPosition: img.origin,
+                transformOrigin: img.origin,
                 animation: isVisible
-                  ? "kenburns 8s ease-out forwards"
+                  ? "kenburns 6s ease-out forwards"
                   : "none",
                 transform: isVisible ? undefined : "scale(1)",
               }}
@@ -120,13 +122,55 @@ export default function Hero() {
 
       {/* Logo flash between transitions */}
       <div
-        className="absolute inset-0 z-[8] flex items-center justify-center pointer-events-none"
+        className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none"
         style={{
           opacity: showLogo ? 1 : 0,
-          transition: "opacity 0.6s ease-in-out",
+          transition: "opacity 0.5s ease-in-out",
+          background: showLogo ? "rgba(10, 10, 9, 0.4)" : "transparent",
+          maxWidth: "90vw",
+          margin: "0 auto",
+          left: 0,
+          right: 0,
         }}
       >
-        <Logo variant="stacked" theme="light" size="hero" />
+        <div className="flex flex-col items-center text-center">
+          <span
+            className="flex items-center"
+            style={{
+              fontFamily: "var(--font-body), Montserrat, sans-serif",
+              fontWeight: 200,
+              fontSize: 64,
+              letterSpacing: "-0.02em",
+              color: "#f5f0e8",
+              lineHeight: 1,
+            }}
+          >
+            steel
+            <span
+              className="inline-block flex-shrink-0"
+              style={{
+                width: 3,
+                height: 76,
+                background: "#c9a96e",
+                margin: "0 5px",
+              }}
+            />
+            r
+          </span>
+          <span
+            style={{
+              fontFamily: "var(--font-body), Montserrat, sans-serif",
+              fontWeight: 300,
+              fontSize: 10,
+              letterSpacing: "0.35em",
+              textTransform: "uppercase",
+              color: "rgba(201, 169, 110, 0.7)",
+              marginTop: 12,
+            }}
+          >
+            Bespoke Entrance Doors
+          </span>
+        </div>
       </div>
 
       {/* Gradient overlay */}
@@ -140,12 +184,13 @@ export default function Hero() {
 
       {/* Content — bottom left */}
       <div className="absolute bottom-0 left-0 z-20 p-8 md:p-16 max-w-2xl">
+        {/* Fix 11: credentials visibility */}
         <p
           className="mb-5"
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
             fontWeight: 300,
-            fontSize: 9,
+            fontSize: 10,
             letterSpacing: "0.35em",
             textTransform: "uppercase",
             color: "rgba(245, 240, 232, 0.9)",
@@ -155,12 +200,13 @@ export default function Hero() {
           SR3 Rated &middot; ISO 9001 Certified &middot; Secured by Design
         </p>
 
+        {/* Fix 9 + 19: H1 hero size */}
         <h1
           style={{
             fontFamily:
               "var(--font-display), 'Cormorant Garamond', serif",
             fontWeight: 300,
-            fontSize: "clamp(32px, 4vw, 52px)",
+            fontSize: "clamp(36px, 5vw, 64px)",
             lineHeight: 1.1,
             letterSpacing: "0.05em",
             color: "rgba(245, 240, 232, 0.92)",
@@ -184,6 +230,7 @@ export default function Hero() {
           Designed and installed nationwide
         </p>
 
+        {/* Fix 10: CTA button text 11px */}
         <Link
           href="/contact"
           className="inline-block mt-10 transition-colors duration-300 hover:bg-cream"
@@ -192,7 +239,7 @@ export default function Hero() {
             color: "#1a1a18",
             fontFamily: "var(--font-body), Montserrat, sans-serif",
             fontWeight: 400,
-            fontSize: 10,
+            fontSize: 11,
             letterSpacing: "0.25em",
             textTransform: "uppercase",
             padding: "16px 40px",
@@ -202,13 +249,13 @@ export default function Hero() {
         </Link>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Fix 10: scroll indicator 9px */}
       <div className="absolute bottom-8 right-8 md:bottom-16 md:right-16 z-20 flex flex-col items-center gap-3">
         <span
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
             fontWeight: 200,
-            fontSize: 8,
+            fontSize: 9,
             letterSpacing: "0.3em",
             textTransform: "uppercase",
             color: "rgba(245, 240, 232, 0.4)",

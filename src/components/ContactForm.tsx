@@ -5,7 +5,7 @@ import { useState, FormEvent } from "react";
 const labelStyle = {
   fontFamily: "var(--font-body), Montserrat, sans-serif",
   fontWeight: 200,
-  fontSize: 9,
+  fontSize: 10,
   letterSpacing: "0.3em",
   textTransform: "uppercase" as const,
   color: "#8a6f4e",
@@ -31,16 +31,24 @@ export default function ContactForm() {
     setStatus("sending");
 
     const formData = new FormData(e.currentTarget);
-    const data = Object.fromEntries(formData.entries());
 
     try {
-      const res = await fetch("/api/contact", {
+      // Primary: Netlify Forms
+      const netlifyRes = await fetch("/", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
       });
 
-      if (res.ok) {
+      if (netlifyRes.ok) {
+        // Backup: also send via Resend API
+        const data = Object.fromEntries(formData.entries());
+        fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        }).catch(() => {}); // fire and forget
+
         setStatus("success");
       } else {
         setStatus("error");
@@ -72,37 +80,40 @@ export default function ContactForm() {
             color: "#8a6f4e",
           }}
         >
-          Your enquiry has been received. A member of our team will be in touch
-          within 24 hours.
+          We will be in touch shortly on the number provided.
         </p>
       </div>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-6">
-      {/* Full Name */}
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      onSubmit={handleSubmit}
+      className="flex flex-col gap-6"
+    >
+      <input type="hidden" name="form-name" value="contact" />
+
       <div className="flex flex-col gap-2">
-        <label style={labelStyle}>Full Name</label>
-        <input name="name" required style={inputStyle} />
+        <label htmlFor="name" style={labelStyle}>Full Name</label>
+        <input id="name" name="name" required placeholder="Your full name" style={inputStyle} />
       </div>
 
-      {/* Phone */}
       <div className="flex flex-col gap-2">
-        <label style={labelStyle}>Phone Number</label>
-        <input name="phone" type="tel" required style={inputStyle} />
+        <label htmlFor="phone" style={labelStyle}>Phone Number</label>
+        <input id="phone" name="phone" type="tel" required placeholder="Your phone number" style={inputStyle} />
       </div>
 
-      {/* Email */}
       <div className="flex flex-col gap-2">
-        <label style={labelStyle}>Email Address</label>
-        <input name="email" type="email" required style={inputStyle} />
+        <label htmlFor="email" style={labelStyle}>Email Address</label>
+        <input id="email" name="email" type="email" required placeholder="Your email address" style={inputStyle} />
       </div>
 
-      {/* Property Type */}
       <div className="flex flex-col gap-2">
-        <label style={labelStyle}>Property Type</label>
-        <select name="propertyType" required style={inputStyle}>
+        <label htmlFor="propertyType" style={labelStyle}>Property Type</label>
+        <select id="propertyType" name="propertyType" required style={inputStyle}>
           <option value="">Select...</option>
           <option value="New Build">New Build</option>
           <option value="Period Property">Period Property</option>
@@ -111,10 +122,9 @@ export default function ContactForm() {
         </select>
       </div>
 
-      {/* Door Style */}
       <div className="flex flex-col gap-2">
-        <label style={labelStyle}>Door Style Interest</label>
-        <select name="doorStyle" required style={inputStyle}>
+        <label htmlFor="doorStyle" style={labelStyle}>Door Style Interest</label>
+        <select id="doorStyle" name="doorStyle" required style={inputStyle}>
           <option value="">Select...</option>
           <option value="Contemporary">Contemporary</option>
           <option value="Traditional">Traditional</option>
@@ -123,20 +133,17 @@ export default function ContactForm() {
         </select>
       </div>
 
-      {/* Message */}
       <div className="flex flex-col gap-2">
-        <label style={labelStyle}>Message</label>
-        <textarea name="message" rows={4} style={inputStyle} />
+        <label htmlFor="message" style={labelStyle}>Message</label>
+        <textarea id="message" name="message" rows={4} placeholder="Tell us about your project" style={inputStyle} />
       </div>
 
-      {/* Error */}
       {status === "error" && (
         <p style={{ fontSize: 13, color: "#c44" }}>
-          Something went wrong. Please try again or call us directly.
+          Something went wrong. Please call us on 0800 861 1450.
         </p>
       )}
 
-      {/* Submit */}
       <button
         type="submit"
         disabled={status === "sending"}
@@ -146,7 +153,7 @@ export default function ContactForm() {
           color: "#1a1a18",
           fontFamily: "var(--font-body), Montserrat, sans-serif",
           fontWeight: 400,
-          fontSize: 10,
+          fontSize: 11,
           letterSpacing: "0.25em",
           textTransform: "uppercase",
           padding: "16px 40px",

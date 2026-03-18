@@ -45,12 +45,12 @@ export default function ProcessPage() {
       {/* Hero */}
       <section className="relative h-[50vh] overflow-hidden">
         <Image
-          src="/images/hero/steelr-black-traditional-lion-knocker.jpg"
+          src="/images/hero/steelr-cream-panelled-glass-atrium.jpg"
           alt="SteelR bespoke door process"
           fill
           quality={100}
           className="object-cover"
-          style={{ objectPosition: "center top" }}
+          style={{ objectPosition: "center 30%" }}
           priority
           sizes="100vw"
         />
@@ -126,19 +126,19 @@ export default function ProcessPage() {
                 >
                   {stage.num}
                 </span>
-                <h2
+                <p
                   className="mb-6"
                   style={{
                     fontFamily: "var(--font-body), Montserrat, sans-serif",
                     fontWeight: 400,
-                    fontSize: 11,
+                    fontSize: 12,
                     letterSpacing: "0.2em",
                     textTransform: "uppercase",
                     color: "#c9a96e",
                   }}
                 >
                   {stage.title}
-                </h2>
+                </p>
                 <p
                   style={{
                     fontFamily: "var(--font-body), Montserrat, sans-serif",

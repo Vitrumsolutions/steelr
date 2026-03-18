@@ -162,8 +162,8 @@ export default function CollectionPage() {
       <section className="bg-cream py-12 md:py-20 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {filtered.map((img, i) => (
+            <div key={img.src} className="flex flex-col">
             <div
-              key={img.src}
               className="img-zoom relative aspect-[3/4] cursor-pointer group"
               onClick={() => openLightbox(i)}
             >
@@ -209,6 +209,35 @@ export default function CollectionPage() {
                   Enquire Now
                 </Link>
               </div>
+            </div>
+            {/* Door name + mobile enquire */}
+            <p
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 300,
+                fontSize: 11,
+                letterSpacing: "0.15em",
+                color: "#1a1a18",
+                padding: "10px 0 4px",
+              }}
+            >
+              {img.alt}
+            </p>
+            <Link
+              href="/contact"
+              className="lg:hidden"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 300,
+                fontSize: 10,
+                letterSpacing: "0.2em",
+                textTransform: "uppercase",
+                color: "#c9a96e",
+                paddingBottom: 8,
+              }}
+            >
+              Enquire Now &rarr;
+            </Link>
             </div>
           ))}
         </div>

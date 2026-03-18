@@ -77,7 +77,7 @@ export default function Home() {
               fontFamily:
                 "var(--font-display), 'Cormorant Garamond', serif",
               fontWeight: 300,
-              fontSize: "clamp(32px, 4vw, 48px)",
+              fontSize: "clamp(28px, 3.5vw, 44px)",
               color: "#1a1a18",
               lineHeight: 1.1,
             }}
@@ -170,7 +170,7 @@ export default function Home() {
                 fontFamily:
                   "var(--font-display), 'Cormorant Garamond', serif",
                 fontWeight: 300,
-                fontSize: "clamp(32px, 4vw, 48px)",
+                fontSize: "clamp(28px, 3.5vw, 44px)",
                 color: "#1a1a18",
                 lineHeight: 1.15,
               }}
@@ -223,7 +223,7 @@ export default function Home() {
       </section>
 
       {/* Section 5 — Process */}
-      <section style={{ background: "#ede8df" }} className="py-20 md:py-32 px-6 md:px-16">
+      <section style={{ background: "#ede8df" }} className="py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <h2
             className="text-center mb-16"
@@ -231,7 +231,7 @@ export default function Home() {
               fontFamily:
                 "var(--font-display), 'Cormorant Garamond', serif",
               fontWeight: 300,
-              fontSize: "clamp(32px, 4vw, 48px)",
+              fontSize: "clamp(28px, 3.5vw, 44px)",
               color: "#1a1a18",
             }}
           >
@@ -253,19 +253,19 @@ export default function Home() {
                 >
                   {step.num}
                 </span>
-                <h3
+                <p
                   className="mb-3"
                   style={{
                     fontFamily: "var(--font-body), Montserrat, sans-serif",
                     fontWeight: 400,
-                    fontSize: 11,
+                    fontSize: 12,
                     letterSpacing: "0.2em",
                     textTransform: "uppercase",
                     color: "#c9a96e",
                   }}
                 >
                   {step.title}
-                </h3>
+                </p>
                 <p
                   style={{
                     fontFamily: "var(--font-body), Montserrat, sans-serif",
@@ -284,7 +284,7 @@ export default function Home() {
       </section>
 
       {/* Section 6 — Gallery CTA Banner */}
-      <section className="bg-site-black py-20 md:py-28 px-6 md:px-16">
+      <section className="bg-site-black py-16 md:py-20 px-6 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
           <h2
             className="mb-10"
@@ -307,7 +307,7 @@ export default function Home() {
               color: "#1a1a18",
               fontFamily: "var(--font-body), Montserrat, sans-serif",
               fontWeight: 400,
-              fontSize: 10,
+              fontSize: 11,
               letterSpacing: "0.25em",
               textTransform: "uppercase",
               padding: "16px 40px",
@@ -342,7 +342,7 @@ export default function Home() {
                 fontFamily:
                   "var(--font-display), 'Cormorant Garamond', serif",
                 fontWeight: 300,
-                fontSize: "clamp(32px, 4vw, 48px)",
+                fontSize: "clamp(28px, 3.5vw, 44px)",
                 color: "#1a1a18",
                 lineHeight: 1.1,
               }}

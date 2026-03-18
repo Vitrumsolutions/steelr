@@ -10,8 +10,23 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      {/* Spacer for fixed nav */}
-      <div className="h-20" />
+      {/* Hero banner */}
+      <section
+        className="flex items-center justify-center"
+        style={{ height: 200, background: "#1a1a18", paddingTop: 80 }}
+      >
+        <h1
+          style={{
+            fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+            fontWeight: 300,
+            fontSize: 48,
+            color: "#f5f0e8",
+            textAlign: "center",
+          }}
+        >
+          Get in Touch
+        </h1>
+      </section>
 
       <section className="bg-cream py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">

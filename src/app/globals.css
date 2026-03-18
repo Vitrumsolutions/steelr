@@ -33,7 +33,7 @@ body {
     transform-origin: center center;
   }
   100% {
-    transform: scale(1.12);
+    transform: scale(1.10);
     transform-origin: center center;
   }
 }
