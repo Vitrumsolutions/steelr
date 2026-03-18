@@ -97,6 +97,41 @@ textarea:focus {
   border-color: #c9a96e !important;
 }
 
+/* Gold ribbon background effect */
+.ribbon-bg {
+  position: relative;
+  overflow: hidden;
+}
+.ribbon-bg::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -10%;
+  width: 120%;
+  height: 140%;
+  background: linear-gradient(
+    135deg,
+    transparent 0%,
+    transparent 35%,
+    rgba(201, 169, 110, 0.04) 38%,
+    rgba(201, 169, 110, 0.07) 42%,
+    rgba(201, 169, 110, 0.04) 46%,
+    transparent 49%,
+    transparent 55%,
+    rgba(201, 169, 110, 0.03) 58%,
+    rgba(201, 169, 110, 0.06) 62%,
+    rgba(201, 169, 110, 0.03) 66%,
+    transparent 69%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+.ribbon-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;

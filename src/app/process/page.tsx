@@ -45,7 +45,7 @@ export default function ProcessPage() {
       {/* Hero */}
       <section className="relative h-[50vh] overflow-hidden">
         <Image
-          src="/images/hero/steelr-cream-panelled-glass-atrium.jpg"
+          src="/images/gallery/steelr-black-traditional-wide-frosted.jpg"
           alt="SteelR bespoke door process"
           fill
           quality={100}

@@ -96,7 +96,7 @@ export default function CollectionPage() {
       {/* Hero banner */}
       <section className="relative h-[50vh] overflow-hidden">
         <Image
-          src="/images/hero/steelr-black-ornate-checkerboard.jpg"
+          src="/images/gallery/steelr-black-panelled-sidelights-palms.jpg"
           alt="SteelR door collection hero"
           fill
           quality={100}

@@ -25,7 +25,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="/images/hero/steelr-navy-panelled-lanterns.jpg"
+          src="/images/hero/steelr-black-ornate-medallion-stone.jpg"
           alt="Grand entrance with SteelR bespoke steel door"
           fill
           quality={100}

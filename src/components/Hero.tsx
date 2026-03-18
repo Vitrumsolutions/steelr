@@ -7,47 +7,47 @@ const heroImages = [
   {
     src: "/images/hero/steelr-black-ornate-checkerboard.jpg",
     alt: "Black ornate steel entrance door with checkerboard step",
-    origin: "center 40%",
+    origin: "center 45%",
   },
   {
     src: "/images/hero/steelr-navy-panelled-lanterns.jpg",
     alt: "Navy blue panelled entrance door with lanterns and stone steps",
-    origin: "center 35%",
+    origin: "center 50%",
   },
   {
     src: "/images/hero/steelr-black-traditional-lion-knocker.jpg",
     alt: "Black traditional steel door with lion knocker and gold hardware",
-    origin: "center 40%",
+    origin: "40% 45%",
   },
   {
     src: "/images/hero/steelr-navy-traditional-vine-porch.jpg",
     alt: "Navy traditional steel door with vine-covered porch",
-    origin: "center 35%",
+    origin: "center 40%",
   },
   {
     src: "/images/hero/steelr-black-contemporary-sidelight.jpg",
     alt: "Black contemporary steel entrance door with sidelight",
-    origin: "center 40%",
+    origin: "center 45%",
   },
   {
     src: "/images/hero/steelr-black-ornate-checkerboard-canopy-wide.jpg",
     alt: "Black ornate steel door with checkerboard step and canopy wide view",
-    origin: "center 35%",
+    origin: "center 45%",
   },
   {
     src: "/images/hero/steelr-black-ornate-medallion-stone.jpg",
     alt: "Black ornate steel door with medallion on stone entrance",
-    origin: "center 40%",
+    origin: "center 48%",
   },
   {
     src: "/images/hero/steelr-cream-panelled-glass-atrium.jpg",
     alt: "Cream panelled steel door with glass atrium entrance",
-    origin: "center 30%",
+    origin: "center 55%",
   },
   {
     src: "/images/hero/steelr-navy-panelled-chrome-frosted.jpg",
     alt: "Navy panelled steel door with chrome hardware and frosted glass",
-    origin: "center 35%",
+    origin: "center 50%",
   },
 ];
 
