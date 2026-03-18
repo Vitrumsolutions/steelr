@@ -8,8 +8,8 @@ interface LogoProps {
 
 const sizeConfig = {
   nav: {
-    fontSize: 24,
-    pipeHeight: 28,
+    fontSize: 22,
+    pipeHeight: 26,
     taglineSize: 7,
     taglineSpacing: "0.2em",
     taglineOpacity: 0.7,

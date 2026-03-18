@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Logo from "./Logo";
 
 const heroImages = [
   {
@@ -27,16 +28,33 @@ const heroImages = [
   },
 ];
 
+// Total cycle: 8s per image
+// Image displays: 5s → logo fades in 0.5s → logo holds 1s → logo fades out 0.5s → next image crossfades 1s
+const CYCLE_DURATION = 8000;
+const LOGO_FADE_IN_START = 5000;
+// Logo visible for 2s total: 0.5s fade in + 1s hold + 0.5s fade out
+
 export default function Hero() {
   const [current, setCurrent] = useState(0);
   const [previous, setPrevious] = useState<number | null>(null);
+  const [showLogo, setShowLogo] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setPrevious(current);
       setCurrent((prev) => (prev + 1) % heroImages.length);
-    }, 6000);
-    return () => clearInterval(timer);
+      setShowLogo(false);
+    }, CYCLE_DURATION);
+
+    // Show logo before transition
+    const logoTimer = setTimeout(() => {
+      setShowLogo(true);
+    }, LOGO_FADE_IN_START);
+
+    return () => {
+      clearInterval(timer);
+      clearTimeout(logoTimer);
+    };
   }, [current]);
 
   useEffect(() => {
@@ -59,7 +77,7 @@ export default function Hero() {
             className="absolute inset-0"
             style={{
               opacity: isActive ? 1 : 0,
-              transition: "opacity 1.5s ease-in-out",
+              transition: "opacity 1s ease-in-out",
               zIndex: isActive ? 2 : isPrevious ? 1 : 0,
             }}
           >
@@ -72,7 +90,7 @@ export default function Hero() {
               style={{
                 transformOrigin: "center center",
                 animation: isVisible
-                  ? "kenburns 6s ease-out forwards"
+                  ? "kenburns 8s ease-out forwards"
                   : "none",
                 transform: isVisible ? undefined : "scale(1)",
               }}
@@ -82,6 +100,17 @@ export default function Hero() {
           </div>
         );
       })}
+
+      {/* Logo flash between transitions */}
+      <div
+        className="absolute inset-0 z-[8] flex items-center justify-center pointer-events-none"
+        style={{
+          opacity: showLogo ? 1 : 0,
+          transition: "opacity 0.5s ease-in-out",
+        }}
+      >
+        <Logo variant="stacked" theme="light" size="standard" />
+      </div>
 
       {/* Gradient overlay */}
       <div
@@ -98,11 +127,12 @@ export default function Hero() {
           className="mb-5"
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
-            fontWeight: 200,
+            fontWeight: 300,
             fontSize: 9,
-            letterSpacing: "0.3em",
+            letterSpacing: "0.35em",
             textTransform: "uppercase",
-            color: "rgba(245, 240, 232, 0.5)",
+            color: "rgba(245, 240, 232, 0.85)",
+            textShadow: "0 1px 6px rgba(0, 0, 0, 0.5)",
           }}
         >
           SR3 Rated &middot; ISO 9001 Certified &middot; Secured by Design
@@ -113,9 +143,10 @@ export default function Hero() {
             fontFamily:
               "var(--font-display), 'Cormorant Garamond', serif",
             fontWeight: 300,
-            fontSize: "clamp(48px, 7vw, 96px)",
-            lineHeight: 1.0,
-            color: "#f5f0e8",
+            fontSize: "clamp(28px, 3.5vw, 48px)",
+            lineHeight: 1.1,
+            letterSpacing: "0.05em",
+            color: "rgba(245, 240, 232, 0.92)",
           }}
         >
           Bespoke Steel
