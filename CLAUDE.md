@@ -127,7 +127,29 @@ Orientation is noted so code can handle layout correctly.
 - Landscape files: `steelr-black-ornate-medallion-stone.jpg`, `steelr-navy-panelled-chrome-frosted.jpg`, `steelr-black-panelled-sidelights-palms.jpg`, `steelr-black-traditional-columns-mansion.jpg`, `steelr-black-traditional-wide-frosted.jpg`
 
 ## Tech Stack
-_To be confirmed — update this section once decided._
+- **Framework:** Next.js 14 App Router with TypeScript
+- **Styling:** Tailwind CSS with custom colour tokens in tailwind.config.ts
+- **Fonts:** Cormorant Garamond (display), Montserrat (body), Tenor Sans (captions) — Google Fonts
+- **Hosting:** Netlify (auto-deploy from GitHub on push to main)
+- **Forms:** Netlify Forms with static detection file at `public/form.html`
+- **Domain:** steelr.co.uk (Fasthosts) → DNS points to Netlify
+- **Repo:** github.com/Vitrumsolutions/steelr
+
+## Build & Deploy
+- `npm run dev` — local dev server on port 3000
+- `npm run build` — production build
+- Push to `main` branch triggers Netlify auto-deploy
+- `.next` cache corruption: if styles break, run `rm -rf .next && npm run build`
+- Dev server launch config in `.claude/launch.json` (name: steelr-dev)
+
+## Gotchas
+- **Never run `npm run build` while dev server is running** — corrupts .next cache, breaks all CSS
+- **Netlify Forms + Next.js SSR:** Netlify can't detect forms in SSR output. Must have `public/form.html` with matching field names for form detection
+- **Netlify Forms:** Must enable "Form detection" in Netlify dashboard before forms work
+- **Hero images:** Only landscape images work in full-screen hero. Portrait images get cropped badly. Current hero uses 5 landscape images from gallery/
+- **Chrome extension screenshots** cannot capture CSS animations (Ken Burns, opacity transitions) — images appear blank in screenshots but render correctly in browser
+- **Image object-position:** Each hero image needs custom objectPosition to centre on the door. Values are per-image in Hero.tsx
+- **Hero animation timing:** CYCLE_DURATION=12000, LOGO_FADE_IN_START=8000, kenburns 12s, crossfade 2s
 
 ## Notes
 - The pipe in the logo must always be a CSS element, never a `|` character
