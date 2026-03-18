@@ -29,6 +29,17 @@ export const metadata: Metadata = {
   title: "SteelR | Bespoke Steel Entrance Doors | Nationwide UK",
   description:
     "Bespoke steel entrance doors designed and installed nationwide. SR3 rated, ISO 9001 certified, Secured by Design approved. Request a free consultation today.",
+  icons: {
+    icon: "/favicon.svg",
+  },
+  metadataBase: new URL("https://steelr.co.uk"),
+  openGraph: {
+    title: "SteelR | Bespoke Steel Entrance Doors",
+    description: "Bespoke steel entrance doors designed and installed nationwide. SR3 rated, ISO 9001 certified.",
+    url: "https://steelr.co.uk",
+    siteName: "SteelR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

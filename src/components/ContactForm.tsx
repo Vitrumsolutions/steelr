@@ -4,17 +4,17 @@ import { useState, FormEvent } from "react";
 
 const labelStyle = {
   fontFamily: "var(--font-body), Montserrat, sans-serif",
-  fontWeight: 200,
-  fontSize: 10,
+  fontWeight: 300,
+  fontSize: 11,
   letterSpacing: "0.3em",
   textTransform: "uppercase" as const,
-  color: "#8a6f4e",
+  color: "#6b5a42",
 };
 
 const inputStyle = {
   fontFamily: "var(--font-body), Montserrat, sans-serif",
-  fontWeight: 200,
-  fontSize: 13,
+  fontWeight: 300,
+  fontSize: 14,
   color: "#1a1a18",
   background: "transparent",
   border: "1px solid rgba(26, 26, 24, 0.15)",
@@ -30,14 +30,14 @@ export default function ContactForm() {
     e.preventDefault();
     setStatus("sending");
 
-    const formData = new FormData(e.currentTarget);
-    const data = Object.fromEntries(formData.entries());
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("/", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
       });
 
       if (res.ok) {
@@ -66,10 +66,10 @@ export default function ContactForm() {
         <p
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
-            fontWeight: 200,
+            fontWeight: 300,
             fontSize: 14,
             lineHeight: 1.8,
-            color: "#8a6f4e",
+            color: "#6b5a42",
           }}
         >
           We will be in touch shortly on the number provided.
@@ -80,9 +80,19 @@ export default function ContactForm() {
 
   return (
     <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
       className="flex flex-col gap-6"
     >
+      <input type="hidden" name="form-name" value="contact" />
+      <p className="hidden">
+        <label>
+          Do not fill this out: <input name="bot-field" />
+        </label>
+      </p>
 
       <div className="flex flex-col gap-2">
         <label htmlFor="name" style={labelStyle}>Full Name</label>
