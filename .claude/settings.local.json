@@ -41,7 +41,12 @@
       "Bash(python3 -c \":*)",
       "Bash(python -c \":*)",
       "Bash(ipconfig)",
-      "Bash(npx next:*)"
+      "Bash(npx next:*)",
+      "mcp__2420f6ab-8df1-4cc3-ab72-26e9eda3be26__check_domain_availability_and_price",
+      "mcp__perplexity__perplexity_ask",
+      "mcp__firecrawl__firecrawl_scrape",
+      "WebSearch",
+      "Bash(npx netlify-cli:*)"
     ]
   }
 }
