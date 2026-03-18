@@ -5,17 +5,21 @@ export const metadata: Metadata = {
   title: "Request a Consultation | SteelR",
   description:
     "Request a consultation for your bespoke steel entrance door. Call 0800 861 1450 or complete our online enquiry form. Nationwide UK coverage.",
+  alternates: {
+    canonical: "https://steelr.co.uk/contact",
+  },
 };
 
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://steelr.co.uk"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://steelr.co.uk/contact"}]}) }} />
       {/* Hero banner */}
       <section
         className="flex items-center justify-center"
         style={{ height: 200, background: "#1a1a18", paddingTop: 80 }}
       >
-        <h1
+        <p
           style={{
             fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
             fontWeight: 300,
@@ -25,7 +29,7 @@ export default function ContactPage() {
           }}
         >
           Get in Touch
-        </h1>
+        </p>
       </section>
 
       <section className="ribbon-bg bg-cream py-20 md:py-32 px-6 md:px-16">
@@ -56,7 +60,7 @@ export default function ContactPage() {
                 lineHeight: 1.1,
               }}
             >
-              Begin your enquiry
+              Request a Bespoke Steel Door Consultation
             </h1>
             <a
               href="tel:08008611450"

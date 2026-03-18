@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "About SteelR | UK Manufactured Bespoke Steel Doors",
   description:
     "SteelR manufacture and install bespoke steel entrance doors across the UK. SR3 rated, fire rated, ISO 9001 certified. Every door made to order.",
+  alternates: {
+    canonical: "https://steelr.co.uk/about",
+  },
 };
 
 const credentials = [
@@ -22,6 +25,7 @@ const credentials = [
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://steelr.co.uk"},{"@type":"ListItem","position":2,"name":"About","item":"https://steelr.co.uk/about"}]}) }} />
       {/* Page banner — branded dark design */}
       <section
         className="relative flex items-center justify-center overflow-hidden"
@@ -31,7 +35,7 @@ export default function AboutPage() {
           background: "linear-gradient(135deg, transparent 40%, rgba(201,169,110,0.06) 50%, transparent 60%)",
         }} />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16" style={{ height: 1, background: "rgba(201,169,110,0.3)" }} />
-        <h1
+        <p
           style={{
             fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
             fontWeight: 300,
@@ -42,7 +46,7 @@ export default function AboutPage() {
           }}
         >
           About
-        </h1>
+        </p>
       </section>
 
       {/* Brand statement */}

@@ -46,7 +46,17 @@
       "mcp__perplexity__perplexity_ask",
       "mcp__firecrawl__firecrawl_scrape",
       "WebSearch",
-      "Bash(npx netlify-cli:*)"
+      "Bash(npx netlify-cli:*)",
+      "Skill(claude-md-management:revise-claude-md)",
+      "Skill(claude-md-management:revise-claude-md:*)",
+      "Bash(curl -s https://steelr.co.uk/sitemap.xml)",
+      "Bash(curl -s https://steelr.co.uk/robots.txt)",
+      "mcp__2420f6ab-8df1-4cc3-ab72-26e9eda3be26__deploy_to_vercel",
+      "Bash(npx vercel:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://steelr.vercel.app)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://steelr.co.uk)",
+      "Bash(curl -s https://steelr.vercel.app/robots.txt)",
+      "Bash(curl -s https://steelr.vercel.app/sitemap.xml)"
     ]
   }
 }

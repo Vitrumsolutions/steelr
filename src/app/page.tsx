@@ -54,6 +54,7 @@ export default function Home() {
     <>
       {/* Section 1 — Hero */}
       <Hero />
+      <h1 className="sr-only">Bespoke Steel Entrance Doors | Designed and Installed Nationwide</h1>
 
       {/* Section 2 — Collection Teaser */}
       <section style={{ background: "#f5f0e8" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">
@@ -317,6 +318,59 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      {/* Section 6.5 — FAQ */}
+      <section className="bg-cream ribbon-bg py-20 md:py-32 px-6 md:px-16">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-center mb-16" style={{
+            fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+            fontWeight: 300,
+            fontSize: "clamp(28px, 3.5vw, 44px)",
+            color: "#1a1a18",
+          }}>
+            Frequently Asked Questions
+          </h2>
+          {[
+            { q: "What is an SR3 security rating?", a: "SR3 is the highest level of physical security testing for entrance doors under European standards. It means the door has been tested to withstand sustained, forced attack using heavy tools for an extended period." },
+            { q: "Do you install nationwide?", a: "Yes. We design, manufacture and install bespoke steel entrance doors across the entire United Kingdom. Our survey team will visit your property wherever you are located." },
+            { q: "How long does the process take?", a: "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes survey, design approval and manufacture." },
+            { q: "Can I choose any colour and finish?", a: "Every SteelR door is fully bespoke. You can choose from any RAL colour, a range of hardware finishes, glazing options, panel styles and decorative elements." },
+            { q: "Are your doors fire rated?", a: "Yes. Our steel entrance doors are manufactured from fire rated steel and can be specified to meet fire safety requirements for residential properties." },
+          ].map((faq, i) => (
+            <div key={i} className="border-b py-8" style={{ borderColor: "rgba(201,169,110,0.15)" }}>
+              <h3 style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 15,
+                color: "#1a1a18",
+                marginBottom: 8,
+              }}>
+                {faq.q}
+              </h3>
+              <p style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 300,
+                fontSize: 14,
+                lineHeight: 1.8,
+                color: "#6b5a42",
+              }}>
+                {faq.a}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "What is an SR3 security rating?", "acceptedAnswer": {"@type": "Answer", "text": "SR3 is the highest level of physical security testing for entrance doors under European standards. It means the door has been tested to withstand sustained, forced attack using heavy tools for an extended period."}},
+          {"@type": "Question", "name": "Do you install nationwide?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We design, manufacture and install bespoke steel entrance doors across the entire United Kingdom. Our survey team will visit your property wherever you are located."}},
+          {"@type": "Question", "name": "How long does the process take?", "acceptedAnswer": {"@type": "Answer", "text": "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes survey, design approval and manufacture."}},
+          {"@type": "Question", "name": "Can I choose any colour and finish?", "acceptedAnswer": {"@type": "Answer", "text": "Every SteelR door is fully bespoke. You can choose from any RAL colour, a range of hardware finishes, glazing options, panel styles and decorative elements."}},
+          {"@type": "Question", "name": "Are your doors fire rated?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our steel entrance doors are manufactured from fire rated steel and can be specified to meet fire safety requirements for residential properties."}}
+        ]
+      }) }} />
 
       {/* Section 7 — Contact */}
       <section style={{ background: "linear-gradient(180deg, #ede8df 0%, #f5f0e8 100%)" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">

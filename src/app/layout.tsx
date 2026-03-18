@@ -40,6 +40,14 @@ export const metadata: Metadata = {
     siteName: "SteelR",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "SteelR | Bespoke Steel Entrance Doors",
+    description: "Bespoke steel entrance doors designed and installed nationwide. SR3 rated, ISO 9001 certified.",
+  },
+  alternates: {
+    canonical: "https://steelr.co.uk",
+  },
 };
 
 export default function RootLayout({
@@ -55,14 +63,40 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              name: "SteelR",
-              telephone: "0800 861 1450",
-              email: "info@steelr.co.uk",
-              url: "https://steelr.co.uk",
-              areaServed: "United Kingdom",
-              description:
-                "Bespoke steel entrance doors manufactured and installed nationwide",
+              "@type": "HomeAndConstructionBusiness",
+              "name": "SteelR",
+              "alternateName": "SteelR Bespoke Entrance Doors",
+              "telephone": "0800 861 1450",
+              "email": "info@steelr.co.uk",
+              "url": "https://steelr.co.uk",
+              "logo": "https://steelr.co.uk/favicon.svg",
+              "image": "https://steelr.co.uk/images/hero/steelr-black-ornate-medallion-stone.jpg",
+              "description": "Bespoke steel entrance doors manufactured and installed nationwide across the United Kingdom. SR3 rated, ISO 9001 certified, Secured by Design approved.",
+              "areaServed": {
+                "@type": "Country",
+                "name": "United Kingdom"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "GB"
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              "priceRange": "$$$$",
+              "knowsAbout": ["Steel entrance doors", "Bespoke doors", "Security doors", "SR3 rated doors", "Fire rated doors"],
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Bespoke Steel Entrance Doors",
+                "itemListElement": [
+                  {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Contemporary Steel Entrance Door"}},
+                  {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Traditional Steel Entrance Door"}},
+                  {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Double Steel Entrance Doors"}}
+                ]
+              }
             }),
           }}
         />

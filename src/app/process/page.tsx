@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Our Process | From Enquiry to Installation | SteelR",
   description:
     "From initial enquiry to professional installation. Our bespoke steel door process explained. Nationwide coverage, 8 to 12 week lead time.",
+  alternates: {
+    canonical: "https://steelr.co.uk/process",
+  },
 };
 
 const stages = [
@@ -42,6 +45,8 @@ const stages = [
 export default function ProcessPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://steelr.co.uk"},{"@type":"ListItem","position":2,"name":"Process","item":"https://steelr.co.uk/process"}]}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"HowTo","name":"How to Get a Bespoke Steel Entrance Door Installed","description":"Our four-step process from initial enquiry to professional installation of your bespoke steel entrance door.","totalTime":"P12W","step":[{"@type":"HowToStep","position":1,"name":"Enquiry","text":"Get in touch by phone or online form. We discuss your property, your brief and your timeline."},{"@type":"HowToStep","position":2,"name":"Survey","text":"We visit your property nationwide. Full measurements, structural assessment and detailed specification agreed on site."},{"@type":"HowToStep","position":3,"name":"Design","text":"Your door is designed to your exact specification. Colour, hardware, glazing, panel style, finish. Every detail confirmed before manufacture begins."},{"@type":"HowToStep","position":4,"name":"Installation","text":"Professional installation by our team. Typically 8 to 12 weeks from enquiry to installation. Full aftercare and warranty included."}]}) }} />
       {/* Page banner — branded dark design */}
       <section
         className="relative flex items-center justify-center overflow-hidden"
@@ -51,7 +56,7 @@ export default function ProcessPage() {
           background: "linear-gradient(135deg, transparent 40%, rgba(201,169,110,0.06) 50%, transparent 60%)",
         }} />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16" style={{ height: 1, background: "rgba(201,169,110,0.3)" }} />
-        <h1
+        <p
           style={{
             fontFamily:
               "var(--font-display), 'Cormorant Garamond', serif",
@@ -63,8 +68,10 @@ export default function ProcessPage() {
           }}
         >
           Our Process
-        </h1>
+        </p>
       </section>
+
+      <h1 className="sr-only">How We Design &amp; Install Your Bespoke Steel Door</h1>
 
       {/* Process stages — clean alternating layout */}
       {stages.map((stage, i) => {
@@ -113,7 +120,7 @@ export default function ProcessPage() {
                 >
                   {stage.num}
                 </span>
-                <p
+                <h2
                   className="mb-5"
                   style={{
                     fontFamily: "var(--font-body), Montserrat, sans-serif",
@@ -125,7 +132,7 @@ export default function ProcessPage() {
                   }}
                 >
                   {stage.title}
-                </p>
+                </h2>
                 <p
                   style={{
                     fontFamily: "var(--font-body), Montserrat, sans-serif",

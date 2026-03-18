@@ -103,7 +103,7 @@ export default function CollectionPage() {
           background: "linear-gradient(135deg, transparent 40%, rgba(201,169,110,0.06) 50%, transparent 60%)",
         }} />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16" style={{ height: 1, background: "rgba(201,169,110,0.3)" }} />
-        <h1
+        <p
           style={{
             fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
             fontWeight: 300,
@@ -114,7 +114,7 @@ export default function CollectionPage() {
           }}
         >
           The Collection
-        </h1>
+        </p>
       </section>
 
       {/* Filter bar */}
@@ -151,6 +151,12 @@ export default function CollectionPage() {
 
       {/* Gallery grid */}
       <section className="bg-cream py-12 md:py-20 px-6 md:px-16">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="sr-only">Bespoke Steel Entrance Door Collection</h1>
+          <p style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontWeight: 300, fontSize: 15, lineHeight: 1.8, color: "#6b5a42", maxWidth: 640, marginBottom: 32 }}>
+            Browse our full collection of bespoke steel entrance doors. Each door is manufactured to SR3 security standards and available in contemporary, traditional and double door configurations. Every design is fully customisable to your specification.
+          </p>
+        </div>
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {filtered.map((img, i) => (
             <div key={img.src} className="flex flex-col">
