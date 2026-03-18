@@ -25,11 +25,12 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="/images/hero/steelr-hero-02.jpg"
+          src="/images/hero/steelr-navy-panelled-lanterns.jpg"
           alt="Grand entrance with SteelR bespoke steel door"
           fill
           quality={100}
           className="object-cover"
+          style={{ objectPosition: "center top" }}
           priority
           sizes="100vw"
         />
@@ -137,41 +138,41 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           <div className="relative aspect-[4/3]">
             <Image
-              src="/images/detail/steelr-detail-01.jpg"
+              src="/images/detail/steelr-navy-panelled-chrome-ring-closeup.jpg"
               alt="Close-up of steel door bolt locking mechanism"
               fill
               quality={100}
-              className="object-cover rounded-[4px]"
+              className="object-cover rounded-[4px]" style={{ objectPosition: "center top" }}
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
           </div>
           <div className="relative aspect-[4/3]">
             <Image
-              src="/images/detail/steelr-detail-02.jpg"
+              src="/images/detail/steelr-black-panelled-brass-lion-closeup.jpg"
               alt="Open steel entrance door showing door thickness and interior"
               fill
               quality={100}
-              className="object-cover rounded-[4px]"
+              className="object-cover rounded-[4px]" style={{ objectPosition: "center top" }}
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
           </div>
           <div className="relative aspect-[4/3]">
             <Image
-              src="/images/detail/steelr-detail-03.jpg"
+              src="/images/detail/steelr-grey-panelled-chrome-multilock.jpg"
               alt="Luxury interior hallway through steel entrance door"
               fill
               quality={100}
-              className="object-cover rounded-[4px]"
+              className="object-cover rounded-[4px]" style={{ objectPosition: "center top" }}
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
           </div>
           <div className="relative aspect-[4/3]">
             <Image
-              src="/images/detail/steelr-detail-04.jpeg"
+              src="/images/detail/steelr-grey-panelled-brass-handle-closeup.jpeg"
               alt="Steel entrance door detail craftsmanship close-up"
               fill
               quality={100}
-              className="object-cover rounded-[4px]"
+              className="object-cover rounded-[4px]" style={{ objectPosition: "center top" }}
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
           </div>

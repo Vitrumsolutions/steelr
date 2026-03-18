@@ -7,32 +7,32 @@ import Logo from "./Logo";
 
 const heroImages = [
   {
-    src: "/images/hero/steelr-hero-01.jpg",
-    alt: "Black steel entrance door with circular motif and checkerboard step",
+    src: "/images/hero/steelr-black-ornate-checkerboard.jpg",
+    alt: "Black ornate steel entrance door with checkerboard step",
   },
   {
-    src: "/images/hero/steelr-hero-02.jpg",
+    src: "/images/hero/steelr-navy-panelled-lanterns.jpg",
     alt: "Navy blue panelled entrance door with lanterns and stone steps",
   },
   {
-    src: "/images/hero/steelr-hero-03.jpg",
-    alt: "Black steel door with lion knocker and gold hardware",
+    src: "/images/hero/steelr-black-traditional-lion-knocker.jpg",
+    alt: "Black traditional steel door with lion knocker and gold hardware",
   },
   {
-    src: "/images/hero/steelr-hero-04.jpg",
-    alt: "Champagne ribbed double steel entrance doors",
+    src: "/images/hero/steelr-navy-traditional-vine-porch.jpg",
+    alt: "Navy traditional steel door with vine-covered porch",
   },
   {
-    src: "/images/hero/steelr-hero-05.jpg",
-    alt: "Bespoke steel entrance door on styled property exterior",
+    src: "/images/hero/steelr-black-contemporary-sidelight.jpg",
+    alt: "Black contemporary steel entrance door with sidelight",
   },
 ];
 
 // Total cycle: 8s per image
 // Image displays: 5s → logo fades in 0.5s → logo holds 1s → logo fades out 0.5s → next image crossfades 1s
 const CYCLE_DURATION = 8000;
-const LOGO_FADE_IN_START = 5000;
-// Logo visible for 2s total: 0.5s fade in + 1s hold + 0.5s fade out
+const LOGO_FADE_IN_START = 5300;
+// Logo visible for 2.7s total: 0.6s fade in + 1.5s hold + 0.6s fade out
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
@@ -88,6 +88,7 @@ export default function Hero() {
               quality={100}
               className="object-cover"
               style={{
+                objectPosition: "center top",
                 transformOrigin: "center center",
                 animation: isVisible
                   ? "kenburns 8s ease-out forwards"
@@ -106,10 +107,10 @@ export default function Hero() {
         className="absolute inset-0 z-[8] flex items-center justify-center pointer-events-none"
         style={{
           opacity: showLogo ? 1 : 0,
-          transition: "opacity 0.5s ease-in-out",
+          transition: "opacity 0.6s ease-in-out",
         }}
       >
-        <Logo variant="stacked" theme="light" size="standard" />
+        <Logo variant="stacked" theme="light" size="hero" />
       </div>
 
       {/* Gradient overlay */}
@@ -131,8 +132,8 @@ export default function Hero() {
             fontSize: 9,
             letterSpacing: "0.35em",
             textTransform: "uppercase",
-            color: "rgba(245, 240, 232, 0.85)",
-            textShadow: "0 1px 6px rgba(0, 0, 0, 0.5)",
+            color: "rgba(245, 240, 232, 0.9)",
+            textShadow: "0 1px 8px rgba(0, 0, 0, 0.6)",
           }}
         >
           SR3 Rated &middot; ISO 9001 Certified &middot; Secured by Design
@@ -143,7 +144,7 @@ export default function Hero() {
             fontFamily:
               "var(--font-display), 'Cormorant Garamond', serif",
             fontWeight: 300,
-            fontSize: "clamp(28px, 3.5vw, 48px)",
+            fontSize: "clamp(32px, 4vw, 52px)",
             lineHeight: 1.1,
             letterSpacing: "0.05em",
             color: "rgba(245, 240, 232, 0.92)",

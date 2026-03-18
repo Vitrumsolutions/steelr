@@ -13,28 +13,28 @@ const stages = [
     num: "01",
     title: "Enquiry",
     text: "Get in touch by phone or online form. We discuss your property, your brief and your timeline. No obligation, no pressure.",
-    image: "/images/gallery/steelr-gallery-01.jpg",
+    image: "/images/gallery/steelr-black-panelled-double-letterbox.jpg",
     alt: "Steel door enquiry consultation",
   },
   {
     num: "02",
     title: "Survey",
     text: "We visit your property nationwide. Full measurements, structural assessment and detailed specification agreed on site.",
-    image: "/images/gallery/steelr-gallery-06.jpg",
+    image: "/images/gallery/steelr-black-contemporary-dual-sidelights.jpg",
     alt: "Property survey for bespoke steel door fitting",
   },
   {
     num: "03",
     title: "Design",
     text: "Your door is designed to your exact specification. Colour, hardware, glazing, panel style, finish. Every detail confirmed before manufacture begins.",
-    image: "/images/gallery/steelr-gallery-04.jpg",
+    image: "/images/gallery/steelr-navy-traditional-vine-porch.jpg",
     alt: "Bespoke steel door design specification",
   },
   {
     num: "04",
     title: "Installation",
     text: "Professional installation by our team. Typically 8 to 12 weeks from enquiry to installation. Full aftercare and warranty included.",
-    image: "/images/gallery/steelr-gallery-05.jpg",
+    image: "/images/gallery/steelr-navy-panelled-chrome-palms.jpg",
     alt: "Professional steel door installation",
   },
 ];
@@ -45,11 +45,12 @@ export default function ProcessPage() {
       {/* Hero */}
       <section className="relative h-[50vh] overflow-hidden">
         <Image
-          src="/images/hero/steelr-hero-03.jpg"
+          src="/images/hero/steelr-black-traditional-lion-knocker.jpg"
           alt="SteelR bespoke door process"
           fill
           quality={100}
           className="object-cover"
+          style={{ objectPosition: "center top" }}
           priority
           sizes="100vw"
         />
@@ -101,6 +102,7 @@ export default function ProcessPage() {
                   fill
                   quality={100}
                   className="object-cover rounded-[4px]"
+                  style={{ objectPosition: "center top" }}
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>

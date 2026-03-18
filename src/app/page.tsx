@@ -5,16 +5,16 @@ import ContactForm from "@/components/ContactForm";
 
 const galleryPreview = [
   {
-    src: "/images/gallery/steelr-gallery-01.jpg",
-    alt: "Circular window steel door with checkerboard path",
+    src: "/images/gallery/steelr-black-panelled-double-letterbox.jpg",
+    alt: "Black panelled double steel door with letterbox",
   },
   {
-    src: "/images/gallery/steelr-gallery-02.jpg",
-    alt: "Teal steel entrance door with interior hallway view",
+    src: "/images/gallery/steelr-black-traditional-lion-knocker-open.jpg",
+    alt: "Black traditional steel door with lion knocker open view",
   },
   {
-    src: "/images/gallery/steelr-gallery-03.jpg",
-    alt: "Cobalt blue steel door open to interior",
+    src: "/images/gallery/steelr-teal-panelled-glass-hallway.jpg",
+    alt: "Teal panelled steel door with glass hallway view",
   },
 ];
 
@@ -56,7 +56,7 @@ export default function Home() {
       <Hero />
 
       {/* Section 2 — Collection Teaser */}
-      <section className="bg-cream py-20 md:py-32 px-6 md:px-16">
+      <section style={{ background: "#f5f0e8" }} className="py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <p
             className="mb-4"
@@ -95,6 +95,7 @@ export default function Home() {
                   height={800}
                   quality={100}
                   className="w-full h-full object-cover rounded-[4px]"
+                  style={{ objectPosition: "center top" }}
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
@@ -147,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* Section 4 — Statement */}
-      <section className="bg-cream py-24 md:py-40 px-6 md:px-16">
+      <section style={{ background: "linear-gradient(180deg, #f5f0e8 0%, #ede8df 100%)" }} className="py-24 md:py-40 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
           <div>
             <p
@@ -209,11 +210,12 @@ export default function Home() {
           </div>
           <div className="relative aspect-[3/4] lg:aspect-auto">
             <Image
-              src="/images/gallery/steelr-gallery-04.jpg"
-              alt="Ribbed champagne double steel entrance doors"
+              src="/images/gallery/steelr-navy-traditional-vine-porch.jpg"
+              alt="Navy traditional steel door with vine-covered porch"
               fill
               quality={100}
               className="object-cover"
+              style={{ objectPosition: "center top" }}
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
@@ -221,7 +223,7 @@ export default function Home() {
       </section>
 
       {/* Section 5 — Process */}
-      <section className="bg-cream py-20 md:py-32 px-6 md:px-16">
+      <section style={{ background: "#ede8df" }} className="py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <h2
             className="text-center mb-16"
@@ -317,7 +319,7 @@ export default function Home() {
       </section>
 
       {/* Section 7 — Contact */}
-      <section className="bg-cream py-20 md:py-32 px-6 md:px-16">
+      <section style={{ background: "linear-gradient(180deg, #ede8df 0%, #f5f0e8 100%)" }} className="py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left — info */}
           <div>

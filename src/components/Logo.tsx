@@ -8,25 +8,37 @@ interface LogoProps {
 
 const sizeConfig = {
   nav: {
-    fontSize: 22,
-    pipeHeight: 26,
-    taglineSize: 7,
-    taglineSpacing: "0.2em",
+    fontSize: 32,
+    pipeWidth: 2,
+    pipeHeight: 38,
+    pipeMargin: "0 4px",
+    letterSpacing: "-0.02em",
+    taglineSize: 8,
+    taglineSpacing: "0.25em",
     taglineOpacity: 0.7,
+    taglineMarginTop: 0,
   },
   standard: {
     fontSize: 48,
-    pipeHeight: 52,
-    taglineSize: 7,
-    taglineSpacing: "0.2em",
-    taglineOpacity: 0.6,
+    pipeWidth: 2,
+    pipeHeight: 56,
+    pipeMargin: "0 4px",
+    letterSpacing: "-0.02em",
+    taglineSize: 9,
+    taglineSpacing: "0.35em",
+    taglineOpacity: 0.7,
+    taglineMarginTop: 10,
   },
   hero: {
     fontSize: 72,
-    pipeHeight: 78,
-    taglineSize: 8,
-    taglineSpacing: "0.25em",
-    taglineOpacity: 0.65,
+    pipeWidth: 3,
+    pipeHeight: 84,
+    pipeMargin: "0 5px",
+    letterSpacing: "-0.02em",
+    taglineSize: 11,
+    taglineSpacing: "0.4em",
+    taglineOpacity: 0.8,
+    taglineMarginTop: 12,
   },
 };
 
@@ -37,7 +49,8 @@ export default function Logo({
 }: LogoProps) {
   const config = sizeConfig[size];
   const wordmarkColor = theme === "dark" ? "#1a1a18" : "#f5f0e8";
-  const taglineBaseColor = theme === "dark" ? "#8a6f4e" : "#c9a96e";
+  const taglineColor =
+    theme === "dark" ? "#8a6f4e" : "rgba(201, 169, 110, 0.7)";
 
   const wordmark = (
     <span
@@ -46,7 +59,7 @@ export default function Logo({
         fontFamily: "var(--font-body), Montserrat, sans-serif",
         fontWeight: 200,
         fontSize: config.fontSize,
-        letterSpacing: "-0.03em",
+        letterSpacing: config.letterSpacing,
         color: wordmarkColor,
         lineHeight: 1,
       }}
@@ -55,10 +68,10 @@ export default function Logo({
       <span
         className="inline-block flex-shrink-0"
         style={{
-          width: 1.5,
+          width: config.pipeWidth,
           height: config.pipeHeight,
           background: "#c9a96e",
-          margin: "0 3px 0 2px",
+          margin: config.pipeMargin,
         }}
       />
       r
@@ -73,7 +86,7 @@ export default function Logo({
         fontSize: config.taglineSize,
         letterSpacing: config.taglineSpacing,
         textTransform: "uppercase" as const,
-        color: taglineBaseColor,
+        color: taglineColor,
         opacity: config.taglineOpacity,
       }}
     >
@@ -85,7 +98,7 @@ export default function Logo({
     return (
       <div className="flex flex-col items-center">
         {wordmark}
-        <div className="mt-2">{tagline}</div>
+        <div style={{ marginTop: config.taglineMarginTop }}>{tagline}</div>
       </div>
     );
   }
@@ -98,9 +111,8 @@ export default function Logo({
         className="hidden sm:block"
         style={{
           width: 1,
-          height: config.pipeHeight * 0.6,
-          background: taglineBaseColor,
-          opacity: 0.3,
+          height: config.pipeHeight * 0.5,
+          background: "rgba(201, 169, 110, 0.3)",
         }}
       />
       <span className="hidden sm:block">{tagline}</span>
