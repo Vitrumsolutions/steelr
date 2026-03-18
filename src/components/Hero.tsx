@@ -160,7 +160,7 @@ export default function Hero() {
       />
 
       {/* Credentials — top left below nav, never overlaps centred logo */}
-      <div className="absolute top-24 md:top-28 left-0 z-30 px-8 md:px-16">
+      <div className="absolute top-24 md:top-28 landscape-creds left-0 z-30 px-8 md:px-16">
         <p
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
