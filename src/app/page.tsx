@@ -56,14 +56,14 @@ export default function Home() {
       <Hero />
 
       {/* Section 2 — Collection Teaser */}
-      <section style={{ background: "#f5f0e8" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">
+      <section style={{ background: "#f5f0e8" }} className="py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <p
             className="mb-4"
             style={{
               fontFamily: "var(--font-body), Montserrat, sans-serif",
               fontWeight: 400,
-              fontSize: 9,
+              fontSize: 10,
               letterSpacing: "0.3em",
               textTransform: "uppercase",
               color: "#c9a96e",
@@ -148,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* Section 4 — Statement */}
-      <section style={{ background: "linear-gradient(180deg, #f5f0e8 0%, #e5dfd5 100%)" }} className="ribbon-bg py-24 md:py-40 px-6 md:px-16">
+      <section style={{ background: "linear-gradient(180deg, #f5f0e8 0%, #e5dfd5 100%)" }} className="py-24 md:py-40 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
           <div>
             <p
@@ -210,8 +210,8 @@ export default function Home() {
           </div>
           <div className="relative aspect-[3/4] lg:aspect-auto">
             <Image
-              src="/images/gallery/steelr-navy-traditional-vine-porch.jpg"
-              alt="Navy traditional steel door with vine-covered porch"
+              src="/images/hero/steelr-navy-panelled-chrome-frosted.jpg"
+              alt="Navy panelled steel door with chrome hardware"
               fill
               quality={100}
               className="object-cover"
@@ -223,7 +223,7 @@ export default function Home() {
       </section>
 
       {/* Section 5 — Process */}
-      <section style={{ background: "#e5dfd5" }} className="ribbon-bg py-16 md:py-24 px-6 md:px-16">
+      <section style={{ background: "#e5dfd5" }} className="py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <h2
             className="text-center mb-16"
@@ -319,7 +319,7 @@ export default function Home() {
       </section>
 
       {/* Section 7 — Contact */}
-      <section style={{ background: "linear-gradient(180deg, #e5dfd5 0%, #f5f0e8 100%)" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">
+      <section style={{ background: "linear-gradient(180deg, #e5dfd5 0%, #f5f0e8 100%)" }} className="py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left — info */}
           <div>

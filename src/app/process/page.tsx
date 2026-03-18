@@ -45,12 +45,12 @@ export default function ProcessPage() {
       {/* Hero */}
       <section className="relative h-[50vh] overflow-hidden">
         <Image
-          src="/images/gallery/steelr-black-traditional-wide-frosted.jpg"
+          src="/images/gallery/steelr-black-traditional-columns-mansion.jpg"
           alt="SteelR bespoke door process"
           fill
           quality={100}
           className="object-cover"
-          style={{ objectPosition: "center 30%" }}
+          style={{ objectPosition: "center 45%" }}
           priority
           sizes="100vw"
         />
@@ -92,7 +92,7 @@ export default function ProcessPage() {
             >
               {/* Image */}
               <div
-                className={`relative aspect-[4/3] ${
+                className={`relative aspect-[3/4] max-h-[500px] ${
                   !imageLeft ? "lg:order-2" : ""
                 }`}
               >

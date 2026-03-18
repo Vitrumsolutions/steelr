@@ -101,6 +101,7 @@ export default function CollectionPage() {
           fill
           quality={100}
           className="object-cover"
+          style={{ objectPosition: "center center" }}
           priority
           sizes="100vw"
         />

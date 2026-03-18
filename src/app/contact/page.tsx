@@ -37,7 +37,7 @@ export default function ContactPage() {
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
                 fontWeight: 400,
-                fontSize: 9,
+                fontSize: 11,
                 letterSpacing: "0.3em",
                 textTransform: "uppercase",
                 color: "#c9a96e",

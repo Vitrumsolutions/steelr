@@ -3,51 +3,34 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
+// Only use images that work well in landscape viewport
+// Landscape and near-square images show full door without cropping
 const heroImages = [
   {
-    src: "/images/hero/steelr-black-ornate-checkerboard.jpg",
-    alt: "Black ornate steel entrance door with checkerboard step",
-    origin: "center 45%",
-  },
-  {
-    src: "/images/hero/steelr-navy-panelled-lanterns.jpg",
-    alt: "Navy blue panelled entrance door with lanterns and stone steps",
-    origin: "center 50%",
-  },
-  {
-    src: "/images/hero/steelr-black-traditional-lion-knocker.jpg",
-    alt: "Black traditional steel door with lion knocker and gold hardware",
-    origin: "40% 45%",
-  },
-  {
-    src: "/images/hero/steelr-navy-traditional-vine-porch.jpg",
-    alt: "Navy traditional steel door with vine-covered porch",
-    origin: "center 40%",
-  },
-  {
-    src: "/images/hero/steelr-black-contemporary-sidelight.jpg",
-    alt: "Black contemporary steel entrance door with sidelight",
-    origin: "center 45%",
-  },
-  {
-    src: "/images/hero/steelr-black-ornate-checkerboard-canopy-wide.jpg",
-    alt: "Black ornate steel door with checkerboard step and canopy wide view",
-    origin: "center 45%",
-  },
-  {
     src: "/images/hero/steelr-black-ornate-medallion-stone.jpg",
-    alt: "Black ornate steel door with medallion on stone entrance",
-    origin: "center 48%",
-  },
-  {
-    src: "/images/hero/steelr-cream-panelled-glass-atrium.jpg",
-    alt: "Cream panelled steel door with glass atrium entrance",
-    origin: "center 55%",
+    alt: "Black ornate steel entrance door with medallion and sidelights",
+    pos: "center center",
   },
   {
     src: "/images/hero/steelr-navy-panelled-chrome-frosted.jpg",
     alt: "Navy panelled steel door with chrome hardware and frosted glass",
-    origin: "center 50%",
+    pos: "center center",
+  },
+  {
+    src: "/images/gallery/steelr-black-panelled-sidelights-palms.jpg",
+    alt: "Black panelled steel door with sidelights and potted palms",
+    pos: "center center",
+  },
+  {
+    src: "/images/gallery/steelr-black-traditional-wide-frosted.jpg",
+    alt: "Black traditional steel door with frosted sidelights",
+    pos: "center center",
+  },
+  {
+    src: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
+    alt: "Grand mansion entrance with black steel door and columns",
+    pos: "center 40%",
   },
 ];
 
@@ -106,10 +89,10 @@ export default function Hero() {
               quality={100}
               className="object-cover"
               style={{
-                objectPosition: img.origin,
-                transformOrigin: img.origin,
+                objectPosition: img.pos,
+                transformOrigin: img.pos,
                 animation: isVisible
-                  ? "kenburns 6s ease-out forwards"
+                  ? "kenburns 8s ease-out forwards"
                   : "none",
                 transform: isVisible ? undefined : "scale(1)",
               }}
@@ -127,13 +110,9 @@ export default function Hero() {
           opacity: showLogo ? 1 : 0,
           transition: "opacity 0.5s ease-in-out",
           background: showLogo ? "rgba(10, 10, 9, 0.4)" : "transparent",
-          maxWidth: "90vw",
-          margin: "0 auto",
-          left: 0,
-          right: 0,
         }}
       >
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-col items-center text-center px-8">
           <span
             className="flex items-center"
             style={{
@@ -148,12 +127,7 @@ export default function Hero() {
             steel
             <span
               className="inline-block flex-shrink-0"
-              style={{
-                width: 3,
-                height: 76,
-                background: "#c9a96e",
-                margin: "0 5px",
-              }}
+              style={{ width: 3, height: 76, background: "#c9a96e", margin: "0 5px" }}
             />
             r
           </span>
@@ -178,13 +152,12 @@ export default function Hero() {
         className="absolute inset-0 z-10"
         style={{
           background:
-            "linear-gradient(to bottom, rgba(10,10,9,0.3) 0%, rgba(10,10,9,0.15) 40%, rgba(10,10,9,0.8) 100%)",
+            "linear-gradient(to bottom, rgba(10,10,9,0.0) 0%, rgba(10,10,9,0.0) 50%, rgba(10,10,9,0.6) 100%)",
         }}
       />
 
       {/* Content — bottom left */}
       <div className="absolute bottom-0 left-0 z-20 p-8 md:p-16 max-w-2xl">
-        {/* Fix 11: credentials visibility */}
         <p
           className="mb-5"
           style={{
@@ -200,16 +173,15 @@ export default function Hero() {
           SR3 Rated &middot; ISO 9001 Certified &middot; Secured by Design
         </p>
 
-        {/* Fix 9 + 19: H1 hero size */}
         <h1
           style={{
-            fontFamily:
-              "var(--font-display), 'Cormorant Garamond', serif",
+            fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
             fontWeight: 300,
             fontSize: "clamp(36px, 5vw, 64px)",
             lineHeight: 1.1,
             letterSpacing: "0.05em",
-            color: "rgba(245, 240, 232, 0.92)",
+            color: "#f5f0e8",
+            textShadow: "0 2px 12px rgba(0, 0, 0, 0.4)",
           }}
         >
           Bespoke Steel
@@ -221,16 +193,16 @@ export default function Hero() {
           className="mt-5"
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
-            fontWeight: 200,
+            fontWeight: 300,
             fontSize: 14,
             letterSpacing: "0.08em",
-            color: "rgba(245, 240, 232, 0.6)",
+            color: "rgba(245, 240, 232, 0.8)",
+            textShadow: "0 1px 6px rgba(0, 0, 0, 0.4)",
           }}
         >
           Designed and installed nationwide
         </p>
 
-        {/* Fix 10: CTA button text 11px */}
         <Link
           href="/contact"
           className="inline-block mt-10 transition-colors duration-300 hover:bg-cream"
@@ -249,7 +221,7 @@ export default function Hero() {
         </Link>
       </div>
 
-      {/* Fix 10: scroll indicator 9px */}
+      {/* Scroll indicator */}
       <div className="absolute bottom-8 right-8 md:bottom-16 md:right-16 z-20 flex flex-col items-center gap-3">
         <span
           style={{
@@ -258,7 +230,7 @@ export default function Hero() {
             fontSize: 9,
             letterSpacing: "0.3em",
             textTransform: "uppercase",
-            color: "rgba(245, 240, 232, 0.4)",
+            color: "rgba(245, 240, 232, 0.5)",
             writingMode: "vertical-lr",
           }}
         >
@@ -266,12 +238,12 @@ export default function Hero() {
         </span>
         <div
           className="w-[1px] h-12 overflow-hidden"
-          style={{ background: "rgba(245, 240, 232, 0.1)" }}
+          style={{ background: "rgba(245, 240, 232, 0.15)" }}
         >
           <div
             className="w-full h-full"
             style={{
-              background: "rgba(245, 240, 232, 0.4)",
+              background: "rgba(245, 240, 232, 0.5)",
               animation: "scrollLine 2s ease-in-out infinite",
             }}
           />

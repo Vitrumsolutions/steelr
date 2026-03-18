@@ -51,7 +51,7 @@ export default function AboutPage() {
               lineHeight: 1.1,
             }}
           >
-            About SteelR
+            About
           </h1>
         </div>
       </section>
