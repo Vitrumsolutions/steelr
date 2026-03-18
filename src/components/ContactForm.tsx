@@ -31,24 +31,16 @@ export default function ContactForm() {
     setStatus("sending");
 
     const formData = new FormData(e.currentTarget);
+    const data = Object.fromEntries(formData.entries());
 
     try {
-      // Primary: Netlify Forms
-      const netlifyRes = await fetch("/", {
+      const res = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
       });
 
-      if (netlifyRes.ok) {
-        // Backup: also send via Resend API
-        const data = Object.fromEntries(formData.entries());
-        fetch("/api/contact", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(data),
-        }).catch(() => {}); // fire and forget
-
+      if (res.ok) {
         setStatus("success");
       } else {
         setStatus("error");
@@ -88,13 +80,9 @@ export default function ContactForm() {
 
   return (
     <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
       onSubmit={handleSubmit}
       className="flex flex-col gap-6"
     >
-      <input type="hidden" name="form-name" value="contact" />
 
       <div className="flex flex-col gap-2">
         <label htmlFor="name" style={labelStyle}>Full Name</label>
