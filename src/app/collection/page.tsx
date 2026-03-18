@@ -158,7 +158,7 @@ export default function CollectionPage() {
                 src={img.src}
                 alt={img.alt}
                 fill
-                quality={90}
+                quality={100}
                 className="object-cover rounded-[4px]"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />

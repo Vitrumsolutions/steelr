@@ -45,7 +45,7 @@ export default function ProcessPage() {
       {/* Hero */}
       <section className="relative h-[50vh] overflow-hidden">
         <Image
-          src="/images/hero/steelr-hero-04.jpeg"
+          src="/images/hero/steelr-hero-03.jpg"
           alt="SteelR bespoke door process"
           fill
           quality={100}
@@ -99,7 +99,7 @@ export default function ProcessPage() {
                   src={stage.image}
                   alt={stage.alt}
                   fill
-                  quality={90}
+                  quality={100}
                   className="object-cover rounded-[4px]"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />

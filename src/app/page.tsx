@@ -93,7 +93,7 @@ export default function Home() {
                   alt={img.alt}
                   width={600}
                   height={800}
-                  quality={90}
+                  quality={100}
                   className="w-full h-full object-cover rounded-[4px]"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
@@ -212,7 +212,7 @@ export default function Home() {
               src="/images/gallery/steelr-gallery-04.jpg"
               alt="Ribbed champagne double steel entrance doors"
               fill
-              quality={90}
+              quality={100}
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />

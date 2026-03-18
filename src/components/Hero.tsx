@@ -7,19 +7,23 @@ import Link from "next/link";
 const heroImages = [
   {
     src: "/images/hero/steelr-hero-01.jpg",
-    alt: "Bespoke steel entrance door exterior view",
+    alt: "Black steel entrance door with circular motif and checkerboard step",
   },
   {
     src: "/images/hero/steelr-hero-02.jpg",
-    alt: "Grand entrance with bespoke steel door",
+    alt: "Navy blue panelled entrance door with lanterns and stone steps",
   },
   {
     src: "/images/hero/steelr-hero-03.jpg",
-    alt: "Contemporary steel entrance door on new build property",
+    alt: "Black steel door with lion knocker and gold hardware",
   },
   {
-    src: "/images/hero/steelr-hero-04.jpeg",
-    alt: "Steel entrance door with architectural canopy",
+    src: "/images/hero/steelr-hero-04.jpg",
+    alt: "Champagne ribbed double steel entrance doors",
+  },
+  {
+    src: "/images/hero/steelr-hero-05.jpg",
+    alt: "Bespoke steel entrance door on styled property exterior",
   },
 ];
 

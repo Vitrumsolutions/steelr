@@ -28,7 +28,14 @@
       "Bash(curl -s \"http://localhost:3000/$page\")",
       "Bash(curl -s http://localhost:3000/sitemap.xml)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo:*)",
+      "Bash(git remote:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(gh auth:*)"
     ]
   }
 }

@@ -140,7 +140,7 @@ export default function AboutPage() {
               src="/images/detail/steelr-detail-01.jpg"
               alt="Close-up of steel door bolt locking mechanism"
               fill
-              quality={90}
+              quality={100}
               className="object-cover rounded-[4px]"
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
@@ -150,7 +150,7 @@ export default function AboutPage() {
               src="/images/detail/steelr-detail-02.jpg"
               alt="Open steel entrance door showing door thickness and interior"
               fill
-              quality={90}
+              quality={100}
               className="object-cover rounded-[4px]"
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
@@ -160,7 +160,7 @@ export default function AboutPage() {
               src="/images/detail/steelr-detail-03.jpg"
               alt="Luxury interior hallway through steel entrance door"
               fill
-              quality={90}
+              quality={100}
               className="object-cover rounded-[4px]"
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
@@ -170,7 +170,7 @@ export default function AboutPage() {
               src="/images/detail/steelr-detail-04.jpeg"
               alt="Steel entrance door detail craftsmanship close-up"
               fill
-              quality={90}
+              quality={100}
               className="object-cover rounded-[4px]"
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />

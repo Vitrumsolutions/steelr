@@ -11,19 +11,22 @@ const sizeConfig = {
     fontSize: 24,
     pipeHeight: 28,
     taglineSize: 7,
-    taglineSpacing: "0.22em",
+    taglineSpacing: "0.2em",
+    taglineOpacity: 0.7,
   },
   standard: {
     fontSize: 48,
     pipeHeight: 52,
-    taglineSize: 8,
-    taglineSpacing: "0.28em",
+    taglineSize: 7,
+    taglineSpacing: "0.2em",
+    taglineOpacity: 0.6,
   },
   hero: {
     fontSize: 72,
     pipeHeight: 78,
-    taglineSize: 9,
-    taglineSpacing: "0.32em",
+    taglineSize: 8,
+    taglineSpacing: "0.25em",
+    taglineOpacity: 0.65,
   },
 };
 
@@ -34,10 +37,7 @@ export default function Logo({
 }: LogoProps) {
   const config = sizeConfig[size];
   const wordmarkColor = theme === "dark" ? "#1a1a18" : "#f5f0e8";
-  const taglineColor =
-    theme === "dark"
-      ? "rgba(138, 111, 78, 0.8)"
-      : "rgba(201, 169, 110, 0.6)";
+  const taglineBaseColor = theme === "dark" ? "#8a6f4e" : "#c9a96e";
 
   const wordmark = (
     <span
@@ -73,7 +73,8 @@ export default function Logo({
         fontSize: config.taglineSize,
         letterSpacing: config.taglineSpacing,
         textTransform: "uppercase" as const,
-        color: taglineColor,
+        color: taglineBaseColor,
+        opacity: config.taglineOpacity,
       }}
     >
       Bespoke Entrance Doors
@@ -98,8 +99,8 @@ export default function Logo({
         style={{
           width: 1,
           height: config.pipeHeight * 0.6,
-          background: theme === "dark" ? "rgba(138, 111, 78, 0.3)" : "rgba(201, 169, 110, 0.3)",
-          opacity: 0.4,
+          background: taglineBaseColor,
+          opacity: 0.3,
         }}
       />
       <span className="hidden sm:block">{tagline}</span>
