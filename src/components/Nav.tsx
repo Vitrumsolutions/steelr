@@ -71,7 +71,7 @@ export default function Nav() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="transition-colors duration-300"
+                className="link-gold-underline transition-colors duration-300 hover:text-gold"
                 style={{
                   fontFamily: "var(--font-body), Montserrat, sans-serif",
                   fontWeight: 300,
@@ -84,14 +84,6 @@ export default function Nav() {
                   textShadow: scrolled
                     ? "none"
                     : "0 1px 4px rgba(0, 0, 0, 0.3)",
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.color = "#c9a96e";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.color = scrolled
-                    ? "rgba(26, 26, 24, 0.6)"
-                    : "rgba(245, 240, 232, 0.95)";
                 }}
               >
                 {link.label}
@@ -126,28 +118,32 @@ export default function Nav() {
               aria-label="Toggle menu"
             >
               <span
-                className="block w-5 h-[1px] transition-all duration-300"
+                className="block w-5 h-[1px]"
                 style={{
                   background: scrolled ? "#1a1a18" : "#f5f0e8",
                   transform: menuOpen
-                    ? "rotate(45deg) translate(2px, 2px)"
+                    ? "rotate(45deg) translate(4px, 4px)"
                     : "none",
+                  transition: "transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.3s ease",
                 }}
               />
               <span
-                className="block w-5 h-[1px] transition-all duration-300"
+                className="block w-5 h-[1px]"
                 style={{
                   background: scrolled ? "#1a1a18" : "#f5f0e8",
                   opacity: menuOpen ? 0 : 1,
+                  transform: menuOpen ? "scaleX(0)" : "scaleX(1)",
+                  transition: "transform 0.3s ease, opacity 0.3s ease",
                 }}
               />
               <span
-                className="block w-5 h-[1px] transition-all duration-300"
+                className="block w-5 h-[1px]"
                 style={{
                   background: scrolled ? "#1a1a18" : "#f5f0e8",
                   transform: menuOpen
-                    ? "rotate(-45deg) translate(2px, -2px)"
+                    ? "rotate(-45deg) translate(4px, -4px)"
                     : "none",
+                  transition: "transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.3s ease",
                 }}
               />
             </button>

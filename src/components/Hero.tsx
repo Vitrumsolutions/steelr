@@ -194,7 +194,7 @@ export default function Hero() {
 
         <Link
           href="/contact"
-          className="inline-block transition-colors duration-300 hover:bg-cream"
+          className="btn-cta inline-block transition-colors duration-300 hover:bg-cream"
           style={{
             background: "#c9a96e",
             color: "#1a1a18",

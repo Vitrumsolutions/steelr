@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "About SteelR | UK Manufactured Bespoke Steel Doors",
@@ -52,6 +53,7 @@ export default function AboutPage() {
       {/* Brand statement */}
       <section className="bg-cream ribbon-bg py-24 md:py-40 px-6 md:px-16">
         <div className="max-w-3xl mx-auto text-center">
+          <ScrollReveal>
           <h1
             style={{
               fontFamily:
@@ -64,6 +66,7 @@ export default function AboutPage() {
           >
             Bespoke steel entrance doors for homes across the United Kingdom
           </h1>
+          </ScrollReveal>
         </div>
       </section>
 
@@ -71,7 +74,7 @@ export default function AboutPage() {
       <section className="bg-cream ribbon-bg pb-24 md:pb-40 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
           {/* Left — copy */}
-          <div>
+          <ScrollReveal direction="left"><div>
             <p
               className="mb-6"
               style={{
@@ -115,8 +118,9 @@ export default function AboutPage() {
             </p>
           </div>
 
+          </div></ScrollReveal>
           {/* Right — credentials */}
-          <div className="flex flex-col gap-4 justify-center">
+          <ScrollReveal direction="right"><div className="flex flex-col gap-4 justify-center">
             {credentials.map((cred) => (
               <div key={cred} className="flex items-center gap-3">
                 <span
@@ -135,7 +139,7 @@ export default function AboutPage() {
                 </span>
               </div>
             ))}
-          </div>
+          </div></ScrollReveal>
         </div>
       </section>
 
@@ -205,9 +209,10 @@ export default function AboutPage() {
           >
             Every door begins with a conversation
           </h2>
+          <ScrollReveal>
           <Link
             href="/contact"
-            className="inline-block transition-colors duration-300 hover:bg-cream"
+            className="btn-cta inline-block transition-colors duration-300 hover:bg-cream"
             style={{
               background: "#c9a96e",
               color: "#1a1a18",
@@ -221,6 +226,7 @@ export default function AboutPage() {
           >
             Request a Consultation
           </Link>
+          </ScrollReveal>
         </div>
       </section>
     </>

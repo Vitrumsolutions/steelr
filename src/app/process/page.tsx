@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Our Process | From Enquiry to Installation | SteelR",
@@ -84,6 +85,7 @@ export default function ProcessPage() {
           >
             <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
               {/* Image */}
+              <ScrollReveal direction={imageRight ? "right" : "left"}>
               <div
                 className={`relative aspect-[3/4] overflow-hidden rounded-[4px] ${
                   imageRight ? "lg:order-2" : "lg:order-1"
@@ -100,8 +102,10 @@ export default function ProcessPage() {
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
+              </ScrollReveal>
 
               {/* Text */}
+              <ScrollReveal direction={imageRight ? "left" : "right"} delay={0.15}>
               <div
                 className={`flex flex-col justify-center ${
                   imageRight ? "lg:order-1" : "lg:order-2"
@@ -146,6 +150,7 @@ export default function ProcessPage() {
                   {stage.text}
                 </p>
               </div>
+              </ScrollReveal>
             </div>
           </section>
         );
@@ -167,9 +172,10 @@ export default function ProcessPage() {
           >
             Ready to begin?
           </h2>
+          <ScrollReveal>
           <Link
             href="/contact"
-            className="inline-block transition-colors duration-300 hover:bg-cream"
+            className="btn-cta inline-block transition-colors duration-300 hover:bg-cream"
             style={{
               background: "#c9a96e",
               color: "#1a1a18",
@@ -183,6 +189,7 @@ export default function ProcessPage() {
           >
             Request a Consultation
           </Link>
+          </ScrollReveal>
         </div>
       </section>
     </>

@@ -148,7 +148,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="transition-colors duration-300 hover:bg-cream mt-2"
+        className="btn-cta transition-colors duration-300 hover:bg-cream mt-2"
         style={{
           background: "#c9a96e",
           color: "#1a1a18",

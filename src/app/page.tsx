@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
+import ScrollReveal from "@/components/ScrollReveal";
 
 const galleryPreview = [
   {
@@ -59,63 +60,69 @@ export default function Home() {
       {/* Section 2 — Collection Teaser */}
       <section style={{ background: "#f5f0e8" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
-          <p
-            className="mb-4"
-            style={{
-              fontFamily: "var(--font-body), Montserrat, sans-serif",
-              fontWeight: 400,
-              fontSize: 10,
-              letterSpacing: "0.3em",
-              textTransform: "uppercase",
-              color: "#b8943f",
-            }}
-          >
-            The Collection
-          </p>
-          <h2
-            className="mb-14"
-            style={{
-              fontFamily:
-                "var(--font-display), 'Cormorant Garamond', serif",
-              fontWeight: 300,
-              fontSize: "clamp(28px, 3.5vw, 44px)",
-              color: "#1a1a18",
-              lineHeight: 1.1,
-            }}
-          >
-            Every door is made to order
-          </h2>
+          <ScrollReveal>
+            <p
+              className="mb-4"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 10,
+                letterSpacing: "0.3em",
+                textTransform: "uppercase",
+                color: "#b8943f",
+              }}
+            >
+              The Collection
+            </p>
+            <h2
+              className="mb-14"
+              style={{
+                fontFamily:
+                  "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontSize: "clamp(28px, 3.5vw, 44px)",
+                color: "#1a1a18",
+                lineHeight: 1.1,
+              }}
+            >
+              Every door is made to order
+            </h2>
+          </ScrollReveal>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {galleryPreview.map((img) => (
-              <div key={img.src} className="img-zoom aspect-[3/4]">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  width={600}
-                  height={800}
-                  quality={100}
-                  className="w-full h-full object-cover rounded-[4px]"
-                  style={{ objectPosition: "center top" }}
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                />
-              </div>
+            {galleryPreview.map((img, i) => (
+              <ScrollReveal key={img.src} delay={i * 0.12}>
+                <div className="img-zoom aspect-[3/4]">
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    width={600}
+                    height={800}
+                    quality={100}
+                    className="w-full h-full object-cover rounded-[4px]"
+                    style={{ objectPosition: "center top" }}
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                </div>
+              </ScrollReveal>
             ))}
           </div>
 
-          <Link
-            href="/collection"
-            className="inline-block mt-10 transition-opacity duration-300 hover:opacity-60"
-            style={{
-              fontFamily: "var(--font-body), Montserrat, sans-serif",
-              fontWeight: 300,
-              fontSize: 13,
-              color: "#1a1a18",
-              letterSpacing: "0.05em",
-            }}
-          >
-            View Full Collection &rarr;
-          </Link>
+          <ScrollReveal delay={0.3}>
+            <Link
+              href="/collection"
+              className="inline-block mt-10 link-gold-underline"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 300,
+                fontSize: 13,
+                color: "#1a1a18",
+                letterSpacing: "0.05em",
+              }}
+            >
+              View Full Collection &rarr;
+            </Link>
+          </ScrollReveal>
         </div>
       </section>
 
@@ -151,134 +158,142 @@ export default function Home() {
       {/* Section 4 — Statement */}
       <section style={{ background: "linear-gradient(180deg, #f5f0e8 0%, #ede8df 100%)" }} className="ribbon-bg py-24 md:py-40 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
-          <div>
-            <p
-              className="mb-4"
-              style={{
-                fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 400,
-                fontSize: 9,
-                letterSpacing: "0.3em",
-                textTransform: "uppercase",
-                color: "#b8943f",
-              }}
-            >
-              Our Philosophy
-            </p>
-            <h2
-              className="mb-10"
-              style={{
-                fontFamily:
-                  "var(--font-display), 'Cormorant Garamond', serif",
-                fontWeight: 300,
-                fontSize: "clamp(28px, 3.5vw, 44px)",
-                color: "#1a1a18",
-                lineHeight: 1.15,
-              }}
-            >
-              Engineered for permanence.
-              <br />
-              Designed for distinction.
-            </h2>
-            <p
-              className="mb-6"
-              style={{
-                fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 200,
-                fontSize: 14,
-                lineHeight: 1.9,
-                color: "#6b5a42",
-              }}
-            >
-              Every SteelR door is manufactured to SR3 high security standards
-              in the United Kingdom. We work with homeowners, architects and
-              developers who understand that the entrance to a home should be
-              both beautiful and impenetrable.
-            </p>
-            <p
-              style={{
-                fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 200,
-                fontSize: 14,
-                lineHeight: 1.9,
-                color: "#6b5a42",
-              }}
-            >
-              No standard sizes. No off-the-shelf finishes. Every door is made
-              to your exact specification, from the initial consultation to
-              final installation.
-            </p>
-          </div>
-          <div className="relative aspect-[3/4]">
-            <Image
-              src="/images/gallery/steelr-navy-panelled-chrome-palms.jpg"
-              alt="Navy panelled steel door with chrome hardware and palms"
-              fill
-              quality={100}
-              className="object-cover rounded-[4px]"
-              style={{ objectPosition: "center 30%" }}
-              sizes="(max-width: 1024px) 100vw, 50vw"
-            />
-          </div>
+          <ScrollReveal direction="left">
+            <div>
+              <p
+                className="mb-4"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 9,
+                  letterSpacing: "0.3em",
+                  textTransform: "uppercase",
+                  color: "#b8943f",
+                }}
+              >
+                Our Philosophy
+              </p>
+              <h2
+                className="mb-10"
+                style={{
+                  fontFamily:
+                    "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 300,
+                  fontSize: "clamp(28px, 3.5vw, 44px)",
+                  color: "#1a1a18",
+                  lineHeight: 1.15,
+                }}
+              >
+                Engineered for permanence.
+                <br />
+                Designed for distinction.
+              </h2>
+              <p
+                className="mb-6"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 200,
+                  fontSize: 14,
+                  lineHeight: 1.9,
+                  color: "#6b5a42",
+                }}
+              >
+                Every SteelR door is manufactured to SR3 high security standards
+                in the United Kingdom. We work with homeowners, architects and
+                developers who understand that the entrance to a home should be
+                both beautiful and impenetrable.
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 200,
+                  fontSize: 14,
+                  lineHeight: 1.9,
+                  color: "#6b5a42",
+                }}
+              >
+                No standard sizes. No off-the-shelf finishes. Every door is made
+                to your exact specification, from the initial consultation to
+                final installation.
+              </p>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal direction="right">
+            <div className="relative aspect-[3/4]">
+              <Image
+                src="/images/gallery/steelr-navy-panelled-chrome-palms.jpg"
+                alt="Navy panelled steel door with chrome hardware and palms"
+                fill
+                quality={100}
+                className="object-cover rounded-[4px]"
+                style={{ objectPosition: "center 30%" }}
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 
       {/* Section 5 — Process */}
       <section style={{ background: "#ede8df" }} className="ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
-          <h2
-            className="text-center mb-16"
-            style={{
-              fontFamily:
-                "var(--font-display), 'Cormorant Garamond', serif",
-              fontWeight: 300,
-              fontSize: "clamp(28px, 3.5vw, 44px)",
-              color: "#1a1a18",
-            }}
-          >
-            How It Works
-          </h2>
+          <ScrollReveal>
+            <h2
+              className="text-center mb-16"
+              style={{
+                fontFamily:
+                  "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontSize: "clamp(28px, 3.5vw, 44px)",
+                color: "#1a1a18",
+              }}
+            >
+              How It Works
+            </h2>
+          </ScrollReveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
-            {processSteps.map((step) => (
-              <div key={step.num}>
-                <span
-                  className="block mb-4"
-                  style={{
-                    fontFamily:
-                      "var(--font-display), 'Cormorant Garamond', serif",
-                    fontWeight: 300,
-                    fontSize: 64,
-                    lineHeight: 1,
-                    color: "rgba(201, 169, 110, 0.2)",
-                  }}
-                >
-                  {step.num}
-                </span>
-                <p
-                  className="mb-3"
-                  style={{
-                    fontFamily: "var(--font-body), Montserrat, sans-serif",
-                    fontWeight: 400,
-                    fontSize: 12,
-                    letterSpacing: "0.2em",
-                    textTransform: "uppercase",
-                    color: "#b8943f",
-                  }}
-                >
-                  {step.title}
-                </p>
-                <p
-                  style={{
-                    fontFamily: "var(--font-body), Montserrat, sans-serif",
-                    fontWeight: 200,
-                    fontSize: 13,
-                    lineHeight: 1.8,
-                    color: "#6b5a42",
-                  }}
-                >
-                  {step.desc}
-                </p>
-              </div>
+            {processSteps.map((step, i) => (
+              <ScrollReveal key={step.num} delay={i * 0.12}>
+                <div>
+                  <span
+                    className="block mb-4"
+                    style={{
+                      fontFamily:
+                        "var(--font-display), 'Cormorant Garamond', serif",
+                      fontWeight: 300,
+                      fontSize: 64,
+                      lineHeight: 1,
+                      color: "rgba(201, 169, 110, 0.2)",
+                    }}
+                  >
+                    {step.num}
+                  </span>
+                  <p
+                    className="mb-3"
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 400,
+                      fontSize: 12,
+                      letterSpacing: "0.2em",
+                      textTransform: "uppercase",
+                      color: "#b8943f",
+                    }}
+                  >
+                    {step.title}
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 200,
+                      fontSize: 13,
+                      lineHeight: 1.8,
+                      color: "#6b5a42",
+                    }}
+                  >
+                    {step.desc}
+                  </p>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -287,49 +302,53 @@ export default function Home() {
       {/* Section 6 — Gallery CTA Banner */}
       <section className="bg-site-black py-16 md:py-20 px-6 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
-          <h2
-            className="mb-10"
-            style={{
-              fontFamily:
-                "var(--font-display), 'Cormorant Garamond', serif",
-              fontWeight: 300,
-              fontStyle: "italic",
-              fontSize: "clamp(28px, 4vw, 44px)",
-              color: "#f5f0e8",
-            }}
-          >
-            Entrance Doors Designed With Your Vision
-          </h2>
-          <Link
-            href="/collection"
-            className="inline-block transition-colors duration-300 hover:bg-cream"
-            style={{
-              background: "#c9a96e",
-              color: "#1a1a18",
-              fontFamily: "var(--font-body), Montserrat, sans-serif",
-              fontWeight: 400,
-              fontSize: 11,
-              letterSpacing: "0.25em",
-              textTransform: "uppercase",
-              padding: "16px 40px",
-            }}
-          >
-            Explore the Collection
-          </Link>
+          <ScrollReveal>
+            <h2
+              className="mb-10"
+              style={{
+                fontFamily:
+                  "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontStyle: "italic",
+                fontSize: "clamp(28px, 4vw, 44px)",
+                color: "#f5f0e8",
+              }}
+            >
+              Entrance Doors Designed With Your Vision
+            </h2>
+            <Link
+              href="/collection"
+              className="btn-cta inline-block transition-colors duration-300 hover:bg-cream"
+              style={{
+                background: "#c9a96e",
+                color: "#1a1a18",
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 11,
+                letterSpacing: "0.25em",
+                textTransform: "uppercase",
+                padding: "16px 40px",
+              }}
+            >
+              Explore the Collection
+            </Link>
+          </ScrollReveal>
         </div>
       </section>
 
       {/* Section 6.5 — FAQ */}
       <section className="bg-cream ribbon-bg py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-center mb-16" style={{
-            fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
-            fontWeight: 300,
-            fontSize: "clamp(28px, 3.5vw, 44px)",
-            color: "#1a1a18",
-          }}>
-            Frequently Asked Questions
-          </h2>
+          <ScrollReveal>
+            <h2 className="text-center mb-16" style={{
+              fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+              fontWeight: 300,
+              fontSize: "clamp(28px, 3.5vw, 44px)",
+              color: "#1a1a18",
+            }}>
+              Frequently Asked Questions
+            </h2>
+          </ScrollReveal>
           {[
             { q: "What is an SR3 security rating?", a: "SR3 is the highest level of physical security testing for entrance doors under European standards. It means the door has been tested to withstand sustained, forced attack using heavy tools for an extended period." },
             { q: "Do you install nationwide?", a: "Yes. We design, manufacture and install bespoke steel entrance doors across the entire United Kingdom. Our survey team will visit your property wherever you are located." },
@@ -337,26 +356,28 @@ export default function Home() {
             { q: "Can I choose any colour and finish?", a: "Every SteelR door is fully bespoke. You can choose from any RAL colour, a range of hardware finishes, glazing options, panel styles and decorative elements." },
             { q: "Are your doors fire rated?", a: "Yes. Our steel entrance doors are manufactured from fire rated steel and can be specified to meet fire safety requirements for residential properties." },
           ].map((faq, i) => (
-            <div key={i} className="border-b py-8" style={{ borderColor: "rgba(201,169,110,0.15)" }}>
-              <h3 style={{
-                fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 400,
-                fontSize: 15,
-                color: "#1a1a18",
-                marginBottom: 8,
-              }}>
-                {faq.q}
-              </h3>
-              <p style={{
-                fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 300,
-                fontSize: 14,
-                lineHeight: 1.8,
-                color: "#6b5a42",
-              }}>
-                {faq.a}
-              </p>
-            </div>
+            <ScrollReveal key={i} delay={i * 0.06}>
+              <div className="border-b py-8" style={{ borderColor: "rgba(201,169,110,0.15)" }}>
+                <h3 style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 15,
+                  color: "#1a1a18",
+                  marginBottom: 8,
+                }}>
+                  {faq.q}
+                </h3>
+                <p style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 300,
+                  fontSize: 14,
+                  lineHeight: 1.8,
+                  color: "#6b5a42",
+                }}>
+                  {faq.a}
+                </p>
+              </div>
+            </ScrollReveal>
           ))}
         </div>
       </section>
@@ -376,64 +397,68 @@ export default function Home() {
       <section style={{ background: "linear-gradient(180deg, #ede8df 0%, #f5f0e8 100%)" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left — info */}
-          <div>
-            <p
-              className="mb-4"
-              style={{
-                fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 400,
-                fontSize: 9,
-                letterSpacing: "0.3em",
-                textTransform: "uppercase",
-                color: "#b8943f",
-              }}
-            >
-              Get in Touch
-            </p>
-            <h2
-              className="mb-8"
-              style={{
-                fontFamily:
-                  "var(--font-display), 'Cormorant Garamond', serif",
-                fontWeight: 300,
-                fontSize: "clamp(28px, 3.5vw, 44px)",
-                color: "#1a1a18",
-                lineHeight: 1.1,
-              }}
-            >
-              Begin your enquiry
-            </h2>
-            <a
-              href="tel:08008611450"
-              className="block transition-opacity duration-300 hover:opacity-70"
-              style={{
-                fontFamily:
-                  "var(--font-display), 'Cormorant Garamond', serif",
-                fontWeight: 300,
-                fontSize: 48,
-                color: "#1a1a18",
-                letterSpacing: "-0.02em",
-              }}
-            >
-              0800 861 1450
-            </a>
-            <p
-              className="mt-3"
-              style={{
-                fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 200,
-                fontSize: 12,
-                color: "#6b5a42",
-              }}
-            >
-              Monday to Friday, 8am to 6pm
-            </p>
-          </div>
+          <ScrollReveal direction="left">
+            <div>
+              <p
+                className="mb-4"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 9,
+                  letterSpacing: "0.3em",
+                  textTransform: "uppercase",
+                  color: "#b8943f",
+                }}
+              >
+                Get in Touch
+              </p>
+              <h2
+                className="mb-8"
+                style={{
+                  fontFamily:
+                    "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 300,
+                  fontSize: "clamp(28px, 3.5vw, 44px)",
+                  color: "#1a1a18",
+                  lineHeight: 1.1,
+                }}
+              >
+                Begin your enquiry
+              </h2>
+              <a
+                href="tel:08008611450"
+                className="block transition-opacity duration-300 hover:opacity-70"
+                style={{
+                  fontFamily:
+                    "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 300,
+                  fontSize: 48,
+                  color: "#1a1a18",
+                  letterSpacing: "-0.02em",
+                }}
+              >
+                0800 861 1450
+              </a>
+              <p
+                className="mt-3"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 200,
+                  fontSize: 12,
+                  color: "#6b5a42",
+                }}
+              >
+                Monday to Friday, 8am to 6pm
+              </p>
+            </div>
+          </ScrollReveal>
 
           {/* Right — form */}
-          <div>
-            <ContactForm />
-          </div>
+          <ScrollReveal direction="right">
+            <div>
+              <ContactForm />
+            </div>
+          </ScrollReveal>
         </div>
       </section>
     </>

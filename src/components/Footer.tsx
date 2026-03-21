@@ -21,7 +21,7 @@ export default function Footer() {
             <Link
               key={link.href}
               href={link.href}
-              className="transition-colors duration-300 hover:text-cream"
+              className="link-gold-underline transition-colors duration-300 hover:text-cream"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
                 fontWeight: 200,

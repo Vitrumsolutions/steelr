@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Request a Consultation | SteelR",
@@ -35,7 +36,7 @@ export default function ContactPage() {
       <section className="ribbon-bg bg-cream py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left */}
-          <div>
+          <ScrollReveal direction="left"><div>
             <p
               className="mb-4"
               style={{
@@ -128,12 +129,14 @@ export default function ContactPage() {
                 property wherever you are located.
               </p>
             </div>
-          </div>
+          </div></ScrollReveal>
 
           {/* Right — form */}
+          <ScrollReveal direction="right">
           <div>
             <ContactForm />
           </div>
+          </ScrollReveal>
         </div>
       </section>
     </>

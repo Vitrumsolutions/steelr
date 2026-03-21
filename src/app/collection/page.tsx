@@ -3,6 +3,8 @@
 import { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
+import ScrollReveal from "@/components/ScrollReveal";
 
 const galleryImages = [
   { src: "/images/gallery/steelr-black-panelled-double-letterbox.jpg", alt: "Black panelled double steel door with letterbox", style: "Double Doors" },
@@ -63,9 +65,30 @@ const galleryImages = [
 
 const filters = ["All", "Contemporary", "Traditional", "Double Doors"];
 
+const cardVariants = {
+  hidden: { opacity: 0, scale: 0.95, y: 20 },
+  visible: (i: number) => ({
+    opacity: 1,
+    scale: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      delay: (i % 3) * 0.08,
+      ease: [0.25, 0.46, 0.45, 0.94],
+    },
+  }),
+  exit: {
+    opacity: 0,
+    scale: 0.95,
+    transition: { duration: 0.3 },
+  },
+};
+
 export default function CollectionPage() {
   const [activeFilter, setActiveFilter] = useState("All");
   const [lightbox, setLightbox] = useState<number | null>(null);
+  const [direction, setDirection] = useState(0);
+  const [imageLoaded, setImageLoaded] = useState<Record<string, boolean>>({});
 
   const filtered =
     activeFilter === "All"
@@ -79,35 +102,44 @@ export default function CollectionPage() {
     (dir: number) => {
       if (lightbox === null) return;
       const next = lightbox + dir;
-      if (next >= 0 && next < filtered.length) setLightbox(next);
+      if (next >= 0 && next < filtered.length) {
+        setDirection(dir);
+        setLightbox(next);
+      }
     },
     [lightbox, filtered.length]
   );
 
   useEffect(() => {
     if (lightbox === null) return;
+    document.body.style.overflow = "hidden";
     const handler = (e: KeyboardEvent) => {
       if (e.key === "Escape") closeLightbox();
       if (e.key === "ArrowRight") navigate(1);
       if (e.key === "ArrowLeft") navigate(-1);
     };
     window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", handler);
+    };
   }, [lightbox, navigate]);
 
   return (
     <>
-      {/* Page banner — branded dark design */}
+      {/* Page banner */}
       <section
         className="relative flex items-center justify-center overflow-hidden"
         style={{ height: 240, background: "#1a1a18", paddingTop: 80 }}
       >
-        {/* Subtle gold geometric accent */}
         <div className="absolute inset-0 pointer-events-none" style={{
           background: "linear-gradient(135deg, transparent 40%, rgba(201,169,110,0.06) 50%, transparent 60%)",
         }} />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16" style={{ height: 1, background: "rgba(201,169,110,0.3)" }} />
-        <p
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
           style={{
             fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
             fontWeight: 300,
@@ -118,7 +150,7 @@ export default function CollectionPage() {
           }}
         >
           The Collection
-        </p>
+        </motion.p>
       </section>
 
       {/* Filter bar */}
@@ -131,7 +163,7 @@ export default function CollectionPage() {
             <button
               key={f}
               onClick={() => setActiveFilter(f)}
-              className="transition-all duration-300 pb-1"
+              className="relative transition-all duration-300 pb-1"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
                 fontWeight: 200,
@@ -139,15 +171,20 @@ export default function CollectionPage() {
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
                 color: activeFilter === f ? "#c9a96e" : "rgba(26, 26, 24, 0.4)",
-                borderBottom:
-                  activeFilter === f
-                    ? "1px solid #c9a96e"
-                    : "1px solid transparent",
                 background: "none",
                 cursor: "pointer",
+                border: "none",
+                borderBottom: "1px solid transparent",
               }}
             >
               {f}
+              {activeFilter === f && (
+                <motion.div
+                  layoutId="filterUnderline"
+                  className="absolute bottom-0 left-0 right-0 h-[1px] bg-gold"
+                  transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                />
+              )}
             </button>
           ))}
         </div>
@@ -157,175 +194,220 @@ export default function CollectionPage() {
       <section className="bg-cream py-12 md:py-20 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <h1 className="sr-only">Bespoke Steel Entrance Door Collection</h1>
-          <p style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontWeight: 300, fontSize: 15, lineHeight: 1.8, color: "#6b5a42", maxWidth: 640, marginBottom: 32 }}>
-            Browse our full collection of bespoke steel entrance doors. Each door is manufactured to SR3 security standards and available in contemporary, traditional and double door configurations. Every design is fully customisable to your specification.
-          </p>
-        </div>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map((img, i) => (
-            <div key={img.src} className="flex flex-col">
-            <div
-              className="img-zoom relative aspect-[3/4] cursor-pointer group"
-              onClick={() => openLightbox(i)}
-            >
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                quality={100}
-                className="object-cover rounded-[4px]"
-                style={{ objectPosition: "center top" }}
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              />
-              {/* Hover overlay */}
-              <div className="absolute inset-0 bg-site-black/0 group-hover:bg-site-black/60 transition-all duration-500 flex flex-col items-center justify-end p-8 opacity-0 group-hover:opacity-100">
-                <p
-                  className="mb-2"
-                  style={{
-                    fontFamily: "var(--font-body), Montserrat, sans-serif",
-                    fontWeight: 300,
-                    fontSize: 12,
-                    color: "#f5f0e8",
-                    letterSpacing: "0.05em",
-                  }}
-                >
-                  {img.alt}
-                </p>
-                <Link
-                  href="/contact"
-                  className="transition-colors duration-300 hover:bg-cream"
-                  style={{
-                    background: "#c9a96e",
-                    color: "#1a1a18",
-                    fontFamily: "var(--font-body), Montserrat, sans-serif",
-                    fontWeight: 400,
-                    fontSize: 9,
-                    letterSpacing: "0.25em",
-                    textTransform: "uppercase",
-                    padding: "10px 24px",
-                    display: "inline-block",
-                  }}
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  Enquire Now
-                </Link>
-              </div>
-            </div>
-            {/* Door name + mobile enquire */}
-            <p
-              style={{
-                fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 300,
-                fontSize: 11,
-                letterSpacing: "0.15em",
-                color: "#1a1a18",
-                padding: "10px 0 4px",
-              }}
-            >
-              {img.alt}
+          <ScrollReveal>
+            <p style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontWeight: 300, fontSize: 15, lineHeight: 1.8, color: "#6b5a42", maxWidth: 640, marginBottom: 32 }}>
+              Browse our full collection of bespoke steel entrance doors. Each door is manufactured to SR3 security standards and available in contemporary, traditional and double door configurations. Every design is fully customisable to your specification.
             </p>
-            <Link
-              href="/contact"
-              className="lg:hidden"
-              style={{
-                fontFamily: "var(--font-body), Montserrat, sans-serif",
-                fontWeight: 300,
-                fontSize: 10,
-                letterSpacing: "0.2em",
-                textTransform: "uppercase",
-                color: "#c9a96e",
-                paddingBottom: 8,
-              }}
-            >
-              Enquire Now &rarr;
-            </Link>
-            </div>
-          ))}
+          </ScrollReveal>
         </div>
+        <LayoutGroup>
+          <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <AnimatePresence mode="popLayout">
+              {filtered.map((img, i) => (
+                <motion.div
+                  key={img.src}
+                  layout
+                  custom={i}
+                  variants={cardVariants}
+                  initial="hidden"
+                  animate="visible"
+                  exit="exit"
+                  className="flex flex-col"
+                >
+                  <div
+                    className="img-zoom relative aspect-[3/4] group"
+                    onClick={() => openLightbox(i)}
+                  >
+                    {/* Skeleton shimmer */}
+                    {!imageLoaded[img.src] && (
+                      <div className="absolute inset-0 skeleton-shimmer rounded-[4px]" />
+                    )}
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      fill
+                      quality={100}
+                      className={`object-cover rounded-[4px] transition-opacity duration-500 ${imageLoaded[img.src] ? "opacity-100" : "opacity-0"}`}
+                      style={{ objectPosition: "center top" }}
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      onLoad={() => setImageLoaded((prev) => ({ ...prev, [img.src]: true }))}
+                    />
+                    {/* Hover overlay */}
+                    <div className="absolute inset-0 bg-site-black/0 group-hover:bg-site-black/60 transition-all duration-500 flex flex-col items-center justify-end p-8 opacity-0 group-hover:opacity-100 hidden md:flex">
+                      <p
+                        className="mb-2"
+                        style={{
+                          fontFamily: "var(--font-body), Montserrat, sans-serif",
+                          fontWeight: 300,
+                          fontSize: 12,
+                          color: "#f5f0e8",
+                          letterSpacing: "0.05em",
+                        }}
+                      >
+                        {img.alt}
+                      </p>
+                      <Link
+                        href="/contact"
+                        className="btn-cta transition-colors duration-300 hover:bg-cream"
+                        style={{
+                          background: "#c9a96e",
+                          color: "#1a1a18",
+                          fontFamily: "var(--font-body), Montserrat, sans-serif",
+                          fontWeight: 400,
+                          fontSize: 9,
+                          letterSpacing: "0.25em",
+                          textTransform: "uppercase",
+                          padding: "10px 24px",
+                          display: "inline-block",
+                        }}
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        Enquire Now
+                      </Link>
+                    </div>
+                  </div>
+                  {/* Door name + mobile enquire */}
+                  <p
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 300,
+                      fontSize: 11,
+                      letterSpacing: "0.15em",
+                      color: "#1a1a18",
+                      padding: "10px 0 4px",
+                    }}
+                  >
+                    {img.alt}
+                  </p>
+                  <Link
+                    href="/contact"
+                    className="lg:hidden"
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 300,
+                      fontSize: 10,
+                      letterSpacing: "0.2em",
+                      textTransform: "uppercase",
+                      color: "#c9a96e",
+                      paddingBottom: 8,
+                    }}
+                  >
+                    Enquire Now &rarr;
+                  </Link>
+                </motion.div>
+              ))}
+            </AnimatePresence>
+          </div>
+        </LayoutGroup>
       </section>
 
       {/* Lightbox */}
-      {lightbox !== null && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center"
-          style={{ background: "rgba(10, 10, 9, 0.95)" }}
-          onClick={closeLightbox}
-        >
-          {/* Close */}
-          <button
-            className="absolute top-6 right-6 z-50 transition-opacity hover:opacity-70"
-            style={{
-              fontFamily: "var(--font-body), Montserrat, sans-serif",
-              fontWeight: 200,
-              fontSize: 12,
-              color: "rgba(245, 240, 232, 0.6)",
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-              letterSpacing: "0.2em",
-              textTransform: "uppercase",
-            }}
+      <AnimatePresence>
+        {lightbox !== null && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="fixed inset-0 z-50 flex items-center justify-center"
+            style={{ background: "rgba(10, 10, 9, 0.95)" }}
             onClick={closeLightbox}
           >
-            Close
-          </button>
-
-          {/* Prev */}
-          {lightbox > 0 && (
+            {/* Close */}
             <button
-              className="absolute left-6 top-1/2 -translate-y-1/2 z-50 transition-opacity hover:opacity-70"
+              className="absolute top-6 right-6 z-50 transition-opacity hover:opacity-70"
               style={{
-                color: "rgba(245, 240, 232, 0.5)",
-                fontSize: 32,
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 200,
+                fontSize: 12,
+                color: "rgba(245, 240, 232, 0.6)",
                 background: "none",
                 border: "none",
                 cursor: "pointer",
+                letterSpacing: "0.2em",
+                textTransform: "uppercase",
               }}
-              onClick={(e) => {
-                e.stopPropagation();
-                navigate(-1);
+              onClick={closeLightbox}
+            >
+              Close
+            </button>
+
+            {/* Prev */}
+            {lightbox > 0 && (
+              <button
+                className="absolute left-6 top-1/2 -translate-y-1/2 z-50 transition-opacity hover:opacity-70"
+                style={{
+                  color: "rgba(245, 240, 232, 0.5)",
+                  fontSize: 32,
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                }}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  navigate(-1);
+                }}
+              >
+                &#8249;
+              </button>
+            )}
+
+            {/* Next */}
+            {lightbox < filtered.length - 1 && (
+              <button
+                className="absolute right-6 top-1/2 -translate-y-1/2 z-50 transition-opacity hover:opacity-70"
+                style={{
+                  color: "rgba(245, 240, 232, 0.5)",
+                  fontSize: 32,
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                }}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  navigate(1);
+                }}
+              >
+                &#8250;
+              </button>
+            )}
+
+            {/* Image with swipe + crossfade */}
+            <motion.div
+              className="relative w-[90vw] h-[80vh] max-w-5xl"
+              onClick={(e) => e.stopPropagation()}
+              drag="x"
+              dragConstraints={{ left: 0, right: 0 }}
+              dragElastic={0.2}
+              onDragEnd={(_, info) => {
+                if (Math.abs(info.offset.x) > 80) {
+                  navigate(info.offset.x > 0 ? -1 : 1);
+                }
               }}
             >
-              &#8249;
-            </button>
-          )}
-
-          {/* Next */}
-          {lightbox < filtered.length - 1 && (
-            <button
-              className="absolute right-6 top-1/2 -translate-y-1/2 z-50 transition-opacity hover:opacity-70"
-              style={{
-                color: "rgba(245, 240, 232, 0.5)",
-                fontSize: 32,
-                background: "none",
-                border: "none",
-                cursor: "pointer",
-              }}
-              onClick={(e) => {
-                e.stopPropagation();
-                navigate(1);
-              }}
-            >
-              &#8250;
-            </button>
-          )}
-
-          {/* Image */}
-          <div
-            className="relative w-[90vw] h-[80vh] max-w-5xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <Image
-              src={filtered[lightbox].src}
-              alt={filtered[lightbox].alt}
-              fill
-              quality={100}
-              className="object-contain"
-              sizes="90vw"
-            />
-          </div>
-        </div>
-      )}
+              <AnimatePresence mode="wait" custom={direction}>
+                <motion.div
+                  key={filtered[lightbox].src}
+                  initial={{ opacity: 0, x: direction * 40 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -direction * 40 }}
+                  transition={{ duration: 0.35, ease: "easeOut" }}
+                  className="absolute inset-0"
+                >
+                  <Image
+                    src={filtered[lightbox].src}
+                    alt={filtered[lightbox].alt}
+                    fill
+                    quality={100}
+                    className="object-contain"
+                    sizes="90vw"
+                  />
+                </motion.div>
+              </AnimatePresence>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 }

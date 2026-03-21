@@ -173,6 +173,64 @@ textarea:focus {
   }
 }
 
+/* Animated gold underline on hover */
+.link-gold-underline {
+  background-image: linear-gradient(#c9a96e, #c9a96e);
+  background-size: 0% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s ease, color 0.3s ease;
+}
+.link-gold-underline:hover {
+  background-size: 100% 1px;
+}
+
+/* CTA button hover lift + gold shadow */
+.btn-cta {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.btn-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px rgba(201, 169, 110, 0.3);
+}
+.btn-cta:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Shimmer skeleton loading */
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #e8e3db 25%, #efe9e0 50%, #e8e3db 75%);
+  background-size: 800px 100%;
+  animation: shimmer 1.5s infinite ease-in-out;
+}
+
+/* Gallery image cursor */
+.img-zoom {
+  cursor: zoom-in;
+}
+
+/* Active state feedback */
+button:active,
+a:active {
+  transform: scale(0.98);
+}
+
+/* Reduced motion — respect user preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;
