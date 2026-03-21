@@ -9,6 +9,15 @@ export const metadata: Metadata = {
   },
 };
 
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://steelr.co.uk" },
+    { "@type": "ListItem", position: 2, name: "Collection", item: "https://steelr.co.uk/collection" },
+  ],
+});
+
 export default function CollectionLayout({
   children,
 }: {
@@ -16,7 +25,7 @@ export default function CollectionLayout({
 }) {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://steelr.co.uk"},{"@type":"ListItem","position":2,"name":"Collection","item":"https://steelr.co.uk/collection"}]}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
       {children}
     </>
   );

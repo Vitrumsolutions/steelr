@@ -26,8 +26,7 @@ const credentials = [
 export default function AboutPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://steelr.co.uk"},{"@type":"ListItem","position":2,"name":"About","item":"https://steelr.co.uk/about"}]}) }} />
-      {/* Page banner — branded dark design */}
+      {/* Page banner */}
       <section
         className="relative flex items-center justify-center overflow-hidden"
         style={{ height: 240, background: "#1a1a18", paddingTop: 80 }}
@@ -116,8 +115,6 @@ export default function AboutPage() {
               No standard sizes. No off-the-shelf finishes. Every SteelR door is
               made to your exact specification.
             </p>
-          </div>
-
           </div></ScrollReveal>
           {/* Right — credentials */}
           <ScrollReveal direction="right"><div className="flex flex-col gap-4 justify-center">

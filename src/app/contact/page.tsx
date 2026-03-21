@@ -11,10 +11,19 @@ export const metadata: Metadata = {
   },
 };
 
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://steelr.co.uk" },
+    { "@type": "ListItem", position: 2, name: "Contact", item: "https://steelr.co.uk/contact" },
+  ],
+});
+
 export default function ContactPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://steelr.co.uk"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://steelr.co.uk/contact"}]}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
       {/* Hero banner */}
       <section
         className="flex items-center justify-center"
