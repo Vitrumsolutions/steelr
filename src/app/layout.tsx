@@ -102,9 +102,9 @@ export default function RootLayout({
                 "@type": "OfferCatalog",
                 "name": "Bespoke Steel Entrance Doors",
                 "itemListElement": [
-                  {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Contemporary Steel Entrance Door"}},
-                  {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Traditional Steel Entrance Door"}},
-                  {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Double Steel Entrance Doors"}}
+                  {"@type": "OfferCatalog", "name": "Contemporary Steel Entrance Doors"},
+                  {"@type": "OfferCatalog", "name": "Traditional Steel Entrance Doors"},
+                  {"@type": "OfferCatalog", "name": "Double Steel Entrance Doors"}
                 ]
               }
             }),
