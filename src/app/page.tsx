@@ -3,19 +3,24 @@ import Link from "next/link";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import ScrollReveal from "@/components/ScrollReveal";
+import HorizontalGallery from "@/components/HorizontalGallery";
+import ParallaxSection from "@/components/ParallaxSection";
 
 const galleryPreview = [
   {
     src: "/images/gallery/steelr-black-panelled-double-letterbox.jpg",
     alt: "Black panelled double steel door with letterbox",
+    pos: "center 40%",
   },
   {
     src: "/images/gallery/steelr-black-traditional-lion-knocker-open.jpg",
     alt: "Black traditional steel door with lion knocker open view",
+    pos: "center 30%",
   },
   {
     src: "/images/gallery/steelr-teal-panelled-glass-hallway.jpg",
     alt: "Teal panelled steel door with glass hallway view",
+    pos: "center 35%",
   },
 ];
 
@@ -100,7 +105,7 @@ export default function Home() {
                     height={800}
                     quality={100}
                     className="w-full h-full object-cover rounded-[4px]"
-                    style={{ objectPosition: "center top" }}
+                    style={{ objectPosition: img.pos }}
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </div>
@@ -226,7 +231,7 @@ export default function Home() {
                 fill
                 quality={100}
                 className="object-cover rounded-[4px]"
-                style={{ objectPosition: "center 30%" }}
+                style={{ objectPosition: "center 35%" }}
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
@@ -298,6 +303,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Section 5.5 — Parallax Statement */}
+      <ParallaxSection
+        imageSrc="/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg"
+        imageAlt="Black ornate steel door with lion knocker and sidelights"
+      />
+
+      {/* Section 5.7 — Horizontal Gallery Scroll */}
+      <HorizontalGallery />
 
       {/* Section 6 — Gallery CTA Banner */}
       <section className="bg-site-black py-16 md:py-20 px-6 md:px-16">
