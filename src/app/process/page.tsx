@@ -43,12 +43,35 @@ const stages = [
   },
 ];
 
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://steelr.co.uk" },
+    { "@type": "ListItem", position: 2, name: "Process", item: "https://steelr.co.uk/process" },
+  ],
+});
+
+const howToSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Get a Bespoke Steel Entrance Door Installed",
+  description: "Our four-step process from initial enquiry to professional installation of your bespoke steel entrance door.",
+  totalTime: "P12W",
+  step: [
+    { "@type": "HowToStep", position: 1, name: "Enquiry", text: "Get in touch by phone or online form. We discuss your property, your brief and your timeline." },
+    { "@type": "HowToStep", position: 2, name: "Survey", text: "We visit your property nationwide. Full measurements, structural assessment and detailed specification agreed on site." },
+    { "@type": "HowToStep", position: 3, name: "Design", text: "Your door is designed to your exact specification. Colour, hardware, glazing, panel style, finish. Every detail confirmed before manufacture begins." },
+    { "@type": "HowToStep", position: 4, name: "Installation", text: "Professional installation by our team. Typically 8 to 12 weeks from enquiry to installation. Full aftercare and warranty included." },
+  ],
+});
+
 export default function ProcessPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://steelr.co.uk"},{"@type":"ListItem","position":2,"name":"Process","item":"https://steelr.co.uk/process"}]}) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"HowTo","name":"How to Get a Bespoke Steel Entrance Door Installed","description":"Our four-step process from initial enquiry to professional installation of your bespoke steel entrance door.","totalTime":"P12W","step":[{"@type":"HowToStep","position":1,"name":"Enquiry","text":"Get in touch by phone or online form. We discuss your property, your brief and your timeline."},{"@type":"HowToStep","position":2,"name":"Survey","text":"We visit your property nationwide. Full measurements, structural assessment and detailed specification agreed on site."},{"@type":"HowToStep","position":3,"name":"Design","text":"Your door is designed to your exact specification. Colour, hardware, glazing, panel style, finish. Every detail confirmed before manufacture begins."},{"@type":"HowToStep","position":4,"name":"Installation","text":"Professional installation by our team. Typically 8 to 12 weeks from enquiry to installation. Full aftercare and warranty included."}]}) }} />
-      {/* Page banner — branded dark design */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: howToSchema }} />
+      {/* Page banner */}
       <section
         className="relative flex items-center justify-center overflow-hidden"
         style={{ height: 240, background: "#1a1a18", paddingTop: 80 }}
