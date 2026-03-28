@@ -104,6 +104,7 @@ export default function AboutPage() {
               every detail is considered.
             </p>
             <p
+              className="mb-6"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
                 fontWeight: 200,
@@ -115,6 +116,34 @@ export default function AboutPage() {
               No standard sizes. No off-the-shelf finishes. Every SteelR door is
               made to your exact specification.
             </p>
+            <div className="flex flex-wrap gap-4 mt-4">
+              <Link
+                href="/process"
+                className="link-gold-underline"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 300,
+                  fontSize: 13,
+                  color: "#1a1a18",
+                  letterSpacing: "0.05em",
+                }}
+              >
+                See our 4-step process &rarr;
+              </Link>
+              <Link
+                href="/collection"
+                className="link-gold-underline"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 300,
+                  fontSize: 13,
+                  color: "#1a1a18",
+                  letterSpacing: "0.05em",
+                }}
+              >
+                Browse steel door designs &rarr;
+              </Link>
+            </div>
           </div></ScrollReveal>
           {/* Right — credentials */}
           <ScrollReveal direction="right"><div className="flex flex-col gap-4 justify-center">

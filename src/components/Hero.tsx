@@ -177,19 +177,32 @@ export default function Hero() {
       </div>
 
       {/* CTA — bottom left */}
-      <div className="absolute bottom-0 left-0 z-30 p-8 md:p-16">
+      <div className="absolute bottom-0 left-0 z-30 p-8 md:p-16 max-w-xl">
+        <h2
+          className="mb-3"
+          style={{
+            fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+            fontWeight: 300,
+            fontSize: "clamp(24px, 3vw, 36px)",
+            color: "#f5f0e8",
+            lineHeight: 1.15,
+            textShadow: "0 2px 12px rgba(0, 0, 0, 0.5)",
+          }}
+        >
+          The UK&rsquo;s highest security entrance doors, made to your exact specification
+        </h2>
         <p
           className="mb-5"
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
             fontWeight: 300,
-            fontSize: 15,
-            letterSpacing: "0.08em",
-            color: "rgba(245, 240, 232, 0.85)",
+            fontSize: 13,
+            letterSpacing: "0.05em",
+            color: "rgba(245, 240, 232, 0.75)",
             textShadow: "0 1px 6px rgba(0, 0, 0, 0.4)",
           }}
         >
-          Designed and installed nationwide
+          SR3 rated. Designed and installed nationwide. 8–12 week lead time.
         </p>
 
         <Link
@@ -206,7 +219,7 @@ export default function Hero() {
             padding: "16px 40px",
           }}
         >
-          Request a Consultation
+          Request a Free Consultation
         </Link>
       </div>
 

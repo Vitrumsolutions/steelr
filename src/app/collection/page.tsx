@@ -5,63 +5,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
 import ScrollReveal from "@/components/ScrollReveal";
+import { doors } from "@/data/doors";
 
-const galleryImages = [
-  { src: "/images/gallery/steelr-black-panelled-double-letterbox.jpg", alt: "Black panelled double steel door with letterbox", style: "Double Doors" },
-  { src: "/images/gallery/steelr-black-traditional-lion-knocker-open.jpg", alt: "Black traditional steel door with lion knocker open", style: "Traditional" },
-  { src: "/images/gallery/steelr-teal-panelled-glass-hallway.jpg", alt: "Teal panelled steel door with glass hallway view", style: "Contemporary" },
-  { src: "/images/gallery/steelr-navy-traditional-vine-porch.jpg", alt: "Navy traditional steel door with vine-covered porch", style: "Traditional" },
-  { src: "/images/gallery/steelr-navy-panelled-chrome-palms.jpg", alt: "Navy panelled steel door with chrome hardware and palms", style: "Contemporary" },
-  { src: "/images/gallery/steelr-black-contemporary-dual-sidelights.jpg", alt: "Black contemporary steel door with dual sidelights", style: "Contemporary" },
-  { src: "/images/gallery/steelr-champagne-arched-geometric-double.jpg", alt: "Champagne arched geometric double steel doors", style: "Double Doors" },
-  { src: "/images/gallery/steelr-walnut-ribbed-columns.jpg", alt: "Walnut ribbed steel door with classical columns", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-ornate-double-gable.jpg", alt: "Black ornate double steel doors with gable entrance", style: "Double Doors" },
-  { src: "/images/gallery/steelr-black-ornate-circular-fluted.jpg", alt: "Black ornate steel door with circular fluted design", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-panelled-ring-knocker-recessed.jpg", alt: "Black panelled steel door with ring knocker recessed", style: "Traditional" },
-  { src: "/images/gallery/steelr-grey-panelled-stone-surround.jpg", alt: "Grey panelled steel door with stone surround", style: "Contemporary" },
-  { src: "/images/gallery/steelr-olive-panelled-ring-knocker-sidelight.jpg", alt: "Olive panelled steel door with ring knocker and sidelight", style: "Traditional" },
-  { src: "/images/gallery/steelr-cream-panelled-chrome-sidelight.jpg", alt: "Cream panelled steel door with chrome hardware and sidelight", style: "Contemporary" },
-  { src: "/images/gallery/steelr-black-contemporary-ribbed-topiary.jpg", alt: "Black contemporary ribbed steel door with topiary", style: "Contemporary" },
-  { src: "/images/gallery/steelr-taupe-panelled-dual-sidelights.jpg", alt: "Taupe panelled steel door with dual sidelights", style: "Contemporary" },
-  { src: "/images/gallery/steelr-black-contemporary-sunburst.jpg", alt: "Black contemporary steel door with sunburst design", style: "Contemporary" },
-  { src: "/images/gallery/steelr-grey-panelled-lever-handle.jpg", alt: "Grey panelled steel door with lever handle", style: "Contemporary" },
-  { src: "/images/gallery/steelr-cobalt-ornate-lion-knocker.jpg", alt: "Cobalt blue ornate steel door with lion knocker", style: "Traditional" },
-  { src: "/images/gallery/steelr-olive-traditional-arched-surround.jpg", alt: "Olive traditional steel door with arched surround", style: "Traditional" },
-  { src: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg", alt: "Olive traditional steel door with brass pendant light", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg", alt: "Black contemporary panelled steel door with sidelights", style: "Contemporary" },
-  { src: "/images/gallery/steelr-black-ornate-medallion-sidelights.jpg", alt: "Black ornate steel door with medallion and sidelights", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-traditional-wide-frosted.jpg", alt: "Black traditional wide steel door with frosted glass", style: "Traditional" },
-  { src: "/images/gallery/steelr-sage-traditional-arched-brick.jpg", alt: "Sage traditional steel door with arched brick surround", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-traditional-stained-glass.jpg", alt: "Black traditional steel door with stained glass", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg", alt: "Black ornate steel door with checkerboard step and canopy", style: "Traditional" },
-  { src: "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg", alt: "Navy panelled steel door with lanterns and fanlight", style: "Traditional" },
-  { src: "/images/gallery/steelr-sage-panelled-arched-wreath.jpg", alt: "Sage panelled steel door with arched surround and wreath", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg", alt: "Black ornate steel door with lion knocker and sidelights", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-panelled-sidelights-palms.jpg", alt: "Black panelled steel door with sidelights and palms", style: "Contemporary" },
-  { src: "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg", alt: "Black traditional steel door with lion knocker and fanlight", style: "Traditional" },
-  { src: "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg", alt: "Taupe panelled steel door with chrome dual sidelights", style: "Contemporary" },
-  { src: "/images/gallery/steelr-black-traditional-chrome-interior.jpg", alt: "Black traditional steel door with chrome hardware interior view", style: "Contemporary" },
-  { src: "/images/gallery/steelr-red-traditional-lion-knocker.jpg", alt: "Red traditional steel door with lion knocker", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-traditional-ring-knocker-open.jpg", alt: "Black traditional steel door with ring knocker open", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg", alt: "Black contemporary ribbed steel door open view", style: "Contemporary" },
-  { src: "/images/gallery/steelr-black-traditional-columns-mansion.jpg", alt: "Black traditional steel door with columns on mansion", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-ornate-medallion-driveway.jpeg", alt: "Black ornate steel door with medallion on driveway", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg", alt: "Black ornate steel door with lion knocker and gable", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-traditional-double-columns.jpg", alt: "Black traditional double steel doors with columns", style: "Double Doors" },
-  { src: "/images/gallery/steelr-black-traditional-glazed-double.jpg", alt: "Black traditional glazed double steel doors", style: "Double Doors" },
-  { src: "/images/gallery/steelr-black-traditional-lion-knocker-sidelights-garden.jpg", alt: "Black traditional steel door with lion knocker sidelights and garden", style: "Traditional" },
-  { src: "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg", alt: "Charcoal contemporary horizontal double steel doors", style: "Double Doors" },
-  { src: "/images/gallery/steelr-charcoal-traditional-oval-window-lantern.jpg", alt: "Charcoal traditional steel door with oval window and lantern", style: "Traditional" },
-  { src: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg", alt: "Cream traditional steel door with lion knocker and topiary", style: "Traditional" },
-  { src: "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg", alt: "Espresso contemporary steel door with gold inlay detail", style: "Contemporary" },
-  { src: "/images/gallery/steelr-grey-contemporary-horizontal-slots.jpg", alt: "Grey contemporary steel door with horizontal slots", style: "Contemporary" },
-  { src: "/images/gallery/steelr-navy-contemporary-square-knocker.jpg", alt: "Navy contemporary steel door with square knocker", style: "Contemporary" },
-  { src: "/images/gallery/steelr-sage-contemporary-bar-handle-sidelight.jpg", alt: "Sage contemporary steel door with bar handle and sidelight", style: "Contemporary" },
-  { src: "/images/gallery/steelr-navy-traditional-brass-knocker-vine.jpeg", alt: "Navy traditional steel door with brass knocker and vine-covered porch", style: "Traditional" },
-  { src: "/images/gallery/steelr-blue-panelled-brass-hardware-flat.jpg", alt: "Blue panelled steel door with brass hardware detail", style: "Traditional" },
-  { src: "/images/gallery/steelr-black-panelled-chrome-sidelights-interior.jpeg", alt: "Black panelled steel door with chrome handle and sidelights interior view", style: "Contemporary" },
-  { src: "/images/gallery/steelr-white-panelled-sidelights-hallway.jpg", alt: "White panelled steel door with sidelights in hallway", style: "Contemporary" },
-];
+const galleryImages = doors.map((d) => ({
+  src: d.src,
+  alt: d.alt,
+  style: d.style,
+  slug: d.slug,
+  title: d.title,
+}));
 
 const filters = ["All", "Contemporary", "Traditional", "Double Doors"];
 
@@ -235,7 +187,7 @@ export default function CollectionPage() {
                     {/* Hover overlay */}
                     <div className="absolute inset-0 bg-site-black/0 group-hover:bg-site-black/60 transition-all duration-500 flex flex-col items-center justify-end p-8 opacity-0 group-hover:opacity-100 hidden md:flex">
                       <p
-                        className="mb-2"
+                        className="mb-3"
                         style={{
                           fontFamily: "var(--font-body), Montserrat, sans-serif",
                           fontWeight: 300,
@@ -244,30 +196,49 @@ export default function CollectionPage() {
                           letterSpacing: "0.05em",
                         }}
                       >
-                        {img.alt}
+                        {img.title}
                       </p>
-                      <Link
-                        href="/contact"
-                        className="btn-cta transition-colors duration-300 hover:bg-cream"
-                        style={{
-                          background: "#c9a96e",
-                          color: "#1a1a18",
-                          fontFamily: "var(--font-body), Montserrat, sans-serif",
-                          fontWeight: 400,
-                          fontSize: 9,
-                          letterSpacing: "0.25em",
-                          textTransform: "uppercase",
-                          padding: "10px 24px",
-                          display: "inline-block",
-                        }}
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        Enquire Now
-                      </Link>
+                      <div className="flex gap-3">
+                        <Link
+                          href={`/collection/${img.slug}`}
+                          className="btn-cta transition-colors duration-300 hover:bg-cream"
+                          style={{
+                            background: "#c9a96e",
+                            color: "#1a1a18",
+                            fontFamily: "var(--font-body), Montserrat, sans-serif",
+                            fontWeight: 400,
+                            fontSize: 9,
+                            letterSpacing: "0.25em",
+                            textTransform: "uppercase",
+                            padding: "10px 24px",
+                            display: "inline-block",
+                          }}
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          View Details
+                        </Link>
+                        <Link
+                          href="/contact"
+                          className="transition-colors duration-300 hover:text-cream inline-flex items-center"
+                          style={{
+                            fontFamily: "var(--font-body), Montserrat, sans-serif",
+                            fontWeight: 300,
+                            fontSize: 9,
+                            letterSpacing: "0.2em",
+                            textTransform: "uppercase",
+                            color: "rgba(245, 240, 232, 0.7)",
+                            padding: "10px 12px",
+                          }}
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          Enquire
+                        </Link>
+                      </div>
                     </div>
                   </div>
-                  {/* Door name + mobile enquire */}
-                  <p
+                  {/* Door name + mobile links */}
+                  <Link
+                    href={`/collection/${img.slug}`}
                     style={{
                       fontFamily: "var(--font-body), Montserrat, sans-serif",
                       fontWeight: 300,
@@ -275,25 +246,41 @@ export default function CollectionPage() {
                       letterSpacing: "0.15em",
                       color: "#1a1a18",
                       padding: "10px 0 4px",
+                      display: "block",
                     }}
                   >
-                    {img.alt}
-                  </p>
-                  <Link
-                    href="/contact"
-                    className="lg:hidden"
-                    style={{
-                      fontFamily: "var(--font-body), Montserrat, sans-serif",
-                      fontWeight: 300,
-                      fontSize: 10,
-                      letterSpacing: "0.2em",
-                      textTransform: "uppercase",
-                      color: "#c9a96e",
-                      paddingBottom: 8,
-                    }}
-                  >
-                    Enquire Now &rarr;
+                    {img.title}
                   </Link>
+                  <div className="flex gap-4 lg:hidden">
+                    <Link
+                      href={`/collection/${img.slug}`}
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 300,
+                        fontSize: 10,
+                        letterSpacing: "0.2em",
+                        textTransform: "uppercase",
+                        color: "#c9a96e",
+                        paddingBottom: 8,
+                      }}
+                    >
+                      View Details &rarr;
+                    </Link>
+                    <Link
+                      href="/contact"
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 300,
+                        fontSize: 10,
+                        letterSpacing: "0.2em",
+                        textTransform: "uppercase",
+                        color: "rgba(26, 26, 24, 0.4)",
+                        paddingBottom: 8,
+                      }}
+                    >
+                      Enquire
+                    </Link>
+                  </div>
                 </motion.div>
               ))}
             </AnimatePresence>

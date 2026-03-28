@@ -5,6 +5,7 @@ const footerLinks = [
   { href: "/collection", label: "Collection" },
   { href: "/about", label: "About" },
   { href: "/process", label: "Process" },
+  { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -71,6 +72,29 @@ export default function Footer() {
           className="w-12 mt-12 mb-6"
           style={{ height: 1, background: "rgba(201, 169, 110, 0.2)" }}
         />
+
+        {/* Legal links */}
+        <div className="flex items-center gap-6 mb-4">
+          {[
+            { href: "/privacy", label: "Privacy Policy" },
+            { href: "/terms", label: "Terms & Conditions" },
+          ].map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="transition-colors duration-300 hover:text-cream"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 200,
+                fontSize: 9,
+                letterSpacing: "0.15em",
+                color: "rgba(245, 240, 232, 0.25)",
+              }}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </div>
 
         {/* Copyright */}
         <p

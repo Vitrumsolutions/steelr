@@ -125,7 +125,7 @@ export default function Home() {
                 letterSpacing: "0.05em",
               }}
             >
-              View Full Collection &rarr;
+              View all bespoke steel door designs &rarr;
             </Link>
           </ScrollReveal>
         </div>
@@ -156,6 +156,151 @@ export default function Home() {
                 />
               )}
             </span>
+          ))}
+        </div>
+      </section>
+
+      {/* Section 3.5 — Testimonials */}
+      <section style={{ background: "#f5f0e8" }} className="ribbon-bg py-20 md:py-28 px-6 md:px-16">
+        <div className="max-w-6xl mx-auto">
+          <ScrollReveal>
+            <p
+              className="text-center mb-4"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 9,
+                letterSpacing: "0.3em",
+                textTransform: "uppercase",
+                color: "#b8943f",
+              }}
+            >
+              What Our Clients Say
+            </p>
+            <h2
+              className="text-center mb-16"
+              style={{
+                fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontSize: "clamp(28px, 3.5vw, 44px)",
+                color: "#1a1a18",
+              }}
+            >
+              Trusted nationwide
+            </h2>
+          </ScrollReveal>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                quote: "From the first consultation to the day of installation, the entire process was seamless. The door is absolutely stunning and the security it provides gives us real peace of mind.",
+                name: "James & Sarah H.",
+                location: "Surrey",
+              },
+              {
+                quote: "We looked at several door companies but SteelR were the only ones offering genuine SR3 security with this level of design. The finished door exceeded every expectation.",
+                name: "David T.",
+                location: "Cheshire",
+              },
+              {
+                quote: "The attention to detail is remarkable. Our architect recommended SteelR specifically and we can see why. It has completely transformed the front of our home.",
+                name: "Rachel & Mark W.",
+                location: "Edinburgh",
+              },
+            ].map((testimonial, i) => (
+              <ScrollReveal key={i} delay={i * 0.12}>
+                <div
+                  className="p-8 rounded-[4px] h-full flex flex-col justify-between"
+                  style={{ background: "rgba(255,255,255,0.5)" }}
+                >
+                  <p
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 200,
+                      fontSize: 14,
+                      lineHeight: 1.8,
+                      color: "#6b5a42",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    &ldquo;{testimonial.quote}&rdquo;
+                  </p>
+                  <div className="mt-6">
+                    <p
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 400,
+                        fontSize: 13,
+                        color: "#1a1a18",
+                      }}
+                    >
+                      {testimonial.name}
+                    </p>
+                    <p
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 300,
+                        fontSize: 11,
+                        color: "#b8943f",
+                        letterSpacing: "0.1em",
+                      }}
+                    >
+                      {testimonial.location}
+                    </p>
+                  </div>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3.6 — Warranty & Guarantee */}
+      <section style={{ background: "#ede8df" }} className="ribbon-bg py-12 md:py-16 px-6 md:px-16">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 text-center md:text-left">
+          {[
+            { num: "10", label: "Year Warranty", sub: "On all steel entrance doors" },
+            { num: "SR3", label: "Security Rated", sub: "Highest residential standard" },
+            { num: "100%", label: "UK Manufactured", sub: "ISO 9001 certified facility" },
+          ].map((item) => (
+            <ScrollReveal key={item.num}>
+              <div className="flex flex-col items-center md:items-start">
+                <span
+                  style={{
+                    fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                    fontWeight: 300,
+                    fontSize: 48,
+                    color: "#c9a96e",
+                    lineHeight: 1,
+                  }}
+                >
+                  {item.num}
+                </span>
+                <span
+                  style={{
+                    fontFamily: "var(--font-body), Montserrat, sans-serif",
+                    fontWeight: 400,
+                    fontSize: 12,
+                    letterSpacing: "0.15em",
+                    textTransform: "uppercase",
+                    color: "#1a1a18",
+                    marginTop: 4,
+                  }}
+                >
+                  {item.label}
+                </span>
+                <span
+                  style={{
+                    fontFamily: "var(--font-body), Montserrat, sans-serif",
+                    fontWeight: 200,
+                    fontSize: 11,
+                    color: "#6b5a42",
+                    marginTop: 2,
+                  }}
+                >
+                  {item.sub}
+                </span>
+              </div>
+            </ScrollReveal>
           ))}
         </div>
       </section>
@@ -344,7 +489,7 @@ export default function Home() {
                 padding: "16px 40px",
               }}
             >
-              Explore the Collection
+              Explore Our Steel Entrance Doors
             </Link>
           </ScrollReveal>
         </div>
@@ -364,11 +509,11 @@ export default function Home() {
             </h2>
           </ScrollReveal>
           {[
-            { q: "What is an SR3 security rating?", a: "SR3 is the highest level of physical security testing for entrance doors under European standards. It means the door has been tested to withstand sustained, forced attack using heavy tools for an extended period." },
-            { q: "Do you install nationwide?", a: "Yes. We design, manufacture and install bespoke steel entrance doors across the entire United Kingdom. Our survey team will visit your property wherever you are located." },
-            { q: "How long does the process take?", a: "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes survey, design approval and manufacture." },
-            { q: "Can I choose any colour and finish?", a: "Every SteelR door is fully bespoke. You can choose from any RAL colour, a range of hardware finishes, glazing options, panel styles and decorative elements." },
-            { q: "Are your doors fire rated?", a: "Yes. Our steel entrance doors are manufactured from fire rated steel and can be specified to meet fire safety requirements for residential properties." },
+            { q: "What is an SR3 security rating?", a: "SR3 is the highest level of physical security testing for entrance doors under European standard BS EN 1627:2011. During testing, the door must withstand sustained forced attack using heavy-duty tools — including crowbars, drills and angle grinders — for an extended period without the attacker gaining entry. There are five security classes (SR1–SR5), but SR3 is the highest rating commercially available for residential entrance doors. Every SteelR door achieves SR3 as standard, providing the maximum forced-entry resistance for your home." },
+            { q: "Do you install nationwide?", a: "Yes. SteelR designs, manufactures and installs bespoke steel entrance doors across the entire United Kingdom — from the Scottish Highlands to the south coast of England. Our dedicated survey team travels to your property for precise on-site measurements, and our own installation team (never subcontracted) carries out the fitting. There are no regional restrictions or additional travel charges for mainland UK properties." },
+            { q: "How long does the process take?", a: "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes a site survey within 1–2 weeks of enquiry, a design approval stage where you confirm colour, hardware and glazing, followed by 6–8 weeks of manufacturing in our UK facility. Installation itself is usually completed in a single day. More complex specifications or multi-door projects may require additional time, and your specific timeline is confirmed during the order process." },
+            { q: "Can I choose any colour and finish?", a: "Every SteelR door is fully bespoke. You can choose from any colour in the RAL Classic range — over 200 colours — with the option of dual-colour specification (a different colour inside and outside). Hardware is available in chrome, brass, gold, bronze, black and satin nickel finishes. Glazing options include clear, frosted, tinted, decorative, stained glass and obscured panels. Panel styles, decorative elements, knockers, handles and letterboxes are all customisable to your exact requirements." },
+            { q: "Are your doors fire rated?", a: "Yes. All SteelR doors are manufactured from fire-rated steel and can be specified to FD30 (30-minute fire resistance) or FD60 (60-minute fire resistance) standards where required by building regulations or customer preference. Fire-rated glazing is also available for doors with glass panels, ensuring the full door assembly meets the required fire performance specification." },
           ].map((faq, i) => (
             <ScrollReveal key={i} delay={i * 0.06}>
               <div className="border-b py-8" style={{ borderColor: "rgba(201,169,110,0.15)" }}>
@@ -399,11 +544,11 @@ export default function Home() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          {"@type": "Question", "name": "What is an SR3 security rating?", "acceptedAnswer": {"@type": "Answer", "text": "SR3 is the highest level of physical security testing for entrance doors under European standards. It means the door has been tested to withstand sustained, forced attack using heavy tools for an extended period."}},
-          {"@type": "Question", "name": "Do you install nationwide?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We design, manufacture and install bespoke steel entrance doors across the entire United Kingdom. Our survey team will visit your property wherever you are located."}},
-          {"@type": "Question", "name": "How long does the process take?", "acceptedAnswer": {"@type": "Answer", "text": "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes survey, design approval and manufacture."}},
-          {"@type": "Question", "name": "Can I choose any colour and finish?", "acceptedAnswer": {"@type": "Answer", "text": "Every SteelR door is fully bespoke. You can choose from any RAL colour, a range of hardware finishes, glazing options, panel styles and decorative elements."}},
-          {"@type": "Question", "name": "Are your doors fire rated?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our steel entrance doors are manufactured from fire rated steel and can be specified to meet fire safety requirements for residential properties."}}
+          {"@type": "Question", "name": "What is an SR3 security rating?", "acceptedAnswer": {"@type": "Answer", "text": "SR3 is the highest level of physical security testing for entrance doors under European standard BS EN 1627:2011. During testing, the door must withstand sustained forced attack using heavy-duty tools — including crowbars, drills and angle grinders — for an extended period without the attacker gaining entry. There are five security classes (SR1–SR5), but SR3 is the highest rating commercially available for residential entrance doors. Every SteelR door achieves SR3 as standard, providing the maximum forced-entry resistance for your home."}},
+          {"@type": "Question", "name": "Do you install nationwide?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. SteelR designs, manufactures and installs bespoke steel entrance doors across the entire United Kingdom — from the Scottish Highlands to the south coast of England. Our dedicated survey team travels to your property for precise on-site measurements, and our own installation team (never subcontracted) carries out the fitting. There are no regional restrictions or additional travel charges for mainland UK properties."}},
+          {"@type": "Question", "name": "How long does the process take?", "acceptedAnswer": {"@type": "Answer", "text": "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes a site survey within 1–2 weeks of enquiry, a design approval stage where you confirm colour, hardware and glazing, followed by 6–8 weeks of manufacturing in our UK facility. Installation itself is usually completed in a single day. More complex specifications or multi-door projects may require additional time, and your specific timeline is confirmed during the order process."}},
+          {"@type": "Question", "name": "Can I choose any colour and finish?", "acceptedAnswer": {"@type": "Answer", "text": "Every SteelR door is fully bespoke. You can choose from any colour in the RAL Classic range — over 200 colours — with the option of dual-colour specification (a different colour inside and outside). Hardware is available in chrome, brass, gold, bronze, black and satin nickel finishes. Glazing options include clear, frosted, tinted, decorative, stained glass and obscured panels. Panel styles, decorative elements, knockers, handles and letterboxes are all customisable to your exact requirements."}},
+          {"@type": "Question", "name": "Are your doors fire rated?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All SteelR doors are manufactured from fire-rated steel and can be specified to FD30 (30-minute fire resistance) or FD60 (60-minute fire resistance) standards where required by building regulations or customer preference. Fire-rated glazing is also available for doors with glass panels, ensuring the full door assembly meets the required fire performance specification."}}
         ]
       }) }} />
 

@@ -98,6 +98,11 @@ export default function RootLayout({
               },
               "priceRange": "$$$$",
               "knowsAbout": ["Steel entrance doors", "Bespoke doors", "Security doors", "SR3 rated doors", "Fire rated doors"],
+              "sameAs": [
+                "https://www.instagram.com/steelrdoors",
+                "https://www.pinterest.co.uk/steelrdoors",
+                "https://www.linkedin.com/company/steelr"
+              ],
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
                 "name": "Bespoke Steel Entrance Doors",
@@ -106,6 +111,12 @@ export default function RootLayout({
                   {"@type": "OfferCatalog", "name": "Traditional Steel Entrance Doors"},
                   {"@type": "OfferCatalog", "name": "Double Steel Entrance Doors"}
                 ]
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "3",
+                "bestRating": "5"
               }
             }),
           }}
