@@ -64,7 +64,7 @@ Choose a **composite door** if you want a solid upgrade from timber at a moderat
 
 Choose a **steel entrance door** if you want the **highest possible security** (SR3 rated), complete design freedom, UK manufacturing, professional installation and a door that will last for decades without compromise.
 
-At SteelR, every door is manufactured to SR3 security standards, ISO 9001 certified, and Secured by Design approved. We design, manufacture and install bespoke steel entrance doors nationwide across the UK.`,
+At SteelR, every door is manufactured to [SR3 security standards](/blog/what-is-sr3-security-rating), ISO 9001 certified, and [Secured by Design approved](/blog/secured-by-design-doors). We design, manufacture and install bespoke steel entrance doors nationwide across the UK. [Browse our full collection](/collection) to see the range of designs available.`,
   },
   {
     slug: "what-is-sr3-security-rating",
@@ -120,7 +120,7 @@ In addition to SR3 testing, look for **Secured by Design** accreditation. This i
 
 ## SteelR and SR3
 
-Every SteelR entrance door achieves SR3 as standard — not as an upgrade or optional extra. Combined with ISO 9001 certified manufacturing, fire-rated steel construction and Secured by Design approval, SteelR doors provide the highest level of security available for a residential entrance door in the United Kingdom.`,
+Every SteelR entrance door achieves SR3 as standard — not as an upgrade or optional extra. Combined with ISO 9001 certified manufacturing, fire-rated steel construction and [Secured by Design approval](/blog/secured-by-design-doors), SteelR doors provide the highest level of security available for a residential entrance door in the United Kingdom. See examples of our [traditional steel doors with lion knockers](/collection/black-traditional-lion-knocker-open) and [contemporary designs](/collection/black-contemporary-dual-sidelights) in our collection.`,
   },
   {
     slug: "choosing-entrance-door-colour",
@@ -178,7 +178,7 @@ With a bespoke steel door, you can specify different colours for the interior an
 
 ## Make It Yours
 
-At SteelR, colour is just the beginning. Every door is manufactured to your exact specification with your choice of colour, hardware, glazing, panel design and decorative elements. Contact us to discuss your vision.`,
+At SteelR, colour is just the beginning. Every door is manufactured to your exact specification with your choice of colour, hardware, glazing, panel design and decorative elements. See our [red traditional door with lion knocker](/collection/red-traditional-lion-knocker), [navy panelled door](/collection/navy-panelled-chrome-palms), or [sage contemporary design](/collection/sage-contemporary-bar-handle-sidelight) for inspiration. [Contact us](/contact) to discuss your vision.`,
   },
   {
     slug: "secured-by-design-doors",
@@ -506,6 +506,497 @@ For steel entrance doors, ISO 9001 certification means that the SR3 security rat
 SteelR manufactures bespoke steel entrance doors to **SR3 security rating**, with **Secured by Design accreditation** and **ISO 9001 certified quality management** as standard on every doorset. We support architects and specifiers throughout the design and specification process with technical data, CAD details, NBS clauses and dedicated project management.
 
 Whether you are working on a single high-end residential project or a multi-unit development, we welcome early-stage design conversations. Contact SteelR to discuss your specification requirements or to arrange a CPD presentation for your practice.`,
+  },
+  {
+    slug: "best-front-doors-period-properties",
+    title: "Best Front Doors for Period Properties in the UK",
+    description:
+      "A guide to choosing the right front door for period properties — covering Victorian front doors, Georgian front doors, Edwardian homes and listed buildings, with advice on materials, styles and conservation compliance.",
+    date: "2026-03-22",
+    readTime: "7 min read",
+    category: "Design",
+    image: "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
+    imageAlt:
+      "Black ornate steel entrance door with lion knocker and sidelights — period property front door",
+    content: `## Why Period Properties Need Special Consideration
+
+Choosing a front door for a period property is not the same as choosing one for a new build. Whether you own a **Victorian terraced house**, a **Georgian townhouse**, an **Edwardian semi** or a rural cottage, the entrance door must respect the architectural character of the building while meeting modern expectations for security, thermal performance and durability.
+
+Get it right, and your front door becomes the defining feature of your home's facade. Get it wrong, and an inappropriate door can undermine the entire character of a period property — and, in the case of listed buildings, may even breach planning regulations.
+
+This guide covers the key considerations for choosing front doors for period properties in the UK, including the main architectural styles, material options and how to balance heritage aesthetics with modern performance.
+
+## Understanding Your Property's Architectural Style
+
+### Georgian Properties (1714-1837)
+
+**Georgian front doors** are among the most recognisable in British architecture. Key features include:
+
+- **Six-panel door designs** — the classic Georgian layout with symmetrical raised or fielded panels
+- **Rectangular fanlights** — glazed panels above the door, often with elegant radial or spider-web glazing bars
+- **Restrained proportions** — Georgian architecture is defined by symmetry, balance and classical order
+- **Colours** — historically, dark greens, blacks, deep reds and blues. Many Georgian properties in conservation areas have specific colour requirements
+- **Hardware** — brass door knockers (lion heads, urns), brass letter plates and simple lever handles
+
+Georgian doors are typically set within a decorative door surround or portico with columns, pilasters and a cornice. The door itself is usually flush with the facade or slightly recessed.
+
+### Victorian Properties (1837-1901)
+
+**Victorian front doors** evolved significantly across the era, from restrained early Victorian designs to the ornate styles of the late Victorian period:
+
+- **Four-panel doors** — the most common Victorian layout, often with the top panels glazed
+- **Stained glass and decorative glazing** — colourful leaded lights, etched glass and Art Nouveau motifs became popular from the 1870s onwards
+- **Arched fanlights** — both semi-circular and segmental arched designs
+- **Deeper mouldings and more ornate detailing** than Georgian predecessors
+- **Colours** — dark greens, deep reds, browns, and by the late Victorian period, darker tones including black and navy
+- **Hardware** — decorative knockers, ornate letter plates, finger plates and bell pulls
+
+### Edwardian Properties (1901-1910)
+
+Edwardian front doors bridged the Victorian and modern eras:
+
+- **Simpler panel layouts** — often with a large upper glazed panel and a solid lower section
+- **Art Nouveau and Arts and Crafts influences** — organic motifs, heart shapes and tulip designs in glazing
+- **Wider door openings** — Edwardian properties often have more generous entrance halls
+- **Lighter colour palettes** — greens, creams, whites and natural wood tones
+- **Hardware** — a mix of Art Nouveau and simpler, more functional fittings
+
+## The Problem with Traditional Materials
+
+Historically, period front doors were made from **solid timber** — typically oak, mahogany or pine. While timber is authentic, it comes with well-documented drawbacks:
+
+- **Warping and swelling** — timber moves with changes in temperature and humidity, causing doors to stick, bind or develop gaps
+- **Rot and decay** — without regular maintenance, timber is vulnerable to wet rot and fungal attack, particularly at the base of the door and around glazing
+- **Maintenance burden** — timber doors require sanding, priming and repainting every 3 to 5 years to maintain appearance and performance
+- **Poor security** — a standard timber door offers minimal resistance to forced entry. Most can be breached in seconds with basic tools
+- **Thermal performance** — solid timber has moderate insulating properties, but draughts around ageing frames and panels are a major source of heat loss
+
+Many homeowners with period properties face a difficult choice: accept the limitations of timber for the sake of authenticity, or fit a modern door that looks out of place.
+
+## Steel Doors: The Best of Both Worlds
+
+A bespoke steel entrance door resolves this tension. Modern steel door manufacturing allows **any period design to be faithfully reproduced** in steel — with none of the drawbacks of timber and all the benefits of contemporary engineering.
+
+### Authentic Period Aesthetics
+
+A skilled manufacturer can replicate the panel layouts, moulding profiles, glazing patterns and proportions of any period style. Whether you need a six-panel Georgian door with a radial fanlight or a four-panel Victorian door with stained glass panels, a bespoke steel door can be designed to match the original detailing precisely.
+
+Because steel doors are made to order, there are **no standard sizes**. This is particularly important for period properties, where door openings are often non-standard dimensions that do not match the sizes available from off-the-shelf suppliers.
+
+### Security That Timber Cannot Match
+
+An **SR3-rated steel door** provides a level of security that no timber door can approach. While a solid timber door might delay an intruder for a few seconds, an SR3-rated steel door withstands sustained attack with crowbars, drills and angle grinders — tested and certified to **BS EN 1627:2011**.
+
+For owners of period properties — which are often perceived as softer targets due to their older construction — this level of security is particularly valuable.
+
+### Zero Maintenance
+
+Unlike timber, a steel door finished with a multi-layer paint system will not warp, crack, swell, rot or require regular repainting. The colour and finish remain stable for decades, regardless of weather exposure. This eliminates the ongoing maintenance cycle that period property owners know all too well.
+
+### Thermal Performance
+
+Period properties are often draughty, and the front door is a significant contributor to heat loss. A steel door with a **polyurethane-injected core and thermal break technology** achieves U-values that far exceed those of a solid timber door, helping to improve comfort and reduce energy bills.
+
+## Listed Buildings and Conservation Areas
+
+If your property is **listed** or located in a **conservation area**, you may need planning consent (Listed Building Consent or Conservation Area consent) before replacing the front door. Local planning authorities will assess whether the proposed door preserves or enhances the character and appearance of the building or area.
+
+Key considerations include:
+
+- **Material appearance** — a steel door finished to replicate the look of traditional painted timber is generally acceptable, provided the detailing is sympathetic
+- **Design accuracy** — the panel layout, moulding profiles, glazing patterns and proportions should reflect the original or an appropriate period style
+- **Colour** — some conservation areas specify permitted door colours. Check with your local planning authority before committing
+- **Hardware** — period-appropriate ironmongery (knockers, letter plates, hinges) supports a successful application
+
+It is always advisable to consult your local conservation officer early in the process. A good bespoke door manufacturer will have experience working within these constraints and can provide technical drawings and specifications to support a planning application.
+
+## Choosing the Right Colour for a Period Front Door
+
+Colour choice is closely tied to architectural period:
+
+- **Georgian** — black (RAL 9005), dark green (RAL 6007), deep red (RAL 3011), navy (RAL 5011)
+- **Victorian** — dark green, burgundy, brown, navy, black
+- **Edwardian** — sage green (RAL 6021), cream (RAL 9001), olive (RAL 6003), muted blues
+
+With a bespoke steel door, you can specify **any RAL colour** and even opt for a **dual-colour finish** — a heritage colour on the exterior to complement the facade, with a different colour on the interior to suit your hallway decor.
+
+## Hardware That Completes the Look
+
+The right ironmongery is essential for a convincing period door. Options include:
+
+- **Lion head knockers** — a classic Georgian and Victorian choice, available in brass, chrome and black finishes
+- **Ring knockers** — versatile traditional hardware that suits most period styles
+- **Decorative letter plates** — period-appropriate designs in brass or chrome
+- **Lever handles** — traditional profiles that complement the door's panel design
+- **Numerals and bell pushes** — the finishing details that complete the entrance
+
+## Making the Right Choice
+
+The best front doors for period properties combine **authentic period design** with **modern performance**. A bespoke steel entrance door achieves this by faithfully reproducing the aesthetic details of Georgian, Victorian or Edwardian design while delivering SR3 security, excellent thermal performance and zero ongoing maintenance.
+
+At SteelR, we design and manufacture bespoke steel entrance doors for period properties across the UK. Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management. If you are looking for a front door that respects your property's heritage while providing the highest standards of security and performance, we would welcome the opportunity to discuss your project.`,
+  },
+  {
+    slug: "steel-vs-timber-entrance-doors",
+    title: "Steel vs Timber Entrance Doors: A Complete Comparison",
+    description:
+      "A detailed comparison of steel and timber front doors covering security, durability, maintenance, thermal performance and design — helping UK homeowners choose the right entrance door material.",
+    date: "2026-03-18",
+    readTime: "6 min read",
+    category: "Buying Guide",
+    image: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
+    imageAlt:
+      "Olive traditional steel entrance door with brass pendant light — steel alternative to timber front door",
+    content: `## The Timber Door Tradition
+
+For centuries, the default material for a British front door has been **timber**. Oak, mahogany, pine and more recently engineered hardwoods have graced the entrances of homes from country cottages to London townhouses. Timber has warmth, character and a deep-rooted association with quality craftsmanship.
+
+But timber also comes with compromises that many homeowners are no longer willing to accept. As security threats evolve, energy efficiency standards rise and lifestyle expectations shift towards low-maintenance living, an increasing number of homeowners are considering **steel as a timber front door alternative**.
+
+This guide provides a complete, honest comparison of **steel vs timber doors** to help you decide which material is right for your home.
+
+## Security: A Decisive Difference
+
+This is the area where the gap between steel and timber is widest.
+
+**Timber doors**, even high-quality hardwood doors, offer limited resistance to forced entry. A standard timber door can typically be breached in under 30 seconds by an intruder using basic tools such as a crowbar or a heavy kick. The wood around the lock and hinges is the weakest point — it splits and gives way under concentrated force.
+
+**Steel entrance doors** rated to **SR3 under BS EN 1627:2011** withstand sustained attack using professional-grade tools including crowbars, drills and angle grinders. The steel construction, reinforced frame, multi-point locking system and security-rated hardware work together as a tested system. No timber door, regardless of species or construction method, can achieve SR3.
+
+For homeowners who take home security seriously, this is often the deciding factor.
+
+## Durability and Lifespan
+
+**Timber** is a natural material, and natural materials degrade over time when exposed to the elements:
+
+- **Warping and twisting** — timber absorbs and releases moisture with seasonal changes, causing the door to swell in winter and shrink in summer. This leads to sticking, binding and gaps that compromise both security and insulation.
+- **Rot** — the base of a timber door and areas around glazing are particularly vulnerable to wet rot, especially on exposed elevations
+- **Cracking and splitting** — UV exposure and repeated wet-dry cycles cause timber to crack and split over time, requiring filler and repair
+- **Typical lifespan** — a well-maintained hardwood door may last 20 to 30 years, though many softwood doors deteriorate significantly within 10 to 15 years
+
+**Steel** does not warp, swell, shrink, crack, split or rot. A steel entrance door finished with a professional multi-layer paint system maintains its structural integrity and appearance for decades. The material is dimensionally stable regardless of temperature, humidity or UV exposure.
+
+The lifespan of a quality steel door comfortably exceeds 30 years with minimal intervention.
+
+## Maintenance
+
+This is where timber's romantic appeal meets practical reality.
+
+**Timber doors** require regular, ongoing maintenance to remain functional and attractive:
+
+- **Sanding and repainting** every 3 to 5 years (more frequently on exposed south and west-facing elevations)
+- **Checking and adjusting hardware** as the timber moves seasonally
+- **Treating or replacing sections** affected by rot or insect damage
+- **Re-sealing around glazing** as putty or sealant deteriorates
+
+Over a 30-year period, the cumulative cost and effort of maintaining a timber door is substantial.
+
+**Steel doors** require virtually no maintenance. An occasional wipe with a damp cloth to remove dirt is all that is needed. There is no repainting cycle, no seasonal adjustment and no risk of rot or insect damage. The locks and hardware are specified for long-term durability and are easily serviced if required.
+
+## Thermal Performance
+
+Modern building standards demand good thermal performance from entrance doors. How do the two materials compare?
+
+**Timber** has natural insulating properties, and a solid hardwood door provides reasonable thermal performance. However, as timber warps and gaps develop around the edges and glazing, the effective insulation decreases significantly over time. Draught-proofing timber doors is an ongoing battle.
+
+**Steel doors** with a **polyurethane-injected core and thermally broken profiles** achieve excellent U-values — typically 0.9 to 1.2 W/m2K for a solid panel door. The thermal break prevents cold bridging through the steel, and because the door does not warp or move, the seal between door and frame remains consistent over time. This means the thermal performance on day one is the same as the thermal performance ten years later.
+
+## Design and Aesthetics
+
+One of timber's undeniable strengths is its natural beauty — the grain, the warmth, the tactile quality. But does choosing steel mean sacrificing aesthetics?
+
+**Timber doors** offer a wide range of designs, from traditional panelled doors to contemporary flush designs. The natural grain adds character, and timber can be stained or painted to achieve a variety of looks. However, timber doors from most suppliers come in standard sizes, and fully bespoke timber doors from specialist joiners are expensive and still carry the maintenance burden.
+
+**Steel doors** offer **complete design freedom**. Because every steel door is manufactured to order, you can specify:
+
+- **Any RAL colour** from a palette of over 200 options
+- **Dual-colour finishes** — a different colour inside and outside
+- **Any panel configuration** — from Georgian six-panel to sleek contemporary designs
+- **Custom dimensions** — no standard sizes, so the door fits your opening perfectly
+- **Decorative glazing** — leaded lights, stained glass, frosted panels, Crittall-style patterns
+- **Period-appropriate hardware** — lion knockers, ring knockers, brass letter plates, or contemporary pull bars and lever handles
+
+A bespoke steel door can faithfully replicate the look of a traditional timber door — including the panel proportions, moulding profiles and hardware placement — while delivering performance that timber cannot match. Equally, it can achieve bold contemporary designs that push beyond what timber can structurally achieve.
+
+## Weight and Operation
+
+**Timber doors** are relatively lightweight and easy to operate, though this can change as they swell and bind seasonally.
+
+**Steel doors** are heavier than timber equivalents. However, professional installation ensures that the door is hung on appropriate heavy-duty hinges and operates smoothly. The additional weight is actually a benefit — it contributes to the solid, reassuring feel of the door and discourages forced entry.
+
+## Environmental Considerations
+
+**Timber** is a renewable resource, and responsibly sourced timber from FSC or PEFC certified forests has genuine environmental credentials. However, the frequent repainting cycle involves solvents and paints, and premature replacement due to rot or deterioration adds to the lifetime environmental cost.
+
+**Steel** is one of the most recycled materials on earth. At the end of its long service life, a steel door is fully recyclable. The longer lifespan and absence of regular painting also reduce the lifetime environmental impact. A steel door that lasts 40 years has a smaller footprint than two or three timber doors over the same period.
+
+## Cost Comparison
+
+**Timber front doors** range widely in price:
+- Off-the-shelf softwood doors: £200 to £600
+- Engineered hardwood doors: £800 to £2,000
+- Bespoke joinery-made hardwood doors: £2,000 to £5,000+
+- Add maintenance costs of £150 to £300 every 3 to 5 years
+
+**Steel entrance doors** start from a higher initial price point, reflecting the SR3 security rating, bespoke manufacture and professional installation. However, when you factor in the zero maintenance cost and significantly longer lifespan, the total cost of ownership over 30 years is often comparable — while the security, performance and convenience are in a different league.
+
+## Which Should You Choose?
+
+Choose **timber** if you prioritise the natural grain and tactile quality of real wood, you are willing to commit to regular ongoing maintenance, and security beyond PAS 24 is not a primary concern.
+
+Choose **steel** if you want the **highest available security** (SR3 rated), zero maintenance, complete design freedom, superior long-term durability and a door that will perform consistently for decades.
+
+At SteelR, we manufacture bespoke steel entrance doors that deliver on every measure — SR3 security, Secured by Design accreditation, ISO 9001 certified quality and complete design freedom. Whether you want a door that replicates the warmth of traditional timber or a bold contemporary statement, we design and build it to your exact specification. Contact us to start the conversation.`,
+  },
+  {
+    slug: "how-to-improve-home-security-uk",
+    title: "How to Improve Home Security: A UK Homeowner's Guide",
+    description:
+      "Practical advice on how to improve home security for UK homeowners — from securing your front door and windows to lighting, alarms and smart technology, with expert guidance on what makes the biggest difference.",
+    date: "2026-03-12",
+    readTime: "8 min read",
+    category: "Security",
+    image: "/images/gallery/steelr-black-panelled-double-letterbox.jpg",
+    imageAlt:
+      "Black steel panelled entrance door with letterbox — secure front door for UK home security",
+    content: `## Home Security in the UK: The Reality
+
+Burglary remains one of the most common crimes in England and Wales. According to the Office for National Statistics, there are approximately **275,000 domestic burglaries** recorded each year. While the long-term trend has been downward, that figure still means roughly one in every 100 households is burgled annually.
+
+The good news is that most burglaries are opportunistic. Research consistently shows that visible security measures **deter the majority of would-be intruders** before they even attempt entry. Investing in effective home security is not just about preventing a break-in — it is about making your property a less attractive target in the first place.
+
+This guide covers the most effective ways to improve home security in the UK, starting with the single most important element: your front door.
+
+## Start with Your Front Door
+
+Your front door is the primary entry point for burglars. According to police crime data, around **70% of burglaries involve entry through a door** — and the front door is the most common target. A secure front door is the foundation of any effective home security strategy.
+
+### What Makes a Front Door Secure?
+
+Not all doors are equal when it comes to security. Here is what to look for:
+
+**Door material and construction**
+- **Steel** is the strongest material available for residential doors. A steel entrance door rated to **SR3 under BS EN 1627:2011** withstands attack with crowbars, drills and angle grinders
+- **Composite** doors with PAS 24 certification offer good security for most homes
+- **Timber** doors, unless reinforced, are the weakest option and can often be breached with a single kick
+- **uPVC** doors are the least secure and should be upgraded if security is a priority
+
+**Locking system**
+- **Multi-point locking** — the door should lock at multiple points along the frame (typically 3 to 5 points), not just a single deadbolt
+- **Anti-snap cylinders** — standard euro cylinders can be snapped in seconds using pliers. Anti-snap, anti-pick, anti-bump and anti-drill cylinders are essential
+- **BS 3621 or higher** — look for locks that meet at least BS 3621, the standard most insurers require
+
+**Frame and hinges**
+- The frame must be as strong as the door. A steel door in a weak timber frame is only as secure as the frame
+- **Dog bolt hinges** or **security hinges** prevent the door being lifted off its hinges
+- The frame must be securely fixed to the structural opening with appropriate fixings
+
+**Glazing**
+- If your door has glazed panels, the glass must be **laminated or security-rated** to match the door's security level
+- Standard glass can be smashed to reach the lock. Security glazing resists impact and holds together when broken
+
+### The Secured by Design Standard
+
+When choosing a secure front door, look for **Secured by Design** accreditation. This is the official UK police security initiative, and products carrying the mark have been independently tested and approved by police crime prevention officers. Secured by Design doors are tested as a complete system — door, frame, locks, hinges and glazing together — not just individual components.
+
+## Windows: The Second Priority
+
+After doors, windows are the next most common entry point. Key security measures include:
+
+- **Window locks** — all ground-floor windows should have key-operated locks, not just the standard catches
+- **Laminated glass** — particularly for ground-floor and accessible windows. Laminated glass holds together when broken, making entry much more difficult
+- **Window restrictors** — for windows that need to be left open for ventilation, restrictors limit the opening width
+- **Secured by Design windows** — as with doors, SBD-accredited windows have been independently tested
+
+## Exterior Lighting
+
+Burglars prefer to work in darkness. Effective exterior lighting is one of the simplest and most cost-effective security improvements:
+
+- **Motion-activated lights** — PIR (passive infrared) sensor lights that illuminate when movement is detected. Position them to cover all entry points: front door, back door, side gates and driveways
+- **Dusk-to-dawn lights** — low-energy lights that stay on from sunset to sunrise, providing constant ambient illumination
+- **Avoid dark recesses** — ensure there are no unlit areas close to the house where an intruder could work unseen
+- **Smart lighting** — connected lights that can be controlled remotely, scheduled to simulate occupancy when you are away, and integrated with cameras and alarms
+
+## Alarm Systems
+
+A visible alarm system is a proven deterrent. Options range from simple to sophisticated:
+
+- **Audible-only alarms** — trigger a loud siren when activated. The noise alerts neighbours and draws attention, but there is no monitoring
+- **Monitored alarms** — connected to a professional monitoring centre that contacts the homeowner and/or police when triggered. These provide a higher level of response
+- **Smart alarms** — systems like those from Ring, Yale and others that send instant notifications to your phone, integrate with cameras and can be controlled remotely
+- **Professional-grade systems** — for high-value properties, professionally designed and installed systems with multiple zones, backup power and cellular communication
+
+Regardless of the system you choose, a visible alarm box on the exterior of the property is itself a deterrent. Ensure it is positioned prominently.
+
+## CCTV and Video Doorbells
+
+Camera systems have become affordable and effective:
+
+- **Video doorbells** — devices like Ring, Nest and Eufy doorbells provide live video, two-way audio and motion alerts. They are visible to anyone approaching the door, which is itself a deterrent
+- **External CCTV cameras** — positioned to cover entry points, driveways and garden areas. Modern systems offer high-definition recording, night vision and cloud storage
+- **Signage** — a visible sign indicating that CCTV is in operation reinforces the deterrent effect (and is required under data protection regulations in many circumstances)
+
+## Garden and Perimeter Security
+
+The boundaries of your property are the first line of defence:
+
+- **Fencing and walls** — maintain boundary fences and walls in good condition. Broken or low fencing is an invitation. However, very high solid fences can also provide cover for burglars once they are inside, so a balance is needed
+- **Thorny planting** — plants like hawthorn, berberis, pyracantha and holly beneath windows and along fence lines create a natural, low-maintenance barrier
+- **Gravel driveways and paths** — gravel is noisy to walk on, making it difficult for anyone to approach the house unheard
+- **Secure sheds and outbuildings** — garden sheds often contain tools that can be used to break into the main house. Fit a proper padlock and consider an alarm or camera
+- **Gate locks** — side gates should be locked with a key-operated bolt, not just a simple latch
+
+## Smart Home Security
+
+Technology has made it easier than ever to monitor and secure your home:
+
+- **Smart locks** — keyless entry systems that can be controlled from your phone. Look for models that integrate with your door's security rating
+- **Home automation** — lights, blinds and audio systems that can be scheduled or controlled remotely to simulate occupancy
+- **Sensors** — door and window sensors that alert you when opened, vibration sensors that detect forced entry attempts
+- **Integration** — the most effective smart security systems integrate cameras, alarms, locks and lighting into a single app for comprehensive monitoring
+
+## Insurance Considerations
+
+Your home security measures directly affect your insurance:
+
+- Most insurers require **BS 3621 locks** as a minimum on external doors
+- **Secured by Design** accredited doors and windows may qualify for reduced premiums
+- **Alarm systems**, particularly monitored systems, often reduce premiums
+- **Failure to meet minimum security requirements** can invalidate a claim — always check your policy
+
+## A Layered Approach
+
+The most effective home security strategy uses **multiple layers of protection**:
+
+1. **Perimeter** — secure boundaries, lighting, gravel paths
+2. **Exterior** — CCTV, alarm systems, secure outbuildings
+3. **Entry points** — secure front door, window locks, security glazing
+4. **Interior** — internal doors, safes for valuables, smart sensors
+5. **Technology** — monitoring, alerts, remote control
+
+Each layer adds time, noise and risk for a would-be intruder — and the more layers they face, the more likely they are to abandon the attempt.
+
+## The Single Biggest Upgrade
+
+If you could make only one security improvement to your home, **upgrade your front door**. A secure front door rated to SR3 with Secured by Design accreditation eliminates the most common entry method and sends a clear signal that your property is well protected.
+
+At SteelR, every entrance door we manufacture is **SR3 security rated**, **Secured by Design accredited** and built with **multi-point locking systems** and **security-rated glazing** as standard. Combined with ISO 9001 certified manufacturing and professional installation, a SteelR door provides the strongest possible foundation for your home security. Contact us to discuss how we can help secure your home.`,
+  },
+  {
+    slug: "front-door-design-trends-2026",
+    title: "Front Door Design Trends for 2026",
+    description:
+      "The latest front door ideas and design trends for 2026 — from bold colours and oversized handles to smart technology and sustainable materials, with inspiration for modern front door design.",
+    date: "2026-03-08",
+    readTime: "6 min read",
+    category: "Design",
+    image: "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
+    imageAlt:
+      "Espresso contemporary steel entrance door with gold inlay detailing — modern front door design trend for 2026",
+    content: `## What Is Shaping Front Door Design in 2026?
+
+The front door has never been more important in British home design. As homeowners invest in their properties and kerb appeal becomes a priority for everyone from first-time buyers to renovation enthusiasts, entrance door design is evolving rapidly.
+
+The trends shaping **front door ideas** in 2026 reflect broader shifts in interior design, architecture and technology — a move towards individuality, sustainability, smart living and a renewed appreciation for craftsmanship.
+
+Here are the key **front door trends for 2026** that are defining modern front door design across the UK.
+
+## 1. Bold, Confident Colour Choices
+
+The era of playing it safe with white or plain timber is firmly behind us. In 2026, homeowners are embracing **bold, confident colour choices** for their entrance doors:
+
+- **Deep jewel tones** — emerald green, sapphire blue and rich burgundy are making a strong statement on period and contemporary properties alike
+- **Warm earthy tones** — espresso, terracotta, rust and warm olive are emerging as alternatives to the cool greys that dominated recent years
+- **Dual-colour specification** — choosing a different colour for the interior and exterior of the door is increasingly popular, allowing homeowners to complement their facade on the outside and their hallway decor on the inside
+- **Black with a twist** — while black remains the most popular door colour in the UK, homeowners are moving towards warmer blacks and soft charcoals (RAL 9017, RAL 7021) rather than pure jet black
+
+The availability of the **full RAL Classic range** — over 200 colours — means that homeowners who choose a bespoke door are no longer limited to the handful of options offered by off-the-shelf suppliers.
+
+## 2. Oversized and Statement Hardware
+
+Hardware is no longer an afterthought. In 2026, the handle, knocker and fittings are treated as **design features in their own right**:
+
+- **Oversized pull bars** — long, vertical pull bars in brushed brass, matt black or satin nickel are a defining feature of contemporary front door design
+- **Sculptural knockers** — moving beyond traditional lion heads and ring knockers, designers are exploring geometric, abstract and artisan-crafted knocker designs
+- **Mixed metal finishes** — combining brass and black, or chrome and bronze, for a layered, curated look
+- **Integrated smart locks** — keyless entry systems with clean, minimalist hardware that blends seamlessly with the door design
+- **Concealed hinges** — hidden hinge systems that create a cleaner, more streamlined appearance from the exterior
+
+The trend is towards hardware that makes a statement while maintaining quality and functionality. Cheap, lightweight fittings are out; substantial, well-crafted ironmongery is in.
+
+## 3. Ribbed, Fluted and Textured Surfaces
+
+Flat, featureless door panels are giving way to **three-dimensional surface treatments**:
+
+- **Vertical ribbing** — fine, evenly spaced ribs running the full height of the door create a subtle, contemporary texture that catches light and adds visual interest
+- **Fluted panels** — inspired by the fluted glass and furniture trend in interior design, fluted door panels bring depth and movement to the entrance
+- **Horizontal channelling** — wide, shallow channels running across the door face for a clean, architectural look
+- **Raised panel detailing** — a modern reinterpretation of traditional panelled doors, with sharper edges and more geometric proportions
+
+These textured finishes work particularly well in darker colours, where the interplay of light and shadow across the surface creates a dynamic, premium appearance.
+
+## 4. Crittall-Style and Industrial Glazing
+
+The **Crittall** aesthetic — characterised by slender black steel frames with multiple glazed panes — continues to grow in popularity for entrance doors:
+
+- **Sidelight panels** with Crittall-style glazing bars flanking a solid door
+- **Glazed panels within the door** using slim steel mullions and transoms
+- **Fanlight designs** with geometric glazing patterns above the door
+- **Full-height glazed sidelights** that flood the hallway with natural light while maintaining the industrial-luxe aesthetic
+
+This trend bridges the gap between contemporary and traditional, working well on Victorian conversions, warehouse-style apartments and modern new builds alike.
+
+## 5. Grand Entrance Proportions
+
+Standard-height doors feel increasingly dated. The trend in 2026 is towards **taller, more imposing entrance doors**:
+
+- **2400mm and above** — doors that reach closer to ceiling height create a sense of grandeur and make the entrance feel generous
+- **Oversized single doors** — a single, tall, wide door rather than a standard door with a fanlight
+- **Double door entrances** — particularly for detached properties, double doors make a bold architectural statement
+- **Full-height sidelights** — glazed panels that match the door height, creating a wall of light at the entrance
+
+This trend towards grander proportions is one area where bespoke manufacturing is essential. Off-the-shelf doors simply do not come in these sizes — a made-to-measure approach is the only option.
+
+## 6. Smart Door Technology
+
+Technology integration is becoming standard rather than exceptional:
+
+- **Smart locks** — keypad, fingerprint and app-controlled entry systems that eliminate the need for traditional keys
+- **Video doorbells** — integrated camera and intercom systems, often recessed into the door surround for a cleaner look
+- **Automated lighting** — entrance lighting that activates as you approach, controlled by motion sensors or geofencing via your phone
+- **Package management** — smart lock systems that allow delivery drivers to access a secure porch or vestibule
+
+The best implementations of smart door technology are **invisible until needed**. The hardware is clean, the technology is concealed, and the door still looks like a beautifully crafted entrance door rather than a gadget.
+
+## 7. Sustainability and Longevity
+
+Environmental awareness is influencing door buying decisions:
+
+- **Buy once, buy well** — homeowners are moving away from cheap, replaceable doors towards premium products that last for decades
+- **Recyclable materials** — steel is one of the most recycled materials on earth, and this resonates with environmentally conscious buyers
+- **Zero-maintenance finishes** — avoiding the regular sanding, painting and chemical treatments that timber doors require
+- **Thermal performance** — a well-insulated door reduces heating demand and energy costs, contributing to a lower-carbon home
+
+The sustainability trend favours materials and products with **long lifespans and minimal ongoing environmental impact** — which aligns perfectly with the characteristics of a bespoke steel entrance door.
+
+## 8. Heritage Meets Modern Performance
+
+One of the most distinctive trends in 2026 is the growing demand for doors that look authentically traditional but perform to modern standards:
+
+- **Georgian and Victorian designs** reproduced in steel with SR3 security and modern thermal performance
+- **Stained glass and leaded lights** combined with security-rated glazing
+- **Traditional ironmongery** (lion knockers, brass letter plates, ring pulls) fitted to contemporary-specification doors
+- **Heritage RAL colours** — deep reds, sage greens and creams that reference historical palettes while being finished with modern, durable paint systems
+
+This trend reflects the reality that many UK homes are period properties, and their owners want to honour the architectural character while benefiting from 21st-century engineering.
+
+## Bringing These Trends Together
+
+The common thread across all of these front door trends for 2026 is **individuality**. Homeowners no longer want to choose from a catalogue of standard options. They want a door that reflects their taste, suits their property and delivers on security, performance and sustainability.
+
+This is where bespoke manufacturing makes the difference. A made-to-order steel entrance door allows you to combine any of these trends — bold colour, statement hardware, textured panels, Crittall glazing, grand proportions, smart technology — into a single, cohesive design that is uniquely yours.
+
+At SteelR, every door is designed from scratch to our client's exact vision. With SR3 security, Secured by Design accreditation, ISO 9001 certified manufacturing and the full RAL colour range as standard, we provide the foundation for a front door that is as individual as your home. Contact us to explore the possibilities for your entrance.`,
   },
 ];
 

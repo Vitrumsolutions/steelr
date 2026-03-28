@@ -219,8 +219,100 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Team */}
+      <section className="bg-cream ribbon-bg py-20 md:py-32 px-6 md:px-16">
+        <div className="max-w-7xl mx-auto">
+          <ScrollReveal>
+            <p
+              className="mb-4"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 9,
+                letterSpacing: "0.3em",
+                textTransform: "uppercase",
+                color: "#b8943f",
+              }}
+            >
+              The Team
+            </p>
+            <h2
+              className="mb-14"
+              style={{
+                fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontSize: "clamp(28px, 3.5vw, 44px)",
+                color: "#1a1a18",
+                lineHeight: 1.1,
+              }}
+            >
+              The people behind every door
+            </h2>
+          </ScrollReveal>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            {[
+              {
+                name: "Mani Sandhu",
+                role: "Founder & Director",
+                bio: "With over 15 years in the construction and fenestration industry, Mani founded SteelR to bring together the highest security standards with truly bespoke design. He oversees every project from initial enquiry to final installation.",
+              },
+              {
+                name: "Design Team",
+                role: "Bespoke Door Design",
+                bio: "Our design team works directly with homeowners and architects to translate vision into specification. Every RAL colour, hardware choice and glazing option is considered to create a door that is uniquely yours.",
+              },
+              {
+                name: "Installation Team",
+                role: "Professional Fitting",
+                bio: "Our in-house installation team — never subcontracted — carries out every fitting to the same exacting standards as the manufacturing process. Fully trained, DBS checked and insured.",
+              },
+            ].map((member, i) => (
+              <ScrollReveal key={member.name} delay={i * 0.12}>
+                <div>
+                  <p
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 400,
+                      fontSize: 16,
+                      color: "#1a1a18",
+                      marginBottom: 4,
+                    }}
+                  >
+                    {member.name}
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 400,
+                      fontSize: 10,
+                      letterSpacing: "0.2em",
+                      textTransform: "uppercase",
+                      color: "#c9a96e",
+                      marginBottom: 12,
+                    }}
+                  >
+                    {member.role}
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 200,
+                      fontSize: 13,
+                      lineHeight: 1.8,
+                      color: "#6b5a42",
+                    }}
+                  >
+                    {member.bio}
+                  </p>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
-      <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-20">
+      <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-0">
         <div className="max-w-4xl mx-auto text-center">
           <h2
             className="mb-10"

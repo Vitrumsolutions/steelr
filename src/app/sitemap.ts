@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { doors } from "@/data/doors";
 import { posts } from "@/data/blog";
+import { locations } from "@/data/locations";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://steelr.co.uk";
@@ -56,6 +57,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
     ...doorPages,
+    {
+      url: `${baseUrl}/areas`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+    ...locations.map((loc) => ({
+      url: `${baseUrl}/areas/${loc.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),

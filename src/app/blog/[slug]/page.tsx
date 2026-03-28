@@ -101,7 +101,7 @@ export default async function BlogPostPage({ params }: Props) {
                 dangerouslySetInnerHTML={{
                   __html: item
                     .replace("- ", "")
-                    .replace(/\*\*(.*?)\*\*/g, '<strong style="font-weight:400;color:#1a1a18">$1</strong>'),
+                    .replace(/\*\*(.*?)\*\*/g, '<strong style="font-weight:400;color:#1a1a18">$1</strong>').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" style="color:#c9a96e;text-decoration:underline;text-underline-offset:3px">$1</a>'),
                 }}
               />
             </li>
