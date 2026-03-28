@@ -112,11 +112,10 @@ export default function RootLayout({
                   {"@type": "OfferCatalog", "name": "Double Steel Entrance Doors"}
                 ]
               },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5",
-                "reviewCount": "3",
-                "bestRating": "5"
+              "founder": {
+                "@type": "Person",
+                "name": "Mani Sandhu",
+                "jobTitle": "Founder & Director"
               }
             }),
           }}

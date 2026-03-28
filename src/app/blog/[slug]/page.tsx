@@ -143,6 +143,7 @@ export default async function BlogPostPage({ params }: Props) {
             description: post.description,
             image: `https://steelr.co.uk${post.image}`,
             datePublished: post.date,
+            dateModified: post.date,
             author: { "@type": "Organization", name: "SteelR", url: "https://steelr.co.uk" },
             publisher: {
               "@type": "Organization",
