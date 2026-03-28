@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!door) return {};
 
   return {
-    title: `${door.title} | SteelR Bespoke Steel Doors`,
-    description: door.description,
+    title: `${door.title} | SteelR`,
+    description: door.description.length > 155 ? door.description.substring(0, 152) + '...' : door.description,
     alternates: { canonical: `https://steelr.co.uk/collection/${door.slug}` },
     openGraph: {
       title: door.title,

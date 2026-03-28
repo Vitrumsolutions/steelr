@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
 
   return {
-    title: `${post.title} | SteelR Blog`,
-    description: post.description,
+    title: `${post.title} | SteelR`,
+    description: post.description.length > 155 ? post.description.substring(0, 152) + '...' : post.description,
     alternates: { canonical: `https://steelr.co.uk/blog/${post.slug}` },
     openGraph: {
       title: post.title,
@@ -198,7 +198,7 @@ export default async function BlogPostPage({ params }: Props) {
           >
             {post.category}
           </p>
-          <p
+          <h1
             style={{
               fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
               fontWeight: 300,
@@ -208,7 +208,7 @@ export default async function BlogPostPage({ params }: Props) {
             }}
           >
             {post.title}
-          </p>
+          </h1>
         </div>
       </section>
 
