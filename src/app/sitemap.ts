@@ -13,6 +13,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const locationPages: MetadataRoute.Sitemap = [...locations]
+    .sort((a, b) => a.tier - b.tier)
+    .map((loc) => ({
+      url: `${baseUrl}/areas/${loc.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: loc.type === "hub" ? 0.8 : 0.6,
+    }));
+
   return [
     {
       url: baseUrl,
@@ -63,12 +72,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
-    ...locations.map((loc) => ({
-      url: `${baseUrl}/areas/${loc.slug}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    })),
+    ...locationPages,
     {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),

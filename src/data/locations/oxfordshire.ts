@@ -1,0 +1,143 @@
+import { Location } from "./types";
+
+export const oxfordshireLocations: Location[] = [
+  {
+    slug: "oxfordshire",
+    name: "Oxfordshire",
+    region: "South East England",
+    type: "hub",
+    tier: 1,
+    description:
+      "Oxfordshire blends ancient university architecture with rolling Cotswold countryside, creating a landscape where honey-stone manor houses sit alongside elegant Georgian townhouses. From the dreaming spires of Oxford to the market towns of the western hills, homeowners here value craftsmanship that honours centuries of architectural heritage. A SteelR bespoke entrance door provides the perfect marriage of enduring design and modern security for properties across this distinguished county.",
+    heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
+      "/images/gallery/steelr-champagne-arched-geometric-double.jpg",
+      "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
+      "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
+      "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
+      "/images/gallery/steelr-black-traditional-stained-glass.jpg",
+    ],
+    nearbyAreaSlugs: ["oxford", "woodstock", "burford", "bicester", "chipping-norton"],
+  },
+  {
+    slug: "oxford",
+    name: "Oxford",
+    region: "Oxfordshire",
+    type: "area",
+    parentSlug: "oxfordshire",
+    tier: 3,
+    description:
+      "Oxford's residential streets radiate outward from the university core, where Victorian terraces in Jericho give way to handsome Edwardian villas in North Oxford and Summertown. Properties along the Banbury and Woodstock Roads showcase period porches, stained glass fanlights, and generous stone surrounds that demand an entrance door of equal stature. SteelR doors complement Oxford's scholarly elegance, offering bespoke designs that respect the proportions and detailing of these sought-after homes while delivering contemporary thermal and acoustic performance.",
+    localFeatures: [
+      "Victorian terraces with ornate stone porches in Jericho",
+      "Edwardian detached villas along Banbury and Woodstock Roads",
+      "Period properties with stained glass fanlights in North Oxford",
+      "Conservation area restrictions requiring sympathetic door design",
+    ],
+    heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-ornate-circular-fluted.jpg",
+      "/images/gallery/steelr-cobalt-ornate-lion-knocker.jpg",
+      "/images/gallery/steelr-black-traditional-double-columns.jpg",
+      "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
+    ],
+    nearbyAreaSlugs: ["woodstock", "bicester", "burford", "chipping-norton"],
+  },
+  {
+    slug: "woodstock",
+    name: "Woodstock",
+    region: "Oxfordshire",
+    type: "area",
+    parentSlug: "oxfordshire",
+    tier: 3,
+    description:
+      "Nestled at the gates of Blenheim Palace, Woodstock is a picture-perfect Cotswold market town where golden limestone cottages line Park Street and the High Street. Many properties here feature traditional arched doorways, wrought-iron boot scrapers, and period lanterns that set a distinctly refined tone. SteelR bespoke entrance doors honour this heritage with custom arch profiles, traditional ironmongery finishes, and proportions tailored to Woodstock's characterful stone frontages, ensuring each installation feels as though it has always belonged.",
+    localFeatures: [
+      "Cotswold stone cottages with arched doorways on Park Street",
+      "Georgian townhouses with symmetrical facades on the High Street",
+      "Estate properties influenced by Blenheim Palace architecture",
+      "Listed buildings requiring heritage-sensitive door replacements",
+    ],
+    heroImage: "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
+      "/images/gallery/steelr-sage-traditional-arched-brick.jpg",
+      "/images/gallery/steelr-champagne-arched-geometric-double.jpg",
+      "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
+    ],
+    nearbyAreaSlugs: ["oxford", "chipping-norton", "burford", "bicester"],
+  },
+  {
+    slug: "burford",
+    name: "Burford",
+    region: "Oxfordshire",
+    type: "area",
+    parentSlug: "oxfordshire",
+    tier: 3,
+    description:
+      "Known as the gateway to the Cotswolds, Burford's steep high street descends past medieval wool merchant houses, mullioned windows, and honey-coloured stone facades that have barely changed in four centuries. The surrounding countryside holds substantial farmhouses and converted barns where wide entrances and robust construction are essential. SteelR doors bring modern insulation and multi-point locking to these timeless settings, with bespoke colour matching that complements Burford's distinctive warm limestone palette without compromise.",
+    localFeatures: [
+      "Medieval wool merchant houses with wide stone surrounds",
+      "Converted Cotswold barns requiring oversized entrance doors",
+      "Honey-stone facades demanding precise colour matching",
+      "Rural farmhouses with exposed porch canopies and flagstone thresholds",
+    ],
+    heroImage: "/images/gallery/steelr-sage-panelled-arched-wreath.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-olive-panelled-ring-knocker-sidelight.jpg",
+      "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
+      "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
+      "/images/gallery/steelr-walnut-ribbed-columns.jpg",
+    ],
+    nearbyAreaSlugs: ["woodstock", "chipping-norton", "oxford"],
+  },
+  {
+    slug: "bicester",
+    name: "Bicester",
+    region: "Oxfordshire",
+    type: "area",
+    parentSlug: "oxfordshire",
+    tier: 3,
+    description:
+      "Bicester has transformed from a quiet market town into one of Oxfordshire's fastest-growing communities, where new executive homes on developments like Kingsmere sit alongside a historic core of Georgian and Victorian properties around Market Square. Homeowners in the premium new-builds seek entrance doors that elevate standard developer finishes, while period property owners want designs that respect the town's older character. SteelR delivers both, crafting contemporary or traditional bespoke doors that set any Bicester home apart from its neighbours.",
+    localFeatures: [
+      "Executive new-builds on Kingsmere and Elmsbrook developments",
+      "Georgian properties around Market Square and Sheep Street",
+      "Victorian terraces with bay windows and recessed porches",
+      "Growing demand for premium upgrades to developer-standard front doors",
+    ],
+    heroImage: "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-grey-contemporary-horizontal-slots.jpg",
+      "/images/gallery/steelr-black-contemporary-sunburst.jpg",
+      "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
+      "/images/gallery/steelr-navy-contemporary-square-knocker.jpg",
+    ],
+    nearbyAreaSlugs: ["oxford", "woodstock", "chipping-norton", "burford"],
+  },
+  {
+    slug: "chipping-norton",
+    name: "Chipping Norton",
+    region: "Oxfordshire",
+    type: "area",
+    parentSlug: "oxfordshire",
+    tier: 3,
+    description:
+      "Perched high on the Cotswold escarpment, Chipping Norton — affectionately known as Chippy — is the unofficial capital of the Oxfordshire Cotswolds. Its broad market place is ringed by handsome coaching inns and townhouses, while the surrounding lanes harbour substantial stone farmhouses favoured by the area's well-heeled residents. SteelR entrance doors suit this discerning market perfectly, offering hand-finished ironmongery, heritage colour palettes, and robust steel construction that withstands the exposed hilltop weather without sacrificing an ounce of elegance.",
+    localFeatures: [
+      "Cotswold stone townhouses around the historic market place",
+      "Substantial farmhouses and converted barns in surrounding villages",
+      "Exposed hilltop location requiring weather-resistant door construction",
+      "Affluent community with high demand for bespoke craftsmanship",
+    ],
+    heroImage: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-traditional-ring-knocker-open.jpg",
+      "/images/gallery/steelr-red-traditional-lion-knocker.jpg",
+      "/images/gallery/steelr-sage-traditional-arched-brick.jpg",
+      "/images/gallery/steelr-black-ornate-medallion-sidelights.jpg",
+    ],
+    nearbyAreaSlugs: ["woodstock", "burford", "oxford", "bicester"],
+  },
+];

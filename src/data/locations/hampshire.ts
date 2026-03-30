@@ -1,0 +1,143 @@
+import { Location } from "./types";
+
+export const hampshireLocations: Location[] = [
+  {
+    slug: "hampshire",
+    name: "Hampshire",
+    region: "South East England",
+    type: "hub",
+    tier: 1,
+    description:
+      "Hampshire blends historic market towns with prestigious country estates, creating an ideal setting for bespoke steel entrance doors. From the chalk streams of the Itchen Valley to the Georgian elegance of its county town, Hampshire properties demand entrance solutions that honour centuries of architectural heritage while meeting modern security and thermal standards. SteelR serves homeowners across the county who appreciate craftsmanship that complements their surroundings.",
+    heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-ornate-double-gable.jpg",
+      "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg",
+      "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
+      "/images/gallery/steelr-charcoal-traditional-oval-window-lantern.jpg",
+      "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
+      "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
+    ],
+    nearbyAreaSlugs: ["winchester", "lymington", "petersfield", "alresford", "fleet", "sussex"],
+  },
+  {
+    slug: "winchester",
+    name: "Winchester",
+    region: "Hampshire",
+    type: "area",
+    parentSlug: "hampshire",
+    tier: 3,
+    description:
+      "Winchester's architectural pedigree stretches from its medieval cathedral close to the handsome Regency terraces of Southgate Street and St Cross Road. Properties along Bereweeke Road and Sleepers Hill feature imposing double-fronted facades where a bespoke steel entrance door becomes the defining element. SteelR designs for Winchester reflect the city's refined character, pairing traditional panel detailing with precision-engineered steel cores that meet the expectations of one of England's most desirable addresses.",
+    localFeatures: [
+      "Georgian and Regency townhouses in the cathedral quarter",
+      "Detached Victorian villas along Bereweeke Road and Sleepers Hill",
+      "Contemporary new-builds in the Barton Farm development",
+      "Grade II listed properties requiring sympathetic entrance upgrades",
+    ],
+    heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-sidelights-garden.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
+      "/images/gallery/steelr-black-traditional-stained-glass.jpg",
+      "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
+      "/images/gallery/steelr-red-traditional-lion-knocker.jpg",
+    ],
+    nearbyAreaSlugs: ["alresford", "petersfield", "hampshire", "lymington", "fleet"],
+  },
+  {
+    slug: "lymington",
+    name: "Lymington",
+    region: "Hampshire",
+    type: "area",
+    parentSlug: "hampshire",
+    tier: 3,
+    description:
+      "Lymington sits at the edge of the New Forest, where Georgian coaching inns line the cobbled High Street and elegant sailing-town villas overlook the Solent. Properties along Bath Road and Milford on Sea command premium values and require entrance doors that withstand salt-laden coastal air without compromising on style. SteelR delivers marine-grade steel doors finished with weather-resistant coatings, ensuring Lymington homeowners enjoy lasting beauty alongside exceptional coastal durability.",
+    localFeatures: [
+      "Georgian townhouses along the High Street and Quay Hill",
+      "Edwardian villas with sea views along Bath Road",
+      "New Forest edge properties blending rural and coastal character",
+      "Contemporary harbour-side apartments and conversions",
+    ],
+    heroImage: "/images/gallery/steelr-navy-panelled-chrome-palms.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-navy-contemporary-square-knocker.jpg",
+      "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg",
+      "/images/gallery/steelr-grey-panelled-stone-surround.jpg",
+      "/images/gallery/steelr-taupe-panelled-dual-sidelights.jpg",
+    ],
+    nearbyAreaSlugs: ["winchester", "hampshire", "alresford", "petersfield", "chichester"],
+  },
+  {
+    slug: "petersfield",
+    name: "Petersfield",
+    region: "Hampshire",
+    type: "area",
+    parentSlug: "hampshire",
+    tier: 3,
+    description:
+      "Nestled within the South Downs National Park, Petersfield combines a thriving market-town centre with rolling chalk downland and prosperous rural hamlets. The Square's handsome brick facades and the leafy lanes of Sheet and Steep showcase properties where a statement entrance door elevates kerb appeal considerably. SteelR works with Petersfield homeowners to create doors that complement the area's blend of flint-and-brick vernacular and contemporary countryside architecture.",
+    localFeatures: [
+      "Flint-and-brick cottages in surrounding South Downs villages",
+      "Victorian and Edwardian villas near The Spain and the Heath",
+      "Contemporary barn conversions across the Meon Valley",
+      "Large detached family homes in Sheet and Steep",
+    ],
+    heroImage: "/images/gallery/steelr-sage-traditional-arched-brick.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-panelled-ring-knocker-recessed.jpg",
+      "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
+      "/images/gallery/steelr-walnut-ribbed-columns.jpg",
+      "/images/gallery/steelr-black-contemporary-ribbed-topiary.jpg",
+    ],
+    nearbyAreaSlugs: ["winchester", "alresford", "chichester", "hampshire", "horsham"],
+  },
+  {
+    slug: "alresford",
+    name: "Alresford",
+    region: "Hampshire",
+    type: "area",
+    parentSlug: "hampshire",
+    tier: 3,
+    description:
+      "New Alresford is one of Hampshire's most picturesque small towns, renowned for its broad Georgian high street, watercress beds, and heritage steam railway. Broad Street's pastel-painted facades and the handsome period houses along West Street set a high architectural standard that demands entrance doors of equal calibre. SteelR creates bespoke steel doors for Alresford homes that respect the town's conservation-area character while delivering modern thermal performance and security.",
+    localFeatures: [
+      "Georgian townhouses along Broad Street and West Street",
+      "Period cottages within the conservation area",
+      "Country houses in the Itchen Valley and Candover villages",
+      "Sensitively designed new-builds on the town's fringes",
+    ],
+    heroImage: "/images/gallery/steelr-cream-panelled-chrome-sidelight.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-sage-panelled-arched-wreath.jpg",
+      "/images/gallery/steelr-black-traditional-chrome-interior.jpg",
+      "/images/gallery/steelr-olive-panelled-ring-knocker-sidelight.jpg",
+      "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
+    ],
+    nearbyAreaSlugs: ["winchester", "petersfield", "hampshire", "lymington", "fleet"],
+  },
+  {
+    slug: "fleet",
+    name: "Fleet",
+    region: "Hampshire",
+    type: "area",
+    parentSlug: "hampshire",
+    tier: 3,
+    description:
+      "Fleet and the surrounding villages of Church Crookham, Crookham Village, and Dogmersfield form one of north Hampshire's most affluent residential corridors. Tree-lined avenues of substantial Edwardian and interwar houses sit alongside executive new-builds, all within easy reach of London via the M3. SteelR provides Fleet homeowners with steel entrance doors that add distinction to these well-appointed properties, combining contemporary design lines with the robust engineering commuters demand.",
+    localFeatures: [
+      "Edwardian and interwar detached houses along Reading Road",
+      "Executive new-build estates in Church Crookham",
+      "Period properties in Crookham Village and Dogmersfield",
+      "Large family homes with generous driveways and porches",
+    ],
+    heroImage: "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-grey-contemporary-horizontal-slots.jpg",
+      "/images/gallery/steelr-black-contemporary-sunburst.jpg",
+      "/images/gallery/steelr-black-panelled-double-letterbox.jpg",
+      "/images/gallery/steelr-cobalt-ornate-lion-knocker.jpg",
+    ],
+    nearbyAreaSlugs: ["winchester", "alresford", "hampshire", "petersfield", "lymington"],
+  },
+];

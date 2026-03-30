@@ -1,0 +1,143 @@
+import { Location } from "./types";
+
+export const sussexLocations: Location[] = [
+  {
+    slug: "sussex",
+    name: "Sussex",
+    region: "South East England",
+    type: "hub",
+    tier: 1,
+    description:
+      "Sussex stretches from the dramatic chalk cliffs of the south coast to the ancient woodlands of the High Weald, encompassing some of England's finest residential architecture. Whether a flint-faced farmhouse on the Downs or a Regency villa on the seafront, Sussex properties deserve entrance doors that match their setting. SteelR crafts bespoke steel doors for discerning homeowners across both East and West Sussex, combining heritage-sensitive design with uncompromising structural performance.",
+    heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-traditional-double-columns.jpg",
+      "/images/gallery/steelr-champagne-arched-geometric-double.jpg",
+      "/images/gallery/steelr-sage-contemporary-bar-handle-sidelight.jpg",
+      "/images/gallery/steelr-teal-panelled-glass-hallway.jpg",
+      "/images/gallery/steelr-black-traditional-glazed-double.jpg",
+      "/images/gallery/steelr-grey-panelled-lever-handle.jpg",
+    ],
+    nearbyAreaSlugs: ["brighton", "chichester", "horsham", "lewes", "arundel", "hampshire"],
+  },
+  {
+    slug: "brighton",
+    name: "Brighton",
+    region: "Sussex",
+    type: "area",
+    parentSlug: "sussex",
+    tier: 3,
+    description:
+      "Brighton's architectural character is defined by its sweeping Regency crescents, ornate bow-fronted terraces, and the vibrant creative energy that makes it unlike any other coastal city. From the stucco grandeur of Brunswick Square to the converted warehouses of the North Laine, homeowners here seek entrance doors that balance period elegance with bold individuality. SteelR designs for Brighton embrace this duality, offering everything from classically panelled doors to striking contemporary statements in steel.",
+    localFeatures: [
+      "Regency terraces and crescents in Kemp Town and Brunswick",
+      "Victorian villas in Preston Park and Seven Dials",
+      "Converted Edwardian townhouses in Hove's Pembroke and Vallance wards",
+      "Contemporary new-builds along the seafront and marina",
+    ],
+    heroImage: "/images/gallery/steelr-black-traditional-ring-knocker-open.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-contemporary-dual-sidelights.jpg",
+      "/images/gallery/steelr-navy-traditional-vine-porch.jpg",
+      "/images/gallery/steelr-black-ornate-medallion-driveway.jpeg",
+      "/images/gallery/steelr-grey-panelled-lever-handle.jpg",
+    ],
+    nearbyAreaSlugs: ["lewes", "sussex", "horsham", "chichester", "arundel"],
+  },
+  {
+    slug: "chichester",
+    name: "Chichester",
+    region: "Sussex",
+    type: "area",
+    parentSlug: "sussex",
+    tier: 3,
+    description:
+      "Chichester's Roman street plan and medieval cathedral create a city of rare architectural harmony, where Georgian facades line the four principal streets and handsome flint houses extend into the surrounding harbour villages. Properties in The Pallants, Stockbridge, and Bosham combine historic character with premium values that justify the finest entrance solutions. SteelR delivers doors for Chichester homes that honour the city's conservation heritage while providing the security and insulation modern living requires.",
+    localFeatures: [
+      "Georgian townhouses within the city walls and The Pallants",
+      "Flint-faced cottages in Bosham, Fishbourne, and Dell Quay",
+      "Substantial Edwardian villas along Broyle Road and Lavant Road",
+      "Contemporary developments near the canal basin and Stockbridge",
+    ],
+    heroImage: "/images/gallery/steelr-black-ornate-medallion-sidelights.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
+      "/images/gallery/steelr-black-traditional-lion-knocker-open.jpg",
+      "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
+      "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
+    ],
+    nearbyAreaSlugs: ["arundel", "sussex", "petersfield", "brighton", "lymington"],
+  },
+  {
+    slug: "horsham",
+    name: "Horsham",
+    region: "Sussex",
+    type: "area",
+    parentSlug: "sussex",
+    tier: 3,
+    description:
+      "Horsham sits at the heart of the Sussex Weald, a prosperous market town surrounded by some of the county's most desirable villages including Rusper, Southwater, and Mannings Heath. The Causeway's timber-framed medieval buildings contrast with the large detached properties set along leafy private roads to the south of the town centre. SteelR works with Horsham homeowners who want entrance doors that make an immediate impression, crafted in steel for strength and finished to complement the area's varied housing stock.",
+    localFeatures: [
+      "Period properties along The Causeway and Denne Road",
+      "Large detached houses on private roads south of the town",
+      "Country homes and barn conversions in surrounding Weald villages",
+      "Modern executive estates in Broadbridge Heath and Southwater",
+    ],
+    heroImage: "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg",
+    galleryImages: [
+      "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg",
+      "/images/gallery/steelr-black-panelled-sidelights-palms.jpg",
+      "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
+      "/images/gallery/steelr-sage-contemporary-bar-handle-sidelight.jpg",
+    ],
+    nearbyAreaSlugs: ["brighton", "sussex", "arundel", "lewes", "chichester"],
+  },
+  {
+    slug: "lewes",
+    name: "Lewes",
+    region: "Sussex",
+    type: "area",
+    parentSlug: "sussex",
+    tier: 3,
+    description:
+      "Lewes commands a dramatic hilltop position above the River Ouse, its steep cobbled streets lined with a remarkable concentration of medieval, Tudor, and Georgian buildings. As the county town of East Sussex, Lewes sets an exacting architectural standard from the Norman castle down through the twittens to the fine houses of the High Street and School Hill. SteelR creates entrance doors for Lewes that satisfy conservation officers and homeowners alike, blending traditional aesthetics with the enduring strength of steel.",
+    localFeatures: [
+      "Medieval and Tudor townhouses along the High Street",
+      "Georgian residences on School Hill and Cliffe High Street",
+      "Flint cottages in Southover and the surrounding downland villages",
+      "Arts and Crafts properties in the Wallands and Nevill areas",
+    ],
+    heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-red-traditional-lion-knocker.jpg",
+      "/images/gallery/steelr-black-ornate-circular-fluted.jpg",
+      "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
+      "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
+    ],
+    nearbyAreaSlugs: ["brighton", "sussex", "horsham", "arundel", "chichester"],
+  },
+  {
+    slug: "arundel",
+    name: "Arundel",
+    region: "Sussex",
+    type: "area",
+    parentSlug: "sussex",
+    tier: 3,
+    description:
+      "Arundel is dominated by its magnificent castle and cathedral, lending the town an atmosphere of grandeur that extends to its steep High Street and the elegant townhouses climbing towards the castle walls. The surrounding Arun Valley, with its water meadows and prosperous villages like Amberley and Burpham, provides a quintessentially English backdrop for premium properties. SteelR designs entrance doors for Arundel homes that echo the town's stately heritage, with ornate detailing and rich finishes worthy of this extraordinary setting.",
+    localFeatures: [
+      "Georgian and Victorian townhouses along the High Street",
+      "Substantial country houses in the Arun Valley and South Downs",
+      "Flint and brick cottages in Amberley, Burpham, and Storrington",
+      "Period conversions and estate properties near the castle grounds",
+    ],
+    heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
+      "/images/gallery/steelr-champagne-arched-geometric-double.jpg",
+      "/images/gallery/steelr-black-traditional-glazed-double.jpg",
+      "/images/gallery/steelr-cobalt-ornate-lion-knocker.jpg",
+    ],
+    nearbyAreaSlugs: ["chichester", "horsham", "sussex", "brighton", "lewes"],
+  },
+];

@@ -1,0 +1,188 @@
+import { Location } from "./types";
+
+export const otherCitiesLocations: Location[] = [
+  {
+    slug: "liverpool",
+    name: "Liverpool",
+    region: "North West England",
+    type: "area",
+    tier: 2,
+    description:
+      "Liverpool's UNESCO-recognised waterfront and grand Georgian quarters make it one of England's most architecturally significant cities. The merchant palaces of Rodney Street, the imposing Victorian terraces of Sefton Park, and the sandstone villas of Crosby and Woolton showcase a city built on confidence and ambition. SteelR creates bespoke steel entrance doors for Liverpool homeowners who want their property's facade to match the city's bold, world-class character with craftsmanship that endures generations.",
+    localFeatures: [
+      "Georgian townhouses along Rodney Street and Falkner Square",
+      "Victorian villas surrounding Sefton Park and Princes Park",
+      "Sandstone detached homes in Woolton, Mossley Hill, and Allerton",
+      "Waterfront conversions and contemporary apartments at Albert Dock",
+    ],
+    heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-ornate-double-gable.jpg",
+      "/images/gallery/steelr-red-traditional-lion-knocker.jpg",
+      "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg",
+      "/images/gallery/steelr-black-traditional-glazed-double.jpg",
+    ],
+    nearbyAreaSlugs: ["manchester", "chester", "newcastle", "nottingham", "leicester"],
+  },
+  {
+    slug: "newcastle",
+    name: "Newcastle",
+    region: "North East England",
+    type: "area",
+    tier: 2,
+    description:
+      "Newcastle upon Tyne combines dramatic Tyneside engineering with elegant Grainger Town streets that rank among the finest planned Victorian developments in Europe. From the sweeping Grey Street curve to the substantial stone houses of Jesmond Dene and Gosforth, the city offers a wealth of properties where a bespoke steel entrance door elevates an already impressive facade. SteelR serves Newcastle homeowners with doors engineered for the North East climate and finished to complement local sandstone and brick.",
+    localFeatures: [
+      "Grainger Town terraces with ornate classical facades",
+      "Victorian and Edwardian stone villas in Jesmond and Gosforth",
+      "Substantial detached homes in Ponteland and Darras Hall",
+      "Converted period properties along the Ouseburn Valley",
+    ],
+    heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-charcoal-traditional-oval-window-lantern.jpg",
+      "/images/gallery/steelr-black-traditional-lion-knocker-sidelights-garden.jpg",
+      "/images/gallery/steelr-grey-panelled-lever-handle.jpg",
+      "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
+    ],
+    nearbyAreaSlugs: ["edinburgh", "liverpool", "scotland", "nottingham", "leicester"],
+  },
+  {
+    slug: "nottingham",
+    name: "Nottingham",
+    region: "East Midlands",
+    type: "area",
+    tier: 2,
+    description:
+      "Nottingham's lace-market heritage and castle-topped skyline give the city a distinctive architectural personality that extends into its leafy southern suburbs. The Park Estate, one of England's finest Victorian private estates, features grand Italianate villas set along curving tree-lined roads, while West Bridgford and Beeston offer well-appointed Edwardian and interwar homes. SteelR designs steel entrance doors for Nottingham properties that reflect the city's creative industrial legacy and its residents' appreciation for quality craftsmanship.",
+    localFeatures: [
+      "Grand Italianate villas on The Park Estate",
+      "Edwardian and interwar semis in West Bridgford and Beeston",
+      "Victorian red-brick terraces in the Lace Market quarter",
+      "Contemporary family homes in Wollaton and Mapperley Park",
+    ],
+    heroImage: "/images/gallery/steelr-black-contemporary-sunburst.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
+      "/images/gallery/steelr-black-panelled-sidelights-palms.jpg",
+      "/images/gallery/steelr-walnut-ribbed-columns.jpg",
+      "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg",
+    ],
+    nearbyAreaSlugs: ["leicester", "northampton", "cambridge", "liverpool", "newcastle"],
+  },
+  {
+    slug: "cardiff",
+    name: "Cardiff",
+    region: "Wales",
+    type: "area",
+    tier: 2,
+    description:
+      "Cardiff blends its castle-centred civic grandeur with the Victorian splendour of Cathays Park and the leafy prosperity of Pontcanna, Cyncoed, and Lisvane. The Edwardian arcades of the city centre and the handsome bay-fronted terraces of Cathedral Road showcase a capital city with genuine architectural ambition. SteelR provides bespoke steel entrance doors for Cardiff homeowners seeking a statement piece that withstands the Welsh climate while complementing the city's confident mix of Victorian, Edwardian, and contemporary styles.",
+    localFeatures: [
+      "Edwardian terraces and villas along Cathedral Road and Pontcanna",
+      "Detached family homes in Cyncoed, Lisvane, and Rhiwbina",
+      "Victorian bay-fronted houses in Roath and Penylan",
+      "Contemporary waterfront developments in Cardiff Bay",
+    ],
+    heroImage: "/images/gallery/steelr-navy-contemporary-square-knocker.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-sage-contemporary-bar-handle-sidelight.jpg",
+      "/images/gallery/steelr-teal-panelled-glass-hallway.jpg",
+      "/images/gallery/steelr-black-contemporary-dual-sidelights.jpg",
+      "/images/gallery/steelr-black-ornate-medallion-driveway.jpeg",
+    ],
+    nearbyAreaSlugs: ["bristol", "northampton", "liverpool", "nottingham", "leicester"],
+  },
+  {
+    slug: "cambridge",
+    name: "Cambridge",
+    region: "East of England",
+    type: "area",
+    tier: 2,
+    description:
+      "Cambridge is a city where medieval college courts, Georgian townhouses, and cutting-edge contemporary architecture coexist along the tranquil Backs of the River Cam. Beyond the university core, the substantial Victorian villas of Newnham and the Edwardian residences of Chesterton and De Freville Avenue represent premium addresses where entrance doors must satisfy both aesthetic sensibility and practical demands. SteelR crafts steel doors for Cambridge homes that bring quiet distinction to a city accustomed to excellence.",
+    localFeatures: [
+      "Victorian and Edwardian villas in Newnham and De Freville",
+      "Georgian townhouses along Trumpington Street and Brookside",
+      "Contemporary family homes in the Accordia and Eddington developments",
+      "Period cottages in surrounding villages like Grantchester and Barton",
+    ],
+    heroImage: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-traditional-stained-glass.jpg",
+      "/images/gallery/steelr-olive-panelled-ring-knocker-sidelight.jpg",
+      "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
+      "/images/gallery/steelr-champagne-arched-geometric-double.jpg",
+    ],
+    nearbyAreaSlugs: ["norwich", "northampton", "leicester", "nottingham", "sussex"],
+  },
+  {
+    slug: "leicester",
+    name: "Leicester",
+    region: "East Midlands",
+    type: "area",
+    tier: 2,
+    description:
+      "Leicester is a city of surprising architectural depth, from its Roman ruins and medieval guildhall to the confident Victorian suburbs that radiate outward along London Road and Stoneygate. The tree-lined avenues of Knighton, Clarendon Park, and Oadby feature substantial red-brick houses with generous porches and entrance halls that deserve doors of real quality. SteelR works with Leicester homeowners to design bespoke steel doors that celebrate the city's rich heritage while delivering contemporary performance standards.",
+    localFeatures: [
+      "Victorian red-brick villas in Stoneygate and Knighton",
+      "Edwardian semis and detached houses in Clarendon Park",
+      "Large family homes in Oadby, Wigston, and Great Glen",
+      "Period terraces along the New Walk conservation area",
+    ],
+    heroImage: "/images/gallery/steelr-black-panelled-ring-knocker-recessed.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg",
+      "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
+      "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
+      "/images/gallery/steelr-grey-panelled-stone-surround.jpg",
+    ],
+    nearbyAreaSlugs: ["nottingham", "northampton", "cambridge", "norwich", "liverpool"],
+  },
+  {
+    slug: "norwich",
+    name: "Norwich",
+    region: "East of England",
+    type: "area",
+    tier: 2,
+    description:
+      "Norwich possesses one of the finest collections of medieval churches in Europe, and its architectural richness extends through Georgian colonnades, Victorian terraces, and the celebrated Sainsbury Centre for Visual Arts. The Golden Triangle, Eaton, and Thorpe St Andrew offer desirable residential streets where flint-panelled walls and Dutch-gabled facades demand entrance doors of distinction. SteelR creates bespoke steel doors for Norwich homeowners who value a city with deep creative roots and an eye for craftsmanship.",
+    localFeatures: [
+      "Victorian and Edwardian terraces in the Golden Triangle",
+      "Georgian townhouses along Newmarket Road and The Close",
+      "Detached family homes in Eaton, Cringleford, and Thorpe St Andrew",
+      "Flint-faced period cottages throughout the cathedral quarter",
+    ],
+    heroImage: "/images/gallery/steelr-sage-panelled-arched-wreath.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-traditional-lion-knocker-open.jpg",
+      "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
+      "/images/gallery/steelr-cream-panelled-chrome-sidelight.jpg",
+      "/images/gallery/steelr-black-ornate-circular-fluted.jpg",
+    ],
+    nearbyAreaSlugs: ["cambridge", "northampton", "nottingham", "leicester", "sussex"],
+  },
+  {
+    slug: "northampton",
+    name: "Northampton",
+    region: "East Midlands",
+    type: "area",
+    tier: 2,
+    description:
+      "Northampton's shoemaking heritage endowed the town with prosperous Victorian suburbs and a legacy of skilled craftsmanship that residents still value today. The substantial stone-built houses of Abington Park, the leafy avenues of Weston Favell, and the ironstone villages of the surrounding Nene Valley showcase a wide range of architectural styles that benefit from a considered entrance statement. SteelR provides Northampton homeowners with steel doors that bring metropolitan refinement to this well-connected Midlands town.",
+    localFeatures: [
+      "Victorian stone-built villas around Abington Park",
+      "Edwardian and interwar houses in Weston Favell and Kingsley",
+      "Ironstone cottages in surrounding villages like Brixworth and Moulton",
+      "Contemporary executive homes in Upton and Collingtree Park",
+    ],
+    heroImage: "/images/gallery/steelr-black-contemporary-ribbed-topiary.jpg",
+    galleryImages: [
+      "/images/gallery/steelr-black-panelled-double-letterbox.jpg",
+      "/images/gallery/steelr-cobalt-ornate-lion-knocker.jpg",
+      "/images/gallery/steelr-grey-contemporary-horizontal-slots.jpg",
+      "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg",
+    ],
+    nearbyAreaSlugs: ["leicester", "nottingham", "cambridge", "cardiff", "norwich"],
+  },
+];
