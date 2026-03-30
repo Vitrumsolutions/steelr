@@ -38,9 +38,10 @@
 - **Separators:** 1px gold lines at low opacity
 
 ## Site Structure
-- **Navigation:** Collection · About · Process · Contact
+- **Navigation:** Collection · Areas · About · Process · Blog · Contact
 - **Phone:** 0800 861 1450
 - **CTA:** "Request a Consultation"
+- **Total static pages:** ~250 (home, collection, about, process, contact, blog, privacy, terms, 54 collection items, 10 blog posts, 172 area pages)
 
 ## Image Manifest
 
@@ -127,13 +128,27 @@ Orientation is noted so code can handle layout correctly.
 - **Landscape:** 5 images (good for full-width hero banners, feature sections)
 - Landscape files: `steelr-black-ornate-medallion-stone.jpg`, `steelr-navy-panelled-chrome-frosted.jpg`, `steelr-black-panelled-sidelights-palms.jpg`, `steelr-black-traditional-columns-mansion.jpg`, `steelr-black-traditional-wide-frosted.jpg`
 
+## Location Pages Architecture
+- **Route:** `/areas/[slug]` — flat URL structure, hub vs area branching via `type` field
+- **Data:** `src/data/locations/` — 17 region files + types.ts + index.ts (replaces old single `locations.ts`)
+- **Model:** `Location` interface with `type` ("hub" | "area"), `parentSlug`, `tier`, `nearbyAreaSlugs`, `localFeatures`
+- **Hubs (15):** London, Buckinghamshire, Surrey, Hertfordshire, Kent, Essex, Berkshire, Oxfordshire, Cheshire, Manchester, Birmingham, Yorkshire, South West, Hampshire, Sussex, Scotland
+- **Areas (157):** Individual towns/boroughs with unique descriptions, each linked to a parent hub
+- **London:** 30 boroughs (West London priority: Kensington, Chelsea, Fulham, Notting Hill, Holland Park, Chiswick, etc.)
+- **Buckinghamshire:** 11 towns (Beaconsfield, Gerrards Cross, Amersham, Marlow, etc.)
+- **Hub pages** show child area grid; **area pages** show nearby areas cross-links
+- **Breadcrumbs:** Dynamic depth — Home > Areas > London > Kensington
+- **Listing page** (`/areas`): Hub cards with images at top + grouped text directory of all areas below
+- **Sitemap priority:** Hubs 0.8, leaf areas 0.6
+- **Helpers:** `getLocationBySlug()`, `getChildLocations()`, `getHubLocations()`, `getNearbyLocations()`, `getRegions()`, `getLocationsByHub()` in index.ts
+
 ## Tech Stack
 - **Framework:** Next.js 14 App Router with TypeScript
 - **Styling:** Tailwind CSS with custom colour tokens in tailwind.config.ts
 - **Fonts:** Cormorant Garamond (display), Montserrat (body), Tenor Sans (captions) — Google Fonts
-- **Hosting:** Netlify (auto-deploy from GitHub on push to main)
+- **Hosting:** Vercel (auto-deploy from GitHub on push to main)
 - **Forms:** Netlify Forms with static detection file at `public/form.html`
-- **Domain:** steelr.co.uk (Fasthosts) → DNS points to Netlify
+- **Domain:** steelr.co.uk (Fasthosts) → DNS points to Vercel
 - **Repo:** github.com/Vitrumsolutions/steelr
 
 ## Build & Deploy
@@ -153,9 +168,13 @@ Orientation is noted so code can handle layout correctly.
 
 ## SEO
 - Schema: HomeAndConstructionBusiness, FAQPage, HowTo, BreadcrumbList on all pages
-- Canonical URLs on all 5 pages
+- Canonical URLs on all pages
 - H1 on every page (sr-only where visual design conflicts)
 - Collection page has intro paragraph for Google crawlability (client component)
+- **172 location pages** for local SEO — unique descriptions referencing local architecture and neighbourhoods
+- Hub pages list all child areas in schema.org `areaServed`
+- Area pages cross-link to 3–5 nearby areas + parent hub
+- Sitemap at `/sitemap.xml` with 245 URLs, submitted to Google Search Console (30 Mar 2026)
 
 ## Gotchas
 - **Never run `npm run build` while dev server is running** — corrupts .next cache, breaks all CSS
