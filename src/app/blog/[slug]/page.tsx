@@ -30,6 +30,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.date,
       images: [{ url: post.image, width: 1200, height: 900, alt: post.imageAlt }],
     },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description.length > 155 ? post.description.substring(0, 152) + '...' : post.description,
+      images: [post.image],
+    },
   };
 }
 

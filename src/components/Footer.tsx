@@ -105,7 +105,7 @@ export default function Footer() {
             color: "rgba(245, 240, 232, 0.3)",
           }}
         >
-          &copy; 2025 SteelR. All rights reserved.
+          &copy; 2026 SteelR. All rights reserved.
         </p>
       </div>
     </footer>

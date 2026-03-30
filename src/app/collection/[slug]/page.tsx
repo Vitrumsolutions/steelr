@@ -28,6 +28,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `https://steelr.co.uk/collection/${door.slug}`,
       images: [{ url: door.src, width: 1200, height: 1600, alt: door.alt }],
     },
+    twitter: {
+      card: "summary_large_image",
+      title: door.title,
+      description: door.description.length > 155 ? door.description.substring(0, 152) + '...' : door.description,
+      images: [door.src],
+    },
   };
 }
 
