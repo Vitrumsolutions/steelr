@@ -172,6 +172,24 @@ export default function ProcessPage() {
                 >
                   {stage.text}
                 </p>
+                {stage.num === "02" && (
+                  <p
+                    className="mt-4"
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 200,
+                      fontSize: 14,
+                      lineHeight: 1.9,
+                      color: "#6b5a42",
+                    }}
+                  >
+                    We survey properties across{" "}
+                    <Link href="/areas/london" className="link-gold-underline">London</Link>,{" "}
+                    <Link href="/areas/surrey" className="link-gold-underline">Surrey</Link>,{" "}
+                    <Link href="/areas/cheshire" className="link-gold-underline">Cheshire</Link>{" "}
+                    and <Link href="/areas" className="link-gold-underline">nationwide</Link>.
+                  </p>
+                )}
               </div>
               </ScrollReveal>
             </div>

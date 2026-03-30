@@ -366,6 +366,22 @@ export default function Home() {
                 to your exact specification, from the initial consultation to
                 final installation.
               </p>
+              <p
+                className="mt-6"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 200,
+                  fontSize: 14,
+                  lineHeight: 1.9,
+                  color: "#6b5a42",
+                }}
+              >
+                We serve homeowners across{" "}
+                <Link href="/areas/london" className="link-gold-underline">London</Link>,{" "}
+                <Link href="/areas/surrey" className="link-gold-underline">Surrey</Link>,{" "}
+                <Link href="/areas/buckinghamshire" className="link-gold-underline">Buckinghamshire</Link>{" "}
+                and <Link href="/areas" className="link-gold-underline">throughout the UK</Link>.
+              </p>
             </div>
           </ScrollReveal>
           <ScrollReveal direction="right">

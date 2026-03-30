@@ -10,4 +10,5 @@ export interface Location {
   heroImage: string;
   galleryImages: string[];
   nearbyAreaSlugs: string[];
+  faqs?: { question: string; answer: string }[];
 }

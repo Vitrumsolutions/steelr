@@ -998,6 +998,295 @@ This is where bespoke manufacturing makes the difference. A made-to-order steel 
 
 At SteelR, every door is designed from scratch to our client's exact vision. With SR3 security, Secured by Design accreditation, ISO 9001 certified manufacturing and the full RAL colour range as standard, we provide the foundation for a front door that is as individual as your home. Contact us to explore the possibilities for your entrance.`,
   },
+  {
+    slug: "best-areas-london-period-property-renovations",
+    title: "Best Areas in London for Period Property Renovations",
+    description:
+      "A guide to the best London boroughs and neighbourhoods for period property renovations — from Georgian townhouses to Victorian terraces — and why steel entrance doors are the ideal upgrade.",
+    date: "2026-03-30",
+    readTime: "4 min read",
+    category: "Location Guides",
+    image: "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
+    imageAlt:
+      "Black ornate steel entrance door with lion knocker and sidelights — ideal for London period property renovations",
+    content: `## London's Period Property Heartlands
+
+London is home to some of the finest period architecture in the world. From grand Georgian crescents to ornate Victorian terraces and elegant Edwardian semis, the capital's residential streets are a living museum of British architectural history. For homeowners renovating these properties, every detail matters — and the entrance door is where first impressions begin.
+
+This guide explores the best areas in London for period property renovations and explains why a bespoke steel entrance door is the perfect finishing touch for a heritage home.
+
+## West London: Georgian and Victorian Grandeur
+
+### Kensington and Chelsea
+
+[Kensington](/areas/kensington) and [Chelsea](/areas/chelsea) contain some of London's most prestigious period properties. The white stucco terraces of Kensington, many dating from the 1840s and 1850s, demand entrance doors that respect their classical proportions. Six-panel Georgian designs with brass lion knockers and elegant fanlights are the natural choice here. Chelsea's mix of Georgian townhouses and Victorian villas offers equally rich opportunities for sympathetic door upgrades.
+
+Both boroughs contain extensive **conservation areas**, which means any external alteration — including a new front door — must preserve or enhance the character of the streetscape. A bespoke steel door finished to replicate traditional painted timber satisfies conservation officers while delivering SR3 security and modern thermal performance.
+
+### Fulham and Notting Hill
+
+[Fulham](/areas/fulham) has become one of London's most popular renovation hotspots, with its long streets of Victorian terraced houses offering excellent potential for modernisation. The classic Fulham terrace features a four-panel front door with decorative glazing — a design that translates beautifully into steel.
+
+[Notting Hill](/areas/notting-hill) is synonymous with colourful facades and distinctive front doors. The pastel-painted stucco houses of Notting Hill are among the most photographed in London, and a bold, well-chosen door colour is essential to the neighbourhood's character. With a bespoke steel door, you can specify any RAL colour to complement your facade while ensuring the highest security standards.
+
+## North London: Leafy Victorian and Edwardian Suburbs
+
+### Hampstead and Highgate
+
+[Hampstead](/areas/hampstead) and [Highgate](/areas/highgate) are two of London's most desirable residential villages, prized for their period architecture, leafy streets and proximity to Hampstead Heath. Hampstead's Georgian and early Victorian houses are among the most valuable in the capital, while Highgate's Victorian and Edwardian properties sit within one of London's oldest conservation areas.
+
+The detached and semi-detached properties common in these areas are particularly well-suited to grand entrance door designs — double doors with sidelights, arched fanlights and traditional ironmongery. Security is also a key consideration for these high-value homes, making SR3-rated steel doors an intelligent investment.
+
+### Islington
+
+[Islington](/areas/islington) offers a concentration of Georgian and early Victorian townhouses that rivals anywhere in London. The elegant squares and terraces of Canonbury, Barnsbury and Duncan Terrace are architectural treasures. Islington homeowners are known for their attention to period detail, and a faithful reproduction of a Georgian six-panel door in steel — complete with brass hardware and a period-appropriate colour — is the ideal complement.
+
+## South London: Hidden Gems
+
+### Dulwich, Blackheath and Greenwich
+
+South London contains some of the capital's best-kept secrets for period property enthusiasts. [Dulwich](/areas/dulwich) Village is one of the most charming residential pockets in London, with its mix of Georgian, Victorian and Edwardian houses set around the famous Dulwich Picture Gallery. The village atmosphere and conservation area status make sympathetic renovation essential.
+
+[Blackheath](/areas/blackheath) combines elegant Georgian terraces overlooking the heath with substantial Victorian houses on the surrounding streets. The area's architectural cohesion makes it particularly important to choose a front door that respects the period character.
+
+[Greenwich](/areas/greenwich) offers everything from grand Georgian townhouses near the Royal Observatory to Victorian terraces in the streets surrounding Greenwich Park. The UNESCO World Heritage Site status of parts of Greenwich adds an extra layer of heritage consideration to any renovation project.
+
+### Battersea and Richmond
+
+[Battersea](/areas/battersea) has undergone remarkable transformation in recent years, with Victorian terraces being renovated to an exceptionally high standard. The area's period properties respond well to contemporary-traditional door designs that bridge the gap between heritage aesthetics and modern performance.
+
+[Richmond](/areas/richmond) feels more like a country town than a London borough, with its Georgian high street, Victorian residential roads and proximity to Richmond Park. The affluent, conservation-conscious character of Richmond makes it a natural fit for bespoke steel doors that combine period authenticity with lasting quality.
+
+## Why Steel Doors Are Perfect for London Period Properties
+
+London's period properties face a unique combination of challenges that steel entrance doors are perfectly positioned to address:
+
+- **Conservation area compliance** — a bespoke steel door can faithfully replicate any period design to satisfy planning requirements
+- **Security** — high-value London properties are attractive targets, and SR3-rated steel doors provide the highest residential protection available
+- **Thermal performance** — period properties are often draughty, and a thermally broken steel door significantly reduces heat loss through the entrance
+- **Zero maintenance** — unlike timber, steel doors do not warp, rot or require regular repainting, which is particularly valuable in London's variable climate
+- **Design precision** — non-standard openings are common in period properties, and bespoke steel doors are manufactured to exact dimensions
+
+## Start Your Renovation
+
+Whether you are restoring a Georgian townhouse in [Kensington](/areas/kensington) or upgrading a Victorian terrace in [Fulham](/areas/fulham), the entrance door sets the tone for the entire property. At SteelR, we design and manufacture bespoke steel entrance doors for period properties across London — every door SR3 rated, Secured by Design accredited and built under ISO 9001 certified quality management. [Contact us](/contact) to discuss your project.`,
+  },
+  {
+    slug: "steel-doors-country-homes-guide",
+    title: "Steel Entrance Doors for Country Homes: A Complete Guide",
+    description:
+      "Why homeowners in affluent rural and semi-rural areas across the UK are choosing bespoke steel entrance doors — covering security, weather resistance, kerb appeal and design options for country properties.",
+    date: "2026-03-30",
+    readTime: "4 min read",
+    category: "Guides",
+    image: "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
+    imageAlt:
+      "Olive traditional steel entrance door with arched stone surround — steel door for a country home",
+    content: `## Why Country Homes Are Choosing Steel
+
+The British countryside is home to some of the most beautiful residential properties in the world — from Chiltern manor houses and Cotswold farmsteads to Yorkshire stone cottages and Surrey estates. Increasingly, homeowners in these affluent rural and semi-rural areas are turning to bespoke steel entrance doors as the definitive upgrade for their country properties.
+
+This guide explains why steel doors are the ideal choice for country homes and covers the key considerations for homeowners in rural locations across the UK.
+
+## Security for Rural and Detached Properties
+
+Security is often the primary driver for country homeowners considering a steel entrance door. Rural properties face distinct security challenges that urban homes do not:
+
+- **Isolation** — detached country homes are often set back from roads and neighbours, giving intruders more time and privacy to attempt entry
+- **Response times** — police response times in rural areas are typically longer than in urban centres
+- **Outbuilding access** — tools stored in garages, barns and sheds can be used to attack entry points
+- **Perception of wealth** — large country properties are often perceived as high-value targets
+
+Homeowners in [Beaconsfield](/areas/beaconsfield) and [Gerrards Cross](/areas/gerrards-cross) in the Chilterns know this reality well — these areas combine significant property values with a semi-rural setting. Similarly, properties in [Virginia Water](/areas/virginia-water) and [Cobham](/areas/cobham) in Surrey sit on large plots surrounded by woodland and open land.
+
+An **SR3-rated steel entrance door** addresses these concerns directly. Tested to **BS EN 1627:2011**, an SR3 door withstands sustained attack with crowbars, drills and angle grinders — providing a level of resistance that no timber or composite door can match. For isolated country properties, this standard of protection is not a luxury; it is a sensible precaution.
+
+## Weather Resistance and Durability
+
+Country homes are typically more exposed to the elements than urban properties. Entrance doors on rural properties face:
+
+- **Driving rain** — particularly on west-facing elevations in areas like [Marlow](/areas/marlow) and [Henley-on-Thames](/areas/henley-on-thames), where proximity to the Thames valley brings higher rainfall
+- **Wind exposure** — hilltop and ridge-line properties in areas such as [Sevenoaks](/areas/sevenoaks) and the North Downs are subject to stronger winds than sheltered urban streets
+- **Temperature extremes** — rural locations experience wider temperature swings between summer and winter than the urban heat island effect provides in cities
+- **UV exposure** — country properties often have south-facing elevations with no neighbouring buildings to provide shade
+
+Timber doors suffer significantly under these conditions. Warping, swelling, cracking and rot are accelerated by exposure, and the maintenance cycle shortens accordingly. A timber front door on an exposed country property may need repainting every two to three years.
+
+Steel entrance doors are engineered to withstand these conditions without compromise. The multi-layer paint system resists UV fading, the steel construction is dimensionally stable regardless of temperature and humidity, and the thermal break technology maintains consistent insulation performance. A steel door on a country home looks and performs the same after fifteen years as it did on installation day.
+
+## Kerb Appeal and First Impressions
+
+The entrance to a country home sets the tone for the entire property. Whether your driveway approach reveals a Georgian rectory, a Victorian farmhouse or a contemporary country estate, the front door is the focal point.
+
+In areas like [Alderley Edge](/areas/alderley-edge) in Cheshire — where substantial country houses sit behind mature hedgerows and gated drives — the entrance door must make a statement commensurate with the property. The same is true in [Winchester](/areas/winchester), where period houses along the Hampshire Downs demand doors that balance heritage sensitivity with understated quality.
+
+Bespoke steel doors offer complete design freedom for country properties:
+
+- **Traditional country house designs** — six-panel Georgian doors, four-panel Victorian doors and solid farmhouse designs, all faithfully reproduced in steel
+- **Arched and oversized doors** — country properties often have non-standard openings, including arched doorways and double-height entrances that off-the-shelf doors cannot accommodate
+- **Heritage colours** — sage greens, olive, cream, walnut and deep reds that complement stone, brick and rendered facades
+- **Period ironmongery** — lion knockers, ring knockers, brass letter plates and traditional lever handles that complete the authentic look
+
+## Regional Highlights
+
+### The Chilterns and Buckinghamshire
+
+[Beaconsfield](/areas/beaconsfield), [Gerrards Cross](/areas/gerrards-cross) and [Amersham](/areas/amersham) sit within the Chilterns Area of Outstanding Natural Beauty. Properties here range from medieval cottages to substantial Edwardian houses and contemporary country estates. The combination of high property values, semi-rural setting and conservation area coverage makes bespoke steel doors a natural choice.
+
+### Surrey and the Home Counties
+
+[Virginia Water](/areas/virginia-water) and [Cobham](/areas/cobham) are among the most affluent addresses in the south of England. Large detached properties on generous plots are the norm, and homeowners here expect the highest standards of quality, security and design in every element of their homes.
+
+### The North
+
+In [Harrogate](/areas/harrogate), the elegant stone properties of this North Yorkshire spa town benefit from entrance doors that complement their Georgian and Victorian architecture while standing up to the harsher northern climate. The combination of heritage aesthetics and weather resistance makes steel an ideal material.
+
+### Kent and the South East
+
+[Tunbridge Wells](/areas/tunbridge-wells) and [Sevenoaks](/areas/sevenoaks) in Kent offer a wealth of period properties in leafy, semi-rural settings. The conservation areas of Tunbridge Wells in particular require careful attention to door design and materials.
+
+## Practical Considerations for Country Installations
+
+Installing a bespoke steel door on a country property involves some additional practical considerations:
+
+- **Access** — rural properties may have narrow lanes, gravel drives or limited turning space for delivery vehicles
+- **Structural openings** — older country houses often have thick stone or brick walls with deep reveals that require careful measurement and bespoke frame profiles
+- **Listed building consent** — many country properties are Grade I or Grade II listed, requiring Listed Building Consent for a new front door. A bespoke steel door designed to replicate the original design supports a successful application
+- **Outbuildings** — some country homeowners extend their steel door specification to include matching doors for converted barns, orangeries and boot rooms
+
+## The Country Home Investment
+
+A bespoke steel entrance door for a country property is an investment in security, durability and kerb appeal. For homeowners in areas like [Marlow](/areas/marlow), [Henley-on-Thames](/areas/henley-on-thames) or [Alderley Edge](/areas/alderley-edge), it is also a statement of intent — a signal that every detail of the property has been considered and executed to the highest standard.
+
+At SteelR, we design and manufacture bespoke steel entrance doors for country homes across the UK. Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management. [Contact us](/contact) to discuss your country home project.`,
+  },
+  {
+    slug: "conservation-area-door-requirements-uk",
+    title: "Understanding Conservation Area Door Requirements in the UK",
+    description:
+      "A practical guide to replacing your front door in a conservation area — covering planning rules, permitted development, design requirements and how bespoke steel doors can meet conservation officer expectations.",
+    date: "2026-03-30",
+    readTime: "4 min read",
+    category: "Guides",
+    image: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
+    imageAlt:
+      "Black traditional steel entrance door with stained glass panels — conservation area compliant door design",
+    content: `## What Is a Conservation Area?
+
+A **conservation area** is an area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance. Local planning authorities in England and Wales have designated over **10,000 conservation areas** across the country, covering everything from medieval town centres to Victorian suburbs and garden villages.
+
+If your property is located within a conservation area, certain changes to the external appearance of your home — including replacing the front door — may require **planning permission**. Understanding these requirements before you begin is essential to avoid costly mistakes and potential enforcement action.
+
+## Do You Need Planning Permission to Replace a Front Door in a Conservation Area?
+
+The answer depends on several factors, and the rules differ slightly between England, Wales, Scotland and Northern Ireland. In England:
+
+**Permitted development** normally allows homeowners to make minor alterations to their property without planning permission, provided the changes do not materially affect the external appearance of the building. Replacing a front door with one of a similar style, material appearance and colour may fall within permitted development rights.
+
+However, **Article 4 directions** can remove permitted development rights in conservation areas. Many local authorities have applied Article 4 directions specifically to control changes to front elevations — including doors, windows, paint colours and boundary treatments. Where an Article 4 direction applies, you will need **planning permission** even for a like-for-like replacement.
+
+### How to Check
+
+- Contact your local planning authority's **conservation team** or planning department
+- Check the council's website for a list of **Article 4 directions** applying to your area
+- Review the **conservation area appraisal** document for your neighbourhood, which typically describes the key architectural features that define the area's character
+
+## What Conservation Officers Look For
+
+When assessing a planning application for a new front door in a conservation area, conservation officers consider whether the proposed door **preserves or enhances** the character and appearance of the area. Key assessment criteria include:
+
+### Design and Proportions
+
+The door design should be appropriate to the architectural period of the property. A Georgian townhouse in [Kensington](/areas/kensington) or [Chelsea](/areas/chelsea) requires a different approach to a Victorian villa in [Dulwich](/areas/dulwich) or an Edwardian semi in [Cambridge](/areas/cambridge).
+
+- **Panel configuration** — the number and arrangement of panels should reflect the original design or an appropriate period alternative
+- **Moulding profiles** — the depth and style of panel mouldings should be consistent with the architectural period
+- **Glazing patterns** — any glazed panels should use appropriate glazing bar patterns and glass types
+- **Proportions** — the overall height-to-width ratio and the position of the door within the opening must respect the original design intent
+
+### Materials and Finish
+
+Conservation officers traditionally prefer **timber** for doors in conservation areas, as it is the historically authentic material. However, attitudes are evolving. Many conservation officers now accept **alternative materials** provided the finished appearance is indistinguishable from traditional painted timber when viewed from the street.
+
+A bespoke steel entrance door finished with a multi-layer paint system achieves exactly this. The panel profiles, moulding details and overall proportions can be specified to match the original design precisely, and the painted finish is visually identical to traditional timber at normal viewing distances.
+
+### Colour
+
+Many conservation areas have **approved colour palettes** or guidance on acceptable door colours. Common requirements include:
+
+- Heritage colours appropriate to the architectural period (blacks, dark greens, deep reds, navy, cream)
+- Avoidance of bright, modern or non-traditional colours
+- Consistency with the prevailing character of the streetscape
+
+With access to the full **RAL Classic range** of over 200 colours, a bespoke steel door can be specified in any colour that meets conservation requirements.
+
+### Hardware
+
+Period-appropriate ironmongery is important for a successful application:
+
+- **Knockers** — traditional lion head or ring knockers in brass, bronze or black finishes
+- **Letter plates** — horizontal designs in a matching finish
+- **Handles** — lever handles or knob handles appropriate to the period
+- **Numerals** — individual numerals rather than modern number plaques
+
+## Conservation Areas Across the UK
+
+Conservation areas exist in virtually every town and city in the United Kingdom. Some of the most notable areas where homeowners regularly navigate these requirements include:
+
+### London
+
+[Kensington](/areas/kensington) and [Chelsea](/areas/chelsea) together contain some of the most extensive and strictly enforced conservation areas in the country. The Royal Borough of Kensington and Chelsea has over **35 conservation areas**, covering the vast majority of its residential streets.
+
+### Historic Cities
+
+Cities with rich architectural heritage have particularly extensive conservation area coverage:
+
+- [Bath](/areas/bath) — the entire city centre is a UNESCO World Heritage Site, with stringent controls on external alterations to its famous Georgian terraces
+- [Oxford](/areas/oxford) — the historic core and surrounding residential areas are heavily designated, with particular sensitivity to changes on principal elevations
+- [York](/areas/york) — the medieval and Georgian city centre has some of the most detailed conservation area guidance in the country
+- [Edinburgh](/areas/edinburgh) — the New Town and Old Town World Heritage Site imposes rigorous standards on all external alterations
+- [Cambridge](/areas/cambridge) — the historic centre and surrounding residential streets are subject to careful conservation control
+- [Cheltenham](/areas/cheltenham) — the Regency architecture of this Cotswold spa town is protected by extensive conservation area coverage
+- [Chichester](/areas/chichester) — the Georgian and medieval city centre requires sympathetic treatment of all external elements
+
+### Market Towns
+
+Attractive market towns across the Home Counties and beyond have significant conservation area coverage:
+
+- [St Albans](/areas/st-albans) — the medieval and Georgian town centre and surrounding Victorian suburbs
+- [Winchester](/areas/winchester) — Hampshire's historic county town with extensive conservation area designations
+- [Tunbridge Wells](/areas/tunbridge-wells) — the Pantiles and surrounding Georgian and Victorian residential areas
+
+## Tips for a Successful Conservation Area Door Application
+
+Based on our experience working with homeowners and conservation officers across the UK, here are practical steps to maximise the chances of a smooth approval:
+
+### 1. Research Before You Design
+
+Obtain the **conservation area appraisal** for your neighbourhood. This document describes the key features that define the area's character and often includes specific guidance on doors, windows and other external elements. Understanding what the council values helps you brief your door manufacturer accurately.
+
+### 2. Engage Early with the Conservation Officer
+
+Most local authorities offer **pre-application advice**, either free or for a small fee. A brief conversation with the conservation officer before submitting a formal application can save significant time and cost. They will tell you what they expect to see and flag any potential issues.
+
+### 3. Provide Detailed Drawings and Specifications
+
+Conservation officers assess proposals based on the information provided. A detailed specification that includes **elevation drawings, section details, colour specification (RAL reference), hardware details and material description** demonstrates that the proposal has been carefully considered.
+
+### 4. Photograph the Existing Door
+
+Include photographs of the **current door** and the **wider streetscape** with your application. This helps the officer understand the context and assess whether the proposed replacement is appropriate.
+
+### 5. Reference Precedent
+
+If neighbouring properties have successfully replaced their doors with modern materials, reference these as precedent. Conservation officers value consistency within the streetscape.
+
+## How SteelR Supports Conservation Area Projects
+
+At SteelR, we have extensive experience designing and manufacturing bespoke steel entrance doors for properties in conservation areas across the UK — from the Georgian terraces of [Bath](/areas/bath) to the Victorian streets of [Kensington](/areas/kensington). Our design team works closely with homeowners and, where required, with conservation officers to ensure every door meets the specific requirements of the local planning authority.
+
+Every SteelR door is manufactured to order, which means we can replicate any period design — panel layouts, moulding profiles, glazing patterns and proportions — with complete accuracy. Combined with SR3 security, Secured by Design accreditation and ISO 9001 certified quality management, a SteelR door delivers heritage aesthetics with modern performance that a traditional timber door simply cannot match. [Contact us](/contact) to discuss your conservation area project.`,
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

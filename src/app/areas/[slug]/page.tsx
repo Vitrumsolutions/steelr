@@ -72,6 +72,29 @@ export default async function AreaPage({ params }: Props) {
   if (!location) notFound();
 
   const label = location.name;
+
+  /* FAQ data — use location-specific FAQs if provided, otherwise generate defaults */
+  const defaultFaqs = [
+    {
+      question: `How much do steel entrance doors cost in ${location.name}?`,
+      answer: `Every SteelR door is bespoke, so pricing depends on the size, design complexity, glazing, hardware and finish you choose. As a guide, our steel entrance doors typically start from around £5,000. We offer a free, no-obligation consultation for ${location.name} homeowners where we discuss your requirements and provide a detailed quotation tailored to your property.`,
+    },
+    {
+      question: `Do you install steel doors in ${location.name}?`,
+      answer: `Yes. SteelR provides a full nationwide service, and we regularly install bespoke steel entrance doors in ${location.name} and across ${location.region}. Our service includes an initial design consultation, a full structural survey of your property, precision manufacturing in our UK workshop, and professional installation carried out by our own in-house fitting team — never subcontractors.`,
+    },
+    {
+      question: `How long does installation take in ${location.name}?`,
+      answer: `From your initial consultation to completion, the typical lead time is 8 to 12 weeks. This allows for the design process, structural survey, bespoke manufacturing and quality checks. The on-site installation itself is usually completed in a single day, minimising disruption to your ${location.name} home.`,
+    },
+    {
+      question: `Are your steel doors suitable for conservation areas in ${location.name}?`,
+      answer: `Absolutely. We have extensive experience designing steel entrance doors for properties in conservation areas and listed buildings across the UK, including ${location.name}. We can work closely with your local planning officers to ensure the design meets heritage requirements while still providing the security, thermal performance and aesthetic impact you expect from a SteelR door.`,
+    },
+  ];
+
+  const faqs = location.faqs && location.faqs.length > 0 ? location.faqs : defaultFaqs;
+
   const parentHub = location.parentSlug
     ? getLocationBySlug(location.parentSlug)
     : undefined;
@@ -138,6 +161,25 @@ export default async function AreaPage({ params }: Props) {
             priceRange: "$$$$",
             image: `https://steelr.co.uk${location.heroImage}`,
             sameAs: ["https://steelr.co.uk"],
+          }),
+        }}
+      />
+
+      {/* Schema: FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
           }),
         }}
       />
@@ -690,6 +732,81 @@ export default async function AreaPage({ params }: Props) {
               </Link>
             </div>
           </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Frequently Asked Questions */}
+      <section
+        style={{ background: "#ede8df" }}
+        className="ribbon-bg py-16 md:py-24 px-6 md:px-16"
+      >
+        <div className="max-w-5xl mx-auto">
+          <ScrollReveal>
+            <p
+              className="mb-4"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 9,
+                letterSpacing: "0.3em",
+                textTransform: "uppercase",
+                color: "#b8943f",
+              }}
+            >
+              Frequently Asked Questions
+            </p>
+            <h2
+              className="mb-10"
+              style={{
+                fontFamily:
+                  "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontSize: "clamp(24px, 3vw, 36px)",
+                color: "#1a1a18",
+                lineHeight: 1.2,
+              }}
+            >
+              Common questions about steel doors in {label}
+            </h2>
+          </ScrollReveal>
+          <div className="space-y-8">
+            {faqs.map((faq, i) => (
+              <ScrollReveal key={i} delay={i * 0.08}>
+                <div
+                  className="p-5 rounded-[4px]"
+                  style={{
+                    background: "rgba(245,240,232,0.5)",
+                    border: "1px solid rgba(201,169,110,0.12)",
+                  }}
+                >
+                  <p
+                    className="mb-3"
+                    style={{
+                      fontFamily:
+                        "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 400,
+                      fontSize: 14,
+                      color: "#1a1a18",
+                    }}
+                  >
+                    {faq.question}
+                  </p>
+                  <p
+                    style={{
+                      fontFamily:
+                        "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 200,
+                      fontSize: 14,
+                      lineHeight: 1.9,
+                      color: "#6b5a42",
+                    }}
+                  >
+                    {faq.answer}
+                  </p>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
         </div>
       </section>
 
