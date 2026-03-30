@@ -46,6 +46,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
       ],
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `Steel Entrance Doors ${label} | SteelR`,
+      description: `Bespoke steel entrance doors in ${label}. SR3 rated, ISO 9001 certified, made to measure. Free consultation available.`,
+      images: [location.heroImage],
+    },
   };
 }
 

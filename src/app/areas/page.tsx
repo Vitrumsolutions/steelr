@@ -13,6 +13,19 @@ export const metadata: Metadata = {
   description:
     "SteelR installs bespoke steel entrance doors across the UK. From London to Edinburgh, we provide a complete nationwide service including survey, manufacture and installation.",
   alternates: { canonical: "https://steelr.co.uk/areas" },
+  openGraph: {
+    title: "Areas We Serve | Steel Entrance Doors Nationwide | SteelR",
+    description: "SteelR installs bespoke steel entrance doors across the UK. From London to Edinburgh, we provide a complete nationwide service.",
+    url: "https://steelr.co.uk/areas",
+    type: "website",
+    images: [{ url: "/og-image.png", width: 2400, height: 1260, alt: "SteelR — Areas We Serve" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Areas We Serve | Steel Entrance Doors Nationwide | SteelR",
+    description: "SteelR installs bespoke steel entrance doors across the UK. From London to Edinburgh, complete nationwide service.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function AreasPage() {
