@@ -31,7 +31,11 @@ export const metadata: Metadata = {
   description:
     "Bespoke steel entrance doors designed and installed nationwide. SR3 rated, ISO 9001 certified, Secured by Design approved. Request a free consultation today.",
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/brand/steelr-favicon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
   metadataBase: new URL("https://steelr.co.uk"),
   openGraph: {
@@ -79,7 +83,7 @@ export default function RootLayout({
               "telephone": "0800 861 1450",
               "email": "info@steelr.co.uk",
               "url": "https://steelr.co.uk",
-              "logo": "https://steelr.co.uk/favicon.svg",
+              "logo": "https://steelr.co.uk/brand/steelr-logo-primary.png",
               "image": "https://steelr.co.uk/images/hero/steelr-black-ornate-medallion-stone.jpg",
               "description": "Bespoke steel entrance doors manufactured and installed nationwide across the United Kingdom. SR3 rated, ISO 9001 certified, Secured by Design approved.",
               "areaServed": {

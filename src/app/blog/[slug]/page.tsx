@@ -155,7 +155,7 @@ export default async function BlogPostPage({ params }: Props) {
               "@type": "Organization",
               name: "SteelR",
               url: "https://steelr.co.uk",
-              logo: "https://steelr.co.uk/favicon.svg",
+              logo: "https://steelr.co.uk/brand/steelr-logo-primary.png",
             },
           }),
         }}
