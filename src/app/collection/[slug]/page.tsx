@@ -82,6 +82,13 @@ export default async function DoorPage({ params }: Props) {
                 value: door.style,
               },
             ],
+            offers: {
+              "@type": "Offer",
+              priceCurrency: "GBP",
+              availability: "https://schema.org/InStock",
+              priceValidUntil: "2027-12-31",
+              url: `https://steelr.co.uk/collection/${door.slug}`,
+            },
             url: `https://steelr.co.uk/collection/${door.slug}`,
           }),
         }}
@@ -214,7 +221,7 @@ export default async function DoorPage({ params }: Props) {
                 alt={door.alt}
                 width={1200}
                 height={1600}
-                quality={100}
+                quality={80}
                 priority
                 className="w-full h-auto rounded-[4px]"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -447,7 +454,7 @@ export default async function DoorPage({ params }: Props) {
                         src={r.src}
                         alt={r.alt}
                         fill
-                        quality={100}
+                        quality={80}
                         className="object-cover"
                         style={{ objectPosition: "center top" }}
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

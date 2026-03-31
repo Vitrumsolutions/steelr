@@ -89,7 +89,7 @@ export default function Hero() {
               src={img.src}
               alt={img.alt}
               fill
-              quality={100}
+              quality={80}
               className="object-cover"
               style={{
                 objectPosition: img.objectPos,
@@ -100,6 +100,7 @@ export default function Hero() {
                 transform: isVisible ? undefined : "scale(1)",
               }}
               priority={i === 0}
+              loading={i === 0 ? "eager" : "lazy"}
               sizes="100vw"
             />
           </div>

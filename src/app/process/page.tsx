@@ -119,7 +119,7 @@ export default function ProcessPage() {
                   src={stage.image}
                   alt={stage.alt}
                   fill
-                  quality={100}
+                  quality={80}
                   className="object-cover"
                   style={{ objectPosition: "center 35%" }}
                   sizes="(max-width: 1024px) 100vw, 50vw"

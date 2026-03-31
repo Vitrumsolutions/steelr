@@ -178,7 +178,7 @@ export default function AboutPage() {
               src="/images/detail/steelr-navy-panelled-chrome-ring-closeup.jpg"
               alt="Close-up of steel door chrome ring knocker"
               fill
-              quality={100}
+              quality={80}
               className="object-cover rounded-[4px]"
               style={{ objectPosition: "center top" }}
               sizes="(max-width: 768px) 50vw, 25vw"
@@ -189,7 +189,7 @@ export default function AboutPage() {
               src="/images/detail/steelr-black-panelled-brass-lion-closeup.jpg"
               alt="Brass lion head door knocker close-up"
               fill
-              quality={100}
+              quality={80}
               className="object-cover rounded-[4px]"
               style={{ objectPosition: "center top" }}
               sizes="(max-width: 768px) 50vw, 25vw"
@@ -200,7 +200,7 @@ export default function AboutPage() {
               src="/images/detail/steelr-grey-panelled-chrome-multilock.jpg"
               alt="Multi-point chrome locking mechanism detail"
               fill
-              quality={100}
+              quality={80}
               className="object-cover rounded-[4px]"
               style={{ objectPosition: "center top" }}
               sizes="(max-width: 768px) 50vw, 25vw"
@@ -211,7 +211,7 @@ export default function AboutPage() {
               src="/images/detail/steelr-grey-panelled-brass-handle-closeup.jpeg"
               alt="Brass lever handle craftsmanship close-up"
               fill
-              quality={100}
+              quality={80}
               className="object-cover rounded-[4px]"
               style={{ objectPosition: "center top" }}
               sizes="(max-width: 768px) 50vw, 25vw"

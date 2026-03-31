@@ -1287,6 +1287,448 @@ At SteelR, we have extensive experience designing and manufacturing bespoke stee
 
 Every SteelR door is manufactured to order, which means we can replicate any period design — panel layouts, moulding profiles, glazing patterns and proportions — with complete accuracy. Combined with SR3 security, Secured by Design accreditation and ISO 9001 certified quality management, a SteelR door delivers heritage aesthetics with modern performance that a traditional timber door simply cannot match. [Contact us](/contact) to discuss your conservation area project.`,
   },
+  {
+    slug: "steel-entrance-doors-cost-uk",
+    title: "How Much Do Steel Entrance Doors Cost in the UK?",
+    description:
+      "Understand the factors that influence steel entrance door pricing in the UK — from size and glazing to hardware, finish and security rating — and how to budget for a bespoke steel front door.",
+    date: "2026-03-31",
+    readTime: "5 min read",
+    category: "Buying Guide",
+    image: "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
+    imageAlt:
+      "Espresso contemporary steel entrance door with gold inlay — bespoke steel door pricing factors",
+    content: `## The Short Answer: Every Door Is Different
+
+If you have been searching for **steel entrance door prices UK** or **how much does a steel front door cost**, you will have noticed that transparent pricing is hard to come by. That is not evasion — it is the nature of bespoke manufacturing. A steel entrance door is not a standard product pulled from a shelf. Every door is designed, engineered and built to a unique specification, and the cost reflects that.
+
+This guide explains the key factors that influence the price of a bespoke steel entrance door so you can plan your budget with confidence.
+
+## Factor 1: Door Size and Configuration
+
+The most fundamental cost driver is the size and layout of the doorset. A single door leaf in a standard-width opening is the simplest and most affordable configuration. From there, complexity — and cost — increases:
+
+- **Single door** — the baseline configuration
+- **Single door with one sidelight** — a glazed or panelled panel beside the door
+- **Single door with two sidelights** — flanking panels on both sides
+- **Double doors** — two opening leaves for wider entrances
+- **Transom or fanlight** — a glazed panel above the door
+- **Full entrance assembly** — double doors with sidelights and transom for grand entrances
+
+Larger, more complex configurations require more steel, more glazing, more hardware and more labour. A full entrance assembly with double doors and sidelights will naturally cost significantly more than a single door.
+
+## Factor 2: Security Rating
+
+The level of security testing applied to the door has a direct impact on manufacturing complexity and materials:
+
+- **PAS 24** — the minimum enhanced security standard. Lighter-gauge construction and simpler locking systems keep costs down
+- **SR2 (RC2)** — mid-range resistance class. Heavier steel, better locking mechanisms and more rigorous testing
+- **SR3 (RC3)** — the highest commercially available residential security rating under **BS EN 1627:2011**. Requires fire-rated steel construction, reinforced frames, advanced multi-point locking and security-rated glazing. Every component must be independently tested as a complete system
+
+At SteelR, SR3 is standard on every door — not an optional upgrade. This means the security specification is built into the base price rather than added as a costly extra. Learn more about our [manufacturing process](/process).
+
+## Factor 3: Glazing Specification
+
+Glazing options range widely in complexity and cost:
+
+- **No glazing** — solid steel panels are the most economical
+- **Clear or frosted glass** — standard glazing at a moderate additional cost
+- **Decorative leaded or stained glass** — handcrafted glazing that adds a premium
+- **Crittall-style glazing** — slim steel glazing bars creating a multi-pane industrial look
+- **Security-rated glazing** — laminated, attack-resistant glass rated to match the door's security class. Essential for SR3 doors and a meaningful cost component
+
+The more elaborate the glazing design, the greater the material cost and the skilled labour involved in fabrication.
+
+## Factor 4: Finish and Colour
+
+- **Standard RAL colours** — popular colours from the RAL Classic range are typically included in the base specification
+- **Dual-colour finish** — a different colour on the interior and exterior requires two separate finishing processes
+- **Special finishes** — metallic, textured or custom colour-matching to a specific sample adds to the cost
+- **Paint system quality** — a multi-layer, UV-resistant paint system that maintains its appearance for decades is a different proposition to a basic single-coat finish
+
+Browse our [collection](/collection) to see the variety of colour and finish options available.
+
+## Factor 5: Hardware and Ironmongery
+
+Hardware is both functional and decorative, and the range of options is broad:
+
+- **Locking systems** — multi-point mechanisms rated to the door's security standard
+- **Handles** — lever handles, pull bars, T-bars and bespoke designs in brass, chrome, satin nickel or matt black
+- **Knockers** — traditional lion heads, ring knockers and contemporary sculptural designs
+- **Letter plates, viewers and numerals** — each individually specified
+- **Smart lock integration** — electronic access systems with keypad, fingerprint or app control
+
+Premium hardware from established manufacturers costs more than generic fittings, but the quality, feel and longevity are incomparable.
+
+## Factor 6: Installation Complexity
+
+Professional installation is not optional for a security-rated door — the SR3 rating applies to the complete installed doorset, not just the door leaf. Installation cost varies by:
+
+- **Location** — distance from the manufacturing facility
+- **Structural work** — whether the opening needs widening, reinforcing or modifying
+- **Access** — ease of delivery and working space at the property
+- **Existing door removal** — disposal of the old doorset
+
+Homeowners in [London](/areas/london) and the [Surrey](/areas/surrey) commuter belt benefit from proximity to major transport routes, while more remote locations may incur additional delivery charges.
+
+## Why Bespoke Costs More Than Off-the-Shelf
+
+A bespoke steel entrance door costs more than a mass-produced composite or timber door for clear reasons: every door is individually designed, precision-engineered from fire-rated steel, independently tested to SR3, finished with a professional multi-layer paint system and installed by specialist fitters. The manufacturing process is closer to bespoke joinery or automotive engineering than to factory door production.
+
+The trade-off is a door that delivers the highest residential security available, complete design freedom, zero maintenance and a lifespan measured in decades rather than years.
+
+## How to Get an Accurate Price
+
+The only way to get a meaningful price for your specific project is to speak to a manufacturer directly. A reputable bespoke door company will:
+
+1. Discuss your requirements and design vision
+2. Arrange a professional site survey
+3. Present design options with clear, itemised pricing
+4. Provide a fixed quotation with no hidden costs
+
+At SteelR, every consultation begins with a conversation about what you need — not a price list. [Contact us](/contact) to start your bespoke door project and receive a no-obligation quotation.`,
+  },
+  {
+    slug: "steel-vs-aluminium-front-doors",
+    title: "Steel vs Aluminium Front Doors: Which Should You Choose?",
+    description:
+      "An honest comparison of steel and aluminium front doors covering security, thermal performance, weight, design flexibility, longevity and cost — helping UK homeowners choose the right material.",
+    date: "2026-03-31",
+    readTime: "6 min read",
+    category: "Buying Guide",
+    image: "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg",
+    imageAlt:
+      "Charcoal contemporary steel double entrance doors with horizontal detailing — steel vs aluminium comparison",
+    content: `## Two Premium Materials, One Important Decision
+
+When homeowners move beyond timber and composite and start looking at premium entrance door materials, the choice usually comes down to two options: **steel** and **aluminium**. Both are metals, both are used in high-end residential doors, and both outperform timber and composite in several key areas.
+
+But they are not interchangeable. Steel and aluminium have fundamentally different characteristics, and the right choice depends on your priorities. This guide provides an honest, side-by-side comparison to help you decide.
+
+## Security: Steel Wins Decisively
+
+This is the area where the difference between steel and aluminium is most significant.
+
+**Steel entrance doors** can achieve **SR3 security ratings** under BS EN 1627:2011 — the highest resistance class commercially available for residential doors. SR3 testing subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders. The inherent strength of steel makes it possible to achieve this level of resistance without excessive thickness or weight.
+
+**Aluminium doors** are typically tested to **PAS 24** or, at best, **SR2 (RC2)**. Aluminium is a softer, less dense metal than steel, which means it deforms more easily under concentrated force. Achieving SR3 with aluminium requires significantly thicker profiles and additional reinforcement, which most residential aluminium door manufacturers do not offer.
+
+For homeowners in high-value properties — whether in [Buckinghamshire](/areas/buckinghamshire) or [Kent](/areas/kent) — the security difference is a primary consideration.
+
+## Thermal Performance: Both Perform Well
+
+Modern steel and aluminium doors both use **thermal break technology** to prevent cold bridging through the metal frame. The thermal break — typically a polyamide or polyurethane barrier — separates the inner and outer metal skins and provides insulation.
+
+**Steel doors** with a polyurethane-injected core achieve U-values of approximately **0.9 to 1.2 W/m2K** for a solid panel door. **Aluminium doors** with a similar thermal break system achieve comparable U-values, typically in the range of **1.0 to 1.4 W/m2K**.
+
+In practice, the thermal performance difference between the two is marginal. Both significantly outperform timber and composite doors, and both comfortably meet the requirements of Approved Document L for new dwellings.
+
+The key differentiator is **long-term consistency**. A steel door's thermal performance remains constant because the door does not warp or move over time. With aluminium, thermal performance can be affected if the door profile distorts under sustained load or extreme temperature changes.
+
+## Weight: Aluminium Is Lighter
+
+This is aluminium's clearest advantage. Aluminium is approximately **one-third the weight of steel**, which means aluminium doors are lighter to handle, easier to operate and place less stress on hinges and frames.
+
+For very large door configurations — double doors with full-height sidelights, for example — the weight difference can be meaningful. Heavy steel doors require **robust, heavy-duty hinges** and careful engineering to ensure smooth, long-term operation. A reputable manufacturer will spec these correctly, but it is a factor to be aware of.
+
+That said, the weight of a steel door is also one of its strengths. The solid, substantial feel of a steel entrance door when you open and close it conveys quality and security in a way that a lighter aluminium door cannot replicate. Many homeowners consider this tactile quality an important part of the premium experience.
+
+## Design Flexibility: Both Offer Freedom
+
+Both steel and aluminium can be manufactured to bespoke designs, but the range of achievable aesthetics differs slightly.
+
+**Steel doors** excel at:
+- **Traditional and period designs** — Georgian panels, Victorian mouldings and ornate detailing are easier to achieve in steel
+- **Decorative hardware** — lion knockers, ring knockers and traditional ironmongery complement steel's substantial character
+- **Bold, flat panel designs** — steel holds a flat plane exceptionally well, creating crisp, architectural surfaces
+- **Any RAL colour** — over 200 options with dual-colour specification
+
+**Aluminium doors** excel at:
+- **Ultra-slim sightlines** — aluminium's strength-to-weight ratio allows thinner frame profiles, maximising glass area
+- **Contemporary minimalist design** — clean lines and slim profiles suit modern architectural language
+- **Anodised finishes** — aluminium can be anodised to create a distinctive metallic finish that is not available with steel
+- **Very large glazed openings** — the lighter weight makes floor-to-ceiling glazed entrances more practical
+
+If your aesthetic leans traditional or you want a door with substantial panel detailing and period hardware, steel is the natural choice. If you want an ultra-contemporary door with maximum glass and minimal frame, aluminium may have the edge.
+
+## Longevity and Durability: Steel Has the Edge
+
+**Steel** is inherently stronger and more resistant to deformation than aluminium. A well-manufactured steel door maintains its shape, alignment and performance for decades. The multi-layer paint system protects against corrosion, and the dimensional stability of steel means the door will not warp, bow or twist over time.
+
+**Aluminium** is naturally corrosion-resistant due to its oxide layer, which is an advantage in coastal environments. However, aluminium is softer than steel and more susceptible to denting, scratching and surface damage from impact. Over time, aluminium profiles can also suffer from **fatigue** under repeated stress, particularly around hinge points and locking mechanisms.
+
+For homeowners investing in a door they expect to last 30 years or more, steel's superior structural longevity is a compelling argument.
+
+## Cost: Comparable at the Premium End
+
+At the premium, bespoke end of the market, **steel and aluminium doors are broadly comparable in price**. Both involve bespoke design, precision manufacturing and professional installation. The raw material cost of steel is lower than aluminium, but the additional weight of steel means slightly higher fabrication and installation costs.
+
+The real cost difference often lies in what you get for your money:
+
+- A **premium steel door** typically includes SR3 security, fire-rated construction, Secured by Design accreditation and heavy-duty multi-point locking as standard
+- A **premium aluminium door** typically includes PAS 24 or SR2 security, thermal break profiles and contemporary hardware
+
+When comparing like for like on security specification, a steel door offers more at the same or lower price point.
+
+## Corrosion Resistance: Context Matters
+
+**Aluminium** has a natural advantage in corrosion resistance. Its oxide layer forms spontaneously and protects the surface without additional treatment. This makes aluminium a strong choice for **coastal properties** where salt spray is a constant concern.
+
+**Steel** requires a protective paint system to prevent corrosion. Modern multi-layer coatings are extremely effective — a well-finished steel door will not corrode under normal conditions — but in highly exposed coastal locations, aluminium may have a practical advantage.
+
+For the vast majority of UK properties, including those in [London](/areas/london), the Home Counties and inland locations, corrosion is not a meaningful concern for either material when properly finished.
+
+## Which Should You Choose?
+
+Choose **aluminium** if you want ultra-slim sightlines, maximum glass area, lighter weight for very large openings, or if your property is in a highly exposed coastal location.
+
+Choose **steel** if you want the **highest available security** (SR3), maximum durability, a substantial tactile quality, traditional or period design options, and a door that will hold its shape and performance for decades without compromise.
+
+At SteelR, we manufacture bespoke steel entrance doors to SR3 as standard — every door Secured by Design accredited, ISO 9001 certified and designed to your exact specification. Explore our [collection](/collection) to see the range of designs available, or learn more [about our approach](/about). [Contact us](/contact) to discuss whether steel is the right choice for your home.`,
+  },
+  {
+    slug: "best-front-door-home-security",
+    title: "How to Choose the Best Front Door for Home Security",
+    description:
+      "A comprehensive guide to choosing the most secure front door for your home — covering door materials, lock types, security ratings from SR1 to SR5, hinge specifications, glazing and what to look for when buying.",
+    date: "2026-03-31",
+    readTime: "7 min read",
+    category: "Security",
+    image: "/images/gallery/steelr-black-panelled-ring-knocker-recessed.jpg",
+    imageAlt:
+      "Black steel entrance door with ring knocker in a recessed porch — high-security front door",
+    content: `## Your Front Door Is Your First Line of Defence
+
+According to UK police data, approximately **70% of domestic burglaries involve entry through a door**, with the front door being the most commonly targeted entry point. Choosing the right front door is not just an aesthetic decision — it is one of the most important security investments you can make for your home.
+
+But with so many materials, lock types, security ratings and marketing claims to navigate, how do you identify which door will genuinely protect your family and property? This guide cuts through the noise and explains exactly what to look for.
+
+## Door Materials: Ranked by Security
+
+Not all door materials are created equal. Here is how the main options compare, ranked from least to most secure:
+
+### uPVC — Lowest Security
+uPVC doors are lightweight, inexpensive and widely installed across the UK. However, they offer the weakest physical resistance of any door material. The plastic frame and multi-chamber construction can be forced, flexed or levered open with basic tools. If home security is a priority, uPVC should be replaced.
+
+### Timber — Moderate Security
+Solid hardwood doors (oak, iroko, sapele) offer reasonable resistance to casual attack, but timber has inherent weaknesses. The wood around lock keeps and hinges is the failure point — it splits under concentrated force. Even high-quality timber doors can typically be breached in under 30 seconds with a crowbar. Softwood doors are significantly weaker again.
+
+### Composite — Good Security
+Composite doors combine a reinforced core (typically timber or insulating foam) with a GRP (glass-reinforced plastic) skin. The better composite doors achieve **PAS 24** certification, which tests resistance to manual attack with light tools. PAS 24 is a respectable standard that meets building regulations, and composite doors represent a solid mid-range security option for most homes.
+
+### Aluminium — Very Good Security
+Premium aluminium doors can achieve **SR2 (RC2)** security ratings, offering resistance to attack with simple tools for 3 minutes. Aluminium is stronger than timber and composite, and its metal construction provides better resistance to cutting and drilling. However, aluminium is a softer metal and has limitations at higher security levels.
+
+### Steel — Highest Security
+Steel entrance doors represent the pinnacle of residential door security. A bespoke steel door can achieve **SR3 (RC3)** — the highest security rating commercially available for residential use. SR3 testing under **BS EN 1627:2011** subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders for 5 minutes. No other residential door material achieves SR3.
+
+## Understanding Security Ratings: SR1 to SR5
+
+The European standard **BS EN 1627:2011** defines resistance classes that specify what level of attack a door can withstand:
+
+- **SR1 (RC1)** — Resists bodily force only (kicking, shoulder-barging). No tools. The minimum standard.
+- **SR2 (RC2)** — Resists casual attack with simple tools (screwdrivers, pliers, wedges) for 3 minutes. The most common rating for premium aluminium and reinforced composite doors.
+- **SR3 (RC3)** — Resists experienced attack with heavy-duty tools (crowbars, drills, angle grinders) for 5 minutes. The gold standard for residential security. Only achievable with steel construction.
+- **SR4 (RC4)** — Resists experienced attack with power tools (reciprocating saws, impact drills) for 10 minutes. Government and commercial applications.
+- **SR5 (RC5)** — Resists attack with high-powered tools (disc cutters, drilling machines) for 15 minutes. Embassy, military and high-security commercial use.
+
+For residential properties, **SR3 is the benchmark** for premium security. Homeowners in high-value areas such as [London](/areas/london), [Virginia Water](/areas/virginia-water) and [Beaconsfield](/areas/beaconsfield) increasingly specify SR3 as a baseline requirement.
+
+## Lock Types: What to Look For
+
+The lock is only as good as the door it is fitted to, but the locking system is still a critical component:
+
+### Multi-Point Locking
+The door should engage at **multiple points** along the frame — typically 3, 5 or 7 locking points. Multi-point systems distribute the locking force across the full height of the door, making it far harder to force open than a single deadbolt.
+
+### Anti-Snap Cylinders
+Standard euro cylinders are one of the most exploited weaknesses in UK residential doors. A burglar can snap a standard cylinder in seconds using pliers or a mole wrench. **Anti-snap, anti-pick, anti-bump and anti-drill cylinders** are essential. Look for cylinders rated to **TS007 3-star** or equivalent.
+
+### BS 3621 and Above
+**BS 3621** is the minimum lock standard that most UK insurers require. It tests the lock's resistance to picking, drilling and key security. For premium security, look for locks that exceed BS 3621 and are integrated into the door's overall security-rated system.
+
+### Deadlocks vs Latch Locks
+A **deadlock** (or deadbolt) is a lock that can only be opened with a key — it cannot be pushed back with a credit card or similar tool. For maximum security, the primary lock should be a deadlocking mechanism, with additional hookbolts and compression bolts at secondary locking points.
+
+## Hinges: The Overlooked Weakness
+
+Many homeowners focus on locks and forget hinges. A door is only as secure as its weakest point:
+
+- **Dog bolt hinges** — also called security hinges, these have interlocking bolts that engage when the door closes, preventing the door from being lifted off its hinges even if the hinge pins are removed
+- **Concealed hinges** — hidden from the exterior, making them impossible to attack from outside
+- **Heavy-duty specification** — hinges must be rated to carry the weight of the door for the lifetime of the installation. Undersized hinges sag over time, creating gaps and misalignment that compromise both security and weather sealing
+
+On an SR3-rated door, the hinges are part of the tested system. They are not an afterthought — they are engineered and tested alongside the door, frame and locking mechanism.
+
+## Glazing: Beautiful but Vulnerable
+
+Glazed panels add natural light and design interest to an entrance door, but they also represent a potential security weakness:
+
+- **Standard glass** can be smashed to reach the locking mechanism. If your door has glass panels within arm's reach of the lock, standard glass is a serious vulnerability
+- **Laminated glass** holds together when broken, making it much harder to breach. For security-rated doors, laminated glazing is the minimum standard
+- **Security-rated glazing** is independently tested to match the door's resistance class. An SR3 door requires SR3-rated glazing — glass that resists attack with the same tools and for the same duration as the steel panels
+
+Never assume that a security-rated door automatically includes security-rated glazing. Always confirm the glazing specification.
+
+## The Frame Matters as Much as the Door
+
+A common mistake is focusing entirely on the door leaf and ignoring the frame. The strongest door in the world is useless in a weak frame:
+
+- The frame must be constructed from the same or equivalent material as the door
+- Frame fixings must anchor securely into the structural wall — not just plasterboard or mortar
+- The frame must be part of the tested security system. An SR3 door must be installed in an SR3-tested frame to maintain the rating
+- Poorly fitted frames with gaps or flex provide leverage points for forced entry
+
+At SteelR, every door is supplied as a **complete doorset** — door, frame, locking system, hinges, glazing and hardware — all tested together as a single security system. Learn more about our [process](/process).
+
+## Secured by Design: The Police Standard
+
+When evaluating front door security, look for **Secured by Design** accreditation. This is the official UK police security initiative, and products carrying the mark have been independently assessed and approved by police crime prevention officers. Research shows that properties built to Secured by Design standards experience up to **75% less burglary**.
+
+Secured by Design assesses the complete doorset, not individual components. It also requires ongoing manufacturing audits, ensuring the door you receive matches the door that was tested.
+
+## Making Your Decision
+
+The best front door for home security combines:
+
+- **Steel construction** for maximum physical resistance
+- **SR3 security rating** under BS EN 1627:2011
+- **Multi-point locking** with anti-snap cylinders
+- **Security-rated glazing** matched to the door's resistance class
+- **Heavy-duty, tested hinges** integrated into the doorset
+- **Secured by Design** accreditation for police-approved security
+- **Professional installation** to maintain the tested specification
+
+At SteelR, every entrance door meets all of these criteria as standard. Whether you are securing a London townhouse or a country home in the [Home Counties](/areas/surrey), we design and manufacture to the highest residential security specification available. Explore our [collection](/collection) to see the range of designs, then [contact us](/contact) to discuss your security requirements.`,
+  },
+  {
+    slug: "front-door-ideas-design-trends",
+    title: "Front Door Ideas: 10 Design Trends for 2026",
+    description:
+      "Ten inspiring front door design trends for 2026 — from bold colours and oversized handles to ribbed panels, smart locks and statement lighting — with real examples from the SteelR collection.",
+    date: "2026-03-31",
+    readTime: "5 min read",
+    category: "Design",
+    image: "/images/gallery/steelr-sage-contemporary-bar-handle-sidelight.jpg",
+    imageAlt:
+      "Sage contemporary steel entrance door with bar handle and sidelight — front door design trends 2026",
+    content: `## Fresh Inspiration for Your Front Door
+
+Your entrance door is the single most visible design statement on the exterior of your home. In 2026, front door design is bolder, more personalised and more sophisticated than ever. Whether you are building new, renovating or simply upgrading your kerb appeal, these ten trends will help you make a confident choice.
+
+## 1. Bold Colour as a Design Statement
+
+Safe neutrals are giving way to confident colour. Homeowners across the UK are choosing entrance doors in rich, saturated tones that command attention:
+
+- **Deep emerald and forest green** — a natural evolution from the sage green trend, with more depth and drama
+- **Espresso and walnut** — warm, earthy tones that work beautifully against both brick and stone
+- **Sapphire blue** — richer and more intense than navy, making a striking first impression
+- **Burgundy and oxblood** — heritage colours with renewed contemporary appeal
+
+The freedom to specify **any RAL colour** means your door can be precisely matched to your vision. In neighbourhoods like [Notting Hill](/areas/notting-hill) and [Chelsea](/areas/chelsea), where colourful facades are part of the streetscape, a bold door colour is practically expected.
+
+## 2. Oversized Hardware
+
+The era of small, discreet door furniture is over. In 2026, hardware is a feature in its own right:
+
+- **Full-height pull bars** — vertical handles that span most of the door height in brushed brass or matt black
+- **Sculptural knockers** — artisan designs that go beyond traditional lion heads
+- **Chunky lever handles** — substantial, weighted handles with a satisfying mechanical feel
+
+The best hardware combines visual impact with tactile quality. When you grip a well-made brass pull bar on a steel door, the experience communicates quality before you even step inside.
+
+## 3. Glazed Panels and Sidelights
+
+Natural light in the hallway is a growing priority, and glazing is the solution:
+
+- **Full-height sidelights** — floor-to-ceiling glazed panels flanking the door, flooding the entrance with daylight
+- **Slim Crittall-style glazing bars** — the industrial-luxe aesthetic of slender black steel frames with multiple panes
+- **Frosted and reeded glass** — privacy-friendly alternatives to clear glazing that still transmit light beautifully
+- **Arched fanlights** — a heritage detail making a strong comeback above both traditional and contemporary doors
+
+The interplay of solid steel and light-filled glass creates entrances that feel grand without being imposing. See examples in our [collection](/collection).
+
+## 4. Ribbed and Textured Surfaces
+
+Flat, featureless door panels are being replaced by three-dimensional surface treatments that catch the light and add visual depth:
+
+- **Vertical ribbing** — fine, evenly spaced ribs running the full height of the door
+- **Fluted panels** — inspired by the fluted furniture and glass trend in interiors
+- **Horizontal channelling** — wide, shallow grooves for a clean, architectural look
+
+These textured finishes are particularly effective in darker colours, where the play of light and shadow across the surface creates a dynamic, ever-changing appearance throughout the day.
+
+## 5. Heritage Styles with Modern Performance
+
+One of the most distinctive trends in 2026 is the demand for doors that look authentically period but perform to 21st-century standards:
+
+- **Georgian six-panel designs** reproduced in SR3-rated steel
+- **Victorian four-panel doors** with stained glass panels backed by security-rated glazing
+- **Traditional brass ironmongery** — lion knockers, letter plates and ring pulls — on high-performance doorsets
+
+Homeowners in [Kensington](/areas/kensington) and historic towns across the UK want their entrance doors to honour the architecture while delivering modern security and thermal performance. Bespoke steel manufacturing makes this possible without compromise.
+
+## 6. Smart Lock Integration
+
+Keyless entry is no longer futuristic — it is rapidly becoming the expectation for premium homes:
+
+- **Fingerprint readers** — discreet biometric sensors integrated into the handle or frame
+- **Keypad entry** — numeric codes for family members and trusted visitors
+- **App-controlled locks** — open and monitor your door from anywhere via your phone
+- **Temporary access codes** — for deliveries, cleaners and tradespeople
+
+The best smart lock installations are **invisible** until needed. The technology is concealed within the door and hardware, preserving the clean aesthetic of a beautifully crafted entrance.
+
+## 7. Double Door Entrances
+
+For properties with the space, double doors make an undeniable architectural statement:
+
+- **Equal-leaf doubles** — two identically sized opening leaves for a symmetrical, grand entrance
+- **Master and slave** — one primary opening leaf with a smaller, fixed or occasional-use second leaf
+- **Double doors with sidelights** — the full treatment for large entrance openings
+
+Double doors are particularly popular on detached properties in [Cheshire](/areas/cheshire) and the Home Counties, where generous driveways and substantial facades provide the setting for a grand entrance.
+
+## 8. Arched Frames and Headers
+
+Arched doorways are experiencing a resurgence, moving beyond their traditional association with period properties:
+
+- **True arched doors** — with a curved top rail matching the arch of the opening
+- **Arched fanlights** — a glazed arch above a square-topped door
+- **Gothic and Tudor-inspired arches** — pointed arches for properties with medieval or Arts and Crafts influences
+
+Arched doors add softness and elegance to an entrance, and they are a natural fit for both period homes and contemporary designs that draw on classical proportions.
+
+## 9. Mixed Materials and Finishes
+
+The single-material, single-finish door is giving way to more layered, curated compositions:
+
+- **Dual-colour specification** — a different colour on the interior and exterior of the door
+- **Contrasting hardware finishes** — brass knocker with chrome handle, or black ironmongery on a brass-highlighted door
+- **Steel and glass combinations** — solid steel panels paired with glazed sections for a dynamic interplay of opacity and transparency
+- **Textured and smooth panels** — combining ribbed sections with flat panels on a single door
+
+This trend reflects the broader interior design movement towards mixing materials, textures and finishes for a richer, more personal result.
+
+## 10. Statement Entrance Lighting
+
+The door itself is only part of the entrance composition. In 2026, lighting is being treated as an integral design element:
+
+- **Architectural downlights** — recessed lights above the door that wash the facade and highlight the entrance
+- **Flanking wall lanterns** — traditional or contemporary sconces that frame the door symmetrically
+- **Illuminated house numbers** — backlit or side-lit numerals that combine practicality with design flair
+- **Step and path lighting** — low-level lights that guide visitors to the entrance and create drama after dark
+
+The right lighting transforms a beautiful door into a **beautiful entrance** — one that looks as impressive at midnight as it does at midday.
+
+## Bringing It All Together
+
+The common thread across these ten trends is **personalisation**. Homeowners in 2026 are not choosing from a catalogue — they are curating an entrance that reflects their taste, suits their property and delivers on security and performance.
+
+A bespoke steel entrance door is the ideal canvas for these trends. With complete freedom over colour, hardware, glazing, surface texture, dimensions and smart technology, you can combine any of these ideas into a single, cohesive design that is uniquely yours.
+
+At SteelR, every door is designed from scratch to our client's vision. With SR3 security, Secured by Design accreditation, ISO 9001 certified manufacturing and the full RAL colour range as standard, we provide the foundation. Explore our [collection](/collection) for inspiration, then [contact us](/contact) to start designing yours.`,
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

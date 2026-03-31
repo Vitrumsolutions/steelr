@@ -34,7 +34,7 @@ export default function ParallaxSection({ imageSrc, imageAlt }: ParallaxSectionP
           src={imageSrc}
           alt={imageAlt}
           fill
-          quality={100}
+          quality={80}
           className="object-cover"
           style={{ objectPosition: "center 40%" }}
           sizes="100vw"

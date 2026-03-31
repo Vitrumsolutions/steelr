@@ -62,7 +62,7 @@ export default function BeforeAfter({
           src={afterSrc}
           alt={afterAlt}
           fill
-          quality={100}
+          quality={80}
           className="object-cover"
           style={{ objectPosition: "center 30%" }}
           sizes="(max-width: 768px) 100vw, 50vw"
@@ -79,7 +79,7 @@ export default function BeforeAfter({
           src={beforeSrc}
           alt={beforeAlt}
           fill
-          quality={100}
+          quality={80}
           className="object-cover"
           style={{ objectPosition: "center 30%" }}
           sizes="(max-width: 768px) 100vw, 50vw"

@@ -285,7 +285,7 @@ export default async function BlogPostPage({ params }: Props) {
               src={post.image}
               alt={post.imageAlt}
               fill
-              quality={100}
+              quality={80}
               priority
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 768px"

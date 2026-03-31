@@ -76,7 +76,7 @@ export default function HorizontalGallery() {
               src={img.src}
               alt={img.alt}
               fill
-              quality={100}
+              quality={80}
               className="object-cover transition-all duration-700 ease-out group-hover:scale-[1.15]"
               style={{ objectPosition: img.pos, transformOrigin: img.pos }}
               sizes="360px"

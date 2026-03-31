@@ -103,7 +103,7 @@ export default function Home() {
                     alt={img.alt}
                     width={600}
                     height={800}
-                    quality={100}
+                    quality={80}
                     className="w-full h-full object-cover rounded-[4px]"
                     style={{ objectPosition: img.pos }}
                     sizes="(max-width: 768px) 100vw, 33vw"
@@ -390,7 +390,7 @@ export default function Home() {
                 src="/images/gallery/steelr-navy-panelled-chrome-palms.jpg"
                 alt="Navy panelled steel door with chrome hardware and palms"
                 fill
-                quality={100}
+                quality={80}
                 className="object-cover rounded-[4px]"
                 style={{ objectPosition: "center 35%" }}
                 sizes="(max-width: 1024px) 100vw, 50vw"
