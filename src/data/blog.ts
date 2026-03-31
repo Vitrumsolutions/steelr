@@ -58,13 +58,57 @@ Both materials perform well for thermal efficiency. **Steel doors** with a polyu
 
 **Steel entrance doors** are a premium product. Bespoke steel doors start from a higher price point, reflecting the SR3 security rating, ISO 9001 certified manufacturing, bespoke design process and professional installation. For homeowners who prioritise the highest security standards and complete design freedom, the investment reflects the quality.
 
+## Head-to-Head Comparison
+
+Here is how steel and composite doors compare across every key factor:
+
+### Security Rating
+- **Steel:** SR3 (BS EN 1627) — resists sustained attack with heavy tools for 20+ minutes
+- **Composite:** PAS 24 — resists manual attack with light tools for 3 minutes
+- **Winner: Steel** — several levels higher physical security
+
+### Thermal Performance (U-value)
+- **Steel:** 0.87–1.2 W/m²K (with thermal break and polyurethane core)
+- **Composite:** 0.9–1.4 W/m²K (solid foam core)
+- **Winner: Draw** — both significantly outperform timber (3.0+ W/m²K)
+
+### Lifespan
+- **Steel:** 40–50+ years with minimal maintenance
+- **Composite:** 15–25 years before GRP skin degradation
+- **Winner: Steel** — substantially longer working life
+
+### Customisation
+- **Steel:** Any RAL colour (200+), dual-colour, bespoke panels, any size, any hardware
+- **Composite:** 15–30 standard colours, fixed panel designs, limited sizes
+- **Winner: Steel** — completely bespoke vs standardised options
+
+### Fire Rating
+- **Steel:** Inherently fire-rated steel construction (FD30/FD60 available)
+- **Composite:** Not fire rated without specialist construction
+- **Winner: Steel**
+
+### Weight
+- **Steel:** 80–120kg (requires structural survey and professional installation)
+- **Composite:** 35–55kg (lighter, easier to fit)
+- **Winner: Composite** — lighter and easier to handle
+
+### Price Range
+- **Steel:** £4,000–£15,000+ (bespoke, installed)
+- **Composite:** £800–£2,500 (standard, installed)
+- **Winner: Composite** — significantly lower entry price
+
+### Maintenance
+- **Steel:** Wipe clean, occasional hardware lubrication. No repainting needed.
+- **Composite:** Wipe clean, but GRP skin may fade and require replacement after 15–20 years.
+- **Winner: Steel** — truly maintenance-free long term
+
 ## Which Should You Choose?
 
-Choose a **composite door** if you want a solid upgrade from timber at a moderate price point, with good security and a range of styles.
+Choose a **composite door** if you want a solid upgrade from timber at a moderate price point, with good security and a range of styles. Composite is the right choice for most standard residential properties where budget is the primary concern.
 
-Choose a **steel entrance door** if you want the **highest possible security** (SR3 rated), complete design freedom, UK manufacturing, professional installation and a door that will last for decades without compromise.
+Choose a **steel entrance door** if you want the **highest possible security** (SR3 rated), complete design freedom, UK manufacturing, professional installation and a door that will last for decades without compromise. Steel is the right choice for high-value properties, security-conscious homeowners, and anyone who wants a truly bespoke entrance.
 
-At SteelR, every door is manufactured to [SR3 security standards](/blog/what-is-sr3-security-rating), ISO 9001 certified, and [Secured by Design approved](/blog/secured-by-design-doors). We design, manufacture and install bespoke steel entrance doors nationwide across the UK. [Browse our full collection](/collection) to see the range of designs available.`,
+For homeowners in [London](/areas/london), [Surrey](/areas/surrey), [Buckinghamshire](/areas/buckinghamshire) and across the UK, SteelR provides a complete service from [design consultation through to installation](/process). Every door is manufactured to [SR3 security standards](/blog/what-is-sr3-security-rating) and [Secured by Design approved](/security). [Browse our full collection](/collection) or [request a free consultation](/contact) to discuss your requirements.`,
   },
   {
     slug: "what-is-sr3-security-rating",
