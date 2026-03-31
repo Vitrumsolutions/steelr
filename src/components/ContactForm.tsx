@@ -34,13 +34,17 @@ export default function ContactForm() {
     const formData = new FormData(form);
 
     try {
-      const body = new URLSearchParams();
-      formData.forEach((value, key) => body.append(key, value.toString()));
+      const data: Record<string, string> = {};
+      formData.forEach((value, key) => {
+        if (key !== "form-name" && key !== "bot-field") {
+          data[key] = value.toString();
+        }
+      });
 
-      const res = await fetch("/form.html", {
+      const res = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: body.toString(),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
       });
 
       if (res.ok) {
@@ -83,19 +87,9 @@ export default function ContactForm() {
 
   return (
     <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
       className="flex flex-col gap-6"
     >
-      <input type="hidden" name="form-name" value="contact" />
-      <p className="hidden">
-        <label>
-          Do not fill this out: <input name="bot-field" />
-        </label>
-      </p>
 
       <div className="flex flex-col gap-2">
         <label htmlFor="name" style={labelStyle}>Full Name</label>
