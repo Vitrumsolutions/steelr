@@ -17,8 +17,8 @@ export async function POST(req: Request) {
     }
 
     await resend.emails.send({
-      from: "SteelR Enquiries <onboarding@resend.dev>",
-      to: "info@steelr.co.uk",
+      from: "SteelR Enquiries <noreply@steelr.co.uk>",
+      to: "info@supplywindows.co.uk",
       subject: "New Enquiry — SteelR",
       html: `
         <h2>New Enquiry from steelr.co.uk</h2>
