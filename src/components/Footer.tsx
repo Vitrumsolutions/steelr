@@ -18,7 +18,7 @@ export default function Footer() {
         <Logo variant="stacked" theme="light" size="standard" />
 
         {/* Nav links */}
-        <div className="flex items-center gap-8 mt-10">
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 mt-10">
           {footerLinks.map((link) => (
             <Link
               key={link.href}
