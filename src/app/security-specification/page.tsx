@@ -120,6 +120,22 @@ export default function SecuritySpecificationPage() {
           }),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              { "@type": "Question", name: "What is PAS 24 and why is it required?", acceptedAnswer: { "@type": "Answer", text: "PAS 24:2022 is the UK security standard for doors and windows mandated by Approved Document Q of the Building Regulations. All new-build dwellings and flats in England and Wales must have entrance doors that meet PAS 24. It tests resistance to opportunist forced entry over a 15-minute manual attack." }},
+              { "@type": "Question", name: "What is SR3 and how does it differ from PAS 24?", acceptedAnswer: { "@type": "Answer", text: "SR3 is Security Rating 3 under BS EN 1627 Class 3 — a European standard that tests resistance to sustained power-tool attack including angle grinders and drills. It far exceeds PAS 24 and is the highest security classification commercially available for residential entrance doors. Every SteelR door is SR3 rated as standard." }},
+              { "@type": "Question", name: "What does Secured by Design mean?", acceptedAnswer: { "@type": "Answer", text: "Secured by Design is the official UK police security initiative. Products carrying the Secured by Design accreditation have been independently tested and certified to the police-preferred specification for crime prevention. SteelR doors are Secured by Design approved." }},
+              { "@type": "Question", name: "Are SteelR doors fire rated?", acceptedAnswer: { "@type": "Answer", text: "Yes. Every SteelR door carries FD30S certification providing 30 minutes of fire and smoke resistance as standard. FD60 (60-minute) ratings are available on request. This satisfies Approved Document B, the Fire Safety Act 2021, and the Building Safety Act 2022 for flat entrance doors." }},
+              { "@type": "Question", name: "Are SteelR doors suitable for new builds and flats?", acceptedAnswer: { "@type": "Answer", text: "Yes. SteelR doors exceed Approved Document Q (PAS 24) for security and Approved Document B for fire safety. The SR3 + FD30S specification satisfies all current UK Building Regulations for new-build houses, flats, HMOs, and housing association properties. They are regularly specified by developers, architects and housing associations." }},
+            ],
+          }),
+        }}
+      />
 
       {/* Hero */}
       <section

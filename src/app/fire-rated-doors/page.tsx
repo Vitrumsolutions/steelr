@@ -39,13 +39,13 @@ const faqs = [
   {
     question: "Can a fire rated door also be a security door?",
     answer:
-      "Absolutely. SteelR fire rated doors combine FD30 or FD60 fire certification with SR3 security ratings as standard. Steel is uniquely suited to achieving both \u2014 its inherent material properties provide natural fire resistance while its strength delivers exceptional security. This dual certification is particularly valuable for flat entrance doors, which must meet both fire safety and security requirements under Building Regulations.",
+      "Absolutely. SteelR fire rated doors combine FD30 or FD60 fire certification with SR3 security ratings (BS EN 1627 Class 3) as standard. Every door is PAS 24 certified, Secured by Design approved and satisfies Approved Document Q for security alongside Approved Document B for fire safety. Steel is uniquely suited to achieving both \u2014 its inherent material properties provide natural fire resistance while its strength delivers exceptional security. This dual certification is particularly valuable for flat entrance doors in new builds and existing buildings.",
   },
   {
     question:
       "Do you supply fire rated doors for multi-unit developments?",
     answer:
-      "Yes. We work with developers, architects and housing associations across the UK on projects ranging from small conversions to large-scale new builds. We provide NBS specification clauses, door schedule pricing, project-level technical support and phased delivery programmes. Every door is manufactured to order, allowing us to accommodate varying aperture sizes, fire ratings and finishes across a single development.",
+      "Yes. We work with developers, architects and housing associations across the UK on projects ranging from small conversions to large-scale new builds. Every door is PAS 24 certified and SR3 rated (BS EN 1627 Class 3), satisfying Approved Document Q alongside fire safety requirements. We provide NBS specification clauses, door schedule pricing, project-level technical support and phased delivery programmes. Every door is manufactured to order, allowing us to accommodate varying aperture sizes, fire ratings and finishes across a single development.",
   },
 ];
 

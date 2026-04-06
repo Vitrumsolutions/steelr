@@ -18,6 +18,15 @@ const breadcrumbSchema = JSON.stringify({
   ],
 });
 
+const collectionSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "SteelR Bespoke Steel Door Collection",
+  description: "Browse the full collection of PAS 24 certified, SR3 rated bespoke steel entrance doors. Secured by Design approved, FD30S fire rated. BS EN 1627 Class 3 security standard. Steel doors for new builds, flats and homes across the UK.",
+  url: "https://steelr.co.uk/collection",
+  isPartOf: { "@type": "WebSite", url: "https://steelr.co.uk" },
+});
+
 export default function CollectionLayout({
   children,
 }: {
@@ -26,6 +35,7 @@ export default function CollectionLayout({
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: collectionSchema }} />
       {children}
     </>
   );

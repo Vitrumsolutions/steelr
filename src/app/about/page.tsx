@@ -27,6 +27,7 @@ export default function AboutPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://steelr.co.uk"},{"@type":"ListItem","position":2,"name":"About","item":"https://steelr.co.uk/about"}]}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"SteelR","url":"https://steelr.co.uk/about","description":"SteelR manufactures and installs bespoke PAS 24 certified steel entrance doors across the UK. SR3 rated to BS EN 1627 Class 3, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 certified. Approved Document Q compliant steel doors for new builds, flats and homes.","telephone":"0800 861 1450","knowsAbout":["PAS 24 certified doors","SR3 rated doors","BS EN 1627 Class 3","Secured by Design","FD30 fire rated doors","Approved Document Q compliance","Bespoke security doors UK","Steel doors for new builds","Steel doors for flats"]}) }} />
       {/* Page banner */}
       <section
         className="relative flex items-center justify-center overflow-hidden"

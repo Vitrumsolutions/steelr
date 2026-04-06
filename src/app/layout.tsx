@@ -85,7 +85,7 @@ export default function RootLayout({
               "url": "https://steelr.co.uk",
               "logo": "https://steelr.co.uk/brand/steelr-logo-primary.png",
               "image": "https://steelr.co.uk/images/hero/steelr-black-ornate-medallion-stone.jpg",
-              "description": "Bespoke steel entrance doors manufactured and installed nationwide across the United Kingdom. SR3 rated, ISO 9001 certified, Secured by Design approved.",
+              "description": "Bespoke PAS 24 certified steel entrance doors manufactured and installed nationwide across the United Kingdom. SR3 rated to BS EN 1627 Class 3, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 certified. Approved Document Q compliant for new builds and flats.",
               "areaServed": {
                 "@type": "Country",
                 "name": "United Kingdom"
@@ -101,7 +101,7 @@ export default function RootLayout({
                 "closes": "18:00"
               },
               "priceRange": "$$$$",
-              "knowsAbout": ["Steel entrance doors", "Bespoke doors", "Security doors", "SR3 rated doors", "Fire rated doors"],
+              "knowsAbout": ["Steel entrance doors", "Bespoke doors", "Security doors", "SR3 rated doors", "PAS 24 certified doors", "Secured by Design doors", "BS EN 1627 Class 3", "FD30 fire rated doors", "FD60 fire rated doors", "Approved Document Q compliance", "Steel doors for new builds", "Steel doors for flats", "Bespoke security doors UK"],
               "sameAs": [
                 "https://www.instagram.com/steelrdoors",
                 "https://www.pinterest.co.uk/steelrdoors",

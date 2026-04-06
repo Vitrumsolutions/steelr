@@ -148,7 +148,7 @@ export default async function AreaPage({ params }: Props) {
             "@context": "https://schema.org",
             "@type": "HomeAndConstructionBusiness",
             name: "SteelR",
-            description: `Bespoke steel entrance doors in ${label}, ${location.region}. SR3 security rated, UK manufactured.`,
+            description: `Bespoke PAS 24 certified steel entrance doors in ${label}, ${location.region}. SR3 security rated (BS EN 1627 Class 3), Secured by Design approved, FD30S fire rated. Steel doors for new builds and flats.`,
             url: `https://steelr.co.uk/areas/${location.slug}`,
             telephone: "0800 861 1450",
             areaServed:
