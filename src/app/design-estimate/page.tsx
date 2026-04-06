@@ -173,10 +173,22 @@ export default function DesignEstimatePage() {
     e.preventDefault();
     setStatus("sending");
     try {
+      // Capture UTM params for lead source tracking
+      const submitData: Record<string, unknown> = { ...form };
+      if (typeof window !== "undefined") {
+        const params = new URLSearchParams(window.location.search);
+        const utmSource = params.get("utm_source");
+        const utmMedium = params.get("utm_medium");
+        const utmCampaign = params.get("utm_campaign");
+        if (utmSource) submitData.utm_source = utmSource;
+        if (utmMedium) submitData.utm_medium = utmMedium;
+        if (utmCampaign) submitData.utm_campaign = utmCampaign;
+      }
+
       const res = await fetch("/api/estimate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify(submitData),
       });
       if (res.ok) {
         setStatus("success");

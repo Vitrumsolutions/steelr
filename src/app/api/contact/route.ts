@@ -7,7 +7,7 @@ export async function POST(req: Request) {
   try {
     const resend = new Resend(process.env.RESEND_API_KEY);
     const body = await req.json();
-    const { name, phone, email, propertyType, doorStyle, message } = body;
+    const { name, phone, email, propertyType, doorStyle, message, utm_source, utm_medium, utm_campaign } = body;
 
     if (!name || !phone || !email || !propertyType || !doorStyle) {
       return NextResponse.json(
@@ -48,6 +48,14 @@ export async function POST(req: Request) {
               ? `<tr>
             <td style="padding: 8px 16px; border-bottom: 1px solid #eee; font-weight: bold;">Message</td>
             <td style="padding: 8px 16px; border-bottom: 1px solid #eee;">${message}</td>
+          </tr>`
+              : ""
+          }
+          ${
+            utm_source
+              ? `<tr>
+            <td style="padding: 8px 16px; border-bottom: 1px solid #eee; font-weight: bold; color: #c9a96e;">Lead Source</td>
+            <td style="padding: 8px 16px; border-bottom: 1px solid #eee; color: #c9a96e;">${utm_source} / ${utm_medium || "direct"} / ${utm_campaign || "none"}</td>
           </tr>`
               : ""
           }

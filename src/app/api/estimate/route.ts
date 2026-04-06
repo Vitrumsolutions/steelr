@@ -104,6 +104,19 @@ export async function POST(req: Request) {
             : ""
         }
 
+        ${
+          body.utm_source
+            ? `<div style="padding: 24px 0;">
+                <h2 style="font-size: 13px; text-transform: uppercase; letter-spacing: 0.3em; color: #c9a96e; margin: 0 0 8px 0;">Lead Source</h2>
+                <table style="border-collapse: collapse; width: 100%;">
+                  ${row("Source", body.utm_source)}
+                  ${row("Medium", body.utm_medium)}
+                  ${row("Campaign", body.utm_campaign)}
+                </table>
+              </div>`
+            : ""
+        }
+
         <div style="border-top: 1px solid #eee; padding: 16px 0; margin-top: 8px;">
           <p style="font-size: 11px; color: #999; margin: 0;">Submitted via steelr.co.uk/design-estimate</p>
         </div>
