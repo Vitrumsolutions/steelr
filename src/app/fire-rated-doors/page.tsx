@@ -5,23 +5,23 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { CredentialsStrip } from "@/components/CredentialsBanner";
 
 export const metadata: Metadata = {
-  title: "Fire Rated Steel Doors | FD30 & FD60 Certified | SteelR",
+  title: "Fire Rated Steel Doors for Flats & New Builds | FD30 & FD60 | SteelR",
   description:
-    "Fire rated steel entrance doors certified to FD30 and FD60 standards. Compliant with Building Safety Act and Approved Document B for flats, new builds, HMOs and housing associations across the UK.",
+    "FD30 and FD60 fire rated steel entrance doors for flats, new builds, HMOs and housing associations. PAS 24 certified, Approved Document Q and Document B compliant. SR3 security rated steel doors for specifiers and developers across the UK.",
   alternates: { canonical: "https://steelr.co.uk/fire-rated-doors" },
   openGraph: {
-    title: "Fire Rated Steel Doors | FD30 & FD60 Certified | SteelR",
+    title: "Fire Rated Steel Doors for Flats & New Builds | FD30 & FD60 | SteelR",
     description:
-      "Fire rated steel entrance doors certified to FD30 and FD60 standards. Compliant with Building Safety Act and Approved Document B for flats, new builds and housing associations.",
+      "FD30 and FD60 fire rated steel entrance doors for flats, new builds and housing associations. PAS 24 certified, Approved Document Q compliant, SR3 security rated.",
     url: "https://steelr.co.uk/fire-rated-doors",
     siteName: "SteelR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fire Rated Steel Doors | FD30 & FD60 Certified | SteelR",
+    title: "Fire Rated Steel Doors for Flats & New Builds | FD30 & FD60 | SteelR",
     description:
-      "Fire rated steel entrance doors certified to FD30 and FD60 standards. Compliant with Building Safety Act and Approved Document B for flats, new builds and housing associations.",
+      "FD30 and FD60 fire rated steel entrance doors for flats, new builds and housing associations. PAS 24 certified, Approved Document Q compliant, SR3 security rated.",
   },
 };
 

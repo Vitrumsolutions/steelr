@@ -5,15 +5,15 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title:
-    "Steel Door Security Ratings | SR3, PAS 24, Secured by Design | SteelR",
+    "Steel Door Security Ratings | SR3, PAS 24, BS EN 1627, Secured by Design | SteelR",
   description:
-    "Understand steel door security certifications: SR3 ratings, PAS 24, Secured by Design approval, fire ratings and ISO 9001. Learn why SteelR doors exceed UK residential security standards.",
+    "Bespoke security doors tested to BS EN 1627 Class 3 (SR3), PAS 24 certified and Secured by Design approved. Approved Document Q compliant steel entrance doors for new builds, flats and high-value homes across the UK.",
   alternates: { canonical: "https://steelr.co.uk/security" },
   openGraph: {
     title:
-      "Steel Door Security Ratings | SR3, PAS 24, Secured by Design | SteelR",
+      "Steel Door Security Ratings | SR3, PAS 24, BS EN 1627 | SteelR",
     description:
-      "Understand steel door security certifications: SR3 ratings, PAS 24, Secured by Design approval, fire ratings and ISO 9001.",
+      "Bespoke security doors tested to BS EN 1627 (SR3), PAS 24 certified and Secured by Design approved. Approved Document Q compliant for new builds and flats.",
     url: "https://steelr.co.uk/security",
     siteName: "SteelR",
     type: "website",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Steel Door Security Ratings | SR3, PAS 24, Secured by Design | SteelR",
+      "Steel Door Security Ratings | SR3, PAS 24, BS EN 1627 | SteelR",
     description:
-      "Understand steel door security certifications: SR3 ratings, PAS 24, Secured by Design approval, fire ratings and ISO 9001.",
+      "Bespoke security doors tested to BS EN 1627 (SR3), PAS 24 certified and Secured by Design approved. Approved Document Q compliant for new builds and flats.",
   },
 };
 

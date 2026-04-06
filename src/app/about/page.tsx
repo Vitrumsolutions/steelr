@@ -4,9 +4,9 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "About SteelR | UK Manufactured Bespoke Steel Doors",
+  title: "About SteelR | PAS 24 Certified & Secured by Design Steel Doors",
   description:
-    "SteelR manufacture and install bespoke steel entrance doors across the UK. SR3 rated, fire rated, ISO 9001 certified. Every door made to order.",
+    "SteelR manufacture and install bespoke PAS 24 certified steel entrance doors across the UK. SR3 security rated, Secured by Design approved, FD30 fire rated, ISO 9001 certified. Every door made to order.",
   alternates: {
     canonical: "https://steelr.co.uk/about",
   },

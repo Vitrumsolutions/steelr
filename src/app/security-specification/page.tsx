@@ -3,22 +3,22 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "PAS 24 Compliance & SR3 Security Specification | SteelR",
+  title: "PAS 24 Compliance & SR3 Security Specification | BS EN 1627 | SteelR",
   description:
-    "Every SteelR door exceeds PAS 24 with SR3 security and FD30S fire rating as standard. Satisfies Approved Document Q, Part B, Fire Safety Act 2021 and Building Safety Act 2022.",
+    "Every SteelR door exceeds PAS 24 with BS EN 1627 Class 3 (SR3) security and FD30S fire rating as standard. Approved Document Q compliant. Satisfies Building Safety Act 2022 for steel doors in new builds and flats.",
   alternates: { canonical: "https://steelr.co.uk/security-specification" },
   openGraph: {
-    title: "PAS 24 Compliance & SR3 Security Specification | SteelR",
+    title: "PAS 24 Compliance & SR3 Security Specification | BS EN 1627 | SteelR",
     description:
-      "SteelR doors exceed UK Building Regulations with SR3 security and FD30S fire rating. PAS 24 compliant and Secured by Design approved.",
+      "SteelR doors exceed UK Building Regulations with BS EN 1627 Class 3 (SR3) security and FD30S fire rating. PAS 24 compliant and Secured by Design approved.",
     url: "https://steelr.co.uk/security-specification",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PAS 24 Compliance & SR3 Security Specification | SteelR",
+    title: "PAS 24 Compliance & SR3 Security Specification | BS EN 1627 | SteelR",
     description:
-      "SteelR doors exceed UK Building Regulations with SR3 security and FD30S fire rating.",
+      "SteelR doors exceed UK Building Regulations with BS EN 1627 Class 3 (SR3) security and FD30S fire rating. Approved Document Q compliant.",
   },
 };
 

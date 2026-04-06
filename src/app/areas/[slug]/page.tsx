@@ -30,11 +30,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       location.type === "hub"
         ? `Steel Entrance Doors ${label} | Bespoke Steel Doors | SteelR`
         : `Steel Entrance Doors ${label}, ${location.region} | SteelR`,
-    description: `Bespoke steel entrance doors in ${label}, ${location.region}. SR3 security rated, UK manufactured, nationwide installation. Request a free consultation from SteelR.`,
+    description: `Bespoke PAS 24 certified steel entrance doors in ${label}, ${location.region}. SR3 security rated, Secured by Design approved, FD30 fire rated. Steel doors for new builds and flats. Request a free consultation from SteelR.`,
     alternates: { canonical: `https://steelr.co.uk/areas/${location.slug}` },
     openGraph: {
       title: `Steel Entrance Doors ${label} | SteelR`,
-      description: `Bespoke steel entrance doors in ${label}. SR3 rated, ISO 9001 certified, made to measure. Free consultation available.`,
+      description: `PAS 24 certified bespoke steel entrance doors in ${label}. SR3 rated, Secured by Design approved, FD30 fire rated. Free consultation available.`,
       url: `https://steelr.co.uk/areas/${location.slug}`,
       type: "website",
       images: [
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: `Steel Entrance Doors ${label} | SteelR`,
-      description: `Bespoke steel entrance doors in ${label}. SR3 rated, ISO 9001 certified, made to measure. Free consultation available.`,
+      description: `PAS 24 certified bespoke steel entrance doors in ${label}. SR3 rated, Secured by Design approved, FD30 fire rated. Free consultation available.`,
       images: [location.heroImage],
     },
   };

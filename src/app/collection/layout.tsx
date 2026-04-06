@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Steel Door Designs | SteelR Collection",
+  title: "Bespoke Steel Door Designs | PAS 24 & SR3 Rated | SteelR Collection",
   description:
-    "Browse the full SteelR collection of bespoke steel entrance doors. Contemporary and traditional designs fully bespoke to your specification. Nationwide installation.",
+    "Browse the full SteelR collection of bespoke security doors. PAS 24 certified, SR3 rated, Secured by Design approved. Contemporary and traditional steel entrance doors for new builds, flats and homes. Nationwide installation.",
   alternates: {
     canonical: "https://steelr.co.uk/collection",
   },

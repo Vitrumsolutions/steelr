@@ -27,9 +27,9 @@ const tenorSans = Tenor_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "SteelR | Bespoke Steel Entrance Doors | Nationwide UK",
+  title: "SteelR | Bespoke Steel Entrance Doors | PAS 24 Certified | Nationwide UK",
   description:
-    "Bespoke steel entrance doors designed and installed nationwide. SR3 rated, ISO 9001 certified, Secured by Design approved. Request a free consultation today.",
+    "Bespoke PAS 24 certified steel entrance doors designed and installed nationwide. SR3 security rated, Secured by Design approved, FD30 fire rated. Approved Document Q compliant for new builds and flats. Request a free consultation.",
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://steelr.co.uk"),
   openGraph: {
-    title: "SteelR | Bespoke Steel Entrance Doors",
-    description: "Bespoke steel entrance doors designed and installed nationwide. SR3 rated, ISO 9001 certified.",
+    title: "SteelR | Bespoke PAS 24 Certified Steel Entrance Doors",
+    description: "Bespoke PAS 24 certified steel entrance doors. SR3 security rated, Secured by Design approved, FD30 fire rated. Nationwide installation.",
     url: "https://steelr.co.uk",
     siteName: "SteelR",
     type: "website",
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SteelR | Bespoke Steel Entrance Doors",
-    description: "Bespoke steel entrance doors designed and installed nationwide. SR3 rated, ISO 9001 certified.",
+    title: "SteelR | Bespoke PAS 24 Certified Steel Entrance Doors",
+    description: "Bespoke PAS 24 certified steel entrance doors. SR3 security rated, Secured by Design approved, FD30 fire rated. Nationwide installation.",
     images: ["/og-image.png"],
   },
   alternates: {
