@@ -1,62 +1,102 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title:
-    "PAS 24 vs SR3 Security Specification | Enhanced Door Security | SteelR",
+  title: "PAS 24 Compliance & SR3 Security Specification | SteelR",
   description:
-    "SteelR doors exceed UK Building Regulations with SR3 (LPS 1175) security specification as standard. Compare PAS 24 vs SR3 and discover why our enhanced specification delivers superior protection.",
+    "Every SteelR door exceeds PAS 24 with SR3 security and FD30S fire rating as standard. Satisfies Approved Document Q, Part B, Fire Safety Act 2021 and Building Safety Act 2022.",
   alternates: { canonical: "https://steelr.co.uk/security-specification" },
   openGraph: {
-    title:
-      "PAS 24 vs SR3 Security Specification | Enhanced Door Security | SteelR",
+    title: "PAS 24 Compliance & SR3 Security Specification | SteelR",
     description:
-      "SteelR doors exceed UK Building Regulations with SR3 (LPS 1175) security specification as standard. Compare PAS 24 vs SR3 protection levels.",
+      "SteelR doors exceed UK Building Regulations with SR3 security and FD30S fire rating. PAS 24 compliant and Secured by Design approved.",
     url: "https://steelr.co.uk/security-specification",
-    siteName: "SteelR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "PAS 24 vs SR3 Security Specification | Enhanced Door Security | SteelR",
+    title: "PAS 24 Compliance & SR3 Security Specification | SteelR",
     description:
-      "SteelR doors exceed UK Building Regulations with SR3 (LPS 1175) security specification as standard. Compare PAS 24 vs SR3 protection levels.",
+      "SteelR doors exceed UK Building Regulations with SR3 security and FD30S fire rating.",
   },
 };
 
-const comparisonRows = [
+const standards = [
   {
-    aspect: "Standard",
-    pas24: "BS PAS 24:2022",
-    sr3: "LPS 1175 Issue 8",
+    tier: "Building Regulations Minimum",
+    standard: "PAS 24",
+    name: "Document Q Compliant",
+    highlight: false,
+    features: [
+      "Resists opportunist forced entry",
+      "Multi-point locking required",
+      "Laminated glazing if present",
+      "Required for all new-build dwellings and flats",
+      "Tested to 15-minute manual attack",
+    ],
   },
   {
-    aspect: "Attack duration",
-    pas24: "~3 minutes",
-    sr3: "20+ minutes",
+    tier: "Enhanced Security",
+    standard: "SR2",
+    name: "BS EN 1627 Class 2",
+    highlight: false,
+    features: [
+      "Resists experienced attacker with manual tools",
+      "Sustained crowbar and lever resistance",
+      "Heavier gauge steel frame",
+      "Preferred by insurers for high-value properties",
+      "Often specified for commercial entrance doors",
+    ],
   },
   {
-    aspect: "Tool level",
-    pas24: "Basic hand tools",
-    sr3: "Heavy-duty power tools",
+    tier: "SteelR Standard",
+    standard: "SR3",
+    name: "BS EN 1627 Class 3 · FD30S",
+    highlight: true,
+    features: [
+      "Resists sustained power-tool attack including angle grinders and drills",
+      "Highest security class available for residential entrance doors",
+      "FD30S fire rated — 30-minute fire and smoke resistance",
+      "Intumescent seals and cold smoke brushes as standard",
+      "Satisfies Approved Document Q, Part B and the Fire Safety Act 2021",
+      "Secured by Design police-preferred specification",
+    ],
+  },
+];
+
+const certifications = [
+  { label: "PAS 24:2022", desc: "Security Standard" },
+  { label: "SR3 Rated", desc: "BS EN 1627 Class 3" },
+  { label: "FD30S", desc: "Fire & Smoke Rated" },
+  { label: "Secured by Design", desc: "Police Preferred Spec" },
+  { label: "ISO 9001", desc: "Certified Manufacturer" },
+];
+
+const regulations = [
+  {
+    title: "Approved Document Q",
+    text: "Security — dwellings. Mandatory for all new-build houses and flats in England and Wales.",
   },
   {
-    aspect: "Building Regs",
-    pas24: "Meets minimum (Doc Q)",
-    sr3: "Far exceeds minimum",
+    title: "Approved Document B — Part B",
+    text: "Fire safety. FD30S rating provides 30 minutes fire resistance and cold smoke control.",
   },
   {
-    aspect: "Target market",
-    pas24: "Standard residential",
-    sr3: "High-value residential",
+    title: "Fire Safety Act 2021",
+    text: "Flat entrance doors in multi-occupied buildings confirmed within scope. Responsible persons bear legal liability.",
   },
   {
-    aspect: "SteelR offering",
-    pas24: "Available",
-    sr3: "Standard specification",
+    title: "Fire Safety (England) Regulations 2022",
+    text: "Annual inspection duties for flat entrance doors in buildings over 11m. SteelR doors are designed for longevity and ongoing compliance.",
+  },
+  {
+    title: "Building Safety Act 2022",
+    text: "Higher-risk buildings regime. SteelR\u2019s SR3 + FD30S certification satisfies the gateway process requirements for higher-risk residential buildings.",
+  },
+  {
+    title: "Secured by Design — Police Preferred Specification",
+    text: "The UK police initiative accrediting doors to the highest independently verified security standard.",
   },
 ];
 
@@ -66,7 +106,7 @@ const displayFont = "var(--font-display), 'Cormorant Garamond', serif";
 export default function SecuritySpecificationPage() {
   return (
     <>
-      {/* Schema: BreadcrumbList */}
+      {/* Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -74,484 +114,172 @@ export default function SecuritySpecificationPage() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://steelr.co.uk",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Security Specification",
-                item: "https://steelr.co.uk/security-specification",
-              },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://steelr.co.uk" },
+              { "@type": "ListItem", position: 2, name: "PAS 24 & SR3 Specification", item: "https://steelr.co.uk/security-specification" },
             ],
           }),
         }}
       />
 
-      {/* Hero banner */}
+      {/* Hero */}
       <section
         className="relative flex items-center justify-center overflow-hidden"
-        style={{ height: 240, background: "#1a1a18", paddingTop: 80 }}
+        style={{ height: 280, background: "#1a1a18", paddingTop: 80 }}
       >
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{
-            background:
-              "linear-gradient(135deg, transparent 40%, rgba(201,169,110,0.06) 50%, transparent 60%)",
-          }}
-        />
-        <div
-          className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16"
-          style={{ height: 1, background: "rgba(201,169,110,0.3)" }}
-        />
-        <p
-          style={{
-            fontFamily: displayFont,
-            fontWeight: 300,
-            fontSize: "clamp(36px, 5vw, 56px)",
-            color: "#f5f0e8",
-            lineHeight: 1.1,
-            textAlign: "center",
-          }}
-        >
-          Security Specification
-        </p>
+        <div className="absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(135deg, transparent 40%, rgba(201,169,110,0.06) 50%, transparent 60%)" }} />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-16" style={{ height: 1, background: "rgba(201,169,110,0.3)" }} />
+        <div className="relative text-center px-6 z-10">
+          <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.35em", textTransform: "uppercase", color: "#c9a96e", marginBottom: 16 }}>
+            Building Regulations · Approved Document Q
+          </p>
+          <p style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(32px, 5vw, 56px)", color: "#f5f0e8", lineHeight: 1.1 }}>
+            Exceeding <em style={{ fontStyle: "italic", color: "#d4b07a" }}>PAS 24</em> as standard
+          </p>
+        </div>
       </section>
 
-      {/* sr-only H1 */}
-      <h1 className="sr-only">
-        PAS 24 &amp; SR3 Security Specification &mdash; Beyond Standard
-        Compliance
-      </h1>
+      <h1 className="sr-only">PAS 24 Compliance and SR3 Security Specification — Approved Document Q</h1>
 
       {/* Intro */}
-      <section className="bg-cream ribbon-bg py-24 md:py-40 px-6 md:px-16">
+      <section className="bg-cream ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-3xl mx-auto text-center">
           <ScrollReveal>
-            <p
-              className="mb-4"
-              style={{
-                fontFamily: bodyFont,
-                fontWeight: 400,
-                fontSize: 9,
-                letterSpacing: "0.3em",
-                textTransform: "uppercase",
-                color: "#b8943f",
-              }}
-            >
-              Enhanced Specification
-            </p>
-            <h2
-              className="mb-8"
-              style={{
-                fontFamily: displayFont,
-                fontWeight: 300,
-                fontSize: "clamp(28px, 4vw, 44px)",
-                color: "#1a1a18",
-                lineHeight: 1.2,
-              }}
-            >
-              Enhanced Security Specification &mdash; Beyond Standard Compliance
-            </h2>
-            <p
-              className="mb-6"
-              style={{
-                fontFamily: bodyFont,
-                fontWeight: 200,
-                fontSize: 14,
-                lineHeight: 1.9,
-                color: "#6b5a42",
-              }}
-            >
-              At SteelR, we go beyond the minimum security requirements expected
-              in modern residential construction.
-            </p>
-            <p
-              className="mb-6"
-              style={{
-                fontFamily: bodyFont,
-                fontWeight: 200,
-                fontSize: 14,
-                lineHeight: 1.9,
-                color: "#6b5a42",
-              }}
-            >
-              All new homes in the UK are required to meet PAS 24 standards in
-              accordance with Building Regulations (Approved Document Q). This
-              provides a recognised level of protection against opportunistic
-              intrusion.
-            </p>
-            <p
-              className="mb-6"
-              style={{
-                fontFamily: bodyFont,
-                fontWeight: 200,
-                fontSize: 14,
-                lineHeight: 1.9,
-                color: "#6b5a42",
-              }}
-            >
-              However, for clients seeking a higher level of security, we offer
-              an upgraded specification using doors and security systems tested
-              to LPS 1175 SR3.
-            </p>
-            <p
-              style={{
-                fontFamily: bodyFont,
-                fontWeight: 200,
-                fontSize: 14,
-                lineHeight: 1.9,
-                color: "#6b5a42",
-              }}
-            >
-              This enhanced standard is designed to resist more determined and
-              aggressive methods of forced entry, using a wider range of tools
-              and sustained attack techniques. As a result, it delivers a
-              significantly higher level of physical security compared to
-              standard PAS 24 products.
+            <p style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 14, lineHeight: 1.9, color: "#6b5a42" }}>
+              Every SteelR entrance door is certified beyond the PAS 24 threshold mandated by UK Building Regulations — meeting both Approved Document Q and the fire safety requirements of the Fire Safety Act 2021. Our SR3 classification and FD30S fire rating deliver a level of protection that far exceeds the regulatory minimum.
             </p>
           </ScrollReveal>
         </div>
       </section>
 
-      {/* Benefits — What this means for you */}
-      <section className="bg-cream ribbon-bg pb-24 md:pb-40 px-6 md:px-16">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
-          <ScrollReveal direction="left">
-            <div>
-              <p
-                className="mb-4"
-                style={{
-                  fontFamily: bodyFont,
-                  fontWeight: 400,
-                  fontSize: 9,
-                  letterSpacing: "0.3em",
-                  textTransform: "uppercase",
-                  color: "#b8943f",
-                }}
-              >
-                Client Benefits
-              </p>
-              <h2
-                className="mb-8"
-                style={{
-                  fontFamily: displayFont,
-                  fontWeight: 300,
-                  fontSize: "clamp(28px, 3.5vw, 44px)",
-                  color: "#1a1a18",
-                  lineHeight: 1.1,
-                }}
-              >
-                What this means for you
-              </h2>
-              <p
-                style={{
-                  fontFamily: bodyFont,
-                  fontWeight: 200,
-                  fontSize: 14,
-                  lineHeight: 1.9,
-                  color: "#6b5a42",
-                }}
-              >
-                Where specified, our SR3-rated systems are carefully selected to
-                ensure they align with residential design requirements while
-                delivering superior security performance.
-              </p>
-            </div>
+      {/* Standards Comparison */}
+      <section style={{ background: "#ede8df" }} className="ribbon-bg py-16 md:py-24 px-6 md:px-16">
+        <div className="max-w-6xl mx-auto">
+          <ScrollReveal>
+            <p className="mb-4 text-center" style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.3em", textTransform: "uppercase", color: "#b8943f" }}>
+              Security Standard Comparison
+            </p>
+            <h2 className="mb-12 text-center" style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(24px, 3.5vw, 40px)", color: "#1a1a18", lineHeight: 1.2 }}>
+              Three levels of door security
+            </h2>
           </ScrollReveal>
-          <ScrollReveal direction="right">
-            <div className="flex flex-col gap-4 justify-center">
-              {[
-                "Increased resistance to forced entry",
-                "Enhanced protection for occupants and valuables",
-                "A more robust, security-focused build specification",
-                "Peace of mind beyond standard regulatory requirements",
-              ].map((item) => (
-                <div key={item} className="flex items-start gap-3">
-                  <span
-                    className="w-[5px] h-[5px] rounded-full flex-shrink-0 mt-[7px]"
-                    style={{ background: "#c9a96e" }}
-                  />
-                  <span
-                    style={{
-                      fontFamily: bodyFont,
-                      fontWeight: 300,
-                      fontSize: 14,
-                      color: "#1a1a18",
-                      lineHeight: 1.6,
-                    }}
-                  >
-                    {item}
-                  </span>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {standards.map((s, i) => (
+              <ScrollReveal key={s.standard} delay={i * 0.1}>
+                <div
+                  className="p-8 rounded-[4px] h-full"
+                  style={{
+                    background: s.highlight ? "rgba(201,169,110,0.08)" : "rgba(245,240,232,0.6)",
+                    border: s.highlight ? "1px solid rgba(201,169,110,0.3)" : "1px solid rgba(201,169,110,0.08)",
+                  }}
+                >
+                  <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.3em", textTransform: "uppercase", color: s.highlight ? "#c9a96e" : "#999", marginBottom: 12 }}>
+                    {s.tier}
+                  </p>
+                  <p style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(36px, 4vw, 48px)", color: s.highlight ? "#1a1a18" : "#999", lineHeight: 1, marginBottom: 4 }}>
+                    {s.standard}
+                  </p>
+                  <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 10, letterSpacing: "0.15em", textTransform: "uppercase", color: s.highlight ? "#c9a96e" : "#999", marginBottom: 20 }}>
+                    {s.name}
+                  </p>
+                  <div className="w-8 mb-5" style={{ height: 1, background: s.highlight ? "rgba(201,169,110,0.5)" : "rgba(201,169,110,0.15)" }} />
+                  <ul className="space-y-3">
+                    {s.features.map((feat) => (
+                      <li key={feat} className="flex items-start gap-2">
+                        <span className="mt-[5px] flex-shrink-0" style={{ fontSize: 10, color: s.highlight ? "#c9a96e" : "#bbb" }}>
+                          {s.highlight ? "✦" : "—"}
+                        </span>
+                        <span style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.5, color: s.highlight ? "#6b5a42" : "#999" }}>
+                          {feat}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-              ))}
-            </div>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      {/* Visual section — detail images */}
-      <section className="bg-cream pb-4 px-6 md:px-16">
-        <div className="max-w-5xl mx-auto flex flex-wrap md:flex-nowrap gap-3 overflow-hidden">
-          <div className="relative flex-1 min-w-[calc(50%-6px)] md:min-w-0 h-[380px]">
-            <Image
-              src="/images/detail/steelr-grey-panelled-chrome-multilock.jpg"
-              alt="Multi-point chrome locking mechanism on a steel entrance door"
-              fill
-              quality={80}
-              className="object-cover rounded-[4px]"
-              style={{ objectPosition: "center top" }}
-              sizes="(max-width: 768px) 50vw, 33vw"
-            />
-          </div>
-          <div className="relative flex-1 min-w-[calc(50%-6px)] md:min-w-0 h-[380px]">
-            <Image
-              src="/images/detail/steelr-grey-panelled-brass-handle-closeup.jpeg"
-              alt="Precision brass lever handle on a grey steel door"
-              fill
-              quality={80}
-              className="object-cover rounded-[4px]"
-              style={{ objectPosition: "center center" }}
-              sizes="(max-width: 768px) 50vw, 33vw"
-            />
-          </div>
-          <div className="relative flex-1 min-w-[calc(50%-6px)] md:min-w-0 h-[380px]">
-            <Image
-              src="/images/detail/steelr-navy-panelled-chrome-ring-closeup.jpg"
-              alt="Chrome ring knocker detail on a navy steel entrance door"
-              fill
-              quality={80}
-              className="object-cover rounded-[4px]"
-              style={{ objectPosition: "center top" }}
-              sizes="(max-width: 768px) 50vw, 33vw"
-            />
+              </ScrollReveal>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Comparison Table — PAS 24 vs SR3 */}
-      <section className="bg-cream ribbon-bg py-24 md:py-40 px-6 md:px-16">
-        <div className="max-w-4xl mx-auto">
+      {/* Certification Strip */}
+      <section className="bg-cream ribbon-bg py-12 px-6 md:px-16">
+        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-0">
+          {certifications.map((cert, i) => (
+            <ScrollReveal key={cert.label} delay={i * 0.08}>
+              <div className="text-center p-6" style={{ borderRight: i < certifications.length - 1 ? "1px solid rgba(201,169,110,0.12)" : "none" }}>
+                <p style={{ fontFamily: displayFont, fontWeight: 300, fontSize: 18, color: "#c9a96e", marginBottom: 4 }}>{cert.label}</p>
+                <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#999" }}>{cert.desc}</p>
+              </div>
+            </ScrollReveal>
+          ))}
+        </div>
+      </section>
+
+      {/* Compliance Explainer */}
+      <section style={{ background: "#ede8df" }} className="ribbon-bg py-16 md:py-24 px-6 md:px-16">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           <ScrollReveal>
-            <p
-              className="mb-4"
-              style={{
-                fontFamily: bodyFont,
-                fontWeight: 400,
-                fontSize: 9,
-                letterSpacing: "0.3em",
-                textTransform: "uppercase",
-                color: "#b8943f",
-              }}
-            >
-              Standards Compared
-            </p>
-            <h2
-              className="mb-14"
-              style={{
-                fontFamily: displayFont,
-                fontWeight: 300,
-                fontSize: "clamp(28px, 3.5vw, 44px)",
-                color: "#1a1a18",
-                lineHeight: 1.1,
-              }}
-            >
-              PAS 24 vs SR3
-            </h2>
-          </ScrollReveal>
-
-          <ScrollReveal delay={0.1}>
-            <div className="overflow-x-auto">
-              <table
-                className="w-full"
-                style={{
-                  borderCollapse: "separate",
-                  borderSpacing: 0,
-                }}
-              >
-                <thead>
-                  <tr>
-                    <th
-                      className="text-left py-4 px-5"
-                      style={{
-                        fontFamily: bodyFont,
-                        fontWeight: 400,
-                        fontSize: 9,
-                        letterSpacing: "0.2em",
-                        textTransform: "uppercase",
-                        color: "#6b5a42",
-                        borderBottom: "1px solid rgba(201,169,110,0.3)",
-                      }}
-                    >
-                      Aspect
-                    </th>
-                    <th
-                      className="text-left py-4 px-5"
-                      style={{
-                        fontFamily: bodyFont,
-                        fontWeight: 400,
-                        fontSize: 9,
-                        letterSpacing: "0.2em",
-                        textTransform: "uppercase",
-                        color: "#6b5a42",
-                        borderBottom: "1px solid rgba(201,169,110,0.3)",
-                      }}
-                    >
-                      PAS 24
-                    </th>
-                    <th
-                      className="text-left py-4 px-5"
-                      style={{
-                        fontFamily: bodyFont,
-                        fontWeight: 400,
-                        fontSize: 9,
-                        letterSpacing: "0.2em",
-                        textTransform: "uppercase",
-                        color: "#c9a96e",
-                        borderBottom: "1px solid rgba(201,169,110,0.3)",
-                      }}
-                    >
-                      SR3 (LPS 1175)
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {comparisonRows.map((row, i) => (
-                    <tr key={row.aspect}>
-                      <td
-                        className="py-4 px-5"
-                        style={{
-                          fontFamily: bodyFont,
-                          fontWeight: 300,
-                          fontSize: 13,
-                          color: "#1a1a18",
-                          borderBottom:
-                            i < comparisonRows.length - 1
-                              ? "1px solid rgba(201,169,110,0.1)"
-                              : "none",
-                        }}
-                      >
-                        {row.aspect}
-                      </td>
-                      <td
-                        className="py-4 px-5"
-                        style={{
-                          fontFamily: bodyFont,
-                          fontWeight: 200,
-                          fontSize: 13,
-                          color: "#6b5a42",
-                          borderBottom:
-                            i < comparisonRows.length - 1
-                              ? "1px solid rgba(201,169,110,0.1)"
-                              : "none",
-                        }}
-                      >
-                        {row.pas24}
-                      </td>
-                      <td
-                        className="py-4 px-5"
-                        style={{
-                          fontFamily: bodyFont,
-                          fontWeight: 300,
-                          fontSize: 13,
-                          color: "#1a1a18",
-                          borderBottom:
-                            i < comparisonRows.length - 1
-                              ? "1px solid rgba(201,169,110,0.1)"
-                              : "none",
-                          background: "rgba(201,169,110,0.06)",
-                        }}
-                      >
-                        {row.sr3}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      {/* Summary callout */}
-      <section className="bg-cream ribbon-bg pb-24 md:pb-40 px-6 md:px-16">
-        <div className="max-w-3xl mx-auto">
-          <ScrollReveal>
-            <div
-              className="p-8 md:p-12 rounded-[4px] text-center"
-              style={{
-                background: "rgba(201,169,110,0.08)",
-                border: "1px solid rgba(201,169,110,0.3)",
-              }}
-            >
-              <p
-                style={{
-                  fontFamily: displayFont,
-                  fontWeight: 300,
-                  fontStyle: "italic",
-                  fontSize: "clamp(18px, 3vw, 24px)",
-                  color: "#1a1a18",
-                  lineHeight: 1.5,
-                }}
-              >
-                PAS 24 meets the minimum required standard &mdash; our enhanced
-                SR3 specification is designed to exceed it.
+            <div>
+              <h2 className="mb-6" style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(24px, 3vw, 36px)", color: "#1a1a18", lineHeight: 1.2 }}>
+                Why <em style={{ fontStyle: "italic", color: "#c9a96e" }}>new builds and flats</em> require PAS 24 — and why SR3 is what specifiers choose
+              </h2>
+              <p className="mb-4" style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
+                Under <strong style={{ fontWeight: 400, color: "#1a1a18" }}>Approved Document Q of the Building Regulations</strong>, all new-build homes and flats — including those created by material change of use — must be fitted with entrance doors that resist unauthorised access. PAS 24:2022 is the accepted standard to satisfy this requirement.
               </p>
+              <p className="mb-4" style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
+                The <strong style={{ fontWeight: 400, color: "#1a1a18" }}>Fire Safety Act 2021</strong> further extended the Fire Safety Order to explicitly cover flat entrance doors in multi-occupied residential buildings. FD30S fire-rated doorsets are now the mandated minimum standard for any flat entrance door leading onto common parts.
+              </p>
+              <p style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
+                Every SteelR door satisfies both requirements — and exceeds both. SR3 classification means your door has been independently tested to withstand sustained power-tool attack, not just opportunist entry. It is the standard demanded by <strong style={{ fontWeight: 400, color: "#1a1a18" }}>housing associations, developers and planning authorities</strong> on high-specification projects.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal direction="right">
+            <div>
+              <h2 className="mb-8" style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(24px, 3vw, 36px)", color: "#1a1a18", lineHeight: 1.2 }}>
+                What your SteelR door <em style={{ fontStyle: "italic", color: "#c9a96e" }}>satisfies</em>
+              </h2>
+              <div className="space-y-0 rounded-[4px] overflow-hidden" style={{ border: "1px solid rgba(201,169,110,0.15)" }}>
+                {regulations.map((reg) => (
+                  <div key={reg.title} className="p-4 flex items-start gap-3" style={{ borderBottom: "1px solid rgba(201,169,110,0.1)", background: "rgba(245,240,232,0.5)" }}>
+                    <span className="mt-[2px] flex-shrink-0" style={{ fontSize: 11, color: "#c9a96e" }}>✦</span>
+                    <div>
+                      <p style={{ fontFamily: bodyFont, fontWeight: 500, fontSize: 11, letterSpacing: "0.08em", textTransform: "uppercase", color: "#1a1a18", marginBottom: 3 }}>{reg.title}</p>
+                      <p style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 11, lineHeight: 1.5, color: "#6b5a42" }}>{reg.text}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </ScrollReveal>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-0">
+      <section className="bg-site-black py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
-          <h2
-            className="mb-10"
-            style={{
-              fontFamily: displayFont,
-              fontWeight: 300,
-              fontStyle: "italic",
-              fontSize: "clamp(28px, 4vw, 44px)",
-              color: "#f5f0e8",
-            }}
-          >
-            Discuss your security requirements
-          </h2>
           <ScrollReveal>
+            <p className="mb-4" style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.3em", textTransform: "uppercase", color: "#b8943f" }}>
+              Specify with confidence
+            </p>
+            <h2 className="mb-10" style={{ fontFamily: displayFont, fontWeight: 300, fontStyle: "italic", fontSize: "clamp(28px, 4vw, 44px)", color: "#f5f0e8" }}>
+              Request a compliance specification sheet or discuss your project
+            </h2>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/design-estimate"
+                href="/contact"
                 className="btn-cta inline-block transition-colors duration-300 hover:bg-cream"
-                style={{
-                  background: "#c9a96e",
-                  color: "#1a1a18",
-                  fontFamily: bodyFont,
-                  fontWeight: 400,
-                  fontSize: 10,
-                  letterSpacing: "0.25em",
-                  textTransform: "uppercase",
-                  padding: "16px 40px",
-                }}
+                style={{ background: "#c9a96e", color: "#1a1a18", fontFamily: bodyFont, fontWeight: 400, fontSize: 10, letterSpacing: "0.25em", textTransform: "uppercase", padding: "16px 40px" }}
               >
-                Request a Security Specification
+                Request a Free Consultation
               </Link>
               <Link
-                href="/contact"
-                className="inline-block transition-colors duration-300"
-                style={{
-                  fontFamily: bodyFont,
-                  fontWeight: 300,
-                  fontSize: 13,
-                  color: "#f5f0e8",
-                  letterSpacing: "0.05em",
-                  borderBottom: "1px solid rgba(201,169,110,0.4)",
-                  paddingBottom: 2,
-                }}
+                href="/security"
+                className="link-gold-underline"
+                style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 13, color: "#c9a96e", letterSpacing: "0.05em" }}
               >
-                Or get in touch &rarr;
+                Full security specification &rarr;
               </Link>
             </div>
           </ScrollReveal>
