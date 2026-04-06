@@ -13,13 +13,13 @@ export const metadata: Metadata = {
 };
 
 const credentials = [
+  "PAS 24:2022 Certified",
   "SR3 High Security Rated",
-  "ISO 9001 Certified Manufacturing",
   "Secured by Design Approved",
-  "Fire Rated Steel Construction",
+  "FD30S Fire & Smoke Rated",
+  "ISO 9001 Certified Manufacturing",
   "UK Manufactured Throughout",
   "Nationwide Installation Service",
-  "Full Structural Survey Included",
   "Comprehensive Warranty & Aftercare",
 ];
 

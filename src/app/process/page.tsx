@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
+import { CredentialsStrip } from "@/components/CredentialsBanner";
 
 export const metadata: Metadata = {
   title: "Our Process | From Enquiry to Installation | SteelR",
@@ -196,6 +197,9 @@ export default function ProcessPage() {
           </section>
         );
       })}
+
+      {/* Credentials Strip */}
+      <CredentialsStrip />
 
       {/* CTA */}
       <section className="bg-site-black py-20 md:py-28 px-6 md:px-16">

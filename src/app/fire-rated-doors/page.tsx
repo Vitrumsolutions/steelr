@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
+import { CredentialsStrip } from "@/components/CredentialsBanner";
 
 export const metadata: Metadata = {
   title: "Fire Rated Steel Doors | FD30 & FD60 Certified | SteelR",
@@ -864,6 +865,9 @@ export default function FireRatedDoorsPage() {
           </ScrollReveal>
         </div>
       </section>
+
+      {/* Credentials Strip */}
+      <CredentialsStrip />
 
       {/* CTA */}
       <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-0">

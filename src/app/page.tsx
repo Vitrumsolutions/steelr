@@ -5,6 +5,7 @@ import ContactForm from "@/components/ContactForm";
 import ScrollReveal from "@/components/ScrollReveal";
 import HorizontalGallery from "@/components/HorizontalGallery";
 import ParallaxSection from "@/components/ParallaxSection";
+import { CredentialsStrip, CertificationCallout } from "@/components/CredentialsBanner";
 
 const galleryPreview = [
   {
@@ -24,13 +25,6 @@ const galleryPreview = [
   },
 ];
 
-const credentials = [
-  "SR3 Rated",
-  "ISO 9001 Certified",
-  "Secured by Design",
-  "UK Manufactured",
-  "Fire Rated Steel",
-];
 
 const processSteps = [
   {
@@ -132,33 +126,7 @@ export default function Home() {
       </section>
 
       {/* Section 3 — Credentials Bar */}
-      <section className="bg-site-black py-7 px-6 md:px-16 overflow-x-auto">
-        <div className="flex items-center justify-center gap-4 md:gap-8 min-w-max mx-auto">
-          {credentials.map((cred, i) => (
-            <span key={cred} className="flex items-center gap-4 md:gap-8">
-              <span
-                style={{
-                  fontFamily: "var(--font-body), Montserrat, sans-serif",
-                  fontWeight: 200,
-                  fontSize: 10,
-                  letterSpacing: "0.3em",
-                  textTransform: "uppercase",
-                  color: "rgba(245, 240, 232, 0.5)",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                {cred}
-              </span>
-              {i < credentials.length - 1 && (
-                <span
-                  className="inline-block w-1 h-1 rounded-full flex-shrink-0"
-                  style={{ background: "#c9a96e" }}
-                />
-              )}
-            </span>
-          ))}
-        </div>
-      </section>
+      <CredentialsStrip />
 
       {/* Section 3.5 — Testimonials */}
       <section style={{ background: "#f5f0e8" }} className="ribbon-bg py-20 md:py-28 px-6 md:px-16">
@@ -511,7 +479,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section 6.5 — FAQ */}
+      {/* Section 6.5 — PAS 24 Certification Callout */}
+      <CertificationCallout />
+
+      {/* Section 6.6 — FAQ */}
       <section className="bg-cream ribbon-bg py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-3xl mx-auto">
           <ScrollReveal>

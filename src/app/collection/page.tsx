@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
 import ScrollReveal from "@/components/ScrollReveal";
+import { CredentialsStrip } from "@/components/CredentialsBanner";
 import { doors } from "@/data/doors";
 
 const galleryImages = doors.map((d) => ({
@@ -289,6 +290,9 @@ export default function CollectionPage() {
           </div>
         </LayoutGroup>
       </section>
+
+      {/* Credentials Strip */}
+      <CredentialsStrip />
 
       {/* Lightbox */}
       <AnimatePresence>
