@@ -38,10 +38,11 @@
 - **Separators:** 1px gold lines at low opacity
 
 ## Site Structure
-- **Navigation:** Collection · Areas · About · Process · Blog · Contact
+- **Navigation:** Collection · Areas · About · Process · Blog · Get Estimate · Contact
 - **Phone:** 0800 861 1450
 - **CTA:** "Request a Consultation"
-- **Total static pages:** ~250 (home, collection, about, process, contact, blog, privacy, terms, 54 collection items, 10 blog posts, 172 area pages)
+- **Total static pages:** ~260 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, 54 collection items, 19 blog posts, 172 area pages)
+- **Sitemap:** 258 URLs at `/sitemap.xml`
 
 ## Image Manifest
 
@@ -142,12 +143,71 @@ Orientation is noted so code can handle layout correctly.
 - **Sitemap priority:** Hubs 0.8, leaf areas 0.6
 - **Helpers:** `getLocationBySlug()`, `getChildLocations()`, `getHubLocations()`, `getNearbyLocations()`, `getRegions()`, `getLocationsByHub()` in index.ts
 
+## New Pages (added Apr 2026)
+- `/colours` — RAL colour options, dual-colour, hardware finishes, door colour gallery
+- `/security` — SR3/PAS24/Secured by Design certifications, FAQ schema, security ratings comparison
+- `/security-specification` — PAS 24 compliance page with 3-column standard comparison (PAS24/SR2/SR3), certification strip, regulatory compliance explainer (Doc Q, Part B, Fire Safety Act, Building Safety Act)
+- `/fire-rated-doors` — FD30/FD60 fire rated doors for flats, new builds, HMOs, housing associations, developers
+- `/design-estimate` — 4-step multi-step form (project type → door spec → site details → contact). Submits via `/api/estimate` to info@supplywindows.co.uk via Resend
+- `/collection/sidelights` — Filtered collection view showing doors with sidelights
+
+## Contact Form & Email
+- **Form:** `/contact` page → `/api/contact` route → Resend API → info@supplywindows.co.uk
+- **Estimate form:** `/design-estimate` → `/api/estimate` route → Resend API → info@supplywindows.co.uk
+- **Resend domain:** steelr.co.uk verified (EU-West region), DNS records added at Fasthosts
+- **Resend API key:** `steelr-contact-form` (sending_access), stored in Vercel env var `RESEND_API_KEY`
+- **Sender:** `noreply@steelr.co.uk`
+- **GBP posting rules:** No phone numbers or URLs in post description text. Use Call Now button for phone. Clean prose only. Images optional.
+
+## Blog Posts (19 total)
+- 6 original posts (steel vs composite, SR3 guide, door colours, etc.)
+- 3 location-focused (London period properties, country homes, conservation areas)
+- 4 high-intent keywords (cost guide, steel vs aluminium, home security, design trends 2026)
+- Steel vs composite post expanded with head-to-head comparison table — currently ranking #2 on Google
+
+## Google Search Console
+- **Property:** sc-domain:steelr.co.uk (owner: info@supplywindows.co.uk)
+- **Indexed pages:** 32 (as of 31 Mar 2026, growing)
+- **Total known:** 252 pages
+- **Impressions:** 444 across 78 queries
+- **Top queries:** "steelr" (9 clicks), "composite vs steel doors" (36 impressions), "bespoke steel doors" (32 impressions)
+- **Location queries appearing:** steel doors surrey, london, birmingham, buckinghamshire, esher, chelsea
+- **Core Web Vitals:** Not enough data yet (site too new)
+- **28 priority URLs** manually submitted for indexing
+
+## Google Business Profile
+- **Name:** Steelr Bespoke Steel Entrance Doors
+- **Status:** Verified, 1 customer interaction
+- **Posts:** 1 published, 1 scheduled (Apr 8), 10 more posts planned through April
+- **Post formula:** Clean prose (no phone/URLs in text), Call Now button, schedule every 2-3 days
+- **Reviews:** 0 — critical gap. Customer review request template in MARKETING-COPY.md
+
+## Competitor Analysis (completed)
+- **Top competitors:** Latham's (195 reviews, 4.9★), Strongdor, Gerda, Modern Doors, Bespoke Steel Doors, Fort Premium, Deuren, Crittall
+- **SteelR advantages:** 172 location pages (no competitor has this), steel vs composite post ranking #2
+- **Gaps:** Pricing content, thermal efficiency guide, RAL colours page (now built), security certifications for homeowners (now built)
+- **Full analysis:** Saved in MARKETING-COPY.md
+
+## Marketing Copy (MARKETING-COPY.md)
+- 5 directory listing copies (Checkatrade, Houzz, Bark, MyBuilder, FMB) — ready to register
+- 5 GBP post copies — policy-compliant format
+- Customer review request template
+
+## Remaining Tasks (for next session)
+1. **Schedule 10 more GBP posts** (posts 3-12, Apr 10-30, every 2-3 days)
+2. **Add credential references** (PAS24/SR3/Secured by Design) across homepage, collection, area pages as a shared component
+3. **Register on directories** — Checkatrade, Houzz, Bark, MyBuilder, FMB (copy in MARKETING-COPY.md)
+4. **Get customer reviews** — send review request template to recent customers
+5. **Duplicate blog slug** — `steel-entrance-doors-cost-uk` appears twice in blog.ts, needs dedup
+6. **Security page OG image** — `/security` missing og:image tag
+
 ## Tech Stack
 - **Framework:** Next.js 14 App Router with TypeScript
 - **Styling:** Tailwind CSS with custom colour tokens in tailwind.config.ts
 - **Fonts:** Cormorant Garamond (display), Montserrat (body), Tenor Sans (captions) — Google Fonts
 - **Hosting:** Vercel (auto-deploy from GitHub on push to main)
-- **Forms:** Netlify Forms with static detection file at `public/form.html`
+- **Forms:** Resend API (contact form + estimate form)
+- **Email sending:** Resend (steelr.co.uk domain verified, EU-West)
 - **Domain:** steelr.co.uk (Fasthosts) → DNS points to Vercel
 - **Repo:** github.com/Vitrumsolutions/steelr
 
@@ -174,7 +234,13 @@ Orientation is noted so code can handle layout correctly.
 - **172 location pages** for local SEO — unique descriptions referencing local architecture and neighbourhoods
 - Hub pages list all child areas in schema.org `areaServed`
 - Area pages cross-link to 3–5 nearby areas + parent hub
-- Sitemap at `/sitemap.xml` with 245 URLs, submitted to Google Search Console (30 Mar 2026)
+- Sitemap at `/sitemap.xml` with 258 URLs, resubmitted to Google Search Console (6 Apr 2026)
+- Product schema on collection door pages (offers block, no price — bespoke)
+- HowTo schema on process page
+- FAQ schema on all 172 area pages + security page + security-specification page
+- Image quality: all set to 80 (reduced from 100 for performance)
+- Images optimized: 24.7MB → 11.7MB (52% reduction via sharp)
+- Hero carousel: lazy loading on non-first images
 
 ## Gotchas
 - **Never run `npm run build` while dev server is running** — corrupts .next cache, breaks all CSS
@@ -190,3 +256,36 @@ Orientation is noted so code can handle layout correctly.
 - The pipe in the logo must always be a CSS element, never a `|` character
 - Dark nav overlays on hero images with semi-transparent gradient backdrop
 - Design language: minimal, architectural, high white-space, no clutter
+
+## Skills (Claude Code slash commands)
+
+### SEO & Visibility
+- `/seo-audit` — Full technical SEO audit (meta tags, indexing, 250+ pages)
+- `/ai-seo` — Optimize for AI search engines (AEO/GEO), get cited by LLMs
+- `/schema-markup` — Add/fix JSON-LD structured data (HomeAndConstructionBusiness, FAQ, BreadcrumbList)
+- `/programmatic-seo` — Template-based location pages at scale (172 area pages)
+- `/site-architecture` — Plan/restructure navigation and URL hierarchy
+
+### Conversion & Copy
+- `/page-cro` — Optimize collection, about, process pages for conversions
+- `/copywriting` — Write/improve premium copy (architectural, refined tone)
+- `/copy-editing` — Review and tighten existing copy across pages
+- `/form-cro` — Optimize consultation request form
+- `/popup-cro` — Exit-intent overlays for consultation requests
+- `/signup-flow-cro` — Optimize consultation request journey end-to-end
+
+### Marketing & Growth
+- `/content-strategy` — Plan blog content and topic clusters
+- `/social-content` — Create social media posts (LinkedIn, Instagram, Houzz)
+- `/ad-creative` — Generate ad copy for Google Ads / Meta campaigns
+- `/paid-ads` — Plan and optimize PPC campaigns (Google, Meta)
+- `/analytics-tracking` — Set up/audit Google Search Console, GA4 tracking
+- `/competitor-alternatives` — Create vs pages (SteelR vs other door brands)
+- `/marketing-ideas` — Generate growth tactics for luxury entrance door market
+- `/marketing-psychology` — Apply persuasion principles to premium positioning
+- `/lead-magnets` — Create downloadable lookbooks, style guides for lead capture
+- `/cold-email` — Outreach to architects, developers, interior designers
+
+### Design
+- `/award-landing` — Generate premium landing page sections matching architectural brand
+- `/extract-style-skill` — Extract design systems from competitor luxury sites
