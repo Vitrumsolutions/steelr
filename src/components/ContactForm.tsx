@@ -41,15 +41,15 @@ export default function ContactForm() {
         }
       });
 
-      // Capture UTM params from URL for lead source tracking
+      // Capture lead source from URL
       if (typeof window !== "undefined") {
         const params = new URLSearchParams(window.location.search);
         const utmSource = params.get("utm_source");
-        const utmMedium = params.get("utm_medium");
-        const utmCampaign = params.get("utm_campaign");
+        const ref = params.get("ref");
         if (utmSource) data.utm_source = utmSource;
-        if (utmMedium) data.utm_medium = utmMedium;
-        if (utmCampaign) data.utm_campaign = utmCampaign;
+        if (ref) data.utm_source = ref === "ol" ? "outreach" : ref;
+        if (params.get("utm_medium")) data.utm_medium = params.get("utm_medium")!;
+        if (params.get("utm_campaign")) data.utm_campaign = params.get("utm_campaign")!;
       }
 
       const res = await fetch("/api/contact", {
