@@ -195,9 +195,8 @@ Orientation is noted so code can handle layout correctly.
 
 ## Remaining Tasks (for next session)
 1. **Schedule 10 more GBP posts** (posts 3-12, Apr 10-30, every 2-3 days)
-2. **Add credential references** (PAS24/SR3/Secured by Design) across homepage, collection, area pages as a shared component
-3. **Register on directories** — Checkatrade, Houzz, Bark, MyBuilder, FMB (copy in MARKETING-COPY.md)
-4. **Get customer reviews** — send review request template to recent customers
+2. **Register on directories** — Checkatrade, Houzz, Bark, MyBuilder, FMB (copy in MARKETING-COPY.md)
+3. **Get customer reviews** — send review request template to recent customers
 
 ## Tech Stack
 - **Framework:** Next.js 14 App Router with TypeScript
@@ -223,6 +222,11 @@ Orientation is noted so code can handle layout correctly.
 - **Google Search Console:** verified via DNS TXT record, sitemap submitted
 - **Google Business Profile:** verified as "SteelR - Bespoke Steel Entrance Doors", nationwide UK, address hidden
 - **OG image:** `/public/og-image.png` (1200x630) — referenced in layout.tsx openGraph metadata
+
+## SEO Fixes Applied (8 Apr 2026, batch 2)
+- **Area page boilerplate varied** — 2 shared paragraphs (manufacturing + customisation) now have 4 variants each, rotated by parent hub to eliminate duplicate content across 172 area pages
+- **llms.txt references uncommented** in robots.txt — AI crawlers can now discover /llms.txt and /llms-full.txt
+- **CredentialsStrip added to area pages** — PAS24/SR3/Secured by Design/FD30S/ISO 9001/UK Manufactured dark strip now appears on all 172 area pages (was already on homepage + collection)
 
 ## SEO Fixes Applied (8 Apr 2026)
 - **GBP link added to schema sameAs** in layout.tsx (Google Maps place URL)

@@ -5,5 +5,5 @@ Sitemap: https://steelr.co.uk/sitemap.xml
 
 # AI/LLM context files
 # See https://llmstxt.org
-# llms.txt: https://steelr.co.uk/llms.txt
-# llms-full.txt: https://steelr.co.uk/llms-full.txt
+llms.txt: https://steelr.co.uk/llms.txt
+llms-full.txt: https://steelr.co.uk/llms-full.txt

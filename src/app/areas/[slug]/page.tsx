@@ -9,6 +9,50 @@ import {
   getNearbyLocations,
 } from "@/data/locations";
 import ScrollReveal from "@/components/ScrollReveal";
+import { CredentialsStrip } from "@/components/CredentialsBanner";
+
+/* ─── Boilerplate paragraph variants rotated by parent hub ─── */
+type BoilerplateVariants = {
+  manufacturing: ((label: string) => string)[];
+  customisation: ((label: string) => string)[];
+};
+
+const boilerplateVariants: BoilerplateVariants = {
+  manufacturing: [
+    (label: string) =>
+      `Every SteelR door is manufactured to your exact specification in the UK. We offer a complete service for ${label} customers: from the initial design consultation through to a full structural survey, precision manufacturing and professional installation by our own in-house team. No subcontractors, no standard sizes, no compromise.`,
+    (label: string) =>
+      `Each SteelR entrance door is precision-built in our UK workshop to your individual requirements. For ${label} homeowners, we provide an end-to-end service — an in-depth design consultation, a thorough structural survey of your property, bespoke manufacturing and expert fitting carried out exclusively by our own team. Every detail is made to measure; nothing is off the shelf.`,
+    (label: string) =>
+      `SteelR doors are crafted entirely in the United Kingdom to the precise dimensions and design you specify. Our ${label} clients benefit from a fully managed process: personal design consultation, on-site structural survey, meticulous manufacturing and installation by our dedicated in-house fitters. We never use subcontractors, and we never produce standard-size doors.`,
+    (label: string) =>
+      `From raw steel to finished entrance, every SteelR door is produced in our UK manufacturing facility to your exact brief. ${label} customers receive our complete bespoke service — a one-to-one design consultation, a detailed structural assessment of your property, precision fabrication and professional installation by our own specialist team. No two doors are alike.`,
+  ],
+  customisation: [
+    (label: string) =>
+      `Choose from any RAL colour, a wide selection of hardware finishes and glazing options, and a range of panel designs from ornate traditional to clean contemporary. Whether you are renovating a period property or completing a new build in ${label}, SteelR will create an entrance door that is uniquely yours.`,
+    (label: string) =>
+      `Select from the full RAL colour palette, an extensive choice of hardware in chrome, brass, gold or black, and glazing from clear to decorative. From classic period detailing to minimal contemporary lines, every element is tailored to your taste. Whether your ${label} project is a renovation or a new build, the finished door will be one of a kind.`,
+    (label: string) =>
+      `Your door can be finished in any RAL colour — including dual-colour inside and out — paired with your preferred hardware, glass and panel style. Traditional, ornate, contemporary or minimalist: the design is entirely yours. For ${label} properties of every era, SteelR delivers a truly bespoke entrance.`,
+    (label: string) =>
+      `With over 200 RAL colours, multiple hardware finishes and a broad range of glazing and panel configurations, every SteelR door is designed around your vision. Whether your ${label} home calls for heritage elegance or sharp modern lines, we ensure the entrance is unmistakably yours.`,
+  ],
+};
+
+/** Pick a variant index (0-3) based on the hub slug, ensuring consistent rotation */
+function getVariantIndex(hubSlug: string | undefined): number {
+  if (!hubSlug) return 0;
+  const hubs = [
+    "london", "buckinghamshire", "surrey", "hertfordshire",
+    "kent", "essex", "berkshire", "oxfordshire",
+    "cheshire", "manchester", "birmingham", "yorkshire",
+    "south-west", "hampshire", "sussex", "scotland",
+  ];
+  const idx = hubs.indexOf(hubSlug);
+  if (idx === -1) return 0;
+  return idx % 4;
+}
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -94,6 +138,12 @@ export default async function AreaPage({ params }: Props) {
   ];
 
   const faqs = location.faqs && location.faqs.length > 0 ? location.faqs : defaultFaqs;
+
+  /* Determine hub for boilerplate rotation */
+  const hubSlug = location.type === "hub" ? location.slug : location.parentSlug;
+  const variantIdx = getVariantIndex(hubSlug);
+  const manufacturingParagraph = boilerplateVariants.manufacturing[variantIdx](label);
+  const customisationParagraph = boilerplateVariants.customisation[variantIdx](label);
 
   const parentHub = location.parentSlug
     ? getLocationBySlug(location.parentSlug)
@@ -416,12 +466,7 @@ export default async function AreaPage({ params }: Props) {
                   color: "#6b5a42",
                 }}
               >
-                Every SteelR door is manufactured to your exact specification
-                in the UK. We offer a complete service for {label} customers:
-                from the initial design consultation through to a full
-                structural survey, precision manufacturing and professional
-                installation by our own in-house team. No subcontractors, no
-                standard sizes, no compromise.
+                {manufacturingParagraph}
               </p>
             </ScrollReveal>
             <ScrollReveal>
@@ -435,12 +480,7 @@ export default async function AreaPage({ params }: Props) {
                   color: "#6b5a42",
                 }}
               >
-                Choose from any RAL colour, a wide selection of hardware
-                finishes and glazing options, and a range of panel designs from
-                ornate traditional to clean contemporary. Whether you are
-                renovating a period property or completing a new build in{" "}
-                {label}, SteelR will create an entrance door that is uniquely
-                yours.
+                {customisationParagraph}
               </p>
             </ScrollReveal>
             <ScrollReveal>
@@ -738,6 +778,9 @@ export default async function AreaPage({ params }: Props) {
           </ScrollReveal>
         </div>
       </section>
+
+      {/* Credentials Strip */}
+      <CredentialsStrip />
 
       {/* Frequently Asked Questions */}
       <section
