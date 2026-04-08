@@ -198,8 +198,6 @@ Orientation is noted so code can handle layout correctly.
 2. **Add credential references** (PAS24/SR3/Secured by Design) across homepage, collection, area pages as a shared component
 3. **Register on directories** — Checkatrade, Houzz, Bark, MyBuilder, FMB (copy in MARKETING-COPY.md)
 4. **Get customer reviews** — send review request template to recent customers
-5. **Duplicate blog slug** — `steel-entrance-doors-cost-uk` appears twice in blog.ts, needs dedup
-6. **Security page OG image** — `/security` missing og:image tag
 
 ## Tech Stack
 - **Framework:** Next.js 14 App Router with TypeScript
@@ -226,8 +224,17 @@ Orientation is noted so code can handle layout correctly.
 - **Google Business Profile:** verified as "SteelR - Bespoke Steel Entrance Doors", nationwide UK, address hidden
 - **OG image:** `/public/og-image.png` (1200x630) — referenced in layout.tsx openGraph metadata
 
+## SEO Fixes Applied (8 Apr 2026)
+- **GBP link added to schema sameAs** in layout.tsx (Google Maps place URL)
+- **GeoCoordinates added to schema** in layout.tsx (51.5513, -0.7732 — Uxbridge)
+- **Address enriched** — addressLocality: Uxbridge, addressRegion: West London added to schema
+- **Duplicate blog slug fixed** — second `steel-entrance-doors-cost-uk` renamed to `steel-entrance-doors-pricing-factors`
+- **Security page og:image added** — `/security` now includes og:image in metadata
+- **Area page sameAs fixed** — was self-referential (`steelr.co.uk`), now points to Instagram, Pinterest, LinkedIn
+- **supplywindows.co.uk redirects** — not needed (SteelR was never hosted there, it's only the parent company email)
+
 ## SEO
-- Schema: HomeAndConstructionBusiness, FAQPage, HowTo, BreadcrumbList on all pages
+- Schema: HomeAndConstructionBusiness with geo, GBP in sameAs, FAQPage, HowTo, BreadcrumbList on all pages
 - Canonical URLs on all pages
 - H1 on every page (sr-only where visual design conflicts)
 - Collection page has intro paragraph for Google crawlability (client component)

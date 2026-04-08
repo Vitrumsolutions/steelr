@@ -17,6 +17,14 @@ export const metadata: Metadata = {
     url: "https://steelr.co.uk/security",
     siteName: "SteelR",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 2400,
+        height: 1260,
+        alt: "SteelR — Steel Door Security Ratings | SR3, PAS 24, Secured by Design",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

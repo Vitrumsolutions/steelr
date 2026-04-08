@@ -160,7 +160,11 @@ export default async function AreaPage({ params }: Props) {
                 : { "@type": "Place", name: `${label}, ${location.region}` },
             priceRange: "$$$$",
             image: `https://steelr.co.uk${location.heroImage}`,
-            sameAs: ["https://steelr.co.uk"],
+            sameAs: [
+              "https://www.instagram.com/steelrdoors",
+              "https://www.pinterest.co.uk/steelrdoors",
+              "https://www.linkedin.com/company/steelr"
+            ],
           }),
         }}
       />

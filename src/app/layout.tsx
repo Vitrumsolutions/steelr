@@ -92,7 +92,14 @@ export default function RootLayout({
               },
               "address": {
                 "@type": "PostalAddress",
+                "addressLocality": "Uxbridge",
+                "addressRegion": "West London",
                 "addressCountry": "GB"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 51.5513,
+                "longitude": -0.7732
               },
               "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",
@@ -105,7 +112,8 @@ export default function RootLayout({
               "sameAs": [
                 "https://www.instagram.com/steelrdoors",
                 "https://www.pinterest.co.uk/steelrdoors",
-                "https://www.linkedin.com/company/steelr"
+                "https://www.linkedin.com/company/steelr",
+                "https://www.google.com/maps/place/SteelR+Bespoke+Steel+Entrance+Doors"
               ],
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",

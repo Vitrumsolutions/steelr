@@ -1332,7 +1332,7 @@ At SteelR, we have extensive experience designing and manufacturing bespoke stee
 Every SteelR door is manufactured to order, which means we can replicate any period design — panel layouts, moulding profiles, glazing patterns and proportions — with complete accuracy. Combined with SR3 security, Secured by Design accreditation and ISO 9001 certified quality management, a SteelR door delivers heritage aesthetics with modern performance that a traditional timber door simply cannot match. [Contact us](/contact) to discuss your conservation area project.`,
   },
   {
-    slug: "steel-entrance-doors-cost-uk",
+    slug: "steel-entrance-doors-pricing-factors",
     title: "How Much Do Steel Entrance Doors Cost in the UK?",
     description:
       "Understand the factors that influence steel entrance door pricing in the UK — from size and glazing to hardware, finish and security rating — and how to budget for a bespoke steel front door.",
