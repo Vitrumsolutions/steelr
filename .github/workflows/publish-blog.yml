@@ -1,0 +1,60 @@
+name: Publish Blog Post
+
+on:
+  schedule:
+    # Tuesday and Thursday at 06:00 UTC (07:00 BST)
+    - cron: "0 6 * * 2,4"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Publish scheduled post
+        run: node scripts/blog/publish-post.mjs
+
+      - name: Verify build
+        run: npm run build
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/blog/ scripts/blog/content-calendar.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "blog: publish $(date +%Y-%m-%d)
+
+          Automated blog publish via GitHub Actions."
+          git push
+
+      - name: Ping Google Search Console
+        run: node scripts/blog/ping-search-console.mjs
+
+      - name: Check remaining calendar entries
+        run: |
+          REMAINING=$(node -e "
+            const cal = JSON.parse(require('fs').readFileSync('scripts/blog/content-calendar.json','utf8'));
+            const left = cal.filter(e => !e.published).length;
+            console.log(left);
+          ")
+          echo "Remaining unpublished topics: $REMAINING"
+          if [ "$REMAINING" -lt 4 ]; then
+            echo "::warning::Only $REMAINING topics left in content calendar. Time to add more!"
+          fi

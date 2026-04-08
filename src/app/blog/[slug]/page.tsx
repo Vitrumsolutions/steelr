@@ -127,14 +127,40 @@ export default async function BlogPostPage({ params }: Props) {
           color: "#6b5a42",
         }}
         dangerouslySetInnerHTML={{
-          __html: block.replace(
-            /\*\*(.*?)\*\*/g,
-            '<strong style="font-weight:400;color:#1a1a18">$1</strong>'
-          ),
+          __html: block
+            .replace(
+              /\*\*(.*?)\*\*/g,
+              '<strong style="font-weight:400;color:#1a1a18">$1</strong>'
+            )
+            .replace(
+              /\[([^\]]+)\]\(([^)]+)\)/g,
+              '<a href="$2" style="color:#c9a96e;text-decoration:underline;text-underline-offset:3px">$1</a>'
+            ),
         }}
       />
     );
   });
+
+  // Extract FAQ pairs from content (## Frequently Asked Questions → ### Question → answer)
+  const faqs: { question: string; answer: string }[] = [];
+  const faqSplit = post.content.split("## Frequently Asked Questions");
+  if (faqSplit.length > 1) {
+    const faqBlocks = faqSplit[1].split("\n\n").filter((b) => b.trim());
+    for (let i = 0; i < faqBlocks.length; i++) {
+      if (faqBlocks[i].startsWith("### ")) {
+        const question = faqBlocks[i].replace("### ", "").trim();
+        const answer = faqBlocks[i + 1]
+          ? faqBlocks[i + 1]
+              .replace(/\*\*(.*?)\*\*/g, "$1")
+              .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
+              .trim()
+          : "";
+        if (question && answer) {
+          faqs.push({ question, answer });
+        }
+      }
+    }
+  }
 
   return (
     <>
@@ -174,6 +200,25 @@ export default async function BlogPostPage({ params }: Props) {
           }),
         }}
       />
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: faq.answer,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
 
       {/* Page banner */}
       <section

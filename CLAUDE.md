@@ -159,11 +159,21 @@ Orientation is noted so code can handle layout correctly.
 - **Sender:** `noreply@steelr.co.uk`
 - **GBP posting rules:** No phone numbers or URLs in post description text. Use Call Now button for phone. Clean prose only. Images optional.
 
-## Blog Posts (19 total)
-- 6 original posts (steel vs composite, SR3 guide, door colours, etc.)
-- 3 location-focused (London period properties, country homes, conservation areas)
-- 4 high-intent keywords (cost guide, steel vs aluminium, home security, design trends 2026)
-- Steel vs composite post expanded with head-to-head comparison table — currently ranking #2 on Google
+## Blog Posts (17 posts + automation)
+- 17 posts split into individual files: `src/data/blog/posts/*.ts`
+- Blog data restructured: `src/data/blog/` (types.ts + index.ts + posts/) — follows locations/ pattern
+- FAQ schema auto-extracted from posts containing `## Frequently Asked Questions`
+- Paragraph link rendering bug fixed (links now render correctly in all content blocks)
+
+### Blog Automation System
+- **Content calendar:** `scripts/blog/content-calendar.json` — 26 topics, 13 weeks (Apr-Jul 2026)
+- **Generation script:** `scripts/blog/generate-post.mjs` — Claude API (Sonnet), SEO/GEO optimised
+- **GitHub Action:** `.github/workflows/publish-blog.yml` — Tue/Thu 06:00 UTC cron
+- **Flow:** Generate → Build verify → Commit → Push → Vercel deploys → Ping Google sitemap
+- **Required secret:** `ANTHROPIC_API_KEY` in GitHub repo settings
+- **Manual trigger:** `workflow_dispatch` with optional dry_run mode
+- **Image cycling:** 50 gallery images, least-used selection, ~25 weeks before repeat
+- **Validation:** Word count ≥1200, FAQ section required, ≥3 internal links required
 
 ## Google Search Console
 - **Property:** sc-domain:steelr.co.uk (owner: info@supplywindows.co.uk)
