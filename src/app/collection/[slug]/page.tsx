@@ -259,6 +259,94 @@ export default async function DoorPage({ params }: Props) {
                 {door.description}
               </p>
 
+              {/* Rich page content (when present) — adds substantial unique content for SEO indexing */}
+              {door.pageContent && (
+                <>
+                  <div
+                    className="mb-8 pb-8"
+                    style={{
+                      borderTop: "1px solid rgba(201,169,110,0.15)",
+                      paddingTop: 32,
+                    }}
+                  >
+                    <p
+                      className="mb-3"
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 400,
+                        fontSize: 9,
+                        letterSpacing: "0.3em",
+                        textTransform: "uppercase",
+                        color: "#b8943f",
+                      }}
+                    >
+                      Designer&apos;s Notes
+                    </p>
+                    <p
+                      className="mb-5"
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 200,
+                        fontSize: 14,
+                        lineHeight: 1.9,
+                        color: "#6b5a42",
+                      }}
+                    >
+                      {door.pageContent.aesthetic}
+                    </p>
+                    <p
+                      className="mb-3"
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 400,
+                        fontSize: 9,
+                        letterSpacing: "0.3em",
+                        textTransform: "uppercase",
+                        color: "#b8943f",
+                      }}
+                    >
+                      Heritage &amp; Inspiration
+                    </p>
+                    <p
+                      className="mb-5"
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 200,
+                        fontSize: 14,
+                        lineHeight: 1.9,
+                        color: "#6b5a42",
+                      }}
+                    >
+                      {door.pageContent.inspiration}
+                    </p>
+                    <p
+                      className="mb-3"
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 400,
+                        fontSize: 9,
+                        letterSpacing: "0.3em",
+                        textTransform: "uppercase",
+                        color: "#b8943f",
+                      }}
+                    >
+                      Ideal For
+                    </p>
+                    <p
+                      style={{
+                        fontFamily: "var(--font-body), Montserrat, sans-serif",
+                        fontWeight: 200,
+                        fontSize: 14,
+                        lineHeight: 1.9,
+                        color: "#6b5a42",
+                      }}
+                    >
+                      {door.pageContent.idealFor}
+                    </p>
+                  </div>
+                </>
+              )}
+
               {/* Specifications */}
               <div
                 className="mb-8 pb-8"
