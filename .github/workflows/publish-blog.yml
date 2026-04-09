@@ -2,8 +2,9 @@ name: Publish Blog Post
 
 on:
   schedule:
-    # Tuesday and Thursday at 06:00 UTC (07:00 BST)
-    - cron: "0 6 * * 2,4"
+    # Tue, Wed, Thu, Fri at 06:00 UTC (07:00 BST) — matches the
+    # content-calendar.json scheduled dates which are Tue/Wed/Thu/Fri
+    - cron: "0 6 * * 2,3,4,5"
   workflow_dispatch: {}
 
 permissions:
