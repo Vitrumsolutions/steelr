@@ -60,14 +60,32 @@ async function main() {
   const varName = slugToCamelCase(entry.slug);
   const importLine = `import ${varName} from "./posts/${entry.slug}";`;
 
-  // Add import before the "import type" line
-  indexContent = indexContent.replace(
-    'import type { BlogPost } from "./types";',
-    `${importLine}\nimport type { BlogPost } from "./types";`
-  );
+  // Add import after the last existing import line (before the blank line / posts array)
+  // Find the last import line and append after it
+  const lastImportIdx = indexContent.lastIndexOf("\nimport ");
+  const nextNewline = indexContent.indexOf("\n", lastImportIdx + 1);
+  indexContent =
+    indexContent.slice(0, nextNewline + 1) +
+    importLine +
+    "\n" +
+    indexContent.slice(nextNewline + 1);
 
-  // Add entry to the array (before the closing ];)
-  indexContent = indexContent.replace(/\n\];/, `\n  ${varName},\n];`);
+  // Add entry to the posts array — handle both ].sort(...) and ]; patterns
+  const arrayClosePattern = /\n\]\.sort\(/;
+  const simpleClosePattern = /\n\];/;
+  if (arrayClosePattern.test(indexContent)) {
+    indexContent = indexContent.replace(
+      arrayClosePattern,
+      `\n  ${varName},\n].sort(`
+    );
+  } else if (simpleClosePattern.test(indexContent)) {
+    indexContent = indexContent.replace(
+      simpleClosePattern,
+      `\n  ${varName},\n];`
+    );
+  } else {
+    console.error("  WARNING: Could not find array closing pattern in index.ts — manual fix needed");
+  }
 
   writeFileSync(INDEX_PATH, indexContent);
   console.log("  Updated: index.ts");

@@ -47,7 +47,7 @@ export default async function BlogPostPage({ params }: Props) {
   const otherPosts = posts.filter((p) => p.slug !== post.slug).slice(0, 2);
 
   // Convert markdown-style content to HTML-like sections
-  const sections = post.content.split("\n\n").map((block, i) => {
+  const sections = post.content.split("\n\n").map((block: string, i: number) => {
     if (block.startsWith("## ")) {
       return (
         <h2

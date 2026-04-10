@@ -19,6 +19,7 @@ import bestFrontDoorHomeSecurity from "./posts/best-front-door-home-security";
 import frontDoorIdeasDesignTrends from "./posts/front-door-ideas-design-trends";
 
 import pas24DoorsExplainedUkHomeowners from "./posts/pas-24-doors-explained-uk-homeowners";
+import bespokeEntranceDoorsUkGuide from "./posts/bespoke-entrance-doors-uk-guide";
 import type { BlogPost } from "./types";
 
 // Sorted by date descending (newest first) so the latest posts appear first
@@ -42,6 +43,7 @@ export const posts: BlogPost[] = [
   bestFrontDoorHomeSecurity,
   frontDoorIdeasDesignTrends,
   pas24DoorsExplainedUkHomeowners,
+  bespokeEntranceDoorsUkGuide,
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
