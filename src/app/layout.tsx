@@ -32,6 +32,8 @@ export const metadata: Metadata = {
     "Bespoke PAS 24 certified steel entrance doors designed and installed nationwide. SR3 security rated, Secured by Design approved, FD30 fire rated. Approved Document Q compliant for new builds and flats. Request a free consultation.",
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/favicon-48.png", type: "image/png", sizes: "48x48" },
       { url: "/favicon.svg", type: "image/svg+xml" },
       { url: "/brand/steelr-favicon.png", type: "image/png", sizes: "512x512" },
     ],
