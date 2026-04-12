@@ -82,13 +82,6 @@ export default async function DoorPage({ params }: Props) {
                 value: door.style,
               },
             ],
-            offers: {
-              "@type": "Offer",
-              priceCurrency: "GBP",
-              availability: "https://schema.org/InStock",
-              priceValidUntil: "2027-12-31",
-              url: `https://steelr.co.uk/collection/${door.slug}`,
-            },
             url: `https://steelr.co.uk/collection/${door.slug}`,
           }),
         }}
