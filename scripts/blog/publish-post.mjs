@@ -95,6 +95,25 @@ async function main() {
   writeFileSync(CALENDAR_PATH, JSON.stringify(calendar, null, 2) + "\n");
   console.log("  Updated: content-calendar.json");
 
+  // 5. Update llms.txt — append blog to Key Pages section
+  const LLMS_PATH = join(ROOT, "public/llms.txt");
+  if (existsSync(LLMS_PATH)) {
+    let llms = readFileSync(LLMS_PATH, "utf8");
+    const blogLine = `- [${entry.titleHint}](https://steelr.co.uk/blog/${entry.slug})`;
+    if (!llms.includes(entry.slug)) {
+      // Add before the closing line or at the end of Key Pages
+      const keyPagesEnd = llms.lastIndexOf("\n- [");
+      if (keyPagesEnd > -1) {
+        const insertAt = llms.indexOf("\n", keyPagesEnd + 1);
+        llms = llms.slice(0, insertAt) + "\n" + blogLine + llms.slice(insertAt);
+      } else {
+        llms += "\n" + blogLine + "\n";
+      }
+      writeFileSync(LLMS_PATH, llms);
+      console.log("  Updated: llms.txt");
+    }
+  }
+
   console.log(`\nDone! Published: ${entry.slug}`);
 }
 
