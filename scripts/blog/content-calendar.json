@@ -69,7 +69,7 @@
       "virginia-water",
       "gerrards-cross"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "steel entrance door thermal performance",
@@ -87,7 +87,7 @@
       "yorkshire",
       "cheshire"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "RAL colours for front doors",
@@ -105,7 +105,7 @@
       "fulham",
       "marlow"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "fire rated front doors UK regulations",
@@ -123,7 +123,7 @@
       "birmingham",
       "manchester"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "best front doors for new builds",
@@ -141,7 +141,7 @@
       "kent",
       "essex"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "steel vs fibreglass doors",
@@ -159,7 +159,7 @@
       "surrey",
       "hampshire"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "front door hardware finishes guide",
@@ -177,7 +177,7 @@
       "chiswick",
       "wimbledon"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "home insurance and door security",
@@ -195,7 +195,7 @@
       "buckinghamshire",
       "hertfordshire"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "steel doors for architects",
@@ -213,7 +213,7 @@
       "manchester",
       "birmingham"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "front doors for London townhouses",
@@ -231,7 +231,7 @@
       "chelsea",
       "mayfair"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "steel vs uPVC front doors",
@@ -249,7 +249,7 @@
       "kent",
       "essex"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "steel doors Surrey properties",
@@ -267,7 +267,7 @@
       "weybridge",
       "cobham"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "double front doors pros and cons",
@@ -285,7 +285,7 @@
       "buckinghamshire",
       "surrey"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "smart locks for steel doors",
@@ -303,7 +303,7 @@
       "manchester",
       "birmingham"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "best burglar proof front doors UK",
@@ -321,7 +321,7 @@
       "surrey",
       "hertfordshire"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "front door replacement guide UK",
@@ -339,7 +339,7 @@
       "surrey",
       "buckinghamshire"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "steel doors Buckinghamshire homes",
@@ -357,7 +357,7 @@
       "gerrards-cross",
       "amersham"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "modern front door ideas 2026",
@@ -375,7 +375,7 @@
       "manchester",
       "birmingham"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "steel doors Kent properties",
@@ -393,7 +393,7 @@
       "tunbridge-wells",
       "tonbridge"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "composite vs steel doors 2026",
@@ -411,7 +411,7 @@
       "surrey",
       "buckinghamshire"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "period property front door guide",
@@ -429,7 +429,7 @@
       "oxford",
       "richmond"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "spring home improvement front door",
@@ -447,7 +447,7 @@
       "surrey",
       "hampshire"
     ],
-    "published": false
+    "published": true
   },
   {
     "keyword": "Secured by Design homes guide 2026",
@@ -465,6 +465,42 @@
       "manchester",
       "birmingham"
     ],
-    "published": false
+    "published": true
+  },
+  {
+    "keyword": "how much do steel doors cost UK",
+    "slug": "how-much-do-steel-doors-cost-uk",
+    "titleHint": "How Much Do Steel Entrance Doors Cost in the UK? 2026 Price Guide",
+    "category": "Buying Guide",
+    "scheduledDate": "2026-04-13",
+    "targetPages": [
+      "/collection",
+      "/design-estimate",
+      "/process"
+    ],
+    "targetAreas": [
+      "kensington",
+      "chelsea",
+      "beaconsfield"
+    ],
+    "published": true
+  },
+  {
+    "keyword": "are steel doors worth it UK",
+    "slug": "are-steel-doors-worth-it-uk",
+    "titleHint": "Are Steel Entrance Doors Worth It? Honest UK Assessment",
+    "category": "Buying Guide",
+    "scheduledDate": "2026-04-13",
+    "targetPages": [
+      "/security-specification",
+      "/collection",
+      "/colours"
+    ],
+    "targetAreas": [
+      "london",
+      "surrey",
+      "buckinghamshire"
+    ],
+    "published": true
   }
 ]
