@@ -159,38 +159,51 @@ Orientation is noted so code can handle layout correctly.
 - **Sender:** `noreply@steelr.co.uk`
 - **GBP posting rules:** No phone numbers or URLs in post description text. Use Call Now button for phone. Clean prose only. Images optional.
 
-## Blog Posts (17 posts + automation)
-- 17 posts split into individual files: `src/data/blog/posts/*.ts`
-- Blog data restructured: `src/data/blog/` (types.ts + index.ts + posts/) — follows locations/ pattern
+## Blog Posts (28 posts — all published)
+- 28 posts in `src/data/blog/posts/*.ts` — all live, zero staged
+- Blog data: `src/data/blog/` (types.ts + index.ts + posts/)
 - FAQ schema auto-extracted from posts containing `## Frequently Asked Questions`
-- Paragraph link rendering bug fixed (links now render correctly in all content blocks)
+- Topics cover: pricing, security ratings, thermal performance, RAL colours, fire regulations, conservation areas, new builds, comparisons (vs composite, vs fibreglass, vs uPVC), hardware, insurance, architect specs, smart locks, local area guides (London, Surrey, Bucks, Kent), period properties, Secured by Design
 
-### Blog Automation System
-- **Content calendar:** `scripts/blog/content-calendar.json` — 26 topics, 13 weeks (Apr-Jul 2026)
-- **Generation script:** `scripts/blog/generate-post.mjs` — Claude API (Sonnet), SEO/GEO optimised
-- **GitHub Action:** `.github/workflows/publish-blog.yml` — Tue/Thu 06:00 UTC cron
-- **Flow:** Generate → Build verify → Commit → Push → Vercel deploys → Ping Google sitemap
-- **Required secret:** `ANTHROPIC_API_KEY` in GitHub repo settings
-- **Manual trigger:** `workflow_dispatch` with optional dry_run mode
-- **Image cycling:** 50 gallery images, least-used selection, ~25 weeks before repeat
-- **Validation:** Word count ≥1200, FAQ section required, ≥3 internal links required
+### Blog System
+- **Content calendar:** `scripts/blog/content-calendar.json` — all 28 entries marked published
+- **Publish script:** `scripts/blog/publish-post.mjs` — moves staged→posts, updates index.ts, updates llms.txt
+- **No API key needed** — posts are pre-written TypeScript files
+- **GitHub Action:** `.github/workflows/publish-blog.yml` — Sun/Tue/Thu 20:00 UTC cron
+- **Auto-updates:** llms.txt updated on every publish with new blog link
 
 ## Google Search Console
 - **Property:** sc-domain:steelr.co.uk (owner: info@supplywindows.co.uk)
-- **Indexed pages:** 32 (as of 31 Mar 2026, growing)
-- **Total known:** 252 pages
-- **Impressions:** 444 across 78 queries
-- **Top queries:** "steelr" (9 clicks), "composite vs steel doors" (36 impressions), "bespoke steel doors" (32 impressions)
-- **Location queries appearing:** steel doors surrey, london, birmingham, buckinghamshire, esher, chelsea
-- **Core Web Vitals:** Not enough data yet (site too new)
-- **28 priority URLs** manually submitted for indexing
+- **Indexed pages:** 41 (GSC report as of 06/04, actual is higher — report stale)
+- **Total known:** 258 pages (sitemap)
+- **Indexing API:** All 259 URLs submitted, queue empty. Runs daily at 07:30 via Windows Task Scheduler (SteelrGSCIndexer)
+- **URL Inspection pushes:** ~10 pages pushed to priority crawl queue (13 Apr)
+- **Service account:** gsc-indexer-steelr@steelr-indexing.iam.gserviceaccount.com
+- **Tracker:** vitrums/audit-data/gsc-indexing-tracker-steelr.json
+- **Product snippet error:** "Missing field price in offers" — fixed (removed offers block from collection pages), VALIDATE FIX triggered in GSC
+
+### Current Rankings (13 Apr 2026)
+| Keyword | Organic | Maps |
+|---------|---------|------|
+| steel doors Buckinghamshire | #2 | #1 |
+| steel doors Surrey | - | #10 |
+| steel doors Kensington | #6 | - |
 
 ## Google Business Profile
 - **Name:** Steelr Bespoke Steel Entrance Doors
-- **Status:** Verified, 1 customer interaction
-- **Posts:** 1 published, 1 scheduled (Apr 8), 10 more posts planned through April
-- **Post formula:** Clean prose (no phone/URLs in text), Call Now button, schedule every 2-3 days
-- **Reviews:** 0 — critical gap. Customer review request template in MARKETING-COPY.md
+- **Status:** Verified
+- **Address:** 11 Silverbirch Close, Uxbridge UB10 8AP (visible to customers)
+- **Service areas:** 16 targeted areas (Surrey, Kent, Essex, Berkshire, Oxfordshire, Hampshire, East/West Sussex, Hertfordshire, Buckinghamshire, Greater London, Cheshire, West Yorkshire, West Midlands, Somerset, Edinburgh)
+- **Posts:** 5 total (2 published, 3 scheduled: 12 Apr, 15 Apr, 18 Apr)
+- **Services:** 8 listed (Custom doors, Delivery, Door design, General repairs & installation, Bespoke Steel Entrance Doors, PAS 24 Certified Security Doors, FD30 Fire Rated Steel Doors, Secured by Design Approved Doors)
+- **Reviews:** 0 — customer review request template in MARKETING-COPY.md
+
+## AI Search Visibility
+- **llms.txt:** Live at steelr.co.uk/llms.txt — business brief, areas, pricing, credentials
+- **llms-full.txt:** Live at steelr.co.uk/llms-full.txt — 770+ lines, 28 blog summaries, FAQs, comparison tables, 172 area URLs
+- **ChatGPT:** Steelr showing for "best bespoke steel front door companies UK"
+- **Perplexity:** Not yet picking up (needs more crawl time)
+- **Auto-update:** llms.txt updated on every blog publish
 
 ## Competitor Analysis (completed)
 - **Top competitors:** Latham's (195 reviews, 4.9★), Strongdor, Gerda, Modern Doors, Bespoke Steel Doors, Fort Premium, Deuren, Crittall
@@ -203,10 +216,16 @@ Orientation is noted so code can handle layout correctly.
 - 5 GBP post copies — policy-compliant format
 - Customer review request template
 
-## Remaining Tasks (for next session)
-1. **Schedule 10 more GBP posts** (posts 3-12, Apr 10-30, every 2-3 days)
-2. **Register on directories** — Checkatrade, Houzz, Bark, MyBuilder, FMB (copy in MARKETING-COPY.md)
-3. **Get customer reviews** — send review request template to recent customers
+## Rank Tracking
+- **Script:** vitrums/audit-data/serper-rank-checker.py (Serper.dev API)
+- **API key:** b28fc7dffddcd83ed0ceb9d5fcd83e90cd7a1ec6
+- **Credits:** ~2,370 remaining of 2,500 free
+- **Run:** `python audit-data/serper-rank-checker.py` — checks organic + maps
+- **History:** vitrums/audit-data/rank-history.json (tracks changes between runs)
+
+## Favicon
+- 48x48 PNG at /favicon-48.png and /favicon.ico (Google minimum requirement)
+- SVG primary, PNG fallback in metadata
 
 ## Tech Stack
 - **Framework:** Next.js 14 App Router with TypeScript
@@ -256,7 +275,7 @@ Orientation is noted so code can handle layout correctly.
 - Hub pages list all child areas in schema.org `areaServed`
 - Area pages cross-link to 3–5 nearby areas + parent hub
 - Sitemap at `/sitemap.xml` with 258 URLs, resubmitted to Google Search Console (6 Apr 2026)
-- Product schema on collection door pages (offers block, no price — bespoke)
+- Product schema on collection door pages (offers block REMOVED — was causing GSC errors)
 - HowTo schema on process page
 - FAQ schema on all 172 area pages + security page + security-specification page
 - Image quality: all set to 80 (reduced from 100 for performance)
@@ -310,3 +329,7 @@ Orientation is noted so code can handle layout correctly.
 ### Design
 - `/award-landing` — Generate premium landing page sections matching architectural brand
 - `/extract-style-skill` — Extract design systems from competitor luxury sites
+
+## Project Completion Checklist
+
+Before marking any task in this project complete, follow the Completion Standards in the global CLAUDE.md. Show evidence. Do not assume.
