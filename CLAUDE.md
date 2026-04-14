@@ -41,8 +41,9 @@
 - **Navigation:** Collection · Areas · About · Process · Blog · Get Estimate · Contact
 - **Phone:** 0800 861 1450
 - **CTA:** "Request a Consultation"
-- **Total static pages:** ~260 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, 54 collection items, 19 blog posts, 172 area pages)
-- **Sitemap:** 258 URLs at `/sitemap.xml`
+- **Total static pages:** ~330 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, 54 collection items, 45 blog posts, 172 area pages)
+- **Sitemap:** 286 URLs at `/sitemap.xml`
+- **Google Maps embed** on contact page (business name pin, no street address shown)
 
 ## Image Manifest
 
@@ -204,7 +205,8 @@ Orientation is noted so code can handle layout correctly.
 
 ## AI Search Visibility
 - **llms.txt:** Live at steelr.co.uk/llms.txt — business brief, areas, pricing, credentials
-- **llms-full.txt:** Live at steelr.co.uk/llms-full.txt — 770+ lines, 28 blog summaries, FAQs, comparison tables, 172 area URLs
+- **llms-full.txt:** Live at steelr.co.uk/llms-full.txt — 937+ lines, 45 blog summaries, FAQs, comparison tables, 172 area URLs
+- **llms.txt:** 45 blog links listed (all posts)
 - **ChatGPT:** Steelr showing for "best bespoke steel front door companies UK"
 - **Perplexity:** Not yet picking up (needs more crawl time)
 - **Auto-update:** llms.txt updated on every blog publish
