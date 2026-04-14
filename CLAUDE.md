@@ -159,6 +159,10 @@ Orientation is noted so code can handle layout correctly.
 - **Sender:** `noreply@steelr.co.uk`
 - **GBP posting rules:** No phone numbers or URLs in post description text. Use Call Now button for phone. Clean prose only. Images optional.
 
+## Build Notes
+- Vercel env var NEXT_PUBLIC_GOOGLE_MAPS_KEY required for Maps embed on contact page
+- Never add Product schema with offers block unless actual prices exist — causes GSC errors
+
 ## Blog Posts (45 posts — all published)
 - 45 posts in `src/data/blog/posts/*.ts` — all live, zero staged
 - Blog data: `src/data/blog/` (types.ts + index.ts + posts/)
