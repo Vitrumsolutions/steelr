@@ -155,7 +155,7 @@ export default function ContactPage() {
           <h2 style={{ fontSize: 22, fontWeight: 200, color: "#f5f0e8", marginBottom: 16, letterSpacing: "0.02em" }}>Find Us</h2>
           <div style={{ borderRadius: 12, overflow: "hidden", border: "1px solid rgba(201,169,110,0.15)" }}>
             <iframe
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Steelr+Bespoke+Steel+Entrance+Doors,Uxbridge,UK&zoom=10"
+              src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}&q=Steelr+Bespoke+Steel+Entrance+Doors,Uxbridge,UK&zoom=10`}
               width="100%"
               height="400"
               style={{ border: 0 }}
