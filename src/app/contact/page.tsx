@@ -148,6 +148,26 @@ export default function ContactPage() {
           </ScrollReveal>
         </div>
       </section>
+
+      {/* Google Maps embed — business name only, no street address shown */}
+      <section style={{ padding: "60px 24px", background: "#1a1a18" }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+          <h2 style={{ fontSize: 22, fontWeight: 200, color: "#f5f0e8", marginBottom: 16, letterSpacing: "0.02em" }}>Find Us</h2>
+          <div style={{ borderRadius: 12, overflow: "hidden", border: "1px solid rgba(201,169,110,0.15)" }}>
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Steelr+Bespoke+Steel+Entrance+Doors,Uxbridge,UK&zoom=10"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="SteelR location"
+            />
+          </div>
+          <p style={{ fontSize: 12, color: "#8a6f4e", marginTop: 8 }}>Nationwide design, manufacture and installation across the United Kingdom</p>
+        </div>
+      </section>
     </>
   );
 }
