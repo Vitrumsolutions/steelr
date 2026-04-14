@@ -159,8 +159,8 @@ Orientation is noted so code can handle layout correctly.
 - **Sender:** `noreply@steelr.co.uk`
 - **GBP posting rules:** No phone numbers or URLs in post description text. Use Call Now button for phone. Clean prose only. Images optional.
 
-## Blog Posts (28 posts — all published)
-- 28 posts in `src/data/blog/posts/*.ts` — all live, zero staged
+## Blog Posts (45 posts — all published)
+- 45 posts in `src/data/blog/posts/*.ts` — all live, zero staged
 - Blog data: `src/data/blog/` (types.ts + index.ts + posts/)
 - FAQ schema auto-extracted from posts containing `## Frequently Asked Questions`
 - Topics cover: pricing, security ratings, thermal performance, RAL colours, fire regulations, conservation areas, new builds, comparisons (vs composite, vs fibreglass, vs uPVC), hardware, insurance, architect specs, smart locks, local area guides (London, Surrey, Bucks, Kent), period properties, Secured by Design
