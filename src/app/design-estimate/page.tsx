@@ -515,7 +515,7 @@ export default function DesignEstimatePage() {
                   label="Security Rating Required"
                   value={form.security}
                   onChange={set("security")}
-                  options={["PAS 24", "SR3 (Enhanced)", "Not Sure"]}
+                  options={["PAS 24", "SR3 (Standard)", "SR4 / LPS 1175 (Commercial-Grade Upgrade)", "Not Sure"]}
                 />
                 <Select
                   id="fireRating"

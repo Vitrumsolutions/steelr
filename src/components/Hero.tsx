@@ -173,7 +173,7 @@ export default function Hero() {
             textShadow: "0 1px 8px rgba(0, 0, 0, 0.6)",
           }}
         >
-          SR3 Rated &middot; ISO 9001 Certified &middot; Secured by Design
+          SR3 &amp; SR4 (LPS 1175) Rated &middot; ISO 9001 &middot; Secured by Design
         </p>
       </div>
 
@@ -203,7 +203,7 @@ export default function Hero() {
             textShadow: "0 1px 6px rgba(0, 0, 0, 0.4)",
           }}
         >
-          SR3 rated. Designed and installed nationwide. 8–12 week lead time.
+          SR3 as standard · SR4 (LPS 1175) upgrade. Designed and installed nationwide. 8–12 week lead time.
         </p>
 
         <Link

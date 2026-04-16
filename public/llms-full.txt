@@ -1,6 +1,8 @@
-# SteelR — Bespoke Steel Entrance Doors | United Kingdom (Full Reference)
+# SteelR — Bespoke Steel Front Doors for Your Home | United Kingdom (Full Reference)
 
-> SteelR is a UK manufacturer and installer of bespoke steel entrance doors for residential properties. Every door is individually designed, manufactured in our UK workshop, and professionally installed by our own fitting team — no subcontractors. SR3 rated, PAS 24 certified, Secured by Design approved, FD30S fire rated, ISO 9001 certified.
+> SteelR is a UK manufacturer and installer of bespoke steel front doors for homes — also searched for as "steel entrance doors for my home", "residential front steel doors" and "fire rated steel front doors". Every door is individually designed, manufactured in our UK workshop, and professionally installed by our own fitting team — no subcontractors. PAS 24 certified, SR3 rated as standard with SR4 (LPS 1175 Issue 8) commercial-grade upgrade available, Secured by Design approved, FD30S fire rated, ISO 9001 certified.
+
+**Positioning:** SR3 as standard, SR4 (LPS 1175) available — commercial-grade security rarely offered on residential doors. SR3 is our baseline on every residential steel front door; SR4 is the premium upgrade for homeowners who want the same specification used by data centres, bank vaults and high-risk commercial premises.
 
 ---
 
@@ -14,7 +16,7 @@ The company provides a complete end-to-end service: design consultation, structu
 
 ### What Makes SteelR Different
 
-SteelR doors are engineered to SR3 security standards — the highest practical security rating for residential entrance doors under BS EN 1627:2011. Every door is ISO 9001 certified, Secured by Design approved by the UK police, and manufactured from fire-rated steel. Unlike composite or timber alternatives, steel entrance doors offer a 25+ year lifespan with virtually zero maintenance.
+SteelR doors are engineered to SR3 security standards as the baseline (BS EN 1627:2011, Class 3) — with SR4 (LPS 1175 Issue 8, Security Rating 4) available as a commercial-grade upgrade. SR4 is rarely offered on doors built for the home; it is the same specification used in data centres, bank vaults and high-risk commercial premises. Every door is ISO 9001 certified, Secured by Design approved by the UK police, and manufactured from fire-rated steel. Unlike composite or timber alternatives, steel entrance doors offer a 25+ year lifespan with virtually zero maintenance.
 
 SteelR is one of the few UK manufacturers offering a complete end-to-end service: design consultation, structural survey, bespoke manufacturing, and professional installation. There are no standard sizes and no off-the-shelf designs — every door is made to measure for the individual property.
 
@@ -81,8 +83,9 @@ All SteelR doors are engineered to SR3 as standard — not as an optional upgrad
 
 - **SR1 — Basic Resistance:** Resists opportunistic attack with bodily force alone. Typical of standard uPVC doors and lightweight frames. Offers minimal protection against a determined intruder.
 - **SR2 — Casual Burglar:** Withstands attack with simple hand tools such as screwdrivers, pliers and wedges for up to 3 minutes. Some higher-quality timber and composite doors achieve this rating.
-- **SR3 — Experienced Burglar, Heavy Tools (SteelR Standard):** Withstands a sustained 20-minute attack using crowbars, drills, chisels and heavy-duty cutting tools. This is the highest security rating practically achievable for residential entrance doors.
-- **SR4–SR6 — Commercial & Government:** Ratings reserved for high-security commercial premises, embassies, military installations and critical infrastructure. These require specialist construction beyond the scope of residential doors.
+- **SR3 — Experienced Burglar, Heavy Tools (SteelR Standard):** Withstands a sustained 20-minute attack using crowbars, drills, chisels and heavy-duty cutting tools. This is the baseline rating on every SteelR residential steel front door.
+- **SR4 — LPS 1175 Issue 8, Security Rating 4 (SteelR Upgrade):** Commercial-grade certification under the Loss Prevention Certification Board scheme. Longer attack duration than SR3, broader tool set including battery-operated cutting tools. Used for data centres, bank vaults and high-risk commercial premises. Available as an upgrade on every SteelR door — commercial-grade security rarely offered on residential doors.
+- **SR5–SR6 — Government & Critical Infrastructure:** Ratings reserved for embassies, military installations and critical infrastructure. These require specialist construction beyond the scope of residential doors.
 
 ### PAS 24:2022 Certification
 
@@ -90,15 +93,16 @@ PAS 24:2022 is the minimum security standard required by UK Building Regulations
 
 Every SteelR door exceeds PAS 24 by a significant margin. The company engineers to SR3 as standard because it believes the minimum regulatory requirement is not sufficient for a premium residential entrance.
 
-### PAS 24 vs SR3 — Key Differences
+### PAS 24 vs SR3 vs SR4 — Key Differences
 
-| Attribute | PAS 24 | SR3 |
-|-----------|--------|-----|
-| Attack duration | 1–3 minutes | 20 minutes sustained |
-| Tools used | Basic hand tools | Crowbars, drills, chisels, heavy tools |
-| Attack type | Opportunist casual attack | Experienced intruder, sustained assault |
-| Regulatory status | Minimum Building Regulations requirement | Highest achievable residential rating |
-| SteelR position | Exceeded as standard | Standard on every door |
+| Attribute | PAS 24 | SR3 | SR4 (LPS 1175) |
+|-----------|--------|-----|----------------|
+| Standard body | BSI | BS EN 1627:2011 Class 3 | LPCB / BRE LPS 1175 Issue 8 |
+| Attack duration | 1–3 minutes | 20 minutes sustained | Longer than SR3, LPS 1175 tool categories |
+| Tools used | Basic hand tools | Crowbars, drills, chisels, heavy tools | All SR3 tools plus battery-operated cutting tools and larger prying equipment |
+| Attack type | Opportunist casual attack | Experienced intruder, sustained assault | Commercial-grade sustained attack |
+| Typical use | New-build residential minimum | High-end residential | Data centres, bank vaults, high-risk commercial |
+| SteelR position | Exceeded as standard | Standard on every residential front door | Available as upgrade on every door |
 
 ### Secured by Design
 
@@ -120,7 +124,7 @@ ISO 9001 is the internationally recognised standard for quality management syste
 
 ### Approved Document Q Compliance
 
-Under Approved Document Q of the Building Regulations, all new-build homes and flats — including those created by material change of use — must be fitted with entrance doors that resist unauthorised access. PAS 24:2022 is the accepted standard to satisfy this requirement. Every SteelR door satisfies Approved Document Q and exceeds it substantially through SR3 certification.
+Under Approved Document Q of the Building Regulations, all new-build homes and flats — including those created by material change of use — must be fitted with entrance doors that resist unauthorised access. PAS 24:2022 is the accepted standard to satisfy this requirement. Every SteelR door satisfies Approved Document Q and exceeds it substantially through SR3 certification as standard, with SR4 (LPS 1175) available as a commercial-grade upgrade.
 
 ---
 
@@ -156,7 +160,7 @@ These regulations introduced annual inspection duties for flat entrance doors in
 
 ### Building Safety Act 2022
 
-Following the Grenfell Tower tragedy, the Building Safety Act 2022 has significantly strengthened fire safety requirements across UK residential buildings. SteelR's SR3 + FD30S certification satisfies the gateway process requirements for higher-risk residential buildings.
+Following the Grenfell Tower tragedy, the Building Safety Act 2022 has significantly strengthened fire safety requirements across UK residential buildings. SteelR's SR3 + FD30S certification (with SR4 / LPS 1175 + FD30S or FD60 available as a commercial-grade upgrade) satisfies the gateway process requirements for higher-risk residential buildings.
 
 ### Fire Rated Door Specification Comparison
 
@@ -164,7 +168,7 @@ Following the Grenfell Tower tragedy, the Building Safety Act 2022 has significa
 |---------|-------------------|-----------------|-----------------|
 | Fire integrity | No rating | 30 minutes | 60 minutes |
 | Smoke seal | Optional | Intumescent + smoke seal | Intumescent + smoke seal |
-| Security | SR3 available | SR3 available | SR3 available |
+| Security | SR3 std / SR4 upgrade | SR3 std / SR4 upgrade | SR3 std / SR4 upgrade |
 | Glazing | Any | Fire-rated glass | Fire-rated glass |
 | Self-closing | Optional | Required | Required |
 | Certification | N/A | CE marked, tested | CE marked, tested |
@@ -258,8 +262,11 @@ Professional installation is carried out by SteelR's own in-house installation t
 
 ### General Questions
 
-**What is an SR3 security rating?**
-SR3 (Security Rating 3) is a classification under BS EN 1627:2011 that certifies a door can withstand a sustained attack by an experienced burglar using heavy-duty tools such as crowbars, drills and chisels for up to 20 minutes. It far exceeds the security level of standard residential doors and is the highest rating practically achievable for domestic entrance doors. All SteelR doors are engineered to SR3 as standard.
+**What security rating do your residential steel front doors have?**
+Every SteelR residential steel front door is engineered to SR3 (Security Rating 3) under BS EN 1627:2011 as standard — the door withstands a sustained attack by an experienced burglar using heavy-duty tools such as crowbars, drills and chisels for up to 20 minutes. For homeowners who want the highest level of physical security, we also offer SR4 (LPS 1175 Issue 8, Security Rating 4) as an upgrade — a commercial-grade certification rarely offered on doors built for the home, with a longer attack duration and a broader tool set than SR3.
+
+**What is SR4 (LPS 1175) and why would I choose it for my home?**
+SR4 is Security Rating 4 under the LPS 1175 Issue 8 standard — the Loss Prevention Certification Board scheme used to certify commercial security products such as bank vaults, data centres and high-risk premises. An SR4 door withstands a longer attack using a broader tool set than SR3, including battery-operated cutting tools and larger prying equipment. SteelR offers SR4 as an upgrade on every residential front door — commercial-grade security rarely offered on homes.
 
 **Do you install nationwide?**
 Yes. SteelR designs, manufactures and installs bespoke steel entrance doors across the entire United Kingdom, from the Scottish Highlands to the south coast of England. The survey team and installation team travel to your property wherever you are located. There are no regional restrictions or additional travel charges for mainland UK properties.
@@ -276,7 +283,7 @@ Every SteelR door is bespoke, so pricing depends on the size, design complexity,
 ### Security Questions
 
 **Is PAS 24 enough for home security?**
-PAS 24:2022 is the minimum security standard required by UK Building Regulations (Approved Document Q) for new-build residential doors. While it provides a baseline level of protection against opportunistic attack, it is significantly less rigorous than SR3. PAS 24 testing simulates a casual attack lasting around 1–3 minutes, whereas SR3 testing subjects the door to a sustained 20-minute assault with heavy tools. For homeowners seeking genuine peace of mind, SR3 offers substantially greater protection.
+PAS 24:2022 is the minimum security standard required by UK Building Regulations (Approved Document Q) for new-build residential doors. While it provides a baseline level of protection against opportunistic attack, it is significantly less rigorous than SR3 or SR4. PAS 24 testing simulates a casual attack lasting around 1–3 minutes, whereas SR3 testing subjects the door to a sustained 20-minute assault with heavy tools, and SR4 (LPS 1175) goes further still with a longer attack and broader tool set. For homeowners seeking genuine peace of mind, SR3 as standard — or SR4 as an upgrade — offers substantially greater protection.
 
 **What does Secured by Design mean?**
 Secured by Design (SBD) is the official UK police security initiative that sets standards for crime prevention in the built environment. Products carrying the SBD accreditation have been independently tested and certified to meet police-preferred security specifications. SteelR doors hold Secured by Design approval, meaning they have been vetted by the police-backed scheme as offering a high level of resistance to forced entry.
@@ -285,7 +292,7 @@ Secured by Design (SBD) is the official UK police security initiative that sets 
 PAS 24:2022 is the UK security standard for doors and windows mandated by Approved Document Q of the Building Regulations. All new-build dwellings and flats in England and Wales must have entrance doors that meet PAS 24. It tests resistance to opportunist forced entry over a 15-minute manual attack.
 
 **What is SR3 and how does it differ from PAS 24?**
-SR3 is Security Rating 3 under BS EN 1627 Class 3 — a European standard that tests resistance to sustained power-tool attack including angle grinders and drills. It far exceeds PAS 24 and is the highest security classification commercially available for residential entrance doors. Every SteelR door is SR3 rated as standard.
+SR3 is Security Rating 3 under BS EN 1627 Class 3 — a European standard that tests resistance to sustained power-tool attack including angle grinders and drills. It far exceeds PAS 24. Every SteelR residential steel front door is SR3 rated as standard, with SR4 (LPS 1175) available as a commercial-grade upgrade.
 
 ### Fire Safety Questions
 
@@ -299,13 +306,13 @@ Yes. Under Approved Document B of the Building Regulations, entrance doors to in
 FD30 provides 30 minutes of fire integrity and is the standard requirement for individual flat entrance doors. FD60 provides 60 minutes of fire integrity and is required for doors in common areas, protected escape routes, stairwell enclosures and higher-risk applications. Both ratings are determined through independent fire testing to BS 476-22 or BS EN 1634-1, measuring how long the door maintains its structural integrity and prevents the passage of fire and smoke.
 
 **Can a fire rated door also be a security door?**
-Absolutely. SteelR fire rated doors combine FD30 or FD60 fire certification with SR3 security ratings (BS EN 1627 Class 3) as standard. Every door is PAS 24 certified, Secured by Design approved and satisfies Approved Document Q for security alongside Approved Document B for fire safety. Steel is uniquely suited to achieving both — its inherent material properties provide natural fire resistance while its strength delivers exceptional security.
+Absolutely. SteelR fire rated steel front doors combine FD30 or FD60 fire certification with SR3 security ratings (BS EN 1627 Class 3) as standard — and SR4 (LPS 1175 Issue 8) is available as a commercial-grade upgrade. Every door is PAS 24 certified, Secured by Design approved and satisfies Approved Document Q for security alongside Approved Document B for fire safety. Steel is uniquely suited to achieving both — its inherent material properties provide natural fire resistance while its strength delivers exceptional security.
 
 **Do you supply fire rated doors for multi-unit developments?**
-Yes. SteelR works with developers, architects and housing associations across the UK on projects ranging from small conversions to large-scale new builds. Every door is PAS 24 certified and SR3 rated (BS EN 1627 Class 3), satisfying Approved Document Q alongside fire safety requirements. SteelR provides NBS specification clauses, door schedule pricing, project-level technical support and phased delivery programmes.
+Yes. SteelR works with developers, architects and housing associations across the UK on projects ranging from small conversions to large-scale new builds. Every door is PAS 24 certified and SR3 rated (BS EN 1627 Class 3) as standard — with SR4 (LPS 1175 Issue 8) available where higher security is specified — satisfying Approved Document Q alongside fire safety requirements. SteelR provides NBS specification clauses, door schedule pricing, project-level technical support and phased delivery programmes.
 
 **Are SteelR doors suitable for new builds and flats?**
-Yes. SteelR doors exceed Approved Document Q (PAS 24) for security and Approved Document B for fire safety. The SR3 + FD30S specification satisfies all current UK Building Regulations for new-build houses, flats, HMOs and housing association properties. They are regularly specified by developers, architects and housing associations.
+Yes. SteelR doors exceed Approved Document Q (PAS 24) for security and Approved Document B for fire safety. The SR3 + FD30S specification — or SR4 (LPS 1175) + FD30S/FD60 where a commercial-grade upgrade is specified — satisfies all current UK Building Regulations for new-build houses, flats, HMOs and housing association properties. They are regularly specified by developers, architects and housing associations.
 
 ### Area-Specific Questions (Template)
 
@@ -509,7 +516,7 @@ URL: https://steelr.co.uk/blog/steel-vs-composite-doors
 
 ### What Is an SR3 Security Rating? The Complete Guide for Homeowners
 25 March 2026 | Security | 5 min read
-The European standard BS EN 1627:2011 defines six resistance classes (RC1 to RC6, also referred to as SR1 to SR6) for doors, windows and curtain walls. This guide explains the SR3 rating, how testing works with sustained 20-minute attacks, and why SR3 is the highest commercially available residential security level.
+The European standard BS EN 1627:2011 defines six resistance classes (RC1 to RC6, also referred to as SR1 to SR6) for doors, windows and curtain walls. This guide explains the SR3 rating, how testing works with sustained 20-minute attacks, and how SR3 sits alongside SR4 (LPS 1175 Issue 8) — the commercial-grade certification SteelR offers as an upgrade on residential front doors.
 URL: https://steelr.co.uk/blog/what-is-sr3-security-rating
 
 ### Best Front Doors for Period Properties in the UK

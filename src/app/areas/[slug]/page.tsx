@@ -74,11 +74,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       location.type === "hub"
         ? `Steel Entrance Doors ${label} | Bespoke Steel Doors | SteelR`
         : `Steel Entrance Doors ${label}, ${location.region} | SteelR`,
-    description: `Bespoke PAS 24 certified steel entrance doors in ${label}, ${location.region}. SR3 security rated, Secured by Design approved, FD30 fire rated. Steel doors for new builds and flats. Request a free consultation from SteelR.`,
+    description: `Bespoke steel front doors for your home in ${label}, ${location.region}. PAS 24 certified, SR3 rated as standard with SR4 (LPS 1175) upgrade, Secured by Design approved, FD30 fire rated. Free consultation from SteelR.`,
     alternates: { canonical: `https://steelr.co.uk/areas/${location.slug}` },
     openGraph: {
       title: `Steel Entrance Doors ${label} | SteelR`,
-      description: `PAS 24 certified bespoke steel entrance doors in ${label}. SR3 rated, Secured by Design approved, FD30 fire rated. Free consultation available.`,
+      description: `Bespoke steel front doors for homes in ${label}. PAS 24 certified, SR3 standard with SR4 (LPS 1175) upgrade, Secured by Design approved, FD30 fire rated.`,
       url: `https://steelr.co.uk/areas/${location.slug}`,
       type: "website",
       images: [
@@ -93,7 +93,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: `Steel Entrance Doors ${label} | SteelR`,
-      description: `PAS 24 certified bespoke steel entrance doors in ${label}. SR3 rated, Secured by Design approved, FD30 fire rated. Free consultation available.`,
+      description: `Bespoke steel front doors for homes in ${label}. PAS 24 certified, SR3 standard with SR4 (LPS 1175) upgrade, Secured by Design approved, FD30 fire rated.`,
       images: [location.heroImage],
     },
   };
@@ -101,7 +101,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const credentials = [
   "PAS 24:2022 Certified",
-  "SR3 High Security Rated",
+  "SR3 Standard & SR4 (LPS 1175) Available",
   "Secured by Design Approved",
   "FD30S Fire & Smoke Rated",
   "ISO 9001 Certified Manufacturing",
@@ -198,7 +198,7 @@ export default async function AreaPage({ params }: Props) {
             "@context": "https://schema.org",
             "@type": "HomeAndConstructionBusiness",
             name: "SteelR",
-            description: `Bespoke PAS 24 certified steel entrance doors in ${label}, ${location.region}. SR3 security rated (BS EN 1627 Class 3), Secured by Design approved, FD30S fire rated. Steel doors for new builds and flats.`,
+            description: `Bespoke steel front doors for homes in ${label}, ${location.region}. PAS 24 certified, SR3 standard with SR4 (LPS 1175) upgrade, Secured by Design approved, FD30S fire rated. Residential steel front doors, fire rated steel front doors and commercial-grade security.`,
             url: `https://steelr.co.uk/areas/${location.slug}`,
             telephone: "0800 861 1450",
             areaServed:

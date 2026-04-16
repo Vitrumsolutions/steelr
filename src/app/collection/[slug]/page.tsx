@@ -69,7 +69,7 @@ export default async function DoorPage({ params }: Props) {
               {
                 "@type": "PropertyValue",
                 name: "Security Rating",
-                value: "SR3 (BS EN 1627:2011)",
+                value: "SR3 (BS EN 1627:2011) standard; SR4 (LPS 1175 Issue 8) upgrade available",
               },
               {
                 "@type": "PropertyValue",
@@ -364,7 +364,7 @@ export default async function DoorPage({ params }: Props) {
                   {[
                     { label: "Style", value: door.style },
                     { label: "Colour", value: door.colour },
-                    { label: "Security", value: "SR3 Rated" },
+                    { label: "Security", value: "SR3 std / SR4 upgrade" },
                     { label: "Material", value: "Fire Rated Steel" },
                     { label: "Certification", value: "ISO 9001" },
                     { label: "Lead Time", value: "8–12 Weeks" },

@@ -149,7 +149,7 @@ export default function CollectionPage() {
           <h1 className="sr-only">Bespoke Steel Entrance Door Collection</h1>
           <ScrollReveal>
             <p style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontWeight: 300, fontSize: 15, lineHeight: 1.8, color: "#6b5a42", maxWidth: 640, marginBottom: 32 }}>
-              Browse our full collection of bespoke steel entrance doors. Each door is manufactured to SR3 security standards and available in contemporary, traditional and double door configurations. Every design is fully customisable to your specification. Popular across{" "}
+              Browse our full collection of bespoke steel front doors for the home. Each door is manufactured to SR3 security standards as the baseline — with SR4 (LPS 1175) available as a commercial-grade upgrade — and offered in contemporary, traditional and double door configurations. Every design is fully customisable to your specification. Popular across{" "}
               <Link href="/areas/london" className="link-gold-underline">London</Link>, the{" "}
               <Link href="/areas" className="link-gold-underline">Home Counties</Link> and nationwide.
             </p>

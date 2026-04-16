@@ -5,15 +5,15 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title:
-    "Steel Door Security Ratings | SR3, PAS 24, BS EN 1627, Secured by Design | SteelR",
+    "Steel Door Security Ratings | SR3 Standard, SR4 (LPS 1175) Upgrade, PAS 24, Secured by Design | SteelR",
   description:
-    "Bespoke security doors tested to BS EN 1627 Class 3 (SR3), PAS 24 certified and Secured by Design approved. Approved Document Q compliant steel entrance doors for new builds, flats and high-value homes across the UK.",
+    "Residential steel front doors tested to SR3 as standard, with SR4 (LPS 1175 Issue 8) available as an upgrade — commercial-grade security rarely offered on doors for the home. PAS 24 certified, Secured by Design approved, Approved Document Q compliant.",
   alternates: { canonical: "https://steelr.co.uk/security" },
   openGraph: {
     title:
-      "Steel Door Security Ratings | SR3, PAS 24, BS EN 1627 | SteelR",
+      "Steel Door Security Ratings | SR3 Standard, SR4 Upgrade | SteelR",
     description:
-      "Bespoke security doors tested to BS EN 1627 (SR3), PAS 24 certified and Secured by Design approved. Approved Document Q compliant for new builds and flats.",
+      "Steel front doors for your home, tested to SR3 as standard with SR4 (LPS 1175) available as a commercial-grade upgrade. PAS 24 certified and Secured by Design approved.",
     url: "https://steelr.co.uk/security",
     siteName: "SteelR",
     type: "website",
@@ -22,29 +22,34 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 2400,
         height: 1260,
-        alt: "SteelR — Steel Door Security Ratings | SR3, PAS 24, Secured by Design",
+        alt: "SteelR — Steel Door Security Ratings | SR3, SR4 (LPS 1175), PAS 24, Secured by Design",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Steel Door Security Ratings | SR3, PAS 24, BS EN 1627 | SteelR",
+      "Steel Door Security Ratings | SR3 Standard, SR4 Upgrade | SteelR",
     description:
-      "Bespoke security doors tested to BS EN 1627 (SR3), PAS 24 certified and Secured by Design approved. Approved Document Q compliant for new builds and flats.",
+      "Steel front doors for your home, tested to SR3 as standard with SR4 (LPS 1175) available as a commercial-grade upgrade. PAS 24 certified and Secured by Design approved.",
   },
 };
 
 const faqs = [
   {
-    question: "What is an SR3 security rating?",
+    question: "What security rating do your residential steel front doors have?",
     answer:
-      "SR3 (Security Rating 3) is a classification under BS EN 1627:2011 that certifies a door can withstand a sustained attack by an experienced burglar using heavy-duty tools such as crowbars, drills and chisels for up to 20 minutes. It far exceeds the security level of standard residential doors and is the highest rating practically achievable for domestic entrance doors. All SteelR doors are engineered to SR3 as standard.",
+      "Every SteelR residential steel front door is engineered to SR3 (Security Rating 3) under BS EN 1627:2011 as standard \u2014 the door withstands a sustained attack by an experienced burglar using heavy-duty tools such as crowbars, drills and chisels for up to 20 minutes. For homeowners who want the highest level of physical security, we also offer SR4 (LPS 1175 Issue 8, Security Rating 4) as an upgrade. SR4 is a commercial-grade certification rarely offered on doors built for the home, and it exceeds SR3 both in tool set and attack duration.",
+  },
+  {
+    question: "What is SR4 (LPS 1175) and why would I choose it for my home?",
+    answer:
+      "SR4 is Security Rating 4 under the LPS 1175 Issue 8 standard \u2014 the Loss Prevention Certification Board scheme used to certify commercial security products such as bank vaults, data centres and high-risk premises. An SR4 door withstands a longer attack using a broader tool set than SR3, including battery-operated cutting tools and larger prying equipment. We offer SR4 as an upgrade for homeowners in high-value properties, rural locations, or anyone who wants the reassurance of commercial-grade security on their residential front door.",
   },
   {
     question: "Is PAS 24 enough for home security?",
     answer:
-      "PAS 24:2022 is the minimum security standard required by UK Building Regulations (Approved Document Q) for new-build residential doors. While it provides a baseline level of protection against opportunistic attack, it is significantly less rigorous than SR3. PAS 24 testing simulates a casual attack lasting around 1\u20133 minutes, whereas SR3 testing subjects the door to a sustained 20-minute assault with heavy tools. For homeowners seeking genuine peace of mind, SR3 offers substantially greater protection.",
+      "PAS 24:2022 is the minimum security standard required by UK Building Regulations (Approved Document Q) for new-build residential doors. While it provides a baseline level of protection against opportunistic attack, it is significantly less rigorous than SR3 or SR4. PAS 24 testing simulates a casual attack lasting around 1\u20133 minutes, whereas SR3 testing subjects the door to a sustained 20-minute assault with heavy tools, and SR4 (LPS 1175) goes further still. For homeowners seeking genuine peace of mind, SR3 as standard \u2014 or SR4 as an upgrade \u2014 offers substantially greater protection.",
   },
   {
     question: "What does Secured by Design mean?",
@@ -77,14 +82,21 @@ const srRatings = [
     level: "SR3",
     label: "Experienced Burglar \u2014 Heavy Tools",
     description:
-      "Withstands a sustained 20-minute attack using crowbars, drills, chisels and heavy-duty cutting tools. This is the SteelR standard \u2014 the highest security rating practically achievable for residential entrance doors.",
+      "Withstands a sustained 20-minute attack using crowbars, drills, chisels and heavy-duty cutting tools. This is the SteelR standard \u2014 delivered on every residential steel front door we make.",
     highlight: true,
   },
   {
-    level: "SR4\u2013SR6",
-    label: "Commercial & Government",
+    level: "SR4",
+    label: "LPS 1175 \u2014 Commercial Upgrade",
     description:
-      "Ratings reserved for high-security commercial premises, embassies, military installations and critical infrastructure. These require specialist construction beyond the scope of residential doors.",
+      "Security Rating 4 under LPS 1175 Issue 8. Withstands a longer sustained attack with a broader tool set \u2014 including battery-operated cutting tools. A commercial-grade certification rarely offered on doors built for the home. Available as an upgrade on every SteelR door.",
+    highlight: true,
+  },
+  {
+    level: "SR5\u2013SR6",
+    label: "Government & Critical Infrastructure",
+    description:
+      "Ratings reserved for embassies, military installations, data centres and critical infrastructure. These require specialist construction beyond the scope of residential entrance doors.",
     highlight: false,
   },
 ];
@@ -215,9 +227,10 @@ export default function SecurityPage() {
             >
               Every SteelR door is independently tested and certified to the
               highest security standards achievable for a residential entrance.
-              Our doors carry SR3 security ratings, Secured by Design police
-              approval and ISO 9001 manufacturing certification as standard
-              &mdash; not as optional extras. For homeowners across{" "}
+              Our residential steel front doors carry SR3 security ratings as
+              standard &mdash; with SR4 (LPS 1175) available as an upgrade
+              &mdash; alongside Secured by Design police approval and ISO 9001
+              manufacturing certification. For homeowners across{" "}
               <Link
                 href="/areas/london"
                 className="link-gold-underline"
@@ -388,7 +401,7 @@ export default function SecurityPage() {
                   lineHeight: 1.1,
                 }}
               >
-                PAS 24 vs SR3
+                PAS 24 vs SR3 vs SR4
               </h2>
               <p
                 className="mb-6"
@@ -421,6 +434,23 @@ export default function SecurityPage() {
                 &mdash; it is a fundamentally higher tier of protection.
               </p>
               <p
+                className="mb-6"
+                style={{
+                  fontFamily: bodyFont,
+                  fontWeight: 200,
+                  fontSize: 14,
+                  lineHeight: 1.9,
+                  color: "#6b5a42",
+                }}
+              >
+                SR4 (LPS 1175 Issue 8) steps up again. It tests resistance to a
+                longer attack using a broader tool set &mdash; including
+                battery-operated cutting tools &mdash; under the Loss Prevention
+                Certification Board scheme used for commercial premises, data
+                centres and high-risk buildings. We offer SR4 as an upgrade on
+                any SteelR residential front door.
+              </p>
+              <p
                 style={{
                   fontFamily: bodyFont,
                   fontWeight: 200,
@@ -439,7 +469,9 @@ export default function SecurityPage() {
                 </Link>{" "}
                 exceeds PAS 24 by a significant margin. We engineer to SR3 as
                 standard because we believe the minimum regulatory requirement
-                is not sufficient for a premium residential entrance.
+                is not sufficient for a premium residential entrance &mdash; and
+                we offer SR4 for homeowners who want commercial-grade security
+                at home.
               </p>
             </div>
           </ScrollReveal>
@@ -475,10 +507,11 @@ export default function SecurityPage() {
               />
 
               {[
-                "20 min sustained attack resistance",
-                "Crowbars, drills, chisels & heavy tools",
-                "Highest achievable residential rating",
-                "SteelR standard on every door",
+                "SR3: 20 min sustained attack resistance",
+                "SR3: Crowbars, drills, chisels & heavy tools",
+                "SR4 (LPS 1175): Longer attack + battery cutting tools",
+                "SR4: Commercial-grade security for the home",
+                "SR3 standard on every door, SR4 available as upgrade",
               ].map((item) => (
                 <div key={item} className="flex items-start gap-3">
                   <span

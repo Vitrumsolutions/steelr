@@ -3,22 +3,22 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "PAS 24 Compliance & SR3 Security Specification | BS EN 1627 | SteelR",
+  title: "PAS 24 Compliance, SR3 Standard & SR4 (LPS 1175) Upgrade | SteelR",
   description:
-    "Every SteelR door exceeds PAS 24 with BS EN 1627 Class 3 (SR3) security and FD30S fire rating as standard. Approved Document Q compliant. Satisfies Building Safety Act 2022 for steel doors in new builds and flats.",
+    "Every SteelR residential steel front door exceeds PAS 24 with BS EN 1627 Class 3 (SR3) security and FD30S fire rating as standard. SR4 (LPS 1175 Issue 8) available as a commercial-grade upgrade. Approved Document Q compliant, Secured by Design approved.",
   alternates: { canonical: "https://steelr.co.uk/security-specification" },
   openGraph: {
-    title: "PAS 24 Compliance & SR3 Security Specification | BS EN 1627 | SteelR",
+    title: "PAS 24, SR3 Standard & SR4 (LPS 1175) Upgrade | SteelR",
     description:
-      "SteelR doors exceed UK Building Regulations with BS EN 1627 Class 3 (SR3) security and FD30S fire rating. PAS 24 compliant and Secured by Design approved.",
+      "SteelR doors exceed UK Building Regulations with SR3 security and FD30S fire rating. SR4 (LPS 1175) commercial-grade upgrade available on every residential front door.",
     url: "https://steelr.co.uk/security-specification",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PAS 24 Compliance & SR3 Security Specification | BS EN 1627 | SteelR",
+    title: "PAS 24, SR3 Standard & SR4 (LPS 1175) Upgrade | SteelR",
     description:
-      "SteelR doors exceed UK Building Regulations with BS EN 1627 Class 3 (SR3) security and FD30S fire rating. Approved Document Q compliant.",
+      "SteelR doors exceed UK Building Regulations with SR3 security and FD30S fire rating. SR4 (LPS 1175) commercial-grade upgrade available on every residential front door.",
   },
 };
 
@@ -37,37 +37,39 @@ const standards = [
     ],
   },
   {
-    tier: "Enhanced Security",
-    standard: "SR2",
-    name: "BS EN 1627 Class 2",
-    highlight: false,
-    features: [
-      "Resists experienced attacker with manual tools",
-      "Sustained crowbar and lever resistance",
-      "Heavier gauge steel frame",
-      "Preferred by insurers for high-value properties",
-      "Often specified for commercial entrance doors",
-    ],
-  },
-  {
     tier: "SteelR Standard",
     standard: "SR3",
     name: "BS EN 1627 Class 3 · FD30S",
     highlight: true,
     features: [
       "Resists sustained power-tool attack including angle grinders and drills",
-      "Highest security class available for residential entrance doors",
+      "Fitted on every residential steel front door we make",
       "FD30S fire rated — 30-minute fire and smoke resistance",
       "Intumescent seals and cold smoke brushes as standard",
       "Satisfies Approved Document Q, Part B and the Fire Safety Act 2021",
       "Secured by Design police-preferred specification",
     ],
   },
+  {
+    tier: "SteelR Upgrade",
+    standard: "SR4",
+    name: "LPS 1175 Issue 8 · Security Rating 4",
+    highlight: true,
+    features: [
+      "Commercial-grade certification rarely offered on residential doors",
+      "Longer attack duration than SR3, broader tool set",
+      "Resists battery-operated cutting tools and larger prying equipment",
+      "Loss Prevention Certification Board scheme (BRE)",
+      "Used in data centres, bank vaults and high-risk commercial premises",
+      "Available as an upgrade on every SteelR front door",
+    ],
+  },
 ];
 
 const certifications = [
   { label: "PAS 24:2022", desc: "Security Standard" },
-  { label: "SR3 Rated", desc: "BS EN 1627 Class 3" },
+  { label: "SR3 Standard", desc: "BS EN 1627 Class 3" },
+  { label: "SR4 Upgrade", desc: "LPS 1175 Issue 8" },
   { label: "FD30S", desc: "Fire & Smoke Rated" },
   { label: "Secured by Design", desc: "Police Preferred Spec" },
   { label: "ISO 9001", desc: "Certified Manufacturer" },
@@ -128,7 +130,8 @@ export default function SecuritySpecificationPage() {
             "@type": "FAQPage",
             mainEntity: [
               { "@type": "Question", name: "What is PAS 24 and why is it required?", acceptedAnswer: { "@type": "Answer", text: "PAS 24:2022 is the UK security standard for doors and windows mandated by Approved Document Q of the Building Regulations. All new-build dwellings and flats in England and Wales must have entrance doors that meet PAS 24. It tests resistance to opportunist forced entry over a 15-minute manual attack." }},
-              { "@type": "Question", name: "What is SR3 and how does it differ from PAS 24?", acceptedAnswer: { "@type": "Answer", text: "SR3 is Security Rating 3 under BS EN 1627 Class 3 — a European standard that tests resistance to sustained power-tool attack including angle grinders and drills. It far exceeds PAS 24 and is the highest security classification commercially available for residential entrance doors. Every SteelR door is SR3 rated as standard." }},
+              { "@type": "Question", name: "What is SR3 and how does it differ from PAS 24?", acceptedAnswer: { "@type": "Answer", text: "SR3 is Security Rating 3 under BS EN 1627 Class 3 — a European standard that tests resistance to sustained power-tool attack including angle grinders and drills. It far exceeds PAS 24. Every SteelR residential steel front door is SR3 rated as standard." }},
+              { "@type": "Question", name: "What is SR4 (LPS 1175) and is it available for homes?", acceptedAnswer: { "@type": "Answer", text: "SR4 is Security Rating 4 under LPS 1175 Issue 8, the Loss Prevention Certification Board scheme used for commercial security products — data centres, bank vaults and high-risk premises. SR4 exceeds SR3 in both attack duration and the tool set used during testing, including battery-operated cutting tools. SteelR offers SR4 as an upgrade on every residential front door — commercial-grade security rarely offered for the home." }},
               { "@type": "Question", name: "What does Secured by Design mean?", acceptedAnswer: { "@type": "Answer", text: "Secured by Design is the official UK police security initiative. Products carrying the Secured by Design accreditation have been independently tested and certified to the police-preferred specification for crime prevention. SteelR doors are Secured by Design approved." }},
               { "@type": "Question", name: "Are SteelR doors fire rated?", acceptedAnswer: { "@type": "Answer", text: "Yes. Every SteelR door carries FD30S certification providing 30 minutes of fire and smoke resistance as standard. FD60 (60-minute) ratings are available on request. This satisfies Approved Document B, the Fire Safety Act 2021, and the Building Safety Act 2022 for flat entrance doors." }},
               { "@type": "Question", name: "Are SteelR doors suitable for new builds and flats?", acceptedAnswer: { "@type": "Answer", text: "Yes. SteelR doors exceed Approved Document Q (PAS 24) for security and Approved Document B for fire safety. The SR3 + FD30S specification satisfies all current UK Building Regulations for new-build houses, flats, HMOs, and housing association properties. They are regularly specified by developers, architects and housing associations." }},
@@ -175,7 +178,7 @@ export default function SecuritySpecificationPage() {
               Security Standard Comparison
             </p>
             <h2 className="mb-12 text-center" style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(24px, 3.5vw, 40px)", color: "#1a1a18", lineHeight: 1.2 }}>
-              Three levels of door security
+              From building regulations to commercial-grade
             </h2>
           </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -219,7 +222,7 @@ export default function SecuritySpecificationPage() {
 
       {/* Certification Strip */}
       <section className="bg-cream ribbon-bg py-12 px-6 md:px-16">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-0">
+        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-6 gap-0">
           {certifications.map((cert, i) => (
             <ScrollReveal key={cert.label} delay={i * 0.08}>
               <div className="text-center p-6" style={{ borderRight: i < certifications.length - 1 ? "1px solid rgba(201,169,110,0.12)" : "none" }}>

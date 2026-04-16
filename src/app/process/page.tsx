@@ -7,7 +7,7 @@ import { CredentialsStrip } from "@/components/CredentialsBanner";
 export const metadata: Metadata = {
   title: "Our Process | PAS 24 Certified Steel Door Installation | SteelR",
   description:
-    "From enquiry to professional installation of PAS 24 certified, SR3 rated bespoke steel entrance doors. Secured by Design approved. Nationwide coverage, 8 to 12 week lead time.",
+    "From enquiry to professional installation of bespoke steel front doors for your home. PAS 24 certified, SR3 rated as standard with SR4 (LPS 1175) commercial-grade upgrade, Secured by Design approved. Nationwide coverage, 8 to 12 week lead time.",
   alternates: {
     canonical: "https://steelr.co.uk/process",
   },

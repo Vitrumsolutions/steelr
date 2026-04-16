@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Steel Doors with Sidelights | Bespoke Entrance Doors | SteelR",
   description:
-    "Browse our collection of bespoke steel entrance doors with sidelights. Single, double, glazed and panelled sidelight configurations. SR3 security rated with nationwide installation.",
+    "Browse our collection of bespoke steel front doors with sidelights for your home. Single, double, glazed and panelled sidelight configurations. SR3 rated as standard with SR4 (LPS 1175) upgrade available. Nationwide installation.",
   alternates: {
     canonical: "https://steelr.co.uk/collection/sidelights",
   },
