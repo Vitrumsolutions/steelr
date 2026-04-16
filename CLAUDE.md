@@ -258,6 +258,9 @@ Orientation is noted so code can handle layout correctly.
 - **Google Business Profile:** verified as "SteelR - Bespoke Steel Entrance Doors", nationwide UK, address hidden
 - **OG image:** `/public/og-image.png` (1200x630) — referenced in layout.tsx openGraph metadata
 
+## SEO Fixes Applied (16 Apr 2026)
+- **Collection page duplicate titles fixed** — 8 groups of doors (24 pages) shared identical `<title>` and H1 tags, causing GSC "Duplicate without user-selected canonical" errors. Title generation in `src/data/doors.ts` now uses context phrases from the slug (e.g. "Stone Surround", "Gable Porch", "Interior View") and secondary features to guarantee all 54 collection pages have unique titles and H1s. Deduplication pass added as safety net.
+
 ## SEO Fixes Applied (8 Apr 2026, batch 2)
 - **Area page boilerplate varied** — 2 shared paragraphs (manufacturing + customisation) now have 4 variants each, rotated by parent hub to eliminate duplicate content across 172 area pages
 - **llms.txt references uncommented** in robots.txt — AI crawlers can now discover /llms.txt and /llms-full.txt

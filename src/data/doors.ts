@@ -339,11 +339,73 @@ function parseDoor(
 
   if (features.length === 0) features.push(style + " Design");
 
-  // Generate a readable title
+  // Build a unique title by combining colour, style, primary feature, and a
+  // distinguishing context word mined from the slug.  The slug is always unique
+  // so we extract the "tail" — the part after colour-style — and look for a
+  // recognisable context word that differentiates this door from others sharing
+  // the same colour + style + primary feature.
   const titleColour = colour;
   const titleStyle = style === "Double Doors" ? "Double" : style;
   const keyFeature = features[0];
-  const title = `${titleColour} ${titleStyle} Steel Door with ${keyFeature}`;
+
+  // Slug tail: everything after the colour segment, with style words removed
+  const slugTail = parts.slice(1).join("-")
+    .replace(/\b(contemporary|traditional|ornate|panelled)\b/g, "")
+    .replace(/-+/g, "-").replace(/^-|-$/g, "");
+
+  // Map of slug keywords → readable context phrases for title disambiguation
+  const contextMap: Record<string, string> = {
+    "open": "Open View",
+    "gable": "Gable Porch",
+    "garden": "Garden Setting",
+    "driveway": "Driveway Setting",
+    "mansion": "Mansion Portico",
+    "interior": "Interior View",
+    "hallway": "Hallway View",
+    "topiary": "Topiary Setting",
+    "palms": "Palm Setting",
+    "vine": "Vine Porch",
+    "porch": "Vine Porch",
+    "canopy": "Canopy Entrance",
+    "wreath": "Arched Wreath",
+    "brick": "Brick Surround",
+    "stone": "Stone Surround",
+    "pendant": "Pendant Lantern",
+    "lantern": "Coach Lanterns",
+    "lanterns": "Coach Lanterns",
+    "dual": "Dual Sidelights",
+    "wide": "Wide Format",
+    "columns": "Column Surround",
+    "glazed": "Glazed Panels",
+    "recessed": "Recessed Escutcheon",
+    "flat": "Flat Panel",
+    "slots": "Slot Detail",
+    "checkerboard": "Checkerboard Step",
+    "circular": "Circular Fluted",
+    "letterbox": "Integrated Letterbox",
+  };
+
+  // Collect ALL matching context phrases from slug tail (ordered by specificity)
+  const contextPhrases: string[] = [];
+  for (const [keyword, phrase] of Object.entries(contextMap)) {
+    if (slugTail.includes(keyword) && phrase !== keyFeature) {
+      contextPhrases.push(phrase);
+    }
+  }
+
+  // Also collect secondary features (features[1], features[2], ...) that differ from primary
+  const secondaryFeatures = features.slice(1);
+
+  // Build title: use context phrase first, secondary feature as fallback.
+  // Store extras for deduplication pass below.
+  let title: string;
+  if (contextPhrases.length > 0) {
+    title = `${titleColour} ${titleStyle} Steel Door with ${keyFeature} — ${contextPhrases[0]}`;
+  } else if (secondaryFeatures.length > 0) {
+    title = `${titleColour} ${titleStyle} Steel Door with ${keyFeature} & ${secondaryFeatures[0]}`;
+  } else {
+    title = `${titleColour} ${titleStyle} Steel Door with ${keyFeature}`;
+  }
 
   // Generate SEO description
   const featureList = features.slice(0, 3).join(", ").toLowerCase();
@@ -411,6 +473,29 @@ export const doors: Door[] = [
   { src: "/images/gallery/steelr-black-panelled-chrome-sidelights-interior.jpeg", alt: "Black panelled steel door with chrome handle and sidelights interior view", style: "Contemporary" },
   { src: "/images/gallery/steelr-white-panelled-sidelights-hallway.jpg", alt: "White panelled steel door with sidelights in hallway", style: "Contemporary" },
 ].map((d) => parseDoor(d.src, d.alt, d.style as Door["style"]));
+
+// Deduplication pass: if any doors still share a title after parseDoor,
+// append a secondary feature or slug-based suffix to make them unique.
+(function deduplicateTitles() {
+  const seen = new Map<string, number>();
+  for (const door of doors) {
+    const count = (seen.get(door.title) ?? 0) + 1;
+    seen.set(door.title, count);
+    if (count > 1) {
+      // Find a distinguishing secondary feature or slug fragment
+      const extra = door.features.find(f => !door.title.includes(f));
+      if (extra) {
+        door.title = door.title.includes("—")
+          ? `${door.title} & ${extra}`
+          : `${door.title} — ${extra}`;
+      } else {
+        // Last resort: use a readable slug fragment
+        const slugWords = door.slug.split("-").slice(-2).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+        door.title = `${door.title} — ${slugWords}`;
+      }
+    }
+  }
+})();
 
 export function getDoorBySlug(slug: string): Door | undefined {
   return doors.find((d) => d.slug === slug);
