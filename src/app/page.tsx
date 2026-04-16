@@ -227,7 +227,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 text-center md:text-left">
           {[
             { num: "10", label: "Year Warranty", sub: "On all steel entrance doors" },
-            { num: "SR3", label: "Security Rated", sub: "Highest residential standard" },
+            { num: "SR3/4", label: "Security Rated", sub: "Commercial-grade security" },
             { num: "100%", label: "UK Manufactured", sub: "ISO 9001 certified facility" },
           ].map((item) => (
             <ScrollReveal key={item.num}>
@@ -316,7 +316,7 @@ export default function Home() {
                   color: "#6b5a42",
                 }}
               >
-                Every SteelR door is manufactured to SR3 high security standards
+                Every Steelr door is manufactured to SR3 high security standards, with SR4 (LPS 1175) available as an upgrade — a commercial-grade security level rarely offered on residential doors.
                 in the United Kingdom. We work with homeowners, architects and
                 developers who understand that the entrance to a home should be
                 both beautiful and impenetrable.

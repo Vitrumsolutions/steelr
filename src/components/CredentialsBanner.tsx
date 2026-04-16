@@ -3,7 +3,8 @@ import ScrollReveal from "./ScrollReveal";
 
 const credentials = [
   "PAS 24 Certified",
-  "SR3 Security Rated",
+  "SR3 & SR4 Rated",
+  "LPS 1175 Tested",
   "Secured by Design",
   "FD30S Fire Rated",
   "ISO 9001 Certified",
@@ -84,7 +85,7 @@ export function CertificationCallout() {
                 lineHeight: 1.15,
               }}
             >
-              PAS 24 certified. SR3 rated.
+              PAS 24 certified. SR3 & SR4 rated.
               <br />
               Secured by Design approved.
             </h2>
@@ -97,11 +98,12 @@ export function CertificationCallout() {
                 color: "#6b5a42",
               }}
             >
-              Every SteelR entrance door exceeds the PAS 24 security standard
+              Every Steelr entrance door exceeds the PAS 24 security standard
               mandated by Approved Document Q for all new-build dwellings. Our
-              doors are independently tested to SR3 — the highest security
-              classification available for residential entrance doors — and carry
-              FD30S fire and smoke certification as standard.
+              doors are independently tested to SR3 as standard, with SR4 (LPS 1175)
+              available as an upgrade — a commercial-grade security level rarely
+              offered on residential doors in the UK. All doors carry FD30S fire
+              and smoke certification as standard.
             </p>
             <Link
               href="/security-specification"
@@ -121,8 +123,8 @@ export function CertificationCallout() {
         <ScrollReveal direction="right">
           <div className="grid grid-cols-2 gap-4">
             {[
+              { label: "SR3 & SR4", sub: "BS EN 1627 / LPS 1175" },
               { label: "PAS 24:2022", sub: "Approved Document Q" },
-              { label: "SR3", sub: "BS EN 1627 Class 3" },
               { label: "FD30S", sub: "Fire & Smoke Rated" },
               { label: "Secured by Design", sub: "Police Preferred Spec" },
             ].map((cert) => (
