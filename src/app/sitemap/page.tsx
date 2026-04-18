@@ -42,6 +42,19 @@ const mainPages: Array<{ href: string; label: string }> = [
   { href: "/terms", label: "Terms and Conditions" },
 ];
 
+const topicPages: Array<{ href: string; label: string }> = [
+  { href: "/bespoke-steel-front-doors-uk", label: "Bespoke Steel Front Doors UK (hub)" },
+  { href: "/sr3-residential-steel-door", label: "SR3 Residential Steel Doors" },
+  { href: "/pas-24-steel-entrance-door", label: "PAS 24 Steel Entrance Doors" },
+  { href: "/secured-by-design-steel-front-door", label: "Secured by Design Steel Front Doors" },
+  { href: "/thermally-broken-steel-front-door", label: "Thermally Broken Steel Front Doors" },
+  { href: "/fire-rated-fd30-front-door", label: "Fire Rated FD30 Front Doors" },
+  { href: "/steel-front-door-vs-composite", label: "Steel vs Composite Front Doors" },
+  { href: "/uk-steel-doors-vs-imported", label: "UK-Made vs Imported Steel Doors" },
+  { href: "/luxury-steel-entrance-door-london", label: "Luxury Steel Entrance Doors London" },
+  { href: "/steel-front-door-cost-uk", label: "How Steel Front Door Pricing Works" },
+];
+
 export default function SitemapPage() {
   // Reshape location data: hub -> children mapping, preserving input order
   const hubs = getHubLocations();
@@ -157,10 +170,50 @@ export default function SitemapPage() {
         </div>
       </section>
 
-      {/* Collection */}
+      {/* Topic pages */}
       <section
         style={{ background: "#ede8df" }}
         className="ribbon-bg py-12 md:py-16 px-6 md:px-16"
+      >
+        <div className="max-w-5xl mx-auto">
+          <ScrollReveal>
+            <h2
+              className="mb-8"
+              style={{
+                fontFamily: displayFont,
+                fontWeight: 300,
+                fontSize: "clamp(22px, 2.5vw, 30px)",
+                color: "#1a1a18",
+              }}
+            >
+              Topic and comparison pages
+            </h2>
+          </ScrollReveal>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-3">
+            {topicPages.map((p) => (
+              <li key={p.href}>
+                <Link
+                  href={p.href}
+                  className="link-gold-underline"
+                  style={{
+                    fontFamily: bodyFont,
+                    fontWeight: 300,
+                    fontSize: 14,
+                    color: "#1a1a18",
+                    lineHeight: 1.6,
+                  }}
+                >
+                  {p.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Collection */}
+      <section
+        className="bg-cream ribbon-bg py-12 md:py-16 px-6 md:px-16"
       >
         <div className="max-w-5xl mx-auto">
           <ScrollReveal>
@@ -199,7 +252,10 @@ export default function SitemapPage() {
       </section>
 
       {/* Areas (grouped by hub) */}
-      <section className="bg-cream ribbon-bg py-12 md:py-16 px-6 md:px-16">
+      <section
+        style={{ background: "#ede8df" }}
+        className="ribbon-bg py-12 md:py-16 px-6 md:px-16"
+      >
         <div className="max-w-5xl mx-auto">
           <ScrollReveal>
             <h2
@@ -293,10 +349,7 @@ export default function SitemapPage() {
       </section>
 
       {/* Blog posts */}
-      <section
-        style={{ background: "#ede8df" }}
-        className="ribbon-bg py-12 md:py-16 px-6 md:px-16"
-      >
+      <section className="bg-cream ribbon-bg py-12 md:py-16 px-6 md:px-16">
         <div className="max-w-5xl mx-auto">
           <ScrollReveal>
             <h2

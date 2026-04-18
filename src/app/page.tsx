@@ -345,7 +345,10 @@ export default function Home() {
                 <Link href="/areas/london" className="link-gold-underline">London</Link>,{" "}
                 <Link href="/areas/surrey" className="link-gold-underline">Surrey</Link>,{" "}
                 <Link href="/areas/buckinghamshire" className="link-gold-underline">Buckinghamshire</Link>{" "}
-                and <Link href="/areas" className="link-gold-underline">throughout the UK</Link>.
+                and <Link href="/areas" className="link-gold-underline">throughout the UK</Link>. Start with our{" "}
+                <Link href="/bespoke-steel-front-doors-uk" className="link-gold-underline">bespoke steel front doors hub</Link>{" "}
+                or see how{" "}
+                <Link href="/steel-front-door-cost-uk" className="link-gold-underline">steel front door pricing works</Link>.
               </p>
             </div>
           </ScrollReveal>
