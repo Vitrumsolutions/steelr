@@ -67,13 +67,28 @@ SteelR doors are bespoke and individually priced based on specification. There a
 - [Door Collection](https://steelr.co.uk/collection)
 - [About SteelR](https://steelr.co.uk/about)
 - [Our Process](https://steelr.co.uk/process)
-- [Security Specification](https://steelr.co.uk/security-specification)
-- [Fire Rated Doors](https://steelr.co.uk/fire-rated-doors)
+- [Security and Certifications](https://steelr.co.uk/security)
+- [Security Specification (PAS 24, SR3, SR4)](https://steelr.co.uk/security-specification)
+- [Fire Rated Steel Doors for Developers and Architects](https://steelr.co.uk/fire-rated-doors)
 - [RAL Colours](https://steelr.co.uk/colours)
 - [Areas We Serve](https://steelr.co.uk/areas)
 - [Blog](https://steelr.co.uk/blog)
 - [Contact](https://steelr.co.uk/contact)
-- [Design & Estimate](https://steelr.co.uk/design-estimate)
+- [Design and Estimate](https://steelr.co.uk/design-estimate)
+- [Full HTML Sitemap](https://steelr.co.uk/sitemap)
+
+## Topic and Comparison Guides
+
+- [Bespoke Steel Front Doors UK (hub)](https://steelr.co.uk/bespoke-steel-front-doors-uk) — Central hub explaining what bespoke means on a steel front door, how a SteelR project runs, certifications on every door, nationwide coverage.
+- [SR3 Residential Steel Doors](https://steelr.co.uk/sr3-residential-steel-door) — BS EN 1627 Class 3 explained, twenty-minute attack test methodology, how SR3 compares with PAS 24 and SR4.
+- [PAS 24 Steel Entrance Doors](https://steelr.co.uk/pas-24-steel-entrance-door) — Approved Document Q compliance, what PAS 24:2022 tests, why it is the floor not the ceiling.
+- [Secured by Design Steel Front Doors](https://steelr.co.uk/secured-by-design-steel-front-door) — UK police-preferred specification explained, scope of SBD approval, insurance recognition.
+- [Thermally Broken Steel Front Doors](https://steelr.co.uk/thermally-broken-steel-front-door) — What a thermal break is, why budget steel doors condense, U-values achievable on correctly engineered doors.
+- [Fire Rated FD30 Front Doors](https://steelr.co.uk/fire-rated-fd30-front-door) — FD30, FD30S, FD60 explained for homes, flats, HMOs and new builds.
+- [Steel Front Door vs Composite](https://steelr.co.uk/steel-front-door-vs-composite) — Honest side-by-side on security, longevity, thermal performance, fire rating, aesthetics and cost of ownership.
+- [UK-Made vs Imported Steel Doors](https://steelr.co.uk/uk-steel-doors-vs-imported) — Lead time, aftercare, warranty enforcement and structural suitability differences.
+- [Luxury Steel Entrance Doors London](https://steelr.co.uk/luxury-steel-entrance-door-london) — London borough coverage, conservation area planning, central London access and security tier for high-value properties.
+- [How Steel Front Door Pricing Works](https://steelr.co.uk/steel-front-door-cost-uk) — The factors that actually move the number on a bespoke steel front door.
 - [Steel Doors for Conservation Areas: Planning Permission and Design Guide](https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide)
 - [How Much Do Steel Entrance Doors Cost in the UK? 2026 Price Guide](https://steelr.co.uk/blog/how-much-do-steel-doors-cost-uk)
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
