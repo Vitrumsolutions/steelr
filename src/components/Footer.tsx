@@ -77,6 +77,7 @@ export default function Footer() {
         {/* Legal links */}
         <div className="flex items-center gap-6 mb-4">
           {[
+            { href: "/sitemap", label: "Sitemap" },
             { href: "/privacy", label: "Privacy Policy" },
             { href: "/terms", label: "Terms & Conditions" },
           ].map((link) => (
