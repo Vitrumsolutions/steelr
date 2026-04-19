@@ -41,8 +41,9 @@
 - **Navigation:** Collection · Areas · About · Process · Blog · Get Estimate · Contact
 - **Phone:** 0800 861 1450
 - **CTA:** "Request a Consultation"
-- **Total static pages:** ~330 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, 54 collection items, 45 blog posts, 172 area pages)
-- **Sitemap:** 286 URLs at `/sitemap.xml`
+- **Total static pages:** ~341 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 54 collection items, 45 blog posts, 172 area pages, 10 Phase 1D topic pages)
+- **Sitemap:** 297 URLs at `/sitemap.xml` (was 286, added 10 Phase 1D topic pages + /sitemap HTML page on 18 Apr 2026)
+- **HTML sitemap:** `/sitemap` (new 18 Apr 2026) — visible page linked from footer, lists every URL on the site
 - **Google Maps embed** on contact page (business name pin, no street address shown)
 
 ## Image Manifest
@@ -146,11 +147,29 @@ Orientation is noted so code can handle layout correctly.
 
 ## New Pages (added Apr 2026)
 - `/colours` — RAL colour options, dual-colour, hardware finishes, door colour gallery
-- `/security` — SR3/PAS24/Secured by Design certifications, FAQ schema, security ratings comparison
-- `/security-specification` — PAS 24 compliance page with 3-column standard comparison (PAS24/SR2/SR3), certification strip, regulatory compliance explainer (Doc Q, Part B, Fire Safety Act, Building Safety Act)
+- `/security` — SR3/SR4/PAS24/Secured by Design certifications, FAQ schema, security ratings comparison. SR4 (LPS 1175) tier card added 18 Apr 2026.
+- `/security-specification` — PAS 24 compliance page. Restructured 18 Apr 2026 to three-column PAS 24 / SR3 standard / SR4 (LPS 1175) upgrade comparison. Certification strip now 6 items. FAQ schema updated with SR4 question.
 - `/fire-rated-doors` — FD30/FD60 fire rated doors for flats, new builds, HMOs, housing associations, developers
-- `/design-estimate` — 4-step multi-step form (project type → door spec → site details → contact). Submits via `/api/estimate` to info@supplywindows.co.uk via Resend
+- `/design-estimate` — 4-step multi-step form (project type → door spec → site details → contact). Submits via `/api/estimate` to info@supplywindows.co.uk via Resend. Security options updated 18 Apr 2026 to include SR4 / LPS 1175.
 - `/collection/sidelights` — Filtered collection view showing doors with sidelights
+- `/sitemap` (18 Apr 2026) — HTML sitemap listing every URL on the site, grouped by section (main pages, topic pages, collection doors, area pages by hub, blog). Footer-linked.
+
+## Topic and Comparison Pages (Phase 1D, 18 Apr 2026)
+
+Ten top-level SEO content pages, each 1,261–1,543 body words, built using the shared `<InfoPage>` component at `src/components/InfoPage.tsx`. Every page carries BreadcrumbList + FAQPage JSON-LD and links back to the hub + 2-3 related pages.
+
+- `/bespoke-steel-front-doors-uk` — Central hub (sitemap priority 0.9)
+- `/sr3-residential-steel-door` — BS EN 1627 Class 3 explained
+- `/pas-24-steel-entrance-door` — Approved Document Q compliance
+- `/secured-by-design-steel-front-door` — UK police-preferred specification
+- `/thermally-broken-steel-front-door` — U-values and condensation
+- `/fire-rated-fd30-front-door` — FD30/FD30S/FD60 for homes, flats, HMOs
+- `/steel-front-door-vs-composite` — Honest side-by-side comparison
+- `/uk-steel-doors-vs-imported` — Competitor named by category only, per brand policy
+- `/luxury-steel-entrance-door-london` — London borough coverage + conservation
+- `/steel-front-door-cost-uk` — No displayed prices, per brand policy. Factor breakdown only.
+
+All 10 URLs submitted via sitemap, Indexing API, and 4 of 10 priority-crawl-pushed via URL Inspection on 18 Apr 2026 (/bespoke-steel-front-doors-uk, /sr3-residential-steel-door, /steel-front-door-vs-composite, /thermally-broken-steel-front-door, /pas-24-steel-entrance-door). 6 remaining in queue for next daily quota refresh.
 
 ## Contact Form & Email
 - **Form:** `/contact` page → `/api/contact` route → Resend API → info@supplywindows.co.uk
@@ -179,37 +198,62 @@ Orientation is noted so code can handle layout correctly.
 
 ## Google Search Console
 - **Property:** sc-domain:steelr.co.uk (owner: info@supplywindows.co.uk)
-- **Indexed pages:** 41 (GSC report as of 06/04, actual is higher — report stale)
-- **Total known:** 258 pages (sitemap)
-- **Indexing API:** All 259 URLs submitted, queue empty. Runs daily at 07:30 via Windows Task Scheduler (SteelrGSCIndexer)
-- **URL Inspection pushes:** ~10 pages pushed to priority crawl queue (13 Apr)
+- **Total known URLs in sitemap:** 297 (as of 18 Apr 2026)
+- **Indexed pages:** 54 (Page Indexing report as of 13/04, stale — will refresh over next 1-3 days after today's sitemap resubmit + priority pushes)
+- **Not indexed:** 4 pages, all benign (2 HTTP-to-HTTPS redirects by design, 1 duplicate-without-canonical, 1 alternative-page-with-proper-canonical). Zero real indexing blockers.
+- **Sitemap:** resubmitted in GSC on 18 Apr 2026, Google immediately confirmed 286 → 297 URLs discovered
+- **Indexing API:** All 297 URLs submitted, queue empty (parity achieved 18 Apr 2026). Runs daily at 07:30 via Windows Task Scheduler (SteelrGSCIndexer)
+- **URL Inspection pushes (cumulative, 18 Apr 2026):** 13 URLs pushed to priority crawl queue today: `/`, `/security`, `/bespoke-steel-front-doors-uk`, `/security-specification`, `/sr3-residential-steel-door`, `/steel-front-door-vs-composite`, `/fire-rated-doors`, `/about`, `/collection`, `/areas/london`, `/thermally-broken-steel-front-door`, `/pas-24-steel-entrance-door`. Daily URL Inspection quota exhausted, refreshes at 00:00 PST / 08:00 UK.
+- **URL Inspection queue for next quota refresh (8 URLs):** `/secured-by-design-steel-front-door`, `/fire-rated-fd30-front-door`, `/luxury-steel-entrance-door-london`, `/steel-front-door-cost-uk`, `/areas/buckinghamshire`, `/areas/surrey`, `/uk-steel-doors-vs-imported`, `/process`
 - **Service account:** gsc-indexer-steelr@steelr-indexing.iam.gserviceaccount.com
 - **Tracker:** vitrums/audit-data/gsc-indexing-tracker-steelr.json
+- **Sitemap submission script:** vitrums/audit-data/submit_sitemap_steelr.py — blocked by "Search Console API not enabled" in GCP project steelr-indexing. Enable at https://console.developers.google.com/apis/api/searchconsole.googleapis.com/overview?project=340908689525 to make rerun-able. Not urgent — sitemap resubmit via GSC UI works fine.
 - **Product snippet error:** "Missing field price in offers" — fixed (removed offers block from collection pages), VALIDATE FIX triggered in GSC
 
-### Current Rankings (13 Apr 2026)
+### Current Rankings (13 Apr 2026, pre-SR4 rollout — next Serper run will refresh)
 | Keyword | Organic | Maps |
 |---------|---------|------|
 | steel doors Buckinghamshire | #2 | #1 |
 | steel doors Surrey | - | #10 |
 | steel doors Kensington | #6 | - |
 
+Next run recommended after 21 Apr 2026 to measure impact of:
+- SR4 (LPS 1175) positioning rollout across site
+- 10 new Phase 1D topic pages
+- llms.txt authority overhaul
+- 13 priority URL Inspection crawls
+- Sitemap resubmit
+
 ## Google Business Profile
 - **Name:** Steelr Bespoke Steel Entrance Doors
 - **Status:** Verified
 - **Address:** 11 Silverbirch Close, Uxbridge UB10 8AP (visible to customers)
 - **Service areas:** 16 targeted areas (Surrey, Kent, Essex, Berkshire, Oxfordshire, Hampshire, East/West Sussex, Hertfordshire, Buckinghamshire, Greater London, Cheshire, West Yorkshire, West Midlands, Somerset, Edinburgh)
-- **Posts:** 5 total (2 published, 3 scheduled: 12 Apr, 15 Apr, 18 Apr)
-- **Services:** 8 listed (Custom doors, Delivery, Door design, General repairs & installation, Bespoke Steel Entrance Doors, PAS 24 Certified Security Doors, FD30 Fire Rated Steel Doors, Secured by Design Approved Doors)
-- **Reviews:** 0 — customer review request template in MARKETING-COPY.md
+- **Posts:** 5 total (2 published, 3 scheduled for 12 Apr, 15 Apr, 18 Apr). **AUDIT PENDING 19 Apr+** — verify scheduled posts actually published on their dates (GBP silently drops scheduled posts sometimes). Plan next batch of posts after audit.
+- **Services:** 8 listed (Custom doors, Delivery, Door design, General repairs & installation, Bespoke Steel Entrance Doors, PAS 24 Certified Security Doors, FD30 Fire Rated Steel Doors, Secured by Design Approved Doors). **UPDATE PENDING** — add "SR4 / LPS 1175 Commercial-Grade Security Doors" as a 9th service now that positioning is live.
+- **Reviews:** 0 — customer review request template in MARKETING-COPY.md. **Reviews outreach is the #1 blocker to Maps 3-pack ranking.** Not yet actively running. Priority parallel track to plan alongside Bing setup.
 
 ## AI Search Visibility
-- **llms.txt:** Live at steelr.co.uk/llms.txt — business brief, areas, pricing, credentials
-- **llms-full.txt:** Live at steelr.co.uk/llms-full.txt — 937+ lines, 45 blog summaries, FAQs, comparison tables, 172 area URLs
-- **llms.txt:** 45 blog links listed (all posts)
+- **llms.txt:** Live at steelr.co.uk/llms.txt — 239 lines, 21,234 bytes (as of 18 Apr 2026, was 136 lines before today's authority overhaul)
+- **llms-full.txt:** Live at steelr.co.uk/llms-full.txt — 1,231 lines, 93,987 bytes (was 1,005 lines before today's overhaul)
+- **Authority positioning overhaul (18 Apr 2026, commit `d9ba5da`):** Six new sections on both files to win AI citation on core category queries:
+  1. Opening sentence strengthened: "the UK specialist, manufacturer and installer"
+  2. "Why SteelR is the UK Specialist" category authority block
+  3. "Specifications Rare in the UK Residential Steel Door Market" (8 competitive anchors)
+  4. "Technical Glossary: UK Steel Door Standards" (definitional paragraphs for SR3, SR4, PAS 24, SBD, FD30, FD30S, FD60, LPS 1175, BS EN 1627, Approved Doc Q, Approved Doc B, Building Safety Act, Fire Safety Act, UKAS, LPCB, ISO 9001)
+  5. "Technical Specifications" (verifiable numbers: leaf thickness, steel gauge, U-values, acoustic, wind/water ratings)
+  6. "Entity Reference for AI Systems" (explicit query-to-brand mapping for 30+ queries)
+- **Topic pages section:** Both llms files list the 10 Phase 1D topic URLs with extractable summaries for AI citation (commit `54584a6`, 18 Apr 2026)
 - **ChatGPT:** Steelr showing for "best bespoke steel front door companies UK"
-- **Perplexity:** Not yet picking up (needs more crawl time)
-- **Auto-update:** llms.txt updated on every blog publish
+- **Perplexity:** Not yet picking up as of 18 Apr (authority overhaul just deployed — expect 48-72 hour lag)
+- **Auto-update:** llms.txt updated on every blog publish (does NOT currently auto-update for new topic pages or llms-full.txt — add to publish-post.mjs if expanding topic pages later)
+
+### House Style for AI and Brand Copy (strict)
+- **No em dashes or en dashes** in captions, copy, posts, blog, llms files, or any brand output. Use full stops, commas, semicolons.
+- **No exclamation marks** anywhere in SteelR copy. Premium understated tone.
+- **Never use:** "affordable", "cheap", "best prices", "discount". Brand is premium.
+- **No displayed prices** on cost pages or Product schema with offers block (triggers GSC errors and conflicts with bespoke pricing model). `$$$$` priceRange in schema.org is acceptable (category indicator, not a number).
+- **No competitor names in URLs or H1s.** "UK-made vs imported" not "SteelR vs Gerda". Category references in body copy are fine if factual.
 
 ## Competitor Analysis (completed)
 - **Top competitors:** Latham's (195 reviews, 4.9★), Strongdor, Gerda, Modern Doors, Bespoke Steel Doors, Fort Premium, Deuren, Crittall
@@ -258,6 +302,31 @@ Orientation is noted so code can handle layout correctly.
 - **Google Business Profile:** verified as "SteelR - Bespoke Steel Entrance Doors", nationwide UK, address hidden
 - **OG image:** `/public/og-image.png` (1200x630) — referenced in layout.tsx openGraph metadata
 
+## SEO Fixes Applied (18 Apr 2026)
+
+Major session. Five commits, all live:
+
+- **`2c5a067` SR4 (LPS 1175) positioning rollout, site-wide** — Layout, homepage, /security, /security-specification, /fire-rated-doors, /about, /process, /collection, /collection/sidelights, /areas/[slug], /design-estimate, Hero, CredentialsBanner, email_outreach.py, llms.txt, llms-full.txt all updated with "SR3 as standard, SR4 (LPS 1175) commercial-grade upgrade" positioning. Area page credentials strip now shows "SR3 Standard & SR4 (LPS 1175) Available" on all 172 pages.
+- **`9d5b908` Phase 1B indexation fixes** — /process expanded 186→791 words (new aftercare/warranty block, updated HowTo schema). /contact expanded 142→770 words (consultation promise, regional link list, 3-step what-happens-next, 5-question FAQ with FAQPage schema). /about schema deduplicated (Organization-referenced AboutPage replaces duplicate HomeAndConstructionBusiness). New /sitemap HTML page (1,296 words of linked navigation), footer-linked. /sitemap added to sitemap.xml.
+- **`4eb3a3f` Phase 1D: 10 SEO topic pages** — 13,464 body words of topic authority via shared `<InfoPage>` component. See "Topic and Comparison Pages" section above for the full list.
+- **`54584a6` llms.txt + llms-full.txt: 10 topic pages surfaced** — Topic and Comparison Guides section added to both files with extractable paragraph summaries for each of the 10 pages.
+- **`d9ba5da` llms.txt + llms-full.txt: AI authority positioning overhaul** — Six new sections (category authority, rare specs, technical glossary, technical specs, entity reference, opening strengthen). llms.txt 136→239 lines, llms-full.txt 1,005→1,231 lines.
+
+Also shipped without code commit:
+- **Sitemap resubmitted in GSC** via Chrome UI. Google immediately re-read, confirmed 286→297 URLs discovered.
+- **13 URL Inspection priority crawl pushes** (daily quota exhausted, see GSC section for full list).
+- **Indexing API parity achieved** — all 297 sitemap URLs now submitted (was 284/297, 13 URLs force-pushed via submit_indexing.py after populating queue).
+
+### Pending Next Steps (planned 19 Apr 2026+)
+
+1. **Clear URL Inspection queue (8 URLs)** — after 08:00 UK when daily GSC quota refreshes
+2. **Google Business Profile audit** — verify 12/15/18 Apr scheduled posts actually published; add "SR4 / LPS 1175" as 9th service
+3. **Bing Webmaster Tools setup from scratch** — create property, verify, submit sitemap, enable IndexNow API. ChatGPT Search uses Bing's index so this matters for AI visibility. No existing setup.
+4. **Reviews outreach campaign** — 0 reviews is the #1 blocker to Maps 3-pack. Template exists in MARKETING-COPY.md. Parallel track to Bing.
+5. **Social media pipeline (Phase 2)** — multi-day build per earlier brief. Python + Pillow + FFmpeg + OpenAI TTS. 60-90 posts across IG/Pinterest/TikTok/Shorts/LinkedIn. Brand kit first, then static posts, then Ken Burns Reels, then TTS voiceover.
+6. **Next Serper rank check** — recommended after 21 Apr to measure SR4 rollout impact
+7. **Monitor GSC Page Indexing refresh** — expect jump from 54 → 150-200 indexed inside a week as Google processes today's sitemap resubmit + priority crawls
+
 ## SEO Fixes Applied (16 Apr 2026)
 - **Collection page duplicate titles fixed** — 8 groups of doors (24 pages) shared identical `<title>` and H1 tags, causing GSC "Duplicate without user-selected canonical" errors. Title generation in `src/data/doors.ts` now uses context phrases from the slug (e.g. "Stone Surround", "Gable Porch", "Interior View") and secondary features to guarantee all 54 collection pages have unique titles and H1s. Deduplication pass added as safety net.
 
@@ -283,7 +352,8 @@ Orientation is noted so code can handle layout correctly.
 - **172 location pages** for local SEO — unique descriptions referencing local architecture and neighbourhoods
 - Hub pages list all child areas in schema.org `areaServed`
 - Area pages cross-link to 3–5 nearby areas + parent hub
-- Sitemap at `/sitemap.xml` with 258 URLs, resubmitted to Google Search Console (6 Apr 2026)
+- Sitemap at `/sitemap.xml` with 297 URLs, most recently resubmitted to Google Search Console (18 Apr 2026)
+- HTML sitemap at `/sitemap` (18 Apr 2026) linked from footer, mirrors the XML feed in human-readable form
 - Product schema on collection door pages (offers block REMOVED — was causing GSC errors)
 - HowTo schema on process page
 - FAQ schema on all 172 area pages + security page + security-specification page
