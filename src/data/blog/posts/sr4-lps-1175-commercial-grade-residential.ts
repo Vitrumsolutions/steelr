@@ -107,22 +107,28 @@ We chose to make SR4 available on every residential front door rather than restr
 
 ## Frequently Asked Questions
 
-**Does SR4 void the SR3 or PAS 24 certification?**
+### Does SR4 void the SR3 or PAS 24 certification?
+
 No. A door specified with the SR4 upgrade is still PAS 24 certified, SR3 rated under BS EN 1627, Secured by Design approved and FD30S fire rated. SR4 is an additional certification layered on top of the baseline specification, not a replacement for it. You receive certificates for every standard the door meets.
 
-**Do UK insurers recognise SR4 under LPS 1175?**
+### Do UK insurers recognise SR4 under LPS 1175?
+
 Yes, increasingly. Specialist high-value home insurers explicitly reference LPS 1175 ratings in their policy language. Mainstream insurers will usually accept SR4 as evidence of security performance equivalent to or exceeding their minimum door specification. Always confirm with your specific insurer at policy renewal, referencing the LPS 1175 certificate supplied with the door.
 
-**What is the lead time for an SR4-upgraded door?**
+### What is the lead time for an SR4-upgraded door?
+
 Standard lead time for any SteelR door is eight to twelve weeks from first enquiry to installation. The SR4 upgrade does not change the lead time. Manufacture takes six to eight weeks regardless of specification tier.
 
-**Can a fire-rated door also be SR4?**
+### Can a fire-rated door also be SR4?
+
 Yes. FD30S fire and smoke rating is standard on every SteelR door and applies to SR4-upgraded doors equally. FD60 is available as a further upgrade if the application requires sixty-minute fire integrity. All three certifications can apply to the same door assembly simultaneously.
 
-**Is SR4 overkill for a typical UK home?**
+### Is SR4 overkill for a typical UK home?
+
 For most UK homes, yes. SR3 as standard provides a level of security that significantly exceeds the threat profile most residential properties face. SR4 becomes relevant specifically for the four categories listed earlier in this article: high-value properties, isolated locations, insurance-flagged risk profiles and owners who want the commercial specification for its own sake. If you are not in any of those categories, staying with SR3 is a sensible, considered choice.
 
-**How is SR4 documented after installation?**
+### How is SR4 documented after installation?
+
 The LPS 1175 certificate is supplied in the handover pack along with your PAS 24 and SBD certificates. The certification is registered against your address and kept on file in our UK facility. If future owners or insurers need to verify the specification, we can supply replacement certificates on request.
 
 ## The Bottom Line

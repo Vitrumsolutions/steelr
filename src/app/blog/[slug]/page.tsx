@@ -141,23 +141,39 @@ export default async function BlogPostPage({ params }: Props) {
     );
   });
 
-  // Extract FAQ pairs from content (## Frequently Asked Questions → ### Question → answer)
+  // Extract FAQ pairs from content. Supports two author formats inside the
+  // "## Frequently Asked Questions" section:
+  //   A) ### Question?\n\nAnswer paragraph
+  //   B) **Question?**\nAnswer paragraph
   const faqs: { question: string; answer: string }[] = [];
   const faqSplit = post.content.split("## Frequently Asked Questions");
   if (faqSplit.length > 1) {
-    const faqBlocks = faqSplit[1].split("\n\n").filter((b) => b.trim());
-    for (let i = 0; i < faqBlocks.length; i++) {
-      if (faqBlocks[i].startsWith("### ")) {
-        const question = faqBlocks[i].replace("### ", "").trim();
-        const answer = faqBlocks[i + 1]
-          ? faqBlocks[i + 1]
-              .replace(/\*\*(.*?)\*\*/g, "$1")
-              .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
-              .trim()
-          : "";
-        if (question && answer) {
-          faqs.push({ question, answer });
-        }
+    // Stop at the next H2 so trailing sections aren't parsed as FAQs.
+    const nextH2 = faqSplit[1].search(/\n##\s/);
+    const faqSection = nextH2 >= 0 ? faqSplit[1].slice(0, nextH2) : faqSplit[1];
+
+    const cleanAnswer = (s: string) =>
+      s
+        .replace(/\*\*(.*?)\*\*/g, "$1")
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
+        .trim();
+
+    // Pattern A: ### Question?\n\nAnswer
+    const h3Regex = /^###\s+([^\n]+\?)\s*\n+([\s\S]*?)(?=\n###\s|\n##\s|$)/gm;
+    let m: RegExpExecArray | null;
+    while ((m = h3Regex.exec(faqSection)) !== null) {
+      const question = m[1].trim();
+      const answer = cleanAnswer(m[2]);
+      if (question && answer) faqs.push({ question, answer });
+    }
+
+    if (faqs.length === 0) {
+      // Pattern B: **Question?**\nAnswer
+      const boldRegex = /\*\*([^*]+\?)\*\*\s*\n([\s\S]*?)(?=\n\s*\*\*[^*]+\?\*\*|\n##|$)/g;
+      while ((m = boldRegex.exec(faqSection)) !== null) {
+        const question = m[1].trim();
+        const answer = cleanAnswer(m[2]);
+        if (question && answer) faqs.push({ question, answer });
       }
     }
   }
