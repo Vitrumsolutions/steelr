@@ -363,6 +363,26 @@ Pattern that works consistently:
 
 Typing while the form is still blank causes the text to go nowhere — always wait for the full render before interacting.
 
+## Bing Webmaster Tools + IndexNow (19 Apr 2026, commit `4f2ba75`)
+
+Bing Webmaster Tools property created for steelr.co.uk by importing from Google Search Console. No separate DNS or meta-tag verification needed — GSC import inherits verification status. Microsoft account: info@supplywindows.co.uk (same account as Vitrums BWT).
+
+### Sitemap
+- **Submitted:** https://steelr.co.uk/sitemap.xml (manual submit via BWT UI; GSC import only pulls property list, not sitemaps)
+- **Status at submit time:** Processing
+- **Check later:** Sitemaps tab in BWT for URL discovery count (should match or approach 297)
+
+### IndexNow protocol live
+- **Key:** `ddec116ea2aa00b39d11cca95f17bb9a` (self-generated, 32-char hex)
+- **Key file:** `public/ddec116ea2aa00b39d11cca95f17bb9a.txt` → served at https://steelr.co.uk/ddec116ea2aa00b39d11cca95f17bb9a.txt (200 OK, contains the key)
+- **Endpoint:** https://api.indexnow.org/IndexNow (propagates to Bing, Yandex, Seznam, Naver)
+- **Script:** `vitrums/audit-data/indexnow_steelr.py`
+- **First push (19 Apr 2026):** 30 priority URLs submitted, HTTP 202 Accepted. Covers homepage, all 10 Phase 1D topic pages, key product/info pages, SR4 blog, 8 regional hub area pages.
+- **Usage going forward:** edit `PRIORITY_URLS` in the script and rerun for any batch of new/changed URLs. The key file is permanent; no re-auth needed. Safe to run after any content change.
+
+### BWT property list (as of 19 Apr 2026)
+Four sites under info@supplywindows.co.uk: hxlbuild.co.uk, steelr.co.uk (new), vitrums.co.uk, www.glazingquoter.co.uk.
+
 ## SEO Fixes Applied (18 Apr 2026)
 
 Major session. Five commits, all live:
