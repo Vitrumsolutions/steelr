@@ -201,7 +201,7 @@ All 10 URLs submitted via sitemap, Indexing API, and 4 of 10 priority-crawl-push
 - **Total known URLs in sitemap:** 297 (as of 18 Apr 2026)
 - **Indexed pages:** 54 (Page Indexing report as of 13/04, stale — will refresh over next 1-3 days after today's sitemap resubmit + priority pushes)
 - **Not indexed:** 4 pages, all benign (2 HTTP-to-HTTPS redirects by design, 1 duplicate-without-canonical, 1 alternative-page-with-proper-canonical). Zero real indexing blockers.
-- **Sitemap:** resubmitted in GSC on 18 Apr 2026, Google immediately confirmed 286 → 297 URLs discovered
+- **Sitemap:** resubmitted in GSC UI on 18 Apr 2026 (got 286 discovered, pre-Phase 1D), and again on 19 Apr 2026 (jumped to 297 discovered in real time confirming Phase 1D + /sitemap + new blog posts are now in Google's awareness)
 - **Indexing API:** All 297 URLs submitted, queue empty (parity achieved 18 Apr 2026). Runs daily at 07:30 via Windows Task Scheduler (SteelrGSCIndexer)
 - **URL Inspection pushes (cumulative, 18 Apr 2026):** 13 URLs pushed to priority crawl queue today: `/`, `/security`, `/bespoke-steel-front-doors-uk`, `/security-specification`, `/sr3-residential-steel-door`, `/steel-front-door-vs-composite`, `/fire-rated-doors`, `/about`, `/collection`, `/areas/london`, `/thermally-broken-steel-front-door`, `/pas-24-steel-entrance-door`. Daily URL Inspection quota exhausted, refreshes at 00:00 PST / 08:00 UK.
 - **URL Inspection queue for next quota refresh (8 URLs):** `/secured-by-design-steel-front-door`, `/fire-rated-fd30-front-door`, `/luxury-steel-entrance-door-london`, `/steel-front-door-cost-uk`, `/areas/buckinghamshire`, `/areas/surrey`, `/uk-steel-doors-vs-imported`, `/process`
@@ -301,6 +301,34 @@ Next run recommended after 21 Apr 2026 to measure impact of:
 - **Google Search Console:** verified via DNS TXT record, sitemap submitted
 - **Google Business Profile:** verified as "SteelR - Bespoke Steel Entrance Doors", nationwide UK, address hidden
 - **OG image:** `/public/og-image.png` (1200x630) — referenced in layout.tsx openGraph metadata
+
+## Session Log (19 Apr 2026)
+
+Short follow-up session. Three tasks attempted.
+
+### URL Inspection quota — still exhausted at 14:00 UK
+Daily quota did NOT refresh at 08:00 UK as assumed. At 14:00 UK the "Quota exceeded" message was still firing. Empirically the reset appears to be rolling 24h from last push rather than a fixed daily reset. Last push yesterday was around 18:00 UK, so earliest retry today is 18:00 UK. **8 URLs remain in queue** — see Pending Next Steps.
+
+### Sitemap resubmit (finding of the day)
+Checked GSC Sitemaps report. Google had only re-read the sitemap on **17 Apr** with **286 discovered pages** — the snapshot before Phase 1D shipped. The 10 Phase 1D topic pages were in the live sitemap.xml but Google hadn't yet re-read the file, so they weren't in GSC's awareness. **Resubmitted sitemap manually in GSC UI**, discovered count immediately jumped **286 → 297** in real time. Screenshot saved. All 297 URLs now confirmed discovered by GSC. **Lesson: whenever sitemap.xml changes, manually resubmit in GSC UI to force immediate re-read rather than waiting for Google's scheduled re-crawl (which can be days).**
+
+### GSC Page Indexing report — still stale at 54/4
+Page Indexing report still shows "Last update: 13/04/2026" with 54 indexed, 4 not indexed. GSC processes this report every 2-4 days. The full refresh reflecting yesterday's work (sitemap resubmit, 13 priority crawl pushes, 297 URL submission parity) is still pending. **Expect significant jump on next refresh (21-22 Apr likely).**
+
+### GBP audit (confirmed, 0 pending issues)
+- **3 scheduled posts all published on schedule:** 12 Apr, 15 Apr, 18 Apr all went live. Most recent post "Published yesterday" (18 Apr estimate tool promotion) confirmed live. GBP did NOT silently drop any scheduled content.
+- **Earlier post stale data flagged:** "Published last month" post references "170 areas" — correct count is now 172. Not critical, worth updating in next batch.
+- **Reviews confirmed 0.** "You have no reviews yet" shown in dashboard. Still #1 Maps blocker.
+- **Services confirmed at 8** (matches CLAUDE.md). GBP edit panel did not allow scrolling to "Add Service" option via automation (confirmed limitation noted in Gotchas section). **SR4 service addition deferred to manual user action.**
+- **Profile strength indicator:** GBP dashboard shows "Complete info" prompt — not at 100%. Worth clicking through at some point to see what fields remain.
+- **11 customer interactions** recorded (positive engagement signal).
+- **Owner access confirmed** as info@supplywindows.co.uk.
+
+### User-action items from GBP audit
+1. **Add 9th service manually:** "SR4 / LPS 1175 Commercial-Grade Security Doors" (GBP modals not reliably automatable)
+2. **Write next batch of GBP posts** — first SR4 positioning post should go out soon since none of the 3 recent posts mention it
+3. **Update the "170 areas" claim to "172 areas"** in any future post reusing that copy
+4. **Reviews outreach campaign** — still not started, biggest remaining Maps blocker
 
 ## SEO Fixes Applied (18 Apr 2026)
 
