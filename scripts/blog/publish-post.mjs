@@ -8,6 +8,7 @@
 import { readFileSync, writeFileSync, readdirSync, renameSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { buildExcerptFromPostFile, appendExcerptToLlmsFull } from "./llms-excerpt.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "../..");
@@ -111,6 +112,18 @@ async function main() {
       }
       writeFileSync(LLMS_PATH, llms);
       console.log("  Updated: llms.txt");
+    }
+  }
+
+  // 6. Append citation-ready excerpt to llms-full.txt
+  const LLMS_FULL_PATH = join(ROOT, "public/llms-full.txt");
+  if (existsSync(LLMS_FULL_PATH)) {
+    try {
+      const { excerpt } = buildExcerptFromPostFile(targetFile, "https://steelr.co.uk");
+      const didAppend = appendExcerptToLlmsFull(LLMS_FULL_PATH, excerpt, entry.slug);
+      if (didAppend) console.log("  Updated: llms-full.txt");
+    } catch (err) {
+      console.warn(`  WARNING: could not append excerpt to llms-full.txt: ${err.message}`);
     }
   }
 
