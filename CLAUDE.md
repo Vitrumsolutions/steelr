@@ -363,6 +363,74 @@ Pattern that works consistently:
 
 Typing while the form is still blank causes the text to go nowhere — always wait for the full render before interacting.
 
+## llms-full.txt AI-Citation System (19 Apr 2026, commits `708c3af`..`607b193`)
+
+End-to-end automation for a "## Blog Excerpts" section in `public/llms-full.txt` optimised for AI citation on ChatGPT Search, Perplexity, Bing Copilot, Google AI Overviews, Gemini.
+
+### Why this matters
+Steelr appeared in ChatGPT Search citation for "best bespoke steel front door companies UK" within days of initial launch — the llms files are a direct driver of that, so investment here compounds.
+
+### Scripts (all in `scripts/blog/`)
+- **`llms-excerpt.mjs`** — shared extractor module. Parses a blog post `.ts` file and builds a full excerpt block (title, URL, meta, description, Key Facts, FAQs, first H2 paragraph, Related links). Also exports `buildCategoryClusteredSection` that returns the entire "## Blog Excerpts" section grouped by category.
+- **`backfill-llms-full.mjs`** — one-shot rebuild. Reads every post, overwrites the whole Blog Excerpts section. Run after any extractor change. Safe to re-run; it always strips and rewrites the section.
+- **`publish-post.mjs`** — called by the blog publish cron. On each publish, moves staged→posts, updates `index.ts` + `content-calendar.json` + `llms.txt`, and rebuilds the entire Blog Excerpts section so category clusters and Related-post graphs stay accurate.
+- **`validate-faqs.mjs`** — runs on every `npm run build` via `prebuild` hook. Fails the build if any post has a FAQ-like heading but the extractor returns zero Q&A pairs (prevents future silent schema drops). Also flags posts with no FAQ section at all (content-work backlog).
+
+### Excerpt format per post
+```
+#### Title
+URL + Category + Published + readTime
+Description
+**Key facts:** — 3-5 quotable sentences (stats, standards, certifications)
+**FAQs:** — up to 5 Q&A pairs, placed above prose for higher citation weighting
+First paragraph after first H2 (context)
+**Related:** — up to 3 links to other same-category posts
+```
+
+### File structure
+```
+## Blog Excerpts
+  Intro paragraph
+  ### Security (N posts)
+    #### Post 1
+    ...
+    #### Post N
+  ### Comparison (N posts)
+    ...
+  ### Pricing (N posts)
+    ...
+```
+Category clusters improve AI chunking — any sampled portion of the file lands on topically-coherent content.
+
+### Current state (live, verified)
+- Posts covered: 46 / 46
+- Category clusters: 6 (Security, Comparison, Design, Location Guides, Pricing, Buying Guide)
+- Q&A pairs: 145
+- Key Facts blocks: 45 (1 post had no extractable stats)
+- Related blocks: 46 (every post has 2-3 related links)
+- FAQ schema emitting on canonical pages: 29 / 46 (17 posts lack FAQ section — content backlog)
+
+### FAQ format support
+The extractor (both in `llms-excerpt.mjs` and the runtime `src/app/blog/[slug]/page.tsx`) accepts three formats inside the `## Frequently Asked Questions` section:
+1. `### Question?` + blank line + answer paragraph (most posts)
+2. `**Question?**` + newline + answer paragraph (bold on own line)
+3. `**Question?** Answer on same line` (inline)
+
+The validator catches any post where the extractor would return zero Q&As so schema can't silently break.
+
+### llms.txt parity
+Separate file. Auto-updated on publish via `publish-post.mjs` (appends a `- [Title](URL)` line to the Key Pages section). One-off backfill done 19 Apr to hit full parity (46/46 for steelr).
+
+### Content-work backlog (17 steelr posts without FAQ section)
+`best-areas-london-period-property-renovations`, `best-front-door-home-security`, `best-front-doors-period-properties`, `choosing-entrance-door-colour`, `conservation-area-door-requirements-uk`, `front-door-design-trends-2026`, `front-door-ideas-design-trends`, `how-to-improve-home-security-uk`, `secured-by-design-doors`, `steel-doors-country-homes-guide`, `steel-entrance-doors-architects-specifiers`, `steel-entrance-doors-cost-uk`, `steel-entrance-doors-pricing-factors`, `steel-vs-aluminium-front-doors`, `steel-vs-composite-doors`, `steel-vs-timber-entrance-doors`, `what-is-sr3-security-rating`. ~10 are strong FAQ candidates (security, comparison, cost, regulatory). ~6-7 are weaker (design/trend pieces). Write selectively, not all at once.
+
+### Key commits (19 Apr 2026)
+- `708c3af` — initial auto-excerpt system, 46 posts covered
+- `c45344d` — FAQ cap raised 3→5, FAQs placed above prose
+- `7ac4395` — SR4 post FAQ format fix + extractor tolerance (H3 or bold)
+- `8e207e8` — FAQ validator + prebuild hook
+- `607b193` — topic clustering + Key Facts + Related links (current canonical)
+
 ## Bing Webmaster Tools + IndexNow (19 Apr 2026, commit `4f2ba75`)
 
 Bing Webmaster Tools property created for steelr.co.uk by importing from Google Search Console. No separate DNS or meta-tag verification needed — GSC import inherits verification status. Microsoft account: info@supplywindows.co.uk (same account as Vitrums BWT).
