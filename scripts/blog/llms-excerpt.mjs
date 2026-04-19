@@ -76,37 +76,56 @@ function firstParagraphAfterFirstH2(content) {
 }
 
 function extractFaqs(content, cap = FAQ_CAP) {
-  // Find a likely FAQ section heading. Tolerate variations.
-  const faqHeadingMatch = content.match(
-    /^##\s+(?:Frequently Asked Questions|FAQ[s]?|Common Questions[^\n]*)\s*$/m
-  );
-  if (!faqHeadingMatch) return [];
-  const after = content.slice(faqHeadingMatch.index + faqHeadingMatch[0].length);
-  // FAQs end at next ## heading (not ### which is used for Q headings in some posts)
-  const nextH2Idx = after.search(/\n##\s/);
-  const faqBlock = nextH2Idx >= 0 ? after.slice(0, nextH2Idx) : after;
+  // Find every FAQ-like section heading in the document. Posts may have
+  // more than one ("Common Questions..." plus "Frequently Asked Questions")
+  // so scan them all and merge. Prefer "Frequently Asked Questions" ordering
+  // by sorting matches so the canonical heading is tried first.
+  const headingRegex =
+    /^##\s+(?:Frequently Asked Questions|FAQ[s]?|Common Questions[^\n]*)\s*$/gm;
+  const matches = [...content.matchAll(headingRegex)].sort((a, b) => {
+    const aCanon = /Frequently Asked Questions/.test(a[0]) ? 0 : 1;
+    const bCanon = /Frequently Asked Questions/.test(b[0]) ? 0 : 1;
+    return aCanon - bCanon;
+  });
+  if (matches.length === 0) return [];
 
   const faqs = [];
 
-  // Pattern A: ### Question?\n\nAnswer paragraph (most posts)
-  const h3Regex = /^###\s+([^\n]+\?)\s*\n+([\s\S]*?)(?=\n###\s|\n##\s|$)/gm;
-  let m;
-  while ((m = h3Regex.exec(faqBlock)) !== null) {
-    const q = m[1].trim();
-    const a = m[2].replace(/\s+/g, " ").trim();
-    if (q && a) faqs.push({ q, a });
-    if (faqs.length >= cap) return faqs;
-  }
-  if (faqs.length > 0) return faqs;
+  for (const match of matches) {
+    const after = content.slice(match.index + match[0].length);
+    const nextH2Idx = after.search(/\n##\s/);
+    const faqBlock = nextH2Idx >= 0 ? after.slice(0, nextH2Idx) : after;
 
-  // Pattern B: **Question?**\nAnswer (SR4 style)
-  const boldRegex = /\*\*([^*]+\?)\*\*\s*\n([\s\S]*?)(?=\n\s*\*\*[^*]+\?\*\*|\n##|$)/g;
-  while ((m = boldRegex.exec(faqBlock)) !== null) {
-    const q = m[1].trim();
-    const a = m[2].replace(/\s+/g, " ").trim();
-    if (q && a) faqs.push({ q, a });
-    if (faqs.length >= cap) break;
+    // Pattern A: ### Question?\n\nAnswer paragraph
+    const h3Regex = /^###\s+([^\n]+\?)\s*\n+([\s\S]*?)(?=\n###\s|\n##\s|$)/gm;
+    let m;
+    while ((m = h3Regex.exec(faqBlock)) !== null) {
+      const q = m[1].trim();
+      const a = m[2].replace(/\s+/g, " ").trim();
+      if (q && a) faqs.push({ q, a });
+      if (faqs.length >= cap) return faqs;
+    }
+
+    // Pattern B: **Question?**\nAnswer (separate lines)
+    const boldBlockRegex =
+      /\*\*([^*\n]+\?)\*\*\s*\n([\s\S]*?)(?=\n\s*\*\*[^*\n]+\?\*\*|\n##|$)/g;
+    while ((m = boldBlockRegex.exec(faqBlock)) !== null) {
+      const q = m[1].trim();
+      const a = m[2].replace(/\s+/g, " ").trim();
+      if (q && a && !faqs.some((f) => f.q === q)) faqs.push({ q, a });
+      if (faqs.length >= cap) return faqs;
+    }
+
+    // Pattern C: **Question?** Answer (inline on same line)
+    const boldInlineRegex = /\*\*([^*\n]+\?)\*\*\s+([^\n]+)/g;
+    while ((m = boldInlineRegex.exec(faqBlock)) !== null) {
+      const q = m[1].trim();
+      const a = m[2].replace(/\s+/g, " ").trim();
+      if (q && a && !faqs.some((f) => f.q === q)) faqs.push({ q, a });
+      if (faqs.length >= cap) return faqs;
+    }
   }
+
   return faqs;
 }
 
