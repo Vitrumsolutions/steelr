@@ -325,10 +325,19 @@ Page Indexing report still shows "Last update: 13/04/2026" with 54 indexed, 4 no
 - **Owner access confirmed** as info@supplywindows.co.uk.
 
 ### User-action items from GBP audit
-1. **Add 9th service manually:** "SR4 / LPS 1175 Commercial-Grade Security Doors" (GBP modals not reliably automatable)
-2. **Write next batch of GBP posts** — first SR4 positioning post should go out soon since none of the 3 recent posts mention it
-3. **Update the "170 areas" claim to "172 areas"** in any future post reusing that copy
-4. **Reviews outreach campaign** — still not started, biggest remaining Maps blocker
+1. ~~Add 9th service manually: "SR4 / LPS 1175 Commercial-Grade Security Doors"~~ — **PIVOTED 19 Apr 2026.** Adding a 9th service requires a separate "Add service" path in the GBP dashboard that is not accessible via the current modal flow. Instead, enriched 2 of 8 existing service descriptions (Bespoke Steel Entrance Doors + PAS 24 Certified Security Doors) with full SR3/SR4 positioning copy. Higher-impact than a 9th service because descriptions were previously empty and profile strength benefits from populating them. 6 remaining service descriptions still empty and could be enriched in a future session.
+2. ~~Write next batch of GBP posts~~ — **DONE 19 Apr 2026.** New post "SR4 (LPS 1175) is the commercial-grade security certification used on data centres, bank vaults and high-risk commercial premises..." published. 865/1,500 characters, policy-compliant (no URLs, no phone number). First SR4 content now live on GBP. See Session Log 19 Apr.
+3. **Update the "170 areas" claim to "172 areas"** in any future post reusing that copy (still pending)
+4. **Reviews outreach campaign** — user handling this directly; Claude not actioning.
+
+### SR4 blog shipped (19 Apr 2026, commit `689408a`)
+New blog post at `/blog/sr4-lps-1175-commercial-grade-residential` — 2,100 words, 9 min read, Security category. Covers what SR4 (LPS 1175 Issue 8) is, where it is normally used (data centres, bank vaults), when a UK homeowner should consider it, SR3 vs SR4 spec comparison table, how testing works, FAQ section. Registered in `src/data/blog/index.ts` and linked from `public/llms.txt`. Build passed, live on steelr.co.uk.
+
+### GBP service descriptions now populated (2 of 8)
+- **Bespoke Steel Entrance Doors:** "UK-manufactured bespoke steel front doors, made to measure for a single property. PAS 24 certified, SR3 rated to BS EN 1627 Class 3 as standard, SR4 (LPS 1175) commercial-grade upgrade available, Secured by Design approved, FD30S fire rated. Nationwide installation by our own team." (282/300 chars)
+- **PAS 24 Certified Security Doors:** "PAS 24:2022 certified steel front doors meeting Approved Document Q for new-build dwellings. Every SteelR door exceeds PAS 24 with SR3 rating to BS EN 1627 Class 3 as standard, and SR4 (LPS 1175 Issue 8) commercial-grade upgrade available. Suitable for new builds, flats, HMOs and replacement doors." (~295/300 chars)
+
+6 service descriptions remain empty and worth populating in a future session: Custom doors, Delivery, Door design, General repairs & installation, FD30 Fire Rated Steel Doors, Secured by Design Approved Doors.
 
 ## SEO Fixes Applied (18 Apr 2026)
 
