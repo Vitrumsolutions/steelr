@@ -6,17 +6,17 @@
  *   - buildExcerptFromPostFile(filePath, siteUrl): returns excerpt text
  *   - appendExcerptToLlmsFull(llmsFullPath, excerpt, slug): writes if not already present
  *
- * Excerpt format (~400 words per post):
+ * Excerpt format (~500 words per post):
  *   ### Title
  *   URL + Category + Date + readTime
  *   description
- *   first paragraph after first H2 (context / definition)
- *   **FAQs:** (cap 3)
+ *   **FAQs:** (cap 5) — placed above prose for higher citation weighting
  *     Q: ... / A: ...
+ *   first paragraph after first H2 (context / definition)
  */
 import { readFileSync, writeFileSync, existsSync } from "fs";
 
-const FAQ_CAP = 3;
+const FAQ_CAP = 5;
 
 function extractField(raw, fieldName) {
   // Match  field: "value" or field: `value` (single-line)
@@ -144,14 +144,16 @@ export function buildExcerptFromPostFile(filePath, siteUrl) {
   if (description) {
     lines.push(description, "");
   }
-  if (firstPara) {
-    lines.push(firstPara, "");
-  }
+  // FAQs placed above the context paragraph — AI crawlers prioritise direct
+  // Q&A pairs over prose, so surfacing them higher increases citation odds.
   if (faqs.length > 0) {
     lines.push("**FAQs:**", "");
     for (const { q, a } of faqs) {
       lines.push(`Q: ${q}`, `A: ${a}`, "");
     }
+  }
+  if (firstPara) {
+    lines.push(firstPara, "");
   }
   return { slug, excerpt: lines.join("\n").replace(/\n{3,}/g, "\n\n").trimEnd() + "\n" };
 }
