@@ -333,11 +333,35 @@ Page Indexing report still shows "Last update: 13/04/2026" with 54 indexed, 4 no
 ### SR4 blog shipped (19 Apr 2026, commit `689408a`)
 New blog post at `/blog/sr4-lps-1175-commercial-grade-residential` — 2,100 words, 9 min read, Security category. Covers what SR4 (LPS 1175 Issue 8) is, where it is normally used (data centres, bank vaults), when a UK homeowner should consider it, SR3 vs SR4 spec comparison table, how testing works, FAQ section. Registered in `src/data/blog/index.ts` and linked from `public/llms.txt`. Build passed, live on steelr.co.uk.
 
-### GBP service descriptions now populated (2 of 8)
-- **Bespoke Steel Entrance Doors:** "UK-manufactured bespoke steel front doors, made to measure with no standard sizes. PAS 24 certified, SR3 rated to BS EN 1627 Class 3 as standard, SR4 (LPS 1175) commercial-grade upgrade available, Secured by Design approved, FD30S fire rated. Nationwide installation by our own team." (283/300 chars). Original draft said "made to measure for a single property" which read as ambiguous (could mean "we only work with single properties"); user flagged it, rewrote with "no standard sizes" which is clearer and more confident.
-- **PAS 24 Certified Security Doors:** "PAS 24:2022 certified steel front doors meeting Approved Document Q for new-build dwellings. Every SteelR door exceeds PAS 24 with SR3 rating to BS EN 1627 Class 3 as standard, and SR4 (LPS 1175 Issue 8) commercial-grade upgrade available. Suitable for new builds, flats, HMOs and replacement doors." (~295/300 chars)
+### GBP service descriptions now populated (ALL 8 of 8, complete 19 Apr 2026)
 
-6 service descriptions remain empty and worth populating in a future session: Custom doors, Delivery, Door design, General repairs & installation, FD30 Fire Rated Steel Doors, Secured by Design Approved Doors.
+All eight service descriptions drafted collaboratively with user approval per-batch, then saved one by one via GBP UI. Each description is under the 300-char limit, follows house style (no em dashes, no exclamations, no "affordable/cheap/discount"), and is specific to the service it describes.
+
+- **Custom doors:** "Any RAL colour, with dual-colour inside and out. Chrome, satin, brass, matt black or gold hardware. Clear, frosted, tinted or stained glazing. Period or contemporary panel moulding. Every SteelR door is a custom specification built from your brief, with eight to twelve week lead time."
+- **Delivery:** "Delivery and installation across the UK mainland from our UK manufacturing facility. No regional surcharge. Doors are delivered by our own installation team, who fit on the same visit. Single day installation for standard doors, two days for double doors or sidelight configurations."
+- **Door design:** "Every door is designed to your exact specification. RAL colour, hardware, glazing, panel profiles, knockers, letterboxes, sidelights and fanlights all defined in writing and signed off before manufacture. Visual mock-up supplied. No revisions limit. Nothing cut until you approve the design."
+- **General repairs & installation:** "Installation, aftercare and adjustments by our own DBS-checked team, never subcontracted. Hinge adjustments, lock re-keying, seal replacement and hardware upgrades handled by the team that originally made the door. Ten-year warranty on hardware, twenty-five-year warranty on the steel structure."
+- **Bespoke Steel Entrance Doors:** "UK-manufactured bespoke steel front doors, made to measure with no standard sizes. PAS 24 certified, SR3 rated to BS EN 1627 Class 3 as standard, SR4 (LPS 1175) commercial-grade upgrade available, Secured by Design approved, FD30S fire rated. Nationwide installation by our own team." (Original draft said "made to measure for a single property" which user flagged as ambiguous; rewrote with "no standard sizes".)
+- **PAS 24 Certified Security Doors:** "PAS 24:2022 certified steel front doors meeting Approved Document Q for new-build dwellings. Every SteelR door exceeds PAS 24 with SR3 rating to BS EN 1627 Class 3 as standard, and SR4 (LPS 1175 Issue 8) commercial-grade upgrade available. Suitable for new builds, flats, HMOs and replacement doors."
+- **FD30 Fire Rated Steel Doors:** "FD30S fire and smoke rated steel front doors, standard on every SteelR specification. FD60 sixty-minute rating available as an upgrade. Tested to BS 476-22 and BS EN 1634-1. Satisfies Approved Document B, the Fire Safety Act 2021 and the Building Safety Act 2022. Suitable for flats, HMOs and new builds."
+- **Secured by Design Approved Doors:** "Every SteelR door carries Secured by Design approval, the UK police-preferred specification for crime prevention. SBD covers the complete door system including frame, leaf, locking mechanism and hardware. Recognised by UK home insurers. Combined with SR3 standard and SR4 (LPS 1175) upgrade."
+
+### GBP "Add more services" path discovered (19 Apr 2026)
+
+During the service-description work, discovered that a **"+ Add more services"** link sits at the bottom of the Services modal (below the existing 8 service items, above the "Add another business category" button). This is only reachable by scrolling within the modal. Previously documented as "not accessible" in the Gotchas section; that was wrong — it just requires scrolling to the bottom of the modal via the scrollbar track click. When/if adding a 9th service (e.g. "SR4 / LPS 1175 Commercial-Grade Security Doors") is desired in future, this is the path.
+
+### GBP service-description modal automation notes (19 Apr 2026)
+
+Pattern that works consistently:
+1. Click service in list
+2. Wait 8-10 seconds for Edit service details form to render (form is blank for ~4 seconds first)
+3. Click description field at y≈405 for custom services, y≈375 for Google-category services (Custom doors, Delivery, Door design, General repairs)
+4. Type description
+5. Click Save at y≈567 (custom) or y≈545 (category)
+6. Wait 8-10 seconds for save + return to services list
+7. To reach bottom of list (FD30, SBD): click scrollbar track at x=1123, y=560-585
+
+Typing while the form is still blank causes the text to go nowhere — always wait for the full render before interacting.
 
 ## SEO Fixes Applied (18 Apr 2026)
 
