@@ -383,6 +383,9 @@ Bing Webmaster Tools property created for steelr.co.uk by importing from Google 
 ### BWT property list (as of 19 Apr 2026)
 Four sites under info@supplywindows.co.uk: hxlbuild.co.uk, steelr.co.uk (new), vitrums.co.uk, www.glazingquoter.co.uk.
 
+### AI Performance (BETA) baseline
+As of 19 Apr 2026, Total Citations = 0, Avg Cited Pages = 0 across the 3M window. Zero data is expected — steelr.co.uk was only added to BWT today, so Bing has no tracking history. Citation sources: "Microsoft Copilots and Partners" (Copilot, Bing Chat, ChatGPT Search since it uses Bing's index). "Grounding Queries" sub-tab will be the highest-value signal once data arrives — shows the actual user questions that produced citations. Check weekly.
+
 ## SEO Fixes Applied (18 Apr 2026)
 
 Major session. Five commits, all live:
@@ -398,15 +401,16 @@ Also shipped without code commit:
 - **13 URL Inspection priority crawl pushes** (daily quota exhausted, see GSC section for full list).
 - **Indexing API parity achieved** — all 297 sitemap URLs now submitted (was 284/297, 13 URLs force-pushed via submit_indexing.py after populating queue).
 
-### Pending Next Steps (planned 19 Apr 2026+)
+### Pending Next Steps (updated 19 Apr 2026 evening)
 
-1. **Clear URL Inspection queue (8 URLs)** — after 08:00 UK when daily GSC quota refreshes
-2. **Google Business Profile audit** — verify 12/15/18 Apr scheduled posts actually published; add "SR4 / LPS 1175" as 9th service
-3. **Bing Webmaster Tools setup from scratch** — create property, verify, submit sitemap, enable IndexNow API. ChatGPT Search uses Bing's index so this matters for AI visibility. No existing setup.
-4. **Reviews outreach campaign** — 0 reviews is the #1 blocker to Maps 3-pack. Template exists in MARKETING-COPY.md. Parallel track to Bing.
-5. **Social media pipeline (Phase 2)** — multi-day build per earlier brief. Python + Pillow + FFmpeg + OpenAI TTS. 60-90 posts across IG/Pinterest/TikTok/Shorts/LinkedIn. Brand kit first, then static posts, then Ken Burns Reels, then TTS voiceover.
-6. **Next Serper rank check** — recommended after 21 Apr to measure SR4 rollout impact
-7. **Monitor GSC Page Indexing refresh** — expect jump from 54 → 150-200 indexed inside a week as Google processes today's sitemap resubmit + priority crawls
+1. **Clear URL Inspection queue (8 URLs)** — GSC quota is rolling 24h, not a fixed daily reset. Last push was ~18:00 UK on 18 Apr, so earliest retry 18:00 UK 19 Apr. Queue: `/secured-by-design-steel-front-door`, `/fire-rated-fd30-front-door`, `/luxury-steel-entrance-door-london`, `/steel-front-door-cost-uk`, `/areas/buckinghamshire`, `/areas/surrey`, `/uk-steel-doors-vs-imported`, `/process`.
+2. **GBP next post batch** — previous scheduled posts all published cleanly. Write next 3-5 SR4/topic-angle posts. See "GBP posting rules" in Contact Form section. Also fix stale "170 areas" reference if reusing that copy (now 172).
+3. **Reviews outreach campaign** — user handling directly. 0 reviews still the #1 Maps 3-pack blocker. Template in MARKETING-COPY.md.
+4. **Social media pipeline (Phase 2)** — multi-day build. Python + Pillow + FFmpeg + OpenAI TTS. 60-90 posts across IG/Pinterest/TikTok/Shorts/LinkedIn. Brand kit first, then static posts, then Ken Burns Reels, then TTS voiceover.
+5. **Next Serper rank check** — after 21 Apr to measure SR4 rollout + 10 Phase 1D topic pages + IndexNow ingestion impact.
+6. **Monitor GSC Page Indexing refresh** — still stale at 54/4 as of evening 19 Apr. Refresh expected 21-22 Apr. Target: 150-200 indexed.
+7. **Monitor BWT AI Performance (BETA) tab** — baseline 0 citations, 0 cited pages as of 19 Apr (steelr.co.uk only just added to BWT). "Grounding Queries" sub-tab shows the actual questions users asked LLMs that led to citations. Check weekly once data begins flowing.
+8. **Monitor BWT sitemap processing** — steelr.co.uk/sitemap.xml submitted 19 Apr, was "Processing". Revisit in 48 hours, confirm URL discovery count approaches 297.
 
 ## SEO Fixes Applied (16 Apr 2026)
 - **Collection page duplicate titles fixed** — 8 groups of doors (24 pages) shared identical `<title>` and H1 tags, causing GSC "Duplicate without user-selected canonical" errors. Title generation in `src/data/doors.ts` now uses context phrases from the slug (e.g. "Stone Surround", "Gable Porch", "Interior View") and secondary features to guarantee all 54 collection pages have unique titles and H1s. Deduplication pass added as safety net.
