@@ -47,6 +47,7 @@ import compositeVsSteelDoors2026UpdatedComparison from "./posts/composite-vs-ste
 import periodPropertyFrontDoorUltimateGuide from "./posts/period-property-front-door-ultimate-guide";
 import springHomeImprovementFrontDoorUpgrade from "./posts/spring-home-improvement-front-door-upgrade";
 import securedByDesignHomesGuide2026 from "./posts/secured-by-design-homes-guide-2026";
+import sr4Lps1175CommercialGradeResidential from "./posts/sr4-lps-1175-commercial-grade-residential";
 
 import type { BlogPost } from "./types";
 
@@ -98,6 +99,7 @@ export const posts: BlogPost[] = [
   periodPropertyFrontDoorUltimateGuide,
   springHomeImprovementFrontDoorUpgrade,
   securedByDesignHomesGuide2026,
+  sr4Lps1175CommercialGradeResidential,
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
