@@ -8,7 +8,11 @@
 import { readFileSync, writeFileSync, readdirSync, renameSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-import { buildExcerptFromPostFile, appendExcerptToLlmsFull } from "./llms-excerpt.mjs";
+import {
+  readAllPostMetas,
+  buildCategoryClusteredSection,
+  writeBlogExcerptsSection,
+} from "./llms-excerpt.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "../..");
@@ -115,15 +119,18 @@ async function main() {
     }
   }
 
-  // 6. Append citation-ready excerpt to llms-full.txt
+  // 6. Rebuild the Blog Excerpts section in llms-full.txt so the new post
+  // is clustered into its category and Related links across all posts stay
+  // accurate. Cheap: full rebuild runs in well under a second.
   const LLMS_FULL_PATH = join(ROOT, "public/llms-full.txt");
   if (existsSync(LLMS_FULL_PATH)) {
     try {
-      const { excerpt } = buildExcerptFromPostFile(targetFile, "https://steelr.co.uk");
-      const didAppend = appendExcerptToLlmsFull(LLMS_FULL_PATH, excerpt, entry.slug);
-      if (didAppend) console.log("  Updated: llms-full.txt");
+      const metas = readAllPostMetas(POSTS_DIR, "https://steelr.co.uk");
+      const section = buildCategoryClusteredSection(metas);
+      writeBlogExcerptsSection(LLMS_FULL_PATH, section);
+      console.log("  Rebuilt: llms-full.txt (Blog Excerpts)");
     } catch (err) {
-      console.warn(`  WARNING: could not append excerpt to llms-full.txt: ${err.message}`);
+      console.warn(`  WARNING: could not rebuild Blog Excerpts: ${err.message}`);
     }
   }
 
