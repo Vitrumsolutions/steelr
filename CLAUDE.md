@@ -375,10 +375,21 @@ Bing Webmaster Tools property created for steelr.co.uk by importing from Google 
 ### IndexNow protocol live
 - **Key:** `ddec116ea2aa00b39d11cca95f17bb9a` (self-generated, 32-char hex)
 - **Key file:** `public/ddec116ea2aa00b39d11cca95f17bb9a.txt` → served at https://steelr.co.uk/ddec116ea2aa00b39d11cca95f17bb9a.txt (200 OK, contains the key)
-- **Endpoint:** https://api.indexnow.org/IndexNow (propagates to Bing, Yandex, Seznam, Naver)
-- **Script:** `vitrums/audit-data/indexnow_steelr.py`
-- **First push (19 Apr 2026):** 30 priority URLs submitted, HTTP 202 Accepted. Covers homepage, all 10 Phase 1D topic pages, key product/info pages, SR4 blog, 8 regional hub area pages.
-- **Usage going forward:** edit `PRIORITY_URLS` in the script and rerun for any batch of new/changed URLs. The key file is permanent; no re-auth needed. Safe to run after any content change.
+- **Endpoint:** https://api.indexnow.org/indexnow (propagates to Bing, Yandex, Seznam, Naver)
+
+**Submission scripts (two exist — prefer the Node one):**
+- **`scripts/bing/indexnow-submit.mjs`** (added 19 Apr PM, preferred) — Node-based, mirrors the pattern used on Vitrums. Three modes:
+  ```bash
+  node scripts/bing/indexnow-submit.mjs              # full sitemap (currently 298 URLs)
+  node scripts/bing/indexnow-submit.mjs --priority   # 21 hub/brand/product URLs
+  node scripts/bing/indexnow-submit.mjs url1 url2    # specific URLs
+  ```
+  Verifies key file is accessible before submitting, batches at 500/request.
+- `vitrums/audit-data/indexnow_steelr.py` (earlier Python variant — kept for reference, covers a slightly different priority list)
+
+### Submissions history
+- **19 Apr AM:** 30 priority URLs (Python script) — HTTP 202
+- **19 Apr PM:** 21 priority + **298 sitemap URLs** (Node script, full sitemap batch) — both HTTP 200 ✓
 
 ### BWT property list (as of 19 Apr 2026)
 Four sites under info@supplywindows.co.uk: hxlbuild.co.uk, steelr.co.uk (new), vitrums.co.uk, www.glazingquoter.co.uk.
