@@ -198,13 +198,15 @@ All 10 URLs submitted via sitemap, Indexing API, and 4 of 10 priority-crawl-push
 
 ## Google Search Console
 - **Property:** sc-domain:steelr.co.uk (owner: info@supplywindows.co.uk)
-- **Total known URLs in sitemap:** 297 (as of 18 Apr 2026)
-- **Indexed pages:** 54 (Page Indexing report as of 13/04, stale — will refresh over next 1-3 days after today's sitemap resubmit + priority pushes)
-- **Not indexed:** 4 pages, all benign (2 HTTP-to-HTTPS redirects by design, 1 duplicate-without-canonical, 1 alternative-page-with-proper-canonical). Zero real indexing blockers.
+- **Total known URLs in sitemap:** 298 (as of 20 Apr 2026 — includes 10 topic pages + HTML sitemap)
+- **Indexed pages:** 67 (Page Indexing report as of 17/04 — jumped from 54 between 13 Apr and 17 Apr, +13 pages in 4 days, confirming sitemap resubmit + URL Inspection pushes from 18-19 Apr are working their way through Google's processing)
+- **Not indexed:** 6 pages total, 4 benign + 2 real. Benign: 2 Page with redirect, 1 Duplicate without user-selected canonical, 1 Alternative page with proper canonical tag. Real: 2 Crawled - currently not indexed.
+- **Sitemap coverage:** 67 / 298 indexed = 22.5% (healthy for a 2-month-old site). Remaining ~231 mostly in "Discovered - not indexed" queue awaiting crawl.
 - **Sitemap:** resubmitted in GSC UI on 18 Apr 2026 (got 286 discovered, pre-Phase 1D), and again on 19 Apr 2026 (jumped to 297 discovered in real time confirming Phase 1D + /sitemap + new blog posts are now in Google's awareness)
 - **Indexing API:** All 297 URLs submitted, queue empty (parity achieved 18 Apr 2026). Runs daily at 07:30 via Windows Task Scheduler (SteelrGSCIndexer)
-- **URL Inspection pushes (cumulative, 18 Apr 2026):** 13 URLs pushed to priority crawl queue today: `/`, `/security`, `/bespoke-steel-front-doors-uk`, `/security-specification`, `/sr3-residential-steel-door`, `/steel-front-door-vs-composite`, `/fire-rated-doors`, `/about`, `/collection`, `/areas/london`, `/thermally-broken-steel-front-door`, `/pas-24-steel-entrance-door`. Daily URL Inspection quota exhausted, refreshes at 00:00 PST / 08:00 UK.
-- **URL Inspection queue for next quota refresh (8 URLs):** `/secured-by-design-steel-front-door`, `/fire-rated-fd30-front-door`, `/luxury-steel-entrance-door-london`, `/steel-front-door-cost-uk`, `/areas/buckinghamshire`, `/areas/surrey`, `/uk-steel-doors-vs-imported`, `/process`
+- **URL Inspection pushes (cumulative 18-20 Apr 2026):** 22 total URLs pushed. Quota is rolling 24h, not a fixed daily reset. 20 Apr attempt at ~14:00 UK still hit "Quota exceeded" — the previous day's 10-push window has not yet reset. Earliest retry is 24h from last push (~19:30 UK 20 Apr or morning 21 Apr).
+- **URL Inspection queue for next quota refresh (10 URLs — priority: newly FAQ-enhanced blog posts):** `/blog/what-is-sr3-security-rating`, `/blog/secured-by-design-doors`, `/blog/steel-vs-composite-doors`, `/blog/steel-entrance-doors-cost-uk`, `/blog/conservation-area-door-requirements-uk`, `/blog/steel-vs-aluminium-front-doors`, `/blog/steel-vs-timber-entrance-doors`, `/blog/how-to-improve-home-security-uk`, `/blog/best-front-door-home-security`, `/blog/steel-entrance-doors-pricing-factors`. All 10 have fresh FAQPage schema (commit `2a3e1d6`, 20 Apr) that needs recrawl for AI + rich-result discovery.
+- **Secondary queue (if extra quota available):** `/colours`, `/blog` (hub), `/sitemap` (HTML), `/areas/hertfordshire`, `/areas/kent`, `/areas/essex`, `/areas/hampshire`, `/areas/sussex`.
 - **Service account:** gsc-indexer-steelr@steelr-indexing.iam.gserviceaccount.com
 - **Tracker:** vitrums/audit-data/gsc-indexing-tracker-steelr.json
 - **Sitemap submission script:** vitrums/audit-data/submit_sitemap_steelr.py — blocked by "Search Console API not enabled" in GCP project steelr-indexing. Enable at https://console.developers.google.com/apis/api/searchconsole.googleapis.com/overview?project=340908689525 to make rerun-able. Not urgent — sitemap resubmit via GSC UI works fine.
