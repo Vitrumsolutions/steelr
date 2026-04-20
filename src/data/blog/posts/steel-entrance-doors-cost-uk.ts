@@ -114,7 +114,33 @@ The best way to understand the cost for your specific project is to request a co
 3. Present design options with clear, itemised pricing
 4. Provide a fixed quotation with no hidden costs
 
-At SteelR, we provide transparent, fully itemised quotations for every project. Every door is SR3 rated, Secured by Design accredited and manufactured under ISO 9001 as standard — not as costly upgrades. Contact us to discuss your project and receive a no-obligation consultation.`,
+At SteelR, we provide transparent, fully itemised quotations for every project. Every door is SR3 rated, Secured by Design accredited and manufactured under ISO 9001 as standard — not as costly upgrades. Contact us to discuss your project and receive a no-obligation consultation.
+
+## Frequently Asked Questions
+
+### Why do bespoke steel doors cost more than composite or uPVC doors?
+
+Three factors account for the difference. First, the raw material: galvanised steel with thermal breaks and powder coating costs more per square metre than composite skins or uPVC profiles. Second, the engineering: SR3 security under BS EN 1627 requires reinforced frames, specialised multi-point locking and heavy-duty hinges that are not fitted to volume-production doors. Third, the manufacture: every bespoke door is cut, welded and finished to a single customer's specification rather than pulled from a production line. These are structural cost differences, not a premium charged for the brand.
+
+### Does the price include installation and site survey?
+
+Reputable manufacturers quote the full doorset installed, including site survey, manufacture, delivery and fitting by their own team. Supply-only pricing exists but is risky because the security specification depends on correct installation into a suitable substrate with the specified fixings. Always confirm the quote covers installation and ask who the installer will be. At SteelR every quotation is installed.
+
+### Are there hidden costs like disposal, making-good or planning fees?
+
+A well-prepared quotation will itemise every cost including old-door removal, disposal, any required making-good of brickwork or render, and decorating around the new frame. Planning application fees (typical in conservation areas) are normally a separate homeowner cost and excluded from the door quotation. Always ask for an itemised quote so no line item is missing.
+
+### How long does a steel entrance door last?
+
+A well-manufactured steel door with a powder-coat finish and galvanised substrate will last 25 to 40 years with minimal maintenance. The powder coat is warranted against fade and failure for the life of the product. The steel structure does not rot, warp, swell or delaminate. The most common reason for replacement is aesthetic choice rather than material failure.
+
+### Do insurance premiums reduce with an SR3 or Secured by Design door?
+
+Many UK insurers recognise SR3 and Secured by Design specifications and apply either a premium reduction or a waived excess on forced-entry claims. The saving varies by insurer and policy tier. Request the specific benefit from your insurer at renewal, providing the SR3 and Secured by Design certificate references from the installer.
+
+### Can I finance a bespoke steel door?
+
+Finance options depend on the manufacturer. Some offer interest-free or low-interest finance packages on the full doorset; others expect payment in stages (deposit, pre-manufacture, on completion). Home improvement loans and unsecured personal loans from mainstream lenders are also commonly used. Always compare the total cost of finance against paying outright, and confirm the quotation is valid for the full finance term.`,
 };
 
 export default post;

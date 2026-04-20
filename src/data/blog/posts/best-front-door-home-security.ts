@@ -113,7 +113,33 @@ The best front door for home security combines:
 - **Secured by Design** accreditation for police-approved security
 - **Professional installation** to maintain the tested specification
 
-At SteelR, every entrance door meets all of these criteria as standard. Whether you are securing a London townhouse or a country home in the [Home Counties](/areas/surrey), we design and manufacture to the highest residential security specification available. Explore our [collection](/collection) to see the range of designs, then [contact us](/contact) to discuss your security requirements.`,
+At SteelR, every entrance door meets all of these criteria as standard. Whether you are securing a London townhouse or a country home in the [Home Counties](/areas/surrey), we design and manufacture to the highest residential security specification available. Explore our [collection](/collection) to see the range of designs, then [contact us](/contact) to discuss your security requirements.
+
+## Frequently Asked Questions
+
+### What makes a front door genuinely secure in the UK?
+
+A genuinely secure front door meets three criteria. First, it carries independent certification to a recognised standard (SR3 under BS EN 1627 is the highest residential rating). Second, the whole doorset is tested as a unit: leaf, frame, hinges, locking and glazing. Third, it is installed correctly into a suitable substrate by trained fitters. Marketing claims without an accompanying test certificate and accredited installer do not indicate security; paperwork does.
+
+### Which material makes the most secure front door?
+
+Steel is the consistent leader for SR3 residential certification. Timber doors rarely reach SR3 due to the heavy engineering required, composite doors typically cap at PAS 24, and aluminium residential doors also cap at PAS 24. Solid hardwood doors with steel-reinforced cores and security-rated glazing can reach SR3 but are expensive and niche. For most UK homeowners targeting the highest residential security rating, steel is the default and most cost-effective choice.
+
+### What is a multi-point locking system and why does it matter?
+
+A multi-point locking system engages the door into the frame at multiple points simultaneously (typically three to five), not just the cylinder. When you turn the key or lift the handle, shoot-bolts and hooks engage along the edge of the door, distributing security load and eliminating single-point failure. An anti-snap cylinder prevents the primary attack method used in UK burglary: snapping the cylinder to turn the lock.
+
+### Does glazing weaken a front door's security?
+
+Only if unspecified. Laminated security glazing tested to BS EN 356 withstands repeated impact and resists being smashed through. For SR3 certification, the glazing must match the door's resistance class. A door with ordinary single glazing undermines the specification, regardless of how strong the leaf is. Any sidelights and fanlights should also match the doorset's security rating.
+
+### How long does a burglar take to defeat a standard UK front door?
+
+A standard uPVC or composite door rated to PAS 24 is tested against three minutes of basic tool attack. In real-world burglary attempts using common entry methods (cylinder snapping, lever attack on the frame), many PAS 24 doors fail in under a minute. SR3-rated doors withstand five minutes of power-tool attack in laboratory conditions, far exceeding the effort threshold of a typical opportunistic burglar.
+
+### Is it worth paying for an SR3 door for a standard terraced house?
+
+For most homeowners, upgrading from PAS 24 to SR3 is worth it if the budget allows. The incremental cost over a quality PAS 24 door is modest compared to the increase in resistance. Insurance premium benefits, peace of mind and deterrent value all contribute to the return. SR3 is particularly worth specifying in areas with above-average burglary risk, for homes with a previous attempted entry, and for any property holding high-value contents.`,
 };
 
 export default post;

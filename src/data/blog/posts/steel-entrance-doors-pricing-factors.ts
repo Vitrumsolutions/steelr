@@ -99,7 +99,33 @@ The only way to get a meaningful price for your specific project is to speak to 
 3. Present design options with clear, itemised pricing
 4. Provide a fixed quotation with no hidden costs
 
-At SteelR, every consultation begins with a conversation about what you need — not a price list. [Contact us](/contact) to start your bespoke door project and receive a no-obligation quotation.`,
+At SteelR, every consultation begins with a conversation about what you need — not a price list. [Contact us](/contact) to start your bespoke door project and receive a no-obligation quotation.
+
+## Frequently Asked Questions
+
+### What drives the biggest price difference between two steel door quotes?
+
+The security specification and glazing choices usually account for most of the variation. SR3 under BS EN 1627 requires heavier steel gauge, reinforced frames and specialist locking that adds real cost over a door tested only to PAS 24. Laminated or toughened security glazing, especially in sidelights and fanlights, is another major contributor. Colour, hardware finish and knocker choice matter less than most buyers expect.
+
+### Is a larger door always more expensive?
+
+Broadly yes, though not linearly. A single door up to standard height is the baseline. Above that, you start paying for structural frame reinforcement, larger hinges and a heavier leaf. Double doors and configurations with sidelights or fanlights add cost in frame engineering and glazing area. An oversized double doorset with sidelights can cost two to three times a standard single door of equivalent specification.
+
+### Do sidelights and fanlights add a lot to the cost?
+
+They add a meaningful amount. Each sidelight is effectively an additional framed glazing unit that needs the same level of engineering as the main door panel. Security-rated sidelights use laminated glazing and reinforced frame construction to maintain the SR3 performance of the doorset. A single door with two sidelights and a fanlight can be 40 to 60 percent more than a plain single door.
+
+### How does the choice of glazing affect the price?
+
+Laminated security glazing is standard for SR3 certification. The base security glass adds a modest amount per door. Upgrades such as acoustic laminated glass (for noise reduction), heritage-pattern glass (for period properties), colour-matched decorative glass or stained-glass panels add further cost. For most homeowners the standard security laminated glass is sufficient.
+
+### Is hardware (knockers, handles, letterboxes) a meaningful share of the cost?
+
+Hardware accounts for a small proportion of the total door price. Standard hardware in chrome, brass, matt black or satin is included in baseline quotations. Specialist items such as heavy solid-brass lion knockers, antique ironmongery, hand-engraved numerals or custom-finish bar handles add modest amounts. The brand of the underlying locking mechanism is more significant than the visible hardware.
+
+### Is it worth paying for a premium finish?
+
+Powder coating in any RAL colour is included as standard and is extremely durable. Premium finish upgrades include bronze or copper patina, hand-brushed metal effects, textured finishes and dual-colour specifications (different inside and outside). These cost more but are genuinely durable, not a temporary appearance. Always ask for the finish specification in writing with its warranty so cheaper painted finishes that degrade in UK weather are ruled out.`,
 };
 
 export default post;

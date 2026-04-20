@@ -125,7 +125,33 @@ If neighbouring properties have successfully replaced their doors with modern ma
 
 At SteelR, we have extensive experience designing and manufacturing bespoke steel entrance doors for properties in conservation areas across the UK — from the Georgian terraces of [Bath](/areas/bath) to the Victorian streets of [Kensington](/areas/kensington). Our design team works closely with homeowners and, where required, with conservation officers to ensure every door meets the specific requirements of the local planning authority.
 
-Every SteelR door is manufactured to order, which means we can replicate any period design — panel layouts, moulding profiles, glazing patterns and proportions — with complete accuracy. Combined with SR3 security, Secured by Design accreditation and ISO 9001 certified quality management, a SteelR door delivers heritage aesthetics with modern performance that a traditional timber door simply cannot match. [Contact us](/contact) to discuss your conservation area project.`,
+Every SteelR door is manufactured to order, which means we can replicate any period design — panel layouts, moulding profiles, glazing patterns and proportions — with complete accuracy. Combined with SR3 security, Secured by Design accreditation and ISO 9001 certified quality management, a SteelR door delivers heritage aesthetics with modern performance that a traditional timber door simply cannot match. [Contact us](/contact) to discuss your conservation area project.
+
+## Frequently Asked Questions
+
+### Do I need planning permission to replace a front door in a conservation area?
+
+It depends on whether an Article 4 Direction applies to your property. Most conservation areas do not require planning permission for a like-for-like front door replacement, but Article 4 Directions remove permitted development rights for the front elevation in specific areas. Check your local planning authority's online planning map or speak to the conservation officer before ordering. A pre-application enquiry usually gives a definitive answer within two to three weeks.
+
+### Can I use a steel door in a conservation area?
+
+Yes, provided the door reproduces the proportions, panel layout, glazing pattern and colour of the historic original. Conservation officers assess visual appearance against the character of the area, not the material itself. A well-detailed steel door finished in a correct heritage colour is frequently approved where a poorly proportioned modern timber door would be refused. Bespoke manufacture is essential, because standard off-the-shelf doors rarely match period proportions.
+
+### What colour should I specify for a conservation area door?
+
+Match either the existing door or the documented period palette for your property's style. Georgian doors are commonly Georgian green, black, dark blue or oxblood. Victorian doors were painted in stronger colours including deep greens, reds and browns. Edwardian taste was lighter, with ivory, sage and muted greens. RAL references should appear on the application to give the conservation officer a clear reference. Avoid very modern colours such as pure white, bright primaries or metallic finishes unless the property already has them.
+
+### How long does conservation area approval take?
+
+Pre-application advice typically returns within two to six weeks, depending on the authority. A formal planning application takes eight weeks as standard and can be longer in high-demand authorities. Plan your door project with this lead time in mind. If the property is listed as well as being in a conservation area, Listed Building Consent is also required, which adds similar time.
+
+### What happens if I replace a door without approval in a conservation area?
+
+Where Article 4 applies and consent has not been obtained, the local authority can issue an enforcement notice requiring removal or restoration of the historic door. Enforcement can also be triggered by a neighbour complaint. The safest approach is always to confirm whether approval is required before ordering. If you are uncertain, pay for pre-application advice rather than risk enforcement.
+
+### Does a heritage-style steel door meet modern thermal and security standards?
+
+Yes. A bespoke steel door can achieve U-values around 1.0 W/m²K through thermal breaks and modern insulation, materially better than any traditional timber equivalent. Security can reach SR3 under BS EN 1627 with PAS 24 and Secured by Design certification, far above anything a restored period door can offer. This combination of heritage detailing with modern performance is a major reason conservation area owners specify steel over timber restoration.`,
 };
 
 export default post;

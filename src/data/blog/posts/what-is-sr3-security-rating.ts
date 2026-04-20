@@ -54,7 +54,33 @@ In addition to SR3 testing, look for **Secured by Design** accreditation. This i
 
 ## SteelR and SR3
 
-Every SteelR entrance door achieves SR3 as standard — not as an upgrade or optional extra. Combined with ISO 9001 certified manufacturing, fire-rated steel construction and [Secured by Design approval](/blog/secured-by-design-doors), SteelR doors provide the highest level of security available for a residential entrance door in the United Kingdom. See examples of our [traditional steel doors with lion knockers](/collection/black-traditional-lion-knocker-open) and [contemporary designs](/collection/black-contemporary-dual-sidelights) in our collection.`,
+Every SteelR entrance door achieves SR3 as standard — not as an upgrade or optional extra. Combined with ISO 9001 certified manufacturing, fire-rated steel construction and [Secured by Design approval](/blog/secured-by-design-doors), SteelR doors provide the highest level of security available for a residential entrance door in the United Kingdom. See examples of our [traditional steel doors with lion knockers](/collection/black-traditional-lion-knocker-open) and [contemporary designs](/collection/black-contemporary-dual-sidelights) in our collection.
+
+## Frequently Asked Questions
+
+### Is SR3 the same as RC3?
+
+Yes. SR3 and RC3 refer to the same resistance class under BS EN 1627:2011. The SR (Security Rating) naming is used by UK suppliers, while RC (Resistance Class) is the original European convention. Both describe the same test protocol, attack profile and certification. You will see the two terms used interchangeably on product specifications and certificates.
+
+### How does SR3 compare to PAS 24?
+
+PAS 24 tests resistance to basic hand tools (screwdrivers, chisels, mallets) for three minutes. SR3 tests resistance to heavy-duty tools including crowbars, drills and angle grinders for five minutes by trained laboratory operatives. SR3 represents a materially higher real-world attack resistance than PAS 24, which is the minimum standard under Approved Document Q for new-build homes. A door can hold both certifications, but SR3 is the more demanding.
+
+### Do home insurers require or discount SR3 doors?
+
+Standard home insurance policies do not mandate SR3, but many insurers recognise it as a premium security specification and apply lower premiums or waive policy excesses for forced-entry claims. Specialist high-value home insurers frequently require SR3 or equivalent certification on front doors. Supply your insurer with the certificate reference at renewal to benefit.
+
+### Can a composite or uPVC door achieve SR3?
+
+In principle any door material can be tested, but SR3 is rarely achieved outside steel construction. The five-minute power-tool attack involves drilling, prying and cutting loads that composite skins and uPVC frames are not engineered to resist. Most SR3-certified residential doorsets on the UK market are steel, with a minority using heavy timber or reinforced composite construction.
+
+### How long does the SR3 certification remain valid?
+
+SR3 certification is tied to the specific door design and specification that was tested. It does not expire for that design, but any material change to the structure, locking or glazing requires re-testing. LPCB and other accrediting bodies issue a certificate against a specific product reference, which the manufacturer includes in every handover pack.
+
+### Is an SR3 door worth the extra cost over PAS 24?
+
+For most UK homes facing a standard threat profile, PAS 24 meets building regulations and the vast majority of insurance policies. SR3 is worth specifying for higher-risk properties: high-value homes, isolated locations, areas with repeat-burglary history and any property where the owner has experienced an attempted entry before. It is also worth considering if the long-term horizon matters: SR3 specification usually comes with better hardware, thicker steel and longer guarantees.`,
 };
 
 export default post;

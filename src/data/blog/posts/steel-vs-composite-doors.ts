@@ -97,7 +97,33 @@ Choose a **composite door** if you want a solid upgrade from timber at a moderat
 
 Choose a **steel entrance door** if you want the **highest possible security** (SR3 rated), complete design freedom, UK manufacturing, professional installation and a door that will last for decades without compromise. Steel is the right choice for high-value properties, security-conscious homeowners, and anyone who wants a truly bespoke entrance.
 
-For homeowners in [London](/areas/london), [Surrey](/areas/surrey), [Buckinghamshire](/areas/buckinghamshire) and across the UK, SteelR provides a complete service from [design consultation through to installation](/process). Every door is manufactured to [SR3 security standards](/blog/what-is-sr3-security-rating) and [Secured by Design approved](/security). [Browse our full collection](/collection) or [request a free consultation](/contact) to discuss your requirements.`,
+For homeowners in [London](/areas/london), [Surrey](/areas/surrey), [Buckinghamshire](/areas/buckinghamshire) and across the UK, SteelR provides a complete service from [design consultation through to installation](/process). Every door is manufactured to [SR3 security standards](/blog/what-is-sr3-security-rating) and [Secured by Design approved](/security). [Browse our full collection](/collection) or [request a free consultation](/contact) to discuss your requirements.
+
+## Frequently Asked Questions
+
+### Is a steel front door really more secure than a composite door?
+
+Yes, by a substantial margin. Most composite doors achieve PAS 24 certification: a three-minute resistance test against basic hand tools. A SteelR steel door achieves SR3 under BS EN 1627, a five-minute test against power tools including drills and angle grinders. The difference is not marginal. SR3 is tested against a threat profile that would defeat a composite door in under a minute.
+
+### Are steel front doors much heavier than composite doors?
+
+Yes. A typical SteelR door weighs 60 to 90kg depending on specification, compared to 30 to 40kg for a composite door. This weight is carried by heavy-duty hinges rated for the load, and the door hangs and operates smoothly in daily use. The additional mass contributes to security, thermal stability and acoustic performance.
+
+### How does the U-value of a steel door compare to a composite door?
+
+A thermally broken steel entrance door achieves U-values of 1.0 to 1.4 W/m²K, comparable to or better than a composite door (typically 1.2 to 1.6 W/m²K). The key is the thermal break: a non-conductive barrier between the inner and outer steel skins that prevents cold bridging. All SteelR doors are thermally broken as standard.
+
+### Will a steel door rust?
+
+No. SteelR doors use galvanised steel with a factory-applied powder-coat finish warranted for the life of the product. The powder coat creates a sealed barrier that prevents moisture reaching the steel. Unlike timber doors, there is no annual maintenance and no refinishing required. The finish needs only occasional cleaning with warm soapy water.
+
+### Can a composite door be upgraded to SR3 later?
+
+No. Security ratings apply to the complete doorset as tested. You cannot retrofit a composite door to meet SR3: the frame, leaf construction and locking would all need to be replaced, at which point you have a different door. SR3 must be specified at the point of purchase. This is a significant reason to consider the security specification carefully at the start of a door project.
+
+### Which is better value over a 25-year horizon?
+
+Composite doors typically need replacement at 15 to 20 years due to fading, frame movement and component wear. A well-made steel door will last 25 to 40+ years with no refurbishment. If your horizon is over 20 years, total cost of ownership for steel usually matches or beats replacing a composite door twice. Steel also retains better resale presentation at the point of selling the property.`,
 };
 
 export default post;

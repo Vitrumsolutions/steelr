@@ -110,7 +110,33 @@ Choose **timber** if you prioritise the natural grain and tactile quality of rea
 
 Choose **steel** if you want the **highest available security** (SR3 rated), zero maintenance, complete design freedom, superior long-term durability and a door that will perform consistently for decades.
 
-At SteelR, we manufacture bespoke steel entrance doors that deliver on every measure — SR3 security, Secured by Design accreditation, ISO 9001 certified quality and complete design freedom. Whether you want a door that replicates the warmth of traditional timber or a bold contemporary statement, we design and build it to your exact specification. Contact us to start the conversation.`,
+At SteelR, we manufacture bespoke steel entrance doors that deliver on every measure — SR3 security, Secured by Design accreditation, ISO 9001 certified quality and complete design freedom. Whether you want a door that replicates the warmth of traditional timber or a bold contemporary statement, we design and build it to your exact specification. Contact us to start the conversation.
+
+## Frequently Asked Questions
+
+### Do timber doors look better than steel doors?
+
+Timber offers natural grain and visible warmth that is hard to replicate. However, a well-specified steel door matches timber convincingly at normal viewing distance, especially when finished in heritage RAL colours with the correct panel proportions. Many SteelR installations on period properties look like painted timber to passersby. If you want the character of unpainted hardwood grain on display, timber remains the only option; for any painted finish, steel delivers the same aesthetic without maintenance.
+
+### How much maintenance does a timber front door need?
+
+Real timber doors typically need re-oiling or repainting every 3 to 5 years in UK weather, depending on the finish and level of exposure. Draught seals and weatherstripping need periodic replacement. Warping, splitting and swelling can occur with seasonal humidity and need correction. Total cost of maintenance over 20 years often approaches or exceeds the original door price. Steel doors with powder coat are effectively maintenance-free for their 25 to 40 year lifespan.
+
+### Is a solid timber door as secure as a steel door?
+
+Solid timber doors can be secure when specified carefully, but rarely reach SR3 under BS EN 1627. Most premium timber doors stop at PAS 24 certification. To reach SR3 in timber requires heavy engineered cores, steel-reinforced stiles and upgraded locking, which makes the door very expensive and diminishes the natural wood aesthetic. Steel achieves SR3 more consistently and at a more predictable price point.
+
+### Will steel doors show fingerprints or dents?
+
+No. Powder-coated steel is highly resistant to fingerprints and everyday knocks. The finish is impact-resistant (not simply paint) and can take the occasional brush from a vacuum cleaner or pram without marking. Timber is actually more prone to visible marks from daily use because the grain shows scratches and the finish wears at high-contact points.
+
+### Which is better for a listed building or conservation area?
+
+For listed buildings, conservation officers may require like-for-like timber restoration if the original door survives. In conservation areas without listed status, modern steel doors designed to match historic timber proportions are routinely approved, provided they replicate the panel layout, proportions and finish of the period. Speak to your local conservation officer about material preference before ordering either option.
+
+### Do timber doors last longer than steel in the long run?
+
+Well-maintained hardwood doors can last 50+ years, but require continuous upkeep. Steel doors last 25 to 40+ years with no upkeep. The honest comparison is: timber with commitment to maintenance vs. steel without. In practice, steel outlasts most real-world maintained timber because most homeowners do not sustain a 5-year repaint cycle over 30 years, and small maintenance failures compound into bigger problems over time.`,
 };
 
 export default post;

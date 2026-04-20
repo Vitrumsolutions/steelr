@@ -132,7 +132,33 @@ Each layer adds time, noise and risk for a would-be intruder — and the more la
 
 If you could make only one security improvement to your home, **upgrade your front door**. A secure front door rated to SR3 with Secured by Design accreditation eliminates the most common entry method and sends a clear signal that your property is well protected.
 
-At SteelR, every entrance door we manufacture is **SR3 security rated**, **Secured by Design accredited** and built with **multi-point locking systems** and **security-rated glazing** as standard. Combined with ISO 9001 certified manufacturing and professional installation, a SteelR door provides the strongest possible foundation for your home security. Contact us to discuss how we can help secure your home.`,
+At SteelR, every entrance door we manufacture is **SR3 security rated**, **Secured by Design accredited** and built with **multi-point locking systems** and **security-rated glazing** as standard. Combined with ISO 9001 certified manufacturing and professional installation, a SteelR door provides the strongest possible foundation for your home security. Contact us to discuss how we can help secure your home.
+
+## Frequently Asked Questions
+
+### What is the single biggest home security upgrade for a UK house?
+
+The front door. Office for National Statistics data shows the front door is the single most common burglary entry point. Upgrading a standard PAS 24 door to an SR3-rated Secured by Design doorset eliminates the most vulnerable point of entry, and the visible security also deters opportunistic attempts. No other single upgrade closes off a specific attack route as completely.
+
+### How long does a typical burglary attempt last?
+
+Most opportunistic burglars will abandon an attempt that takes longer than three to five minutes. PAS 24 certification is a three-minute test against hand tools. SR3 is a five-minute test against power tools. The material difference between these specifications is whether the door deters the average burglar or only a determined, tooled-up one. For most UK homes, SR3 places you well above the threshold of effort a typical burglar will commit.
+
+### Do alarms and cameras actually deter burglars?
+
+Visible security systems materially reduce burglary risk. Academic research by the University of North Carolina (interviews with convicted burglars) and Home Office statistics both indicate that visible alarm signals, doorbell cameras and exterior cameras reduce target selection. However, alarms without a secure door simply delay entry. The right combination is layered physical security (door, locks, windows) plus visible electronic deterrents.
+
+### Is smart lock technology secure enough for a front door?
+
+Quality smart locks from manufacturers with proper independent security testing (including cyber-security testing such as Secured by Design CyberSecure) are as secure as traditional mechanical locks. Cheap smart locks that lack certification have been shown to have both physical and software vulnerabilities. If you want a smart lock, specify one that holds SBD CyberSecure certification or equivalent testing, installed in an SR3-rated doorset.
+
+### Are ground-floor windows or the back door as important as the front?
+
+Ground-floor windows and rear doors are the second and third most common entry points. Once the front door is secure, upgrade ground-floor windows to laminated security glazing and the back door to at least PAS 24. Patio and French doors are also common entry points and should use anti-lift systems. Layered security works: each upgrade adds time and risk to an attempted entry.
+
+### Do home insurance premiums drop with SR3 or Secured by Design specifications?
+
+Many UK insurers offer premium reductions or waived excesses for forced-entry claims on properties with SR3 and Secured by Design accredited doors. The benefit varies by insurer and is not applied automatically: you need to request it at renewal and supply the certificate references from the installer. For some policies the savings can offset a meaningful proportion of the door upgrade cost over time.`,
 };
 
 export default post;

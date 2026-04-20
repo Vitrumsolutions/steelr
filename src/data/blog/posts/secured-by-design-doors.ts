@@ -81,7 +81,33 @@ Every SteelR steel entrance door is **Secured by Design accredited**, **SR3 secu
 
 We believe that security should never be an optional extra or an upgrade. It is built into every door from the outset — from the fire-rated steel construction and multi-point locking systems to the reinforced frames and security-rated glazing.
 
-If you are looking for Secured by Design doors that combine the highest security standards with complete design freedom, we would welcome the opportunity to discuss your project. Contact SteelR to start your bespoke door consultation.`,
+If you are looking for Secured by Design doors that combine the highest security standards with complete design freedom, we would welcome the opportunity to discuss your project. Contact SteelR to start your bespoke door consultation.
+
+## Frequently Asked Questions
+
+### Is Secured by Design a legal requirement?
+
+Secured by Design is not a statutory requirement, but Approved Document Q of the Building Regulations requires new dwellings in England to have secure doorsets. Secured by Design approval is the clearest way to demonstrate compliance with Approved Document Q because it already references the BS EN 1627 and PAS 24 tests that underpin the regulation. Many local authority planning departments specifically reference Secured by Design for developer schemes.
+
+### How is Secured by Design different from SR3?
+
+SR3 is an attack-resistance rating for the door itself under BS EN 1627:2011. Secured by Design is a broader accreditation run by UK police that assesses the whole doorset (leaf, frame, hinges, locking, glazing, hardware) plus the manufacturer's quality systems. A door can hold SR3 without Secured by Design accreditation, and some Secured by Design doors sit at lower rating tiers. The strongest specification is a door that carries both.
+
+### Do UK insurers give discounts for Secured by Design doors?
+
+Many do, though the discount varies by insurer. Some apply reduced premiums directly, others waive or reduce policy excesses on forced-entry claims. Specialist high-value home insurers often list Secured by Design as a preferred specification. Always ask your insurer for the specific benefit at renewal and supply them with the certificate reference from the installer.
+
+### How can I verify a door is genuinely Secured by Design accredited?
+
+Check the official Secured by Design member directory at securedbydesign.com. Every accredited product and manufacturer is listed there by name, with accreditation dates and product references. Ask the supplier for the specific doorset reference to look up. If a supplier cannot provide a reference that appears on the SBD list, the accreditation claim is unverified.
+
+### Does Secured by Design accreditation cover the installation too?
+
+The accreditation covers the doorset as a product. Proper installation is then required for the security performance to hold in practice. Secured by Design guidance recommends installation by the manufacturer's own trained fitters or certified installers, and specifies fixings and substrate requirements that must be followed. A correctly specified Secured by Design door fitted badly will not perform as tested.
+
+### Is Secured by Design worth it for a standard UK home?
+
+Yes, for most buyers. The research the accrediting body cites indicates up to 75% less burglary on developments built to Secured by Design standards, the accreditation fulfils Approved Document Q for new builds, and many insurers give a premium benefit. The incremental cost over a non-accredited equivalent is usually modest, especially when the door is being specified for other reasons such as design, thermal performance or longevity.`,
 };
 
 export default post;
