@@ -4,6 +4,7 @@
 # next.js
 /.next/
 /out/
+tsconfig.tsbuildinfo
 
 # production
 /build
@@ -23,4 +24,16 @@ npm-debug.log*
 
 # firecrawl
 .firecrawl/
+
+# claude code local state
 .claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/skills/
+.claude/worktrees/
+
+# automation artefacts (playwright/screenshots)
+.playwright-mcp/
+dashboard-*.png
+
+# old audit artefacts
+audit-2026-04-18/
