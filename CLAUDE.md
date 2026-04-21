@@ -540,6 +540,58 @@ Also shipped without code commit:
 - Images optimized: 24.7MB → 11.7MB (52% reduction via sharp)
 - Hero carousel: lazy loading on non-first images
 
+## Social Media Kit (Phase 2.1 built 21 Apr 2026)
+
+Complete launch kit in `social/` folder — everything needed to go live on Instagram, TikTok, Pinterest, YouTube Shorts and LinkedIn. All assets generated from existing 67 portrait door images + 7 detail close-ups, no filming needed for first month of content.
+
+### Folder structure
+```
+social/
+  README.md                  — handles, bios, hashtag pools, posting cadence
+  LAUNCH-CHECKLIST.md        — step-by-step account setup + week 1 posting schedule
+  captions.md                — 20 ready-to-paste Reel captions (IG/TikTok/LinkedIn per reel)
+  brand-kit/                 — profile avatars, banners, highlight covers, high-res logos
+    highlight-covers/        — 6 IG Story highlight icons (Collection, Details, Process, Areas, Security, FAQ)
+    logo-hires/              — 300 DPI print-ready logos (up to 4800x4800)
+  reels/                     — 20 vertical MP4s (1080x1920, 10s, H.264, 4-7 MB each)
+  pinterest/                 — 40 pins (1000x1500 PNG) + pins.csv manifest for bulk upload
+  fonts/Montserrat-Thin.ttf  — variable font bundled (weights 100-900)
+  scripts/                   — Python generators (idempotent, safe to re-run)
+```
+
+### Build commands
+```bash
+python social/scripts/build-brand-kit.py    # 15 brand-kit PNGs
+python social/scripts/build-reels.py         # 20 Ken Burns Reels (~25 min on this machine)
+python social/scripts/build-pinterest.py     # 40 Pinterest pins (~60 sec)
+```
+
+### Content design
+- **Reels:** slow Ken Burns zoom (1.0x → 1.12x or vice versa) with subtle pan. Gold 'SR3 RATED · PAS 24 · UK MANUFACTURED'-style spec line top, cream caption bottom-left, steel|r watermark bottom-right. Dark gradients top + bottom for text legibility. 30 FPS, libx264, 6 Mbps. No audio (captions baked in, IG default-mute friendly).
+- **Pinterest pins:** two styles — "panel" (top 70% image, cream text panel bottom 30%, Pinterest search-friendly) and "overlay" (full-bleed image, bottom gradient, cream text). Each pin carries title, gold subtitle, steelr.co.uk URL, watermark. Links direct to specific `/collection/[slug]` pages for pin-to-product traffic.
+- **Brand kit:** Montserrat Thin wordmark with gold pipe separator rendered as Pillow rectangle (never the `|` character, per brand rules). Avatars 1080x1080, LinkedIn banner 1584x396, YouTube banner 2560x1440, Twitter banner 1500x500.
+
+### House style baked into all scripts
+- No em dashes, no exclamation marks (CLAUDE.md rule)
+- No displayed prices
+- No competitor names
+- All CSVs and file names ASCII-safe (middle-dot `·` only appears in rendered image content, not filenames)
+
+### Handles strategy
+Priority order: `@steelrdoors` → `@steelr.doors` → `@steelr.uk` → `@steelrldn`. All 5 platforms under `info@supplywindows.co.uk` for single-login consistency.
+
+### Adding content
+1. Drop new source images into `public/images/gallery/`
+2. Edit `REELS` or `PINS` arrays in the relevant script
+3. Re-run script — all outputs regenerate idempotently
+4. For new reel captions, append to `social/captions.md`
+
+### Next phases (not yet built)
+- Instagram carousels (7-slide blog-post repurposing)
+- Process B-roll (needs filming — 30 seconds of lock-click / hinge / install footage would yield a year of 'detail' content)
+- Before/after install Reels (needs customer permission + shots)
+- Automated social performance tracker (alongside rank tracking at `vitrums/audit-data/`)
+
 ## Gotchas
 - **Never run `npm run build` while dev server is running** — corrupts .next cache, breaks all CSS
 - **Google Business Profile edit panel** — renders as overlay on Google Search, not automatable for text/photo upload

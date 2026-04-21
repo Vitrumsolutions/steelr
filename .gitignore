@@ -37,3 +37,15 @@ dashboard-*.png
 
 # old audit artefacts
 audit-2026-04-18/
+
+# social build artefacts
+# Keep: scripts, README, LAUNCH-CHECKLIST, captions, brand-kit (small), pinterest/pins.csv, fonts
+# Exclude: large regeneratable binaries (reels MP4s, pinterest PNGs). Run scripts to rebuild.
+social/reels/*.mp4
+social/reels/_frames/
+social/reels/_build.log
+social/reels/_preview*.jpg
+social/reels/_preview*.png
+social/pinterest/*.png
+social/scripts/__pycache__/
+__pycache__/
