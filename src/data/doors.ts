@@ -313,6 +313,7 @@ function parseDoor(
   if (altLower.includes("lion knocker")) features.push("Lion Head Knocker");
   if (altLower.includes("ring knocker")) features.push("Ring Knocker");
   if (altLower.includes("square knocker")) features.push("Square Knocker");
+  if (altLower.includes("doctor knocker")) features.push("Doctor Knocker");
   if (altLower.includes("brass")) features.push("Brass Hardware");
   if (altLower.includes("chrome")) features.push("Chrome Hardware");
   if (altLower.includes("gold inlay")) features.push("Gold Inlay");
@@ -322,7 +323,7 @@ function parseDoor(
   if (altLower.includes("stained glass")) features.push("Stained Glass");
   if (altLower.includes("glass") && !altLower.includes("frosted") && !altLower.includes("stained")) features.push("Glazed Panels");
   if (altLower.includes("ribbed")) features.push("Ribbed Panel");
-  if (altLower.includes("panelled")) features.push("Panelled Design");
+  if (altLower.includes("panelled") || altLower.includes("5-panel") || altLower.includes("4-panel")) features.push("Panelled Design");
   if (altLower.includes("ornate")) features.push("Ornate Detailing");
   if (altLower.includes("arched")) features.push("Arched Surround");
   if (altLower.includes("double")) features.push("Double Doors");
@@ -336,6 +337,11 @@ function parseDoor(
   if (altLower.includes("fluted")) features.push("Fluted Detail");
   if (altLower.includes("horizontal")) features.push("Horizontal Lines");
   if (altLower.includes("oval window")) features.push("Oval Window");
+  if (altLower.includes("fingerprint") || altLower.includes("keypad")) features.push("Fingerprint Access");
+  if (altLower.includes("grille")) features.push("Decorative Grille");
+  if (altLower.includes("timber canopy")) features.push("Timber Canopy");
+  if (altLower.includes("tiled canopy")) features.push("Tiled Canopy");
+  if (altLower.includes("railings")) features.push("Iron Railings");
 
   if (features.length === 0) features.push(style + " Design");
 
@@ -385,10 +391,17 @@ function parseDoor(
     "letterbox": "Integrated Letterbox",
   };
 
-  // Collect ALL matching context phrases from slug tail (ordered by specificity)
+  // Collect ALL matching context phrases from slug tail (ordered by specificity).
+  // Skip phrases whose keyword already appears in the primary feature (e.g. don't
+  // append "Canopy Entrance" when the key feature is already "Timber Canopy").
+  const keyFeatureLower = keyFeature.toLowerCase();
   const contextPhrases: string[] = [];
   for (const [keyword, phrase] of Object.entries(contextMap)) {
-    if (slugTail.includes(keyword) && phrase !== keyFeature) {
+    if (
+      slugTail.includes(keyword) &&
+      phrase !== keyFeature &&
+      !keyFeatureLower.includes(keyword)
+    ) {
       contextPhrases.push(phrase);
     }
   }
