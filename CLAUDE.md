@@ -64,7 +64,7 @@ Orientation is noted so code can handle layout correctly.
 | `steelr-navy-panelled-lanterns.jpg` | portrait | 1068x1600 |
 | `steelr-navy-traditional-vine-porch.jpg` | portrait | 1200x1600 |
 
-### gallery/ (50 images)
+### gallery/ (56 images)
 | File | Orientation | Dimensions |
 |------|-------------|------------|
 | `steelr-black-contemporary-dual-sidelights.jpg` | portrait | 899x1599 |
@@ -117,17 +117,26 @@ Orientation is noted so code can handle layout correctly.
 | `steelr-taupe-panelled-dual-sidelights.jpg` | portrait | 1200x1600 |
 | `steelr-teal-panelled-glass-hallway.jpg` | portrait | 1068x1600 |
 | `steelr-walnut-ribbed-columns.jpg` | portrait | 1200x1600 |
+| `steelr-black-traditional-doctor-knocker-canopy.jpg` | portrait | 900x2000 |
+| `steelr-black-traditional-doctor-knocker-railings.jpg` | portrait | 938x2000 |
+| `steelr-navy-traditional-brass-fanlight.jpg` | portrait | 1500x2000 |
+| `steelr-black-panelled-double-fingerprint.jpg` | portrait | 900x2000 |
+| `steelr-black-traditional-timber-canopy.jpg` | portrait | 900x2000 |
+| `steelr-black-panelled-grille-sidelights.jpg` | portrait | 934x2000 |
 
-### detail/ (4 images)
+### detail/ (7 images)
 | File | Orientation | Dimensions |
 |------|-------------|------------|
 | `steelr-black-panelled-brass-lion-closeup.jpg` | portrait | 233x433 |
 | `steelr-grey-panelled-brass-handle-closeup.jpeg` | portrait | 1068x1600 |
 | `steelr-grey-panelled-chrome-multilock.jpg` | portrait | 1080x1920 |
 | `steelr-navy-panelled-chrome-ring-closeup.jpg` | portrait | 433x1093 |
+| `steelr-black-detail-ekey-access-panel.jpg` | portrait | 1001x1500 |
+| `steelr-black-detail-ekey-fingerprint.jpg` | portrait | 1001x1500 |
+| `steelr-black-detail-hinge-locking-pin.jpg` | portrait | 1001x1500 |
 
 ### Orientation Summary
-- **Portrait:** 58 images (most door shots are naturally tall)
+- **Portrait:** 67 images (most door shots are naturally tall)
 - **Landscape:** 5 images (good for full-width hero banners, feature sections)
 - Landscape files: `steelr-black-ornate-medallion-stone.jpg`, `steelr-navy-panelled-chrome-frosted.jpg`, `steelr-black-panelled-sidelights-palms.jpg`, `steelr-black-traditional-columns-mansion.jpg`, `steelr-black-traditional-wide-frosted.jpg`
 

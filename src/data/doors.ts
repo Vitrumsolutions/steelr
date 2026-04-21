@@ -472,6 +472,12 @@ export const doors: Door[] = [
   { src: "/images/gallery/steelr-blue-panelled-brass-hardware-flat.jpg", alt: "Blue panelled steel door with brass hardware detail", style: "Traditional" },
   { src: "/images/gallery/steelr-black-panelled-chrome-sidelights-interior.jpeg", alt: "Black panelled steel door with chrome handle and sidelights interior view", style: "Contemporary" },
   { src: "/images/gallery/steelr-white-panelled-sidelights-hallway.jpg", alt: "White panelled steel door with sidelights in hallway", style: "Contemporary" },
+  { src: "/images/gallery/steelr-black-traditional-doctor-knocker-canopy.jpg", alt: "Black traditional 5-panel steel door with doctor knocker under tiled canopy", style: "Traditional" },
+  { src: "/images/gallery/steelr-black-traditional-doctor-knocker-railings.jpg", alt: "Black traditional 5-panel steel door with doctor knocker and wrought iron railings", style: "Traditional" },
+  { src: "/images/gallery/steelr-navy-traditional-brass-fanlight.jpg", alt: "Navy traditional 4-panel steel door with brass hardware and number 102 fanlight", style: "Traditional" },
+  { src: "/images/gallery/steelr-black-panelled-double-fingerprint.jpg", alt: "Black panelled double steel doors with brass knockers and fingerprint access", style: "Double Doors" },
+  { src: "/images/gallery/steelr-black-traditional-timber-canopy.jpg", alt: "Black traditional steel door with timber canopy on brick terrace", style: "Traditional" },
+  { src: "/images/gallery/steelr-black-panelled-grille-sidelights.jpg", alt: "Black contemporary panelled steel door with bar handle, decorative grille and sidelights", style: "Contemporary" },
 ].map((d) => parseDoor(d.src, d.alt, d.style as Door["style"]));
 
 // Deduplication pass: if any doors still share a title after parseDoor,
