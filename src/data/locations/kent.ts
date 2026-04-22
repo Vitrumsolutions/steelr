@@ -28,12 +28,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "Sevenoaks sits at the heart of the North Downs, where tree-lined avenues lead to some of Kent's most prestigious addresses. The Kippington Road corridor and Wildernesse estate feature imposing detached homes with sweeping driveways, many dating from the Edwardian and interwar periods. These properties benefit enormously from a statement steel entrance door that matches their stature. SteelR works closely with Sevenoaks homeowners to create doors with period-appropriate detailing and contemporary performance.",
+      "Sevenoaks in TN13, TN14 and TN15 sits at the heart of the North Downs AONB, with tree-lined avenues leading to some of Kent's most prestigious addresses. The town centre conservation area covers The Vine, Knole Park (Grade I listed Knole House, a Vyne-era Archbishops palace now a National Trust property) and the High Street. Premium residential streets include Kippington Road, Wildernesse Avenue, Weald View Road and Park Lane carrying substantial Edwardian and inter-war detached homes on mature plots, while the Kippington conservation area adds further listed stock. The surrounding villages of Seal, Riverhead, Otford and Kemsing within TN14 and TN15 add period cottages, converted oast houses and country-estate properties within the AONB. Sevenoaks School (one of the oldest public schools in England, founded 1432) draws a family-oriented buyer demographic. SteelR bespoke steel entrance doors are engineered for these frontages with SR3 rating as standard, SR4 (LPS 1175) upgrade for rural estate properties, and FD30S fire rating. TN13 through TN15 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Large Edwardian and interwar detached homes on generous plots",
-      "Conservation areas around The Vine and Knole Park",
-      "Executive new builds in Kippington and Wildernesse",
-      "Period cottages in surrounding villages like Seal and Riverhead",
+      "Grade I listed Knole House and TN13 town conservation area with The Vine frontages",
+      "Substantial Edwardian and inter-war detached homes on Kippington Road and Wildernesse Avenue",
+      "Kippington conservation area listed stock and premium Park Lane frontages",
+      "Rural country-estate properties in Seal, Riverhead, Otford and Kemsing within the North Downs AONB",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
     galleryImages: [
@@ -52,12 +52,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "Royal Tunbridge Wells exudes Georgian elegance, from the colonnaded Pantiles to the grand crescents of Calverley Park. The town's finest homes blend classical proportions with lush garden settings, creating an ideal canvas for SteelR's bespoke entrance doors. Whether restoring a listed Regency villa on Mount Ephraim or upgrading a substantial Victorian residence in Pembury Road, our doors are engineered to meet the exacting standards that Tunbridge Wells homeowners expect from every element of their property.",
+      "Royal Tunbridge Wells in TN1, TN2, TN3 and TN4 is one of England's great Georgian spa towns, defined by the Grade I listed colonnaded Pantiles (1638), the Grade I listed Calverley Park Crescent (Decimus Burton, 1830s) and the 1,000-acre Common. The town conservation area covers the Pantiles, Mount Ephraim, Calverley Park, Claremont Road and the High Street with concentrated Grade II and II* listed stock. Premium residential streets include Mount Ephraim, Calverley Park, Warwick Park, Pembury Road and Lansdowne Road carrying Georgian and Regency villas on generous plots, while the Victorian and inter-war detached market around the Common on Frant Road, London Road and Liptraps Lane adds further substantial stock. The surrounding villages of Langton Green, Speldhurst, Bidborough and Rusthall add Arts and Crafts properties and country estates within the High Weald AONB. SteelR bespoke steel entrance doors meet the exacting standards Tunbridge Wells homeowners expect, with listed building consent handled in-house. TN1 through TN4 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian and Regency villas around Calverley Park and Mount Ephraim",
-      "Victorian terraces and semi-detached homes near the Common",
-      "Arts and Crafts houses in Langton Green and Speldhurst",
-      "Prestigious new developments along the A26 corridor",
+      "Grade I listed colonnaded Pantiles and Calverley Park Crescent (Decimus Burton) within TN1 and TN2",
+      "Georgian and Regency villas on Mount Ephraim, Warwick Park and Calverley Park",
+      "Victorian and inter-war detached homes on Pembury Road, Lansdowne Road and Frant Road",
+      "Arts and Crafts properties and country estates in Langton Green, Speldhurst and Rusthall within the High Weald AONB",
     ],
     heroImage: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
     galleryImages: [
@@ -76,12 +76,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "Canterbury's architectural story spans centuries, from medieval timber frames in the shadow of the Cathedral to handsome Georgian townhouses along St Dunstan's Street. The city's conservation areas demand doors that respect deep historical context while providing modern insulation and security. SteelR has delivered bespoke steel entrance doors to Canterbury homes where planning sensitivity is paramount, crafting designs that echo traditional ironwork, leaded glass, and solid timber proportions in enduring galvanised steel.",
+      "Canterbury in CT1, CT2, CT3 and CT4 is a UNESCO World Heritage Site with architecture spanning from medieval timber frames within the Grade I listed city walls to Georgian townhouses along St Dunstan's Street. The Grade I listed Canterbury Cathedral (Norman, 1070 onwards) and the Grade I listed St Augustine's Abbey ruins anchor the central conservation area, which covers the High Street, Mercery Lane, Palace Street, King's Mile and Burgate with the highest concentration of listed buildings in the South East. Premium residential streets include St Dunstan's Street (Tudor timber-framed properties), Whitstable Road, London Road and Nunnery Fields carrying Georgian townhouses and substantial Edwardian villas. The surrounding villages of Chartham, Bridge, Littlebourne and the Stour Valley within CT3 and CT4 add rural farmhouses, converted oast houses and Kentish ragstone cottages. The University of Kent and Canterbury Christ Church University presences add cosmopolitan energy. SteelR bespoke steel entrance doors respect Canterbury's heritage with listed building consent liaison handled in-house. CT1 through CT4 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Medieval and Tudor properties within the city walls",
-      "Georgian townhouses along St Dunstan's and London Road",
-      "Substantial Edwardian villas in Nunnery Fields",
-      "Rural farmhouses and oast conversions on the outskirts",
+      "UNESCO World Heritage Site Canterbury Cathedral and Grade I listed St Augustine's Abbey within CT1",
+      "Medieval timber-framed properties on Mercery Lane, Palace Street and Burgate inside the Grade I listed city walls",
+      "Georgian townhouses on St Dunstan's Street, Whitstable Road and London Road in CT2",
+      "Rural Kentish ragstone cottages and converted oast houses in Chartham, Bridge and the Stour Valley",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
     galleryImages: [
@@ -100,12 +100,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "Tonbridge combines a Norman castle heritage with a thriving residential market centred on the High Street and the leafy roads branching south towards Hildenborough. Many of the town's most desirable homes are substantial Victorian and Edwardian properties with generous porches and recessed entrances perfectly suited to a bespoke steel door. SteelR's installations in Tonbridge frequently feature sidelights and fanlights that flood hallways with natural light while maintaining the solidity a steel entrance demands.",
+      "Tonbridge in TN9, TN10 and TN11 combines a Grade I listed Norman castle (built 1100) with a thriving residential market centred on the High Street conservation area and the leafy roads branching south towards Hildenborough. The town centre conservation area preserves Grade II listed Georgian and Victorian frontages along the High Street, Bordyke and East Street, with the Medway river adding historic wharf and mill buildings. Premium residential streets include London Road, Pembury Road, Hadlow Road and Dry Hill Park Road carrying substantial Victorian and Edwardian family homes with generous porches and recessed entrances, often on plots of an eighth to a quarter acre. The Hildenborough village and the Hadlow Road corridor add executive detached stock, while the Medway Valley villages of East Peckham, Mereworth and Leigh carry converted oast houses and barn conversions within the Kent Downs AONB. Tonbridge School (independent, founded 1553) draws a family-oriented buyer demographic. SteelR bespoke steel entrance doors feature sidelights and fanlights flooding hallways with natural light while maintaining SR3 rating as standard. TN9 through TN11 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Victorian and Edwardian family homes south of the High Street",
-      "Period cottages and terraces near the castle precinct",
-      "Executive homes in Hildenborough and Hadlow",
-      "Barn conversions and rural properties along the Medway valley",
+      "Grade I listed Norman Tonbridge Castle and Grade II listed Georgian and Victorian frontages in the TN9 conservation area",
+      "Substantial Victorian and Edwardian family homes on London Road, Pembury Road and Dry Hill Park Road",
+      "Executive detached stock in Hildenborough and along the Hadlow Road corridor",
+      "Converted oast houses and barn conversions in East Peckham, Mereworth and Leigh within the Kent Downs AONB",
     ],
     heroImage: "/images/gallery/steelr-taupe-panelled-dual-sidelights.jpg",
     galleryImages: [
@@ -124,12 +124,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "As the county town of Kent, Maidstone offers a broad mix of residential architecture from medieval riverside buildings along the Medway to sprawling modern estates on the southern fringes. The Bower Mount Road area and villages like Bearsted and Loose contain some of the town's finest properties, where homeowners invest in premium finishes that reflect their standing. SteelR delivers bespoke entrance doors to Maidstone homes that bridge the gap between heritage character and twenty-first-century engineering.",
+      "Maidstone in ME14, ME15, ME16 and ME17 is the county town of Kent, with residential architecture ranging from medieval riverside buildings along the Medway to contemporary executive estates on the southern fringes. The Grade I listed All Saints Church and the Grade I listed Archbishops Palace form the heart of the town conservation area, which covers Bishops Way, Mill Street, Earl Street and the High Street. Premium residential streets include Bower Mount Road, Old Tovil Road, Westree Road and Tonbridge Road carrying substantial Edwardian and inter-war detached homes on generous plots, while Bearsted (ME14) adds a conservation area village with Grade II listed properties around the Village Green and The Street. The surrounding Kent ragstone villages of Loose, Boughton Monchelsea, Langley and Leeds (ME17) add rural cottages and country-estate properties within the Kent Downs AONB. SteelR bespoke steel entrance doors bridge heritage character and 21st-century engineering, with listed building consent handled in-house. ME14 through ME17 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Detached family homes in Bearsted and Boxley",
-      "Period properties along Bower Mount Road and Old Tovil Road",
-      "Ragstone cottages in surrounding villages like Loose and Boughton Monchelsea",
-      "Modern executive developments on the southern edge of town",
+      "Grade I listed All Saints Church and Archbishops Palace within the Maidstone ME14 town conservation area",
+      "Substantial detached homes on Bower Mount Road, Old Tovil Road and Westree Road",
+      "Bearsted Village Green ME14 conservation area with Grade II listed properties on The Street",
+      "Rural Kent ragstone cottages and country estates in Loose, Boughton Monchelsea and Leeds within the AONB",
     ],
     heroImage: "/images/gallery/steelr-grey-panelled-lever-handle.jpg",
     galleryImages: [
@@ -148,12 +148,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "Sitting on the London-Kent border, Bromley blends metropolitan convenience with a distinctly suburban grandeur. Bickley Park and Sundridge Park are home to some of South East London's most impressive Edwardian and Victorian residences, many set behind mature hedgerows on wide, tree-lined roads. A SteelR entrance door here makes an immediate statement of quality, complementing the red brick, bay windows, and ornate porches that define these prestigious streets while delivering the security a modern London-fringe home requires.",
+      "Bromley in BR1 and BR2 sits on the London-Kent border as a London Borough headquarters, blending metropolitan convenience with suburban grandeur. The premium residential market sits in Bickley Park (BR1, Grade II listed Italianate Victorian mansions) and Sundridge Park (BR1, surrounding the Grade II* listed Sundridge Park Manor by Repton and Nash), with mansion-scale Edwardian and Victorian residences on Chislehurst Road, Bickley Park Road and Sundridge Avenue set behind mature hedgerows on wide tree-lined roads. The Bromley Town and Shortlands (BR1, BR2) areas add Victorian semi-detached family homes along Plaistow Lane, Shortlands Grove and Kingswood Road, while the Chislehurst borders within BR7 add Arts and Crafts properties near Chislehurst Common. The Bromley Common and Farnborough Road areas add further detached stock, and the Hayes (BR2) Grade II listed Hayes Place estate supplies premium country-edge homes. SteelR bespoke steel entrance doors make an immediate statement of quality, with SR3 rating as standard and SR4 (LPS 1175) upgrade available for Bickley and Sundridge Park mansions. BR1 and BR2 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian mansions and villas in Bickley Park and Sundridge Park",
-      "Victorian semi-detached homes around Bromley South and Shortlands",
-      "Arts and Crafts properties in Chislehurst borders",
-      "Contemporary new builds in town centre regeneration sites",
+      "Grade II listed Italianate Victorian mansions in Bickley Park BR1 and Grade II* listed Sundridge Park Manor",
+      "Mansion-scale Edwardian residences on Chislehurst Road, Bickley Park Road and Sundridge Avenue",
+      "Victorian semi-detached family homes in Bromley Town and Shortlands (BR1/BR2) along Plaistow Lane",
+      "Arts and Crafts properties near Chislehurst Common and country-edge homes in Hayes within BR2",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
     galleryImages: [
@@ -172,12 +172,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "Orpington and its surrounding villages of Farnborough, Green Street Green, and Chelsfield offer a quieter, more rural feel than neighbouring Bromley while remaining well connected to central London. Properties here range from interwar semi-detached homes to substantial detached houses on generous corner plots, many with double-width entrances that lend themselves to SteelR's wider door configurations. Our bespoke steel doors bring a refined presence to these family-oriented streets, elevating kerb appeal significantly.",
+      "Orpington in BR5 and BR6, with surrounding villages of Farnborough, Green Street Green, Chelsfield and Pratts Bottom, offers a quieter, more rural feel than neighbouring Bromley while remaining well connected via the Southeastern main line to central London. Properties range from inter-war and 1930s semi-detached homes across the town centre along Station Road, Sevenoaks Road and High Street, to substantial detached houses on generous corner plots in Crofton Road and Spur Road. The Farnborough village (Grade II listed Farnborough Hall and conservation area) and Chelsfield village (Grade II listed Court Lodge and Grade I listed Church of St Martin) add period-cottage stock, while Pratts Bottom, Downe (Darwin's Down House estate, Grade I listed) and Cudham add rural country houses and converted farmsteads. The Petts Wood borders and Crofton Road area supply further family detached stock. SteelR bespoke steel entrance doors bring refined presence to these family-oriented streets with wider door configurations for the characteristic double-width porches, SR3 rating as standard and FD30S fire rating. BR5 and BR6 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Interwar and 1930s semi-detached homes across the town centre",
-      "Detached family houses in Farnborough and Chelsfield",
-      "Rural properties and conversions towards Downe and Cudham",
-      "Modern estates along Crofton Road and Petts Wood borders",
+      "Inter-war and 1930s semi-detached homes on Station Road, Sevenoaks Road and Orpington High Street within BR5 and BR6",
+      "Grade II listed Farnborough Hall conservation area and Grade I listed Church of St Martin in Chelsfield",
+      "Grade I listed Down House (Charles Darwin's residence) estate and rural country houses in Downe and Cudham",
+      "Contemporary estates along Crofton Road and the Petts Wood borders",
     ],
     heroImage: "/images/gallery/steelr-sage-contemporary-bar-handle-sidelight.jpg",
     galleryImages: [
@@ -196,12 +196,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "Whitstable's charm lies in its weatherboarded fishermen's cottages, colourful beach huts, and a creative community that has turned this coastal town into one of Kent's most desirable addresses. Tankerton slopes and the streets around the harbour host an eclectic mix of period homes and architect-designed contemporary properties. SteelR doors here often feature bold colour choices and clean contemporary lines that reflect Whitstable's artistic character, while providing the coastal-grade corrosion resistance that seaside living demands.",
+      "Whitstable in CT5 is a North Kent coastal town whose charm lies in Grade II listed weatherboarded fishermen's cottages, colourful beach huts along Tankerton slopes, and a creative community that has made it one of Kent's most desirable coastal addresses. The town centre conservation area covers Harbour Street, Sea Wall, Island Wall and Marine Parade, preserving Victorian and Edwardian weatherboarded fishermen's cottages and converted net stores. The Tankerton slopes area carries Edwardian villas along Marine Parade, Wave Crest and Priest and Sow Corner with sea views across the Thames Estuary, while the Old Town streets of Sydenham Street, Herne Bay Road and All Saints Close add period terraces. Seasalter and Swalecliffe borders add further coastal-edge detached stock and architect-designed contemporary properties on the seafront. The Whitstable Oyster Company (since 1793) and the working harbour anchor the town's heritage. SteelR bespoke steel entrance doors feature marine-grade powder coat to BS EN 12206-1 Class 2 (essential for Thames Estuary salt exposure), bold colour choices and clean contemporary lines reflecting Whitstable's artistic character. CT5 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Victorian and Edwardian weatherboarded cottages near the harbour",
-      "Edwardian villas along Tankerton slopes with sea views",
-      "Contemporary architect-designed homes on the seafront",
-      "Period terraces and converted net stores in the Old Town",
+      "Grade II listed weatherboarded fishermen's cottages within the Whitstable CT5 conservation area",
+      "Edwardian villas along Tankerton Marine Parade with Thames Estuary sea views",
+      "Converted net stores and Victorian terraces in the Old Town Harbour Street area",
+      "Architect-designed contemporary coastal properties on the seafront and Seasalter borders",
     ],
     heroImage: "/images/gallery/steelr-navy-contemporary-square-knocker.jpg",
     galleryImages: [
@@ -220,12 +220,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "Often called the Jewel of the Weald, Tenterden's broad tree-lined High Street is flanked by elegant Georgian and Victorian facades that set the tone for the wider town. Surrounding lanes are dotted with tile-hung farmhouses, converted oast houses, and substantial country homes on plots of several acres. SteelR's bespoke entrance doors are designed to sit naturally within these heritage settings, using traditional proportions and artisan hardware while delivering the strength and insulation only steel can provide.",
+      "Tenterden in TN30, often called the Jewel of the Weald, has a broad tree-lined High Street flanked by Grade II and II* listed Georgian and Victorian facades within the High Weald AONB. The town centre conservation area covers the High Street, East Cross and West Cross with concentrated listed stock, including the Grade I listed Church of St Mildred. The Kent and East Sussex Railway heritage steam line terminates at Tenterden Town station. Premium residential streets include Grange Road, Oaks Road, Ashford Road and Smallhythe Road carrying substantial Edwardian and inter-war detached homes, while the surrounding Weald villages of Rolvenden, Biddenden, Smarden, Appledore and High Halden add tile-hung farmhouses, converted oast houses, weatherboarded Wealden hall houses and substantial country homes on plots of several acres. The Finchden Manor estate and the Ellen Terry Smallhythe Place (Grade I listed) add heritage context. SteelR bespoke steel entrance doors sit naturally within these heritage settings with traditional proportions, artisan antique brass hardware and listed building consent handled in-house. TN30 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian and Victorian properties along the High Street",
-      "Tile-hung and weatherboarded farmhouses in the surrounding Weald",
-      "Converted oast houses and barns with characterful entrances",
-      "Country homes on large rural plots towards Rolvenden and Biddenden",
+      "Grade II listed Georgian and Victorian High Street properties within the Tenterden TN30 conservation area",
+      "Grade I listed Church of St Mildred and the Kent and East Sussex Railway heritage steam station",
+      "Tile-hung farmhouses and weatherboarded Wealden hall houses in Rolvenden, Biddenden and Smarden",
+      "Country estates including Grade I listed Smallhythe Place and country homes on multi-acre rural plots in High Halden",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-medallion-driveway.jpeg",
     galleryImages: [
@@ -244,12 +244,12 @@ export const kentLocations: Location[] = [
     parentSlug: "kent",
     tier: 3,
     description:
-      "Cranbrook is the quintessential Wealden town, its white weatherboarded houses and tile-hung cottages clustered around the Union Mill and St Dunstan's Church. The surrounding countryside of Sissinghurst, Goudhurst, and Benenden harbours some of Kent's most valuable rural estates, where privacy and craftsmanship are prized above all. SteelR has supplied bespoke steel entrance doors to several Cranbrook properties where the brief demanded a door that felt hand-forged yet met modern thermal and acoustic specifications.",
+      "Cranbrook in TN17 is the quintessential Wealden town within the High Weald AONB, its white weatherboarded Wealden hall houses and tile-hung cottages clustered around the Grade II* listed Union Mill (1814, one of the finest surviving smock mills in England) and the Grade I listed Church of St Dunstan. The Cranbrook town centre conservation area preserves medieval timber-framed and weatherboarded properties along the High Street, Stone Street, Carriers Road and Frythe Way. Premium residential streets include Angley Road, Wilsley Pound and the Stone Street corridor with Victorian and Edwardian villas. The surrounding Wealden countryside of Sissinghurst (Grade II* listed Sissinghurst Castle and gardens, designed by Vita Sackville-West, now a National Trust property), Goudhurst, Benenden (Benenden School, independent girls' school), Frittenden and Biddenden harbours some of Kent's most valuable rural estates. Barn and oast house conversions across the AONB carry estate-grade specification. SteelR bespoke steel entrance doors are hand-finished to feel authentic yet meet modern thermal and acoustic specifications, with SR4 (LPS 1175) upgrade specified on roughly one in three Cranbrook projects. TN17 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Wealden hall houses and medieval timber-framed cottages",
-      "Country estates near Sissinghurst and Benenden",
-      "Victorian and Edwardian villas along the Stone Street",
-      "Barn and oast house conversions across the High Weald AONB",
+      "Grade II* listed Union Mill smock mill (1814) and Grade I listed Church of St Dunstan in the Cranbrook TN17 conservation area",
+      "Wealden hall houses and medieval timber-framed cottages along Stone Street and Carriers Road",
+      "Grade II* listed Sissinghurst Castle gardens and country estates in Goudhurst, Benenden and Frittenden",
+      "Barn and oast house conversions on multi-acre rural plots within the High Weald AONB",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
     galleryImages: [
