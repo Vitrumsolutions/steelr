@@ -1,0 +1,59 @@
+name: Weekly rank check
+
+# Runs the Serper.dev rank tracker every Monday at 07:00 UTC (08:00 UK summer).
+# Commits the weekly snapshot to audit-data/rank-history/ and flags any
+# actionable drops in the job summary so we notice without having to check.
+#
+# Can also be triggered manually via the Actions tab (workflow_dispatch).
+#
+# Set SERPER_API_KEY in repo Secrets for tighter security. If absent, the
+# script falls back to the key hardcoded in visibility-check.py.
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write  # needed to commit the weekly snapshot back to main
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run rank tracker
+        id: track
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: |
+          python audit-data/rank-tracker.py | tee rank-report.txt
+          echo "exit=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true  # non-zero exit means drops were flagged; still want to commit snapshot
+
+      - name: Append report to job summary
+        if: always()
+        run: |
+          echo '## Weekly Rank Check' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat rank-report.txt >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "steelr-rank-bot"
+          git config user.email "bot@steelr.co.uk"
+          git add audit-data/rank-history/*.json
+          if git diff --cached --quiet; then
+            echo "No new snapshot to commit."
+          else
+            git commit -m "chore(rank-tracker): weekly snapshot $(date -u +%Y-%m-%d)"
+            git push
+          fi

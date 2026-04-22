@@ -8,8 +8,9 @@ export type { BlogPost } from "./types";
 //   frontDoorIdeasDesignTrends (thin, redirects to modern-front-door-ideas-inspiration-2026)
 import whatIsSr3SecurityRating from "./posts/what-is-sr3-security-rating";
 import choosingEntranceDoorColour from "./posts/choosing-entrance-door-colour";
-import securedByDesignDoors from "./posts/secured-by-design-doors";
-import steelEntranceDoorsArchitectsSpecifiers from "./posts/steel-entrance-doors-architects-specifiers";
+// Removed 22 Apr 2026 — cannibalised with thicker siblings, 308-redirected in next.config.mjs:
+//   securedByDesignDoors → secured-by-design-homes-guide-2026
+//   steelEntranceDoorsArchitectsSpecifiers → specifying-steel-doors-architects-guide-2026
 import bestFrontDoorsPeriodProperties from "./posts/best-front-doors-period-properties";
 import steelVsTimberEntranceDoors from "./posts/steel-vs-timber-entrance-doors";
 import howToImproveHomeSecurityUk from "./posts/how-to-improve-home-security-uk";
@@ -59,8 +60,6 @@ export const posts: BlogPost[] = [
   luxuryFrontDoorsUkBuyerGuide,
   whatIsSr3SecurityRating,
   choosingEntranceDoorColour,
-  securedByDesignDoors,
-  steelEntranceDoorsArchitectsSpecifiers,
   bestFrontDoorsPeriodProperties,
   steelVsTimberEntranceDoors,
   howToImproveHomeSecurityUk,

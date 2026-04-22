@@ -121,7 +121,8 @@
       "Bash(powershell -Command \":*)",
       "Bash(schtasks //query //tn \"SteelrScrape\" //v //fo LIST)",
       "Bash(schtasks //query //tn \"SteelrOutreach\" //v //fo LIST)",
-      "mcp__Claude_in_Chrome__tabs_context_mcp"
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "WebFetch(domain:github.com)"
     ]
   }
 }

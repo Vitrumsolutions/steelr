@@ -1019,15 +1019,15 @@ Composite vs steel front doors 2026 compared for UK homes. Security, thermal per
 - Despite improvements, composite doors cannot achieve SR3 security ratings.
 - The fundamental material limitations remain: a foam or timber core wrapped in a GRP skin cannot withstand the sustained attack with professional-grade tools that SR3 testing demands.
 - PAS 24 tests resistance to manual attack with light tools for approximately three minutes.
-- SR3 tests resistance to heavy-duty tools, including angle grinders and crowbars, for five minutes or more.
+- SR3 tests resistance to heavy-duty tools — including angle grinders and crowbars — for five minutes or more.
 
 **FAQs:**
 
 Q: Can a composite door be upgraded to match steel security?
-A: No. The material properties of composite construction, foam core, GRP skin, timber sub-frame, impose a ceiling on achievable security ratings. No amount of upgraded hardware or reinforced lock plates can compensate for the fundamental difference in material resistance. SR3 certification requires the entire doorset to withstand sustained professional attack, which composite materials cannot achieve.
+A: No. The material properties of composite construction — foam core, GRP skin, timber sub-frame — impose a ceiling on achievable security ratings. No amount of upgraded hardware or reinforced lock plates can compensate for the fundamental difference in material resistance. SR3 certification requires the entire doorset to withstand sustained professional attack, which composite materials cannot achieve.
 
 Q: Has the price gap between composite and steel narrowed in 2026?
-A: Marginally. Raw material cost stabilisation has benefited both sectors. However, the primary cost drivers for bespoke steel, skilled fabrication, individual design, SR3 testing, professional installation, are labour and expertise-intensive and have not decreased. The gap reflects genuine differences in product specification rather than market inefficiency.
+A: Marginally. Raw material cost stabilisation has benefited both sectors. However, the primary cost drivers for bespoke steel — skilled fabrication, individual design, SR3 testing, professional installation — are labour and expertise-intensive and have not decreased. The gap reflects genuine differences in product specification rather than market inefficiency.
 
 Q: Are composite doors more energy efficient than steel?
 A: Not in 2026. Premium steel doors with polyurethane-injected cores and thermal break technology achieve U-values of 0.87-1.0 W/m2K, matching or exceeding the best composite products. The thermal performance gap that existed a decade ago has effectively closed, with steel now offering equivalent or superior insulation alongside its other advantages.
@@ -1036,7 +1036,7 @@ Q: How long does a composite door actually last?
 A: Most manufacturers warranty composite doors for 10-15 years, with a realistic functional lifespan of 15-25 years depending on exposure, quality and maintenance. GRP skin degradation, core compression and hardware fatigue are the typical failure modes. A steel entrance door has no comparable degradation mechanisms and will maintain its performance indefinitely.
 
 Q: Is a steel door harder to maintain than composite?
-A: No. Both materials require minimal maintenance, occasional cleaning with soapy water and periodic lubrication of hinges and locking mechanisms. Steel doors do not require repainting, resealing or any specialist treatment. The multi-layer paint finish applied during manufacturing is designed to last the lifetime of the door without refinishing.
+A: No. Both materials require minimal maintenance — occasional cleaning with soapy water and periodic lubrication of hinges and locking mechanisms. Steel doors do not require repainting, resealing or any specialist treatment. The multi-layer paint finish applied during manufacturing is designed to last the lifetime of the door without refinishing.
 
 Two years ago, the conversation around composite vs steel doors was relatively straightforward. Composite offered affordability and a decent range of styles. Steel offered superior security, longevity and bespoke design. The question for most homeowners was simply how much they were willing to invest.
 
@@ -1055,9 +1055,9 @@ Double front doors UK guide. Structural requirements, SR3 security, active vs pa
 
 - Properties with openings of 1400mm or more are natural candidates for double doors.
 - Attempting to fit double doors into an opening under 1200mm results in two leaves that are too narrow to function comfortably.
-- Each leaf should be a minimum of 600mm wide, and ideally 700mm or more, to look and operate properly.
+- Each leaf should be a minimum of 600mm wide — and ideally 700mm or more — to look and operate properly.
 - A pair of bespoke steel entrance doors with full multipoint locking, glazing and decorative panels can weigh in excess of 150kg total.
-- Every double door we manufacture achieves SR3 security ratings across the complete assembly, both leaves, both sets of hardware and the central meeting point.
+- Every double door we manufacture achieves SR3 security ratings across the complete assembly — both leaves, both sets of hardware and the central meeting point.
 
 **FAQs:**
 
@@ -1076,7 +1076,7 @@ A: A well-manufactured double door with continuous compression seals on all edge
 Q: How much more do double doors cost than a single door?
 A: Bespoke steel double doors typically cost 40 to 70 per cent more than an equivalent single door. The premium reflects additional materials, hardware and installation complexity. For properties where the proportions genuinely suit double doors, the investment is proportionate to the architectural impact.
 
-A double front door makes a statement that a single door cannot. The proportions change, the entrance widens and the arrival experience shifts from functional to architectural. For the right property, a double door is not merely an aesthetic upgrade, it transforms the relationship between the exterior and the interior.
+A double front door makes a statement that a single door cannot. The proportions change, the entrance widens and the arrival experience shifts from functional to architectural. For the right property, a double door is not merely an aesthetic upgrade — it transforms the relationship between the exterior and the interior.
 
 **Related:**
 
@@ -1091,9 +1091,9 @@ Steel vs uPVC front doors UK compared. Security, design, durability, thermal per
 
 **Key facts:**
 
-- Most uPVC doors achieve PAS 24 certification at best, a standard that tests resistance to casual opportunistic attack, not sustained or tooled assault.
+- Most uPVC doors achieve PAS 24 certification at best — a standard that tests resistance to casual opportunistic attack, not sustained or tooled assault.
 - A properly engineered steel door achieves an SR3 security rating under BS EN 1627:2011, which tests resistance to sustained attack using crowbars, drills, angle grinders and other professional-grade tools.
-- Steel doors that meet SR3 are eligible for Secured by Design accreditation, the official UK police security initiative.
+- Steel doors that meet SR3 are eligible for Secured by Design accreditation — the official UK police security initiative.
 - One looks like a replacement; the other looks like it belongs to the architecture. uPVC doors have a typical lifespan of 15 to 25 years.
 - Steel entrance doors are built to last a minimum of 40 to 50 years with proper maintenance.
 
@@ -1109,7 +1109,7 @@ Q: Do steel doors rust compared to uPVC?
 A: Modern steel entrance doors are protected by a multi-layer paint system that prevents corrosion under normal UK conditions. The finish is more durable than uPVC, which discolours and degrades with UV exposure over time.
 
 Q: Can a steel door match the low maintenance of uPVC?
-A: Steel doors require minimal maintenance, periodic cleaning and occasional lubrication of hardware. Unlike uPVC, steel does not yellow, warp or develop seal failures, so the maintenance requirement is comparable and the results are far more consistent over time.
+A: Steel doors require minimal maintenance — periodic cleaning and occasional lubrication of hardware. Unlike uPVC, steel does not yellow, warp or develop seal failures, so the maintenance requirement is comparable and the results are far more consistent over time.
 
 Q: Will a steel door improve my property value?
 A: A bespoke steel entrance door is one of the most effective kerb appeal improvements available. Estate agents report that a high-quality front door creates an immediate impression of quality that influences buyer perception of the entire property.
@@ -1129,7 +1129,7 @@ Steel vs fibreglass GRP front doors UK compared. Security, durability, thermal p
 
 **Key facts:**
 
-- A properly engineered steel entrance door achieves SR3 under BS EN 1627:2011, the highest residential security rating available.
+- A properly engineered steel entrance door achieves SR3 under BS EN 1627:2011 — the highest residential security rating available.
 - SR3 testing subjects the door to sustained attack with heavy-duty tools including crowbars, drills, chisels and angle grinders for a minimum of twenty minutes.
 - Fibreglass doors typically achieve PAS 24 certification, which tests resistance to opportunistic manual attack with lighter tools for approximately three minutes.
 - PAS 24 is the minimum standard required under Part Q of the Building Regulations for new dwellings.
@@ -1168,9 +1168,9 @@ Guide for UK developers specifying front doors for new builds. PAS 24, Part Q, P
 **Key facts:**
 
 - The minimum standard is PAS 24:2022 (or its predecessor PAS 24:2016), which tests doors for resistance to physical attack using common burglary tools.
-- For developments targeting Secured by Design accreditation, increasingly requested by planning authorities and valued by buyers, the door must meet PAS 24 as a minimum, but higher ratings such as SR3 under BS EN 1627 demonstrate a substantially greater level of security.
+- For developments targeting Secured by Design accreditation — increasingly requested by planning authorities and valued by buyers — the door must meet PAS 24 as a minimum, but higher ratings such as SR3 under BS EN 1627 demonstrate a substantially greater level of security.
 - SR3-rated doors withstand sustained forced attack with heavy-duty tools for over twenty minutes, placing them several categories above the Part Q minimum.
-- For entrance doors, the key metric is the U-value, the rate of heat loss through the door assembly, measured in W/m²K.
+- For entrance doors, the key metric is the U-value — the rate of heat loss through the door assembly, measured in W/m²K.
 - The current requirement for new build entrance doors is a maximum U-value of 1.8 W/m²K, though most quality steel and composite doors comfortably exceed this.
 
 **FAQs:**
@@ -1182,13 +1182,13 @@ Q: Do all new build front doors need to be fire rated?
 A: Not all new build front doors require a fire rating. Standard houses generally do not need a fire rated front door unless there is an integral garage (which requires an FD30 connecting door). Flat entrance doors opening onto communal areas must be FD30S rated. Buildings over 30 metres require FD60S.
 
 Q: Can developers specify different door colours for each plot?
-A: Yes. When working with a bespoke manufacturer that offers the full RAL colour range, specifying different colours for individual plots adds minimal cost because each door is individually finished. This allows developers to offer buyer personalisation, a proven method of increasing perceived value and buyer satisfaction.
+A: Yes. When working with a bespoke manufacturer that offers the full RAL colour range, specifying different colours for individual plots adds minimal cost because each door is individually finished. This allows developers to offer buyer personalisation — a proven method of increasing perceived value and buyer satisfaction.
 
 Q: What U-value do new build entrance doors need to achieve?
 A: The current requirement under Approved Document L is a maximum U-value of 1.8 W/m²K for entrance doors. However, with the Future Homes Standard tightening energy requirements, specifying doors with U-values well below this threshold (0.87 to 1.2 W/m²K for premium steel doors) provides future-proofing and improves the dwelling's SAP calculation.
 
 Q: How far in advance should developers order bespoke entrance doors?
-A: Bespoke steel entrance doors typically have lead times of 8 to 12 weeks from confirmed order to delivery. Developers should confirm door specifications during the early construction phases, ideally at first fix stage, to ensure doors arrive in time for second fix installation without causing programme delays.
+A: Bespoke steel entrance doors typically have lead times of 8 to 12 weeks from confirmed order to delivery. Developers should confirm door specifications during the early construction phases — ideally at first fix stage — to ensure doors arrive in time for second fix installation without causing programme delays.
 
 For property developers, the front door is where compliance, security, kerb appeal and long-term build quality converge. It is one of the most visible elements of any new build and, simultaneously, one of the most heavily regulated. Getting the specification wrong can mean failed building control inspections, delays to completion and remedial works that erode margins.
 
@@ -1243,30 +1243,30 @@ Are steel entrance doors worth it for UK homes? Honest assessment of durability,
 
 **Key facts:**
 
-- Composite doors (GRP over foam core): Typical lifespan 10 to 20 years.
-- The foam core can absorb moisture if the skin is compromised, leading to structural weakness and poor insulation Timber doors (hardwood): 15 to 30 years with diligent maintenance.
-- Without regular repainting or re-oiling (every 3 to 5 years), timber begins to deteriorate within 5 to 7 years.
-- Our doors are tested and certified to SR3 under BS EN 1627:2011, the highest practical security rating for residential entrance doors in the UK.
-- SR3 certification requires the complete doorset, leaf, frame, locks, hinges, glazing, fixings, to resist a sustained attack by a skilled operative using power tools including drills, jigsaws, angle grinders and chisels for a minimum of 20 minutes.
+- Composite doors (GRP over foam core): Typical lifespan 10–20 years.
+- The foam core can absorb moisture if the skin is compromised, leading to structural weakness and poor insulation Timber doors (hardwood): 15–30 years with diligent maintenance.
+- Without regular repainting or re-oiling (every 3–5 years), timber begins to deteriorate within 5–7 years.
+- Our doors are tested and certified to SR3 under BS EN 1627:2011 — the highest practical security rating for residential entrance doors in the UK.
+- SR3 certification requires the complete doorset — leaf, frame, locks, hinges, glazing, fixings — to resist a sustained attack by a skilled operative using power tools including drills, jigsaws, angle grinders and chisels for a minimum of 20 minutes.
 
 **FAQs:**
 
 Q: How long do steel entrance doors actually last?
-A: A properly manufactured and installed steel entrance door will last 25 to 40+ years with no structural maintenance. The powder-coat finish is warranted for the life of the product. The steel structure itself is essentially permanent, it does not rot, warp, swell or delaminate. The limiting factor is typically fashion rather than function; many homeowners replace doors for aesthetic reasons long before the door itself has deteriorated.
+A: A properly manufactured and installed steel entrance door will last 25–40+ years with no structural maintenance. The powder-coat finish is warranted for the life of the product. The steel structure itself is essentially permanent — it does not rot, warp, swell or delaminate. The limiting factor is typically fashion rather than function; many homeowners replace doors for aesthetic reasons long before the door itself has deteriorated.
 
 Q: Are steel doors more secure than composite doors?
 A: Significantly. Our steel doors are certified to SR3 under BS EN 1627:2011, which tests resistance to power tool attacks for 20 minutes. Most composite doors achieve PAS 24 (3-minute resistance to basic hand tools) or SR1 at best. The steel frame, welded locking points and laminated security glazing create a doorset that resists forced entry at a fundamentally different level to composite, timber or uPVC alternatives.
 
 Q: Do steel doors need painting or maintaining?
-A: No. The factory-applied powder-coat finish requires no painting, varnishing, oiling or sanding, ever. The only maintenance is occasional cleaning with warm soapy water. This is one of the most significant practical advantages over timber doors, which require repainting every 3 to 5 years, and composite doors, which can fade or discolour over time.
+A: No. The factory-applied powder-coat finish requires no painting, varnishing, oiling or sanding — ever. The only maintenance is occasional cleaning with warm soapy water. This is one of the most significant practical advantages over timber doors, which require repainting every 3–5 years, and composite doors, which can fade or discolour over time.
 
 Q: Will a steel door make my house colder?
-A: No. Modern steel doors use thermal break construction with an insulated core, achieving U-values of 1.0 to 1.8 W/m²K, comparable to double-glazed windows and better than many older timber doors. Combined with effective draught seals and an insulated threshold, a steel door improves thermal comfort compared to most doors it replaces.
+A: No. Modern steel doors use thermal break construction with an insulated core, achieving U-values of 1.0–1.8 W/m²K — comparable to double-glazed windows and better than many older timber doors. Combined with effective draught seals and an insulated threshold, a steel door improves thermal comfort compared to most doors it replaces.
 
 Q: Can I get a steel door in any colour?
 A: Yes. We offer over 200 RAL colours as standard, plus custom colour matching to any reference including Farrow & Ball, Little Greene and heritage specifications. Dual-colour finishing allows different colours on the exterior and interior faces. Browse the full range on our [RAL colours page](/colours).
 
-Yes, for the right property and the right homeowner, a bespoke steel entrance door is one of the best investments you can make in your home. But "worth it" means different things to different people, so this article breaks the question down honestly. We will cover what steel does better than the alternatives, address the common concerns, and be straightforward about where steel might not be the right choice.
+Yes — for the right property and the right homeowner, a bespoke steel entrance door is one of the best investments you can make in your home. But "worth it" means different things to different people, so this article breaks the question down honestly. We will cover what steel does better than the alternatives, address the common concerns, and be straightforward about where steel might not be the right choice.
 
 **Related:**
 
@@ -1282,15 +1282,15 @@ Bespoke steel entrance door cost UK explained. What affects the price, how steel
 **Key facts:**
 
 - Even at the entry level, a bespoke steel door delivers SR3 security certification, powder-coated finish, thermal break construction and a lifespan measured in decades rather than years.
-- All our doors meet SR3 security certification as standard, the highest practical rating for residential properties.
+- All our doors meet SR3 security certification as standard — the highest practical rating for residential properties.
 - What you get: Reasonable insulation, factory-made consistency, wide colour choice, PAS 24 security certification on better models.
-- What you do not get: SR3 security (most composites achieve SR1 or SR2 at best), genuine bespoke sizing, long-term durability (GRP skins can fade, crack or delaminate after 10 to 15 years), or the material quality that justifies a premium property.
-- Lifespan: 10 to 20 years before replacement is typically needed.
+- What you do not get: SR3 security (most composites achieve SR1 or SR2 at best), genuine bespoke sizing, long-term durability (GRP skins can fade, crack or delaminate after 10–15 years), or the material quality that justifies a premium property.
+- Lifespan: 10–20 years before replacement is typically needed.
 
 **FAQs:**
 
 Q: What is the cheapest steel entrance door available in the UK?
-A: Imported, non-bespoke steel doors from overseas manufacturers can be found from around £1,500, £2,000. However, these are typically standard sizes, may not carry UK-relevant security certifications, and often require third-party installation. A bespoke, SR3-certified steel door from a UK manufacturer starts from approximately £3,000.
+A: Imported, non-bespoke steel doors from overseas manufacturers can be found from around £1,500–£2,000. However, these are typically standard sizes, may not carry UK-relevant security certifications, and often require third-party installation. A bespoke, SR3-certified steel door from a UK manufacturer starts from approximately £3,000.
 
 Q: Why is there such a big price range for steel doors?
 A: The range reflects the enormous variation in specification. A single door leaf with standard hardware costs significantly less than a double door with dual sidelights, premium bronze hardware, fire rating and bespoke decorative panels. The material and labour required for a complex door can be three to four times that of a simpler design.
@@ -1330,10 +1330,10 @@ Q: How much does a bespoke steel entrance door cost?
 A: Pricing depends on configuration, size, glazing and hardware selections. A single-leaf bespoke steel entrance door typically starts from the mid-thousands, with double doors and complex configurations at the higher end. We provide detailed quotations following an initial consultation.
 
 Q: Can a bespoke door match my existing architectural style?
-A: Yes. That is precisely the point. A bespoke door can replicate period details, panelling profiles, glazing patterns, arched tops, decorative ironmongery, while incorporating modern security, thermal performance and weather resistance. The design process exists to achieve this balance.
+A: Yes. That is precisely the point. A bespoke door can replicate period details — panelling profiles, glazing patterns, arched tops, decorative ironmongery — while incorporating modern security, thermal performance and weather resistance. The design process exists to achieve this balance.
 
 Q: What maintenance does a bespoke steel entrance door require?
-A: Minimal. The powder-coated finish is resistant to fading, chipping and corrosion. An occasional wipe with a damp cloth and mild detergent is sufficient. Moving parts, hinges and locks, benefit from annual lubrication. There is no requirement for repainting.
+A: Minimal. The powder-coated finish is resistant to fading, chipping and corrosion. An occasional wipe with a damp cloth and mild detergent is sufficient. Moving parts — hinges and locks — benefit from annual lubrication. There is no requirement for repainting.
 
 Q: Can I change my mind during the design process?
 A: Design revisions are a normal and expected part of the bespoke process. Changes to colour, glazing, hardware and panel layout can be accommodated up until the point of manufacture. Dimensional changes require a new survey.
@@ -1341,7 +1341,7 @@ A: Design revisions are a normal and expected part of the bespoke process. Chang
 Q: Do bespoke doors meet Building Regulations?
 A: Every SteelR bespoke entrance door meets or exceeds all applicable Building Regulations, including Approved Document Q (security), Part L (thermal performance) and Part B (fire safety) where required. SR3 security certification, **Secured by Design** accreditation and ISO 9001 manufacturing are standard.
 
-The word bespoke is used freely in the door industry, often to describe products that are anything but. A truly bespoke entrance door is designed and manufactured to the exact specifications of a single project, not selected from a catalogue of pre-made options with a few cosmetic adjustments.
+The word bespoke is used freely in the door industry, often to describe products that are anything but. A truly bespoke entrance door is designed and manufactured to the exact specifications of a single project — not selected from a catalogue of pre-made options with a few cosmetic adjustments.
 
 **Related:**
 
@@ -1356,7 +1356,7 @@ Steel vs aluminium front doors UK compared. Security, thermal performance, weigh
 
 **Key facts:**
 
-- Steel entrance doors can achieve SR3 security ratings under BS EN 1627:2011, the highest resistance class commercially available for residential doors.
+- Steel entrance doors can achieve SR3 security ratings under BS EN 1627:2011 — the highest resistance class commercially available for residential doors.
 - SR3 testing subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders.
 - Aluminium doors are typically tested to PAS 24 or, at best, SR2 (RC2).
 - Achieving SR3 with aluminium requires significantly thicker profiles and additional reinforcement, which most residential aluminium door manufacturers do not offer.
@@ -1398,7 +1398,7 @@ Steel vs timber front doors UK compared. Security, durability, maintenance, ther
 - No timber door, regardless of species or construction method, can achieve SR3.
 - The lifespan of a quality steel door comfortably exceeds 30 years with minimal intervention.
 - A steel door that lasts 40 years has a smaller footprint than two or three timber doors over the same period.
-- However, when you factor in the zero maintenance cost and significantly longer lifespan, the total cost of ownership over 30 years is often comparable, while the security, performance and convenience are in a different league.
+- However, when you factor in the zero maintenance cost and significantly longer lifespan, the total cost of ownership over 30 years is often comparable — while the security, performance and convenience are in a different league.
 
 **FAQs:**
 
@@ -1434,23 +1434,23 @@ Local guide to steel front doors for Kent UK properties. Oast houses, coastal ho
 
 **Key facts:**
 
-- SR3-rated steel doors provide five minutes of resistance against professional tools under BS EN 1627:2011 testing, a level of protection that is orders of magnitude beyond what standard composite or timber doors offer.
+- SR3-rated steel doors provide five minutes of resistance against professional tools under BS EN 1627:2011 testing — a level of protection that is orders of magnitude beyond what standard composite or timber doors offer.
 - An SR3-rated door with Secured by Design accreditation, anti-snap cylinders and multi-point locking satisfies both police recommendations and insurer requirements for these high-value properties.
 - Steel doors with SR3 certification and Secured by Design accreditation provide the highest residential security available, meeting both police recommendations and insurer requirements.
 
 **FAQs:**
 
 Q: What door styles suit traditional Kent properties?
-A: Traditional Kent properties, including oast houses, Wealden halls, Georgian townhouses and Victorian villas, suit heritage panelled doors in period-appropriate colours with traditional ironmongery. The specific design should respond to the building's period and style. A six-panel door with a lion's head knocker suits a Georgian terrace; a simpler plank-style design with blackened furniture suits a Wealden cottage.
+A: Traditional Kent properties — including oast houses, Wealden halls, Georgian townhouses and Victorian villas — suit heritage panelled doors in period-appropriate colours with traditional ironmongery. The specific design should respond to the building's period and style. A six-panel door with a lion's head knocker suits a Georgian terrace; a simpler plank-style design with blackened furniture suits a Wealden cottage.
 
 Q: How do steel doors cope with coastal weather in Kent?
 A: Steel doors with a polyester powder-coat finish over proper pre-treatment are exceptionally resistant to coastal conditions. The finish provides a continuous barrier against salt corrosion, UV degradation and moisture. Unlike timber, steel does not absorb moisture, warp or rot. Periodic rinsing with fresh water to remove salt deposits is the only maintenance required.
 
 Q: Do I need conservation area consent for a new front door in Kent?
-A: If your property is within a conservation area, you may need consent for external alterations including door replacement. Many Kent towns. Canterbury, Tunbridge Wells, Sevenoaks, Tenterden, Cranbrook, Sandwich, Deal, have extensive conservation designations. Contact your local planning authority or conservation officer before finalising your specification.
+A: If your property is within a conservation area, you may need consent for external alterations including door replacement. Many Kent towns — Canterbury, Tunbridge Wells, Sevenoaks, Tenterden, Cranbrook, Sandwich, Deal — have extensive conservation designations. Contact your local planning authority or conservation officer before finalising your specification.
 
 Q: What security rating should I choose for a Kent property?
-A: We recommend SR3 certification as the standard specification for Kent properties, particularly those in the affluent commuter belt or in rural locations with limited natural surveillance. SR3 provides five minutes of resistance against professional tools, the highest residential security rating available. This level of protection is manufactured under **ISO 9001** quality management and carries Secured by Design accreditation.
+A: We recommend SR3 certification as the standard specification for Kent properties, particularly those in the affluent commuter belt or in rural locations with limited natural surveillance. SR3 provides five minutes of resistance against professional tools — the highest residential security rating available. This level of protection is manufactured under **ISO 9001** quality management and carries Secured by Design accreditation.
 
 Q: How long does it take to get a steel door installed in Kent?
 A: From initial consultation to completed installation, the typical timeline is eight to twelve weeks. This includes site survey, design development, bespoke manufacture and finishing. The installation itself is completed within a single day, with your property fully secured before the team leaves site.
@@ -1471,26 +1471,26 @@ Local guide to steel front doors in Buckinghamshire UK. Chilterns AONB, conserva
 **Key facts:**
 
 - A bespoke steel entrance door can be designed to satisfy conservation area requirements whilst delivering SR3 security and modern thermal performance.
-- SR3-rated steel doors tested to BS EN 1627:2011 provide five minutes of resistance against professional tools, a level of protection that far exceeds what standard composite or timber doors offer.
+- SR3-rated steel doors tested to BS EN 1627:2011 provide five minutes of resistance against professional tools — a level of protection that far exceeds what standard composite or timber doors offer.
 - An SR3-rated, Secured by Design accredited door satisfies even the most stringent insurer requirements and provides the strongest possible position in the event of a claim.
 - Your door is manufactured under ISO 9001 quality management.
 
 **FAQs:**
 
 Q: Do I need planning permission to replace my front door in Buckinghamshire?
-A: In most cases, front door replacement falls under permitted development rights and does not require planning permission. However, if your property is in a conservation area, is listed, or is subject to an Article 4 direction, you may need consent. Many Buckinghamshire towns, including Amersham Old Town, Beaconsfield and Marlow, have conservation area designations. Check with Buckinghamshire Council before proceeding.
+A: In most cases, front door replacement falls under permitted development rights and does not require planning permission. However, if your property is in a conservation area, is listed, or is subject to an Article 4 direction, you may need consent. Many Buckinghamshire towns — including Amersham Old Town, Beaconsfield and Marlow — have conservation area designations. Check with Buckinghamshire Council before proceeding.
 
 Q: What door styles suit Chilterns properties?
-A: Chilterns properties built in the flint and brick vernacular suit heritage panelled doors in muted, earthy colours, deep greens, warm greys and soft blues. Ornate Victorian styles can feel incongruous against the modest proportions of Chilterns cottages. The key is simplicity and material quality rather than decorative complexity.
+A: Chilterns properties built in the flint and brick vernacular suit heritage panelled doors in muted, earthy colours — deep greens, warm greys and soft blues. Ornate Victorian styles can feel incongruous against the modest proportions of Chilterns cottages. The key is simplicity and material quality rather than decorative complexity.
 
 Q: How long does installation take for a Buckinghamshire property?
 A: The physical installation is typically completed within a single day. The full process from initial consultation to installation takes approximately eight to twelve weeks for a bespoke steel door, accounting for design development, site survey, manufacture and finishing.
 
 Q: Are steel doors suitable for older Buckinghamshire properties?
-A: Steel doors are highly suitable for period properties. The door can be designed to match any architectural style. Georgian panelled, Victorian arched, Arts and Crafts, and finished in heritage-appropriate colours from the full RAL range. The steel construction is invisible once installed; what your neighbours see is a beautifully proportioned door that complements the building.
+A: Steel doors are highly suitable for period properties. The door can be designed to match any architectural style — Georgian panelled, Victorian arched, Arts and Crafts — and finished in heritage-appropriate colours from the full RAL range. The steel construction is invisible once installed; what your neighbours see is a beautifully proportioned door that complements the building.
 
 Q: What security rating should I specify for a Buckinghamshire property?
-A: For high-value Buckinghamshire properties, we recommend SR3 certification as the minimum specification. This provides resistance to sustained attack with professional tools for five minutes, the highest rating available for residential use. Properties in isolated rural locations or those identified as high-value targets benefit particularly from this level of protection.
+A: For high-value Buckinghamshire properties, we recommend SR3 certification as the minimum specification. This provides resistance to sustained attack with professional tools for five minutes — the highest rating available for residential use. Properties in isolated rural locations or those identified as high-value targets benefit particularly from this level of protection.
 
 Buckinghamshire occupies a unique position in the English Home Counties. Stretching from the chalk escarpment of the Chilterns Area of Outstanding Natural Beauty in the west to the commuter towns of the south-east, the county encompasses an extraordinary range of architectural styles, property values and planning contexts. For homeowners investing in a bespoke entrance door, understanding this landscape is the starting point for making the right specification.
 
@@ -1508,7 +1508,7 @@ Guide to bespoke steel front doors for Surrey UK homes. Local architecture, cons
 **Key facts:**
 
 - A steel entrance door rated to SR3 under BS EN 1627:2011 provides the highest level of resistance commercially available for residential doors.
-- SR3 testing subjects the door to sustained attack using professional-grade tools, crowbars, drills and angle grinders, for a defined period.
+- SR3 testing subjects the door to sustained attack using professional-grade tools — crowbars, drills and angle grinders — for a defined period.
 - Every door we produce is ISO 9001 certified, engineered to SR3 and finished in the client's chosen RAL colour.
 
 **FAQs:**
@@ -1523,12 +1523,12 @@ Q: How long does it take to have a bespoke steel door manufactured and installed
 A: From initial design consultation to completed installation, the typical lead time is 8 to 12 weeks. This includes the design phase, manufacturing, finishing and professional installation. The process is detailed on [our process](/process) page.
 
 Q: Can you match a steel door to an existing colour scheme?
-A: Yes. Every door is finished in any colour from the full RAL range, over 200 options. We also offer dual-colour specification, where the exterior and interior are finished in different colours. This is particularly useful for period properties where the exterior colour must match the streetscape while the interior complements the hallway decor.
+A: Yes. Every door is finished in any colour from the full RAL range — over 200 options. We also offer dual-colour specification, where the exterior and interior are finished in different colours. This is particularly useful for period properties where the exterior colour must match the streetscape while the interior complements the hallway decor.
 
 Q: Are steel doors suitable for period properties in Surrey villages?
 A: Absolutely. Steel doors can be manufactured with traditional panel configurations, period mouldings and heritage hardware that are indistinguishable from high-quality timber doors at the kerb. The advantage is that behind the traditional appearance, the door delivers modern SR3 security and thermal performance that a timber door cannot match.
 
-Surrey occupies a unique position in the English residential landscape. It is simultaneously one of the most affluent counties in the United Kingdom, one of the most architecturally diverse and one of the most demanding when it comes to property standards. From the Victorian villas of Guildford to the modernist new builds of Weybridge, the county's housing stock spans centuries and styles, but the expectation of quality is consistent throughout.
+Surrey occupies a unique position in the English residential landscape. It is simultaneously one of the most affluent counties in the United Kingdom, one of the most architecturally diverse and one of the most demanding when it comes to property standards. From the Victorian villas of Guildford to the modernist new builds of Weybridge, the county's housing stock spans centuries and styles — but the expectation of quality is consistent throughout.
 
 **Related:**
 
@@ -1563,7 +1563,7 @@ A: Yes. Bespoke steel doors can faithfully reproduce Georgian, Victorian and Edw
 Q: What security rating should I specify for a London townhouse?
 A: For properties in prime London postcodes, an SR3-rated doorset certified to LPS 1175 provides the highest level of tested residential security. Combined with Secured by Design accreditation and anti-snap, anti-pick cylinders, this specification meets the requirements of high-value home insurers and provides genuine protection against the burglary methods most common in London.
 
-Every London townhouse entrance carries the accumulated weight of architectural history, neighbourhood character and the practical demands of modern urban life. The front door of a Belgravia stucco terrace serves a fundamentally different purpose, aesthetically, culturally and functionally, from the entrance to a Hampstead Arts and Crafts villa or a Shoreditch warehouse conversion. Yet all share the same requirement: a door that honours the architecture while performing to contemporary standards of security, thermal efficiency and durability.
+Every London townhouse entrance carries the accumulated weight of architectural history, neighbourhood character and the practical demands of modern urban life. The front door of a Belgravia stucco terrace serves a fundamentally different purpose — aesthetically, culturally and functionally — from the entrance to a Hampstead Arts and Crafts villa or a Shoreditch warehouse conversion. Yet all share the same requirement: a door that honours the architecture while performing to contemporary standards of security, thermal efficiency and durability.
 
 **Related:**
 
@@ -1609,7 +1609,7 @@ London is home to some of the finest period architecture in the world. From gran
 - [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
 - [Steel Front Doors Kent UK: Local Properties Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
-### Security (10 posts)
+### Security (9 posts)
 
 #### Secured by Design Homes UK: 2026 Developer and Buyer Guide
 URL: https://steelr.co.uk/blog/secured-by-design-homes-guide-2026 | Category: Security | Published: 2026-07-02 | 9 min read
@@ -1618,10 +1618,10 @@ Secured by Design homes UK in 2026. Developer guide to SBD standards, planning b
 
 **Key facts:**
 
-- Doors achieving SR3 certification, the highest physical security rating for residential entrance doors, surpass every SBD requirement by a significant margin.
+- Doors achieving SR3 certification — the highest physical security rating for residential entrance doors — surpass every SBD requirement by a significant margin.
 - For a technical comparison of PAS 24 and SR3, see our security specification page.
 - SteelR entrance doors achieve SBD accreditation through a combination of SR3-rated steel construction, multi-point locking, anti-snap cylinders and reinforced frame assemblies.
-- Windows. SBD-accredited windows meet PAS 24 for resistance to forced entry and incorporate locking handles, toughened or laminated glass in accessible positions, and restricted opening mechanisms where appropriate.
+- Windows — SBD-accredited windows meet PAS 24 for resistance to forced entry and incorporate locking handles, toughened or laminated glass in accessible positions, and restricted opening mechanisms where appropriate.
 - Approved Document Q (security in dwellings) mandates that all doors and windows in new residential buildings meet PAS 24:2022 or equivalent security standards.
 
 **FAQs:**
@@ -1630,7 +1630,7 @@ Q: Is Secured by Design mandatory for new homes?
 A: Not universally, but increasingly in practice. Approved Document Q mandates PAS 24 security standards, and many local planning authorities now expect or condition SBD compliance for residential developments. Some London boroughs and metropolitan districts have adopted SBD as a standard planning condition. Even where not formally mandated, SBD is recognised as best practice and strengthens planning applications.
 
 Q: Can I get Secured by Design accreditation for my existing home?
-A: Individual homes cannot receive full SBD development accreditation (which assesses site layout, lighting and environmental design as well as products). However, you can install SBD-accredited products, doors, windows, locks and lighting, to achieve the product-level security standards that SBD specifies. This provides the same physical security benefits and is recognised by insurers.
+A: Individual homes cannot receive full SBD development accreditation (which assesses site layout, lighting and environmental design as well as products). However, you can install SBD-accredited products — doors, windows, locks and lighting — to achieve the product-level security standards that SBD specifies. This provides the same physical security benefits and is recognised by insurers.
 
 Q: How does Secured by Design differ from PAS 24?
 A: PAS 24 is a product testing standard that assesses the physical security of a doorset or window in laboratory conditions. Secured by Design is a broader accreditation scheme that requires PAS 24 compliance plus manufacturer auditing, ongoing quality management, and assessment of the product within the context of the complete building. SBD also covers environmental design factors that PAS 24 does not address.
@@ -1665,7 +1665,7 @@ Expert guide to the best burglar-proof front doors UK. Covers SR3 security ratin
 **FAQs:**
 
 Q: What is the most burglar-proof front door material?
-A: Steel is the most secure residential front door material available. It is the only material capable of achieving SR3 certification under BS EN 1627:2011, which tests resistance to sustained attack with professional tools including crowbars, drills and angle grinders. No other residential door material, including composite, aluminium or timber, can match this level of performance.
+A: Steel is the most secure residential front door material available. It is the only material capable of achieving SR3 certification under BS EN 1627:2011, which tests resistance to sustained attack with professional tools including crowbars, drills and angle grinders. No other residential door material — including composite, aluminium or timber — can match this level of performance.
 
 Q: Are composite doors burglar-proof?
 A: Composite doors offer good security and typically achieve PAS 24 certification, which meets Building Regulations requirements. However, they are not burglar-proof in any absolute sense. The foam core can be cut, the cylinder is often a standard euro profile, and the GRP skin does not resist power tools. For genuine high-security performance, steel doors rated to SR3 represent a significant step up.
@@ -1677,7 +1677,7 @@ Q: Will a burglar-proof door reduce my insurance premium?
 A: Many home insurers offer reduced premiums for properties with enhanced security measures, including Secured by Design accredited or SR-rated doors. The extent of the reduction varies by insurer and location, but demonstrating that your front door meets a recognised security standard strengthens your position. Always inform your insurer when upgrading your door specification.
 
 Q: How much does a burglar-proof steel front door cost?
-A: Bespoke steel entrance doors with SR3 certification typically represent a significant investment compared to mass-market alternatives. However, the cost should be weighed against the security performance, longevity and the potential impact on insurance premiums and property value. Every door is built to individual specification, [request an estimate](/design-estimate) for accurate pricing based on your requirements.
+A: Bespoke steel entrance doors with SR3 certification typically represent a significant investment compared to mass-market alternatives. However, the cost should be weighed against the security performance, longevity and the potential impact on insurance premiums and property value. Every door is built to individual specification — [request an estimate](/design-estimate) for accurate pricing based on your requirements.
 
 The Office for National Statistics recorded approximately 280,000 domestic burglaries in England and Wales in the year ending March 2025. While the overall trend has declined from its peak in the early 2000s, the nature of break-ins has shifted. Opportunistic forced entry through the front door remains the single most common method, accounting for around 70% of all domestic burglaries according to police crime data.
 
@@ -1717,7 +1717,7 @@ A: If your policy specifies minimum security standards and your door did not mee
 Q: Should I inform my insurer when I upgrade my front door?
 A: Yes. Any material change to your property's security should be reported to your insurer. A door upgrade is a positive change that may reduce your premium or improve your terms. Failure to notify could theoretically create an issue if you need to make a claim, even though the improvement itself strengthens your position.
 
-Most homeowners understand that locks matter to insurers. Fewer appreciate that the door itself, its material, construction and independently verified security rating, can meaningfully influence insurance terms, premiums and the outcome of a claim. In an era of rising premiums and increasingly sophisticated burglary methods, the home insurance door security ratings recognised by UK insurers deserve closer attention.
+Most homeowners understand that locks matter to insurers. Fewer appreciate that the door itself — its material, construction and independently verified security rating — can meaningfully influence insurance terms, premiums and the outcome of a claim. In an era of rising premiums and increasingly sophisticated burglary methods, the home insurance door security ratings recognised by UK insurers deserve closer attention.
 
 **Related:**
 
@@ -1793,7 +1793,7 @@ A: Many UK insurers recognise SR-rated doors, particularly at the SR3 level, and
 Q: How long does an SR3-rated door maintain its certification?
 A: The SR3 certification applies to the doorset as manufactured and installed to the tested specification. Provided the door is maintained according to the manufacturer's guidelines and no modifications are made to the locking system, frame or glazing, the security rating remains valid for the lifetime of the installation. Manufacturing consistency is assured through ISO 9001 quality management systems.
 
-Every door manufacturer describes their product as "secure." The difference is whether that claim has been independently verified to a recognised European standard. Front door security ratings provide an objective, comparable measure of how well a door resists forced entry, and not all ratings are equal.
+Every door manufacturer describes their product as "secure." The difference is whether that claim has been independently verified to a recognised European standard. Front door security ratings provide an objective, comparable measure of how well a door resists forced entry — and not all ratings are equal.
 
 **Related:**
 
@@ -1809,8 +1809,8 @@ PAS 24 front door certification in the UK explained. What it tests, when it is r
 **Key facts:**
 
 - PAS 24 is a British Standards Institution (BSI) publicly available specification that sets minimum security requirements for doors and windows in residential buildings.
-- The full title. PAS 24:2022 Enhanced Security Performance Requirements for Doorsets and Windows in the UK, tells you a good deal about its purpose.
-- For homeowners navigating the world of security standards, PAS 24 is often the first certification they encounter, but it is far from the last word in entrance door security.
+- The full title — PAS 24:2022 Enhanced Security Performance Requirements for Doorsets and Windows in the UK — tells you a good deal about its purpose.
+- For homeowners navigating the world of security standards, PAS 24 is often the first certification they encounter — but it is far from the last word in entrance door security.
 - PAS 24 is the minimum security standard required by Building Regulations for new residential properties in England and Wales.
 - PAS 24 testing is carried out by an independent, UKAS-accredited laboratory.
 
@@ -1823,15 +1823,15 @@ Q: Do I need a PAS 24 door if I am replacing my front door?
 A: Not legally, in most cases. Approved Document Q only applies to new dwellings and change-of-use conversions. However, PAS 24 should be considered a sensible minimum for any replacement entrance door, and SR3 is recommended for higher-value properties.
 
 Q: Can a composite door achieve SR3?
-A: In practice, no. The material properties of composite doors, typically a foam-filled GRP shell over a timber frame, limit their resistance to professional-grade tools. SR3 certification for residential entrance doors is effectively exclusive to steel construction.
+A: In practice, no. The material properties of composite doors — typically a foam-filled GRP shell over a timber frame — limit their resistance to professional-grade tools. SR3 certification for residential entrance doors is effectively exclusive to steel construction.
 
 Q: How do I verify that a door is genuinely PAS 24 certified?
-A: Ask the manufacturer for the **test report number** and the name of the accredited testing laboratory. Genuine PAS 24 certification comes with documentation from a UKAS-accredited body. Be wary of claims such as "PAS 24 equivalent" or "designed to PAS 24", these are not the same as tested and certified.
+A: Ask the manufacturer for the **test report number** and the name of the accredited testing laboratory. Genuine PAS 24 certification comes with documentation from a UKAS-accredited body. Be wary of claims such as "PAS 24 equivalent" or "designed to PAS 24" — these are not the same as tested and certified.
 
 Q: Does PAS 24 cover fire resistance?
-A: No. PAS 24 tests physical security only. Fire resistance is assessed under separate standards (BS 476 or BS EN 1634). If you need both security and fire protection, for example in a flat, HMO or new-build, you need a door tested to both standards independently.
+A: No. PAS 24 tests physical security only. Fire resistance is assessed under separate standards (BS 476 or BS EN 1634). If you need both security and fire protection — for example in a flat, HMO or new-build — you need a door tested to both standards independently.
 
-PAS 24 is a British Standards Institution (BSI) publicly available specification that sets minimum security requirements for doors and windows in residential buildings. The full title. PAS 24:2022 Enhanced Security Performance Requirements for Doorsets and Windows in the UK, tells you a good deal about its purpose. It establishes a baseline level of physical attack resistance that door and window products must meet before they can be considered secure enough for new-build dwellings.
+PAS 24 is a British Standards Institution (BSI) publicly available specification that sets minimum security requirements for doors and windows in residential buildings. The full title — PAS 24:2022 Enhanced Security Performance Requirements for Doorsets and Windows in the UK — tells you a good deal about its purpose. It establishes a baseline level of physical attack resistance that door and window products must meet before they can be considered secure enough for new-build dwellings.
 
 **Related:**
 
@@ -1849,7 +1849,7 @@ Choose the best front door for home security in the UK. Guide to materials, lock
 - The better composite doors achieve PAS 24 certification, which tests resistance to manual attack with light tools.
 - PAS 24 is a respectable standard that meets building regulations, and composite doors represent a solid mid-range security option for most homes.
 - Premium aluminium doors can achieve SR2 (RC2) security ratings, offering resistance to attack with simple tools for 3 minutes.
-- A bespoke steel door can achieve SR3 (RC3), the highest security rating commercially available for residential use.
+- A bespoke steel door can achieve SR3 (RC3) — the highest security rating commercially available for residential use.
 - SR3 testing under BS EN 1627:2011 subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders for 5 minutes.
 
 **FAQs:**
@@ -1869,7 +1869,7 @@ A: Only if unspecified. Laminated security glazing tested to BS EN 356 withstand
 Q: How long does a burglar take to defeat a standard UK front door?
 A: A standard uPVC or composite door rated to PAS 24 is tested against three minutes of basic tool attack. In real-world burglary attempts using common entry methods (cylinder snapping, lever attack on the frame), many PAS 24 doors fail in under a minute. SR3-rated doors withstand five minutes of power-tool attack in laboratory conditions, far exceeding the effort threshold of a typical opportunistic burglar.
 
-According to UK police data, approximately 70% of domestic burglaries involve entry through a door, with the front door being the most commonly targeted entry point. Choosing the right front door is not just an aesthetic decision, it is one of the most important security investments you can make for your home.
+According to UK police data, approximately 70% of domestic burglaries involve entry through a door, with the front door being the most commonly targeted entry point. Choosing the right front door is not just an aesthetic decision — it is one of the most important security investments you can make for your home.
 
 **Related:**
 
@@ -1908,44 +1908,6 @@ Q: How long does the SR3 certification remain valid?
 A: SR3 certification is tied to the specific door design and specification that was tested. It does not expire for that design, but any material change to the structure, locking or glazing requires re-testing. LPCB and other accrediting bodies issue a certificate against a specific product reference, which the manufacturer includes in every handover pack.
 
 When shopping for a new entrance door, you will encounter various security ratings and certifications. Understanding what they mean, and how they differ, helps you make an informed decision about protecting your home.
-
-**Related:**
-
-- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
-
-#### Secured by Design Front Doors UK: What It Means for Homes
-URL: https://steelr.co.uk/blog/secured-by-design-doors | Category: Security | Published: 2026-03-15 | 7 min read
-
-Secured by Design front doors UK guide. What the police-preferred accreditation means, how products are tested and why it matters for home security.
-
-**Key facts:**
-
-- For entrance doors, this typically means testing to BS EN 1627:2011 (resistance classes) or PAS 24:2022 (enhanced security performance for doorsets).
-- This is where certifications such as ISO 9001 become relevant, they provide independent verification that the manufacturer operates robust quality management systems.
-- It is common to confuse Secured by Design accreditation with individual security ratings such as SR1, SR2 or SR3.
-- They are related but distinct: Security ratings (SR1 to SR6 under BS EN 1627:2011) define the level of attack resistance a door can withstand.
-- SR3 is the highest rating commercially available for residential doors.
-
-**FAQs:**
-
-Q: Is Secured by Design a legal requirement?
-A: Secured by Design is not a statutory requirement, but Approved Document Q of the Building Regulations requires new dwellings in England to have secure doorsets. Secured by Design approval is the clearest way to demonstrate compliance with Approved Document Q because it already references the BS EN 1627 and PAS 24 tests that underpin the regulation. Many local authority planning departments specifically reference Secured by Design for developer schemes.
-
-Q: How is Secured by Design different from SR3?
-A: SR3 is an attack-resistance rating for the door itself under BS EN 1627:2011. Secured by Design is a broader accreditation run by UK police that assesses the whole doorset (leaf, frame, hinges, locking, glazing, hardware) plus the manufacturer's quality systems. A door can hold SR3 without Secured by Design accreditation, and some Secured by Design doors sit at lower rating tiers. The strongest specification is a door that carries both.
-
-Q: Do UK insurers give discounts for Secured by Design doors?
-A: Many do, though the discount varies by insurer. Some apply reduced premiums directly, others waive or reduce policy excesses on forced-entry claims. Specialist high-value home insurers often list Secured by Design as a preferred specification. Always ask your insurer for the specific benefit at renewal and supply them with the certificate reference from the installer.
-
-Q: How can I verify a door is genuinely Secured by Design accredited?
-A: Check the official Secured by Design member directory at securedbydesign.com. Every accredited product and manufacturer is listed there by name, with accreditation dates and product references. Ask the supplier for the specific doorset reference to look up. If a supplier cannot provide a reference that appears on the SBD list, the accreditation claim is unverified.
-
-Q: Does Secured by Design accreditation cover the installation too?
-A: The accreditation covers the doorset as a product. Proper installation is then required for the security performance to hold in practice. Secured by Design guidance recommends installation by the manufacturer's own trained fitters or certified installers, and specifies fixings and substrate requirements that must be followed. A correctly specified Secured by Design door fitted badly will not perform as tested.
-
-Secured by Design (SBD) is the official police security initiative owned and operated by Police Crime Prevention Initiatives Ltd. It was established in 1989 to encourage the building industry to adopt crime prevention measures in the design and construction of residential and commercial properties.
 
 **Related:**
 
@@ -2018,7 +1980,7 @@ A: Yes. Decorative glazing, including leaded lights, stained glass panels and et
 Q: How do I know which period my property belongs to?
 A: The architectural period is usually identifiable from a combination of construction date (check the title deeds or local authority records), facade proportions, window style, roof form and decorative details. An experienced architect or conservation officer can confirm the period. If you are uncertain, our design team can advise during the initial consultation based on photographs of the property.
 
-A period property deserves an entrance that respects its architectural heritage while delivering the performance standards of 2026. The front door is the single most prominent external element, it sets the tone for the entire facade and signals whether the property has been cared for with knowledge or merely updated with convenience.
+A period property deserves an entrance that respects its architectural heritage while delivering the performance standards of 2026. The front door is the single most prominent external element — it sets the tone for the entire facade and signals whether the property has been cared for with knowledge or merely updated with convenience.
 
 **Related:**
 
@@ -2033,7 +1995,7 @@ URL: https://steelr.co.uk/blog/modern-front-door-ideas-inspiration-2026 | Catego
 
 **Key facts:**
 
-- Oversized pull bars, 600mm, 900mm or even full-height, in brushed stainless steel, blackened bronze or satin brass have become defining design elements in their own right.
+- Oversized pull bars — 600mm, 900mm or even full-height — in brushed stainless steel, blackened bronze or satin brass have become defining design elements in their own right.
 - A 300mm handle on a 2.4-metre door reads as undersized and timid.
 - A 900mm pull bar in a contrasting finish creates visual weight and intention.
 - Every door in our collection is built to order under ISO 9001 quality management, with SR3 security certification and the full RAL colour range available as standard.
@@ -2044,7 +2006,7 @@ Q: What is the most popular modern front door style in 2026?
 A: Horizontal ribbed panel designs are the most requested contemporary style, followed closely by flush-face doors with concealed hinges. Both styles reflect the minimalist architectural direction that dominates current residential design, and both benefit from the dimensional precision that steel construction provides.
 
 Q: Can a modern front door still be secure?
-A: Modern design and high security are not in conflict. A flush-face steel door with concealed hinges achieves **SR3 certification**, the highest residential security rating, while presenting the cleanest possible aesthetic. Concealed hinges actually enhance security by eliminating exposed hardware. The design language is modern; the protection is uncompromising.
+A: Modern design and high security are not in conflict. A flush-face steel door with concealed hinges achieves **SR3 certification** — the highest residential security rating — while presenting the cleanest possible aesthetic. Concealed hinges actually enhance security by eliminating exposed hardware. The design language is modern; the protection is uncompromising.
 
 Q: How do I choose the right colour for a modern front door?
 A: Consider the colour of your facade material, the architectural style of your property and the level of contrast you want to create. Neutral facades (white render, grey brick, natural stone) support bold statement colours effectively. The full RAL range of over 200 colours is available, and dual-colour specification allows different colours for exterior and interior faces.
@@ -2055,7 +2017,7 @@ A: Modern pivot mechanisms are engineered for daily domestic use and support doo
 Q: What modern door styles work on period properties?
 A: Arched top profiles, statement colours and oversized hardware can be applied to period properties with outstanding results. The key is proportion: the door must respect the scale and rhythm of the existing facade. A flush contemporary door on a Victorian villa would jar, but a panelled door in a bold colour with an oversized brass pull bar can feel both modern and entirely appropriate.
 
-The front door has undergone a fundamental shift in status. What was once a functional necessity, something you walked through without thinking, has become one of the most considered architectural elements of a residential facade. In 2026, the entrance door is a design statement, a first impression and, increasingly, a reflection of how seriously a homeowner takes the intersection of aesthetics and performance.
+The front door has undergone a fundamental shift in status. What was once a functional necessity — something you walked through without thinking — has become one of the most considered architectural elements of a residential facade. In 2026, the entrance door is a design statement, a first impression and, increasingly, a reflection of how seriously a homeowner takes the intersection of aesthetics and performance.
 
 **Related:**
 
@@ -2091,7 +2053,7 @@ A: Unlacquered polished brass in a sheltered porch typically needs polishing two
 Q: Does hardware finish affect door security?
 A: The decorative finish does not affect security performance. However, on a door certified to SR3 or **Secured by Design** standards, all locking hardware must be security-rated and tested as part of the doorset. Anti-snap, anti-pick cylinders are standard regardless of the chosen finish.
 
-A beautifully engineered steel door deserves hardware that matches its ambition. The knocker, handle, letter plate and numerals are not afterthoughts, they are the jewellery of your facade, the elements visitors see first and touch before anything else. Choosing the right front door hardware finishes is one of the most consequential design decisions in any entrance project.
+A beautifully engineered steel door deserves hardware that matches its ambition. The knocker, handle, letter plate and numerals are not afterthoughts — they are the jewellery of your facade, the elements visitors see first and touch before anything else. Choosing the right front door hardware finishes is one of the most consequential design decisions in any entrance project.
 
 **Related:**
 
@@ -2107,7 +2069,7 @@ RAL colours for front doors UK. The RAL system explained, popular UK choices, du
 **Key facts:**
 
 - Every SteelR door is finished in the full RAL colour range using this process, applied under ISO 9001 quality management.
-- Combined with SR3 security certification and Secured by Design accreditation, the result is an entrance door that performs as well as it looks, for decades.
+- Combined with SR3 security certification and Secured by Design accreditation, the result is an entrance door that performs as well as it looks — for decades.
 
 **FAQs:**
 
@@ -2126,7 +2088,7 @@ A: RAL Classic contains 215 standardised colours used across industry and archit
 Q: Will the colour fade over time?
 A: Polyester powder coating is highly resistant to UV degradation. A properly applied powder coat finish on a steel entrance door will maintain its colour integrity for decades under normal UK weather conditions. The finish is also resistant to salt spray, making it suitable for coastal installations without accelerated fading.
 
-Colour is often the first thing a visitor notices about an entrance door. Before they register the proportions, the hardware or the material, they see the colour, and form an immediate impression of the property behind it. Choosing the right shade is consequently one of the most considered decisions in any door specification.
+Colour is often the first thing a visitor notices about an entrance door. Before they register the proportions, the hardware or the material, they see the colour — and form an immediate impression of the property behind it. Choosing the right shade is consequently one of the most considered decisions in any door specification.
 
 **Related:**
 
@@ -2142,7 +2104,7 @@ Best front doors for period properties UK. Victorian, Georgian, Edwardian and li
 **Key facts:**
 
 - An SR3-rated steel door provides a level of security that no timber door can approach.
-- While a solid timber door might delay an intruder for a few seconds, an SR3-rated steel door withstands sustained attack with crowbars, drills and angle grinders, tested and certified to BS EN 1627:2011.
+- While a solid timber door might delay an intruder for a few seconds, an SR3-rated steel door withstands sustained attack with crowbars, drills and angle grinders — tested and certified to BS EN 1627:2011.
 - A bespoke steel entrance door achieves this by faithfully reproducing the aesthetic details of Georgian, Victorian or Edwardian design while delivering SR3 security, excellent thermal performance and zero ongoing maintenance.
 - Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management.
 
@@ -2208,7 +2170,7 @@ Q: Can I replace my front door without planning permission?
 A: In most cases, yes. Front door replacement falls within permitted development rights for the majority of properties. The exceptions are listed buildings (which require Listed Building Consent for any external alteration) and properties in conservation areas with Article 4 Directions that restrict changes to the front elevation. Your local planning authority can confirm whether restrictions apply.
 
 Q: How long does a front door installation take?
-A: A standard single door installation is typically completed within one day. More complex configurations, doors with sidelights, fanlights, structural modifications or non-standard openings, may require two days. The installation team will confirm the expected duration during the scheduling process.
+A: A standard single door installation is typically completed within one day. More complex configurations — doors with sidelights, fanlights, structural modifications or non-standard openings — may require two days. The installation team will confirm the expected duration during the scheduling process.
 
 Q: Will my home be secure during the installation?
 A: Yes. The installation process is managed to ensure the property is never left unsecured. The old door is not removed until the new doorset is ready to be fitted immediately. At the end of the installation day, all locking mechanisms are fully operational and tested before the team leaves.
@@ -2216,7 +2178,7 @@ A: Yes. The installation process is managed to ensure the property is never left
 Q: What maintenance does a steel front door require?
 A: Minimal. Occasional cleaning with warm soapy water, periodic lubrication of hinges and locking mechanisms, and an annual check of weatherseals is all that is needed. The multi-layer paint finish does not require repainting or refinishing. Steel entrance doors are engineered for decades of maintenance-free performance.
 
-Every spring, homeowners across the UK turn their attention to the house. The longer days reveal what winter has hidden, peeling paint, tired facades, draughty thresholds and front doors that no longer represent the quality of the home behind them.
+Every spring, homeowners across the UK turn their attention to the house. The longer days reveal what winter has hidden — peeling paint, tired facades, draughty thresholds and front doors that no longer represent the quality of the home behind them.
 
 **Related:**
 
@@ -2249,10 +2211,10 @@ Q: Will I need planning permission to replace my front door?
 A: In most cases, no. Front door replacement falls under permitted development rights. However, properties in conservation areas, listed buildings or those subject to Article 4 directions may require consent. Check with your local planning authority before proceeding, especially for properties in [London](/areas/london) or [Buckinghamshire](/areas/buckinghamshire).
 
 Q: What is the best material for a replacement front door?
-A: The best material depends on your priorities. For maximum security, longevity and minimal maintenance, bespoke steel is the leading choice, achieving SR3 certification and Secured by Design accreditation. For period properties where timber character is essential, hardwood remains popular. Composite offers a mid-range balance of performance and cost.
+A: The best material depends on your priorities. For maximum security, longevity and minimal maintenance, bespoke steel is the leading choice — achieving SR3 certification and Secured by Design accreditation. For period properties where timber character is essential, hardwood remains popular. Composite offers a mid-range balance of performance and cost.
 
 Q: How much does it cost to replace a front door in the UK?
-A: Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification, material, security rating, glazing, hardware and finishing. For accurate pricing tailored to your requirements, [request an estimate](/design-estimate).
+A: Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification — material, security rating, glazing, hardware and finishing. For accurate pricing tailored to your requirements, [request an estimate](/design-estimate).
 
 A front door is not a component that fails dramatically and without warning. It degrades gradually, and many homeowners grow accustomed to problems they should not be tolerating. Recognising the signs early means avoiding the security risks, energy losses and aesthetic decline that an ageing door imposes on your property.
 
@@ -2278,18 +2240,18 @@ Q: Do I always need planning permission for a new door in a conservation area?
 A: Not always. If the replacement is like-for-like in style, proportions and colour, it may fall within permitted development. However, Article 4 directions can require permission even for minor changes. Always check with your local planning authority before proceeding.
 
 Q: Will a conservation officer accept a steel door?
-A: In most cases, yes, provided the door faithfully replicates the visual character of the original or an appropriate period design. Conservation officers assess external appearance, not material composition. Detailed drawings and material samples help demonstrate compliance.
+A: In most cases, yes — provided the door faithfully replicates the visual character of the original or an appropriate period design. Conservation officers assess external appearance, not material composition. Detailed drawings and material samples help demonstrate compliance.
 
 Q: How long does the planning process take for a conservation area door replacement?
 A: A householder planning application typically takes eight weeks to determine. Pre-application advice can add two to four weeks at the front end but significantly reduces the risk of refusal. Where an application is straightforward and the design is clearly appropriate, some authorities process them faster.
 
 Q: Can I have a contemporary-style door in a conservation area?
-A: It depends on the building and the area. A contemporary door on a modern infill building within a conservation area may be acceptable, even encouraged, if it represents honest, high-quality design. On a period building, a contemporary design will almost certainly be refused as it would harm the character of the original facade.
+A: It depends on the building and the area. A contemporary door on a modern infill building within a conservation area may be acceptable — even encouraged — if it represents honest, high-quality design. On a period building, a contemporary design will almost certainly be refused as it would harm the character of the original facade.
 
 Q: What colours are acceptable for doors in conservation areas?
-A: This varies by area and authority. Many publish recommended palettes based on historical research. Heritage tones, deep greens, blues, reds, black, cream and stone colours, are generally safe. Bright, modern colours are usually resisted. The [RAL colour system](/colours) allows specification to any required shade.
+A: This varies by area and authority. Many publish recommended palettes based on historical research. Heritage tones — deep greens, blues, reds, black, cream and stone colours — are generally safe. Bright, modern colours are usually resisted. The [RAL colour system](/colours) allows specification to any required shade.
 
-A conservation area is a defined area of special architectural or historic interest, designated by the local planning authority under Section 69 of the Planning (Listed Buildings and Conservation Areas) Act 1990. The purpose of the designation is to preserve or enhance the character and appearance of the area as a whole, not just individual buildings, but the collective streetscape, materials, proportions and architectural language that give a neighbourhood its identity.
+A conservation area is a defined area of special architectural or historic interest, designated by the local planning authority under Section 69 of the Planning (Listed Buildings and Conservation Areas) Act 1990. The purpose of the designation is to preserve or enhance the character and appearance of the area as a whole — not just individual buildings, but the collective streetscape, materials, proportions and architectural language that give a neighbourhood its identity.
 
 **Related:**
 
@@ -2332,17 +2294,35 @@ A conservation area is an area of special architectural or historic interest, th
 - [Steel Front Doors for Conservation Areas: UK Planning Guide](https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide)
 
 #### Steel Front Doors for UK Country Homes: Full Guide
-URL: https://steelr.co.uk/blog/steel-doors-country-homes-guide | Category: Guides | Published: 2026-03-30 | 4 min read
+URL: https://steelr.co.uk/blog/steel-doors-country-homes-guide | Category: Guides | Published: 2026-03-30 | 10 min read
 
 Why UK country homes choose bespoke steel front doors. SR3 security, weather resistance, kerb appeal and design options for rural and semi-rural properties.
 
 **Key facts:**
 
 - An SR3-rated steel entrance door addresses these concerns directly.
-- Tested to BS EN 1627:2011, an SR3 door withstands sustained attack with crowbars, drills and angle grinders, providing a level of resistance that no timber or composite door can match.
+- Tested to BS EN 1627:2011, an SR3 door withstands sustained attack with crowbars, drills and angle grinders — providing a level of resistance that no timber or composite door can match.
+- Specify a dual thermal break with polyurethane insulation infill for U-values below 1.0 W/m²K.
 - Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management.
 
-The British countryside is home to some of the most beautiful residential properties in the world, from Chiltern manor houses and Cotswold farmsteads to Yorkshire stone cottages and Surrey estates. Increasingly, homeowners in these affluent rural and semi-rural areas are turning to bespoke steel entrance doors as the definitive upgrade for their country properties.
+**FAQs:**
+
+Q: Are steel front doors suitable for listed country homes?
+A: Yes, provided the door is manufactured to replicate the proportions and detailing of the original. Most UK conservation officers will grant Listed Building Consent for a steel replacement of a deteriorated period door, specifically because steel offers superior longevity to the original timber while visually matching the approved design. Submit scale drawings with the application and provide historical justification.
+
+Q: How do steel doors perform in high-wind exposed country locations?
+A: Better than any alternative. A bespoke steel entrance door is dimensionally stable across the full range of UK weather conditions. It does not warp, swell or leak air like timber. The multi-point locking system, heavy-duty hinges and frame anchoring withstand wind loads on the most exposed ridge-line and coastal properties. We have installed SteelR doors in Snowdonia, Dartmoor and the North Pennines without performance issues.
+
+Q: Will a steel door look out of place on a Cotswold stone cottage?
+A: Not if it is specified correctly. The visible face of the door is painted or powder-coated in any RAL colour, with any panel profile, heritage ironmongery and glazing configuration. A five-panel black cottage door in steel is visually indistinguishable from one in timber. The steel is the structural material beneath. The aesthetics match the property regardless.
+
+Q: How much more does a country installation cost than an urban one?
+A: Slightly more, but not dramatically. The additional cost typically covers specialist access (narrow lanes, soft ground), deeper frame profiles for thick stone or brick walls, and in some cases crane hire for double-leaf installations. As a rule of thumb, expect 10 to 20 percent additional installation cost on rural properties compared to an equivalent urban installation.
+
+Q: Can one supplier handle the front door, boot room, garden room and gate?
+A: Yes, and we recommend it. A single manufacturer specifying every entrance across the estate ensures matched paint finishes, hardware families, security ratings and aesthetic continuity. Sourcing from multiple suppliers leads to mismatched metalwork that reads as inconsistent against the property.
+
+The British countryside is home to some of the most beautiful residential properties in the world — from Chiltern manor houses and Cotswold farmsteads to Yorkshire stone cottages and Surrey estates. Increasingly, homeowners in these affluent rural and semi-rural areas are turning to bespoke steel entrance doors as the definitive upgrade for their country properties.
 
 **Related:**
 
@@ -2350,7 +2330,7 @@ The British countryside is home to some of the most beautiful residential proper
 - [Front Door Replacement UK: Complete Homeowner Guide](https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners)
 - [Spring Front Door Upgrade UK: Why Start Here First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
 
-### Technical (5 posts)
+### Technical (4 posts)
 
 #### Smart Locks for Steel Front Doors UK: 2026 Buyer Guide
 URL: https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide | Category: Technical | Published: 2026-06-02 | 7 min read
@@ -2382,7 +2362,7 @@ A: Smart locks with TS 007 three-star certification and Sold Secure Diamond rati
 Q: Can smart locks work with multipoint locking systems?
 A: Yes, but only smart cylinders and smart handles designed to operate within a multipoint lock case. Standard consumer smart deadbolts are not compatible with multipoint locking and should not be installed on steel entrance doors.
 
-The appeal of smart locks is straightforward: keyless entry, remote access control, activity logging and integration with the broader smart home ecosystem. For homeowners who have invested in premium home automation, lighting scenes, climate control, security cameras, the front door is the final piece of the connected puzzle.
+The appeal of smart locks is straightforward: keyless entry, remote access control, activity logging and integration with the broader smart home ecosystem. For homeowners who have invested in premium home automation — lighting scenes, climate control, security cameras — the front door is the final piece of the connected puzzle.
 
 **Related:**
 
@@ -2398,7 +2378,7 @@ UK architect guide to specifying steel front doors in 2026. NBS clauses, perform
 **Key facts:**
 
 - The regulatory baseline for entrance door security in England and Wales is PAS 24:2022, mandated by Approved Document Q.
-- For refurbishment projects, PAS 24 is recommended but not always mandated, though specifying below this standard is difficult to justify professionally.
+- For refurbishment projects, PAS 24 is recommended but not always mandated — though specifying below this standard is difficult to justify professionally.
 - Beyond PAS 24, the Loss Prevention Certification Board's LPS 1175 standard provides graded security ratings.
 - SR3 is the highest rating routinely specified for residential applications, resisting sustained attack with professional tools over an extended period.
 - For high-value residential projects across London, Manchester and Birmingham, SR3 is increasingly the default specification rather than an enhancement.
@@ -2406,7 +2386,7 @@ UK architect guide to specifying steel front doors in 2026. NBS clauses, perform
 **FAQs:**
 
 Q: What is the minimum security standard for entrance doors in new-build projects?
-A: PAS 24:2022 is the minimum security standard mandated by Approved Document Q for all new dwellings in England and Wales. This applies to the complete doorset, leaf, frame and hardware, tested as an assembly. For enhanced security, LPS 1175 SR2 or SR3 provides a graded system of physical attack resistance.
+A: PAS 24:2022 is the minimum security standard mandated by Approved Document Q for all new dwellings in England and Wales. This applies to the complete doorset — leaf, frame and hardware — tested as an assembly. For enhanced security, LPS 1175 SR2 or SR3 provides a graded system of physical attack resistance.
 
 Q: How do I specify a steel door that meets both fire and security requirements?
 A: Dual-rated doorsets must be tested and certified for both fire resistance and security as a single assembly. You cannot combine separately certified fire-rated and security-rated components. Specify the required fire rating (FD30 or FD60) alongside the security rating (PAS 24 or SR class) and request evidence that the doorset has been tested to both standards simultaneously.
@@ -2418,7 +2398,7 @@ Q: How heavy is a typical bespoke steel entrance door?
 A: A single-leaf steel entrance door typically weighs between 80 and 150 kilograms depending on size, glazing and security rating. A double-leaf doorset with sidelights can exceed 300 kilograms. The structural opening, lintel and fixings must be designed to accommodate this weight.
 
 Q: What lead time should I allow for a bespoke steel entrance door?
-A: Allow 8-12 weeks from confirmed order to delivery for a standard bespoke steel doorset. Complex configurations, specialist finishes or dual fire-and-security ratings may extend this to 14-16 weeks. The approval process, from initial consultation to signed-off production drawings, adds a further 2-4 weeks and should be programmed separately.
+A: Allow 8-12 weeks from confirmed order to delivery for a standard bespoke steel doorset. Complex configurations, specialist finishes or dual fire-and-security ratings may extend this to 14-16 weeks. The approval process — from initial consultation to signed-off production drawings — adds a further 2-4 weeks and should be programmed separately.
 
 Specifying an entrance door appears straightforward until you consider the number of performance requirements converging on a single building element. Security, thermal efficiency, fire resistance, acoustic performance, durability, aesthetics and accessibility must all be addressed within a specification that is buildable, verifiable and compliant. For steel entrance doors, the specification process carries additional considerations around weight, structural interface and finish durability that differ materially from timber or composite alternatives.
 
@@ -2435,7 +2415,7 @@ Fire rated front doors UK explained. FD30 vs FD60, Approved Document B, Building
 
 **Key facts:**
 
-- The rating is not simply a label; it reflects rigorous testing under BS 476-22 or BS EN 1634-1 standards, where the complete door assembly, frame, leaf, glazing, seals and hardware, must perform as a system.
+- The rating is not simply a label; it reflects rigorous testing under BS 476-22 or BS EN 1634-1 standards, where the complete door assembly — frame, leaf, glazing, seals and hardware — must perform as a system.
 - The two most common fire ratings for residential doors in the UK are FD30 and FD60.
 - FD30 doors provide thirty minutes of fire resistance.
 - Most residential applications fall within the FD30 category.
@@ -2458,7 +2438,7 @@ A: A genuine fire rated door will carry a certification label or plug on the top
 Q: Are steel doors better than timber for fire resistance?
 A: Steel doors offer inherent advantages for fire resistance. Steel does not combust, warp or shrink when exposed to fire. A steel fire rated door maintains its shape and structural integrity throughout the test period, providing reliable performance even in the most demanding conditions. Timber fire doors depend entirely on the quality of the core material and intumescent protection to prevent combustion of the leaf itself.
 
-Fire safety in residential buildings is not optional. In the UK, fire rated front doors are a legal requirement in many property types, and the regulatory landscape has tightened significantly since the Grenfell Tower tragedy in 2017. Whether you are a property developer, architect or homeowner converting a property into flats, understanding fire door regulations is essential to compliance, insurance validity and, most importantly, occupant safety.
+Fire safety in residential buildings is not optional. In the UK, fire rated front doors are a legal requirement in many property types, and the regulatory landscape has tightened significantly since the Grenfell Tower tragedy in 2017. Whether you are a property developer, architect or homeowner converting a property into flats, understanding fire door regulations is essential to compliance, insurance validity and — most importantly — occupant safety.
 
 **Related:**
 
@@ -2491,33 +2471,12 @@ Q: Do steel doors cause condensation?
 A: Condensation occurs when a surface drops below the dew point of the surrounding air. Thermally broken steel doors keep interior surfaces warm, virtually eliminating condensation on the frame and door leaf. Proper glazing specification (double or triple glazed with warm-edge spacers) and an insulated threshold prevent condensation at all points.
 
 Q: How does a steel door compare thermally to a composite door?
-A: Premium composite doors typically achieve U-values of 1.0 to 1.6 W/m2K. Thermally broken steel doors achieve 0.9 to 1.4 W/m2K, comparable or superior thermal performance. The distinction is that steel doors deliver this alongside SR3 security certification and fire resistance, which composite construction cannot achieve.
+A: Premium composite doors typically achieve U-values of 1.0 to 1.6 W/m2K. Thermally broken steel doors achieve 0.9 to 1.4 W/m2K — comparable or superior thermal performance. The distinction is that steel doors deliver this alongside SR3 security certification and fire resistance, which composite construction cannot achieve.
 
 Q: What is a thermal break and why does it matter?
 A: A thermal break is a section of low-conductivity material (typically polyamide) inserted into the door frame to separate the interior and exterior metal sections. Without a thermal break, the steel frame conducts heat directly from inside to outside, creating a cold bridge that causes heat loss and condensation. Thermal breaks reduce frame conductivity by a factor of approximately 200.
 
-Steel is an excellent conductor of heat. That single fact has historically been the primary objection raised against steel entrance doors by architects, specifiers and homeowners alike. If steel conducts heat so efficiently, surely a steel door must be a thermal liability, cold to the touch in winter, a source of heat loss, a condensation risk.
-
-**Related:**
-
-- [Fire Rated Front Doors UK: FD30 and FD60 Complete Guide](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
-- [Smart Locks for Steel Front Doors UK: 2026 Buyer Guide](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
-- [Specifying Steel Front Doors UK: 2026 Architect Guide](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
-
-#### Steel Front Doors UK: Architect and Specifier Guide
-URL: https://steelr.co.uk/blog/steel-entrance-doors-architects-specifiers | Category: Technical | Published: 2026-03-05 | 7 min read
-
-UK technical guide for architects and specifiers of steel front doors. SR3 security, thermal performance, FD30 fire ratings and the specification process.
-
-**Key facts:**
-
-- The European standard BS EN 1627:2011 defines six resistance classes for doors, windows and shutters.
-- For architectural specification, the three most relevant classes are: SR1 (RC1), resists opportunistic physical force.
-- SR2 (RC2), resists attack with simple tools (screwdrivers, pliers, wedges) for 3 minutes.
-- SR3 (RC3), resists experienced attack with heavy-duty tools (crowbars, drills, angle grinders) for 5 minutes.
-- A door leaf tested to SR3 in a non-tested frame does not achieve SR3 as an installed product.
-
-The entrance door is one of the most functionally demanding elements in any building envelope. It must simultaneously deliver security, thermal performance, weather resistance, fire safety, acoustic attenuation, accessibility and visual impact. For an increasing number of architects and specifiers in the UK, steel entrance doors are the answer.
+Steel is an excellent conductor of heat. That single fact has historically been the primary objection raised against steel entrance doors by architects, specifiers and homeowners alike. If steel conducts heat so efficiently, surely a steel door must be a thermal liability — cold to the touch in winter, a source of heat loss, a condensation risk.
 
 **Related:**
 

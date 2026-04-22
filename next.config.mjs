@@ -38,6 +38,18 @@ const nextConfig = {
         destination: "/blog/modern-front-door-ideas-inspiration-2026",
         permanent: true,
       },
+      // Second wave cannibalisation cleanup (22 Apr 2026). Two more duplicate
+      // pairs spotted while auditing the remaining thin posts.
+      {
+        source: "/blog/steel-entrance-doors-architects-specifiers",
+        destination: "/blog/specifying-steel-doors-architects-guide-2026",
+        permanent: true,
+      },
+      {
+        source: "/blog/secured-by-design-doors",
+        destination: "/blog/secured-by-design-homes-guide-2026",
+        permanent: true,
+      },
     ];
   },
 };
