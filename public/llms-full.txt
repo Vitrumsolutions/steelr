@@ -1005,12 +1005,12 @@ SteelR provides expert guidance on the following upcoming topics for UK homeowne
 
 Search-engine-ready excerpts of every blog post, grouped by category so AI crawlers receive topically-clustered content. Each entry carries the post summary, up to 5 directly-quotable key facts, up to 5 frequently asked questions, a contextual paragraph, and up to 3 related posts for chain-of-reasoning queries.
 
-### Buying Guide (13 posts)
+### Buying Guide (11 posts)
 
-#### Composite vs Steel Doors in 2026: Has Anything Changed?
+#### Composite vs Steel Front Doors 2026: UK Comparison
 URL: https://steelr.co.uk/blog/composite-vs-steel-doors-2026-updated-comparison | Category: Buying Guide | Published: 2026-06-23 | 8 min read
 
-An updated 2026 comparison of composite vs steel entrance doors covering security, thermal performance, design, sustainability and price for UK homeowners.
+Composite vs steel front doors 2026 compared for UK homes. Security, thermal performance, design, sustainability and cost over the full product lifespan.
 
 **Key facts:**
 
@@ -1042,13 +1042,13 @@ Two years ago, the conversation around composite vs steel doors was relatively s
 **Related:**
 
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
-#### Double Front Doors: Pros, Cons and What to Consider
+#### Double Front Doors UK: Pros, Cons and Full Buyer Guide
 URL: https://steelr.co.uk/blog/double-front-doors-pros-cons-guide | Category: Buying Guide | Published: 2026-05-29 | 7 min read
 
-A practical guide to double front doors covering structural requirements, security, active vs passive leaf, thermal performance, cost and design options for UK homes.
+Double front doors UK guide. Structural requirements, SR3 security, active vs passive leaf, thermal performance, cost and design options for UK homes.
 
 **Key facts:**
 
@@ -1080,13 +1080,13 @@ A double front door makes a statement that a single door cannot. The proportions
 **Related:**
 
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
-#### Steel vs uPVC Front Doors: Why Homeowners Are Upgrading
+#### Steel vs uPVC Front Doors UK: Why Homeowners Upgrade
 URL: https://steelr.co.uk/blog/steel-vs-upvc-front-doors-comparison | Category: Buying Guide | Published: 2026-05-22 | 7 min read
 
-A detailed comparison of steel and uPVC front doors covering security, design, durability, thermal performance and value — helping UK homeowners decide when to upgrade.
+Steel vs uPVC front doors UK compared. Security, design, durability, thermal performance and value, plus why UK homeowners are upgrading to steel doors.
 
 **Key facts:**
 
@@ -1118,13 +1118,13 @@ For much of the past three decades, uPVC has been the default choice for replace
 **Related:**
 
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
-#### Steel vs Fibreglass Doors: An Honest UK Comparison
+#### Steel vs Fibreglass Front Doors UK: Full Comparison
 URL: https://steelr.co.uk/blog/steel-vs-fibreglass-doors-uk-comparison | Category: Buying Guide | Published: 2026-05-06 | 8 min read
 
-Steel vs fibreglass (GRP) doors compared for UK homes. Security, durability, thermal performance, design flexibility, maintenance and cost — an honest analysis.
+Steel vs fibreglass GRP front doors UK compared. Security, durability, thermal performance, design flexibility, maintenance and cost for UK homeowners.
 
 **Key facts:**
 
@@ -1156,13 +1156,13 @@ When homeowners begin researching premium entrance doors, steel and fibreglass (
 **Related:**
 
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
-#### Best Front Doors for New Builds: What Property Developers Should Know
+#### Best Front Doors for New Builds UK: Developer Guide
 URL: https://steelr.co.uk/blog/best-front-doors-new-builds-uk | Category: Buying Guide | Published: 2026-05-01 | 8 min read
 
-A guide for UK property developers on specifying front doors for new builds. Covers Part Q, Part L, Part B compliance, Secured by Design and bulk specification.
+Guide for UK developers specifying front doors for new builds. PAS 24, Part Q, Part L, Part B compliance, Secured by Design and bulk specification.
 
 **Key facts:**
 
@@ -1194,13 +1194,51 @@ For property developers, the front door is where compliance, security, kerb appe
 **Related:**
 
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Composite vs Steel Doors in 2026: Has Anything Changed?](https://steelr.co.uk/blog/composite-vs-steel-doors-2026-updated-comparison)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Composite vs Steel Front Doors 2026: UK Comparison](https://steelr.co.uk/blog/composite-vs-steel-doors-2026-updated-comparison)
+
+#### Luxury Front Doors UK: The 2026 Buyer Guide
+URL: https://steelr.co.uk/blog/luxury-front-doors-uk-buyer-guide | Category: Buying Guide | Published: 2026-04-22 | 11 min read
+
+Luxury front doors UK buyer guide 2026. Materials, security ratings, hardware, design styles, investment range and what separates premium from standard.
+
+**Key facts:**
+
+- PAS 24 is now a minimum expectation on most policies covering properties above £1 million.
+- SR3 (BS EN 1627 Class 3) is required or heavily incentivised by specialist high-value insurers such as Home & Legacy and Hiscox.
+- Approved Document Q makes PAS 24 mandatory on new-build dwellings and conversions.
+- The finish is powder-coated in a paint shop at approximately 200°C, making it resistant to chipping, fading and moisture damage for 20 to 40 years without re-coating.
+- A bespoke steel door rated to SR3 (BS EN 1627 Class 3) as standard resists attack with hand tools for longer than any timber or composite door without active security specification.
+
+**FAQs:**
+
+Q: What is considered a luxury front door in the UK?
+A: A luxury front door in the UK is one that is made to order (not selected from a catalogue), manufactured from a structurally superior material such as steel or solid hardwood, security-tested to at least SR3 (BS EN 1627 Class 3), finished by hand in any RAL colour, and specified with individually-selected hardware. PAS 24 alone is not luxury-tier; SR3 or SR4 is the threshold.
+
+Q: Are steel front doors more expensive than composite?
+A: A bespoke steel front door typically costs 2 to 3 times a premium composite door for the same opening. The difference reflects the structural material, the hand finishing, the bespoke design, the security rating and the installation warranty. For properties where the front door is a permanent architectural feature rather than a short-term fitting, steel delivers the lower lifetime cost.
+
+Q: What is the best material for a luxury front door in the UK?
+A: For most luxury UK residential projects built or renovated since 2010, bespoke steel is the best combination of security, permanence, design flexibility and maintenance cost. Solid hardwood remains the preferred choice for listed buildings and conservation-area properties where planning restricts non-original materials. Composite is a valid choice only at the true top of the composite market and only for contemporary new-builds.
+
+Q: How long does a luxury front door last?
+A: A bespoke steel front door with a powder-coat finish typically lasts 25 to 40 years with no maintenance beyond hardware cleaning. A well-specified solid hardwood door lasts 40 to 60 years with repainting every 3 to 5 years. A premium composite door typically lasts 15 to 20 years before the face begins to degrade.
+
+Q: Do I need planning permission for a luxury front door?
+A: In most UK properties, no. Replacement of a front door on its like-for-like opening is permitted development and does not require planning permission. The exceptions are: listed buildings (where any exterior change needs listed building consent), conservation areas (where local authority consent is often required), and properties with Article 4 directions in force. A credible supplier will confirm planning requirements during the initial survey.
+
+The phrase luxury front door has been diluted by marketing. Most "premium" doors sold in the UK today are mass-manufactured composite or timber products finished to look high-end. That is not what this guide is about.
+
+**Related:**
+
+- [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
 #### Are Steel Entrance Doors Worth It? Honest UK Assessment
 URL: https://steelr.co.uk/blog/are-steel-doors-worth-it-uk | Category: Buying Guide | Published: 2026-04-13 | 10 min read
 
-An honest assessment of whether steel entrance doors are worth the investment for UK homeowners — covering durability, security, maintenance, thermal performance, insurance benefits, resale value, and common concerns.
+Are steel entrance doors worth it for UK homes? Honest assessment of durability, SR3 security, thermal performance, insurance savings and resale value.
 
 **Key facts:**
 
@@ -1231,14 +1269,14 @@ Yes — for the right property and the right homeowner, a bespoke steel entrance
 
 **Related:**
 
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
-- [Composite vs Steel Doors in 2026: Has Anything Changed?](https://steelr.co.uk/blog/composite-vs-steel-doors-2026-updated-comparison)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
+- [Composite vs Steel Front Doors 2026: UK Comparison](https://steelr.co.uk/blog/composite-vs-steel-doors-2026-updated-comparison)
 
-#### How Much Do Steel Entrance Doors Cost in the UK? 2026 Price Guide
+#### How Much Do Steel Entrance Doors Cost UK: 2026 Guide
 URL: https://steelr.co.uk/blog/how-much-do-steel-doors-cost-uk | Category: Buying Guide | Published: 2026-04-13 | 10 min read
 
-A transparent guide to bespoke steel entrance door pricing in the UK — typical costs from £3,000 to £15,000+, what affects the price, how steel compares to composite and timber, and what you actually get for the investment.
+Bespoke steel entrance door cost UK explained. What affects the price, how steel compares to composite and timber, and what you get for the investment.
 
 **Key facts:**
 
@@ -1270,13 +1308,13 @@ If you have searched "how much do steel doors cost UK" expecting a simple number
 **Related:**
 
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
-#### Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment
+#### Bespoke Steel Entrance Doors UK: The Complete Guide
 URL: https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide | Category: Buying Guide | Published: 2026-04-10 | 8 min read
 
-A comprehensive guide to bespoke entrance doors in the UK — what made-to-order means, customisation options, the design process and why standard sizes rarely suit quality properties.
+Complete guide to bespoke steel entrance doors in the UK. Made-to-order customisation, design process and why standard sizes rarely suit quality homes.
 
 **Key facts:**
 
@@ -1307,51 +1345,13 @@ The word bespoke is used freely in the door industry, often to describe products
 **Related:**
 
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
-- [Composite vs Steel Doors in 2026: Has Anything Changed?](https://steelr.co.uk/blog/composite-vs-steel-doors-2026-updated-comparison)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
+- [Composite vs Steel Front Doors 2026: UK Comparison](https://steelr.co.uk/blog/composite-vs-steel-doors-2026-updated-comparison)
 
-#### How Much Do Steel Entrance Doors Cost in the UK?
-URL: https://steelr.co.uk/blog/steel-entrance-doors-pricing-factors | Category: Buying Guide | Published: 2026-03-31 | 5 min read
-
-Understand the factors that influence steel entrance door pricing in the UK — from size and glazing to hardware, finish and security rating — and how to budget for a bespoke steel front door.
-
-**Key facts:**
-
-- The level of security testing applied to the door has a direct impact on manufacturing complexity and materials: PAS 24 — the minimum enhanced security standard.
-- Lighter-gauge construction and simpler locking systems keep costs down SR2 (RC2) — mid-range resistance class.
-- Heavier steel, better locking mechanisms and more rigorous testing SR3 (RC3) — the highest commercially available residential security rating under BS EN 1627:2011.
-- Every component must be independently tested as a complete system At SteelR, SR3 is standard on every door — not an optional upgrade.
-- Essential for SR3 doors and a meaningful cost component The more elaborate the glazing design, the greater the material cost and the skilled labour involved in fabrication.
-
-**FAQs:**
-
-Q: What drives the biggest price difference between two steel door quotes?
-A: The security specification and glazing choices usually account for most of the variation. SR3 under BS EN 1627 requires heavier steel gauge, reinforced frames and specialist locking that adds real cost over a door tested only to PAS 24. Laminated or toughened security glazing, especially in sidelights and fanlights, is another major contributor. Colour, hardware finish and knocker choice matter less than most buyers expect.
-
-Q: Is a larger door always more expensive?
-A: Broadly yes, though not linearly. A single door up to standard height is the baseline. Above that, you start paying for structural frame reinforcement, larger hinges and a heavier leaf. Double doors and configurations with sidelights or fanlights add cost in frame engineering and glazing area. An oversized double doorset with sidelights can cost two to three times a standard single door of equivalent specification.
-
-Q: Do sidelights and fanlights add a lot to the cost?
-A: They add a meaningful amount. Each sidelight is effectively an additional framed glazing unit that needs the same level of engineering as the main door panel. Security-rated sidelights use laminated glazing and reinforced frame construction to maintain the SR3 performance of the doorset. A single door with two sidelights and a fanlight can be 40 to 60 percent more than a plain single door.
-
-Q: How does the choice of glazing affect the price?
-A: Laminated security glazing is standard for SR3 certification. The base security glass adds a modest amount per door. Upgrades such as acoustic laminated glass (for noise reduction), heritage-pattern glass (for period properties), colour-matched decorative glass or stained-glass panels add further cost. For most homeowners the standard security laminated glass is sufficient.
-
-Q: Is hardware (knockers, handles, letterboxes) a meaningful share of the cost?
-A: Hardware accounts for a small proportion of the total door price. Standard hardware in chrome, brass, matt black or satin is included in baseline quotations. Specialist items such as heavy solid-brass lion knockers, antique ironmongery, hand-engraved numerals or custom-finish bar handles add modest amounts. The brand of the underlying locking mechanism is more significant than the visible hardware.
-
-If you have been searching for steel entrance door prices UK or how much does a steel front door cost, you will have noticed that transparent pricing is hard to come by. That is not evasion — it is the nature of bespoke manufacturing. A steel entrance door is not a standard product pulled from a shelf. Every door is designed, engineered and built to a unique specification, and the cost reflects that.
-
-**Related:**
-
-- [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
-
-#### Steel vs Aluminium Front Doors: Which Should You Choose?
+#### Steel vs Aluminium Front Doors UK: Full Comparison
 URL: https://steelr.co.uk/blog/steel-vs-aluminium-front-doors | Category: Buying Guide | Published: 2026-03-31 | 6 min read
 
-An honest comparison of steel and aluminium front doors covering security, thermal performance, weight, design flexibility, longevity and cost — helping UK homeowners choose the right material.
+Steel vs aluminium front doors UK compared. Security, thermal performance, weight, design flexibility, longevity and cost for UK homeowners choosing material.
 
 **Key facts:**
 
@@ -1383,51 +1383,13 @@ When homeowners move beyond timber and composite and start looking at premium en
 **Related:**
 
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
-#### Steel vs Composite Doors: Which Is Right for Your Home?
-URL: https://steelr.co.uk/blog/steel-vs-composite-doors | Category: Buying Guide | Published: 2026-03-28 | 6 min read
-
-A comprehensive comparison of steel and composite entrance doors covering security, durability, design flexibility and long-term value for UK homeowners.
-
-**Key facts:**
-
-- A steel entrance door can achieve SR3 security ratings under BS EN 1627:2011 — the highest level of physical security testing available for residential doors.
-- SR3-rated doors withstand sustained forced attack using heavy-duty tools including crowbars, drills and angle grinders.
-- Composite doors typically achieve PAS 24 certification, which tests resistance to manual attack for a shorter period with lighter tools.
-- While PAS 24 is a respectable standard and meets building regulations, it is several levels below SR3 in terms of attack resistance.
-- Bespoke steel doors start from a higher price point, reflecting the SR3 security rating, ISO 9001 certified manufacturing, bespoke design process and professional installation.
-
-**FAQs:**
-
-Q: Is a steel front door really more secure than a composite door?
-A: Yes, by a substantial margin. Most composite doors achieve PAS 24 certification: a three-minute resistance test against basic hand tools. A SteelR steel door achieves SR3 under BS EN 1627, a five-minute test against power tools including drills and angle grinders. The difference is not marginal. SR3 is tested against a threat profile that would defeat a composite door in under a minute.
-
-Q: Are steel front doors much heavier than composite doors?
-A: Yes. A typical SteelR door weighs 60 to 90kg depending on specification, compared to 30 to 40kg for a composite door. This weight is carried by heavy-duty hinges rated for the load, and the door hangs and operates smoothly in daily use. The additional mass contributes to security, thermal stability and acoustic performance.
-
-Q: How does the U-value of a steel door compare to a composite door?
-A: A thermally broken steel entrance door achieves U-values of 1.0 to 1.4 W/m²K, comparable to or better than a composite door (typically 1.2 to 1.6 W/m²K). The key is the thermal break: a non-conductive barrier between the inner and outer steel skins that prevents cold bridging. All SteelR doors are thermally broken as standard.
-
-Q: Will a steel door rust?
-A: No. SteelR doors use galvanised steel with a factory-applied powder-coat finish warranted for the life of the product. The powder coat creates a sealed barrier that prevents moisture reaching the steel. Unlike timber doors, there is no annual maintenance and no refinishing required. The finish needs only occasional cleaning with warm soapy water.
-
-Q: Can a composite door be upgraded to SR3 later?
-A: No. Security ratings apply to the complete doorset as tested. You cannot retrofit a composite door to meet SR3: the frame, leaf construction and locking would all need to be replaced, at which point you have a different door. SR3 must be specified at the point of purchase. This is a significant reason to consider the security specification carefully at the start of a door project.
-
-Your entrance door is the first thing visitors see and the last line of defence between your home and the outside world. Choosing the right material affects security, energy efficiency, kerb appeal and long-term maintenance costs.
-
-**Related:**
-
-- [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
-
-#### Steel vs Timber Entrance Doors: A Complete Comparison
+#### Steel vs Timber Front Doors UK: Full 2026 Comparison
 URL: https://steelr.co.uk/blog/steel-vs-timber-entrance-doors | Category: Buying Guide | Published: 2026-03-18 | 6 min read
 
-A detailed comparison of steel and timber front doors covering security, durability, maintenance, thermal performance and design — helping UK homeowners choose the right entrance door material.
+Steel vs timber front doors UK compared. Security, durability, maintenance, thermal performance and design for UK homeowners choosing entrance door material.
 
 **Key facts:**
 
@@ -1459,53 +1421,15 @@ For centuries, the default material for a British front door has been timber. Oa
 **Related:**
 
 - [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
-
-#### How Much Do Steel Entrance Doors Cost in the UK?
-URL: https://steelr.co.uk/blog/steel-entrance-doors-cost-uk | Category: Buying Guide | Published: 2026-03-10 | 7 min read
-
-A transparent guide to steel entrance door pricing in the UK — what affects the cost, what you get at each price point and how to budget for a bespoke steel front door.
-
-**Key facts:**
-
-- The level of security testing significantly affects manufacturing complexity and material specification: PAS 24 — the minimum enhanced security standard for residential doors.
-- SR2 (RC2) — a mid-range security rating offering resistance to casual attack with simple tools.
-- SR3 (RC3) — the highest commercially available residential security rating.
-- SR3 doors withstand sustained attack with professional tools including crowbars, drills and angle grinders.
-- An SR3-rated door costs more to manufacture than a PAS 24 door because of the materials, engineering and independent testing required.
-
-**FAQs:**
-
-Q: Why do bespoke steel doors cost more than composite or uPVC doors?
-A: Three factors account for the difference. First, the raw material: galvanised steel with thermal breaks and powder coating costs more per square metre than composite skins or uPVC profiles. Second, the engineering: SR3 security under BS EN 1627 requires reinforced frames, specialised multi-point locking and heavy-duty hinges that are not fitted to volume-production doors. Third, the manufacture: every bespoke door is cut, welded and finished to a single customer's specification rather than pulled from a production line. These are structural cost differences, not a premium charged for the brand.
-
-Q: Does the price include installation and site survey?
-A: Reputable manufacturers quote the full doorset installed, including site survey, manufacture, delivery and fitting by their own team. Supply-only pricing exists but is risky because the security specification depends on correct installation into a suitable substrate with the specified fixings. Always confirm the quote covers installation and ask who the installer will be. At SteelR every quotation is installed.
-
-Q: Are there hidden costs like disposal, making-good or planning fees?
-A: A well-prepared quotation will itemise every cost including old-door removal, disposal, any required making-good of brickwork or render, and decorating around the new frame. Planning application fees (typical in conservation areas) are normally a separate homeowner cost and excluded from the door quotation. Always ask for an itemised quote so no line item is missing.
-
-Q: How long does a steel entrance door last?
-A: A well-manufactured steel door with a powder-coat finish and galvanised substrate will last 25 to 40 years with minimal maintenance. The powder coat is warranted against fade and failure for the life of the product. The steel structure does not rot, warp, swell or delaminate. The most common reason for replacement is aesthetic choice rather than material failure.
-
-Q: Do insurance premiums reduce with an SR3 or Secured by Design door?
-A: Many UK insurers recognise SR3 and Secured by Design specifications and apply either a premium reduction or a waived excess on forced-entry claims. The saving varies by insurer and policy tier. Request the specific benefit from your insurer at renewal, providing the SR3 and Secured by Design certificate references from the installer.
-
-If you have searched for steel front door prices or wondered how much steel doors cost in the UK, you have probably found very little transparent pricing information. There is a good reason for that — bespoke steel entrance doors are made to order, and the final cost depends on a range of factors unique to each project.
-
-**Related:**
-
-- [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds: What Property Developers Should Know](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
 ### Location Guides (5 posts)
 
-#### Steel Entrance Doors for Kent Properties: Local Guide
+#### Steel Front Doors Kent UK: Local Properties Buyer Guide
 URL: https://steelr.co.uk/blog/steel-entrance-doors-kent-properties | Category: Location Guides | Published: 2026-06-18 | 8 min read
 
-Local guide to steel entrance doors for Kent properties — covering oast houses, coastal homes, Wealden architecture, conservation areas and local installation.
+Local guide to steel front doors for Kent UK properties. Oast houses, coastal homes, Wealden architecture, conservation areas and nationwide installation.
 
 **Key facts:**
 
@@ -1534,14 +1458,14 @@ Kent holds a singular position in English architecture. Known as the Garden of E
 
 **Related:**
 
-- [Best Areas in London for Period Property Renovations](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
-- [Front Doors for London Townhouses: Style, Security and Specification](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
-- [Steel Entrance Doors for Buckinghamshire Homes: Local Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
+- [Best London Areas for Period Property Front Doors UK](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
+- [Front Doors for London Townhouses: UK Style and Spec Guide](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
+- [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
 
-#### Steel Entrance Doors for Buckinghamshire Homes: Local Guide
+#### Steel Front Doors Buckinghamshire: Local UK Buyer Guide
 URL: https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes | Category: Location Guides | Published: 2026-06-11 | 8 min read
 
-Local guide to steel entrance doors for Buckinghamshire homes — covering Chilterns AONB, conservation areas, popular styles and installation across Bucks.
+Local guide to steel front doors in Buckinghamshire UK. Chilterns AONB, conservation areas, popular styles and installation across Beaconsfield and Bucks.
 
 **Key facts:**
 
@@ -1571,14 +1495,14 @@ Buckinghamshire occupies a unique position in the English Home Counties. Stretch
 
 **Related:**
 
-- [Best Areas in London for Period Property Renovations](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
-- [Front Doors for London Townhouses: Style, Security and Specification](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
-- [Steel Entrance Doors for Kent Properties: Local Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
+- [Best London Areas for Period Property Front Doors UK](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
+- [Front Doors for London Townhouses: UK Style and Spec Guide](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
+- [Steel Front Doors Kent UK: Local Properties Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
-#### Steel Entrance Doors for Surrey Properties: Local Guide
+#### Steel Front Doors Surrey UK: Local Properties Guide
 URL: https://steelr.co.uk/blog/steel-entrance-doors-surrey-properties | Category: Location Guides | Published: 2026-05-27 | 7 min read
 
-A guide to choosing bespoke steel entrance doors for Surrey homes — covering local architecture, conservation areas, popular styles and security for affluent properties.
+Guide to bespoke steel front doors for Surrey UK homes. Local architecture, conservation areas, popular styles and SR3 security for high-value properties.
 
 **Key facts:**
 
@@ -1607,11 +1531,11 @@ Surrey occupies a unique position in the English residential landscape. It is si
 
 **Related:**
 
-- [Best Areas in London for Period Property Renovations](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
-- [Front Doors for London Townhouses: Style, Security and Specification](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
-- [Steel Entrance Doors for Buckinghamshire Homes: Local Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
+- [Best London Areas for Period Property Front Doors UK](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
+- [Front Doors for London Townhouses: UK Style and Spec Guide](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
+- [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
 
-#### Front Doors for London Townhouses: Style, Security and Specification
+#### Front Doors for London Townhouses: UK Style and Spec Guide
 URL: https://steelr.co.uk/blog/front-doors-london-townhouses-guide | Category: Location Guides | Published: 2026-05-20 | 7 min read
 
 A guide to front doors for London townhouses covering Georgian, Victorian and Edwardian styles, conservation area rules, security and installation challenges.
@@ -1642,35 +1566,54 @@ Every London townhouse entrance carries the accumulated weight of architectural 
 
 **Related:**
 
-- [Best Areas in London for Period Property Renovations](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
-- [Steel Entrance Doors for Buckinghamshire Homes: Local Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
-- [Steel Entrance Doors for Kent Properties: Local Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
+- [Best London Areas for Period Property Front Doors UK](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
+- [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
+- [Steel Front Doors Kent UK: Local Properties Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
-#### Best Areas in London for Period Property Renovations
-URL: https://steelr.co.uk/blog/best-areas-london-period-property-renovations | Category: Location Guides | Published: 2026-03-30 | 4 min read
+#### Best London Areas for Period Property Front Doors UK
+URL: https://steelr.co.uk/blog/best-areas-london-period-property-renovations | Category: Location Guides | Published: 2026-03-30 | 9 min read
 
-A guide to the best London boroughs and neighbourhoods for period property renovations — from Georgian townhouses to Victorian terraces — and why steel entrance doors are the ideal upgrade.
+Guide to top London boroughs for period property renovations. Georgian, Victorian and Edwardian homes and why steel front doors are the ideal upgrade.
 
 **Key facts:**
 
 - A bespoke steel door finished to replicate traditional painted timber satisfies conservation officers while delivering SR3 security and modern thermal performance.
 - Security is also a key consideration for these high-value homes, making SR3-rated steel doors an intelligent investment.
-- At SteelR, we design and manufacture bespoke steel entrance doors for period properties across London — every door SR3 rated, Secured by Design accredited and built under ISO 9001 certified quality management.
+- Typical specification: SR3 steel leaf in gloss black or a very deep Oxford blue, polished brass or unlacquered brass ironmongery, fanlight above with radial glazing bars, door surround kept in original stone or stucco.
+- Security spec trends toward SR3 as standard with SR4 upgrades on detached villas.
+- Battersea's Between the Commons area is mid-to-late Victorian and renovation-heavy, with homeowners typically specifying SR3 steel doors in a wider contemporary-traditional palette.
 
-London is home to some of the finest period architecture in the world. From grand Georgian crescents to ornate Victorian terraces and elegant Edwardian semis, the capital's residential streets are a living museum of British architectural history. For homeowners renovating these properties, every detail matters — and the entrance door is where first impressions begin.
+**FAQs:**
+
+Q: Do I need planning permission to replace the front door on a London period property?
+A: It depends on three factors: whether the building is listed, whether it sits in a conservation area, and whether an Article 4 Direction is in force on that conservation area. Listed buildings always require listed building consent for a door replacement. Conservation areas without an Article 4 usually do not require formal consent for a like-for-like replacement, but do for material changes. Properties under an Article 4 can require approval even for a colour change. Check the planning portal for your address before specifying.
+
+Q: Can a steel front door pass a London conservation officer's review?
+A: Yes, provided the visible specification faithfully replicates the original or the historically appropriate design. A bespoke steel door can match timber profiles closely, including fielded panels, beaded mouldings, fanlight glazing bars and period-correct ironmongery. Submit elevation drawings, a coated sample and photographs of the proposed specification against the existing door as part of the consent application. Conservation officers respond best to a considered, well-documented submission.
+
+Q: What is the typical lead time for a bespoke steel door in London?
+A: Eight to twelve weeks from design sign-off to installation is typical. Add four to twelve weeks upfront for listed building consent or planning approval where required. Survey, design review, colour sign-off and manufacture each take time. We always schedule installation once the door has passed final quality inspection and the fixing plan has been approved with the client.
+
+Q: Which London borough is strictest on front door specifications?
+A: Westminster, Kensington and Chelsea, and Camden all operate among the strictest conservation regimes in the UK. Belgravia, Mayfair and central Marylebone (Westminster); Kensington and Chelsea (the Royal Borough); and Hampstead and Highgate (Camden) all have conservation areas where front door specifications are closely reviewed. The Ladbroke Estate in Notting Hill and the Dulwich Estate in South London have additional private approval regimes on top of the local authority.
+
+Q: Are SR3 steel doors common on period homes, or unusual?
+A: Increasingly common. Ten years ago, a steel front door on a Victorian terrace would have been unusual; today it is a mainstream specification among renovation-focused owners in prime London postcodes. The combination of SR3 security, thermal performance, zero maintenance and faithful period detailing has driven adoption. Most new SteelR doors specified in London in 2026 are replacements for original painted-timber doors that have reached the end of serviceable life.
+
+London is home to some of the finest period architecture in the world. From grand Georgian crescents to ornate Victorian terraces and elegant Edwardian semis, the capital's residential streets are a living museum of British architectural history. For homeowners renovating these properties, every detail matters, and the entrance door is where first impressions begin.
 
 **Related:**
 
-- [Front Doors for London Townhouses: Style, Security and Specification](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
-- [Steel Entrance Doors for Buckinghamshire Homes: Local Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
-- [Steel Entrance Doors for Kent Properties: Local Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
+- [Front Doors for London Townhouses: UK Style and Spec Guide](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
+- [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
+- [Steel Front Doors Kent UK: Local Properties Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
 ### Security (10 posts)
 
-#### Secured by Design Homes: The 2026 Guide for Developers and Homeowners
+#### Secured by Design Homes UK: 2026 Developer and Buyer Guide
 URL: https://steelr.co.uk/blog/secured-by-design-homes-guide-2026 | Category: Security | Published: 2026-07-02 | 9 min read
 
-A comprehensive 2026 guide to Secured by Design for developers and homeowners — covering updated SBD standards, planning benefits, crime reduction data and compliance.
+Secured by Design homes UK in 2026. Developer guide to SBD standards, planning benefits, crime reduction data, compliance and front door specification.
 
 **Key facts:**
 
@@ -1701,14 +1644,14 @@ Secured by Design (SBD) is the official police security initiative owned by Poli
 
 **Related:**
 
-- [Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [How to Choose the Best Front Door for Home Security](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 
-#### Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide
+#### Best Burglar-Proof Front Doors UK: Security Buyer Guide
 URL: https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk | Category: Security | Published: 2026-06-04 | 9 min read
 
-Expert guide to the best burglar-proof front doors in the UK — covering security ratings, lock types, materials, Secured by Design and police recommendations.
+Expert guide to the best burglar-proof front doors UK. Covers SR3 security ratings, lock types, materials, Secured by Design and police recommendations.
 
 **Key facts:**
 
@@ -1739,14 +1682,14 @@ The Office for National Statistics recorded approximately 280,000 domestic burgl
 
 **Related:**
 
-- [How to Choose the Best Front Door for Home Security](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
-- [Home Insurance and Door Security: How Your Front Door Affects Your Premium](https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+- [Home Insurance and Front Door Security Ratings UK Guide](https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk)
 
-#### Home Insurance and Door Security: How Your Front Door Affects Your Premium
+#### Home Insurance and Front Door Security Ratings UK Guide
 URL: https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk | Category: Security | Published: 2026-05-13 | 7 min read
 
-How front door security ratings like PAS 24, SR3 and Secured by Design affect UK home insurance premiums, claims and high-value property cover.
+How front door security ratings like PAS 24, SR3 and Secured by Design affect UK home insurance premiums, claims and high-value property buildings cover.
 
 **Key facts:**
 
@@ -1777,14 +1720,14 @@ Most homeowners understand that locks matter to insurers. Fewer appreciate that 
 
 **Related:**
 
-- [Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [How to Choose the Best Front Door for Home Security](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 
-#### SR4 (LPS 1175) Explained: Commercial-Grade Security on a Residential Front Door
+#### SR4 LPS 1175 Front Door UK: Commercial-Grade Security
 URL: https://steelr.co.uk/blog/sr4-lps-1175-commercial-grade-residential | Category: Security | Published: 2026-04-19 | 9 min read
 
-SR4 is the security certification used on data centres, bank vaults and high-risk commercial premises. SteelR offers it as an upgrade on every residential front door. This guide explains what SR4 means, how it differs from SR3, and when a UK homeowner should consider it.
+SR4 LPS 1175 explained for UK homes. Commercial-grade front door security used on data centres and vaults, how it beats SR3, and when to upgrade.
 
 **Key facts:**
 
@@ -1815,14 +1758,14 @@ SR4 is a certification rarely seen on a UK home front door. It is the standard u
 
 **Related:**
 
-- [Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [How to Choose the Best Front Door for Home Security](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 
-#### Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained
+#### Front Door Security Ratings UK: SR1, SR2, SR3 Explained
 URL: https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3 | Category: Security | Published: 2026-04-17 | 8 min read
 
-A complete comparison of front door security ratings from SR1 to SR6 — what each level resists, how testing works under BS EN 1627, and why SR3 is the gold standard for UK homes.
+Front door security ratings explained. SR1 to SR3 compared, BS EN 1627 testing, and why SR3 is the gold standard for UK homes. Plus where SR4 fits in.
 
 **Key facts:**
 
@@ -1853,14 +1796,14 @@ Every door manufacturer describes their product as "secure." The difference is w
 
 **Related:**
 
-- [Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [How to Choose the Best Front Door for Home Security](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Home Insurance and Door Security: How Your Front Door Affects Your Premium](https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk)
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Home Insurance and Front Door Security Ratings UK Guide](https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk)
 
-#### PAS 24 Doors Explained: What UK Homeowners Need to Know
+#### PAS 24 Front Doors Explained: UK Homeowner 2026 Guide
 URL: https://steelr.co.uk/blog/pas-24-doors-explained-uk-homeowners | Category: Security | Published: 2026-04-08 | 8 min read
 
-A clear guide to PAS 24 door certification in the UK — what it tests, when it is required, how it compares to SR ratings and why it may not be enough.
+PAS 24 front door certification in the UK explained. What it tests, when it is required, how it compares to SR3 ratings and why it may not be enough.
 
 **Key facts:**
 
@@ -1891,14 +1834,14 @@ PAS 24 is a British Standards Institution (BSI) publicly available specification
 
 **Related:**
 
-- [Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [How to Choose the Best Front Door for Home Security](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 
-#### How to Choose the Best Front Door for Home Security
+#### Best Front Door for Home Security: UK Buyer 2026 Guide
 URL: https://steelr.co.uk/blog/best-front-door-home-security | Category: Security | Published: 2026-03-31 | 7 min read
 
-A comprehensive guide to choosing the most secure front door for your home — covering door materials, lock types, security ratings from SR1 to SR5, hinge specifications, glazing and what to look for when buying.
+Choose the best front door for home security in the UK. Guide to materials, locks, SR1 to SR3 security ratings, hinges, glazing and what to prioritise.
 
 **Key facts:**
 
@@ -1929,22 +1872,22 @@ According to UK police data, approximately 70% of domestic burglaries involve en
 
 **Related:**
 
-- [Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
-- [Home Insurance and Door Security: How Your Front Door Affects Your Premium](https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk)
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+- [Home Insurance and Front Door Security Ratings UK Guide](https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk)
 
-#### What Is an SR3 Security Rating? The Complete Guide for Homeowners
-URL: https://steelr.co.uk/blog/what-is-sr3-security-rating | Category: Security | Published: 2026-03-25 | 5 min read
+#### What Is SR3 Security Rating? UK Front Door 2026 Guide
+URL: https://steelr.co.uk/blog/what-is-sr3-security-rating | Category: Security | Published: 2026-03-25 | 9 min read
 
-Everything UK homeowners need to know about SR3 security ratings for entrance doors — what the standard means, how testing works and why it matters for home security.
+SR3 security rating explained for UK homeowners. What the BS EN 1627 standard means, how testing works and why it matters for front door home security.
 
 **Key facts:**
 
 - The European standard BS EN 1627:2011 defines six resistance classes (RC1 to RC6, also referred to as SR1 to SR6) for doors, windows and shutters.
-- SR1 (RC1) — Resists opportunistic physical force (kicking, shoulder-barging).
-- SR2 (RC2) — Resists casual burglars using simple tools (screwdrivers, pliers, wedges).
-- SR3 (RC3) — Resists experienced burglars using heavy-duty tools including crowbars, drills and angle grinders.
 - Attack duration: 5 minutes with professional-grade tools.
+- SR3 testing is conducted by an independent, accredited laboratory.
+- Most residential doors on the UK market achieve PAS 24 certification at best.
+- PAS 24 tests resistance to manual attack using lighter tools for a shorter period.
 
 **FAQs:**
 
@@ -1963,18 +1906,18 @@ A: In principle any door material can be tested, but SR3 is rarely achieved outs
 Q: How long does the SR3 certification remain valid?
 A: SR3 certification is tied to the specific door design and specification that was tested. It does not expire for that design, but any material change to the structure, locking or glazing requires re-testing. LPCB and other accrediting bodies issue a certificate against a specific product reference, which the manufacturer includes in every handover pack.
 
-When shopping for a new entrance door, you will encounter various security ratings and certifications. Understanding what they mean — and how they differ — helps you make an informed decision about protecting your home.
+When shopping for a new entrance door, you will encounter various security ratings and certifications. Understanding what they mean, and how they differ, helps you make an informed decision about protecting your home.
 
 **Related:**
 
-- [Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [How to Choose the Best Front Door for Home Security](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 
-#### Secured by Design Doors: What It Means and Why It Matters
+#### Secured by Design Front Doors UK: What It Means for Homes
 URL: https://steelr.co.uk/blog/secured-by-design-doors | Category: Security | Published: 2026-03-15 | 7 min read
 
-A complete guide to Secured by Design doors and Secured by Design front doors — what the accreditation means, how products are tested and why it matters for your home security.
+Secured by Design front doors UK guide. What the police-preferred accreditation means, how products are tested and why it matters for home security.
 
 **Key facts:**
 
@@ -2005,14 +1948,14 @@ Secured by Design (SBD) is the official police security initiative owned and ope
 
 **Related:**
 
-- [Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [How to Choose the Best Front Door for Home Security](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 
-#### How to Improve Home Security: A UK Homeowner's Guide
+#### How to Improve Home Security UK: Front Door and More
 URL: https://steelr.co.uk/blog/how-to-improve-home-security-uk | Category: Security | Published: 2026-03-12 | 8 min read
 
-Practical advice on how to improve home security for UK homeowners — from securing your front door and windows to lighting, alarms and smart technology, with expert guidance on what makes the biggest difference.
+Improve home security in the UK with practical advice. Front doors, windows, lighting, alarms and smart tech, plus what makes the biggest difference.
 
 **Key facts:**
 
@@ -2041,16 +1984,16 @@ Burglary remains one of the most common crimes in England and Wales. According t
 
 **Related:**
 
-- [Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [How to Choose the Best Front Door for Home Security](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 
-### Design (8 posts)
+### Design (6 posts)
 
-#### The Ultimate Guide to Front Doors for Period Properties
+#### Front Doors for Period Properties UK: Ultimate Guide
 URL: https://steelr.co.uk/blog/period-property-front-door-ultimate-guide | Category: Design | Published: 2026-06-25 | 9 min read
 
-A comprehensive guide to choosing front doors for period properties — Georgian, Victorian, Edwardian and Arts & Crafts homes — with era-specific design advice.
+Front doors for period properties UK. Georgian, Victorian, Edwardian and Arts and Crafts homes covered with era-specific design and conservation advice.
 
 **Key facts:**
 
@@ -2079,13 +2022,13 @@ A period property deserves an entrance that respects its architectural heritage 
 **Related:**
 
 - [Best Front Doors for Period Properties in the UK](https://steelr.co.uk/blog/best-front-doors-period-properties)
-- [How to Choose the Perfect Colour for Your Entrance Door](https://steelr.co.uk/blog/choosing-entrance-door-colour)
-- [Front Door Design Trends for 2026](https://steelr.co.uk/blog/front-door-design-trends-2026)
+- [Front Door Colour Ideas UK: RAL Colours and Trends](https://steelr.co.uk/blog/choosing-entrance-door-colour)
+- [Front Door Hardware Finishes UK: Brass, Chrome, Black](https://steelr.co.uk/blog/front-door-hardware-finishes-brass-chrome-black)
 
-#### Modern Front Door Ideas: 12 Designs Leading the Way in 2026
+#### Modern Front Door Ideas UK: 12 Designs Leading 2026
 URL: https://steelr.co.uk/blog/modern-front-door-ideas-inspiration-2026 | Category: Design | Published: 2026-06-16 | 9 min read
 
-12 modern front door ideas defining 2026 — from horizontal ribbed panels to oversized pivot doors, concealed hinges, statement colours and integrated lighting.
+12 modern front door ideas for UK homes in 2026. Horizontal ribbed panels, oversized pivot doors, concealed hinges, statement colours and integrated lighting.
 
 **Key facts:**
 
@@ -2116,13 +2059,13 @@ The front door has undergone a fundamental shift in status. What was once a func
 **Related:**
 
 - [Best Front Doors for Period Properties in the UK](https://steelr.co.uk/blog/best-front-doors-period-properties)
-- [How to Choose the Perfect Colour for Your Entrance Door](https://steelr.co.uk/blog/choosing-entrance-door-colour)
-- [Front Door Design Trends for 2026](https://steelr.co.uk/blog/front-door-design-trends-2026)
+- [Front Door Colour Ideas UK: RAL Colours and Trends](https://steelr.co.uk/blog/choosing-entrance-door-colour)
+- [Front Door Hardware Finishes UK: Brass, Chrome, Black](https://steelr.co.uk/blog/front-door-hardware-finishes-brass-chrome-black)
 
-#### Front Door Hardware Finishes: Brass, Chrome, Black and Beyond
+#### Front Door Hardware Finishes UK: Brass, Chrome, Black
 URL: https://steelr.co.uk/blog/front-door-hardware-finishes-brass-chrome-black | Category: Design | Published: 2026-05-08 | 7 min read
 
-A detailed guide to front door hardware finishes — brass, chrome, matt black and bronze — covering knockers, handles, letter plates, PVD coatings and maintenance.
+UK front door hardware finishes guide. Brass, chrome, matt black and bronze covered with knockers, handles, letter plates, PVD coatings and maintenance.
 
 **Key facts:**
 
@@ -2152,13 +2095,13 @@ A beautifully engineered steel door deserves hardware that matches its ambition.
 **Related:**
 
 - [Best Front Doors for Period Properties in the UK](https://steelr.co.uk/blog/best-front-doors-period-properties)
-- [How to Choose the Perfect Colour for Your Entrance Door](https://steelr.co.uk/blog/choosing-entrance-door-colour)
-- [Front Door Design Trends for 2026](https://steelr.co.uk/blog/front-door-design-trends-2026)
+- [Front Door Colour Ideas UK: RAL Colours and Trends](https://steelr.co.uk/blog/choosing-entrance-door-colour)
+- [Modern Front Door Ideas UK: 12 Designs Leading 2026](https://steelr.co.uk/blog/modern-front-door-ideas-inspiration-2026)
 
 #### RAL Colours for Front Doors: The Complete UK Guide
 URL: https://steelr.co.uk/blog/ral-colours-front-doors-complete-guide | Category: Design | Published: 2026-04-24 | 8 min read
 
-Everything you need to know about RAL colours for front doors — the RAL system explained, popular UK choices, dual-colour options, heritage palettes and trending shades for 2026.
+RAL colours for front doors UK. The RAL system explained, popular UK choices, dual-colour options, heritage palettes and trending shades for 2026 homes.
 
 **Key facts:**
 
@@ -2187,30 +2130,13 @@ Colour is often the first thing a visitor notices about an entrance door. Before
 **Related:**
 
 - [Best Front Doors for Period Properties in the UK](https://steelr.co.uk/blog/best-front-doors-period-properties)
-- [How to Choose the Perfect Colour for Your Entrance Door](https://steelr.co.uk/blog/choosing-entrance-door-colour)
-- [Front Door Design Trends for 2026](https://steelr.co.uk/blog/front-door-design-trends-2026)
-
-#### Front Door Ideas: 10 Design Trends for 2026
-URL: https://steelr.co.uk/blog/front-door-ideas-design-trends | Category: Design | Published: 2026-03-31 | 5 min read
-
-Ten inspiring front door design trends for 2026 — from bold colours and oversized handles to ribbed panels, smart locks and statement lighting — with real examples from the SteelR collection.
-
-**Key facts:**
-
-- With SR3 security, Secured by Design accreditation, ISO 9001 certified manufacturing and the full RAL colour range as standard, we provide the foundation.
-
-Your entrance door is the single most visible design statement on the exterior of your home. In 2026, front door design is bolder, more personalised and more sophisticated than ever. Whether you are building new, renovating or simply upgrading your kerb appeal, these ten trends will help you make a confident choice.
-
-**Related:**
-
-- [Best Front Doors for Period Properties in the UK](https://steelr.co.uk/blog/best-front-doors-period-properties)
-- [How to Choose the Perfect Colour for Your Entrance Door](https://steelr.co.uk/blog/choosing-entrance-door-colour)
-- [Front Door Design Trends for 2026](https://steelr.co.uk/blog/front-door-design-trends-2026)
+- [Front Door Colour Ideas UK: RAL Colours and Trends](https://steelr.co.uk/blog/choosing-entrance-door-colour)
+- [Front Door Hardware Finishes UK: Brass, Chrome, Black](https://steelr.co.uk/blog/front-door-hardware-finishes-brass-chrome-black)
 
 #### Best Front Doors for Period Properties in the UK
 URL: https://steelr.co.uk/blog/best-front-doors-period-properties | Category: Design | Published: 2026-03-22 | 7 min read
 
-A guide to choosing the right front door for period properties — covering Victorian front doors, Georgian front doors, Edwardian homes and listed buildings, with advice on materials, styles and conservation compliance.
+Best front doors for period properties UK. Victorian, Georgian, Edwardian and listed buildings covered with advice on materials and conservation rules.
 
 **Key facts:**
 
@@ -2223,46 +2149,46 @@ Choosing a front door for a period property is not the same as choosing one for 
 
 **Related:**
 
-- [How to Choose the Perfect Colour for Your Entrance Door](https://steelr.co.uk/blog/choosing-entrance-door-colour)
-- [Front Door Design Trends for 2026](https://steelr.co.uk/blog/front-door-design-trends-2026)
-- [Front Door Hardware Finishes: Brass, Chrome, Black and Beyond](https://steelr.co.uk/blog/front-door-hardware-finishes-brass-chrome-black)
+- [Front Door Colour Ideas UK: RAL Colours and Trends](https://steelr.co.uk/blog/choosing-entrance-door-colour)
+- [Front Door Hardware Finishes UK: Brass, Chrome, Black](https://steelr.co.uk/blog/front-door-hardware-finishes-brass-chrome-black)
+- [Modern Front Door Ideas UK: 12 Designs Leading 2026](https://steelr.co.uk/blog/modern-front-door-ideas-inspiration-2026)
 
-#### How to Choose the Perfect Colour for Your Entrance Door
-URL: https://steelr.co.uk/blog/choosing-entrance-door-colour | Category: Design | Published: 2026-03-20 | 4 min read
+#### Front Door Colour Ideas UK: RAL Colours and Trends
+URL: https://steelr.co.uk/blog/choosing-entrance-door-colour | Category: Design | Published: 2026-03-20 | 8 min read
 
-Expert advice on selecting the right colour for your front door — from classic black to bold statement colours, with RAL colour guidance for UK homes.
+Front door colour ideas for UK homes. RAL colour guidance, classic black, bold statement shades and dual-colour options for bespoke steel entrance doors.
+
+**FAQs:**
+
+Q: What is the most popular front door colour in the UK?
+A: Black remains the single most popular front door colour in the UK, followed by navy blue, anthracite grey and sage green. The popularity of black is consistent across property types and regions because it works with virtually every brick, render and stone. Navy has grown fastest in recent years as homeowners look for something with the gravitas of black but a touch more character.
+
+Q: Can I change the colour of a steel door later?
+A: A steel door can be repainted in principle, but the factory polyester powder coat is far more durable than a site-applied finish, and any repaint loses the warranty on the original finish. The better approach is to specify the right colour at the start, using a physical RAL sample on steel, and keep it for twenty-plus years. Dual-colour specification also reduces the likelihood of ever wanting a change.
+
+Q: Do I need planning permission to change my front door colour?
+A: Usually not, but it depends on your property and location. Listed buildings almost always require listed building consent for any visible change, including a repaint. Properties in conservation areas with an Article 4 Direction may require planning approval for exterior colour changes. In normal residential settings, colour is a permitted-development matter and no approval is needed. Always check your local authority website before committing.
+
+Q: What colour door suits a red-brick Victorian house?
+A: Black, bottle green, navy and deep burgundy all work with red-brick Victorian architecture. The rule of thumb is to choose a colour that contains the same undertone as the brick (warm reds suit warm colours) but sits far enough away in tone to read as distinct. Pure black is the safest, most common and most flattering choice on a red-brick Victorian terrace.
+
+Q: Can I have a different colour inside and outside on a steel door?
+A: Yes. Dual-colour specification is one of the advantages of a bespoke steel door. The exterior can match your facade while the interior can complement your hallway palette. The door edges and frame need to be specified as either the exterior or interior colour at the design stage, so discuss this with your supplier before signing off.
 
 The colour of your entrance door is one of the most impactful design decisions you can make for the exterior of your home. It is the focal point of your property's facade and contributes significantly to kerb appeal and first impressions.
 
 **Related:**
 
 - [Best Front Doors for Period Properties in the UK](https://steelr.co.uk/blog/best-front-doors-period-properties)
-- [Front Door Design Trends for 2026](https://steelr.co.uk/blog/front-door-design-trends-2026)
-- [Front Door Hardware Finishes: Brass, Chrome, Black and Beyond](https://steelr.co.uk/blog/front-door-hardware-finishes-brass-chrome-black)
-
-#### Front Door Design Trends for 2026
-URL: https://steelr.co.uk/blog/front-door-design-trends-2026 | Category: Design | Published: 2026-03-08 | 6 min read
-
-The latest front door ideas and design trends for 2026 — from bold colours and oversized handles to smart technology and sustainable materials, with inspiration for modern front door design.
-
-**Key facts:**
-
-- With SR3 security, Secured by Design accreditation, ISO 9001 certified manufacturing and the full RAL colour range as standard, we provide the foundation for a front door that is as individual as your home.
-
-The front door has never been more important in British home design. As homeowners invest in their properties and kerb appeal becomes a priority for everyone from first-time buyers to renovation enthusiasts, entrance door design is evolving rapidly.
-
-**Related:**
-
-- [Best Front Doors for Period Properties in the UK](https://steelr.co.uk/blog/best-front-doors-period-properties)
-- [How to Choose the Perfect Colour for Your Entrance Door](https://steelr.co.uk/blog/choosing-entrance-door-colour)
-- [Front Door Hardware Finishes: Brass, Chrome, Black and Beyond](https://steelr.co.uk/blog/front-door-hardware-finishes-brass-chrome-black)
+- [Front Door Hardware Finishes UK: Brass, Chrome, Black](https://steelr.co.uk/blog/front-door-hardware-finishes-brass-chrome-black)
+- [Modern Front Door Ideas UK: 12 Designs Leading 2026](https://steelr.co.uk/blog/modern-front-door-ideas-inspiration-2026)
 
 ### Guides (5 posts)
 
-#### Spring Home Improvement: Why Your Front Door Should Be First
+#### Spring Front Door Upgrade UK: Why Start Here First
 URL: https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade | Category: Guides | Published: 2026-06-30 | 8 min read
 
-Why spring is the ideal time to upgrade your front door — covering ROI, kerb appeal, security, energy efficiency and the typical timeline from enquiry to installation.
+Why spring is the ideal time to upgrade your UK front door. ROI, kerb appeal, SR3 security, energy efficiency and the typical enquiry-to-install timeline.
 
 **Key facts:**
 
@@ -2293,14 +2219,14 @@ Every spring, homeowners across the UK turn their attention to the house. The lo
 
 **Related:**
 
-- [Understanding Conservation Area Door Requirements in the UK](https://steelr.co.uk/blog/conservation-area-door-requirements-uk)
-- [Front Door Replacement Guide: Everything UK Homeowners Need to Know](https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners)
-- [Steel Doors for Conservation Areas: Planning Permission and Design Guide](https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide)
+- [Conservation Area Front Door Rules UK: Complete 2026 Guide](https://steelr.co.uk/blog/conservation-area-door-requirements-uk)
+- [Front Door Replacement UK: Complete Homeowner Guide](https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners)
+- [Steel Front Doors for Conservation Areas: UK Planning Guide](https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide)
 
-#### Front Door Replacement Guide: Everything UK Homeowners Need to Know
+#### Front Door Replacement UK: Complete Homeowner Guide
 URL: https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners | Category: Guides | Published: 2026-06-09 | 9 min read
 
-Complete front door replacement guide for UK homeowners — covering Building Regulations, planning permission, materials, installation process and aftercare.
+Front door replacement UK guide for homeowners. Building Regulations, planning permission, materials, installation process, aftercare and warranty advice.
 
 **Key facts:**
 
@@ -2331,14 +2257,14 @@ A front door is not a component that fails dramatically and without warning. It 
 
 **Related:**
 
-- [Understanding Conservation Area Door Requirements in the UK](https://steelr.co.uk/blog/conservation-area-door-requirements-uk)
-- [Spring Home Improvement: Why Your Front Door Should Be First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
-- [Steel Doors for Conservation Areas: Planning Permission and Design Guide](https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide)
+- [Conservation Area Front Door Rules UK: Complete 2026 Guide](https://steelr.co.uk/blog/conservation-area-door-requirements-uk)
+- [Spring Front Door Upgrade UK: Why Start Here First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
+- [Steel Front Doors for Conservation Areas: UK Planning Guide](https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide)
 
-#### Steel Doors for Conservation Areas: Planning Permission and Design Guide
+#### Steel Front Doors for Conservation Areas: UK Planning Guide
 URL: https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide | Category: Guides | Published: 2026-04-15 | 9 min read
 
-How to specify steel entrance doors for conservation areas — planning permission rules, design considerations, working with conservation officers and replicating period styles.
+Steel front doors for conservation areas in the UK. Planning permission rules, design considerations, conservation officers and replicating period styles.
 
 **Key facts:**
 
@@ -2366,14 +2292,14 @@ A conservation area is a defined area of special architectural or historic inter
 
 **Related:**
 
-- [Understanding Conservation Area Door Requirements in the UK](https://steelr.co.uk/blog/conservation-area-door-requirements-uk)
-- [Front Door Replacement Guide: Everything UK Homeowners Need to Know](https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners)
-- [Spring Home Improvement: Why Your Front Door Should Be First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
+- [Conservation Area Front Door Rules UK: Complete 2026 Guide](https://steelr.co.uk/blog/conservation-area-door-requirements-uk)
+- [Front Door Replacement UK: Complete Homeowner Guide](https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners)
+- [Spring Front Door Upgrade UK: Why Start Here First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
 
-#### Understanding Conservation Area Door Requirements in the UK
+#### Conservation Area Front Door Rules UK: Complete 2026 Guide
 URL: https://steelr.co.uk/blog/conservation-area-door-requirements-uk | Category: Guides | Published: 2026-03-30 | 4 min read
 
-A practical guide to replacing your front door in a conservation area — covering planning rules, permitted development, design requirements and how bespoke steel doors can meet conservation officer expectations.
+UK conservation area front door rules explained. Planning permission, permitted development, design requirements and how bespoke steel doors can comply.
 
 **Key facts:**
 
@@ -2400,14 +2326,14 @@ A conservation area is an area of special architectural or historic interest, th
 
 **Related:**
 
-- [Front Door Replacement Guide: Everything UK Homeowners Need to Know](https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners)
-- [Spring Home Improvement: Why Your Front Door Should Be First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
-- [Steel Doors for Conservation Areas: Planning Permission and Design Guide](https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide)
+- [Front Door Replacement UK: Complete Homeowner Guide](https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners)
+- [Spring Front Door Upgrade UK: Why Start Here First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
+- [Steel Front Doors for Conservation Areas: UK Planning Guide](https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide)
 
-#### Steel Entrance Doors for Country Homes: A Complete Guide
+#### Steel Front Doors for UK Country Homes: Full Guide
 URL: https://steelr.co.uk/blog/steel-doors-country-homes-guide | Category: Guides | Published: 2026-03-30 | 4 min read
 
-Why homeowners in affluent rural and semi-rural areas across the UK are choosing bespoke steel entrance doors — covering security, weather resistance, kerb appeal and design options for country properties.
+Why UK country homes choose bespoke steel front doors. SR3 security, weather resistance, kerb appeal and design options for rural and semi-rural properties.
 
 **Key facts:**
 
@@ -2419,16 +2345,16 @@ The British countryside is home to some of the most beautiful residential proper
 
 **Related:**
 
-- [Understanding Conservation Area Door Requirements in the UK](https://steelr.co.uk/blog/conservation-area-door-requirements-uk)
-- [Front Door Replacement Guide: Everything UK Homeowners Need to Know](https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners)
-- [Spring Home Improvement: Why Your Front Door Should Be First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
+- [Conservation Area Front Door Rules UK: Complete 2026 Guide](https://steelr.co.uk/blog/conservation-area-door-requirements-uk)
+- [Front Door Replacement UK: Complete Homeowner Guide](https://steelr.co.uk/blog/front-door-replacement-guide-uk-homeowners)
+- [Spring Front Door Upgrade UK: Why Start Here First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
 
 ### Technical (5 posts)
 
-#### Smart Locks for Steel Entrance Doors: What Works and What to Avoid
+#### Smart Locks for Steel Front Doors UK: 2026 Buyer Guide
 URL: https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide | Category: Technical | Published: 2026-06-02 | 7 min read
 
-A practical guide to smart locks for steel entrance doors covering lock types, compatibility, security ratings, home automation and recommended brands for the UK market.
+Smart locks for steel front doors UK. Lock types, compatibility, SR3 security ratings, home automation and recommended brands for the UK market.
 
 **Key facts:**
 
@@ -2459,14 +2385,14 @@ The appeal of smart locks is straightforward: keyless entry, remote access contr
 
 **Related:**
 
-- [Fire Rated Front Doors: UK Building Regulations and What You Need to Know](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
-- [Specifying Steel Doors: An Updated Guide for Architects in 2026](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
-- [Steel Entrance Door Thermal Performance: U-Values and Energy Efficiency](https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values)
+- [Fire Rated Front Doors UK: FD30 and FD60 Complete Guide](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
+- [Specifying Steel Front Doors UK: 2026 Architect Guide](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
+- [Steel Front Door U-Values UK: Thermal Performance Guide](https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values)
 
-#### Specifying Steel Doors: An Updated Guide for Architects in 2026
+#### Specifying Steel Front Doors UK: 2026 Architect Guide
 URL: https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026 | Category: Technical | Published: 2026-05-15 | 8 min read
 
-A technical guide for architects specifying steel entrance doors in 2026 — covering NBS clauses, performance requirements, structural considerations and approval processes.
+UK architect guide to specifying steel front doors in 2026. NBS clauses, performance requirements, structural considerations and approval processes.
 
 **Key facts:**
 
@@ -2497,14 +2423,14 @@ Specifying an entrance door appears straightforward until you consider the numbe
 
 **Related:**
 
-- [Fire Rated Front Doors: UK Building Regulations and What You Need to Know](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
-- [Smart Locks for Steel Entrance Doors: What Works and What to Avoid](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
-- [Steel Entrance Door Thermal Performance: U-Values and Energy Efficiency](https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values)
+- [Fire Rated Front Doors UK: FD30 and FD60 Complete Guide](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
+- [Smart Locks for Steel Front Doors UK: 2026 Buyer Guide](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
+- [Steel Front Door U-Values UK: Thermal Performance Guide](https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values)
 
-#### Fire Rated Front Doors: UK Building Regulations and What You Need to Know
+#### Fire Rated Front Doors UK: FD30 and FD60 Complete Guide
 URL: https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide | Category: Technical | Published: 2026-04-29 | 8 min read
 
-FD30 vs FD60 fire rated front doors explained. UK building regulations, Approved Document B, Building Safety Act 2022 and when fire doors are legally required.
+Fire rated front doors UK explained. FD30 vs FD60, Approved Document B, Building Safety Act 2022 and when fire doors are legally required in homes.
 
 **Key facts:**
 
@@ -2535,14 +2461,14 @@ Fire safety in residential buildings is not optional. In the UK, fire rated fron
 
 **Related:**
 
-- [Smart Locks for Steel Entrance Doors: What Works and What to Avoid](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
-- [Specifying Steel Doors: An Updated Guide for Architects in 2026](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
-- [Steel Entrance Door Thermal Performance: U-Values and Energy Efficiency](https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values)
+- [Smart Locks for Steel Front Doors UK: 2026 Buyer Guide](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
+- [Specifying Steel Front Doors UK: 2026 Architect Guide](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
+- [Steel Front Door U-Values UK: Thermal Performance Guide](https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values)
 
-#### Steel Entrance Door Thermal Performance: U-Values and Energy Efficiency
+#### Steel Front Door U-Values UK: Thermal Performance Guide
 URL: https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values | Category: Technical | Published: 2026-04-22 | 8 min read
 
-How steel entrance doors achieve excellent U-values through thermal breaks and insulated cores — Building Regs Part L, material comparisons and energy efficiency explained.
+UK steel front door U-values explained. Thermal breaks, insulated cores, Building Regs Part L compliance, material comparisons and energy efficiency ratings.
 
 **Key facts:**
 
@@ -2573,14 +2499,14 @@ Steel is an excellent conductor of heat. That single fact has historically been 
 
 **Related:**
 
-- [Fire Rated Front Doors: UK Building Regulations and What You Need to Know](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
-- [Smart Locks for Steel Entrance Doors: What Works and What to Avoid](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
-- [Specifying Steel Doors: An Updated Guide for Architects in 2026](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
+- [Fire Rated Front Doors UK: FD30 and FD60 Complete Guide](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
+- [Smart Locks for Steel Front Doors UK: 2026 Buyer Guide](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
+- [Specifying Steel Front Doors UK: 2026 Architect Guide](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
 
-#### Steel Entrance Doors for Architects and Specifiers
+#### Steel Front Doors UK: Architect and Specifier Guide
 URL: https://steelr.co.uk/blog/steel-entrance-doors-architects-specifiers | Category: Technical | Published: 2026-03-05 | 7 min read
 
-A technical guide to specifying steel entrance doors for residential and commercial projects — covering security ratings, thermal performance, fire ratings and the specification process.
+UK technical guide for architects and specifiers of steel front doors. SR3 security, thermal performance, FD30 fire ratings and the specification process.
 
 **Key facts:**
 
@@ -2594,6 +2520,6 @@ The entrance door is one of the most functionally demanding elements in any buil
 
 **Related:**
 
-- [Fire Rated Front Doors: UK Building Regulations and What You Need to Know](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
-- [Smart Locks for Steel Entrance Doors: What Works and What to Avoid](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
-- [Specifying Steel Doors: An Updated Guide for Architects in 2026](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
+- [Fire Rated Front Doors UK: FD30 and FD60 Complete Guide](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
+- [Smart Locks for Steel Front Doors UK: 2026 Buyer Guide](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
+- [Specifying Steel Front Doors UK: 2026 Architect Guide](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)

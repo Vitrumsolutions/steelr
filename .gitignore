@@ -49,3 +49,4 @@ social/reels/_preview*.png
 social/pinterest/*.png
 social/scripts/__pycache__/
 __pycache__/
+social/reels/_grid-frames/

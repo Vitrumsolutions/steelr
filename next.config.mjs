@@ -9,6 +9,35 @@ const nextConfig = {
         destination: "https://steelr.co.uk/:path*",
         permanent: true,
       },
+      // Cannibalisation cleanup (22 Apr 2026) — collapse overlapping blog posts
+      // onto the thickest / best-slugged version so Google stops splitting
+      // ranking signal across duplicates. All 308 Permanent so link equity
+      // consolidates on the surviving URL.
+      {
+        source: "/blog/steel-entrance-doors-cost-uk",
+        destination: "/blog/how-much-do-steel-doors-cost-uk",
+        permanent: true,
+      },
+      {
+        source: "/blog/steel-entrance-doors-pricing-factors",
+        destination: "/blog/how-much-do-steel-doors-cost-uk",
+        permanent: true,
+      },
+      {
+        source: "/blog/steel-vs-composite-doors",
+        destination: "/blog/composite-vs-steel-doors-2026-updated-comparison",
+        permanent: true,
+      },
+      {
+        source: "/blog/front-door-ideas-design-trends",
+        destination: "/blog/modern-front-door-ideas-inspiration-2026",
+        permanent: true,
+      },
+      {
+        source: "/blog/front-door-design-trends-2026",
+        destination: "/blog/modern-front-door-ideas-inspiration-2026",
+        permanent: true,
+      },
     ];
   },
 };
