@@ -1,0 +1,793 @@
+/* ============================================================
+   SteelR Lookbook
+   Editorial microsite — cream primary with dark interludes.
+   Typography: Cormorant Garamond (display), Montserrat (body),
+   Tenor Sans (captions/eyebrows).
+   ============================================================ */
+
+.lookbook {
+  --cream: #f5f0e8;
+  --cream-deep: #eee7d9;
+  --dark: #1a1a18;
+  --site-black: #0a0a09;
+  --gold: #c9a96e;
+  --bronze: #8a6f4e;
+  --body: rgba(26, 26, 24, 0.86);
+  --body-muted: rgba(26, 26, 24, 0.58);
+
+  background: var(--cream);
+  color: var(--body);
+  font-family: var(--font-body, "Montserrat"), sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* ---------- type primitives ---------- */
+
+.lb-eyebrow {
+  display: block;
+  font-family: var(--font-caption, "Tenor Sans"), sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin-bottom: 24px;
+}
+
+.lb-eyebrow--light {
+  color: rgba(201, 169, 110, 0.9);
+}
+
+.lb-h2 {
+  font-family: var(--font-display, "Cormorant Garamond"), serif;
+  font-weight: 300;
+  font-size: clamp(42px, 6vw, 88px);
+  line-height: 1.02;
+  letter-spacing: -0.015em;
+  color: var(--site-black);
+  margin: 0 0 28px;
+}
+
+.lb-h2--light {
+  color: var(--cream);
+}
+
+.lb-h2 em {
+  font-style: italic;
+  color: var(--bronze);
+}
+
+.lb-h2--light em {
+  color: var(--gold);
+}
+
+.lb-lede {
+  font-family: var(--font-body, "Montserrat"), sans-serif;
+  font-weight: 300;
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.7;
+  max-width: 58ch;
+  color: var(--body);
+  margin: 0;
+}
+
+.lb-lede--light {
+  color: rgba(245, 240, 232, 0.76);
+}
+
+/* ---------- hero ---------- */
+
+.lb-hero {
+  position: relative;
+  height: 100vh;
+  min-height: 760px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  color: var(--cream);
+}
+
+.lb-hero__image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.lb-hero__image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 10, 9, 0.55) 0%, rgba(10, 10, 9, 0.25) 40%, rgba(10, 10, 9, 0.62) 100%);
+  pointer-events: none;
+}
+
+.lb-hero__content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 32px;
+  max-width: 1100px;
+}
+
+.lb-hero .lb-eyebrow {
+  color: rgba(245, 240, 232, 0.75);
+}
+
+.lb-hero__title {
+  font-family: var(--font-display, "Cormorant Garamond"), serif;
+  font-weight: 300;
+  font-size: clamp(54px, 9vw, 132px);
+  line-height: 1.02;
+  letter-spacing: -0.018em;
+  margin: 0 0 32px;
+}
+
+.lb-hero__title em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.lb-hero__sub {
+  font-family: var(--font-body, "Montserrat"), sans-serif;
+  font-weight: 300;
+  font-size: clamp(16px, 1.25vw, 20px);
+  line-height: 1.7;
+  color: rgba(245, 240, 232, 0.85);
+  max-width: 54ch;
+  margin: 0 auto;
+}
+
+/* ---------- opening statement ---------- */
+
+.lb-statement {
+  padding: clamp(80px, 12vw, 160px) 32px;
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lb-statement__eyebrow {
+  font-family: var(--font-caption, "Tenor Sans"), sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin: 0 0 24px;
+}
+
+.lb-statement__body {
+  font-family: var(--font-display, "Cormorant Garamond"), serif;
+  font-weight: 300;
+  font-size: clamp(22px, 2.4vw, 32px);
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: var(--body);
+  max-width: 48ch;
+  margin: 0 auto;
+}
+
+.lb-statement__body em {
+  font-style: italic;
+  color: var(--bronze);
+}
+
+/* ---------- section scaffolding ---------- */
+
+.lb-section {
+  padding: clamp(80px, 10vw, 140px) 32px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.lb-section--narrow {
+  max-width: 1320px;
+}
+
+.lb-section--cream-deep {
+  background: var(--cream-deep);
+  max-width: none;
+  padding-left: max(32px, calc((100vw - 1440px) / 2));
+  padding-right: max(32px, calc((100vw - 1440px) / 2));
+}
+
+.lb-section__head {
+  max-width: 720px;
+  margin: 0 0 72px;
+}
+
+.lb-section__head--light {
+  max-width: 720px;
+  margin: 0 0 72px;
+  padding: 0 32px;
+}
+
+/* ---------- signature collection ---------- */
+
+.lb-signature {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(80px, 10vw, 140px);
+}
+
+.lb-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: clamp(40px, 6vw, 96px);
+  align-items: center;
+}
+
+.lb-feature--flip {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+}
+
+.lb-feature--flip .lb-feature__image {
+  order: 2;
+}
+
+.lb-feature__image {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--cream-deep);
+}
+
+.lb-feature__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.lb-feature:hover .lb-feature__img {
+  transform: scale(1.03);
+}
+
+.lb-feature__text {
+  padding: 16px 0;
+}
+
+.lb-feature__num {
+  display: inline-block;
+  font-family: var(--font-caption, "Tenor Sans"), sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.35em;
+  color: var(--gold);
+  margin-bottom: 20px;
+}
+
+.lb-feature__title {
+  font-family: var(--font-display, "Cormorant Garamond"), serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: clamp(32px, 4vw, 56px);
+  line-height: 1.05;
+  color: var(--site-black);
+  margin: 0 0 24px;
+}
+
+.lb-feature__caption {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--body);
+  max-width: 44ch;
+  margin: 0 0 28px;
+}
+
+.lb-feature__spec {
+  font-family: var(--font-caption, "Tenor Sans"), sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  padding: 16px 0 0;
+  border-top: 1px solid rgba(138, 111, 78, 0.2);
+  margin: 0;
+}
+
+/* ---------- dark interlude ---------- */
+
+.lb-interlude {
+  position: relative;
+  height: 70vh;
+  min-height: 540px;
+  overflow: hidden;
+  color: var(--cream);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.lb-interlude__image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.lb-interlude__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 10, 9, 0.55) 0%, rgba(10, 10, 9, 0.72) 100%);
+  z-index: 1;
+}
+
+.lb-pullquote {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 0 32px;
+  max-width: 900px;
+}
+
+.lb-pullquote p {
+  font-family: var(--font-display, "Cormorant Garamond"), serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: clamp(38px, 5vw, 72px);
+  line-height: 1.1;
+  color: var(--cream);
+  margin: 0 0 24px;
+  letter-spacing: -0.01em;
+}
+
+.lb-pullquote footer {
+  font-family: var(--font-body, "Montserrat"), sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  color: rgba(245, 240, 232, 0.7);
+  max-width: 52ch;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* ---------- by style blocks ---------- */
+
+.lb-style-block {
+  margin-bottom: clamp(72px, 9vw, 120px);
+}
+
+.lb-style-block:last-child {
+  margin-bottom: 0;
+}
+
+.lb-style__title {
+  font-family: var(--font-display, "Cormorant Garamond"), serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: clamp(36px, 4.5vw, 60px);
+  line-height: 1.1;
+  color: var(--site-black);
+  margin: 0 0 16px;
+}
+
+.lb-style__lede {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--body-muted);
+  max-width: 54ch;
+  margin: 0 0 40px;
+}
+
+.lb-style__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.lb-tile {
+  margin: 0;
+  position: relative;
+}
+
+.lb-tile .lb-tile__img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  background: var(--cream-deep);
+  transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.lb-tile:hover .lb-tile__img {
+  transform: scale(1.02);
+}
+
+.lb-tile__cap {
+  font-family: var(--font-caption, "Tenor Sans"), sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin: 18px 0 0;
+}
+
+/* ---------- colour story ---------- */
+
+.lb-colour-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.lb-colour {
+  display: grid;
+  grid-template-columns: minmax(240px, 22%) 1fr;
+  gap: clamp(32px, 5vw, 80px);
+  align-items: start;
+  padding-bottom: 64px;
+  border-bottom: 1px solid rgba(138, 111, 78, 0.12);
+}
+
+.lb-colour:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.lb-colour__name {
+  font-family: var(--font-display, "Cormorant Garamond"), serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: clamp(30px, 3.6vw, 48px);
+  line-height: 1.05;
+  color: var(--site-black);
+  margin: 0 0 16px;
+}
+
+.lb-colour__ral {
+  font-family: var(--font-caption, "Tenor Sans"), sans-serif;
+  font-size: 10.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  line-height: 1.8;
+  margin: 0;
+}
+
+.lb-colour__images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.lb-colour__image {
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: var(--cream-deep);
+}
+
+.lb-colour__image .lb-tile__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- dark hardware details ---------- */
+
+.lb-dark {
+  background: var(--site-black);
+  color: var(--cream);
+  padding: clamp(96px, 12vw, 160px) 0;
+}
+
+.lb-details__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  padding: 0;
+  max-width: 1440px;
+  margin: 40px auto 0;
+  padding: 0 4px;
+}
+
+.lb-detail {
+  margin: 0;
+  position: relative;
+  background: #16160f;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+
+.lb-detail__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.94;
+  transition: opacity 0.4s ease, transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.lb-detail:hover .lb-detail__img {
+  opacity: 1;
+  transform: scale(1.04);
+}
+
+.lb-detail__cap {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+  font-family: var(--font-caption, "Tenor Sans"), sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(245, 240, 232, 0.85);
+  padding: 10px 14px;
+  background: rgba(10, 10, 9, 0.62);
+  backdrop-filter: blur(4px);
+  border-left: 1px solid var(--gold);
+}
+
+/* ---------- process ---------- */
+
+.lb-process {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+  counter-reset: lb-step;
+}
+
+.lb-process li {
+  position: relative;
+  padding-top: 48px;
+  border-top: 1px solid rgba(138, 111, 78, 0.3);
+}
+
+.lb-process__num {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  background: var(--cream);
+  padding-right: 12px;
+  font-family: var(--font-caption, "Tenor Sans"), sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.35em;
+  color: var(--gold);
+}
+
+.lb-process h3 {
+  font-family: var(--font-display, "Cormorant Garamond"), serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 28px;
+  line-height: 1.1;
+  color: var(--site-black);
+  margin: 0 0 16px;
+}
+
+.lb-process p {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--body);
+  margin: 0;
+}
+
+/* ---------- closing CTA ---------- */
+
+.lb-closing {
+  background: var(--site-black);
+  color: var(--cream);
+  padding: clamp(96px, 13vw, 180px) 32px;
+  text-align: center;
+}
+
+.lb-closing .lb-eyebrow {
+  color: rgba(201, 169, 110, 0.85);
+  margin-bottom: 32px;
+}
+
+.lb-closing__title {
+  font-family: var(--font-display, "Cormorant Garamond"), serif;
+  font-weight: 300;
+  font-size: clamp(48px, 8vw, 120px);
+  line-height: 1;
+  letter-spacing: -0.018em;
+  color: var(--cream);
+  margin: 0 auto 40px;
+  max-width: 18ch;
+}
+
+.lb-closing__title em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.lb-closing__body {
+  font-family: var(--font-body, "Montserrat"), sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 52ch;
+  margin: 0 auto 48px;
+  color: rgba(245, 240, 232, 0.75);
+}
+
+.lb-closing__actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 72px;
+}
+
+.lb-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 18px 36px;
+  font-family: var(--font-body, "Montserrat"), sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.lb-cta--primary {
+  background: var(--gold);
+  color: var(--site-black);
+}
+
+.lb-cta--primary:hover {
+  background: var(--cream);
+  transform: translateY(-1px);
+}
+
+.lb-cta--ghost {
+  border-color: rgba(245, 240, 232, 0.3);
+  color: var(--cream);
+  background: transparent;
+}
+
+.lb-cta--ghost:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* ---------- actions (print + share) ---------- */
+
+.lb-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 32px;
+  border-top: 1px solid rgba(245, 240, 232, 0.12);
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.lb-actions__btn {
+  background: transparent;
+  border: none;
+  color: rgba(245, 240, 232, 0.55);
+  font-family: var(--font-body, "Montserrat"), sans-serif;
+  font-weight: 300;
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.lb-actions__btn:hover {
+  color: var(--gold);
+}
+
+.lb-actions__btn--ghost {
+  color: rgba(245, 240, 232, 0.4);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 960px) {
+  .lb-feature,
+  .lb-feature--flip {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .lb-feature--flip .lb-feature__image {
+    order: 0;
+  }
+
+  .lb-style__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .lb-colour {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .lb-colour__images {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .lb-details__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lb-process {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .lb-style__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lb-colour__images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lb-details__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lb-hero {
+    min-height: 640px;
+  }
+}
+
+/* ============================================================
+   PRINT (Save as PDF)
+   ============================================================ */
+
+@media print {
+  .lookbook {
+    background: #ffffff;
+    color: #000;
+  }
+
+  .lb-hero {
+    height: auto;
+    min-height: 0;
+    page-break-after: always;
+    color: #fff;
+  }
+
+  .lb-hero__image {
+    position: relative;
+    aspect-ratio: 16 / 10;
+  }
+
+  .lb-interlude,
+  .lb-dark,
+  .lb-closing {
+    page-break-before: always;
+  }
+
+  .lb-interlude {
+    height: auto;
+  }
+
+  .lb-interlude__image {
+    position: relative;
+    aspect-ratio: 16 / 9;
+  }
+
+  .lb-actions,
+  .lb-closing__actions {
+    display: none;
+  }
+
+  .lb-signature,
+  .lb-colour-grid,
+  .lb-style-block,
+  .lb-details__grid {
+    page-break-inside: avoid;
+  }
+}
