@@ -28,12 +28,12 @@ export const berkshireLocations: Location[] = [
     parentSlug: "berkshire",
     tier: 3,
     description:
-      "Ascot is defined by its Royal connections and the world-famous racecourse, but beyond the grandstand lie some of the most exclusive residential roads in England. Coronation Road, Kings Ride, and the private Sunninghill Park estate host mansions behind electric gates where every detail, from landscaping to front door hardware, is curated to the highest standard. SteelR entrance doors are designed for precisely this calibre of property, delivering bespoke designs with flawless finishes that meet the uncompromising expectations Ascot homeowners hold.",
+      "Ascot in SL5 is defined by the Royal racecourse, proximity to Windsor Great Park and the Crown Estate, and some of the highest-value private residential roads in England. Coronation Road, Kings Ride and the Sunninghill Park estate lead towards electrically gated mansions, while the streets off the A329 (Burleigh Road, Ducks Hill Road, Broomfield Park) carry Edwardian villas and contemporary architect-designed replacements on plots of two to ten acres. Many properties back onto the racecourse, Swinley Forest or Windsor Great Park. Security requirements are exceptional here. Every SteelR door is SR3 rated to BS EN 1627 Class 3 as standard, with SR4 (LPS 1175 Issue 8) commercial-grade upgrade specified on roughly one in three Ascot projects, and FD30S fire rating standard across the range. We survey SL5 directly from our Ickenham workshop, with installation teams experienced in gated-estate access protocols and residents association liaison.",
     localFeatures: [
-      "Gated mansions on Coronation Road and Kings Ride",
-      "Private estate properties in Sunninghill Park",
-      "Edwardian and Victorian residences near the High Street",
-      "Contemporary architect-designed homes on secluded plots",
+      "Gated mansions on Coronation Road, Kings Ride and the Sunninghill Park estate in SL5",
+      "Edwardian villas along Burleigh Road, Ducks Hill Road and Broomfield Park",
+      "Contemporary architect-designed replacements on plots of two to ten acres backing onto Swinley Forest",
+      "Racecourse-adjacent and Crown Estate properties with residents association and gated-access protocols",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
     galleryImages: [
@@ -52,12 +52,12 @@ export const berkshireLocations: Location[] = [
     parentSlug: "berkshire",
     tier: 3,
     description:
-      "Sunningdale sits within the exclusive Crown Estate, where pine-lined roads lead to some of the most valuable residential properties outside central London. The Coworth Park neighbourhood and roads surrounding Sunningdale Golf Club host an extraordinary concentration of wealth, with homes ranging from meticulously restored Edwardian mansions to striking contemporary builds. SteelR's bespoke entrance doors are engineered to match this rarefied setting, offering customisation in every dimension from RAL colour to bespoke ironmongery sourced from Europe's finest foundries.",
+      "Sunningdale sits within the SL5 Crown Estate area, bordered by Sunningdale Golf Club to the north and the Wentworth Estate to the south, with pine-lined roads leading to some of the most valuable residential property outside central London. Properties on Titlarks Hill Road, Broomhall Lane, Coworth Park and the streets around the golf course regularly transact above five million pounds. The housing stock ranges from meticulously restored Edwardian mansions with gatehouses, through inter-war Tudor Revival villas, to architect-designed contemporary builds on subdivided estate plots. SteelR bespoke entrance doors are engineered for this rarefied setting, offering SR3 rating to BS EN 1627 Class 3 as standard and SR4 (LPS 1175) commercial-grade upgrade specified on properties with high-profile occupants or remote driveways. Every door is fully bespoke with European-sourced ironmongery, dual-colour powder-coat specification available at no additional cost. We survey SL5 directly from our Ickenham workshop.",
     localFeatures: [
-      "Crown Estate properties on private wooded roads",
-      "Luxury homes surrounding Sunningdale and Wentworth golf clubs",
-      "Restored Edwardian mansions with period gardens",
-      "Ultra-modern new builds on subdivided estate plots",
+      "Crown Estate properties on Titlarks Hill Road, Broomhall Lane and Coworth Park within SL5",
+      "Luxury homes surrounding Sunningdale Golf Club and bordering the Wentworth Estate",
+      "Restored Edwardian mansions with gatehouses and inter-war Tudor Revival villas",
+      "Architect-designed contemporary replacements on subdivided estate plots of two to six acres",
     ],
     heroImage: "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg",
     galleryImages: [
@@ -76,12 +76,12 @@ export const berkshireLocations: Location[] = [
     parentSlug: "berkshire",
     tier: 3,
     description:
-      "Windsor's skyline is dominated by the Castle, but its residential streets tell an equally compelling story of English domestic architecture. From the Georgian elegance of Park Street to the substantial Victorian and Edwardian villas of Frances Road and Osborne Road, Windsor homes carry a sense of occasion that few towns can rival. SteelR creates entrance doors worthy of this setting, blending classical design language with the structural superiority of steel to produce doors that look as distinguished as the Royal Borough they serve.",
+      "Windsor in SL4 is the Royal Borough, its skyline dominated by Windsor Castle with Windsor Great Park and the Thames framing its residential districts. Georgian terraces along Park Street, Peascod Street and the High Street sit within the town conservation area, while Victorian and Edwardian villas along Frances Road, Osborne Road and King's Road offer substantial family homes on generous plots. Riverside properties along the Thames towards Dorney and Boveney carry views across to Eton College. The Clewer Village conservation area on the western edge and the streets climbing towards the Castle carry additional listed stock requiring conservation-sensitive design. SteelR bespoke steel entrance doors respect Windsor's heritage context through traditional six-panel designs with polished brass ironmongery for conservation properties, while contemporary flush panels with concealed hinges suit the Castle Quarter new-build market. Listed building consent liaison handled in-house. We survey SL4 from our Ickenham workshop with no regional surcharge.",
     localFeatures: [
-      "Georgian townhouses on Park Street and the High Street",
-      "Victorian and Edwardian villas along Frances Road and Osborne Road",
-      "Riverside properties with views towards Eton and the Thames",
-      "Modern apartments and townhouses in the Castle quarter",
+      "Georgian townhouses on Park Street, Peascod Street and the SL4 High Street conservation area",
+      "Victorian and Edwardian villas along Frances Road, Osborne Road and King's Road",
+      "Riverside properties with Thames frontage and views towards Eton College",
+      "Clewer Village conservation area listed cottages and Castle Quarter contemporary apartments",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-glazed-double.jpg",
     galleryImages: [
@@ -100,12 +100,12 @@ export const berkshireLocations: Location[] = [
     parentSlug: "berkshire",
     tier: 3,
     description:
-      "Maidenhead straddles the Thames in a setting of weirs, boathouses, and riverside gardens that have attracted affluent residents since the Victorian era. The Pinkneys Green and Bray areas host substantial family homes on leafy roads, while the town centre is undergoing ambitious regeneration. SteelR's bespoke steel doors serve Maidenhead homeowners who want an entrance that reflects the area's renewed confidence, whether that means a bold contemporary design for a riverside new build or a refined traditional door for a cherished period home.",
+      "Maidenhead in SL6 straddles the Thames in a setting of weirs, boathouses and riverside gardens that have attracted affluent residents since the Victorian era. Riverside properties along Ray Park Avenue, Boulters Lock and Cookham Dean command premium prices, while Pinkneys Green, Furze Platt and the Bray village conservation area (home to the Fat Duck and the Waterside Inn) add Grade II listed cottages and substantial detached homes on deep plots. The Cox Green, Woodlands Park and Taplow borders supply executive new-build and inter-war family stock. SteelR bespoke steel entrance doors serve Maidenhead homeowners with doors engineered for Thames-valley humidity, specifying marine-grade powder coat to BS EN 12206-1 Class 2 and corrosion-resistant hardware as standard. Every door is SR3 rated to BS EN 1627 Class 3 with SR4 (LPS 1175) upgrade available for riverside or rural plots. FD30S fire rating is standard across the range. SL6 covered directly from our Ickenham workshop.",
     localFeatures: [
-      "Riverside properties along the Thames near Boulters Lock",
-      "Substantial detached homes in Pinkneys Green and Cookham borders",
-      "Period and listed properties in Bray village",
-      "New-build executive homes in the town centre regeneration zone",
+      "Riverside properties along Ray Park Avenue and Boulters Lock within SL6",
+      "Grade II listed cottages and destination restaurants (Fat Duck, Waterside Inn) in the Bray village conservation area",
+      "Substantial detached homes in Pinkneys Green, Cookham Dean and Furze Platt",
+      "Executive new-build and inter-war family stock in the Cox Green, Woodlands Park and Taplow border areas",
     ],
     heroImage: "/images/gallery/steelr-navy-panelled-chrome-palms.jpg",
     galleryImages: [
@@ -124,12 +124,12 @@ export const berkshireLocations: Location[] = [
     parentSlug: "berkshire",
     tier: 3,
     description:
-      "Reading has transformed from a traditional market town into a thriving commercial hub, yet its finest residential streets in Caversham, Tilehurst, and Sonning retain an unhurried elegance. The Caversham Heights roads offer panoramic Thames valley views from Edwardian and interwar houses, while the village of Sonning is consistently ranked among England's most desirable. SteelR's bespoke entrance doors bring lasting distinction to Reading's premium properties, engineered to endure the Thames valley climate while presenting an immaculate facade for decades to come.",
+      "Reading is the largest town in Berkshire, covering the RG1, RG2, RG4, RG6 and RG8 postcode areas either side of the Thames. The premium residential market sits in Caversham Heights (RG4), where Upper Warren Avenue, Kidmore End Road and St Peter's Avenue carry Edwardian and inter-war detached homes with panoramic Thames valley views. Sonning village (RG4) is consistently ranked among England's most desirable locations, with riverside properties, thatched cottages and substantial detached homes on deep plots. The Tilehurst and Earley areas (RG30, RG6) add family-scale Victorian and inter-war stock, while Green Park and Kennet Island provide contemporary executive new-builds on the southern fringe. SteelR bespoke steel doors bring lasting distinction to Reading's premium stock, engineered to endure Thames-valley humidity with marine-grade powder coat and corrosion-resistant hardware. Every door is SR3 rated to BS EN 1627 Class 3 as standard, with SR4 (LPS 1175) upgrade available for riverside or rural plots. RG1 through RG8 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian and interwar homes with Thames views in Caversham Heights",
-      "Thatched cottages and riverside properties in Sonning",
-      "Victorian terraces and villas near Palmer Park",
-      "Contemporary executive homes in Green Park and South Reading",
+      "Edwardian and inter-war detached homes with Thames views on Upper Warren Avenue and St Peter's Avenue in RG4",
+      "Thatched cottages and riverside properties in Sonning village within RG4",
+      "Victorian and inter-war family stock in Tilehurst and Earley across RG30 and RG6",
+      "Contemporary executive new-builds in the Green Park and Kennet Island regeneration zones",
     ],
     heroImage: "/images/gallery/steelr-sage-panelled-arched-wreath.jpg",
     galleryImages: [
@@ -148,12 +148,12 @@ export const berkshireLocations: Location[] = [
     parentSlug: "berkshire",
     tier: 3,
     description:
-      "Newbury sits in the Kennet Valley surrounded by some of West Berkshire's most beautiful downland countryside. The town's Georgian core around Northbrook Street transitions into affluent suburbs where detached homes with paddock land are not uncommon. The villages of Kintbury, Hermitage, and Hampstead Norreys harbour country houses and converted farmsteads that value privacy and craftsmanship above all. SteelR delivers bespoke entrance doors to these rural Berkshire properties, combining estate-appropriate aesthetics with the unmatched longevity of steel.",
+      "Newbury sits in the Kennet Valley at the heart of RG14, surrounded by the RG17, RG18 and RG20 postcode areas of West Berkshire within the North Wessex Downs AONB. The Georgian core around Northbrook Street, Bartholomew Street and Cheap Street sits within the town conservation area, while Speenhamland, Donnington and the streets climbing Donnington Hill add substantial Edwardian and inter-war detached stock. The villages of Kintbury, Hungerford, Hermitage and Hampstead Norreys harbour country houses, converted farmsteads and equestrian properties, with several estates bordering Highclere Castle (the Downton Abbey filming location). Newbury Racecourse attracts an equestrian-focused buyer demographic requiring substantial homes with paddocks, stables and remote access. SteelR bespoke steel entrance doors serve these rural Berkshire properties with estate-grade specification, SR3 rating to BS EN 1627 Class 3 as standard and SR4 (LPS 1175 Issue 8) upgrade for isolated rural plots. RG14 through RG20 surveyed directly from Ickenham.",
     localFeatures: [
-      "Georgian townhouses in the Northbrook Street conservation area",
-      "Country houses and estates in the Kennet Valley",
-      "Converted farmsteads and barns in Hermitage and Hampstead Norreys",
-      "Equestrian properties with substantial homes near the racecourse",
+      "Georgian townhouses in the Northbrook Street and Bartholomew Street RG14 conservation area",
+      "Edwardian and inter-war detached stock in Speenhamland and around Donnington Hill",
+      "Country houses and converted farmsteads in Kintbury, Hungerford, Hermitage and Hampstead Norreys within RG17 and RG18",
+      "Equestrian properties with paddocks and stables near Newbury Racecourse and the Highclere Castle estate",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-sidelights-garden.jpg",
     galleryImages: [
@@ -172,12 +172,12 @@ export const berkshireLocations: Location[] = [
     parentSlug: "berkshire",
     tier: 3,
     description:
-      "Wokingham is a prosperous market town where timber-framed buildings on Rose Street give way to wide avenues of substantial Edwardian and interwar homes. The surrounding areas of Finchampstead, Crowthorne, and Hurst offer an even more rural setting, with properties set among woodland and farmland. SteelR's bespoke steel entrance doors are increasingly popular in Wokingham, where homeowners upgrading period properties or completing high-end new builds seek a front door that reflects the care and investment they have put into every other element of their home.",
+      "Wokingham in RG40 and RG41 is a prosperous Berkshire market town where Grade II listed timber-framed buildings on Rose Street give way to wide avenues of substantial Edwardian and inter-war homes. The Rose Street and Market Place conservation area preserves Tudor and Georgian frontages, while the residential streets along Elms Road, Wiltshire Road and Finchampstead Road carry detached Edwardian and 1920s family stock. The Finchampstead Ridges area and the Crowthorne, Hurst and Twyford surrounds offer rural-feel detached properties on wooded plots backing onto the Ridges conservation land. The Arborfield Green and Shinfield developments supply contemporary executive new-builds. SteelR bespoke steel entrance doors serve Wokingham homeowners upgrading Victorian and Edwardian stock or completing high-end new-builds, with traditional six-panel designs for the conservation zone and flush contemporary panels for the new-build market. Listed building consent for Rose Street properties handled in-house. RG40 and RG41 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian and interwar homes around Wokingham town centre",
-      "Substantial family houses in Finchampstead and Crowthorne",
-      "Period cottages and listed buildings on Rose Street",
-      "Contemporary developments in Arborfield and Shinfield",
+      "Grade II listed timber-framed buildings on Rose Street within the RG40 conservation area",
+      "Substantial Edwardian and 1920s detached homes along Elms Road, Wiltshire Road and Finchampstead Road",
+      "Rural-feel detached properties in Finchampstead Ridges, Crowthorne, Hurst and Twyford",
+      "Contemporary executive new-builds in the Arborfield Green and Shinfield development zones",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg",
     galleryImages: [
@@ -196,12 +196,12 @@ export const berkshireLocations: Location[] = [
     parentSlug: "berkshire",
     tier: 3,
     description:
-      "Henley-on-Thames is synonymous with English elegance, its Georgian High Street descending to the river where the Royal Regatta has drawn the great and the good for nearly two centuries. The surrounding Chilterns hills shelter some of the most coveted residential property in the Thames Valley, from converted mill houses along the water to substantial homes hidden in beech woodland. SteelR's bespoke entrance doors honour this refined setting, offering handcrafted steel doors that age gracefully alongside Henley's timeless architecture.",
+      "Henley-on-Thames in RG9 is synonymous with English elegance, its Georgian High Street descending to the river where the Royal Regatta has drawn the great and the good for nearly two centuries. The town conservation area covers the High Street, Market Place, Hart Street and New Street, where Georgian townhouses and coaching inns sit beside the Grade I listed St Mary's Church and Grade II listed Town Hall. Riverside properties along Mill Lane, Wharfe Lane and Remenham Lane command premium prices, while the Fairmile, Greys Road and Harpsden Road residential streets carry substantial Edwardian and inter-war detached homes set into the Chilterns AONB. Lower Shiplake and Binfield Heath add further rural-estate stock on generous plots. SteelR bespoke steel entrance doors respect Henley's heritage context with traditional six-panel designs for the conservation zone and contemporary flush panels for the new-build market. Every door is SR3 rated as standard with SR4 (LPS 1175) upgrade available for rural and riverside properties. RG9 surveyed directly from our Ickenham workshop.",
     localFeatures: [
-      "Georgian townhouses and coaching inns along the High Street",
-      "Riverside mill conversions and boathouses along the Thames",
-      "Country homes and estates in the Chilterns AONB",
-      "Contemporary homes in Harpsden and Lower Shiplake",
+      "Georgian townhouses and coaching inns on the Henley RG9 High Street conservation area",
+      "Grade I listed St Mary's Church and Grade II listed Town Hall near Hart Street",
+      "Riverside properties on Mill Lane, Wharfe Lane and Remenham Lane with Thames regatta-course views",
+      "Substantial Edwardian and inter-war detached homes on Fairmile and Harpsden Road within the Chilterns AONB",
     ],
     heroImage: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
     galleryImages: [
