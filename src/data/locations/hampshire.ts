@@ -28,12 +28,12 @@ export const hampshireLocations: Location[] = [
     parentSlug: "hampshire",
     tier: 3,
     description:
-      "Winchester's architectural pedigree stretches from its medieval cathedral close to the handsome Regency terraces of Southgate Street and St Cross Road. Properties along Bereweeke Road and Sleepers Hill feature imposing double-fronted facades where a bespoke steel entrance door becomes the defining element. SteelR designs for Winchester reflect the city's refined character, pairing traditional panel detailing with precision-engineered steel cores that meet the expectations of one of England's most desirable addresses.",
+      "Winchester in SO21, SO22 and SO23 is Hampshire's cathedral city with a heritage dating from Anglo-Saxon England when it served as Alfred the Great's capital. The Grade I listed Winchester Cathedral (the longest Gothic cathedral in Europe, consecrated 1093) anchors the city centre conservation area, which covers the High Street, Jewry Street, The Square and Great Minster Street with concentrated Grade II and II* listed medieval, Georgian and Regency frontages. Premium residential streets include St Cross Road, Kingsgate Street, Canon Street and the Cathedral Close itself in SO23, with substantial Edwardian detached homes on Bereweeke Road, Sleepers Hill, Romsey Road and Christchurch Road in SO22. The Itchen Valley conservation area and surrounding villages (Twyford, Kings Worthy, Headbourne Worthy and Easton) within SO21 add rural country houses and converted farmsteads on generous plots. Winchester College (founded 1382) and the Cathedral quarter set the tone for heritage-sensitive design. SteelR bespoke steel entrance doors respect Winchester's heritage with traditional six-panel designs, listed building consent liaison handled in-house, and SR3 rating as standard. SO21 through SO23 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian and Regency townhouses in the cathedral quarter",
-      "Detached Victorian villas along Bereweeke Road and Sleepers Hill",
-      "Contemporary new-builds in the Barton Farm development",
-      "Grade II listed properties requiring sympathetic entrance upgrades",
+      "Grade I listed Winchester Cathedral and Grade II listed Georgian High Street frontages within SO23",
+      "Cathedral Close, Kingsgate Street and St Cross Road medieval and Georgian listed properties",
+      "Substantial Edwardian detached homes on Bereweeke Road, Sleepers Hill, Romsey Road and Christchurch Road in SO22",
+      "Rural country houses and converted farmsteads in Twyford, Kings Worthy and Headbourne Worthy within SO21",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-sidelights-garden.jpg",
     galleryImages: [
@@ -52,12 +52,12 @@ export const hampshireLocations: Location[] = [
     parentSlug: "hampshire",
     tier: 3,
     description:
-      "Lymington sits at the edge of the New Forest, where Georgian coaching inns line the cobbled High Street and elegant sailing-town villas overlook the Solent. Properties along Bath Road and Milford on Sea command premium values and require entrance doors that withstand salt-laden coastal air without compromising on style. SteelR delivers marine-grade steel doors finished with weather-resistant coatings, ensuring Lymington homeowners enjoy lasting beauty alongside exceptional coastal durability.",
+      "Lymington in SO41 is a Georgian sailing town on the Solent coast within the New Forest National Park, defined by the Grade I listed Georgian High Street and the sailing heritage of the Berthon Marina and Lymington Yacht Haven. The town centre conservation area covers the High Street, St Thomas Street, Captain's Row, Quay Hill and the cobbled Quay, preserving Grade II listed Georgian townhouses, Grade I listed Church of St Thomas the Apostle and the medieval Quay. Premium residential streets include Waterford Lane, Undershore Road, Bath Road and All Saints Road carrying Georgian and Victorian riverside properties with private moorings, while the streets rising to Buckland Road, Ramley Road and Pennington Common add substantial Edwardian detached homes on generous plots. The surrounding New Forest villages of Sway, Brockenhurst, Beaulieu and Milford on Sea add thatched cottages and coastal-estate stock within the National Park. SteelR bespoke steel entrance doors serve Lymington homeowners with marine-grade powder coat to BS EN 12206-1 Class 2 (essential for Solent salt exposure), SR3 rating as standard and FD30S fire rating. SO41 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian townhouses along the High Street and Quay Hill",
-      "Edwardian villas with sea views along Bath Road",
-      "New Forest edge properties blending rural and coastal character",
-      "Contemporary harbour-side apartments and conversions",
+      "Grade I listed Church of St Thomas and Georgian townhouses on the Lymington SO41 High Street conservation area",
+      "Riverside properties with private moorings on Waterford Lane, Undershore Road and Bath Road",
+      "Substantial Edwardian detached homes on Buckland Road, Ramley Road and Pennington Common",
+      "New Forest National Park thatched cottages and estate stock in Sway, Brockenhurst, Beaulieu and Milford on Sea",
     ],
     heroImage: "/images/gallery/steelr-navy-panelled-chrome-palms.jpg",
     galleryImages: [
@@ -76,12 +76,12 @@ export const hampshireLocations: Location[] = [
     parentSlug: "hampshire",
     tier: 3,
     description:
-      "Nestled within the South Downs National Park, Petersfield combines a thriving market-town centre with rolling chalk downland and prosperous rural hamlets. The Square's handsome brick facades and the leafy lanes of Sheet and Steep showcase properties where a statement entrance door elevates kerb appeal considerably. SteelR works with Petersfield homeowners to create doors that complement the area's blend of flint-and-brick vernacular and contemporary countryside architecture.",
+      "Petersfield in GU31 and GU32 is a Hampshire market town within the South Downs National Park, defined by the Grade II* listed Church of St Peter on the Market Square and a concentrated conservation area covering the High Street, Lavant Street, The Square and Sheep Street. The town centre carries Grade II listed Georgian coaching inns, Tudor-era timber-framed buildings and the Grade I listed Ramshill House. Premium residential streets include Heath Road, Ramshill, The Spain and the Sheet area carrying substantial Edwardian and inter-war detached homes, while the surrounding villages of Steep (Edward Thomas poet association), Buriton, Stroud, East Meon and Liss add rural-estate stock and flint-and-brick cottages within the National Park. Bedales School (independent school in Steep, founded 1893) catchment draws a family-oriented buyer demographic, while Butser Hill and the South Downs Way frame the southern edge of the town. SteelR bespoke steel entrance doors serve Petersfield with SR3 rating as standard and SR4 (LPS 1175) upgrade available for rural National Park properties. GU31 and GU32 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Flint-and-brick cottages in surrounding South Downs villages",
-      "Victorian and Edwardian villas near The Spain and the Heath",
-      "Contemporary barn conversions across the Meon Valley",
-      "Large detached family homes in Sheet and Steep",
+      "Grade II* listed Church of St Peter and Georgian coaching inns within the Petersfield GU31/GU32 conservation area",
+      "Grade I listed Ramshill House and Tudor timber-framed buildings on the High Street",
+      "Substantial Edwardian detached homes on Heath Road, Ramshill and through The Spain and Sheet",
+      "Rural South Downs National Park flint-and-brick cottages in Steep, Buriton, East Meon and Liss",
     ],
     heroImage: "/images/gallery/steelr-sage-traditional-arched-brick.jpg",
     galleryImages: [
@@ -100,12 +100,12 @@ export const hampshireLocations: Location[] = [
     parentSlug: "hampshire",
     tier: 3,
     description:
-      "New Alresford is one of Hampshire's most picturesque small towns, renowned for its broad Georgian high street, watercress beds, and heritage steam railway. Broad Street's pastel-painted facades and the handsome period houses along West Street set a high architectural standard that demands entrance doors of equal calibre. SteelR creates bespoke steel doors for Alresford homes that respect the town's conservation-area character while delivering modern thermal performance and security.",
+      "Alresford in SO24 (New Alresford and Old Alresford) is one of Hampshire's most attractive Georgian market towns, distinguished by the colourful painted Georgian facades along Broad Street (described by Pevsner as one of the most attractive urban streets in Hampshire). The New Alresford conservation area covers Broad Street, West Street, East Street and Jacklyns Lane with Grade II listed Georgian townhouses and the Grade I listed Church of St John the Baptist. The Mid Hants Railway (the Watercress Line heritage steam railway) terminates at New Alresford station, with the platform and goods shed now listed heritage features. Residential streets including Jacklyns Lane, Tichborne Down, The Avenue and Nursery Road carry substantial Edwardian and inter-war detached homes on generous plots, while the surrounding villages of Old Alresford, Tichborne, Bishop's Sutton, Ropley and the Candover villages add rural country houses and converted farmsteads within the South Downs fringe. SteelR bespoke steel entrance doors honour Alresford's colourful Georgian streetscape with bespoke RAL colour matching to the painted facade palette. Listed building consent handled in-house. SO24 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian townhouses along Broad Street and West Street",
-      "Period cottages within the conservation area",
-      "Country houses in the Itchen Valley and Candover villages",
-      "Sensitively designed new-builds on the town's fringes",
+      "Colourful painted Georgian facades on Broad Street within the New Alresford SO24 conservation area",
+      "Grade I listed Church of St John the Baptist and Grade II listed Georgian townhouses on West Street",
+      "Substantial Edwardian detached homes on Jacklyns Lane, Tichborne Down and The Avenue",
+      "Rural country houses and converted farmsteads in Old Alresford, Tichborne, Ropley and the Candover villages",
     ],
     heroImage: "/images/gallery/steelr-cream-panelled-chrome-sidelight.jpg",
     galleryImages: [
@@ -124,12 +124,12 @@ export const hampshireLocations: Location[] = [
     parentSlug: "hampshire",
     tier: 3,
     description:
-      "Fleet and the surrounding villages of Church Crookham, Crookham Village, and Dogmersfield form one of north Hampshire's most affluent residential corridors. Tree-lined avenues of substantial Edwardian and interwar houses sit alongside executive new-builds, all within easy reach of London via the M3. SteelR provides Fleet homeowners with steel entrance doors that add distinction to these well-appointed properties, combining contemporary design lines with the robust engineering commuters demand.",
+      "Fleet in GU51 and GU52 is a prosperous north Hampshire commuter town on the SWR main line with a thirty-five minute service to Waterloo, defined by substantial Edwardian and inter-war detached family homes on the Crookham Park, Fleet Pond and Elvetham Heath estates. The premium residential market sits on the streets surrounding Fleet Pond (a designated Site of Special Scientific Interest) and along Elvetham Road, Reading Road North, Church Road and Kings Road, with post-war and contemporary executive detached stock on plots of a quarter to half an acre. The Church Crookham, Crookham Village and Dogmersfield borders add rural-estate properties and country houses approaching the Hampshire-Berkshire boundary, while the Elvetham Heath new-build development supplies contemporary executive family homes on landscaped grounds. Fleet Pond and the Basingstoke Canal add waterside-frontage properties, with the Gally Hill and Ancells Farm estates adding further family detached stock. SteelR bespoke steel entrance doors bring premium quality to these commuter-belt family homes with SR3 rating to BS EN 1627 Class 3 as standard, FD30S fire rating and bespoke RAL colour specification. GU51 and GU52 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian and interwar detached houses along Reading Road",
-      "Executive new-build estates in Church Crookham",
-      "Period properties in Crookham Village and Dogmersfield",
-      "Large family homes with generous driveways and porches",
+      "Substantial Edwardian and inter-war detached homes on Elvetham Road, Reading Road North and Church Road within GU51",
+      "Fleet Pond SSSI nature reserve and Basingstoke Canal waterside-frontage properties",
+      "Executive contemporary new-builds on the Elvetham Heath and Ancells Farm developments",
+      "Rural estate properties and country houses in Crookham Village and Dogmersfield in GU52",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg",
     galleryImages: [
