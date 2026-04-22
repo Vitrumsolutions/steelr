@@ -28,12 +28,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "St Albans is a cathedral city with Roman roots and a medieval street plan that makes it one of England's most characterful places to live. The mix of timber-framed buildings along George Street, elegant Georgian facades on Holywell Hill, and substantial Victorian villas on Clarence Road creates a town where every era is represented. SteelR bespoke steel entrance doors are designed for this diversity, whether the brief calls for a traditional panelled door to complement a listed frontage or a bold contemporary statement for a modern extension.",
+      "St Albans in AL1, AL3 and AL4 is a cathedral city with Roman roots (the ancient Verulamium) and a medieval street plan that makes it one of England's most characterful places to live. The city centre conservation area covers St Peter's Street, Holywell Hill, Fishpool Street and George Street, preserving the Grade I listed St Albans Cathedral (the oldest surviving Christian site in Britain), the Grade II listed Clock Tower and Tudor-era timber-framed buildings. The premium residential market sits along Clarence Road, Batchwood Drive, Sandpit Lane and the streets off Beaumont Avenue in AL4 with substantial Edwardian villas on generous plots. Marshalswick, Jersey Farm and the Verulam Estate add family-scale 1930s and post-war detached stock, while Sopwell and the new Park Street developments supply contemporary executive homes. SteelR bespoke steel entrance doors serve this diversity with traditional designs for listed frontages and contemporary flush panels for modern extensions. Listed building consent handled in-house. AL1, AL3 and AL4 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian and Victorian townhouses on Holywell Hill and Fishpool Street",
-      "Large Edwardian villas on Clarence Road and Batchwood Drive",
-      "Medieval timber-framed properties in the city centre conservation area",
-      "New-build executive homes in Sopwell and the Verulam Estate",
+      "Grade I listed St Albans Cathedral and Grade II listed Clock Tower within the AL1 and AL3 city centre conservation area",
+      "Georgian and Victorian townhouses on Holywell Hill, Fishpool Street and George Street",
+      "Substantial Edwardian villas on Clarence Road, Batchwood Drive and Sandpit Lane within AL4",
+      "1930s and post-war detached stock in Marshalswick, Jersey Farm and the Verulam Estate",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
     galleryImages: [
@@ -52,12 +52,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "Harpenden regularly tops surveys as one of the best places to live in Hertfordshire, its long High Street and wide common giving the town a quintessentially English character. The surrounding residential roads are lined with substantial Edwardian and interwar homes, many with the generous proportions and decorative details that define the town's appeal. SteelR steel entrance doors bring a new dimension to these properties, offering handcrafted bespoke designs that maintain Harpenden's refined streetscape while delivering modern thermal performance and security.",
+      "Harpenden in AL5 regularly tops surveys as one of the best places to live in Hertfordshire, its long High Street and wide Common giving the town a quintessentially English character. The Harpenden High Street and Common conservation area preserves Grade II listed cottages, Georgian frontages and the Grade II listed St Nicholas Church. Premium residential roads including West Common, Crabtree Lane, Rothamsted Avenue, Amenbury Lane and Topstreet Way carry substantial Edwardian villas on large plots, while Kinsbourne Green, Wheathampstead and the Lea Valley edges add further detached stock. The Southdown, Batford and Roundwood areas supply inter-war and post-war family detached housing, and the Rothamsted Research estate frames the town's southern edge with AONB-adjacent rural properties. SteelR bespoke steel entrance doors bring a new dimension to these properties with handcrafted designs, SR3 rating as standard, SR4 (LPS 1175) upgrade available, and fully bespoke RAL colour and European-sourced ironmongery. AL5 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Large Edwardian villas on West Common and Crabtree Lane",
-      "Interwar detached homes on Rothamsted Avenue and Amenbury Lane",
-      "Period cottages near the common and along Leyton Road",
-      "Contemporary executive homes on infill plots and new developments",
+      "Grade II listed cottages, Georgian frontages and St Nicholas Church within the Harpenden AL5 conservation area",
+      "Large Edwardian villas on West Common, Crabtree Lane, Rothamsted Avenue and Amenbury Lane",
+      "Inter-war and post-war detached family stock in Southdown, Batford and Roundwood",
+      "Rural estate properties in Kinsbourne Green and on the Wheathampstead and Rothamsted Research borders",
     ],
     heroImage: "/images/gallery/steelr-taupe-panelled-dual-sidelights.jpg",
     galleryImages: [
@@ -76,12 +76,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "Radlett is a prosperous village straddling the old Roman road of Watling Street, its tree-lined avenues hosting some of Hertfordshire's most impressive residential properties. The village centre retains an intimate feel with independent shops and restaurants, while surrounding roads like Loom Lane and Cobden Hill feature homes of considerable scale set within mature gardens. SteelR steel entrance doors are the fitting choice for these properties, where the front door must convey the same quality and attention to detail as the home itself.",
+      "Radlett in WD7 is a prosperous village straddling the old Roman road of Watling Street, its tree-lined avenues hosting some of Hertfordshire's most impressive residential properties. The village centre along Watling Street and Theobald Street retains an intimate feel with independent shops and restaurants, while surrounding roads including Loom Lane, Cobden Hill, Newberries Avenue and Aldenham Road carry substantial detached homes on mature wooded plots, often running to a half-acre or more. The Aldenham Park estate and Haberdashers' Aske's School catchment draw a family-oriented buyer demographic. Newberries Avenue and the streets off Gills Hill Lane carry 1930s and post-war detached stock, while the Watling Street regeneration developments supply contemporary executive homes. SteelR bespoke steel entrance doors are the fitting choice here with SR3 rating to BS EN 1627 Class 3 as standard, SR4 (LPS 1175) upgrade available for larger estate properties, and bespoke RAL colour with European-sourced ironmongery. WD7 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Substantial detached homes on Loom Lane and Cobden Hill",
-      "1930s houses on Watling Street and Theobald Street",
-      "Contemporary replacements on large plots in the Green Belt fringe",
-      "Period properties near Aldenham Park and the village centre",
+      "Substantial detached homes on Loom Lane, Cobden Hill and Newberries Avenue within WD7",
+      "1930s and post-war detached stock along Watling Street, Theobald Street and Gills Hill Lane",
+      "Aldenham Park estate frontage properties and the Haberdashers' Aske's School catchment",
+      "Contemporary executive new-builds on the Watling Street regeneration zones and Green Belt fringes",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-glazed-double.jpg",
     galleryImages: [
@@ -100,12 +100,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "Rickmansworth sits at the confluence of three rivers and the edge of the Chilterns, with the Aquadrome providing a lakeside leisure area unique among Hertfordshire towns. Chorleywood and the Chenies valley extend the area's appeal with upland properties enjoying sweeping views. The Metropolitan line provides fast access to central London, and the local housing stock ranges from Edwardian terraces near the station to large detached homes on Scots Hill. SteelR steel doors offer a bespoke solution for every property type in this varied and desirable area.",
+      "Rickmansworth in WD3 sits at the confluence of three rivers on the edge of the Chilterns, with the Aquadrome providing a lakeside leisure area unique among Hertfordshire towns. The residential market includes Chorleywood village (WD3) with Arts and Crafts properties on Shire Lane, Long Lane and Stag Lane, substantial Scots Hill and Chorleywood Road detached homes overlooking the Chess valley, and the Loudwater conservation area along the river. The Moor Park estate on the southern border (laid out in the 1920s around Sandy Lodge Golf Club) adds gated-estate stock on private roads such as Main Avenue and Middle Way. Edwardian terraces and semis near the High Street and Rickmansworth Metropolitan line station add family-scale stock. The Chess valley lanes approaching Chenies harbour country houses, converted barns and oast houses on rural-estate plots. SteelR bespoke steel entrance doors serve WD3 directly from our Ickenham workshop with SR3 rating as standard and SR4 (LPS 1175) upgrade available for Moor Park and rural properties.",
     localFeatures: [
-      "Large detached homes on Scots Hill and Chorleywood Road",
-      "Edwardian terraces and semis near the High Street and station",
-      "Arts and Crafts properties in Chorleywood village",
-      "Country houses and converted barns in the Chess valley",
+      "Substantial detached homes on Scots Hill and Chorleywood Road overlooking the Chess valley in WD3",
+      "Arts and Crafts properties in Chorleywood village along Shire Lane, Long Lane and Stag Lane",
+      "Moor Park estate gated-access properties on Main Avenue and Middle Way around Sandy Lodge Golf Club",
+      "Country houses and converted barns along Chess valley lanes approaching Chenies and Latimer",
     ],
     heroImage: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
     galleryImages: [
@@ -124,12 +124,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "Berkhamsted occupies a distinctive position in the Bulbourne valley, its long High Street tracing the route of the Roman Akeman Street past the Norman castle ruins. The town's popularity has driven prices sharply upward, with Victorian villas on Castle Hill and Chesham Road among the most sought-after properties. The Grand Union Canal adds towpath charm, while the surrounding Chiltern hillsides offer elevated plots with outstanding views. SteelR steel entrance doors complement Berkhamsted's architectural heritage with designs that balance tradition and modernity.",
+      "Berkhamsted in HP4 occupies a distinctive position in the Bulbourne valley, its long High Street tracing the route of the Roman Akeman Street past the Grade I listed Norman castle ruins (the motte and bailey built in 1067). The town centre conservation area covers the High Street, Lower Kings Road and the Market Place, preserving Grade II listed Tudor-era timber-framed buildings alongside Georgian and Victorian frontages. Premium residential streets include Castle Hill and Kings Road with Victorian villas, Chesham Road and Shootersway with elevated Chiltern-view detached homes on plots of a quarter to half-acre, and the Grand Union Canal side along Bank Mill Lane with unique waterway-frontage properties. Kitsbury Road and the Tring Road fringe add inter-war detached family stock, while the Potten End and Northchurch borders supply rural Chilterns AONB properties. SteelR bespoke steel entrance doors complement Berkhamsted's architectural heritage with traditional designs for conservation frontages and contemporary flush panels for new-builds. HP4 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Victorian villas on Castle Hill and Kings Road",
-      "Period cottages on the High Street and Lower Kings Road",
-      "Detached homes on Chesham Road and Shootersway with hill views",
-      "Contemporary new-builds in canal-side developments",
+      "Grade I listed Norman Berkhamsted Castle and Grade II listed timber-framed buildings in the HP4 conservation area",
+      "Victorian villas on Castle Hill and Kings Road with Bulbourne valley views",
+      "Detached homes on Chesham Road and Shootersway with elevated Chiltern hillside views",
+      "Grand Union Canal-side properties along Bank Mill Lane and inter-war family stock on Kitsbury Road",
     ],
     heroImage: "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg",
     galleryImages: [
@@ -148,12 +148,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "Tring is a charming Chiltern market town at the western edge of Hertfordshire, known for its Natural History Museum and the Rothschild legacy that shaped much of the local architecture. The High Street features a pleasing mix of Georgian and Victorian frontages, while the surrounding area includes estate cottages, farmhouses, and modern family homes. SteelR bespoke steel entrance doors are designed for this eclectic mix, offering heritage-sensitive designs for conservation area properties and bold contemporary options for newer homes on the town's outskirts.",
+      "Tring in HP23 is a charming Chiltern market town at the western edge of Hertfordshire, known for the Grade II listed Natural History Museum at Tring (Walter Rothschild's Zoological Museum, established 1889) and the Rothschild estate legacy that shaped much of the local architecture. The High Street and Western Road form the conservation area centre with Georgian and Victorian frontages, while Tring Park (the former Rothschild estate, Grade II* listed landscape) adds substantial detached properties on estate-grade plots. Residential streets including Miswell Lane, Longfield Road, Mortimer Hill and Icknield Way carry inter-war and post-war detached family homes. The surrounding villages of Aldbury (a Chilterns AONB conservation area with Grade II listed cottages), Wilstone and Long Marston add converted agricultural buildings and village-centre cottages, while the Grand Union Canal Wendover Arm runs through the town. SteelR bespoke steel entrance doors are designed for this eclectic mix. HP23 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian townhouses on the High Street and Western Road",
-      "Rothschild-era estate cottages in Tring Park surroundings",
-      "Detached family homes on Miswell Lane and Longfield Road",
-      "Converted agricultural buildings in Aldbury and surrounding villages",
+      "Grade II listed Natural History Museum (former Rothschild Zoological Museum) on Akeman Street within HP23",
+      "Georgian and Victorian townhouses on the Tring High Street and Western Road conservation area",
+      "Tring Park Grade II* listed estate properties and Rothschild-era estate cottages",
+      "Converted agricultural buildings in Aldbury Chilterns AONB village, Wilstone and Long Marston",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-ring-knocker-open.jpg",
     galleryImages: [
@@ -172,12 +172,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "Hitchin is a historic market town in North Hertfordshire where a medieval street plan converges on a market square beneath the soaring church of St Mary's. The town's architectural richness spans timber-framed medieval houses on Tilehouse Street, Georgian elegance on Bancroft, and substantial Victorian villas on Wymondley Road. Independent shops, the River Hiz, and a strong community spirit make Hitchin increasingly popular with families. SteelR steel entrance doors are specified here by homeowners who want a front door that honours the town's heritage character.",
+      "Hitchin in SG4 and SG5 is a historic market town in North Hertfordshire where a medieval street plan converges on the Market Square beneath the Grade I listed Church of St Mary's (the largest parish church in Hertfordshire, with 14th-century origins). The town centre conservation area covers Tilehouse Street, Bridge Street, Bancroft, Sun Street and Bucklersbury, preserving Tudor-era timber-framed houses and Georgian frontages. The premium residential market includes Victorian villas on Wymondley Road, Highbury Road and Hermitage Road in SG4, substantial detached Edwardian homes on Walsworth Road and London Road, and the rural-feel Preston, Offley and Kimpton village surrounds in SG5 with converted farmsteads on generous plots. The Priory Quarter regeneration and the former Lister Hospital site supply contemporary executive new-builds. SteelR bespoke steel entrance doors honour Hitchin's heritage character, with listed building consent handled in-house. SG4 and SG5 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Medieval timber-framed houses on Tilehouse Street and Bridge Street",
-      "Georgian properties on Bancroft and Sun Street",
-      "Victorian villas on Wymondley Road and Highbury Road",
-      "New-build developments on the Priory Quarter and former industrial sites",
+      "Grade I listed Church of St Mary's and Tudor timber-framed houses on Tilehouse Street within SG4",
+      "Georgian properties on Bancroft, Sun Street and Bucklersbury",
+      "Victorian villas on Wymondley Road and Highbury Road with substantial Edwardian stock on Walsworth Road",
+      "Rural Preston, Offley and Kimpton village surrounds with converted farmsteads in SG5",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
     galleryImages: [
@@ -196,12 +196,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "Welwyn village and neighbouring Welwyn Garden City offer contrasting but equally appealing residential environments. The village retains its quiet, rural atmosphere with flint-walled cottages and Georgian houses along the High Street, while the Garden City, designed by Louis de Soissons, features distinctive neo-Georgian architecture set within generous green spaces. SteelR steel entrance doors suit both settings, from traditionally proportioned designs for village conservation areas to sleeker profiles for the Garden City's characteristic flat-fronted houses.",
+      "Welwyn in AL6 comprises the historic village of Welwyn and the nearby Welwyn Garden City in AL7 and AL8, offering contrasting but equally appealing residential environments. Welwyn village retains its quiet rural atmosphere with Grade II listed flint-walled cottages and Georgian houses along the High Street conservation area, including the Grade II listed Church of St Mary the Virgin. Welwyn Garden City (designed by Louis de Soissons in 1920 and one of only two designated Garden Cities in England) features distinctive neo-Georgian architecture set within generous green spaces along Handside Lane, Parkway, Brockswood Lane and Church Road. The Digswell, Oaklands and Panshanger areas in AL7 add further family detached stock. Contemporary executive homes on developments near Welwyn North and Welwyn Garden City stations supply the modern new-build market. SteelR bespoke steel entrance doors suit both settings, with traditionally proportioned six-panel designs for village conservation properties and contemporary flush panels for the Garden City flat-fronted housing style. AL6, AL7 and AL8 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian houses and flint cottages in Welwyn village centre",
-      "Neo-Georgian Garden City homes on Handside Lane and Parkway",
-      "Detached houses on Prospect Place and Ottway Walk",
-      "Contemporary executive homes on developments near the station",
+      "Georgian houses and Grade II listed flint cottages in the Welwyn village AL6 High Street conservation area",
+      "Neo-Georgian Louis de Soissons Garden City homes on Handside Lane, Parkway and Brockswood Lane in AL7 and AL8",
+      "Detached family stock on Prospect Place, Ottway Walk and through Digswell and Oaklands",
+      "Contemporary executive new-builds on developments near Welwyn North and Welwyn Garden City stations",
     ],
     heroImage: "/images/gallery/steelr-charcoal-traditional-oval-window-lantern.jpg",
     galleryImages: [
@@ -220,12 +220,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "Potters Bar sits on the southern edge of Hertfordshire where London meets open countryside, its elevated position on the ridge providing views across both the Lea Valley and towards the city skyline. The town grew rapidly in the interwar years, producing streets of well-built detached and semi-detached homes that remain highly sought after. Darkes Lane and the High Street provide a local centre, while surrounding areas like Northaw and Cuffley add a rural dimension. SteelR steel entrance doors bring premium quality to these commuter-belt family homes.",
+      "Potters Bar in EN6 sits on the southern edge of Hertfordshire where London meets open Green Belt countryside, its elevated ridge position providing views across the Lea Valley and towards the city skyline. The town grew rapidly in the inter-war years, producing streets of well-built detached and semi-detached homes along The Walk, Oakmere Avenue, Mymms Drive, Parkfield Crescent and Billy Lows Lane that remain highly sought after. Darkes Lane and the High Street provide the local centre with independent shops and restaurants. The surrounding Green Belt villages of Northaw, Cuffley and South Mimms add rural detached stock and country houses on generous plots, while Little Heath and the Hatfield Road fringe supply further family detached stock. The Brookmans Park and Bell Bar areas add estate-grade properties adjacent to Brookmans Park Golf Club. SteelR bespoke steel entrance doors bring premium quality to these commuter-belt family homes with SR3 rating as standard and SR4 (LPS 1175) upgrade available for rural village properties. EN6 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Interwar detached homes on The Walk and Oakmere Avenue",
-      "Period properties in Northaw village with Green Belt views",
-      "Victorian cottages near the old Great North Road",
-      "Contemporary replacements on generous plots in South Mimms area",
+      "Inter-war detached homes on The Walk, Oakmere Avenue, Mymms Drive and Parkfield Crescent within EN6",
+      "Rural country houses in Northaw, Cuffley and South Mimms Green Belt villages",
+      "Victorian cottages near the old Great North Road and Darkes Lane town centre",
+      "Estate-grade properties in Brookmans Park and Bell Bar adjacent to Brookmans Park Golf Club",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-dual-sidelights.jpg",
     galleryImages: [
@@ -244,12 +244,12 @@ export const hertfordshireLocations: Location[] = [
     parentSlug: "hertfordshire",
     tier: 3,
     description:
-      "Bushey and Bushey Heath occupy a hillside position on the Hertfordshire-London border, with views stretching south across Harrow and beyond. The area has a distinguished artistic heritage, with Herkomer's legacy still visible in the distinctive studio-houses scattered through the older streets. Bushey Heath's village green and surrounding roads are lined with substantial Edwardian and interwar properties, while newer developments cater to families drawn by excellent schools. SteelR entrance doors add a bespoke finishing touch to homes across this diverse and desirable area.",
+      "Bushey in WD23, with Bushey Heath at its elevated northern end, occupies a distinctive hillside position on the Hertfordshire-London border overlooking Harrow and beyond. The area has a distinguished artistic heritage, with Sir Hubert von Herkomer's legacy (the Grade II listed Herkomer Institute and surrounding artist studios, built 1883-1903) still visible in the studio-houses scattered through Melbourne Road, Sparrows Herne and the High Street. Bushey Heath's village green and surrounding roads (High Road, The Common, Windmill Lane, Magpie Hall Road) are lined with substantial Edwardian and inter-war detached properties, while the Bushey village centre conservation area preserves Grade II listed timber-framed buildings and the Grade II listed Church of St James. The Oxhey Drive, Hartsbourne and Royal Connaught Park developments add contemporary executive new-builds, while the excellent schools catchment (Haberdashers' Aske's Boys and Girls nearby) draws a family-oriented buyer base. SteelR bespoke steel entrance doors add a bespoke finishing touch to WD23 homes, surveyed directly from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian and interwar homes on Bushey Heath High Road",
-      "Herkomer-era studio houses and Arts and Crafts properties",
-      "Detached family homes on Sparrows Herne and Melbourne Road",
-      "New-build executive houses on former commercial sites",
+      "Grade II listed Herkomer Institute and Herkomer-era studio houses on Melbourne Road and Sparrows Herne within WD23",
+      "Edwardian and inter-war detached homes on Bushey Heath High Road, The Common and Windmill Lane",
+      "Bushey village WD23 conservation area with Grade II listed timber-framed buildings and Church of St James",
+      "Contemporary executive new-builds in the Oxhey Drive, Hartsbourne and Royal Connaught Park developments",
     ],
     heroImage: "/images/gallery/steelr-black-panelled-double-letterbox.jpg",
     galleryImages: [
