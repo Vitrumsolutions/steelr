@@ -114,7 +114,7 @@ export const hertfordshireLocations: Location[] = [
       "/images/gallery/steelr-sage-traditional-arched-brick.jpg",
       "/images/gallery/steelr-black-panelled-ring-knocker-recessed.jpg",
     ],
-    nearbyAreaSlugs: ["berkhamsted", "bushey", "st-albans", "chalfont-st-peter"],
+    nearbyAreaSlugs: ["northwood", "berkhamsted", "bushey", "st-albans", "chalfont-st-peter"],
   },
   {
     slug: "berkhamsted",
