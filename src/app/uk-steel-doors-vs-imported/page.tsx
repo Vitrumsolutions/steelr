@@ -269,6 +269,8 @@ export default function UkVsImportedPage() {
         }}
         faqs={faqs}
         ctaHeading="Start with a UK-made bespoke specification"
+        enquirySource="hub-uk-vs-imported"
+        enquiryContextLabel="UK Steel Doors vs Imported"
       />
     </>
   );

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { doors, getDoorBySlug, getRelatedDoors } from "@/data/doors";
 import ScrollReveal from "@/components/ScrollReveal";
+import QuickEnquiry from "@/components/QuickEnquiry";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -561,6 +562,9 @@ export default async function DoorPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* Inline enquiry panel — auto-tags source=collection-<slug> for lead attribution */}
+      <QuickEnquiry source={`collection-${door.slug}`} contextLabel={door.title} />
 
       {/* CTA */}
       <section className="bg-site-black py-16 md:py-20 px-6 md:px-16">

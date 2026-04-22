@@ -284,6 +284,8 @@ export default function SbdPage() {
         }}
         faqs={faqs}
         ctaHeading="Specify a Secured by Design approved steel door"
+        enquirySource="hub-sbd"
+        enquiryContextLabel="Secured by Design Steel Doors"
       />
     </>
   );

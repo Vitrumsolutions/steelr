@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import ScrollReveal from "@/components/ScrollReveal";
 import LookbookActions, { TrackedLink } from "./lookbook-actions";
+import QuickEnquiry from "@/components/QuickEnquiry";
 import "./lookbook.css";
 
 export const metadata: Metadata = {
@@ -450,7 +451,9 @@ export default function Lookbook() {
       </section>
 
       {/* ────────────── CLOSING CTA ────────────── */}
-      <section className="lb-closing">
+{/* Inline enquiry panel — source=hub-lookbook */}
+      <QuickEnquiry source="hub-lookbook" contextLabel="Lookbook" />
+            <section className="lb-closing">
         <ScrollReveal direction="up">
           <span className="lb-eyebrow">Begin</span>
         </ScrollReveal>

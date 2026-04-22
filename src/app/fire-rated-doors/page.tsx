@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 import { CredentialsStrip } from "@/components/CredentialsBanner";
+import QuickEnquiry from "@/components/QuickEnquiry";
 
 export const metadata: Metadata = {
   title: "Fire Rated Steel Front Doors for Homes, Flats & New Builds | FD30 & FD60 | SteelR",
@@ -869,6 +870,9 @@ export default function FireRatedDoorsPage() {
       {/* Credentials Strip */}
       <CredentialsStrip />
 
+      
+      {/* Inline enquiry panel — source=hub-fire-rated-doors */}
+      <QuickEnquiry source="hub-fire-rated-doors" contextLabel="Fire Rated Doors" />
       {/* CTA */}
       <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-0">
         <div className="max-w-4xl mx-auto text-center">

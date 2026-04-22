@@ -284,6 +284,8 @@ export default function Sr3Page() {
         }}
         faqs={faqs}
         ctaHeading="Specify with confidence"
+        enquirySource="hub-sr3"
+        enquiryContextLabel="SR3 Residential Steel Doors"
       />
     </>
   );

@@ -279,6 +279,8 @@ export default function LondonPage() {
         }}
         faqs={faqs}
         ctaHeading="Start with a London survey visit"
+        enquirySource="hub-luxury-london"
+        enquiryContextLabel="Luxury Steel Entrance Doors London"
       />
     </>
   );

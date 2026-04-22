@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
+import QuickEnquiry from "@/components/QuickEnquiry";
 
 export const metadata: Metadata = {
   title:
@@ -902,6 +903,9 @@ export default function SecurityPage() {
         </div>
       </section>
 
+      
+      {/* Inline enquiry panel — source=hub-security */}
+      <QuickEnquiry source="hub-security" contextLabel="Security Doors" />
       {/* CTA */}
       <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-0">
         <div className="max-w-4xl mx-auto text-center">

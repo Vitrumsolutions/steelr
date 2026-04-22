@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 import { CredentialsStrip } from "@/components/CredentialsBanner";
+import QuickEnquiry from "@/components/QuickEnquiry";
 
 export const metadata: Metadata = {
   title: "Our Process | PAS 24 Certified Steel Door Installation | SteelR",
@@ -400,6 +401,9 @@ export default function ProcessPage() {
       {/* Credentials Strip */}
       <CredentialsStrip />
 
+      
+      {/* Inline enquiry panel — source=hub-process */}
+      <QuickEnquiry source="hub-process" contextLabel="Our Process" />
       {/* CTA */}
       <section className="bg-site-black py-20 md:py-28 px-6 md:px-16">
         <div className="max-w-4xl mx-auto text-center">

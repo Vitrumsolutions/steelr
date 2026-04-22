@@ -259,6 +259,8 @@ export default function Pas24Page() {
         }}
         faqs={faqs}
         ctaHeading="PAS 24 certification is the floor. Start above it."
+        enquirySource="hub-pas-24"
+        enquiryContextLabel="PAS 24 Steel Entrance Doors"
       />
     </>
   );

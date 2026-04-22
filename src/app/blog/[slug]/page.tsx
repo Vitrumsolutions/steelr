@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/data/blog";
 import ScrollReveal from "@/components/ScrollReveal";
+import QuickEnquiry from "@/components/QuickEnquiry";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -417,6 +418,10 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* Inline enquiry panel — auto-tags source=blog-<slug> for lead attribution.
+          Appears on every blog post including future ones via the dynamic [slug] template. */}
+      <QuickEnquiry source={`blog-${post.slug}`} contextLabel={post.title} />
 
       {/* CTA */}
       <section className="bg-site-black py-16 md:py-20 px-6 md:px-16">

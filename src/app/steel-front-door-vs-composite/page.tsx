@@ -324,6 +324,8 @@ export default function SteelVsCompositePage() {
         }}
         faqs={faqs}
         ctaHeading="Ready to specify"
+        enquirySource="hub-vs-composite"
+        enquiryContextLabel="Steel vs Composite Doors"
       />
     </>
   );

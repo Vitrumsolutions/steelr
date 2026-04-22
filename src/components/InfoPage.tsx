@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import ScrollReveal from "./ScrollReveal";
 import { CredentialsStrip } from "./CredentialsBanner";
+import QuickEnquiry from "./QuickEnquiry";
 
 const bodyFont = "var(--font-body), Montserrat, sans-serif";
 const displayFont = "var(--font-display), 'Cormorant Garamond', serif";
@@ -58,6 +59,11 @@ export interface InfoPageProps {
   ctaHref?: string;
   /** CTA button label (default "Request a Consultation") */
   ctaLabel?: string;
+  /** If set, renders an inline QuickEnquiry panel just before the final CTA.
+   *  Value is the source tag for lead attribution, e.g. "hub-sr3". */
+  enquirySource?: string;
+  /** Human-readable label shown inside the QuickEnquiry heading, e.g. "SR3 Residential Steel Doors". */
+  enquiryContextLabel?: string;
 }
 
 /**
@@ -77,6 +83,8 @@ export default function InfoPage({
   ctaHeading,
   ctaHref = "/contact",
   ctaLabel = "Request a Consultation",
+  enquirySource,
+  enquiryContextLabel,
 }: InfoPageProps) {
   return (
     <>
@@ -471,6 +479,11 @@ export default function InfoPage({
 
       {/* Credentials strip */}
       <CredentialsStrip />
+
+      {/* Inline enquiry panel (rendered if enquirySource is provided by the page) */}
+      {enquirySource && (
+        <QuickEnquiry source={enquirySource} contextLabel={enquiryContextLabel} />
+      )}
 
       {/* CTA */}
       <section className="bg-site-black py-20 md:py-28 px-6 md:px-16">

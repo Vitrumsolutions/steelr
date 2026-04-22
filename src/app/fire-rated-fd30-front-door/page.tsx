@@ -266,6 +266,8 @@ export default function Fd30Page() {
         }}
         faqs={faqs}
         ctaHeading="Fire, security, thermal. One door."
+        enquirySource="hub-fd30"
+        enquiryContextLabel="FD30 Fire Rated Front Doors"
       />
     </>
   );

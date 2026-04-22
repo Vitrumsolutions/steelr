@@ -251,6 +251,8 @@ export default function ThermallyBrokenPage() {
         }}
         faqs={faqs}
         ctaHeading="Specify the right thermal performance"
+        enquirySource="hub-thermal"
+        enquiryContextLabel="Thermally Broken Steel Doors"
       />
     </>
   );

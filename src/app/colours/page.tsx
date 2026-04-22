@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
+import QuickEnquiry from "@/components/QuickEnquiry";
 
 export const metadata: Metadata = {
   title: "Steel Door Colours & RAL Finishes | Bespoke Options | SteelR",
@@ -531,7 +532,9 @@ export default function ColoursPage() {
       </section>
 
       {/* CTA section */}
-      <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-12">
+{/* Inline enquiry panel — source=hub-colours */}
+      <QuickEnquiry source="hub-colours" contextLabel="Colours & Finishes" />
+            <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-12">
         <div className="max-w-4xl mx-auto text-center">
           <h2
             className="mb-10"

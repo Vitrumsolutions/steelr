@@ -10,6 +10,7 @@ import {
 } from "@/data/locations";
 import ScrollReveal from "@/components/ScrollReveal";
 import { CredentialsStrip } from "@/components/CredentialsBanner";
+import QuickEnquiry from "@/components/QuickEnquiry";
 
 /* ─── Boilerplate paragraph variants rotated by parent hub ─── */
 type BoilerplateVariants = {
@@ -935,6 +936,9 @@ export default async function AreaPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* Inline enquiry panel — auto-tags source=area-<slug> for lead attribution */}
+      <QuickEnquiry source={`area-${location.slug}`} contextLabel={label} />
 
       {/* CTA */}
       <section className="bg-site-black py-16 md:py-24 px-6 md:px-16">

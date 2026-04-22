@@ -289,6 +289,8 @@ export default function CostPage() {
         }}
         faqs={faqs}
         ctaHeading="Book a survey for a written quotation"
+        enquirySource="hub-cost-uk"
+        enquiryContextLabel="Steel Front Doors Cost UK"
       />
     </>
   );
