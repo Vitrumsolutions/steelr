@@ -42,11 +42,11 @@
 .lb-h2 {
   font-family: var(--font-display, "Cormorant Garamond"), serif;
   font-weight: 300;
-  font-size: clamp(42px, 6vw, 88px);
-  line-height: 1.02;
-  letter-spacing: -0.015em;
+  font-size: clamp(30px, 4vw, 56px);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
   color: var(--site-black);
-  margin: 0 0 28px;
+  margin: 0 0 24px;
 }
 
 .lb-h2--light {
@@ -54,7 +54,7 @@
 }
 
 .lb-h2 em {
-  font-style: italic;
+  font-style: normal;
   color: var(--bronze);
 }
 
@@ -117,14 +117,14 @@
 .lb-hero__title {
   font-family: var(--font-display, "Cormorant Garamond"), serif;
   font-weight: 300;
-  font-size: clamp(54px, 9vw, 132px);
-  line-height: 1.02;
-  letter-spacing: -0.018em;
-  margin: 0 0 32px;
+  font-size: clamp(40px, 6.2vw, 92px);
+  line-height: 1.05;
+  letter-spacing: -0.012em;
+  margin: 0 0 28px;
 }
 
 .lb-hero__title em {
-  font-style: italic;
+  font-style: normal;
   color: var(--gold);
 }
 
@@ -159,16 +159,16 @@
 .lb-statement__body {
   font-family: var(--font-display, "Cormorant Garamond"), serif;
   font-weight: 300;
-  font-size: clamp(22px, 2.4vw, 32px);
-  line-height: 1.45;
+  font-size: clamp(17px, 1.7vw, 22px);
+  line-height: 1.55;
   letter-spacing: 0.005em;
   color: var(--body);
-  max-width: 48ch;
+  max-width: 54ch;
   margin: 0 auto;
 }
 
 .lb-statement__body em {
-  font-style: italic;
+  font-style: normal;
   color: var(--bronze);
 }
 
@@ -259,12 +259,13 @@
 
 .lb-feature__title {
   font-family: var(--font-display, "Cormorant Garamond"), serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: clamp(32px, 4vw, 56px);
-  line-height: 1.05;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(22px, 2.6vw, 34px);
+  line-height: 1.15;
+  letter-spacing: -0.005em;
   color: var(--site-black);
-  margin: 0 0 24px;
+  margin: 0 0 20px;
 }
 
 .lb-feature__caption {
@@ -323,12 +324,12 @@
 .lb-pullquote p {
   font-family: var(--font-display, "Cormorant Garamond"), serif;
   font-weight: 300;
-  font-style: italic;
-  font-size: clamp(38px, 5vw, 72px);
-  line-height: 1.1;
+  font-style: normal;
+  font-size: clamp(26px, 3.4vw, 48px);
+  line-height: 1.15;
   color: var(--cream);
-  margin: 0 0 24px;
-  letter-spacing: -0.01em;
+  margin: 0 0 22px;
+  letter-spacing: -0.008em;
 }
 
 .lb-pullquote footer {
@@ -354,12 +355,13 @@
 
 .lb-style__title {
   font-family: var(--font-display, "Cormorant Garamond"), serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: clamp(36px, 4.5vw, 60px);
-  line-height: 1.1;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(24px, 2.8vw, 36px);
+  line-height: 1.15;
   color: var(--site-black);
-  margin: 0 0 16px;
+  margin: 0 0 14px;
+  letter-spacing: -0.005em;
 }
 
 .lb-style__lede {
@@ -428,12 +430,13 @@
 
 .lb-colour__name {
   font-family: var(--font-display, "Cormorant Garamond"), serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: clamp(30px, 3.6vw, 48px);
-  line-height: 1.05;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(22px, 2.4vw, 32px);
+  line-height: 1.15;
   color: var(--site-black);
-  margin: 0 0 16px;
+  margin: 0 0 14px;
+  letter-spacing: -0.005em;
 }
 
 .lb-colour__ral {
@@ -552,12 +555,13 @@
 
 .lb-process h3 {
   font-family: var(--font-display, "Cormorant Garamond"), serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 28px;
-  line-height: 1.1;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
   color: var(--site-black);
-  margin: 0 0 16px;
+  margin: 0 0 14px;
+  letter-spacing: -0.005em;
 }
 
 .lb-process p {
@@ -584,16 +588,16 @@
 .lb-closing__title {
   font-family: var(--font-display, "Cormorant Garamond"), serif;
   font-weight: 300;
-  font-size: clamp(48px, 8vw, 120px);
-  line-height: 1;
-  letter-spacing: -0.018em;
+  font-size: clamp(34px, 5.2vw, 80px);
+  line-height: 1.08;
+  letter-spacing: -0.012em;
   color: var(--cream);
-  margin: 0 auto 40px;
-  max-width: 18ch;
+  margin: 0 auto 36px;
+  max-width: 20ch;
 }
 
 .lb-closing__title em {
-  font-style: italic;
+  font-style: normal;
   color: var(--gold);
 }
 
