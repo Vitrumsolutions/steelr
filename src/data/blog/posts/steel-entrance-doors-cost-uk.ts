@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-entrance-doors-cost-uk",
-  title: "How Much Do Steel Entrance Doors Cost in the UK?",
+  title: "Steel Entrance Doors Cost UK: Bespoke 2026 Price Guide",
   description:
-    "A transparent guide to steel entrance door pricing in the UK — what affects the cost, what you get at each price point and how to budget for a bespoke steel front door.",
+    "Steel entrance doors cost UK explained. What affects the price, what you get at each specification level and how to budget for a bespoke steel front door.",
   date: "2026-03-10",
   readTime: "7 min read",
   category: "Buying Guide",

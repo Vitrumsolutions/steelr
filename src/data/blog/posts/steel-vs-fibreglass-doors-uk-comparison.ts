@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-vs-fibreglass-doors-uk-comparison",
-  title: "Steel vs Fibreglass Doors: An Honest UK Comparison",
+  title: "Steel vs Fibreglass Front Doors UK: Full Comparison",
   description:
-    "Steel vs fibreglass (GRP) doors compared for UK homes. Security, durability, thermal performance, design flexibility, maintenance and cost — an honest analysis.",
+    "Steel vs fibreglass GRP front doors UK compared. Security, durability, thermal performance, design flexibility, maintenance and cost for UK homeowners.",
   date: "2026-05-06",
   readTime: "8 min read",
   category: "Buying Guide",

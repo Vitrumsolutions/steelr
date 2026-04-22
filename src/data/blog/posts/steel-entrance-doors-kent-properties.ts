@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-entrance-doors-kent-properties",
-  title: "Steel Entrance Doors for Kent Properties: Local Guide",
+  title: "Steel Front Doors Kent UK: Local Properties Buyer Guide",
   description:
-    "Local guide to steel entrance doors for Kent properties — covering oast houses, coastal homes, Wealden architecture, conservation areas and local installation.",
+    "Local guide to steel front doors for Kent UK properties. Oast houses, coastal homes, Wealden architecture, conservation areas and nationwide installation.",
   date: "2026-06-18",
   readTime: "8 min read",
   category: "Location Guides",

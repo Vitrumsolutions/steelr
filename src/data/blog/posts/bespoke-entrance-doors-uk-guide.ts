@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "bespoke-entrance-doors-uk-guide",
-  title: "Bespoke Entrance Doors: Why Made-to-Order Is Worth the Investment",
+  title: "Bespoke Steel Entrance Doors UK: The Complete Guide",
   description:
-    "A comprehensive guide to bespoke entrance doors in the UK — what made-to-order means, customisation options, the design process and why standard sizes rarely suit quality properties.",
+    "Complete guide to bespoke steel entrance doors in the UK. Made-to-order customisation, design process and why standard sizes rarely suit quality homes.",
   date: "2026-04-10",
   readTime: "8 min read",
   category: "Buying Guide",

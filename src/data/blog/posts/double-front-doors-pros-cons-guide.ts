@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "double-front-doors-pros-cons-guide",
-  title: "Double Front Doors: Pros, Cons and What to Consider",
+  title: "Double Front Doors UK: Pros, Cons and Full Buyer Guide",
   description:
-    "A practical guide to double front doors covering structural requirements, security, active vs passive leaf, thermal performance, cost and design options for UK homes.",
+    "Double front doors UK guide. Structural requirements, SR3 security, active vs passive leaf, thermal performance, cost and design options for UK homes.",
   date: "2026-05-29",
   readTime: "7 min read",
   category: "Buying Guide",

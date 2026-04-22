@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-vs-composite-doors",
-  title: "Steel vs Composite Doors: Which Is Right for Your Home?",
+  title: "Steel vs Composite Front Doors UK: Full Comparison",
   description:
-    "A comprehensive comparison of steel and composite entrance doors covering security, durability, design flexibility and long-term value for UK homeowners.",
+    "Steel vs composite front doors UK compared. Security ratings, durability, design flexibility and long-term value for UK homeowners choosing a front door.",
   date: "2026-03-28",
   readTime: "6 min read",
   category: "Buying Guide",

@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "how-much-do-steel-doors-cost-uk",
-  title: "How Much Do Steel Entrance Doors Cost in the UK? 2026 Price Guide",
+  title: "How Much Do Steel Entrance Doors Cost UK: 2026 Guide",
   description:
-    "A transparent guide to bespoke steel entrance door pricing in the UK — typical costs from £3,000 to £15,000+, what affects the price, how steel compares to composite and timber, and what you actually get for the investment.",
+    "Bespoke steel entrance door cost UK explained. What affects the price, how steel compares to composite and timber, and what you get for the investment.",
   date: "2026-04-13",
   readTime: "10 min read",
   category: "Buying Guide",

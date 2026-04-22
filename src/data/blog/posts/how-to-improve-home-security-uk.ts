@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "how-to-improve-home-security-uk",
-  title: "How to Improve Home Security: A UK Homeowner's Guide",
+  title: "How to Improve Home Security UK: Front Door and More",
   description:
-    "Practical advice on how to improve home security for UK homeowners — from securing your front door and windows to lighting, alarms and smart technology, with expert guidance on what makes the biggest difference.",
+    "Improve home security in the UK with practical advice. Front doors, windows, lighting, alarms and smart tech, plus what makes the biggest difference.",
   date: "2026-03-12",
   readTime: "8 min read",
   category: "Security",

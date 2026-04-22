@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "best-front-door-home-security",
-  title: "How to Choose the Best Front Door for Home Security",
+  title: "Best Front Door for Home Security: UK Buyer 2026 Guide",
   description:
-    "A comprehensive guide to choosing the most secure front door for your home — covering door materials, lock types, security ratings from SR1 to SR5, hinge specifications, glazing and what to look for when buying.",
+    "Choose the best front door for home security in the UK. Guide to materials, locks, SR1 to SR3 security ratings, hinges, glazing and what to prioritise.",
   date: "2026-03-31",
   readTime: "7 min read",
   category: "Security",

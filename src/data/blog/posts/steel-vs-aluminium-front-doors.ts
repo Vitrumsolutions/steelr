@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-vs-aluminium-front-doors",
-  title: "Steel vs Aluminium Front Doors: Which Should You Choose?",
+  title: "Steel vs Aluminium Front Doors UK: Full Comparison",
   description:
-    "An honest comparison of steel and aluminium front doors covering security, thermal performance, weight, design flexibility, longevity and cost — helping UK homeowners choose the right material.",
+    "Steel vs aluminium front doors UK compared. Security, thermal performance, weight, design flexibility, longevity and cost for UK homeowners choosing material.",
   date: "2026-03-31",
   readTime: "6 min read",
   category: "Buying Guide",

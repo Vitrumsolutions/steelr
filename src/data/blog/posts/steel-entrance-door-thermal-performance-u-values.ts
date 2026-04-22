@@ -2,10 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-entrance-door-thermal-performance-u-values",
-  title:
-    "Steel Entrance Door Thermal Performance: U-Values and Energy Efficiency",
+  title: "Steel Front Door U-Values UK: Thermal Performance Guide",
   description:
-    "How steel entrance doors achieve excellent U-values through thermal breaks and insulated cores — Building Regs Part L, material comparisons and energy efficiency explained.",
+    "UK steel front door U-values explained. Thermal breaks, insulated cores, Building Regs Part L compliance, material comparisons and energy efficiency ratings.",
   date: "2026-04-22",
   readTime: "8 min read",
   category: "Technical",

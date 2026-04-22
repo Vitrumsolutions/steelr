@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "best-burglar-proof-front-doors-uk",
-  title: "Best Burglar-Proof Front Doors in the UK: A Security Expert's Guide",
+  title: "Best Burglar-Proof Front Doors UK: Security Buyer Guide",
   description:
-    "Expert guide to the best burglar-proof front doors in the UK — covering security ratings, lock types, materials, Secured by Design and police recommendations.",
+    "Expert guide to the best burglar-proof front doors UK. Covers SR3 security ratings, lock types, materials, Secured by Design and police recommendations.",
   date: "2026-06-04",
   readTime: "9 min read",
   category: "Security",

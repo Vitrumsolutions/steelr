@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-entrance-doors-architects-specifiers",
-  title: "Steel Entrance Doors for Architects and Specifiers",
+  title: "Steel Front Doors UK: Architect and Specifier Guide",
   description:
-    "A technical guide to specifying steel entrance doors for residential and commercial projects — covering security ratings, thermal performance, fire ratings and the specification process.",
+    "UK technical guide for architects and specifiers of steel front doors. SR3 security, thermal performance, FD30 fire ratings and the specification process.",
   date: "2026-03-05",
   readTime: "7 min read",
   category: "Technical",

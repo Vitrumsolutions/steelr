@@ -48,12 +48,14 @@ import periodPropertyFrontDoorUltimateGuide from "./posts/period-property-front-
 import springHomeImprovementFrontDoorUpgrade from "./posts/spring-home-improvement-front-door-upgrade";
 import securedByDesignHomesGuide2026 from "./posts/secured-by-design-homes-guide-2026";
 import sr4Lps1175CommercialGradeResidential from "./posts/sr4-lps-1175-commercial-grade-residential";
+import luxuryFrontDoorsUkBuyerGuide from "./posts/luxury-front-doors-uk-buyer-guide";
 
 import type { BlogPost } from "./types";
 
 // Sorted by date descending (newest first) so the latest posts appear first
 // in the blog listing and "related posts" sections.
 export const posts: BlogPost[] = [
+  luxuryFrontDoorsUkBuyerGuide,
   steelVsCompositeDoors,
   whatIsSr3SecurityRating,
   choosingEntranceDoorColour,

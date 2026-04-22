@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "front-door-design-trends-2026",
-  title: "Front Door Design Trends for 2026",
+  title: "Front Door Design Trends 2026: UK Style and Colour Guide",
   description:
-    "The latest front door ideas and design trends for 2026 — from bold colours and oversized handles to smart technology and sustainable materials, with inspiration for modern front door design.",
+    "Front door design trends 2026 for UK homes. Bold colours, oversized handles, smart locks, sustainable materials and inspiration for modern front doors.",
   date: "2026-03-08",
   readTime: "6 min read",
   category: "Design",

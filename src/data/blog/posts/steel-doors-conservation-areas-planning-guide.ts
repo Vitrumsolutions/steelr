@@ -2,10 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-doors-conservation-areas-planning-guide",
-  title:
-    "Steel Doors for Conservation Areas: Planning Permission and Design Guide",
+  title: "Steel Front Doors for Conservation Areas: UK Planning Guide",
   description:
-    "How to specify steel entrance doors for conservation areas — planning permission rules, design considerations, working with conservation officers and replicating period styles.",
+    "Steel front doors for conservation areas in the UK. Planning permission rules, design considerations, conservation officers and replicating period styles.",
   date: "2026-04-15",
   readTime: "9 min read",
   category: "Guides",

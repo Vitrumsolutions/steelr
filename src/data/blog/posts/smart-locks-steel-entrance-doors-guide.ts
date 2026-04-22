@@ -2,10 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "smart-locks-steel-entrance-doors-guide",
-  title:
-    "Smart Locks for Steel Entrance Doors: What Works and What to Avoid",
+  title: "Smart Locks for Steel Front Doors UK: 2026 Buyer Guide",
   description:
-    "A practical guide to smart locks for steel entrance doors covering lock types, compatibility, security ratings, home automation and recommended brands for the UK market.",
+    "Smart locks for steel front doors UK. Lock types, compatibility, SR3 security ratings, home automation and recommended brands for the UK market.",
   date: "2026-06-02",
   readTime: "7 min read",
   category: "Technical",

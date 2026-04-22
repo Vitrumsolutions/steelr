@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-entrance-doors-surrey-properties",
-  title: "Steel Entrance Doors for Surrey Properties: Local Guide",
+  title: "Steel Front Doors Surrey UK: Local Properties Guide",
   description:
-    "A guide to choosing bespoke steel entrance doors for Surrey homes — covering local architecture, conservation areas, popular styles and security for affluent properties.",
+    "Guide to bespoke steel front doors for Surrey UK homes. Local architecture, conservation areas, popular styles and SR3 security for high-value properties.",
   date: "2026-05-27",
   readTime: "7 min read",
   category: "Location Guides",

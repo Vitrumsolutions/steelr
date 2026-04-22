@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "choosing-entrance-door-colour",
-  title: "How to Choose the Perfect Colour for Your Entrance Door",
+  title: "Front Door Colour Ideas UK: RAL Colours and Trends",
   description:
-    "Expert advice on selecting the right colour for your front door — from classic black to bold statement colours, with RAL colour guidance for UK homes.",
+    "Front door colour ideas for UK homes. RAL colour guidance, classic black, bold statement shades and dual-colour options for bespoke steel entrance doors.",
   date: "2026-03-20",
   readTime: "4 min read",
   category: "Design",

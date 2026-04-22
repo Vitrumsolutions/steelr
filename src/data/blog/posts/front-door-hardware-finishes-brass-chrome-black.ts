@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "front-door-hardware-finishes-brass-chrome-black",
-  title: "Front Door Hardware Finishes: Brass, Chrome, Black and Beyond",
+  title: "Front Door Hardware Finishes UK: Brass, Chrome, Black",
   description:
-    "A detailed guide to front door hardware finishes — brass, chrome, matt black and bronze — covering knockers, handles, letter plates, PVD coatings and maintenance.",
+    "UK front door hardware finishes guide. Brass, chrome, matt black and bronze covered with knockers, handles, letter plates, PVD coatings and maintenance.",
   date: "2026-05-08",
   readTime: "7 min read",
   category: "Design",

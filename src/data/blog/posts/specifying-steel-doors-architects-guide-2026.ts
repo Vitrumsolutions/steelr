@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "specifying-steel-doors-architects-guide-2026",
-  title: "Specifying Steel Doors: An Updated Guide for Architects in 2026",
+  title: "Specifying Steel Front Doors UK: 2026 Architect Guide",
   description:
-    "A technical guide for architects specifying steel entrance doors in 2026 — covering NBS clauses, performance requirements, structural considerations and approval processes.",
+    "UK architect guide to specifying steel front doors in 2026. NBS clauses, performance requirements, structural considerations and approval processes.",
   date: "2026-05-15",
   readTime: "8 min read",
   category: "Technical",

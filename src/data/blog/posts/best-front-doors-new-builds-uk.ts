@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "best-front-doors-new-builds-uk",
-  title: "Best Front Doors for New Builds: What Property Developers Should Know",
+  title: "Best Front Doors for New Builds UK: Developer Guide",
   description:
-    "A guide for UK property developers on specifying front doors for new builds. Covers Part Q, Part L, Part B compliance, Secured by Design and bulk specification.",
+    "Guide for UK developers specifying front doors for new builds. PAS 24, Part Q, Part L, Part B compliance, Secured by Design and bulk specification.",
   date: "2026-05-01",
   readTime: "8 min read",
   category: "Buying Guide",

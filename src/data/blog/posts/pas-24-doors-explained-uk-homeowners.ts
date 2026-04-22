@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "pas-24-doors-explained-uk-homeowners",
-  title: "PAS 24 Doors Explained: What UK Homeowners Need to Know",
+  title: "PAS 24 Front Doors Explained: UK Homeowner 2026 Guide",
   description:
-    "A clear guide to PAS 24 door certification in the UK — what it tests, when it is required, how it compares to SR ratings and why it may not be enough.",
+    "PAS 24 front door certification in the UK explained. What it tests, when it is required, how it compares to SR3 ratings and why it may not be enough.",
   date: "2026-04-08",
   readTime: "8 min read",
   category: "Security",

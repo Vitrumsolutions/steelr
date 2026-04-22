@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "home-insurance-door-security-ratings-uk",
-  title: "Home Insurance and Door Security: How Your Front Door Affects Your Premium",
+  title: "Home Insurance and Front Door Security Ratings UK Guide",
   description:
-    "How front door security ratings like PAS 24, SR3 and Secured by Design affect UK home insurance premiums, claims and high-value property cover.",
+    "How front door security ratings like PAS 24, SR3 and Secured by Design affect UK home insurance premiums, claims and high-value property buildings cover.",
   date: "2026-05-13",
   readTime: "7 min read",
   category: "Security",

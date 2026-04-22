@@ -4,7 +4,7 @@ const post: BlogPost = {
   slug: "best-front-doors-period-properties",
   title: "Best Front Doors for Period Properties in the UK",
   description:
-    "A guide to choosing the right front door for period properties — covering Victorian front doors, Georgian front doors, Edwardian homes and listed buildings, with advice on materials, styles and conservation compliance.",
+    "Best front doors for period properties UK. Victorian, Georgian, Edwardian and listed buildings covered with advice on materials and conservation rules.",
   date: "2026-03-22",
   readTime: "7 min read",
   category: "Design",

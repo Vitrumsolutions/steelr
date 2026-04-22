@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "modern-front-door-ideas-inspiration-2026",
-  title: "Modern Front Door Ideas: 12 Designs Leading the Way in 2026",
+  title: "Modern Front Door Ideas UK: 12 Designs Leading 2026",
   description:
-    "12 modern front door ideas defining 2026 — from horizontal ribbed panels to oversized pivot doors, concealed hinges, statement colours and integrated lighting.",
+    "12 modern front door ideas for UK homes in 2026. Horizontal ribbed panels, oversized pivot doors, concealed hinges, statement colours and integrated lighting.",
   date: "2026-06-16",
   readTime: "9 min read",
   category: "Design",

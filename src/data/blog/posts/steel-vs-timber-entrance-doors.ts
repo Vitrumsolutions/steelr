@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-vs-timber-entrance-doors",
-  title: "Steel vs Timber Entrance Doors: A Complete Comparison",
+  title: "Steel vs Timber Front Doors UK: Full 2026 Comparison",
   description:
-    "A detailed comparison of steel and timber front doors covering security, durability, maintenance, thermal performance and design — helping UK homeowners choose the right entrance door material.",
+    "Steel vs timber front doors UK compared. Security, durability, maintenance, thermal performance and design for UK homeowners choosing entrance door material.",
   date: "2026-03-18",
   readTime: "6 min read",
   category: "Buying Guide",

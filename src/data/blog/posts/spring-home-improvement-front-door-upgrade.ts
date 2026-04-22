@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "spring-home-improvement-front-door-upgrade",
-  title: "Spring Home Improvement: Why Your Front Door Should Be First",
+  title: "Spring Front Door Upgrade UK: Why Start Here First",
   description:
-    "Why spring is the ideal time to upgrade your front door — covering ROI, kerb appeal, security, energy efficiency and the typical timeline from enquiry to installation.",
+    "Why spring is the ideal time to upgrade your UK front door. ROI, kerb appeal, SR3 security, energy efficiency and the typical enquiry-to-install timeline.",
   date: "2026-06-30",
   readTime: "8 min read",
   category: "Guides",

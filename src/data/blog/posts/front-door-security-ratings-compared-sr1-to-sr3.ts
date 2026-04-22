@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "front-door-security-ratings-compared-sr1-to-sr3",
-  title: "Front Door Security Ratings Compared: SR1, SR2 and SR3 Explained",
+  title: "Front Door Security Ratings UK: SR1, SR2, SR3 Explained",
   description:
-    "A complete comparison of front door security ratings from SR1 to SR6 — what each level resists, how testing works under BS EN 1627, and why SR3 is the gold standard for UK homes.",
+    "Front door security ratings explained. SR1 to SR3 compared, BS EN 1627 testing, and why SR3 is the gold standard for UK homes. Plus where SR4 fits in.",
   date: "2026-04-17",
   readTime: "8 min read",
   category: "Security",

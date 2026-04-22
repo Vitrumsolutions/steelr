@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "what-is-sr3-security-rating",
-  title: "What Is an SR3 Security Rating? The Complete Guide for Homeowners",
+  title: "What Is SR3 Security Rating? UK Front Door 2026 Guide",
   description:
-    "Everything UK homeowners need to know about SR3 security ratings for entrance doors — what the standard means, how testing works and why it matters for home security.",
+    "SR3 security rating explained for UK homeowners. What the BS EN 1627 standard means, how testing works and why it matters for front door home security.",
   date: "2026-03-25",
   readTime: "5 min read",
   category: "Security",

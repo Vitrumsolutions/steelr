@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-doors-country-homes-guide",
-  title: "Steel Entrance Doors for Country Homes: A Complete Guide",
+  title: "Steel Front Doors for UK Country Homes: Full Guide",
   description:
-    "Why homeowners in affluent rural and semi-rural areas across the UK are choosing bespoke steel entrance doors — covering security, weather resistance, kerb appeal and design options for country properties.",
+    "Why UK country homes choose bespoke steel front doors. SR3 security, weather resistance, kerb appeal and design options for rural and semi-rural properties.",
   date: "2026-03-30",
   readTime: "4 min read",
   category: "Guides",

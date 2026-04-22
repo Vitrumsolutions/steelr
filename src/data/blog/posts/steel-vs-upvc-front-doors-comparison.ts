@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-vs-upvc-front-doors-comparison",
-  title: "Steel vs uPVC Front Doors: Why Homeowners Are Upgrading",
+  title: "Steel vs uPVC Front Doors UK: Why Homeowners Upgrade",
   description:
-    "A detailed comparison of steel and uPVC front doors covering security, design, durability, thermal performance and value — helping UK homeowners decide when to upgrade.",
+    "Steel vs uPVC front doors UK compared. Security, design, durability, thermal performance and value, plus why UK homeowners are upgrading to steel doors.",
   date: "2026-05-22",
   readTime: "7 min read",
   category: "Buying Guide",

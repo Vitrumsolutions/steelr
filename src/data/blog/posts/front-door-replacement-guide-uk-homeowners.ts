@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "front-door-replacement-guide-uk-homeowners",
-  title: "Front Door Replacement Guide: Everything UK Homeowners Need to Know",
+  title: "Front Door Replacement UK: Complete Homeowner Guide",
   description:
-    "Complete front door replacement guide for UK homeowners — covering Building Regulations, planning permission, materials, installation process and aftercare.",
+    "Front door replacement UK guide for homeowners. Building Regulations, planning permission, materials, installation process, aftercare and warranty advice.",
   date: "2026-06-09",
   readTime: "9 min read",
   category: "Guides",

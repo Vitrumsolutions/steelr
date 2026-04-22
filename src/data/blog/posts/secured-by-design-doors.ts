@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "secured-by-design-doors",
-  title: "Secured by Design Doors: What It Means and Why It Matters",
+  title: "Secured by Design Front Doors UK: What It Means for Homes",
   description:
-    "A complete guide to Secured by Design doors and Secured by Design front doors — what the accreditation means, how products are tested and why it matters for your home security.",
+    "Secured by Design front doors UK guide. What the police-preferred accreditation means, how products are tested and why it matters for home security.",
   date: "2026-03-15",
   readTime: "7 min read",
   category: "Security",

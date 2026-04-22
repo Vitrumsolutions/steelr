@@ -2,10 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "sr4-lps-1175-commercial-grade-residential",
-  title:
-    "SR4 (LPS 1175) Explained: Commercial-Grade Security on a Residential Front Door",
+  title: "SR4 LPS 1175 Front Door UK: Commercial-Grade Security",
   description:
-    "SR4 is the security certification used on data centres, bank vaults and high-risk commercial premises. SteelR offers it as an upgrade on every residential front door. This guide explains what SR4 means, how it differs from SR3, and when a UK homeowner should consider it.",
+    "SR4 LPS 1175 explained for UK homes. Commercial-grade front door security used on data centres and vaults, how it beats SR3, and when to upgrade.",
   date: "2026-04-19",
   readTime: "9 min read",
   category: "Security",

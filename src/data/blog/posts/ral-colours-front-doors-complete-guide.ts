@@ -4,7 +4,7 @@ const post: BlogPost = {
   slug: "ral-colours-front-doors-complete-guide",
   title: "RAL Colours for Front Doors: The Complete UK Guide",
   description:
-    "Everything you need to know about RAL colours for front doors — the RAL system explained, popular UK choices, dual-colour options, heritage palettes and trending shades for 2026.",
+    "RAL colours for front doors UK. The RAL system explained, popular UK choices, dual-colour options, heritage palettes and trending shades for 2026 homes.",
   date: "2026-04-24",
   readTime: "8 min read",
   category: "Design",

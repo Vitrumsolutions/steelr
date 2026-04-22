@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "composite-vs-steel-doors-2026-updated-comparison",
-  title: "Composite vs Steel Doors in 2026: Has Anything Changed?",
+  title: "Composite vs Steel Front Doors 2026: UK Comparison",
   description:
-    "An updated 2026 comparison of composite vs steel entrance doors covering security, thermal performance, design, sustainability and price for UK homeowners.",
+    "Composite vs steel front doors 2026 compared for UK homes. Security, thermal performance, design, sustainability and cost over the full product lifespan.",
   date: "2026-06-23",
   readTime: "8 min read",
   category: "Buying Guide",

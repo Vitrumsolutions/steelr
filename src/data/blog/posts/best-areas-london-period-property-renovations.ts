@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "best-areas-london-period-property-renovations",
-  title: "Best Areas in London for Period Property Renovations",
+  title: "Best London Areas for Period Property Front Doors UK",
   description:
-    "A guide to the best London boroughs and neighbourhoods for period property renovations — from Georgian townhouses to Victorian terraces — and why steel entrance doors are the ideal upgrade.",
+    "Guide to top London boroughs for period property renovations. Georgian, Victorian and Edwardian homes and why steel front doors are the ideal upgrade.",
   date: "2026-03-30",
   readTime: "4 min read",
   category: "Location Guides",

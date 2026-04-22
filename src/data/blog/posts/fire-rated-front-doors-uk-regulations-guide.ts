@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "fire-rated-front-doors-uk-regulations-guide",
-  title: "Fire Rated Front Doors: UK Building Regulations and What You Need to Know",
+  title: "Fire Rated Front Doors UK: FD30 and FD60 Complete Guide",
   description:
-    "FD30 vs FD60 fire rated front doors explained. UK building regulations, Approved Document B, Building Safety Act 2022 and when fire doors are legally required.",
+    "Fire rated front doors UK explained. FD30 vs FD60, Approved Document B, Building Safety Act 2022 and when fire doors are legally required in homes.",
   date: "2026-04-29",
   readTime: "8 min read",
   category: "Technical",

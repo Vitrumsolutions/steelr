@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-entrance-doors-pricing-factors",
-  title: "How Much Do Steel Entrance Doors Cost in the UK?",
+  title: "Steel Entrance Door Pricing Factors UK: 2026 Guide",
   description:
-    "Understand the factors that influence steel entrance door pricing in the UK — from size and glazing to hardware, finish and security rating — and how to budget for a bespoke steel front door.",
+    "Steel entrance door pricing factors UK. Size, glazing, hardware, finish and SR3 security rating explained, plus how to budget for a bespoke steel front door.",
   date: "2026-03-31",
   readTime: "5 min read",
   category: "Buying Guide",

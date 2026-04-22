@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "conservation-area-door-requirements-uk",
-  title: "Understanding Conservation Area Door Requirements in the UK",
+  title: "Conservation Area Front Door Rules UK: Complete 2026 Guide",
   description:
-    "A practical guide to replacing your front door in a conservation area — covering planning rules, permitted development, design requirements and how bespoke steel doors can meet conservation officer expectations.",
+    "UK conservation area front door rules explained. Planning permission, permitted development, design requirements and how bespoke steel doors can comply.",
   date: "2026-03-30",
   readTime: "4 min read",
   category: "Guides",

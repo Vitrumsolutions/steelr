@@ -2,7 +2,7 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "front-doors-london-townhouses-guide",
-  title: "Front Doors for London Townhouses: Style, Security and Specification",
+  title: "Front Doors for London Townhouses: UK Style and Spec Guide",
   description:
     "A guide to front doors for London townhouses covering Georgian, Victorian and Edwardian styles, conservation area rules, security and installation challenges.",
   date: "2026-05-20",

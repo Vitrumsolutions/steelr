@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "secured-by-design-homes-guide-2026",
-  title: "Secured by Design Homes: The 2026 Guide for Developers and Homeowners",
+  title: "Secured by Design Homes UK: 2026 Developer and Buyer Guide",
   description:
-    "A comprehensive 2026 guide to Secured by Design for developers and homeowners — covering updated SBD standards, planning benefits, crime reduction data and compliance.",
+    "Secured by Design homes UK in 2026. Developer guide to SBD standards, planning benefits, crime reduction data, compliance and front door specification.",
   date: "2026-07-02",
   readTime: "9 min read",
   category: "Security",

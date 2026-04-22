@@ -4,7 +4,7 @@ const post: BlogPost = {
   slug: "are-steel-doors-worth-it-uk",
   title: "Are Steel Entrance Doors Worth It? Honest UK Assessment",
   description:
-    "An honest assessment of whether steel entrance doors are worth the investment for UK homeowners — covering durability, security, maintenance, thermal performance, insurance benefits, resale value, and common concerns.",
+    "Are steel entrance doors worth it for UK homes? Honest assessment of durability, SR3 security, thermal performance, insurance savings and resale value.",
   date: "2026-04-13",
   readTime: "10 min read",
   category: "Buying Guide",

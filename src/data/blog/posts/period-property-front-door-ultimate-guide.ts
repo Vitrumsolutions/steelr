@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "period-property-front-door-ultimate-guide",
-  title: "The Ultimate Guide to Front Doors for Period Properties",
+  title: "Front Doors for Period Properties UK: Ultimate Guide",
   description:
-    "A comprehensive guide to choosing front doors for period properties — Georgian, Victorian, Edwardian and Arts & Crafts homes — with era-specific design advice.",
+    "Front doors for period properties UK. Georgian, Victorian, Edwardian and Arts and Crafts homes covered with era-specific design and conservation advice.",
   date: "2026-06-25",
   readTime: "9 min read",
   category: "Design",
