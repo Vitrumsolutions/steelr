@@ -28,12 +28,12 @@ export const sussexLocations: Location[] = [
     parentSlug: "sussex",
     tier: 3,
     description:
-      "Brighton's architectural character is defined by its sweeping Regency crescents, ornate bow-fronted terraces, and the vibrant creative energy that makes it unlike any other coastal city. From the stucco grandeur of Brunswick Square to the converted warehouses of the North Laine, homeowners here seek entrance doors that balance period elegance with bold individuality. SteelR designs for Brighton embrace this duality, offering everything from classically panelled doors to striking contemporary statements in steel.",
+      "Brighton in BN1, BN2 and BN3 (covering Brighton and Hove) is defined by sweeping Regency crescents, ornate bow-fronted terraces and the vibrant creative energy of a coastal city. The Kemp Town (BN2) conservation area features Grade I listed Regency terraces including Lewes Crescent, Sussex Square and Chichester Terrace designed by Charles Busby (1823). The Brunswick (BN3) conservation area adds Grade I listed Brunswick Square and Brunswick Terrace, while the Regency Square and the Royal Pavilion quarter (BN1) add further Grade I listed stucco terraces. Premium residential streets include Kemp Town's Marine Parade, Chichester Terrace and Eastern Terrace, Hove's The Drive, Grand Avenue and Palmeira Square, and Preston Park and Seven Dials (BN1) Victorian villas. The North Laine conservation area preserves Victorian artisan cottages, while the Hove seafront (BN3) and Brighton Marina (BN2) add contemporary new-build apartments. SteelR bespoke steel entrance doors balance Regency elegance with Brighton's bold character, with marine-grade powder coat for seafront properties, bespoke RAL colour matching to the painted stucco palette and listed building consent handled in-house. BN1 through BN3 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Regency terraces and crescents in Kemp Town and Brunswick",
-      "Victorian villas in Preston Park and Seven Dials",
-      "Converted Edwardian townhouses in Hove's Pembroke and Vallance wards",
-      "Contemporary new-builds along the seafront and marina",
+      "Grade I listed Regency terraces on Lewes Crescent, Sussex Square and Chichester Terrace in Kemp Town BN2",
+      "Grade I listed Brunswick Square and Brunswick Terrace stucco crescents in Hove BN3",
+      "Victorian villas in Preston Park and Seven Dials within BN1 with Royal Pavilion quarter conservation",
+      "North Laine Victorian artisan cottages and contemporary seafront apartments on Brighton Marina",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-ring-knocker-open.jpg",
     galleryImages: [
@@ -52,12 +52,12 @@ export const sussexLocations: Location[] = [
     parentSlug: "sussex",
     tier: 3,
     description:
-      "Chichester's Roman street plan and medieval cathedral create a city of rare architectural harmony, where Georgian facades line the four principal streets and handsome flint houses extend into the surrounding harbour villages. Properties in The Pallants, Stockbridge, and Bosham combine historic character with premium values that justify the finest entrance solutions. SteelR delivers doors for Chichester homes that honour the city's conservation heritage while providing the security and insulation modern living requires.",
+      "Chichester in PO19 and PO20 is a Roman-founded cathedral city (ancient Noviomagus Reginorum) whose medieval street plan creates a city of rare architectural harmony around the Grade I listed Chichester Cathedral (Norman, 12th-century). The central conservation area covers the four principal Roman cardinal streets (North Street, South Street, East Street, West Street) and The Pallants (a Georgian quadrant with Grade I listed Pallant House), preserving the highest concentration of Grade I, II* and II listed Georgian townhouses in Sussex. Premium residential streets include Broyle Road, Lavant Road, Spitalfield Lane and Orchard Street carrying substantial Edwardian villas, while the harbour villages of Bosham (PO18, Grade I listed Holy Trinity Church, Harold Godwinson's embarkation point for the 1066 invasion), Fishbourne, Dell Quay, Itchenor and West Wittering add flint-faced cottages and Chichester Harbour-frontage country houses. The contemporary developments near the canal basin and Stockbridge supply modern stock. SteelR bespoke steel entrance doors honour Chichester's heritage with listed building consent handled in-house. PO19 and PO20 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian townhouses within the city walls and The Pallants",
-      "Flint-faced cottages in Bosham, Fishbourne, and Dell Quay",
-      "Substantial Edwardian villas along Broyle Road and Lavant Road",
-      "Contemporary developments near the canal basin and Stockbridge",
+      "Grade I listed Chichester Cathedral and Pallant House within the PO19 conservation area",
+      "Georgian townhouses on North Street, South Street, East Street, West Street and The Pallants",
+      "Substantial Edwardian villas along Broyle Road, Lavant Road and Spitalfield Lane",
+      "Flint-faced cottages and harbour-frontage properties in Bosham, Fishbourne, Itchenor and West Wittering within PO20",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-medallion-sidelights.jpg",
     galleryImages: [
@@ -76,12 +76,12 @@ export const sussexLocations: Location[] = [
     parentSlug: "sussex",
     tier: 3,
     description:
-      "Horsham sits at the heart of the Sussex Weald, a prosperous market town surrounded by some of the county's most desirable villages including Rusper, Southwater, and Mannings Heath. The Causeway's timber-framed medieval buildings contrast with the large detached properties set along leafy private roads to the south of the town centre. SteelR works with Horsham homeowners who want entrance doors that make an immediate impression, crafted in steel for strength and finished to complement the area's varied housing stock.",
+      "Horsham in RH12 and RH13 sits at the heart of the Sussex Weald, a prosperous market town on the SWR main line with a fifty-minute service to London Victoria. The town centre conservation area covers The Causeway (with Grade I listed St Mary's Church and Grade II* listed Causeway House), the Carfax, West Street and the Bishopric with timber-framed medieval buildings, Grade II listed Georgian townhouses and the Tudor-era Park House. Premium residential streets include Denne Road, Redford Avenue, Highlands Road and Compton's Lane carrying substantial Edwardian and inter-war detached homes, often on private roads to the south of the town centre. The surrounding Weald villages of Rusper, Southwater, Mannings Heath, Slinfold, Warnham and Itchingfield add country houses, barn conversions, oast houses and rural-estate stock within the High Weald and Sussex Weald AONB. The Broadbridge Heath and Southwater developments supply contemporary executive new-builds. The Christ's Hospital school (independent, founded 1552) draws a family buyer demographic. SteelR bespoke steel entrance doors serve Horsham homeowners with SR3 rating as standard and SR4 (LPS 1175) upgrade for rural estate properties. RH12 and RH13 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Period properties along The Causeway and Denne Road",
-      "Large detached houses on private roads south of the town",
-      "Country homes and barn conversions in surrounding Weald villages",
-      "Modern executive estates in Broadbridge Heath and Southwater",
+      "Grade I listed St Mary's Church and Grade II* listed Causeway House within the Horsham RH12 conservation area",
+      "Substantial Edwardian detached homes on Denne Road, Redford Avenue, Highlands Road and Compton's Lane",
+      "Country estates and barn conversions in Rusper, Mannings Heath and Slinfold within the Sussex Weald AONB",
+      "Contemporary executive new-builds in the Broadbridge Heath and Southwater developments",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg",
     galleryImages: [
@@ -100,12 +100,12 @@ export const sussexLocations: Location[] = [
     parentSlug: "sussex",
     tier: 3,
     description:
-      "Lewes commands a dramatic hilltop position above the River Ouse, its steep cobbled streets lined with a remarkable concentration of medieval, Tudor, and Georgian buildings. As the county town of East Sussex, Lewes sets an exacting architectural standard from the Norman castle down through the twittens to the fine houses of the High Street and School Hill. SteelR creates entrance doors for Lewes that satisfy conservation officers and homeowners alike, blending traditional aesthetics with the enduring strength of steel.",
+      "Lewes in BN7 and BN8 is the county town of East Sussex, commanding a dramatic hilltop position above the River Ouse within the South Downs National Park. The town centre conservation area is one of the largest in Sussex, covering the High Street, School Hill, Castle Precincts, Cliffe High Street, St Anne's Hill and the narrow cobbled twittens, with the Grade I listed Lewes Castle (Norman, 1066), the Grade I listed Anne of Cleves House (Tudor, 15th century) and the Grade I listed Southover Grange anchoring the architectural heritage. Premium residential streets include School Hill, High Street, Castle Banks, St Anne's Crescent and Mount Pleasant carrying Grade II listed Georgian townhouses, medieval timber-framed properties and Tudor frontages. The Southover (BN7) area adds flint cottages and Grade I listed Southover Grange, while the Wallands and Nevill (BN7) areas supply Arts and Crafts and Edwardian villas. The surrounding South Downs villages of Glynde, Kingston, Rodmell and Firle (BN8) add flint-faced downland cottages, country estates and the Grade I listed Glyndebourne opera house. SteelR bespoke steel entrance doors satisfy conservation officers and homeowners alike, with listed building consent handled in-house. BN7 and BN8 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Medieval and Tudor townhouses along the High Street",
-      "Georgian residences on School Hill and Cliffe High Street",
-      "Flint cottages in Southover and the surrounding downland villages",
-      "Arts and Crafts properties in the Wallands and Nevill areas",
+      "Grade I listed Lewes Castle, Anne of Cleves House and Southover Grange within the BN7 conservation area",
+      "Grade II listed Georgian townhouses on the High Street, School Hill and Castle Banks",
+      "Flint cottages in Southover and Arts and Crafts villas in the Wallands and Nevill areas",
+      "South Downs downland villages including Glynde, Kingston, Rodmell and Glyndebourne within BN8",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
     galleryImages: [
@@ -124,12 +124,12 @@ export const sussexLocations: Location[] = [
     parentSlug: "sussex",
     tier: 3,
     description:
-      "Arundel is dominated by its magnificent castle and cathedral, lending the town an atmosphere of grandeur that extends to its steep High Street and the elegant townhouses climbing towards the castle walls. The surrounding Arun Valley, with its water meadows and prosperous villages like Amberley and Burpham, provides a quintessentially English backdrop for premium properties. SteelR designs entrance doors for Arundel homes that echo the town's stately heritage, with ornate detailing and rich finishes worthy of this extraordinary setting.",
+      "Arundel in BN18 is dominated by the Grade I listed Arundel Castle (the ancient seat of the Dukes of Norfolk, 11th-century Norman foundation) and the Grade I listed Arundel Cathedral (French Gothic Revival, 1873). The town centre conservation area covers the High Street, Tarrant Street, Maltravers Street and London Road with Grade II listed Georgian and Victorian townhouses climbing towards the castle walls. Premium residential streets include Maltravers Street, Mill Lane, Queen Street and the Park Place area carrying substantial period townhouses. The Arun Valley and South Downs National Park surround provides the setting for country estates in the villages of Amberley (Grade II listed Amberley Castle), Burpham, South Stoke, Houghton and Bury, with flint and brick cottages, converted farmsteads and country houses on estate-grade plots. The Storrington and Pulborough areas add further rural-estate stock, while the Littlehampton and Bognor Regis coastal fringes add harbour-frontage properties. SteelR bespoke steel entrance doors echo Arundel's stately heritage with ornate detailing, rich RAL finishes, listed building consent handled in-house and SR4 (LPS 1175) upgrade available for rural castle-view estates. BN18 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian and Victorian townhouses along the High Street",
-      "Substantial country houses in the Arun Valley and South Downs",
-      "Flint and brick cottages in Amberley, Burpham, and Storrington",
-      "Period conversions and estate properties near the castle grounds",
+      "Grade I listed Arundel Castle and Grade I listed Arundel Cathedral within the BN18 conservation area",
+      "Grade II listed Georgian and Victorian townhouses on Maltravers Street, Tarrant Street and the High Street",
+      "Grade II listed Amberley Castle and flint country houses in Burpham, Houghton and South Stoke villages",
+      "South Downs National Park rural estates in Storrington, Pulborough and the Arun Valley water meadows",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
     galleryImages: [
