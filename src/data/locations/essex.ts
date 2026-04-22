@@ -28,12 +28,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Brentwood has cemented its reputation as one of Essex's premier residential addresses, where mature avenues like Queens Road and Priests Lane are lined with imposing detached homes behind electric gates. The town attracts homeowners with exacting standards who view their entrance door as an extension of their personal brand. SteelR doors are a natural fit here, offering the bold presence and flawless finish that Brentwood properties demand, from contemporary flush designs in anthracite to ornate panelled styles with polished brass hardware.",
+      "Brentwood in CM13, CM14 and CM15 has cemented its reputation as one of Essex's premier residential addresses, defined by mature avenues of electric-gated mansion-scale detached homes. Premium residential streets include Queens Road, Priests Lane, Middleton Hall Lane and Coptfold Road in CM15, with substantial Edwardian and inter-war detached homes on plots of a quarter to a full acre. The Hutton (CM13) and Shenfield (CM15) areas add gated executive new-build stock on private roads such as Hall Lane and Middleton Hall Lane, while Warley (CM13) contributes further family detached stock. The Brentwood Town Centre conservation area preserves Grade II listed Georgian and Victorian properties along the High Street and Crown Street. The Brentwood School (independent, founded 1558) draws a family buyer demographic, while the Ingrave, Herongate and Doddinghurst villages (CM13) add rural country houses on estate-grade plots. SteelR bespoke steel entrance doors offer the bold presence and flawless finish these properties demand, with SR3 rating as standard and SR4 (LPS 1175) upgrade specified on roughly one in three Brentwood gated-estate projects. CM13 through CM15 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Executive detached homes along Queens Road and Priests Lane",
-      "Gated new-build developments in Hutton and Shenfield",
-      "Period properties around Brentwood High Street",
-      "Contemporary architect-designed homes on private roads",
+      "Executive detached homes on Queens Road, Priests Lane and Middleton Hall Lane within CM15",
+      "Gated new-build developments in Hutton CM13 and Shenfield CM15 on Hall Lane private roads",
+      "Grade II listed Georgian and Victorian properties on the Brentwood High Street and Crown Street conservation area",
+      "Rural country houses in Ingrave, Herongate and Doddinghurst villages within CM13",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-ribbed-topiary.jpg",
     galleryImages: [
@@ -52,12 +52,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Chelmsford, Essex's only city, balances a thriving commercial centre with affluent residential pockets in Broomfield, Writtle, and Great Baddow. The city's housing stock includes handsome Victorian terraces near the Cathedral, substantial Edwardian villas along New London Road, and premium new-build developments at Beaulieu Park. SteelR's bespoke steel entrance doors elevate Chelmsford homes across every era, providing a refined focal point that sets the tone from the moment a visitor approaches the threshold.",
+      "Chelmsford in CM1, CM2, CM3 and CM5 is Essex's only city, balancing a thriving commercial centre with affluent residential neighbourhoods. The Chelmsford Cathedral quarter (Grade I listed Chelmsford Cathedral, formerly St Mary's Parish Church) anchors the town centre conservation area along Duke Street, New London Road and Broomfield Road. Premium residential streets include New London Road, Lady Lane, Wood Street and Roxwell Road carrying substantial Edwardian and inter-war villas, while the Moulsham (CM2) area adds Victorian townhouses and the Old Moulsham conservation area with listed properties. The surrounding villages of Writtle, Broomfield, Great Baddow, Little Baddow and Danbury within CM1, CM3 and CM5 add rural-estate stock, converted farmsteads and country-pub village centres. The Beaulieu Park and Chancellor Park new-build developments (CM1, CM2) supply contemporary executive homes. SteelR bespoke steel entrance doors elevate Chelmsford homes across every era, with listed building consent handled in-house for the Cathedral quarter. CM1 through CM5 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Victorian terraces and townhouses near the Cathedral quarter",
-      "Edwardian and interwar villas along New London Road",
-      "Premium new builds at Beaulieu Park and Chancellor Park",
-      "Village properties in Writtle, Broomfield, and Great Baddow",
+      "Grade I listed Chelmsford Cathedral and Victorian townhouses in the CM1 Cathedral quarter conservation area",
+      "Substantial Edwardian and inter-war villas on New London Road, Lady Lane and Roxwell Road",
+      "Premium new-build stock at Beaulieu Park and Chancellor Park within CM1 and CM2",
+      "Rural-estate properties and village-centre homes in Writtle, Broomfield, Little Baddow and Danbury",
     ],
     heroImage: "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg",
     galleryImages: [
@@ -76,12 +76,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Saffron Walden is a medieval market town of extraordinary architectural richness, where ornate pargeted facades and ancient timber frames line narrow streets beneath the spire of St Mary the Virgin. The surrounding countryside towards Audley End and Newport contains some of Essex's most valuable rural estates. SteelR's bespoke entrance doors are crafted with the sensitivity these heritage properties require, combining traditional proportions and artisan ironmongery with the unrivalled strength and weatherproofing of galvanised steel construction.",
+      "Saffron Walden in CB11 is a medieval market town of extraordinary architectural richness, defined by ornate pargeted facades and ancient timber frames in narrow streets beneath the Grade I listed St Mary the Virgin Parish Church (the largest parish church in Essex, 14th century). The Saffron Walden conservation area covers Bridge Street, Market Place, Market Row, Church Street and Castle Street with the highest concentration of listed medieval and Tudor timber-framed properties in Essex. The Common and Audley End surrounds add Grade I listed Audley End House (Jacobean Prodigy House by Bernard Janssen, now English Heritage) and the 100-acre Audley End parkland. Premium residential streets include Abbey Lane, Bridge Street, Church Street and High Street with Georgian and Regency townhouses, while the surrounding villages of Newport, Littlebury, Wendens Ambo, Radwinter and the North Essex Uttlesford countryside add rural country houses and converted farmsteads on estate-grade plots. SteelR bespoke steel entrance doors are crafted with the sensitivity these heritage properties require, with listed building consent liaison handled in-house. CB11 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Medieval and Tudor timber-framed townhouses in the town centre",
-      "Georgian and Regency properties along the High Street",
-      "Country houses and estates near Audley End",
-      "Converted barns and farmhouses in surrounding villages",
+      "Grade I listed St Mary the Virgin Parish Church and medieval pargeted timber-framed townhouses within the CB11 conservation area",
+      "Grade I listed Audley End House (Jacobean Prodigy House) and parkland estate properties",
+      "Georgian and Regency townhouses on Abbey Lane, Bridge Street, Church Street and High Street",
+      "Rural country houses and converted farmsteads in Newport, Littlebury, Wendens Ambo and Radwinter villages",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
     galleryImages: [
@@ -100,12 +100,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Loughton's position on the edge of Epping Forest gives it a leafy, almost rural character that belies its proximity to central London via the Central Line. The roads climbing Staples Hill and extending towards Debden are home to substantial detached properties, many rebuilt or extensively renovated to modern luxury standards. SteelR doors complement these high-specification homes perfectly, with contemporary designs featuring concealed hinges and flush thresholds that match the clean architectural language favoured by Loughton's discerning residents.",
+      "Loughton in IG10 sits on the edge of Epping Forest (6,000 acres of ancient woodland, Grade I listed landscape), giving it a leafy, almost rural character that belies its proximity to central London via the Central Line (Loughton, Debden and Theydon Bois stations). Premium residential streets include Staples Road, Algers Road, Traps Hill and the Warren Hill corridor carrying substantial detached properties, many rebuilt or extensively renovated to modern luxury standards on plots of a quarter to half an acre. The Loughton Conservation Area covers the High Road and centres with Grade II listed Georgian and Victorian frontages. The Debden area adds 1930s detached family stock, while the Loughton Downs and forest-edge properties along The Drive, Forest Way and Alderton Crescent command premium prices with forest-fringe settings. Contemporary new-builds on former garden plots and the Loughton Hall fringe add further family executive stock. SteelR bespoke steel entrance doors complement these high-specification homes with contemporary flush designs featuring concealed hinges and flush thresholds, SR3 rating as standard and FD30S fire rating. IG10 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Large detached homes on Staples Hill and surrounding roads",
-      "Renovated 1930s properties upgraded to modern luxury standards",
-      "Victorian and Edwardian villas near Loughton High Road",
-      "Contemporary new builds on former garden plots",
+      "Large detached homes on Staples Road, Algers Road, Traps Hill and Warren Hill within IG10",
+      "Grade II listed Georgian and Victorian properties in the Loughton High Road conservation area",
+      "Forest-fringe properties along The Drive, Forest Way and Alderton Crescent bordering Epping Forest",
+      "Renovated 1930s detached family stock in Debden and contemporary new-builds on former garden plots",
     ],
     heroImage: "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
     galleryImages: [
@@ -124,12 +124,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Chigwell is synonymous with aspirational living in Essex, its tree-canopied lanes sheltering gated mansions, manicured grounds, and some of the county's highest property values. High Road and Manor Road showcase an array of architectural styles from mock-Tudor to ultra-modern glass and render. SteelR is the entrance door of choice for Chigwell homeowners who expect bespoke craftsmanship at every turn, offering doors that match the grandeur of these properties with precision engineering and luxurious finishing throughout.",
+      "Chigwell in IG7 is synonymous with aspirational living in Essex, with tree-canopied lanes sheltering gated mansions, manicured grounds and some of the county's highest property values. Premium residential streets include High Road, Manor Road, Turpins Lane and Stradbroke Drive carrying mansion-scale detached homes on plots of a quarter to two acres, in architectural styles from mock-Tudor and neo-Georgian through Arts and Crafts to ultra-modern glass-and-render architect builds. The Central Line station provides a direct Waterloo connection making it a popular premier-league footballer and celebrity residential choice. The Chigwell Row and Chigwell Wood conservation areas add period farmhouses, Grade II listed timber-framed cottages and the Grade I listed Church of St Mary the Virgin. The Hainault Forest borders to the north add further rural-estate stock. SteelR bespoke steel entrance doors are the specification of choice for Chigwell homeowners expecting bespoke craftsmanship, with SR4 (LPS 1175) commercial-grade upgrade specified on roughly half of Chigwell gated-estate projects, oversized leaf widths for grand entrance porticos, and dual-colour RAL specification. IG7 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Gated mansions and luxury homes along High Road and Manor Road",
-      "Mock-Tudor and neo-Georgian executive homes",
-      "Contemporary architect-designed properties on private estates",
-      "Period farmhouses and listed buildings towards Chigwell Row",
+      "Gated mansions on High Road, Manor Road, Turpins Lane and Stradbroke Drive within IG7",
+      "Mock-Tudor, neo-Georgian and architect-designed contemporary executive homes on plots of one to two acres",
+      "Grade I listed Church of St Mary the Virgin and Grade II listed properties in Chigwell Row conservation area",
+      "Period farmhouses and rural estate stock towards Hainault Forest and the Chigwell Wood borders",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
     galleryImages: [
@@ -148,12 +148,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Epping sits at the northern tip of its famous forest, a market town where characterful High Street shops give way to winding lanes and substantial homes set among ancient woodland. Properties along Ivy Chimneys and Theydon Road command premium prices thanks to their combination of rural tranquillity and Central Line access. SteelR creates bespoke entrance doors for Epping homes that balance the town's rustic character with the security and insulation homeowners expect, using finishes that weather beautifully alongside forest surroundings.",
+      "Epping in CM16 sits at the northern tip of Epping Forest (Grade I listed landscape, 6,000 acres of ancient woodland), a market town where characterful Grade II listed High Street shops give way to winding lanes and substantial homes set among ancient woodland. The Epping Town conservation area covers the High Street, Hemnall Street and Station Road with Georgian and Victorian shopfronts. Premium residential streets include Ivy Chimneys, Theydon Road, Hemnall Street and Bell Common carrying substantial Edwardian and inter-war detached homes, often on forest-edge plots. The Theydon Bois (with its Grade II listed Village Green Rectory), North Weald Bassett, Roydon and Thornwood villages within CM16 add rural country houses, converted coach houses and smallholdings on forest-margin plots. The Central Line Epping terminus provides direct Waterloo access. SteelR bespoke steel entrance doors balance the town's rustic character with SR3 rating as standard, FD30S fire rating, and marine-grade powder coat weathering beautifully alongside forest surroundings. CM16 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Substantial family homes along Ivy Chimneys and Theydon Road",
-      "Victorian and Edwardian villas near the High Street",
-      "Country properties and smallholdings on forest margins",
-      "Converted period buildings and coach houses",
+      "Substantial Edwardian and inter-war detached homes on Ivy Chimneys, Theydon Road and Bell Common within CM16",
+      "Grade II listed Georgian and Victorian shopfronts in the Epping High Street conservation area",
+      "Forest-edge properties and smallholdings bordering the Grade I listed Epping Forest landscape",
+      "Rural country houses and converted coach houses in Theydon Bois, North Weald Bassett and Roydon",
     ],
     heroImage: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
     galleryImages: [
@@ -172,12 +172,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Billericay has evolved from a quiet Essex market town into a sought-after commuter haven where winding roads like Tye Common Road and Norsey Road are flanked by substantial detached homes with double garages and landscaped gardens. The town's property market skews towards family buyers investing in quality, and a SteelR entrance door is increasingly seen as a defining upgrade. Our bespoke steel doors deliver the solidity and refinement that elevate these well-maintained Essex homes from comfortable to truly distinguished.",
+      "Billericay in CM11 and CM12 has evolved from a quiet Essex market town into a sought-after commuter haven on the Greater Anglia Liverpool Street line. Premium residential streets include Tye Common Road, Norsey Road, Perry Street, Laindon Road and Mountnessing Road carrying substantial detached family homes with double garages and landscaped gardens on plots of an eighth to a quarter acre. The Billericay Town conservation area covers the High Street and Sun Street with Grade II listed Tudor and Georgian properties including the Grade II* listed Chantry House. The surrounding villages of Stock, Little Burstead, Great Burstead and Mountnessing add rural country houses and converted farmsteads within the Essex countryside, while Ramsden Bellhouse and Downham provide further family detached stock. Contemporary executive developments on the Stock Road, Laindon Road and Outwood Common Road fringes supply premium new-build stock. SteelR bespoke steel entrance doors deliver the solidity and refinement elevating these well-maintained Essex homes, with SR3 rating as standard, FD30S fire rating and bespoke RAL colour specification. CM11 and CM12 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Detached family homes along Tye Common Road and Norsey Road",
-      "Period cottages and listed buildings around the High Street",
-      "Modern executive developments towards Stock and Little Burstead",
-      "Substantial 1970s and 1980s homes extensively modernised",
+      "Detached family homes on Tye Common Road, Norsey Road and Perry Street within CM12",
+      "Grade II listed Tudor and Georgian properties and Grade II* listed Chantry House in the High Street conservation area",
+      "Modern executive developments on the Stock Road, Laindon Road and Outwood Common Road fringes",
+      "Rural country houses and converted farmsteads in Stock, Little Burstead and Mountnessing",
     ],
     heroImage: "/images/gallery/steelr-black-panelled-double-letterbox.jpg",
     galleryImages: [
@@ -196,12 +196,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Ingatestone is a picturesque Essex village centred on its Tudor hall and medieval High Street, where half-timbered cottages sit alongside handsome Georgian and Victorian residences. The surrounding farmland towards Fryerning and Margaretting is peppered with converted barns and substantial country houses that demand entrance doors of equivalent quality. SteelR serves Ingatestone homeowners who want a door that resonates with the village's heritage character while providing the strength, insulation, and longevity that only bespoke steel can deliver.",
+      "Ingatestone in CM4 is a picturesque Essex village centred on the Grade I listed Ingatestone Hall (Tudor manor built 1540 for Sir William Petre, still family-occupied) and the medieval High Street conservation area. The village centre preserves Grade II listed Tudor and Georgian half-timbered cottages, the Grade II* listed Church of St Edmund and St Mary, and the Grade II listed Bell Inn coaching inn. Premium residential streets include Stock Lane, Roman Road, High Street and Fryerning Lane carrying substantial Edwardian and inter-war detached homes on generous plots. The surrounding countryside towards Fryerning (Grade II listed Fryerning Hall), Margaretting, Blackmore and Buttsbury adds converted barns, oast houses, country houses with long driveways and equestrian properties on plots of an acre or more. The Ingatestone mainline station provides a Liverpool Street connection in thirty-five minutes. SteelR bespoke steel entrance doors resonate with the village's heritage character with traditional six-panel designs, artisan ironmongery in antique brass, listed building consent liaison handled in-house and SR4 (LPS 1175) upgrade available for rural estate properties. CM4 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Tudor and Georgian properties along the High Street",
-      "Converted barns and farmhouses in Fryerning and Margaretting",
-      "Substantial detached homes on Stock Lane and Roman Road",
-      "Country houses with long driveways on the village periphery",
+      "Grade I listed Ingatestone Hall (Tudor 1540, Petre family) and Grade II* listed Church of St Edmund and St Mary within CM4",
+      "Grade II listed Tudor and Georgian half-timbered cottages on the High Street conservation area",
+      "Substantial Edwardian detached homes on Stock Lane, Roman Road and Fryerning Lane",
+      "Converted barns, oast houses and country estates in Fryerning, Margaretting and Blackmore",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-medallion-driveway.jpeg",
     galleryImages: [
@@ -220,12 +220,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Woodford Green and South Woodford form one of the most desirable residential enclaves on the Essex-London border, where the Central Line meets leafy avenues of Edwardian and Victorian homes. Monkhams Drive and the roads surrounding Woodford Green itself contain gracious properties with wide frontages and established gardens. SteelR's bespoke steel entrance doors bring a new dimension to these elegant homes, whether in a classic panelled design that honours the period aesthetic or a contemporary style that complements a modern refurbishment.",
+      "Woodford in IG8 comprises Woodford Green, South Woodford (E18) and Woodford Wells, forming one of the most desirable residential enclaves on the Essex-London border, where the Central Line meets leafy avenues of Edwardian and Victorian homes. Premium residential streets include Monkhams Drive, Monkhams Avenue, Monkhams Lane and the Victorian villas surrounding Woodford Green itself, with gracious homes on wide frontages and established gardens. The Woodford Green conservation area (around the Grade II listed Parish Church of St Mary the Virgin, where Winston Churchill served as MP) adds Georgian and Victorian heritage stock. South Woodford within E18 carries 1930s Arts-and-Crafts-influenced detached family homes along Broomhill Walk, Cleveland Road and Churchfields, while Woodford Wells adds further family detached stock on Bunces Lane and Roding Lane North. Converted Victorian townhouses with original architectural details supply premium infill stock. SteelR bespoke steel entrance doors bring a new dimension to these elegant homes with classic panelled designs for period properties and contemporary flush styles for refurbishments. IG8 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian and Victorian villas around Woodford Green",
-      "Substantial inter-war homes along Monkhams Drive",
-      "1930s arts-and-crafts-influenced properties in South Woodford",
-      "Converted Victorian townhouses with original architectural details",
+      "Edwardian and Victorian villas around Woodford Green and the Grade II listed Parish Church of St Mary the Virgin",
+      "Substantial inter-war homes along Monkhams Drive, Monkhams Avenue and Monkhams Lane within IG8",
+      "1930s Arts-and-Crafts-influenced detached homes in South Woodford E18 on Broomhill Walk and Cleveland Road",
+      "Converted Victorian townhouses with original architectural details and Bunces Lane detached stock",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-open.jpg",
     galleryImages: [
@@ -244,12 +244,12 @@ export const essexLocations: Location[] = [
     parentSlug: "essex",
     tier: 3,
     description:
-      "Britain's oldest recorded town, Colchester layers Roman walls, Norman castle stone, and Dutch Quarter timber frames into a rich architectural palimpsest. The affluent suburbs of Lexden and Shrub End host tree-lined streets of Edwardian and Victorian homes, while the Dedham Vale fringe offers converted farmhouses and country properties of distinction. SteelR crafts entrance doors for Colchester homes that honour this deep heritage, combining period-sensitive design with the corrosion resistance and structural integrity that steel construction guarantees.",
+      "Colchester in CO1, CO2, CO3, CO4 and CO6 is Britain's oldest recorded town (ancient Camulodunum, Roman capital before London), layering Grade I listed Roman walls, Norman Colchester Castle (the largest Norman keep in Europe) and Dutch Quarter timber frames. The town centre conservation area covers High Street, Head Street, North Hill, Castle Park and the Dutch Quarter along Maidenburgh Street and West Stockwell Street. Premium residential streets include the Lexden area (CO3) along Lexden Road, Wellesley Road and Fitzwalter Road carrying Edwardian and Victorian villas, while Shrub End and Prettygate add family detached stock. The Dedham Vale AONB fringe to the north (CO7) carries Grade I listed John Constable painting locations including Flatford Mill, Dedham village and East Bergholt, with country houses, converted farmsteads and estate properties. West Bergholt, Copford, Marks Tey and Aldham within CO6 add rural country stock on generous plots. The University of Essex presence adds further residential demand. SteelR bespoke steel entrance doors honour Colchester's deep heritage, with listed building consent handled in-house. CO1 through CO6 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian and Victorian townhouses in the Dutch Quarter",
-      "Edwardian villas and family homes in Lexden",
-      "Country properties and conversions towards Dedham Vale",
-      "Substantial homes in West Bergholt and Copford",
+      "Grade I listed Roman walls and Norman Colchester Castle (largest Norman keep in Europe) in the CO1 conservation area",
+      "Dutch Quarter timber-framed buildings on Maidenburgh Street and West Stockwell Street",
+      "Edwardian villas and Victorian family homes on Lexden Road, Wellesley Road and Fitzwalter Road within CO3",
+      "Dedham Vale AONB country estates in Dedham village, Flatford, East Bergholt and Copford",
     ],
     heroImage: "/images/gallery/steelr-cream-panelled-chrome-sidelight.jpg",
     galleryImages: [
