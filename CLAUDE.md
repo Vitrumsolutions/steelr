@@ -183,9 +183,12 @@ All 10 URLs submitted via sitemap, Indexing API, and 4 of 10 priority-crawl-push
 ## Contact Form & Email
 - **Form:** `/contact` page → `/api/contact` route → Resend API → info@supplywindows.co.uk
 - **Estimate form:** `/design-estimate` → `/api/estimate` route → Resend API → info@supplywindows.co.uk
+- **Inline QuickEnquiry form** (added 22 Apr 2026, commit `e73f058`): 3-field name/phone/postcode form rendered on 288 pages — every area/collection/blog + 15 topic hub pages. Posts to `/api/contact` same as the full form but with `source=<slug>` tag for lead attribution. Auto-applies to all future blog posts via the `/blog/[slug]` template + all future topic pages via `InfoPage` component props.
+- **Thank-you page:** `/thank-you` (added 22 Apr 2026) — post-submit confirmation with ThankYouTracking client component. Fires GA4 `generate_lead` event if `gtag` is present — no-ops silently today since SteelR has no analytics yet. Ready to attribute the moment GA4 is installed.
 - **Resend domain:** steelr.co.uk verified (EU-West region), DNS records added at Fasthosts
 - **Resend API key:** `steelr-contact-form` (sending_access), stored in Vercel env var `RESEND_API_KEY`
 - **Sender:** `noreply@steelr.co.uk`
+- **`/api/contact` required fields:** name + phone ONLY (relaxed 22 Apr 2026 — was name+phone+email+propertyType+doorStyle). Other fields are optional. Lead email subject includes `[<source>]` tag for triage. Full ContactForm still sends all original fields; QuickEnquiry sends compact 3-field + hidden defaults `propertyType="Not specified"`, `doorStyle="To be discussed"`.
 - **GBP posting rules:** No phone numbers or URLs in post description text. Use Call Now button for phone. Clean prose only. Images optional.
 
 ## Build Notes

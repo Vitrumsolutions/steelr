@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
+import { Suspense } from "react";
 import ThankYouTracking from "./ThankYouTracking";
 
 export const metadata: Metadata = {
@@ -78,7 +79,10 @@ export default function ThankYouPage() {
         }}
       />
 
-      <ThankYouTracking />
+      {/* useSearchParams() in ThankYouTracking requires a Suspense boundary for static export */}
+      <Suspense fallback={null}>
+        <ThankYouTracking />
+      </Suspense>
 
       <section
         className="pt-24 md:pt-32 pb-20 md:pb-28 px-6"
