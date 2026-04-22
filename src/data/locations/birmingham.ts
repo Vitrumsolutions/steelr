@@ -34,12 +34,12 @@ export const birminghamLocations: Location[] = [
     parentSlug: "birmingham",
     tier: 3,
     description:
-      "Solihull consistently ranks among the most desirable places to live in the Midlands, with tree-lined avenues of detached homes stretching from Knowle to Dorridge. Properties here tend towards generous proportions with sweeping driveways, making a statement entrance door essential. SteelR doors are a natural fit for Solihull's executive housing, offering the security and kerb appeal that homeowners along Warwick Road and Lode Lane expect.",
+      "Solihull in B91, B92, B93 and B94 consistently ranks among the most desirable places to live in the Midlands, with tree-lined avenues stretching from Knowle through Dorridge and Bentley Heath. Premium residential streets include Warwick Road, Lode Lane, Streetsbrook Road and the Bryanston Close and Sandel Close private estates carrying substantial detached executive homes with double-width driveways and plots of a quarter to half an acre. The Knowle (B93) conservation area preserves Grade II listed Tudor and Georgian frontages along the High Street and Kenilworth Road, while the Dorridge (B93) and Hampton in Arden (B92) villages add country-fringe detached stock. The Solihull School (independent, founded 1560) catchment drives a family-oriented buyer demographic. 1930s Tudor Revival semi-detached properties along Dove House Lane and Ladbrook Road add period family stock. SteelR bespoke steel entrance doors offer the security and kerb appeal Solihull homeowners expect, with SR3 rating as standard and SR4 (LPS 1175) commercial-grade upgrade. B91 through B94 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Large detached executive homes with double-width driveways",
-      "1930s semi-detached properties in Tudor Revival style",
-      "Gated developments in Dorridge and Knowle",
-      "New-build estates near Solihull town centre",
+      "Large detached executive homes with double-width driveways on Warwick Road, Lode Lane and Streetsbrook Road within B91",
+      "Grade II listed Tudor and Georgian frontages in the Knowle B93 High Street conservation area",
+      "Gated private estate developments in Dorridge and Bentley Heath",
+      "1930s Tudor Revival semi-detached properties on Dove House Lane and Ladbrook Road",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
     galleryImages: [
@@ -58,12 +58,12 @@ export const birminghamLocations: Location[] = [
     parentSlug: "birmingham",
     tier: 3,
     description:
-      "Edgbaston is Birmingham's premier residential suburb, where imposing Victorian villas line the Calthorpe Estate and mature gardens frame some of the city's finest period properties. Streets like Farquhar Road and Augustus Road feature grand entrances that deserve equally distinguished front doors. SteelR steel entrance doors honour the heritage of these properties while delivering contemporary thermal performance and multi-point locking that insurance companies recognise.",
+      "Edgbaston in B15, B16 and B17 is Birmingham's premier residential suburb, anchored by the Calthorpe Estate (established 1786, managed by the Calthorpe family for over 230 years as one of the finest Georgian and Victorian garden-suburb estates in England). The Calthorpe Estate conservation area preserves Grade II and II* listed Victorian villas along Farquhar Road, Augustus Road, Westfield Road and Church Road, with mature gardens framing substantial double-fronted Italianate and Gothic Revival properties. Premium residential streets include Church Road, Carpenter Road, Norfolk Road and Somerset Road carrying Grade II listed Victorian mansions, while Edgbaston Village and the Edgbaston Cricket Ground borders add further detached stock. The University of Birmingham and Queen Elizabeth Hospital anchor the southern edge. The Five Ways regeneration supplies contemporary apartment stock. SteelR bespoke steel entrance doors honour this heritage with traditional designs, listed building consent handled in-house, SR3 rating as standard and FD30S fire rating. B15 through B17 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Grade II listed Victorian villas on the Calthorpe Estate",
-      "Large Edwardian semi-detached homes with original porticos",
-      "Modern townhouses near Edgbaston Village",
-      "Period conversions with communal entrance requirements",
+      "Grade II and II* listed Victorian villas on Farquhar Road, Augustus Road and Westfield Road within the B15 Calthorpe Estate",
+      "Substantial double-fronted Italianate and Gothic Revival mansions on Church Road, Carpenter Road and Somerset Road",
+      "University of Birmingham and Edgbaston Cricket Ground-adjacent residential stock",
+      "Large Edwardian semi-detached homes with original porticos and period conversions near Edgbaston Village",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
     galleryImages: [
@@ -82,12 +82,12 @@ export const birminghamLocations: Location[] = [
     parentSlug: "birmingham",
     tier: 3,
     description:
-      "Harborne blends village charm with urban convenience, its High Street bustling with independent shops while quiet residential roads branch off into leafy crescents of period homes. The mix of red-brick Edwardian semis and contemporary infill developments creates an eclectic streetscape where bespoke entrance doors make a genuine difference. SteelR doors suit Harborne perfectly, from the Arts and Crafts properties near Queen's Park to modern builds along Lordswood Road.",
+      "Harborne in B17 blends village charm with urban convenience, its High Street bustling with independent shops while quiet residential roads branch into leafy crescents of period homes. The Harborne conservation area covers the High Street, Metchley Lane and the Old Church Road with Grade II listed Victorian frontages. Premium residential streets include Lordswood Road, Wentworth Road, War Lane and St Peter's Road carrying Arts and Crafts detached houses near Queen's Park and red-brick Edwardian semi-detached homes with bay windows. The Moor Pool Estate (a Grade II listed garden suburb built 1907-12, one of the earliest in England) adds a unique conservation area with listed early-20th-century cottages. The Harborne Park and Edgbaston Golf Club borders supply further family detached stock, while contemporary infill and self-build plots along North Road supply modern executive stock. SteelR bespoke steel entrance doors suit Harborne perfectly, with SR3 rating as standard, listed building consent handled in-house for Moor Pool Estate properties. B17 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Red-brick Edwardian semi-detached homes with bay windows",
-      "Arts and Crafts detached houses near Queen's Park",
-      "Contemporary infill and self-build plots",
-      "Victorian workers' cottages with compact entrance porches",
+      "Grade II listed Moor Pool Estate garden suburb (1907-12) conservation area within B17",
+      "Red-brick Edwardian semi-detached homes with bay windows on War Lane and St Peter's Road",
+      "Arts and Crafts detached houses on Lordswood Road, Wentworth Road and near Queen's Park",
+      "Contemporary infill and self-build plots on North Road with Edgbaston Golf Club borders",
     ],
     heroImage: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
     galleryImages: [
@@ -106,12 +106,12 @@ export const birminghamLocations: Location[] = [
     parentSlug: "birmingham",
     tier: 3,
     description:
-      "Moseley is one of Birmingham's most characterful suburbs, where bohemian culture meets architectural grandeur along St Mary's Row and Wake Green Road. The area's Victorian and Edwardian properties feature tall ceilings, deep-set porches, and generous entrance halls that call for a front door of real substance. SteelR bespoke steel doors deliver the visual weight and security these period homes demand, while maintaining the aesthetic authenticity Moseley residents treasure.",
+      "Moseley in B13 is one of Birmingham's most characterful suburbs, where bohemian culture meets architectural grandeur along St Mary's Row and Wake Green Road. The Moseley Village conservation area covers St Mary's Row, Alcester Road and Oxford Road, preserving Grade II listed Church of St Mary and Victorian and Edwardian frontages. Premium residential streets include Wake Green Road, Chantry Road, Park Hill and Yardley Wood Road carrying substantial Victorian detached villas and Edwardian double-fronted family homes with tall ceilings, deep-set porches, stained-glass fanlights and generous entrance halls on plots of an eighth to a quarter acre. The Moseley Bog and Moseley Park conservation areas preserve further listed heritage. The inter-war semi-detached homes along Alcester Road and Billesley Lane add family stock. SteelR bespoke steel doors deliver the visual weight Moseley's period homes demand with traditional six-panel designs, stained-glass fanlights matched to originals, listed building consent handled in-house and SR3 rating as standard. B13 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Large Victorian terraces with ornate tiled entrance porches",
-      "Edwardian detached houses with stained-glass fanlights",
-      "Inter-war semi-detached homes along Alcester Road",
-      "Conservation area properties requiring sensitive design",
+      "Grade II listed Church of St Mary and Victorian frontages in the Moseley B13 Village conservation area",
+      "Substantial Victorian detached villas on Wake Green Road, Chantry Road and Park Hill",
+      "Edwardian double-fronted family homes with stained-glass fanlights and ornate tiled entrance porches",
+      "Inter-war semi-detached homes along Alcester Road and Billesley Lane with Moseley Park borders",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-open.jpg",
     galleryImages: [
@@ -130,12 +130,12 @@ export const birminghamLocations: Location[] = [
     parentSlug: "birmingham",
     tier: 3,
     description:
-      "Royal Sutton Coldfield carries its regal title with distinction, and the housing stock reflects that prestige. From the substantial stone-built properties bordering Sutton Park to the exclusive gated estates of Little Aston, this is an area where entrance doors must convey both security and status. SteelR steel doors meet the exacting standards of Sutton Coldfield homeowners, with bespoke designs that complement everything from mock-Tudor mansions to contemporary architect-led builds.",
+      "Royal Sutton Coldfield in B72, B73, B74, B75 and B76 carries its regal title with distinction, anchored by the 2,400-acre Grade I listed Sutton Park (one of the largest urban parks in Europe, ancient Royal Forest). Premium residential streets include Little Aston Park Road and Roman Road in the Little Aston (B74) gated private estate (one of the most expensive residential roads in the Midlands), Four Oaks Road and Bracebridge Road in Four Oaks (B74), and Hartopp Road, Coleshill Road and Wylde Green Road carrying substantial mock-Tudor and Edwardian detached homes on plots of a quarter to two acres. The Sutton Coldfield conservation area and the Grade II* listed Holy Trinity Church anchor the town centre. Luxury new-build developments near Mere Green and Boldmere add contemporary executive stock. Bishop Vesey's Grammar School catchment drives a family-oriented buyer demographic. SteelR bespoke steel entrance doors meet Royal Sutton Coldfield's exacting standards with oversized configurations for grand entrance porticos, SR3 as standard and SR4 (LPS 1175) upgrade specified on Little Aston gated-estate projects. B72 through B76 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Gated executive homes in Little Aston and Four Oaks",
-      "Mock-Tudor detached properties along Lichfield Road",
-      "Stone-built period homes near Sutton Park",
-      "Luxury new-build developments with double-height entrance halls",
+      "Gated executive mansions on Little Aston Park Road and Roman Road within the Little Aston B74 private estate",
+      "Mock-Tudor detached properties on Four Oaks Road, Bracebridge Road and Lichfield Road",
+      "Grade I listed Sutton Park 2,400-acre ancient Royal Forest park-edge residential stock",
+      "Grade II* listed Holy Trinity Church and Sutton Coldfield B72 conservation area",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-medallion-driveway.jpeg",
     galleryImages: [
@@ -154,12 +154,12 @@ export const birminghamLocations: Location[] = [
     parentSlug: "birmingham",
     tier: 3,
     description:
-      "Stratford-upon-Avon is synonymous with history, culture, and some of the most picturesque residential streets in the English Midlands. Timber-framed cottages sit alongside Georgian townhouses and substantial country homes in surrounding villages like Snitterfield and Wilmcote. SteelR bespoke steel doors bring modern performance to properties steeped in heritage, with finishes and ironmongery chosen to respect the conservation-area character that defines this iconic market town.",
+      "Stratford-upon-Avon in CV37 is Shakespeare's birthplace and one of the most visited heritage towns in England, defined by Grade I listed Shakespeare properties (Birthplace, New Place, Anne Hathaway's Cottage in Shottery, Mary Arden's Farm in Wilmcote and Hall's Croft). The town centre conservation area covers the Chapel Street, Henley Street, High Street and Sheep Street with a concentration of Grade I, II* and II listed timber-framed Tudor and Georgian properties including the Shakespeare Birthplace Trust estate. Premium residential streets include Tiddington Road, Shottery Road, Evesham Place and Maidenhead Road carrying Georgian and Regency townhouses and substantial Edwardian detached homes. The surrounding Warwickshire villages of Snitterfield, Wilmcote, Welford-on-Avon, Long Marston and Alveston add converted farmhouses, country estates and rural stock within the Warwickshire Cotswolds. The Royal Shakespeare Company presence and Stratford Racecourse anchor the cultural heritage. SteelR bespoke steel doors bring modern performance to heritage properties with listed building consent handled in-house and SR3 rating as standard. CV37 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Listed timber-framed cottages in the historic town centre",
-      "Georgian and Regency townhouses along Tiddington Road",
-      "Country homes and farmhouse conversions in surrounding villages",
-      "Executive new-builds in Shottery and Bishopton",
+      "Grade I listed Shakespeare Birthplace, New Place and Hall's Croft within the Stratford-upon-Avon CV37 conservation area",
+      "Listed timber-framed Tudor and Georgian properties on Henley Street, Chapel Street and Sheep Street",
+      "Georgian and Regency townhouses on Tiddington Road, Shottery Road and Maidenhead Road",
+      "Country homes and farmhouse conversions in Snitterfield, Wilmcote, Welford-on-Avon and Alveston villages",
     ],
     heroImage: "/images/gallery/steelr-charcoal-traditional-oval-window-lantern.jpg",
     galleryImages: [
