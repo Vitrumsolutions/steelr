@@ -1,5 +1,57 @@
 # steelr — Project Guide
 
+## Session Handoff — 22 Apr 2026 evening
+
+Baseline visibility audit just ran (commit `cf477e2`). Full report at
+`audit-data/visibility-audit-20260422.md`. Re-run: `python audit-data/visibility-audit.py`.
+
+### Audit headline (22 Apr 2026)
+
+| Channel | Result |
+|---|---|
+| Google organic | 5/26 (19%) — brand #1, SR3 #8, Bucks #1, Cobham #9 |
+| Google Maps | **0/11** — not ranking even for brand "SteelR" |
+| Bing | **0/15** — post-migration indexing lag (IndexNow wired 19 Apr, recovery expected mid-late May) |
+| Perplexity | ✅ "best-fit option" for SR3 Secured by Design query |
+| ChatGPT | ✅ listed FIRST for UK bespoke steel door manufacturers |
+| Google AI Mode | ✅ #1 featured manufacturer, `steelr.co.uk +4` primary citation |
+
+**AI engines are SteelR's strongest channel** — `/llms.txt` + `/llms-full.txt` + topic hubs are paying off.
+**Biggest gap: Maps, blocked by 0 GMB reviews.** User manages reviews — don't re-suggest process.
+
+### Work in flight (parallel sessions as of 22 Apr evening)
+
+These are being handled by other Claude sessions — **do not duplicate**:
+
+1. **Blog queue refill** — staged/ folder empty, content-calendar.json 28/28 published. Next cron fires Thu 23 Apr 20:00 UTC. Another session refilling with new posts targeting audit gaps (SR3 vs SR4, steel vs composite, PAS 24 explainer, cost guide, London townhouses, steel doors with glass panels).
+2. **Area page title optimisation** — proposed pattern: `Steel Doors [Town] | Bespoke Steel Front Doors, SR3 Rated | SteelR`. Fixes word-order break in current title template at `src/app/areas/[slug]/page.tsx` generateMetadata + sr-only h1. Low-leverage polish (~0-3 positions), another session shipping.
+
+### Next session — open options (not yet picked up)
+
+Choose the highest-leverage option based on current state:
+
+- **A. `/thank-you` leave-a-review CTA** — Vitrums has it, SteelR doesn't. One-click GBP review path for new customers at peak-willingness moment. Not a review-push suggestion — just the on-site plumbing (user still does asking). Small edit, mirrors Vitrums `/thank-you` pattern.
+- **B. GSC Indexing API setup** — Vitrums runs 180/day automated via Windows Task Scheduler (`VitrumsGSCIndexer`). Verify if SteelR has equivalent. If not, ~30 min setup — could be why Google organic sits at 5/26 (indexing lag).
+- **C. CrUX / Lighthouse perf baseline** — site 19 days live, too young for CrUX. Run Lighthouse mobile to get lab baseline. If at Vitrums' pre-fix level (Perf 27, LCP 8s), apply the documented Vitrums playbook (Nav server-component split, defer overlays, lazyOnload GA, hero paint cleanup).
+- **D. Internal linking audit** — Do all 42 blog posts link to product/area pages? Do hub/product pages cross-link to best-fit blogs? Vitrums-style bidirectional linking lifts topical authority.
+- **E. Schema/llms.txt protection audit** — AI engines are the strongest channel, protect it. Diff SteelR's setup against Vitrums (knowsAbout array, Direct Answers Q&As, sameAs, FAQ coverage).
+
+### DO NOT RE-SUGGEST (user-managed)
+
+- Google review push / review request process (user handles ongoing)
+- UK directory registrations (MyBuilder, Houzz, Which?, FMB, Trustpilot, Checkatrade, Yell, Bark, etc.)
+- GBP weekly posting cadence
+
+### Current SteelR state snapshot
+
+- Live: https://steelr.co.uk since ~3 Apr 2026
+- 42 blog posts live (CLAUDE.md says 45 — slightly stale), 173 area pages, 62 doors in /collection
+- QuickEnquiry component on all dynamic templates (areas, collection, blog) + 10 InfoPage topic hubs + 5 non-InfoPage hubs — 288+ pages wired with source-tagged lead capture → `/api/contact` → `info@supplywindows.co.uk`
+- `/thank-you` page live with GA4 conversion tracking (no GA4 installed yet)
+- Next cron fire: Thu 23 Apr 20:00 UTC (awaiting Session 1 blog refill)
+
+---
+
 ## What is this?
 **steelr** is a premium website for a bespoke entrance door company. The brand sits under Supply Windows (supplywindows.co.uk). The site should feel architectural, refined, and high-end — like the product itself.
 
