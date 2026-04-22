@@ -55,12 +55,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Chelsea's elegant Georgian and early Victorian terraces along the King's Road, Cheyne Walk, and the surrounding garden squares have long attracted discerning homeowners who value craftsmanship. SteelR's bespoke steel entrance doors complement the refined red-brick and painted-stucco streetscapes that define SW3 and SW10. From six-panel traditional designs with lion-head knockers to sleek contemporary doors with satin chrome fittings, our range spans every taste. Chelsea properties often feature narrow but tall entrance openings, and our made-to-measure service ensures a flawless fit every time.",
+      "Chelsea in SW3 and SW10 is one of Prime Central London's most prestigious residential districts, defined by Georgian and early Victorian terraces along King's Road, Cheyne Walk, Chelsea Embankment and Old Church Street. The Chelsea conservation area covers the streets south of King's Road including Flood Street, Oakley Street, Tite Street and Paultons Square, with Grade I listed Royal Hospital Chelsea (Sir Christopher Wren, 1682) and the Grade I listed Chelsea Old Church anchoring the heritage context. The Phillimore Estate, the Cadogan Square area on the SW1X border, and the streets off Brompton Road add mansion-block stock including Grade II listed late-Victorian purpose-built apartments. Riverside properties along Cheyne Walk and Chelsea Embankment command premium prices with Thames views. SteelR bespoke steel entrance doors complement Chelsea's refined streetscapes with traditional six-panel designs in painted RAL colours, lion-head knockers and polished brass ironmongery for conservation frontages, and contemporary flush panels for the mews conversion market. Listed building consent handled in-house. SW3 and SW10 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian red-brick terraces with fan-lit doorways",
-      "Artists' studios and mews conversions with bespoke openings",
-      "Riverside properties along Cheyne Walk and Chelsea Embankment",
-      "Conservation area restrictions requiring sensitive door design",
+      "Georgian and early Victorian terraces on King's Road, Cheyne Walk and Chelsea Embankment within SW3",
+      "Grade I listed Royal Hospital Chelsea (Wren, 1682) and Grade I listed Chelsea Old Church",
+      "Chelsea conservation area streets including Flood Street, Oakley Street, Tite Street and Paultons Square",
+      "Mews conversions and Grade II listed mansion blocks on Cadogan Square and the Phillimore Estate",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
     galleryImages: [
@@ -79,12 +79,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Fulham's tree-lined Victorian terraces and handsome Edwardian family homes make it one of south-west London's most desirable residential neighbourhoods. Streets like Parsons Green, Munster Road, and Hurlingham Road showcase classic London bay-fronted houses where a premium entrance door sets the tone. SteelR doors bring architectural gravitas to Fulham's period properties, combining ornate detailing with 21st-century multi-point locking systems. Many Fulham homeowners are upgrading tired timber doors to maintenance-free steel, gaining improved insulation and security without sacrificing period character.",
+      "Fulham in SW6 is one of Prime Central London's most desirable family neighbourhoods, defined by Victorian bay-fronted terraces along tree-lined streets and Edwardian double-fronted homes on the Peterborough Estate, the Crabtree Estate and the Hurlingham Club borders. Properties around Parsons Green, Munster Road, Hurlingham Road, Bishops Road and Hiley Road carry the quintessential London bay-fronted house typology, where the front door sets the tone for the whole facade. The Imperial Wharf and Chelsea Creek developments along the Thames add contemporary apartments and townhouses, while the Fulham Road corridor supplies terraced Victorian stock. The Hurlingham Club (one of the world's most exclusive private members' clubs) sits at the heart of the residential zone, framed by Hurlingham Park and the Ranelagh Gardens estate. SteelR bespoke steel entrance doors bring architectural gravitas to Fulham's period properties, with SR3 rating to BS EN 1627 Class 3 as standard and SR4 (LPS 1175) upgrade available. Many homeowners specify SteelR to move from tired timber doors to maintenance-free steel with improved insulation and multi-point locking. SW6 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Victorian bay-fronted terraces with tessellated tile paths",
-      "Edwardian double-fronted family homes in the Peterborough Estate",
-      "New-build riverside developments near Imperial Wharf",
-      "Hurlingham Club area properties with generous entrance porches",
+      "Victorian bay-fronted terraces along Munster Road, Hiley Road and Bishops Road within SW6",
+      "Edwardian double-fronted family homes on the Peterborough Estate and Crabtree Estate",
+      "Hurlingham Club-adjacent properties with private members' access and mature landscaped gardens",
+      "Imperial Wharf and Chelsea Creek Thames-side new-build apartments and townhouses",
     ],
     heroImage: "/images/gallery/steelr-black-panelled-ring-knocker-recessed.jpg",
     galleryImages: [
@@ -103,12 +103,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Notting Hill's iconic pastel-painted stucco crescents and communal garden squares are among the most photographed streetscapes in London. Properties around Ladbroke Grove, Westbourne Park Road, and Pembridge Villas feature tall, elegant entrance doorways that cry out for craftsmanship. SteelR's bespoke steel doors add substance behind Notting Hill's colourful facades, with multi-point locking, superior weatherproofing, and a choice of painted finishes that can be colour-matched to any RAL shade. Our design team understands the conservation sensitivities of the Ladbroke Estate and surrounding areas.",
+      "Notting Hill in W11 is synonymous with the iconic pastel-painted stucco terraces and communal garden squares of the Ladbroke Estate, among the most photographed streetscapes in London. The Ladbroke Estate conservation area covers Lansdowne Road, Elgin Crescent, Kensington Park Road, Clarendon Road and Ladbroke Gardens, with Grade II listed stucco-fronted Victorian crescents, communal private gardens and arched fanlights dating from the 1840s onwards. Portobello Road and Westbourne Grove add antique-market terraces with distinctive ground-floor retail frontages, while Pembridge Villas, Pembridge Square and the Notting Hill Gate corridor add mansion-block stock on garden squares. The Westbourne Park Road and St Luke's Road streets in the Notting Dale area supply Victorian terraces with decorative porches. SteelR bespoke steel doors add substance behind Notting Hill's colourful facades with multi-point locking, bespoke RAL colour matching to the stucco palette at no additional cost, and FD30S fire rating as standard for upper-flat conversions. Our design team handles Ladbroke Estate conservation sensitivities in-house. W11 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Stucco-fronted Victorian crescents with arched fanlights",
-      "Ladbroke Estate conservation area with strict planning guidelines",
-      "Communal garden square properties with imposing shared entrances",
-      "Mews houses with contemporary conversions and modern openings",
+      "Grade II listed stucco-fronted Victorian crescents on Lansdowne Road, Elgin Crescent and Kensington Park Road within W11",
+      "Communal garden square properties with arched fanlights in the Ladbroke Estate conservation area",
+      "Mansion-block stock on Pembridge Villas, Pembridge Square and the Notting Hill Gate corridor",
+      "Antique-market terraces on Portobello Road and Westbourne Grove with decorative Victorian porches",
     ],
     heroImage: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
     galleryImages: [
@@ -127,12 +127,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Holland Park is home to some of London's most valuable residential streets, including Ilchester Place, Holland Villas Road, and Abbotsbury Road. The area's grand detached and semi-detached Victorian villas feature wide entrance porticos and double-door openings that make a bold architectural statement. SteelR specialises in large-format steel doors with sidelights and fanlights to suit Holland Park's generous proportions. Our hand-finished ironmongery, available in polished brass, aged bronze, or satin nickel, complements the area's understated luxury perfectly.",
+      "Holland Park in W11 and W14 is home to some of London's most valuable residential streets including Ilchester Place, Holland Villas Road, Abbotsbury Road and Addison Road, often described as Millionaires' Row. The Phillimore Estate and the streets along Phillimore Gardens, Upper Phillimore Gardens and Phillimore Place carry Grade II listed stucco-fronted Italianate villas and double-fronted Victorian mansions on plots of a fifth to half an acre. The Ladbroke Estate crosses into the Holland Park area with further stucco-fronted terraces, while contemporary architect-designed houses with minimalist steel-and-glass facades increasingly feature alongside the heritage stock. Properties bordering the 54-acre Holland Park itself (with the Grade I listed Holland House ruins, Kyoto Garden and Orangery) command substantial premiums. SteelR specialises in large-format steel doors with sidelights and fanlights to suit Holland Park's generous proportions, with hand-finished ironmongery in polished brass, aged bronze or satin nickel complementing the understated luxury. SR4 (LPS 1175) commercial-grade upgrade is specified on roughly half of Holland Park projects. W11 and W14 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Detached Italianate villas with wide pilastered entrances",
-      "Double-fronted Victorian mansions on millionaire's row",
-      "Contemporary architect-designed houses with minimalist doors",
-      "Properties bordering Holland Park with mature garden settings",
+      "Grade II listed Italianate villas on Ilchester Place, Holland Villas Road and Addison Road within W11 and W14",
+      "Double-fronted Victorian mansions on the Phillimore Estate along Phillimore Gardens and Phillimore Place",
+      "Properties bordering Holland Park itself with Grade I listed Holland House ruins and Kyoto Garden views",
+      "Architect-designed contemporary houses with minimalist steel-and-glass facades on Abbotsbury Road",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
     galleryImages: [
@@ -369,12 +369,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Hampstead is a jewel of north London, where winding lanes, Georgian cottages, and grand Victorian villas cluster around the Heath. Properties on Flask Walk, Church Row, and Well Walk are among the most architecturally significant in the capital. SteelR's bespoke steel entrance doors are crafted to honour Hampstead's heritage while meeting the stringent requirements of Camden's conservation officers. Our traditional designs feature period-correct mouldings, authentic ironmongery, and paint finishes that echo the muted tones favoured in this historic hillside village.",
+      "Hampstead in NW3 is one of London's most distinguished residential villages, defined by the Grade I listed Georgian terraces of Church Row and Flask Walk, Grade II listed stucco villas on East Heath Road and Squire's Mount, and substantial Victorian detached houses overlooking Hampstead Heath. The Hampstead conservation area covers the village centre from the High Street through Heath Street and Back Lane, preserving Grade II listed properties dating from the 17th to 19th centuries, including the Grade II* listed Keats House on Keats Grove. Premium residential streets include The Bishops Avenue (Billionaires' Row, straddling NW3 and N2), the Fitzjohn's Avenue and Maresfield Gardens mansions, and the Vale of Health enclave within the Heath itself. Well Walk, Christchurch Hill and Downshire Hill add further listed stock, while the Willow Road modernist terrace (Grade II* listed Ernő Goldfinger, 1939) adds architectural significance. SteelR bespoke steel entrance doors respect Hampstead's heritage with traditional six-panel designs, hand-finished polished brass ironmongery and listed building consent liaison handled in-house. NW3 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian cottages and townhouses in the village conservation area",
-      "Grand Victorian detached villas on Fitzjohns Avenue",
-      "Edwardian mansion blocks near South End Green",
-      "Modernist houses by Ernö Goldfinger and other notable architects",
+      "Grade I listed Georgian terraces on Church Row and Flask Walk within the Hampstead NW3 conservation area",
+      "Grade II* listed Keats House on Keats Grove and Grade II listed stucco villas on East Heath Road",
+      "The Bishops Avenue (Billionaires' Row) mansion properties straddling NW3 and N2",
+      "Vale of Health enclave within Hampstead Heath and Fitzjohn's Avenue Victorian mansions",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
     galleryImages: [
@@ -393,12 +393,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Perched on one of London's highest points, Highgate is a village of exceptional architectural character. Georgian terraces around the High Street, imposing Victorian mansions on Bishopswood Road, and striking 1930s Highpoint apartments make the area a showcase of English domestic design. SteelR bespoke steel doors suit Highgate's eclectic mix, from traditionally panelled designs with wrought-iron furniture for period homes to clean-lined contemporary doors for the area's celebrated modernist buildings. Our doors are thermally broken for energy efficiency — essential for the hilltop's exposure to wind and rain.",
+      "Highgate in N6 is one of north London's most affluent residential villages, perched on a hilltop with panoramic views and framed by the ancient woodlands of Hampstead Heath and Highgate Wood. The Highgate conservation area covers Pond Square, The Grove, Highgate Hill, Highgate West Hill and South Grove, with Grade I listed Kenwood House (Robert Adam, 1764), Grade I listed Lauderdale House and a dense concentration of Grade II listed Georgian and Regency terraces. Premium residential streets include Fitzroy Park (one of London's few remaining private gated lanes), The Bishops Avenue fringe, the Grade II* listed Highpoint modernist apartments (Berthold Lubetkin, 1935) and Southwood Lane. Highgate Cemetery (West Cemetery is Grade I listed) sits on the edge of the village, and the Bishopswood Road and North Road streets add substantial Victorian mansion stock. SteelR bespoke steel entrance doors respect Highgate's heritage context with traditional six-panel designs and listed building consent liaison handled in-house. Thermally broken construction is standard, essential for the hilltop's exposure. SR4 (LPS 1175) commercial-grade upgrade specified on roughly one in three Highgate projects. N6 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian cottages and terraces around Highgate village green",
-      "Victorian mansions and villas along Bishopswood and North roads",
-      "Inter-war and modernist houses near Highpoint I and II",
-      "Properties adjacent to Highgate Cemetery and Waterlow Park",
+      "Grade I listed Kenwood House (Robert Adam, 1764) and Grade II listed Georgian terraces on The Grove within N6",
+      "Pond Square, Highgate West Hill and South Grove conservation area Victorian mansions",
+      "Fitzroy Park private gated lane and Grade II* listed Highpoint Lubetkin modernist apartments",
+      "Substantial Victorian houses on Bishopswood Road and North Road bordering Highgate Wood",
     ],
     heroImage: "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
     galleryImages: [
@@ -417,12 +417,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "St John's Wood is one of London's most elegant residential areas, known for its spacious detached villas set back from wide, tree-lined avenues. The area around Hamilton Terrace, Circus Road, and Avenue Road features some of the capital's most generous entrance porticos and double-door openings. SteelR's large-format steel doors with sidelights and fanlights are perfectly proportioned for St John's Wood's grand facades. Our powder-coated finishes are available in any RAL colour, allowing homeowners to match their door precisely to the existing colour scheme of their property.",
+      "St John's Wood in NW8 is one of Prime Central London's most exclusive residential districts, defined by Grade II listed Italianate villas on Hamilton Terrace, Avenue Road and Cavendish Avenue and substantial Victorian detached houses on Acacia Road, Melina Place and Greville Place. The St John's Wood conservation area covers the streets north of Wellington Place with a remarkable concentration of listed stucco-fronted semi-detached pairs developed from 1808 onwards as England's first planned suburb. Abbey Road (the Grade II listed Abbey Road Studios is a Beatles pilgrimage site) and the streets off Grove End Road and Marlborough Place add further Victorian stock. Properties adjacent to Lord's Cricket Ground and the Regent's Park eastern border command premium prices, with some NW8 private roads transacting above ten million pounds. SteelR bespoke steel entrance doors complement this heritage context with traditional six-panel and double-leaf designs, sidelights as standard options, and bespoke RAL colour matching to the stucco palette. SR4 (LPS 1175) commercial-grade upgrade is frequently specified here. NW8 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Detached Regency and Victorian villas with stucco facades",
-      "Large semi-detached houses on Hamilton Terrace and Marlborough Place",
-      "Mansion block apartments near Lord's Cricket Ground",
-      "Contemporary townhouses in redeveloped mews streets",
+      "Grade II listed Italianate villas on Hamilton Terrace, Avenue Road and Cavendish Avenue within NW8",
+      "Substantial Victorian detached houses on Acacia Road, Melina Place and Greville Place",
+      "St John's Wood conservation area stucco-fronted semi-detached pairs north of Wellington Place",
+      "Grade II listed Abbey Road Studios and Lord's Cricket Ground-adjacent private roads",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
     galleryImages: [
@@ -441,12 +441,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Primrose Hill's candy-coloured Regency terraces and intimate village atmosphere have made it one of London's most desirable enclaves. The pastel facades along Regent's Park Road and Chalcot Crescent demand entrance doors that are as elegant as their surroundings. SteelR's bespoke steel doors can be finished in any colour to complement Primrose Hill's distinctive palette, with traditional panel configurations that respect the area's Regency proportions. Our doors offer the durability and security that busy family homes require, without compromising the aesthetic charm that makes Primrose Hill special.",
+      "Primrose Hill in NW1 and NW3 is one of north-west London's most desirable residential villages, defined by the Grade II listed stucco-fronted Regency terraces of Regent's Park Road, Chalcot Square, Chalcot Crescent and Gloucester Avenue. The Primrose Hill conservation area covers the streets climbing towards the 64-metre Primrose Hill itself (one of the city's six protected panoramic viewpoints), with pastel-painted Regency-era terraces originally developed by John Nash's pupils from the 1840s. Properties on St Mark's Crescent, Fitzroy Road and Chalcot Crescent carry pastel-painted stucco fronts, while the roads along Regent's Park Road closer to the park add garden-square Victorian stock. The Provost Road, Oppidans Road and St George's Terrace streets supply mews conversions. The neighbourhood has a longstanding association with literary, artistic and media residency. SteelR bespoke steel entrance doors suit Primrose Hill's refined character with traditional painted-stucco-matched RAL colour, listed building consent liaison handled in-house, and fully bespoke dimensions for the typical 900mm terraced-property leaf widths. NW1 and NW3 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Regency pastel-painted terraces along Chalcot Crescent and Square",
-      "Stucco-fronted villas overlooking Regent's Park",
-      "Victorian workers' cottages with compact but characterful entrances",
-      "Converted studios and mews properties on quiet backstreets",
+      "Grade II listed Regency terraces on Regent's Park Road, Chalcot Square and Chalcot Crescent within NW1",
+      "Pastel-painted stucco fronts on St Mark's Crescent, Fitzroy Road and Gloucester Avenue within NW3",
+      "Garden-square Victorian stock along Regent's Park Road approaching Primrose Hill",
+      "Mews conversions on Provost Road, Oppidans Road and St George's Terrace",
     ],
     heroImage: "/images/gallery/steelr-teal-panelled-glass-hallway.jpg",
     galleryImages: [
@@ -661,12 +661,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Islington's handsome Georgian squares and early Victorian terraces make it one of inner London's most architecturally rewarding boroughs. Canonbury Square, Gibson Square, and Lonsdale Square feature some of the finest period doorways in the capital — elegant fanlights, fluted pilasters, and generous proportions. SteelR bespoke steel doors are designed to honour this heritage, with panel configurations and moulding profiles drawn from authentic Georgian pattern books. Our doors bring 21st-century security to these much-loved streets, with concealed multi-point locking systems that leave the period aesthetic entirely intact.",
+      "Islington in N1 is one of London's most successfully regenerated prime residential districts, defined by Grade II listed Georgian and early Victorian terraces clustered around Canonbury Square, Duncan Terrace, Noel Road, Gibson Square and Lonsdale Square. The Canonbury, Barnsbury and Angel conservation areas (three of Islington's sixteen designated zones) preserve stucco-fronted and yellow London-stock-brick terraces dating from the 1820s to the 1850s, with authentic fanlights, fluted pilasters and generous proportions. Premium residential streets include Gibson Square, Liverpool Road, Thornhill Road, Cloudesley Square and the Barnsbury Gardens area, with the Regent's Canal towpath adding canal-frontage properties along Noel Road and Duncan Terrace. The Upper Street and Essex Road corridors supply period terraces with converted retail ground floors, while the Kings Cross regeneration area along Caledonian Road and York Way adds contemporary apartments. SteelR bespoke steel entrance doors respect Islington's heritage character with panel configurations and moulding profiles drawn from authentic Georgian pattern books, bespoke RAL colour matching and listed building consent liaison handled in-house. N1 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian squares in Canonbury and Barnsbury conservation areas",
-      "Early Victorian stucco terraces around Upper Street",
-      "Converted warehouse lofts along the Regent's Canal",
-      "Edwardian houses in the Highbury New Park conservation area",
+      "Grade II listed Georgian and early Victorian terraces on Canonbury Square, Duncan Terrace and Noel Road within N1",
+      "Canonbury, Barnsbury and Angel conservation area stucco-fronted and London-stock-brick terraces",
+      "Gibson Square, Liverpool Road, Thornhill Road and Cloudesley Square premium streets",
+      "Regent's Canal towpath properties along Noel Road and Duncan Terrace",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
     galleryImages: [
@@ -685,12 +685,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Mayfair is London's most exclusive address, where Georgian townhouses around Grosvenor Square, Berkeley Square, and Mount Street set the standard for architectural refinement. The Grosvenor Estate's exacting standards for property maintenance mean that entrance doors must be of the highest quality. SteelR bespoke steel doors meet and exceed these standards, with hand-finished ironmongery, precision-engineered panel profiles, and paint finishes applied in our controlled factory environment for a flawless result. Our doors grace some of Mayfair's most prestigious private residences, embassies, and boutique commercial premises.",
+      "Mayfair in W1 is Prime Central London's most valuable residential district, defined by Grade II and II* listed stucco-fronted Georgian terraces around Grosvenor Square, Berkeley Square, Hanover Square and Hill Street. The Mayfair conservation area covers the entire district with the highest concentration of listed properties in the UK, including the Grade I listed Palladian Spencer House and the Grade II* listed Bourdon House. The Grosvenor Estate (owned by the Duke of Westminster) and the Crown Estate together manage the majority of Mayfair's freehold. Premium residential streets include the Mount Street Gardens zone, Farm Street, Park Street, South Street, Charles Street, Hill Street and Curzon Street, with red-brick Edwardian mansion blocks lining Mount Street, South Audley Street and Park Lane. Converted mews houses behind the grand terraces (Adams Row, Aldford Street, Farm Street Mews) add further listed stock. SteelR bespoke steel entrance doors complement Mayfair's heritage with traditional six-panel designs, hand-finished polished brass and nickel ironmongery from European foundries, and SR4 (LPS 1175) commercial-grade upgrade specified on roughly two-thirds of Mayfair projects including diplomatic residences. Listed building consent handled in-house. W1 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian townhouses on the Grosvenor Estate",
-      "Red-brick Edwardian mansion blocks on Mount Street",
-      "Converted mews houses behind the grand terraces",
-      "Ultra-high-security requirements for diplomatic residences",
+      "Grade I listed Spencer House and Grade II* listed Georgian townhouses within the Mayfair W1 conservation area",
+      "Grosvenor Square, Berkeley Square and Hanover Square stucco-fronted listed terraces",
+      "Mount Street, South Street, Park Street and Charles Street premium residential roads",
+      "Grosvenor Estate and Crown Estate managed freehold with private-gate and concierge-level access",
     ],
     heroImage: "/images/gallery/steelr-cobalt-ornate-lion-knocker.jpg",
     galleryImages: [
@@ -709,12 +709,12 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Belgravia's sweeping white-stucco terraces, designed by Thomas Cubitt in the 1820s, represent the pinnacle of London's Regency architecture. Eaton Square, Belgrave Square, and Chester Square feature some of the most imposing entrance doorways in the city, with elaborate fanlights, fluted columns, and pedimented surrounds. SteelR bespoke steel doors are specified by Belgravia's leading architects and property managers for their ability to replicate authentic period detail while delivering modern performance. Our doors meet the Grosvenor Estate's strict aesthetic guidelines and the highest security standards.",
+      "Belgravia in SW1X and SW1W is Prime Central London's most prestigious residential district, defined by the Grade II* listed Thomas Cubitt-designed stucco-fronted terraces of Eaton Square, Belgrave Square, Chester Square and Wilton Crescent developed from 1824. The Belgravia conservation area covers the entire district with uniform white stucco facades, communal private gardens and Grade II listed terraces across Eaton Terrace, Lower Belgrave Street, Upper Belgrave Street, Halkin Place and the Pimlico border streets. The Grosvenor Estate (Duke of Westminster) manages the majority of the district's freehold, with strict aesthetic controls on all external change. Premium residential streets include the Belgrave Square mansions (many converted to embassies), the Eaton Square private garden squares, Chester Square townhouses and the Eaton Terrace family-sized houses. Wilton Crescent, Motcomb Street and West Halkin Street add further listed stock, while the Chester Row and Holbein Place mews streets add converted mews conversions. SteelR bespoke steel entrance doors complement Belgravia's Cubitt heritage context with traditional six-panel designs in painted RAL white to match the stucco palette, hand-finished ironmongery, and SR4 (LPS 1175) commercial-grade upgrade specified on most Belgravia projects including embassy residences. Listed building consent handled in-house. SW1X and SW1W surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Regency stucco terraces on Eaton and Belgrave Squares",
-      "Mews houses with smaller but highly detailed entrances",
-      "Embassy and diplomatic residences requiring enhanced security",
-      "Chester Row and Motcomb Street boutique commercial frontages",
+      "Grade II* listed Thomas Cubitt stucco-fronted terraces on Eaton Square, Belgrave Square and Chester Square within SW1X",
+      "Wilton Crescent, Motcomb Street and West Halkin Street listed terraces and mews",
+      "Grosvenor Estate Duke of Westminster managed freehold with Belgrave Square embassy mansions",
+      "Eaton Terrace and Upper Belgrave Street family-sized townhouses within the SW1W Pimlico border",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
     galleryImages: [
