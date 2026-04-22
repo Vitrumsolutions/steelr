@@ -28,12 +28,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Beaconsfield's Old Town retains its coaching-inn charm with period facades lining the wide London End, while the New Town offers spacious Edwardian and interwar residences set back on tree-lined avenues. Properties here command premium prices and their frontages must reflect that standing. A SteelR bespoke entrance door delivers the gravitas these homes deserve, combining hand-finished steelwork with thermal performance that meets modern building regulations without compromising the streetscape character.",
+      "Beaconsfield is consistently the most expensive town in Buckinghamshire, with the HP9 postcode ranked among the highest-value residential markets outside central London. The Old Town around London End and Aylesbury End features Georgian coaching inns and Grade II listed cottages within the conservation area, while the New Town north of the railway carries substantial Edwardian villas and architect-designed replacements on Burkes Road, Ledborough Lane and Wattleton Road. Properties on Candlemas Lane, Grove Road and the private lanes near Beaconsfield High School regularly transact above two million pounds. A SteelR bespoke steel entrance door combines the gravitas these properties deserve with SR3 rating as standard to BS EN 1627 Class 3, SR4 (LPS 1175 Issue 8) available as a commercial-grade upgrade for homes adjacent to main arterial roads, and thermally broken construction that satisfies Part L without compromising period character. We survey HP9 and the Knotty Green fringe from our Ickenham workshop with no regional surcharge.",
     localFeatures: [
-      "Large detached Edwardian villas on Penn Road and Ledborough Lane",
-      "Period cottages and listed buildings in the Old Town conservation area",
-      "Executive new-builds in gated developments off Amersham Road",
-      "Arts and Crafts properties with decorative porches and canopies",
+      "Substantial Edwardian villas on Burkes Road, Ledborough Lane and Wattleton Road in HP9",
+      "Georgian coaching inns and Grade II listed cottages within the Old Town London End conservation area",
+      "Architect-designed contemporary replacements on Candlemas Lane and Grove Road",
+      "Gated estates and private-road properties near Beaconsfield High School and Knotty Green",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
     galleryImages: [
@@ -52,12 +52,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Known locally as GX, Gerrards Cross is one of the most affluent commuter towns in England. Its broad, leafy streets are lined with substantial detached houses from every era, many set behind mature hedging and sweeping driveways. The common provides a village-green anchor while Bulstrode Park lends an estate grandeur to the area. A SteelR steel entrance door makes a powerful first impression on these prestigious properties, offering bespoke designs that sit confidently alongside original architectural detailing.",
+      "Gerrards Cross in SL9 is one of the UK's highest-value commuter residential markets, with streets either side of the Common regularly transacting well above two million pounds. The residential stock ranges from Edwardian mansions on Packhorse Road, Bull Lane and South Park, through Arts and Crafts villas around the Common, to substantial contemporary replacements on private drives such as Howards Wood Drive, Camp Road and Bulstrode Way. Many properties sit on quarter to half-acre plots with gated driveways and entrance porches calling for a grand front door. SteelR large-format bespoke steel doors, with sidelights and fanlights specified as standard options, are engineered for exactly this type of frontage. Every door is SR3 rated to BS EN 1627 Class 3 as standard, with SR4 (LPS 1175 Issue 8) commercial-grade security available as an upgrade, and FD30S fire rating across the range. We survey SL9 and the adjoining Chalfont St Peter border directly from Ickenham.",
     localFeatures: [
-      "Substantial detached houses on Bulstrode Way and Oval Way",
-      "1930s mock-Tudor and neo-Georgian homes with prominent porches",
-      "Contemporary architect-designed properties on private roads",
-      "Conservation area properties near the common requiring sensitive design",
+      "Edwardian mansions on Packhorse Road, Bull Lane and South Park within SL9",
+      "Arts and Crafts villas and garden-square properties around Gerrards Cross Common",
+      "Architect-designed contemporary replacements on Howards Wood Drive, Camp Road and Bulstrode Way",
+      "Gated private estates requiring concierge-level security and heritage stone surrounds",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
     galleryImages: [
@@ -76,12 +76,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Amersham splits into two distinct characters: the medieval Old Town, with its flint-and-brick cottages descending the hill along the High Street, and Amersham-on-the-Hill, a Metroland creation of generous semi-detached and detached homes built between the wars. Both halves present opportunities for a statement entrance door. SteelR doors are crafted to respect listed building sensitivities in the Old Town while delivering bold contemporary presence on the wider avenues above, where homeowners seek to differentiate their properties.",
+      "Amersham splits between Old Amersham in HP7, a designated conservation area with a Grade I listed parish church and a High Street of half-timbered buildings dating from the 15th century, and Amersham on the Hill in HP6, a substantial Edwardian and inter-war suburb developed around the Metropolitan line. Properties along Rectory Hill, Mill Stream and Church Street within the Old Town require listed building consent for any external change, while the Amersham on the Hill residential streets along Chestnut Lane, Stanley Hill, Hervines Road and Hyrons Lane carry detached Edwardian and 1930s homes on generous plots. SteelR traditional six-panel designs with lion-head knockers and polished brass ironmongery are a natural fit for Old Amersham heritage context, while contemporary flush panels with concealed hinges and matt-black hardware suit the HP6 new-build market. We advise on listed building consent in-house and survey both HP6 and HP7 from our Ickenham workshop.",
     localFeatures: [
-      "Grade II listed flint cottages in Old Amersham conservation area",
-      "Spacious 1930s Metroland homes on Woodside Road and Hervines Road",
-      "Converted barn and farmstead properties on the town fringe",
-      "Modern infill developments integrating with Chiltern vernacular styles",
+      "15th-century half-timbered High Street buildings in the Old Amersham HP7 conservation area",
+      "Grade I listed Church of St Mary and Grade II listed Market Hall in the Old Town",
+      "Edwardian and 1930s detached homes on Chestnut Lane, Stanley Hill and Hyrons Lane in HP6",
+      "Chiltern Hills AONB rural estate properties off Whielden Lane and Shardeloes Road",
     ],
     heroImage: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
     galleryImages: [
@@ -100,12 +100,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Chalfont St Peter sits at the junction of the Misbourne valley and the Colne, a village that has grown into one of South Buckinghamshire's most sought-after addresses. Gold Hill Common and the surrounding greenbelt give properties a rural outlook even as London remains within easy reach. The housing stock ranges from period farmhouses to executive estates, and SteelR steel entrance doors are designed to enhance each style, whether that means a traditional panelled design for a brick cottage or a sleek contemporary profile for a new-build.",
+      "Chalfont St Peter sits within the SL9 postcode on the fringe of the Chiltern Hills AONB, a village centre that has retained its Market Place and conservation-area character despite proximity to the M25 and M40. Properties on Market Place, the High Street and Joiners Lane mix Georgian shopfronts with period cottages, while the residential streets around Gold Hill Common, Oval Way and Austenwood Lane feature substantial Edwardian detached houses and 1930s mock-Tudor villas. Gravel Hill and the private roads leading towards the Gerrards Cross border carry estate-grade properties on deep plots, often requiring large-format SteelR doors with sidelights and fanlights. Every door is SR3 rated to BS EN 1627 Class 3 as standard, SR4 (LPS 1175) available as an upgrade for more remote rural properties, and fully bespoke to aperture dimensions. We survey SL9 and the wider Chalfonts area from our Ickenham workshop, and liaise with the conservation officer on Market Place applications in-house.",
     localFeatures: [
-      "Executive detached homes on Austenwood Lane and Gravel Hill",
-      "Period properties and converted farmhouses near the village centre",
-      "Gated developments with contemporary architectural language",
-      "Chiltern brick-and-flint vernacular cottages on village lanes",
+      "Georgian shopfronts and period cottages on Market Place in the SL9 conservation area",
+      "Substantial Edwardian detached homes around Gold Hill Common, Austenwood Lane and Joiners Lane",
+      "1930s mock-Tudor villas along Oval Way and the Copthall Lane estates",
+      "Estate-grade properties on private roads towards the Gerrards Cross border and the Chiltern AONB",
     ],
     heroImage: "/images/gallery/steelr-sage-contemporary-bar-handle-sidelight.jpg",
     galleryImages: [
@@ -124,12 +124,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Marlow's suspension bridge and Georgian high street create one of the Thames Valley's most picturesque settings. Riverside homes, period townhouses, and substantial Edwardian villas characterise this desirable market town where property values reflect the quality of life. The blend of heritage architecture and affluent modern taste makes Marlow an ideal market for SteelR bespoke steel doors, which deliver unmatched security and thermal efficiency while preserving the refined aesthetic that defines the town's streetscapes.",
+      "Marlow in SL7 is a Thames-side market town with a Georgian High Street, the Grade I listed suspension bridge designed by William Tierney Clark, and riverside properties among the most sought-after in the Chilterns. Detached homes on West Street, Quoiting Square and Station Road sit within or adjacent to the town conservation area, while the residential streets rising towards Higginson Park (Glade Road, Spinfield Lane, Henley Road and The Causeway) carry substantial Edwardian and 1920s villas on deep plots. The Micklefield and Little Marlow estates add post-war detached stock, while Marlow Mill and newer riverside developments supply contemporary apartments and townhouses. SteelR contemporary and traditional collections both suit Marlow, with bespoke colour matching to painted stucco frontages and FD30S fire-rated options available where conversion work triggers Approved Document B compliance. We survey SL7 and the wider Chilterns from our Ickenham workshop with no regional surcharge.",
     localFeatures: [
-      "Georgian and Regency townhouses on the High Street and West Street",
-      "Riverside properties with direct Thames frontage and private moorings",
-      "Edwardian villas on Glade Road and Spinfield Lane",
-      "Contemporary new-builds in developments like Marlow Mill",
+      "Georgian and Regency townhouses on West Street, Quoiting Square and the SL7 High Street conservation area",
+      "Grade I listed Marlow Suspension Bridge and Grade II listed All Saints Church",
+      "Substantial Edwardian and 1920s villas on Glade Road, Spinfield Lane and The Causeway",
+      "Riverside properties with Thames frontage and contemporary townhouses at Marlow Mill",
     ],
     heroImage: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
     galleryImages: [
@@ -148,12 +148,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Penn and its neighbour Penn Street occupy an elevated position in the Chilterns with far-reaching views across the Chess valley. This is quintessential English countryside living, where properties sit within generous plots behind mature gardens and ancient hedgerows. The village's brick-and-flint cottages, Georgian farmhouses, and architect-designed modern homes all benefit from a SteelR entrance door that delivers security and style in equal measure, crafted to complement the rural character without compromising on contemporary performance.",
+      "Penn and Tylers Green in HP10 occupy one of the highest-value village settings in the Chilterns, with the Common running east to west between Knotty Green and Beaconsfield. The Penn Village conservation area centres on Church Road and Elm Road, where Grade II listed cottages and Holy Trinity Church sit among mature beech woodland. Properties at the western end along Rays Hill, Witheridge Lane and Common Wood Lane range from period cottages through substantial Edwardian detached villas to architect-designed modern houses with large windows exploiting the rural views. Tylers Green along the B474 adds further detached stock around Tylers Green Common and the Beaumont Road area. SteelR bespoke steel entrance doors suit both the conservation context (traditional six-panel designs with brass ironmongery) and the contemporary new-build market (flush panels, matt-black hardware). Every door is SR3 rated as standard with SR4 (LPS 1175) upgrade available. We survey HP10 directly from our Ickenham workshop.",
     localFeatures: [
-      "Brick-and-flint Chiltern cottages along Elm Road and Church Road",
-      "Period farmhouses with extensive grounds on village outskirts",
-      "Architect-designed contemporary homes on private lanes",
-      "Listed properties requiring sympathetic door designs",
+      "Grade II listed cottages and Holy Trinity Church in the Penn Village HP10 conservation area",
+      "Substantial Edwardian villas and architect-designed modern homes on Common Wood Lane and Church Road",
+      "Rural estate properties on Witheridge Lane and Rays Hill framed by beech woodland",
+      "Detached stock around Tylers Green Common and Beaumont Road along the B474",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-ring-knocker-open.jpg",
     galleryImages: [
@@ -172,12 +172,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Great Missenden is a Chiltern gem, famous as Roald Dahl's home village and beloved for its unspoilt High Street of independent shops and timber-framed buildings. The Misbourne valley setting ensures properties enjoy a tranquil, rural atmosphere while remaining well connected via the Metropolitan line. SteelR entrance doors are specified here by homeowners who want a front door that matches the quality of village life, whether fitted to a flint-faced period cottage or a substantial detached family home on the Prestwood fringe.",
+      "Great Missenden in HP16 sits at the heart of the Chiltern Hills AONB within the Misbourne valley, a village listed within its own conservation area and known internationally through the Roald Dahl Museum and Story Centre. The High Street features 17th and 18th century timber-framed and flint-faced cottages, while the residential streets up the hillside (Whitefield Lane, Trafford Road, Aylesbury Road and London Road) and the rural surrounding lanes (Nags Head Lane, Frith Hill, Rignall Road) carry substantial detached Edwardian and inter-war homes. Properties adjoining Missenden Abbey and the Rignall Road escarpment sit on generous rural plots frequently running to half an acre or more. SteelR handles listed building consent in-house where required, specifies bespoke colour and glazing to suit the Chilterns vernacular, and offers FD30S fire rating as standard with FD60 upgrade available. Every HP16 project includes an in-house site survey and single-day installation for most single-leaf configurations.",
     localFeatures: [
-      "Timber-framed and flint-faced cottages on the High Street",
-      "Detached family homes on London Road and Rignall Road",
-      "Converted agricultural buildings on surrounding farmland",
-      "Chiltern vernacular properties within the AONB setting",
+      "17th and 18th century timber-framed and flint-faced cottages in the Great Missenden HP16 conservation area",
+      "Substantial Edwardian detached homes on Whitefield Lane, Trafford Road and London Road",
+      "Rural properties on Nags Head Lane, Frith Hill and Rignall Road with Chilterns AONB frontage",
+      "Estate homes near Missenden Abbey and the Prestwood fringe on generous half-acre plots",
     ],
     heroImage: "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg",
     galleryImages: [
@@ -196,12 +196,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Princes Risborough sits at the foot of the Chiltern escarpment where Whiteleaf Cross is carved into the hillside above the town. Its market square and medieval church give the centre a timeless quality, while surrounding streets offer a range of period and modern homes. The town is experiencing renewed interest from buyers seeking value within the Chilterns AONB, and a SteelR bespoke steel door is the ideal upgrade for homeowners looking to elevate their property's kerb appeal and security in this growing market.",
+      "Princes Risborough in HP27 is a Saxon-era market town at the foot of the Chiltern escarpment, with a Grade II listed Market House and a designated conservation area covering the Market Square and Church Street. The surrounding Chiltern Hills AONB landscape is defined by Whiteleaf Cross, a chalk-cut hillside figure visible from the town centre. Residential stock includes Grade II listed timber-framed cottages in the conservation zone, substantial Edwardian detached homes along New Road, Longwick Road, Summerleys Road and Horns Lane, and rural estate properties off Picts Lane and Wellground Road approaching Whiteleaf. Contemporary architect-designed replacements are increasingly common on the Monks Risborough fringe. SteelR bespoke steel entrance doors suit both the conservation context and the contemporary new-build market, with SR3 rating as standard and SR4 (LPS 1175 Issue 8) commercial-grade upgrade available for rural properties set well back from the road. HP27 surveys run from our Ickenham workshop with no regional surcharge.",
     localFeatures: [
-      "Victorian and Edwardian terraces around the Market Square",
-      "Detached homes on Longwick Road and Summerleys Road",
-      "New-build estates on the southern fringe of the town",
-      "Converted period properties near the historic centre",
+      "Grade II listed Market House and Market Square within the HP27 conservation area",
+      "Timber-framed listed cottages along Church Street and the Market Square",
+      "Edwardian detached homes on New Road, Longwick Road, Summerleys Road and Horns Lane",
+      "Rural estate properties off Picts Lane and Wellground Road approaching Whiteleaf Cross",
     ],
     heroImage: "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg",
     galleryImages: [
@@ -220,12 +220,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "High Wycombe is the largest town in Buckinghamshire, set within a valley of the Chiltern Hills with a rich furniture-making heritage. The surrounding hillside neighbourhoods of Downley, Hughenden, and Totteridge offer substantial family homes with panoramic views, while the town centre is undergoing significant regeneration. SteelR steel doors are increasingly specified in Wycombe's premium suburbs, where homeowners upgrading period and post-war properties appreciate the combination of handcrafted aesthetics and modern multi-point locking systems.",
+      "High Wycombe is Buckinghamshire's largest town, covering the HP11, HP12, HP13 and HP14 postcode areas within a valley of the Chiltern Hills. The residential landscape is varied: the Hughenden Valley and Downley (HP14) offer rural-feel streets with detached family homes, Loudwater along the A40 adds substantial inter-war detached stock, and the Desborough and town centre neighbourhoods carry Victorian terraces climbing the surrounding hills. The most sought-after premium pockets are the streets around Wycombe Abbey School and Hughenden Manor, including Amersham Hill, Marlow Hill, Hughenden Road, Totteridge Road and Coates Lane. SteelR bespoke steel doors are increasingly specified for Wycombe's premium suburbs, with traditional six-panel designs for the Victorian and Edwardian stock and contemporary flush panels for the newer detached market. We survey all four Wycombe postcodes from our Ickenham workshop and handle conservation area liaison on properties within the Hughenden and Downley designations in-house.",
     localFeatures: [
-      "Hillside detached homes in Hughenden and Downley with valley views",
-      "Victorian terraces in the town centre and Desborough area",
-      "Executive homes on Amersham Hill and Marlow Hill",
-      "Post-war properties in Totteridge and Micklefield being modernised",
+      "Victorian and Edwardian detached homes on Amersham Hill, Hughenden Road and Totteridge Road",
+      "Rural-feel streets in Hughenden Valley and Downley within HP11, HP13 and HP14",
+      "Loudwater inter-war detached stock along Treadaway Road and Kingsmead Road",
+      "Family homes in the Wycombe Abbey School and Hughenden Manor catchment areas",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg",
     galleryImages: [
@@ -244,12 +244,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Burnham and its neighbouring villages of Burnham Beeches and Taplow occupy a favoured position between the ancient beechwoods and the Thames. The area is home to some of South Buckinghamshire's most prestigious addresses, with grand homes set within extensive grounds along Dropmore Road and Berry Hill. SteelR bespoke steel entrance doors are the natural choice for these properties, offering a front door that matches the grandeur of the house and grounds while providing the security that remote rural settings demand.",
+      "Burnham sits in the SL1 and SL2 postcodes on the southern edge of Buckinghamshire, with Burnham Beeches National Nature Reserve forming the western boundary and the A4 Bath Road the southern. The village High Street is a designated conservation area with Grade II listed frontages, while the Dropmore Road and Cliveden Road estates to the north of Burnham Common feature substantial detached Edwardian and inter-war homes on deep plots backing onto ancient beech woodland. Berry Hill and the private roads leading towards Taplow add Thames-frontage properties among the most prestigious in South Buckinghamshire. The Lent Rise and Cherry Tree Road areas carry 1930s detached family stock. SteelR bespoke steel entrance doors match the area's mix of conservation heritage and contemporary family living, with traditional panel profiles for the listed zone and architect-led flush designs for the new-build market. Every door is SR3 rated as standard, SR4 (LPS 1175) available as an upgrade for rural or riverside properties. We survey SL1 and SL2 directly from Ickenham with no regional surcharge.",
     localFeatures: [
-      "Grand detached properties on Dropmore Road and Berry Hill",
-      "Period homes near Burnham Beeches National Nature Reserve",
-      "Thames-side residences in Taplow with river frontage",
-      "Contemporary replacements and extensions on established plots",
+      "Burnham Village High Street SL1 conservation area with Grade II listed frontages",
+      "Substantial Edwardian and inter-war homes on Dropmore Road, Cliveden Road and Berry Hill",
+      "1930s detached family stock along Lent Rise Road and Cherry Tree Road",
+      "Rural estate and Thames-frontage properties backing onto Burnham Beeches National Nature Reserve",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-sidelights-garden.jpg",
     galleryImages: [
@@ -268,12 +268,12 @@ export const buckinghamshireLocations: Location[] = [
     parentSlug: "buckinghamshire",
     tier: 3,
     description:
-      "Haddenham is a large Aylesbury Vale village distinguished by its unique wychert walls, built from the local chalky clay that gives the conservation area its distinctive pale, textured appearance. The village green, duck pond, and church create an archetypal English setting, while the Haddenham and Thame Parkway station has attracted professionals seeking countryside living with fast London access. SteelR steel doors complement the warm tones of wychert and local brick, offering bespoke colour matching to integrate with this unique vernacular tradition.",
+      "Haddenham in HP17 is one of the largest and oldest villages in Buckinghamshire, distinguished by its historic wychert cob walls built from the local chalky clay and the Grade I listed St Mary's Church at Church End. The Church End conservation area preserves thatched cottages and whitewashed cob-walled dwellings that have also served as filming locations for the Midsomer Murders series. Residential streets such as Fort End, Dadbrook, Woodways and Stanbridge Road carry substantial Edwardian detached homes and modern architect-designed replacements on generous plots. The Aston Road and Townsend Green areas offer 1930s and post-war detached family stock, while proximity to Haddenham and Thame Parkway station has attracted London commuters specifying new-build executive homes on the village periphery. SteelR handles listed building consent for Church End properties in-house and specifies bespoke colour and glazing to sit respectfully against the wychert wall context. HP17 is surveyed from our Ickenham workshop with no regional surcharge.",
     localFeatures: [
-      "Wychert-walled cottages in the village conservation area",
-      "Modern executive homes near Haddenham and Thame Parkway station",
-      "Period farmhouses and barns on the village periphery",
-      "Detached family homes on Stanbridge Road and Aston Road",
+      "Grade I listed St Mary's Church and thatched cottages in the Church End HP17 conservation area",
+      "Wychert cob-walled dwellings along Church End, Fort End and the village green",
+      "Edwardian detached homes and architect-designed replacements on Woodways, Dadbrook and Stanbridge Road",
+      "1930s and post-war detached family stock around Aston Road and Townsend Green",
     ],
     heroImage: "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
     galleryImages: [
