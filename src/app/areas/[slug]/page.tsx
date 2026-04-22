@@ -111,12 +111,53 @@ const credentials = [
   "Comprehensive Warranty & Aftercare",
 ];
 
+// Per-region "guides for homeowners" — curated blog links that bridge
+// 166 area pages to the 40-post corpus. Closes the area→blog gap flagged
+// by the 22 Apr audit (previously every area page had zero blog outbound).
+function getAreaGuides(region: string | undefined, locationType: string): Array<{ slug: string; title: string }> {
+  const common = { slug: "period-property-front-door-ultimate-guide", title: "Period Property Front Doors: Ultimate Guide" };
+  const security = { slug: "front-door-security-ratings-compared-sr1-to-sr3", title: "Front Door Security Ratings: SR1 to SR3" };
+  const colour = { slug: "ral-colours-front-doors-complete-guide", title: "The Complete Guide to RAL Colours" };
+  const londonTownhouses = { slug: "front-doors-london-townhouses-guide", title: "Front Doors for London Townhouses" };
+  const londonPeriod = { slug: "best-areas-london-period-property-renovations", title: "Best London Areas for Period Renovations" };
+  const bucks = { slug: "steel-entrance-doors-buckinghamshire-homes", title: "Steel Entrance Doors for Buckinghamshire Homes" };
+  const surrey = { slug: "steel-entrance-doors-surrey-properties", title: "Steel Entrance Doors for Surrey Properties" };
+  const kent = { slug: "steel-entrance-doors-kent-properties", title: "Steel Entrance Doors for Kent Properties" };
+  const countryHomes = { slug: "steel-doors-country-homes-guide", title: "Steel Doors for Country Homes" };
+  const newBuilds = { slug: "best-front-doors-new-builds-uk", title: "Best Front Doors for New Builds" };
+
+  const r = (region || "").toLowerCase();
+  if (r.includes("london") || locationType === "city") {
+    return [londonTownhouses, londonPeriod, security];
+  }
+  if (r.includes("buckinghamshire") || r.includes("bucks")) {
+    return [bucks, common, colour];
+  }
+  if (r.includes("surrey")) {
+    return [surrey, countryHomes, colour];
+  }
+  if (r.includes("kent")) {
+    return [kent, common, security];
+  }
+  if (r.includes("berkshire") || r.includes("oxfordshire") || r.includes("hampshire")) {
+    return [countryHomes, common, colour];
+  }
+  if (r.includes("essex") || r.includes("hertfordshire") || r.includes("sussex")) {
+    return [common, security, colour];
+  }
+  if (r.includes("manchester") || r.includes("birmingham") || r.includes("cheshire") || r.includes("yorkshire") || r.includes("scotland")) {
+    return [newBuilds, security, colour];
+  }
+  return [common, security, colour];
+}
+
 export default async function AreaPage({ params }: Props) {
   const { slug } = await params;
   const location = getLocationBySlug(slug);
   if (!location) notFound();
 
   const label = location.name;
+  const areaGuides = getAreaGuides(location.region, location.type);
 
   /* FAQ data — use location-specific FAQs if provided, otherwise generate defaults */
   const defaultFaqs = [
@@ -936,6 +977,64 @@ export default async function AreaPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* Guides for {label} homeowners — bridges this area page to topical blog
+          content. Region-aware picks via getAreaGuides(). Added 22 Apr to close
+          the internal-linking gap flagged by audit (166 area pages had zero blog
+          outbound links). */}
+      <section className="bg-cream py-16 md:py-20 px-6 md:px-16 border-t border-[rgba(26,26,24,0.08)]">
+        <div className="max-w-[1200px] mx-auto">
+          <ScrollReveal>
+            <p
+              className="mb-3"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 11,
+                letterSpacing: "0.25em",
+                textTransform: "uppercase",
+                color: "#8a8a82",
+              }}
+            >
+              Guides for {label} Homeowners
+            </p>
+            <h2
+              className="mb-10"
+              style={{
+                fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontSize: "clamp(24px, 3vw, 36px)",
+                color: "#1a1a18",
+                lineHeight: 1.2,
+              }}
+            >
+              What to know before choosing a steel front door
+            </h2>
+          </ScrollReveal>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {areaGuides.map((g, i) => (
+              <ScrollReveal key={g.slug} delay={i * 0.08}>
+                <Link
+                  href={`/blog/${g.slug}`}
+                  className="group block p-6 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+                >
+                  <p
+                    style={{
+                      fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                      fontWeight: 400,
+                      fontSize: "clamp(16px, 1.8vw, 20px)",
+                      color: "#1a1a18",
+                      lineHeight: 1.3,
+                    }}
+                  >
+                    {g.title} <span style={{ color: "#c9a96e" }}>&rarr;</span>
+                  </p>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Inline enquiry panel — auto-tags source=area-<slug> for lead attribution */}
       <QuickEnquiry source={`area-${location.slug}`} contextLabel={label} />

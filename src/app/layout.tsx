@@ -82,6 +82,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "HomeAndConstructionBusiness",
+              "@id": "https://steelr.co.uk/#business",
               "name": "SteelR",
               "alternateName": "SteelR Bespoke Entrance Doors",
               "telephone": "0800 861 1450",
@@ -96,8 +97,10 @@ export default function RootLayout({
               },
               "address": {
                 "@type": "PostalAddress",
+                "streetAddress": "11 Silverbirch Close",
                 "addressLocality": "Uxbridge",
                 "addressRegion": "West London",
+                "postalCode": "UB10 8AP",
                 "addressCountry": "GB"
               },
               "geo": {

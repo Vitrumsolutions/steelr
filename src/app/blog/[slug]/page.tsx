@@ -45,7 +45,17 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const otherPosts = posts.filter((p) => p.slug !== post.slug).slice(0, 2);
+  // Prefer same-category posts; fall back to most-recent across categories.
+  // Was alphabetical .slice(0,2) — irrelevant to reader intent and left many
+  // topically-related posts unlinked across the 40-post corpus.
+  const sameCategory = posts
+    .filter((p) => p.slug !== post.slug && p.category === post.category)
+    .sort((a, b) => (b.date || "").localeCompare(a.date || ""))
+    .slice(0, 2);
+  const fallback = posts
+    .filter((p) => p.slug !== post.slug && !sameCategory.some((s) => s.slug === p.slug))
+    .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  const otherPosts = [...sameCategory, ...fallback].slice(0, 2);
 
   // Convert markdown-style content to HTML-like sections
   const sections = post.content.split("\n\n").map((block: string, i: number) => {

@@ -45,6 +45,28 @@ export default async function DoorPage({ params }: Props) {
 
   const related = getRelatedDoors(door);
 
+  // Per-style "further reading" — picks 3 blog posts relevant to the door's style +
+  // universal links (colour guide, security). Closes the collection→blog bridge
+  // the 22 Apr audit flagged (54 door pages previously had zero blog outbound).
+  const styleBlogMap: Record<string, Array<{ slug: string; title: string }>> = {
+    Contemporary: [
+      { slug: "modern-front-door-ideas-inspiration-2026", title: "Modern Front Door Ideas for 2026" },
+      { slug: "ral-colours-front-doors-complete-guide", title: "The Complete Guide to RAL Colours" },
+      { slug: "front-door-security-ratings-compared-sr1-to-sr3", title: "Security Ratings Compared: SR1 to SR3" },
+    ],
+    Traditional: [
+      { slug: "period-property-front-door-ultimate-guide", title: "Period Property Front Doors: Ultimate Guide" },
+      { slug: "best-front-doors-period-properties", title: "Best Front Doors for Period Properties" },
+      { slug: "ral-colours-front-doors-complete-guide", title: "The Complete Guide to RAL Colours" },
+    ],
+    "Double Doors": [
+      { slug: "double-front-doors-pros-cons-guide", title: "Double Front Doors: Pros & Cons" },
+      { slug: "luxury-front-doors-uk-buyer-guide", title: "Luxury Front Doors: UK Buyer Guide" },
+      { slug: "front-door-security-ratings-compared-sr1-to-sr3", title: "Security Ratings Compared: SR1 to SR3" },
+    ],
+  };
+  const furtherReading = styleBlogMap[door.style] ?? styleBlogMap.Contemporary;
+
   return (
     <>
       {/* Schema.org Product + BreadcrumbList */}
@@ -562,6 +584,62 @@ export default async function DoorPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* Further reading — bridges this product page to topical blog content.
+          Added 22 Apr to close the internal-linking gap flagged by audit (54 door
+          pages previously had zero blog outbound links). */}
+      <section className="bg-cream py-16 md:py-20 px-6 md:px-16 border-t border-[rgba(26,26,24,0.08)]">
+        <div className="max-w-[1200px] mx-auto">
+          <ScrollReveal>
+            <p
+              className="mb-3"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 11,
+                letterSpacing: "0.25em",
+                textTransform: "uppercase",
+                color: "#8a8a82",
+              }}
+            >
+              Further Reading
+            </p>
+            <h2
+              className="mb-10"
+              style={{
+                fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontSize: "clamp(24px, 3vw, 36px)",
+                color: "#1a1a18",
+              }}
+            >
+              Guides that pair with this door
+            </h2>
+          </ScrollReveal>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {furtherReading.map((g, i) => (
+              <ScrollReveal key={g.slug} delay={i * 0.08}>
+                <Link
+                  href={`/blog/${g.slug}`}
+                  className="group block p-6 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+                >
+                  <p
+                    style={{
+                      fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                      fontWeight: 400,
+                      fontSize: "clamp(16px, 1.8vw, 20px)",
+                      color: "#1a1a18",
+                      lineHeight: 1.3,
+                    }}
+                  >
+                    {g.title} <span style={{ color: "#c9a96e" }}>&rarr;</span>
+                  </p>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Inline enquiry panel — auto-tags source=collection-<slug> for lead attribution */}
       <QuickEnquiry source={`collection-${door.slug}`} contextLabel={door.title} />
