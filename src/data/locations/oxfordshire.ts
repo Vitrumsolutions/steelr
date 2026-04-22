@@ -28,12 +28,12 @@ export const oxfordshireLocations: Location[] = [
     parentSlug: "oxfordshire",
     tier: 3,
     description:
-      "Oxford's residential streets radiate outward from the university core, where Victorian terraces in Jericho give way to handsome Edwardian villas in North Oxford and Summertown. Properties along the Banbury and Woodstock Roads showcase period porches, stained glass fanlights, and generous stone surrounds that demand an entrance door of equal stature. SteelR doors complement Oxford's scholarly elegance, offering bespoke designs that respect the proportions and detailing of these sought-after homes while delivering contemporary thermal and acoustic performance.",
+      "Oxford in OX1, OX2, OX3 and OX4 is a university city whose residential streets radiate outward from the historic core. The premium residential market sits in North Oxford (OX2) along the Banbury Road, Woodstock Road, Norham Road and Park Town, where substantial Edwardian villas and Grade II listed semi-detached properties sit behind mature hedging on generous plots. Jericho (OX2) adds Victorian terraces with ornate stone porches along Walton Street and Great Clarendon Street, while Summertown (OX2) carries Edwardian detached family homes on roads including Lonsdale Road and Hamilton Road. Headington (OX3) and Iffley (OX4) supply further Edwardian and inter-war detached stock, and Old Marston adds listed thatched and stone cottages. The North Oxford conservation area and the Central Oxford conservation area impose heritage restrictions on external change. SteelR bespoke steel entrance doors respect Oxford's scholarly elegance with traditional six-panel designs for conservation zones and contemporary flush panels for the Summertown new-build market. Listed building consent handled in-house. OX1 through OX4 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Victorian terraces with ornate stone porches in Jericho",
-      "Edwardian detached villas along Banbury and Woodstock Roads",
-      "Period properties with stained glass fanlights in North Oxford",
-      "Conservation area restrictions requiring sympathetic door design",
+      "Substantial Edwardian villas and Grade II listed semis on Banbury Road, Woodstock Road and Norham Road in OX2",
+      "Victorian terraces with ornate stone porches on Walton Street and Great Clarendon Street in Jericho OX2",
+      "Edwardian detached family homes on Lonsdale Road and Hamilton Road in Summertown OX2",
+      "Edwardian and inter-war detached stock in Headington OX3 and Iffley OX4 with listed thatched cottages in Old Marston",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
     galleryImages: [
@@ -52,12 +52,12 @@ export const oxfordshireLocations: Location[] = [
     parentSlug: "oxfordshire",
     tier: 3,
     description:
-      "Nestled at the gates of Blenheim Palace, Woodstock is a picture-perfect Cotswold market town where golden limestone cottages line Park Street and the High Street. Many properties here feature traditional arched doorways, wrought-iron boot scrapers, and period lanterns that set a distinctly refined tone. SteelR bespoke entrance doors honour this heritage with custom arch profiles, traditional ironmongery finishes, and proportions tailored to Woodstock's characterful stone frontages, ensuring each installation feels as though it has always belonged.",
+      "Woodstock in OX20 is a picture-perfect Cotswold market town nestled at the gates of the UNESCO World Heritage Site Blenheim Palace (the Duke of Marlborough's estate, Grade I listed). The town centre conservation area covers Park Street, Market Street and the High Street with golden limestone cottages, Grade II listed Georgian townhouses and coaching inns dating from the 17th and 18th centuries. The Grade I listed Church of St Mary Magdalene anchors the market place. Residential streets including Oxford Road, Hensington Road and Manor Road carry substantial Edwardian and inter-war detached homes, while the surrounding villages of Bladon, Combe and Old Woodstock add converted barns and Cotswold stone cottages on estate-grade plots. SteelR bespoke steel entrance doors honour this heritage with custom arch profiles, bespoke RAL colour matching to the distinctive Cotswold limestone palette, and traditional ironmongery finishes in antique brass and bronze. Listed building consent handled in-house. OX20 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Cotswold stone cottages with arched doorways on Park Street",
-      "Georgian townhouses with symmetrical facades on the High Street",
-      "Estate properties influenced by Blenheim Palace architecture",
-      "Listed buildings requiring heritage-sensitive door replacements",
+      "Grade I listed Blenheim Palace and Grade II listed Georgian townhouses within the Woodstock OX20 conservation area",
+      "Cotswold limestone cottages with arched doorways on Park Street and Market Street",
+      "Grade I listed Church of St Mary Magdalene and coaching inns on the High Street",
+      "Estate-grade converted barns and cottages in Bladon, Combe and Old Woodstock villages",
     ],
     heroImage: "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
     galleryImages: [
@@ -76,12 +76,12 @@ export const oxfordshireLocations: Location[] = [
     parentSlug: "oxfordshire",
     tier: 3,
     description:
-      "Known as the gateway to the Cotswolds, Burford's steep high street descends past medieval wool merchant houses, mullioned windows, and honey-coloured stone facades that have barely changed in four centuries. The surrounding countryside holds substantial farmhouses and converted barns where wide entrances and robust construction are essential. SteelR doors bring modern insulation and multi-point locking to these timeless settings, with bespoke colour matching that complements Burford's distinctive warm limestone palette without compromise.",
+      "Burford in OX18 is known as the gateway to the Cotswolds, its steep High Street descending past Grade I listed medieval wool merchant houses, mullioned windows and honey-coloured Cotswold stone facades that have barely changed in four centuries. The High Street conservation area preserves Grade I listed Church of St John the Baptist (built 1175) and a concentration of Grade II and II* listed townhouses, coaching inns and almshouses. Residential streets including Witney Street, Sheep Street and Priory Lane carry listed stone cottages and Georgian townhouses, while the surrounding villages of Fulbrook, Taynton, Swinbrook (Mitford family seat) and Shilton add substantial stone farmhouses, converted wool barns and country houses on estate-grade plots within the Cotswolds AONB. SteelR bespoke steel entrance doors bring modern insulation, SR3 rating and multi-point locking to these timeless settings, with bespoke RAL colour matching to the distinctive Cotswold limestone palette. Listed building consent handled in-house. OX18 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Medieval wool merchant houses with wide stone surrounds",
-      "Converted Cotswold barns requiring oversized entrance doors",
-      "Honey-stone facades demanding precise colour matching",
-      "Rural farmhouses with exposed porch canopies and flagstone thresholds",
+      "Grade I listed Church of St John the Baptist and medieval wool merchant houses on the Burford OX18 High Street",
+      "Grade II and II* listed Georgian townhouses, coaching inns and almshouses in the OX18 conservation area",
+      "Converted Cotswold stone wool barns and farmhouses in Fulbrook, Taynton and Shilton",
+      "Country houses on estate-grade plots in Swinbrook (Mitford family seat) within the Cotswolds AONB",
     ],
     heroImage: "/images/gallery/steelr-sage-panelled-arched-wreath.jpg",
     galleryImages: [
@@ -100,12 +100,12 @@ export const oxfordshireLocations: Location[] = [
     parentSlug: "oxfordshire",
     tier: 3,
     description:
-      "Bicester has transformed from a quiet market town into one of Oxfordshire's fastest-growing communities, where new executive homes on developments like Kingsmere sit alongside a historic core of Georgian and Victorian properties around Market Square. Homeowners in the premium new-builds seek entrance doors that elevate standard developer finishes, while period property owners want designs that respect the town's older character. SteelR delivers both, crafting contemporary or traditional bespoke doors that set any Bicester home apart from its neighbours.",
+      "Bicester in OX25, OX26 and OX27 has transformed from a quiet market town into one of Oxfordshire's fastest-growing communities, anchored by Bicester Village (the UK's largest luxury outlet). The Kingsmere, Elmsbrook (the UK's first NW Bicester Eco Town) and Graven Hill (the UK's largest self-build development) communities supply contemporary executive homes on landscaped grounds, while the historic town centre preserves Grade II listed Georgian and Victorian properties around Market Square, Sheep Street and Church Street. Premium residential roads include London Road, Oxford Road and Wendlebury Road carrying inter-war and post-war detached family homes, while the surrounding villages of Fringford, Stoke Lyne and Ardley add rural-estate stock and converted agricultural buildings. The demand for premium upgrades to developer-standard front doors is notable here. SteelR bespoke steel entrance doors deliver both contemporary flush panels for new-build owners seeking to elevate standard specification and traditional six-panel designs for period property owners. OX25 through OX27 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Executive new-builds on Kingsmere and Elmsbrook developments",
-      "Georgian properties around Market Square and Sheep Street",
-      "Victorian terraces with bay windows and recessed porches",
-      "Growing demand for premium upgrades to developer-standard front doors",
+      "Executive new-builds on Kingsmere, Elmsbrook NW Bicester Eco Town and Graven Hill self-build within OX26 and OX27",
+      "Grade II listed Georgian and Victorian properties around Market Square, Sheep Street and Church Street",
+      "Inter-war and post-war detached family homes on London Road, Oxford Road and Wendlebury Road",
+      "Rural-estate stock and converted agricultural buildings in Fringford, Stoke Lyne and Ardley villages",
     ],
     heroImage: "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg",
     galleryImages: [
@@ -124,12 +124,12 @@ export const oxfordshireLocations: Location[] = [
     parentSlug: "oxfordshire",
     tier: 3,
     description:
-      "Perched high on the Cotswold escarpment, Chipping Norton — affectionately known as Chippy — is the unofficial capital of the Oxfordshire Cotswolds. Its broad market place is ringed by handsome coaching inns and townhouses, while the surrounding lanes harbour substantial stone farmhouses favoured by the area's well-heeled residents. SteelR entrance doors suit this discerning market perfectly, offering hand-finished ironmongery, heritage colour palettes, and robust steel construction that withstands the exposed hilltop weather without sacrificing an ounce of elegance.",
+      "Chipping Norton in OX7, affectionately known as Chippy, is perched high on the Cotswold escarpment and is the unofficial capital of the Oxfordshire Cotswolds within the Cotswolds AONB. The Market Place conservation area is ringed by Grade II listed Georgian coaching inns, townhouses and the Grade I listed Church of St Mary the Virgin. The Chipping Norton Set (David Cameron, Jeremy Clarkson, Rebekah Brooks and others) has famously associated the area with high-profile residency. Residential streets including New Street, West Street, Horsefair and Albion Street carry listed stone cottages and Georgian townhouses, while the surrounding villages of Great Tew (privately owned model village), Kingham, Churchill, Sarsden and the Wychwoods add substantial stone farmhouses, converted wool barns and country estates on plots of two to twenty acres. SteelR bespoke steel entrance doors suit this discerning market with hand-finished ironmongery in antique brass, heritage colour palettes matching the Cotswold limestone, marine-grade powder coat for the exposed hilltop weather, and SR4 (LPS 1175) commercial-grade upgrade specified on roughly one in four Cotswolds projects. OX7 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Cotswold stone townhouses around the historic market place",
-      "Substantial farmhouses and converted barns in surrounding villages",
-      "Exposed hilltop location requiring weather-resistant door construction",
-      "Affluent community with high demand for bespoke craftsmanship",
+      "Grade II listed Georgian coaching inns and townhouses around the Chipping Norton OX7 Market Place",
+      "Grade I listed Church of St Mary the Virgin and listed stone cottages on New Street and West Street",
+      "Country estates in Great Tew model village, Kingham, Churchill and the Wychwoods on plots of two to twenty acres",
+      "Substantial Cotswold stone farmhouses and converted wool barns within the Cotswolds AONB",
     ],
     heroImage: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
     galleryImages: [
