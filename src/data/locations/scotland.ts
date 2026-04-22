@@ -28,12 +28,13 @@ export const scotlandLocations: Location[] = [
     parentSlug: "scotland",
     tier: 3,
     description:
-      "Edinburgh divides neatly between the medieval Old Town's tenement closes and the Georgian perfection of the New Town, both UNESCO World Heritage sites. Moray Place crescents, Heriot Row doorways, and the grand villas of Morningside and The Grange present some of Britain's most architecturally demanding entrance requirements. SteelR creates bespoke steel doors for Edinburgh homes that satisfy the city's rigorous planning standards while delivering exceptional thermal performance against Scotland's biting east-coast winters.",
+      "Edinburgh divides neatly between the medieval Old Town's tenement closes and the Georgian perfection of the New Town, both UNESCO World Heritage sites. The EH3 postcode covering Moray Place, Heriot Row, Ann Street and Great King Street contains some of Europe's finest Georgian architecture, with City of Edinburgh Council enforcing strict conservation controls including Article 4 Directions. Victorian and Edwardian villas in Morningside (EH10), The Grange (EH9) and Merchiston feature deep-set porches with original fanlights, while sandstone detached homes in Corstorphine (EH12) and Cramond (EH4) offer more generous plots. Quartermile and the Fountainbridge waterfront support contemporary developments where bolder steel door specifications suit the architecture. SteelR creates bespoke steel entrance doors for Edinburgh that satisfy the city's rigorous planning standards with hand-finished ogee panels, arched Georgian fanlights and period ironmongery in polished brass or antique bronze. Finishes include RAL 9005 Jet Black, RAL 7016 Anthracite and RAL 6009 Fir Green. Every door delivers exceptional thermal performance against Scotland's biting east-coast winters, with U-values from 0.9 W/m2K, PAS 24:2022 certification, SR3 rated security to BS EN 1627 Class 3, Secured by Design approval, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Georgian townhouses in the New Town and Stockbridge",
-      "Victorian and Edwardian villas in Morningside and The Grange",
-      "Sandstone detached homes in Corstorphine and Cramond",
-      "Contemporary developments in Quartermile and the waterfront",
+      "Georgian townhouses in the New Town, Stockbridge and Moray Place (EH3)",
+      "Victorian and Edwardian villas in Morningside, The Grange and Merchiston (EH9 and EH10)",
+      "Sandstone detached homes in Corstorphine, Cramond and Barnton (EH4 and EH12)",
+      "Contemporary developments in Quartermile, Fountainbridge and the waterfront",
+      "UNESCO World Heritage properties under Article 4 Direction controls",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
     galleryImages: [
@@ -52,12 +53,13 @@ export const scotlandLocations: Location[] = [
     parentSlug: "scotland",
     tier: 3,
     description:
-      "Glasgow's architectural legacy rivals any European city, from the Charles Rennie Mackintosh masterpieces to the red sandstone tenements of the West End and the grand terraces of Park Circus. Hyndland, Pollokshields, and Bearsden offer substantial Victorian and Edwardian homes where a bespoke steel entrance door makes a powerful first impression. SteelR designs for Glasgow balance the city's celebrated decorative tradition with clean modern engineering, creating doors as bold and distinctive as the city itself.",
+      "Glasgow's architectural legacy rivals any European city, from the Charles Rennie Mackintosh masterpieces to the red sandstone tenements of the West End and the grand terraces of Park Circus. The G12 postcode covering Hyndland, Dowanhill and Kelvinside contains some of Scotland's most prized period housing, with villas along Crown Road, Hughenden Road and Great Western Road regularly exchanging above the two million pound mark. Pollokshields in G41 offers substantial Victorian and Edwardian detached homes on leafy plots, while Park Circus and Woodlands in G3 feature Grade A listed Georgian terraces under strict conservation controls. Detached family homes in the G61 Bearsden, G62 Milngavie and G77 Newton Mearns suburbs favour more contemporary specifications. SteelR designs for Glasgow balance the city's celebrated decorative tradition with clean modern engineering, offering hand-finished ogee panels, arched fanlights, geometric leaded glazing and bold ironmongery in polished chrome, brushed brass or matt black. Finishes include RAL 9005 Jet Black, RAL 3004 Purple Red and RAL 7024 Graphite Grey. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3 as standard, Secured by Design approved, FD30S fire rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Red sandstone tenement flats in the West End and Southside",
-      "Victorian and Edwardian villas in Hyndland and Pollokshields",
-      "Grand terraced houses around Park Circus and Woodlands",
-      "Detached family homes in Bearsden, Milngavie, and Newton Mearns",
+      "Red sandstone tenement flats in the West End (G12) and Southside (G41)",
+      "Victorian and Edwardian villas in Hyndland, Kelvinside and Pollokshields",
+      "Grade A listed Georgian terraces around Park Circus and Woodlands (G3)",
+      "Detached family homes in Bearsden, Milngavie and Newton Mearns (G61, G62, G77)",
+      "Charles Rennie Mackintosh influenced Arts and Crafts properties",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-circular-fluted.jpg",
     galleryImages: [
@@ -76,12 +78,13 @@ export const scotlandLocations: Location[] = [
     parentSlug: "scotland",
     tier: 3,
     description:
-      "St Andrews is a town of exceptional character, where medieval ruins, a world-famous university, and the spiritual home of golf converge along windswept Fife coastline. The dignified stone houses of South Street and The Scores, along with the prosperous homes surrounding the Old Course, represent some of Scotland's most coveted addresses. SteelR provides St Andrews homeowners with steel entrance doors that withstand the North Sea elements while reflecting the town's timeless dignity and scholarly elegance.",
+      "St Andrews is a town of exceptional character within the KY16 postcode, where medieval cathedral ruins, the oldest university in Scotland and the spiritual home of golf converge along the windswept Fife coastline. Dignified stone houses line South Street, Market Street and The Scores, many Grade A and Grade B listed within the St Andrews Conservation Area, while prosperous homes surrounding the Old Course and along Gibson Place rank among Scotland's most coveted addresses. The surrounding East Neuk villages of Crail, Anstruther and Pittenweem add characterful fishermen's cottages and substantial Edwardian villas to the local market. SteelR provides St Andrews homeowners with bespoke steel entrance doors that withstand North Sea salt spray and exposure category C wind loading, with 70mm thermally broken leaves finished in RAL 7012 Basalt Grey, RAL 9005 Jet Black or a bespoke heritage shade. Period-appropriate fanlights, ogee panels and ironmongery in polished brass or antique bronze satisfy Fife Council conservation officers. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3 as standard, Secured by Design approved, FD30S fire and smoke rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Medieval and Georgian stone townhouses along South Street",
-      "Substantial Victorian villas near The Scores and the harbour",
-      "Prestigious properties overlooking the Old Course links",
-      "Converted period homes in the surrounding East Neuk villages",
+      "Medieval and Georgian stone townhouses along South Street and Market Street (KY16)",
+      "Grade A listed Victorian villas near The Scores and the Cathedral precinct",
+      "Prestigious properties overlooking the Old Course and Swilcan Bridge",
+      "Converted fishermen's cottages and villas in Crail, Anstruther and the East Neuk",
+      "Conservation area compliance within the St Andrews historic core",
     ],
     heroImage: "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
     galleryImages: [
@@ -100,12 +103,13 @@ export const scotlandLocations: Location[] = [
     parentSlug: "scotland",
     tier: 3,
     description:
-      "Aberdeen's granite architecture gives the Granite City an unmistakable silver-grey character that sparkles in the northern light. The imposing Victorian terraces of Rubislaw Den and the handsome houses of Cults and Milltimber reflect the prosperity that oil and centuries of maritime trade have brought to this resilient coastal city. SteelR engineers entrance doors for Aberdeen homes that stand up to the demanding North Sea climate, with finishes chosen to complement the distinctive tones of local granite stonework.",
+      "Aberdeen's granite architecture gives the Granite City an unmistakable silver-grey character that sparkles in the northern light. The imposing Victorian terraces of Rubislaw Den North and South in the AB15 postcode represent some of Scotland's most prestigious residential streets, with the surrounding Queen's Cross and Queens Road properties trading at the top of the Aberdeen market. Detached granite homes in Cults, Milltimber and Bieldside along the AB15 and AB14 corridor reflect the prosperity that oil and centuries of maritime trade have brought to this resilient coastal city. Georgian townhouses line Bon Accord Crescent, Crown Street and Golden Square in AB10 under strict conservation controls, while contemporary developments along the beach esplanade and harbour support bolder steel door specifications. SteelR engineers entrance doors for Aberdeen that stand up to demanding North Sea climate and exposure category C wind loading, with finishes chosen to complement local silver-grey granite. Specifications include RAL 9005 Jet Black, RAL 7016 Anthracite Grey and RAL 8019 Grey Brown with brushed chrome or stainless steel ironmongery. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3, Secured by Design approved, FD30S fire rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Victorian granite villas in Rubislaw Den and Queen's Cross",
-      "Detached granite homes in Cults, Milltimber, and Bieldside",
-      "Georgian townhouses along Bon Accord Crescent and Crown Street",
-      "Contemporary developments along the beach esplanade and harbour",
+      "Victorian granite villas in Rubislaw Den North and South (AB15)",
+      "Detached granite homes in Cults, Milltimber and Bieldside (AB14 and AB15)",
+      "Georgian townhouses along Bon Accord Crescent and Crown Street (AB10)",
+      "Contemporary developments along the beach esplanade and harbour (AB11 and AB24)",
+      "Exposed coastal properties requiring category C wind and water resistance",
     ],
     heroImage: "/images/gallery/steelr-grey-panelled-stone-surround.jpg",
     galleryImages: [
