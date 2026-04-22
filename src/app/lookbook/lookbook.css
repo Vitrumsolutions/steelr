@@ -668,24 +668,38 @@
 
 .lb-actions__btn {
   background: transparent;
-  border: none;
-  color: rgba(245, 240, 232, 0.55);
+  border: 1px solid rgba(245, 240, 232, 0.18);
+  color: rgba(245, 240, 232, 0.78);
   font-family: var(--font-body, "Montserrat"), sans-serif;
   font-weight: 300;
   font-size: 10.5px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  padding: 8px 12px;
+  padding: 14px 22px;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease;
 }
 
 .lb-actions__btn:hover {
-  color: var(--gold);
+  color: var(--site-black);
+  border-color: var(--gold);
+  background: var(--gold);
 }
 
 .lb-actions__btn--ghost {
-  color: rgba(245, 240, 232, 0.4);
+  color: rgba(245, 240, 232, 0.55);
+  border-color: rgba(245, 240, 232, 0.12);
+}
+
+.lb-actions__btn--whatsapp {
+  color: var(--site-black);
+  background: var(--gold);
+  border-color: var(--gold);
+}
+
+.lb-actions__btn--whatsapp:hover {
+  background: var(--cream);
+  border-color: var(--cream);
 }
 
 /* ============================================================

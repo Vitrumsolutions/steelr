@@ -1,8 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import type { Metadata } from "next";
 import ScrollReveal from "@/components/ScrollReveal";
-import LookbookActions from "./lookbook-actions";
+import LookbookActions, { TrackedLink } from "./lookbook-actions";
 import "./lookbook.css";
 
 export const metadata: Metadata = {
@@ -470,12 +469,12 @@ export default function Lookbook() {
         </ScrollReveal>
         <ScrollReveal direction="up" delay={0.4}>
           <div className="lb-closing__actions">
-            <Link href="/design-estimate" className="lb-cta lb-cta--primary">
+            <TrackedLink href="/design-estimate" event="lookbook_cta_consultation" className="lb-cta lb-cta--primary">
               Book a consultation
-            </Link>
-            <Link href="/contact" className="lb-cta lb-cta--ghost">
+            </TrackedLink>
+            <TrackedLink href="tel:08008611450" event="lookbook_cta_phone" external className="lb-cta lb-cta--ghost">
               Speak to us · 0800 861 1450
-            </Link>
+            </TrackedLink>
           </div>
         </ScrollReveal>
         <LookbookActions />
