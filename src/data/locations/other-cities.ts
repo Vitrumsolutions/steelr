@@ -8,12 +8,13 @@ export const otherCitiesLocations: Location[] = [
     type: "area",
     tier: 2,
     description:
-      "Liverpool's UNESCO-recognised waterfront and grand Georgian quarters make it one of England's most architecturally significant cities. The merchant palaces of Rodney Street, the imposing Victorian terraces of Sefton Park, and the sandstone villas of Crosby and Woolton showcase a city built on confidence and ambition. SteelR creates bespoke steel entrance doors for Liverpool homeowners who want their property's facade to match the city's bold, world-class character with craftsmanship that endures generations.",
+      "Liverpool's UNESCO-recognised waterfront and grand Georgian quarters make it one of England's most architecturally significant cities. The merchant palaces of Rodney Street and Falkner Square in the L1 and L8 postcodes form one of the finest concentrations of Grade II listed Georgian architecture outside London. Victorian terraces surround Sefton Park and Princes Park across L17 and L8, while sandstone detached homes in Woolton (L25), Mossley Hill (L18) and Allerton offer generous plots with original stone porches and leaded fanlights. The Albert Dock and Liverpool Waters conversions support contemporary apartment specifications. SteelR creates bespoke steel entrance doors for Liverpool homeowners who want their property's facade to match the city's bold, world-class character, with hand-finished ogee panels, arched Georgian fanlights and ironmongery in polished brass, satin chrome or matt black. Finishes include RAL 9005 Jet Black, RAL 3004 Purple Red and RAL 6003 Olive Green. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3 as standard, Secured by Design approved, FD30S fire and smoke rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Georgian townhouses along Rodney Street and Falkner Square",
-      "Victorian villas surrounding Sefton Park and Princes Park",
-      "Sandstone detached homes in Woolton, Mossley Hill, and Allerton",
+      "Georgian townhouses along Rodney Street and Falkner Square (L1 and L8)",
+      "Victorian villas surrounding Sefton Park and Princes Park (L17)",
+      "Sandstone detached homes in Woolton, Mossley Hill and Allerton (L18 and L25)",
       "Waterfront conversions and contemporary apartments at Albert Dock",
+      "Grade II listed properties within the UNESCO World Heritage buffer zone",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
     galleryImages: [
@@ -31,12 +32,13 @@ export const otherCitiesLocations: Location[] = [
     type: "area",
     tier: 2,
     description:
-      "Newcastle upon Tyne combines dramatic Tyneside engineering with elegant Grainger Town streets that rank among the finest planned Victorian developments in Europe. From the sweeping Grey Street curve to the substantial stone houses of Jesmond Dene and Gosforth, the city offers a wealth of properties where a bespoke steel entrance door elevates an already impressive facade. SteelR serves Newcastle homeowners with doors engineered for the North East climate and finished to complement local sandstone and brick.",
+      "Newcastle upon Tyne combines dramatic Tyneside engineering with the elegant Grainger Town streets that rank among Europe's finest planned Victorian developments. Grey Street, Grainger Street and Clayton Street in the NE1 postcode sit within one of the largest concentrations of Grade I and Grade II listed classical terraces in the UK. Jesmond (NE2) and Gosforth (NE3) offer substantial Victorian and Edwardian stone villas along Tankerville Terrace, Graham Park Road and The Grove, while Ponteland and Darras Hall in NE20 support the premium detached market where owners specify SR3 rated steel doors on seven-figure properties. Converted Ouseburn Valley warehouses and contemporary Quayside apartments round out the spread. SteelR serves Newcastle with doors engineered for the North East climate, finished to complement local honey-coloured sandstone and red brick. Options include RAL 7012 Basalt Grey, RAL 9005 Jet Black and RAL 8019 Grey Brown with brushed chrome or brass ironmongery. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3, Secured by Design approved, FD30S fire rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Grainger Town terraces with ornate classical facades",
-      "Victorian and Edwardian stone villas in Jesmond and Gosforth",
-      "Substantial detached homes in Ponteland and Darras Hall",
-      "Converted period properties along the Ouseburn Valley",
+      "Grainger Town terraces with ornate classical facades (NE1)",
+      "Victorian and Edwardian stone villas in Jesmond and Gosforth (NE2 and NE3)",
+      "Substantial detached homes in Ponteland and Darras Hall (NE20)",
+      "Converted period properties along the Ouseburn Valley (NE6)",
+      "Grade I and Grade II listed buildings across the Grainger Town conservation area",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
     galleryImages: [
@@ -54,12 +56,13 @@ export const otherCitiesLocations: Location[] = [
     type: "area",
     tier: 2,
     description:
-      "Nottingham's lace-market heritage and castle-topped skyline give the city a distinctive architectural personality that extends into its leafy southern suburbs. The Park Estate, one of England's finest Victorian private estates, features grand Italianate villas set along curving tree-lined roads, while West Bridgford and Beeston offer well-appointed Edwardian and interwar homes. SteelR designs steel entrance doors for Nottingham properties that reflect the city's creative industrial legacy and its residents' appreciation for quality craftsmanship.",
+      "Nottingham's lace-market heritage and castle-topped skyline give the city a distinctive architectural personality that extends into its leafy southern suburbs. The Park Estate within the NG7 postcode is one of England's finest Victorian private estates, featuring grand Italianate villas along Lenton Road, The Ropewalk and Park Valley that regularly change hands above the two million pound mark. West Bridgford (NG2) and Beeston (NG9) offer well-appointed Edwardian and interwar homes on Musters Road and Melton Road, while Wollaton (NG8) and Mapperley Park (NG3) provide generous contemporary family homes and period villas. The NG1 Lace Market quarter carries strict conservation protection across listed Victorian red-brick warehouses now converted to residential. SteelR designs steel entrance doors for Nottingham properties that reflect the city's creative industrial legacy, with hand-finished panels, ogee mouldings and period or contemporary ironmongery. Finishes include RAL 7016 Anthracite Grey, RAL 3004 Purple Red and RAL 9005 Jet Black. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3, Secured by Design approved, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Grand Italianate villas on The Park Estate",
-      "Edwardian and interwar semis in West Bridgford and Beeston",
-      "Victorian red-brick terraces in the Lace Market quarter",
-      "Contemporary family homes in Wollaton and Mapperley Park",
+      "Grand Italianate villas on The Park Estate (NG7)",
+      "Edwardian and interwar semis in West Bridgford and Beeston (NG2 and NG9)",
+      "Victorian red-brick terraces in the Lace Market quarter (NG1)",
+      "Contemporary family homes in Wollaton and Mapperley Park (NG3 and NG8)",
+      "Conservation area properties within The Park and Lace Market zones",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-sunburst.jpg",
     galleryImages: [
@@ -77,12 +80,13 @@ export const otherCitiesLocations: Location[] = [
     type: "area",
     tier: 2,
     description:
-      "Cardiff blends its castle-centred civic grandeur with the Victorian splendour of Cathays Park and the leafy prosperity of Pontcanna, Cyncoed, and Lisvane. The Edwardian arcades of the city centre and the handsome bay-fronted terraces of Cathedral Road showcase a capital city with genuine architectural ambition. SteelR provides bespoke steel entrance doors for Cardiff homeowners seeking a statement piece that withstands the Welsh climate while complementing the city's confident mix of Victorian, Edwardian, and contemporary styles.",
+      "Cardiff blends castle-centred civic grandeur with the Victorian splendour of Cathays Park and the leafy prosperity of Pontcanna, Cyncoed and Lisvane. The CF11 postcode covering Pontcanna and Cathedral Road contains some of Wales' most prestigious Edwardian bay-fronted terraces, with Plasturton Avenue, Kings Road and Llandaff Fields Road commanding premium prices. Cyncoed and Lisvane in CF23 and CF14 offer substantial detached family homes along Rhydypenau Road and Mill Road, while Victorian bay-fronted houses line Roath Park and Penylan in CF24 under strict conservation controls. Cardiff Bay's contemporary waterfront developments across CF10 and CF11 favour bolder door specifications. SteelR provides bespoke steel entrance doors for Cardiff homeowners seeking a statement piece that withstands the Welsh climate, with 70mm thermally broken leaves achieving U-values from 0.9 W/m2K. Finishes include RAL 6009 Fir Green, RAL 9005 Jet Black and RAL 5008 Grey Blue with brass, chrome or bronze ironmongery. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3 as standard, Secured by Design approved, FD30S fire and smoke rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Edwardian terraces and villas along Cathedral Road and Pontcanna",
-      "Detached family homes in Cyncoed, Lisvane, and Rhiwbina",
-      "Victorian bay-fronted houses in Roath and Penylan",
-      "Contemporary waterfront developments in Cardiff Bay",
+      "Edwardian terraces and villas along Cathedral Road and Pontcanna (CF11)",
+      "Detached family homes in Cyncoed, Lisvane and Rhiwbina (CF14 and CF23)",
+      "Victorian bay-fronted houses in Roath and Penylan (CF24)",
+      "Contemporary waterfront developments in Cardiff Bay (CF10)",
+      "Conservation area properties across Pontcanna, Roath Park and Llandaff",
     ],
     heroImage: "/images/gallery/steelr-navy-contemporary-square-knocker.jpg",
     galleryImages: [
@@ -100,12 +104,13 @@ export const otherCitiesLocations: Location[] = [
     type: "area",
     tier: 2,
     description:
-      "Cambridge is a city where medieval college courts, Georgian townhouses, and cutting-edge contemporary architecture coexist along the tranquil Backs of the River Cam. Beyond the university core, the substantial Victorian villas of Newnham and the Edwardian residences of Chesterton and De Freville Avenue represent premium addresses where entrance doors must satisfy both aesthetic sensibility and practical demands. SteelR crafts steel doors for Cambridge homes that bring quiet distinction to a city accustomed to excellence.",
+      "Cambridge is a city where medieval college courts, Georgian townhouses and award-winning contemporary architecture coexist along the tranquil Backs of the River Cam. Beyond the university core in CB2 and CB3, the substantial Victorian villas of Newnham along Grange Road and Barton Road, and the Edwardian residences of De Freville Avenue and Chesterton Road in CB4, represent premium addresses where entrance doors must satisfy Historic Environment Team conservation requirements. The multi-award-winning Accordia scheme in CB2 and the Eddington development in CB3 support striking contemporary steel door specifications, while period cottages in Grantchester, Barton and Madingley add characterful openings to the county market. SteelR crafts steel doors for Cambridge homes with hand-finished ogee panels, arched fanlights, geometric leaded glazing and period-appropriate ironmongery in polished brass, antique bronze or satin chrome. Finishes include RAL 6009 Fir Green, RAL 9005 Jet Black and RAL 7022 Umbra Grey. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3 as standard, Secured by Design approved, FD30S fire and smoke rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Victorian and Edwardian villas in Newnham and De Freville",
-      "Georgian townhouses along Trumpington Street and Brookside",
-      "Contemporary family homes in the Accordia and Eddington developments",
-      "Period cottages in surrounding villages like Grantchester and Barton",
+      "Victorian and Edwardian villas in Newnham and De Freville (CB3 and CB4)",
+      "Georgian townhouses along Trumpington Street and Brookside (CB2)",
+      "Award-winning contemporary homes in Accordia and Eddington",
+      "Period cottages in Grantchester, Barton and Madingley",
+      "Conservation area properties across the Central Cambridge historic core",
     ],
     heroImage: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
     galleryImages: [
@@ -123,12 +128,13 @@ export const otherCitiesLocations: Location[] = [
     type: "area",
     tier: 2,
     description:
-      "Leicester is a city of surprising architectural depth, from its Roman ruins and medieval guildhall to the confident Victorian suburbs that radiate outward along London Road and Stoneygate. The tree-lined avenues of Knighton, Clarendon Park, and Oadby feature substantial red-brick houses with generous porches and entrance halls that deserve doors of real quality. SteelR works with Leicester homeowners to design bespoke steel doors that celebrate the city's rich heritage while delivering contemporary performance standards.",
+      "Leicester is a city of surprising architectural depth, from Roman ruins and a medieval guildhall to confident Victorian suburbs radiating outward along London Road and Stoneygate. The LE2 postcode covering Stoneygate and Knighton is among the East Midlands' most expensive residential areas, with Ratcliffe Road, Stoneygate Road and Elms Road supporting substantial Victorian red-brick villas on half-acre plots. Clarendon Park in LE2 offers Edwardian semis and detached houses along Queens Road and Avenue Road Extension, while large family homes fill Oadby, Wigston and Great Glen in LE2 and LE8. The celebrated New Walk conservation area in LE1 preserves a concentration of Grade II listed Georgian and Regency terraces along one of the finest pedestrian boulevards in Britain. SteelR works with Leicester homeowners to design bespoke steel entrance doors that celebrate this heritage while delivering contemporary performance, with finishes in RAL 3004 Purple Red, RAL 9005 Jet Black and RAL 7016 Anthracite Grey. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3 as standard, Secured by Design approved, FD30S fire and smoke rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Victorian red-brick villas in Stoneygate and Knighton",
-      "Edwardian semis and detached houses in Clarendon Park",
-      "Large family homes in Oadby, Wigston, and Great Glen",
-      "Period terraces along the New Walk conservation area",
+      "Victorian red-brick villas in Stoneygate and Knighton (LE2)",
+      "Edwardian semis and detached houses in Clarendon Park (LE2)",
+      "Large family homes in Oadby, Wigston and Great Glen (LE2 and LE8)",
+      "Grade II listed Georgian terraces along the New Walk conservation area (LE1)",
+      "Conservation area properties across Stoneygate and Clarendon Park",
     ],
     heroImage: "/images/gallery/steelr-black-panelled-ring-knocker-recessed.jpg",
     galleryImages: [
@@ -146,12 +152,13 @@ export const otherCitiesLocations: Location[] = [
     type: "area",
     tier: 2,
     description:
-      "Norwich possesses one of the finest collections of medieval churches in Europe, and its architectural richness extends through Georgian colonnades, Victorian terraces, and the celebrated Sainsbury Centre for Visual Arts. The Golden Triangle, Eaton, and Thorpe St Andrew offer desirable residential streets where flint-panelled walls and Dutch-gabled facades demand entrance doors of distinction. SteelR creates bespoke steel doors for Norwich homeowners who value a city with deep creative roots and an eye for craftsmanship.",
+      "Norwich possesses one of the finest collections of medieval churches in Europe, and its architectural richness extends through Georgian colonnades, Victorian terraces and the celebrated Sainsbury Centre for Visual Arts. The Golden Triangle spanning NR2 and NR4 between Unthank Road, Newmarket Road and Earlham Road contains one of the UK's largest concentrations of Victorian and Edwardian terraces, many within the Heigham Grove and Christchurch Road conservation areas. Eaton, Cringleford and Thorpe St Andrew in NR4 and NR7 offer substantial detached family homes along Colman Road, Ipswich Road and Yarmouth Road, while Georgian townhouses line Newmarket Road and The Close in NR1 around the Grade I listed Norwich Cathedral precinct. Flint-faced period cottages characterise the cathedral quarter streets. SteelR creates bespoke steel entrance doors for Norwich homeowners with hand-finished ogee panels, arched fanlights, and ironmongery in polished brass, antique bronze or satin chrome. Finishes include RAL 6009 Fir Green, RAL 7016 Anthracite and bespoke heritage shades. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3, Secured by Design approved, FD30S fire and smoke rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Victorian and Edwardian terraces in the Golden Triangle",
-      "Georgian townhouses along Newmarket Road and The Close",
-      "Detached family homes in Eaton, Cringleford, and Thorpe St Andrew",
+      "Victorian and Edwardian terraces in the Golden Triangle (NR2 and NR4)",
+      "Georgian townhouses along Newmarket Road and The Close (NR1)",
+      "Detached family homes in Eaton, Cringleford and Thorpe St Andrew (NR4 and NR7)",
       "Flint-faced period cottages throughout the cathedral quarter",
+      "Conservation area properties across Heigham Grove and Christchurch Road",
     ],
     heroImage: "/images/gallery/steelr-sage-panelled-arched-wreath.jpg",
     galleryImages: [
@@ -169,12 +176,13 @@ export const otherCitiesLocations: Location[] = [
     type: "area",
     tier: 2,
     description:
-      "Northampton's shoemaking heritage endowed the town with prosperous Victorian suburbs and a legacy of skilled craftsmanship that residents still value today. The substantial stone-built houses of Abington Park, the leafy avenues of Weston Favell, and the ironstone villages of the surrounding Nene Valley showcase a wide range of architectural styles that benefit from a considered entrance statement. SteelR provides Northampton homeowners with steel doors that bring metropolitan refinement to this well-connected Midlands town.",
+      "Northampton's shoemaking heritage endowed the town with prosperous Victorian suburbs and a legacy of skilled craftsmanship residents still value today. Substantial stone-built houses surround Abington Park in the NN1 and NN3 postcodes, with Park Avenue North, Wellingborough Road and Christchurch Road supporting handsome Victorian villas on mature plots. Leafy Edwardian and interwar avenues fill Weston Favell and Kingsley in NN3, while the ironstone villages of Brixworth, Moulton, Little Houghton and Great Houghton across NN6 and NN7 feature Grade II listed cottages and country homes within Nene Valley conservation areas. Contemporary executive homes in Upton and Collingtree Park round out the premium market. SteelR provides Northampton homeowners with bespoke steel entrance doors that bring metropolitan refinement to this well-connected Midlands town, with hand-finished ogee and beaded panel profiles, arched or rectangular fanlights, and period or contemporary hardware. Finishes include RAL 7022 Umbra Grey, RAL 8019 Grey Brown and RAL 9005 Jet Black. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3, Secured by Design approved, FD30S fire and smoke rated, and SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Victorian stone-built villas around Abington Park",
-      "Edwardian and interwar houses in Weston Favell and Kingsley",
-      "Ironstone cottages in surrounding villages like Brixworth and Moulton",
-      "Contemporary executive homes in Upton and Collingtree Park",
+      "Victorian stone-built villas around Abington Park (NN1 and NN3)",
+      "Edwardian and interwar houses in Weston Favell and Kingsley (NN3)",
+      "Grade II listed ironstone cottages in Brixworth, Moulton and Great Houghton (NN6 and NN7)",
+      "Contemporary executive homes in Upton and Collingtree Park (NN4 and NN5)",
+      "Conservation area properties across the Nene Valley and Abington",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-ribbed-topiary.jpg",
     galleryImages: [
