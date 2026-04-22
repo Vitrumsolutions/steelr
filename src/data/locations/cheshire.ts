@@ -37,12 +37,12 @@ export const cheshireLocations: Location[] = [
     parentSlug: "cheshire",
     tier: 3,
     description:
-      "Alderley Edge is synonymous with prestige. Its tree-lined avenues of gated mansions, many rebuilt or extended to palatial proportions, represent some of the highest property values in northern England. Double-fronted entrances with sidelights and fanlights are commonplace, and homeowners expect every element to reflect exclusivity. SteelR delivers entrance doors that match this expectation, from oversized double configurations with bespoke glazing to discreet smart-lock integration behind traditional lion knocker hardware, all finished in colours chosen to complement each property's individual facade.",
+      "Alderley Edge in SK9 is synonymous with prestige, anchoring the famous Cheshire Golden Triangle (with Wilmslow and Prestbury) with some of the highest property values in northern England. Premium residential streets include Macclesfield Road, Mottram Road, Brook Lane, Moss Lane and Heyes Lane carrying gated mansions with double-fronted entrances, electric gates and dedicated gatehouses on plots of one to ten acres. The Nether Alderley Mill (Grade II* listed) and the Alderley Edge National Trust escarpment frame the village. Premier League footballers, business owners and celebrities make this the most-photographed residential market in the North, with new-build luxury estates on Welsh Row and Trafford Road adding contemporary glass-and-render architect builds alongside the traditional Edwardian stucco villas. SteelR bespoke steel entrance doors deliver oversized double configurations with bespoke glazing, discreet smart-lock integration behind traditional lion-knocker hardware, SR3 rating as standard and SR4 (LPS 1175) commercial-grade upgrade specified on roughly two-thirds of Alderley Edge projects. SK9 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Gated mansions with double-fronted entrances on Mottram Road",
-      "New-build luxury estates with contemporary architectural styles",
-      "Properties with electric gates requiring integrated access systems",
-      "High-security requirements from affluent homeowners",
+      "Gated mansions with double-fronted entrances on Macclesfield Road, Mottram Road and Brook Lane within SK9",
+      "Contemporary architect-designed new-builds on Welsh Row and Trafford Road with glass-and-render facades",
+      "Grade II* listed Nether Alderley Mill and National Trust Alderley Edge escarpment borders",
+      "Premier League footballer and celebrity residences with electric gates and dedicated gatehouses on acre-plus plots",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
     galleryImages: [
@@ -61,12 +61,12 @@ export const cheshireLocations: Location[] = [
     parentSlug: "cheshire",
     tier: 3,
     description:
-      "Wilmslow sits at the heart of the Cheshire golden triangle, its leafy streets home to a mix of substantial Edwardian houses on Altrincham Road and contemporary new-builds along the Styal Road corridor. The town's proximity to Manchester Airport and excellent rail links make it a magnet for executives who want countryside living with city access. SteelR entrance doors serve Wilmslow homeowners who refuse to compromise, offering bespoke designs that enhance both the classic villas and the sleek modern builds that define this affluent town.",
+      "Wilmslow in SK9 sits at the heart of the Cheshire Golden Triangle, its leafy streets a magnet for Manchester executives and sports professionals seeking countryside living with fast airport access. Premium residential streets include Altrincham Road, Styal Road, Lindow Lane, Knutsford Road and Alderley Road carrying substantial Edwardian detached houses with large porches and contemporary new-builds on the Styal Road corridor. The Lindow Common and Carrs Park conservation areas preserve Grade II listed Georgian and Victorian properties. The Wilmslow Hoopers Lane, Fulshaw Park and Dean Row areas add further family detached stock on plots of a quarter to half an acre. Manchester Airport proximity and Wilmslow station's Euston service in two hours drives premium values. SteelR bespoke steel entrance doors serve Wilmslow homeowners with bespoke designs enhancing both the classic villas and sleek modern builds, SR3 rating as standard, SR4 (LPS 1175) upgrade and smart-lock integration available. SK9 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian detached houses with large porches on Altrincham Road",
-      "Contemporary new-builds with minimalist facade designs",
-      "Executive homes near Styal Road and the airport corridor",
-      "Strong demand for doors combining traditional aesthetics with smart technology",
+      "Edwardian detached houses with large porches on Altrincham Road, Knutsford Road and Alderley Road within SK9",
+      "Contemporary new-builds on the Styal Road corridor with minimalist glass-and-render facades",
+      "Grade II listed Georgian and Victorian properties in Lindow Common and Carrs Park conservation areas",
+      "Executive family homes on Fulshaw Park and Dean Row on plots of a quarter to half an acre",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg",
     galleryImages: [
@@ -85,12 +85,12 @@ export const cheshireLocations: Location[] = [
     parentSlug: "cheshire",
     tier: 3,
     description:
-      "Knutsford's cobbled King Street, elegant Italianate buildings, and proximity to Tatton Park give it a refined character quite unlike any other Cheshire town. The surrounding countryside holds converted farmhouses and substantial detached homes on Tabley and Toft roads, while the town centre features Georgian and Victorian properties with distinctive arched doorways. SteelR bespoke doors complement Knutsford's architectural variety, whether a sweeping arched frame for a Regency villa or a crisp contemporary panel for a barn conversion overlooking the Cheshire Plain.",
+      "Knutsford in WA16 is a characterful Cheshire town defined by cobbled King Street, elegant Italianate buildings designed by local 19th-century architect Richard Harding Watt, and proximity to Tatton Park (the 2,000-acre Grade I listed Egerton family estate, National Trust). The town centre conservation area covers King Street, Princess Street, Canute Place and Tatton Street with Grade II listed Georgian and Victorian frontages and the Grade II* listed Gaskell Memorial Tower. Premium residential streets include Tabley Road, Toft Road, Manchester Road and Legh Road carrying substantial Edwardian and Victorian detached homes on generous plots, while the surrounding villages of Mobberley, Ollerton, Plumley and Lower Peover add converted farmhouses, barn conversions and country estates on the Cheshire Plain. Tatton Park's Grade I listed Tatton Old Hall and Tatton Mansion add estate-scale heritage. SteelR bespoke doors complement Knutsford's architectural variety with sweeping arched frames for Regency villas and crisp contemporary panels for barn conversions. Listed building consent handled in-house. WA16 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian and Victorian properties with arched doorways on King Street",
-      "Substantial detached homes on Tabley and Toft roads",
-      "Converted farmhouses and barns in surrounding countryside",
-      "Italianate architectural details requiring sympathetic door design",
+      "Grade II listed Italianate Richard Harding Watt buildings and Georgian King Street conservation area within WA16",
+      "Grade I listed Tatton Park 2,000-acre Egerton family estate with Tatton Mansion and Tatton Old Hall",
+      "Substantial Edwardian detached homes on Tabley Road, Toft Road and Legh Road",
+      "Converted farmhouses and barn conversions in Mobberley, Ollerton and Lower Peover villages",
     ],
     heroImage: "/images/gallery/steelr-champagne-arched-geometric-double.jpg",
     galleryImages: [
@@ -109,12 +109,12 @@ export const cheshireLocations: Location[] = [
     parentSlug: "cheshire",
     tier: 3,
     description:
-      "Regularly cited as one of the most expensive villages in England, Prestbury attracts homeowners who appreciate the quiet confidence of understatement backed by impeccable quality. Its lanes are lined with mature trees shielding substantial properties, from renovated farmhouses on Withinlee Road to architect-designed contemporary homes near the village green. SteelR entrance doors are a natural fit here, crafted with the precision and discretion Prestbury residents expect — every hinge, seal, and finish considered to deliver a door that performs flawlessly for decades.",
+      "Prestbury in SK10 is regularly cited as one of the most expensive villages in England, completing the Cheshire Golden Triangle with Alderley Edge and Wilmslow. Premium residential streets include Withinlee Road, Macclesfield Road, Chelford Road, Prestbury Lane and Bollin Grove carrying substantial renovated farmhouses, architect-designed contemporary homes and gated mansion-scale properties on mature wooded plots of one to eight acres. The village centre conservation area preserves Grade I listed Church of St Peter (Norman, 13th-century) and the Grade II listed Priest's House. The surrounding Prestbury Hills and Adlington Park (Grade I listed Adlington Hall, seat of the Legh family for 650 years) frame the village. Premier League footballers, business owners and old-money families make this one of the UK's most discreet luxury residential markets. SteelR bespoke steel entrance doors are crafted with the precision and discretion Prestbury residents expect, with SR3 rating as standard, SR4 (LPS 1175) commercial-grade upgrade specified on most gated-estate projects, European-sourced ironmongery and hand-finished detailing. SK10 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Renovated farmhouses with wide entrance porches on Withinlee Road",
-      "Architect-designed contemporary homes near the village green",
-      "Properties with substantial stone or brick porticos",
-      "Discreet luxury market demanding understated high-quality finishes",
+      "Renovated farmhouses and gated mansions on Withinlee Road, Chelford Road and Prestbury Lane within SK10",
+      "Grade I listed Church of St Peter and Grade II listed Priest's House in the village conservation area",
+      "Grade I listed Adlington Hall 650-year Legh family estate bordering the village",
+      "Architect-designed contemporary homes on one-to-eight-acre mature wooded plots",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-open.jpg",
     galleryImages: [
@@ -133,12 +133,12 @@ export const cheshireLocations: Location[] = [
     parentSlug: "cheshire",
     tier: 3,
     description:
-      "Straddling the border between Cheshire and Greater Manchester, Hale combines village charm with easy access to the city. Ashley Road's boutiques and restaurants serve a community of professionals living in the area's generous Edwardian and 1930s detached houses, many with deep front gardens and imposing entrance porches. SteelR bespoke doors elevate these already desirable properties, with options ranging from classic panelled designs with polished chrome ironmongery to bold contemporary styles that make a statement from the garden gate.",
+      "Hale in WA15 straddles the border between Cheshire and Greater Manchester, combining village charm with easy access to Manchester and the airport via Hale station (a twenty-minute Piccadilly service). Premium residential streets include Ashley Road, Park Road, Grove Road, Bankhall Lane and Queens Road carrying generous Edwardian and 1930s detached houses on deep front gardens with imposing entrance porches of tiled floors and period details. The Hale conservation area preserves Grade II listed Victorian and Edwardian properties around the village centre and Ashley Road shopping parade. The Ringway, Hale Barns and Timperley fringes add further family detached stock. The Manchester Grammar School catchment (Trafford independent schools) draws a family-oriented buyer demographic. Ashley Road's boutiques and restaurants anchor the village centre. SteelR bespoke doors elevate Hale properties with classic panelled designs in polished chrome ironmongery and bold contemporary styles with smart-lock integration. WA15 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian and 1930s detached houses with deep front gardens",
-      "Imposing entrance porches with tiled floors and period details",
-      "Proximity to Hale village boutiques and Ashley Road amenities",
-      "Mix of traditional and contemporary architectural tastes",
+      "Grade II listed Victorian and Edwardian properties in the Hale WA15 village conservation area",
+      "Generous Edwardian and 1930s detached houses on Ashley Road, Park Road and Bankhall Lane",
+      "Imposing entrance porches with tiled floors and period stained-glass fanlights",
+      "Family detached stock on Queens Road, Grove Road and through Ringway and Timperley fringes",
     ],
     heroImage: "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg",
     galleryImages: [
@@ -157,12 +157,12 @@ export const cheshireLocations: Location[] = [
     parentSlug: "cheshire",
     tier: 3,
     description:
-      "Perched on a hill above the Bollin Valley, Bowdon is Cheshire's quiet achiever — a conservation village of handsome Victorian and Edwardian houses set behind mature hedgerows on roads like South Downs Road and Langham Road. Many properties feature original stained glass, decorative tile porches, and generous double-width entrances that merit a door of real substance. SteelR designs for Bowdon draw on this heritage, offering period-appropriate proportions, hand-finished hardware, and colours that sit comfortably alongside the village's mellow red brick.",
+      "Bowdon in WA14 is perched on a hill above the Bollin Valley, Cheshire's quiet achiever combining village character with some of the highest residential values outside Alderley Edge. The Bowdon conservation area covers St Margaret's Road, The Downs, Richmond Road, Langham Road and South Downs Road, preserving Grade I listed St Mary's Church (Norman origins) and a concentration of Grade II listed Victorian and Edwardian mansion-scale detached villas behind mature hedgerows. Premium residential streets include South Downs Road, Langham Road, The Downs and St Margaret's Road carrying substantial villas with original stained glass, decorative tile porches, generous double-width entrances and plots of a fifth to half an acre. The Bowdon Vale and Devisdale areas add further family detached stock, while the Bollin Valley borders add rural-estate properties. SteelR bespoke steel entrance doors draw on Bowdon's heritage with period-appropriate proportions, hand-finished European ironmongery and bespoke RAL colour matching to the mellow red brick palette. Listed building consent handled in-house. WA14 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Victorian and Edwardian villas on South Downs Road and Langham Road",
-      "Conservation village with strict planning guidelines",
-      "Properties with original stained glass and decorative tile porches",
-      "Double-width entrances suited to grand panelled door designs",
+      "Grade I listed St Mary's Church and Grade II listed Victorian and Edwardian mansion-scale villas within the Bowdon WA14 conservation area",
+      "Substantial detached villas on South Downs Road, Langham Road, The Downs and St Margaret's Road",
+      "Original stained glass fanlights and decorative tile porches on period family properties",
+      "Family detached stock in Bowdon Vale and Devisdale with Bollin Valley rural-estate borders",
     ],
     heroImage: "/images/gallery/steelr-red-traditional-lion-knocker.jpg",
     galleryImages: [
@@ -181,12 +181,12 @@ export const cheshireLocations: Location[] = [
     parentSlug: "cheshire",
     tier: 3,
     description:
-      "Tarporley is rural Cheshire at its most genteel — a hunting village with a single elegant high street, independent shops, and surrounding countryside dotted with substantial country houses and equestrian estates. Properties here tend toward red sandstone and mellow brick, with generous porticos and boot rooms that reflect the outdoor lifestyle. SteelR entrance doors bring weather-tight performance to these country settings without sacrificing the traditional appearance Tarporley homeowners value, with bespoke threshold details designed for muddy boots and faithful Labradors.",
+      "Tarporley in CW6 is rural Cheshire at its most genteel, a hunting village with a single elegant High Street, independent shops and surrounding countryside dotted with substantial country houses and equestrian estates. The Tarporley conservation area covers the High Street and Park Road with Grade II listed Georgian and Victorian frontages, including the Grade II* listed St Helen's Church. Premium residential streets along High Street, Nantwich Road, Park Road and Hooftons Lane carry red sandstone and mellow brick country houses, while the surrounding villages of Cotebrook, Tiverton, Little Budworth and Beeston (Grade I listed Beeston Castle on its crag) add equestrian estates, converted farmsteads and country-house stock on plots of several acres. The Delamere Forest borders and the Oulton Park estate (Oulton Park motor racing circuit) add further rural context. SteelR bespoke steel entrance doors bring weather-tight performance to these country settings with traditional proportions, hand-forged antique brass ironmongery and SR4 (LPS 1175) upgrade available for isolated rural estates. CW6 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Red sandstone and brick country houses along the High Street",
-      "Equestrian estates with wide entrance halls and boot rooms",
-      "Rural properties exposed to Cheshire Plain weather",
-      "Traditional village aesthetic requiring heritage-sensitive design",
+      "Grade II* listed St Helen's Church and Grade II listed High Street frontages within the Tarporley CW6 conservation area",
+      "Red sandstone and brick country houses on High Street, Nantwich Road and Park Road",
+      "Grade I listed Beeston Castle and equestrian estates in Cotebrook, Tiverton and Little Budworth",
+      "Rural properties on multi-acre plots within the Delamere Forest and Oulton Park borders",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-ring-knocker-open.jpg",
     galleryImages: [
@@ -205,12 +205,12 @@ export const cheshireLocations: Location[] = [
     parentSlug: "cheshire",
     tier: 3,
     description:
-      "Nantwich's black-and-white timber-framed buildings, medieval street plan, and annual Battle of Nantwich re-enactment make it one of Cheshire's most characterful market towns. Beyond the historic centre, residential areas like Stapeley and Willaston contain modern executive homes and barn conversions that blend old and new. SteelR entrance doors serve both ends of this spectrum, offering heritage designs with ornate ironmongery for period properties and clean contemporary lines for the newer builds, all united by the same uncompromising steel construction and thermal performance.",
+      "Nantwich in CW5 is one of Cheshire's most characterful market towns, defined by black-and-white timber-framed buildings, a medieval street plan and the annual Battle of Nantwich re-enactment commemorating the 1644 siege. The town centre conservation area covers High Street, Pillory Street, Hospital Street, Beam Street and Mill Street, preserving Grade I listed Church of St Mary (1405) and a concentration of Grade II and II* listed Tudor timber-framed townhouses. Premium residential streets include Welsh Row, Market Street, Wellington Road and Pillory Street carrying listed period townhouses, while the Stapeley and Willaston areas supply executive new-build stock. The surrounding Cheshire Plain villages of Acton, Wybunbury, Faddiley and Burland add converted farmsteads, barn conversions and country estates on plots of an acre or more. The Nantwich Gin Distillery and Nantwich Riverside regeneration adds contemporary character. SteelR bespoke steel entrance doors serve both ends of the market with heritage designs and clean contemporary lines, listed building consent handled in-house. CW5 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Timber-framed Tudor properties in the historic town centre",
-      "Executive new-builds in Stapeley and Willaston",
-      "Barn conversions requiring bespoke oversized door configurations",
-      "Mixed architectural heritage demanding versatile design capability",
+      "Grade I listed Church of St Mary (1405) and Tudor timber-framed townhouses in the Nantwich CW5 conservation area",
+      "Grade II and II* listed period townhouses on Welsh Row, Pillory Street and Hospital Street",
+      "Executive new-build stock in Stapeley and Willaston with contemporary family detached homes",
+      "Converted farmsteads and country estates in Acton, Wybunbury, Faddiley and Burland villages",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
     galleryImages: [
