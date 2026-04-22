@@ -37,12 +37,12 @@ export const manchesterLocations: Location[] = [
     parentSlug: "manchester",
     tier: 3,
     description:
-      "Didsbury is south Manchester's most sought-after village, where tree-lined Barlow Moor Road and Wilmslow Road are flanked by substantial Edwardian semis with bay windows, decorative ridge tiles, and generous tiled porches. The village centre buzzes with independent restaurants and boutiques, attracting young professionals and families who renovate these period homes to exacting standards. SteelR entrance doors are the finishing touch many Didsbury homeowners choose, replacing tired timber doors with bespoke steel designs that honour the Edwardian proportions while delivering modern draught-proofing and security.",
+      "Didsbury in M20 is south Manchester's most sought-after village, with tree-lined Barlow Moor Road and Wilmslow Road flanked by substantial Edwardian semis with bay windows, decorative ridge tiles and generous tiled porches. The Didsbury Village conservation area covers Wilmslow Road, Barlow Moor Road and the Fletcher Moss borders, preserving Grade II listed Victorian and Edwardian frontages including Grade II* listed St James's Parish Church. Premium residential streets include Palatine Road, Barlow Moor Road, Parkfield Road South and Ballbrook Avenue carrying substantial Edwardian double-fronted detached homes, while West Didsbury and East Didsbury add Victorian terraces with recessed doorways along Wilbraham Road, Lapwing Lane and Nicolas Road. Large detached properties backing onto Fletcher Moss Botanical Gardens command premium prices. The active renovation culture drives demand for premium replacement doors. SteelR bespoke steel entrance doors honour Edwardian proportions with bespoke RAL colour, stained-glass fanlights matched to originals and listed building consent handled in-house. M20 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian semis with tiled porches on Barlow Moor Road",
-      "Victorian terraces with recessed doorways in West Didsbury",
-      "Large detached properties backing onto Fletcher Moss gardens",
-      "Active renovation culture demanding premium replacement doors",
+      "Grade II* listed St James's Parish Church and Edwardian semis on Barlow Moor Road within M20",
+      "Substantial Edwardian detached homes on Palatine Road, Parkfield Road South and Ballbrook Avenue",
+      "Victorian terraces with recessed doorways on Wilbraham Road, Lapwing Lane and Nicolas Road in West Didsbury",
+      "Large detached properties backing onto Fletcher Moss Botanical Gardens and the Mersey Valley",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
     galleryImages: [
@@ -61,12 +61,12 @@ export const manchesterLocations: Location[] = [
     parentSlug: "manchester",
     tier: 3,
     description:
-      "Altrincham has reinvented itself as one of Greater Manchester's most desirable towns, its award-winning market hall and thriving independent food scene drawing families to the surrounding residential streets. The Devisdale and Hale Road corridors are home to impressive Edwardian and inter-war houses with wide frontages and substantial entrance porches, while newer developments along the Metrolink route offer contemporary living. SteelR bespoke doors complement both eras, delivering commanding entrance statements that match Altrincham's rising reputation for quality and taste.",
+      "Altrincham in WA14 has reinvented itself as one of Greater Manchester's most desirable towns, anchored by the award-winning Altrincham Market Hall food scene. Premium residential streets include The Devisdale (Grade II* listed Devisdale Park conservation area), Hale Road, Groby Road, Dunham Road and Stamford New Road carrying Edwardian and inter-war detached homes with wide frontages and substantial entrance porches. The Altrincham Town Centre conservation area preserves Grade II listed Victorian and Edwardian shopfronts along George Street, Ashley Road and Stamford Street. The Dunham Massey (Grade I listed National Trust estate, 17th-century mansion with deer park) and Bowdon borders add estate-grade country-edge properties. The Metrolink (direct tram to Manchester Piccadilly in twenty-five minutes) drives premium commuter values. New-build apartments and townhouses along the Stamford Quarter supply contemporary stock. SteelR bespoke doors complement both eras with commanding entrance statements matching Altrincham's rising quality reputation. WA14 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Edwardian houses with wide frontages along the Devisdale",
-      "Inter-war detached homes on Hale Road and Groby Road",
-      "New-build apartments and townhouses near the Metrolink stations",
-      "Conservation area properties requiring planning-sensitive designs",
+      "Edwardian houses with wide frontages on The Devisdale Grade II* listed conservation area within WA14",
+      "Inter-war detached homes on Hale Road, Groby Road, Dunham Road and Stamford New Road",
+      "Grade II listed Victorian and Edwardian shopfronts in the Altrincham Town Centre conservation area",
+      "Grade I listed Dunham Massey National Trust estate borders with country-edge residential stock",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-dual-sidelights.jpg",
     galleryImages: [
@@ -85,12 +85,12 @@ export const manchesterLocations: Location[] = [
     parentSlug: "manchester",
     tier: 3,
     description:
-      "Sale offers an appealing blend of affordability and aspiration on Manchester's southern fringe. The Ashton Lane corridor and streets near Sale Moor contain well-proportioned 1930s semis and detached houses, many undergoing ambitious renovations that transform modest homes into contemporary family showcases. SteelR entrance doors are increasingly popular with Sale homeowners upgrading their properties, providing a premium focal point that lifts an entire facade — whether a sleek horizontal-ribbed design for a modernised semi or a classic panelled door for a period terrace on Northenden Road.",
+      "Sale in M33 offers an appealing blend of affordability and aspiration on Manchester's southern fringe. Premium residential streets include Ashton Lane, Brooklands Road, Marsland Road, Northenden Road and Park Road carrying well-proportioned 1930s semi-detached and detached houses, many undergoing ambitious renovations. The Sale Moor and Brooklands areas add family detached stock, while the Brooklands Metrolink corridor drives further demand. The Ashton on Mersey Village conservation area preserves Grade II listed Victorian and Georgian frontages along Ashton Lane and the Grade II* listed St Martin's Church. The Grade II listed Sale Town Hall and the Bridgewater Canal add heritage context. New-build apartments and townhouses along Sale Town Centre's Washway Road regeneration supply contemporary stock. SteelR bespoke steel entrance doors are increasingly popular with Sale homeowners upgrading their properties, providing premium focal points that lift an entire facade with sleek horizontal-ribbed designs for modernised semis and classic panelled doors for period terraces. M33 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "1930s semis and detached houses on the Ashton Lane corridor",
-      "Period terraces with bay windows on Northenden Road",
-      "Properties undergoing major renovation and extension programmes",
-      "Excellent Metrolink access driving property demand and investment",
+      "1930s semis and detached houses on Ashton Lane, Brooklands Road and Marsland Road within M33",
+      "Grade II* listed St Martin's Church in the Ashton on Mersey Village conservation area",
+      "Period terraces with bay windows on Northenden Road and Park Road",
+      "Properties undergoing major renovation programmes with Metrolink Brooklands corridor access",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg",
     galleryImages: [
@@ -109,12 +109,12 @@ export const manchesterLocations: Location[] = [
     parentSlug: "manchester",
     tier: 3,
     description:
-      "Worsley is defined by its landmark orange-tinged Bridgewater Canal, elegant period properties on Worsley Road, and the sweeping grounds of the Ellesmere estate. The village has long attracted Manchester's business elite, who value its combination of rural tranquillity and motorway proximity. Properties range from Georgian canal-side cottages to substantial modern homes behind electric gates on Leigh Road. SteelR entrance doors meet the diverse architectural demands of Worsley, from heritage-appropriate panelled designs with brass fittings to bold contemporary statements for the newest executive builds.",
+      "Worsley in M28 is defined by the Grade II* listed Bridgewater Canal (1761, the first purpose-built canal in Britain), the Grade I listed Worsley Old Hall, and the sweeping grounds of the Bridgewater family Ellesmere estate. The Worsley Village conservation area covers Worsley Road, Leigh Road and the canal-side with Grade II listed black-and-white Tudor Revival buildings (reconstructed by the Earl of Ellesmere in the 19th century) that give the village its distinctive character. Premium residential streets include Worsley Road, Leigh Road, Roe Green and Ellenbrook Road carrying substantial Edwardian and inter-war detached homes on generous plots, while Roe Green Village adds a further Grade II listed conservation area. Executive homes behind electric gates along Leigh Road and Greenleach Lane command premium prices with M60 orbital access. SteelR bespoke steel entrance doors meet the diverse architectural demands of Worsley, with listed building consent handled in-house and SR3 rating as standard. M28 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian canal-side cottages along the Bridgewater Canal",
-      "Substantial executive homes with electric gates on Leigh Road",
-      "Period properties on Worsley Road with distinctive red sandstone",
-      "Ellesmere estate properties requiring heritage-sensitive renovation",
+      "Grade II* listed Bridgewater Canal and Grade II listed Tudor Revival buildings within the Worsley M28 conservation area",
+      "Grade I listed Worsley Old Hall and Grade II listed Ellesmere estate historic properties",
+      "Substantial Edwardian detached homes on Worsley Road, Leigh Road and Ellenbrook Road",
+      "Executive gated homes on Leigh Road with Roe Green Village conservation area family stock",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-medallion-driveway.jpeg",
     galleryImages: [
@@ -133,12 +133,12 @@ export const manchesterLocations: Location[] = [
     parentSlug: "manchester",
     tier: 3,
     description:
-      "Chorlton-cum-Hardy has evolved into south Manchester's creative quarter, where Beech Road's independent cafes and vintage shops serve a community of architects, designers, and media professionals. The area's housing stock is predominantly Victorian and Edwardian terraces with characterful recessed porches, arched brick headers, and decorative keystones. SteelR bespoke entrance doors appeal to Chorlton's design-literate homeowners, offering the opportunity to commission something genuinely individual — bold colour choices, distinctive glazing patterns, and hardware combinations that reflect the area's independent spirit.",
+      "Chorlton-cum-Hardy in M21 has evolved into south Manchester's creative quarter, with Beech Road's independent cafes and vintage shops serving a community of architects, designers and media professionals. The Chorlton Green conservation area preserves Grade II listed Victorian and Edwardian frontages around the village green and the Grade II* listed St Clement's Church. Premium residential streets include Beech Road, Wilbraham Road, Manchester Road, Oswald Road and Sandy Lane carrying Victorian and Edwardian terraces with characterful recessed porches, arched brick headers and decorative keystones. The Chorlton Park and Darley Hall conservation areas preserve further listed stock, while the streets off Beech Road (Brantingham Road, Zetland Road) add substantial Edwardian semi-detached family homes. The Chorlton-cum-Hardy M21 postcode has driven premium gentrification with design-conscious homeowner demand. SteelR bespoke entrance doors appeal to Chorlton's design-literate homeowners with bold RAL colour choices, distinctive glazing patterns and hardware combinations. M21 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Victorian terraces with recessed porches and arched brick headers",
-      "Edwardian semis on Beech Road and Wilbraham Road corridors",
-      "Design-conscious homeowners seeking distinctive front door solutions",
-      "Conservation area considerations around Chorlton Green",
+      "Grade II* listed St Clement's Church and Grade II listed Chorlton Green M21 conservation area frontages",
+      "Victorian terraces with recessed porches and arched brick headers on Beech Road and Sandy Lane",
+      "Edwardian semi-detached family homes on Brantingham Road, Zetland Road and Oswald Road",
+      "Design-conscious renovated stock near Chorlton Water Park and Darley Hall conservation area",
     ],
     heroImage: "/images/gallery/steelr-cobalt-ornate-lion-knocker.jpg",
     galleryImages: [
@@ -157,12 +157,12 @@ export const manchesterLocations: Location[] = [
     parentSlug: "manchester",
     tier: 3,
     description:
-      "Bramhall sits at the foot of the Pennine fringe, its broad avenues of 1930s and post-war detached houses shielded by mature gardens and specimen trees. The proximity to Bramhall Park and its Tudor hall gives the area a semi-rural atmosphere despite excellent rail links to Manchester Piccadilly. Homeowners here favour classic, understated quality — a sensibility perfectly served by SteelR's range of traditionally panelled doors with discreet multi-point locking, precision weather seals, and hand-finished ironmongery that quietly declares quality without ostentation.",
+      "Bramhall in SK7 sits at the foot of the Pennine fringe, anchored by the Grade I listed Bramhall Hall (15th-century black-and-white half-timbered manor house, Cheshire's finest Tudor manor). Premium residential streets include Bramhall Lane South, Moss Lane, Ack Lane East, Bridge Lane and Nell Lane carrying broad avenues of 1930s and post-war detached houses shielded by mature gardens and specimen trees on plots of a quarter to half an acre. The Bramhall Park (Grade II* listed 70-acre park surrounding the Hall) gives the area a semi-rural atmosphere. The Bramhall Village centre conservation area preserves Grade II listed Victorian and Edwardian shopfronts along Ack Lane East and Bramhall Lane. The Pownall Park and Bramhall Moor areas add further substantial family detached stock, while new-build executive homes in the south Bramhall borders add contemporary stock. Bramhall station provides a direct Manchester Piccadilly connection in fifteen minutes. SteelR bespoke doors offer traditionally panelled designs with discreet multi-point locking, precision weather seals and hand-finished European ironmongery. SK7 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "1930s and post-war detached houses with broad driveways",
-      "Mature gardens providing semi-rural setting near Bramhall Park",
-      "Tudor architectural influence from nearby Bramhall Hall",
-      "Preference for understated quality over showy design",
+      "Grade I listed Bramhall Hall Tudor manor house and Grade II* listed 70-acre Bramhall Park within SK7",
+      "1930s and post-war detached houses with broad driveways on Bramhall Lane South, Moss Lane and Ack Lane East",
+      "Grade II listed Bramhall Village conservation area Victorian and Edwardian shopfronts",
+      "Substantial family detached stock in Pownall Park and Bramhall Moor with semi-rural plots",
     ],
     heroImage: "/images/gallery/steelr-black-panelled-sidelights-palms.jpg",
     galleryImages: [
@@ -181,12 +181,12 @@ export const manchesterLocations: Location[] = [
     parentSlug: "manchester",
     tier: 3,
     description:
-      "Stockport is experiencing a renaissance, with its landmark viaduct, restored Market Place, and Underbanks conservation area drawing investment and new residents. The town's residential areas span grand Victorian villas in Heaton Moor and Edgeley to newer executive developments near the A6 corridor. SteelR entrance doors serve Stockport's growing community of renovators and upgraders, providing bespoke designs that respect the Victorian and Edwardian character of the borough's best streets while offering the performance benefits that older timber doors simply cannot match.",
+      "Stockport in SK1, SK2, SK3, SK4 and SK5 is experiencing a renaissance anchored by the Grade II* listed Stockport Viaduct (27 arches, 1840, one of the largest brick structures in Europe) and the restored Market Place. The Underbanks conservation area (one of the oldest continuously occupied medieval street patterns in the north of England) preserves Grade I listed St Mary's Church and Grade II* listed Staircase House (1460s). Premium residential streets include the Heaton Moor and Heaton Chapel (SK4) areas along Mauldeth Road, Peel Moat Road and Parsonage Road carrying grand Victorian villas with stained glass, while Edgeley (SK3) and Cale Green add Edwardian terraces with ornate tiled porches. The Davenport and Bramhall Park borders add family detached stock, while new executive developments along the A6 corridor and Stockport Road supply contemporary new-builds. SteelR bespoke entrance doors respect the Victorian and Edwardian character with listed building consent handled in-house for the Underbanks zone. SK1 through SK5 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Grand Victorian villas with stained glass in Heaton Moor",
-      "Edwardian terraces with ornate porches in Edgeley and Cale Green",
-      "New executive developments along the A6 corridor",
-      "Active conservation area in the Underbanks requiring sensitive design",
+      "Grade II* listed Stockport Viaduct and Grade I listed St Mary's Church within the SK1 Underbanks conservation area",
+      "Grand Victorian villas with stained glass in Heaton Moor SK4 on Mauldeth Road and Parsonage Road",
+      "Edwardian terraces with ornate tiled porches in Edgeley SK3 and Cale Green",
+      "Grade II* listed Staircase House and new executive developments along the A6 corridor and Stockport Road",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
     galleryImages: [
@@ -205,12 +205,12 @@ export const manchesterLocations: Location[] = [
     parentSlug: "manchester",
     tier: 3,
     description:
-      "Hale Barns occupies the privileged ground between Hale village and Manchester Airport, its winding lanes concealing some of the most substantial private homes in Greater Manchester. Properties here are frequently architect-designed or extensively remodelled, with sweeping driveways leading to imposing double-height entrance halls. SteelR bespoke entrance doors are specified by Hale Barns homeowners and their architects for good reason — the ability to create oversized, structurally engineered door systems with integrated sidelights, fanlights, and smart access that no standard manufacturer can deliver.",
+      "Hale Barns in WA15 occupies the privileged ground between Hale village and Manchester Airport, its winding lanes concealing some of the most substantial private homes in Greater Manchester. Premium residential streets include Rappax Road, Wicker Lane, Clay Lane, Hasty Lane and the Ringway Road corridor carrying mansion-scale architect-designed and extensively remodelled properties with sweeping driveways, imposing double-height entrance halls and plots of a half to two acres. Properties are frequently architect-designed or extensively remodelled, with many Premier League footballers, businesspeople and celebrities in residence. The Hale Barns Village (Grade II listed Church of All Saints) and Stamford Park conservation areas preserve further heritage character. Gated developments along Hasty Lane and Kings Avenue command premium prices with integrated access and intercom systems. The proximity to Manchester Airport and the Bowdon and Altrincham borders drives further premium values. SteelR bespoke steel entrance doors are specified by Hale Barns homeowners and their architects for oversized, structurally engineered door systems with integrated sidelights, fanlights and smart access. SR4 (LPS 1175) commercial-grade upgrade specified on roughly two-thirds of Hale Barns projects. WA15 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Architect-designed homes with double-height entrance halls",
-      "Extensively remodelled properties on Rappax Road and Wicker Lane",
-      "Gated developments requiring integrated access and intercom systems",
-      "High demand for oversized bespoke door configurations with sidelights",
+      "Mansion-scale architect-designed homes with double-height entrance halls on Rappax Road, Wicker Lane and Clay Lane within WA15",
+      "Extensively remodelled properties on Hasty Lane and Kings Avenue with integrated access and intercom systems",
+      "Grade II listed Church of All Saints within the Hale Barns Village conservation area",
+      "Gated developments requiring oversized bespoke door configurations with sidelights and fanlights",
     ],
     heroImage: "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
     galleryImages: [
