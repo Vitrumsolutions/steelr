@@ -34,12 +34,12 @@ export const southWestLocations: Location[] = [
     parentSlug: "south-west",
     tier: 3,
     description:
-      "Bristol's architectural identity is wonderfully eclectic, spanning Georgian crescents in Clifton to colourful Victorian terraces in Totterdown and warehouse conversions along the Floating Harbour. The city's creative energy extends to its homes, where residents seek entrance doors that express individuality without compromising on quality. SteelR steel doors are specified across Bristol for their ability to be finished in any colour, suiting both the pastel facades of Redland and the bold frontages of Montpelier.",
+      "Bristol in BS1 through BS9 has a wonderfully eclectic architectural identity, spanning Grade I listed Georgian crescents in Clifton to colourful Victorian terraces in Totterdown, Montpelier and Southville, and converted warehouse conversions along the Floating Harbour. The premium residential market includes Clifton (BS8) with Royal York Crescent and The Mall, Cotham (BS6) with Cotham Hill and Redland Road, and Redland (BS6) with pastel-painted Victorian semi-detached villas along Whiteladies Road and Chandos Road. The Harbourside (BS1) and Redcliffe regeneration areas supply contemporary townhouses and warehouse conversions with Floating Harbour frontage. The Leigh Woods (BS9) and Sneyd Park areas add substantial detached Edwardian homes with Avon Gorge views. The Victorian terraces of Bedminster, Ashton and Bishopston provide characterful family stock. SteelR bespoke steel entrance doors are specified across Bristol for bespoke RAL colour matching suiting both the pastel Redland facades and bold Montpelier frontages. BS1 through BS9 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian and Regency terraces in Clifton and Cotham",
-      "Colourful Victorian terraces in Totterdown and Southville",
-      "Converted warehouses along the Floating Harbour",
-      "New-build townhouses in Redcliffe and Temple Quarter",
+      "Grade I listed Georgian crescents in Clifton BS8 and Regency terraces along Cotham Hill within BS6",
+      "Colourful Victorian terraces on Whiteladies Road, Chandos Road and the Totterdown and Southville streets",
+      "Converted warehouses along the Floating Harbour within the BS1 Harbourside and Redcliffe conservation zones",
+      "Substantial Edwardian detached homes with Avon Gorge views in Leigh Woods and Sneyd Park BS9",
     ],
     heroImage: "/images/gallery/steelr-navy-traditional-vine-porch.jpg",
     galleryImages: [
@@ -58,12 +58,12 @@ export const southWestLocations: Location[] = [
     parentSlug: "south-west",
     tier: 3,
     description:
-      "Bath is a UNESCO World Heritage city whose golden crescents and circus of Georgian townhouses set the global benchmark for architectural elegance. Every entrance door on Royal Crescent, The Circus, and Great Pulteney Street contributes to one of the world's most photographed streetscapes. SteelR steel entrance doors for Bath are crafted with heritage-sensitive profiles and finishes that satisfy conservation officers while delivering the thermal and acoustic insulation these Grade I listed homes require.",
+      "Bath in BA1 and BA2 is a UNESCO World Heritage city whose Bath-stone crescents and circus of Georgian townhouses set the global benchmark for architectural elegance. Every entrance door on the Grade I listed Royal Crescent (John Wood the Younger, 1767), The Circus (John Wood the Elder, 1754) and Great Pulteney Street contributes to one of the world's most photographed streetscapes. The Bath conservation area (effectively the entire city centre) preserves the highest concentration of Grade I listed Georgian terraces in the UK, including Queen Square, the Royal Crescent, The Circus, Lansdown Crescent and Camden Crescent. Premium residential streets include Royal Crescent, Sydney Place, Great Pulteney Street and Queen Square within BA1, with Regency villas in Bathwick, Widcombe and Larkhall adding further listed stock. Victorian terraces climb Lansdown, Bear Flat and Oldfield Park, while Cotswold stone properties in Bathford, Bathampton, Freshford and Batheaston villages within BA2 add rural-estate stock. SteelR bespoke steel entrance doors are crafted with heritage-sensitive profiles, listed building consent handled in-house, and finishes that satisfy Bath conservation officers. BA1 and BA2 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Grade I listed Georgian townhouses on Royal Crescent and The Circus",
-      "Regency villas in Bathwick and Widcombe",
-      "Victorian terraces climbing Lansdown and Bear Flat",
-      "Cotswold stone properties in surrounding villages like Bathford",
+      "Grade I listed Royal Crescent, The Circus and Queen Square Georgian terraces within the Bath BA1 UNESCO World Heritage conservation area",
+      "Regency villas on Sydney Place, Great Pulteney Street and through Bathwick, Widcombe and Larkhall",
+      "Victorian terraces climbing Lansdown, Bear Flat and Oldfield Park",
+      "Bath-stone and Cotswold stone country properties in Bathford, Bathampton and Freshford within BA2",
     ],
     heroImage: "/images/gallery/steelr-cream-panelled-chrome-sidelight.jpg",
     galleryImages: [
@@ -82,12 +82,12 @@ export const southWestLocations: Location[] = [
     parentSlug: "south-west",
     tier: 3,
     description:
-      "Cheltenham's Regency architecture is among the finest in England, with stuccoed terraces, ornamental ironwork balconies, and tree-lined promenades defining the town's character. The Suffolks, Montpellier, and Pittville districts feature elegant townhouses with imposing front doors that are central to each property's kerb appeal. SteelR steel entrance doors are designed to sit seamlessly within Cheltenham's heritage streetscapes, offering bespoke mouldings and period-accurate colour matching alongside modern performance.",
+      "Cheltenham in GL50, GL51, GL52 and GL53 hosts Regency architecture among the finest in England, with stuccoed terraces, ornamental ironwork balconies, tree-lined promenades and the landscaped Promenade itself defining the town's character. The Cheltenham conservation area covers the Promenade, Montpellier, Pittville and the Suffolks, preserving Grade I listed Pittville Pump Room (1830), Grade II* listed Royal Crescent and the Grade II listed Montpellier Rotunda. Premium residential streets include Montpellier Street, Suffolk Parade, Pittville Circus Road, Evesham Road and Lansdown Crescent carrying Grade II listed Regency stuccoed townhouses, while the Pittville villas along Wellington Square and Clarence Square add substantial detached stock with columned porticos. Leckhampton (GL53) adds Victorian semi-detached homes along Old Bath Road and Shurdington Road, while the Prestbury (GL52), Charlton Kings (GL53) and Winchcombe borders add Cotswold stone country houses and estate properties within the Cotswolds AONB. SteelR bespoke steel entrance doors sit seamlessly within Cheltenham's heritage streetscapes, with listed building consent handled in-house. GL50 through GL53 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Regency stuccoed townhouses in Montpellier and The Suffolks",
-      "Substantial Pittville villas with columned porticos",
-      "Victorian semi-detached homes in Leckhampton",
-      "Cotswold stone country houses in Prestbury and Charlton Kings",
+      "Grade I listed Pittville Pump Room and Grade II* listed Royal Crescent within the Cheltenham GL50 conservation area",
+      "Regency stuccoed townhouses on Montpellier Street, Suffolk Parade and Pittville Circus Road",
+      "Substantial Pittville villas on Wellington Square and Clarence Square with columned porticos",
+      "Cotswold stone country houses in Prestbury GL52 and Charlton Kings GL53 within the Cotswolds AONB",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
     galleryImages: [
@@ -106,12 +106,12 @@ export const southWestLocations: Location[] = [
     parentSlug: "south-west",
     tier: 3,
     description:
-      "Known as the Capital of the Cotswolds, Cirencester is a prosperous market town where warm limestone buildings cluster around a magnificent medieval church and marketplace. Residential streets of mellow stone cottages give way to larger properties along Cecily Hill and the Bathurst Estate, while surrounding villages like Barnsley and Ampney Crucis offer quintessential English country living. SteelR steel entrance doors complement Cirencester's stone architecture with finishes that age gracefully alongside the local masonry.",
+      "Cirencester in GL7 is known as the Capital of the Cotswolds, a prosperous market town where warm limestone buildings cluster around the Grade I listed Church of St John the Baptist (with the tallest Cotswold church tower at 162 feet) and the Market Place. The town centre conservation area covers Cecily Hill, Dollar Street, Black Jack Street, Castle Street and the Market Place with Grade II listed medieval, Tudor and Georgian frontages. Premium residential streets include Cecily Hill, Dollar Street and Victoria Road carrying Georgian and Victorian townhouses, while the Bathurst Estate (Earl Bathurst's 15,000-acre estate, Grade II* listed Park and the Grade I listed Cirencester House) frames the western edge of the town. The surrounding Cotswolds AONB villages of Barnsley (Barnsley House), Ampney Crucis, Coates, South Cerney and the Bibury borders add country manor houses, converted farmsteads, Cotswold stone cottages and estate properties on plots of an acre or more. SteelR bespoke steel entrance doors complement Cirencester's stone architecture with bespoke RAL colour matching to the Cotswold limestone palette, listed building consent in-house, and SR4 (LPS 1175) upgrade available for rural estates. GL7 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Cotswold limestone cottages in the historic town centre",
-      "Georgian and Victorian properties along Cecily Hill",
-      "Country manor houses and estate properties in surrounding villages",
-      "Barn conversions and farmhouse renovations across the Cotswolds",
+      "Grade I listed Church of St John the Baptist and Cotswold limestone frontages in the Cirencester GL7 conservation area",
+      "Georgian and Victorian townhouses on Cecily Hill, Dollar Street and Black Jack Street",
+      "Grade I listed Cirencester House and the 15,000-acre Bathurst Estate parkland",
+      "Cotswold stone country manor houses in Barnsley, Ampney Crucis, Coates and South Cerney villages",
     ],
     heroImage: "/images/gallery/steelr-sage-panelled-arched-wreath.jpg",
     galleryImages: [
@@ -130,12 +130,12 @@ export const southWestLocations: Location[] = [
     parentSlug: "south-west",
     tier: 3,
     description:
-      "Tetbury is a jewel of the southern Cotswolds, its steep Chipping Steps and elegant Market House reflecting centuries of wool-trade prosperity. The town sits within reach of Highgrove and Westonbirt, and its housing market attracts buyers seeking period Cotswold stone properties with genuine character. SteelR bespoke steel entrance doors are crafted to honour Tetbury's architectural heritage, with hand-finished ironmongery and muted colour palettes that planning authorities in this conservation area welcome.",
+      "Tetbury in GL8 is a jewel of the southern Cotswolds AONB, its steep Chipping Steps and Grade I listed Market House (1655) reflecting centuries of wool-trade prosperity. The town centre conservation area covers Long Street, Market Place, Church Street and Chipping Street with Grade II listed Cotswold stone townhouses and the Grade I listed Church of St Mary the Virgin (1781). The town sits within reach of the Highgrove Estate (HRH The Prince of Wales's Gloucestershire residence) and Westonbirt Arboretum, and its housing market attracts buyers seeking period Cotswold stone properties with genuine character. Premium residential streets include Long Street, West Street and Chipping Street carrying listed stone townhouses, while the surrounding Cotswolds villages of Beverston (Grade I listed Beverston Castle), Shipton Moyne, Long Newnton and Rodmarton (Rodmarton Manor, Grade I listed Arts and Crafts estate) add country estates, manor farmhouses, converted coach houses and stable blocks on rural lanes within multi-acre plots. SteelR bespoke steel entrance doors honour Tetbury's architectural heritage with hand-finished antique brass ironmongery, muted RAL colour palettes that Cotswolds planning authorities welcome, and listed building consent handled in-house. GL8 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Grade II listed Cotswold stone townhouses on Long Street",
-      "Period cottages with stone mullion windows and low lintels",
-      "Country estates and manor farmhouses in Beverston and Shipton Moyne",
-      "Converted coach houses and stable blocks on rural lanes",
+      "Grade I listed Market House (1655) and Church of St Mary the Virgin within the Tetbury GL8 conservation area",
+      "Grade II listed Cotswold stone townhouses on Long Street, Market Place and Church Street",
+      "Highgrove Estate (HRH The Prince of Wales's residence) and Westonbirt Arboretum borders",
+      "Country estates including Grade I listed Beverston Castle and Rodmarton Manor Arts and Crafts estate",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
     galleryImages: [
@@ -154,12 +154,12 @@ export const southWestLocations: Location[] = [
     parentSlug: "south-west",
     tier: 3,
     description:
-      "Exeter combines cathedral-city gravitas with the vitality of a modern regional capital. The city's residential areas span red-sandstone Victorian villas in St Leonard's and Pennsylvania to contemporary riverside developments along the Exe. Properties in nearby Topsham, with its Dutch-gabled merchants' houses, are among Devon's most coveted. SteelR steel entrance doors serve Exeter homeowners who want a front door that performs in the South West's maritime climate while adding lasting distinction to their threshold.",
+      "Exeter in EX1, EX2, EX3 and EX4 combines Roman and medieval cathedral-city gravitas with the vitality of a modern regional capital. The city centre conservation area covers the Cathedral Close (Grade I listed Exeter Cathedral, Norman 12th-century), Southernhay (Regency terraces by Matthew Nosworthy), the Quayside and the historic streets within the Grade I listed Roman walls. Premium residential streets include Southernhay East and West (EX1 with Grade I listed Georgian townhouses), St Leonard's Road and Barnfield Road (EX2 with red-sandstone Victorian villas), and Pennsylvania (EX4 elevated Victorian detached stock overlooking the city). The nearby Topsham (EX3) village carries some of Devon's most coveted Dutch-gabled merchants' houses along Fore Street and Strand. Modern executive developments in Pinhoe, Cranbrook (EX5) and Alphington add contemporary family stock. SteelR bespoke steel entrance doors serve Exeter homeowners with marine-grade powder coat for the maritime climate, SR3 rating as standard and listed building consent handled in-house for the Cathedral Close zone. EX1 through EX5 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Red-sandstone Victorian villas in St Leonard's and Heavitree",
-      "Georgian townhouses in the Cathedral Quarter and Southernhay",
-      "Dutch-gabled merchants' houses in Topsham",
-      "Modern executive homes in Pinhoe and Cranbrook",
+      "Grade I listed Exeter Cathedral and Roman walls within the EX1 Cathedral Close conservation area",
+      "Grade I listed Georgian Southernhay terraces (Matthew Nosworthy) and red-sandstone Victorian villas in St Leonard's EX2",
+      "Dutch-gabled merchants' houses in Topsham EX3 along Fore Street and Strand",
+      "Elevated Victorian detached stock in Pennsylvania EX4 with contemporary new-builds in Cranbrook EX5",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg",
     galleryImages: [
@@ -178,12 +178,12 @@ export const southWestLocations: Location[] = [
     parentSlug: "south-west",
     tier: 3,
     description:
-      "Clifton is Bristol's crown jewel, where Brunel's suspension bridge spans the Avon Gorge and Georgian terraces cascade down towards the village green. Royal York Crescent, Caledonia Place, and The Mall present some of the finest residential architecture in the West Country, with tall sash windows and grand entrance doorways that define the streetscape. SteelR steel entrance doors for Clifton properties are specified to match the proportions and elegance of these landmark facades with uncompromising precision.",
+      "Clifton in BS8 is Bristol's crown jewel, where Brunel's Grade I listed Clifton Suspension Bridge spans the Avon Gorge and Grade I listed Georgian terraces cascade down towards the Village Green. The Clifton Village conservation area covers Royal York Crescent (the longest Georgian crescent in Europe, Grade I listed), Caledonia Place, The Mall, Princess Victoria Street and The Paragon, with Grade I and II* listed Regency stucco villas on Clifton Park and West Mall. Premium residential streets include Royal York Crescent, Caledonia Place, Clifton Park, West Mall, Pembroke Road and Clifton Park Road, with tall sash windows and grand entrance doorways defining the streetscape. The Victorian mansion flats along Pembroke Road, Oakfield Road and Arley Hill add listed mansion-block stock, while the Clifton Down Road and Leigh Woods borders supply Edwardian detached villas with Avon Gorge views. SteelR bespoke steel entrance doors for Clifton are specified to match the proportions and elegance of these landmark facades, with listed building consent handled in-house and bespoke RAL colour matching to the stucco palette. BS8 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian terraces on Royal York Crescent and Caledonia Place",
-      "Regency villas with columned porticos in Clifton Park",
-      "Victorian mansion flats along Pembroke Road",
-      "Elegant townhouses in Clifton Village conservation area",
+      "Grade I listed Royal York Crescent (longest Georgian crescent in Europe) and Clifton Suspension Bridge within BS8",
+      "Grade I and II* listed Regency villas on Clifton Park, West Mall and Caledonia Place",
+      "Victorian mansion flats on Pembroke Road, Oakfield Road and Arley Hill",
+      "Edwardian detached villas on Clifton Down Road with Avon Gorge views and Leigh Woods borders",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-medallion-driveway.jpeg",
     galleryImages: [
@@ -202,12 +202,12 @@ export const southWestLocations: Location[] = [
     parentSlug: "south-west",
     tier: 3,
     description:
-      "Clevedon's Victorian pier and seafront promenade set the scene for a charming coastal town that has become increasingly popular with Bristol commuters seeking quality of life by the Severn Estuary. Handsome Victorian and Edwardian villas line Hill Road and The Triangle, their elevated positions affording panoramic sea views. SteelR steel entrance doors bring enhanced weather resistance to Clevedon's coastal properties, where salt air and driving rain demand a front door built to endure without compromise.",
+      "Clevedon in BS21 is a Victorian coastal town on the Severn Estuary, defined by the Grade I listed Clevedon Pier (1869, the only Grade I listed pier in England) and the Grade II* listed Clevedon Court (13th-century manor house, National Trust). The town centre conservation area covers The Triangle, Copse Road, Hill Road and The Beach with Grade II listed Victorian and Edwardian frontages. Premium residential streets include Hill Road, Dial Hill, Coleridge Road and Walton Road carrying handsome Victorian and Edwardian villas in elevated positions affording panoramic Severn Estuary views across to Wales. Cambridge Batch, Tickenham Road and Nailsea borders add Arts and Crafts properties and rural-fringe detached stock, while the coastal developments along Poets Walk and Marine Hill supply contemporary seafront stock. The Bristol commuter demographic drives premium values here. SteelR bespoke steel entrance doors bring marine-grade powder coat to BS EN 12206-1 Class 2 to Clevedon's coastal properties, essential where Severn Estuary salt air and driving rain demand a front door built to endure. BS21 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Victorian villas with sea views along Hill Road and Dial Hill",
-      "Edwardian semi-detached homes in the town centre",
-      "Arts and Crafts properties in surrounding Tickenham and Nailsea",
-      "Contemporary coastal developments along the seafront",
+      "Grade I listed Clevedon Pier and Grade II* listed Clevedon Court 13th-century manor house within BS21",
+      "Victorian villas with Severn Estuary sea views along Hill Road, Dial Hill and Coleridge Road",
+      "Grade II listed Victorian and Edwardian frontages within the Clevedon conservation area The Triangle and Copse Road",
+      "Arts and Crafts properties in surrounding Tickenham and Nailsea with contemporary coastal stock on Poets Walk",
     ],
     heroImage: "/images/gallery/steelr-grey-panelled-lever-handle.jpg",
     galleryImages: [
