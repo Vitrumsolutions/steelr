@@ -34,12 +34,13 @@ export const yorkshireLocations: Location[] = [
     parentSlug: "yorkshire",
     tier: 3,
     description:
-      "Leeds has reinvented itself as a northern powerhouse, and its residential areas reflect that transformation. From the Victorian grandeur of Headingley's stone villas to the contemporary waterfront apartments along the Aire, the city offers a breadth of property styles. SteelR steel entrance doors are increasingly specified by Leeds homeowners upgrading period properties in Chapel Allerton and Roundhay, where a bespoke front door sets the tone for the entire home.",
+      "Leeds has reinvented itself as a northern powerhouse, and its residential areas reflect that transformation. The stone villas of Headingley along Shire Oak Road and North Lane have stood since the late Victorian boom, many now Grade II listed and subject to the conservation constraints of the Headingley Hill area. In Roundhay, substantial Edwardian semis line Street Lane, Wetherby Road and The Avenue with deep-set porches crying out for front doors that respect their original proportions. The prestigious LS17 postcodes covering Alwoodley and Moortown favour gated executive homes where owners upgrade to SR3 rated steel entrance doors in RAL 9005 Jet Black or RAL 7016 Anthracite, often with brushed brass or chrome ironmongery. SteelR works with Leeds homeowners, architects and main contractors from the LS6 inner suburbs out to the LS22 Wetherby belt, with every door manufactured to PAS 24:2022 and Secured by Design approval, and the SR4 (LPS 1175 Issue 8) commercial-grade upgrade available for higher exposure properties.",
     localFeatures: [
-      "Victorian stone villas in Headingley and Far Headingley",
-      "Edwardian semis with deep-set porches in Roundhay",
-      "Contemporary apartments in the Holbeck Urban Village",
-      "Executive detached homes in Alwoodley and Moortown",
+      "Victorian stone villas in Headingley, Far Headingley and Meanwood (LS6)",
+      "Edwardian semis with deep-set porches along Street Lane, Roundhay (LS8)",
+      "Contemporary waterfront apartments in Holbeck Urban Village and Granary Wharf",
+      "Executive detached homes in Alwoodley, Moortown and Adel (LS17)",
+      "Conservation area properties around Headingley Hill, Chapel Allerton and Oakwood",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg",
     galleryImages: [
@@ -58,12 +59,13 @@ export const yorkshireLocations: Location[] = [
     parentSlug: "yorkshire",
     tier: 3,
     description:
-      "Harrogate exudes elegance, from the sweeping Stray to the immaculate stone terraces that line its garden-district streets. Properties on Lancaster Park Road and Cornwall Road command premium prices, and their owners expect every detail to match. SteelR steel entrance doors are a perfect complement to Harrogate's refined character, offering bespoke ironmongery and paint finishes that sit harmoniously alongside original Victorian stonework and period fanlights.",
+      "Harrogate exudes elegance, from the sweeping 200 acres of The Stray to the immaculate stone terraces lining its garden districts. The Duchy Estate within the HG1 and HG2 postcodes is one of northern England's most exclusive residential enclaves, with properties along Cornwall Road, Lancaster Park Road and Rutland Drive regularly exchanging at seven-figure values. The Montpellier Quarter and streets around Valley Gardens carry significant conservation protection, and many Victorian and Edwardian villas are Grade II listed with original leaded fanlights still in place. SteelR bespoke steel entrance doors suit Harrogate's refined character, with ogee and reeded panel profiles, arched fanlight heads and period-appropriate ironmongery in brushed brass, polished chrome or matt black, finished in RAL 9002 Grey White, RAL 7012 Basalt Grey or a bespoke heritage colour. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3 as standard, with SR4 (LPS 1175) upgrade available for higher security specifications.",
     localFeatures: [
-      "Victorian stone terraces overlooking The Stray",
-      "Substantial Edwardian detached homes in the Duchy Estate",
-      "Country houses and converted farms in Nidderdale",
-      "Modern executive developments off Leeds Road",
+      "Victorian stone terraces overlooking The Stray (HG1)",
+      "Substantial Edwardian detached homes in the Duchy Estate (HG1 and HG2)",
+      "Country houses and converted farms across Nidderdale AONB",
+      "Modern executive developments off Leeds Road and Wetherby Road",
+      "Grade II listed properties in Montpellier Quarter and around Valley Gardens",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
     galleryImages: [
@@ -82,12 +84,13 @@ export const yorkshireLocations: Location[] = [
     parentSlug: "yorkshire",
     tier: 3,
     description:
-      "York's ancient city walls enclose a treasure of architectural styles, from medieval timber-framed buildings on The Shambles to Georgian townhouses along Bootham and Clifton. Beyond the walls, suburbs like Bishopthorpe and Heslington feature generous family homes on quiet, tree-lined roads. SteelR bespoke steel doors are crafted to meet the stringent requirements of York's many conservation areas while providing the modern security performance that city-centre living demands.",
+      "York's ancient city walls enclose one of the richest concentrations of listed heritage in the UK, with over 1,500 protected buildings within the ring. Georgian townhouses line Bootham, St Paul's Square and Clifton in the YO30 postcode, while the YO31 and YO1 streets around Monkgate and Gillygate feature pristine Regency terraces under strict conservation controls. Beyond the walls, suburbs such as Bishopthorpe, Heslington and Fulford in YO10 and YO23 offer generous detached family homes on quiet, tree-lined roads. SteelR bespoke steel entrance doors are manufactured to meet the stringent requirements of York's 35 conservation areas, with hand-finished ogee panel profiles, arched or rectangular fanlights with leaded glazing bars, and heritage ironmongery that satisfies City of York Council planning officers. Finishes include RAL 7024 Graphite Grey, RAL 6009 Fir Green and RAL 8017 Chocolate Brown. Every door delivers SR3 rated security to BS EN 1627 Class 3, PAS 24:2022 certification, Secured by Design approval, and FD30S fire and smoke rating as standard, with SR4 (LPS 1175) upgrade available.",
     localFeatures: [
-      "Georgian townhouses in Bootham and Clifton",
-      "Victorian terraces in the Groves and South Bank",
-      "Detached family homes in Bishopthorpe and Copmanthorpe",
-      "Listed buildings requiring conservation-area-compliant design",
+      "Georgian townhouses in Bootham, Clifton and St Paul's Square (YO30)",
+      "Victorian terraces in The Groves, South Bank and Fulford (YO10 and YO23)",
+      "Detached family homes in Bishopthorpe, Copmanthorpe and Heslington",
+      "Grade I and Grade II listed buildings within the city walls (YO1)",
+      "Conservation area compliance across 35 designated York zones",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
     galleryImages: [
@@ -106,12 +109,13 @@ export const yorkshireLocations: Location[] = [
     parentSlug: "yorkshire",
     tier: 3,
     description:
-      "Nestled between the moor and the Wharfe, Ilkley is one of Yorkshire's most sought-after addresses. Its handsome stone villas along Queens Road and Grove Road reflect the town's Victorian spa-town heritage, while newer developments on Ben Rhydding Drive attract families seeking space and scenery. SteelR steel entrance doors bring an architectural quality that matches Ilkley's premium housing market, with robust construction that stands up to the exposed Wharfedale weather.",
+      "Nestled between Ilkley Moor and the River Wharfe, the LS29 postcode is one of Yorkshire's most sought-after addresses and a consistent top-five UK town in quality-of-life rankings. Handsome stone villas along Queens Road, Grove Road and Wells Road reflect Ilkley's Victorian spa-town heritage, many Grade II listed and set within the Ilkley Conservation Area. Ben Rhydding Drive, Bolling Road and Crossbeck Road feature substantial Edwardian detached homes on generous plots, while hillside plots above the town support architect-designed contemporary houses with full-height glazing and bold steel entrance door specifications. SteelR bespoke steel front doors suit Ilkley's premium housing market with robust 1.5mm to 2.0mm steel construction that withstands exposed Wharfedale weather, finished in RAL 7016 Anthracite Grey, RAL 9005 Jet Black or a dual-colour heritage sage. Every door carries PAS 24:2022 certification, SR3 security rating to BS EN 1627 Class 3 as standard, Secured by Design approval, and FD30S fire and smoke rating, with SR4 (LPS 1175) upgrade available for exposed rural plots.",
     localFeatures: [
-      "Victorian stone villas with deep porches along The Grove",
-      "Substantial Edwardian detached homes in Ben Rhydding",
+      "Victorian stone villas with deep porches along The Grove and Wells Road",
+      "Substantial Edwardian detached homes in Ben Rhydding (LS29)",
       "Converted mill buildings along the River Wharfe",
-      "Architect-designed contemporary homes on hillside plots",
+      "Architect-designed contemporary homes on Wharfedale hillside plots",
+      "Grade II listed properties in the Ilkley Conservation Area",
     ],
     heroImage: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
     galleryImages: [
@@ -130,12 +134,13 @@ export const yorkshireLocations: Location[] = [
     parentSlug: "yorkshire",
     tier: 3,
     description:
-      "Wetherby sits at the crossroads of Yorkshire's prime commuter belt, its Georgian coaching-town character preserved in the honey-coloured stone buildings along the High Street and marketplace. Surrounding villages like Collingham, Linton, and Boston Spa feature period cottages and modern executive estates that attract professionals working across Leeds, York, and Harrogate. SteelR steel entrance doors offer Wetherby homeowners a distinguished threshold that enhances both period and contemporary properties.",
+      "Wetherby sits at the crossroads of Yorkshire's prime commuter belt within the LS22 and LS23 postcodes, its Georgian coaching-town character preserved in the honey-coloured stone buildings along High Street, Market Place and North Street. Surrounding villages including Collingham, Linton, Boston Spa and Bramham feature period stone cottages and modern executive estates that attract senior professionals working across Leeds, York and Harrogate. Streets such as Deighton Road, Beech Avenue and Walton Road in the LS22 district support premium detached homes where owners specify SR3 rated steel entrance doors with traditional ogee panels and fanlight glazing. SteelR offers Wetherby homeowners a distinguished threshold that enhances both period and contemporary properties, with finishes in RAL 6005 Moss Green, RAL 5008 Grey Blue or a bespoke heritage shade, and hardware in polished brass or satin chrome. Every door is manufactured to PAS 24:2022, SR3 rated to BS EN 1627 Class 3 as standard, FD30S fire and smoke rated, and Secured by Design approved, with SR4 (LPS 1175) commercial-grade upgrade available.",
     localFeatures: [
-      "Georgian stone townhouses in the market-town centre",
-      "Executive detached homes in Boston Spa and Collingham",
-      "Period cottages in surrounding Wharfe valley villages",
-      "New-build developments with double-height entrance lobbies",
+      "Georgian stone townhouses in the Wetherby market centre (LS22)",
+      "Executive detached homes in Boston Spa, Bramham and Collingham (LS23)",
+      "Period stone cottages in surrounding Wharfe valley villages",
+      "New-build executive estates with double-height entrance lobbies",
+      "Conservation area properties around the market square and Bridge Foot",
     ],
     heroImage: "/images/gallery/steelr-taupe-panelled-dual-sidelights.jpg",
     galleryImages: [
@@ -154,12 +159,13 @@ export const yorkshireLocations: Location[] = [
     parentSlug: "yorkshire",
     tier: 3,
     description:
-      "Sheffield's dramatic hillside setting means that many of its finest homes enjoy sweeping views across the Don and Sheaf valleys toward the Peak District. The stone-built properties of Ranmoor, Fulwood, and Dore represent some of South Yorkshire's most prestigious residential addresses, where front doors face prevailing westerly winds and need to perform accordingly. SteelR steel doors deliver uncompromising weather resistance alongside the refined aesthetics that Sheffield's leafy suburbs demand.",
+      "Sheffield's dramatic hillside setting means many of its finest homes enjoy sweeping views across the Don and Sheaf valleys toward the Peak District National Park. The stone-built properties of Ranmoor, Endcliffe, Fulwood and Dore across the S10 and S17 postcodes represent some of South Yorkshire's most prestigious residential addresses, with Fulwood Road, Riverdale Road and Whirlowdale Road supporting seven-figure detached homes. Owners here face prevailing westerly winds off the Peak District and specify front doors that perform to exposure category C wind and water ratings. SteelR steel entrance doors deliver uncompromising weather resistance alongside the refined aesthetics that Sheffield's leafy suburbs demand, with 70mm thermally broken leaves achieving U-values from 0.9 W/m2K, SR3 rated security to BS EN 1627 Class 3 as standard, PAS 24:2022 certification, Secured by Design approval, and SR4 (LPS 1175) upgrade available. Finishes in RAL 7022 Umbra Grey, RAL 8019 Grey Brown or dual-colour heritage schemes suit both Victorian stone villas and Arts and Crafts properties.",
     localFeatures: [
-      "Victorian stone villas in Ranmoor and Endcliffe",
-      "Arts and Crafts detached homes in Dore and Totley",
-      "Converted cutlery works and industrial buildings in Kelham Island",
-      "Executive developments in Fulwood and Lodge Moor",
+      "Victorian stone villas in Ranmoor and Endcliffe (S10)",
+      "Arts and Crafts detached homes in Dore and Totley (S17)",
+      "Converted cutlery works and industrial buildings in Kelham Island (S3)",
+      "Executive developments in Fulwood, Lodge Moor and Bents Green",
+      "Peak District fringe properties facing category C wind exposure",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-sunburst.jpg",
     galleryImages: [
@@ -178,12 +184,13 @@ export const yorkshireLocations: Location[] = [
     parentSlug: "yorkshire",
     tier: 3,
     description:
-      "Knaresborough's dramatic gorge setting and medieval castle ruins make it one of Yorkshire's most visually striking towns. The steep streets leading down to the River Nidd are lined with a mix of Georgian townhouses, Victorian cottages, and handsome stone-built family homes. SteelR steel entrance doors suit Knaresborough's heritage streetscapes, with traditional finishes and ironmongery that conservation officers approve alongside concealed multi-point locking for genuine peace of mind.",
+      "Knaresborough's dramatic gorge setting and twelfth-century castle ruins make the HG5 postcode one of Yorkshire's most visually striking towns. Steep streets leading down to the River Nidd including High Street, Kirkgate and Briggate are lined with Georgian townhouses, Grade II listed Victorian cottages and handsome stone-built family homes, many within the Knaresborough Conservation Area. Detached homes in Scriven, Calcutt and along Boroughbridge Road offer more generous plots, while barn conversions in surrounding agricultural hamlets such as Farnham and Arkendale feature characterful oak-framed openings that benefit from bespoke steel entrance doors. SteelR doors suit Knaresborough's heritage streetscapes with traditional ogee panel profiles, arched fanlights, and ironmongery in polished brass, antique bronze or satin chrome that Harrogate Borough Council conservation officers approve alongside concealed multi-point locking systems. Finishes include RAL 6003 Olive Green, RAL 7016 Anthracite or heritage sage. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3, Secured by Design approved, and FD30S fire and smoke rated, with SR4 (LPS 1175) commercial-grade upgrade available.",
     localFeatures: [
-      "Georgian and Regency townhouses on the High Street",
-      "Stone-built Victorian cottages on sloping riverside streets",
-      "Detached family homes in Scriven and Calcutt",
-      "Barn conversions in surrounding agricultural hamlets",
+      "Georgian and Regency townhouses on the High Street and Kirkgate (HG5)",
+      "Grade II listed stone cottages on sloping riverside streets",
+      "Detached family homes in Scriven, Calcutt and along Boroughbridge Road",
+      "Barn conversions in Farnham, Arkendale and surrounding hamlets",
+      "Conservation area properties overlooking the Nidd Gorge",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
     galleryImages: [
@@ -202,12 +209,13 @@ export const yorkshireLocations: Location[] = [
     parentSlug: "yorkshire",
     tier: 3,
     description:
-      "England's smallest city punches well above its weight architecturally, with Ripon Cathedral anchoring a market square ringed by handsome Georgian facades. Residential streets radiate outwards into stone-built terraces and generous detached homes, while nearby villages like Studley Royal and Bishop Monkton offer country-house living within easy reach. SteelR bespoke steel entrance doors provide Ripon homeowners with a front door that matches the civic pride this ancient city is known for.",
+      "England's smallest city punches well above its weight architecturally, with Grade I listed Ripon Cathedral anchoring a market square ringed by handsome Georgian facades across the HG4 postcode. Residential streets radiate outwards into stone-built Victorian terraces along Allhallowgate, North Street and Kirkgate, while nearby villages such as Studley Royal, Bishop Monkton, Sharow and Littlethorpe offer country-house living within easy reach of Harrogate, York and the A1(M). The area sits on the edge of the Nidderdale AONB and the Fountains Abbey and Studley Royal UNESCO World Heritage Site, meaning many properties carry listed status and strict conservation controls. SteelR bespoke steel entrance doors provide Ripon homeowners with a front door that matches the civic pride this ancient city is known for, with hand-finished ogee and beaded panel profiles, arched fanlight glazing and period-appropriate hardware. Finishes include RAL 9002 Grey White, RAL 7012 Basalt Grey and bespoke heritage colours. Every door is PAS 24:2022 certified, SR3 rated to BS EN 1627 Class 3 as standard, Secured by Design approved, and FD30S fire and smoke rated, with SR4 (LPS 1175) commercial-grade upgrade available.",
     localFeatures: [
-      "Georgian stone townhouses around the market square",
-      "Victorian terraces on Allhallowgate and North Street",
-      "Country homes and estate cottages near Fountains Abbey",
-      "Modern family homes in Littlethorpe and Bishop Monkton",
+      "Georgian stone townhouses around the Ripon market square (HG4)",
+      "Grade II listed Victorian terraces on Allhallowgate and North Street",
+      "Country homes and estate cottages near Fountains Abbey and Studley Royal",
+      "Modern detached family homes in Littlethorpe, Sharow and Bishop Monkton",
+      "Conservation area properties within the Cathedral precinct",
     ],
     heroImage: "/images/gallery/steelr-champagne-arched-geometric-double.jpg",
     galleryImages: [
