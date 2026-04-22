@@ -38,20 +38,20 @@ const signatureCollection: LookbookDoor[] = [
     spec: "SR3 · PAS 24 · Secured by Design · FD30S · Black RAL 9005",
   },
   {
-    src: "/images/gallery/steelr-navy-traditional-brass-fanlight.jpg",
-    alt: "Navy traditional four-panel steel door with brass hardware and fanlight",
-    title: "Navy Traditional, Brass Fanlight",
+    src: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
+    alt: "Olive traditional steel door with brass pendant lighting",
+    title: "Olive Traditional, Brass Pendant",
     caption:
-      "A four-panel navy traditional in a hand-mixed custom RAL, finished with solid brass furniture and a fanlight carrying the property number. The navy reads cooler than black, warmer than charcoal.",
-    spec: "SR3 · PAS 24 · Bespoke RAL · Brass door furniture",
+      "A traditional panelled face in a hand-mixed olive, finished with solid brass furniture and a period brass pendant above the threshold. A country-house specification that reads confidently rather than loudly.",
+    spec: "SR3 · PAS 24 · Bespoke olive RAL · Solid brass furniture",
   },
   {
-    src: "/images/gallery/steelr-champagne-arched-geometric-double.jpg",
-    alt: "Champagne arched double steel doors with geometric inlay",
-    title: "Champagne Arched Double",
+    src: "/images/gallery/steelr-walnut-ribbed-columns.jpg",
+    alt: "Walnut ribbed steel door framed by stone columns",
+    title: "Walnut Ribbed, Stone Columns",
     caption:
-      "Paired doors under a structural arched head with geometric inlay panels. Champagne metallic reads warm in daylight and luminous under lamplight. For homes where a rectangular door would underwhelm.",
-    spec: "SR3 · Structural arched frame · Geometric inlay · Double leaf",
+      "A vertically-ribbed door finished in a warm walnut, set between classical stone columns on a private driveway. The ribbed rhythm draws the eye upward and adds structural rigidity to a slim profile.",
+    spec: "SR3 · Vertical rib profile · Walnut finish · Architect specification",
   },
   {
     src: "/images/gallery/steelr-black-traditional-doctor-knocker-canopy.jpg",
@@ -111,7 +111,7 @@ const panelledDoors: LookbookDoor[] = [
   { src: "/images/gallery/steelr-black-panelled-grille-sidelights.jpg", alt: "Black panelled steel door with decorative grille", title: "Decorative grille" },
   { src: "/images/gallery/steelr-grey-panelled-stone-surround.jpg", alt: "Grey panelled steel door in stone surround", title: "Stone surround, grey" },
   { src: "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg", alt: "Navy panelled steel door with lanterns and fanlight", title: "Navy with lanterns" },
-  { src: "/images/gallery/steelr-walnut-ribbed-columns.jpg", alt: "Walnut ribbed steel door with stone columns", title: "Walnut ribbed" },
+  { src: "/images/gallery/steelr-black-panelled-double-letterbox.jpg", alt: "Black panelled double steel door with letterbox", title: "Panelled double with letterbox" },
   { src: "/images/gallery/steelr-black-traditional-glazed-double.jpg", alt: "Black traditional glazed double steel doors", title: "Glazed double" },
 ];
 
@@ -208,7 +208,6 @@ export default function Lookbook() {
           <ScrollReveal direction="up" delay={0.35} duration={1}>
             <p className="lb-hero__sub">
               Forty installed works. Five colour families. One manufacturing principle.
-              Every door drawn, cut and welded in the United Kingdom.
             </p>
           </ScrollReveal>
         </div>
@@ -221,14 +220,12 @@ export default function Lookbook() {
         </ScrollReveal>
         <ScrollReveal direction="up" delay={0.15}>
           <p className="lb-statement__body">
-            What follows is not a catalogue. SteelR does not sell a standard range.
-            Every door on these pages was specified by a homeowner, architect or
-            developer for a particular property; designed around the surround it had
-            to live within; and hand-finished in our workshop before being fitted by
-            the same team that built it. The intent here is to show the breadth of
-            what has been commissioned, organised by the four decisions every client
-            makes with us: <em>style, colour, hardware, detail</em>. And to make
-            the material vocabulary available to you in advance of a conversation.
+            Not a catalogue. SteelR does not sell a standard range. Every door on
+            these pages was specified by a homeowner, architect or developer for
+            a particular property, and hand-finished in our workshop. The intent
+            is to show the breadth of what has been commissioned, organised by
+            the four decisions every client makes with us: <em>style, colour,
+            hardware, detail</em>.
           </p>
         </ScrollReveal>
       </section>
@@ -440,7 +437,7 @@ export default function Lookbook() {
             <li>
               <span className="lb-process__num">III</span>
               <h3>Manufacture</h3>
-              <p>Hand-cut, welded, finished in our UK workshop. ISO 9001 certified. Every door tested against its specification before it leaves the shop floor.</p>
+              <p>Hand-finished in our UK workshop. ISO 9001 certified. Every door tested against its specification before it leaves the shop floor.</p>
             </li>
           </ScrollReveal>
           <ScrollReveal direction="up" delay={0.3}>
