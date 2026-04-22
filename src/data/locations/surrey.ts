@@ -28,12 +28,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Virginia Water is one of England's most exclusive addresses, home to the Wentworth Estate and properties that regularly feature among the country's most expensive. The area's broad, tree-lined private roads are flanked by mansion-scale homes in styles ranging from mock-Tudor to ultra-modern glass and steel. A SteelR entrance door is a natural fit for these properties, providing the imposing scale and bespoke detailing that owners of multi-million-pound homes expect from every element of their facade.",
+      "Virginia Water in GU25 is one of the UK's most exclusive residential addresses, home to the Wentworth Estate where private roads regularly feature among the country's top ten most expensive streets. The Estate's residential roads (Wentworth Drive, Portnall Drive, East Drive and the Wentworth Gate itself) and the Crown Estate land surrounding Virginia Water Lake carry mansions ranging from mock-Tudor originals through inter-war neo-Georgian replacements to ultra-modern glass-and-steel architect builds. Beyond the Estate, Christchurch Road, Callow Hill and Knowle Grove add further substantial detached stock on acre-plus plots. SteelR bespoke steel entrance doors are engineered for these homes, with SR3 rating to BS EN 1627 Class 3 as standard, SR4 (LPS 1175 Issue 8) commercial-grade upgrade specified on roughly half of Wentworth projects, and fully bespoke dimensions handling openings up to 1,200mm leaf width and 2,400mm height. We survey GU25 directly from our Ickenham workshop, with installation teams experienced in gated-estate access protocols.",
     localFeatures: [
-      "Mansion-scale properties on the Wentworth Estate with gated access",
-      "Contemporary architect-designed homes on Crown Estate land",
-      "Period houses along Christchurch Road and Callow Hill",
-      "Large detached homes on private roads with sweeping driveways",
+      "Wentworth Estate private roads including Wentworth Drive, Portnall Drive and East Drive within GU25",
+      "Crown Estate properties surrounding Virginia Water Lake and the Savill Garden border",
+      "Mock-Tudor originals, neo-Georgian replacements and architect-designed glass-and-steel builds on acre-plus plots",
+      "Substantial detached stock on Christchurch Road, Callow Hill and Knowle Grove beyond the Estate",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
     galleryImages: [
@@ -52,12 +52,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Weybridge occupies a prime position at the confluence of the Wey and the Thames, with St George's Hill providing one of the most prestigious private estates in the UK. The town blends riverside charm with serious wealth, and properties range from elegant Edwardian villas on Queens Road to contemporary mansions behind the gated roads of the Hill. SteelR steel doors deliver the commanding presence these homes demand, with bespoke sizing and finishing that addresses the unique proportions of Weybridge's grandest entrances.",
+      "Weybridge in KT13 occupies a prime position at the confluence of the Wey and the Thames, with St George's Hill providing one of the most prestigious private estates in the UK. The Hill's residential roads (Camp End Road, Pinewood Close, South Ridge and East Road) are accessed through 24-hour-staffed gates and carry properties regularly transacting above five million pounds. Beyond the Hill, Queens Road, Oatlands Drive, Burwood Park and Brooklands Lane add substantial Edwardian and Victorian villas on generous plots, while the Thames-frontage properties along Walton Lane and Desborough Island command premium prices with private moorings. SteelR bespoke steel entrance doors deliver the commanding presence these homes demand, with oversized sizing handling standard 1,000mm+ leaf widths, dual-colour RAL specification at no additional cost, and SR4 (LPS 1175) commercial-grade upgrade specified on St George's Hill projects. KT13 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Gated mansions on St George's Hill with private security",
-      "Edwardian and Victorian villas on Queens Road and Oatlands Drive",
-      "Riverside properties along the Thames with private moorings",
-      "Contemporary new-builds replacing post-war bungalows on large plots",
+      "Gated mansions on St George's Hill including Camp End Road, Pinewood Close and South Ridge within KT13",
+      "Edwardian and Victorian villas on Queens Road, Oatlands Drive, Burwood Park and Brooklands Lane",
+      "Thames-frontage properties along Walton Lane and Desborough Island with private moorings",
+      "Contemporary new-builds replacing post-war bungalows on estate-grade plots",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
     galleryImages: [
@@ -76,12 +76,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Cobham and its satellite villages of Stoke D'Abernon and Oxshott form one of Surrey's premier residential areas, attracting Premier League footballers and business leaders with its combination of countryside setting and London proximity. The high street retains a village atmosphere while surrounding roads are lined with substantial detached homes on generous plots. SteelR bespoke steel entrance doors are specified here by homeowners who expect uncompromising quality, from the hand-applied finish to the precision-engineered multi-point locking mechanism.",
+      "Cobham in KT11, along with its satellite villages of Stoke D'Abernon and Downside, forms one of Surrey's premier residential areas, attracting Premier League footballers, business leaders and London commuters with its combination of Mole Valley countryside setting and A3 access to Waterloo. The High Street retains a village atmosphere while surrounding roads including Fairmile Lane, Between Streets, Stoke Road and Tilt Road carry substantial detached homes on generous plots. The Grade I listed Painshill Park landscape garden frames the northern edge of the town, while Stoke D'Abernon and Downside add gated-estate stock including properties on private roads off the Portsmouth Road. SteelR bespoke steel entrance doors are specified here by homeowners expecting uncompromising quality, with SR3 rating to BS EN 1627 Class 3 as standard, SR4 (LPS 1175) commercial-grade upgrade available, and FD30S fire rating across the range. KT11 surveyed directly from our Ickenham workshop.",
     localFeatures: [
-      "Large detached family homes on Fairmile Lane and Between Streets",
-      "Period properties near Painshill Park with mature landscaped gardens",
-      "Contemporary replacements on large plots in Stoke D'Abernon",
-      "Executive homes on private roads off the Portsmouth Road",
+      "Large detached family homes on Fairmile Lane, Between Streets, Stoke Road and Tilt Road within KT11",
+      "Grade I listed Painshill Park landscape garden adjoining properties with mature gardens",
+      "Contemporary replacements on large plots in Stoke D'Abernon and Downside",
+      "Gated-estate properties on private roads off the A3 Portsmouth Road",
     ],
     heroImage: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
     galleryImages: [
@@ -100,12 +100,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Esher combines a bustling high street with some of Surrey's most coveted residential roads. The influence of Claremont Park and Sandown Park racecourse gives the area a distinctive mix of heritage and social prestige. Properties on roads like Claremont Lane and Milbourne Lane are among the most valuable in the county, demanding entrance doors that make a statement proportionate to their worth. SteelR steel doors are handcrafted to these exacting standards, with bespoke proportions and finishes selected to complement each individual property.",
+      "Esher in KT10 combines a bustling High Street with some of Surrey's most coveted residential roads. The Grade I listed Claremont Park landscape garden and Sandown Park racecourse give the area a distinctive mix of heritage and social prestige. Properties on Claremont Lane, Milbourne Lane, Copsem Lane and Esher Park Avenue are among the most valuable in the county, while Warren Lane, More Lane and West End Lane add further substantial detached stock on deep plots. The Fairmile Park conservation area along the A3 preserves listed Edwardian villas, and the Claygate borders add further family detached stock. SteelR bespoke steel entrance doors are handcrafted to exacting KT10 standards, with SR3 rating to BS EN 1627 Class 3 as standard, SR4 (LPS 1175) upgrade available, and fire-rated options meeting Approved Document B where conversion work triggers compliance. We survey KT10 from our Ickenham workshop.",
     localFeatures: [
-      "Premium detached homes on Claremont Lane and Copsem Lane",
-      "Victorian and Edwardian villas along the High Street and Park Road",
-      "Contemporary architect-designed homes near Claremont Park",
-      "Substantial family houses on Warren Lane and More Lane",
+      "Premium detached homes on Claremont Lane, Milbourne Lane, Copsem Lane and Esher Park Avenue within KT10",
+      "Grade I listed Claremont Park landscape garden and Sandown Park racecourse-frontage properties",
+      "Victorian and Edwardian villas in the Fairmile Park A3 conservation area",
+      "Substantial family houses on Warren Lane, More Lane and West End Lane",
     ],
     heroImage: "/images/gallery/steelr-navy-contemporary-square-knocker.jpg",
     galleryImages: [
@@ -124,12 +124,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Oxshott is a discreet enclave of extreme wealth, where Crown Estate properties sit within acres of private woodland and the village maintains an almost invisible profile despite housing some of the UK's most expensive homes. The Heath and surrounding woods give the area a secluded, rural character while Oxshott station provides a fast Waterloo connection. SteelR entrance doors are the preferred choice for homeowners here who value privacy and security alongside architectural distinction, with every door engineered to the highest specification.",
+      "Oxshott in KT22 is one of the UK's most discreet enclaves of extreme wealth, where properties sit within acres of private beech and oak woodland and the village maintains an almost invisible profile despite housing some of the country's most expensive homes. The Heath and surrounding woods give the area a secluded, rural character, while Oxshott station provides a direct Waterloo connection. The residential streets of Warren Lane, Steels Lane, Birchwood Drive and Woodstock Lane North carry mansion-scale properties on plots ranging from one to eight acres, typically accessed through electric gates with dedicated lodge houses. SteelR bespoke steel entrance doors are the preferred specification here, offering SR3 rating to BS EN 1627 Class 3 as standard, SR4 (LPS 1175 Issue 8) commercial-grade upgrade for properties with high-profile occupants, and oversized configurations with sidelights and fanlights standard on KT22 projects. Installation by our own in-house team with ANPR-gate access experience.",
     localFeatures: [
-      "Crown Estate mansion properties on private woodland plots",
-      "Detached homes on Warren Lane and Steels Lane behind mature planting",
-      "Contemporary replacements with double-height entrance halls",
-      "Gated properties requiring oversized bespoke door specifications",
+      "Mansion-scale properties on acre-plus woodland plots within KT22",
+      "Detached homes on Warren Lane, Steels Lane, Birchwood Drive and Woodstock Lane North",
+      "Contemporary architect-designed replacements with double-height entrance halls",
+      "Gated properties with dedicated lodge houses requiring oversized bespoke door specifications",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-medallion-sidelights.jpg",
     galleryImages: [
@@ -148,12 +148,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Guildford is Surrey's county town, its cobbled High Street descending to the River Wey beneath a Norman castle. The surrounding hillside neighbourhoods offer panoramic views across the North Downs, and the university presence adds a cosmopolitan energy. Premium residential areas like Merrow, Onslow Village, and the slopes of the Hog's Back attract families seeking character homes with excellent schools nearby. SteelR steel entrance doors bring a refined presence to properties across Guildford's varied architectural landscape.",
+      "Guildford is Surrey's county town spanning the GU1, GU2, GU3, GU4 and GU5 postcode areas, its cobbled High Street descending to the River Wey beneath a Norman castle. The premium residential market includes The Mount, Castle Hill and Pewley Hill within GU1 with panoramic North Downs views, the Arts and Crafts Onslow Village conservation area in GU2 laid out on Garden City principles in 1920, and family-scale detached stock in Merrow, Burpham and Boxgrove within GU1 and GU4. The Hog's Back escarpment along the A31 carries executive new-build and estate properties in GU3, while Compton and Shalford add village-centre period cottages. The University of Surrey presence adds cosmopolitan energy. SteelR bespoke steel entrance doors serve Guildford's varied architectural landscape with traditional six-panel designs for the period stock and contemporary flush panels for the new-build market. Listed building consent liaison handled in-house. GU1 through GU5 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Period homes on the Mount and Castle Hill with town views",
-      "Arts and Crafts properties in Onslow Village conservation area",
-      "Detached family homes in Merrow and Burpham",
-      "Executive new-builds on the Hog's Back and Compton outskirts",
+      "Period homes on The Mount, Castle Hill and Pewley Hill in GU1 with North Downs views",
+      "Arts and Crafts Garden City properties in the Onslow Village GU2 conservation area",
+      "Detached family homes in Merrow, Burpham and Boxgrove within GU1 and GU4",
+      "Executive new-builds and estate properties on the Hog's Back and Compton outskirts in GU3",
     ],
     heroImage: "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
     galleryImages: [
@@ -172,12 +172,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Farnham is widely regarded as one of Surrey's most attractive towns, with its Georgian architecture, ruined castle, and thriving independent retail scene along the Borough and Downing Street. The surrounding villages of Rowledge, Wrecclesham, and the Bourne add a rural dimension, with properties ranging from hop-kiln conversions to substantial Victorian residences. SteelR steel entrance doors are crafted to complement Farnham's rich architectural heritage, providing bespoke solutions that honour period character while delivering uncompromising modern security.",
+      "Farnham in GU9 and GU10 is widely regarded as one of Surrey's most attractive towns, with Georgian architecture along Castle Street and West Street, the ruined Farnham Castle (Grade I listed), and a thriving independent retail scene along The Borough and Downing Street. The town centre conservation area covers Castle Street (often described as one of the finest Georgian streets in England), The Borough and the Market Place, anchored by the Grade II listed Willmer House and the Grade I listed Parish Church of St Andrew. Residential neighbourhoods in the Bourne, Upper Hale and Rowledge carry Victorian and Edwardian villas on substantial plots, while Wrecclesham and Runfold within GU10 add converted hop kilns, agricultural buildings and new-build executive developments. SteelR bespoke steel entrance doors respect Farnham's rich architectural heritage with traditional panel designs for the Georgian High Street context and contemporary flush panels for the rural new-build market. Listed building consent handled in-house. GU9 and GU10 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Georgian townhouses on Castle Street and West Street",
-      "Victorian and Edwardian villas in the Bourne and Upper Hale",
-      "Converted hop kilns and agricultural buildings in surrounding villages",
-      "New-build developments in Wrecclesham and along the Hog's Back",
+      "Georgian townhouses on Castle Street and West Street within the Farnham GU9 conservation area",
+      "Grade I listed Farnham Castle and Grade II listed Willmer House",
+      "Victorian and Edwardian villas in the Bourne, Upper Hale and Rowledge",
+      "Converted hop kilns and agricultural buildings in Wrecclesham and Runfold within GU10",
     ],
     heroImage: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
     galleryImages: [
@@ -196,12 +196,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Reigate is a prosperous market town nestled beneath the North Downs escarpment, its castle grounds and Priory Park forming a green heart surrounded by desirable residential streets. The town offers an excellent range of independent shops and restaurants, and the housing stock includes fine examples of Georgian, Victorian, and Edwardian architecture alongside modern executive homes. SteelR steel entrance doors complement the town's distinguished character, providing homeowners with a front door that elevates kerb appeal and delivers enduring quality.",
+      "Reigate in RH2 is a prosperous market town nestled beneath the North Downs escarpment, with Reigate Castle grounds and Priory Park forming a green heart surrounded by desirable residential streets. The town conservation area covers Bell Street, Nutley Lane and the Market Place, preserving Grade II listed timber-framed and Georgian frontages. Wray Park conservation area and the streets climbing Reigate Hill (Somers Road, Cronks Hill, Pilgrims Way and Yorke Road) carry substantial Edwardian and inter-war detached homes on generous plots with panoramic North Downs views. The Gatton Park area to the north adds estate-grade stock, while Reigate Park and the South Park fringe supply post-war family detached stock. SteelR bespoke steel entrance doors complement the town's distinguished RH2 character, with listed building consent liaison handled in-house, SR3 rating as standard and SR4 (LPS 1175) upgrade available. Surveyed directly from our Ickenham workshop.",
     localFeatures: [
-      "Period homes on Reigate Hill and along the Pilgrim's Way",
-      "Victorian terraces and semis on Bell Street and Nutley Lane",
-      "Detached executive properties in Wray Park conservation area",
-      "Modern homes on Gatton Park and the Reigate Park estate fringe",
+      "Grade II listed timber-framed and Georgian frontages on Bell Street and Nutley Lane within the RH2 conservation area",
+      "Edwardian and inter-war detached homes climbing Reigate Hill on Somers Road, Cronks Hill and Pilgrims Way",
+      "Wray Park conservation area estate properties and Gatton Park surrounds",
+      "Post-war family detached stock in Reigate Park and the South Park fringe",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
     galleryImages: [
@@ -220,12 +220,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Dorking lies in the gap carved through the North Downs by the River Mole, overlooked by Box Hill and Leith Hill. This deeply rural setting belies its convenience, with excellent rail links and a thriving town centre of antique shops and restaurants along the High Street. Properties range from period cottages in the conservation area to substantial country houses on the surrounding hillsides. SteelR entrance doors are designed for homes where the landscape is as impressive as the architecture, providing a front door worthy of both.",
+      "Dorking in RH4 and RH5 lies in the gap carved through the North Downs by the River Mole, overlooked by Box Hill and Leith Hill within the Surrey Hills AONB. The town centre conservation area covers the High Street, West Street and South Street with period cottages, Grade II listed Georgian shopfronts and the Deepdene estate frontage. Hillside country houses sit on Ranmore Common, Box Hill slopes, Chart Lane and Coldharbour Lane on plots ranging from one to five acres. Victorian villas on Rose Hill and The Glebe add further premium stock, while the surrounding villages of Westcott, Mickleham, Brockham and Newdigate within RH5 supply converted farm buildings, oast houses and village-centre cottages. SteelR bespoke steel entrance doors are designed for homes where the landscape is as impressive as the architecture, with SR3 rating as standard and SR4 (LPS 1175) upgrade available for remote hillside and rural properties. RH4 and RH5 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Period cottages and listed buildings on the High Street and West Street",
-      "Hillside country houses on Ranmore Common and Box Hill slopes",
-      "Victorian villas on South Street and along the Deepdene",
-      "Converted farm buildings and oast houses in surrounding hamlets",
+      "Period cottages and Grade II listed Georgian shopfronts in the Dorking RH4 High Street conservation area",
+      "Hillside country houses on Ranmore Common, Chart Lane and Coldharbour Lane within the Surrey Hills AONB",
+      "Victorian villas on Rose Hill, The Glebe and along the Deepdene estate fringe",
+      "Converted farm buildings and oast houses in Westcott, Mickleham, Brockham and Newdigate within RH5",
     ],
     heroImage: "/images/gallery/steelr-sage-traditional-arched-brick.jpg",
     galleryImages: [
@@ -244,12 +244,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Epsom is best known for its racecourse and Derby Day, but beyond the Downs lies a prosperous town with a strong sense of community and impressive housing stock. The premium roads around Woodcote and the Downs offer substantial detached homes with generous gardens and views across the racecourse. A SteelR bespoke steel entrance door adds distinction to these properties, combining the hand-finished quality that discerning Epsom homeowners appreciate with modern multi-point locking for peace of mind.",
+      "Epsom is best known for the racecourse and Derby Day, but beyond the Downs lies a prosperous town in the KT17, KT18 and KT19 postcode areas. The premium residential market sits in Woodcote (KT18), where Woodcote Park Road, Chalk Lane and Warren Hill carry substantial detached homes with views across the racecourse on plots of a third to a full acre. The Common and Stoneleigh areas add Victorian and inter-war detached stock, while Downs Road, Burgh Heath Road and Ashley Road within KT18 carry Edwardian detached family homes on generous plots. Ewell Village (KT17) adds a conservation area centred on the Market Place and Grade II listed Cheam Road frontages. Contemporary developments on the former Horton Hospital and St Ebba's sites supply modern executive homes. SteelR bespoke steel entrance doors add distinction to these properties with hand-finished quality, SR3 rating as standard, SR4 (LPS 1175) upgrade available and FD30S fire rating across the range. KT17 through KT19 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Substantial homes on Woodcote Park Road and Chalk Lane",
-      "Victorian properties around the town centre and Ashley Road",
-      "Inter-war detached houses on Downs Road and The Parade",
-      "Contemporary developments on former institutional sites",
+      "Substantial detached homes on Woodcote Park Road, Chalk Lane and Warren Hill within KT18",
+      "Victorian and inter-war detached stock around the Common and Stoneleigh in KT17 and KT19",
+      "Edwardian detached family homes on Downs Road, Burgh Heath Road and Ashley Road",
+      "Ewell Village KT17 conservation area Market Place and contemporary new-builds on the former Horton and St Ebba's sites",
     ],
     heroImage: "/images/gallery/steelr-grey-panelled-stone-surround.jpg",
     galleryImages: [
@@ -268,12 +268,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Leatherhead sits where the River Mole breaks through the North Downs, with Fetcham and Bookham extending the residential area westward. The town's historic core includes a medieval church and timber-framed buildings on Bridge Street, while the surrounding neighbourhoods offer family homes from every era. Fetcham in particular has become a highly desirable address with its village green and proximity to open downland. SteelR steel entrance doors are chosen by Leatherhead homeowners who value enduring craftsmanship and a front door that speaks of quality.",
+      "Leatherhead in KT22 and KT23 sits where the River Mole breaks through the North Downs, with Fetcham and Great Bookham extending the residential area westward into the Surrey Hills AONB. The historic town centre conservation area covers the medieval Parish Church of St Mary and St Nicholas (Grade I listed) and timber-framed buildings on Bridge Street, Church Street and North Street. The Fetcham residential market is highly desirable with its village green and proximity to the Downs, with substantial detached homes on Higher Green, Cock Lane and Hawks Hill. Great Bookham and Little Bookham within KT23 add Edwardian and inter-war detached stock around The Street, East Lane and Eastwick Road. Givons Grove and Randalls Road in Leatherhead supply executive estate-grade stock on plots of a half to two acres. SteelR bespoke steel entrance doors are chosen by homeowners valuing enduring craftsmanship, with SR3 rating as standard and SR4 (LPS 1175) upgrade available for rural and estate properties. KT22 and KT23 surveyed from our Ickenham workshop.",
     localFeatures: [
-      "Period homes on Bridge Street and Church Street in the old town",
-      "Detached family properties in Fetcham and Great Bookham",
-      "Executive homes on Givons Grove and Randalls Road",
-      "New-build developments on brownfield sites near the town centre",
+      "Grade I listed Parish Church of St Mary and St Nicholas and timber-framed buildings on Bridge Street within the KT22 conservation area",
+      "Substantial Fetcham detached homes on Higher Green, Cock Lane and Hawks Hill",
+      "Edwardian and inter-war stock in Great Bookham and Little Bookham along The Street and East Lane in KT23",
+      "Executive estate-grade properties on Givons Grove and Randalls Road",
     ],
     heroImage: "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg",
     galleryImages: [
@@ -292,12 +292,12 @@ export const surreyLocations: Location[] = [
     parentSlug: "surrey",
     tier: 3,
     description:
-      "Woking has undergone a dramatic transformation in recent years, with a skyline of modern towers complementing the town's established residential neighbourhoods. Beyond the centre, areas like Hook Heath, St John's, and Mayford offer substantial family homes in leafy, semi-rural settings. The Basingstoke Canal adds charm, while fast trains reach Waterloo in twenty-two minutes. SteelR steel entrance doors are increasingly popular across Woking's premium neighbourhoods, where homeowners invest in bespoke front doors that reflect the area's upward trajectory.",
+      "Woking covers the GU21, GU22, GU23 and GU24 postcode areas, with a dramatically regenerated town centre of modern residential towers complementing established residential neighbourhoods. The premium residential market sits in Hook Heath (GU22), where Hook Heath Road, The Ridings and Links View Close carry substantial detached homes in leafy, semi-rural settings adjacent to Woking Golf Club. St John's (GU21) adds Victorian and Edwardian detached villas around St Johns Hill Road and Hermitage Road, while Mayford, Pyrford and Wisley within GU22 and GU23 carry canal-side properties along the Basingstoke Canal and rural estate stock near the RHS Wisley Garden. The Old Woking village (GU22) preserves a conservation area with Grade II listed cottages and the Grade I listed Parish Church of St Peter. Fast trains reach Waterloo in twenty-two minutes. SteelR bespoke steel entrance doors are increasingly specified in Woking's premium neighbourhoods. GU21 through GU24 surveyed directly from our Ickenham workshop.",
     localFeatures: [
-      "Substantial detached homes in Hook Heath and St John's",
-      "Victorian and Edwardian properties around Old Woking village",
-      "Contemporary homes in Mayford and Pyrford with canal-side settings",
-      "Executive new-builds in regeneration developments near the station",
+      "Substantial detached homes on Hook Heath Road, The Ridings and Links View Close in GU22 adjacent to Woking Golf Club",
+      "Victorian and Edwardian detached villas in St John's GU21 along St Johns Hill Road and Hermitage Road",
+      "Canal-side properties in Mayford and Pyrford and rural estate stock near RHS Wisley in GU22 and GU23",
+      "Old Woking village GU22 conservation area with Grade II listed cottages and Grade I listed Parish Church of St Peter",
     ],
     heroImage: "/images/gallery/steelr-black-panelled-sidelights-palms.jpg",
     galleryImages: [
