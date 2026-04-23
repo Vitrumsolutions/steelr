@@ -6,6 +6,7 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -149,6 +150,7 @@ export default function RootLayout({
         <Footer />
         <Analytics />
         <SpeedInsights />
+        <GoogleAnalytics />
       </body>
     </html>
   );
