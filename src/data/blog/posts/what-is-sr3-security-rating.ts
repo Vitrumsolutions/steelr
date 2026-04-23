@@ -23,7 +23,7 @@ The European standard **BS EN 1627:2011** defines six resistance classes (RC1 to
 
 **SR2 (RC2)**. Resists casual burglars using simple tools (screwdrivers, pliers, wedges). Attack duration: 3 minutes.
 
-**SR3 (RC3)**. Resists experienced burglars using heavy-duty tools including **crowbars, drills and angle grinders**. Attack duration: 5 minutes with professional-grade tools. This is the highest rating commercially available for residential entrance doors.
+**SR3 (RC3)**. Resists experienced burglars using heavy-duty tools including **crowbars, drills and angle grinders**. Attack duration: 5 minutes with professional-grade tools. This is the highest rating commercially available for residential entrance doors. See our full breakdown on the [SR3 residential steel door page](/sr3-residential-steel-door).
 
 **SR4 to SR6**. Military and government-grade protection. Not typically available or necessary for residential use.
 
@@ -40,7 +40,7 @@ The door must withstand all tests without the attacker gaining entry or creating
 
 ## Why SR3 Matters for Your Home
 
-Most residential doors on the UK market achieve **PAS 24** certification at best. PAS 24 tests resistance to manual attack using lighter tools for a shorter period. While it meets building regulations, it is significantly below SR3 in terms of real-world attack resistance.
+Most residential doors on the UK market achieve **[PAS 24](/pas-24-steel-entrance-door)** certification at best. PAS 24 tests resistance to manual attack using lighter tools for a shorter period. While it meets building regulations, it is significantly below SR3 in terms of real-world attack resistance. For a side-by-side breakdown of SR1 through SR3, see our [front door security ratings comparison](/blog/front-door-security-ratings-compared-sr1-to-sr3).
 
 An SR3-rated door provides:
 - **Deterrence**: visible security features discourage opportunistic burglars
@@ -50,7 +50,7 @@ An SR3-rated door provides:
 
 ## Secured by Design
 
-In addition to SR3 testing, look for **Secured by Design** accreditation. This is the official UK police initiative that works to improve building security. Products carrying the Secured by Design mark have been independently assessed and approved by police crime prevention officers.
+In addition to SR3 testing, look for **[Secured by Design](/secured-by-design-steel-front-door)** accreditation. This is the official UK police initiative that works to improve building security. Products carrying the Secured by Design mark have been independently assessed and approved by police crime prevention officers.
 
 ## SR1 vs SR2 vs SR3 vs SR4 in Plain English
 

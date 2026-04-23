@@ -79,6 +79,7 @@ export default function Footer() {
         <div className="flex items-center gap-6 mb-4">
           {[
             { href: "/sitemap", label: "Sitemap" },
+            { href: "/ai-answers", label: "AI Answers" },
             { href: "/privacy", label: "Privacy Policy" },
             { href: "/terms", label: "Terms & Conditions" },
           ].map((link) => (

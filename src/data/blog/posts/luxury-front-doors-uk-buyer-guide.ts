@@ -27,7 +27,7 @@ If a door lacks any of those three, it is a premium-branded standard product. Th
 
 Three shifts over the past five years have changed what affluent UK homeowners buy:
 
-**Insurance demands have tightened.** Insurers increasingly reference security ratings on renewal. PAS 24 is now a minimum expectation on most policies covering properties above £1 million. **SR3** (BS EN 1627 Class 3) is required or heavily incentivised by specialist high-value insurers such as Home & Legacy and Hiscox.
+**Insurance demands have tightened.** Insurers increasingly reference security ratings on renewal. [PAS 24](/pas-24-steel-entrance-door) is now a minimum expectation on most policies covering properties above £1 million. **[SR3](/sr3-residential-steel-door)** (BS EN 1627 Class 3) is required or heavily incentivised by specialist high-value insurers such as Home & Legacy and Hiscox.
 
 **Regulations changed.** Approved Document Q makes PAS 24 mandatory on new-build dwellings and conversions. Approved Document B tightened fire rating requirements on entrance doors for flats and HMOs. Standard retail composite doors often fail either or both.
 
@@ -39,13 +39,13 @@ The net result: the luxury UK front door market has doubled in the last five yea
 
 ### 1. Bespoke Steel
 
-The dominant choice at the top of the UK market. A properly manufactured steel entrance door uses a welded steel frame, a thermally-broken steel leaf and an insulated core. The face can be panelled, ribbed, flat or ornate. The finish is powder-coated in a paint shop at approximately 200°C, making it resistant to chipping, fading and moisture damage for 20 to 40 years without re-coating.
+The dominant choice at the top of the UK market. A properly manufactured [bespoke steel front door](/bespoke-steel-front-doors-uk) uses a welded steel frame, a [thermally-broken steel leaf](/thermally-broken-steel-front-door) and an insulated core. The face can be panelled, ribbed, flat or ornate. The finish is powder-coated in a paint shop at approximately 200°C, making it resistant to chipping, fading and moisture damage for 20 to 40 years without re-coating.
 
 Steel's defining advantage is structural permanence. A bespoke steel door rated to **SR3 (BS EN 1627 Class 3) as standard** resists attack with hand tools for longer than any timber or composite door without active security specification. SR4 (LPS 1175 Issue 8) commercial-grade upgrade is available from select UK manufacturers for the highest-risk addresses.
 
 ### 2. Solid Hardwood (Oak, Accoya, Walnut, Mahogany)
 
-A traditional choice for listed buildings and Grade II properties where conservation officers restrict steel or composite. Done properly, a solid hardwood entrance door is a lifetime product. Done poorly, it warps, swells, absorbs water and requires repainting every three to five years.
+A traditional choice for listed buildings and Grade II properties where conservation officers restrict steel or composite. Done properly, a solid hardwood entrance door is a lifetime product. Done poorly, it warps, swells, absorbs water and requires repainting every three to five years. For a head-to-head on the trade-offs, see [steel vs timber entrance doors](/blog/steel-vs-timber-entrance-doors).
 
 The issue is that "done properly" means an Accoya or well-seasoned oak frame, stainless hardware, a triple-rebated frame, marine-grade paint system and a craftsman doing the joinery. Few UK joineries build to that standard at scale. When budget is unconstrained, timber still wins on conservation aesthetics. When budget is the primary constraint, it does not.
 
@@ -65,7 +65,7 @@ Standard composite front doors carry PAS 24 as a marketing line. PAS 24 tests ag
 
 Luxury front doors are tested to **SR3** or higher. SR3 is BS EN 1627 Class 3: resistance to a determined attacker using tools including bolt cutters, hammers, drills and crowbars for a sustained period. SR3 is required by premium UK home insurers and by Secured by Design police-approved specifications.
 
-**SR4 (LPS 1175 Issue 8 Level 4)** is the commercial-grade rating used on data centres, bank vaults and critical infrastructure. A small number of UK residential manufacturers now offer SR4 as an upgrade for homes in high-risk postcodes, for jewellery-holding private clients, or for properties with recent burglary history. If your door supplier cannot explain the difference between PAS 24 and SR3, they are not selling in the luxury tier.
+**[SR4 (LPS 1175 Issue 8 Level 4)](/blog/sr4-lps-1175-commercial-grade-residential)** is the commercial-grade rating used on data centres, bank vaults and critical infrastructure. A small number of UK residential manufacturers now offer SR4 as an upgrade for homes in high-risk postcodes, for jewellery-holding private clients, or for properties with recent burglary history. If your door supplier cannot explain the difference between PAS 24 and SR3, they are not selling in the luxury tier.
 
 ### Hardware (the visible luxury signal)
 

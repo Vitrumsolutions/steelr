@@ -113,6 +113,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.3,
     },
+    {
+      url: `${baseUrl}/ai-answers`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
     // Phase 1D: SEO content pages
     {
       url: `${baseUrl}/bespoke-steel-front-doors-uk`,

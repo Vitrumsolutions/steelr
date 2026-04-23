@@ -15,7 +15,7 @@ const post: BlogPost = {
 
 The colour of your entrance door is one of the most impactful design decisions you can make for the exterior of your home. It is the focal point of your property's facade and contributes significantly to kerb appeal and first impressions.
 
-With a bespoke steel door, you are not limited to a handful of standard colours. SteelR doors can be finished in **any colour from the RAL Classic range**, over 200 options, with the possibility of dual-colour specification (a different colour inside and outside).
+With a bespoke steel door, you are not limited to a handful of standard colours. SteelR doors can be finished in **any colour from the [RAL Classic range](/colours)**, over 200 options, with the possibility of dual-colour specification (a different colour inside and outside).
 
 ## The Most Popular Door Colours in the UK
 
@@ -32,7 +32,7 @@ Sage and muted green tones have surged in popularity, especially for period prop
 A modern alternative to black, anthracite grey is popular for contemporary properties. It has a softer appearance than pure black and works well with aluminium window frames and minimalist architecture.
 
 ### Heritage Colours
-For listed buildings and period properties, heritage colours like cream (RAL 9001), olive (RAL 6003) and deep red (RAL 3011) can complement historical architectural details while meeting conservation requirements.
+For [listed buildings and period properties](/blog/best-front-doors-period-properties), heritage colours like cream (RAL 9001), olive (RAL 6003) and deep red (RAL 3011) can complement historical architectural details while meeting [conservation area requirements](/blog/conservation-area-door-requirements-uk).
 
 ## How to Decide
 
@@ -46,7 +46,7 @@ For listed buildings and period properties, heritage colours like cream (RAL 900
 Look at your brickwork, stone, render and roof colour. Your door should complement, not clash. Warm-toned bricks (red, orange) pair well with cooler door colours (navy, grey, sage). Cool-toned bricks (grey, buff) work with warmer options (cream, olive, walnut).
 
 ### Consider your hardware
-The hardware finish affects the overall look. Brass suits traditional and warm colour schemes. Chrome and satin nickel suit contemporary and cool palettes. Black hardware creates a seamless look on dark doors.
+The hardware finish affects the overall look. Brass suits traditional and warm colour schemes. Chrome and satin nickel suit contemporary and cool palettes. Black hardware creates a seamless look on dark doors. For a deeper guide on pairing finishes with door colour, see our [front door hardware finishes guide](/blog/front-door-hardware-finishes-brass-chrome-black).
 
 ### Request a RAL sample
 Colours on screens never match real life. Before committing, request a physical RAL colour sample to view against your property in natural daylight.

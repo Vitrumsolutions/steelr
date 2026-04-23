@@ -37,6 +37,7 @@ const mainPages: Array<{ href: string; label: string }> = [
   { href: "/design-estimate", label: "Design and Estimate" },
   { href: "/blog", label: "Blog" },
   { href: "/areas", label: "Areas We Serve" },
+  { href: "/ai-answers", label: "AI Direct Answers" },
   { href: "/contact", label: "Contact" },
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/terms", label: "Terms and Conditions" },
