@@ -1,5 +1,3 @@
-import Script from "next/script";
-
 /**
  * Google Analytics 4 site-wide tag.
  *
@@ -8,32 +6,40 @@ import Script from "next/script";
  * (Vercel → Settings → Environment Variables), tracking activates on the
  * next deploy with no further code change.
  *
- * The /thank-you page already fires `gtag('event','generate_lead', ...)`
- * via ThankYouTracking — that event will start landing in GA4 the moment
- * this component activates, with no further wiring needed.
+ * Uses raw <script> tags via dangerouslySetInnerHTML rather than
+ * next/script. Reason: next/script's <Script id="..." strategy="afterInteractive">
+ * inline-content pattern was observed not to execute on page load in
+ * production builds — gtag.js loaded but window.gtag stayed undefined
+ * and no page_view beacon fired. Plain script tags in <head> are the
+ * canonical GA4 install and run reliably.
+ *
+ * Loads with `async` so it does not block page render. The /thank-you
+ * page already fires gtag('event','generate_lead', ...) via
+ * ThankYouTracking.tsx — that event lands in GA4 the moment this
+ * component activates.
  */
 export default function GoogleAnalytics() {
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
   if (!gaId) return null;
 
+  const initScript = `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', '${gaId}', {
+      send_page_view: true,
+      anonymize_ip: true,
+    });
+  `;
+
   return (
     <>
-      <Script
+      <script
+        async
         src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-        strategy="afterInteractive"
       />
-      <Script id="ga4-init" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          window.gtag = gtag;
-          gtag('js', new Date());
-          gtag('config', '${gaId}', {
-            send_page_view: true,
-            anonymize_ip: true,
-          });
-        `}
-      </Script>
+      <script dangerouslySetInnerHTML={{ __html: initScript }} />
     </>
   );
 }
