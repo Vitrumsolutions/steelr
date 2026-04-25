@@ -7,6 +7,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { getAggregateRatingSchema } from "@/data/reviews";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -136,7 +137,8 @@ export default function RootLayout({
                 "@type": "Person",
                 "name": "Mani Sandhu",
                 "jobTitle": "Founder & Director"
-              }
+              },
+              ...(getAggregateRatingSchema() ? { "aggregateRating": getAggregateRatingSchema() } : {})
             }),
           }}
         />

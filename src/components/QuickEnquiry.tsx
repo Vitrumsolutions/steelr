@@ -1,7 +1,13 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, FormEvent, useRef } from "react";
 import { useRouter } from "next/navigation";
+
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
 
 /**
  * QuickEnquiry — compact inline enquiry panel for SteelR area, collection,
@@ -33,6 +39,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
   const router = useRouter();
   const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
+  const formStartFired = useRef(false);
 
   const title =
     heading ||
@@ -40,10 +47,37 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
       ? `Enquire about a bespoke SteelR door for ${contextLabel}`
       : "Enquire about a bespoke SteelR door");
 
+  /**
+   * Fires once per visitor session per form instance, on first focus
+   * of any form field. GA4 standard event for measuring form abandonment
+   * (form_start vs form_submit ratio = completion rate per source).
+   */
+  function handleFormStart() {
+    if (formStartFired.current) return;
+    formStartFired.current = true;
+    if (typeof window !== "undefined" && typeof window.gtag === "function") {
+      window.gtag("event", "form_start", {
+        form_name: "QuickEnquiry",
+        form_source: source,
+        form_context: contextLabel || null,
+      });
+    }
+  }
+
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("sending");
     setErrorMsg("");
+
+    // Fire form_submit before the network call so it lands even if the
+    // submission fails downstream.
+    if (typeof window !== "undefined" && typeof window.gtag === "function") {
+      window.gtag("event", "form_submit", {
+        form_name: "QuickEnquiry",
+        form_source: source,
+        form_context: contextLabel || null,
+      });
+    }
 
     const form = e.currentTarget;
     const data = {
@@ -193,7 +227,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
             </div>
 
             {/* RIGHT: compact 3-field form */}
-            <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+            <form onSubmit={handleSubmit} onFocus={handleFormStart} style={{ display: "flex", flexDirection: "column", gap: 14 }}>
               <p
                 style={{
                   fontFamily: "var(--font-body), Montserrat, sans-serif",

@@ -278,6 +278,75 @@ export default function ThankYouPage() {
             </div>
           </div>
 
+          {/* Already a customer? Leave us a review */}
+          <div
+            className="mb-10"
+            style={{
+              padding: 28,
+              background: "linear-gradient(135deg, #f5f0e8 0%, #ede4d3 100%)",
+              border: "1px solid rgba(201,169,110,0.4)",
+            }}
+          >
+            <p
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 10,
+                letterSpacing: "0.3em",
+                textTransform: "uppercase",
+                color: "#8a6f4e",
+                marginBottom: 12,
+              }}
+            >
+              Already had a SteelR door installed?
+            </p>
+            <h2
+              className="mb-4"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 300,
+                fontSize: 22,
+                color: "#1a1a18",
+                letterSpacing: "0.02em",
+              }}
+            >
+              We&apos;d be grateful for a Google review
+            </h2>
+            <p
+              className="mb-6"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 300,
+                fontSize: 14,
+                lineHeight: 1.8,
+                color: "#5a5a58",
+              }}
+            >
+              Reviews are how new SteelR clients find us, and how we know what to keep doing well. If your door has been installed and you have a moment, a few sentences on Google make a real difference to a small UK manufacturer.
+            </p>
+            <a
+              href="https://www.google.com/maps/place/SteelR+Bespoke+Steel+Entrance+Doors"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-6 py-3 transition-all hover:-translate-y-0.5"
+              style={{
+                background: "#c9a96e",
+                color: "#1a1a18",
+                textDecoration: "none",
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 11,
+                letterSpacing: "0.25em",
+                textTransform: "uppercase",
+              }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+              </svg>
+              Leave a Google Review
+            </a>
+          </div>
+
           {/* Trust footer */}
           <div
             style={{
