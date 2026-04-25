@@ -163,7 +163,7 @@ export default async function AreaPage({ params }: Props) {
   const defaultFaqs = [
     {
       question: `How much do steel entrance doors cost in ${location.name}?`,
-      answer: `Every SteelR door is bespoke, so pricing depends on the size, design complexity, glazing, hardware and finish you choose. As a guide, our steel entrance doors typically start from around £5,000. We offer a free, no-obligation consultation for ${location.name} homeowners where we discuss your requirements and provide a detailed quotation tailored to your property.`,
+      answer: `Every SteelR door is individually priced after an on-site survey and a written design consultation, because each door is made to measure with no two specifications alike. Size, security tier (SR3 standard or SR4 commercial-grade upgrade), fire rating, glazing, hardware specification, RAL colour and panel design all factor into the quotation. We provide a free, no-obligation consultation for ${location.name} homeowners with a detailed written breakdown of every specification choice.`,
     },
     {
       question: `Do you install steel doors in ${location.name}?`,

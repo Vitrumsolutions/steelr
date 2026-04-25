@@ -124,11 +124,11 @@ For homeowners in these categories, the cost difference between uPVC and steel i
 
 ## Cost Comparison and Value Proposition
 
-A uPVC front door installed costs between **£400 and £1,500**. A bespoke steel entrance door typically costs between **£3,500 and £8,000** depending on size, design complexity and hardware specification.
+A uPVC front door installed sits in the entry-level tier of the market, priced for volume. A bespoke steel entrance door is individually priced after an on-site survey because each door is made to measure with no two specifications alike. The two products are not competing for the same buyer. uPVC is a budget commodity; bespoke steel is a long-horizon investment.
 
-On a simple cost comparison, uPVC is clearly cheaper. But cost and value are different calculations.
+On a simple cost comparison, uPVC is cheaper at the point of purchase. But cost and value are different calculations.
 
-Over a 40-year period, a homeowner replacing a uPVC door every 15 years will spend £800 to £3,000 on two replacements plus the original purchase — with ongoing draught and security issues between replacements. A single steel door, properly maintained, serves the full 40 years with consistent security, thermal performance and visual impact throughout.
+Over a 40-year period, a homeowner replacing a uPVC door every 15 years will fund two replacements plus the original purchase, with ongoing draught and security issues between replacements. A single bespoke steel door, properly maintained, serves the full 40 years with consistent security, thermal performance and visual impact throughout.
 
 Steel entrance doors also contribute measurably to **property value**. Estate agents consistently report that a high-quality entrance door is one of the most impactful kerb appeal improvements a homeowner can make. In premium property markets, the presence of a bespoke steel entrance door signals quality throughout the property.
 

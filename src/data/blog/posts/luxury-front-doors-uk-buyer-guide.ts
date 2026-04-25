@@ -147,7 +147,7 @@ Any supplier quoting a fixed price without seeing the property is not specifying
 
 **Buying on lead time.** A luxury front door typically takes **8 to 14 weeks** from specification to fitted. Anyone offering same-week delivery is selling a standard product.
 
-**Prioritising price over spec.** The gap between a £3,500 premium composite and a £9,500 bespoke steel door on a period property is visible to every guest who walks through it for the next 30 years. Most of that gap is not profit. It is the survey, the manufacture, the finish and the install.
+**Prioritising price over spec.** The gap between a premium composite and a bespoke steel door on a period property is visible to every guest who walks through it for the next 30 years. Most of that gap is not profit. It is the survey, the manufacture, the finish and the install.
 
 **Ignoring the surround.** The best front door looks wrong if installed into an undermaintained or ill-proportioned surround. Brickwork, stone, render, reveals and the threshold all need to be assessed as part of the specification.
 
