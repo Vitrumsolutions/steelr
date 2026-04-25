@@ -19,7 +19,10 @@
  * component activates.
  */
 export default function GoogleAnalytics() {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  // Trim defensively — Vercel env-var values that get added via `echo "..." | vercel env add`
+  // pick up trailing newlines, which break the inline gtag init script (syntax error).
+  // Stripping any whitespace makes the component robust against malformed env values.
+  const gaId = (process.env.NEXT_PUBLIC_GA_ID || "").trim();
   if (!gaId) return null;
 
   const initScript = `
