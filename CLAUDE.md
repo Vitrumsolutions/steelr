@@ -248,6 +248,49 @@ All 10 URLs submitted via sitemap, Indexing API, and 4 of 10 priority-crawl-push
 - Vercel env var NEXT_PUBLIC_GOOGLE_MAPS_KEY required for Maps embed on contact page
 - Never add Product schema with offers block unless actual prices exist — causes GSC errors
 
+## Brand-policy guard (added 25 Apr 2026)
+
+Pre-commit hook prevents accidental SteelR-attributed prices and brand-banned words from landing in production.
+
+**Setup (one-time per clone):**
+```bash
+npm run install-git-hooks
+```
+
+**Manual scans:**
+```bash
+npm run brand-guard           # scan ALL protected files
+npm run brand-guard:staged    # scan only git-staged files
+npm run brand-guard:test      # self-test the guard logic
+```
+
+**What it catches:**
+- SteelR-attributed price patterns ("our doors typically start from £X", "Entry-Level Bespoke: £X-£Y", "starts from approximately £X", etc.)
+- Generic `£\d` in HIGH_RISK_FILES (e.g. `src/app/areas/[slug]/page.tsx`)
+- Banned words ("affordable", "cheap", "best prices", "discount") **only when describing SteelR or its products**
+
+**What it deliberately allows:**
+- Hardware component prices (£200-£600 for handles etc., industry references)
+- Competitor-material price ranges in vs-* blogs (educational benchmarking)
+- Banned words used pejoratively about competitors ("cheap smart locks lack certification")
+- Banned words in proper nouns ("Cheap Street, Newbury")
+- Banned words in negation ("no discount tactics")
+- "Discount" used as verb meaning "dismiss" or "give insurance reduction"
+- Property value examples ("£1 million home", "£750,000 property valued at...")
+
+**Bypass (PRICE only — never for BANNED-WORD):**
+```bash
+git commit -m "your message [allow-price]"
+```
+
+**Files:**
+- `scripts/brand-guard.mjs` — guard logic
+- `scripts/brand-guard.test.mjs` — self-test (covers violating + clean fixtures)
+- `scripts/install-git-hooks.sh` — one-time installer
+- `.claude/commands/preflight.md` — manual `/preflight` slash command for full pre-ship review (brand-guard + 4 subagents + build)
+
+**Why:** the 23 Apr session shipped "from around £5,000" claims on 161 area pages without any of the global routing subagents firing. Cost ~10 minutes to clean up after the fact. This guard makes that regression impossible.
+
 ## Blog Posts (45 posts — all published)
 - 45 posts in `src/data/blog/posts/*.ts` — all live, zero staged
 - Blog data: `src/data/blog/` (types.ts + index.ts + posts/)
