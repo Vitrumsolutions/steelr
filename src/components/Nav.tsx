@@ -58,21 +58,20 @@ export default function Nav() {
           borderBottom: scrolled
             ? "1px solid rgba(201, 169, 110, 0.15)"
             : "1px solid transparent",
+          // CRITICAL: when the mobile menu is open, the menu overlay sits at
+          // z-40 BELOW this z-50 nav. Without disabling pointer events on the
+          // entire nav element, even a transparent/empty nav bar intercepts
+          // taps on any menu item in its vertical band (first-listed items
+          // like Collection, Lookbook, Areas).
+          //
+          // pointer-events:none on the nav lets taps pass through to the
+          // overlay underneath. The hamburger button explicitly opts back
+          // into pointer-events:auto so the menu can still be closed.
+          pointerEvents: menuOpen ? "none" : "auto",
         }}
       >
-        <div
-          className="flex items-center justify-between px-6 md:px-12 py-5"
-          style={{
-            // When mobile menu is open, the overlay sits at z-40 BELOW this
-            // z-50 nav. Without this, this inner flex div intercepts taps on
-            // any menu item that overlaps the nav-bar vertical band (i.e.
-            // typically the first one or two — Collection, Lookbook).
-            // We turn off pointer events on the wrapper but explicitly keep
-            // the hamburger button clickable so the menu can still be closed.
-            pointerEvents: menuOpen ? "none" : "auto",
-          }}
-        >
-          <Link href="/" onClick={() => setMenuOpen(false)} style={{ pointerEvents: menuOpen ? "none" : "auto" }}>
+        <div className="flex items-center justify-between px-6 md:px-12 py-5">
+          <Link href="/" onClick={() => setMenuOpen(false)}>
             <Logo
               variant="inline"
               theme={scrolled ? "dark" : "light"}
@@ -107,7 +106,7 @@ export default function Nav() {
           </div>
 
           {/* Phone (Fix 18: hidden below lg) + Hamburger */}
-          <div className="flex items-center gap-6" style={{ pointerEvents: menuOpen ? "none" : "auto" }}>
+          <div className="flex items-center gap-6">
             <a
               href="tel:08008611450"
               className="hidden lg:block transition-colors duration-300"
