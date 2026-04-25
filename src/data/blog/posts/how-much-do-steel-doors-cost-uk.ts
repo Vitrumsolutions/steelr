@@ -239,7 +239,7 @@ The consultation and survey are free. There is no obligation to proceed, and we 
 
 ### What is the cheapest steel entrance door available in the UK?
 
-Imported, non-bespoke steel doors from overseas manufacturers can be found from around £1,500–£2,000. However, these are typically standard sizes, may not carry UK-relevant security certifications, and often require third-party installation. A bespoke, SR3-certified steel door from a UK manufacturer starts from approximately £3,000.
+Imported, non-bespoke steel doors from overseas manufacturers occupy the entry tier of the imported-doorset market. These are typically standard sizes, may not carry UK-relevant security certifications, and often require third-party installation. A bespoke, SR3-certified steel door from a UK manufacturer is a different category of product entirely, individually priced after an on-site survey because each door is made to measure with no two specifications alike. The quotation reflects size, security tier, fire rating, glazing, hardware, RAL colour and design complexity rather than a published list price.
 
 ### Why is there such a big price range for steel doors?
 

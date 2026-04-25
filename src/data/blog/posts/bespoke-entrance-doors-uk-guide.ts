@@ -166,7 +166,7 @@ Browse [our collection](/collection) for design inspiration, or [request an esti
 
 ### How much does a bespoke steel entrance door cost?
 
-Pricing depends on configuration, size, glazing and hardware selections. A single-leaf bespoke steel entrance door typically starts from the mid-thousands, with double doors and complex configurations at the higher end. We provide detailed quotations following an initial consultation.
+Pricing depends on configuration, size, security tier (SR3 standard or SR4 commercial-grade upgrade), fire rating, glazing, hardware specification, RAL colour and design complexity. Each door is individually priced after an on-site survey because no two specifications are alike. We provide a detailed written quotation following an initial design consultation, with a breakdown of every specification choice. Single-leaf, double-leaf and sidelight configurations are all costed against your specific brief rather than a published list.
 
 ### Can a bespoke door match my existing architectural style?
 

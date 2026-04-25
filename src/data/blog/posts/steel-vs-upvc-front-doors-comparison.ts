@@ -124,7 +124,7 @@ For homeowners in these categories, the cost difference between uPVC and steel i
 
 ## Cost Comparison and Value Proposition
 
-A uPVC front door installed sits in the entry-level tier of the market, priced for volume. A bespoke steel entrance door is individually priced after an on-site survey because each door is made to measure with no two specifications alike. The two products are not competing for the same buyer. uPVC is a budget commodity; bespoke steel is a long-horizon investment.
+A uPVC front door installed sits in the entry-level tier of the market, priced for volume. A bespoke steel entrance door is individually priced after an on-site survey because each door is made to measure with no two specifications alike. The two products are not competing for the same buyer. uPVC is a volume commodity. Bespoke steel is a long-horizon investment.
 
 On a simple cost comparison, uPVC is cheaper at the point of purchase. But cost and value are different calculations.
 

@@ -36,13 +36,76 @@
 - **Internal links — 3 under-linked blog posts fixed.** 11 inline body links added across [what-is-sr3-security-rating](src/data/blog/posts/what-is-sr3-security-rating.ts), [choosing-entrance-door-colour](src/data/blog/posts/choosing-entrance-door-colour.ts), [luxury-front-doors-uk-buyer-guide](src/data/blog/posts/luxury-front-doors-uk-buyer-guide.ts) — links woven into body paragraphs (not just closing-paragraph dump). Targets include topic hubs (`/sr3-residential-steel-door`, `/pas-24-steel-entrance-door`, `/secured-by-design-steel-front-door`, `/colours`, `/bespoke-steel-front-doors-uk`, `/thermally-broken-steel-front-door`) plus related blog posts. Build clean, FAQ validator passed.
 - **`/ai-answers` HTML page shipped.** Mirrors Vitrums pattern using SteelR's brand palette (cream/dark/gold). 11 Q&A pairs from `llms.txt:41-72`, FAQPage + BreadcrumbList JSON-LD, Quick Facts box. New files/edits: [src/app/ai-answers/page.tsx](src/app/ai-answers/page.tsx) (new), added to [sitemap.ts](src/app/sitemap.ts), [Footer.tsx](src/components/Footer.tsx) legal links, and [HTML sitemap page](src/app/sitemap/page.tsx). Build passed (188 B page, 98.6 kB First Load JS). **Verification limitation:** verified via build only (compile + FAQ validator pass). Not visually QA'd in browser preview — the page uses inline-style hex values (matches Footer.tsx pattern), structurally identical to working Vitrums equivalent. Worth a quick smoke test post-deploy.
 
+## 23 Apr PM — Indexing API mass push (177 URLs total today)
+
+After commit `7831c88` deployed: pushed 177 URLs via Indexing API + IndexNow. ~23 calls of headroom under Google's 200/day soft cap. Coverage: 10 topic hubs + 16 area hubs + all Tier C/B/A child pages + 11 product/section pages. 35 blog posts + 54 collection door pages still untouched today.
+
+## 23 Apr PM — GSC URL Inspection UI push (10/10 daily quota hit)
+
+Manual Request Indexing via Chrome MCP automation. **Quota exceeded message appeared on 11th attempt.** Total today: 10 (3 earlier + 7 this batch).
+
+This batch (7 successful):
+1. `/ai-answers` (was URL unknown to Google)
+2. `/blog/sr4-lps-1175-commercial-grade-residential` (recrawl queued)
+3. `/sr3-residential-steel-door` (topic hub)
+4. `/pas-24-steel-entrance-door` (topic hub)
+5. `/secured-by-design-steel-front-door` (topic hub)
+6. `/bespoke-steel-front-doors-uk` (topic hub)
+7. `/steel-front-door-cost-uk` (topic hub)
+
+**Deferred to tomorrow's UI quota** (rolling 24h reset, queue these first):
+- `/areas/buckinghamshire` (rank dropped #1→#9 — top priority)
+- `/areas/cobham` (rank dropped #9→unranked — top priority)
+- `/steel-front-door-vs-composite` (NEW #5 organic — reinforce)
+- `/luxury-steel-entrance-door-london`
+- `/uk-steel-doors-vs-imported`
+- `/thermally-broken-steel-front-door`
+- `/fire-rated-fd30-front-door`
+
 ## Next actions (in priority order)
 
-1. **Push + ping `/ai-answers`** — once committed and deployed via Vercel, run `python audit-data/submit_indexing.py 1 --site=steelr` after queueing the URL, plus `node scripts/bing/indexnow-submit.mjs https://steelr.co.uk/ai-answers` to fast-index it.
-2. **Refill blog publish queue** — Thu 24 Apr 20:00 UTC cron will no-op without it. Parallel session was supposed to handle.
-3. **Investigate Bucks #1 → #9 drop** — biggest visibility regression today. Re-check `/areas/buckinghamshire` content + competitor SERP shift.
+1. **Refill blog publish queue** — Thu 24 Apr 20:00 UTC cron will no-op without it. ~28 hrs to action.
+2. **Tomorrow ~17:00 UK: GSC UI push deferred 7 URLs above** (Bucks + Cobham first).
+3. **Investigate Bucks #1 → #9 drop** — wait 5-7 days for re-crawl-wobble vs real drop verdict; manual incognito Google UK check is the optional shortcut.
 4. **Reviews SSoT + aggregateRating** — still blocked on first GBP review.
-5. **Indexing API queue is empty** — last 18-URL batch all returned HTTP 200. Next obvious push is anything edited above (the 3 blogs + /ai-answers) once committed.
+5. **Tomorrow: Indexing API push remaining 35 blog posts + 54 collection doors** for full sitemap parity post-template change.
+
+## 25 Apr session — GA4 install + brand-policy price scrub
+
+### GA4 site-wide tracking now live (commit `b106d9c` after `b3f4c0f` and `a56d88b`)
+
+Property `SteelR` (G-VSZ1XXGY2Z) created in info@supplywindows.co.uk Analytics account. `NEXT_PUBLIC_GA_ID` set on Vercel for production+development. `<GoogleAnalytics />` rendered in [layout.tsx](src/app/layout.tsx) site-wide. Realtime confirmed receiving page_views + cookies (`_ga`, `_ga_VSZ1XXGY2Z`).
+
+**Two debug iterations needed before working:** `next/script lazyOnload` then `afterInteractive` both rendered the script tag but never executed the inline init in production builds. Final fix: raw `<script async src=...>` + `<script dangerouslySetInnerHTML>` (canonical GA4 install). Documented in component file. The existing `gtag('event','generate_lead', ...)` in [ThankYouTracking.tsx:33](src/app/thank-you/ThankYouTracking.tsx) now fires automatically on `/thank-you` page loads.
+
+### Brand policy price scrub (commits `3732232`, `709ec68`, plus follow-up commit)
+
+User flagged that displayed prices appeared on the site without approval. Brand policy in CLAUDE.md is unambiguous: no displayed prices. Research-scout confirmed 10 of 11 closest peers (Original Steel Doors, Deuren, Crittall, Inotherm, Pirnar, Gerda, Strongdor, Robust UK, Metador, Bespoke Steel Doors) are quote-only — only Latham's publishes "from £" numbers and they sit below SteelR.
+
+**Removed (5 source files + llms-full.txt regenerated):**
+- Area-page FAQ generator at [src/app/areas/[slug]/page.tsx:166](src/app/areas/[slug]/page.tsx) — "from around £5,000" line. Single edit propagates to all 161 area pages.
+- llms-full.txt mirror lines (3 instances of £5,000 + 2 instances of £3,000 / mid-thousands)
+- [steel-vs-upvc-front-doors-comparison.ts:127](src/data/blog/posts/steel-vs-upvc-front-doors-comparison.ts) — "£3,500 to £8,000" SteelR price
+- [luxury-front-doors-uk-buyer-guide.ts:150](src/data/blog/posts/luxury-front-doors-uk-buyer-guide.ts) — "£3,500 vs £9,500" example
+- [bespoke-entrance-doors-uk-guide.ts:169](src/data/blog/posts/bespoke-entrance-doors-uk-guide.ts) — "starts from the mid-thousands"
+- [how-much-do-steel-doors-cost-uk.ts:242](src/data/blog/posts/how-much-do-steel-doors-cost-uk.ts) — "starts from approximately £3,000"
+
+**Kept deliberately (per research):**
+- The body of [how-much-do-steel-doors-cost-uk.ts](src/data/blog/posts/how-much-do-steel-doors-cost-uk.ts) — entry/mid/premium tiers and hardware ranges remain. Cost-guide blog is the highest-leverage AI citation surface and is essentially a "how this is priced" educational piece, not a published list.
+- Competitor-material price ranges in vs-composite, vs-timber, vs-fibreglass blogs (educational benchmarking).
+
+**Re-indexing pings after deploy:** 15 URLs to IndexNow + 14 URLs to Google Indexing API (the 12 highest-priority area hubs + 2 edited blogs + llms-full.txt). Today's Indexing API total: 191/200 soft cap.
+
+### Verified retroactively by global subagent routing (which I should have run proactively)
+
+- `copy-editor`: PASS on 5/6 edits, FAIL on "uPVC is a budget commodity" — fixed to "uPVC is a volume commodity" (split sentence, swapped "budget" out of banned-adjective register).
+- `seo-schema-validator`: PASS — all FAQPage / BreadcrumbList / LocalBusiness JSON-LD parses; canonical clean; no escape issues with the new parentheses.
+- `llms-txt-integrity-checker`: WARN → 2 more SteelR-attributed prices found at llms-full.txt:1330 and :1367 (originating from `how-much-do-steel-doors-cost-uk.ts:242` and `bespoke-entrance-doors-uk-guide.ts:169`). Both fixed in source + llms-full.txt regenerated via `node scripts/blog/backfill-llms-full.mjs`.
+- `fact-check-gate`: FAIL on "166 area slugs" — actual is **161 area slugs across 17 region files** (the 166 came from a stale figure in my own commit message, derived in turn from a stale CLAUDE.md "172"). Use **161** going forward. CLAUDE.md still says 172 in places — needs cleaning in a future session.
+
+### Lesson for future sessions: dispatch subagents proactively, not retroactively
+
+The global routing rules in `~/.claude/CLAUDE.md` say `copy-editor`, `seo-schema-validator`, and `llms-txt-integrity-checker` should fire on relevant changes BEFORE shipping. I missed all three during the price-scrub work. The retroactive run caught one real word-choice error and 2 missed SteelR price mentions in llms-full.txt that I would otherwise have left in production. **Run the relevant subagents before pushing any change touching schema, llms-txt files, or shipped prose.**
 
 ## ✅ 22-23 Apr session wins (all live on steelr.co.uk via Vercel)
 

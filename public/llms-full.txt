@@ -1327,7 +1327,7 @@ Bespoke steel entrance door cost UK explained. What affects the price, how steel
 **FAQs:**
 
 Q: What is the cheapest steel entrance door available in the UK?
-A: Imported, non-bespoke steel doors from overseas manufacturers can be found from around £1,500–£2,000. However, these are typically standard sizes, may not carry UK-relevant security certifications, and often require third-party installation. A bespoke, SR3-certified steel door from a UK manufacturer starts from approximately £3,000.
+A: Imported, non-bespoke steel doors from overseas manufacturers occupy the entry tier of the imported-doorset market. These are typically standard sizes, may not carry UK-relevant security certifications, and often require third-party installation. A bespoke, SR3-certified steel door from a UK manufacturer is a different category of product entirely, individually priced after an on-site survey because each door is made to measure with no two specifications alike. The quotation reflects size, security tier, fire rating, glazing, hardware, RAL colour and design complexity rather than a published list price.
 
 Q: Why is there such a big price range for steel doors?
 A: The range reflects the enormous variation in specification. A single door leaf with standard hardware costs significantly less than a double door with dual sidelights, premium bronze hardware, fire rating and bespoke decorative panels. The material and labour required for a complex door can be three to four times that of a simpler design.
@@ -1364,7 +1364,7 @@ Complete guide to bespoke steel entrance doors in the UK. Made-to-order customis
 **FAQs:**
 
 Q: How much does a bespoke steel entrance door cost?
-A: Pricing depends on configuration, size, glazing and hardware selections. A single-leaf bespoke steel entrance door typically starts from the mid-thousands, with double doors and complex configurations at the higher end. We provide detailed quotations following an initial consultation.
+A: Pricing depends on configuration, size, security tier (SR3 standard or SR4 commercial-grade upgrade), fire rating, glazing, hardware specification, RAL colour and design complexity. Each door is individually priced after an on-site survey because no two specifications are alike. We provide a detailed written quotation following an initial design consultation, with a breakdown of every specification choice. Single-leaf, double-leaf and sidelight configurations are all costed against your specific brief rather than a published list.
 
 Q: Can a bespoke door match my existing architectural style?
 A: Yes. That is precisely the point. A bespoke door can replicate period details — panelling profiles, glazing patterns, arched tops, decorative ironmongery — while incorporating modern security, thermal performance and weather resistance. The design process exists to achieve this balance.
@@ -1923,9 +1923,9 @@ SR3 security rating explained for UK homeowners. What the BS EN 1627 standard me
 
 - The European standard BS EN 1627:2011 defines six resistance classes (RC1 to RC6, also referred to as SR1 to SR6) for doors, windows and shutters.
 - Attack duration: 5 minutes with professional-grade tools.
+- See our full breakdown on the SR3 residential steel door page.
 - SR3 testing is conducted by an independent, accredited laboratory.
 - Most residential doors on the UK market achieve PAS 24 certification at best.
-- PAS 24 tests resistance to manual attack using lighter tools for a shorter period.
 
 **FAQs:**
 
