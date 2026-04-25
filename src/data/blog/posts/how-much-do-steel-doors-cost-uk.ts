@@ -11,11 +11,9 @@ const post: BlogPost = {
   image: "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
   imageAlt:
     "Taupe steel entrance door with chrome hardware and dual sidelights — bespoke UK steel door pricing",
-  content: `## The Honest Answer: It Depends on What You Want
+  content: `## What Drives the Cost of a Bespoke Steel Door
 
-If you have searched "how much do steel doors cost UK" expecting a simple number, we understand the frustration. The truth is that bespoke steel entrance doors are individually designed and manufactured, so there is no single price. But we can give you realistic ranges, explain what drives the cost up or down, and help you understand whether the investment makes sense for your property.
-
-A bespoke steel entrance door in the UK is individually priced after an on-site survey because each door is made to measure with no two specifications alike. The quotation reflects size, configuration, security tier (SR3 standard or SR4 commercial-grade upgrade), fire rating, glazing, hardware, RAL colour and design complexity rather than a published list price. Below we break down what falls into each tier of specification.
+Bespoke steel entrance doors are individually designed and manufactured. There is no single price because there is no single product. The quotation reflects size, configuration, security tier (SR3 standard or SR4 commercial-grade upgrade), fire rating, glazing, hardware specification, RAL colour and design complexity rather than a published list price. Below we break down what falls into each tier of specification, what drives the number up or down, and how steel compares to the realistic alternatives.
 
 ## Specification Tiers for Bespoke Steel Entrance Doors
 
@@ -30,7 +28,7 @@ At this level, you are getting a genuinely bespoke steel door — made to your e
 - **Basic lever handle** or pull bar hardware
 - **Double-glazed vision panel** if required
 
-This is not a budget product. Even at the entry level, a bespoke steel door delivers SR3 security certification, powder-coated finish, thermal break construction and a lifespan measured in decades rather than years.
+Even at entry level, a bespoke steel door delivers SR3 security certification, powder-coated finish, thermal break construction and a lifespan measured in decades rather than years.
 
 ### Mid-Range Bespoke
 
@@ -114,7 +112,7 @@ If your property requires a fire-rated door — common in flats, HMOs, new build
 
 ### 6. Security Certification Level
 
-All our doors meet [SR3 security certification](/security-specification) as standard — the highest practical rating for residential properties. This is included in the base price rather than being an optional upgrade. Some manufacturers offer lower-rated doors at lower prices, but we believe security should not be a line item you can delete.
+All our doors meet [SR3 security certification](/security-specification) as standard, the highest practical rating for residential properties. This is included in the base specification rather than being an optional upgrade. Some manufacturers offer lower-rated doors at lower prices, but security is engineered into the door rather than added to the line item.
 
 ### 7. Installation Complexity
 
@@ -167,7 +165,7 @@ The gap between materials narrows substantially when you factor in the full life
 
 ## Installation Costs
 
-Installation is a critical part of the investment and should never be treated as an afterthought. A poorly installed door — regardless of how well it was manufactured — will underperform on security, thermal efficiency and weatherproofing.
+Installation is a critical part of the investment. A poorly installed door, regardless of how well it was manufactured, will underperform on security, thermal efficiency and weatherproofing.
 
 ### What Professional Installation Includes
 

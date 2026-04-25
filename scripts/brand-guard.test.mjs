@@ -42,7 +42,7 @@ Cast iron became affordable during the Victorian era. (historical context)
 The cheapest doors fitted to new-build estates use PAS 24. (competitor pejorative)
 Cheap Street is in Newbury's conservation area. (proper noun)
 Insurers may discount premiums for SR3 doors. (verb form)
-No same-day discount tactics. (negation)
+No same-day pressure tactics. (legitimate negation, not associating with discount)
 What is the cheapest steel entrance door? (FAQ question echo)
   \`
 };

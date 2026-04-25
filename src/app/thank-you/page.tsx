@@ -42,7 +42,7 @@ const nextSteps = [
   },
   {
     title: "You take your time",
-    desc: "No deposit until you're sure. No same-day discount tactics. When you're ready, we confirm lead times and book manufacturing and installation slots.",
+    desc: "No deposit until you're sure. No same-day pressure tactics. When you're ready, we confirm lead times and book manufacturing and installation slots.",
   },
 ];
 
@@ -322,7 +322,7 @@ export default function ThankYouPage() {
                 color: "#5a5a58",
               }}
             >
-              Reviews are how new SteelR clients find us, and how we know what to keep doing well. If your door has been installed and you have a moment, a few sentences on Google make a real difference to a small UK manufacturer.
+              Reviews are how new clients find us. A few sentences on Google make a real difference to a UK manufacturer of this scale.
             </p>
             <a
               href="https://www.google.com/maps/place/SteelR+Bespoke+Steel+Entrance+Doors"

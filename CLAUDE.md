@@ -45,7 +45,7 @@ Choose the highest-leverage option based on current state:
 ### Current SteelR state snapshot
 
 - Live: https://steelr.co.uk since ~3 Apr 2026
-- 40 blog posts live, 161 area pages, 54 doors in /collection (CLAUDE.md and STATE.md previously stated stale counts; reconciled 25 Apr against actual data)
+- 40 blog posts live, 161 area pages, 60 doors in /collection (CLAUDE.md and STATE.md previously stated stale counts; reconciled 25 Apr against actual data)
 - QuickEnquiry component on all dynamic templates (areas, collection, blog) + 10 InfoPage topic hubs + 5 non-InfoPage hubs — 288+ pages wired with source-tagged lead capture → `/api/contact` → `info@supplywindows.co.uk`
 - `/thank-you` page live with GA4 conversion tracking (GA4 installed 23 Apr — `NEXT_PUBLIC_GA_ID` env var on Vercel, `GoogleAnalytics` component loads lazyOnload)
 - Next cron fire: Thu 23 Apr 20:00 UTC (awaiting Session 1 blog refill)
@@ -93,7 +93,7 @@ Choose the highest-leverage option based on current state:
 - **Navigation:** Collection · Areas · About · Process · Blog · Get Estimate · Contact
 - **Phone:** 0800 861 1450
 - **CTA:** "Request a Consultation"
-- **Total static pages:** ~341 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 54 collection items, 45 blog posts, 161 area pages, 10 Phase 1D topic pages)
+- **Total static pages:** ~341 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 60 collection items (54 have rich hand-written page content; the rest use auto-generated descriptions), 45 blog posts, 161 area pages, 10 Phase 1D topic pages)
 - **Sitemap:** 297 URLs at `/sitemap.xml` (was 286, added 10 Phase 1D topic pages + /sitemap HTML page on 18 Apr 2026)
 - **HTML sitemap:** `/sitemap` (new 18 Apr 2026) — visible page linked from footer, lists every URL on the site
 - **Google Maps embed** on contact page (business name pin, no street address shown)

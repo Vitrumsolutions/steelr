@@ -105,11 +105,17 @@ const STEELR_BANNED_PATTERNS = [
   /\bSteelR discount/i,
   // "best price guarantee" / "lowest price" SteelR positioning
   /\b(?:best price guarantee|lowest price|cheapest price)\b/i,
+  // "discount tactics" / "discount pricing" associations \u2014 even with "no" prefix,
+  // these phrases still link SteelR to discount-related framing on a SteelR-owned page.
+  // Use "pressure tactics" / "negotiation tactics" instead.
+  /\bdiscount (?:tactic|pricing|model|strategy|approach)/i,
 ];
 
-// Legacy whitelist patterns (kept for context queries that AREN'T inverted)
+// Legacy whitelist patterns (kept for context queries that AREN'T inverted).
+// Be careful adding to this list: anything matching here bypasses the brand
+// check entirely. Used only for clearly-OK contexts like FAQ-question echoes.
 const BANNED_WORD_WHITELIST_CONTEXT = [
-  /What is the cheapest/i,
+  /What is the cheapest/i, // FAQ question echoing user search intent
 ];
 
 // ---------- end configuration ----------
