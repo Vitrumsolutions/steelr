@@ -15,11 +15,11 @@ const post: BlogPost = {
 
 If you have searched "how much do steel doors cost UK" expecting a simple number, we understand the frustration. The truth is that bespoke steel entrance doors are individually designed and manufactured, so there is no single price. But we can give you realistic ranges, explain what drives the cost up or down, and help you understand whether the investment makes sense for your property.
 
-A bespoke steel entrance door in the UK typically costs between **£3,000 and £15,000+**, depending on specification. That is a wide range, so let us break down exactly what determines where your door falls within it.
+A bespoke steel entrance door in the UK is individually priced after an on-site survey because each door is made to measure with no two specifications alike. The quotation reflects size, configuration, security tier (SR3 standard or SR4 commercial-grade upgrade), fire rating, glazing, hardware, RAL colour and design complexity rather than a published list price. Below we break down what falls into each tier of specification.
 
-## Typical Price Ranges for Steel Entrance Doors
+## Specification Tiers for Bespoke Steel Entrance Doors
 
-### Entry-Level Bespoke: £3,000 – £5,000
+### Entry-Level Bespoke
 
 At this level, you are getting a genuinely bespoke steel door — made to your exact measurements, in your chosen [RAL colour](/colours), with quality hardware. This typically covers:
 
@@ -32,7 +32,7 @@ At this level, you are getting a genuinely bespoke steel door — made to your e
 
 This is not a budget product. Even at the entry level, a bespoke steel door delivers SR3 security certification, powder-coated finish, thermal break construction and a lifespan measured in decades rather than years.
 
-### Mid-Range Bespoke: £5,000 – £9,000
+### Mid-Range Bespoke
 
 The mid-range is where most homeowners land. At this level, the specification becomes more ambitious:
 
@@ -46,7 +46,7 @@ The mid-range is where most homeowners land. At this level, the specification be
 
 Properties in areas like [Beaconsfield](/areas/beaconsfield), [Esher](/areas/esher) and [Wimbledon](/areas/wimbledon) commonly specify at this level — substantial enough to make an architectural statement without venturing into the most complex configurations.
 
-### Premium Bespoke: £9,000 – £15,000+
+### Premium Bespoke
 
 At the premium end, the door becomes a significant architectural feature:
 
@@ -149,21 +149,21 @@ Quality hardwood doors — oak, sapele, iroko — remain popular for period prop
 
 **Lifespan:** 15–30 years with regular maintenance. Without maintenance, degradation begins within 5–7 years.
 
-### Steel Doors: £3,000 – £15,000+
+### Steel Doors
 
-**What you get:** SR3 security certification, 25+ year lifespan with zero maintenance, dimensional stability (no swelling, shrinking or warping), powder-coat finish that does not peel, flake or fade, Secured by Design approval, fire rating options, genuine bespoke manufacturing to any size or design.
+Bespoke steel entrance doors are individually priced after an on-site survey rather than published as a list, because each door is made to measure with no two specifications alike. **What you get:** SR3 security certification as standard with SR4 (LPS 1175) commercial-grade upgrade available, 25+ year lifespan with zero maintenance, dimensional stability (no swelling, shrinking or warping), powder-coat finish that does not peel, flake or fade, Secured by Design approval, fire rating options, genuine bespoke manufacturing to any size or design.
 
 **Lifespan:** 25–40+ years. The powder-coat finish is warranted for decades and the steel structure is essentially permanent.
 
-### The 25-Year Cost Comparison
+### The 25-Year Cost Picture
 
-When you account for maintenance, replacement and longevity, the lifetime cost picture changes significantly:
+When you account for maintenance, replacement and longevity rather than just the up-front purchase, the lifetime picture changes significantly:
 
-- **Composite door:** £1,500 initial + £1,500 replacement at year 15 = **£3,000 over 25 years** (plus the inconvenience of replacement)
-- **Timber door:** £3,000 initial + £300 maintenance every 3 years (8 cycles) = **£5,400 over 25 years** (plus the ongoing time commitment)
-- **Steel door:** £6,000 initial + £0 maintenance = **£6,000 over 25 years** (with the door still in excellent condition at year 25)
+- **Composite door:** typical 10 to 15 year lifespan means a homeowner funds an outright replacement before the 25-year mark, plus the inconvenience and disruption of refitting
+- **Timber door:** ongoing maintenance burden of repainting or re-oiling every 3 to 5 years across the full 25 years, plus the time commitment and the risk that maintenance lapses lead to weathering damage
+- **Steel door:** zero structural maintenance for the full 25 years, with the powder-coat finish warranted for decades and the door still in excellent condition at year 25
 
-The gap narrows dramatically when you factor in the full lifecycle. And this comparison does not account for the security differential — replacing a burgled composite door, repairing frame damage and dealing with insurance claims has its own cost.
+The gap between materials narrows substantially when you factor in the full lifecycle. This comparison also does not account for the security differential, where the cost of a forced-entry incident on a lower-rated door is borne entirely by the homeowner.
 
 ## Installation Costs
 

@@ -112,7 +112,7 @@ const credentials = [
 ];
 
 // Per-region "guides for homeowners" — curated blog links that bridge
-// 166 area pages to the 40-post corpus. Closes the area→blog gap flagged
+// 161 area pages to the 40-post corpus. Closes the area→blog gap flagged
 // by the 22 Apr audit (previously every area page had zero blog outbound).
 function getAreaGuides(region: string | undefined, locationType: string): Array<{ slug: string; title: string }> {
   const common = { slug: "period-property-front-door-ultimate-guide", title: "Period Property Front Doors: Ultimate Guide" };
@@ -980,7 +980,7 @@ export default async function AreaPage({ params }: Props) {
 
       {/* Guides for {label} homeowners — bridges this area page to topical blog
           content. Region-aware picks via getAreaGuides(). Added 22 Apr to close
-          the internal-linking gap flagged by audit (166 area pages had zero blog
+          the internal-linking gap flagged by audit (161 area pages had zero blog
           outbound links). */}
       <section className="bg-cream py-16 md:py-20 px-6 md:px-16 border-t border-[rgba(26,26,24,0.08)]">
         <div className="max-w-[1200px] mx-auto">

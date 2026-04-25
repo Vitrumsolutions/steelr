@@ -45,9 +45,9 @@ Choose the highest-leverage option based on current state:
 ### Current SteelR state snapshot
 
 - Live: https://steelr.co.uk since ~3 Apr 2026
-- 42 blog posts live (CLAUDE.md says 45 — slightly stale), 173 area pages, 62 doors in /collection
+- 40 blog posts live, 161 area pages, 54 doors in /collection (CLAUDE.md and STATE.md previously stated stale counts; reconciled 25 Apr against actual data)
 - QuickEnquiry component on all dynamic templates (areas, collection, blog) + 10 InfoPage topic hubs + 5 non-InfoPage hubs — 288+ pages wired with source-tagged lead capture → `/api/contact` → `info@supplywindows.co.uk`
-- `/thank-you` page live with GA4 conversion tracking (no GA4 installed yet)
+- `/thank-you` page live with GA4 conversion tracking (GA4 installed 23 Apr — `NEXT_PUBLIC_GA_ID` env var on Vercel, `GoogleAnalytics` component loads lazyOnload)
 - Next cron fire: Thu 23 Apr 20:00 UTC (awaiting Session 1 blog refill)
 
 ---
@@ -93,7 +93,7 @@ Choose the highest-leverage option based on current state:
 - **Navigation:** Collection · Areas · About · Process · Blog · Get Estimate · Contact
 - **Phone:** 0800 861 1450
 - **CTA:** "Request a Consultation"
-- **Total static pages:** ~341 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 54 collection items, 45 blog posts, 172 area pages, 10 Phase 1D topic pages)
+- **Total static pages:** ~341 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 54 collection items, 45 blog posts, 161 area pages, 10 Phase 1D topic pages)
 - **Sitemap:** 297 URLs at `/sitemap.xml` (was 286, added 10 Phase 1D topic pages + /sitemap HTML page on 18 Apr 2026)
 - **HTML sitemap:** `/sitemap` (new 18 Apr 2026) — visible page linked from footer, lists every URL on the site
 - **Google Maps embed** on contact page (business name pin, no street address shown)
@@ -236,7 +236,8 @@ All 10 URLs submitted via sitemap, Indexing API, and 4 of 10 priority-crawl-push
 - **Form:** `/contact` page → `/api/contact` route → Resend API → info@supplywindows.co.uk
 - **Estimate form:** `/design-estimate` → `/api/estimate` route → Resend API → info@supplywindows.co.uk
 - **Inline QuickEnquiry form** (added 22 Apr 2026, commit `e73f058`): 3-field name/phone/postcode form rendered on 288 pages — every area/collection/blog + 15 topic hub pages. Posts to `/api/contact` same as the full form but with `source=<slug>` tag for lead attribution. Auto-applies to all future blog posts via the `/blog/[slug]` template + all future topic pages via `InfoPage` component props.
-- **Thank-you page:** `/thank-you` (added 22 Apr 2026) — post-submit confirmation with ThankYouTracking client component. Fires GA4 `generate_lead` event if `gtag` is present — no-ops silently today since SteelR has no analytics yet. Ready to attribute the moment GA4 is installed.
+- **Thank-you page:** `/thank-you` (added 22 Apr 2026) — post-submit confirmation with ThankYouTracking client component. Fires GA4 `generate_lead` event.
+- **Analytics (installed 23 Apr 2026):** GA4 property ID stored in Vercel env var `NEXT_PUBLIC_GA_ID` (not hardcoded in source). `GoogleAnalytics` component at `src/components/GoogleAnalytics.tsx` renders `<Script strategy="lazyOnload">` gtag only when the env var is set — deploy-safe without it. Vercel Analytics + Speed Insights also live via `@vercel/analytics` + `@vercel/speed-insights` in `layout.tsx`. Conversion event: `generate_lead` fires on `/thank-you` via `ThankYouTracking.tsx`.
 - **Resend domain:** steelr.co.uk verified (EU-West region), DNS records added at Fasthosts
 - **Resend API key:** `steelr-contact-form` (sending_access), stored in Vercel env var `RESEND_API_KEY`
 - **Sender:** `noreply@steelr.co.uk`
@@ -325,7 +326,7 @@ Next run recommended after 21 Apr 2026 to measure impact of:
 
 ## Competitor Analysis (completed)
 - **Top competitors:** Latham's (195 reviews, 4.9★), Strongdor, Gerda, Modern Doors, Bespoke Steel Doors, Fort Premium, Deuren, Crittall
-- **SteelR advantages:** 172 location pages (no competitor has this), steel vs composite post ranking #2
+- **SteelR advantages:** 161 location pages (no competitor has this), steel vs composite post ranking #2
 - **Gaps:** Pricing content, thermal efficiency guide, RAL colours page (now built), security certifications for homeowners (now built)
 - **Full analysis:** Saved in MARKETING-COPY.md
 
@@ -385,7 +386,7 @@ Page Indexing report still shows "Last update: 13/04/2026" with 54 indexed, 4 no
 
 ### GBP audit (confirmed, 0 pending issues)
 - **3 scheduled posts all published on schedule:** 12 Apr, 15 Apr, 18 Apr all went live. Most recent post "Published yesterday" (18 Apr estimate tool promotion) confirmed live. GBP did NOT silently drop any scheduled content.
-- **Earlier post stale data flagged:** "Published last month" post references "170 areas" — correct count is now 172. Not critical, worth updating in next batch.
+- **Earlier post stale data flagged:** "Published last month" post references "170 areas" — correct count is now 161. Not critical, worth updating in next batch.
 - **Reviews confirmed 0.** "You have no reviews yet" shown in dashboard. Still #1 Maps blocker.
 - **Services confirmed at 8** (matches CLAUDE.md). GBP edit panel did not allow scrolling to "Add Service" option via automation (confirmed limitation noted in Gotchas section). **SR4 service addition deferred to manual user action.**
 - **Profile strength indicator:** GBP dashboard shows "Complete info" prompt — not at 100%. Worth clicking through at some point to see what fields remain.
@@ -395,7 +396,7 @@ Page Indexing report still shows "Last update: 13/04/2026" with 54 indexed, 4 no
 ### User-action items from GBP audit
 1. ~~Add 9th service manually: "SR4 / LPS 1175 Commercial-Grade Security Doors"~~ — **PIVOTED 19 Apr 2026.** Adding a 9th service requires a separate "Add service" path in the GBP dashboard that is not accessible via the current modal flow. Instead, enriched 2 of 8 existing service descriptions (Bespoke Steel Entrance Doors + PAS 24 Certified Security Doors) with full SR3/SR4 positioning copy. Higher-impact than a 9th service because descriptions were previously empty and profile strength benefits from populating them. 6 remaining service descriptions still empty and could be enriched in a future session.
 2. ~~Write next batch of GBP posts~~ — **DONE 19 Apr 2026.** New post "SR4 (LPS 1175) is the commercial-grade security certification used on data centres, bank vaults and high-risk commercial premises..." published. 865/1,500 characters, policy-compliant (no URLs, no phone number). First SR4 content now live on GBP. See Session Log 19 Apr.
-3. **Update the "170 areas" claim to "172 areas"** in any future post reusing that copy (still pending)
+3. **Update the "170 areas" claim to "161 areas"** in any future post reusing that copy (still pending)
 4. **Reviews outreach campaign** — user handling this directly; Claude not actioning.
 
 ### SR4 blog shipped (19 Apr 2026, commit `689408a`)
@@ -537,7 +538,7 @@ As of 19 Apr 2026, Total Citations = 0, Avg Cited Pages = 0 across the 3M window
 
 Major session. Five commits, all live:
 
-- **`2c5a067` SR4 (LPS 1175) positioning rollout, site-wide** — Layout, homepage, /security, /security-specification, /fire-rated-doors, /about, /process, /collection, /collection/sidelights, /areas/[slug], /design-estimate, Hero, CredentialsBanner, email_outreach.py, llms.txt, llms-full.txt all updated with "SR3 as standard, SR4 (LPS 1175) commercial-grade upgrade" positioning. Area page credentials strip now shows "SR3 Standard & SR4 (LPS 1175) Available" on all 172 pages.
+- **`2c5a067` SR4 (LPS 1175) positioning rollout, site-wide** — Layout, homepage, /security, /security-specification, /fire-rated-doors, /about, /process, /collection, /collection/sidelights, /areas/[slug], /design-estimate, Hero, CredentialsBanner, email_outreach.py, llms.txt, llms-full.txt all updated with "SR3 as standard, SR4 (LPS 1175) commercial-grade upgrade" positioning. Area page credentials strip now shows "SR3 Standard & SR4 (LPS 1175) Available" on all 161 pages.
 - **`9d5b908` Phase 1B indexation fixes** — /process expanded 186→791 words (new aftercare/warranty block, updated HowTo schema). /contact expanded 142→770 words (consultation promise, regional link list, 3-step what-happens-next, 5-question FAQ with FAQPage schema). /about schema deduplicated (Organization-referenced AboutPage replaces duplicate HomeAndConstructionBusiness). New /sitemap HTML page (1,296 words of linked navigation), footer-linked. /sitemap added to sitemap.xml.
 - **`4eb3a3f` Phase 1D: 10 SEO topic pages** — 13,464 body words of topic authority via shared `<InfoPage>` component. See "Topic and Comparison Pages" section above for the full list.
 - **`54584a6` llms.txt + llms-full.txt: 10 topic pages surfaced** — Topic and Comparison Guides section added to both files with extractable paragraph summaries for each of the 10 pages.
@@ -553,7 +554,7 @@ Also shipped without code commit:
 1. ~~**Clear URL Inspection queue (8 URLs)**~~ — **DONE 19 Apr 2026 evening.** All 8 URLs pushed to priority crawl queue: `/secured-by-design-steel-front-door`, `/fire-rated-fd30-front-door`, `/uk-steel-doors-vs-imported`, `/luxury-steel-entrance-door-london`, `/steel-front-door-cost-uk`, `/areas/buckinghamshire`, `/areas/surrey`, `/process`. Useful finding: 5 of the 8 came back as **already indexed** ("URL is on Google") — uk-steel-doors-vs-imported, luxury-steel-entrance-door-london, /areas/buckinghamshire, /areas/surrey, /process. This means Google has crawled and indexed significantly more than the stale 54/297 Page Indexing report suggests. The request queues a recrawl on all 8. Also pushed 2 more before quota hit: `/blog/sr4-lps-1175-commercial-grade-residential` (not indexed, accepted), `/design-estimate` (already indexed, recrawl queued). **Cumulative URL Inspection pushes Apr 18-19: 22 URLs.** Daily quota (~10/day) exhausted again after 10 pushes in this session.
 
 1a. **URL Inspection queue for next quota refresh (8 URLs)** — next window roughly 19:30 UK 20 Apr: `/colours`, `/blog`, `/sitemap` (HTML), `/areas/hertfordshire`, `/areas/kent`, `/areas/essex`, `/areas/hampshire`, `/areas/sussex`.
-2. **GBP next post batch** — previous scheduled posts all published cleanly. Write next 3-5 SR4/topic-angle posts. See "GBP posting rules" in Contact Form section. Also fix stale "170 areas" reference if reusing that copy (now 172).
+2. **GBP next post batch** — previous scheduled posts all published cleanly. Write next 3-5 SR4/topic-angle posts. See "GBP posting rules" in Contact Form section. Also fix stale "170 areas" reference if reusing that copy (now 161).
 3. **Reviews outreach campaign** — user handling directly. 0 reviews still the #1 Maps 3-pack blocker. Template in MARKETING-COPY.md.
 4. **Social media pipeline (Phase 2)** — multi-day build. Python + Pillow + FFmpeg + OpenAI TTS. 60-90 posts across IG/Pinterest/TikTok/Shorts/LinkedIn. Brand kit first, then static posts, then Ken Burns Reels, then TTS voiceover.
 5. **Next Serper rank check** — after 21 Apr to measure SR4 rollout + 10 Phase 1D topic pages + IndexNow ingestion impact.
@@ -565,9 +566,9 @@ Also shipped without code commit:
 - **Collection page duplicate titles fixed** — 8 groups of doors (24 pages) shared identical `<title>` and H1 tags, causing GSC "Duplicate without user-selected canonical" errors. Title generation in `src/data/doors.ts` now uses context phrases from the slug (e.g. "Stone Surround", "Gable Porch", "Interior View") and secondary features to guarantee all 54 collection pages have unique titles and H1s. Deduplication pass added as safety net.
 
 ## SEO Fixes Applied (8 Apr 2026, batch 2)
-- **Area page boilerplate varied** — 2 shared paragraphs (manufacturing + customisation) now have 4 variants each, rotated by parent hub to eliminate duplicate content across 172 area pages
+- **Area page boilerplate varied** — 2 shared paragraphs (manufacturing + customisation) now have 4 variants each, rotated by parent hub to eliminate duplicate content across 161 area pages
 - **llms.txt references uncommented** in robots.txt — AI crawlers can now discover /llms.txt and /llms-full.txt
-- **CredentialsStrip added to area pages** — PAS24/SR3/Secured by Design/FD30S/ISO 9001/UK Manufactured dark strip now appears on all 172 area pages (was already on homepage + collection)
+- **CredentialsStrip added to area pages** — PAS24/SR3/Secured by Design/FD30S/ISO 9001/UK Manufactured dark strip now appears on all 161 area pages (was already on homepage + collection)
 
 ## SEO Fixes Applied (8 Apr 2026)
 - **GBP link added to schema sameAs** in layout.tsx (Google Maps place URL)
@@ -583,14 +584,14 @@ Also shipped without code commit:
 - Canonical URLs on all pages
 - H1 on every page (sr-only where visual design conflicts)
 - Collection page has intro paragraph for Google crawlability (client component)
-- **172 location pages** for local SEO — unique descriptions referencing local architecture and neighbourhoods
+- **161 location pages** for local SEO — unique descriptions referencing local architecture and neighbourhoods
 - Hub pages list all child areas in schema.org `areaServed`
 - Area pages cross-link to 3–5 nearby areas + parent hub
 - Sitemap at `/sitemap.xml` with 297 URLs, most recently resubmitted to Google Search Console (18 Apr 2026)
 - HTML sitemap at `/sitemap` (18 Apr 2026) linked from footer, mirrors the XML feed in human-readable form
 - Product schema on collection door pages (offers block REMOVED — was causing GSC errors)
 - HowTo schema on process page
-- FAQ schema on all 172 area pages + security page + security-specification page
+- FAQ schema on all 161 area pages + security page + security-specification page
 - Image quality: all set to 80 (reduced from 100 for performance)
 - Images optimized: 24.7MB → 11.7MB (52% reduction via sharp)
 - Hero carousel: lazy loading on non-first images
@@ -668,7 +669,7 @@ Priority order: `@steelrdoors` → `@steelr.doors` → `@steelr.uk` → `@steelr
 - `/seo-audit` — Full technical SEO audit (meta tags, indexing, 250+ pages)
 - `/ai-seo` — Optimize for AI search engines (AEO/GEO), get cited by LLMs
 - `/schema-markup` — Add/fix JSON-LD structured data (HomeAndConstructionBusiness, FAQ, BreadcrumbList)
-- `/programmatic-seo` — Template-based location pages at scale (172 area pages)
+- `/programmatic-seo` — Template-based location pages at scale (161 area pages)
 - `/site-architecture` — Plan/restructure navigation and URL hierarchy
 
 ### Conversion & Copy
@@ -698,3 +699,18 @@ Priority order: `@steelrdoors` → `@steelr.doors` → `@steelr.uk` → `@steelr
 ## Project Completion Checklist
 
 Before marking any task in this project complete, follow the Completion Standards in the global CLAUDE.md. Show evidence. Do not assume.
+
+## Subagent Routing (project-local)
+
+Three SteelR-specific subagents live at `.claude/agents/`. In addition to the global ten, dispatch these per the rules below.
+
+| Agent | Fires when |
+|---|---|
+| `area-slug-validator` | Before any commit that adds a new entry to the area data file. Blocks commits adding thin-content slugs. |
+| `cannibalisation-auditor` | Monthly, and after any new blog or area page goes live. Wraps `audit-data/blog-seo-audit.py`. |
+| `visibility-audit-runner` | Quarterly, and after major content pushes. Wraps `audit-data/visibility-audit.py` across Google, Bing, Maps, and 4 AI engines. |
+
+Global agents that fire often in this project:
+- `seo-schema-validator` on any area-page or blog-page edit.
+- `llms-txt-integrity-checker` after any blog publish or area add.
+- `deploy-gate` before any push to main.
