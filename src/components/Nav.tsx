@@ -175,9 +175,16 @@ export default function Nav() {
           background: "#0a0a09",
           opacity: menuOpen ? 1 : 0,
           pointerEvents: menuOpen ? "auto" : "none",
+          // Top padding clears the fixed nav band (logo + hamburger live in
+          // the top ~80px of the viewport). Without this, justify-center can
+          // place the first menu item (Collection) at y ~ 45-65px, visually
+          // and tap-target overlapping the nav. Bottom padding mirrors so
+          // centering still feels balanced.
+          paddingTop: "96px",
+          paddingBottom: "32px",
         }}
       >
-        <div className="flex flex-col items-center gap-10">
+        <div className="flex flex-col items-center gap-8 sm:gap-10">
           {navLinks.map((link, i) => (
             <Link
               key={link.href}
