@@ -60,8 +60,19 @@ export default function Nav() {
             : "1px solid transparent",
         }}
       >
-        <div className="flex items-center justify-between px-6 md:px-12 py-5">
-          <Link href="/" onClick={() => setMenuOpen(false)}>
+        <div
+          className="flex items-center justify-between px-6 md:px-12 py-5"
+          style={{
+            // When mobile menu is open, the overlay sits at z-40 BELOW this
+            // z-50 nav. Without this, this inner flex div intercepts taps on
+            // any menu item that overlaps the nav-bar vertical band (i.e.
+            // typically the first one or two — Collection, Lookbook).
+            // We turn off pointer events on the wrapper but explicitly keep
+            // the hamburger button clickable so the menu can still be closed.
+            pointerEvents: menuOpen ? "none" : "auto",
+          }}
+        >
+          <Link href="/" onClick={() => setMenuOpen(false)} style={{ pointerEvents: menuOpen ? "none" : "auto" }}>
             <Logo
               variant="inline"
               theme={scrolled ? "dark" : "light"}
@@ -96,7 +107,7 @@ export default function Nav() {
           </div>
 
           {/* Phone (Fix 18: hidden below lg) + Hamburger */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6" style={{ pointerEvents: menuOpen ? "none" : "auto" }}>
             <a
               href="tel:08008611450"
               className="hidden lg:block transition-colors duration-300"
@@ -120,6 +131,9 @@ export default function Nav() {
               className="lg:hidden flex flex-col justify-center items-center w-8 h-8 gap-[5px]"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle menu"
+              // Always clickable so the user can close an open menu, even
+              // though the parent flex div has pointerEvents:none when open.
+              style={{ pointerEvents: "auto" }}
             >
               <span
                 className="block w-5 h-[1px]"
