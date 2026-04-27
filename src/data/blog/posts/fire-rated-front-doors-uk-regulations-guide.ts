@@ -33,7 +33,7 @@ An FD30 door must be tested as a complete assembly. The door leaf alone is not s
 
 FD60 doors provide sixty minutes of fire resistance and are required in higher-risk applications. These include doors in buildings over 30 metres in height (approximately 10 storeys), doors protecting firefighting shafts and lobbies, and certain commercial or mixed-use premises.
 
-Since the Building Safety Act 2022, the threshold for enhanced fire safety measures has been lowered, meaning more developments now require FD60 specification. For [fire rated doors](/fire-rated-doors) in high-rise residential buildings, FD60 is increasingly becoming the expected standard rather than the exception.
+Since the Building Safety Act 2022, the threshold for enhanced fire safety measures has been lowered, meaning more developments now require FD60 specification. For [fire rated doors](/fire-rated-doors) in high-rise residential buildings, FD60 is increasingly becoming the expected standard rather than the exception. SteelR offers FD30S as standard with FD60 available as an upgrade, both supplied as fully tested doorsets including frame, intumescent seals, glazing and hardware.
 
 ## Approved Document B: The Regulatory Framework
 
@@ -123,7 +123,7 @@ Self-closing devices are required on all fire doors in communal areas and escape
 
 The responsibility for fire door compliance sits firmly with the party specifying, procuring and installing the door. Under the Building Safety Act, this chain of accountability is explicit and documented.
 
-For property developers, specifying [fire rated doors](/fire-rated-doors) from a manufacturer with **ISO 9001 certified** quality management and third-party fire test certification reduces risk substantially. A compliant door set arrives on site as a tested assembly, eliminating the need for on-site fabrication of fire-rated components.
+For property developers, specifying [fire rated doors](/fire-rated-doors) from a manufacturer with **ISO 9001 certified** quality management and third-party fire test certification reduces risk substantially. SteelR's UK manufacturing facility operates under ISO 9001 with full traceability for every fire-rated doorset. A compliant door set arrives on site as a tested assembly, eliminating the need for on-site fabrication of fire-rated components.
 
 Architects and specifiers should request copies of the fire test report (not just a certificate) to verify that the door configuration being specified — including glazing type, glazing area, hardware positions and seal locations — matches the tested configuration. Any deviation from the tested specification invalidates the fire rating.
 

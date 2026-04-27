@@ -30,7 +30,7 @@ The NBS system remains the standard specification platform for UK construction p
 - **Hardware schedule** — locking mechanism, handle, knocker, letter plate, numerals, closer, threshold
 - **Glazing specification** — if applicable, glass type, thermal and security ratings
 
-Each clause should reference the relevant British or European standard and specify the required level of independent certification. Avoid generic phrases such as "to approved detail" — these create ambiguity that inevitably leads to site disputes. Learn more about [our process](/process) for working with architectural practices.
+Each clause should reference the relevant British or European standard and specify the required level of independent certification. Avoid generic phrases such as "to approved detail" — these create ambiguity that inevitably leads to site disputes. Learn more about [the SteelR process](/process) for working with architectural practices.
 
 ## Performance Requirements
 
@@ -38,9 +38,9 @@ Each clause should reference the relevant British or European standard and speci
 
 The regulatory baseline for entrance door security in England and Wales is PAS 24:2022, mandated by Approved Document Q. This applies to all new dwellings and conversions creating new dwellings. For refurbishment projects, PAS 24 is recommended but not always mandated — though specifying below this standard is difficult to justify professionally.
 
-Beyond PAS 24, the Loss Prevention Certification Board's LPS 1175 standard provides graded security ratings. **SR3 is the highest rating routinely specified for residential applications**, resisting sustained attack with professional tools over an extended period. For high-value residential projects across [London](/areas/london), [Manchester](/areas/manchester) and [Birmingham](/areas/birmingham), SR3 is increasingly the default specification rather than an enhancement.
+Beyond PAS 24, the Loss Prevention Certification Board's LPS 1175 standard provides graded security ratings. **SR3 is the highest rating routinely specified for residential applications**, resisting sustained attack with professional tools over an extended period. For high-value residential projects across [London](/areas/london), [Manchester](/areas/manchester) and [Birmingham](/areas/birmingham), SR3 is increasingly the default specification rather than an enhancement. SteelR ships SR3 as standard with SR4 (LPS 1175 Issue 8) commercial-grade upgrade available, allowing architects to specify a single supplier across both residential and high-risk projects.
 
-Secured by Design accreditation confirms that the doorset meets police-approved security standards. It is a valuable specification line for projects where end-user insurance requirements or planning conditions reference crime prevention. Our [security specification](/security-specification) provides the full technical detail architects need for their documentation.
+Secured by Design accreditation confirms that the doorset meets police-approved security standards. It is a valuable specification line for projects where end-user insurance requirements or planning conditions reference crime prevention. The SteelR [security specification](/security-specification) page provides the full technical detail architects need for their documentation.
 
 ### Thermal Performance
 
@@ -148,7 +148,7 @@ Allow adequate programme time for this process. A typical bespoke steel entrance
 The quality of the specification is only as good as the manufacturer's ability to deliver it. When selecting a manufacturer for a bespoke steel entrance door, assess the following:
 
 - **Certification** — verify that claimed security, fire and thermal ratings are backed by current, valid test certificates from UKAS-accredited laboratories
-- **Manufacturing quality** — **ISO 9001 certification** provides a framework assurance. Factory visits provide direct evidence
+- **Manufacturing quality** — **ISO 9001 certification** provides a framework assurance. Factory visits provide direct evidence. SteelR operates an ISO 9001 UK manufacturing facility with full traceability from raw steel to delivered doorset
 - **Design capability** — the manufacturer should have in-house design and engineering capacity, not simply a sales function
 - **Project experience** — ask for references on comparable projects, particularly in regulated environments (conservation areas, high-rise residential, listed buildings)
 - **After-sales support** — adjustment, maintenance and spare parts availability over the design life of the doorset

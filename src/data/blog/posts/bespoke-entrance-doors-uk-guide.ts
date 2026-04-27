@@ -37,7 +37,7 @@ Forcing a standard door into a non-standard opening requires adaptation — typi
 
 Architecture is fundamentally about proportion. The relationship between door width and height, between panel sizes, between glazed and solid areas — these ratios determine whether a door looks considered or compromised. A standard door placed in a Georgian surround designed for different proportions will look exactly what it is: a compromise.
 
-Properties in conservation areas across [Beaconsfield](/areas/beaconsfield) and the wider Home Counties face this challenge frequently. The original doorways were built to proportions that pre-date modern standardisation, and replacing them with something off the shelf diminishes the character of both the door and the facade.
+Properties in conservation areas across [Beaconsfield](/areas/beaconsfield) and the wider Home Counties face this challenge frequently. The original doorways were built to proportions that pre-date modern standardisation, and replacing them with something off the shelf diminishes the character of both the door and the facade. Every SteelR doorset is manufactured to the surveyed dimensions of the individual opening, with no standard sizing imposed.
 
 ### Double Doors and Sidelights
 
@@ -116,7 +116,7 @@ The door is manufactured in our **ISO 9001** certified facility. Every doorset i
 
 ### Stage 5: Installation
 
-Installation is carried out by our own fitting team, not subcontracted. A bespoke door demands precision installation to perform correctly — both in terms of security and weatherproofing. The installation typically takes a single day, and the old door is removed and disposed of as part of the service.
+Installation is carried out by SteelR's own fitting team, not subcontracted. A bespoke door demands precision installation to perform correctly — both in terms of security and weatherproofing. The installation typically takes a single day, and the old door is removed and disposed of as part of the service.
 
 To begin the process, you can [request an estimate](/design-estimate) at any stage — even if your plans are still forming.
 

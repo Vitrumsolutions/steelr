@@ -127,7 +127,7 @@ Lighter tones became fashionable. Dark green and dark blue remained popular, but
 
 Earthy, natural tones: sage green, slate blue, deep red oxide, bark brown, and muted ochre. Colours should look as though they could have been mixed from natural pigments, because in many cases they were.
 
-With the **full RAL colour range** available on every SteelR door, achieving any period-authentic colour is straightforward. Browse our [colour options](/colours) to see the complete palette, or discuss bespoke colour matching with our design team.
+With the **full RAL colour range** available on every SteelR door, achieving any period-authentic colour is straightforward. Browse our [colour options](/colours) to see the complete palette, or discuss bespoke colour matching with the SteelR design team.
 
 ## Conservation Area Compliance
 
@@ -140,7 +140,7 @@ The key requirements in most conservation areas are:
 - Colour choices may be restricted to a palette approved by the local planning authority
 - Original architectural features (fanlights, doorcases, sidelights) must be retained or accurately replicated
 
-Steel entrance doors manufactured to bespoke specifications can satisfy all of these requirements. Because every door is designed individually, period-accurate proportions, panel configurations, glazing patterns and hardware arrangements can be replicated precisely. Our design team works with homeowners and, where necessary, conservation officers to ensure full compliance.
+SteelR's bespoke specifications can satisfy all of these requirements. Because every door is designed individually, period-accurate proportions, panel configurations, glazing patterns and hardware arrangements can be replicated precisely. The SteelR design team works with homeowners and, where necessary, conservation officers to ensure full compliance.
 
 For more on how we approach the design and manufacturing process, see [our process](/process).
 

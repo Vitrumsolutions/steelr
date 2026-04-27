@@ -57,7 +57,7 @@ Design limitations of uPVC include:
 
 **Bespoke steel entrance doors** remove these limitations entirely. Every door is designed and manufactured to the exact dimensions, style and specification of the property. The full **RAL colour range** offers over 200 colours, including dual-colour specification where the exterior and interior are finished in different shades. Panel designs, glazing configurations, decorative mouldings and ironmongery are all specified individually.
 
-Whether the property calls for a Georgian six-panel design with a lion knocker and brass fittings, or a contemporary flush panel with concealed hinges and a minimal pull handle, steel accommodates both with equal precision. Browse [our collection](/collection) to see the breadth of what is achievable.
+Whether the property calls for a Georgian six-panel design with a lion knocker and brass fittings, or a contemporary flush panel with concealed hinges and a minimal pull handle, steel accommodates both with equal precision. Browse [the SteelR collection](/collection) to see the breadth of what is achievable.
 
 The visual difference between a uPVC door and a bespoke steel door is immediately apparent from the kerb. One looks like a replacement; the other looks like it belongs to the architecture.
 
@@ -77,7 +77,7 @@ Once a uPVC door begins to deteriorate, repair options are limited. The material
 
 Hardware components — locks, hinges, handles — are specified for longevity and can be serviced or replaced individually. The door itself remains structurally sound for the life of the building.
 
-A bespoke steel door is not a consumable product that requires periodic replacement. It is a permanent architectural element.
+A bespoke SteelR door is not a consumable product that requires periodic replacement. It is a permanent architectural element.
 
 ## Thermal Performance
 
@@ -138,7 +138,7 @@ To explore the options available for your property, [request an estimate](/desig
 
 The decision between uPVC and steel is ultimately a decision about what you expect from your front door. If you expect it to keep the weather out and lock when you leave, uPVC will do that at a low price. If you expect it to protect your family, complement your architecture, last for decades and make a statement about the quality of your home, steel is the material that delivers.
 
-Every door in [our collection](/collection) is manufactured to **SR3 security standards**, **Secured by Design** accredited and **ISO 9001** certified. We offer the full RAL colour range, bespoke sizing and a design process that starts with your property's architecture, not a catalogue. Read our [security overview](/security) for the full technical detail on what makes a steel entrance door the most secure residential option available in the UK.
+Every door in [the SteelR collection](/collection) is manufactured to **SR3 security standards**, **Secured by Design** accredited and **ISO 9001** certified. SteelR offers the full RAL colour range, bespoke sizing and a design process that starts with your property's architecture, not a catalogue. Read our [security overview](/security) for the full technical detail on what makes a steel entrance door the most secure residential option available in the UK.
 
 ## Frequently Asked Questions
 

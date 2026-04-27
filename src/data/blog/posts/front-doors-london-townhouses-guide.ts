@@ -67,7 +67,7 @@ The key to a successful application is demonstrating that the replacement door i
 - **Appropriate colour** — some conservation areas have colour restrictions. Check the conservation area appraisal document for guidance
 - **Hardware consistency** — period-appropriate hardware in suitable finishes strengthens the application
 
-Pre-application advice from the local planning authority is available for a modest fee and provides early clarity on any likely objections. For complex cases, a heritage statement prepared by a conservation specialist can support the application.
+Pre-application advice from the local planning authority is available for a modest fee and provides early clarity on any likely objections. For complex cases, a heritage statement prepared by a conservation specialist can support the application. SteelR routinely supports homeowners through London borough conservation processes by supplying scaled elevation drawings, RAL colour samples and material specifications appropriate to each application.
 
 ## Security Needs for London Properties
 
@@ -77,7 +77,7 @@ London's property security landscape is distinct from the rest of the UK. Higher
 
 Metropolitan Police statistics consistently show that London boroughs experience higher rates of residential burglary than the national average. Prime central London boroughs — Westminster, Kensington and Chelsea, Camden — see particular concentrations, with properties targeted for high-value contents including art, jewellery and luxury goods.
 
-The method of entry matters for specification purposes. Forced entry through the front door remains the most common approach, but London properties also face risks from lock snapping, cylinder manipulation and, in some cases, key theft. **An SR3-rated steel doorset addresses all of these attack vectors** through its tested resistance to physical force, tool-based attack and lock manipulation.
+The method of entry matters for specification purposes. Forced entry through the front door remains the most common approach, but London properties also face risks from lock snapping, cylinder manipulation and, in some cases, key theft. **An SR3-rated steel doorset addresses all of these attack vectors** through its tested resistance to physical force, tool-based attack and lock manipulation. Every SteelR door ships with SR3 as the standard specification, with SR4 (LPS 1175) commercial-grade upgrade available for the highest-risk addresses.
 
 ### Specifying Security for London Townhouses
 
@@ -159,7 +159,7 @@ Before specifying a door replacement:
 
 A bespoke steel entrance door for a London townhouse should deliver on every dimension simultaneously: architectural authenticity, conservation area compliance, SR3 security performance, thermal efficiency exceeding Building Regulations, and the material durability to withstand decades of urban use without deterioration.
 
-Manufactured under **ISO 9001** quality management and finished in any RAL colour, a steel door achieves this standard while offering the design freedom to respect Georgian, Victorian, Edwardian or contemporary architecture with equal conviction. The result is an entrance that serves the property, the street and the homeowner for generations.
+Every SteelR doorset is manufactured under **ISO 9001** quality management and finished in any RAL colour, achieving this standard while offering the design freedom to respect Georgian, Victorian, Edwardian or contemporary architecture with equal conviction. The result is an entrance that serves the property, the street and the homeowner for generations.
 
 ## Frequently Asked Questions
 

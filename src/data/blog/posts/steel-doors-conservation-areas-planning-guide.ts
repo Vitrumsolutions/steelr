@@ -109,7 +109,7 @@ Particular attention should be paid to:
 
 Colour plays a critical role in conservation area compliance. Many authorities publish recommended colour palettes, and some specify acceptable colours for doors and windows explicitly.
 
-Common heritage-appropriate colours include deep greens, navy blues, dark reds, black, cream and earthy tones. Browse the full range of options on our [RAL colours](/colours) page — the **full RAL colour range** allows precise specification to match any conservation officer's requirements or any heritage colour reference.
+Common heritage-appropriate colours include deep greens, navy blues, dark reds, black, cream and earthy tones. Browse the full range of options on the SteelR [RAL colours](/colours) page — the **full RAL colour range** allows precise specification to match any conservation officer's requirements or any heritage colour reference.
 
 **Dual-colour finishing** is particularly useful in conservation areas. The exterior face can be specified in a heritage-appropriate colour to satisfy planning requirements, while the interior face uses a colour that works with your internal decoration scheme.
 
@@ -125,7 +125,7 @@ Glazing patterns should be appropriate to the period and style of the property:
 - **Geometric and Art Deco patterns** — interwar properties
 - **Obscured glass** — appropriate where privacy is needed, provided the texture is sympathetic
 
-All glazing in our doors uses **toughened or laminated safety glass** as standard, meeting Building Regulations Part K while maintaining period-appropriate appearance.
+All glazing in SteelR doors uses **toughened or laminated safety glass** as standard, meeting Building Regulations Part K while maintaining period-appropriate appearance.
 
 ### Hardware and Ironmongery
 
@@ -194,9 +194,9 @@ Processing time for a householder planning application is typically **8 weeks**,
 
 ## Combining Heritage Aesthetics with Modern Performance
 
-The fundamental advantage of specifying a bespoke steel entrance door for a conservation area property is that no compromise is required between heritage appearance and modern performance.
+The fundamental advantage of specifying a bespoke SteelR entrance door for a conservation area property is that no compromise is required between heritage appearance and modern performance.
 
-[Our collection](/collection) includes designs appropriate for every major architectural period found in UK conservation areas, from Georgian restraint to Edwardian elaboration. Each is manufactured to **SR3 security certification**, meets **Secured by Design** standards and is built to **ISO 9001** quality management processes.
+[The SteelR collection](/collection) includes designs appropriate for every major architectural period found in UK conservation areas, from Georgian restraint to Edwardian elaboration. Each is manufactured to **SR3 security certification**, meets **Secured by Design** standards and is built to **ISO 9001** quality management processes.
 
 Through [our process](/process), every door is designed around the specific requirements of the property and the planning context — ensuring that the final product satisfies conservation officers, meets Building Regulations and delivers the security, thermal performance and longevity that a quality property deserves.
 

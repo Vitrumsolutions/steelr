@@ -54,15 +54,15 @@ Surrey has a significant number of **conservation areas** where external alterat
 - **Haslemere** — the High Street and surrounding residential streets
 - **Reigate** — the Old Town and Priory Park area
 
-In conservation areas, the **material and design of replacement doors** are subject to scrutiny. The advantage of bespoke steel is that each door is designed specifically for the property and can be manufactured to meet conservation officer requirements — whether that means replicating an original panel configuration, matching a specific paint colour or incorporating glazing patterns consistent with the property's period.
+In conservation areas, the **material and design of replacement doors** are subject to scrutiny. The advantage of a bespoke SteelR specification is that each door is designed specifically for the property and can be manufactured to meet conservation officer requirements — whether that means replicating an original panel configuration, matching a specific paint colour or incorporating glazing patterns consistent with the property's period.
 
-We work with homeowners throughout [our process](/process) to ensure that conservation area requirements are addressed at the design stage, not discovered at installation.
+SteelR works with homeowners throughout [our process](/process) to ensure that conservation area requirements are addressed at the design stage, not discovered at installation.
 
 Steel entrance doors have been approved for installation in conservation areas across Surrey, provided the design respects the architectural context of the property and the streetscape.
 
 ## Popular Door Styles in Surrey
 
-Based on our experience manufacturing and installing steel entrance doors for Surrey properties, certain styles and specifications appear consistently across the county.
+Based on SteelR's experience manufacturing and installing steel entrance doors for Surrey properties, certain styles and specifications appear consistently across the county.
 
 ### Traditional Six-Panel with Period Hardware
 
@@ -106,7 +106,7 @@ Installing a bespoke steel entrance door in Surrey involves practical considerat
 
 The common thread among our Surrey clients is a refusal to compromise. These are homeowners who specify Gaggenau kitchens, Lefroy Brooks bathrooms and bespoke joinery throughout their properties. The entrance door is held to the same standard.
 
-A mass-produced composite or uPVC door, regardless of its claims, cannot match the security, design precision or longevity of a **bespoke steel entrance door** manufactured to the exact dimensions, style and specification of the property. Every door we produce is **ISO 9001** certified, engineered to SR3 and finished in the client's chosen RAL colour.
+A mass-produced composite or uPVC door, regardless of its claims, cannot match the security, design precision or longevity of a **bespoke steel entrance door** manufactured to the exact dimensions, style and specification of the property. Every SteelR door is **ISO 9001** certified, engineered to SR3 and finished in the client's chosen RAL colour.
 
 The bespoke process also means that the door is designed in context. We consider the property's architecture, the streetscape, the proportions of the entrance opening and the client's hardware preferences before manufacturing begins. The result is a door that looks as though it has always been part of the building.
 

@@ -29,7 +29,7 @@ Three sections of the Building Regulations directly affect front door specificat
 
 PAS 24 is a baseline. For developments targeting Secured by Design accreditation — increasingly requested by planning authorities and valued by buyers — the door must meet PAS 24 as a minimum, but higher ratings such as **SR3 under BS EN 1627** demonstrate a substantially greater level of security. SR3-rated doors withstand sustained forced attack with heavy-duty tools for over twenty minutes, placing them several categories above the Part Q minimum.
 
-Developers building in [Surrey](/areas/surrey), [Kent](/areas/kent) and [Essex](/areas/essex) are seeing growing demand for Secured by Design specification, particularly on premium residential schemes where buyers expect security performance to match the asking price.
+Developers building in [Surrey](/areas/surrey), [Kent](/areas/kent) and [Essex](/areas/essex) are seeing growing demand for Secured by Design specification, particularly on premium residential schemes where buyers expect security performance to match the asking price. Every SteelR door ships with SR3 as standard, satisfying both the Approved Document Q baseline and the higher security expectations of premium buyers in a single specification.
 
 ### Part L — Energy Efficiency
 
@@ -81,7 +81,7 @@ The three primary materials for new build entrance doors in the UK are steel, co
 
 Steel doors represent the highest specification option. They achieve **SR3 security ratings**, FD30 or FD60 fire ratings and excellent thermal performance in a single product. The design flexibility is unmatched — any RAL colour, dual-colour finishes, bespoke panel designs, decorative glazing and period-appropriate or contemporary hardware.
 
-For premium developments where the asking price reflects quality throughout, steel entrance doors are the appropriate specification. They deliver a statement at the threshold that reinforces the positioning of the entire development.
+For premium developments where the asking price reflects quality throughout, steel entrance doors are the appropriate specification. SteelR's bespoke service is built around this segment — every door is manufactured in the UK to the developer's individual plot specification, with the same SR3 security and FD30S fire rating across the scheme.
 
 ### Composite Doors
 
@@ -121,7 +121,7 @@ For architects specifying steel entrance doors, the key parameters to establish 
 
 Developers should scrutinise the warranty provisions for entrance doors as carefully as they do for any other building component. The relevant questions include the length of the warranty, what it covers (finish, hardware, locking mechanism, core integrity), whether it is transferable to the homebuyer and what the manufacturer's track record is for honouring claims.
 
-**ISO 9001 certified** manufacturers operate under documented quality management systems that provide traceability from raw materials through to the finished installation. This certification is not a marketing badge — it means that every door produced is subject to consistent quality controls and that the manufacturing process is regularly audited by an independent body.
+**ISO 9001 certified** manufacturers operate under documented quality management systems that provide traceability from raw materials through to the finished installation. This certification is not a marketing badge — it means that every door produced is subject to consistent quality controls and that the manufacturing process is regularly audited by an independent body. SteelR's UK manufacturing facility operates under ISO 9001, with every doorset traceable from raw steel through to the installed product.
 
 For developers, specifying from an ISO 9001 manufacturer provides an additional layer of protection against defect claims and demonstrates due diligence in the supply chain.
 

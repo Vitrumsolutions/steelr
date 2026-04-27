@@ -31,7 +31,7 @@ A bespoke steel door is ideally suited to oast house conversions precisely becau
 
 The **Wealden hall house** is the defining medieval building type of the Kent Weald. These timber-framed structures, with their distinctive recessed centre bay and jettied upper floors, date from the fourteenth to sixteenth centuries and are found throughout the countryside between Sevenoaks and Ashford. Many are Grade I or Grade II listed.
 
-Entrance doors for Wealden houses must respect the scale, materials and proportions of the original building. Heavy oak plank doors with wrought iron furniture are the traditional specification. A bespoke steel door can be designed to replicate this appearance precisely — with the visual weight, proportional authenticity and ironmongery detail of a traditional oak door — whilst providing **SR3 security certification** and thermal performance that a medieval timber door cannot approach.
+Entrance doors for Wealden houses must respect the scale, materials and proportions of the original building. Heavy oak plank doors with wrought iron furniture are the traditional specification. A bespoke SteelR doorset can be designed to replicate this appearance precisely — with the visual weight, proportional authenticity and ironmongery detail of a traditional oak door — whilst providing **SR3 security certification** and thermal performance that a medieval timber door cannot approach.
 
 ### Georgian Townhouses
 
@@ -51,7 +51,7 @@ The suburban expansion of Kent's commuter towns — particularly [Sevenoaks](/ar
 
 ## Popular Door Styles for Kent Homes
 
-Our installations across Kent reflect the county's architectural diversity. The following styles represent the most frequently specified designs.
+SteelR installations across Kent reflect the county's architectural diversity. The following styles represent the most frequently specified designs.
 
 ### Heritage Panelled in Period Colours
 
@@ -134,9 +134,9 @@ Coastal properties often receive unobstructed sunlight for extended periods. Hig
 
 For coastal Kent properties, we recommend periodic cleaning with fresh water to remove salt deposits, particularly after winter storms. Beyond this simple maintenance, a powder-coated steel door requires no cyclical painting, sealing or treatment.
 
-## Our Kent Service Area
+## The SteelR Kent Service Area
 
-We provide a complete design, manufacture and installation service across the whole of Kent. Our most active areas include:
+SteelR provides a complete design, manufacture and installation service across the whole of Kent. The most active areas include:
 
 - [Sevenoaks](/areas/sevenoaks) — period properties and executive homes throughout the town and surrounding villages
 - [Tunbridge Wells](/areas/tunbridge-wells) — Georgian townhouses, Victorian villas and contemporary developments

@@ -65,7 +65,7 @@ Standard composite front doors carry PAS 24 as a marketing line. PAS 24 tests ag
 
 Luxury front doors are tested to **SR3** or higher. SR3 is BS EN 1627 Class 3: resistance to a determined attacker using tools including bolt cutters, hammers, drills and crowbars for a sustained period. SR3 is required by premium UK home insurers and by Secured by Design police-approved specifications.
 
-**[SR4 (LPS 1175 Issue 8 Level 4)](/blog/sr4-lps-1175-commercial-grade-residential)** is the commercial-grade rating used on data centres, bank vaults and critical infrastructure. A small number of UK residential manufacturers now offer SR4 as an upgrade for homes in high-risk postcodes, for jewellery-holding private clients, or for properties with recent burglary history. If your door supplier cannot explain the difference between PAS 24 and SR3, they are not selling in the luxury tier.
+**[SR4 (LPS 1175 Issue 8 Level 4)](/blog/sr4-lps-1175-commercial-grade-residential)** is the commercial-grade rating used on data centres, bank vaults and critical infrastructure. A small number of UK residential manufacturers, SteelR among them, now offer SR4 as an upgrade for homes in high-risk postcodes, for jewellery-holding private clients, or for properties with recent burglary history. If your door supplier cannot explain the difference between PAS 24 and SR3, they are not selling in the luxury tier.
 
 ### Hardware (the visible luxury signal)
 
@@ -153,7 +153,7 @@ Any supplier quoting a fixed price without seeing the property is not specifying
 
 **Trusting the sample photo.** Manufacturers' gallery images are typically of the best possible install in the best possible light. Ask to see installed work photographs from the past 12 months, and if possible to visit one in person.
 
-**Using a generalist installer.** A bespoke steel entrance door weighs 120 to 180 kg. Fitting it requires steel lintels, level reveals and specialist lifting. A general construction team is the wrong fit. So is a local window installer.
+**Using a generalist installer.** A bespoke steel entrance door weighs 120 to 180 kg. Fitting it requires steel lintels, level reveals and specialist lifting. A general construction team is the wrong fit. So is a local window installer. SteelR doors are installed only by the in-house team that manufactured them, never subcontracted.
 
 ## Frequently Asked Questions
 

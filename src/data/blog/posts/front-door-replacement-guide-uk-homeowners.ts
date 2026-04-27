@@ -43,7 +43,7 @@ Replacing a front door in England and Wales is subject to **Building Regulations
 
 Since 2015, Approved Document Q has required all replacement doors in dwellings to meet **PAS 24** or an equivalent security standard. This applies to the complete doorset — leaf, frame, hardware and locking mechanism tested as an integrated unit. A door that achieves PAS 24 is considered to satisfy the regulatory requirement, though homeowners seeking genuine security should look well beyond this minimum threshold.
 
-Our steel entrance doors are tested to **SR3 under BS EN 1627:2011** and carry **Secured by Design** accreditation, exceeding Building Regulations requirements by a significant margin.
+Every SteelR entrance door is tested to **SR3 under BS EN 1627:2011** and carries **Secured by Design** accreditation, exceeding Building Regulations requirements by a significant margin.
 
 ### Approved Document L — Thermal Performance
 
@@ -95,7 +95,7 @@ Premium aluminium doors offer clean contemporary aesthetics and strong security 
 
 ### Steel
 
-**Bespoke steel entrance doors** occupy the top tier. Steel achieves the highest security ratings available for residential use — **SR3 under BS EN 1627:2011** — while offering exceptional longevity, dimensional stability and design flexibility. A properly specified steel door will outlast every other material on this list. Explore the full range in [our collection](/collection).
+**Bespoke steel entrance doors** occupy the top tier. Steel achieves the highest security ratings available for residential use — **SR3 under BS EN 1627:2011** — while offering exceptional longevity, dimensional stability and design flexibility. A properly specified steel door will outlast every other material on this list. Explore the full range in [the SteelR collection](/collection).
 
 ## The Survey and Measurement Process
 
@@ -189,7 +189,7 @@ Apply a light graphite lubricant to the locking cylinder once or twice a year. O
 
 ### Long-Term Performance
 
-A properly manufactured and installed steel entrance door, built under **ISO 9001** quality management, will provide decades of reliable service with minimal intervention. Unlike timber, steel does not warp, rot or require cyclical repainting. Unlike composite, it does not chalk, crack or degrade under UV exposure.
+A properly manufactured and installed steel entrance door, built under **ISO 9001** quality management as every SteelR doorset is, will provide decades of reliable service with minimal intervention. Unlike timber, steel does not warp, rot or require cyclical repainting. Unlike composite, it does not chalk, crack or degrade under UV exposure.
 
 ## Frequently Asked Questions
 

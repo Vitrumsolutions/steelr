@@ -49,7 +49,7 @@ This design demands the dimensional stability that only steel and aluminium can 
 
 The era of playing it safe with black or white front doors is giving way to a more confident approach. **Statement colours** — bold ochres, rich terracottas, deep teals, forest greens and warm burgundies — are being used to create focal points on otherwise restrained facades. The front door becomes the accent colour in an architectural composition.
 
-Steel doors are finished with powder coating, which means the **full RAL colour range** — over 200 standard colours — is available without compromise. Explore the possibilities in our [colour options](/colours) to find the precise shade that transforms your entrance. Statement colours work best against neutral facades: pale render, natural stone, grey brick or whitewashed surfaces.
+SteelR doors are finished with powder coating, which means the **full RAL colour range** — over 200 standard colours — is available without compromise. Explore the possibilities in our [colour options](/colours) to find the precise shade that transforms your entrance. Statement colours work best against neutral facades: pale render, natural stone, grey brick or whitewashed surfaces.
 
 Statement colours on entrance doors are the 2026 equivalent of an accent wall — used with precision to create a focal point rather than applied indiscriminately.
 
@@ -103,7 +103,7 @@ The twelve trends outlined above are not mutually exclusive. The most compelling
 
 The starting point is always the architecture of the property. A design that works brilliantly on a contemporary new build in [Manchester](/areas/manchester) may be entirely wrong for a Georgian townhouse in [London](/areas/london). The role of the designer is to read the building and specify accordingly.
 
-To explore how these ideas might work for your property, [request an estimate](/design-estimate) and we will develop a design concept tailored to your architecture and preferences. Every door in [our collection](/collection) is built to order under **ISO 9001** quality management, with **SR3 security certification** and the full RAL colour range available as standard.
+To explore how these ideas might work for your property, [request an estimate](/design-estimate) and the SteelR design team will develop a concept tailored to your architecture and preferences. Every door in [our collection](/collection) is built to order under **ISO 9001** quality management, with **SR3 security certification** and the full RAL colour range available as standard.
 
 ## Frequently Asked Questions
 
@@ -113,7 +113,7 @@ Horizontal ribbed panel designs are the most requested contemporary style, follo
 
 ### Can a modern front door still be secure?
 
-Modern design and high security are not in conflict. A flush-face steel door with concealed hinges achieves **SR3 certification** — the highest residential security rating — while presenting the cleanest possible aesthetic. Concealed hinges actually enhance security by eliminating exposed hardware. The design language is modern; the protection is uncompromising.
+Modern design and high security are not in conflict. A flush-face SteelR door with concealed hinges achieves **SR3 certification** — the highest residential security rating — while presenting the cleanest possible aesthetic. Concealed hinges actually enhance security by eliminating exposed hardware. The design language is modern; the protection is uncompromising.
 
 ### How do I choose the right colour for a modern front door?
 

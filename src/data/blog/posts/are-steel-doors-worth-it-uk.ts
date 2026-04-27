@@ -29,7 +29,7 @@ A steel door installed today will still be functioning correctly when a composit
 
 ## Security: SR3 Rating vs Everything Else
 
-Security is where steel creates the widest gap between itself and competing materials. Our doors are tested and certified to **SR3 under BS EN 1627:2011** — the highest practical security rating for residential entrance doors in the UK.
+Security is where steel creates the widest gap between itself and competing materials. Every SteelR door is tested and certified to **SR3 under BS EN 1627:2011** — the highest practical security rating for residential entrance doors in the UK.
 
 ### What SR3 Actually Means
 
@@ -45,7 +45,7 @@ For properties in higher-risk areas, or simply for homeowners who value genuine 
 
 ### Secured by Design Approval
 
-Our doors carry **Secured by Design** accreditation — the official UK police security initiative. This is not a self-declaration. It requires independent verification that the doorset meets police-preferred security standards. Secured by Design approval is increasingly requested by insurers and is a requirement for certain new build developments.
+SteelR doors carry **Secured by Design** accreditation — the official UK police security initiative. This is not a self-declaration. It requires independent verification that the doorset meets police-preferred security standards. Secured by Design approval is increasingly requested by insurers and is a requirement for certain new build developments.
 
 ## Maintenance: Virtually Zero
 
@@ -186,7 +186,7 @@ For everyone else — homeowners who value security, durability, zero maintenanc
 
 ## Making the Decision
 
-If you are considering a steel entrance door, the best next step is a conversation. We offer **free consultations** with no obligation — we will discuss your property, your requirements and your budget honestly. Use our [design and estimate tool](/design-estimate) to start the process, browse our [collection](/collection) for design inspiration, or call us directly on 0800 861 1450.
+If you are considering a steel entrance door, the best next step is a conversation. SteelR offers **free consultations** with no obligation — we will discuss your property, your requirements and your budget honestly. Use our [design and estimate tool](/design-estimate) to start the process, browse our [collection](/collection) for design inspiration, or call us directly on 0800 861 1450.
 
 ## Frequently Asked Questions
 

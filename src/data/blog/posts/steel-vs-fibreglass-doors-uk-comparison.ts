@@ -35,7 +35,7 @@ Security is not a matter of opinion. It is tested, graded and certified under re
 
 A properly engineered steel entrance door achieves **SR3 under BS EN 1627:2011** — the highest residential security rating available. SR3 testing subjects the door to sustained attack with heavy-duty tools including crowbars, drills, chisels and angle grinders for a minimum of twenty minutes. The test simulates a determined, equipped intruder with time and intent.
 
-Steel doors achieve this rating because the material itself resists cutting, drilling and levering. Combined with multi-point locking systems, anti-drill cylinders and reinforced strike plates, a steel door is a genuinely formidable barrier. For a detailed breakdown of security certifications, see our [security overview](/security).
+Steel doors achieve this rating because the material itself resists cutting, drilling and levering. Combined with multi-point locking systems, anti-drill cylinders and reinforced strike plates, a steel door is a genuinely formidable barrier. Every SteelR door ships with SR3 as the standard specification, not as an upgrade. For a detailed breakdown of security certifications, see our [security overview](/security).
 
 ### Fibreglass Doors
 
@@ -69,7 +69,7 @@ For homeowners and architects who care about the entrance making a specific desi
 
 Because steel doors are fabricated rather than moulded, the design possibilities are effectively unlimited. You can specify **any RAL colour** from the full range of over 200 options. Dual-colour finishes — a different colour inside and outside — are standard. Panel configurations, glazing positions, decorative ironmongery, handle styles and knocker designs are all specified to the individual order.
 
-There are no standard sizes. Each door is manufactured to the precise dimensions of your opening, whether that is a standard single leaf, a double door, a door with sidelights or an arched configuration. Explore [our collection](/collection) to see the breadth of design that bespoke steel manufacturing makes possible.
+There are no standard sizes. Each door is manufactured to the precise dimensions of your opening, whether that is a standard single leaf, a double door, a door with sidelights or an arched configuration. Explore [the SteelR collection](/collection) to see the breadth of design that bespoke steel manufacturing makes possible.
 
 ### Fibreglass
 
@@ -115,7 +115,7 @@ A quality fibreglass entrance door from a reputable UK manufacturer typically co
 
 ### Steel
 
-Bespoke steel entrance doors are a premium product. Prices start higher than fibreglass, reflecting the **SR3 security rating, ISO 9001 certified manufacturing, bespoke design process** and professional structural installation. For homeowners in [London](/areas/london), [Surrey](/areas/surrey) and [Hampshire](/areas/hampshire) who view the entrance door as a long-term investment in security and design, the price reflects the specification.
+Bespoke steel entrance doors are a premium product. SteelR's pricing starts higher than fibreglass, reflecting the **SR3 security rating, ISO 9001 certified UK manufacturing, bespoke design process** and professional structural installation. For homeowners in [London](/areas/london), [Surrey](/areas/surrey) and [Hampshire](/areas/hampshire) who view the entrance door as a long-term investment in security and design, the price reflects the specification.
 
 When comparing cost, the lifecycle perspective is important. A steel door lasting 40 to 50 years may cost less per year of service than a fibreglass door replaced every 20 years. The security and design advantages accrue throughout the life of the product.
 

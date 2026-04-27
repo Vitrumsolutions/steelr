@@ -69,7 +69,7 @@ Replacing this multipoint system with a consumer smart lock would be both imprac
 
 The compatible approach is a **smart cylinder** or **smart handle** that replaces the Euro profile cylinder or the handle mechanism within the existing multipoint lock case. When the smart cylinder or handle is activated — via keypad, fingerprint, Bluetooth or Wi-Fi — it turns the multipoint mechanism in exactly the same way a physical key would. All locking points engage and disengage as designed.
 
-This preserves the full **SR3 security integrity** of the door while adding smart access functionality. Read our [security overview](/security) for full detail on how multipoint locking achieves SR3.
+This preserves the full **SR3 security integrity** of the door while adding smart access functionality. Every SteelR doorset is engineered around this principle, with the multipoint lock case sized to accept compatible smart cylinders without modification. Read our [security overview](/security) for full detail on how multipoint locking achieves SR3.
 
 ## Security Ratings for Smart Locks
 
@@ -93,7 +93,7 @@ For a steel entrance door rated to SR3, the smart cylinder should achieve a mini
 
 For the smart lock to maintain the door's **Secured by Design** accreditation, it must be listed as a compatible component within the Secured by Design scheme. Not all smart locks qualify, and installing a non-compliant lock on a Secured by Design door technically voids the accreditation for the locking element.
 
-We advise all clients to confirm Secured by Design compatibility before selecting a smart lock, and we can specify compatible smart cylinders as part of [our process](/process).
+SteelR advises all clients to confirm Secured by Design compatibility before selecting a smart lock, and we can specify compatible smart cylinders as part of [our process](/process).
 
 A smart lock is only as secure as its weakest authentication method. If the lock offers both fingerprint and a simple four-digit code, the security level is determined by the code, not the fingerprint.
 
@@ -152,7 +152,7 @@ Based on our experience and compatibility testing, the approaches that work reli
 
 **Standalone smart deadbolts** are generally not compatible with steel entrance doors that use multipoint locking and should be avoided. They are designed for timber doors with single-point locking and cannot operate a multipoint mechanism.
 
-We can specify and pre-install compatible smart lock hardware as part of the door manufacturing process, ensuring perfect fitment and maintained security ratings. Discuss your smart home requirements when you [request an estimate](/design-estimate), and we will recommend the right approach for your setup.
+SteelR can specify and pre-install compatible smart lock hardware as part of the door manufacturing process, ensuring perfect fitment and maintained security ratings. Discuss your smart home requirements when you [request an estimate](/design-estimate), and we will recommend the right approach for your setup.
 
 ## What to Avoid
 

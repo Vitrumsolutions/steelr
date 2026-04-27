@@ -21,7 +21,7 @@ But they are not interchangeable. Steel and aluminium have fundamentally differe
 
 This is the area where the difference between steel and aluminium is most significant.
 
-**Steel entrance doors** can achieve **SR3 security ratings** under BS EN 1627:2011 — the highest resistance class commercially available for residential doors. SR3 testing subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders. The inherent strength of steel makes it possible to achieve this level of resistance without excessive thickness or weight.
+**Steel entrance doors** can achieve **SR3 security ratings** under BS EN 1627:2011 — the highest resistance class commercially available for residential doors. SR3 testing subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders. The inherent strength of steel makes it possible to achieve this level of resistance without excessive thickness or weight. Every SteelR door ships with SR3 as standard.
 
 **Aluminium doors** are typically tested to **PAS 24** or, at best, **SR2 (RC2)**. Aluminium is a softer, less dense metal than steel, which means it deforms more easily under concentrated force. Achieving SR3 with aluminium requires significantly thicker profiles and additional reinforcement, which most residential aluminium door manufacturers do not offer.
 

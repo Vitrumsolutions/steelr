@@ -56,7 +56,7 @@ The door leaf itself must resist cutting, drilling and sustained impact. The hie
 - **Aluminium** — strong, but softer metal limits top-end performance
 - **Steel** — strongest residential door material available
 
-Steel is the only residential door material capable of achieving **SR3 security certification** under BS EN 1627:2011. This rating requires the door to withstand sustained attack using professional-grade tools — including crowbars, drills and angle grinders — for a minimum of five minutes. For a comprehensive breakdown, see our [security overview](/security).
+Steel is the only residential door material capable of achieving **SR3 security certification** under BS EN 1627:2011. This rating requires the door to withstand sustained attack using professional-grade tools — including crowbars, drills and angle grinders — for a minimum of five minutes. Every SteelR door is built to this standard. For a comprehensive breakdown, see our [security overview](/security).
 
 ### Multi-Point Locking Systems
 
@@ -110,7 +110,7 @@ SR4 and SR5 involve power tools and extended attack durations of 10 and 15 minut
 
 The scheme was established in 1989 and works with manufacturers to ensure products meet minimum security standards. For entrance doors, SBD accreditation typically requires PAS 24 certification at minimum, though many SBD-listed products exceed this baseline significantly.
 
-Secured by Design accreditation is recognised by insurers, police forces and local planning authorities across the UK. Specifying an SBD-accredited door can positively influence both insurance premiums and planning decisions. Our doors carry Secured by Design accreditation alongside SR3 certification — browse [our collection](/collection) to see the full range.
+Secured by Design accreditation is recognised by insurers, police forces and local planning authorities across the UK. Specifying an SBD-accredited door can positively influence both insurance premiums and planning decisions. SteelR doors carry Secured by Design accreditation alongside SR3 certification as standard — browse [our collection](/collection) to see the full range.
 
 Police forces across England and Wales recommend Secured by Design accredited products as the minimum standard for residential door security.
 
@@ -163,7 +163,7 @@ For high-value properties, crime prevention officers increasingly recommend SR3-
 
 When every component is considered as a system — material strength, frame integrity, locking specification, hinge security and glazing performance — steel is the only material that delivers uncompromised performance across all criteria.
 
-Our doors are manufactured under **ISO 9001** quality management, tested to SR3 under BS EN 1627:2011 and carry Secured by Design accreditation. Every door is built to order with the [full RAL colour range](/collection) available, ensuring that uncompromising security does not require compromise on design.
+SteelR doors are manufactured under **ISO 9001** quality management, tested to SR3 under BS EN 1627:2011 and carry Secured by Design accreditation. Every door is built to order with the [full RAL colour range](/collection) available, ensuring that uncompromising security does not require compromise on design.
 
 A bespoke steel entrance door is the most effective single upgrade for residential security, combining SR3 certification with architectural design quality. For the police-preferred specification standard explained in detail, see our [Secured by Design steel front door](/secured-by-design-steel-front-door) overview.
 

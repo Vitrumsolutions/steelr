@@ -71,7 +71,7 @@ Spring is when many homeowners review their security arrangements. Longer evenin
 
 **The frame** — the most secure door is only as strong as its frame. Timber frames rot, composite frames can warp, and poorly fitted frames create leverage points that a burglar can exploit. Steel frames, integrated as part of a complete doorset, eliminate these vulnerabilities.
 
-**The certification** — does your current door carry any independently verified security certification? PAS 24 is the regulatory minimum for new builds. **SR3 is the highest security rating available for residential doors**, tested to BS EN 1627:2011 against sustained attack with professional tools. Every door in [our collection](/collection) achieves SR3 as standard.
+**The certification** — does your current door carry any independently verified security certification? PAS 24 is the regulatory minimum for new builds. **SR3 is the highest security rating available for residential doors**, tested to BS EN 1627:2011 against sustained attack with professional tools. Every door in [the SteelR collection](/collection) achieves SR3 as standard.
 
 For a complete overview of security ratings and what they mean in practice, see our [security overview](/security) page.
 
@@ -101,7 +101,7 @@ The journey from deciding to upgrade to enjoying a new entrance door follows a c
 
 ### Step 1: Initial Enquiry and Design Discussion
 
-The process begins with a conversation about your property, your priorities and your aesthetic preferences. This can happen by phone, email or through our online form. You will discuss the style of property, any specific design references, security requirements, colour preferences and budget expectations.
+The process begins with a conversation about your property, your priorities and your aesthetic preferences. This can happen by phone, email or through the SteelR online form. You will discuss the style of property, any specific design references, security requirements, colour preferences and budget expectations.
 
 [Request an estimate](/design-estimate) to start this conversation. There is no obligation, and the initial design discussion is an opportunity to understand what is possible.
 
@@ -113,7 +113,7 @@ This survey is essential. Bespoke doors are manufactured to the exact dimensions
 
 ### Step 3: Design Finalisation and Manufacture
 
-With survey data in hand, the design is finalised. You approve the panel configuration, colour (from the **full RAL range**), glazing specification, hardware selection and any special requirements. The door enters manufacture under **ISO 9001** certified quality management.
+With survey data in hand, the design is finalised. You approve the panel configuration, colour (from the **full RAL range**), glazing specification, hardware selection and any special requirements. The door enters manufacture at SteelR's UK facility under **ISO 9001** certified quality management.
 
 Manufacturing time for a bespoke steel entrance door is typically 6 to 10 weeks, depending on complexity. During this period, any preparatory work at the property — structural adjustments, lintel modifications, decorative surround work — can be completed.
 

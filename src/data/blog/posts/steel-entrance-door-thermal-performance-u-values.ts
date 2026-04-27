@@ -33,7 +33,7 @@ For context, a single-glazed window has a U-value of approximately 5.0 W/m2K. A 
 
 For replacement doors in existing dwellings, Part L specifies a maximum U-value of **1.8 W/m2K**. For new-build properties, the whole-dwelling energy calculation typically drives the requirement lower, and most SAP assessors work to a target of **1.4 W/m2K** or better for external doors.
 
-It is worth noting that Part L applies to the **complete doorset** — door leaf, frame, glazing and threshold combined. A door leaf with an excellent U-value can be undermined by a thermally bridging frame or an uninsulated threshold. The tested U-value must reflect the installed assembly. Our [process](/process) ensures that every component is specified to work as a thermal system, not a collection of individual parts.
+It is worth noting that Part L applies to the **complete doorset** — door leaf, frame, glazing and threshold combined. A door leaf with an excellent U-value can be undermined by a thermally bridging frame or an uninsulated threshold. The tested U-value must reflect the installed assembly. The SteelR [process](/process) ensures that every component is specified to work as a thermal system, not a collection of individual parts.
 
 Scotland, Wales and Northern Ireland have their own equivalent regulations, but the principles and target values are broadly similar. The direction of travel across all UK jurisdictions is towards lower U-values and higher thermal performance.
 
@@ -83,7 +83,7 @@ Aluminium, like steel, is a high-conductivity metal that requires thermal breaks
 
 ### Steel Doors (Thermally Broken): 0.9–1.4 W/m2K
 
-A well-engineered, thermally broken steel entrance door with a polyurethane core achieves U-values between **0.9 and 1.4 W/m2K** — comfortably exceeding Building Regulations Part L and competitive with the best-performing composite doors. The advantage of steel is that this thermal performance is delivered alongside **SR3 security certification**, fire resistance and structural longevity that no other material can match.
+A well-engineered, thermally broken steel entrance door with a polyurethane core achieves U-values between **0.9 and 1.4 W/m2K** — comfortably exceeding Building Regulations Part L and competitive with the best-performing composite doors. SteelR doors sit consistently in this range as standard, with the thermal break and core specification fixed across the product line. The advantage of steel is that this thermal performance is delivered alongside **SR3 security certification**, fire resistance and structural longevity that no other material can match.
 
 Steel doors achieve their best U-values because the deep frame sections (necessary for structural strength) allow for wider thermal breaks and thicker insulation than slimmer aluminium profiles can accommodate. The engineering requirement for security creates an inherent thermal benefit.
 
@@ -107,7 +107,7 @@ While U-values measure steady-state heat loss, the **overall energy impact** of 
 
 For SAP calculations on new builds, the entrance door U-value is entered into the energy model alongside all other building elements. A door achieving 1.0 W/m2K versus the Part L maximum of 1.8 W/m2K contributes measurably to the overall dwelling emission rate and can provide headroom for less efficient elements elsewhere in the design.
 
-Architects and specifiers working on projects in [our collection](/collection) appreciate that a high-performance entrance door simplifies compliance with increasingly stringent energy targets. For detailed specifications, refer to our [security specification](/security-specification) documentation, which includes thermal performance data alongside security ratings.
+Architects and specifiers working with SteelR appreciate that a high-performance entrance door simplifies compliance with increasingly stringent energy targets. Browse [our collection](/collection) and refer to our [security specification](/security-specification) documentation, which includes thermal performance data alongside security ratings.
 
 ## Specifying for Thermal Performance
 

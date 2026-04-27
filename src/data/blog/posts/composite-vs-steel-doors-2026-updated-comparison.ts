@@ -51,7 +51,7 @@ Despite improvements, **composite doors cannot achieve SR3 security ratings**. T
 
 For a detailed breakdown of security ratings, see our [security overview](/security).
 
-This is not a marginal difference. It is a fundamentally different category of protection. Every door in [our collection](/collection) achieves SR3 certification as standard, providing the highest level of physical security commercially available for residential entrance doors.
+This is not a marginal difference. It is a fundamentally different category of protection. Every SteelR door achieves SR3 certification as standard, providing the highest level of physical security commercially available for residential entrance doors. Browse [our collection](/collection) to see how this specification carries across every design.
 
 ### The Customisation Gap
 
@@ -95,7 +95,7 @@ The pricing landscape has shifted. Raw material costs have stabilised after the 
 
 **Composite doors** now range from approximately £900 to £3,000 installed, depending on specification. The mid-range sweet spot sits around £1,500-£2,000 for a PAS 24-certified product with decent hardware and a reasonable colour choice.
 
-**Bespoke steel entrance doors** represent a premium investment. The price reflects SR3 security certification, **ISO 9001** certified manufacturing, complete design freedom, professional survey and installation, and a product that will not need replacing.
+**Bespoke steel entrance doors** represent a premium investment. SteelR's pricing reflects SR3 security certification, **ISO 9001** certified UK manufacturing, complete design freedom, professional survey and installation, and a product that will not need replacing.
 
 The relevant comparison is not the upfront cost alone but the cost per year of ownership. A composite door replaced every 15-20 years represents a recurring expense. A steel door installed once represents a permanent upgrade. Over a 40-year period, the total cost of ownership often favours steel.
 
@@ -130,7 +130,7 @@ For the following situations, steel is not merely preferable — it is the appro
 - **Properties intended for long-term ownership** where the homeowner values permanence over short-term economy
 - **Developments targeting premium buyers** where the entrance door contributes to perceived quality and sale price
 
-To explore what is possible with bespoke steel, browse [our collection](/collection) or [request an estimate](/design-estimate) to discuss your project.
+To explore what is possible with a bespoke SteelR specification, browse [our collection](/collection) or [request an estimate](/design-estimate) to discuss your project.
 
 ## The Verdict for 2026
 

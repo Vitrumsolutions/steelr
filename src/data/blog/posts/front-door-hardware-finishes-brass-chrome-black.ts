@@ -31,7 +31,7 @@ Lever handles remain the most practical choice for everyday use, but full-height
 
 ### Letter Plates
 
-The humble letter plate is often overlooked, yet it occupies a prominent position on most front doors. Proportions matter: a slim, elegantly profiled letter plate enhances the door's design, while a bulky or poorly positioned one undermines it. For properties where post delivery is handled by a secure box, omitting the letter plate entirely creates a cleaner facade. Browse [our collection](/collection) to see how different hardware combinations work in practice.
+The humble letter plate is often overlooked, yet it occupies a prominent position on most front doors. Proportions matter: a slim, elegantly profiled letter plate enhances the door's design, while a bulky or poorly positioned one undermines it. For properties where post delivery is handled by a secure box, omitting the letter plate entirely creates a cleaner facade. Browse [the SteelR collection](/collection) to see how different hardware combinations work in practice.
 
 ### Numerals and Signage
 
@@ -116,7 +116,7 @@ The choice between period and contemporary hardware styles is not simply aesthet
 
 Traditional hardware includes lion head knockers, urn knockers, ring pulls, decorative escutcheons and profiled letter plates. These components carry strong historical associations and are most convincing when specified with attention to period accuracy. A Georgian-style door with Victorian hardware, for example, creates a subtle but noticeable dissonance.
 
-Period hardware is typically available in brass, bronze and black iron finishes. The craftsmanship of the casting and finishing is immediately apparent — weight, sharpness of detail and surface quality all vary enormously between manufacturers. [Request an estimate](/design-estimate) to discuss hardware options with our design team.
+Period hardware is typically available in brass, bronze and black iron finishes. The craftsmanship of the casting and finishing is immediately apparent — weight, sharpness of detail and surface quality all vary enormously between manufacturers. [Request an estimate](/design-estimate) to discuss hardware options with the SteelR design team.
 
 ### Contemporary Hardware
 
@@ -158,7 +158,7 @@ On a door engineered to meet the **SR3 security rating**, hardware must be secur
 
 Anti-snap, anti-pick and anti-bump cylinder locks are standard on **Secured by Design** certified doorsets. The external handle or knob conceals the cylinder and provides no leverage point for attack. Hardware manufacturers who supply security-rated components typically offer them in all standard finishes, so there is no need to compromise on appearance for the sake of security.
 
-Our doors are manufactured under **ISO 9001** quality management, ensuring every hardware installation meets precise tolerance and performance standards.
+Every SteelR door is manufactured under **ISO 9001** quality management, ensuring every hardware installation meets precise tolerance and performance standards.
 
 ## Making Your Selection
 

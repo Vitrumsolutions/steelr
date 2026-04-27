@@ -48,7 +48,7 @@ The Loss Prevention Certification Board (LPCB) issues Security Ratings under the
 - **SR2** — resists determined attack with a wider range of tools over a longer period
 - **SR3** — resists sustained, determined attack with professional tools and methods
 
-An **SR3-rated steel entrance door** represents a level of physical security that exceeds the vast majority of residential requirements. It is the rating most commonly specified for high-value properties, listed buildings containing significant contents, and homes in areas with elevated burglary risk. Our [security specification](/security-specification) details the full testing methodology and performance criteria.
+An **SR3-rated steel entrance door** represents a level of physical security that exceeds the vast majority of residential requirements. It is the rating most commonly specified for high-value properties, listed buildings containing significant contents, and homes in areas with elevated burglary risk. SteelR ships SR3 as the standard specification rather than as an upgrade, with SR4 (LPS 1175) available where insurance underwriters require commercial-grade resistance. Our [security specification](/security-specification) details the full testing methodology and performance criteria.
 
 ### Secured by Design
 
@@ -96,7 +96,7 @@ High-value home insurers routinely require:
 - **Alarm and monitoring systems** — typically NSI Gold or SSAIB-approved, professionally monitored
 - **CCTV coverage** — increasingly standard for properties above certain value thresholds
 
-An SR3-rated, Secured by Design-accredited steel entrance door satisfies and exceeds the door security requirements of virtually every high-value home insurer in the UK market. For properties across [London](/areas/london), [Buckinghamshire](/areas/buckinghamshire) and [Hertfordshire](/areas/hertfordshire), where property values consistently place homes in this category, specifying the right door from the outset avoids the cost and disruption of retrospective upgrades demanded by a surveyor.
+An SR3-rated, Secured by Design-accredited SteelR doorset satisfies and exceeds the door security requirements of virtually every high-value home insurer in the UK market. For properties across [London](/areas/london), [Buckinghamshire](/areas/buckinghamshire) and [Hertfordshire](/areas/hertfordshire), where property values consistently place homes in this category, specifying the right door from the outset avoids the cost and disruption of retrospective upgrades demanded by a surveyor.
 
 ## Making a Claim After a Break-In
 
@@ -140,7 +140,7 @@ The front door is the starting point, not the finish line. But as the most visib
 
 Steel entrance doors occupy a unique position in the insurance conversation. The material is inherently stronger than timber, composite or aluminium. When engineered into a complete doorset and tested to SR3 under LPS 1175, the result is a product that exceeds every residential security requirement any UK insurer currently imposes.
 
-Combined with Secured by Design accreditation and **ISO 9001** quality management certification, a bespoke steel entrance door provides documentation and performance that satisfies even the most demanding high-value home insurer. Explore [our collection](/collection) to see the range of designs available at this security level.
+Combined with Secured by Design accreditation and **ISO 9001** quality management certification, a bespoke SteelR doorset provides documentation and performance that satisfies even the most demanding high-value home insurer. Explore [our collection](/collection) to see the range of designs available at this security level.
 
 The investment in a security-rated door pays returns in three ways: genuine physical protection, favourable insurance terms, and a robust position in the event of a claim. Few home improvements deliver value across all three dimensions simultaneously.
 

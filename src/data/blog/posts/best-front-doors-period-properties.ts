@@ -68,7 +68,7 @@ Many homeowners with period properties face a difficult choice: accept the limit
 
 ## Steel Doors: The Best of Both Worlds
 
-A bespoke steel entrance door resolves this tension. Modern steel door manufacturing allows **any period design to be faithfully reproduced** in steel — with none of the drawbacks of timber and all the benefits of contemporary engineering.
+A bespoke SteelR entrance door resolves this tension. Modern steel door manufacturing allows **any period design to be faithfully reproduced** in steel — with none of the drawbacks of timber and all the benefits of contemporary engineering.
 
 ### Authentic Period Aesthetics
 
@@ -78,7 +78,7 @@ Because steel doors are made to order, there are **no standard sizes**. This is 
 
 ### Security That Timber Cannot Match
 
-An **SR3-rated steel door** provides a level of security that no timber door can approach. While a solid timber door might delay an intruder for a few seconds, an SR3-rated steel door withstands sustained attack with crowbars, drills and angle grinders — tested and certified to **BS EN 1627:2011**.
+An **SR3-rated steel door** provides a level of security that no timber door can approach. While a solid timber door might delay an intruder for a few seconds, an SR3-rated steel door withstands sustained attack with crowbars, drills and angle grinders — tested and certified to **BS EN 1627:2011**. Every SteelR doorset achieves SR3 as the standard specification.
 
 For owners of period properties — which are often perceived as softer targets due to their older construction — this level of security is particularly valuable.
 

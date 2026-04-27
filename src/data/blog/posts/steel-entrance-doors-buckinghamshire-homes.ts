@@ -60,13 +60,13 @@ The county's conservation areas include, among others:
 
 In conservation areas, the local planning authority must be satisfied that any replacement door preserves or enhances the character and appearance of the area. In practice, this means the replacement should be **sympathetic in material appearance, colour and proportional design** to the existing door and the building's period.
 
-A bespoke steel entrance door can be designed to satisfy conservation area requirements whilst delivering SR3 security and modern thermal performance.
+A bespoke SteelR doorset can be designed to satisfy conservation area requirements whilst delivering SR3 security and modern thermal performance.
 
 Steel doors are particularly effective in conservation contexts because they can be finished to replicate the appearance of traditional materials — including timber grain effects — whilst offering performance that traditional materials cannot match. The **full RAL colour range** ensures exact colour matching to existing schemes or heritage palette requirements. Explore the available [colour options](/colours) for your project.
 
 ## Popular Door Designs for Buckinghamshire Homes
 
-Based on our installations across the county, certain designs consistently emerge as the most popular choices for Buckinghamshire properties.
+Based on SteelR installations across the county, certain designs consistently emerge as the most popular choices for Buckinghamshire properties.
 
 ### Heritage Panelled with Ironmongery
 
@@ -106,7 +106,7 @@ Insurers covering high-value Buckinghamshire properties frequently specify minim
 
 ## Local Installation Service
 
-Our service covers the whole of Buckinghamshire, from the southern commuter towns to the northern reaches of the county. The process is consistent regardless of location.
+SteelR's service covers the whole of Buckinghamshire, from the southern commuter towns to the northern reaches of the county. The process is consistent regardless of location.
 
 ### Site Survey
 

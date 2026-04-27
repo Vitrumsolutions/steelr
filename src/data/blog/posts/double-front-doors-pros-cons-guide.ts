@@ -49,7 +49,7 @@ This is the first practical consideration that many homeowners overlook. A doubl
 
 **Threshold condition.** The threshold — the base of the opening — must be level, properly drained and capable of accommodating the wider frame. Steel thresholds with integrated weather bars are standard on bespoke double doors, but the substrate beneath must be structurally sound.
 
-**Frame fixing.** A double door frame is subject to greater lateral forces than a single door frame, particularly from wind loading. The frame must be securely fixed to the surrounding masonry or structural opening with appropriate fixings at specified centres. Our installation team surveys every opening before manufacture to confirm structural adequacy.
+**Frame fixing.** A double door frame is subject to greater lateral forces than a single door frame, particularly from wind loading. The frame must be securely fixed to the surrounding masonry or structural opening with appropriate fixings at specified centres. The SteelR installation team surveys every opening before manufacture to confirm structural adequacy.
 
 **Weight considerations.** A pair of **bespoke steel entrance doors** with full multipoint locking, glazing and decorative panels can weigh in excess of 150kg total. The hinges, frame and threshold must be engineered to carry this load without deflection or binding over the long term.
 
@@ -73,7 +73,7 @@ The junction where the two leaves meet is the critical security detail. In a poo
 
 On a properly engineered steel double door, the meeting stile incorporates an **interlocking rebate** — a stepped profile where one leaf overlaps the other. This prevents the leaves from being levered apart. Combined with the multipoint locking on the active leaf and the flush bolts on the passive leaf, the central meeting point is as secure as any other part of the door.
 
-Every double door we manufacture achieves **SR3 security ratings** across the complete assembly — both leaves, both sets of hardware and the central meeting point. This is independently tested under BS EN 1627:2011 and carries **Secured by Design** accreditation.
+Every SteelR double door achieves **SR3 security ratings** across the complete assembly — both leaves, both sets of hardware and the central meeting point. This is independently tested under BS EN 1627:2011 and carries **Secured by Design** accreditation.
 
 Double doors that do not achieve SR3 as a complete assembly should be treated with caution. Some manufacturers test individual leaves but not the assembled pair, which leaves the central meeting point unverified.
 

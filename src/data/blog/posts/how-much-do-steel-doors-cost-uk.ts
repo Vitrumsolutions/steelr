@@ -112,7 +112,7 @@ If your property requires a fire-rated door — common in flats, HMOs, new build
 
 ### 6. Security Certification Level
 
-All our doors meet [SR3 security certification](/security-specification) as standard, the highest practical rating for residential properties. This is included in the base specification rather than being an optional upgrade. Some manufacturers offer lower-rated doors at lower prices, but security is engineered into the door rather than added to the line item.
+All SteelR doors meet [SR3 security certification](/security-specification) as standard, the highest practical rating for residential properties. This is included in the base specification rather than being an optional upgrade. Some manufacturers offer lower-rated doors at lower prices, but security is engineered into the door rather than added to the line item.
 
 ### 7. Installation Complexity
 
@@ -169,7 +169,7 @@ Installation is a critical part of the investment. A poorly installed door, rega
 
 ### What Professional Installation Includes
 
-Through [our process](/process), installation is handled by our own fitting team — not subcontractors. The installation typically includes:
+Through [our process](/process), installation is handled by SteelR's own fitting team — not subcontractors. The installation typically includes:
 
 - **Pre-installation survey** — precise measurement of the structural opening
 - **Removal and disposal** of the existing door and frame
