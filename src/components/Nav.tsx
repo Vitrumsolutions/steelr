@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 
@@ -18,6 +18,11 @@ const navLinks = [
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Refs for focus management when the mobile menu opens/closes.
+  const hamburgerRef = useRef<HTMLButtonElement>(null);
+  const firstMenuLinkRef = useRef<HTMLAnchorElement>(null);
+  const prevMenuOpenRef = useRef(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -40,12 +45,29 @@ export default function Nav() {
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = "hidden";
+      firstMenuLinkRef.current?.focus();
     } else {
       document.body.style.overflow = "";
+      // Only return focus to the hamburger when transitioning from open to
+      // closed, not on the initial render where menuOpen has always been false.
+      if (prevMenuOpenRef.current) {
+        hamburgerRef.current?.focus();
+      }
     }
+    prevMenuOpenRef.current = menuOpen;
     return () => {
       document.body.style.overflow = "";
     };
+  }, [menuOpen]);
+
+  // Esc-to-close: standard disclosure-pattern keyboard support.
+  useEffect(() => {
+    if (!menuOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setMenuOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, [menuOpen]);
 
   return (
@@ -109,6 +131,7 @@ export default function Nav() {
           <div className="flex items-center gap-6">
             <a
               href="tel:08008611450"
+              aria-label="Call SteelR on 0800 861 1450"
               className="hidden lg:block transition-colors duration-300"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
@@ -127,9 +150,10 @@ export default function Nav() {
             </a>
 
             <button
+              ref={hamburgerRef}
               className="lg:hidden flex flex-col justify-center items-center w-11 h-11 gap-[5px]"
               onClick={() => setMenuOpen(!menuOpen)}
-              aria-label="Toggle menu"
+              aria-label="Menu"
               aria-expanded={menuOpen}
               aria-controls="mobile-menu-overlay"
               // Always clickable so the user can close an open menu, even
@@ -173,6 +197,10 @@ export default function Nav() {
       {/* Mobile overlay */}
       <div
         id="mobile-menu-overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Mobile menu"
+        aria-hidden={!menuOpen}
         className="fixed inset-0 z-40 flex flex-col items-center justify-center transition-opacity duration-500 lg:hidden"
         onClick={() => setMenuOpen(false)}
         style={{
@@ -196,8 +224,10 @@ export default function Nav() {
           {navLinks.map((link, i) => (
             <Link
               key={link.href}
+              ref={i === 0 ? firstMenuLinkRef : undefined}
               href={link.href}
               onClick={() => setMenuOpen(false)}
+              tabIndex={menuOpen ? 0 : -1}
               className="transition-opacity duration-300"
               style={{
                 fontFamily:
@@ -216,6 +246,8 @@ export default function Nav() {
           ))}
           <a
             href="tel:08008611450"
+            aria-label="Call SteelR on 0800 861 1450"
+            tabIndex={menuOpen ? 0 : -1}
             className="mt-12"
             style={{
               fontFamily: "var(--font-body), Montserrat, sans-serif",
