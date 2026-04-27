@@ -388,13 +388,23 @@ export default function CollectionPage() {
                   transition={{ duration: 0.35, ease: "easeOut" }}
                   className="absolute inset-0"
                 >
-                  <Image
+                  {/* Plain <img> not next/image. Same reasoning as the
+                      door detail modal in HeroImageWithZoom: Next.js Image
+                      lazy-load via IntersectionObserver does not fire
+                      reliably on a freshly-mounted, 0x0-collapsed element
+                      inside a just-opened fixed-position container. The
+                      lightbox shows the natural-ratio photo at viewport
+                      scale, so the optimizer's responsive variants give
+                      no meaningful benefit and this layer is also where
+                      the six quota-broken doors would 402 from the
+                      optimizer if we routed them through it. */}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
                     src={filtered[lightbox].src}
                     alt={filtered[lightbox].alt}
-                    fill
-                    quality={80}
-                    className="object-contain"
-                    sizes="90vw"
+                    loading="eager"
+                    decoding="async"
+                    className="absolute inset-0 w-full h-full object-contain"
                   />
                 </motion.div>
               </AnimatePresence>

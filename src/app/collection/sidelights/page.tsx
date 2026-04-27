@@ -432,13 +432,17 @@ export default function SidelightsPage() {
                   transition={{ duration: 0.35, ease: "easeOut" }}
                   className="absolute inset-0"
                 >
-                  <Image
+                  {/* Plain <img> not next/image — matches the fix in the
+                      main collection lightbox. Next.js Image lazy-load
+                      doesn't fire reliably on a 0x0-collapsed element in a
+                      just-mounted fixed-position container. */}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
                     src={sidelightDoors[lightbox].src}
                     alt={sidelightDoors[lightbox].alt}
-                    fill
-                    quality={80}
-                    className="object-contain"
-                    sizes="90vw"
+                    loading="eager"
+                    decoding="async"
+                    className="absolute inset-0 w-full h-full object-contain"
                   />
                 </motion.div>
               </AnimatePresence>
