@@ -24,6 +24,14 @@ export interface Door {
    * the middle or bottom of the photo and "center top" would crop the door
    * out of view. Examples: "center 75%", "center bottom", "center 60%". */
   objectPosition?: string;
+  /** Skip Next.js image optimization for this door's hero on the detail page.
+   * Set true for doors whose optimized derivatives are not cached at the
+   * Vercel edge and are returning 402 from the optimizer (quota exhaustion).
+   * The raw JPG from public/images/gallery/ is served directly. Slightly
+   * larger transfer than an optimized AVIF/WebP, but the door detail page
+   * actually renders. Audit by probing /_next/image at multiple widths;
+   * if w=640 is cache=HIT but larger widths are 402, the door belongs here. */
+  unoptimized?: boolean;
 }
 
 /** Hand-written rich content per door (keyed by slug). Render via the [slug] template's pageContent block. */
@@ -301,6 +309,37 @@ export const doorPageContent: Record<string, DoorPageContent> = {
 };
 
 /**
+ * Per-door flag: skip Next.js image optimization on the detail page.
+ *
+ * Vercel's image optimizer is rejecting fresh transformations (HTTP 402)
+ * because the project's monthly transformation quota is exhausted. Older
+ * doors continue to render because their (image, width, format) variants
+ * were cached at the CDN edge before the quota was hit. The newest doors
+ * never reached the cache and now stay broken until quota resets.
+ *
+ * Doors listed here serve their raw JPG directly via Next.js <Image
+ * unoptimized={true}> on the door detail page. Slightly larger transfer
+ * (~200-300 KB raw vs ~50 KB optimized) but the page actually renders.
+ *
+ * Audit method: HEAD/GET /_next/image?url=...&w=N&q=80 with a browser-style
+ * Accept header. If w=640 returns 200 cache=HIT but w=1080 returns 402,
+ * the door's larger srcset variants aren't cached and the door belongs in
+ * this set. Re-audit and prune entries when Vercel quota resets.
+ */
+export const doorImageUnoptimized: Set<string> = new Set([
+  // Six newest doors. Confirmed via per-width probe on 2026-04-27: only
+  // w=640 cached at the edge; w=750/828/1080/1200/1920/2048/3840 all 402.
+  // Browser srcset on desktop viewports requests w=750+ and finds nothing
+  // serveable, so the detail page hero renders blank.
+  "black-traditional-doctor-knocker-canopy",
+  "black-traditional-doctor-knocker-railings",
+  "navy-traditional-brass-fanlight",
+  "black-panelled-double-fingerprint",
+  "black-traditional-timber-canopy",
+  "black-panelled-grille-sidelights",
+]);
+
+/**
  * Per-door objectPosition overrides for the 3:4 collection card image.
  *
  * The card container in src/app/collection/page.tsx (and sibling pages) is
@@ -464,7 +503,11 @@ function parseDoor(
   // composition needs the card to anchor somewhere other than the top.
   const objectPosition = doorImagePosition[slug];
 
-  return { slug, src, alt, style, colour, features, title, description, pageContent, objectPosition };
+  // Skip Next.js image optimization on the detail page when the door's
+  // optimized derivatives are not cached at the Vercel edge.
+  const unoptimized = doorImageUnoptimized.has(slug) || undefined;
+
+  return { slug, src, alt, style, colour, features, title, description, pageContent, objectPosition, unoptimized };
 }
 
 export const doors: Door[] = [
