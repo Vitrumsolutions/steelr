@@ -51,7 +51,9 @@ export default function CollectionPage() {
       ? galleryImages
       : galleryImages.filter((img) => img.style === activeFilter);
 
-  const openLightbox = (index: number) => setLightbox(index);
+  // openLightbox removed: grid card taps now navigate via router.push
+  // (mobile UX). The lightbox state machinery below is dormant and only
+  // triggers if some future code path explicitly calls setLightbox(i).
   const closeLightbox = () => setLightbox(null);
 
   const navigate = useCallback(

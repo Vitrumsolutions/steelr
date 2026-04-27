@@ -48,7 +48,7 @@ export default function SidelightsPage() {
   const [direction, setDirection] = useState(0);
   const [imageLoaded, setImageLoaded] = useState<Record<string, boolean>>({});
 
-  const openLightbox = (index: number) => setLightbox(index);
+  // openLightbox removed: grid card taps now navigate via router.push.
   const closeLightbox = () => setLightbox(null);
 
   const navigate = useCallback(
