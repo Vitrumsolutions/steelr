@@ -17,6 +17,7 @@ const topicLinks = [
   { href: "/sr3-residential-steel-door", label: "SR3 Residential" },
   { href: "/pas-24-steel-entrance-door", label: "PAS 24 Spec" },
   { href: "/secured-by-design-steel-front-door", label: "Secured by Design" },
+  { href: "/fire-rated-fd30-front-door", label: "FD30 Fire Rated" },
   { href: "/thermally-broken-steel-front-door", label: "Thermal Performance" },
   { href: "/steel-front-door-vs-composite", label: "vs Composite" },
   { href: "/uk-steel-doors-vs-imported", label: "UK vs Imported" },
@@ -53,7 +54,7 @@ export default function Footer() {
 
         {/* Topics column */}
         <div className="flex flex-col items-center mt-10">
-          <h2
+          <h3
             style={{
               fontFamily: "var(--font-body), Montserrat, sans-serif",
               fontWeight: 400,
@@ -65,7 +66,7 @@ export default function Footer() {
             }}
           >
             Topics
-          </h2>
+          </h3>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 max-w-3xl">
             {topicLinks.map((link) => (
               <Link
