@@ -1,43 +1,47 @@
 # STATE — SteelR
 
-**Last updated:** 2026-04-27 (worktree-safe hooks + llms drift fix + blog queue refilled + indexing pushes)
+**Last updated:** 2026-04-27 (PM session, mobile menu queued)
 **Priority:** P0
-**Branch:** `claude/goofy-swanson-679429`
+**Branch:** `main` at `5fdb098`. Worktree branch `claude/goofy-swanson-679429` was the working surface; all 12 commits since `38f713d` shipped direct to main via fast-forward push.
 
 ## Where I left off
 
-Today's session shipped three commits on the worktree branch and four phases of work end-to-end:
+Major shipping day. Twelve commits direct to main since `38f713d`, all production-deployed and verified live on `steelr.co.uk`:
 
-- **`b37389c`** — patched `scripts/install-git-hooks.sh` to use `git rev-parse --git-common-dir` so the brand-guard pre-commit hook installs in worktrees (previously hardcoded `REPO_ROOT/.git/hooks`, which is a file, not a dir, in worktrees). Hook now active locally.
-- **`082421b`** — fixed six pieces of llms drift the 25 Apr Tier A commit missed: 4× "172 dedicated UK area-specific pages" rewritten to "161 town/borough pages plus 16 regional hubs" (177 total), 2× "45 published technical guides" → 40, section header "Full Area Page Listing. 177 Areas Served" rewritten with lead paragraph, added missing `sr4-lps-1175-commercial-grade-residential` URL to `llms-full.txt` Blog Page URLs. Also reconciled CLAUDE.md page-count summary to 40 blogs + 16 hubs explicit. Verified clean by `llms-txt-integrity-checker`: 40/40 blog parity, 177 unique `/areas/*` URLs, zero stale counts, zero SteelR-attributed prices.
-- **`f1b2836`** — refilled the empty publish-blog cron queue with 3 staged posts (24 Apr + 26 Apr cron runs both silently no-op'd; Tue 28 Apr would have been the third). Quality gates: brand-guard PASS, copy-editor caught 2 empty-superlative "robust" mentions in HMO post (fixed inline), fact-check-gate caught 3 issues (lead-time contradiction, broken `/blog/steel-vs-composite-doors` link, "twenty-five to thirty years" service life claim — all fixed inline before commit).
+- AM: worktree-safe `install-git-hooks` (`38f713d`), llms drift fix to 161/16/177/40 (`6841ff3`), blog queue refilled with 3 staged posts (`ceeb4f3`), STATE refresh (`0881f0d`), panel-llms gate + autonomous publish pipeline (`a77b256`), selective llms revert per user pick B (`1d9f5c1`).
+- PM: collection per-door `objectPosition` for tall portraits (`643e157`), `unoptimized` flag on 6 doors hitting Vercel quota (`b99b754`), 4:5 aspect-ratio crop on 6 tall doors + click-to-zoom (`e2a537e`), detail-modal blank-image fix (`559d28a`), grid-lightbox blank-image fix (`aee1c7e`), grid-card tap → detail page (`3df1364`), ESLint unused-ref cleanup for Vercel build (`5fdb098`).
 
-Also pushed 7 priority URLs via IndexNow + Indexing API (Bucks + Cobham priority, plus 5 topic hubs). Tracker now at 309 submitted, 0 in queue. GA4 verified live in production via Playwright (`gtag` present, `_ga`/`_ga_VSZ1XXGY2Z` cookies set on first pageview — 25 Apr trailing-newline fix is holding). Mobile nav fix series verified shipped via DOM inspection.
+Spot-checked production: tap a card → routes to `/collection/[slug]`; click hero on detail page → modal opens with image visible; older 54 doors render unchanged (lion-knocker spot-check passed).
 
 ## Next action
 
-1. **Tue 28 Apr 20:00 UTC: cron auto-publishes Sidelights post.** No manual action — watch for the GitHub Actions run + a github-actions[bot] commit moving staged → posts. `publish-post.mjs` auto-updates `llms.txt` and rebuilds `llms-full.txt` Blog Excerpts section.
-2. **After each cron publish: manually push to Indexing API + IndexNow.** Not yet automated. Run `node scripts/bing/indexnow-submit.mjs https://steelr.co.uk/blog/<slug>`, then re-queue the URL into `vitrums/audit-data/gsc-indexing-tracker-steelr.json` and run `python audit-data/submit_indexing.py 1 --site=steelr`.
-3. **GSC UI push (user-action, ~5 min)** — 7 URLs queued for Search Console Request Indexing: `/areas/buckinghamshire`, `/areas/cobham`, `/steel-front-door-vs-composite`, `/luxury-steel-entrance-door-london`, `/uk-steel-doors-vs-imported`, `/thermally-broken-steel-front-door`, `/fire-rated-fd30-front-door`. Daily UI quota fresh (4 days unused).
-4. **Visibility audit deferred to ~5 May 2026** — running today would just baseline an unchanged surface (3 new blogs not live yet, indexing days behind). Run after at least 2 of the 3 posts have indexed to measure session impact, including Bucks #1→#9 and Cobham #9→unranked recovery signal.
+**Mobile menu fixes (paused mid-brainstorm — user picks approach 1/2/3 to resume.)** Investigated at 375x812 via Claude Preview MCP, three confirmed bugs in `src/components/Nav.tsx`:
+
+1. Second-click bug — overlay + 8 menu items stuck at `opacity:0; translateY(20px)` after close→reopen. Root cause: `transition-all duration-500` confuses when multiple inline-style props change at once. Fix: `transition-all` → `transition-opacity` on overlay (line 173) + menu items (line 193).
+2. Collection menu too high — top edge y=113 (33px below nav). Inner content 690px in 684px space. Fix: item `fontSize` 32→26, `gap` 32→24, `paddingBottom` 32→64.
+3. Tel link too low + invisible — y=783 (29px from bottom), `fontSize:12`, `color: rgba(245,240,232,0.4)`. Fix: `fontSize:16`, color → gold `#c9a96e`, `mt-12`.
+
+Also flagged: 32x32 hamburger (below 44px iOS), no backdrop-tap-close, missing `aria-expanded`. **Approach 1 recommended (~15 min, Nav.tsx only).** Approach 2 adds the a11y/touch fixes. Approach 3 = bug 1 only.
 
 ## Blockers
 
-- 0 GMB reviews still blocking Maps 3-pack — user-managed, do not prescribe process. Reviews SSoT + aggregateRating already shipped (commit `35eb0a9`, 25 Apr); array stays empty until first review lands, then schema lights up automatically.
-- Bing post-migration indexing lag — expected through mid-late May, no action.
+- 0 GMB reviews still blocking Maps 3-pack — user-managed. Reviews SSoT + aggregateRating shipped (`35eb0a9`); array stays empty until first review lands.
+- Bing post-migration indexing lag — expected through mid-late May.
+- `steelr-black-ornate-lion-knocker-sidelights.jpg` off-centre is in source-photo composition (door right-of-centre, more brick on left). 1200x1600 source into 3:4 card = no CSS overflow, so `objectPosition` cannot help. Out of scope for code; needs JPG re-crop.
 
 ## Recent wins (last 14 days)
 
-- 2026-04-27 — Worktree-safe install-git-hooks (`b37389c`) + llms drift fix to 161/16/177/40 (`082421b`) + blog queue refilled with 3 posts staged for 28 Apr/30 Apr/3 May (`f1b2836`) + 7 URLs pushed to IndexNow & Indexing API (HTTP 200 across the board).
-- 2026-04-25 — GA4 live site-wide (`b106d9c`, `c95cfce`); mobile nav unclickable bug fixed across 4 commits (`2ddcd14`/`6a2e07e`/`685d020`/`99037b3`); reviews SSoT + thank-you review CTA (`35eb0a9`); brand-guard pre-commit hook + `/preflight` slash command (`582208e`); Tier A area-count + cost-guide rewrite (`0f53998`); displayed-price scrub across area FAQs + 2 blogs + llms-full (`3732232`/`709ec68`/`bdc99b9`).
-- 2026-04-23 — 18 URLs pushed via Indexing API + IndexNow; `/ai-answers` HTML page shipped; 11 inline body links added across 3 under-linked blog posts; fresh visibility scan via Serper (steel-vs-composite NEW at #5).
+- 2026-04-27 PM — Image fixes shipped: grid-card 4:5 crop on 6 newest doors, grid lightbox + detail-page click-to-zoom modal blank-image fix, tap-card → detail-page routing, per-door `objectPosition` + `unoptimized` overrides. 12 commits to main, 0 regressions on older 54 doors.
+- 2026-04-27 AM — Worktree-safe hooks (`38f713d`), llms drift fix to 161/16/177/40 (`6841ff3`), 3 blog posts staged (`ceeb4f3`), 7 URLs to IndexNow + Indexing API (HTTP 200), panel-llms SHA-gate (`a77b256`).
+- 2026-04-25 — GA4 site-wide live (`b106d9c`/`c95cfce`); mobile nav unclickable bug fixed (`2ddcd14`/`6a2e07e`/`685d020`/`99037b3`); reviews SSoT + thank-you review CTA (`35eb0a9`); brand-guard pre-commit + `/preflight` (`582208e`); area-count + price scrub (`0f53998`/`3732232`/`709ec68`/`bdc99b9`).
+- 2026-04-23 — 18 URLs Indexing API push; `/ai-answers` HTML page; 11 inline links across 3 under-linked blogs; Serper visibility scan (steel-vs-composite NEW at #5).
 
 ## Key files
 
-- `scripts/install-git-hooks.sh` — worktree-safe via `git rev-parse --git-common-dir` (today's `b37389c`).
-- `public/llms.txt` + `public/llms-full.txt` — page counts canonical at 161 areas / 16 hubs / 177 total / 40 blogs. `backfill-llms-full.mjs` rebuilds Blog Excerpts.
-- `src/data/blog/staged/` — 3 posts queued: `steel-front-doors-with-sidelights-uk-buyers-guide.ts` (28 Apr), `hmo-front-door-requirements-uk-landlord-guide.ts` (30 Apr), `steel-front-doors-building-safety-act-2022.ts` (3 May).
-- `scripts/blog/publish-post.mjs` — cron entrypoint; missing IndexNow + Indexing API ping (manual step after each fire).
-- `vitrums/audit-data/gsc-indexing-tracker-steelr.json` — 309 submitted, 0 queued. Re-queue URLs here to trigger recrawls.
-- `scripts/bing/indexnow-submit.mjs` — Bing/Yandex/Seznam/Naver push, used today on 7 priority URLs.
-- `audit-data/visibility-audit.py` — defer next run to ~5 May 2026 once new blogs indexed.
+- `src/components/Nav.tsx` — next-up edit. `transition-all` on lines 173 (overlay) + 193 (menu items) is the second-click bug source.
+- `src/app/collection/page.tsx` + `src/app/collection/sidelights/page.tsx` — grid cards now route to `/collection/[slug]` via `router.push` on tap; lightbox state machinery dormant.
+- `src/components/HeroImageWithZoom.tsx` — detail-page click-to-zoom uses plain `<img loading="eager">` to bypass Next.js IntersectionObserver lazy-load fragility.
+- `src/data/doors.ts` — `Door` type now carries optional `objectPosition`, `unoptimized`, `heroAspectRatio` per-door overrides; lookup maps next to `doorPageContent`.
+- `scripts/checks/llms-panel-check.mjs` — pre-commit gate for llms files (SHA-matched marker required from `/panel-llms-approve`).
+- `public/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg` — needs source-JPG re-crop to centre door visually.
+- `src/data/blog/staged/` — 3 posts queued for Tue 28 Apr / Thu 30 Apr / Sun 3 May cron fires.
