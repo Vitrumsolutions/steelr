@@ -57,7 +57,7 @@ KEYWORDS = [
     "steel doors Surrey",
     "steel doors Kensington",
     "luxury front door London",
-    # Brand (sanity check — we should always own this)
+    # Brand (sanity check - we should always own this)
     "SteelR doors",
 ]
 
@@ -106,13 +106,22 @@ def find_steelr(d: dict) -> dict:
 # ---------------------------------------------------------------------------
 
 
-def latest_prev_snapshot() -> Path | None:
+def latest_prev_snapshot(exclude: Path | None = None) -> Path | None:
+    """Return the latest snapshot file, optionally skipping `exclude`.
+
+    Without `exclude`, returns the chronologically latest file. With it,
+    returns the second-latest if `exclude` is the latest (handy when the
+    tracker is re-run on the same day and `today_path` was just written).
+    Comparison is done by filename to avoid relative/absolute Path mismatches.
+    """
     snapshots = sorted(HISTORY_DIR.glob("*.json"))
+    if exclude is not None:
+        snapshots = [s for s in snapshots if s.name != exclude.name]
     return snapshots[-1] if snapshots else None
 
 
 def format_pos(p: int | None) -> str:
-    return f"#{p}" if p else "—"
+    return f"#{p}" if p else "-"
 
 
 def delta_arrow(now: int | None, before: int | None) -> str:
@@ -146,19 +155,19 @@ def main() -> int:
     snapshot = {"date": today, "results": results}
     today_path.write_text(json.dumps(snapshot, indent=2))
 
-    # Compare to previous
-    prev_path = latest_prev_snapshot()
+    # Compare to previous (excluding today's file if just written)
+    prev_path = latest_prev_snapshot(today_path)
     prev_snap = None
-    if prev_path and prev_path != today_path:
+    if prev_path:
         prev_snap = json.loads(prev_path.read_text())
 
     print()
     print("=" * 70)
-    print(f"STEELR RANK TRACKER — {today}")
+    print(f"STEELR RANK TRACKER - {today}")
     if prev_snap:
         print(f"Compared against: {prev_snap['date']}")
     else:
-        print("First run — no prior snapshot to compare.")
+        print("First run - no prior snapshot to compare.")
     print("=" * 70)
     print()
     print(f"{'Keyword':<40} {'Organic':<10} {'Maps':<8} Delta")
@@ -177,9 +186,9 @@ def main() -> int:
         # Flag actionable drops
         if prev_snap:
             if prev_org and (not org or (org - prev_org) >= DROP_THRESHOLD):
-                actionable_drops.append(f"{kw}: organic {format_pos(prev_org)} → {format_pos(org)}")
+                actionable_drops.append(f"{kw}: organic {format_pos(prev_org)} -> {format_pos(org)}")
             if prev_mp and (not mp or (mp - prev_mp) >= DROP_THRESHOLD):
-                actionable_drops.append(f"{kw}: maps {format_pos(prev_mp)} → {format_pos(mp)}")
+                actionable_drops.append(f"{kw}: maps {format_pos(prev_mp)} -> {format_pos(mp)}")
 
     print()
     if actionable_drops:
@@ -187,13 +196,13 @@ def main() -> int:
         print("ACTIONABLE DROPS (>= 3 positions lost or fell out of top-15)")
         print("=" * 70)
         for d in actionable_drops:
-            print(f"  · {d}")
+            print(f"  - {d}")
         print()
-        print("Review in Google Search Console → Performance.")
+        print("Review in Google Search Console -> Performance.")
         print("Consider: fresh content, updated metadata, internal links.")
         return 2  # non-zero exit to flag in CI
 
-    print("No actionable drops this week. ✓")
+    print("No actionable drops this week.")
     return 0
 
 
