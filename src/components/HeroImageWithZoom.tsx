@@ -119,15 +119,21 @@ export default function HeroImageWithZoom({
             onClick={(e) => e.stopPropagation()}
             className="relative max-w-[95vw] max-h-[95vh] flex items-center justify-center cursor-default"
           >
-            <Image
+            {/* Plain <img> rather than next/image. Two reasons:
+                1. Lazy loading: next/image's IntersectionObserver does not
+                   fire reliably on a freshly-mounted, 0x0-collapsed element
+                   inside a just-opened fixed-position modal. The image
+                   sits with src set but never loads.
+                2. The modal shows the full natural-ratio photo at viewport
+                   scale, so the optimizer's responsive variants give no
+                   meaningful benefit here. The raw JPG is what we want. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={src}
               alt={alt}
-              width={1600}
-              height={2000}
-              quality={90}
-              unoptimized={unoptimized}
+              loading="eager"
+              decoding="async"
               className="max-w-[95vw] max-h-[95vh] w-auto h-auto object-contain rounded-[4px]"
-              sizes="95vw"
             />
           </div>
 
