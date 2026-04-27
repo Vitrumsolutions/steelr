@@ -93,7 +93,7 @@ Choose the highest-leverage option based on current state:
 - **Navigation:** Collection · Areas · About · Process · Blog · Get Estimate · Contact
 - **Phone:** 0800 861 1450
 - **CTA:** "Request a Consultation"
-- **Total static pages:** ~341 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 60 collection items (54 have rich hand-written page content; the rest use auto-generated descriptions), 45 blog posts, 161 area pages, 10 Phase 1D topic pages)
+- **Total static pages:** ~336 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 60 collection items (54 have rich hand-written page content; the rest use auto-generated descriptions), 40 blog posts, 161 area pages, 16 area hubs, 10 Phase 1D topic pages)
 - **Sitemap:** 297 URLs at `/sitemap.xml` (was 286, added 10 Phase 1D topic pages + /sitemap HTML page on 18 Apr 2026)
 - **HTML sitemap:** `/sitemap` (new 18 Apr 2026) — visible page linked from footer, lists every URL on the site
 - **Google Maps embed** on contact page (business name pin, no street address shown)
