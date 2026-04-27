@@ -4,8 +4,14 @@
 
 set -e
 
-REPO_ROOT="$(git rev-parse --show-toplevel)"
-HOOK_FILE="$REPO_ROOT/.git/hooks/pre-commit"
+# Use --git-common-dir so this works inside git worktrees (where .git is a
+# file pointing at the shared gitdir, not a directory). Falls back to the
+# normal location for non-worktree clones.
+GIT_COMMON_DIR="$(git rev-parse --git-common-dir)"
+HOOKS_DIR="$GIT_COMMON_DIR/hooks"
+HOOK_FILE="$HOOKS_DIR/pre-commit"
+
+mkdir -p "$HOOKS_DIR"
 
 cat > "$HOOK_FILE" <<'EOF'
 #!/usr/bin/env bash
