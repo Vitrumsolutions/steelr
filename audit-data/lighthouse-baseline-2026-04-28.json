@@ -1,0 +1,54 @@
+{
+  "date": "2026-04-28",
+  "method": "lighthouse 13.1.0 mobile, simulated throttling",
+  "pages": {
+    "areas-london": {
+      "url": "https://steelr.co.uk/areas/london",
+      "scores": {
+        "perf": 56,
+        "a11y": 96,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcp": "5.0\u00a0s",
+        "cls": "0",
+        "tbt": "1,220\u00a0ms",
+        "fcp": "1.9\u00a0s",
+        "si": "3.0\u00a0s"
+      }
+    },
+    "blog": {
+      "url": "https://steelr.co.uk/blog",
+      "scores": {
+        "perf": 65,
+        "a11y": 100,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcp": "4.7\u00a0s",
+        "cls": "0",
+        "tbt": "700\u00a0ms",
+        "fcp": "1.1\u00a0s",
+        "si": "2.1\u00a0s"
+      }
+    },
+    "home": {
+      "url": "https://steelr.co.uk/",
+      "scores": {
+        "perf": 74,
+        "a11y": 100,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "metrics": {
+        "lcp": "3.9\u00a0s",
+        "cls": "0",
+        "tbt": "530\u00a0ms",
+        "fcp": "1.5\u00a0s",
+        "si": "2.7\u00a0s"
+      }
+    }
+  }
+}
