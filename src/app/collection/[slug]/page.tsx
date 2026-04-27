@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { doors, getDoorBySlug, getRelatedDoors } from "@/data/doors";
 import ScrollReveal from "@/components/ScrollReveal";
 import QuickEnquiry from "@/components/QuickEnquiry";
+import HeroImageWithZoom from "@/components/HeroImageWithZoom";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -229,21 +230,15 @@ export default async function DoorPage({ params }: Props) {
       {/* Main content — image + details */}
       <section className="bg-cream ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-          {/* Left — image */}
+          {/* Left — image (click-to-zoom; aspect-ratio override on tall portraits) */}
           <ScrollReveal direction="left">
-            <div className="relative overflow-hidden rounded-[4px] bg-[#ede8df]" style={{ minHeight: 400 }}>
-              <Image
-                src={door.src}
-                alt={door.alt}
-                width={1200}
-                height={1600}
-                quality={80}
-                priority
-                unoptimized={door.unoptimized}
-                className="w-full h-auto rounded-[4px]"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
+            <HeroImageWithZoom
+              src={door.src}
+              alt={door.alt}
+              heroAspectRatio={door.heroAspectRatio}
+              objectPosition={door.objectPosition}
+              unoptimized={door.unoptimized}
+            />
           </ScrollReveal>
 
           {/* Right — details */}

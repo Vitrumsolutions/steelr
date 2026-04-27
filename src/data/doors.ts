@@ -32,6 +32,14 @@ export interface Door {
    * actually renders. Audit by probing /_next/image at multiple widths;
    * if w=640 is cache=HIT but larger widths are 402, the door belongs here. */
   unoptimized?: boolean;
+  /** Optional override for the door detail page hero aspect ratio. Default
+   * (undefined) renders the image at its natural ratio (w-full h-auto).
+   * Override here for tall portrait shots (natural ratio < ~0.6) where the
+   * natural rendering produces an overly tall hero showing too much
+   * surrounding context. The container becomes a fixed-aspect box and
+   * object-cover + objectPosition crops to the door body. Examples:
+   * "4/5" (close to lion-knocker's natural 0.81), "3/4" (more compact). */
+  heroAspectRatio?: string;
 }
 
 /** Hand-written rich content per door (keyed by slug). Render via the [slug] template's pageContent block. */
@@ -340,6 +348,30 @@ export const doorImageUnoptimized: Set<string> = new Set([
 ]);
 
 /**
+ * Per-door override for the door detail page hero container's aspect ratio.
+ *
+ * The default detail-page hero renders at the source image's natural ratio
+ * (w-full h-auto). For most doors this looks correct. The newest six are
+ * shot at a 9:20 (~0.45) ratio with extensive context above and below the
+ * door, which renders as a tower nearly twice as tall as the older doors.
+ *
+ * Doors listed here force a fixed aspect-ratio container on the hero,
+ * with object-cover + the existing objectPosition cropping to the door
+ * body. Match the visual rhythm of the older portrait doors (natural
+ * ratio ~0.75-0.85, e.g. lion-knocker-open at 0.81) by using "4/5".
+ *
+ * objectPosition for the crop is read from doorImagePosition above.
+ */
+export const doorHeroAspect: Record<string, string> = {
+  "black-traditional-doctor-knocker-canopy": "4/5",
+  "black-traditional-doctor-knocker-railings": "4/5",
+  "navy-traditional-brass-fanlight": "4/5",
+  "black-panelled-double-fingerprint": "4/5",
+  "black-traditional-timber-canopy": "4/5",
+  "black-panelled-grille-sidelights": "4/5",
+};
+
+/**
  * Per-door objectPosition overrides for the 3:4 collection card image.
  *
  * The card container in src/app/collection/page.tsx (and sibling pages) is
@@ -507,7 +539,12 @@ function parseDoor(
   // optimized derivatives are not cached at the Vercel edge.
   const unoptimized = doorImageUnoptimized.has(slug) || undefined;
 
-  return { slug, src, alt, style, colour, features, title, description, pageContent, objectPosition, unoptimized };
+  // Force a fixed aspect-ratio container on the detail page hero when the
+  // source image is much taller than the natural display rhythm of older
+  // doors. Crop with object-cover + objectPosition.
+  const heroAspectRatio = doorHeroAspect[slug];
+
+  return { slug, src, alt, style, colour, features, title, description, pageContent, objectPosition, unoptimized, heroAspectRatio };
 }
 
 export const doors: Door[] = [
