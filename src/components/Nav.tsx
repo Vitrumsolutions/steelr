@@ -127,9 +127,11 @@ export default function Nav() {
             </a>
 
             <button
-              className="lg:hidden flex flex-col justify-center items-center w-8 h-8 gap-[5px]"
+              className="lg:hidden flex flex-col justify-center items-center w-11 h-11 gap-[5px]"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle menu"
+              aria-expanded={menuOpen}
+              aria-controls="mobile-menu-overlay"
               // Always clickable so the user can close an open menu, even
               // though the parent flex div has pointerEvents:none when open.
               style={{ pointerEvents: "auto" }}
@@ -170,7 +172,9 @@ export default function Nav() {
 
       {/* Mobile overlay */}
       <div
-        className="fixed inset-0 z-40 flex flex-col items-center justify-center transition-all duration-500 lg:hidden"
+        id="mobile-menu-overlay"
+        className="fixed inset-0 z-40 flex flex-col items-center justify-center transition-opacity duration-500 lg:hidden"
+        onClick={() => setMenuOpen(false)}
         style={{
           background: "#0a0a09",
           opacity: menuOpen ? 1 : 0,
@@ -179,23 +183,27 @@ export default function Nav() {
           // the top ~80px of the viewport). Without this, justify-center can
           // place the first menu item (Collection) at y ~ 45-65px, visually
           // and tap-target overlapping the nav. Bottom padding mirrors so
-          // centering still feels balanced.
+          // centering still feels balanced. Increased to 64px to give the
+          // tel CTA breathing room from the viewport bottom edge.
           paddingTop: "96px",
-          paddingBottom: "32px",
+          paddingBottom: "64px",
         }}
       >
-        <div className="flex flex-col items-center gap-8 sm:gap-10">
+        <div
+          className="flex flex-col items-center gap-6 sm:gap-8"
+          onClick={(e) => e.stopPropagation()}
+        >
           {navLinks.map((link, i) => (
             <Link
               key={link.href}
               href={link.href}
               onClick={() => setMenuOpen(false)}
-              className="transition-all duration-300"
+              className="transition-opacity duration-300"
               style={{
                 fontFamily:
                   "var(--font-display), 'Cormorant Garamond', serif",
                 fontWeight: 300,
-                fontSize: 32,
+                fontSize: 26,
                 color: "#f5f0e8",
                 letterSpacing: "0.05em",
                 opacity: menuOpen ? 1 : 0,
@@ -208,13 +216,13 @@ export default function Nav() {
           ))}
           <a
             href="tel:08008611450"
-            className="mt-8"
+            className="mt-12"
             style={{
               fontFamily: "var(--font-body), Montserrat, sans-serif",
-              fontWeight: 200,
-              fontSize: 12,
+              fontWeight: 300,
+              fontSize: 16,
               letterSpacing: "0.15em",
-              color: "rgba(245, 240, 232, 0.4)",
+              color: "#c9a96e",
             }}
           >
             0800 861 1450
