@@ -239,6 +239,7 @@ export default async function DoorPage({ params }: Props) {
                 height={1600}
                 quality={80}
                 priority
+                unoptimized={door.unoptimized}
                 className="w-full h-auto rounded-[4px]"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
@@ -559,6 +560,7 @@ export default async function DoorPage({ params }: Props) {
                         alt={r.alt}
                         fill
                         quality={80}
+                        unoptimized={r.unoptimized}
                         className="object-cover"
                         style={{ objectPosition: r.objectPosition ?? "center top" }}
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
