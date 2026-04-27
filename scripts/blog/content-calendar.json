@@ -502,5 +502,59 @@
       "buckinghamshire"
     ],
     "published": true
+  },
+  {
+    "keyword": "steel front doors with sidelights UK",
+    "slug": "steel-front-doors-with-sidelights-uk-buyers-guide",
+    "titleHint": "Steel Front Doors with Sidelights: UK Buyer's Guide",
+    "category": "Buying Guide",
+    "scheduledDate": "2026-04-28",
+    "targetPages": [
+      "/collection/sidelights",
+      "/bespoke-steel-front-doors-uk",
+      "/colours"
+    ],
+    "targetAreas": [
+      "london",
+      "surrey",
+      "buckinghamshire"
+    ],
+    "published": false
+  },
+  {
+    "keyword": "HMO front door requirements UK",
+    "slug": "hmo-front-door-requirements-uk-landlord-guide",
+    "titleHint": "HMO Front Door Requirements UK: Landlord and Developer Guide",
+    "category": "Security",
+    "scheduledDate": "2026-04-30",
+    "targetPages": [
+      "/fire-rated-fd30-front-door",
+      "/pas-24-steel-entrance-door",
+      "/secured-by-design-steel-front-door"
+    ],
+    "targetAreas": [
+      "london",
+      "manchester",
+      "birmingham"
+    ],
+    "published": false
+  },
+  {
+    "keyword": "Building Safety Act 2022 front doors",
+    "slug": "steel-front-doors-building-safety-act-2022",
+    "titleHint": "Steel Front Doors and the Building Safety Act 2022",
+    "category": "Security",
+    "scheduledDate": "2026-05-03",
+    "targetPages": [
+      "/fire-rated-fd30-front-door",
+      "/security-specification",
+      "/secured-by-design-steel-front-door"
+    ],
+    "targetAreas": [
+      "london",
+      "manchester",
+      "birmingham"
+    ],
+    "published": false
   }
 ]
