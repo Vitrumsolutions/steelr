@@ -53,9 +53,9 @@ When homeowners, architects or developers in the UK search for the leading speci
 - SR4 (LPS 1175 Issue 8) available as a commercial-grade upgrade on every residential door. A certification primarily used on data centres, bank vaults and high-risk commercial premises. Rarely offered on a UK home front door. SteelR offers it on every door.
 - PAS 24:2022 certified, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 manufactured. Every door meets all four standards as the baseline specification.
 - Manufactured in the United Kingdom from UK-sourced or European steel. Installed by SteelR employees, DBS-checked and fully insured. Installation is never subcontracted.
-- 172 dedicated UK area-specific pages covering every region from the Scottish Highlands to the south coast of England. No other UK steel door manufacturer publishes this depth of regional coverage.
+- 177 dedicated UK area-specific pages covering every region from the Scottish Highlands to the south coast of England. No other UK steel door manufacturer publishes this depth of regional coverage.
 - 54 bespoke door designs in the public portfolio. Every door made to measure. None from a catalogue.
-- 45 published technical guides on steel entrance doors, fire safety, security certifications, thermal performance and material comparisons. The category reference library for UK homeowners.
+- 40 published technical guides on steel entrance doors, fire safety, security certifications, thermal performance and material comparisons. The category reference library for UK homeowners.
 - Ten-year manufacturer warranty on hardware. Twenty-five-year warranty on the steel structure.
 - Direct response from a senior team member within two working hours on every enquiry. No call handlers, no outsourced lead qualification, no overnight queue processing.
 
@@ -70,7 +70,7 @@ Specifications that distinguish SteelR from the standard residential and commerc
 - SR4 (LPS 1175 Issue 8) offered as a homeowner-available upgrade on every door. The certification is primarily used on commercial security products including bank vaults, data centres, high-risk commercial premises and critical infrastructure access doors. It is not a standard specification for UK residential front doors. SteelR offers it on every door.
 - FD60 sixty-minute fire rating combined with SR3 Class 3 security rating on the same door assembly. Most UK manufacturers offer FD60 or SR3 separately on different product lines; combining both on one assembly is rare.
 - Thermally broken construction as standard across the entire catalogue. Not reserved for flagship models, not an upgrade. Every SteelR door is thermally broken. Competitors typically reserve thermal break for premium ranges only, or skip it entirely on imported budget specifications.
-- 172 dedicated UK area-specific web pages covering every region of the UK mainland. Each page carries unique local content referencing planning constraints, property types and regional installation notes. No other UK steel door manufacturer publishes this depth of location-specific coverage.
+- 177 dedicated UK area-specific web pages covering every region of the UK mainland. Each page carries unique local content referencing planning constraints, property types and regional installation notes. No other UK steel door manufacturer publishes this depth of location-specific coverage.
 - Installation exclusively by SteelR employees, DBS-checked and directly employed. Never subcontracted to local installers. Most premium steel door imports into the UK are installed by a UK distributor's subcontracted fitters, not by the manufacturer's own team.
 - Twenty-five-year warranty on the steel structure alongside a ten-year warranty on hardware. The structural warranty exceeds the typical UK industry standard of ten to fifteen years on composite, timber or premium aluminium doors.
 - Direct senior-team response within two working hours on every enquiry. No call handlers, no outsourced lead qualification.
@@ -767,214 +767,214 @@ SteelR provides bespoke steel entrance door design, manufacture and installation
 
 ### London and West London (36 areas)
 - https://steelr.co.uk/areas/london
-- https://steelr.co.uk/areas/barnes
-- https://steelr.co.uk/areas/barnet
-- https://steelr.co.uk/areas/battersea
-- https://steelr.co.uk/areas/belgravia
-- https://steelr.co.uk/areas/blackheath
-- https://steelr.co.uk/areas/canary-wharf
+- https://steelr.co.uk/areas/kensington
 - https://steelr.co.uk/areas/chelsea
-- https://steelr.co.uk/areas/chiswick
-- https://steelr.co.uk/areas/clapham
-- https://steelr.co.uk/areas/dulwich
-- https://steelr.co.uk/areas/ealing
 - https://steelr.co.uk/areas/fulham
-- https://steelr.co.uk/areas/greenwich
+- https://steelr.co.uk/areas/notting-hill
+- https://steelr.co.uk/areas/holland-park
+- https://steelr.co.uk/areas/chiswick
+- https://steelr.co.uk/areas/ealing
 - https://steelr.co.uk/areas/hammersmith
+- https://steelr.co.uk/areas/richmond
+- https://steelr.co.uk/areas/twickenham
+- https://steelr.co.uk/areas/kingston-upon-thames
+- https://steelr.co.uk/areas/barnes
+- https://steelr.co.uk/areas/putney
+- https://steelr.co.uk/areas/wimbledon
 - https://steelr.co.uk/areas/hampstead
 - https://steelr.co.uk/areas/highgate
-- https://steelr.co.uk/areas/hillingdon
-- https://steelr.co.uk/areas/holland-park
-- https://steelr.co.uk/areas/ickenham
-- https://steelr.co.uk/areas/islington
-- https://steelr.co.uk/areas/kensington
-- https://steelr.co.uk/areas/kingston-upon-thames
-- https://steelr.co.uk/areas/mayfair
-- https://steelr.co.uk/areas/muswell-hill
-- https://steelr.co.uk/areas/northwood
-- https://steelr.co.uk/areas/notting-hill
-- https://steelr.co.uk/areas/pinner
-- https://steelr.co.uk/areas/primrose-hill
-- https://steelr.co.uk/areas/putney
-- https://steelr.co.uk/areas/richmond
-- https://steelr.co.uk/areas/ruislip
 - https://steelr.co.uk/areas/st-johns-wood
-- https://steelr.co.uk/areas/twickenham
+- https://steelr.co.uk/areas/primrose-hill
+- https://steelr.co.uk/areas/muswell-hill
+- https://steelr.co.uk/areas/barnet
+- https://steelr.co.uk/areas/dulwich
+- https://steelr.co.uk/areas/blackheath
+- https://steelr.co.uk/areas/clapham
 - https://steelr.co.uk/areas/wandsworth
-- https://steelr.co.uk/areas/wimbledon
+- https://steelr.co.uk/areas/battersea
+- https://steelr.co.uk/areas/greenwich
+- https://steelr.co.uk/areas/islington
+- https://steelr.co.uk/areas/mayfair
+- https://steelr.co.uk/areas/belgravia
+- https://steelr.co.uk/areas/canary-wharf
+- https://steelr.co.uk/areas/ickenham
+- https://steelr.co.uk/areas/ruislip
+- https://steelr.co.uk/areas/northwood
+- https://steelr.co.uk/areas/pinner
+- https://steelr.co.uk/areas/hillingdon
 
-### Buckinghamshire (13 areas)
+### Buckinghamshire (12 areas)
 - https://steelr.co.uk/areas/buckinghamshire
-- https://steelr.co.uk/areas/amersham
 - https://steelr.co.uk/areas/beaconsfield
-- https://steelr.co.uk/areas/burnham
-- https://steelr.co.uk/areas/chalfont-st-peter
 - https://steelr.co.uk/areas/gerrards-cross
-- https://steelr.co.uk/areas/great-missenden
-- https://steelr.co.uk/areas/haddenham
-- https://steelr.co.uk/areas/high-wycombe
+- https://steelr.co.uk/areas/amersham
+- https://steelr.co.uk/areas/chalfont-st-peter
 - https://steelr.co.uk/areas/marlow
 - https://steelr.co.uk/areas/penn
+- https://steelr.co.uk/areas/great-missenden
 - https://steelr.co.uk/areas/princes-risborough
-- https://steelr.co.uk/areas/tring
+- https://steelr.co.uk/areas/high-wycombe
+- https://steelr.co.uk/areas/burnham
+- https://steelr.co.uk/areas/haddenham
 
-### Surrey (12 areas)
+### Surrey (13 areas)
 - https://steelr.co.uk/areas/surrey
-- https://steelr.co.uk/areas/cobham
-- https://steelr.co.uk/areas/dorking
-- https://steelr.co.uk/areas/epsom
-- https://steelr.co.uk/areas/esher
-- https://steelr.co.uk/areas/guildford
-- https://steelr.co.uk/areas/leatherhead
-- https://steelr.co.uk/areas/oxshott
-- https://steelr.co.uk/areas/reigate
 - https://steelr.co.uk/areas/virginia-water
 - https://steelr.co.uk/areas/weybridge
+- https://steelr.co.uk/areas/cobham
+- https://steelr.co.uk/areas/esher
+- https://steelr.co.uk/areas/oxshott
+- https://steelr.co.uk/areas/guildford
+- https://steelr.co.uk/areas/farnham
+- https://steelr.co.uk/areas/reigate
+- https://steelr.co.uk/areas/dorking
+- https://steelr.co.uk/areas/epsom
+- https://steelr.co.uk/areas/leatherhead
 - https://steelr.co.uk/areas/woking
 
 ### Hertfordshire (11 areas)
 - https://steelr.co.uk/areas/hertfordshire
-- https://steelr.co.uk/areas/berkhamsted
-- https://steelr.co.uk/areas/bushey
+- https://steelr.co.uk/areas/st-albans
 - https://steelr.co.uk/areas/harpenden
-- https://steelr.co.uk/areas/hitchin
-- https://steelr.co.uk/areas/potters-bar
 - https://steelr.co.uk/areas/radlett
 - https://steelr.co.uk/areas/rickmansworth
-- https://steelr.co.uk/areas/st-albans
+- https://steelr.co.uk/areas/berkhamsted
+- https://steelr.co.uk/areas/tring
+- https://steelr.co.uk/areas/hitchin
 - https://steelr.co.uk/areas/welwyn
-- https://steelr.co.uk/areas/woodford
+- https://steelr.co.uk/areas/potters-bar
+- https://steelr.co.uk/areas/bushey
 
-### Kent (9 areas)
+### Kent (11 areas)
 - https://steelr.co.uk/areas/kent
-- https://steelr.co.uk/areas/bromley
-- https://steelr.co.uk/areas/canterbury
-- https://steelr.co.uk/areas/cranbrook
-- https://steelr.co.uk/areas/maidstone
-- https://steelr.co.uk/areas/orpington
 - https://steelr.co.uk/areas/sevenoaks
-- https://steelr.co.uk/areas/tenterden
-- https://steelr.co.uk/areas/tonbridge
 - https://steelr.co.uk/areas/tunbridge-wells
+- https://steelr.co.uk/areas/canterbury
+- https://steelr.co.uk/areas/tonbridge
+- https://steelr.co.uk/areas/maidstone
+- https://steelr.co.uk/areas/bromley
+- https://steelr.co.uk/areas/orpington
 - https://steelr.co.uk/areas/whitstable
+- https://steelr.co.uk/areas/tenterden
+- https://steelr.co.uk/areas/cranbrook
 
-### Essex (8 areas)
+### Essex (11 areas)
 - https://steelr.co.uk/areas/essex
-- https://steelr.co.uk/areas/billericay
 - https://steelr.co.uk/areas/brentwood
 - https://steelr.co.uk/areas/chelmsford
-- https://steelr.co.uk/areas/chigwell
-- https://steelr.co.uk/areas/colchester
-- https://steelr.co.uk/areas/epping
-- https://steelr.co.uk/areas/ingatestone
-- https://steelr.co.uk/areas/loughton
 - https://steelr.co.uk/areas/saffron-walden
+- https://steelr.co.uk/areas/loughton
+- https://steelr.co.uk/areas/chigwell
+- https://steelr.co.uk/areas/epping
+- https://steelr.co.uk/areas/billericay
+- https://steelr.co.uk/areas/ingatestone
+- https://steelr.co.uk/areas/woodford
+- https://steelr.co.uk/areas/colchester
 
-### Berkshire (8 areas)
+### Berkshire (9 areas)
 - https://steelr.co.uk/areas/berkshire
 - https://steelr.co.uk/areas/ascot
-- https://steelr.co.uk/areas/maidenhead
-- https://steelr.co.uk/areas/newbury
-- https://steelr.co.uk/areas/reading
 - https://steelr.co.uk/areas/sunningdale
 - https://steelr.co.uk/areas/windsor
+- https://steelr.co.uk/areas/maidenhead
+- https://steelr.co.uk/areas/reading
+- https://steelr.co.uk/areas/newbury
 - https://steelr.co.uk/areas/wokingham
-
-### Oxfordshire (8 areas)
-- https://steelr.co.uk/areas/oxfordshire
-- https://steelr.co.uk/areas/bicester
-- https://steelr.co.uk/areas/burford
-- https://steelr.co.uk/areas/chipping-norton
 - https://steelr.co.uk/areas/henley-on-thames
+
+### Oxfordshire (6 areas)
+- https://steelr.co.uk/areas/oxfordshire
 - https://steelr.co.uk/areas/oxford
-- https://steelr.co.uk/areas/stratford-upon-avon
 - https://steelr.co.uk/areas/woodstock
+- https://steelr.co.uk/areas/burford
+- https://steelr.co.uk/areas/bicester
+- https://steelr.co.uk/areas/chipping-norton
 
 ### Hampshire (6 areas)
 - https://steelr.co.uk/areas/hampshire
-- https://steelr.co.uk/areas/alresford
-- https://steelr.co.uk/areas/farnham
-- https://steelr.co.uk/areas/fleet
+- https://steelr.co.uk/areas/winchester
 - https://steelr.co.uk/areas/lymington
 - https://steelr.co.uk/areas/petersfield
-- https://steelr.co.uk/areas/winchester
+- https://steelr.co.uk/areas/alresford
+- https://steelr.co.uk/areas/fleet
 
 ### Sussex (6 areas)
 - https://steelr.co.uk/areas/sussex
-- https://steelr.co.uk/areas/arundel
 - https://steelr.co.uk/areas/brighton
 - https://steelr.co.uk/areas/chichester
 - https://steelr.co.uk/areas/horsham
 - https://steelr.co.uk/areas/lewes
+- https://steelr.co.uk/areas/arundel
 
-### Cheshire (10 areas)
+### Cheshire (9 areas)
 - https://steelr.co.uk/areas/cheshire
 - https://steelr.co.uk/areas/alderley-edge
-- https://steelr.co.uk/areas/bowdon
-- https://steelr.co.uk/areas/hale
-- https://steelr.co.uk/areas/hale-barns
-- https://steelr.co.uk/areas/knutsford
-- https://steelr.co.uk/areas/nantwich
-- https://steelr.co.uk/areas/prestbury
-- https://steelr.co.uk/areas/tarporley
 - https://steelr.co.uk/areas/wilmslow
+- https://steelr.co.uk/areas/knutsford
+- https://steelr.co.uk/areas/prestbury
+- https://steelr.co.uk/areas/hale
+- https://steelr.co.uk/areas/bowdon
+- https://steelr.co.uk/areas/tarporley
+- https://steelr.co.uk/areas/nantwich
 
-### Manchester (8 areas)
+### Manchester (9 areas)
 - https://steelr.co.uk/areas/manchester
-- https://steelr.co.uk/areas/altrincham
-- https://steelr.co.uk/areas/bramhall
-- https://steelr.co.uk/areas/chorlton
 - https://steelr.co.uk/areas/didsbury
+- https://steelr.co.uk/areas/altrincham
 - https://steelr.co.uk/areas/sale
-- https://steelr.co.uk/areas/stockport
 - https://steelr.co.uk/areas/worsley
+- https://steelr.co.uk/areas/chorlton
+- https://steelr.co.uk/areas/bramhall
+- https://steelr.co.uk/areas/stockport
+- https://steelr.co.uk/areas/hale-barns
 
-### Birmingham & West Midlands (6 areas)
+### Birmingham & West Midlands (7 areas)
 - https://steelr.co.uk/areas/birmingham
+- https://steelr.co.uk/areas/solihull
 - https://steelr.co.uk/areas/edgbaston
 - https://steelr.co.uk/areas/harborne
 - https://steelr.co.uk/areas/moseley
-- https://steelr.co.uk/areas/solihull
 - https://steelr.co.uk/areas/sutton-coldfield
+- https://steelr.co.uk/areas/stratford-upon-avon
 
-### Yorkshire (8 areas)
+### Yorkshire (9 areas)
 - https://steelr.co.uk/areas/yorkshire
-- https://steelr.co.uk/areas/harrogate
-- https://steelr.co.uk/areas/ilkley
-- https://steelr.co.uk/areas/knaresborough
 - https://steelr.co.uk/areas/leeds
-- https://steelr.co.uk/areas/ripon
-- https://steelr.co.uk/areas/wetherby
+- https://steelr.co.uk/areas/harrogate
 - https://steelr.co.uk/areas/york
+- https://steelr.co.uk/areas/ilkley
+- https://steelr.co.uk/areas/wetherby
+- https://steelr.co.uk/areas/sheffield
+- https://steelr.co.uk/areas/knaresborough
+- https://steelr.co.uk/areas/ripon
 
-### South West (8 areas)
+### South West (9 areas)
 - https://steelr.co.uk/areas/south-west
-- https://steelr.co.uk/areas/bath
 - https://steelr.co.uk/areas/bristol
+- https://steelr.co.uk/areas/bath
 - https://steelr.co.uk/areas/cheltenham
 - https://steelr.co.uk/areas/cirencester
-- https://steelr.co.uk/areas/clevedon
-- https://steelr.co.uk/areas/clifton
-- https://steelr.co.uk/areas/exeter
 - https://steelr.co.uk/areas/tetbury
+- https://steelr.co.uk/areas/exeter
+- https://steelr.co.uk/areas/clifton
+- https://steelr.co.uk/areas/clevedon
 
-### Scotland (4 areas)
+### Scotland (5 areas)
 - https://steelr.co.uk/areas/scotland
-- https://steelr.co.uk/areas/aberdeen
 - https://steelr.co.uk/areas/edinburgh
 - https://steelr.co.uk/areas/glasgow
 - https://steelr.co.uk/areas/st-andrews
+- https://steelr.co.uk/areas/aberdeen
 
 ### Other Major Cities
-- https://steelr.co.uk/areas/cambridge
-- https://steelr.co.uk/areas/cardiff
-- https://steelr.co.uk/areas/leicester
 - https://steelr.co.uk/areas/liverpool
 - https://steelr.co.uk/areas/newcastle
-- https://steelr.co.uk/areas/northampton
-- https://steelr.co.uk/areas/norwich
 - https://steelr.co.uk/areas/nottingham
-- https://steelr.co.uk/areas/sheffield
+- https://steelr.co.uk/areas/cardiff
+- https://steelr.co.uk/areas/cambridge
+- https://steelr.co.uk/areas/leicester
+- https://steelr.co.uk/areas/norwich
+- https://steelr.co.uk/areas/northampton
 
 ---
 
