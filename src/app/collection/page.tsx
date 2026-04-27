@@ -14,6 +14,7 @@ const galleryImages = doors.map((d) => ({
   style: d.style,
   slug: d.slug,
   title: d.title,
+  objectPosition: d.objectPosition,
 }));
 
 const filters = ["All", "Contemporary", "Traditional", "Double Doors"];
@@ -183,7 +184,7 @@ export default function CollectionPage() {
                       fill
                       quality={80}
                       className={`object-cover rounded-[4px] transition-opacity duration-500 ${imageLoaded[img.src] ? "opacity-100" : "opacity-0"}`}
-                      style={{ objectPosition: "center top" }}
+                      style={{ objectPosition: img.objectPosition ?? "center top" }}
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       onLoad={() => setImageLoaded((prev) => ({ ...prev, [img.src]: true }))}
                     />

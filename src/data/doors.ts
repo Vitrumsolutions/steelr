@@ -18,6 +18,12 @@ export interface Door {
   description: string;
   /** Optional rich per-door content (replaces the generic auto-description for SEO) */
   pageContent?: DoorPageContent;
+  /** Optional override for CSS object-position on the collection card image.
+   * Default behaviour is "center top" (anchors the top of the photo to the
+   * 3:4 card). Override here for tall portrait shots where the door sits in
+   * the middle or bottom of the photo and "center top" would crop the door
+   * out of view. Examples: "center 75%", "center bottom", "center 60%". */
+  objectPosition?: string;
 }
 
 /** Hand-written rich content per door (keyed by slug). Render via the [slug] template's pageContent block. */
@@ -294,6 +300,33 @@ export const doorPageContent: Record<string, DoorPageContent> = {
   },
 };
 
+/**
+ * Per-door objectPosition overrides for the 3:4 collection card image.
+ *
+ * The card container in src/app/collection/page.tsx (and sibling pages) is
+ * a 3:4 portrait. Most door photos in src/images/gallery/ also carry a
+ * roughly 3:4 natural ratio, so the default "center top" positioning fits
+ * cleanly. A handful of newer photos are very tall (natural ratio ~0.45,
+ * roughly 9:20) where the door sits in the middle or lower portion of the
+ * frame with sky, canopy or upper-storey building above. With "center top"
+ * those cards anchor the top of the photo and crop the door out of view.
+ *
+ * Each entry below names the slug, the natural aspect ratio, and the
+ * value chosen so the door body lands inside the visible 3:4 crop.
+ */
+export const doorImagePosition: Record<string, string> = {
+  // Tall portrait, canopy at top, door under the canopy, mid-low.
+  "black-traditional-doctor-knocker-canopy": "center 75%",
+  // Tall portrait, railings frame the door which sits mid-low in frame.
+  "black-traditional-doctor-knocker-railings": "center 70%",
+  // Tall portrait, double doors low in frame, sidelights and brick above.
+  "black-panelled-double-fingerprint": "center 75%",
+  // Tall portrait, timber canopy occupies upper half, door beneath.
+  "black-traditional-timber-canopy": "center 80%",
+  // Tall portrait, ceiling lantern at top, door visible mid-frame.
+  "black-panelled-grille-sidelights": "center 60%",
+};
+
 function parseDoor(
   src: string,
   alt: string,
@@ -427,7 +460,11 @@ function parseDoor(
   // Attach hand-written rich content if present for this slug
   const pageContent = doorPageContent[slug];
 
-  return { slug, src, alt, style, colour, features, title, description, pageContent };
+  // Attach a card-image objectPosition override if the natural photo
+  // composition needs the card to anchor somewhere other than the top.
+  const objectPosition = doorImagePosition[slug];
+
+  return { slug, src, alt, style, colour, features, title, description, pageContent, objectPosition };
 }
 
 export const doors: Door[] = [
