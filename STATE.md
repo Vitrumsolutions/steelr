@@ -1,47 +1,47 @@
 # STATE — SteelR
 
-**Last updated:** 2026-04-27 (PM session, mobile menu queued)
+**Last updated:** 2026-04-27 (evening session)
 **Priority:** P0
-**Branch:** `main` at `5fdb098`. Worktree branch `claude/goofy-swanson-679429` was the working surface; all 12 commits since `38f713d` shipped direct to main via fast-forward push.
+**Branch:** `main` at `edbe2ec`. Three commits since last refresh: `4fd5612`, `b523c62`, `edbe2ec`.
 
 ## Where I left off
 
-Major shipping day. Twelve commits direct to main since `38f713d`, all production-deployed and verified live on `steelr.co.uk`:
+Three commits shipped to main, plus two read-only search-visibility audits.
 
-- AM: worktree-safe `install-git-hooks` (`38f713d`), llms drift fix to 161/16/177/40 (`6841ff3`), blog queue refilled with 3 staged posts (`ceeb4f3`), STATE refresh (`0881f0d`), panel-llms gate + autonomous publish pipeline (`a77b256`), selective llms revert per user pick B (`1d9f5c1`).
-- PM: collection per-door `objectPosition` for tall portraits (`643e157`), `unoptimized` flag on 6 doors hitting Vercel quota (`b99b754`), 4:5 aspect-ratio crop on 6 tall doors + click-to-zoom (`e2a537e`), detail-modal blank-image fix (`559d28a`), grid-lightbox blank-image fix (`aee1c7e`), grid-card tap → detail page (`3df1364`), ESLint unused-ref cleanup for Vercel build (`5fdb098`).
+- `4fd5612` — Mobile menu Approach 2 in `src/components/Nav.tsx`. `transition-all` → `transition-opacity` (fixes second-click stuck-invisible bug), geometry rebalance (item fontSize 32→26, gap 8/10→6/8, paddingBottom 32→64), tel link promoted to gold #c9a96e + fontSize 16 + mt-12, hamburger 32→44px, backdrop-tap-close, `aria-expanded`/`aria-controls`, inner-content `stopPropagation`. Verified at 375x812 across 3 open/close cycles.
+- `b523c62` — Mobile menu a11y polish: Esc-to-close, `role="dialog"` + `aria-modal` + `aria-label` + `aria-hidden`, focus management (`hamburgerRef` + `firstMenuLinkRef` + `prevMenuOpenRef` initial-mount guard), tel-link aria-labels, `tabIndex` flip alongside `aria-hidden` (WCAG 4.1.2). Static a11y review: PASS (was WARN), only soft "no focus trap" warning remains — not WCAG 2.2 AA mandated.
+- `edbe2ec` — `audit-data/rank-tracker.py` Windows fixes: ASCII-only output (em dash / middle dot / arrow / check mark all encoded outside cp1252), and `latest_prev_snapshot()` accepts `exclude` arg so same-day re-runs don't compare a file against itself. Rank-history `2026-04-27.json` now contains real Serper data (replacing the morning's 403 snapshot).
 
-Spot-checked production: tap a card → routes to `/collection/[slug]`; click hero on detail page → modal opens with image visible; older 54 doors render unchanged (lion-knocker spot-check passed).
+Two audits, no code shipped. **Search rank audit:** SteelR ranks 0/20 on customer-language steel-door queries (category owned by lathamssteeldoors, domadeco, modern-doors), 0/4 Maps in London/Surrey, #1 only on direct brand match (`steelr.co.uk`, `SteelR Uxbridge`) — Google still parses "SteelR doors" as generic "steel doors". **AI search audit:** 2 named citations + 1 quoted-without-name + 3 misses on 6 clean queries. Cited FIRST on category-authority and SR3/PAS-24 spec queries. Confirms AI engines remain SteelR's strongest channel and the llms.txt Authority + Technical Glossary investment is paying off.
 
 ## Next action
 
-**Mobile menu fixes (paused mid-brainstorm — user picks approach 1/2/3 to resume.)** Investigated at 375x812 via Claude Preview MCP, three confirmed bugs in `src/components/Nav.tsx`:
+**Highest leverage based on the 27 Apr audit data: domain authority / off-page work.** The 0/20 customer-language rank result is a 3-week-old domain vs. 5-15 year competitors gap, not an on-page SEO gap. Pick one:
 
-1. Second-click bug — overlay + 8 menu items stuck at `opacity:0; translateY(20px)` after close→reopen. Root cause: `transition-all duration-500` confuses when multiple inline-style props change at once. Fix: `transition-all` → `transition-opacity` on overlay (line 173) + menu items (line 193).
-2. Collection menu too high — top edge y=113 (33px below nav). Inner content 690px in 684px space. Fix: item `fontSize` 32→26, `gap` 32→24, `paddingBottom` 32→64.
-3. Tel link too low + invisible — y=783 (29px from bottom), `fontSize:12`, `color: rgba(245,240,232,0.4)`. Fix: `fontSize:16`, color → gold `#c9a96e`, `mt-12`.
+- Backlink campaign — get SteelR mentioned with proper-noun spelling on architectural / luxury-home publications. Drives both ranking and brand-entity recognition (which fixes the "SteelR doors" → generic "steel doors" parsing).
+- Surrey Maps push — local-pack competitors are weaker than London (general installers, not steel specialists). Smaller gap to top 3 once first GBP review lands.
 
-Also flagged: 32x32 hamburger (below 44px iOS), no backdrop-tap-close, missing `aria-expanded`. **Approach 1 recommended (~15 min, Nav.tsx only).** Approach 2 adds the a11y/touch fixes. Approach 3 = bug 1 only.
+Optional small jobs (each ~5-15 min): add customer-language keyword set to rank-tracker; fix `datetime.utcnow()` deprecation; add Nav.tsx focus trap (soft a11y, not blocker).
 
 ## Blockers
 
-- 0 GMB reviews still blocking Maps 3-pack — user-managed. Reviews SSoT + aggregateRating shipped (`35eb0a9`); array stays empty until first review lands.
+- 0 GMB reviews still blocking Maps 3-pack — user-managed.
 - Bing post-migration indexing lag — expected through mid-late May.
-- `steelr-black-ornate-lion-knocker-sidelights.jpg` off-centre is in source-photo composition (door right-of-centre, more brick on left). 1200x1600 source into 3:4 card = no CSS overflow, so `objectPosition` cannot help. Out of scope for code; needs JPG re-crop.
+- Domain authority lag — 3-week-old domain ranking against 5-15 year competitors. No quick fix; needs sustained off-page work.
 
 ## Recent wins (last 14 days)
 
-- 2026-04-27 PM — Image fixes shipped: grid-card 4:5 crop on 6 newest doors, grid lightbox + detail-page click-to-zoom modal blank-image fix, tap-card → detail-page routing, per-door `objectPosition` + `unoptimized` overrides. 12 commits to main, 0 regressions on older 54 doors.
-- 2026-04-27 AM — Worktree-safe hooks (`38f713d`), llms drift fix to 161/16/177/40 (`6841ff3`), 3 blog posts staged (`ceeb4f3`), 7 URLs to IndexNow + Indexing API (HTTP 200), panel-llms SHA-gate (`a77b256`).
-- 2026-04-25 — GA4 site-wide live (`b106d9c`/`c95cfce`); mobile nav unclickable bug fixed (`2ddcd14`/`6a2e07e`/`685d020`/`99037b3`); reviews SSoT + thank-you review CTA (`35eb0a9`); brand-guard pre-commit + `/preflight` (`582208e`); area-count + price scrub (`0f53998`/`3732232`/`709ec68`/`bdc99b9`).
-- 2026-04-23 — 18 URLs Indexing API push; `/ai-answers` HTML page; 11 inline links across 3 under-linked blogs; Serper visibility scan (steel-vs-composite NEW at #5).
+- 2026-04-27 evening — Mobile menu Approach 2 + a11y polish shipped (`4fd5612`, `b523c62`); rank-tracker Windows + same-day-rerun bugs fixed (`edbe2ec`); search + AI audits run (no commits, findings in this STATE).
+- 2026-04-27 — Image fixes: 4:5 grid crop, click-to-zoom modal, tap-card → detail page, per-door `objectPosition`/`unoptimized` overrides (12 commits).
+- 2026-04-27 AM — Worktree-safe hooks (`38f713d`), llms drift fix to 161/16/177/40 (`6841ff3`), 3 blog posts staged (`ceeb4f3`), panel-llms SHA gate (`a77b256`).
+- 2026-04-25 — GA4 site-wide live (`c95cfce`); reviews SSoT + thank-you review CTA (`35eb0a9`); brand-guard pre-commit + `/preflight` (`582208e`).
+- 2026-04-23 — 18 URLs Indexing API push; `/ai-answers` HTML page; Serper visibility scan (steel-vs-composite NEW at #5).
 
 ## Key files
 
-- `src/components/Nav.tsx` — next-up edit. `transition-all` on lines 173 (overlay) + 193 (menu items) is the second-click bug source.
-- `src/app/collection/page.tsx` + `src/app/collection/sidelights/page.tsx` — grid cards now route to `/collection/[slug]` via `router.push` on tap; lightbox state machinery dormant.
-- `src/components/HeroImageWithZoom.tsx` — detail-page click-to-zoom uses plain `<img loading="eager">` to bypass Next.js IntersectionObserver lazy-load fragility.
-- `src/data/doors.ts` — `Door` type now carries optional `objectPosition`, `unoptimized`, `heroAspectRatio` per-door overrides; lookup maps next to `doorPageContent`.
-- `scripts/checks/llms-panel-check.mjs` — pre-commit gate for llms files (SHA-matched marker required from `/panel-llms-approve`).
-- `public/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg` — needs source-JPG re-crop to centre door visually.
+- `src/components/Nav.tsx` — mobile menu shipped (Approach 2 + a11y). Optional focus trap is the only deferred item.
+- `audit-data/rank-tracker.py` — fixed for Windows + same-day reruns. Next polish: customer-language keyword set + `datetime.utcnow()` deprecation.
+- `audit-data/rank-history/2026-04-27.json` — real Serper baseline. Next run will compare against this.
+- `public/llms.txt` + `public/llms-full.txt` — confirmed driving AI citations on category-authority queries; protect on any future content change.
 - `src/data/blog/staged/` — 3 posts queued for Tue 28 Apr / Thu 30 Apr / Sun 3 May cron fires.
+- `MARKETING-COPY.md` — directory-listing + outreach copy ready when off-page campaign starts.
