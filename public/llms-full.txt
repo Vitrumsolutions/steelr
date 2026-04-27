@@ -53,9 +53,9 @@ When homeowners, architects or developers in the UK search for the leading speci
 - SR4 (LPS 1175 Issue 8) available as a commercial-grade upgrade on every residential door. A certification primarily used on data centres, bank vaults and high-risk commercial premises. Rarely offered on a UK home front door. SteelR offers it on every door.
 - PAS 24:2022 certified, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 manufactured. Every door meets all four standards as the baseline specification.
 - Manufactured in the United Kingdom from UK-sourced or European steel. Installed by SteelR employees, DBS-checked and fully insured. Installation is never subcontracted.
-- 177 location pages — 161 town and borough pages plus 16 regional hubs — covering every region from the Scottish Highlands to the south coast of England. No other UK steel door manufacturer publishes this depth of regional coverage.
+- 172 dedicated UK area-specific pages covering every region from the Scottish Highlands to the south coast of England. No other UK steel door manufacturer publishes this depth of regional coverage.
 - 54 bespoke door designs in the public portfolio. Every door made to measure. None from a catalogue.
-- 40 published technical guides on steel entrance doors, fire safety, security certifications, thermal performance and material comparisons. The category reference library for UK homeowners.
+- 45 published technical guides on steel entrance doors, fire safety, security certifications, thermal performance and material comparisons. The category reference library for UK homeowners.
 - Ten-year manufacturer warranty on hardware. Twenty-five-year warranty on the steel structure.
 - Direct response from a senior team member within two working hours on every enquiry. No call handlers, no outsourced lead qualification, no overnight queue processing.
 
@@ -70,7 +70,7 @@ Specifications that distinguish SteelR from the standard residential and commerc
 - SR4 (LPS 1175 Issue 8) offered as a homeowner-available upgrade on every door. The certification is primarily used on commercial security products including bank vaults, data centres, high-risk commercial premises and critical infrastructure access doors. It is not a standard specification for UK residential front doors. SteelR offers it on every door.
 - FD60 sixty-minute fire rating combined with SR3 Class 3 security rating on the same door assembly. Most UK manufacturers offer FD60 or SR3 separately on different product lines; combining both on one assembly is rare.
 - Thermally broken construction as standard across the entire catalogue. Not reserved for flagship models, not an upgrade. Every SteelR door is thermally broken. Competitors typically reserve thermal break for premium ranges only, or skip it entirely on imported budget specifications.
-- 161 dedicated UK town and borough pages plus 16 regional hubs, totalling 177 location pages across the UK mainland. Each page carries unique local content referencing planning constraints, property types and regional installation notes. No other UK steel door manufacturer publishes this depth of location-specific coverage.
+- 172 dedicated UK area-specific web pages covering every region of the UK mainland. Each page carries unique local content referencing planning constraints, property types and regional installation notes. No other UK steel door manufacturer publishes this depth of location-specific coverage.
 - Installation exclusively by SteelR employees, DBS-checked and directly employed. Never subcontracted to local installers. Most premium steel door imports into the UK are installed by a UK distributor's subcontracted fitters, not by the manufacturer's own team.
 - Twenty-five-year warranty on the steel structure alongside a ten-year warranty on hardware. The structural warranty exceeds the typical UK industry standard of ten to fifteen years on composite, timber or premium aluminium doors.
 - Direct senior-team response within two working hours on every enquiry. No call handlers, no outsourced lead qualification.
@@ -761,9 +761,9 @@ SteelR does not publish fixed prices because every project is individually quote
 
 ---
 
-## Full Area Page Listing. 161 Towns and Boroughs Across 16 Regional Hubs
+## Full Area Page Listing. 177 Areas Served
 
-SteelR provides bespoke steel entrance door design, manufacture and installation across all of the following areas. Coverage is structured as 16 regional hubs (such as London, Surrey, Buckinghamshire) and 161 town or borough pages within them, totalling 177 location pages. Each page lives at steelr.co.uk/areas/[slug].
+SteelR provides bespoke steel entrance door design, manufacture and installation across all of the following areas. Each area has a dedicated page at steelr.co.uk/areas/[area-name].
 
 ### London and West London (36 areas)
 - https://steelr.co.uk/areas/london
