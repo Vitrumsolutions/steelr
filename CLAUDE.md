@@ -291,6 +291,49 @@ git commit -m "your message [allow-price]"
 
 **Why:** the 23 Apr session shipped "from around £5,000" claims on 161 area pages without any of the global routing subagents firing. Cost ~10 minutes to clean up after the fact. This guard makes that regression impossible.
 
+## llms.txt Panel Gate (added 27 Apr 2026)
+
+`public/llms.txt` and `public/llms-full.txt` are SteelR's strongest AI-citation surface. Changes to them are the highest-risk class of edit on the project: even factually-correct fixes can disrupt AI engine cache and cost ranking positions. The user's stated rule is **"do not change llms without asking me."**
+
+The pre-commit hook architecturally enforces this rule. Any commit touching `public/llms.txt` or `public/llms-full.txt` is **blocked** unless `.checks/llms-panel.json` contains a SHA matching the staged content. The marker is written only by the user-driven `/panel-llms-approve` slash command, which runs only after `/panel-llms` has produced findings and the user has explicitly approved them in chat.
+
+### How the gate works (for the user)
+
+1. Claude (or anyone) edits `public/llms.txt` or `public/llms-full.txt` and runs `git add`.
+2. Claude tries to `git commit`. The pre-commit hook fires `node scripts/checks/llms-panel-check.mjs --enforce`.
+3. If no marker exists, the commit is rejected with a BLOCKED message naming the staged files and instructing how to proceed.
+4. Claude runs `/panel-llms`. Four agents (visibility-audit-runner, cannibalisation-auditor, research-scout, deep-reviewer) investigate in parallel and produce a single findings report.
+5. The user reviews the findings. If they approve, they type "approve" in chat and Claude runs `/panel-llms-approve`.
+6. `/panel-llms-approve` writes `.checks/llms-panel.json` with the staged file SHAs at approval time.
+7. Pre-commit hook now allows the commit because the staged SHAs match the marker.
+8. If anyone (Claude or otherwise) edits the staged file after approval, the SHA changes and the gate fires again. There is no way to bypass without re-running the panel and approval flow against the new content.
+
+### Files
+
+- `scripts/checks/llms-panel-check.mjs` — the gate logic (--enforce, --staged-shas, --write-marker modes)
+- `.git/hooks/pre-commit` — chains brand-guard → llms-panel-check
+- `scripts/install-git-hooks.sh` — installer (worktree-safe via `git rev-parse --git-common-dir`)
+- `.claude/commands/panel-llms.md` — dispatches the 4-agent panel
+- `.claude/commands/panel-llms-approve.md` — writes the marker after explicit user approval
+- `.checks/` — gitignored marker directory; the marker file is never committed
+
+### Why SHA-based and not time-based
+
+A time-based marker ("panel ran within last hour") would happily allow a freshly-edited file to ship if a panel had run earlier on a different version. SHA matching forces a fresh panel for every fresh content change. The marker cannot grow stale into approval; the file content has to literally match what was approved.
+
+### Why the marker file is gitignored
+
+Committing the marker would let old approval carry forward forever after the file content changed (because the marker would persist while the file SHA changed, and on the new branch the gate would still find the old marker matching nothing). Treating the marker as runtime state forces every fresh worktree, every fresh branch, and every fresh edit to re-prove it has been reviewed.
+
+### When the gate does NOT block
+
+- Commits that don't touch `public/llms.txt` or `public/llms-full.txt`.
+- The cron-driven blog publisher (`.github/workflows/publish-blog.yml`). The cron uses `git commit --no-verify` because:
+  - The commit author is `github-actions[bot]`, not a human.
+  - The content is mechanically derived from `src/data/blog/posts/` by `publish-post.mjs` (Blog Excerpts auto-rebuild + Key Pages URL append). It is not human-authored prose.
+  - The rebuild logic is auditable in the script and the cron is in a trusted GitHub Actions environment.
+  This is the only --no-verify path. Humans cannot bypass the gate per the global safety rules in `~/.claude/CLAUDE.md` (Claude is forbidden from using --no-verify; the user can manually but should not for llms files).
+
 ## Blog Posts (45 posts — all published)
 - 45 posts in `src/data/blog/posts/*.ts` — all live, zero staged
 - Blog data: `src/data/blog/` (types.ts + index.ts + posts/)

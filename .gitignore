@@ -50,3 +50,10 @@ social/pinterest/*.png
 social/scripts/__pycache__/
 __pycache__/
 social/reels/_grid-frames/
+
+# enforcement marker files for harness-level gates. NEVER committed —
+# committing them would defeat the gate by letting old approval carry
+# forward forever after the file content changes. The gate re-fires on
+# every fresh content change.
+.checks/
+.published-url.txt

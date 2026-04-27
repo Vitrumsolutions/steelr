@@ -134,6 +134,42 @@ async function main() {
     }
   }
 
+  // 7. Ping IndexNow so Bing, Yandex, Seznam and Naver pick up the new post
+  // within minutes instead of waiting for the next sitemap re-crawl. Non-fatal
+  // on failure: indexing is a nice-to-have, not a publish gate.
+  const INDEXNOW_KEY = "ddec116ea2aa00b39d11cca95f17bb9a";
+  const blogUrl = `https://steelr.co.uk/blog/${entry.slug}`;
+  try {
+    const res = await fetch("https://api.indexnow.org/indexnow", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        host: "steelr.co.uk",
+        key: INDEXNOW_KEY,
+        keyLocation: `https://steelr.co.uk/${INDEXNOW_KEY}.txt`,
+        urlList: [blogUrl],
+      }),
+    });
+    if (res.status === 200 || res.status === 202) {
+      console.log(`  IndexNow: ${res.status} OK for ${blogUrl}`);
+    } else {
+      console.warn(`  IndexNow: HTTP ${res.status} (non-fatal)`);
+    }
+  } catch (err) {
+    console.warn(`  IndexNow: ${err.message} (non-fatal)`);
+  }
+
+  // 8. Log the URL so the Indexing API workflow step (in publish-blog.yml)
+  // can pick it up. We write the freshly-published URL to a file the next
+  // step reads. This decouples the Node and Python halves of the pipeline.
+  const PUBLISHED_URL_FILE = join(ROOT, ".published-url.txt");
+  try {
+    writeFileSync(PUBLISHED_URL_FILE, blogUrl + "\n");
+    console.log(`  Wrote published URL to ${PUBLISHED_URL_FILE} for downstream Indexing API step`);
+  } catch (err) {
+    console.warn(`  Could not write ${PUBLISHED_URL_FILE}: ${err.message} (non-fatal)`);
+  }
+
   console.log(`\nDone! Published: ${entry.slug}`);
 }
 
