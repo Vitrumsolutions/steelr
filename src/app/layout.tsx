@@ -5,7 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import ScrollProgress from "@/components/ScrollProgress";
+import DeferredClientOverlays from "@/components/DeferredClientOverlays";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { getAggregateRatingSchema } from "@/data/reviews";
 
@@ -146,7 +146,7 @@ export default function RootLayout({
       <body
         className={`${cormorant.variable} ${montserrat.variable} ${tenorSans.variable} antialiased`}
       >
-        <ScrollProgress />
+        <DeferredClientOverlays />
         <Nav />
         <main>{children}</main>
         <Footer />
