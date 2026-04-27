@@ -127,7 +127,7 @@ The right ironmongery is essential for a convincing period door. Options include
 
 The best front doors for period properties combine **authentic period design** with **modern performance**. A bespoke steel entrance door achieves this by faithfully reproducing the aesthetic details of Georgian, Victorian or Edwardian design while delivering SR3 security, excellent thermal performance and zero ongoing maintenance.
 
-At SteelR, we design and manufacture bespoke steel entrance doors for period properties across the UK. Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management. If you are looking for a front door that respects your property's heritage while providing the highest standards of security and performance, we would welcome the opportunity to discuss your project.`,
+At SteelR, we design and manufacture bespoke steel entrance doors for period properties across the UK — Georgian terraces in [Kensington](/areas/kensington) and [Chelsea](/areas/chelsea), Victorian villas across [Hampstead](/areas/hampstead) and [Islington](/areas/islington), and Edwardian semis throughout the [Home Counties](/areas/surrey). Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management. For the full picture of what bespoke specification covers, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview. If you are looking for a front door that respects your property's heritage while providing the highest standards of security and performance, we would welcome the opportunity to discuss your project.`,
 };
 
 export default post;

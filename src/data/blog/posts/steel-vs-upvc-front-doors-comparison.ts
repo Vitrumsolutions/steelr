@@ -164,7 +164,7 @@ A bespoke steel entrance door is one of the most effective kerb appeal improveme
 
 ### How long does a steel entrance door last compared to uPVC?
 
-A uPVC front door typically lasts 15 to 25 years before needing replacement. A bespoke steel entrance door is built to last 40 to 50 years with proper maintenance, making it a permanent architectural addition rather than a consumable product.`,
+A uPVC front door typically lasts 15 to 25 years before needing replacement. A bespoke steel entrance door is built to last 40 to 50 years with proper maintenance, making it a permanent architectural addition rather than a consumable product. For a fuller side-by-side material comparison, see our [steel front door vs composite](/steel-front-door-vs-composite) hub page.`,
 };
 
 export default post;

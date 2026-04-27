@@ -175,7 +175,7 @@ Bespoke steel double doors typically cost 40 to 70 per cent more than an equival
 
 ### Can I have double doors installed in an existing single door opening?
 
-In many cases, yes — but the opening must be widened, which involves structural work including a new lintel. We recommend a structural survey before committing to this approach. For some properties, a single door with sidelights achieves a similar visual width without structural modification.`,
+In many cases, yes — but the opening must be widened, which involves structural work including a new lintel. We recommend a structural survey before committing to this approach. For some properties, a single door with sidelights achieves a similar visual width without structural modification. For a wider view of how bespoke configurations are specified, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

@@ -211,7 +211,7 @@ The best material depends on your priorities. For maximum security, longevity an
 
 ### How much does it cost to replace a front door in the UK?
 
-Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification — material, security rating, glazing, hardware and finishing. For accurate pricing tailored to your requirements, [request an estimate](/design-estimate).
+Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification — material, security rating, glazing, hardware and finishing. For a full breakdown of what drives the price up or down, see our [steel front door cost UK](/steel-front-door-cost-uk) guide. For accurate pricing tailored to your requirements, [request an estimate](/design-estimate).
 
 ### What happens to my old front door during replacement?
 

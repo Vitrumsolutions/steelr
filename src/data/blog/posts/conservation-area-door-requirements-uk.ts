@@ -151,7 +151,7 @@ Where Article 4 applies and consent has not been obtained, the local authority c
 
 ### Does a heritage-style steel door meet modern thermal and security standards?
 
-Yes. A bespoke steel door can achieve U-values around 1.0 W/m²K through thermal breaks and modern insulation, materially better than any traditional timber equivalent. Security can reach SR3 under BS EN 1627 with PAS 24 and Secured by Design certification, far above anything a restored period door can offer. This combination of heritage detailing with modern performance is a major reason conservation area owners specify steel over timber restoration.`,
+Yes. A bespoke steel door can achieve U-values around 1.0 W/m²K through thermal breaks and modern insulation, materially better than any traditional timber equivalent. Security can reach SR3 under BS EN 1627 with PAS 24 and Secured by Design certification, far above anything a restored period door can offer. This combination of heritage detailing with modern performance is a major reason conservation area owners specify steel over timber restoration. For a wider overview of how bespoke steel meets period and conservation requirements, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) guide.`,
 };
 
 export default post;

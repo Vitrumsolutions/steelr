@@ -163,7 +163,7 @@ The answer depends on your priorities. If maximum security, unlimited design cus
 
 ### Can I get a steel door that looks traditional rather than industrial?
 
-Absolutely. Bespoke steel entrance doors are available in any architectural style — from Georgian panelled designs with lion-head knockers and fanlights to contemporary flush-face configurations with minimalist hardware. The full RAL colour range means any colour is available, including heritage shades. Steel doors do not have an inherent aesthetic; they take whatever form the design requires.`,
+Absolutely. Bespoke steel entrance doors are available in any architectural style — from Georgian panelled designs with lion-head knockers and fanlights to contemporary flush-face configurations with minimalist hardware. The full RAL colour range means any colour is available, including heritage shades. Steel doors do not have an inherent aesthetic; they take whatever form the design requires. For a wider side-by-side of steel against the main alternatives, see our [steel front door vs composite](/steel-front-door-vs-composite) hub page.`,
 };
 
 export default post;

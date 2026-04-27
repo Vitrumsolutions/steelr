@@ -173,7 +173,7 @@ Minimal. Occasional cleaning with warm soapy water, periodic lubrication of hing
 
 ### Is spring really better than other seasons for door replacement?
 
-Spring offers the best combination of mild weather for installation, optimal lead times for summer completion, alignment with the property market viewing season, and sufficient daylight hours for the installation team to work efficiently. It is not the only time to replace a door, but it is the most practical and strategically advantageous.`,
+Spring offers the best combination of mild weather for installation, optimal lead times for summer completion, alignment with the property market viewing season, and sufficient daylight hours for the installation team to work efficiently. It is not the only time to replace a door, but it is the most practical and strategically advantageous. For a clear breakdown of what shapes the investment, see our [steel front door cost UK](/steel-front-door-cost-uk) guide.`,
 };
 
 export default post;

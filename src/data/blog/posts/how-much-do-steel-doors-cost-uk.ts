@@ -237,7 +237,7 @@ The consultation and survey are free. There is no obligation to proceed, and we 
 
 ### What is the cheapest steel entrance door available in the UK?
 
-Imported, non-bespoke steel doors from overseas manufacturers occupy the entry tier of the imported-doorset market. These are typically standard sizes, may not carry UK-relevant security certifications, and often require third-party installation. A bespoke, SR3-certified steel door from a UK manufacturer is a different category of product entirely, individually priced after an on-site survey because each door is made to measure with no two specifications alike. The quotation reflects size, security tier, fire rating, glazing, hardware, RAL colour and design complexity rather than a published list price.
+Imported, non-bespoke steel doors from overseas manufacturers occupy the entry tier of the imported-doorset market. These are typically standard sizes, may not carry UK-relevant security certifications, and often require third-party installation. A bespoke, SR3-certified steel door from a UK manufacturer is a different category of product entirely, individually priced after an on-site survey because each door is made to measure with no two specifications alike. The quotation reflects size, security tier, fire rating, glazing, hardware, RAL colour and design complexity rather than a published list price. For a fuller side-by-side of UK manufacture against imported alternatives, see our [UK steel doors vs imported](/uk-steel-doors-vs-imported) overview.
 
 ### Why is there such a big price range for steel doors?
 
@@ -253,7 +253,7 @@ SR3 (BS EN 1627) is a significantly more demanding standard than PAS 24. SR3 tes
 
 ### Can I get finance for a steel door?
 
-Many homeowners include entrance doors in broader renovation projects funded through home improvement loans, remortgage or savings. Some door manufacturers and installers offer payment plans. We recommend discussing your project requirements with us first so you have an accurate figure before exploring finance options.`,
+Many homeowners include entrance doors in broader renovation projects funded through home improvement loans, remortgage or savings. Some door manufacturers and installers offer payment plans. We recommend discussing your project requirements with us first so you have an accurate figure before exploring finance options. For a standalone overview of the cost factors involved, see our [steel front door cost UK](/steel-front-door-cost-uk) hub page.`,
 };
 
 export default post;

@@ -170,7 +170,7 @@ From initial consultation to completed installation, the typical timeline is eig
 
 ### Can steel doors replicate the look of traditional oak doors?
 
-Yes. Steel doors can be finished with timber-effect coatings that closely replicate the appearance of natural oak, and the panel configurations can be designed to match traditional proportions exactly. From the street, the door reads as a high-quality timber door. The difference lies in performance: SR3 security, zero maintenance, complete weather resistance and dimensional stability that timber cannot provide.`,
+Yes. Steel doors can be finished with timber-effect coatings that closely replicate the appearance of natural oak, and the panel configurations can be designed to match traditional proportions exactly. From the street, the door reads as a high-quality timber door. The difference lies in performance: SR3 security, zero maintenance, complete weather resistance and dimensional stability that timber cannot provide. For the full bespoke specification picture, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

@@ -185,7 +185,7 @@ For properties in prime London postcodes, an SR3-rated doorset certified to LPS 
 
 ### Do I need freeholder consent to replace my flat entrance door?
 
-In most cases, yes. The lease will specify responsibility for the door and whether alterations require consent. Even where the lease is ambiguous, obtaining written consent from the freeholder or management company before proceeding is strongly advisable. Flat entrance doors may also be subject to fire safety requirements that mandate specific ratings.`,
+In most cases, yes. The lease will specify responsibility for the door and whether alterations require consent. Even where the lease is ambiguous, obtaining written consent from the freeholder or management company before proceeding is strongly advisable. Flat entrance doors may also be subject to fire safety requirements that mandate specific ratings. For a borough-by-borough specification overview covering Belgravia, Mayfair, Hampstead and beyond, see our [luxury steel entrance door London](/luxury-steel-entrance-door-london) hub.`,
 };
 
 export default post;

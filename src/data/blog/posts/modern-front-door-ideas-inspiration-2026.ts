@@ -129,7 +129,7 @@ Arched top profiles, statement colours and oversized hardware can be applied to 
 
 ### How much do modern steel entrance doors cost?
 
-Bespoke steel entrance doors are priced according to specification — dimensions, design complexity, glazing, hardware and finishing. As individually manufactured architectural elements, they represent a different category of investment to mass-market alternatives. [Request an estimate](/design-estimate) for pricing based on your specific requirements and design preferences.`,
+Bespoke steel entrance doors are priced according to specification — dimensions, design complexity, glazing, hardware and finishing. As individually manufactured architectural elements, they represent a different category of investment to mass-market alternatives. [Request an estimate](/design-estimate) for pricing based on your specific requirements and design preferences. For the wider context of how design choices fit into a full bespoke specification, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

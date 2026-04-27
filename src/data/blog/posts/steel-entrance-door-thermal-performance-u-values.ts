@@ -146,7 +146,7 @@ A thermal break is a section of low-conductivity material (typically polyamide) 
 
 ### Will a steel entrance door help my EPC rating?
 
-A steel door with a U-value of 1.0 W/m2K or below contributes positively to SAP calculations and can improve the energy performance of the dwelling. While the entrance door is a relatively small element of the building envelope, upgrading from an old, uninsulated door to a thermally broken steel door delivers a measurable improvement in the overall dwelling emission rate.`,
+A steel door with a U-value of 1.0 W/m2K or below contributes positively to SAP calculations and can improve the energy performance of the dwelling. While the entrance door is a relatively small element of the building envelope, upgrading from an old, uninsulated door to a thermally broken steel door delivers a measurable improvement in the overall dwelling emission rate. For the full technical overview of how thermal break construction works in practice, see our [thermally broken steel front door](/thermally-broken-steel-front-door) page.`,
 };
 
 export default post;

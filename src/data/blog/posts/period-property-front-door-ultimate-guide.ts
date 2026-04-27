@@ -190,7 +190,7 @@ The architectural period is usually identifiable from a combination of construct
 
 ### Is a steel door heavier than the original timber door it replaces?
 
-Steel doors are heavier than standard timber doors, but this is managed through appropriate hinge specification. Heavy-duty concealed hinges or traditional butt hinges rated for the door weight are specified as part of the doorset design. The frame and surrounding structure are assessed during the professional survey to ensure they can support the complete assembly.`,
+Steel doors are heavier than standard timber doors, but this is managed through appropriate hinge specification. Heavy-duty concealed hinges or traditional butt hinges rated for the door weight are specified as part of the doorset design. The frame and surrounding structure are assessed during the professional survey to ensure they can support the complete assembly. For the full picture of what bespoke specification covers across every period style, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

@@ -224,7 +224,7 @@ This varies by area and authority. Many publish recommended palettes based on hi
 
 ### Does Secured by Design certification help with conservation area approval?
 
-Secured by Design certification is not a planning consideration per se, but conservation officers recognise the value of security performance. Demonstrating that the door achieves **SR3 security and Secured by Design** accreditation — without compromising heritage appearance — strengthens the case that the replacement represents an improvement over the existing door in all respects.`,
+Secured by Design certification is not a planning consideration per se, but conservation officers recognise the value of security performance. Demonstrating that the door achieves **SR3 security and Secured by Design** accreditation — without compromising heritage appearance — strengthens the case that the replacement represents an improvement over the existing door in all respects. For the wider bespoke specification picture, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

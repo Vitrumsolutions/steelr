@@ -110,7 +110,7 @@ Choose **timber** if you prioritise the natural grain and tactile quality of rea
 
 Choose **steel** if you want the **highest available security** (SR3 rated), zero maintenance, complete design freedom, superior long-term durability and a door that will perform consistently for decades.
 
-At SteelR, we manufacture bespoke steel entrance doors that deliver on every measure — SR3 security, Secured by Design accreditation, ISO 9001 certified quality and complete design freedom. Whether you want a door that replicates the warmth of traditional timber or a bold contemporary statement, we design and build it to your exact specification. Contact us to start the conversation.
+At SteelR, we manufacture bespoke steel entrance doors that deliver on every measure — SR3 security, Secured by Design accreditation, ISO 9001 certified quality and complete design freedom. Whether you want a door that replicates the warmth of traditional timber or a bold contemporary statement, we design and build it to your exact specification, with installations across [London](/areas/london), [Surrey](/areas/surrey) and the wider [Home Counties](/areas/buckinghamshire). For a fuller side-by-side of how steel compares against the main alternatives, see our [steel front door vs composite](/steel-front-door-vs-composite) hub. Contact us to start the conversation.
 
 ## Frequently Asked Questions
 

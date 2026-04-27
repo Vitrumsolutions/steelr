@@ -11,6 +11,18 @@ const footerLinks = [
   { href: "/contact", label: "Contact" },
 ];
 
+const topicLinks = [
+  { href: "/bespoke-steel-front-doors-uk", label: "Bespoke Doors" },
+  { href: "/luxury-steel-entrance-door-london", label: "London Luxury" },
+  { href: "/sr3-residential-steel-door", label: "SR3 Residential" },
+  { href: "/pas-24-steel-entrance-door", label: "PAS 24 Spec" },
+  { href: "/secured-by-design-steel-front-door", label: "Secured by Design" },
+  { href: "/thermally-broken-steel-front-door", label: "Thermal Performance" },
+  { href: "/steel-front-door-vs-composite", label: "vs Composite" },
+  { href: "/uk-steel-doors-vs-imported", label: "UK vs Imported" },
+  { href: "/steel-front-door-cost-uk", label: "Cost Guide" },
+];
+
 export default function Footer() {
   return (
     <footer className="bg-site-black py-16 px-6 md:px-16 ribbon-bg">
@@ -37,6 +49,42 @@ export default function Footer() {
               {link.label}
             </Link>
           ))}
+        </div>
+
+        {/* Topics column */}
+        <div className="flex flex-col items-center mt-10">
+          <h2
+            style={{
+              fontFamily: "var(--font-body), Montserrat, sans-serif",
+              fontWeight: 400,
+              fontSize: 9,
+              letterSpacing: "0.25em",
+              textTransform: "uppercase",
+              color: "rgba(201, 169, 110, 0.7)",
+              marginBottom: 14,
+            }}
+          >
+            Topics
+          </h2>
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 max-w-3xl">
+            {topicLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="link-gold-underline transition-colors duration-300 hover:text-cream"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 200,
+                  fontSize: 9,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "rgba(245, 240, 232, 0.5)",
+                }}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
         </div>
 
         {/* Contact */}

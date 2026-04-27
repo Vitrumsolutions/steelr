@@ -113,7 +113,7 @@ The best front door for home security combines:
 - **Secured by Design** accreditation for police-approved security
 - **Professional installation** to maintain the tested specification
 
-At SteelR, every entrance door meets all of these criteria as standard. Whether you are securing a London townhouse or a country home in the [Home Counties](/areas/surrey), we design and manufacture to the highest residential security specification available. Explore our [collection](/collection) to see the range of designs, then [contact us](/contact) to discuss your security requirements.
+At SteelR, every entrance door meets all of these criteria as standard. Whether you are securing a London townhouse or a country home in the [Home Counties](/areas/surrey), we design and manufacture to the highest residential security specification available. For a full technical breakdown of what BS EN 1627 Class 3 actually involves, see our [SR3 residential steel door](/sr3-residential-steel-door) page. Explore our [collection](/collection) to see the range of designs, then [contact us](/contact) to discuss your security requirements.
 
 ## Frequently Asked Questions
 

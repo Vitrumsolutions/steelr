@@ -186,7 +186,7 @@ Polyester powder coating is highly resistant to UV degradation. A properly appli
 
 ### What RAL colours are suitable for conservation areas?
 
-Conservation area colour requirements vary by local authority. Commonly approved heritage shades include RAL 6012 (black green), RAL 3007 (black red), RAL 9005 (jet black), RAL 8019 (grey brown) and RAL 7022 (umbra grey). Request your local authority's colour guidance before specifying, and use the RAL code to provide an unambiguous reference in your application.`,
+Conservation area colour requirements vary by local authority. Commonly approved heritage shades include RAL 6012 (black green), RAL 3007 (black red), RAL 9005 (jet black), RAL 8019 (grey brown) and RAL 7022 (umbra grey). Request your local authority's colour guidance before specifying, and use the RAL code to provide an unambiguous reference in your application. For the wider picture of how colour fits into a complete bespoke specification, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

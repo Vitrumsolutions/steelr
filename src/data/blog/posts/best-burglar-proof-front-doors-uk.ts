@@ -165,7 +165,7 @@ When every component is considered as a system — material strength, frame inte
 
 Our doors are manufactured under **ISO 9001** quality management, tested to SR3 under BS EN 1627:2011 and carry Secured by Design accreditation. Every door is built to order with the [full RAL colour range](/collection) available, ensuring that uncompromising security does not require compromise on design.
 
-A bespoke steel entrance door is the most effective single upgrade for residential security, combining SR3 certification with architectural design quality.
+A bespoke steel entrance door is the most effective single upgrade for residential security, combining SR3 certification with architectural design quality. For the police-preferred specification standard explained in detail, see our [Secured by Design steel front door](/secured-by-design-steel-front-door) overview.
 
 ## Frequently Asked Questions
 

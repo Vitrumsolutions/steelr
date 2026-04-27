@@ -122,7 +122,7 @@ Heritage replication in aluminium is improving (some manufacturers offer moulded
 
 ### Which material lasts longer in UK conditions?
 
-Both have long service lives, but steel edges aluminium for long-term dimensional stability. Aluminium can develop minor distortion over 30+ years on very large panels due to thermal expansion. Steel with thermal breaks stays dimensionally stable indefinitely. For a main front door under 1m wide, both will outlast the homeowner. For oversized or double-width configurations, steel is the safer long-term choice.`,
+Both have long service lives, but steel edges aluminium for long-term dimensional stability. Aluminium can develop minor distortion over 30+ years on very large panels due to thermal expansion. Steel with thermal breaks stays dimensionally stable indefinitely. For a main front door under 1m wide, both will outlast the homeowner. For oversized or double-width configurations, steel is the safer long-term choice. For a wider material comparison framework, see our [steel front door vs composite](/steel-front-door-vs-composite) hub page.`,
 };
 
 export default post;

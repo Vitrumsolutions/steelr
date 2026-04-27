@@ -160,7 +160,7 @@ For high-value Buckinghamshire properties, we recommend SR3 certification as the
 
 ### How do steel doors perform in the Chilterns weather?
 
-Steel doors with a powder-coated finish are exceptionally weather-resistant. Unlike timber, steel does not absorb moisture, warp or rot. The Chilterns experience significant rainfall and seasonal temperature variation, but a properly specified steel door with compression seals and thermal break technology performs consistently regardless of conditions.`,
+Steel doors with a powder-coated finish are exceptionally weather-resistant. Unlike timber, steel does not absorb moisture, warp or rot. The Chilterns experience significant rainfall and seasonal temperature variation, but a properly specified steel door with compression seals and thermal break technology performs consistently regardless of conditions. For the full bespoke specification picture, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

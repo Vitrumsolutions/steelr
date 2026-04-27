@@ -129,7 +129,7 @@ For developers, specifying from an ISO 9001 manufacturer provides an additional 
 
 The entrance door is where regulatory compliance and commercial value meet. A door that satisfies Part Q, Part L and Part B in a single tested product — while delivering the design quality that sells homes — is not an expense. It is an investment in build quality, sales velocity and long-term reputation.
 
-Developers who specify premium entrance doors consistently report that the uplift in perceived value exceeds the additional cost. The front door is the first thing a prospective buyer touches. It sets expectations for everything behind it.
+Developers who specify premium entrance doors consistently report that the uplift in perceived value exceeds the additional cost. The front door is the first thing a prospective buyer touches. It sets expectations for everything behind it. For a complete breakdown of the Approved Document Q baseline that every new-build door must meet, see our [PAS 24 steel entrance door](/pas-24-steel-entrance-door) specification.
 
 ## Frequently Asked Questions
 

@@ -60,7 +60,7 @@ With a bespoke steel door, you can specify different colours for the interior an
 ### Georgian townhouses
 Georgian proportions demand restraint. The architecture is symmetrical, the panel count is usually six, and the fanlight above the door is part of the composition. Colours that work:
 
-- **Black (RAL 9005)**: the default for London's Georgian stock. Pairs with brass ironmongery and a painted stucco frontage.
+- **Black (RAL 9005)**: the default for [London's](/areas/london) Georgian stock — particularly across [Kensington](/areas/kensington) and [Chelsea](/areas/chelsea). Pairs with brass ironmongery and a painted stucco frontage.
 - **Oxford blue (RAL 5003)**: a dignified alternative that reads almost black at distance and reveals its depth up close.
 - **British racing green (RAL 6009)**: traditional, confident, less common than black, particularly handsome against a cream stucco.
 - **Off-black charcoal (RAL 9017)**: slightly warmer than 9005, useful on facades where pure black reads too hard.
@@ -197,7 +197,7 @@ Most heritage paint brands publish RAL equivalents for their signature colours, 
 
 ### What hardware finish suits each door colour?
 
-Brass and unlacquered brass suit warm colours (black, navy, green, burgundy, olive, cream). Chrome, satin nickel and stainless steel suit cool colours (anthracite, charcoal, grey, off-white, dusty blue). Matt black hardware suits almost any colour and is particularly strong on bold reds, jewel tones and crisp whites. Aged bronze and antique brass suit heritage and period-authentic specifications.`,
+Brass and unlacquered brass suit warm colours (black, navy, green, burgundy, olive, cream). Chrome, satin nickel and stainless steel suit cool colours (anthracite, charcoal, grey, off-white, dusty blue). Matt black hardware suits almost any colour and is particularly strong on bold reds, jewel tones and crisp whites. Aged bronze and antique brass suit heritage and period-authentic specifications. For the wider picture of how colour fits into a full bespoke specification, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

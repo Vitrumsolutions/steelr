@@ -190,7 +190,7 @@ The decorative finish does not affect security performance. However, on a door c
 
 ### What hardware finish is best for a coastal property?
 
-Salt air accelerates corrosion on most metal finishes. PVD-coated hardware and marine-grade stainless steel offer the best resistance. Chrome performs reasonably well in coastal conditions. Unlacquered brass will patina rapidly and require frequent maintenance. Matt black powder coating holds up well provided it is not chipped or scratched.`,
+Salt air accelerates corrosion on most metal finishes. PVD-coated hardware and marine-grade stainless steel offer the best resistance. Chrome performs reasonably well in coastal conditions. Unlacquered brass will patina rapidly and require frequent maintenance. Matt black powder coating holds up well provided it is not chipped or scratched. For the wider context of how hardware fits into a complete bespoke specification, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) guide.`,
 };
 
 export default post;

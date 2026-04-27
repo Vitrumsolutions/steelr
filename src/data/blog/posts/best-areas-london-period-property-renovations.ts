@@ -143,7 +143,7 @@ Lead times typically run eight to twelve weeks from design sign-off to installat
 
 ## Start Your Renovation
 
-Whether you are restoring a Georgian townhouse in [Kensington](/areas/kensington) or upgrading a Victorian terrace in [Fulham](/areas/fulham), the entrance door sets the tone for the entire property. At SteelR, we design and manufacture bespoke steel entrance doors for period properties across London, every door SR3 rated, Secured by Design accredited and built under ISO 9001 certified quality management. [Contact us](/contact) to discuss your project.
+Whether you are restoring a Georgian townhouse in [Kensington](/areas/kensington) or upgrading a Victorian terrace in [Fulham](/areas/fulham), the entrance door sets the tone for the entire property. At SteelR, we design and manufacture bespoke steel entrance doors for period properties across London, every door SR3 rated, Secured by Design accredited and built under ISO 9001 certified quality management. For a borough-by-borough specification overview, see our [luxury steel entrance door London](/luxury-steel-entrance-door-london) guide, or [contact us](/contact) to discuss your project.
 
 ## Frequently Asked Questions
 

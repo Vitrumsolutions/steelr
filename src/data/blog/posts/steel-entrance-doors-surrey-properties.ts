@@ -136,7 +136,7 @@ Absolutely. Steel doors can be manufactured with traditional panel configuration
 
 ### Do you install steel entrance doors throughout Surrey?
 
-We manufacture and install bespoke steel entrance doors across Surrey, including [Esher](/areas/esher), [Weybridge](/areas/weybridge), [Cobham](/areas/cobham) and all surrounding areas. Each installation is carried out by our own trained fitting team, not subcontractors.`,
+We manufacture and install bespoke steel entrance doors across Surrey, including [Esher](/areas/esher), [Weybridge](/areas/weybridge), [Cobham](/areas/cobham) and all surrounding areas. Each installation is carried out by our own trained fitting team, not subcontractors. For the full bespoke specification picture, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

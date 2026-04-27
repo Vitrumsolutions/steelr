@@ -182,7 +182,7 @@ We believe in honest advice. Steel entrance doors are not the right choice for e
 - **DIY installation** — steel doors are heavy and require precision installation. If professional fitting is not an option, a lighter door material is safer
 - **Specific planning restrictions** — rare, but some conservation areas or listed building consents may specifically require timber. In most cases, steel that replicates timber appearance is acceptable, but check first
 
-For everyone else — homeowners who value security, durability, zero maintenance and long-term value — steel is the strongest choice in every sense of the word.
+For everyone else — homeowners who value security, durability, zero maintenance and long-term value — steel is the strongest choice in every sense of the word. For a fuller overview of what made-to-measure steel actually involves, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) guide.
 
 ## Making the Decision
 

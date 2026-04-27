@@ -192,7 +192,7 @@ Allow 8-12 weeks from confirmed order to delivery for a standard bespoke steel d
 
 ### Can I specify different colours for the internal and external faces?
 
-Yes. Dual-colour specification is standard practice for bespoke steel entrance doors. The external face is typically finished in the architect's specified RAL colour, while the internal face is finished to complement the interior scheme. Confirm the dual-colour requirement at specification stage as it affects the production sequence.`,
+Yes. Dual-colour specification is standard practice for bespoke steel entrance doors. The external face is typically finished in the architect's specified RAL colour, while the internal face is finished to complement the interior scheme. Confirm the dual-colour requirement at specification stage as it affects the production sequence. For the wider specification overview useful at NBS clause stage, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) reference page.`,
 };
 
 export default post;

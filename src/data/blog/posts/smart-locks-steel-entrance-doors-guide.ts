@@ -190,7 +190,7 @@ Yes, but only smart cylinders and smart handles designed to operate within a mul
 
 ### Which smart lock brand do you recommend for steel doors?
 
-We work with established UK security manufacturers whose smart cylinders are TS 007 three-star rated and compatible with our multipoint locking systems. The specific recommendation depends on your home automation platform and access preferences, which we discuss during the specification process.`,
+We work with established UK security manufacturers whose smart cylinders are TS 007 three-star rated and compatible with our multipoint locking systems. The specific recommendation depends on your home automation platform and access preferences, which we discuss during the specification process. For the regulatory baseline that any new-build smart-lock specification must meet, see our [PAS 24 steel entrance door](/pas-24-steel-entrance-door) overview.`,
 };
 
 export default post;

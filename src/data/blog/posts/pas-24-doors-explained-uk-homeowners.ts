@@ -163,7 +163,7 @@ No. PAS 24 tests physical security only. Fire resistance is assessed under separ
 
 ### What is the difference between PAS 24:2016 and PAS 24:2022?
 
-The 2022 revision updated certain test procedures and tightened requirements around cylinder security and letter plate manipulation resistance. Doors certified to the 2022 standard offer marginally improved protection, but the fundamental scope and tool set remain similar. The core limitation — that PAS 24 tests against opportunistic rather than professional attack — is unchanged.`,
+The 2022 revision updated certain test procedures and tightened requirements around cylinder security and letter plate manipulation resistance. Doors certified to the 2022 standard offer marginally improved protection, but the fundamental scope and tool set remain similar. The core limitation — that PAS 24 tests against opportunistic rather than professional attack — is unchanged. For a fuller technical breakdown of how SteelR meets and exceeds PAS 24, see our [PAS 24 steel entrance door specification](/pas-24-steel-entrance-door).`,
 };
 
 export default post;

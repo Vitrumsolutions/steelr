@@ -168,7 +168,7 @@ Yes. Any material change to your property's security should be reported to your 
 
 ### Is Secured by Design the same as PAS 24?
 
-No. PAS 24 is a British Standards Institution published document that sets the minimum security performance standard for doorsets. Secured by Design is a police-backed accreditation scheme that requires products to meet PAS 24 (or higher standards such as LPS 1175) plus additional requirements. Secured by Design is the broader, more recognised certification in the insurance market.`,
+No. PAS 24 is a British Standards Institution published document that sets the minimum security performance standard for doorsets. Secured by Design is a police-backed accreditation scheme that requires products to meet PAS 24 (or higher standards such as LPS 1175) plus additional requirements. Secured by Design is the broader, more recognised certification in the insurance market. For the full SBD specification picture, see our [Secured by Design steel front door](/secured-by-design-steel-front-door) page.`,
 };
 
 export default post;

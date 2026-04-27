@@ -164,7 +164,7 @@ No. Both materials require minimal maintenance — occasional cleaning with soap
 
 ### Do insurance companies differentiate between composite and steel doors?
 
-Increasingly, yes. Many insurers and particularly high-net-worth specialists recognise the difference between PAS 24 and SR3 security ratings. Properties with SR3-rated entrance doors may qualify for reduced premiums. Some underwriters now specifically ask about door security certification as part of their risk assessment, and **Secured by Design** accreditation carries additional weight in these assessments.`,
+Increasingly, yes. Many insurers and particularly high-net-worth specialists recognise the difference between PAS 24 and SR3 security ratings. Properties with SR3-rated entrance doors may qualify for reduced premiums. Some underwriters now specifically ask about door security certification as part of their risk assessment, and **Secured by Design** accreditation carries additional weight in these assessments. For a full side-by-side specification comparison, see our [steel front door vs composite](/steel-front-door-vs-composite) hub page.`,
 };
 
 export default post;

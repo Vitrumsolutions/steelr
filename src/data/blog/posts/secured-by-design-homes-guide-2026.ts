@@ -200,7 +200,7 @@ SBD Silver requires all external doors, windows and access points to meet the sp
 
 ### Can a door be both fire rated and Secured by Design?
 
-Yes. SteelR manufactures entrance doors that simultaneously achieve SR3 security certification, Secured by Design accreditation and FD30 or FD60 fire ratings. This dual certification is essential for apartment buildings, HMOs and developments subject to the Building Safety Act, where both security and fire resistance are regulatory requirements for the same door opening.`,
+Yes. SteelR manufactures entrance doors that simultaneously achieve SR3 security certification, Secured by Design accreditation and FD30 or FD60 fire ratings. This dual certification is essential for apartment buildings, HMOs and developments subject to the Building Safety Act, where both security and fire resistance are regulatory requirements for the same door opening. For a deeper specification overview, see our [Secured by Design steel front door](/secured-by-design-steel-front-door) hub page.`,
 };
 
 export default post;

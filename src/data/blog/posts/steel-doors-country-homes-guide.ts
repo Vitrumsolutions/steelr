@@ -193,7 +193,7 @@ Virtually none. An occasional wipe-down of the face with mild detergent, annual 
 
 A bespoke steel entrance door for a country property is an investment in security, durability and kerb appeal. For homeowners in areas like [Marlow](/areas/marlow), [Henley-on-Thames](/areas/henley-on-thames) or [Alderley Edge](/areas/alderley-edge), it is also a statement of intent — a signal that every detail of the property has been considered and executed to the highest standard.
 
-At SteelR, we design and manufacture bespoke steel entrance doors for country homes across the UK. Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management. [Contact us](/contact) to discuss your country home project.`,
+At SteelR, we design and manufacture bespoke steel entrance doors for country homes across the UK. Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management. For the full bespoke specification picture, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview, then [contact us](/contact) to discuss your country home project.`,
 };
 
 export default post;

@@ -160,7 +160,7 @@ Realistic lead times for a bespoke steel entrance door:
 
 The total timeline from first contact to installed door is typically **12 to 20 weeks**. If you are working to a fixed completion date — for a renovation, a property sale or a seasonal deadline — plan accordingly and begin the process early.
 
-Browse [our collection](/collection) for design inspiration, or [request an estimate](/design-estimate) to begin a conversation about your project.
+Browse [our collection](/collection) for design inspiration, [request an estimate](/design-estimate) to begin a conversation about your project, or read our broader [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview for the full specification picture.
 
 ## Frequently Asked Questions
 

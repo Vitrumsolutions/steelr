@@ -167,7 +167,7 @@ Steel doors offer inherent advantages for fire resistance. Steel does not combus
 
 ### What happens if my building has non-compliant fire doors?
 
-Non-compliant fire doors can result in enforcement action by the local fire authority, failure of building control inspections, invalidation of building insurance and, in the case of HMOs, refusal or revocation of the HMO licence. Under the Building Safety Act 2022, the Accountable Person has an ongoing duty to maintain fire safety measures, including fire doors, in a compliant condition.`,
+Non-compliant fire doors can result in enforcement action by the local fire authority, failure of building control inspections, invalidation of building insurance and, in the case of HMOs, refusal or revocation of the HMO licence. Under the Building Safety Act 2022, the Accountable Person has an ongoing duty to maintain fire safety measures, including fire doors, in a compliant condition. For the police-preferred specification baseline that pairs with FD30S in flatted developments, see our [Secured by Design steel front door](/secured-by-design-steel-front-door) overview.`,
 };
 
 export default post;
