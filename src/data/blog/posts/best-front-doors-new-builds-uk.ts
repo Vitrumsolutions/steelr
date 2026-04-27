@@ -81,7 +81,7 @@ The three primary materials for new build entrance doors in the UK are steel, co
 
 Steel doors represent the highest specification option. They achieve **SR3 security ratings**, FD30 or FD60 fire ratings and excellent thermal performance in a single product. The design flexibility is unmatched — any RAL colour, dual-colour finishes, bespoke panel designs, decorative glazing and period-appropriate or contemporary hardware.
 
-For premium developments where the asking price reflects quality throughout, steel entrance doors are the appropriate specification. SteelR's bespoke service is built around this segment — every door is manufactured in the UK to the developer's individual plot specification, with the same SR3 security and FD30S fire rating across the scheme.
+For premium developments where the asking price reflects quality throughout, steel entrance doors are the appropriate specification. SteelR's bespoke service is built around this segment. Every door is manufactured in the UK to the developer's individual plot specification, with the same SR3 security and FD30S fire rating across the scheme.
 
 ### Composite Doors
 
