@@ -560,7 +560,7 @@ export default async function DoorPage({ params }: Props) {
                         fill
                         quality={80}
                         className="object-cover"
-                        style={{ objectPosition: "center top" }}
+                        style={{ objectPosition: r.objectPosition ?? "center top" }}
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
                     </div>
