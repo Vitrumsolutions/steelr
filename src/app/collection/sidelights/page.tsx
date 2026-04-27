@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
 import ScrollReveal from "@/components/ScrollReveal";
 import { doors } from "@/data/doors";
@@ -42,6 +43,7 @@ const cardVariants = {
 };
 
 export default function SidelightsPage() {
+  const router = useRouter();
   const [lightbox, setLightbox] = useState<number | null>(null);
   const [direction, setDirection] = useState(0);
   const [imageLoaded, setImageLoaded] = useState<Record<string, boolean>>({});
@@ -177,9 +179,13 @@ export default function SidelightsPage() {
                   exit="exit"
                   className="flex flex-col"
                 >
+                  {/* Tap navigates to detail page; matches main collection
+                      grid behaviour and mobile e-commerce convention. */}
                   <div
-                    className="img-zoom relative aspect-[3/4] group"
-                    onClick={() => openLightbox(i)}
+                    className="img-zoom relative aspect-[3/4] group cursor-pointer"
+                    role="link"
+                    aria-label={`View ${img.title}`}
+                    onClick={() => router.push(`/collection/${img.slug}`)}
                   >
                     {/* Skeleton shimmer */}
                     {!imageLoaded[img.src] && (

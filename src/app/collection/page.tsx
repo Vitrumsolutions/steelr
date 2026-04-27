@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
 import ScrollReveal from "@/components/ScrollReveal";
 import { CredentialsStrip } from "@/components/CredentialsBanner";
@@ -39,6 +40,7 @@ const cardVariants = {
 };
 
 export default function CollectionPage() {
+  const router = useRouter();
   const [activeFilter, setActiveFilter] = useState("All");
   const [lightbox, setLightbox] = useState<number | null>(null);
   const [direction, setDirection] = useState(0);
@@ -170,9 +172,18 @@ export default function CollectionPage() {
                   exit="exit"
                   className="flex flex-col"
                 >
+                  {/* Tapping the card image navigates to the door's detail
+                      page (matches mobile e-commerce convention). The detail
+                      page has its own click-to-zoom modal for full-screen
+                      viewing. The grid-level lightbox is no longer triggered
+                      by image taps; the lightbox state machinery further
+                      down stays in place but is now dormant unless an
+                      explicit navigation calls openLightbox. */}
                   <div
-                    className="img-zoom relative aspect-[3/4] group"
-                    onClick={() => openLightbox(i)}
+                    className="img-zoom relative aspect-[3/4] group cursor-pointer"
+                    role="link"
+                    aria-label={`View ${img.title}`}
+                    onClick={() => router.push(`/collection/${img.slug}`)}
                   >
                     {/* Skeleton shimmer */}
                     {!imageLoaded[img.src] && (
