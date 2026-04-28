@@ -2,7 +2,7 @@
 /**
  * Brand-policy guard for SteelR content.
  *
- * Scans for two classes of violation:
+ * Scans for three classes of violation:
  *
  * 1. Displayed SteelR-attributed prices (£\d patterns) in protected paths.
  *    Per CLAUDE.md brand policy: "No displayed prices on cost pages or
@@ -12,9 +12,21 @@
  * 2. Brand-banned words: "affordable", "cheap", "best prices", "discount".
  *    Per CLAUDE.md: "Never use these. Brand is premium."
  *
+ * 3. Em-dashes / en-dashes used as sentence separators ("foo — bar" / "foo – bar").
+ *    Per CLAUDE.md house-style rule: "No em dashes or en dashes in captions, copy,
+ *    posts, blog, llms files, or any brand output. Use full stops, commas,
+ *    semicolons." Hard rule on NEW files only — modified files are out of
+ *    scope for this check because the pre-existing corpus contains ~960
+ *    em-dashes that need a separate manual content-rewrite pass. Full-repo
+ *    runs surface the backlog count as a warning (not a failure).
+ *
  * Modes:
  *   node scripts/brand-guard.mjs              # scan ALL protected files
+ *                                             # (DASH violations reported as warning)
  *   node scripts/brand-guard.mjs --staged     # scan only git-staged files
+ *                                             # (DASH violations are blocking on
+ *                                             # newly-added files only — modified
+ *                                             # files don't trigger DASH check)
  *
  * Exit codes:
  *   0 = clean (or all violations whitelisted)
@@ -22,6 +34,7 @@
  *
  * Opt-out (use sparingly):
  *   git commit -m "your message [allow-price]"   # bypasses the £ check
+ *   (no override exists for BANNED-WORD or DASH — fix the wording)
  *
  * Whitelisted patterns (legitimate, intentional):
  *   - "£1 million" / "£X million" property values (educational context)
@@ -118,6 +131,15 @@ const BANNED_WORD_WHITELIST_CONTEXT = [
   /What is the cheapest/i, // FAQ question echoing user search intent
 ];
 
+// Em-dash / en-dash patterns used as sentence separators or parenthetical
+// dashes. The leading and trailing whitespace constraint avoids hitting
+// hyphenated identifiers (e.g. "Cortizo COR-60") which use the ASCII -
+// character anyway, but belt-and-braces.
+const DASH_PATTERNS = [
+  /\s—\s/, // em-dash with whitespace either side
+  /\s–\s/, // en-dash with whitespace either side
+];
+
 // ---------- end configuration ----------
 
 const args = new Set(process.argv.slice(2));
@@ -132,6 +154,20 @@ function getStagedFiles() {
     return out.split("\n").filter(Boolean);
   } catch {
     return [];
+  }
+}
+
+function getStagedAddedFiles() {
+  // diff-filter=A: only files newly added in this commit. Modified files
+  // are excluded so the existing 960-em-dash backlog doesn't surprise-block
+  // commits that touch already-dashed files.
+  try {
+    const out = execSync("git diff --cached --name-only --diff-filter=A", {
+      encoding: "utf8",
+    });
+    return new Set(out.split("\n").filter(Boolean));
+  } catch {
+    return new Set();
   }
 }
 
@@ -163,7 +199,13 @@ function isProtected(path) {
   return PROTECTED_GLOBS.some((glob) => path.startsWith(glob.replace(/\/$/, "")));
 }
 
-function classifyMatches(filepath, content) {
+function classifyMatches(filepath, content, dashMode) {
+  // dashMode:
+  //   "block" — DASH violations are real failures (newly-added files in --staged,
+  //              or any file in non-staged mode where we want hard fail — we don't)
+  //   "warn"  — DASH violations recorded with severity DASH-WARN (informational,
+  //              non-blocking), used by full-repo scan to surface backlog count
+  //   "skip"  — DASH check disabled entirely (modified files in --staged mode)
   const violations = [];
   const lines = content.split("\n");
   const isHighRisk = HIGH_RISK_FILES.includes(filepath);
@@ -229,6 +271,21 @@ function classifyMatches(filepath, content) {
         }
       }
     }
+
+    // Em-dash / en-dash sentence separators: per-file mode
+    if (dashMode !== "skip") {
+      for (const pat of DASH_PATTERNS) {
+        if (pat.test(line)) {
+          violations.push({
+            file: filepath,
+            line: lineNo,
+            severity: dashMode === "block" ? "DASH" : "DASH-WARN",
+            rule: pat.toString(),
+            text: line.trim().slice(0, 140),
+          });
+        }
+      }
+    }
   }
 
   return violations;
@@ -244,6 +301,16 @@ if (targets.length === 0) {
   process.exit(0);
 }
 
+// Determine DASH check mode per file:
+//   --staged + newly-added file  → "block" (must be clean)
+//   --staged + modified file     → "skip"  (don't surprise-block dashed-corpus edits)
+//   no flag (full-repo scan)     → "warn"  (surface backlog count, don't fail)
+const stagedAdded = stagedOnly ? getStagedAddedFiles() : new Set();
+function dashModeFor(filepath) {
+  if (!stagedOnly) return "warn";
+  return stagedAdded.has(filepath) ? "block" : "skip";
+}
+
 const allViolations = [];
 for (const file of targets) {
   let content;
@@ -252,7 +319,7 @@ for (const file of targets) {
   } catch {
     continue; // file may have been deleted in this commit
   }
-  const v = classifyMatches(file, content);
+  const v = classifyMatches(file, content, dashModeFor(file));
   allViolations.push(...v);
 }
 
@@ -275,25 +342,41 @@ if (stagedOnly) {
 
 const blocking = allViolations.filter((v) => {
   if (v.severity === "BANNED-WORD") return true; // never overridable
+  if (v.severity === "DASH") return true; // never overridable (block mode only fires on new files)
+  if (v.severity === "DASH-WARN") return false; // informational, doesn't fail
   if (v.severity === "PRICE" && allowPriceOverride) return false;
   return true;
 });
 
-console.error("\n=== brand-guard violations ===\n");
-for (const v of allViolations) {
-  console.error(`[${v.severity}] ${v.file}:${v.line}`);
-  console.error(`    rule: ${v.rule}`);
-  console.error(`    text: ${v.text}`);
-  console.error("");
+const dashWarnCount = allViolations.filter((v) => v.severity === "DASH-WARN").length;
+
+// Print blocking + non-warn violations in detail. Dash-warn collapses to a
+// single summary line so the 960-instance backlog doesn't drown other output.
+const printable = allViolations.filter((v) => v.severity !== "DASH-WARN");
+if (printable.length > 0) {
+  console.error("\n=== brand-guard violations ===\n");
+  for (const v of printable) {
+    console.error(`[${v.severity}] ${v.file}:${v.line}`);
+    console.error(`    rule: ${v.rule}`);
+    console.error(`    text: ${v.text}`);
+    console.error("");
+  }
+}
+if (dashWarnCount > 0) {
+  console.error(`brand-guard: ${dashWarnCount} em-dash / en-dash use(s) found in pre-existing content (informational, non-blocking — see audit-data/em-dash-backlog-2026-04-28.md for cleanup plan).`);
 }
 
 if (blocking.length > 0) {
   console.error(`brand-guard: FAIL (${blocking.length} blocking violation${blocking.length === 1 ? "" : "s"}).`);
   console.error("");
   console.error("To bypass PRICE violations only, add [allow-price] to commit message.");
-  console.error("BANNED-WORD violations cannot be overridden — fix the wording.");
+  console.error("BANNED-WORD and DASH violations cannot be overridden — fix the wording.");
   process.exit(1);
 }
 
-console.log(`brand-guard: PASS with [allow-price] override (${allViolations.length} non-blocking).`);
+if (allowPriceOverride && allViolations.some((v) => v.severity === "PRICE")) {
+  console.log(`brand-guard: PASS with [allow-price] override (${allViolations.length} non-blocking).`);
+} else {
+  console.log(`brand-guard: PASS (${targets.length} files scanned, ${dashWarnCount} dash-warn ${dashWarnCount === 1 ? "match" : "matches"}, 0 blocking violations).`);
+}
 process.exit(0);

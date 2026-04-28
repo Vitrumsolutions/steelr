@@ -19,7 +19,9 @@ The `/thank-you` Google review CTA already exists on the page (lines 281-348 of 
 
 ## Next action
 
-SteelR has no in-Claude-scope loose ends. Next session should move to a different project. If/when SteelR perf is revisited, the work is **Hero framer-motion bundle directly** (the actual JS hot spot on home), not the Nav.
+The dominant content-cleanup task is the **em-dash backlog** — 1,065 sentence-separator em-dashes / en-dashes scattered across 43 files (37 blog posts, llms-full.txt, 3 location files, 2 area pages). This violates the CLAUDE.md house-style rule "no em dashes or en dashes in captions, copy, posts, blog, llms files". The 28 Apr session upgraded `scripts/brand-guard.mjs` to detect dashes (DASH severity, hard-block on newly-added files only — skips modified files so the existing backlog doesn't surprise-fail edits). Full-repo scan reports the count as informational warning. Cleanup plan + per-file counts at `audit-data/em-dash-backlog-2026-04-28.md`. Recommended phased approach: top-3 blog posts by count first (160 dashes / 14% of backlog), then remaining 34 posts, then non-blog surfaces last. Each dash needs a context-aware decision (period / comma / semicolon / restructure) — do not mass-replace.
+
+If/when SteelR perf is revisited, the work is **Hero framer-motion bundle directly** (the actual JS hot spot on home), not the Nav.
 
 User-managed items still outstanding:
 - 0 GMB reviews → blocks Maps 3-pack.
@@ -32,6 +34,7 @@ User-managed items still outstanding:
 
 ## Recent wins (last 14 days)
 
+- 2026-04-28 evening — **brand-guard upgraded with em-dash / en-dash detection**. New DASH severity blocks any newly-added file containing ` — ` or ` – ` as a separator. Modified files skip the dash check so the existing 1,065-instance backlog doesn't surprise-fail edits. Full-repo scan surfaces the backlog count as informational warning. Self-test (`scripts/brand-guard.test.mjs`) still passes all 4 cases. Backlog documented at `audit-data/em-dash-backlog-2026-04-28.md` with cleanup phasing.
 - 2026-04-28 — Closed SteelR Phase 5. 6 commits shipped (link pass, Topics footer, llms rebuild, brand presence, title fix, baseline). Perf-port attempted + reverted with full Lighthouse data. SteelR is back to locked baseline.
 - 2026-04-27 — Cross-project SEO audit pass landed 4 SteelR reports: `seo-full-audit-2026-04-27.md`, `llms-integrity-2026-04-27.md`, `schema-audit-2026-04-27.md`, `competitor-benchmark-2026-04-27.md`. 11 critical findings, all addressed.
 - 2026-04-27 evening — Mobile menu Approach 2 + a11y polish (`4fd5612`, `b523c62`); rank-tracker Windows + same-day rerun fixes (`edbe2ec`).
