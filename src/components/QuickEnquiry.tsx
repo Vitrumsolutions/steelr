@@ -2,6 +2,7 @@
 
 import { useState, FormEvent, useRef } from "react";
 import { useRouter } from "next/navigation";
+import FileUpload from "./FileUpload";
 
 declare global {
   interface Window {
@@ -39,6 +40,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
   const router = useRouter();
   const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
+  const [files, setFiles] = useState<File[]>([]);
   const formStartFired = useRef(false);
 
   const title =
@@ -80,24 +82,20 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
     }
 
     const form = e.currentTarget;
-    const data = {
-      name: (form.elements.namedItem("name") as HTMLInputElement).value,
-      phone: (form.elements.namedItem("phone") as HTMLInputElement).value,
-      postcode: (form.elements.namedItem("postcode") as HTMLInputElement).value,
-      email: "",
-      propertyType: "Not specified",
-      doorStyle: "To be discussed",
-      message: contextLabel ? `Enquiry from page about ${contextLabel}` : "",
-      source,
-      website: (form.elements.namedItem("website") as HTMLInputElement).value,
-    };
+    const fd = new FormData();
+    fd.append("name", (form.elements.namedItem("name") as HTMLInputElement).value);
+    fd.append("phone", (form.elements.namedItem("phone") as HTMLInputElement).value);
+    fd.append("postcode", (form.elements.namedItem("postcode") as HTMLInputElement).value);
+    fd.append("email", "");
+    fd.append("propertyType", "Not specified");
+    fd.append("doorStyle", "To be discussed");
+    fd.append("message", contextLabel ? `Enquiry from page about ${contextLabel}` : "");
+    fd.append("source", source);
+    fd.append("website", (form.elements.namedItem("website") as HTMLInputElement).value);
+    for (const f of files) fd.append("files", f, f.name);
 
     try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
+      const res = await fetch("/api/contact", { method: "POST", body: fd });
       const json = await res.json().catch(() => ({}));
 
       if (res.ok && json.success) {
@@ -313,6 +311,8 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                   }}
                 />
               </div>
+
+              <FileUpload files={files} onChange={setFiles} idPrefix={`qe-${source}`} compact />
 
               <button
                 type="submit"
