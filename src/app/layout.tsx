@@ -7,6 +7,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import TelClickTracker from "@/components/TelClickTracker";
 import { getAggregateRatingSchema } from "@/data/reviews";
 
 const cormorant = Cormorant_Garamond({
@@ -153,6 +154,7 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
         <GoogleAnalytics />
+        <TelClickTracker />
       </body>
     </html>
   );

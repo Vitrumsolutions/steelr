@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import { useRouter } from "next/navigation";
 
 const labelStyle = {
   fontFamily: "var(--font-body), Montserrat, sans-serif",
@@ -24,7 +25,8 @@ const inputStyle = {
 };
 
 export default function ContactForm() {
-  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const router = useRouter();
+  const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -40,6 +42,10 @@ export default function ContactForm() {
           data[key] = value.toString();
         }
       });
+
+      // Tag the lead with the form's source so the email subject becomes
+      // "New Enquiry [contact-page] - SteelR" (parity with QuickEnquiry).
+      data.source = "contact-page";
 
       // Capture lead source from URL
       if (typeof window !== "undefined") {
@@ -59,41 +65,16 @@ export default function ContactForm() {
       });
 
       if (res.ok) {
-        setStatus("success");
+        // Redirect to /thank-you so ThankYouTracking.tsx fires the GA4
+        // generate_lead event. Without this redirect (the previous inline
+        // success message) GA4 saw no conversion event from this form.
+        router.push("/thank-you?source=contact-page");
       } else {
         setStatus("error");
       }
     } catch {
       setStatus("error");
     }
-  }
-
-  if (status === "success") {
-    return (
-      <div className="flex flex-col items-start gap-4 py-12">
-        <h3
-          style={{
-            fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
-            fontWeight: 300,
-            fontSize: 32,
-            color: "#1a1a18",
-          }}
-        >
-          Thank you
-        </h3>
-        <p
-          style={{
-            fontFamily: "var(--font-body), Montserrat, sans-serif",
-            fontWeight: 300,
-            fontSize: 14,
-            lineHeight: 1.8,
-            color: "#6b5a42",
-          }}
-        >
-          We will be in touch shortly on the number provided.
-        </p>
-      </div>
-    );
   }
 
   return (
