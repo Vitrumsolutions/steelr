@@ -1,4 +1,11 @@
 import Image from "next/image";
+
+// Tiny 10x14 dark-warm JPEG (267 bytes) used as Next.js blur placeholder for
+// every image on this page. Eliminates the blank-pop while images load. The
+// colour matches SteelR's dark-warm aesthetic (rgb(42,42,40)) so it reads as
+// a deliberate placeholder rather than a flash of unrelated colour.
+const LOOKBOOK_BLUR =
+  "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAOAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIwAP//Z";
 import type { Metadata } from "next";
 import ScrollReveal from "@/components/ScrollReveal";
 import LookbookActions, { TrackedLink } from "./lookbook-actions";
@@ -190,6 +197,8 @@ export default function Lookbook() {
             alt="Navy panelled steel entrance door with chrome hardware"
             fill
             priority
+            placeholder="blur"
+            blurDataURL={LOOKBOOK_BLUR}
             sizes="100vw"
             style={{ objectFit: "cover", objectPosition: "center 40%" }}
           />
@@ -259,6 +268,9 @@ export default function Lookbook() {
                     height={1600}
                     sizes="(max-width: 900px) 100vw, 60vw"
                     className="lb-feature__img"
+                    priority={i < 2}
+                    placeholder="blur"
+                    blurDataURL={LOOKBOOK_BLUR}
                   />
                 </div>
                 <div className="lb-feature__text">
@@ -280,6 +292,9 @@ export default function Lookbook() {
             src="/images/hero/steelr-black-ornate-medallion-stone.jpg"
             alt="Black ornate steel door set within stone surround"
             fill
+            priority
+            placeholder="blur"
+            blurDataURL={LOOKBOOK_BLUR}
             sizes="100vw"
             style={{ objectFit: "cover" }}
           />
@@ -323,7 +338,7 @@ export default function Lookbook() {
               {group.doors.map((d) => (
                 <ScrollReveal key={d.src} direction="up" delay={0.05}>
                   <figure className="lb-tile">
-                    <Image src={d.src} alt={d.alt} width={800} height={1200} sizes="(max-width: 900px) 50vw, 30vw" className="lb-tile__img" />
+                    <Image src={d.src} alt={d.alt} width={800} height={1200} sizes="(max-width: 900px) 50vw, 30vw" className="lb-tile__img" placeholder="blur" blurDataURL={LOOKBOOK_BLUR} />
                     <figcaption className="lb-tile__cap">{d.title}</figcaption>
                   </figure>
                 </ScrollReveal>
@@ -362,7 +377,7 @@ export default function Lookbook() {
                 <div className="lb-colour__images">
                   {family.doors.map((d) => (
                     <div className="lb-colour__image" key={d.src}>
-                      <Image src={d.src} alt={d.alt} width={600} height={900} sizes="(max-width: 900px) 33vw, 20vw" className="lb-tile__img" />
+                      <Image src={d.src} alt={d.alt} width={600} height={900} sizes="(max-width: 900px) 33vw, 20vw" className="lb-tile__img" placeholder="blur" blurDataURL={LOOKBOOK_BLUR} />
                     </div>
                   ))}
                 </div>
@@ -394,7 +409,7 @@ export default function Lookbook() {
           {hardwareDetails.map((d) => (
             <ScrollReveal key={d.src} direction="up">
               <figure className="lb-detail">
-                <Image src={d.src} alt={d.alt} width={800} height={1000} sizes="(max-width: 900px) 100vw, 33vw" className="lb-detail__img" />
+                <Image src={d.src} alt={d.alt} width={800} height={1000} sizes="(max-width: 900px) 100vw, 33vw" className="lb-detail__img" placeholder="blur" blurDataURL={LOOKBOOK_BLUR} />
                 <figcaption className="lb-detail__cap">{d.label}</figcaption>
               </figure>
             </ScrollReveal>

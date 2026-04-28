@@ -39,13 +39,33 @@ const heroImages = [
 
 const CYCLE_DURATION = 12000;
 const LOGO_FADE_IN_START = 8000;
+// Rotation auto-stops after this elapsed time. With CYCLE_DURATION=12s the
+// visitor sees ~5 images during this window, plenty of variety without
+// burning compositor cycles for the rest of the session. Stops the
+// background CPU/battery cost of crossfade + Ken Burns animation that
+// would otherwise keep firing as long as the page stays open.
+const ROTATION_STOP_AFTER = 60000;
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
   const [previous, setPrevious] = useState<number | null>(null);
   const [showLogo, setShowLogo] = useState(false);
+  const [rotationActive, setRotationActive] = useState(true);
+
+  // One-shot stop timer. Flips rotationActive false after ROTATION_STOP_AFTER,
+  // which causes the rotation effect below to bail and stop creating new
+  // intervals.
+  useEffect(() => {
+    const stopTimer = setTimeout(
+      () => setRotationActive(false),
+      ROTATION_STOP_AFTER
+    );
+    return () => clearTimeout(stopTimer);
+  }, []);
 
   useEffect(() => {
+    if (!rotationActive) return;
+
     const timer = setInterval(() => {
       setPrevious(current);
       setCurrent((prev) => (prev + 1) % heroImages.length);
@@ -60,7 +80,7 @@ export default function Hero() {
       clearInterval(timer);
       clearTimeout(logoTimer);
     };
-  }, [current]);
+  }, [current, rotationActive]);
 
   useEffect(() => {
     if (previous === null) return;
