@@ -28,6 +28,7 @@ npm-debug.log*
 # claude code local state
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
+.claude/agents/
 .claude/skills/
 .claude/worktrees/
 
