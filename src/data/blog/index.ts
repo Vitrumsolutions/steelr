@@ -53,6 +53,7 @@ import sr4Lps1175CommercialGradeResidential from "./posts/sr4-lps-1175-commercia
 import luxuryFrontDoorsUkBuyerGuide from "./posts/luxury-front-doors-uk-buyer-guide";
 
 import type { BlogPost } from "./types";
+import steelFrontDoorsWithSidelightsUkBuyersGuide from "./posts/steel-front-doors-with-sidelights-uk-buyers-guide";
 
 // Sorted by date descending (newest first) so the latest posts appear first
 // in the blog listing and "related posts" sections.
@@ -97,6 +98,7 @@ export const posts: BlogPost[] = [
   springHomeImprovementFrontDoorUpgrade,
   securedByDesignHomesGuide2026,
   sr4Lps1175CommercialGradeResidential,
+  steelFrontDoorsWithSidelightsUkBuyersGuide,
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
