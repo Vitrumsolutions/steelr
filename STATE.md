@@ -1,53 +1,30 @@
-# STATE — SteelR
-
-**Last updated:** 2026-04-28 (post-audit-execution + perf-port revert)
-**Priority:** P0
-**Branch:** `main` at `ecf03dc`. Audit findings from 27 Apr executed cleanly, perf-port attempted then reverted with evidence.
+# SteelR — STATE
 
 ## Where I left off
-
-SteelR audit execution closed. The 27 Apr findings (5 critical SEO, 6 llms drift, 4 competitor) were addressed in sequence over this session:
-
-- **Internal linking + Topics footer** (`183755f` + `c7d22a0`) — every blog post now links to a Phase 1D hub, every blog has 1-3 area links, Footer ships a 10-entry Topics column with proper h3 hierarchy.
-- **llms-full.txt rebuilt** (`021cb1c`) via the `/panel-llms` + `/panel-llms-approve` SHA gate — 7 wrong-region slugs fixed, 12 wrong subtotals corrected, "172 → 177" and "45 → 40" stale claims fixed.
-- **Brand presence on blogs** (`5bd01e1` + `638637b`) — every one of the 40 posts now has at least 2 SteelR mentions in body copy, no em dashes added.
-- **Buckinghamshire title pattern fix** (`875df5e`) — area pages now lead with `Steel Doors [Town]` and demote SR4 LPS 1175 from front to end. Targets the #4 → #10 regression.
-- **Lighthouse mobile baseline locked** (`e0e850c`) — home 74 / london 56 / blog 65 captured against live prod.
-- **Vitrums perf playbook port attempted then reverted** — commits `a1da13d` (Nav split) + `563ada2` (defer ScrollProgress) regressed home -15 / blog -11 (TBT +604ms / +1483ms) while improving london +7. Reverted in `8a74a6c` + `92bfc5d`. Postmortem at `audit-data/perf-port-postmortem-2026-04-28.md`.
-
-The `/thank-you` Google review CTA already exists on the page (lines 281-348 of `src/app/thank-you/page.tsx`) — was on the open-options list incorrectly.
+Session of 2026-04-27 → 2026-04-28 closed two GA4 attribution gaps surfaced by an audit. Shipped commit `cb58d14` ("GA4 tracking: capture phone clicks + tag full ContactForm submissions") — adds a site-wide `TelClickTracker` and redirects `/contact` form submissions to `/thank-you?source=contact-page` so `generate_lead` actually fires. A parallel session then shipped `cc627eb` (file upload on both enquiry forms + optional selects), prompted by SteelR's first website lead asking about an attached file. Vitrums received the same tracking parity at commit `5d3b098`. Audit findings: 0/20 customer-language Google rankings (Latham's, Domadeco, Modern-Doors dominate), 2 named AI citations on category-authority queries, GA4 28-day window had 36 sessions / 91.67% Direct / 0 key events fired.
 
 ## Next action
-
-The dominant content-cleanup task is the **em-dash backlog** — 1,065 sentence-separator em-dashes / en-dashes scattered across 43 files (37 blog posts, llms-full.txt, 3 location files, 2 area pages). This violates the CLAUDE.md house-style rule "no em dashes or en dashes in captions, copy, posts, blog, llms files". The 28 Apr session upgraded `scripts/brand-guard.mjs` to detect dashes (DASH severity, hard-block on newly-added files only — skips modified files so the existing backlog doesn't surprise-fail edits). Full-repo scan reports the count as informational warning. Cleanup plan + per-file counts at `audit-data/em-dash-backlog-2026-04-28.md`. Recommended phased approach: top-3 blog posts by count first (160 dashes / 14% of backlog), then remaining 34 posts, then non-blog surfaces last. Each dash needs a context-aware decision (period / comma / semicolon / restructure) — do not mass-replace.
-
-If/when SteelR perf is revisited, the work is **Hero framer-motion bundle directly** (the actual JS hot spot on home), not the Nav.
-
-User-managed items still outstanding:
-- 0 GMB reviews → blocks Maps 3-pack.
-- Bing 0/15 organic → recovery in flight, IndexNow live, expected mid-late May.
+- Off-page domain authority / backlink work — confirmed bottleneck from the customer-language audit. Highest-leverage open task.
+- Wait for next inbound lead and verify `generate_lead` fires correctly in GA4 with `source` tag (validates the `cb58d14` fix end-to-end).
+- Clear the small queued-jobs backlog: customer-language keyword set into `audit-data/rank-tracker.py`, `datetime.utcnow()` deprecation, soft Nav.tsx focus trap.
 
 ## Blockers
-
-- 0 GMB reviews → user-managed; the on-site review CTA on `/thank-you` is shipped and ready to support outreach.
-- Domain authority lag → 3-week-old domain vs 5-15 year competitors. No quick fix.
+- 0 GMB reviews still the Maps 3-pack blocker — user-managed, do not re-suggest.
+- Bing post-migration indexing lag continues; recovery expected mid-late May 2026.
+- Domain authority is the structural ceiling on Google organic; no on-page fix will close it.
 
 ## Recent wins (last 14 days)
-
-- 2026-04-28 evening — **brand-guard upgraded with em-dash / en-dash detection**. New DASH severity blocks any newly-added file containing ` — ` or ` – ` as a separator. Modified files skip the dash check so the existing 1,065-instance backlog doesn't surprise-fail edits. Full-repo scan surfaces the backlog count as informational warning. Self-test (`scripts/brand-guard.test.mjs`) still passes all 4 cases. Backlog documented at `audit-data/em-dash-backlog-2026-04-28.md` with cleanup phasing.
-- 2026-04-28 — Closed SteelR Phase 5. 6 commits shipped (link pass, Topics footer, llms rebuild, brand presence, title fix, baseline). Perf-port attempted + reverted with full Lighthouse data. SteelR is back to locked baseline.
-- 2026-04-27 — Cross-project SEO audit pass landed 4 SteelR reports: `seo-full-audit-2026-04-27.md`, `llms-integrity-2026-04-27.md`, `schema-audit-2026-04-27.md`, `competitor-benchmark-2026-04-27.md`. 11 critical findings, all addressed.
-- 2026-04-27 evening — Mobile menu Approach 2 + a11y polish (`4fd5612`, `b523c62`); rank-tracker Windows + same-day rerun fixes (`edbe2ec`).
-- 2026-04-27 AM — Worktree-safe hooks (`38f713d`), llms drift initial fix to 161/16/177/40 (`6841ff3`), 3 blog posts staged (`ceeb4f3`), panel-llms SHA gate (`a77b256`).
-- 2026-04-25 — GA4 site-wide live (`c95cfce`); reviews SSoT + thank-you review CTA (`35eb0a9`); brand-guard pre-commit + `/preflight` (`582208e`).
+- 2026-04-28 — GA4 attribution gaps closed: `TelClickTracker` site-wide + `/contact` redirect to `/thank-you` (commit `cb58d14`). Vitrums parity at `5d3b098`.
+- 2026-04-28 — File upload added to both enquiry forms after first website lead asked about attachments (commit `cc627eb`).
+- 2026-04-27 — Customer-language Google + AI search audits run; AI engines confirmed strongest channel (2 named citations on category-authority queries).
+- 2026-04-27 — Em-dash / en-dash detection added to brand-guard (commit `6d28d5c`).
+- 2026-04-27 — Rank-tracker Windows Unicode crash + same-day re-run comparison fixed (commit `edbe2ec`).
+- 2026-04-27 — Mobile menu a11y polish: Esc-to-close, dialog semantics, focus management (commits `b523c62`, `4fd5612`).
 
 ## Key files
-
-- `audit-data/perf-port-postmortem-2026-04-28.md` — why the Vitrums playbook regressed home/blog on SteelR. Read before any future Nav refactor.
-- `audit-data/lighthouse-baseline-2026-04-28.json` — locked perf baseline (home 74 / london 56 / blog 65).
-- `audit-data/seo-full-audit-2026-04-27.md` — original 5 critical findings; all addressed.
-- `audit-data/llms-integrity-2026-04-27.md` — original 6 drift issues; rebuilt via 021cb1c.
-- `src/app/thank-you/page.tsx` — Google review CTA lines 281-348; already live.
-- `public/llms-full.txt` — Full Area Page Listing now matches source-of-truth. SHA-gated; only edit via `/panel-llms` + `/panel-llms-approve`.
-- `src/components/Footer.tsx` — Topics column with 10 Phase 1D hubs + h3 heading.
-- `src/data/blog/posts/*.ts` — every post has 2+ SteelR mentions; brand-guard enforces no banned-word regressions.
+- `src/components/TelClickTracker.tsx` — document-level click listener firing GA4 `phone_click` for any `a[href^=tel:]`. Mounted once in `layout.tsx`.
+- `src/components/ContactForm.tsx` — full enquiry form; now redirects to `/thank-you?source=contact-page` and tags POST body with `source`.
+- `src/components/FileUpload.tsx` — new attachment widget, used by ContactForm + QuickEnquiry.
+- `src/app/thank-you/ThankYouTracking.tsx` — fires GA4 `generate_lead`; the endpoint every conversion now lands on.
+- `audit-data/visibility-audit.py` + `audit-data/rank-tracker.py` — visibility + rank tooling. `datetime.utcnow()` deprecation still pending.
+- `public/llms.txt` + `public/llms-full.txt` — gated by `/panel-llms` + `/panel-llms-approve`; do not edit without running the panel first.
