@@ -1,47 +1,50 @@
 # STATE — SteelR
 
-**Last updated:** 2026-04-27 (evening session)
+**Last updated:** 2026-04-28 (post-audit-execution + perf-port revert)
 **Priority:** P0
-**Branch:** `main` at `edbe2ec`. Three commits since last refresh: `4fd5612`, `b523c62`, `edbe2ec`.
+**Branch:** `main` at `ecf03dc`. Audit findings from 27 Apr executed cleanly, perf-port attempted then reverted with evidence.
 
 ## Where I left off
 
-Three commits shipped to main, plus two read-only search-visibility audits.
+SteelR audit execution closed. The 27 Apr findings (5 critical SEO, 6 llms drift, 4 competitor) were addressed in sequence over this session:
 
-- `4fd5612` — Mobile menu Approach 2 in `src/components/Nav.tsx`. `transition-all` → `transition-opacity` (fixes second-click stuck-invisible bug), geometry rebalance (item fontSize 32→26, gap 8/10→6/8, paddingBottom 32→64), tel link promoted to gold #c9a96e + fontSize 16 + mt-12, hamburger 32→44px, backdrop-tap-close, `aria-expanded`/`aria-controls`, inner-content `stopPropagation`. Verified at 375x812 across 3 open/close cycles.
-- `b523c62` — Mobile menu a11y polish: Esc-to-close, `role="dialog"` + `aria-modal` + `aria-label` + `aria-hidden`, focus management (`hamburgerRef` + `firstMenuLinkRef` + `prevMenuOpenRef` initial-mount guard), tel-link aria-labels, `tabIndex` flip alongside `aria-hidden` (WCAG 4.1.2). Static a11y review: PASS (was WARN), only soft "no focus trap" warning remains — not WCAG 2.2 AA mandated.
-- `edbe2ec` — `audit-data/rank-tracker.py` Windows fixes: ASCII-only output (em dash / middle dot / arrow / check mark all encoded outside cp1252), and `latest_prev_snapshot()` accepts `exclude` arg so same-day re-runs don't compare a file against itself. Rank-history `2026-04-27.json` now contains real Serper data (replacing the morning's 403 snapshot).
+- **Internal linking + Topics footer** (`183755f` + `c7d22a0`) — every blog post now links to a Phase 1D hub, every blog has 1-3 area links, Footer ships a 10-entry Topics column with proper h3 hierarchy.
+- **llms-full.txt rebuilt** (`021cb1c`) via the `/panel-llms` + `/panel-llms-approve` SHA gate — 7 wrong-region slugs fixed, 12 wrong subtotals corrected, "172 → 177" and "45 → 40" stale claims fixed.
+- **Brand presence on blogs** (`5bd01e1` + `638637b`) — every one of the 40 posts now has at least 2 SteelR mentions in body copy, no em dashes added.
+- **Buckinghamshire title pattern fix** (`875df5e`) — area pages now lead with `Steel Doors [Town]` and demote SR4 LPS 1175 from front to end. Targets the #4 → #10 regression.
+- **Lighthouse mobile baseline locked** (`e0e850c`) — home 74 / london 56 / blog 65 captured against live prod.
+- **Vitrums perf playbook port attempted then reverted** — commits `a1da13d` (Nav split) + `563ada2` (defer ScrollProgress) regressed home -15 / blog -11 (TBT +604ms / +1483ms) while improving london +7. Reverted in `8a74a6c` + `92bfc5d`. Postmortem at `audit-data/perf-port-postmortem-2026-04-28.md`.
 
-Two audits, no code shipped. **Search rank audit:** SteelR ranks 0/20 on customer-language steel-door queries (category owned by lathamssteeldoors, domadeco, modern-doors), 0/4 Maps in London/Surrey, #1 only on direct brand match (`steelr.co.uk`, `SteelR Uxbridge`) — Google still parses "SteelR doors" as generic "steel doors". **AI search audit:** 2 named citations + 1 quoted-without-name + 3 misses on 6 clean queries. Cited FIRST on category-authority and SR3/PAS-24 spec queries. Confirms AI engines remain SteelR's strongest channel and the llms.txt Authority + Technical Glossary investment is paying off.
+The `/thank-you` Google review CTA already exists on the page (lines 281-348 of `src/app/thank-you/page.tsx`) — was on the open-options list incorrectly.
 
 ## Next action
 
-**Highest leverage based on the 27 Apr audit data: domain authority / off-page work.** The 0/20 customer-language rank result is a 3-week-old domain vs. 5-15 year competitors gap, not an on-page SEO gap. Pick one:
+SteelR has no in-Claude-scope loose ends. Next session should move to a different project. If/when SteelR perf is revisited, the work is **Hero framer-motion bundle directly** (the actual JS hot spot on home), not the Nav.
 
-- Backlink campaign — get SteelR mentioned with proper-noun spelling on architectural / luxury-home publications. Drives both ranking and brand-entity recognition (which fixes the "SteelR doors" → generic "steel doors" parsing).
-- Surrey Maps push — local-pack competitors are weaker than London (general installers, not steel specialists). Smaller gap to top 3 once first GBP review lands.
-
-Optional small jobs (each ~5-15 min): add customer-language keyword set to rank-tracker; fix `datetime.utcnow()` deprecation; add Nav.tsx focus trap (soft a11y, not blocker).
+User-managed items still outstanding:
+- 0 GMB reviews → blocks Maps 3-pack.
+- Bing 0/15 organic → recovery in flight, IndexNow live, expected mid-late May.
 
 ## Blockers
 
-- 0 GMB reviews still blocking Maps 3-pack — user-managed.
-- Bing post-migration indexing lag — expected through mid-late May.
-- Domain authority lag — 3-week-old domain ranking against 5-15 year competitors. No quick fix; needs sustained off-page work.
+- 0 GMB reviews → user-managed; the on-site review CTA on `/thank-you` is shipped and ready to support outreach.
+- Domain authority lag → 3-week-old domain vs 5-15 year competitors. No quick fix.
 
 ## Recent wins (last 14 days)
 
-- 2026-04-27 evening — Mobile menu Approach 2 + a11y polish shipped (`4fd5612`, `b523c62`); rank-tracker Windows + same-day-rerun bugs fixed (`edbe2ec`); search + AI audits run (no commits, findings in this STATE).
-- 2026-04-27 — Image fixes: 4:5 grid crop, click-to-zoom modal, tap-card → detail page, per-door `objectPosition`/`unoptimized` overrides (12 commits).
-- 2026-04-27 AM — Worktree-safe hooks (`38f713d`), llms drift fix to 161/16/177/40 (`6841ff3`), 3 blog posts staged (`ceeb4f3`), panel-llms SHA gate (`a77b256`).
+- 2026-04-28 — Closed SteelR Phase 5. 6 commits shipped (link pass, Topics footer, llms rebuild, brand presence, title fix, baseline). Perf-port attempted + reverted with full Lighthouse data. SteelR is back to locked baseline.
+- 2026-04-27 — Cross-project SEO audit pass landed 4 SteelR reports: `seo-full-audit-2026-04-27.md`, `llms-integrity-2026-04-27.md`, `schema-audit-2026-04-27.md`, `competitor-benchmark-2026-04-27.md`. 11 critical findings, all addressed.
+- 2026-04-27 evening — Mobile menu Approach 2 + a11y polish (`4fd5612`, `b523c62`); rank-tracker Windows + same-day rerun fixes (`edbe2ec`).
+- 2026-04-27 AM — Worktree-safe hooks (`38f713d`), llms drift initial fix to 161/16/177/40 (`6841ff3`), 3 blog posts staged (`ceeb4f3`), panel-llms SHA gate (`a77b256`).
 - 2026-04-25 — GA4 site-wide live (`c95cfce`); reviews SSoT + thank-you review CTA (`35eb0a9`); brand-guard pre-commit + `/preflight` (`582208e`).
-- 2026-04-23 — 18 URLs Indexing API push; `/ai-answers` HTML page; Serper visibility scan (steel-vs-composite NEW at #5).
 
 ## Key files
 
-- `src/components/Nav.tsx` — mobile menu shipped (Approach 2 + a11y). Optional focus trap is the only deferred item.
-- `audit-data/rank-tracker.py` — fixed for Windows + same-day reruns. Next polish: customer-language keyword set + `datetime.utcnow()` deprecation.
-- `audit-data/rank-history/2026-04-27.json` — real Serper baseline. Next run will compare against this.
-- `public/llms.txt` + `public/llms-full.txt` — confirmed driving AI citations on category-authority queries; protect on any future content change.
-- `src/data/blog/staged/` — 3 posts queued for Tue 28 Apr / Thu 30 Apr / Sun 3 May cron fires.
-- `MARKETING-COPY.md` — directory-listing + outreach copy ready when off-page campaign starts.
+- `audit-data/perf-port-postmortem-2026-04-28.md` — why the Vitrums playbook regressed home/blog on SteelR. Read before any future Nav refactor.
+- `audit-data/lighthouse-baseline-2026-04-28.json` — locked perf baseline (home 74 / london 56 / blog 65).
+- `audit-data/seo-full-audit-2026-04-27.md` — original 5 critical findings; all addressed.
+- `audit-data/llms-integrity-2026-04-27.md` — original 6 drift issues; rebuilt via 021cb1c.
+- `src/app/thank-you/page.tsx` — Google review CTA lines 281-348; already live.
+- `public/llms-full.txt` — Full Area Page Listing now matches source-of-truth. SHA-gated; only edit via `/panel-llms` + `/panel-llms-approve`.
+- `src/components/Footer.tsx` — Topics column with 10 Phase 1D hubs + h3 heading.
+- `src/data/blog/posts/*.ts` — every post has 2+ SteelR mentions; brand-guard enforces no banned-word regressions.

@@ -34,6 +34,9 @@ npm-debug.log*
 # automation artefacts (playwright/screenshots)
 .playwright-mcp/
 dashboard-*.png
+cycle-*.png
+mobile-menu-*.png
+v3-*.png
 
 # old audit artefacts
 audit-2026-04-18/
