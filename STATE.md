@@ -1,41 +1,43 @@
 # SteelR — STATE
 
 ## Where I left off
-Crossed midnight UTC during a long 2026-04-28 session. Two parallel tracks shipped: a perf commit on `main`, and a non-code email/DNS migration that is the session's headline.
+Big 29 Apr session. 8 commits, all on `origin/main`. The headline is a supplier-truth correction round across the public surfaces plus a new LPS 1673 topic page targeting the small high-threat residential audience.
 
-- **Email infrastructure migrated from ImprovMX to native Google Workspace.** `steelr.co.uk` is now a User Alias Domain attached to the existing Supply Windows Workspace, so `info@steelr.co.uk` is a real Workspace identity (not a forwarder) automatically owned by Mani's `info@supplywindows.co.uk` user. At Fasthosts: ImprovMX MX records removed (`mx1.improvmx.com` p10, `mx2.improvmx.com` p20), Workspace MX `smtp.google.com` p1 added at apex, Resend bounce path `feedback-smtp.eu-west-1.amazonses.com` p10 on host `send` preserved. SPF rewritten `v=spf1 include:_spf.google.com include:send.resend.com ~all` (dropped obsolete `spf.improvmx.com`). Workspace verification via TXT `google-site-verification=3OqK8eU3-aH3N55LO5iJqgoiCoudWqKRgLZCBAQmZR8` + CNAME `3xz25apru7go` → `gv-pkhhlzvnm6j6rf.dv.googlehosted.com`. Pre-existing GSC TXT `IgU2k7Tl...` preserved. DNS verified globally via 8.8.8.8 + 1.1.1.1.
-- **Transactional flow re-tested post-swap:** POST `https://steelr.co.uk/api/contact` returned `{"success":true}` HTTP 200, lead notification accepted by Resend and routed via Workspace to the supplywindows mailbox.
-- **`a767d70` — Hero perf.** Stop hero rotation after 60s, add blur placeholders, set `priority` on the lookbook page hero. Touches `Hero.tsx` + lookbook `page.tsx`.
-- **Letterhead generator (uncommitted).** Local `scripts/generate-letterhead.mjs` plus two PNG logo assets produced `C:\Users\SOT\Documents\SteelR-Letterhead-v3.docx` (logo darkened to pure black, footer reduced to user's 5 items). Open in Word as of session end. Not staged — leave for human partner.
+- **Composite-vs-steel cannibalisation closed.** Blog merged into `/steel-front-door-vs-composite` hub with U-value ranges, sustainability, insurer FAQ; two 308 redirects in `next.config.mjs`, no chains. Blog count 41 → 40 (`470bbdf`).
+- **llms drift reconciled.** 161 leaf areas + 16 hubs = 177 total, 60 doors, 40 published guides. 6 orphan refs to deleted composite blog purged via `backfill-llms-full.mjs`. SHA-marker panel gate passed (`87d91d6`).
+- **Hosting modernised.** A record → `216.198.79.1`, CNAME www → per-project `ae52195cfb899090.vercel-dns-017.com` in Fasthosts. Vercel www-redirect flipped 307 → 308. CLAUDE.md refreshed (`7a035c9`).
+- **Three site-wide overclaim corrections (`5293a62`).** Warranty: "25yr structural / 10yr hardware" → "10yr construction / 5yr finish / 3yr hardware (extended packages on request)". U-value: "0.87 to 1.0 W/m²K standard" → "typically from 1.5 W/m²K standard, thermal-upgrade as low as 0.8". Core: "polyurethane-injected" → "insulated core (mineral wool or polyurethane)". Lookbook fix: 7 `Image` components got `unoptimized` to bypass Vercel optimizer 402 quota.
+- **Brand-surface relabel (`ebdb860`, user's parallel commit).** SR3/SR4/LPS 1175 references replaced with BS EN 1627:2011 RC4 (single leaf, unglazed). SteelR no longer claims LPS 1175 SR ratings on the public surface.
+- **llms-full U-value alignment (`5ec44ad`).** Numeric figures across llms-full.txt brought into line with supplier test standards.
+- **New topic page `/lps-1673-attack-resistant-steel-door` (`e380198`, `1e80ae8`).** LPS 1673 is a separate LPCB attack-resistance scheme (distinct from BS EN 1627). Cross-linked from 4 related topic pages, `/security-specification` gained a 3rd tier card and 6th certification-strip cell, llms.txt + llms-full.txt updated.
+- **Indexing pushes.** 66/180 GSC quota used (35+10+15+6 across the day). IndexNow batches each push, all HTTP 200.
 
 ## Next action
-- **Confirm email cutover landed clean.** (1) Check the test email sent during this session arrived at `info@supplywindows.co.uk`. (2) Mani logs into Gmail and confirms `info@steelr.co.uk` appears in the From dropdown when composing — if it does not, manual add via Settings → Accounts and Import → "Send mail as" → enter `info@steelr.co.uk` (Workspace recognises the owned alias, no SMTP needed). (3) Watch the 2026-04-29 07:30 `SteelrGSCIndexer` Windows Task Scheduler run — if it 401s, GSC verification needs re-doing despite the preserved TXT.
-- **Off-page domain authority / backlink work.** 27 Apr customer-language audit returned 0/20 SteelR rankings on steel-specific buyer queries (Latham's, Domadeco, Modern-Doors took 47/60 top-3 slots). Domain authority is the structural ceiling, not on-page SEO. Highest-leverage open task.
-- **Em-dash backlog.** 1,065 instances across 43 files (`audit-data/em-dash-backlog-2026-04-28.md`). Phased cleanup: top-3 blog posts first (160 dashes / 14% of backlog), then remaining 34 posts, then non-blog surfaces. Context-aware decisions, do not mass-replace.
-- **Cosmetic Resend cleanup (deferred).** Update `/api/contact` and `/api/quote` to send TO `info@steelr.co.uk` instead of `info@supplywindows.co.uk`. Same Gmail mailbox post-alias-domain, but cleaner To: header. Two-line edit.
-- **Optional DMARC tightening (not urgent).** Current `_dmarc` is `p=none`; could move to `p=quarantine` after a couple weeks of clean Workspace operation.
-- Small queued: customer-language keyword set into `audit-data/rank-tracker.py`, `datetime.utcnow()` deprecation, soft Nav.tsx focus trap.
+- **Cross-link sweep for `/lps-1673-attack-resistant-steel-door`.** 4-5 area pages still need their internal links to the new page checked (Steps 7+8 in the plan doc, lower priority during the build).
+- **Refill empty blog content calendar.** `scripts/blog/content-calendar.json` empty; cron next fires Thu 30 Apr 20:00 UTC with nothing to publish. Stage 3-6 posts targeting audit gaps (SR3-equivalent vs RC4 explainer, LPS 1673 vs RC4 distinction, PAS 24 explainer, cost guide, London townhouses, glass-panel doors).
+- **Off-page domain authority / backlink work.** 27 Apr customer-language audit returned 0/20 SteelR rankings on steel-specific buyer queries. Domain authority is the structural ceiling — highest-leverage open task.
+- **Em-dash backlog.** 1,065 instances across 43 files (`audit-data/em-dash-backlog-2026-04-28.md`). Phased context-aware cleanup — top-3 blog posts first.
 
 ## Blockers
 - 0 GMB reviews still the Maps 3-pack blocker — user-managed, do not re-suggest.
 - Bing post-migration indexing lag continues; recovery expected mid-late May 2026.
 - Domain authority is the structural ceiling on Google organic; no on-page fix will close it.
+- 1542c/1542e cert-reference discrepancy on the supplier side unresolved; kept off public pages via "by enquiry" framing.
 
 ## Recent wins (last 14 days)
-- 2026-04-28 — Workspace alias domain live for `steelr.co.uk`; ImprovMX retired; SPF rewritten; transactional `/api/contact` re-verified post-swap.
-- 2026-04-28 — Hero perf: rotation auto-stops at 60s + blur placeholders + lookbook hero `priority` (`a767d70`).
-- 2026-04-28 — File upload live on both enquiry forms (`cc627eb`); selects optional, required = name + phone.
-- 2026-04-28 — GA4 attribution gaps closed: site-wide `TelClickTracker` + `/contact` redirects to `/thank-you` (`cb58d14`).
-- 2026-04-28 — Em-dash / en-dash detection added to brand-guard (`6d28d5c`); skips modified files so the 1,065-instance backlog doesn't surprise-fail edits.
-- 2026-04-27 — Customer-language Google + AI search audits run; AI engines confirmed strongest channel (2 named citations on category-authority queries).
+- 2026-04-29 — Supplier-truth correction round: warranty terms, U-values, core terminology, brand-surface RC4 relabel across the site (`5293a62`, `ebdb860`, `5ec44ad`).
+- 2026-04-29 — `/lps-1673-attack-resistant-steel-door` topic page live + cross-linked + llms files updated (`e380198`, `1e80ae8`).
+- 2026-04-29 — Composite cannibalisation closed: blog merged into hub, two 308 redirects (`470bbdf`).
+- 2026-04-29 — llms.txt drift fixed (177 total areas, 60 doors, 40 guides; 6 orphan refs purged) via SHA-marker gate (`87d91d6`).
+- 2026-04-28/29 — Hosting infra modernisation: A `216.198.79.1`, CNAME per-project, www-redirect 307 → 308, Workspace alias domain live, ImprovMX retired (`7a035c9`).
+- 2026-04-28 — Hero perf: rotation auto-stops at 60s, blur placeholders, lookbook hero `priority` (`a767d70`).
+- 2026-04-28 — File upload live on both enquiry forms; GA4 phone-click + ContactForm submit attribution closed (`cc627eb`, `cb58d14`).
 
 ## Key files
-- `scripts/generate-letterhead.mjs` (uncommitted) — generator for `C:\Users\SOT\Documents\SteelR-Letterhead-v3.docx`. Don't commit unless asked.
-- `src/components/Hero.tsx` + `src/app/lookbook/page.tsx` — hero rotation cap + blur placeholders + lookbook `priority` (`a767d70`).
-- `src/components/FileUpload.tsx` — drag-drop attachment widget shared by both enquiry forms.
-- `src/components/ContactForm.tsx` + `QuickEnquiry.tsx` — FormData body, optional selects, redirect to `/thank-you?source=...`.
-- `src/components/TelClickTracker.tsx` — document-level `a[href^=tel:]` listener firing GA4 `phone_click`. Mounted once in `layout.tsx`.
-- `src/app/api/contact/route.ts` — multipart-aware Resend handler with allowlist + filename sanitisation + CRLF strip + HTML escape.
-- `src/app/thank-you/ThankYouTracking.tsx` — fires GA4 `generate_lead`; the endpoint every conversion now lands on.
+- `next.config.mjs` — 308 redirects (composite-blog deletion, www → non-www). Add new redirects here, never chain.
+- `src/app/lps-1673-attack-resistant-steel-door/page.tsx` — new topic page; cross-linked from 4 related pages + `/security-specification`.
+- `src/app/security-specification/page.tsx` — now 3-tier (RC4 standard / RC4 + LPS 1175 by enquiry / LPS 1673 attack-resistance) + 6-cell certification strip.
+- `public/llms.txt` + `public/llms-full.txt` — gated by `/panel-llms` + `/panel-llms-approve`. Run panel first; user must approve in chat before marker is written.
+- `scripts/blog/backfill-llms-full.mjs` — rebuilds Blog Excerpts from `index.ts`. Run after any blog add/delete to keep counters honest.
+- `scripts/blog/content-calendar.json` — currently empty; refill before next cron fire (Thu 30 Apr 20:00 UTC).
 - `audit-data/em-dash-backlog-2026-04-28.md` — 1,065-instance cleanup plan.
-- `public/llms.txt` + `public/llms-full.txt` — gated by `/panel-llms` + `/panel-llms-approve`; do not edit without running the panel first.
