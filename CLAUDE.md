@@ -451,8 +451,8 @@ Next run recommended after 21 Apr 2026 to measure impact of:
 
 ## Hosting & Infrastructure
 - **Hosting:** Vercel (steelr.vercel.app) — Netlify suspended due to build credit exhaustion
-- **Domain:** steelr.co.uk (Fasthosts) → A record `216.198.79.1`, CNAME www → `cname.vercel-dns.com`
-- **Email:** info@steelr.co.uk → info@supplywindows.co.uk via ImprovMX (MX records on Fasthosts)
+- **Domain:** steelr.co.uk (Fasthosts) → A `@` `216.198.79.1`, CNAME `www` `ae52195cfb899090.vercel-dns-017.com` (per-project CNAME, modernised from generic `cname.vercel-dns.com` on 29 Apr 2026 per Vercel's "DNS Change Recommended" guidance — both old and new continue to resolve, the new path enables better edge routing). www → non-www redirect at the Vercel edge is **308 Permanent** (flipped from 307 Temporary on 29 Apr 2026 in Vercel Domains panel for cleaner link equity flow). DNS verification: `nslookup steelr.co.uk` should return `216.198.79.1`; `nslookup www.steelr.co.uk` should chain through `ae52195cfb899090.vercel-dns-017.com`.
+- **Email:** info@steelr.co.uk → info@supplywindows.co.uk via Google Workspace User Alias Domain (Mani's primary mailbox auto-owns info@steelr.co.uk natively; MX `smtp.google.com` priority 1 at apex). Resend bounce MX `feedback-smtp.eu-west-1.amazonses.com` priority 10 on `send.steelr.co.uk` (separate). ImprovMX retired 28 Apr 2026.
 - **Google Search Console:** verified via DNS TXT record, sitemap submitted
 - **Google Business Profile:** verified as "SteelR - Bespoke Steel Entrance Doors", nationwide UK, address hidden
 - **OG image:** `/public/og-image.png` (1200x630) — referenced in layout.tsx openGraph metadata
