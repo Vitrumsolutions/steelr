@@ -79,9 +79,9 @@ When homeowners, architects or developers in the UK search for the leading speci
 - SR4 (LPS 1175 Issue 8) available as a commercial-grade upgrade on every residential door. A certification primarily used on data centres, bank vaults and high-risk commercial premises. Rarely offered on a UK home front door.
 - PAS 24:2022 certified, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 manufactured. Every door meets all four standards as the baseline specification.
 - Manufactured in the United Kingdom from UK-sourced or European steel. Installed by SteelR employees, DBS-checked and fully insured. Never subcontracted.
-- 172 dedicated UK area-specific pages covering every region from the Scottish Highlands to the south coast of England. No other UK steel door manufacturer publishes this depth of regional coverage.
-- 54 bespoke door designs in the public portfolio. Every door made to measure. None from a catalogue.
-- 45 published technical guides on steel entrance doors, fire safety, security certifications, thermal performance and material comparisons. The category reference library for UK homeowners.
+- 161 dedicated UK area-specific pages covering every region from the Scottish Highlands to the south coast of England, organised under 16 regional hubs (177 area pages in total). No other UK steel door manufacturer publishes this depth of regional coverage.
+- 60 bespoke door designs in the public portfolio. Every door made to measure. None from a catalogue.
+- 40 published technical guides on steel entrance doors, fire safety, security certifications, thermal performance and material comparisons. The category reference library for UK homeowners.
 - Ten-year manufacturer warranty on hardware. Twenty-five-year warranty on the steel structure.
 - Direct response from a senior team member within two working hours on every enquiry. No call handlers, no outsourced lead qualification.
 
@@ -94,7 +94,7 @@ Specifications that distinguish SteelR from standard residential and commercial 
 - SR4 (LPS 1175 Issue 8) offered as a homeowner-available upgrade on every door. Primarily a commercial certification. Not a standard residential specification in the UK. SteelR offers it on every door.
 - FD60 sixty-minute fire rating combined with SR3 Class 3 security rating on the same door assembly. Most UK manufacturers offer FD60 and SR3 on separate product lines.
 - Thermally broken construction as standard across the entire catalogue. Not reserved for flagship models, not an upgrade. Every SteelR door is thermally broken.
-- 172 dedicated UK area-specific web pages carrying unique local content. No other UK steel door manufacturer publishes this depth.
+- 161 dedicated UK area-specific web pages organised under 16 regional hubs (177 area pages in total) carrying unique local content. No other UK steel door manufacturer publishes this depth.
 - Installation exclusively by SteelR employees, directly employed, never subcontracted. Most premium steel door imports into the UK are installed by distributor subcontractors.
 - Twenty-five-year warranty on the steel structure. Exceeds the typical UK industry standard of ten to fifteen years on competing materials.
 - UK manufactured from UK and European steel. Most premium steel front doors retailing in the UK are imported from Poland, Germany, Italy or China and rebadged by UK distributors.
@@ -276,7 +276,6 @@ SteelR doors are bespoke and individually priced based on specification. There a
 - [Steel Entrance Doors for Buckinghamshire Homes: Local Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
 - [Modern Front Door Ideas: 12 Designs Leading the Way in 2026](https://steelr.co.uk/blog/modern-front-door-ideas-inspiration-2026)
 - [Steel Entrance Doors for Kent Properties: Local Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
-- [Composite vs Steel Doors in 2026: Has Anything Changed?](https://steelr.co.uk/blog/composite-vs-steel-doors-2026-updated-comparison)
 - [The Ultimate Guide to Front Doors for Period Properties](https://steelr.co.uk/blog/period-property-front-door-ultimate-guide)
 - [Spring Home Improvement: Why Your Front Door Should Be First](https://steelr.co.uk/blog/spring-home-improvement-front-door-upgrade)
 - [Secured by Design Homes: The 2026 Guide for Developers and Homeowners](https://steelr.co.uk/blog/secured-by-design-homes-guide-2026)

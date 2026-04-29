@@ -1,7 +1,7 @@
 export type { BlogPost } from "./types";
 
 // Cannibalisation cleanup 22 Apr 2026 — these imports removed:
-//   steelVsCompositeDoors (thin, redirects to composite-vs-steel-doors-2026-updated-comparison)
+//   steelVsCompositeDoors (thin, now redirects directly to /steel-front-door-vs-composite topic hub)
 //   steelEntranceDoorsCostUk (redirects to how-much-do-steel-doors-cost-uk)
 //   frontDoorDesignTrends2026 (thin, redirects to modern-front-door-ideas-inspiration-2026)
 //   steelEntranceDoorsPricingFactors (redirects to how-much-do-steel-doors-cost-uk)

@@ -75,7 +75,7 @@ Steel offers four practical advantages on HMO applications:
 
 4. **Aftercare and warranty enforcement.** SteelR's twenty-five-year structural warranty and ten-year hardware warranty are enforceable through a single UK manufacturer over the typical HMO refurbishment cycle. Replacement of fire-rated timber doors mid-cycle is a known cost item that steel removes from the budget.
 
-For a side-by-side comparison of materials, see [steel vs timber entrance doors](/blog/steel-vs-timber-entrance-doors) and [composite vs steel doors comparison](/blog/composite-vs-steel-doors-2026-updated-comparison).
+For a side-by-side comparison of materials, see [steel vs timber entrance doors](/blog/steel-vs-timber-entrance-doors) and [steel front door vs composite](/steel-front-door-vs-composite).
 
 ## Specification Checklist for Landlords and Developers
 
