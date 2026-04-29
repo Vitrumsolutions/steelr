@@ -3,8 +3,8 @@ import ScrollReveal from "./ScrollReveal";
 
 const credentials = [
   "PAS 24 Certified",
-  "SR3 & SR4 Rated",
-  "LPS 1175 Tested",
+  "BS EN 1627 RC4",
+  "Single Leaf Unglazed",
   "Secured by Design",
   "FD30S Fire Rated",
   "ISO 9001 Certified",
@@ -49,7 +49,7 @@ export function CredentialsStrip() {
 
 /**
  * Certification callout block on cream/light backgrounds.
- * Shows PAS 24, SR3, Secured by Design, FD30S with a brief explainer
+ * Shows PAS 24, BS EN 1627 RC4, Secured by Design, FD30S with a brief explainer
  * and link to the full security specification page.
  */
 export function CertificationCallout() {
@@ -85,7 +85,7 @@ export function CertificationCallout() {
                 lineHeight: 1.15,
               }}
             >
-              PAS 24 certified. SR3 & SR4 rated.
+              PAS 24 certified. BS EN 1627:2011 RC4.
               <br />
               Secured by Design approved.
             </h2>
@@ -100,10 +100,10 @@ export function CertificationCallout() {
             >
               Every Steelr entrance door exceeds the PAS 24 security standard
               mandated by Approved Document Q for all new-build dwellings. Our
-              doors are independently tested to SR3 as standard, with SR4 (LPS 1175)
-              available as an upgrade — a commercial-grade security level rarely
-              offered on residential doors in the UK. All doors carry FD30S fire
-              and smoke certification as standard.
+              doors are independently tested to BS EN 1627:2011 RC4 single leaf,
+              unglazed — the European framework for sustained forced-entry
+              resistance. All doors carry FD30S fire and smoke certification as
+              standard.
             </p>
             <Link
               href="/security-specification"
@@ -123,7 +123,7 @@ export function CertificationCallout() {
         <ScrollReveal direction="right">
           <div className="grid grid-cols-2 gap-4">
             {[
-              { label: "SR3 & SR4", sub: "BS EN 1627 / LPS 1175" },
+              { label: "BS EN 1627 RC4", sub: "Single leaf, unglazed" },
               { label: "PAS 24:2022", sub: "Approved Document Q" },
               { label: "FD30S", sub: "Fire & Smoke Rated" },
               { label: "Secured by Design", sub: "Police Preferred Spec" },

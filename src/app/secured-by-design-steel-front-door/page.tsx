@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "Does Secured by Design approval affect home insurance premiums?",
     answer:
-      "Most UK home insurers recognise Secured by Design as a material reduction in forced-entry risk. Combined with an SR3 security rating under BS EN 1627, SBD certification is usually sufficient for insurers to accept the property as meeting or exceeding their minimum door specification, and in many cases to offer a premium adjustment or reduced excess on theft claims. Confirm the specific policy treatment with your insurer directly, referencing the SBD certificate supplied with the door.",
+      "Most UK home insurers recognise Secured by Design as a material reduction in forced-entry risk. Combined with BS EN 1627:2011 RC4 single leaf, unglazed certification, SBD is usually sufficient for insurers to accept the property as meeting or exceeding their minimum door specification, and in many cases to offer a premium adjustment or reduced excess on theft claims. Confirm the specific policy treatment with your insurer directly, referencing the SBD certificate supplied with the door.",
   },
   {
     question: "Is SBD the same as PAS 24?",
@@ -97,8 +97,8 @@ export default function SbdPage() {
             <>
               This page explains what the approval actually covers, how
               the testing process works, how SBD sits alongside PAS 24
-              and SR3, and what it means practically for home insurance
-              and new-build planning requirements.
+              and BS EN 1627 RC4, and what it means practically for home
+              insurance and new-build planning requirements.
             </>
           ),
         }}
@@ -168,29 +168,29 @@ export default function SbdPage() {
             ],
           },
           {
-            pretitle: "SBD alongside PAS 24 and SR3",
+            pretitle: "SBD alongside PAS 24 and BS EN 1627 RC4",
             title: "How the three certifications interact",
             body: (
               <>
                 PAS 24 is a single performance test against a one-to-three-
-                minute casual attack. SR3 is a higher-tier performance
-                test against a twenty-minute sustained attack. Secured by
-                Design is a specification that requires PAS 24 as a
-                minimum and adds further system-level requirements. SBD is
-                not a replacement for PAS 24 or SR3; it is a layer on top
-                of them.
+                minute casual attack. BS EN 1627:2011 RC4 is a higher-tier
+                performance test against a sustained, multi-stage attack
+                using heavy-duty hand tools and battery-operated power
+                tools. Secured by Design is a specification that requires
+                PAS 24 as a minimum and adds further system-level
+                requirements. SBD is not a replacement for PAS 24 or
+                BS EN 1627 RC4; it is a layer on top of them.
               </>
             ),
             body2: (
               <>
-                Every SteelR door is PAS 24 certified, SR3 rated to
-                BS EN 1627 Class 3, and Secured by Design approved as
-                standard. SR4 under LPS 1175 Issue 8 is available as a
-                commercial-grade upgrade. In other words, every SteelR
+                Every SteelR door is PAS 24 certified, tested to
+                BS EN 1627:2011 RC4 single leaf, unglazed, and Secured by
+                Design approved as standard. In other words, every SteelR
                 door satisfies the UK minimum regulatory standard, the
-                European high-security standard, and the UK police
-                preferred specification, with a commercial-grade option
-                available above all three. Detailed comparison on the{" "}
+                European framework for sustained forced-entry resistance,
+                and the UK police preferred specification. Detailed
+                comparison on the{" "}
                 <Link
                   href="/security-specification"
                   className="link-gold-underline"
@@ -209,21 +209,22 @@ export default function SbdPage() {
               <>
                 Home insurers generally treat independently certified
                 security standards as material reductions in forced-entry
-                risk. Secured by Design certification, combined with SR3
-                rating, is usually sufficient for a UK home insurer to
-                accept the property as meeting or exceeding their
-                specified minimum door standard. In many cases insurers
-                will offer a premium adjustment, reduced excess on theft
-                claims, or a waiver of the requirement for additional
-                security devices such as internal bolts.
+                risk. Secured by Design certification, combined with
+                BS EN 1627:2011 RC4, is usually sufficient for a UK home
+                insurer to accept the property as meeting or exceeding
+                their specified minimum door standard. In many cases
+                insurers will offer a premium adjustment, reduced excess
+                on theft claims, or a waiver of the requirement for
+                additional security devices such as internal bolts.
               </>
             ),
             body2: (
               <>
                 The practical step is to provide your insurer with the
-                SBD certificate and the SR3 certificate at policy renewal
-                or at the point the door is installed. Both are supplied
-                as part of the handover pack on every SteelR installation.
+                SBD certificate and the BS EN 1627 RC4 certificate at
+                policy renewal or at the point the door is installed.
+                Both are supplied as part of the handover pack on every
+                SteelR installation.
               </>
             ),
           },

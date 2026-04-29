@@ -4,9 +4,9 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "About SteelR | SR3 Standard, SR4 (LPS 1175) Upgrade, Secured by Design",
+  title: "About SteelR | BS EN 1627:2011 RC4, Secured by Design",
   description:
-    "SteelR manufactures and installs bespoke steel front doors for UK homes. PAS 24, SR3 standard, SR4 LPS 1175 upgrade, Secured by Design, FD30, ISO 9001.",
+    "SteelR manufactures and installs bespoke steel front doors for UK homes. PAS 24 certified, tested to BS EN 1627:2011 RC4 single leaf, unglazed, Secured by Design, FD30, ISO 9001.",
   alternates: {
     canonical: "https://steelr.co.uk/about",
   },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const credentials = [
   "PAS 24:2022 Certified",
-  "SR3 Standard & SR4 (LPS 1175) Available",
+  "BS EN 1627:2011 RC4 (single leaf, unglazed)",
   "Secured by Design Approved",
   "FD30S Fire & Smoke Rated",
   "ISO 9001 Certified Manufacturing",
@@ -27,7 +27,7 @@ export default function AboutPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://steelr.co.uk"},{"@type":"ListItem","position":2,"name":"About","item":"https://steelr.co.uk/about"}]}) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"AboutPage","url":"https://steelr.co.uk/about","name":"About SteelR","description":"SteelR is a UK manufacturer and installer of bespoke steel front doors for homes. PAS 24 certified, SR3 rated to BS EN 1627 Class 3 as standard with SR4 (LPS 1175 Issue 8) commercial-grade upgrade available, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 certified.","mainEntity":{"@type":"Organization","name":"SteelR","url":"https://steelr.co.uk","sameAs":["https://www.instagram.com/steelrdoors","https://www.pinterest.co.uk/steelrdoors","https://www.linkedin.com/company/steelr","https://www.google.com/maps/place/SteelR+Bespoke+Steel+Entrance+Doors"]}}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"AboutPage","url":"https://steelr.co.uk/about","name":"About SteelR","description":"SteelR is a UK manufacturer and installer of bespoke steel front doors for homes. PAS 24 certified, tested to BS EN 1627:2011 RC4 single leaf, unglazed, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 certified.","mainEntity":{"@type":"Organization","name":"SteelR","url":"https://steelr.co.uk","sameAs":["https://www.instagram.com/steelrdoors","https://www.pinterest.co.uk/steelrdoors","https://www.linkedin.com/company/steelr","https://www.google.com/maps/place/SteelR+Bespoke+Steel+Entrance+Doors"]}}) }} />
       {/* Page banner */}
       <section
         className="relative flex items-center justify-center overflow-hidden"
@@ -87,9 +87,9 @@ export default function AboutPage() {
               }}
             >
               SteelR produces bespoke steel front doors for homes across the
-              United Kingdom. Every door is engineered to SR3 high-security
-              standards as the baseline, with SR4 (LPS 1175) available as a
-              commercial-grade upgrade, and manufactured in the UK to ISO 9001
+              United Kingdom. Every door is tested to BS EN 1627:2011 RC4
+              single leaf, unglazed — the European framework for sustained
+              forced-entry resistance — and manufactured in the UK to ISO 9001
               certification.
             </p>
             <p

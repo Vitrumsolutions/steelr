@@ -3,22 +3,22 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "PAS 24 Compliance, SR3 Standard & SR4 (LPS 1175) Upgrade | SteelR",
+  title: "PAS 24 Compliance & BS EN 1627:2011 RC4 Specification | SteelR",
   description:
-    "Every SteelR residential steel front door exceeds PAS 24 with BS EN 1627 Class 3 (SR3) security and FD30S fire rating as standard. SR4 (LPS 1175 Issue 8) available as a commercial-grade upgrade. Approved Document Q compliant, Secured by Design approved.",
+    "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed and PAS 24 certified, with FD30S fire rating as standard. Approved Document Q compliant, Secured by Design approved.",
   alternates: { canonical: "https://steelr.co.uk/security-specification" },
   openGraph: {
-    title: "PAS 24, SR3 Standard & SR4 (LPS 1175) Upgrade | SteelR",
+    title: "PAS 24 & BS EN 1627 RC4 Specification | SteelR",
     description:
-      "SteelR doors exceed UK Building Regulations with SR3 security and FD30S fire rating. SR4 (LPS 1175) commercial-grade upgrade available on every residential front door.",
+      "SteelR doors exceed UK Building Regulations with BS EN 1627:2011 RC4 single leaf, unglazed certification and FD30S fire rating on every residential front door.",
     url: "https://steelr.co.uk/security-specification",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PAS 24, SR3 Standard & SR4 (LPS 1175) Upgrade | SteelR",
+    title: "PAS 24 & BS EN 1627 RC4 Specification | SteelR",
     description:
-      "SteelR doors exceed UK Building Regulations with SR3 security and FD30S fire rating. SR4 (LPS 1175) commercial-grade upgrade available on every residential front door.",
+      "SteelR doors exceed UK Building Regulations with BS EN 1627:2011 RC4 single leaf, unglazed certification and FD30S fire rating on every residential front door.",
   },
 };
 
@@ -38,11 +38,12 @@ const standards = [
   },
   {
     tier: "SteelR Standard",
-    standard: "SR3",
-    name: "BS EN 1627 Class 3 · FD30S",
+    standard: "BS EN 1627 RC4",
+    name: "Single leaf, unglazed · FD30S",
     highlight: true,
     features: [
-      "Resists sustained power-tool attack including angle grinders and drills",
+      "Resists sustained forced-entry attack with heavy-duty hand tools and battery-operated power tools",
+      "Tested under BS EN 1627:2011, the European framework for forced-entry resistance",
       "Fitted on every residential steel front door we make",
       "FD30S fire rated — 30-minute fire and smoke resistance",
       "Intumescent seals and cold smoke brushes as standard",
@@ -50,26 +51,11 @@ const standards = [
       "Secured by Design police-preferred specification",
     ],
   },
-  {
-    tier: "SteelR Upgrade",
-    standard: "SR4",
-    name: "LPS 1175 Issue 8 · Security Rating 4",
-    highlight: true,
-    features: [
-      "Commercial-grade certification rarely offered on residential doors",
-      "Longer attack duration than SR3, broader tool set",
-      "Resists battery-operated cutting tools and larger prying equipment",
-      "Loss Prevention Certification Board scheme (BRE)",
-      "Used in data centres, bank vaults and high-risk commercial premises",
-      "Available as an upgrade on every SteelR front door",
-    ],
-  },
 ];
 
 const certifications = [
   { label: "PAS 24:2022", desc: "Security Standard" },
-  { label: "SR3 Standard", desc: "BS EN 1627 Class 3" },
-  { label: "SR4 Upgrade", desc: "LPS 1175 Issue 8" },
+  { label: "BS EN 1627 RC4", desc: "Single leaf, unglazed" },
   { label: "FD30S", desc: "Fire & Smoke Rated" },
   { label: "Secured by Design", desc: "Police Preferred Spec" },
   { label: "ISO 9001", desc: "Certified Manufacturer" },
@@ -94,7 +80,7 @@ const regulations = [
   },
   {
     title: "Building Safety Act 2022",
-    text: "Higher-risk buildings regime. SteelR\u2019s SR3 + FD30S certification satisfies the gateway process requirements for higher-risk residential buildings.",
+    text: "Higher-risk buildings regime. SteelR\u2019s BS EN 1627 RC4 + FD30S certification satisfies the gateway process requirements for higher-risk residential buildings.",
   },
   {
     title: "Secured by Design — Police Preferred Specification",
@@ -117,7 +103,7 @@ export default function SecuritySpecificationPage() {
             "@type": "BreadcrumbList",
             itemListElement: [
               { "@type": "ListItem", position: 1, name: "Home", item: "https://steelr.co.uk" },
-              { "@type": "ListItem", position: 2, name: "PAS 24 & SR3 Specification", item: "https://steelr.co.uk/security-specification" },
+              { "@type": "ListItem", position: 2, name: "PAS 24 & BS EN 1627 RC4 Specification", item: "https://steelr.co.uk/security-specification" },
             ],
           }),
         }}
@@ -130,11 +116,11 @@ export default function SecuritySpecificationPage() {
             "@type": "FAQPage",
             mainEntity: [
               { "@type": "Question", name: "What is PAS 24 and why is it required?", acceptedAnswer: { "@type": "Answer", text: "PAS 24:2022 is the UK security standard for doors and windows mandated by Approved Document Q of the Building Regulations. All new-build dwellings and flats in England and Wales must have entrance doors that meet PAS 24. It tests resistance to opportunist forced entry over a 15-minute manual attack." }},
-              { "@type": "Question", name: "What is SR3 and how does it differ from PAS 24?", acceptedAnswer: { "@type": "Answer", text: "SR3 is Security Rating 3 under BS EN 1627 Class 3 — a European standard that tests resistance to sustained power-tool attack including angle grinders and drills. It far exceeds PAS 24. Every SteelR residential steel front door is SR3 rated as standard." }},
-              { "@type": "Question", name: "What is SR4 (LPS 1175) and is it available for homes?", acceptedAnswer: { "@type": "Answer", text: "SR4 is Security Rating 4 under LPS 1175 Issue 8, the Loss Prevention Certification Board scheme used for commercial security products — data centres, bank vaults and high-risk premises. SR4 exceeds SR3 in both attack duration and the tool set used during testing, including battery-operated cutting tools. SteelR offers SR4 as an upgrade on every residential front door — commercial-grade security rarely offered for the home." }},
+              { "@type": "Question", name: "What is BS EN 1627 RC4 and how does it differ from PAS 24?", acceptedAnswer: { "@type": "Answer", text: "BS EN 1627:2011 RC4 is the European framework for sustained forced-entry resistance, certifying the complete door assembly against heavy-duty hand tools and battery-operated power tools. It far exceeds PAS 24, which tests a 1–3 minute casual attack with basic hand tools. Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed as standard." }},
+              { "@type": "Question", name: "Does SteelR carry an LPS 1175 SR rating?", acceptedAnswer: { "@type": "Answer", text: "No. LPS 1175 (operated by LPCB / BRE) is a different test scheme to BS EN 1627 — over 90% of products tested under EN 1627 RC4 fail to even achieve LPS 1175 SR2 because the tool sets, attack duration and methodology differ. SteelR is certified under the European framework BS EN 1627:2011 RC4 single leaf, unglazed; we do not claim an LPS 1175 SR rating." }},
               { "@type": "Question", name: "What does Secured by Design mean?", acceptedAnswer: { "@type": "Answer", text: "Secured by Design is the official UK police security initiative. Products carrying the Secured by Design accreditation have been independently tested and certified to the police-preferred specification for crime prevention. SteelR doors are Secured by Design approved." }},
               { "@type": "Question", name: "Are SteelR doors fire rated?", acceptedAnswer: { "@type": "Answer", text: "Yes. Every SteelR door carries FD30S certification providing 30 minutes of fire and smoke resistance as standard. FD60 (60-minute) ratings are available on request. This satisfies Approved Document B, the Fire Safety Act 2021, and the Building Safety Act 2022 for flat entrance doors." }},
-              { "@type": "Question", name: "Are SteelR doors suitable for new builds and flats?", acceptedAnswer: { "@type": "Answer", text: "Yes. SteelR doors exceed Approved Document Q (PAS 24) for security and Approved Document B for fire safety. The SR3 + FD30S specification satisfies all current UK Building Regulations for new-build houses, flats, HMOs, and housing association properties. They are regularly specified by developers, architects and housing associations." }},
+              { "@type": "Question", name: "Are SteelR doors suitable for new builds and flats?", acceptedAnswer: { "@type": "Answer", text: "Yes. SteelR doors exceed Approved Document Q (PAS 24) for security and Approved Document B for fire safety. The BS EN 1627 RC4 + FD30S specification satisfies all current UK Building Regulations for new-build houses, flats, HMOs, and housing association properties. They are regularly specified by developers, architects and housing associations." }},
             ],
           }),
         }}
@@ -157,14 +143,14 @@ export default function SecuritySpecificationPage() {
         </div>
       </section>
 
-      <h1 className="sr-only">PAS 24 Compliance and SR3 Security Specification — Approved Document Q</h1>
+      <h1 className="sr-only">PAS 24 Compliance and BS EN 1627 RC4 Security Specification — Approved Document Q</h1>
 
       {/* Intro */}
       <section className="bg-cream ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-3xl mx-auto text-center">
           <ScrollReveal>
             <p style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 14, lineHeight: 1.9, color: "#6b5a42" }}>
-              Every SteelR entrance door is certified beyond the PAS 24 threshold mandated by UK Building Regulations — meeting both Approved Document Q and the fire safety requirements of the Fire Safety Act 2021. Our SR3 classification and FD30S fire rating deliver a level of protection that far exceeds the regulatory minimum.
+              Every SteelR entrance door is certified beyond the PAS 24 threshold mandated by UK Building Regulations — meeting both Approved Document Q and the fire safety requirements of the Fire Safety Act 2021. Our BS EN 1627:2011 RC4 single leaf, unglazed classification and FD30S fire rating deliver a level of protection that far exceeds the regulatory minimum.
             </p>
           </ScrollReveal>
         </div>
@@ -240,7 +226,7 @@ export default function SecuritySpecificationPage() {
           <ScrollReveal>
             <div>
               <h2 className="mb-6" style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(24px, 3vw, 36px)", color: "#1a1a18", lineHeight: 1.2 }}>
-                Why <em style={{ fontStyle: "italic", color: "#c9a96e" }}>new builds and flats</em> require PAS 24 — and why SR3 is what specifiers choose
+                Why <em style={{ fontStyle: "italic", color: "#c9a96e" }}>new builds and flats</em> require PAS 24 — and why BS EN 1627 RC4 is what specifiers choose
               </h2>
               <p className="mb-4" style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
                 Under <strong style={{ fontWeight: 400, color: "#1a1a18" }}>Approved Document Q of the Building Regulations</strong>, all new-build homes and flats — including those created by material change of use — must be fitted with entrance doors that resist unauthorised access. PAS 24:2022 is the accepted standard to satisfy this requirement.
@@ -249,7 +235,7 @@ export default function SecuritySpecificationPage() {
                 The <strong style={{ fontWeight: 400, color: "#1a1a18" }}>Fire Safety Act 2021</strong> further extended the Fire Safety Order to explicitly cover flat entrance doors in multi-occupied residential buildings. FD30S fire-rated doorsets are now the mandated minimum standard for any flat entrance door leading onto common parts.
               </p>
               <p style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
-                Every SteelR door satisfies both requirements — and exceeds both. SR3 classification means your door has been independently tested to withstand sustained power-tool attack, not just opportunist entry. It is the standard demanded by <strong style={{ fontWeight: 400, color: "#1a1a18" }}>housing associations, developers and planning authorities</strong> on high-specification projects.
+                Every SteelR door satisfies both requirements — and exceeds both. BS EN 1627:2011 RC4 single leaf, unglazed certification means your door has been independently tested to withstand sustained forced entry with heavy-duty hand tools and battery-operated power tools, not just opportunist attack. It is the standard demanded by <strong style={{ fontWeight: 400, color: "#1a1a18" }}>housing associations, developers and planning authorities</strong> on high-specification projects.
               </p>
             </div>
           </ScrollReveal>

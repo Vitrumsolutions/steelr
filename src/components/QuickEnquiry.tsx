@@ -138,7 +138,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                   marginBottom: 12,
                 }}
               >
-                Bespoke · UK manufactured · SR3
+                Bespoke · UK manufactured · BS EN 1627 RC4
               </p>
               <h2
                 className="mb-5"
@@ -163,7 +163,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                   color: "#5a5a58",
                 }}
               >
-                Free consultation with our design team. No obligation. Every door is manufactured in the UK to your specification, SR3 high-security certified, and installed by our in-house fitters.
+                Free consultation with our design team. No obligation. Every door is manufactured in the UK to your specification, tested to BS EN 1627:2011 RC4 single leaf, unglazed, and installed by our in-house fitters.
               </p>
 
               {/* Primary CTA: click-to-call */}
@@ -219,7 +219,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                     color: "#8a6f4e",
                   }}
                 >
-                  SR3 certified · PAS 24 · Secured by Design · UK manufactured · 10-year guarantee
+                  BS EN 1627 RC4 · PAS 24 · Secured by Design · UK manufactured · 10-year guarantee
                 </span>
               </div>
             </div>
