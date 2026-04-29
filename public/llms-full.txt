@@ -747,7 +747,7 @@ FD30 means 30 minutes of fire integrity, tested to BS 476-22 or BS EN 1634-1. FD
 ### Steel Front Door vs Composite. Comparison
 URL: https://steelr.co.uk/steel-front-door-vs-composite
 
-Honest side-by-side comparison. Security: most composite doors are PAS 24 certified; every SteelR door is PAS 24 plus BS EN 1627 RC4 plus SBD, a full certification tier above the composite baseline. Longevity: composite doors typically carry ten-year warranties with real-world service life of fifteen years; SteelR doors are designed for twenty-five to thirty years. Thermal: composite doors publish U-values of 1.2-1.4 W/m²K; thermally broken SteelR doors are comparable or lower. Fire: FD30S standard on SteelR; rare on composite. Aesthetics: composite doors use moulded panels from fixed tooling; SteelR panels are fabricated individually to period-specific proportions. Cost: composite has lower upfront cost; steel has lower total cost of ownership over a twenty-five year horizon.
+Honest side-by-side comparison. Security: most composite doors are PAS 24 certified; SteelR doors are PAS 24 plus BS EN 1627 RC4 plus SBD, a full certification tier above the composite baseline. Longevity: composite doors typically carry ten-year warranties with real-world service life of fifteen years; SteelR doors are engineered for decades of service backed by a ten-year manufacturer warranty on the construction. Thermal: composite doors publish U-values of 1.2-1.4 W/m²K; thermally broken SteelR doors typically from 1.5 W/m²K standard with thermal-upgrade specifications as low as 0.8 W/m²K. Fire: FD30S standard on SteelR; rare on composite. Aesthetics: composite doors use moulded panels from fixed tooling; SteelR panels are fabricated individually to period-specific proportions. Cost: composite has lower upfront cost; steel has lower total cost of ownership over the longer service life.
 
 ### UK-Made Steel Doors vs Imported Systems
 URL: https://steelr.co.uk/uk-steel-doors-vs-imported
@@ -1301,7 +1301,7 @@ Q: Do steel doors need painting or maintaining?
 A: No. The factory-applied powder-coat finish requires no painting, varnishing, oiling or sanding — ever. The only maintenance is occasional cleaning with warm soapy water. This is one of the most significant practical advantages over timber doors, which require repainting every 3–5 years, and composite doors, which can fade or discolour over time.
 
 Q: Will a steel door make my house colder?
-A: No. Modern steel doors use thermal break construction with an insulated core, achieving U-values of 1.0–1.8 W/m²K — comparable to double-glazed windows and better than many older timber doors. Combined with effective draught seals and an insulated threshold, a steel door improves thermal comfort compared to most doors it replaces.
+A: No. Modern steel doors use thermal break construction with an insulated core, achieving U-values typically from 1.5 W/m²K, with thermal-upgrade specifications achieving as low as 0.8 W/m²K. Comparable to double-glazed windows and better than many older timber doors. Combined with effective draught seals and an insulated threshold, a steel door improves thermal comfort compared to most doors it replaces.
 
 Q: Can I get a steel door in any colour?
 A: Yes. We offer over 200 RAL colours as standard, plus custom colour matching to any reference including Farrow & Ball, Little Greene and heritage specifications. Dual-colour finishing allows different colours on the exterior and interior faces. Browse the full range on our [RAL colours page](/colours).
@@ -1408,7 +1408,7 @@ Q: Is steel or aluminium stronger for a front door?
 A: Steel is materially stronger. Steel doors achieve SR3 under BS EN 1627 (five-minute resistance to power-tool attack) as standard, while aluminium residential doors typically cap at PAS 24 (three-minute resistance to basic hand tools). For the same frame thickness, steel resists prying, drilling and cutting loads that aluminium cannot. Aluminium's advantages are elsewhere: slimmer sightlines and lighter weight, not structural strength.
 
 Q: Which has better thermal performance, steel or aluminium?
-A: Both can achieve very similar U-values with a properly specified thermal break. Thermally broken steel doors reach 1.0 to 1.4 W/m²K; thermally broken aluminium doors reach 1.2 to 1.6 W/m²K. The thermal break (a non-conductive barrier between inner and outer skins) is the critical component in both. A door without a thermal break, in either material, will under-perform noticeably.
+A: Both can achieve very similar U-values with a properly specified thermal break. Thermally broken steel doors reach typically from 1.5 W/m²K standard, with thermal-upgrade specifications as low as 0.8 W/m²K; thermally broken aluminium doors reach 1.2 to 1.6 W/m²K. The thermal break (a non-conductive barrier between inner and outer skins) is the critical component in both. A door without a thermal break, in either material, will under-perform noticeably.
 
 Q: Is aluminium better for coastal or very exposed locations?
 A: Aluminium has the edge in severe coastal exposure because it does not corrode even if the protective finish is breached. Galvanised steel with a powder coat is also highly corrosion-resistant, but if the finish is damaged on a coastal property, the underlying steel can oxidise over very long timeframes. For most UK locations this is a non-issue; for direct saltwater-spray locations it is worth considering.
@@ -2003,7 +2003,7 @@ Front doors for period properties UK. Georgian, Victorian, Edwardian and Arts an
 **Key facts:**
 
 - The result is a door that is visually indistinguishable from its period predecessor while delivering SR3 security certification, modern thermal performance and Secured by Design accreditation.
-- It is entirely possible to have a front door that satisfies conservation officers, delivers U-values below 1.0 W/m2K, achieves the highest available security rating, and looks as though it has been part of the property for 150 years.
+- It is entirely possible to have a front door that satisfies conservation officers, delivers U-values comfortably below the 1.8 W/m²K Part L maximum (with thermal-upgrade specifications as low as 0.8 W/m²K available), achieves the highest available security rating, and looks as though it has been part of the property for 150 years.
 
 **FAQs:**
 
@@ -2345,7 +2345,7 @@ Why UK country homes choose bespoke steel front doors. SR3 security, weather res
 
 - An SR3-rated steel entrance door addresses these concerns directly.
 - Tested to BS EN 1627:2011, an SR3 door withstands sustained attack with crowbars, drills and angle grinders — providing a level of resistance that no timber or composite door can match.
-- Specify a dual thermal break with polyurethane insulation infill for U-values below 1.0 W/m²K.
+- Specify a dual thermal break with insulated infill for U-values comfortably below the 1.8 W/m²K Part L maximum (thermal-upgrade specifications as low as 0.8 W/m²K available on request).
 - Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management.
 
 **FAQs:**
@@ -2435,7 +2435,7 @@ Q: How do I specify a steel door that meets both fire and security requirements?
 A: Dual-rated doorsets must be tested and certified for both fire resistance and security as a single assembly. You cannot combine separately certified fire-rated and security-rated components. Specify the required fire rating (FD30 or FD60) alongside the security rating (PAS 24 or SR class) and request evidence that the doorset has been tested to both standards simultaneously.
 
 Q: What U-value can a steel entrance door achieve?
-A: Modern steel entrance doors with thermal breaks and insulated cores can achieve U-values of 1.0 W/m\`K or better. The regulatory maximum for new dwellings under Approved Document L is 1.4 W/m\`K. Specify the target U-value for the whole doorset, not just the door leaf, as the frame and threshold contribute significantly.
+A: Modern steel entrance doors with thermal breaks and insulated cores typically achieve U-values from 1.5 W/m²K standard, with thermal-upgrade specifications available achieving as low as 0.8 W/m²K. The regulatory maximum for new dwellings under Approved Document L is 1.8 W/m²K. Specify the target U-value for the whole doorset, not just the door leaf, as the frame and threshold contribute significantly.
 
 Q: How heavy is a typical bespoke steel entrance door?
 A: A single-leaf steel entrance door typically weighs between 80 and 150 kilograms depending on size, glazing and security rating. A double-leaf doorset with sidelights can exceed 300 kilograms. The structural opening, lintel and fixings must be designed to accommodate this weight.
