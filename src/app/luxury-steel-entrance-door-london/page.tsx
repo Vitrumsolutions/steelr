@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Luxury Steel Entrance Doors London | Bespoke, Installed to Any Borough | SteelR",
   description:
-    "Bespoke luxury steel entrance doors installed across London. Kensington, Chelsea, Notting Hill, Holland Park, Hampstead, Mayfair, Belgravia, Primrose Hill and surrounding areas. PAS 24 certified, SR3 standard, SR4 (LPS 1175) upgrade, Secured by Design, FD30 fire rated.",
+    "Bespoke luxury steel entrance doors installed across all London boroughs. PAS 24 certified, SR3 standard, SR4 LPS 1175 upgrade, Secured by Design, FD30.",
   alternates: { canonical: "https://steelr.co.uk/luxury-steel-entrance-door-london" },
   openGraph: {
     title: "Luxury Steel Entrance Doors London | SteelR",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "PAS 24 Steel Entrance Door | Approved Document Q Explained | SteelR",
   description:
-    "PAS 24:2022 is the UK security standard mandated by Approved Document Q for new-build dwellings. This page explains what PAS 24 tests, how the certification is granted, and why SteelR treats it as the floor rather than the ceiling for residential security.",
+    "PAS 24:2022 is the UK security standard for new-builds under Approved Document Q. What it tests, how certification is granted, why we treat it as the floor.",
   alternates: { canonical: "https://steelr.co.uk/pas-24-steel-entrance-door" },
   openGraph: {
     title: "PAS 24 Steel Entrance Door | SteelR",

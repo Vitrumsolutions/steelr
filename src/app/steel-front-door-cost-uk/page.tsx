@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "How Steel Front Door Pricing Works | UK | SteelR",
   description:
-    "Honest explainer on how bespoke steel front door pricing works in the UK. Every project is individually quoted. This page sets out the factors that actually move the number so you can assess quotes from any supplier with clear eyes.",
+    "Honest explainer on bespoke steel front door pricing in the UK. Every project is individually quoted. The factors that actually move the number.",
   alternates: { canonical: "https://steelr.co.uk/steel-front-door-cost-uk" },
   openGraph: {
     title: "How Steel Front Door Pricing Works | UK | SteelR",

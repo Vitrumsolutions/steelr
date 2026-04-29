@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Bespoke Steel Front Doors UK | Made to Measure, Installed Nationwide | SteelR",
   description:
-    "Bespoke steel front doors for UK homes. Made to measure in the United Kingdom, designed to your exact specification, installed nationwide by our own fitters. PAS 24 certified, SR3 standard, SR4 (LPS 1175) upgrade, Secured by Design, FD30 fire rated.",
+    "Bespoke steel front doors for UK homes. Made to measure, designed to your exact specification, installed by our own fitters. PAS 24, SR3, SR4 LPS 1175 upgrade.",
   alternates: { canonical: "https://steelr.co.uk/bespoke-steel-front-doors-uk" },
   openGraph: {
     title: "Bespoke Steel Front Doors UK | SteelR",

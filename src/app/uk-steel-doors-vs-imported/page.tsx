@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "UK-Made Bespoke Steel Doors vs Imported Systems | SteelR",
   description:
-    "Most premium steel front doors sold in the UK are imported from Poland, Germany or China. SteelR is manufactured in the United Kingdom. This page sets out the practical differences in lead time, aftercare, warranty, structural suitability and installation quality.",
+    "Most premium steel front doors sold in the UK are imported. SteelR is UK manufactured. Practical differences in lead time, aftercare, warranty and install.",
   alternates: { canonical: "https://steelr.co.uk/uk-steel-doors-vs-imported" },
   openGraph: {
     title: "UK-Made Steel Doors vs Imported Systems | SteelR",

@@ -6,7 +6,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Request a Consultation | SteelR",
   description:
-    "Request a free, no-obligation consultation for your bespoke steel front door. Call 0800 861 1450 or submit the online enquiry form. Senior team response within two hours on any working day. Nationwide UK survey and installation, no regional surcharge.",
+    "Request a free consultation on your bespoke steel front door. Call 0800 861 1450 or use the online form. Response in two working hours. Nationwide UK install.",
   alternates: {
     canonical: "https://steelr.co.uk/contact",
   },

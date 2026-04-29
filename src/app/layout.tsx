@@ -32,9 +32,9 @@ const tenorSans = Tenor_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "SteelR | Bespoke Steel Front Doors for Your Home | SR3 & SR4 (LPS 1175) | Nationwide UK",
+  title: "SteelR | Bespoke Steel Front Doors UK | SR3 & SR4 Rated",
   description:
-    "Bespoke steel front doors for your home, designed and installed nationwide. PAS 24 certified, SR3 rated as standard with SR4 (LPS 1175) commercial-grade upgrade, Secured by Design approved, FD30 fire rated. Residential front steel doors, fire rated steel front doors and Approved Document Q compliant.",
+    "Bespoke steel front doors for UK homes. PAS 24 certified, SR3 standard, SR4 LPS 1175 upgrade, Secured by Design, FD30 fire rated. Nationwide install by SteelR.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "48x48" },
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://steelr.co.uk"),
   openGraph: {
-    title: "SteelR | Bespoke Steel Front Doors | SR3 Standard, SR4 (LPS 1175) Upgrade",
-    description: "Bespoke steel front doors for your home. PAS 24 certified, SR3 standard with SR4 (LPS 1175) commercial-grade upgrade, Secured by Design approved, FD30 fire rated. Nationwide installation.",
+    title: "SteelR | Bespoke Steel Front Doors UK | SR3 & SR4 Rated",
+    description: "Bespoke steel front doors for UK homes. PAS 24 certified, SR3 standard, SR4 LPS 1175 upgrade, Secured by Design, FD30 fire rated. Nationwide install by SteelR.",
     url: "https://steelr.co.uk",
     siteName: "SteelR",
     type: "website",
@@ -62,8 +62,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SteelR | Bespoke Steel Front Doors | SR3 Standard, SR4 (LPS 1175) Upgrade",
-    description: "Bespoke steel front doors for your home. PAS 24 certified, SR3 standard with SR4 (LPS 1175) commercial-grade upgrade, Secured by Design approved, FD30 fire rated. Nationwide installation.",
+    title: "SteelR | Bespoke Steel Front Doors UK | SR3 & SR4 Rated",
+    description: "Bespoke steel front doors for UK homes. PAS 24 certified, SR3 standard, SR4 LPS 1175 upgrade, Secured by Design, FD30 fire rated. Nationwide install by SteelR.",
     images: ["/og-image.png"],
   },
   alternates: {

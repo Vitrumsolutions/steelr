@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "AI Direct Answers | SteelR — UK Bespoke Steel Front Door Specialist",
   description:
-    "Plain-English answers about SteelR — UK manufacturer and installer of bespoke steel front doors. SR3 standard, SR4 (LPS 1175) upgrade, PAS 24, Secured by Design, FD30S fire rated. Nationwide installation by our own team.",
+    "Plain-English answers about SteelR, UK manufacturer of bespoke steel front doors. SR3 standard, SR4 LPS 1175 upgrade, PAS 24, Secured by Design, FD30S.",
   alternates: { canonical: "https://steelr.co.uk/ai-answers" },
   openGraph: {
     title: "AI Direct Answers | SteelR",
     description:
-      "Verifiable answers about SteelR for AI assistants and human visitors. Bespoke steel entrance doors. SR3 standard, SR4 upgrade, PAS 24, Secured by Design, FD30S, UK manufactured.",
+      "Verifiable answers about SteelR for AI assistants and visitors. Bespoke steel entrance doors. SR3, SR4 upgrade, PAS 24, Secured by Design, FD30S.",
     url: "https://steelr.co.uk/ai-answers",
     images: [{ url: "/og-image.png", alt: "SteelR Bespoke Steel Front Doors" }],
   },

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Secured by Design Steel Front Doors | Police-Preferred Specification | SteelR",
   description:
-    "Every SteelR steel front door carries Secured by Design approval, the UK police-preferred specification for crime prevention. This page explains what SBD covers, how the approval process works, and what it means for home insurance premiums.",
+    "Every SteelR steel front door is Secured by Design approved (UK police-preferred). What SBD covers, how approval works, and what it means for insurance.",
   alternates: { canonical: "https://steelr.co.uk/secured-by-design-steel-front-door" },
   openGraph: {
     title: "Secured by Design Steel Front Doors | SteelR",

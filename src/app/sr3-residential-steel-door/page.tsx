@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "SR3 Residential Steel Door | BS EN 1627 Class 3 Explained | SteelR",
   description:
-    "SR3 is the baseline security rating on every SteelR residential steel front door. This page explains what SR3 means under BS EN 1627 Class 3, how the twenty-minute attack test works, how SR3 compares to PAS 24, and how SR3 relates to the SR4 (LPS 1175) commercial-grade upgrade we offer.",
+    "SR3 is the baseline rating on every SteelR residential steel front door. What SR3 means under BS EN 1627 Class 3, the 20-minute attack test, vs PAS 24.",
   alternates: { canonical: "https://steelr.co.uk/sr3-residential-steel-door" },
   openGraph: {
     title: "SR3 Residential Steel Door | BS EN 1627 Class 3 | SteelR",

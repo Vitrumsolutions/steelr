@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Steel Front Door vs Composite | Honest UK Comparison | SteelR",
   description:
-    "Steel front door versus composite: an honest side-by-side comparison on security, longevity, thermal performance, fire rating, aesthetic flexibility and total cost of ownership. Written by a UK steel door manufacturer, not by a composite vendor.",
+    "Steel front door vs composite: honest side-by-side comparison on security, longevity, thermal, fire rating and cost of ownership. From a UK steel manufacturer.",
   alternates: { canonical: "https://steelr.co.uk/steel-front-door-vs-composite" },
   openGraph: {
     title: "Steel Front Door vs Composite | SteelR",

@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       location.type === "hub"
         ? `Steel Doors ${label} | Bespoke Steel Front Doors, SR3 Rated | SteelR`
         : `Steel Doors ${label}, ${location.region} | Bespoke Steel Front Doors, SR3 Rated | SteelR`,
-    description: `Steel doors in ${label}: bespoke steel front doors with SR3 rating as standard, PAS 24 certified, Secured by Design approved, FD30 fire rated. UK manufactured by SteelR with nationwide installation. Free design consultation. SR4 LPS 1175 commercial-grade upgrade also available.`,
+    description: `Bespoke steel front doors in ${label}. SR3 rated as standard, PAS 24 certified, Secured by Design, FD30 fire rated. UK manufactured by SteelR.`,
     alternates: { canonical: `https://steelr.co.uk/areas/${location.slug}` },
     openGraph: {
       title: `Steel Doors ${label} | SteelR`,
@@ -239,6 +239,12 @@ export default async function AreaPage({ params }: Props) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "HomeAndConstructionBusiness",
+            // @id reference to the canonical business in layout.tsx so
+            // Google merges these per-area schema blocks with the parent
+            // entity (which has the full address, geo, openingHours, etc.).
+            // Avoids the LocalBusiness "missing required fields" warning
+            // that the schema validator flagged on 29 Apr 2026.
+            "@id": "https://steelr.co.uk/#business",
             name: "SteelR",
             description: `Bespoke steel front doors for homes in ${label}, ${location.region}. PAS 24 certified, SR3 standard with SR4 (LPS 1175) upgrade, Secured by Design approved, FD30S fire rated. Residential steel front doors, fire rated steel front doors and commercial-grade security.`,
             url: `https://steelr.co.uk/areas/${location.slug}`,

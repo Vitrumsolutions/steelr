@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Fire Rated FD30 Front Door | Flats, New Builds, HMOs | SteelR",
   description:
-    "FD30 and FD60 fire rated steel front doors. Standard on every SteelR specification. This page explains what FD30 means, where it is legally required, how FD30 relates to FD30S and FD60, and how fire rating combines with PAS 24, SR3 and Secured by Design on a single door.",
+    "FD30 and FD60 fire rated steel front doors, standard on every SteelR door. What FD30 means, where required, and how it combines with PAS 24, SR3 and SBD.",
   alternates: { canonical: "https://steelr.co.uk/fire-rated-fd30-front-door" },
   openGraph: {
     title: "Fire Rated FD30 Front Door | SteelR",

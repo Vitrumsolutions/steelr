@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Thermally Broken Steel Front Door | U-Values and Condensation Explained | SteelR",
   description:
-    "A thermally broken steel front door solves the cold-bridge problem that makes budget steel doors condense. This page explains the thermal break, why it matters, achievable U-values, and how SteelR engineers the break into every door.",
+    "A thermally broken steel front door solves the cold-bridge problem on budget steel doors. The thermal break, U-values, and how SteelR engineers it in.",
   alternates: { canonical: "https://steelr.co.uk/thermally-broken-steel-front-door" },
   openGraph: {
     title: "Thermally Broken Steel Front Door | SteelR",

@@ -6,7 +6,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "About SteelR | SR3 Standard, SR4 (LPS 1175) Upgrade, Secured by Design",
   description:
-    "SteelR manufacture and install bespoke steel front doors for homes across the UK. PAS 24 certified, SR3 rated as standard with SR4 (LPS 1175) commercial-grade upgrade, Secured by Design approved, FD30 fire rated, ISO 9001 certified.",
+    "SteelR manufactures and installs bespoke steel front doors for UK homes. PAS 24, SR3 standard, SR4 LPS 1175 upgrade, Secured by Design, FD30, ISO 9001.",
   alternates: {
     canonical: "https://steelr.co.uk/about",
   },
