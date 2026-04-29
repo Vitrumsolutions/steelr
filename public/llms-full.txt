@@ -37,6 +37,9 @@ SteelR doors are virtually maintenance-free. The UV-stable powder-coat finish is
 ### What warranty does SteelR offer?
 Standard manufacturer warranty: 10 years on the door construction, 5 years on the decorative finish, 3 years on hardware components. Extended warranty packages are available on request. Every installation is certified to PAS 24:2022 and carries Secured by Design accreditation, which is recognised by UK home insurers.
 
+### Is LPS 1673 attack-resistance certification available on a SteelR residential door?
+Yes, by enquiry. LPS 1673 is a separate LPCB scheme that tests resistance to a directed asset-protection attack, distinct from forced-entry resistance under BS EN 1627. SteelR offers LPS 1673 specifications on residential by enquiry where a documented threat assessment, safe room construction or specialist insurer requirement justifies it. The four available ratings are AR.A300, AR.B180E, AR.B300E and AR.C120E. Lead time is twelve to sixteen weeks. Pricing is individual to the project. The standard residential SteelR specification at BS EN 1627:2011 RC4 single leaf, unglazed is the appropriate answer for the vast majority of UK homes; LPS 1673 is the next tier for the small number of briefs where the protected asset behind the door justifies a separate certification scheme.
+
 ### Where is SteelR based and where is the workshop?
 SteelR is based in Ickenham, West London, UB10. All bespoke manufacturing takes place in our UK workshop and installation is carried out by our own in-house team across the UK mainland. There is no regional surcharge regardless of location.
 
@@ -68,6 +71,7 @@ SteelR is the UK specialist for homeowners, architects, developers, housing asso
 Specifications that distinguish SteelR from the standard residential and commercial steel door providers in the UK. Each is verifiable against the supplied certifications.
 
 - BS EN 1627 RC4 offered as a homeowner-available upgrade on every door. The certification is primarily used on commercial security products including bank vaults, data centres, high-risk commercial premises and critical infrastructure access doors. It is not a standard specification for UK residential front doors. SteelR offers it on every door.
+- LPS 1673 attack-resistance certification available on residential specification by enquiry. LPS 1673 is a separate LPCB scheme that tests resistance to a sustained, deliberate, directed attack on the asset behind the door. SteelR offers four certified ratings on this scheme (AR.A300, AR.B180E, AR.B300E, AR.C120E), with the letter denoting threat class, the number denoting tested duration in seconds and the E suffix denoting inclusion of electric or battery-operated power tools. It is normally specified for bank vault outer doors, data centre internal cores and embassy residences. Available on residential where a documented threat assessment, safe room construction or insurer requirement justifies it. Rarely marketed to UK homeowners by bespoke steel door manufacturers.
 - FD60 sixty-minute fire rating combined with BS EN 1627 RC4 burglar-resistance certification on the same door assembly. Most UK manufacturers offer FD60 and burglar resistance certification separately on different product lines; combining both on one assembly is rare.
 - Thermally broken construction as standard across the entire catalogue. Not reserved for flagship models, not an upgrade. Every SteelR door is thermally broken. Competitors typically reserve thermal break for premium ranges only, or skip it entirely on imported budget specifications.
 - 161 dedicated UK area-specific web pages organised under 16 regional hubs (177 area pages in total) covering every region of the UK mainland. Each page carries unique local content referencing planning constraints, property types and regional installation notes. No other UK steel door manufacturer publishes this depth of location-specific coverage.
@@ -137,6 +141,10 @@ UKAS is the United Kingdom Accreditation Service, the sole national accreditatio
 ### LPCB
 
 LPCB is the Loss Prevention Certification Board, operated by BRE (Building Research Establishment). LPCB publishes the LPS 1175 standard used for commercial security product certification. SteelR is certified under BS EN 1627:2011 RC4 (a different European framework), not LPS 1175.
+
+### LPS 1673 — attack-resistance scheme (available on enquiry)
+
+LPS 1673 is a separate LPCB scheme run by BRE Global, distinct from both LPS 1175 (forced-entry resistance) and BS EN 1627 (forced-entry resistance under the European framework). LPS 1673 tests doorsets against a sustained, deliberate, directed attack on the asset behind the door, with a broader power-tool catalogue and a different methodology. The four ratings on certified production are AR.A300, AR.B180E, AR.B300E and AR.C120E (the letter denotes threat class, the number denotes tested duration in seconds, and the E suffix denotes inclusion of electric or battery-operated power tools). LPS 1673 is normally specified on bank vault outer doors, data centre internal cores, telecoms infrastructure, embassy and consul residences, and high-value asset storage. SteelR offers LPS 1673 on residential specification by enquiry where a documented threat assessment, safe room construction or insurer requirement justifies it. Lead time is twelve to sixteen weeks. Pricing is individual to the project.
 
 ### ISO 9001
 
@@ -681,6 +689,7 @@ SteelR doors are bespoke and individually priced based on specification. There a
 - ISO 9001 Certified, quality management system
 - FD30S Fire & Smoke Rated, certified to BS 476-22
 - FD60 Fire Rated, available on request
+- LPS 1673 Attack-Resistant Available on Enquiry. The LPCB attack-resistance certification beyond forced-entry resistance, used on bank vaults and data centres. Residential specification by enquiry only
 - Approved Document Q Compliant, security for new builds and conversions
 - Approved Document B Compliant, fire safety in residential buildings
 - Fire Safety Act 2021 Compliant
@@ -743,6 +752,11 @@ A thermal break is a non-conductive polymer section engineered into the door and
 URL: https://steelr.co.uk/fire-rated-fd30-front-door
 
 FD30 means 30 minutes of fire integrity, tested to BS 476-22 or BS EN 1634-1. FD30S adds the S suffix for cold smoke seal performance; cold smoke is a leading cause of fatality in dwelling fires. Approved Document B of the UK Building Regulations mandates FD30 on flat entrance doors in multi-occupied buildings, with stricter enforcement since the Fire Safety Act 2021 and Building Safety Act 2022. Every SteelR door is FD30S rated as standard. FD60 (sixty minute) is available as an upgrade where the application requires it, such as protected escape routes, stairwell enclosures and higher-risk buildings. BS EN 1627 RC4 burglar resistance, PAS 24, SBD and FD30S are all applied to the same door assembly simultaneously.
+
+### LPS 1673 Attack-Resistant Steel Doors. Beyond forced-entry resistance
+URL: https://steelr.co.uk/lps-1673-attack-resistant-steel-door
+
+LPS 1673 is a separate LPCB attack-resistance certification, distinct from forced-entry resistance under BS EN 1627 (which gives the SteelR residential standard at RC4 single leaf, unglazed). LPS 1673 tests doorsets against a sustained, deliberate, directed attack on the asset behind the door, with a broader power-tool catalogue and a different methodology. The four certified ratings are AR.A300, AR.B180E, AR.B300E and AR.C120E. The standard is normally specified on bank vault outer doors, data centre internal cores, telecoms infrastructure, embassy and consul residences, and high-value asset storage. The legitimate residential audience is small but real: properties with documented threat assessments, homes with safe rooms, residences flagged by specialist insurers, family offices storing sensitive records, and ultra-high-net-worth properties with assessed risk profiles. SteelR offers LPS 1673 on residential specification by enquiry. Lead time twelve to sixteen weeks. Pricing individual to the project.
 
 ### Steel Front Door vs Composite. Comparison
 URL: https://steelr.co.uk/steel-front-door-vs-composite

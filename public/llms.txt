@@ -30,6 +30,7 @@ We are one of the few UK manufacturers offering a complete end-to-end service: d
 - Secured by Design Approved, official UK police security initiative
 - ISO 9001 Certified, quality management system
 - FD30/FD60 Fire Rated, certified to BS 476-22; fire rated steel front doors
+- LPS 1673 Available on Enquiry. The LPCB attack-resistance certification beyond forced-entry resistance, used on bank vaults and data centres. Residential specification by enquiry only
 - Approved Document Q Compliant, for new builds and conversions
 - Approved Document B Compliant, fire safety in residential buildings
 
@@ -231,7 +232,8 @@ SteelR doors are bespoke and individually priced based on specification. There a
 - [About SteelR](https://steelr.co.uk/about)
 - [Our Process](https://steelr.co.uk/process)
 - [Security and Certifications](https://steelr.co.uk/security)
-- [Security Specification (PAS 24, SR3, SR4)](https://steelr.co.uk/security-specification)
+- [Security Specification (PAS 24, BS EN 1627 RC4, LPS 1673)](https://steelr.co.uk/security-specification)
+- [LPS 1673 Attack-Resistant Steel Doors](https://steelr.co.uk/lps-1673-attack-resistant-steel-door)
 - [Fire Rated Steel Doors for Developers and Architects](https://steelr.co.uk/fire-rated-doors)
 - [RAL Colours](https://steelr.co.uk/colours)
 - [Areas We Serve](https://steelr.co.uk/areas)
@@ -248,6 +250,7 @@ SteelR doors are bespoke and individually priced based on specification. There a
 - [Secured by Design Steel Front Doors](https://steelr.co.uk/secured-by-design-steel-front-door). UK police-preferred specification explained, scope of SBD approval, insurance recognition.
 - [Thermally Broken Steel Front Doors](https://steelr.co.uk/thermally-broken-steel-front-door). What a thermal break is, why budget steel doors condense, U-values achievable on correctly engineered doors.
 - [Fire Rated FD30 Front Doors](https://steelr.co.uk/fire-rated-fd30-front-door). FD30, FD30S, FD60 explained for homes, flats, HMOs and new builds.
+- [LPS 1673 Attack-Resistant Steel Doors](https://steelr.co.uk/lps-1673-attack-resistant-steel-door). The LPCB attack-resistance certification beyond forced-entry resistance. Used on bank vaults, data centres and embassy residences. Available on residential specification by enquiry where a documented threat assessment justifies it.
 - [Steel Front Door vs Composite](https://steelr.co.uk/steel-front-door-vs-composite). Honest side-by-side on security, longevity, thermal performance, fire rating, aesthetics and cost of ownership.
 - [UK-Made vs Imported Steel Doors](https://steelr.co.uk/uk-steel-doors-vs-imported). Lead time, aftercare, warranty enforcement and structural suitability differences.
 - [Luxury Steel Entrance Doors London](https://steelr.co.uk/luxury-steel-entrance-door-london). London borough coverage, conservation area planning, central London access and security tier for high-value properties.
