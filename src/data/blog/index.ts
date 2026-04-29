@@ -45,7 +45,8 @@ import frontDoorReplacementGuideUkHomeowners from "./posts/front-door-replacemen
 import steelEntranceDoorsBuckinghamshireHomes from "./posts/steel-entrance-doors-buckinghamshire-homes";
 import modernFrontDoorIdeasInspiration2026 from "./posts/modern-front-door-ideas-inspiration-2026";
 import steelEntranceDoorsKentProperties from "./posts/steel-entrance-doors-kent-properties";
-import compositeVsSteelDoors2026UpdatedComparison from "./posts/composite-vs-steel-doors-2026-updated-comparison";
+// Removed 28 Apr 2026 — compositeVsSteelDoors2026UpdatedComparison merged
+// into /steel-front-door-vs-composite topic hub, 308-redirected in next.config.mjs.
 import periodPropertyFrontDoorUltimateGuide from "./posts/period-property-front-door-ultimate-guide";
 import springHomeImprovementFrontDoorUpgrade from "./posts/spring-home-improvement-front-door-upgrade";
 import securedByDesignHomesGuide2026 from "./posts/secured-by-design-homes-guide-2026";
@@ -93,7 +94,6 @@ export const posts: BlogPost[] = [
   steelEntranceDoorsBuckinghamshireHomes,
   modernFrontDoorIdeasInspiration2026,
   steelEntranceDoorsKentProperties,
-  compositeVsSteelDoors2026UpdatedComparison,
   periodPropertyFrontDoorUltimateGuide,
   springHomeImprovementFrontDoorUpgrade,
   securedByDesignHomesGuide2026,

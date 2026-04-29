@@ -43,6 +43,11 @@ const faqs = [
     answer:
       "A composite door is lower initial cost. A steel door is higher initial cost and lower total cost of ownership because of the longer service life, lower maintenance requirement, and resistance to finish degradation. On a ten-year horizon the running costs favour steel. On a twenty-five-year horizon the gap widens further, because a composite door will typically need replacement within that period while a steel door will not.",
   },
+  {
+    question: "Do home insurers differentiate between composite and steel doors?",
+    answer:
+      "Increasingly, yes. Mainstream insurers and high-net-worth specialists in particular recognise the difference between PAS 24 and SR3 certification when assessing residential property risk. Properties with SR3-rated entrance doors may qualify for reduced premiums or are sometimes specifically requested by underwriters at higher property values. Secured by Design accreditation carries additional weight in those assessments. PAS 24-only composite doors meet the regulatory minimum for new builds but do not move the dial on insurer risk profiles in the same way SR3 does.",
+  },
 ];
 
 const breadcrumbSchema = JSON.stringify({
@@ -176,15 +181,16 @@ export default function SteelVsCompositePage() {
             title: "The thermal break is the whole story",
             body: (
               <>
-                Composite doors publish U-values around 1.2 to 1.4 W/m²K,
-                because the insulated core sits behind a polymer skin that
-                does not conduct heat efficiently. Steel conducts heat.
-                Untreated steel doors perform badly on U-value. A steel
-                door without a thermal break is a cold bridge from outside
-                to inside and will condense in cold weather. Owners who
-                have had a bad experience with steel entrance doors have
-                almost always had a badly specified one, with no thermal
-                break.
+                Composite doors typically publish U-values around 1.0 to
+                1.4 W/m²K for premium products, with budget composites
+                landing closer to 1.6 to 1.8. The insulated core sits
+                behind a polymer skin that does not conduct heat
+                efficiently. Steel conducts heat. Untreated steel doors
+                perform badly on U-value. A steel door without a thermal
+                break is a cold bridge from outside to inside and will
+                condense in cold weather. Owners who have had a bad
+                experience with steel entrance doors have almost always
+                had a badly specified one, with no thermal break.
               </>
             ),
             body2: (
@@ -192,10 +198,12 @@ export default function SteelVsCompositePage() {
                 A thermally broken steel door separates the outer and
                 inner skins with an insulating polymer section inside the
                 frame. That interrupts the heat path. A correctly
-                engineered SteelR door publishes U-values comparable to
-                premium composites, around 1.2 W/m²K depending on glazing
-                specification, while retaining the security rating and
-                finish quality steel provides. Detailed coverage on the{" "}
+                engineered SteelR door with a polyurethane-injected core
+                publishes U-values of 0.87 to 1.0 W/m²K, matching or
+                exceeding the best composite products while retaining the
+                security rating and finish quality steel provides.
+                Performance also stays consistent over decades because
+                the core does not degrade. Detailed coverage on the{" "}
                 <Link
                   href="/thermally-broken-steel-front-door"
                   className="link-gold-underline"
@@ -293,6 +301,37 @@ export default function SteelVsCompositePage() {
                   steel front door pricing page
                 </Link>
                 , without specific numbers.
+              </>
+            ),
+          },
+          {
+            pretitle: "Environmental impact",
+            title: "End-of-life and recyclability",
+            body: (
+              <>
+                Steel is one of the most recycled materials on earth. Over
+                eighty-five percent of structural steel in the UK is
+                recycled at end of life, and a steel door can be fully
+                recycled without loss of material quality. UK steel
+                production has also become significantly cleaner as
+                electric arc furnace capacity has expanded. The longer the
+                service life of the door, the lower the embedded carbon
+                cost per year of use.
+              </>
+            ),
+            body2: (
+              <>
+                Composite doors present a more difficult picture. The
+                multi-material construction, GRP skin, foam core, timber
+                or steel sub-frame and adhesives, makes recycling
+                economically unviable. Most composite doors end up in
+                landfill at end of life because separating the constituent
+                materials is not practical. Foam cores are typically
+                polyurethane-based and derived from petrochemicals. A
+                product that does not need replacing is inherently more
+                sustainable than one that must be manufactured,
+                transported and installed twice within the same building
+                lifetime.
               </>
             ),
           },

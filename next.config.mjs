@@ -23,9 +23,17 @@ const nextConfig = {
         destination: "/blog/how-much-do-steel-doors-cost-uk",
         permanent: true,
       },
+      // 28 Apr 2026 — composite-vs-steel-doors-2026-updated-comparison merged
+      // into /steel-front-door-vs-composite topic hub. Both old slugs now point
+      // straight to the hub so no chained redirects.
       {
         source: "/blog/steel-vs-composite-doors",
-        destination: "/blog/composite-vs-steel-doors-2026-updated-comparison",
+        destination: "/steel-front-door-vs-composite",
+        permanent: true,
+      },
+      {
+        source: "/blog/composite-vs-steel-doors-2026-updated-comparison",
+        destination: "/steel-front-door-vs-composite",
         permanent: true,
       },
       {
