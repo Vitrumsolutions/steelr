@@ -315,6 +315,11 @@ export default function BespokeHubPage() {
               description: "What the UK police-preferred specification actually covers, and what it means for insurance.",
             },
             {
+              href: "/lps-1673-attack-resistant-steel-door",
+              label: "LPS 1673 attack-resistant steel doors",
+              description: "The LPCB attack-resistance certification used on bank vaults and data centres, beyond forced-entry resistance. Available on residential specification by enquiry.",
+            },
+            {
               href: "/fire-rated-fd30-front-door",
               label: "Fire rated FD30 front doors",
               description: "FD30 and FD60 fire compliance for flats, HMOs, new builds and any home over eleven metres.",

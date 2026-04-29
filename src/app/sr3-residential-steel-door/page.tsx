@@ -276,6 +276,11 @@ export default function Sr3Page() {
               description: "Side-by-side comparison of every standard a SteelR door meets.",
             },
             {
+              href: "/lps-1673-attack-resistant-steel-door",
+              label: "LPS 1673 attack-resistant steel doors",
+              description: "The LPCB attack-resistance certification used on bank vaults and data centres, beyond forced-entry resistance. Available on residential specification by enquiry.",
+            },
+            {
               href: "/bespoke-steel-front-doors-uk",
               label: "Bespoke steel front doors UK",
               description: "Hub page covering the full SteelR model, design process and regional coverage.",

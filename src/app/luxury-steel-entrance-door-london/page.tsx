@@ -271,6 +271,11 @@ export default function LondonPage() {
               description: "What SR3 certification means, how testing works, and why it is the London baseline.",
             },
             {
+              href: "/lps-1673-attack-resistant-steel-door",
+              label: "LPS 1673 attack-resistant steel doors",
+              description: "The LPCB attack-resistance certification beyond forced-entry resistance. Specified for high-net-worth London properties with documented threat assessments.",
+            },
+            {
               href: "/colours",
               label: "RAL colour options",
               description: "Any RAL, dual-colour optional, heritage palettes for conservation areas.",

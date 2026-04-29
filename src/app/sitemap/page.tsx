@@ -50,6 +50,7 @@ const topicPages: Array<{ href: string; label: string }> = [
   { href: "/secured-by-design-steel-front-door", label: "Secured by Design Steel Front Doors" },
   { href: "/thermally-broken-steel-front-door", label: "Thermally Broken Steel Front Doors" },
   { href: "/fire-rated-fd30-front-door", label: "Fire Rated FD30 Front Doors" },
+  { href: "/lps-1673-attack-resistant-steel-door", label: "LPS 1673 Attack-Resistant Steel Doors" },
   { href: "/steel-front-door-vs-composite", label: "Steel vs Composite Front Doors" },
   { href: "/uk-steel-doors-vs-imported", label: "UK-Made vs Imported Steel Doors" },
   { href: "/luxury-steel-entrance-door-london", label: "Luxury Steel Entrance Doors London" },

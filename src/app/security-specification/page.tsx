@@ -51,6 +51,20 @@ const standards = [
       "Secured by Design police-preferred specification",
     ],
   },
+  {
+    tier: "Available on Enquiry",
+    standard: "LPS 1673",
+    name: "LPCB attack-resistance · Beyond forced-entry",
+    highlight: false,
+    features: [
+      "Separate LPCB scheme testing resistance to a sustained, directed attack on the asset behind the door",
+      "Different threat model from BS EN 1627: the protected asset is the target, not opportunist forced entry",
+      "Four ratings: AR.A300, AR.B180E, AR.B300E, AR.C120E (with E denoting power-tool inclusion)",
+      "Used on bank vault outer doors, data centre internal cores and embassy residences",
+      "Available on residential specification by enquiry where a documented threat assessment justifies it",
+      "Lead time 12 to 16 weeks. Pricing individual to the project",
+    ],
+  },
 ];
 
 const certifications = [
@@ -59,6 +73,7 @@ const certifications = [
   { label: "FD30S", desc: "Fire & Smoke Rated" },
   { label: "Secured by Design", desc: "Police Preferred Spec" },
   { label: "ISO 9001", desc: "Certified Manufacturer" },
+  { label: "LPS 1673", desc: "Attack-Resistant on Enquiry" },
 ];
 
 const regulations = [
@@ -121,6 +136,7 @@ export default function SecuritySpecificationPage() {
               { "@type": "Question", name: "What does Secured by Design mean?", acceptedAnswer: { "@type": "Answer", text: "Secured by Design is the official UK police security initiative. Products carrying the Secured by Design accreditation have been independently tested and certified to the police-preferred specification for crime prevention. SteelR doors are Secured by Design approved." }},
               { "@type": "Question", name: "Are SteelR doors fire rated?", acceptedAnswer: { "@type": "Answer", text: "Yes. Every SteelR door carries FD30S certification providing 30 minutes of fire and smoke resistance as standard. FD60 (60-minute) ratings are available on request. This satisfies Approved Document B, the Fire Safety Act 2021, and the Building Safety Act 2022 for flat entrance doors." }},
               { "@type": "Question", name: "Are SteelR doors suitable for new builds and flats?", acceptedAnswer: { "@type": "Answer", text: "Yes. SteelR doors exceed Approved Document Q (PAS 24) for security and Approved Document B for fire safety. The BS EN 1627 RC4 + FD30S specification satisfies all current UK Building Regulations for new-build houses, flats, HMOs, and housing association properties. They are regularly specified by developers, architects and housing associations." }},
+              { "@type": "Question", name: "Is LPS 1673 available on a SteelR residential door?", acceptedAnswer: { "@type": "Answer", text: "Yes, by enquiry. LPS 1673 is a separate LPCB attack-resistance scheme that tests directed assault on the asset behind the door, distinct from forced-entry resistance under BS EN 1627. SteelR offers LPS 1673 specifications on residential by enquiry where a documented threat assessment, safe room construction or insurer requirement justifies it. Lead time 12 to 16 weeks. Pricing is individual to the project. See the dedicated LPS 1673 page for the four rating tiers (AR.A300, AR.B180E, AR.B300E, AR.C120E) and the typical buyer profile." }},
             ],
           }),
         }}

@@ -180,6 +180,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/lps-1673-attack-resistant-steel-door`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
     ...doorPages,
     {
       url: `${baseUrl}/areas`,

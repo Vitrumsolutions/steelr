@@ -277,6 +277,11 @@ export default function SbdPage() {
               description: "The UK minimum for new-build security, and why SBD builds on top of it.",
             },
             {
+              href: "/lps-1673-attack-resistant-steel-door",
+              label: "LPS 1673 attack-resistant steel doors",
+              description: "The LPCB attack-resistance certification beyond forced-entry resistance. Available on residential specification by enquiry.",
+            },
+            {
               href: "/bespoke-steel-front-doors-uk",
               label: "Bespoke steel front doors UK",
               description: "The full SteelR service model from survey through installation.",
