@@ -148,7 +148,7 @@ SteelR manufactures entrance doors that achieve both **SR3 security certificatio
 
 ### Part L (Conservation of Fuel and Power)
 
-**Part L** sets thermal performance requirements for building elements including entrance doors. SBD-accredited steel entrance doors with polyurethane-injected cores and thermal break technology comfortably exceed Part L requirements with U-values below 1.0 W/m2K.
+**Part L** sets thermal performance requirements for building elements including entrance doors. SBD-accredited steel entrance doors with insulated cores and thermal break technology comfortably exceed Part L's 1.8 W/m2K maximum, with thermal-upgrade specifications available achieving as low as 0.8 W/m2K.
 
 The practical significance is that a single doorset can satisfy Document Q (security), Part L (thermal), Building Safety Act (fire) and SBD (police-backed security) simultaneously. This simplifies specification for developers and eliminates the risk of installing different doors to meet different standards in different parts of a development.
 

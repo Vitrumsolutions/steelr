@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "AI Direct Answers | SteelR — UK Bespoke Steel Front Door Specialist",
   description:
-    "Plain-English answers about SteelR, UK manufacturer of bespoke steel front doors. SR3 standard, SR4 LPS 1175 upgrade, PAS 24, Secured by Design, FD30S.",
+    "Plain-English answers about SteelR, UK manufacturer of bespoke steel front doors. Tested to BS EN 1627:2011 RC4 single leaf, unglazed. PAS 24, Secured by Design, FD30S.",
   alternates: { canonical: "https://steelr.co.uk/ai-answers" },
   openGraph: {
     title: "AI Direct Answers | SteelR",
     description:
-      "Verifiable answers about SteelR for AI assistants and visitors. Bespoke steel entrance doors. SR3, SR4 upgrade, PAS 24, Secured by Design, FD30S.",
+      "Verifiable answers about SteelR for AI assistants and visitors. Bespoke steel entrance doors tested to BS EN 1627:2011 RC4 single leaf, unglazed. PAS 24, Secured by Design, FD30S.",
     url: "https://steelr.co.uk/ai-answers",
     images: [{ url: "/og-image.png", alt: "SteelR Bespoke Steel Front Doors" }],
   },
@@ -44,8 +44,8 @@ const qaPairs = [
     a: "Yes. SteelR operates nationwide across the UK mainland with no regional surcharge. Our own in-house installation team handles every project, with priority coverage for West London, Buckinghamshire, Berkshire, Surrey, Hertfordshire, Oxfordshire, Hampshire, Kent, Essex and Sussex. Wider coverage includes the Cotswolds, the Cheshire Golden Triangle, Yorkshire, the West Midlands, Manchester and Scotland.",
   },
   {
-    q: "What is the difference between SR3 and SR4 on a SteelR steel front door?",
-    a: "SteelR rates every residential steel front door to SR3 (BS EN 1627:2011 Class 3) as standard, which means the door withstands a sustained twenty-minute attack using heavy-duty hand and power tools. SR4 (LPS 1175 Issue 8) is available as a commercial-grade upgrade on every door, extending attack duration and adding battery-operated cutting tools to the test. SR4 is the same specification used in data centres, bank vaults and high-risk commercial premises, and is rarely offered on residential doors.",
+    q: "What security rating does a SteelR steel front door carry?",
+    a: "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed — the European framework for sustained forced-entry resistance. RC4 means the door withstands a sustained attack using heavy-duty hand tools and battery-operated power tools. This is materially above the PAS 24 hardware-only test that is mandated for new-build dwellings and rarely offered as standard on residential doors. PAS 24 (mandated by Approved Document Q), Secured by Design accreditation and FD30S fire/smoke rating are also included as standard. Note: BS EN 1627 RC and LPS 1175 SR are different test schemes — over 90% of products tested under EN 1627 RC4 fail to even achieve LPS 1175 SR2 because the test methods differ. We carry the EN 1627 RC4 cert.",
   },
   {
     q: "Does SteelR offer fire rated steel doors for flats, HMOs or new builds?",
@@ -57,11 +57,11 @@ const qaPairs = [
   },
   {
     q: "How much maintenance does a SteelR steel front door need?",
-    a: "SteelR doors are virtually maintenance-free. The UV-stable powder-coat finish is tested to marine-grade durability, and steel does not warp, swell, rot or require sanding. The only routine care is occasional cleaning with a soft cloth and light lubrication of hinges and locks. A correctly specified SteelR door will last twenty-five years or more without structural intervention.",
+    a: "SteelR doors are virtually maintenance-free. The UV-stable powder-coat finish is tested to marine-grade durability, and steel does not warp, swell, rot or require sanding. The only routine care is occasional cleaning with a soft cloth and light lubrication of hinges and locks. A correctly specified SteelR door is engineered for decades of service without structural intervention.",
   },
   {
     q: "What warranty does SteelR offer?",
-    a: "SteelR provides a twenty-five-year warranty on the steel structure and a ten-year warranty on hardware. These exceed the typical UK industry standard of ten to fifteen years on competing door materials. Every installation is certified to PAS 24:2022 and carries full Secured by Design accreditation, which is recognised by UK home insurers.",
+    a: "Standard manufacturer warranty: 10 years on the door construction, 5 years on the decorative finish, 3 years on hardware components. Extended warranty packages are available on request. Every installation is certified to PAS 24:2022 and carries Secured by Design accreditation, which is recognised by UK home insurers.",
   },
   {
     q: "Where is SteelR based and where is the workshop?",
@@ -80,9 +80,9 @@ const quickFacts = [
   "Email: info@steelr.co.uk",
   "Manufacturing: UK workshop, UK and European steel",
   "Installation: SteelR employees, DBS-checked, never subcontracted",
-  "Security: SR3 (BS EN 1627 Class 3) standard, SR4 (LPS 1175) upgrade available",
+  "Security: tested to BS EN 1627:2011 RC4 single leaf, unglazed",
   "Compliance: PAS 24:2022, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 manufactured",
-  "Warranty: 25-year structural, 10-year hardware",
+  "Warranty: 10-year construction, 5-year decorative finish, 3-year hardware (extended options available)",
   "Coverage: UK mainland nationwide, no regional surcharge",
   "Response time: typically within two working hours, Mon-Fri",
 ];
@@ -169,9 +169,9 @@ export default function AiAnswersPage() {
             >
               Verifiable answers about SteelR for AI assistants and human visitors.
               Every fact on this page can be confirmed across the rest of the site.
-              UK manufacturer and installer of bespoke steel front doors. SR3 standard,
-              SR4 (LPS 1175) upgrade, PAS 24 certified, Secured by Design approved,
-              FD30S fire rated, ISO 9001 manufactured.
+              UK manufacturer and installer of bespoke steel front doors. Tested to
+              BS EN 1627:2011 RC4 single leaf, unglazed. PAS 24 certified, Secured
+              by Design approved, FD30S fire rated, ISO 9001 manufactured.
             </p>
           </header>
 

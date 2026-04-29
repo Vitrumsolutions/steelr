@@ -63,7 +63,7 @@ Modern building standards demand good thermal performance from entrance doors. H
 
 **Timber** has natural insulating properties, and a solid hardwood door provides reasonable thermal performance. However, as timber warps and gaps develop around the edges and glazing, the effective insulation decreases significantly over time. Draught-proofing timber doors is an ongoing battle.
 
-**Steel doors** with a **polyurethane-injected core and thermally broken profiles** achieve excellent U-values — typically 0.9 to 1.2 W/m2K for a solid panel door. The thermal break prevents cold bridging through the steel, and because the door does not warp or move, the seal between door and frame remains consistent over time. This means the thermal performance on day one is the same as the thermal performance ten years later.
+**Steel doors** with an **insulated core and thermally broken profiles** achieve excellent U-values, typically from 1.5 W/m2K for a solid panel door, with thermal-upgrade specifications available achieving as low as 0.8 W/m2K. The thermal break prevents cold bridging through the steel, and because the door does not warp or move, the seal between door and frame remains consistent over time. This means the thermal performance on day one is the same as the thermal performance ten years later.
 
 ## Design and Aesthetics
 

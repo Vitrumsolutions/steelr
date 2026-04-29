@@ -35,7 +35,7 @@ Developers building in [Surrey](/areas/surrey), [Kent](/areas/kent) and [Essex](
 
 **Approved Document L** governs the conservation of fuel and power. For entrance doors, the key metric is the **U-value** — the rate of heat loss through the door assembly, measured in W/m²K. The lower the value, the better the thermal performance.
 
-The current requirement for new build entrance doors is a maximum U-value of **1.8 W/m²K**, though most quality steel and composite doors comfortably exceed this. Premium steel doors with polyurethane-injected cores and thermal break technology achieve U-values between 0.87 and 1.2 W/m²K, contributing positively to the dwelling's overall SAP calculation.
+The current requirement for new build entrance doors is a maximum U-value of **1.8 W/m²K**, though most quality steel and composite doors comfortably exceed this. Premium steel doors with insulated cores and thermal break technology achieve U-values typically from 1.5 W/m²K, with thermal-upgrade specifications available achieving as low as 0.8 W/m²K, contributing positively to the dwelling's overall SAP calculation.
 
 With the Future Homes Standard expected to tighten energy performance requirements further from 2025, specifying doors with strong thermal performance now avoids the risk of products becoming non-compliant before the development completes. A well-specified entrance door contributes to the overall energy efficiency of the building envelope and can improve EPC ratings.
 
@@ -147,7 +147,7 @@ Yes. When working with a bespoke manufacturer that offers the full RAL colour ra
 
 ### What U-value do new build entrance doors need to achieve?
 
-The current requirement under Approved Document L is a maximum U-value of 1.8 W/m²K for entrance doors. However, with the Future Homes Standard tightening energy requirements, specifying doors with U-values well below this threshold (0.87 to 1.2 W/m²K for premium steel doors) provides future-proofing and improves the dwelling's SAP calculation.
+The current requirement under Approved Document L is a maximum U-value of 1.8 W/m²K for entrance doors. However, with the Future Homes Standard tightening energy requirements, specifying doors with U-values well below this threshold (premium steel doors typically achieve from 1.5 W/m²K, with thermal-upgrade options as low as 0.8 W/m²K) provides future-proofing and improves the dwelling's SAP calculation.
 
 ### How far in advance should developers order bespoke entrance doors?
 

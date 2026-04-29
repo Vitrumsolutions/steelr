@@ -47,7 +47,7 @@ Every SteelR entrance door is tested to **SR3 under BS EN 1627:2011** and carrie
 
 ### Approved Document L — Thermal Performance
 
-Replacement doors must achieve a maximum **U-value of 1.8 W/m2K** for the complete doorset. This thermal performance requirement ensures that new doors contribute to the energy efficiency of the dwelling. Premium steel doors with polyurethane foam cores and thermal break frames comfortably exceed this standard.
+Replacement doors must achieve a maximum **U-value of 1.8 W/m2K** for the complete doorset. This thermal performance requirement ensures that new doors contribute to the energy efficiency of the dwelling. Premium steel doors with insulated cores and thermal break frames comfortably exceed this standard.
 
 ### Compliance and Certification
 

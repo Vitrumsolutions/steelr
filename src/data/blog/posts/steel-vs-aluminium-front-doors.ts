@@ -31,7 +31,7 @@ For homeowners in high-value properties — whether in [Buckinghamshire](/areas/
 
 Modern steel and aluminium doors both use **thermal break technology** to prevent cold bridging through the metal frame. The thermal break — typically a polyamide or polyurethane barrier — separates the inner and outer metal skins and provides insulation.
 
-**Steel doors** with a polyurethane-injected core achieve U-values of approximately **0.9 to 1.2 W/m2K** for a solid panel door. **Aluminium doors** with a similar thermal break system achieve comparable U-values, typically in the range of **1.0 to 1.4 W/m2K**.
+**Steel doors** with an insulated core achieve U-values typically from **1.5 W/m2K** for a solid panel door, with thermal-upgrade specifications achieving as low as **0.8 W/m2K**. **Aluminium doors** with a similar thermal break system achieve comparable U-values, typically in the range of **1.0 to 1.4 W/m2K**.
 
 In practice, the thermal performance difference between the two is marginal. Both significantly outperform timber and composite doors, and both comfortably meet the requirements of Approved Document L for new dwellings.
 

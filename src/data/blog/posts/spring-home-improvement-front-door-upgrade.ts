@@ -87,7 +87,7 @@ A front door upgrade is one of the simplest ways to improve a property's thermal
 
 ### The Numbers
 
-A well-sealed modern entrance door with a polyurethane-injected core and thermal break technology achieves U-values of **0.87 to 1.0 W/m2K**. An older timber door with single-glazed panels may have a U-value of 3.0 W/m2K or higher. The difference in heat loss is substantial, particularly over a full heating season.
+A well-sealed modern entrance door with an insulated core and thermal break technology typically achieves U-values of **1.5 W/m²K or below**, with thermal-upgrade specifications available achieving as low as 0.8 W/m²K. An older timber door with single-glazed panels may have a U-value of 3.0 W/m2K or higher. The difference in heat loss is substantial, particularly over a full heating season.
 
 Draught exclusion is equally important. Modern doorsets incorporate multi-stage weathersealing around the full perimeter, including the threshold. **The threshold is the most common source of draughts and heat loss in an entrance door**, and it is the detail most often neglected in budget installations.
 

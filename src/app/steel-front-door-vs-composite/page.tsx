@@ -198,12 +198,12 @@ export default function SteelVsCompositePage() {
                 A thermally broken steel door separates the outer and
                 inner skins with an insulating polymer section inside the
                 frame. That interrupts the heat path. A correctly
-                engineered SteelR door with a polyurethane-injected core
-                publishes U-values of 0.87 to 1.0 W/m²K, matching or
-                exceeding the best composite products while retaining the
-                security rating and finish quality steel provides.
-                Performance also stays consistent over decades because
-                the core does not degrade. Detailed coverage on the{" "}
+                engineered SteelR door with a mineral-wool insulated core
+                comfortably exceeds the Building Regulations Part L
+                maximum of 1.8 W/m²K, with thermal-upgrade specifications
+                available that achieve 0.8 W/m²K. Performance also stays
+                consistent over decades because the core does not
+                degrade. Detailed coverage on the{" "}
                 <Link
                   href="/thermally-broken-steel-front-door"
                   className="link-gold-underline"

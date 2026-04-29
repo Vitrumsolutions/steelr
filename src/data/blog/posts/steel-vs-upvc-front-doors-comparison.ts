@@ -85,7 +85,7 @@ Modern uPVC doors achieve reasonable thermal performance, with U-values typicall
 
 However, uPVC's thermal performance degrades over time as seals fail and profiles warp. A door that tested well at installation may perform significantly worse after 10 or 15 years in service.
 
-**Steel entrance doors** with a **polyurethane-injected insulating core** achieve U-values of approximately **0.9 to 1.2 W/m2K** — substantially better than uPVC from day one. More importantly, that performance remains consistent over the full lifespan of the door because the steel frame maintains its dimensional stability. Seals remain properly compressed, and the insulating core does not degrade.
+**Steel entrance doors** with an **insulated core** achieve U-values typically from **1.5 W/m2K**, with thermal-upgrade specifications available achieving as low as **0.8 W/m2K**, substantially better than uPVC from day one. More importantly, that performance remains consistent over the full lifespan of the door because the steel frame maintains its dimensional stability. Seals remain properly compressed, and the insulating core does not degrade.
 
 The thermal advantage of steel is not merely a specification figure. It translates directly into lower heating costs, improved comfort at the threshold and compliance with the increasingly stringent requirements of **Approved Document L**.
 

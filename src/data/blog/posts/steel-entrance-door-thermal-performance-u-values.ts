@@ -45,9 +45,9 @@ The key to steel entrance door thermal performance lies in three engineering ele
 
 A bespoke steel entrance door is not a solid slab of steel. It is a composite construction: two steel skins bonded to an insulating core. The core material determines the bulk of the door leaf's thermal performance.
 
-**Polyurethane foam** (PU foam) is the insulating material of choice for premium steel doors. With a thermal conductivity of approximately **0.022 W/mK**, polyurethane outperforms polystyrene (0.035 W/mK) and mineral wool (0.035–0.040 W/mK) by a significant margin. A 60mm polyurethane core within a steel door leaf achieves a U-value contribution equivalent to a 100mm mineral wool panel.
+Premium steel doors use engineered insulation materials selected for both thermal performance and fire resistance. **Mineral wool** (commonly Rockwool) is widely specified because it combines a thermal conductivity of approximately 0.035 to 0.040 W/mK with non-combustible fire performance. **Polyurethane foam** (PU foam) is also used by some manufacturers for its lower thermal conductivity (around 0.022 W/mK), though it does not offer the same intrinsic fire resistance as mineral wool. **Polystyrene** sits between the two on thermal performance and below mineral wool on fire resistance.
 
-The foam is injected between the steel skins and expands to fill every cavity, creating a continuous insulating layer with no gaps, joints or thermal bridges within the door leaf itself. This injection process is critical — pre-cut insulation boards leave edge gaps that compromise performance.
+The choice between insulation materials is a function of the door's overall specification: doors targeting fire ratings (FD30, FD60) typically use mineral wool, while doors prioritising raw U-value may use polyurethane. The insulating layer is bonded between the steel skins to create a continuous insulating envelope with no gaps, joints or thermal bridges within the door leaf itself.
 
 ### The Thermal Break System
 
@@ -81,9 +81,9 @@ Composite doors with insulating foam cores and GRP skins offer good thermal perf
 
 Aluminium, like steel, is a high-conductivity metal that requires thermal breaks. Thermally broken aluminium doors achieve respectable U-values, typically between 1.2 and 1.8 W/m2K. Aluminium's lower density means thinner frame sections, which can limit the depth of thermal break and insulation achievable. Premium aluminium systems perform well but sit below the best steel and composite doors on pure thermal metrics.
 
-### Steel Doors (Thermally Broken): 0.9–1.4 W/m2K
+### Steel Doors (Thermally Broken): 1.5 W/m2K standard, 0.8 W/m2K with thermal upgrade
 
-A well-engineered, thermally broken steel entrance door with a polyurethane core achieves U-values between **0.9 and 1.4 W/m2K** — comfortably exceeding Building Regulations Part L and competitive with the best-performing composite doors. SteelR doors sit consistently in this range as standard, with the thermal break and core specification fixed across the product line. The advantage of steel is that this thermal performance is delivered alongside **SR3 security certification**, fire resistance and structural longevity that no other material can match.
+A well-engineered, thermally broken steel entrance door with an insulated core typically achieves U-values from **1.5 W/m2K** as a standard specification, comfortably exceeding the Building Regulations Part L maximum of 1.8 W/m2K. **Thermal-upgrade specifications** are available achieving as low as **0.8 W/m2K**, competitive with the best-performing composite doors. The advantage of steel is that this thermal performance is delivered alongside **SR3 security certification**, fire resistance and structural longevity that no other material can match.
 
 Steel doors achieve their best U-values because the deep frame sections (necessary for structural strength) allow for wider thermal breaks and thicker insulation than slimmer aluminium profiles can accommodate. The engineering requirement for security creates an inherent thermal benefit.
 
@@ -93,7 +93,7 @@ Steel doors achieve their best U-values because the deep frame sections (necessa
 
 Thermally broken steel doors virtually eliminate frame condensation because the interior frame surface remains close to room temperature. The thermal break prevents heat from conducting to the exterior, keeping the inner surface warm and dry.
 
-Door leaf condensation is prevented by the insulated core. With a 60mm polyurethane core, the interior steel skin temperature remains well above dew point even in severe winter conditions (-10C external, 20C internal, 60% relative humidity).
+Door leaf condensation is prevented by the insulated core. With a 60mm insulated core (mineral wool or polyurethane), the interior steel skin temperature remains well above dew point even in severe winter conditions (-10C external, 20C internal, 60% relative humidity).
 
 The only areas where condensation may occur are at glazed panels (if the glass U-value is significantly higher than the door leaf) and at poorly sealed thresholds. Specifying **double or triple glazed units** with warm-edge spacers and ensuring a fully insulated threshold eliminates these residual risks.
 
@@ -115,22 +115,22 @@ When specifying a steel entrance door for thermal performance, the following poi
 
 - **Tested U-value for the complete doorset**, not just the door leaf — request the BS EN ISO 10077-1 calculation or BS EN 12412-2 hot box test certificate
 - **Thermal break material and depth** — polyamide breaks of 24mm or greater deliver the best frame performance
-- **Core material and thickness** — polyurethane foam at 60mm minimum
+- **Core material and thickness** — mineral wool or polyurethane foam at 44mm minimum, 60mm preferred
 - **Seal system** — double compression seals minimum, triple preferred
 - **Threshold specification** — insulated with integrated thermal break
 - **Glazing U-value** — matched to the overall doorset target, with warm-edge spacers
 
-A steel entrance door that meets SR3 security, achieves a U-value below 1.4 W/m2K, carries Secured by Design accreditation and is manufactured under ISO 9001 quality management represents the most complete specification available for a UK residential entrance door. It addresses security, thermal performance, quality assurance and police-approved standards in a single product.
+A steel entrance door that meets SR3 security, achieves a U-value comfortably below the 1.8 W/m2K Part L maximum (with thermal-upgrade options as low as 0.8 W/m2K), carries Secured by Design accreditation and is manufactured under ISO 9001 quality management represents the most complete specification available for a UK residential entrance door. It addresses security, thermal performance, quality assurance and police-approved standards in a single product.
 
 ## Frequently Asked Questions
 
 ### What U-value should a front door achieve in 2026?
 
-Building Regulations Part L requires a maximum of 1.8 W/m2K for replacement doors in existing dwellings. For new builds, a target of 1.4 W/m2K or lower is standard practice. Premium steel entrance doors with thermally broken frames and polyurethane cores routinely achieve U-values between 0.9 and 1.4 W/m2K.
+Building Regulations Part L requires a maximum of 1.8 W/m2K for replacement doors in existing dwellings. For new builds, a target of 1.4 W/m2K or lower is standard practice. Premium steel entrance doors with thermally broken frames and insulated cores routinely achieve U-values from 1.5 W/m2K, with thermal-upgrade specifications available achieving as low as 0.8 W/m2K.
 
 ### Are steel doors cold to the touch in winter?
 
-A thermally broken steel entrance door with an insulated core maintains an interior surface temperature close to room temperature, even in severe winter conditions. The thermal break system prevents heat from conducting through the frame, and the polyurethane core insulates the door leaf. The interior face of a well-engineered steel door feels no different to a timber or composite door.
+A thermally broken steel entrance door with an insulated core maintains an interior surface temperature close to room temperature, even in severe winter conditions. The thermal break system prevents heat from conducting through the frame, and the insulated core (mineral wool or polyurethane) insulates the door leaf. The interior face of a well-engineered steel door feels no different to a timber or composite door.
 
 ### Do steel doors cause condensation?
 
@@ -138,7 +138,7 @@ Condensation occurs when a surface drops below the dew point of the surrounding 
 
 ### How does a steel door compare thermally to a composite door?
 
-Premium composite doors typically achieve U-values of 1.0 to 1.6 W/m2K. Thermally broken steel doors achieve 0.9 to 1.4 W/m2K — comparable or superior thermal performance. The distinction is that steel doors deliver this alongside SR3 security certification and fire resistance, which composite construction cannot achieve.
+Premium composite doors typically achieve U-values of 1.0 to 1.6 W/m2K. Thermally broken steel doors achieve from 1.5 W/m2K standard, with thermal-upgrade specifications as low as 0.8 W/m2K, comparable or superior thermal performance to composite. The distinction is that steel doors deliver this alongside SR3 security certification and fire resistance, which composite construction cannot achieve.
 
 ### What is a thermal break and why does it matter?
 

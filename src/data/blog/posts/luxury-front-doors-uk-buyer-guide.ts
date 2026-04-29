@@ -139,7 +139,7 @@ Any supplier quoting a fixed price without seeing the property is not specifying
 
 4. **Specify the colour against a physical reference.** Deliver a brick sample, a paint chip, a photograph of the surround. Avoid "RAL chart black" or "standard anthracite".
 
-5. **Confirm the installation warranty.** A luxury front door should carry at minimum a 10-year hardware warranty and a 25-year structural warranty on the leaf itself.
+5. **Confirm the installation warranty.** A luxury front door should carry at minimum a ten-year warranty on the door construction, with separate cover for the decorative finish and hardware components and an option to extend.
 
 6. **Ask who installs it.** Bespoke doors should be fitted by the manufacturer's own team, not subcontracted to a local joiner. The install is 40% of the finished result.
 
@@ -191,7 +191,7 @@ Eight to fourteen weeks from agreed specification to fitted installation. The ti
 
 ### Do luxury front doors add value to a property?
 
-Yes. Industry data from UK estate agents consistently shows that a well-specified luxury front door on a period or architect-designed property returns 100 to 300 percent of its installed cost in resale value, particularly in London and the Home Counties where the front elevation heavily influences buyer perception. Beyond resale, the insurance benefits of SR3 certification and the 25-year structural life of steel make it the lowest lifetime cost option on properties planned for long-term ownership.
+Yes. Industry data from UK estate agents consistently shows that a well-specified luxury front door on a period or architect-designed property returns 100 to 300 percent of its installed cost in resale value, particularly in London and the Home Counties where the front elevation heavily influences buyer perception. Beyond resale, the insurance benefits of SR3 certification and the multi-decade service life of bespoke steel make it the lowest lifetime cost option on properties planned for long-term ownership.
 
 ## Final Thought
 

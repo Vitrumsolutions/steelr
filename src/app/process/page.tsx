@@ -339,8 +339,8 @@ export default function ProcessPage() {
             {[
               {
                 label: "Warranty",
-                heading: "Ten and twenty-five years",
-                body: "Hardware is covered for ten years. The steel structure is covered for twenty-five. Fire and security certifications are registered against your address and kept on file in case future owners need to verify compliance.",
+                heading: "Ten, five and three years",
+                body: "The door construction is covered for ten years. The decorative finish is covered for five years. Hardware components are covered for three years. Extended warranty packages are available on request. Fire and security certifications are registered against your address and kept on file in case future owners need to verify compliance.",
               },
               {
                 label: "Maintenance",

@@ -83,7 +83,7 @@ Both materials deliver thermal performance that significantly exceeds traditiona
 
 ### Steel
 
-Steel doors with a **polyurethane-injected core** and thermal break technology achieve U-values between **0.87 and 1.2 W/m²K**. The thermal break — a non-conductive barrier between the inner and outer steel skins — prevents cold bridging through the steel. Without a thermal break, steel would conduct heat directly through the leaf, negating the benefit of the insulating core.
+Steel doors with an **insulated core** and thermal break technology achieve U-values typically from **1.5 W/m²K**, with thermal-upgrade specifications available achieving as low as **0.8 W/m²K**. The thermal break, a non-conductive barrier between the inner and outer steel skins, prevents cold bridging through the steel. Without a thermal break, steel would conduct heat directly through the leaf, negating the benefit of the insulating core.
 
 Any reputable steel door manufacturer incorporates thermal break technology as standard. The result is thermal performance that comfortably exceeds Building Regulations requirements (maximum 1.8 W/m²K for new builds under Part L).
 
@@ -143,7 +143,7 @@ The trend is clear: as UK homeowners become more informed about security standar
 
 ### Are steel doors colder than fibreglass doors?
 
-No. Modern steel entrance doors incorporate thermal break technology and polyurethane-injected cores that prevent cold bridging through the steel skins. The resulting U-values (0.87 to 1.2 W/m²K) are comparable to fibreglass doors and significantly exceed Building Regulations requirements. The perception that steel doors are cold dates from industrial steel doors without thermal breaks, which are an entirely different product.
+No. Modern steel entrance doors incorporate thermal break technology and insulated cores that prevent cold bridging through the steel skins. The resulting U-values (typically from 1.5 W/m²K, with thermal-upgrade specifications achieving as low as 0.8 W/m²K) are comparable to fibreglass doors and significantly exceed Building Regulations requirements. The perception that steel doors are cold dates from industrial steel doors without thermal breaks, which are an entirely different product.
 
 ### Do steel doors rust in the UK climate?
 

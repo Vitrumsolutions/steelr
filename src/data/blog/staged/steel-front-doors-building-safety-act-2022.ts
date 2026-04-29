@@ -103,7 +103,7 @@ A steel door from a single UK manufacturer concentrates the chain. The certifica
 
 Three further practical advantages on BSA-scope buildings:
 
-1. **Service life.** A SteelR door carries a twenty-five-year structural warranty and is engineered to outlast it. The typical timber FD30S door has a service life of fifteen years before structural elements (intumescent retention, hinge alignment, leaf integrity) begin to compromise certification. Replacement during the service life of the building is a known cost item; steel removes it from the budget.
+1. **Service life.** A SteelR door carries a ten-year manufacturer warranty on the construction and is engineered to deliver decades of service beyond it. The typical timber FD30S door has a service life of fifteen years before structural elements (intumescent retention, hinge alignment, leaf integrity) begin to compromise certification. Replacement during the service life of the building is a known cost item; steel removes it from the budget.
 
 2. **Inspection efficiency.** Fire door inspections under BSA 2022 are time-consuming on timber doors because the inspector must verify intumescent strips, cold smoke seals, self-closer balance, hinge condition and leaf integrity. On steel doors, the same inspection is faster because the structural elements do not degrade, and visual modifications (drilling, sticker application, paint over intumescent) are immediately obvious.
 

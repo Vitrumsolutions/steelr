@@ -73,7 +73,7 @@ Steel offers four practical advantages on HMO applications:
 
 3. **Combined security and fire rating on one assembly.** A SteelR door specified for HMO use carries PAS 24, SR3, Secured by Design and FD30S certifications on the same assembly. The equivalent timber specification typically requires separate certifications and separate manufacturers, with the integration risk borne by the installer.
 
-4. **Aftercare and warranty enforcement.** SteelR's twenty-five-year structural warranty and ten-year hardware warranty are enforceable through a single UK manufacturer over the typical HMO refurbishment cycle. Replacement of fire-rated timber doors mid-cycle is a known cost item that steel removes from the budget.
+4. **Aftercare and warranty enforcement.** SteelR's standard manufacturer warranty (10 years on the door construction, 5 years on the decorative finish, 3 years on hardware, with extended packages on request) is enforceable through a single UK manufacturer over the typical HMO refurbishment cycle. Replacement of fire-rated timber doors mid-cycle is a known cost item that steel removes from the budget.
 
 For a side-by-side comparison of materials, see [steel vs timber entrance doors](/blog/steel-vs-timber-entrance-doors) and [steel front door vs composite](/steel-front-door-vs-composite).
 

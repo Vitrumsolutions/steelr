@@ -611,7 +611,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Battersea has emerged as one of London's most dynamic residential areas, blending Victorian heritage with bold contemporary development around the Power Station and Nine Elms. The streets between Battersea Park and Lavender Hill retain their original Victorian character, with colourful terraced houses sporting distinctive arched doorways. SteelR bespoke steel doors serve both sides of Battersea's personality — ornate traditional designs for period terraces and sleek, minimal profiles for the glass-and-steel apartments of the new riverside quarter. Every door is manufactured to order with a 25-year structural guarantee.",
+      "Battersea has emerged as one of London's most dynamic residential areas, blending Victorian heritage with bold contemporary development around the Power Station and Nine Elms. The streets between Battersea Park and Lavender Hill retain their original Victorian character, with colourful terraced houses sporting distinctive arched doorways. SteelR bespoke steel doors serve both sides of Battersea's personality. Ornate traditional designs for period terraces and sleek, minimal profiles for the glass-and-steel apartments of the new riverside quarter. Every door is manufactured to order and engineered for decades of service.",
     localFeatures: [
       "Victorian terraces with arched doorways near Battersea Park",
       "Edwardian houses along Lavender Hill and St John's Hill",
@@ -759,7 +759,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 2,
     description:
-      "Ickenham sits in the north of the London Borough of Hillingdon, defined by the mock-Tudor detached houses along Swakeleys Road, the Grade I listed Swakeleys House at the centre of the village, and the Old Village conservation area around the pond and parish church. Properties along Pield Heath Road, Long Lane and Breakspear Road attract families who want village character combined with Metropolitan and Piccadilly line access to central London. SteelR is based in Ickenham, and our local clients expect a door that respects the conservation setting while delivering SR3 security, thermally broken construction, and our twenty-five-year structural warranty. We survey and install across UB10, UB9 and UB8 directly from our workshop, with no regional surcharge and no subcontracted fitters.",
+      "Ickenham sits in the north of the London Borough of Hillingdon, defined by the mock-Tudor detached houses along Swakeleys Road, the Grade I listed Swakeleys House at the centre of the village, and the Old Village conservation area around the pond and parish church. Properties along Pield Heath Road, Long Lane and Breakspear Road attract families who want village character combined with Metropolitan and Piccadilly line access to central London. SteelR is based in Ickenham, and our local clients expect a door that respects the conservation setting while delivering SR3 security, thermally broken construction, and a ten-year manufacturer warranty on the door construction. We survey and install across UB10, UB9 and UB8 directly from our workshop, with no regional surcharge and no subcontracted fitters.",
     localFeatures: [
       "Mock-Tudor 1930s detached houses along Swakeleys Road and Pield Heath Road",
       "Grade I listed Swakeleys House and the Old Village conservation area",
@@ -783,7 +783,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 2,
     description:
-      "Ruislip covers HA4 from the golf courses and woodland of Ruislip Lido, through the Metro-land streets of Ruislip Manor, to the conservation streets of Eastcote Village. The area's residential character is defined by Tudor Revival semi-detached houses from the 1930s, Arts and Crafts cottages around Park Avenue, and substantial inter-war detached homes on The Fairway and Manor Way. Ruislip homeowners upgrading from timber or composite to a bespoke steel entrance door gain SR3 rated security and a twenty-five-year structural warranty without sacrificing the half-timbered or gabled character that suits the area. Our design team works from Ickenham and surveys across HA4 and HA5, matching colour, glazing and ironmongery to every property style.",
+      "Ruislip covers HA4 from the golf courses and woodland of Ruislip Lido, through the Metro-land streets of Ruislip Manor, to the conservation streets of Eastcote Village. The area's residential character is defined by Tudor Revival semi-detached houses from the 1930s, Arts and Crafts cottages around Park Avenue, and substantial inter-war detached homes on The Fairway and Manor Way. Ruislip homeowners upgrading from timber or composite to a bespoke steel entrance door gain SR3 rated security and a ten-year manufacturer warranty on the door construction without sacrificing the half-timbered or gabled character that suits the area. Our design team works from Ickenham and surveys across HA4 and HA5, matching colour, glazing and ironmongery to every property style.",
     localFeatures: [
       "Tudor Revival and Metro-land 1930s semis across Ruislip Manor and Ruislip Gardens",
       "Arts and Crafts cottages and Grade II listed properties in Eastcote Village",

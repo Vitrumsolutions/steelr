@@ -187,7 +187,7 @@ Typically 10 to 14 weeks from design sign-off to fitted. Slightly longer than ur
 
 ### Do steel doors need maintenance on country properties?
 
-Virtually none. An occasional wipe-down of the face with mild detergent, annual inspection of the hinges and multi-point locking, and replacement of the threshold seal at the 10-to-15-year mark. No painting, no resealing, no hardware refinishing. The 25-year structural warranty reflects the fact that the door is designed to outlast most other elements of the property's external fabric.
+Virtually none. An occasional wipe-down of the face with mild detergent, annual inspection of the hinges and multi-point locking, and replacement of the threshold seal at the 10-to-15-year mark. No painting, no resealing, no hardware refinishing. The ten-year manufacturer warranty on the door construction reflects the fact that steel is engineered to outlast most other elements of the property's external fabric.
 
 ## The Country Home Investment
 

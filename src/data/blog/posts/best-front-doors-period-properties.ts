@@ -88,7 +88,7 @@ Unlike timber, a steel door finished with a multi-layer paint system will not wa
 
 ### Thermal Performance
 
-Period properties are often draughty, and the front door is a significant contributor to heat loss. A steel door with a **polyurethane-injected core and thermal break technology** achieves U-values that far exceed those of a solid timber door, helping to improve comfort and reduce energy bills.
+Period properties are often draughty, and the front door is a significant contributor to heat loss. A steel door with an **insulated core and thermal break technology** achieves U-values that far exceed those of a solid timber door, helping to improve comfort and reduce energy bills.
 
 ## Listed Buildings and Conservation Areas
 

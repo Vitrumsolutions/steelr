@@ -197,6 +197,7 @@ export default function Lookbook() {
             alt="Navy panelled steel entrance door with chrome hardware"
             fill
             priority
+            unoptimized
             placeholder="blur"
             blurDataURL={LOOKBOOK_BLUR}
             sizes="100vw"
@@ -269,6 +270,7 @@ export default function Lookbook() {
                     sizes="(max-width: 900px) 100vw, 60vw"
                     className="lb-feature__img"
                     priority={i < 2}
+                    unoptimized
                     placeholder="blur"
                     blurDataURL={LOOKBOOK_BLUR}
                   />
@@ -293,6 +295,7 @@ export default function Lookbook() {
             alt="Black ornate steel door set within stone surround"
             fill
             priority
+            unoptimized
             placeholder="blur"
             blurDataURL={LOOKBOOK_BLUR}
             sizes="100vw"
@@ -302,7 +305,7 @@ export default function Lookbook() {
         <div className="lb-interlude__overlay" />
         <blockquote className="lb-pullquote">
           <p>Engineered for permanence.</p>
-          <footer>A twenty-five year structural warranty on the steel, a ten year warranty on the hardware, an aftercare team that never subcontracts.</footer>
+          <footer>A ten year warranty on the door construction, a five year warranty on the decorative finish, three years on hardware, and an aftercare team that never subcontracts.</footer>
         </blockquote>
       </section>
 
@@ -338,7 +341,7 @@ export default function Lookbook() {
               {group.doors.map((d) => (
                 <ScrollReveal key={d.src} direction="up" delay={0.05}>
                   <figure className="lb-tile">
-                    <Image src={d.src} alt={d.alt} width={800} height={1200} sizes="(max-width: 900px) 50vw, 30vw" className="lb-tile__img" placeholder="blur" blurDataURL={LOOKBOOK_BLUR} />
+                    <Image src={d.src} alt={d.alt} width={800} height={1200} sizes="(max-width: 900px) 50vw, 30vw" className="lb-tile__img" unoptimized placeholder="blur" blurDataURL={LOOKBOOK_BLUR} />
                     <figcaption className="lb-tile__cap">{d.title}</figcaption>
                   </figure>
                 </ScrollReveal>
@@ -377,7 +380,7 @@ export default function Lookbook() {
                 <div className="lb-colour__images">
                   {family.doors.map((d) => (
                     <div className="lb-colour__image" key={d.src}>
-                      <Image src={d.src} alt={d.alt} width={600} height={900} sizes="(max-width: 900px) 33vw, 20vw" className="lb-tile__img" placeholder="blur" blurDataURL={LOOKBOOK_BLUR} />
+                      <Image src={d.src} alt={d.alt} width={600} height={900} sizes="(max-width: 900px) 33vw, 20vw" className="lb-tile__img" unoptimized placeholder="blur" blurDataURL={LOOKBOOK_BLUR} />
                     </div>
                   ))}
                 </div>
@@ -409,7 +412,7 @@ export default function Lookbook() {
           {hardwareDetails.map((d) => (
             <ScrollReveal key={d.src} direction="up">
               <figure className="lb-detail">
-                <Image src={d.src} alt={d.alt} width={800} height={1000} sizes="(max-width: 900px) 100vw, 33vw" className="lb-detail__img" placeholder="blur" blurDataURL={LOOKBOOK_BLUR} />
+                <Image src={d.src} alt={d.alt} width={800} height={1000} sizes="(max-width: 900px) 100vw, 33vw" className="lb-detail__img" unoptimized placeholder="blur" blurDataURL={LOOKBOOK_BLUR} />
                 <figcaption className="lb-detail__cap">{d.label}</figcaption>
               </figure>
             </ScrollReveal>
