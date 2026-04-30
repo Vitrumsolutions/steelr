@@ -1315,7 +1315,7 @@ Q: Do steel doors need painting or maintaining?
 A: No. The factory-applied powder-coat finish requires no painting, varnishing, oiling or sanding — ever. The only maintenance is occasional cleaning with warm soapy water. This is one of the most significant practical advantages over timber doors, which require repainting every 3–5 years, and composite doors, which can fade or discolour over time.
 
 Q: Will a steel door make my house colder?
-A: No. Modern steel doors use thermal break construction with an insulated core, achieving U-values typically from 1.5 W/m²K, with thermal-upgrade specifications achieving as low as 0.8 W/m²K. Comparable to double-glazed windows and better than many older timber doors. Combined with effective draught seals and an insulated threshold, a steel door improves thermal comfort compared to most doors it replaces.
+A: No. Modern steel doors use thermal break construction with an insulated core, achieving U-values of 1.0–1.8 W/m²K — comparable to double-glazed windows and better than many older timber doors. Combined with effective draught seals and an insulated threshold, a steel door improves thermal comfort compared to most doors it replaces.
 
 Q: Can I get a steel door in any colour?
 A: Yes. We offer over 200 RAL colours as standard, plus custom colour matching to any reference including Farrow & Ball, Little Greene and heritage specifications. Dual-colour finishing allows different colours on the exterior and interior faces. Browse the full range on our [RAL colours page](/colours).
@@ -1422,7 +1422,7 @@ Q: Is steel or aluminium stronger for a front door?
 A: Steel is materially stronger. Steel doors achieve SR3 under BS EN 1627 (five-minute resistance to power-tool attack) as standard, while aluminium residential doors typically cap at PAS 24 (three-minute resistance to basic hand tools). For the same frame thickness, steel resists prying, drilling and cutting loads that aluminium cannot. Aluminium's advantages are elsewhere: slimmer sightlines and lighter weight, not structural strength.
 
 Q: Which has better thermal performance, steel or aluminium?
-A: Both can achieve very similar U-values with a properly specified thermal break. Thermally broken steel doors reach typically from 1.5 W/m²K standard, with thermal-upgrade specifications as low as 0.8 W/m²K; thermally broken aluminium doors reach 1.2 to 1.6 W/m²K. The thermal break (a non-conductive barrier between inner and outer skins) is the critical component in both. A door without a thermal break, in either material, will under-perform noticeably.
+A: Both can achieve very similar U-values with a properly specified thermal break. Thermally broken steel doors reach 1.0 to 1.4 W/m²K; thermally broken aluminium doors reach 1.2 to 1.6 W/m²K. The thermal break (a non-conductive barrier between inner and outer skins) is the critical component in both. A door without a thermal break, in either material, will under-perform noticeably.
 
 Q: Is aluminium better for coastal or very exposed locations?
 A: Aluminium has the edge in severe coastal exposure because it does not corrode even if the protective finish is breached. Galvanised steel with a powder coat is also highly corrosion-resistant, but if the finish is damaged on a coastal property, the underlying steel can oxidise over very long timeframes. For most UK locations this is a non-issue; for direct saltwater-spray locations it is worth considering.
@@ -1664,7 +1664,7 @@ London is home to some of the finest period architecture in the world. From gran
 - [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
 - [Steel Front Doors Kent UK: Local Properties Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
-### Security (9 posts)
+### Security (10 posts)
 
 #### Secured by Design Homes UK: 2026 Developer and Buyer Guide
 URL: https://steelr.co.uk/blog/secured-by-design-homes-guide-2026 | Category: Security | Published: 2026-07-02 | 9 min read
@@ -1740,7 +1740,7 @@ The Office for National Statistics recorded approximately 280,000 domestic burgl
 
 - [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
 - [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
-- [Home Insurance and Front Door Security Ratings UK Guide](https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk)
+- [HMO Front Door Requirements UK: Landlord and Developer Guide](https://steelr.co.uk/blog/hmo-front-door-requirements-uk-landlord-guide)
 
 #### Home Insurance and Front Door Security Ratings UK Guide
 URL: https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk | Category: Security | Published: 2026-05-13 | 7 min read
@@ -1773,6 +1773,44 @@ Q: Should I inform my insurer when I upgrade my front door?
 A: Yes. Any material change to your property's security should be reported to your insurer. A door upgrade is a positive change that may reduce your premium or improve your terms. Failure to notify could theoretically create an issue if you need to make a claim, even though the improvement itself strengthens your position.
 
 Most homeowners understand that locks matter to insurers. Fewer appreciate that the door itself — its material, construction and independently verified security rating — can meaningfully influence insurance terms, premiums and the outcome of a claim. In an era of rising premiums and increasingly sophisticated burglary methods, the home insurance door security ratings recognised by UK insurers deserve closer attention.
+
+**Related:**
+
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+
+#### HMO Front Door Requirements UK: Landlord and Developer Guide
+URL: https://steelr.co.uk/blog/hmo-front-door-requirements-uk-landlord-guide | Category: Security | Published: 2026-04-30 | 9 min read
+
+What UK landlords and developers need on HMO front doors. FD30S fire rating, PAS 24 security, communal vs flat entrance rules, and post-Grenfell enforcement.
+
+**Key facts:**
+
+- A door that meets PAS 24 alone is no longer sufficient on a flat entrance into a higher-risk building, and a door that has not been certified to FD30S as a complete assembly cannot be relied upon during a fire.
+- For the underlying fire regulations, see the fire-rated FD30 hub page and the fire rated front doors UK regulations guide.
+- For the security baseline, see the PAS 24 explainer for UK homeowners.
+- However, where the building strategy treats the front entrance as a fire compartment boundary (which can occur on certain Section 257 conversions), it must be FD30 rated.
+- Specification minimum: FD30S rated under BS 476-22 or BS EN 1634-1, providing thirty minutes of fire integrity plus cold smoke seal performance.
+
+**FAQs:**
+
+Q: Is a PAS 24 timber HMO door enough?
+A: For a flat entrance door, no. PAS 24 covers security only. A flat entrance door must also be FD30S fire rated and must be installed with a certified self-closer, intumescent strips and cold smoke seals. PAS 24 plus FD30S is the minimum specification on a flat entrance in an HMO. For a communal front entrance, PAS 24 is the security baseline; fire rating is not normally required.
+
+Q: What if the existing doors meet older fire safety regulations?
+A: The Fire Safety Act 2021 and Building Safety Act 2022 raised expectations on fire risk assessment for residential buildings. A door that complied with regulations at original installation may still pass fire risk assessment, but the assessor must be satisfied that the door, frame, intumescent strips, cold smoke seals, hinges and self-closer are in working order and to the originally certified specification. In practice, doors over fifteen years old often fail because the cold smoke seals have degraded, the self-closer is unbalanced, or the door has been modified. Replacement is frequently the more straightforward outcome than retrospective certification of old assemblies.
+
+Q: Can a steel door be FD60 rated for use in higher-risk HMOs?
+A: Yes. SteelR doors are FD30S rated as standard with FD60 available as a tested upgrade. The FD60 rating is delivered through specific door-leaf construction, intumescent specification and frame configuration. Both ratings are tested to BS 476-22 or BS EN 1634-1 by UKAS-accredited laboratories and the certification documents are supplied with each door.
+
+Q: Who is liable if a non-compliant door causes harm during a fire?
+A: The Responsible Person under the Regulatory Reform (Fire Safety) Order 2005, who is normally the freeholder, managing agent or designated Accountable Person, carries the primary liability. In severe cases, individual liability can attach to directors of management companies. Recent enforcement following the Building Safety Act 2022 has seen larger fines and active prosecution. Specifying compliant doors at the point of refurbishment is materially cheaper than the alternative.
+
+Q: Do I need to replace all the doors in one go?
+A: Not necessarily. A staged replacement programme is acceptable provided the fire risk assessment identifies the priority doors and a documented plan addresses the others within a reasonable timeframe. SteelR can supply doors in scheduled batches matching a multi-phase refurbishment programme, with each batch carrying its own certification documents tied to the relevant flat addresses.
+
+Houses in Multiple Occupation are a regulatory category that sits closer to commercial premises than to standard residential buildings. The reason is straightforward. An HMO houses unrelated occupants who do not control each other's behaviour, the fire load is higher than a single-family home, escape routes are shared, and the consequence of a fire is graver. The doors that separate occupants from the communal escape route are part of the fire strategy, not an aesthetic choice.
 
 **Related:**
 
@@ -1854,7 +1892,7 @@ Every door manufacturer describes their product as "secure." The difference is w
 
 - [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
 - [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Home Insurance and Front Door Security Ratings UK Guide](https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk)
+- [HMO Front Door Requirements UK: Landlord and Developer Guide](https://steelr.co.uk/blog/hmo-front-door-requirements-uk-landlord-guide)
 
 #### PAS 24 Front Doors Explained: UK Homeowner 2026 Guide
 URL: https://steelr.co.uk/blog/pas-24-doors-explained-uk-homeowners | Category: Security | Published: 2026-04-08 | 8 min read
@@ -1930,7 +1968,7 @@ According to UK police data, approximately 70% of domestic burglaries involve en
 
 - [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
 - [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
-- [Home Insurance and Front Door Security Ratings UK Guide](https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk)
+- [HMO Front Door Requirements UK: Landlord and Developer Guide](https://steelr.co.uk/blog/hmo-front-door-requirements-uk-landlord-guide)
 
 #### What Is SR3 Security Rating? UK Front Door 2026 Guide
 URL: https://steelr.co.uk/blog/what-is-sr3-security-rating | Category: Security | Published: 2026-03-25 | 9 min read
@@ -2017,7 +2055,7 @@ Front doors for period properties UK. Georgian, Victorian, Edwardian and Arts an
 **Key facts:**
 
 - The result is a door that is visually indistinguishable from its period predecessor while delivering SR3 security certification, modern thermal performance and Secured by Design accreditation.
-- It is entirely possible to have a front door that satisfies conservation officers, delivers U-values comfortably below the 1.8 W/m²K Part L maximum (with thermal-upgrade specifications as low as 0.8 W/m²K available), achieves the highest available security rating, and looks as though it has been part of the property for 150 years.
+- It is entirely possible to have a front door that satisfies conservation officers, delivers U-values below 1.0 W/m2K, achieves the highest available security rating, and looks as though it has been part of the property for 150 years.
 
 **FAQs:**
 
@@ -2359,7 +2397,7 @@ Why UK country homes choose bespoke steel front doors. SR3 security, weather res
 
 - An SR3-rated steel entrance door addresses these concerns directly.
 - Tested to BS EN 1627:2011, an SR3 door withstands sustained attack with crowbars, drills and angle grinders — providing a level of resistance that no timber or composite door can match.
-- Specify a dual thermal break with insulated infill for U-values comfortably below the 1.8 W/m²K Part L maximum (thermal-upgrade specifications as low as 0.8 W/m²K available on request).
+- Specify a dual thermal break with polyurethane insulation infill for U-values below 1.0 W/m²K.
 - Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management.
 
 **FAQs:**
@@ -2449,7 +2487,7 @@ Q: How do I specify a steel door that meets both fire and security requirements?
 A: Dual-rated doorsets must be tested and certified for both fire resistance and security as a single assembly. You cannot combine separately certified fire-rated and security-rated components. Specify the required fire rating (FD30 or FD60) alongside the security rating (PAS 24 or SR class) and request evidence that the doorset has been tested to both standards simultaneously.
 
 Q: What U-value can a steel entrance door achieve?
-A: Modern steel entrance doors with thermal breaks and insulated cores typically achieve U-values from 1.5 W/m²K standard, with thermal-upgrade specifications available achieving as low as 0.8 W/m²K. The regulatory maximum for new dwellings under Approved Document L is 1.8 W/m²K. Specify the target U-value for the whole doorset, not just the door leaf, as the frame and threshold contribute significantly.
+A: Modern steel entrance doors with thermal breaks and insulated cores can achieve U-values of 1.0 W/m\`K or better. The regulatory maximum for new dwellings under Approved Document L is 1.4 W/m\`K. Specify the target U-value for the whole doorset, not just the door leaf, as the frame and threshold contribute significantly.
 
 Q: How heavy is a typical bespoke steel entrance door?
 A: A single-leaf steel entrance door typically weighs between 80 and 150 kilograms depending on size, glazing and security rating. A double-leaf doorset with sidelights can exceed 300 kilograms. The structural opening, lintel and fixings must be designed to accommodate this weight.
