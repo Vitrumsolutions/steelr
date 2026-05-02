@@ -27,7 +27,7 @@ Three sections of the Building Regulations directly affect front door specificat
 
 **Approved Document Q** (Security in Dwellings) was introduced in 2015 and requires all new dwellings to have entrance doors that resist unauthorised entry. The minimum standard is **PAS 24:2022** (or its predecessor PAS 24:2016), which tests doors for resistance to physical attack using common burglary tools.
 
-PAS 24 is a baseline. For developments targeting Secured by Design accreditation — increasingly requested by planning authorities and valued by buyers — the door must meet PAS 24 as a minimum, but higher ratings such as **SR3 under BS EN 1627** demonstrate a substantially greater level of security. SR3-rated doors withstand sustained forced attack with heavy-duty tools for over twenty minutes, placing them several categories above the Part Q minimum.
+PAS 24 is a baseline. For developments targeting Secured by Design accreditation (increasingly requested by planning authorities and valued by buyers), the door must meet PAS 24 as a minimum, but higher tiers such as **BS EN 1627:2011 RC4** (SteelR Standard) and **LPS 1175 SR3** (Enhanced upgrade, the LPCB police-preferred specification) demonstrate a substantially greater level of security. RC4 tests sustained forced attack with heavy-duty hand tools and battery-operated power tools, placing it several categories above the Part Q minimum.
 
 Developers building in [Surrey](/areas/surrey), [Kent](/areas/kent) and [Essex](/areas/essex) are seeing growing demand for Secured by Design specification, particularly on premium residential schemes where buyers expect security performance to match the asking price. Every SteelR door ships with BS EN 1627 RC4 as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier. That combination satisfies both the Approved Document Q baseline and the higher security expectations of premium buyers in a single specification.
 
@@ -135,7 +135,7 @@ Developers who specify premium entrance doors consistently report that the uplif
 
 ### What security standard do new build front doors need to meet?
 
-Under Approved Document Q, all new build entrance doors in England and Wales must meet PAS 24:2022 as a minimum standard for resistance to unauthorised entry. Secured by Design developments require PAS 24 as a baseline, though specifying higher ratings such as SR3 under BS EN 1627 provides substantially greater security and commercial differentiation.
+Under Approved Document Q, all new build entrance doors in England and Wales must meet PAS 24:2022 as a minimum standard for resistance to unauthorised entry. Secured by Design developments require PAS 24 as a baseline, though specifying higher tiers such as BS EN 1627 RC4 (SteelR Standard) or LPS 1175 SR3 (Enhanced upgrade) provides substantially greater security and commercial differentiation.
 
 ### Do all new build front doors need to be fire rated?
 

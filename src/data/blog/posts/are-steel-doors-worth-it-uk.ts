@@ -29,7 +29,7 @@ A steel door installed today will still be functioning correctly when a composit
 
 ## Security: SR3 Rating vs Everything Else
 
-Security is where steel creates the widest gap between itself and competing materials. Every SteelR door is tested and certified to **SR3 under BS EN 1627:2011** — the highest practical security rating for residential entrance doors in the UK.
+Security is where steel creates the widest gap between itself and competing materials. Every SteelR door is tested and certified to **BS EN 1627:2011 RC4 single leaf, unglazed** as Standard, with the **LPS 1175 SR3 Enhanced upgrade** (the LPCB police-preferred residential rating) available on every door.
 
 ### What SR3 Actually Means
 
@@ -196,7 +196,7 @@ A properly manufactured and installed steel entrance door will last 25–40+ yea
 
 ### Are steel doors more secure than composite doors?
 
-Significantly. Our steel doors are certified to SR3 under BS EN 1627:2011, which tests resistance to power tool attacks for 20 minutes. Most composite doors achieve PAS 24 (3-minute resistance to basic hand tools) or SR1 at best. The steel frame, welded locking points and laminated security glazing create a doorset that resists forced entry at a fundamentally different level to composite, timber or uPVC alternatives.
+Significantly. Our steel doors are BS EN 1627:2011 RC4 certified as Standard (the European framework for sustained forced-entry resistance, certified against heavy-duty hand tools and battery-operated power tools), with the LPS 1175 SR3 Enhanced upgrade available. Most composite doors achieve PAS 24 (3-minute resistance to basic hand tools) or SR1 at best. The steel frame, welded locking points and laminated security glazing create a doorset that resists forced entry at a fundamentally different level to composite, timber or uPVC alternatives.
 
 ### Do steel doors need painting or maintaining?
 

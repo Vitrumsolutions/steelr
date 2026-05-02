@@ -1169,7 +1169,7 @@ Q: Do steel doors rust in the UK climate?
 A: Steel entrance doors are manufactured from galvanised steel and finished with multi-layer paint systems specifically designed for exterior exposure. Galvanisation provides a zinc barrier that prevents corrosion of the underlying steel. With a quality powder-coat or wet-spray finish, rust is not a practical concern. Minor chips should be touched up promptly, but modern finishes are highly durable.
 
 Q: Can fibreglass doors achieve SR3 security ratings?
-A: No. GRP and foam core construction cannot achieve SR3 under BS EN 1627 testing. The material does not have the structural resistance to withstand the sustained forced attack that SR3 testing requires. Fibreglass doors typically achieve PAS 24, which tests resistance to lighter tools over a shorter period. For properties requiring the highest security specification, steel is the only residential door material that achieves SR3.
+A: No. GRP and foam core construction cannot achieve LPS 1175 SR3 testing. The material does not have the structural resistance to withstand the sustained forced attack that SR3 testing requires. Fibreglass doors typically achieve PAS 24, which tests resistance to lighter tools over a shorter period. For properties requiring the highest residential security tier, steel is the only material that achieves LPS 1175 SR3.
 
 Q: How long do fibreglass doors actually last?
 A: Quality fibreglass doors from reputable manufacturers typically last 15 to 25 years before the GRP skin shows significant UV degradation or the foam core develops issues. Cheaper fibreglass doors may show signs of fading, chalking or bowing within 10 years. By comparison, a well-maintained steel door has a working life of 40 to 50 years or more.
@@ -1193,15 +1193,15 @@ Guide for UK developers specifying front doors for new builds. PAS 24, Part Q, P
 **Key facts:**
 
 - The minimum standard is PAS 24:2022 (or its predecessor PAS 24:2016), which tests doors for resistance to physical attack using common burglary tools.
-- For developments targeting Secured by Design accreditation — increasingly requested by planning authorities and valued by buyers — the door must meet PAS 24 as a minimum, but higher ratings such as SR3 under BS EN 1627 demonstrate a substantially greater level of security.
-- SR3-rated doors withstand sustained forced attack with heavy-duty tools for over twenty minutes, placing them several categories above the Part Q minimum.
+- RC4 tests sustained forced attack with heavy-duty hand tools and battery-operated power tools, placing it several categories above the Part Q minimum.
 - Every SteelR door ships with BS EN 1627 RC4 as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier.
 - For entrance doors, the key metric is the U-value — the rate of heat loss through the door assembly, measured in W/m²K.
+- The current requirement for new build entrance doors is a maximum U-value of 1.8 W/m²K, though most quality steel and composite doors comfortably exceed this.
 
 **FAQs:**
 
 Q: What security standard do new build front doors need to meet?
-A: Under Approved Document Q, all new build entrance doors in England and Wales must meet PAS 24:2022 as a minimum standard for resistance to unauthorised entry. Secured by Design developments require PAS 24 as a baseline, though specifying higher ratings such as SR3 under BS EN 1627 provides substantially greater security and commercial differentiation.
+A: Under Approved Document Q, all new build entrance doors in England and Wales must meet PAS 24:2022 as a minimum standard for resistance to unauthorised entry. Secured by Design developments require PAS 24 as a baseline, though specifying higher tiers such as BS EN 1627 RC4 (SteelR Standard) or LPS 1175 SR3 (Enhanced upgrade) provides substantially greater security and commercial differentiation.
 
 Q: Do all new build front doors need to be fire rated?
 A: Not all new build front doors require a fire rating. Standard houses generally do not need a fire rated front door unless there is an integral garage (which requires an FD30 connecting door). Flat entrance doors opening onto communal areas must be FD30S rated. Buildings over 30 metres require FD60S.
@@ -1230,7 +1230,7 @@ How to specify a steel front door with sidelights for a UK home. Configurations,
 
 **Key facts:**
 
-- The certification ratings the door carries (PAS 24, SR3 under BS EN 1627, Secured by Design, FD30S) apply to the complete assembly, not the leaf in isolation.
+- The certifications the door carries (PAS 24, BS EN 1627 RC4, optional LPS 1175 SR3 Enhanced upgrade, Secured by Design, FD30S) apply to the complete assembly, not the leaf in isolation.
 - One fixed glazed panel to one side of the door leaf, usually 300 to 500 mm wide depending on the aperture.
 - This is the most common configuration and works on apertures from roughly 1,400 mm wide upwards.
 - Dual sidelights need an aperture of around 1,800 mm or wider to maintain a usable door leaf width while allowing meaningful glazing on each side.
@@ -1309,7 +1309,7 @@ Are steel entrance doors worth it for UK homes? Honest assessment of durability,
 - Composite doors (GRP over foam core): Typical lifespan 10–20 years.
 - The foam core can absorb moisture if the skin is compromised, leading to structural weakness and poor insulation Timber doors (hardwood): 15–30 years with diligent maintenance.
 - Without regular repainting or re-oiling (every 3–5 years), timber begins to deteriorate within 5–7 years.
-- Every SteelR door is tested and certified to SR3 under BS EN 1627:2011 — the highest practical security rating for residential entrance doors in the UK.
+- Every SteelR door is tested and certified to BS EN 1627:2011 RC4 single leaf, unglazed as Standard, with the LPS 1175 SR3 Enhanced upgrade (the LPCB police-preferred residential rating) available on every door.
 - SR3 certification requires the complete doorset — leaf, frame, locks, hinges, glazing, fixings — to resist a sustained attack by a skilled operative using power tools including drills, jigsaws, angle grinders and chisels for a minimum of 20 minutes.
 
 **FAQs:**
@@ -1318,7 +1318,7 @@ Q: How long do steel entrance doors actually last?
 A: A properly manufactured and installed steel entrance door will last 25–40+ years with no structural maintenance. The powder-coat finish is warranted for the life of the product. The steel structure itself is essentially permanent — it does not rot, warp, swell or delaminate. The limiting factor is typically fashion rather than function; many homeowners replace doors for aesthetic reasons long before the door itself has deteriorated.
 
 Q: Are steel doors more secure than composite doors?
-A: Significantly. Our steel doors are certified to SR3 under BS EN 1627:2011, which tests resistance to power tool attacks for 20 minutes. Most composite doors achieve PAS 24 (3-minute resistance to basic hand tools) or SR1 at best. The steel frame, welded locking points and laminated security glazing create a doorset that resists forced entry at a fundamentally different level to composite, timber or uPVC alternatives.
+A: Significantly. Our steel doors are BS EN 1627:2011 RC4 certified as Standard (the European framework for sustained forced-entry resistance, certified against heavy-duty hand tools and battery-operated power tools), with the LPS 1175 SR3 Enhanced upgrade available. Most composite doors achieve PAS 24 (3-minute resistance to basic hand tools) or SR1 at best. The steel frame, welded locking points and laminated security glazing create a doorset that resists forced entry at a fundamentally different level to composite, timber or uPVC alternatives.
 
 Q: Do steel doors need painting or maintaining?
 A: No. The factory-applied powder-coat finish requires no painting, varnishing, oiling or sanding — ever. The only maintenance is occasional cleaning with warm soapy water. This is one of the most significant practical advantages over timber doors, which require repainting every 3–5 years, and composite doors, which can fade or discolour over time.
@@ -1433,7 +1433,7 @@ Q: How much maintenance does a timber front door need?
 A: Real timber doors typically need re-oiling or repainting every 3 to 5 years in UK weather, depending on the finish and level of exposure. Draught seals and weatherstripping need periodic replacement. Warping, splitting and swelling can occur with seasonal humidity and need correction. Total cost of maintenance over 20 years often approaches or exceeds the original door price. Steel doors with powder coat are effectively maintenance-free for their 25 to 40 year lifespan.
 
 Q: Is a solid timber door as secure as a steel door?
-A: Solid timber doors can be secure when specified carefully, but rarely reach SR3 under BS EN 1627. Most premium timber doors stop at PAS 24 certification. To reach SR3 in timber requires heavy engineered cores, steel-reinforced stiles and upgraded locking, which makes the door very expensive and diminishes the natural wood aesthetic. Steel achieves SR3 more consistently and at a more predictable price point.
+A: Solid timber doors can be secure when specified carefully, but rarely reach LPS 1175 SR3. Most premium timber doors stop at PAS 24 certification. To reach SR3 in timber requires heavy engineered cores, steel-reinforced stiles and upgraded locking, which makes the door very expensive and diminishes the natural wood aesthetic. Steel achieves LPS 1175 SR3 more consistently and at a more predictable price point.
 
 Q: Will steel doors show fingerprints or dents?
 A: No. Powder-coated steel is highly resistant to fingerprints and everyday knocks. The finish is impact-resistant (not simply paint) and can take the occasional brush from a vacuum cleaner or pram without marking. Timber is actually more prone to visible marks from daily use because the grain shows scratches and the finish wears at high-contact points.
@@ -1531,8 +1531,8 @@ Bespoke steel front doors for Surrey country estates. Gated driveways, oversize 
 
 **Key facts:**
 
-- A steel entrance door rated to SR3 under BS EN 1627:2011 provides the highest level of resistance commercially available for residential doors.
-- SR3 testing subjects the door to sustained attack using professional-grade tools — crowbars, drills and angle grinders — for a defined period.
+- A steel entrance door certified to BS EN 1627:2011 RC4 (SteelR Standard) with the LPS 1175 SR3 Enhanced upgrade (the LPCB police-preferred residential rating) provides industry-leading resistance for residential doors.
+- SR3 testing subjects the door to sustained attack using professional-grade tools (crowbars, drills and angle grinders) for a defined five-minute attack against a specified objective.
 - Every SteelR door is ISO 9001 certified, engineered to SR3 and finished in the client's chosen RAL colour.
 
 **FAQs:**
@@ -1541,7 +1541,7 @@ Q: Do I need planning permission to install a steel door in a Surrey conservatio
 A: In most cases, replacing a front door on a like-for-like basis is permitted development. However, if the door design or material differs significantly from the original, or if the property is listed, you may need conservation area consent. We advise checking with your local planning authority and can design doors that meet conservation requirements.
 
 Q: What security rating should I look for in a Surrey property?
-A: We recommend SR3 under BS EN 1627:2011, which is the highest resistance class available for residential doors. Given the targeted nature of burglary in affluent Surrey areas, SR3 with Secured by Design accreditation provides both maximum physical resistance and a visible deterrent effect.
+A: We recommend the LPS 1175 SR3 Enhanced upgrade (above the BS EN 1627 RC4 Standard tier that ships on every door) for affluent Surrey areas. Given the targeted nature of burglary in those areas, SR3 with Secured by Design accreditation provides both serious physical resistance and a visible deterrent effect.
 
 Q: How long does it take to have a bespoke steel door manufactured and installed?
 A: From initial design consultation to completed installation, the typical lead time is 8 to 12 weeks. This includes the design phase, manufacturing, finishing and professional installation. The process is detailed on [our process](/process) page.
@@ -1912,13 +1912,13 @@ Choose the best front door for home security in the UK. Guide to materials, lock
 - The better composite doors achieve PAS 24 certification, which tests resistance to manual attack with light tools.
 - PAS 24 is a respectable standard that meets building regulations, and composite doors represent a solid mid-range security option for most homes.
 - Premium aluminium doors can achieve SR2 (RC2) security ratings, offering resistance to attack with simple tools for 3 minutes.
-- A bespoke steel door can achieve SR3 (RC3) — the highest security rating commercially available for residential use.
-- SR3 testing under BS EN 1627:2011 subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders for 5 minutes.
+- A bespoke steel door can achieve LPS 1175 SR3 (the LPCB police-preferred residential rating).
+- The Issue 8 test subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders for 5 minutes against a defined attack objective.
 
 **FAQs:**
 
 Q: What makes a front door genuinely secure in the UK?
-A: A genuinely secure front door meets three criteria. First, it carries independent certification to a recognised standard (SR3 under BS EN 1627 is the highest residential rating). Second, the whole doorset is tested as a unit: leaf, frame, hinges, locking and glazing. Third, it is installed correctly into a suitable substrate by trained fitters. Marketing claims without an accompanying test certificate and accredited installer do not indicate security; paperwork does.
+A: A genuinely secure front door meets three criteria. First, it carries independent certification to a recognised standard (LPS 1175 SR3 is the LPCB police-preferred residential rating, sitting above the BS EN 1627 RC4 baseline). Second, the whole doorset is tested as a unit: leaf, frame, hinges, locking and glazing. Third, it is installed correctly into a suitable substrate by trained fitters. Marketing claims without an accompanying test certificate and accredited installer do not indicate security; paperwork does.
 
 Q: Which material makes the most secure front door?
 A: Steel is the consistent leader for SR3 residential certification. Timber doors rarely reach SR3 due to the heavy engineering required, composite doors typically cap at PAS 24, and aluminium residential doors also cap at PAS 24. Solid hardwood doors with steel-reinforced cores and security-rated glazing can reach SR3 but are expensive and niche. For most UK homeowners targeting the highest residential security rating, steel is the default and most cost-effective choice.
@@ -2224,7 +2224,7 @@ Front door replacement UK guide for homeowners. Building Regulations, planning p
 - Composite doors can fade, chalk and develop hairline cracks in the GRP skin after 15 to 20 years of UV exposure.
 - Since 2015, Approved Document Q has required all replacement doors in dwellings to meet PAS 24 or an equivalent security standard.
 - A door that achieves PAS 24 is considered to satisfy the regulatory requirement, though homeowners seeking genuine security should look well beyond this minimum threshold.
-- Every SteelR entrance door is tested to SR3 under BS EN 1627:2011 and carries Secured by Design accreditation, exceeding Building Regulations requirements by a significant margin.
+- Every SteelR entrance door is BS EN 1627:2011 RC4 certified as Standard (with the LPS 1175 SR3 Enhanced upgrade available) and carries Secured by Design accreditation, exceeding Building Regulations requirements by a significant margin.
 
 **FAQs:**
 

@@ -84,7 +84,7 @@ Larger Surrey properties, particularly those with porticos or wide entrance hall
 
 Surrey's affluence brings a corresponding security consideration. The county consistently ranks among the areas with the highest rates of burglary targeting high-value residential properties. Towns including [Esher](/areas/esher), [Cobham](/areas/cobham) and [Weybridge](/areas/weybridge) are identified in police data as areas where residential burglary is disproportionately targeted at premium homes.
 
-The front door is the most common point of forced entry in residential burglary. A steel entrance door rated to **SR3 under BS EN 1627:2011** provides the highest level of resistance commercially available for residential doors. SR3 testing subjects the door to sustained attack using professional-grade tools — crowbars, drills and angle grinders — for a defined period.
+The front door is the most common point of forced entry in residential burglary. A steel entrance door certified to **BS EN 1627:2011 RC4** (SteelR Standard) with the **LPS 1175 SR3 Enhanced upgrade** (the LPCB police-preferred residential rating) provides industry-leading resistance for residential doors. SR3 testing subjects the door to sustained attack using professional-grade tools (crowbars, drills and angle grinders) for a defined five-minute attack against a specified objective.
 
 Every door we manufacture is **Secured by Design** accredited, meaning it has been independently tested and approved by the UK police security initiative. For Surrey homeowners, this is not an optional upgrade. It is a proportionate response to the security environment in which these properties exist.
 
@@ -120,7 +120,7 @@ In most cases, replacing a front door on a like-for-like basis is permitted deve
 
 ### What security rating should I look for in a Surrey property?
 
-We recommend SR3 under BS EN 1627:2011, which is the highest resistance class available for residential doors. Given the targeted nature of burglary in affluent Surrey areas, SR3 with Secured by Design accreditation provides both maximum physical resistance and a visible deterrent effect.
+We recommend the LPS 1175 SR3 Enhanced upgrade (above the BS EN 1627 RC4 Standard tier that ships on every door) for affluent Surrey areas. Given the targeted nature of burglary in those areas, SR3 with Secured by Design accreditation provides both serious physical resistance and a visible deterrent effect.
 
 ### How long does it take to have a bespoke steel door manufactured and installed?
 

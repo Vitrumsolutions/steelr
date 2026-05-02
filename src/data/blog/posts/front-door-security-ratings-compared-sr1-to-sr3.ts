@@ -41,13 +41,13 @@ This is the level at which most high-quality composite doors and premium alumini
 
 However, SR2 does not account for heavier tools or a more determined attacker. A burglar carrying a crowbar, drill or grinder is operating beyond the scope of SR2 testing.
 
-### SR3 (RC3) — Heavy-Duty Tools, Experienced Burglar
+### LPS 1175 SR3 (Issue 8). Heavy-Duty Tools, Experienced Burglar
 
 **SR3 is the highest security rating commercially available for residential entrance doors in the United Kingdom.** The test assumes an experienced burglar with knowledge of door construction, using professional-grade tools including crowbars up to 750mm, drills, chisels, hacksaws and angle grinders. The attack is sustained for **5 minutes** of active working time.
 
 The 5-minute threshold is significant. Police data indicates that the vast majority of residential burglaries are abandoned within 3 minutes if entry is not achieved. An SR3 door provides a margin of safety well beyond the point at which most burglars will give up and move on.
 
-SR3 certification requires steel construction. No timber, composite or aluminium doorset has achieved SR3 under BS EN 1627. The material density and structural integrity of steel is necessary to resist the tool set and attack duration specified at this level.
+LPS 1175 SR3 certification requires steel construction. No timber, composite or aluminium doorset has achieved LPS 1175 SR3. The material density and structural integrity of steel is necessary to resist the tool set and attack duration specified at this level.
 
 ### SR4 (RC4) — Power Tools, 10 Minutes
 

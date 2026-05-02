@@ -92,7 +92,7 @@ PAS 24 is required by Approved Document Q of the Building Regulations for new dw
 
 SR2 tests resistance to simple hand tools for three minutes under the European standard. It is a step above PAS 24 but still represents a relatively modest attack scenario. Premium aluminium doors and some reinforced composite doors achieve SR2.
 
-### SR3 (RC3) — Premium Residential Security
+### LPS 1175 SR3. The Police-Preferred Residential Specification
 
 **LPS 1175 SR3 is the LPCB police-preferred residential rating.** Testing under LPS 1175 Issue 8 subjects the complete doorset to sustained attack using crowbars, drills and angle grinders for five minutes. Only steel doors can achieve this rating. For homeowners seeking serious burglar-resistance certification, the LPS 1175 SR3 Enhanced upgrade tier (above the BS EN 1627 RC4 Standard) is the right specification for most residential properties.
 

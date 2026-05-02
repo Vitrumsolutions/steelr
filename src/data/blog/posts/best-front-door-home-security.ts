@@ -34,7 +34,7 @@ Composite doors combine a reinforced core (typically timber or insulating foam) 
 Premium aluminium doors can achieve **SR2 (RC2)** security ratings, offering resistance to attack with simple tools for 3 minutes. Aluminium is stronger than timber and composite, and its metal construction provides better resistance to cutting and drilling. However, aluminium is a softer metal and has limitations at higher security levels.
 
 ### Steel — Highest Security
-Steel entrance doors represent the pinnacle of residential door security. A bespoke steel door can achieve **SR3 (RC3)** — the highest security rating commercially available for residential use. SR3 testing under **BS EN 1627:2011** subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders for 5 minutes. No other residential door material achieves SR3.
+Steel entrance doors represent the pinnacle of residential door security. A bespoke steel door can achieve **LPS 1175 SR3** (the LPCB police-preferred residential rating). The Issue 8 test subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders for 5 minutes against a defined attack objective. No other residential door material achieves LPS 1175 SR3.
 
 ## Understanding Security Ratings: SR1 to SR5
 
@@ -119,7 +119,7 @@ At SteelR, every entrance door meets all of these criteria as standard. Whether 
 
 ### What makes a front door genuinely secure in the UK?
 
-A genuinely secure front door meets three criteria. First, it carries independent certification to a recognised standard (SR3 under BS EN 1627 is the highest residential rating). Second, the whole doorset is tested as a unit: leaf, frame, hinges, locking and glazing. Third, it is installed correctly into a suitable substrate by trained fitters. Marketing claims without an accompanying test certificate and accredited installer do not indicate security; paperwork does.
+A genuinely secure front door meets three criteria. First, it carries independent certification to a recognised standard (LPS 1175 SR3 is the LPCB police-preferred residential rating, sitting above the BS EN 1627 RC4 baseline). Second, the whole doorset is tested as a unit: leaf, frame, hinges, locking and glazing. Third, it is installed correctly into a suitable substrate by trained fitters. Marketing claims without an accompanying test certificate and accredited installer do not indicate security; paperwork does.
 
 ### Which material makes the most secure front door?
 

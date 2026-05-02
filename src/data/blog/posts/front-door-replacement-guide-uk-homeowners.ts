@@ -43,7 +43,7 @@ Replacing a front door in England and Wales is subject to **Building Regulations
 
 Since 2015, Approved Document Q has required all replacement doors in dwellings to meet **PAS 24** or an equivalent security standard. This applies to the complete doorset — leaf, frame, hardware and locking mechanism tested as an integrated unit. A door that achieves PAS 24 is considered to satisfy the regulatory requirement, though homeowners seeking genuine security should look well beyond this minimum threshold.
 
-Every SteelR entrance door is tested to **SR3 under BS EN 1627:2011** and carries **Secured by Design** accreditation, exceeding Building Regulations requirements by a significant margin.
+Every SteelR entrance door is BS EN 1627:2011 RC4 certified as Standard (with the **LPS 1175 SR3 Enhanced upgrade** available) and carries **Secured by Design** accreditation, exceeding Building Regulations requirements by a significant margin.
 
 ### Approved Document L — Thermal Performance
 
@@ -95,7 +95,7 @@ Premium aluminium doors offer clean contemporary aesthetics and strong security 
 
 ### Steel
 
-**Bespoke steel entrance doors** occupy the top tier. Steel achieves the highest security ratings available for residential use — **SR3 under BS EN 1627:2011** — while offering exceptional longevity, dimensional stability and design flexibility. A properly specified steel door will outlast every other material on this list. Explore the full range in [the SteelR collection](/collection).
+**Bespoke steel entrance doors** occupy the top tier. Steel reaches **BS EN 1627:2011 RC4** as Standard and **LPS 1175 SR3** as the Enhanced upgrade, with the **SR4 Commercial-grade upgrade** and **LPS 1673 Ultra-high tier** also available, while offering exceptional longevity, dimensional stability and design flexibility. A properly specified steel door will outlast every other material on this list. Explore the full range in [the SteelR collection](/collection).
 
 ## The Survey and Measurement Process
 

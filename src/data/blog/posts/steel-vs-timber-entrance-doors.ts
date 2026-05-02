@@ -124,7 +124,7 @@ Real timber doors typically need re-oiling or repainting every 3 to 5 years in U
 
 ### Is a solid timber door as secure as a steel door?
 
-Solid timber doors can be secure when specified carefully, but rarely reach SR3 under BS EN 1627. Most premium timber doors stop at PAS 24 certification. To reach SR3 in timber requires heavy engineered cores, steel-reinforced stiles and upgraded locking, which makes the door very expensive and diminishes the natural wood aesthetic. Steel achieves SR3 more consistently and at a more predictable price point.
+Solid timber doors can be secure when specified carefully, but rarely reach LPS 1175 SR3. Most premium timber doors stop at PAS 24 certification. To reach SR3 in timber requires heavy engineered cores, steel-reinforced stiles and upgraded locking, which makes the door very expensive and diminishes the natural wood aesthetic. Steel achieves LPS 1175 SR3 more consistently and at a more predictable price point.
 
 ### Will steel doors show fingerprints or dents?
 

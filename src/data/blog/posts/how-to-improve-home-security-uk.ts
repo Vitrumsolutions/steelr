@@ -28,7 +28,7 @@ Your front door is the primary entry point for burglars. According to police cri
 Not all doors are equal when it comes to security. Here is what to look for:
 
 **Door material and construction**
-- **Steel** is the strongest material available for residential doors. A steel entrance door rated to **SR3 under BS EN 1627:2011** withstands attack with crowbars, drills and angle grinders
+- **Steel** is the strongest material available for residential doors. A steel entrance door certified to **BS EN 1627:2011 RC4** as Standard, with the **LPS 1175 SR3 Enhanced upgrade** available, withstands sustained attack with crowbars, drills and angle grinders
 - **Composite** doors with PAS 24 certification offer good security for most homes
 - **Timber** doors, unless reinforced, are the weakest option and can often be breached with a single kick
 - **uPVC** doors are the least secure and should be upgraded if security is a priority

@@ -151,7 +151,7 @@ Steel entrance doors are manufactured from galvanised steel and finished with mu
 
 ### Can fibreglass doors achieve SR3 security ratings?
 
-No. GRP and foam core construction cannot achieve SR3 under BS EN 1627 testing. The material does not have the structural resistance to withstand the sustained forced attack that SR3 testing requires. Fibreglass doors typically achieve PAS 24, which tests resistance to lighter tools over a shorter period. For properties requiring the highest security specification, steel is the only residential door material that achieves SR3.
+No. GRP and foam core construction cannot achieve LPS 1175 SR3 testing. The material does not have the structural resistance to withstand the sustained forced attack that SR3 testing requires. Fibreglass doors typically achieve PAS 24, which tests resistance to lighter tools over a shorter period. For properties requiring the highest residential security tier, steel is the only material that achieves LPS 1175 SR3.
 
 ### How long do fibreglass doors actually last?
 
