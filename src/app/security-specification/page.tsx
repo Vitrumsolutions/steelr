@@ -45,7 +45,7 @@ const standards = [
       "Resists sustained forced-entry attack with heavy-duty hand tools and battery-operated power tools",
       "Tested under BS EN 1627:2011, the European framework for forced-entry resistance",
       "Fitted on every residential steel front door we make",
-      "FD30S fire rated — 30-minute fire and smoke resistance",
+      "FD30S fire rated. 30-minute fire and smoke resistance",
       "Intumescent seals and cold smoke brushes as standard",
       "Satisfies Approved Document Q, Part B and the Fire Safety Act 2021",
       "Secured by Design police-preferred specification",
@@ -79,10 +79,10 @@ const certifications = [
 const regulations = [
   {
     title: "Approved Document Q",
-    text: "Security — dwellings. Mandatory for all new-build houses and flats in England and Wales.",
+    text: "Security for dwellings. Mandatory for all new-build houses and flats in England and Wales.",
   },
   {
-    title: "Approved Document B — Part B",
+    title: "Approved Document B (Part B)",
     text: "Fire safety. FD30S rating provides 30 minutes fire resistance and cold smoke control.",
   },
   {
@@ -98,7 +98,7 @@ const regulations = [
     text: "Higher-risk buildings regime. SteelR\u2019s BS EN 1627 RC4 + FD30S certification satisfies the gateway process requirements for higher-risk residential buildings.",
   },
   {
-    title: "Secured by Design — Police Preferred Specification",
+    title: "Secured by Design. Police Preferred Specification",
     text: "The UK police initiative accrediting doors to the highest independently verified security standard.",
   },
 ];
@@ -131,7 +131,7 @@ export default function SecuritySpecificationPage() {
             "@type": "FAQPage",
             mainEntity: [
               { "@type": "Question", name: "What is PAS 24 and why is it required?", acceptedAnswer: { "@type": "Answer", text: "PAS 24:2022 is the UK security standard for doors and windows mandated by Approved Document Q of the Building Regulations. All new-build dwellings and flats in England and Wales must have entrance doors that meet PAS 24. It tests resistance to opportunist forced entry over a 15-minute manual attack." }},
-              { "@type": "Question", name: "What is BS EN 1627 RC4 and how does it differ from PAS 24?", acceptedAnswer: { "@type": "Answer", text: "BS EN 1627:2011 RC4 is the European framework for sustained forced-entry resistance, certifying the complete door assembly against heavy-duty hand tools and battery-operated power tools. It far exceeds PAS 24, which tests a 1–3 minute casual attack with basic hand tools. Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed as standard." }},
+              { "@type": "Question", name: "What is BS EN 1627 RC4 and how does it differ from PAS 24?", acceptedAnswer: { "@type": "Answer", text: "BS EN 1627:2011 RC4 is the European framework for sustained forced-entry resistance, certifying the complete door assembly against heavy-duty hand tools and battery-operated power tools. It far exceeds PAS 24, which tests a 1 to 3 minute casual attack with basic hand tools. Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed as standard." }},
               { "@type": "Question", name: "What LPS 1175 SR ratings does SteelR offer?", acceptedAnswer: { "@type": "Answer", text: "SteelR's standard residential specification is BS EN 1627:2011 RC4 single leaf, unglazed (the European framework for sustained forced-entry resistance). LPS 1175 SR3 is available as an Enhanced upgrade. LPS 1175 SR4 (D10 Issue 8, the commercial-grade certification used on data centres and bank vaults) is available as a Commercial-grade upgrade. LPS 1673 attack-resistance certification is available by enquiry for ultra-high-security briefs. The four tiers cover everything from standard residential through to documented threat-assessment specifications." }},
               { "@type": "Question", name: "What does Secured by Design mean?", acceptedAnswer: { "@type": "Answer", text: "Secured by Design is the official UK police security initiative. Products carrying the Secured by Design accreditation have been independently tested and certified to the police-preferred specification for crime prevention. SteelR doors are Secured by Design approved." }},
               { "@type": "Question", name: "Are SteelR doors fire rated?", acceptedAnswer: { "@type": "Answer", text: "Yes. Every SteelR door carries FD30S certification providing 30 minutes of fire and smoke resistance as standard. FD60 (60-minute) ratings are available on request. This satisfies Approved Document B, the Fire Safety Act 2021, and the Building Safety Act 2022 for flat entrance doors." }},
@@ -159,14 +159,14 @@ export default function SecuritySpecificationPage() {
         </div>
       </section>
 
-      <h1 className="sr-only">PAS 24 Compliance and BS EN 1627 RC4 Security Specification — Approved Document Q</h1>
+      <h1 className="sr-only">PAS 24 Compliance and BS EN 1627 RC4 Security Specification. Approved Document Q</h1>
 
       {/* Intro */}
       <section className="bg-cream ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-3xl mx-auto text-center">
           <ScrollReveal>
             <p style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 14, lineHeight: 1.9, color: "#6b5a42" }}>
-              Every SteelR entrance door is certified beyond the PAS 24 threshold mandated by UK Building Regulations — meeting both Approved Document Q and the fire safety requirements of the Fire Safety Act 2021. Our BS EN 1627:2011 RC4 single leaf, unglazed classification and FD30S fire rating deliver a level of protection that far exceeds the regulatory minimum.
+              Every SteelR entrance door is certified beyond the PAS 24 threshold mandated by UK Building Regulations, meeting both Approved Document Q and the fire safety requirements of the Fire Safety Act 2021. Our BS EN 1627:2011 RC4 single leaf, unglazed classification and FD30S fire rating deliver a level of protection that far exceeds the regulatory minimum.
             </p>
           </ScrollReveal>
         </div>
@@ -242,16 +242,16 @@ export default function SecuritySpecificationPage() {
           <ScrollReveal>
             <div>
               <h2 className="mb-6" style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(24px, 3vw, 36px)", color: "#1a1a18", lineHeight: 1.2 }}>
-                Why <em style={{ fontStyle: "italic", color: "#c9a96e" }}>new builds and flats</em> require PAS 24 — and why BS EN 1627 RC4 is what specifiers choose
+                Why <em style={{ fontStyle: "italic", color: "#c9a96e" }}>new builds and flats</em> require PAS 24, and why BS EN 1627 RC4 is what specifiers choose
               </h2>
               <p className="mb-4" style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
-                Under <strong style={{ fontWeight: 400, color: "#1a1a18" }}>Approved Document Q of the Building Regulations</strong>, all new-build homes and flats — including those created by material change of use — must be fitted with entrance doors that resist unauthorised access. PAS 24:2022 is the accepted standard to satisfy this requirement.
+                Under <strong style={{ fontWeight: 400, color: "#1a1a18" }}>Approved Document Q of the Building Regulations</strong>, all new-build homes and flats, including those created by material change of use, must be fitted with entrance doors that resist unauthorised access. PAS 24:2022 is the accepted standard to satisfy this requirement.
               </p>
               <p className="mb-4" style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
                 The <strong style={{ fontWeight: 400, color: "#1a1a18" }}>Fire Safety Act 2021</strong> further extended the Fire Safety Order to explicitly cover flat entrance doors in multi-occupied residential buildings. FD30S fire-rated doorsets are now the mandated minimum standard for any flat entrance door leading onto common parts.
               </p>
               <p style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
-                Every SteelR door satisfies both requirements — and exceeds both. BS EN 1627:2011 RC4 single leaf, unglazed certification means your door has been independently tested to withstand sustained forced entry with heavy-duty hand tools and battery-operated power tools, not just opportunist attack. It is the standard demanded by <strong style={{ fontWeight: 400, color: "#1a1a18" }}>housing associations, developers and planning authorities</strong> on high-specification projects.
+                Every SteelR door satisfies both requirements and exceeds both. BS EN 1627:2011 RC4 single leaf, unglazed certification means your door has been independently tested to withstand sustained forced entry with heavy-duty hand tools and battery-operated power tools, not just opportunist attack. It is the standard demanded by <strong style={{ fontWeight: 400, color: "#1a1a18" }}>housing associations, developers and planning authorities</strong> on high-specification projects.
               </p>
             </div>
           </ScrollReveal>
@@ -277,7 +277,7 @@ export default function SecuritySpecificationPage() {
         </div>
       </section>
 
-      {/* Technical Performance — supplier-tested numbers, all UKAS-accredited */}
+      {/* Technical Performance: supplier-tested numbers, all UKAS-accredited */}
       <section className="bg-cream py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal>

@@ -33,13 +33,13 @@ Security is not a matter of opinion. It is tested, graded and certified under re
 
 ### Steel Doors
 
-A properly engineered steel entrance door achieves **SR3 under BS EN 1627:2011** — the highest residential security rating available. SR3 testing subjects the door to sustained attack with heavy-duty tools including crowbars, drills, chisels and angle grinders for a minimum of twenty minutes. The test simulates a determined, equipped intruder with time and intent.
+A properly engineered steel entrance door achieves **LPS 1175 SR3 (Issue 8)**, the LPCB police-preferred residential rating. SR3 testing subjects the door to sustained attack with heavy-duty tools including crowbars, drills, chisels and angle grinders for a minimum of five minutes against a defined attack objective. The test simulates a determined, equipped intruder with time and intent. SteelR doors are also BS EN 1627:2011 RC4 certified as Standard (the European framework for sustained forced-entry resistance), with SR3 available as the Enhanced upgrade tier.
 
-Steel doors achieve this rating because the material itself resists cutting, drilling and levering. Combined with multi-point locking systems, anti-drill cylinders and reinforced strike plates, a steel door is a genuinely formidable barrier. Every SteelR door ships with SR3 as the standard specification, not as an upgrade. For a detailed breakdown of security certifications, see our [security overview](/security).
+Steel doors achieve this rating because the material itself resists cutting, drilling and levering. Combined with multi-point locking systems, anti-drill cylinders and reinforced strike plates, a steel door is a genuinely formidable barrier. Every SteelR door ships with BS EN 1627 RC4 as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier on every door. For a detailed breakdown of security certifications, see our [security overview](/security).
 
 ### Fibreglass Doors
 
-Fibreglass doors typically achieve **PAS 24** certification, which tests resistance to opportunistic manual attack with lighter tools for approximately three minutes. PAS 24 is the minimum standard required under Part Q of the Building Regulations for new dwellings. It is a respectable baseline, but it sits several performance categories below SR3.
+Fibreglass doors typically achieve **PAS 24** certification, which tests resistance to opportunistic manual attack with lighter tools for approximately three minutes. PAS 24 is the minimum standard required under Part Q of the Building Regulations for new dwellings. It is a respectable baseline, but it sits several performance categories below BS EN 1627 RC4 and LPS 1175 SR3.
 
 The GRP skin and foam core of a fibreglass door are inherently softer materials than steel. While the lock hardware may be identical, the surrounding material determines how well the door resists forced entry at points away from the lock. GRP can be cut, cracked or punctured with tools that would be ineffective against a steel skin.
 

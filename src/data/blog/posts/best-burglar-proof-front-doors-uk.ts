@@ -56,7 +56,7 @@ The door leaf itself must resist cutting, drilling and sustained impact. The hie
 - **Aluminium** — strong, but softer metal limits top-end performance
 - **Steel** — strongest residential door material available
 
-Steel is the only residential door material capable of achieving **SR3 security certification** under BS EN 1627:2011. This rating requires the door to withstand sustained attack using professional-grade tools — including crowbars, drills and angle grinders — for a minimum of five minutes. Every SteelR door is built to this standard. For a comprehensive breakdown, see our [security overview](/security).
+Steel is the only residential door material capable of achieving **LPS 1175 SR3 certification** (the LPCB police-preferred rating). The Issue 8 test requires the door to withstand sustained attack using professional-grade tools (crowbars, drills and angle grinders) for a minimum of five minutes. Every SteelR door is BS EN 1627 RC4 certified as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier on every door. For a comprehensive breakdown, see our [security overview](/security).
 
 ### Multi-Point Locking Systems
 
@@ -94,9 +94,9 @@ SR2 tests resistance to simple hand tools for three minutes under the European s
 
 ### SR3 (RC3) — Premium Residential Security
 
-**SR3 is the gold standard for residential door security.** Testing under BS EN 1627:2011 subjects the complete doorset to sustained attack using crowbars, drills and angle grinders for five minutes. Only steel doors can achieve this rating. For homeowners seeking genuine burglar-proof performance, SR3 should be the minimum specification.
+**LPS 1175 SR3 is the LPCB police-preferred residential rating.** Testing under LPS 1175 Issue 8 subjects the complete doorset to sustained attack using crowbars, drills and angle grinders for five minutes. Only steel doors can achieve this rating. For homeowners seeking serious burglar-resistance certification, the LPS 1175 SR3 Enhanced upgrade tier (above the BS EN 1627 RC4 Standard) is the right specification for most residential properties.
 
-SR3 is the highest security rating commercially available for residential front doors and can only be achieved with steel construction.
+LPS 1175 SR3 is the highest residential security rating routinely specified outside commercial-grade and ultra-high tiers, and is only achievable with steel construction. SteelR also offers SR4 (Commercial-grade) and LPS 1673 (Ultra-high, by enquiry) on residential specification for properties with a documented elevated threat profile.
 
 Full technical details of SR3 testing protocols and what they mean in practice are available on our [security specification](/security-specification) page.
 
@@ -110,7 +110,7 @@ SR4 and SR5 involve power tools and extended attack durations of 10 and 15 minut
 
 The scheme was established in 1989 and works with manufacturers to ensure products meet minimum security standards. For entrance doors, SBD accreditation typically requires PAS 24 certification at minimum, though many SBD-listed products exceed this baseline significantly.
 
-Secured by Design accreditation is recognised by insurers, police forces and local planning authorities across the UK. Specifying an SBD-accredited door can positively influence both insurance premiums and planning decisions. SteelR doors carry Secured by Design accreditation alongside SR3 certification as standard — browse [our collection](/collection) to see the full range.
+Secured by Design accreditation is recognised by insurers, police forces and local planning authorities across the UK. Specifying an SBD-accredited door can positively influence both insurance premiums and planning decisions. SteelR doors carry Secured by Design accreditation alongside BS EN 1627 RC4 certification as Standard, with LPS 1175 SR3 Enhanced upgrade available. Browse [our collection](/collection) to see the full range.
 
 Police forces across England and Wales recommend Secured by Design accredited products as the minimum standard for residential door security.
 
@@ -163,15 +163,15 @@ For high-value properties, crime prevention officers increasingly recommend SR3-
 
 When every component is considered as a system — material strength, frame integrity, locking specification, hinge security and glazing performance — steel is the only material that delivers uncompromised performance across all criteria.
 
-SteelR doors are manufactured under **ISO 9001** quality management, tested to SR3 under BS EN 1627:2011 and carry Secured by Design accreditation. Every door is built to order with the [full RAL colour range](/collection) available, ensuring that uncompromising security does not require compromise on design.
+SteelR doors are manufactured under **ISO 9001** quality management, BS EN 1627:2011 RC4 certified as Standard with LPS 1175 SR3 Enhanced upgrade available, and carry Secured by Design accreditation. Every door is built to order with the [full RAL colour range](/collection) available, ensuring that uncompromising security does not require compromise on design.
 
-A bespoke steel entrance door is the most effective single upgrade for residential security, combining SR3 certification with architectural design quality. For the police-preferred specification standard explained in detail, see our [Secured by Design steel front door](/secured-by-design-steel-front-door) overview.
+A bespoke steel entrance door is the most effective single upgrade for residential security, combining BS EN 1627 RC4 Standard certification (with LPS 1175 SR3 Enhanced upgrade and SR4 Commercial-grade upgrade available) with architectural design quality. For the police-preferred specification standard explained in detail, see our [Secured by Design steel front door](/secured-by-design-steel-front-door) overview.
 
 ## Frequently Asked Questions
 
 ### What is the most burglar-proof front door material?
 
-Steel is the most secure residential front door material available. It is the only material capable of achieving SR3 certification under BS EN 1627:2011, which tests resistance to sustained attack with professional tools including crowbars, drills and angle grinders. No other residential door material — including composite, aluminium or timber — can match this level of performance.
+Steel is the most secure residential front door material available. It is the only residential material capable of achieving LPS 1175 SR3 certification (the LPCB police-preferred rating), which tests resistance to sustained attack with professional tools including crowbars, drills and angle grinders. No other residential door material — including composite, aluminium or timber — can match this level of performance.
 
 ### Are composite doors burglar-proof?
 

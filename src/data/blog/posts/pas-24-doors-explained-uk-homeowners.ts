@@ -114,7 +114,7 @@ For homeowners who take security seriously — particularly those with propertie
 
 ### The SR3 Advantage
 
-Every door in [our collection](/collection) achieves **SR3 certification as standard**, tested to BS EN 1627:2011 by an independent accredited laboratory. This means:
+Every door in [our collection](/collection) is **BS EN 1627:2011 RC4 certified as Standard** by an independent accredited laboratory, with **LPS 1175 SR3 Enhanced upgrade** available on every door. The Standard tier means:
 
 - **Five minutes of sustained attack** with professional-grade tools, compared to three minutes with basic tools under PAS 24
 - **Angle grinder resistance** — the door leaf and frame withstand cutting attempts

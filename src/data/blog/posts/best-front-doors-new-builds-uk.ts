@@ -29,7 +29,7 @@ Three sections of the Building Regulations directly affect front door specificat
 
 PAS 24 is a baseline. For developments targeting Secured by Design accreditation — increasingly requested by planning authorities and valued by buyers — the door must meet PAS 24 as a minimum, but higher ratings such as **SR3 under BS EN 1627** demonstrate a substantially greater level of security. SR3-rated doors withstand sustained forced attack with heavy-duty tools for over twenty minutes, placing them several categories above the Part Q minimum.
 
-Developers building in [Surrey](/areas/surrey), [Kent](/areas/kent) and [Essex](/areas/essex) are seeing growing demand for Secured by Design specification, particularly on premium residential schemes where buyers expect security performance to match the asking price. Every SteelR door ships with SR3 as standard, satisfying both the Approved Document Q baseline and the higher security expectations of premium buyers in a single specification.
+Developers building in [Surrey](/areas/surrey), [Kent](/areas/kent) and [Essex](/areas/essex) are seeing growing demand for Secured by Design specification, particularly on premium residential schemes where buyers expect security performance to match the asking price. Every SteelR door ships with BS EN 1627 RC4 as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier. That combination satisfies both the Approved Document Q baseline and the higher security expectations of premium buyers in a single specification.
 
 ### Part L — Energy Efficiency
 

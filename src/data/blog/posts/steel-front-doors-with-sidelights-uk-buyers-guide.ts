@@ -89,7 +89,7 @@ A door with sidelights uses the same eight to twelve week lead time as a single-
 
 ### Cost Factors
 
-There are no published prices because every door is specified individually. The factors that move the cost on a door with sidelights, in order of typical impact: aperture size and configuration (single vs dual sidelights, with or without fanlight), glazing specification (clear vs decorative vs fire-rated), security tier (SR3 standard or SR4 upgrade), hardware finish, and any conservation-led design work required for listed properties.
+There are no published prices because every door is specified individually. The factors that move the cost on a door with sidelights, in order of typical impact: aperture size and configuration (single vs dual sidelights, with or without fanlight), glazing specification (clear vs decorative vs fire-rated), security tier (BS EN 1627 RC4 Standard, LPS 1175 SR3 Enhanced upgrade or SR4 Commercial-grade upgrade), hardware finish, and any conservation-led design work required for listed properties.
 
 The full breakdown of [steel front door cost factors](/steel-front-door-cost-uk) covers what moves the number on every project.
 

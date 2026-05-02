@@ -34,7 +34,7 @@ const tenorSans = Tenor_Sans({
 export const metadata: Metadata = {
   title: "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
   description:
-    "Bespoke steel front doors for UK homes. BS EN 1627 RC4 standard. LPS 1175 SR3 and SR4 available. PAS 24 certified, Secured by Design, FD30S fire rated, ISO 9001 manufactured. Nationwide install by SteelR.",
+    "Bespoke steel front doors for UK homes. BS EN 1627:2011 RC4 standard, LPS 1175 SR3 / SR4 available. PAS 24, Secured by Design, FD30S fire rated. UK install.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "48x48" },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://steelr.co.uk"),
   openGraph: {
     title: "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
-    description: "Bespoke steel front doors for UK homes. BS EN 1627 RC4 standard. LPS 1175 SR3 and SR4 available. PAS 24 certified, Secured by Design, FD30S fire rated, ISO 9001 manufactured. Nationwide install by SteelR.",
+    description: "Bespoke steel front doors for UK homes. BS EN 1627:2011 RC4 standard, LPS 1175 SR3 / SR4 available. PAS 24, Secured by Design, FD30S fire rated. UK install.",
     url: "https://steelr.co.uk",
     siteName: "SteelR",
     type: "website",
@@ -56,14 +56,14 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 2400,
         height: 1260,
-        alt: "SteelR — Bespoke Steel Entrance Doors | BS EN 1627:2011 RC4 single leaf, unglazed",
+        alt: "SteelR. Bespoke Steel Entrance Doors. BS EN 1627:2011 RC4 single leaf, unglazed",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
-    description: "Bespoke steel front doors for UK homes. BS EN 1627 RC4 standard. LPS 1175 SR3 and SR4 available. PAS 24 certified, Secured by Design, FD30S fire rated, ISO 9001 manufactured. Nationwide install by SteelR.",
+    description: "Bespoke steel front doors for UK homes. BS EN 1627:2011 RC4 standard, LPS 1175 SR3 / SR4 available. PAS 24, Secured by Design, FD30S fire rated. UK install.",
     images: ["/og-image.png"],
   },
   alternates: {

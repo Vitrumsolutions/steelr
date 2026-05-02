@@ -73,9 +73,9 @@ The junction where the two leaves meet is the critical security detail. In a poo
 
 On a properly engineered steel double door, the meeting stile incorporates an **interlocking rebate** — a stepped profile where one leaf overlaps the other. This prevents the leaves from being levered apart. Combined with the multipoint locking on the active leaf and the flush bolts on the passive leaf, the central meeting point is as secure as any other part of the door.
 
-Every SteelR double door achieves **SR3 security ratings** across the complete assembly — both leaves, both sets of hardware and the central meeting point. This is independently tested under BS EN 1627:2011 and carries **Secured by Design** accreditation.
+Every SteelR double door is **BS EN 1627 RC4 certified as Standard** across the complete assembly (both leaves, both sets of hardware and the central meeting point), with the **LPS 1175 SR3 Enhanced upgrade** available on every double door. Independently tested under BS EN 1627:2011 and carries **Secured by Design** accreditation.
 
-Double doors that do not achieve SR3 as a complete assembly should be treated with caution. Some manufacturers test individual leaves but not the assembled pair, which leaves the central meeting point unverified.
+Double doors that have not been independently certified as a complete assembly (rather than as individual single-leaf doors) should be treated with caution. Some manufacturers test individual leaves but not the assembled pair, which leaves the central meeting point unverified.
 
 ## Thermal Considerations with Two Leaves
 

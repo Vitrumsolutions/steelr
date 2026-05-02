@@ -104,7 +104,7 @@ This is the stage at which to share reference images, discuss materials and esta
 
 Based on the consultation, we produce detailed design drawings showing the door in elevation — including panel layout, glazing configuration, hardware positions and colour. Revisions are part of the process. Most clients go through two or three iterations before the design is finalised.
 
-At this stage, we also confirm the technical specification: security rating (**SR3 as standard**), fire rating where required, thermal performance targets and any specific compliance requirements for planning or building control.
+At this stage, we also confirm the technical specification: security tier (**BS EN 1627 RC4 as Standard, with LPS 1175 SR3 Enhanced upgrade or SR4 Commercial-grade upgrade where the brief calls for it**), fire rating where required, thermal performance targets and any specific compliance requirements for planning or building control.
 
 ### Stage 3: Survey and Specification
 
@@ -166,7 +166,7 @@ Browse [our collection](/collection) for design inspiration, [request an estimat
 
 ### How much does a bespoke steel entrance door cost?
 
-Pricing depends on configuration, size, security tier (SR3 standard or SR4 commercial-grade upgrade), fire rating, glazing, hardware specification, RAL colour and design complexity. Each door is individually priced after an on-site survey because no two specifications are alike. We provide a detailed written quotation following an initial design consultation, with a breakdown of every specification choice. Single-leaf, double-leaf and sidelight configurations are all costed against your specific brief rather than a published list.
+Pricing depends on configuration, size, security tier (BS EN 1627 RC4 Standard, LPS 1175 SR3 Enhanced upgrade or SR4 Commercial-grade upgrade), fire rating, glazing, hardware specification, RAL colour and design complexity. Each door is individually priced after an on-site survey because no two specifications are alike. We provide a detailed written quotation following an initial design consultation, with a breakdown of every specification choice. Single-leaf, double-leaf and sidelight configurations are all costed against your specific brief rather than a published list.
 
 ### Can a bespoke door match my existing architectural style?
 
@@ -182,7 +182,7 @@ Design revisions are a normal and expected part of the bespoke process. Changes 
 
 ### Do bespoke doors meet Building Regulations?
 
-Every SteelR bespoke entrance door meets or exceeds all applicable Building Regulations, including Approved Document Q (security), Part L (thermal performance) and Part B (fire safety) where required. SR3 security certification, **Secured by Design** accreditation and ISO 9001 manufacturing are standard.
+Every SteelR bespoke entrance door meets or exceeds all applicable Building Regulations, including Approved Document Q (security), Part L (thermal performance) and Part B (fire safety) where required. BS EN 1627 RC4 certification, **Secured by Design** accreditation and ISO 9001 manufacturing are standard, with LPS 1175 SR3 (Enhanced) and SR4 (Commercial-grade) upgrades available.
 
 ### Is a site visit necessary before ordering?
 

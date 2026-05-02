@@ -103,7 +103,7 @@ The twelve trends outlined above are not mutually exclusive. The most compelling
 
 The starting point is always the architecture of the property. A design that works brilliantly on a contemporary new build in [Manchester](/areas/manchester) may be entirely wrong for a Georgian townhouse in [London](/areas/london). The role of the designer is to read the building and specify accordingly.
 
-To explore how these ideas might work for your property, [request an estimate](/design-estimate) and the SteelR design team will develop a concept tailored to your architecture and preferences. Every door in [our collection](/collection) is built to order under **ISO 9001** quality management, with **SR3 security certification** and the full RAL colour range available as standard.
+To explore how these ideas might work for your property, [request an estimate](/design-estimate) and the SteelR design team will develop a concept tailored to your architecture and preferences. Every door in [our collection](/collection) is built to order under **ISO 9001** quality management, BS EN 1627 RC4 certified as Standard with **LPS 1175 SR3 Enhanced upgrade** available, and the full RAL colour range included.
 
 ## Frequently Asked Questions
 
@@ -113,7 +113,7 @@ Horizontal ribbed panel designs are the most requested contemporary style, follo
 
 ### Can a modern front door still be secure?
 
-Modern design and high security are not in conflict. A flush-face SteelR door with concealed hinges achieves **SR3 certification** — the highest residential security rating — while presenting the cleanest possible aesthetic. Concealed hinges actually enhance security by eliminating exposed hardware. The design language is modern; the protection is uncompromising.
+Modern design and high security are not in conflict. A flush-face SteelR door with concealed hinges is BS EN 1627 RC4 Standard certified, with the **LPS 1175 SR3 Enhanced upgrade** (the LPCB police-preferred residential rating) available, while presenting the cleanest possible aesthetic. Concealed hinges actually enhance security by eliminating exposed hardware. The design language is modern; the protection is uncompromising.
 
 ### How do I choose the right colour for a modern front door?
 

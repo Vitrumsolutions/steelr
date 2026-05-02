@@ -196,7 +196,7 @@ Processing time for a householder planning application is typically **8 weeks**,
 
 The fundamental advantage of specifying a bespoke SteelR entrance door for a conservation area property is that no compromise is required between heritage appearance and modern performance.
 
-[The SteelR collection](/collection) includes designs appropriate for every major architectural period found in UK conservation areas, from Georgian restraint to Edwardian elaboration. Each is manufactured to **SR3 security certification**, meets **Secured by Design** standards and is built to **ISO 9001** quality management processes.
+[The SteelR collection](/collection) includes designs appropriate for every major architectural period found in UK conservation areas, from Georgian restraint to Edwardian elaboration. Each is manufactured to **BS EN 1627 RC4 Standard** (with **LPS 1175 SR3 Enhanced upgrade** available), meets **Secured by Design** standards and is built to **ISO 9001** quality management processes.
 
 Through [our process](/process), every door is designed around the specific requirements of the property and the planning context — ensuring that the final product satisfies conservation officers, meets Building Regulations and delivers the security, thermal performance and longevity that a quality property deserves.
 

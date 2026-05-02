@@ -144,7 +144,7 @@ In 2026, the alignment between Secured by Design and building regulations is tig
 
 The **Building Safety Act 2022** introduced new requirements for fire safety in residential buildings, particularly those over 18 metres. For developments that require both security-rated and fire-rated entrance doors, the specification becomes more complex. Doors must simultaneously meet PAS 24 for security and BS EN 1634 for fire resistance.
 
-SteelR manufactures entrance doors that achieve both **SR3 security certification and FD30/FD60 fire ratings** within a single doorset. This dual certification is particularly relevant for apartment buildings, HMOs and mixed-use developments where both standards apply. For full details, see our [fire rated doors](/fire-rated-doors) page.
+SteelR manufactures entrance doors that combine **BS EN 1627 RC4 Standard certification (with LPS 1175 SR3 Enhanced upgrade) and FD30/FD60 fire ratings** within a single doorset. This dual certification is particularly relevant for apartment buildings, HMOs and mixed-use developments where both standards apply. For full details, see our [fire rated doors](/fire-rated-doors) page.
 
 ### Part L (Conservation of Fuel and Power)
 
@@ -200,7 +200,7 @@ SBD Silver requires all external doors, windows and access points to meet the sp
 
 ### Can a door be both fire rated and Secured by Design?
 
-Yes. SteelR manufactures entrance doors that simultaneously achieve SR3 security certification, Secured by Design accreditation and FD30 or FD60 fire ratings. This dual certification is essential for apartment buildings, HMOs and developments subject to the Building Safety Act, where both security and fire resistance are regulatory requirements for the same door opening. For a deeper specification overview, see our [Secured by Design steel front door](/secured-by-design-steel-front-door) hub page.`,
+Yes. SteelR manufactures entrance doors that simultaneously achieve BS EN 1627 RC4 Standard certification (with LPS 1175 SR3 Enhanced upgrade available), Secured by Design accreditation and FD30 or FD60 fire ratings. This dual certification is essential for apartment buildings, HMOs and developments subject to the Building Safety Act, where both security and fire resistance are regulatory requirements for the same door opening. For a deeper specification overview, see our [Secured by Design steel front door](/secured-by-design-steel-front-door) hub page.`,
 };
 
 export default post;

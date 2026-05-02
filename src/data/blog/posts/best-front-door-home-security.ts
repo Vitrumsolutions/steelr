@@ -42,7 +42,7 @@ The European standard **BS EN 1627:2011** defines resistance classes that specif
 
 - **SR1 (RC1)** — Resists bodily force only (kicking, shoulder-barging). No tools. The minimum standard.
 - **SR2 (RC2)** — Resists casual attack with simple tools (screwdrivers, pliers, wedges) for 3 minutes. The most common rating for premium aluminium and reinforced composite doors.
-- **SR3 (RC3)** — Resists experienced attack with heavy-duty tools (crowbars, drills, angle grinders) for 5 minutes. The gold standard for residential security. Only achievable with steel construction.
+- **LPS 1175 SR3 (Issue 8).** Resists experienced attack with heavy-duty tools (crowbars, drills, angle grinders) for 5 minutes. The LPCB police-preferred residential rating. Only achievable with steel construction. SteelR offers this as the Enhanced upgrade tier above the BS EN 1627 RC4 Standard.
 - **SR4 (RC4)** — Resists experienced attack with power tools (reciprocating saws, impact drills) for 10 minutes. Government and commercial applications.
 - **SR5 (RC5)** — Resists attack with high-powered tools (disc cutters, drilling machines) for 15 minutes. Embassy, military and high-security commercial use.
 

@@ -334,8 +334,8 @@ Committing the marker would let old approval carry forward forever after the fil
   - The rebuild logic is auditable in the script and the cron is in a trusted GitHub Actions environment.
   This is the only --no-verify path. Humans cannot bypass the gate per the global safety rules in `~/.claude/CLAUDE.md` (Claude is forbidden from using --no-verify; the user can manually but should not for llms files).
 
-## Blog Posts (45 posts — all published)
-- 45 posts in `src/data/blog/posts/*.ts` — all live, zero staged
+## Blog Posts (39 posts, all published)
+- 39 posts in `src/data/blog/posts/*.ts`, all live, zero staged
 - Blog data: `src/data/blog/` (types.ts + index.ts + posts/)
 - FAQ schema auto-extracted from posts containing `## Frequently Asked Questions`
 - Topics cover: pricing, security ratings, thermal performance, RAL colours, fire regulations, conservation areas, new builds, comparisons (vs composite, vs fibreglass, vs uPVC), hardware, insurance, architect specs, smart locks, local area guides (London, Surrey, Bucks, Kent), period properties, Secured by Design

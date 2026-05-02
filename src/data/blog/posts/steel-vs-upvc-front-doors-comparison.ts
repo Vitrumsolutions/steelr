@@ -144,11 +144,11 @@ Every door in [the SteelR collection](/collection) is manufactured to **SR3 secu
 
 ### Is a steel front door worth the extra cost over uPVC?
 
-For homeowners who value security, durability and design, steel represents significantly better long-term value. The higher upfront cost is offset by a lifespan two to three times longer than uPVC, consistent thermal performance and genuine SR3 security protection.
+For homeowners who value security, durability and design, steel represents significantly better long-term value. The higher upfront cost is offset by a lifespan two to three times longer than uPVC, consistent thermal performance and the four-tier security ladder (BS EN 1627 RC4 Standard, with LPS 1175 SR3 Enhanced upgrade and SR4 Commercial-grade upgrade available).
 
 ### How much more secure is a steel door than uPVC?
 
-The difference is substantial. uPVC doors typically achieve PAS 24 certification, which tests resistance to casual attack. Steel doors achieve SR3 under BS EN 1627:2011, which tests resistance to sustained attack with professional tools including crowbars and angle grinders.
+The difference is substantial. uPVC doors typically achieve PAS 24 certification, which tests resistance to casual attack. SteelR steel doors are BS EN 1627:2011 RC4 certified as Standard, with the LPS 1175 SR3 Enhanced upgrade available, both of which test resistance to sustained attack with professional tools including crowbars and angle grinders.
 
 ### Do steel doors rust compared to uPVC?
 

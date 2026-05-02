@@ -57,7 +57,7 @@ In our experience, homeowners who specify SR4 fall into four broad categories.
 
 **4. Owners who simply want the best available.** Some homeowners, having understood the difference between PAS 24, SR3 and SR4, decide they want the commercial-grade certification on their home for the reassurance alone. This is a legitimate choice. A home is a long-term asset and the incremental cost of the SR4 upgrade over a twenty-five year service life is modest.
 
-If your property does not fit any of those categories, SR3 as standard is genuinely sufficient. Every SteelR door is SR3 rated whether you upgrade or not, and SR3 is a serious certification in its own right.
+If your property does not fit any of those categories, the LPS 1175 SR3 Enhanced upgrade tier is genuinely sufficient. Every SteelR door is BS EN 1627 RC4 certified as Standard, with SR3 available as the Enhanced upgrade tier where the threat profile or insurer requirement justifies it. SR3 is a serious certification in its own right.
 
 ## SR3 vs SR4 — The Actual Difference
 
@@ -124,7 +124,7 @@ Yes. FD30S fire and smoke rating is standard on every SteelR door and applies to
 
 ### Is SR4 overkill for a typical UK home?
 
-For most UK homes, yes. SR3 as standard provides a level of security that significantly exceeds the threat profile most residential properties face. SR4 becomes relevant specifically for the four categories listed earlier in this article: high-value properties, isolated locations, insurance-flagged risk profiles and owners who want the commercial specification for its own sake. If you are not in any of those categories, staying with SR3 is a sensible, considered choice.
+For most UK homes, yes. The LPS 1175 SR3 Enhanced upgrade tier provides a level of security that significantly exceeds the threat profile most residential properties face. SR4 becomes relevant specifically for the four categories listed earlier in this article: high-value properties, isolated locations, insurance-flagged risk profiles and owners who want the commercial specification for its own sake. If you are not in any of those categories, the BS EN 1627 RC4 Standard tier with SR3 Enhanced upgrade is a sensible, considered choice.
 
 ### How is SR4 documented after installation?
 
@@ -134,7 +134,7 @@ The LPS 1175 certificate is supplied in the handover pack along with your PAS 24
 
 SR4 under LPS 1175 is a genuine commercial-grade security certification. It was designed for data centres and bank vaults. SteelR is among a small group of UK manufacturers making it available as an upgrade on residential front doors, reflecting a shift in the threat profile facing high-value UK homes.
 
-For most homeowners, SR3 as standard is the right specification. For homeowners in specific situations where the elevated threat profile justifies it, SR4 brings the same door engineering used on commercial premises, with the certification to prove it.
+For most homeowners, the LPS 1175 SR3 Enhanced upgrade above the BS EN 1627 RC4 Standard is the right specification. For homeowners in specific situations where the elevated threat profile justifies it, SR4 brings the same door engineering used on commercial premises, with the certification to prove it.
 
 Whichever specification suits your property, the starting point is a [free on-site survey](/contact) with one of our UK surveyors. The survey establishes the aperture, the structural context and the threat profile, and from that we can advise on whether SR3 or SR4 is the right call for the project.
 

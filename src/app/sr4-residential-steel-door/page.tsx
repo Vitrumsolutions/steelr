@@ -6,14 +6,15 @@ export const metadata: Metadata = {
   title:
     "SR4 Residential Steel Door | LPS 1175 Commercial-Grade | SteelR",
   description:
-    "LPS 1175 SR4 (D10 Issue 8) is SteelR's Commercial-grade upgrade tier. The certification used on data centres and bank vaults, available on residential specification.",
+    "LPS 1175 SR4 (D10 Issue 8): SteelR's Commercial-grade upgrade tier, the LPCB certification used on data centres and bank vaults. Residential available.",
   alternates: { canonical: "https://steelr.co.uk/sr4-residential-steel-door" },
   openGraph: {
     title: "SR4 Residential Steel Door | Commercial-Grade Upgrade | SteelR",
     description:
-      "LPS 1175 SR4 (D10 Issue 8) is the LPCB Commercial-grade certification used on data centres and bank vaults. Available on residential specification by SteelR.",
+      "LPS 1175 SR4 (D10 Issue 8): SteelR's Commercial-grade upgrade tier, the LPCB certification used on data centres and bank vaults. Residential available.",
     url: "https://steelr.co.uk/sr4-residential-steel-door",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

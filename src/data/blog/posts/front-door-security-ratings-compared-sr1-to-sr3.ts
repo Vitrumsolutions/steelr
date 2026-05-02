@@ -4,7 +4,7 @@ const post: BlogPost = {
   slug: "front-door-security-ratings-compared-sr1-to-sr3",
   title: "Front Door Security Ratings UK: SR1, SR2, SR3 Explained",
   description:
-    "Front door security ratings explained. SR1 to SR3 compared, BS EN 1627 testing, and why SR3 is the gold standard for UK homes. Plus where SR4 fits in.",
+    "Front door security ratings explained. SR1 to SR3 compared, LPS 1175 vs BS EN 1627, and why LPS 1175 SR3 is the LPCB police-preferred residential rating. Plus where SR4 fits in.",
   date: "2026-04-17",
   readTime: "8 min read",
   category: "Security",
@@ -119,7 +119,7 @@ For a comprehensive overview of how these standards work together, visit our [se
 
 For high-value residential properties, SR3 represents the optimal balance between security performance, practical availability and cost-effectiveness. It provides protection against the full spectrum of tools a residential burglar is likely to carry, for a duration that exceeds the abandonment threshold identified by police research.
 
-SR3 is achievable only with steel construction, multi-point locking, security-rated glazing, heavy-duty hinges and professional installation. Every SteelR entrance door achieves SR3 as standard — manufactured under **ISO 9001** quality management and available in the **full RAL colour range** to complement any architectural style.
+SR3 is achievable only with steel construction, multi-point locking, security-rated glazing, heavy-duty hinges and professional installation. Every SteelR entrance door is BS EN 1627 RC4 certified as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier. Manufactured under **ISO 9001** quality management and available in the **full RAL colour range** to complement any architectural style.
 
 Whether you are securing a Georgian townhouse in Esher, a contemporary new build in Virginia Water, or a country estate in Gerrards Cross, the security specification remains the same. To discuss your requirements or [request an estimate](/design-estimate), contact our team.
 

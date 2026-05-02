@@ -48,7 +48,7 @@ The Loss Prevention Certification Board (LPCB) issues Security Ratings under the
 - **SR2** — resists determined attack with a wider range of tools over a longer period
 - **SR3** — resists sustained, determined attack with professional tools and methods
 
-An **SR3-rated steel entrance door** represents a level of physical security that exceeds the vast majority of residential requirements. It is the rating most commonly specified for high-value properties, listed buildings containing significant contents, and homes in areas with elevated burglary risk. SteelR ships SR3 as the standard specification rather than as an upgrade, with SR4 (LPS 1175) available where insurance underwriters require commercial-grade resistance. Our [security specification](/security-specification) details the full testing methodology and performance criteria.
+An **LPS 1175 SR3-rated steel entrance door** represents a level of physical security that exceeds the vast majority of residential requirements. It is the rating most commonly specified for high-value properties, listed buildings containing significant contents, and homes in areas with elevated burglary risk. SteelR ships BS EN 1627 RC4 as Standard, with the LPS 1175 SR3 Enhanced upgrade and the LPS 1175 SR4 Commercial-grade upgrade available on every door where insurance underwriters require it. Our [security specification](/security-specification) details the full testing methodology and performance criteria.
 
 ### Secured by Design
 

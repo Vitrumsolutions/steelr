@@ -77,13 +77,13 @@ London's property security landscape is distinct from the rest of the UK. Higher
 
 Metropolitan Police statistics consistently show that London boroughs experience higher rates of residential burglary than the national average. Prime central London boroughs — Westminster, Kensington and Chelsea, Camden — see particular concentrations, with properties targeted for high-value contents including art, jewellery and luxury goods.
 
-The method of entry matters for specification purposes. Forced entry through the front door remains the most common approach, but London properties also face risks from lock snapping, cylinder manipulation and, in some cases, key theft. **An SR3-rated steel doorset addresses all of these attack vectors** through its tested resistance to physical force, tool-based attack and lock manipulation. Every SteelR door ships with SR3 as the standard specification, with SR4 (LPS 1175) commercial-grade upgrade available for the highest-risk addresses.
+The method of entry matters for specification purposes. Forced entry through the front door remains the most common approach, but London properties also face risks from lock snapping, cylinder manipulation and, in some cases, key theft. **An SR3-rated steel doorset addresses all of these attack vectors** through its tested resistance to physical force, tool-based attack and lock manipulation. Every SteelR door ships with BS EN 1627 RC4 as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier and LPS 1175 SR4 (D10 Issue 8) as the Commercial-grade upgrade tier for the highest-risk addresses.
 
 ### Specifying Security for London Townhouses
 
 For London townhouses in prime postcodes, the recommended security specification is:
 
-- **LPS 1175 SR3** — the highest residential security rating, resisting sustained professional attack
+- **LPS 1175 SR3** as the Enhanced upgrade tier (the LPCB police-preferred residential rating), resisting sustained professional attack
 - **Secured by Design accreditation** — police-approved security performance, recognised by insurers
 - **Anti-snap, anti-pick, anti-bump cylinder** — to TS 007 three-star or equivalent
 - **Multi-point locking** — minimum five-point engagement for SR3

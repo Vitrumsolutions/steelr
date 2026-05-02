@@ -71,7 +71,7 @@ Spring is when many homeowners review their security arrangements. Longer evenin
 
 **The frame** — the most secure door is only as strong as its frame. Timber frames rot, composite frames can warp, and poorly fitted frames create leverage points that a burglar can exploit. Steel frames, integrated as part of a complete doorset, eliminate these vulnerabilities.
 
-**The certification** — does your current door carry any independently verified security certification? PAS 24 is the regulatory minimum for new builds. **SR3 is the highest security rating available for residential doors**, tested to BS EN 1627:2011 against sustained attack with professional tools. Every door in [the SteelR collection](/collection) achieves SR3 as standard.
+**The certification.** Does your current door carry any independently verified security certification? PAS 24 is the regulatory minimum for new builds. The SteelR ladder runs four tiers: **BS EN 1627:2011 RC4 as Standard** (every door), **LPS 1175 SR3** as the Enhanced upgrade, **LPS 1175 SR4 (D10 Issue 8)** as the Commercial-grade upgrade, and **LPS 1673** attack-resistance available by enquiry. Every door in [the SteelR collection](/collection) is RC4 certified as the baseline.
 
 For a complete overview of security ratings and what they mean in practice, see our [security overview](/security) page.
 

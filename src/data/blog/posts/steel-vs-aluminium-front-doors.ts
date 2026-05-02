@@ -21,7 +21,7 @@ But they are not interchangeable. Steel and aluminium have fundamentally differe
 
 This is the area where the difference between steel and aluminium is most significant.
 
-**Steel entrance doors** can achieve **SR3 security ratings** under BS EN 1627:2011 — the highest resistance class commercially available for residential doors. SR3 testing subjects the door to sustained attack using professional-grade tools including crowbars, drills and angle grinders. The inherent strength of steel makes it possible to achieve this level of resistance without excessive thickness or weight. Every SteelR door ships with SR3 as standard.
+**Steel entrance doors** can achieve **LPS 1175 SR3 ratings**, the LPCB police-preferred specification for sustained forced-entry resistance. SR3 testing subjects the door to a five-minute attack using professional-grade tools including crowbars, drills and angle grinders. The inherent strength of steel makes it possible to achieve this level of resistance without excessive thickness or weight. Every SteelR door ships with **BS EN 1627:2011 RC4 as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier and SR4 as the Commercial-grade upgrade tier**.
 
 **Aluminium doors** are typically tested to **PAS 24** or, at best, **SR2 (RC2)**. Aluminium is a softer, less dense metal than steel, which means it deforms more easily under concentrated force. Achieving SR3 with aluminium requires significantly thicker profiles and additional reinforcement, which most residential aluminium door manufacturers do not offer.
 
@@ -96,13 +96,13 @@ Choose **aluminium** if you want ultra-slim sightlines, maximum glass area, ligh
 
 Choose **steel** if you want the **highest available security** (SR3), maximum durability, a substantial tactile quality, traditional or period design options, and a door that will hold its shape and performance for decades without compromise.
 
-At SteelR, we manufacture bespoke steel entrance doors to SR3 as standard — every door Secured by Design accredited, ISO 9001 certified and designed to your exact specification. Explore our [collection](/collection) to see the range of designs available, or learn more [about our approach](/about). [Contact us](/contact) to discuss whether steel is the right choice for your home.
+At SteelR, we manufacture bespoke steel entrance doors to BS EN 1627 RC4 as Standard, with LPS 1175 SR3 Enhanced upgrade and SR4 Commercial-grade upgrade available on every door. Every door Secured by Design accredited, ISO 9001 certified and designed to your exact specification. Explore our [collection](/collection) to see the range of designs available, or learn more [about our approach](/about). [Contact us](/contact) to discuss whether steel is the right choice for your home.
 
 ## Frequently Asked Questions
 
 ### Is steel or aluminium stronger for a front door?
 
-Steel is materially stronger. Steel doors achieve SR3 under BS EN 1627 (five-minute resistance to power-tool attack) as standard, while aluminium residential doors typically cap at PAS 24 (three-minute resistance to basic hand tools). For the same frame thickness, steel resists prying, drilling and cutting loads that aluminium cannot. Aluminium's advantages are elsewhere: slimmer sightlines and lighter weight, not structural strength.
+Steel is materially stronger. SteelR doors are BS EN 1627 RC4 certified as Standard with LPS 1175 SR3 (five-minute resistance to power-tool attack) available as the Enhanced upgrade tier, while aluminium residential doors typically cap at PAS 24 (three-minute resistance to basic hand tools). For the same frame thickness, steel resists prying, drilling and cutting loads that aluminium cannot. Aluminium's advantages are elsewhere: slimmer sightlines and lighter weight, not structural strength.
 
 ### Which has better thermal performance, steel or aluminium?
 

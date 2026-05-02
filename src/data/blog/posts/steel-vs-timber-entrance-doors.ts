@@ -25,7 +25,7 @@ This is the area where the gap between steel and timber is widest.
 
 **Timber doors**, even high-quality hardwood doors, offer limited resistance to forced entry. A standard timber door can typically be breached in under 30 seconds by an intruder using basic tools such as a crowbar or a heavy kick. The wood around the lock and hinges is the weakest point — it splits and gives way under concentrated force.
 
-**Steel entrance doors** rated to **SR3 under BS EN 1627:2011** withstand sustained attack using professional-grade tools including crowbars, drills and angle grinders. The steel construction, reinforced frame, multi-point locking system and security-rated hardware work together as a tested system. No timber door, regardless of species or construction method, can achieve SR3.
+**Steel entrance doors** certified to **BS EN 1627:2011 RC4** as Standard, with the **LPS 1175 SR3 Enhanced upgrade** available, withstand sustained attack using professional-grade tools including crowbars, drills and angle grinders. The steel construction, reinforced frame, multi-point locking system and security-rated hardware work together as a tested system. No timber door, regardless of species or construction method, can achieve LPS 1175 SR3.
 
 For homeowners who take home security seriously, this is often the deciding factor.
 

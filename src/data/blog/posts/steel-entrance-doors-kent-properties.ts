@@ -162,7 +162,7 @@ If your property is within a conservation area, you may need consent for externa
 
 ### What security rating should I choose for a Kent property?
 
-We recommend SR3 certification as the standard specification for Kent properties, particularly those in the affluent commuter belt or in rural locations with limited natural surveillance. SR3 provides five minutes of resistance against professional tools — the highest residential security rating available. This level of protection is manufactured under **ISO 9001** quality management and carries Secured by Design accreditation.
+We recommend the LPS 1175 SR3 Enhanced upgrade tier (above the BS EN 1627 RC4 Standard that ships on every door) for Kent properties, particularly those in the affluent commuter belt or in rural locations with limited natural surveillance. SR3 provides five minutes of resistance against professional tools and is the LPCB police-preferred residential rating. This level of protection is manufactured under **ISO 9001** quality management and carries Secured by Design accreditation.
 
 ### How long does it take to get a steel door installed in Kent?
 

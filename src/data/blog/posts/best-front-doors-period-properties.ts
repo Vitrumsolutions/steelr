@@ -78,7 +78,7 @@ Because steel doors are made to order, there are **no standard sizes**. This is 
 
 ### Security That Timber Cannot Match
 
-An **SR3-rated steel door** provides a level of security that no timber door can approach. While a solid timber door might delay an intruder for a few seconds, an SR3-rated steel door withstands sustained attack with crowbars, drills and angle grinders — tested and certified to **BS EN 1627:2011**. Every SteelR doorset achieves SR3 as the standard specification.
+An **SR3-rated steel door** provides a level of security that no timber door can approach. While a solid timber door might delay an intruder for a few seconds, an SR3-rated steel door withstands sustained attack with crowbars, drills and angle grinders — tested and certified to **BS EN 1627:2011**. Every SteelR doorset is BS EN 1627 RC4 certified as Standard, with the LPS 1175 SR3 Enhanced upgrade tier available where insurer requirements or threat assessment justify it.
 
 For owners of period properties — which are often perceived as softer targets due to their older construction — this level of security is particularly valuable.
 

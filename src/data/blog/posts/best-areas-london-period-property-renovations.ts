@@ -83,7 +83,7 @@ Chelsea splits into three flavours: the tall Georgian townhouses of Cheyne Walk 
 Notting Hill's pastel stucco terraces on streets such as Lancaster Road and Lonsdale Road invite confident colour. Typical specifications we have built include a custard yellow (RAL 1017), a coral red (RAL 3012), a dusty pink (RAL 3014) and a cerulean blue (RAL 5012). The panel style is usually early Victorian four-panel or six-panel, with a rectangular fanlight. Article 4 Directions apply on parts of the Ladbroke Estate; check the conservation area appraisal before committing to a non-traditional colour.
 
 ### Holland Park
-Holland Park's late-Victorian and Edwardian villas sit behind deep front gardens, and the front door is often less visible from the street than in Kensington. This gives owners slightly more latitude on colour and finish. Specifications often include double-leaf steel doors with leaded-glass sidelights, brass or aged-bronze ironmongery and deep green, wine or blue exteriors. Security spec trends toward SR3 as standard with SR4 upgrades on detached villas.
+Holland Park's late-Victorian and Edwardian villas sit behind deep front gardens, and the front door is often less visible from the street than in Kensington. This gives owners slightly more latitude on colour and finish. Specifications often include double-leaf steel doors with leaded-glass sidelights, brass or aged-bronze ironmongery and deep green, wine or blue exteriors. Security spec trends toward the LPS 1175 SR3 Enhanced upgrade on most townhouses, with the SR4 Commercial-grade tier on detached villas.
 
 ### Chiswick and Hammersmith
 Chiswick is a mix of Georgian on the Mall, mid-Victorian around Bedford Park (England's first garden suburb) and solid Edwardian terraces across the rest of the area. Bedford Park is a conservation area with a strong Queen Anne Revival character, and door specifications there tend to be red-brick-appropriate: bottle green, deep red, olive, cream, with leaded glazing and brass hardware.
@@ -133,7 +133,7 @@ Always check the local authority's planning portal for your address before commi
 Bespoke steel front doors for London period properties are a specifier-tier investment rather than a commodity purchase. The cost reflects:
 
 - A fully bespoke design matched to the existing door opening, usually a non-standard size.
-- SR3 certification as standard, with SR4 (LPS 1175) available where the client or insurer requires it.
+- BS EN 1627 RC4 Standard certification on every door, with the LPS 1175 SR3 Enhanced upgrade and SR4 Commercial-grade upgrade available where the client or insurer requires it.
 - A polyester powder-coat finish in any RAL reference, matched physically against a sample before production.
 - Brass, bronze, chrome or blackened ironmongery specified piece by piece.
 - Leaded, stained, toughened or double-glazed sidelights and fanlights to match the original composition.
