@@ -5,7 +5,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "PAS 24 Compliance & BS EN 1627:2011 RC4 Specification | SteelR",
   description:
-    "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed and PAS 24 certified, with FD30S fire rating as standard. Approved Document Q compliant, Secured by Design approved.",
+    "BS EN 1627:2011 RC4 Standard, PAS 24 certified, FD30S fire rated, Secured by Design. Full 4-tier ladder spec including LPS 1175 SR3 / SR4 and LPS 1673.",
   alternates: { canonical: "https://steelr.co.uk/security-specification" },
   openGraph: {
     title: "PAS 24 & BS EN 1627 RC4 Specification | SteelR",

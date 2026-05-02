@@ -49,17 +49,13 @@ The 5-minute threshold is significant. Police data indicates that the vast major
 
 LPS 1175 SR3 certification requires steel construction. No timber, composite or aluminium doorset has achieved LPS 1175 SR3. The material density and structural integrity of steel is necessary to resist the tool set and attack duration specified at this level.
 
-### SR4 (RC4) — Power Tools, 10 Minutes
+### LPS 1175 SR4 (D10 Issue 8). Commercial-Grade Power Tools
 
-SR4 introduces powered tools including reciprocating saws, impact drills and bolt cutters. The attack duration extends to 10 minutes. This level is typically specified for commercial premises, data centres and government buildings. It is not standard in residential applications due to cost and the diminishing returns in domestic risk profiles.
+SR4 (Security Rating 4 under LPS 1175 Issue 8) introduces a broader power-tool catalogue including reciprocating saws, impact drills and bolt cutters. Attack duration extends beyond SR3 against a defined commercial-grade objective. This is the certification used for data centres, bank vaults and high-risk commercial premises. SteelR offers SR4 as the Commercial-grade upgrade tier on every residential door, available where the threat profile or insurer requirement justifies it. (Note: SR ratings belong to LPS 1175; BS EN 1627 uses RC1 to RC6 in a parallel scheme. The two are not equivalent.)
 
-### SR5 (RC5) — High-Powered Tools, 15 Minutes
+### LPS 1175 SR5 to SR8. Government and Critical Infrastructure
 
-SR5 testing uses high-powered electric tools including disc cutters, sabre saws and drilling machines. The 15-minute attack window represents a sustained, organised assault. SR5 is specified for embassies, military installations and critical infrastructure.
-
-### SR6 (RC6) — Maximum Resistance
-
-SR6 is the highest resistance class defined by BS EN 1627. It involves the most powerful tools available and extended attack durations. SR6 doors are custom-engineered for government and defence applications and are not commercially available through standard residential channels.
+SR5, SR6, SR7 and SR8 represent successively higher tiers under LPS 1175, used for embassies, military installations, critical infrastructure and defence applications. They are not commercially specified for residential use. SteelR's residential ladder runs to LPS 1175 SR4 (Commercial-grade) and adds LPS 1673 attack-resistance certification (a separate LPCB scheme) for ultra-high threat profiles where a documented risk assessment justifies it.
 
 ## How the Testing Actually Works
 

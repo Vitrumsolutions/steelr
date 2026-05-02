@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "LPS 1673 Attack-Resistant Steel Door | UK Residential | SteelR",
   description:
-    "LPS 1673 is the LPCB attack-resistance certification beyond forced-entry resistance. Used in bank vaults and data centres, available on UK residential specification by enquiry.",
+    "LPS 1673 attack-resistance certification, beyond forced-entry resistance. Used on bank vaults and data centres. Available on UK residential by enquiry.",
   alternates: { canonical: "https://steelr.co.uk/lps-1673-attack-resistant-steel-door" },
   openGraph: {
     title: "LPS 1673 Attack-Resistant Steel Doors | SteelR",
     description:
-      "The LPCB attack-resistance certification beyond forced-entry resistance. Used on bank vaults, data centres and government infrastructure. Available on residential specification by enquiry.",
+      "LPS 1673 attack-resistance certification, beyond forced-entry resistance. Used on bank vaults and data centres. Available on UK residential by enquiry.",
     url: "https://steelr.co.uk/lps-1673-attack-resistant-steel-door",
     type: "website",
   },

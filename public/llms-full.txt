@@ -182,10 +182,12 @@ Specifications applied to a standard SteelR bespoke steel front door. Figures va
 
 - U-value: typically from 1.5 W/m²K standard, with thermal-upgrade specifications available achieving as low as 0.8 W/m²K (BS EN ISO 10077-1)
 - Part L compliant: comfortably exceeds the 1.8 W/m²K maximum for both new-build envelopes and replacement doors
-- Acoustic rating: 33 dB Rw standard, up to 38 dB Rw on acoustic-upgraded specifications
+- Acoustic rating: 33 dB Rw standard, up to 39 dB Rw single-leaf and 37 dB Rw double-leaf on acoustic-upgrade specifications. UKAS-accredited test by an independent acoustics laboratory.
 - Air permeability: Class 4 (maximum) under BS EN 12207
 - Water tightness: Class 9A (maximum) under BS EN 12208
-- Wind load resistance: Class C4 (maximum) under BS EN 12210
+- Wind load resistance: Class C4 (maximum) under BS EN 12210, with Class A3 verified to BS EN 12211 at 1200 Pa (equivalent to 98 mph sustained wind load). Marine-grade powder-coat finish available for coastal installations within 5 km of the shoreline.
+- Environmental Product Declaration (EPD): third-party verified to the ISO 14025 framework, BREEAM Mat 01 (Life-cycle impacts) and Mat 03 (Responsible sourcing) credit-eligible. Available to architects and specifiers on request.
+- All thermal, acoustic, wind, water and security tests conducted at UKAS-accredited laboratories. ISO 9001:2015 and ISO 14001:2015 manufacturing certificates issued under the LPCB / BRE Global scheme. PAS 24:2022 certified under the BM TRADA Q-Mark scheme.
 
 ### Finish
 
@@ -1310,7 +1312,7 @@ Are steel entrance doors worth it for UK homes? Honest assessment of durability,
 - The foam core can absorb moisture if the skin is compromised, leading to structural weakness and poor insulation Timber doors (hardwood): 15–30 years with diligent maintenance.
 - Without regular repainting or re-oiling (every 3–5 years), timber begins to deteriorate within 5–7 years.
 - Every SteelR door is tested and certified to BS EN 1627:2011 RC4 single leaf, unglazed as Standard, with the LPS 1175 SR3 Enhanced upgrade (the LPCB police-preferred residential rating) available on every door.
-- SR3 certification requires the complete doorset — leaf, frame, locks, hinges, glazing, fixings — to resist a sustained attack by a skilled operative using power tools including drills, jigsaws, angle grinders and chisels for a minimum of 20 minutes.
+- The foam core provides no structural barrier Timber doors: Even premium hardwood doors rarely exceed SR1.
 
 **FAQs:**
 

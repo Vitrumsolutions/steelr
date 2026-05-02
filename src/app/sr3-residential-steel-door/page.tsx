@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "SR3 Residential Steel Door | LPS 1175 Enhanced Upgrade | SteelR",
   description:
-    "LPS 1175 SR3 is SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 standard. The LPCB-certified police-preferred specification for high-value and threat-assessed properties.",
+    "LPS 1175 SR3 is SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 Standard. The LPCB police-preferred specification, available on every door.",
   alternates: { canonical: "https://steelr.co.uk/sr3-residential-steel-door" },
   openGraph: {
     title: "SR3 Residential Steel Door | LPS 1175 Enhanced Upgrade | SteelR",
     description:
-      "LPS 1175 SR3 is SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 standard residential specification. LPCB-certified, police-preferred, available on every SteelR door.",
+      "LPS 1175 SR3 is SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 Standard. The LPCB police-preferred specification, available on every door.",
     url: "https://steelr.co.uk/sr3-residential-steel-door",
     type: "website",
   },
@@ -202,7 +202,7 @@ export default function Sr3Page() {
             list: [
               "PAS 24: one to three minute casual attack, basic hand tools",
               "SR2: three minutes, screwdrivers, pliers, wedges",
-              "SR3: twenty minutes, crowbars, drills, chisels, heavy-duty cutting tools",
+              "LPS 1175 SR3 (Issue 8): five minutes against crowbars, drills, chisels, heavy-duty cutting tools and a defined power-tool catalogue",
               "SR4 (LPS 1175): longer duration, adds battery-operated cutting tools and larger prying equipment",
             ],
           },

@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "Is a steel front door really more secure than a composite one?",
     answer:
-      "Yes, substantially. Most composite doors on the UK market are PAS 24:2022 certified, which tests resistance to a one-to-three-minute casual attack. Every SteelR door is PAS 24 certified and SR3 rated to BS EN 1627 Class 3, tested against a sustained twenty-minute attack using heavy-duty power tools. A small number of premium composite doors also offer SR3, but the baseline for the category is PAS 24. For the same house and budget, a steel door is typically a full certification tier above the composite equivalent.",
+      "Yes, substantially. Most composite doors on the UK market are PAS 24:2022 certified, which tests resistance to a one-to-three-minute casual attack. Every SteelR door is PAS 24 certified, BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, and offers the LPS 1175 SR3 Enhanced upgrade tier (the LPCB police-preferred specification, five-minute power-tool resistance) on every door. A small number of premium composite doors also offer SR3, but the baseline for the category is PAS 24. For the same house and budget, a steel door is typically a full certification tier above the composite equivalent.",
   },
   {
     question: "How long does a steel door last compared to composite?",
@@ -128,15 +128,18 @@ export default function SteelVsCompositePage() {
             ),
             body2: (
               <>
-                Every SteelR door is PAS 24 certified and SR3 rated to
-                BS EN 1627 Class 3. SR3 tests resistance to a sustained
-                twenty-minute attack using crowbars, drills and heavy-duty
-                cutting tools. A small number of premium composite doors
-                are also SR3 rated, but they are the exception. SR4 under
-                LPS 1175 Issue 8, the commercial-grade certification used
-                for data centres and bank vaults, is available as an
-                upgrade on every SteelR door. No composite manufacturer
-                currently offers LPS 1175 on a residential door. See the
+                Every SteelR door is PAS 24 certified and BS EN 1627:2011
+                RC4 single leaf, unglazed certified as Standard. The
+                LPS 1175 SR3 Enhanced upgrade tier (the LPCB
+                police-preferred specification, five minutes of power-tool
+                resistance against a defined Issue 8 catalogue) is
+                available on every door. A small number of premium
+                composite doors are also SR3 rated, but they are the
+                exception. LPS 1175 SR4 (D10 Issue 8), the
+                Commercial-grade certification used for data centres and
+                bank vaults, is available as a further upgrade on every
+                SteelR door. No composite manufacturer currently offers
+                LPS 1175 on a residential door. See the
                 detail on the{" "}
                 <Link href="/security" className="link-gold-underline" style={{ color: "#1a1a18" }}>
                   security page

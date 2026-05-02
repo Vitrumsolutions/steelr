@@ -33,7 +33,7 @@ Security is where steel creates the widest gap between itself and competing mate
 
 ### What SR3 Actually Means
 
-SR3 certification requires the complete doorset — leaf, frame, locks, hinges, glazing, fixings — to resist a sustained attack by a skilled operative using power tools including drills, jigsaws, angle grinders and chisels for a minimum of **20 minutes**. The testing is conducted by independent, UKAS-accredited laboratories on production doorsets, not prototypes.
+LPS 1175 SR3 certification (Issue 8) requires the complete doorset (leaf, frame, locks, hinges, glazing, fixings) to resist a sustained attack by a skilled operative using power tools including drills, jigsaws, angle grinders and chisels for **five minutes** against a defined Issue 8 tool catalogue and a specified attack objective. The testing is conducted by independent, UKAS-accredited laboratories on production doorsets, not prototypes. (Note: SteelR's Standard tier is BS EN 1627:2011 RC4, which tests sustained attack with heavy-duty hand tools and battery-operated power tools; LPS 1175 SR3 is the Enhanced upgrade tier.)
 
 ### How Other Materials Compare
 
@@ -91,7 +91,7 @@ Home insurers assess risk partly on the physical security of the property. A doo
 - **SR3 certification** demonstrates the highest level of residential security testing
 - **Secured by Design approval** is recognised by the Association of British Insurers
 - **Multi-point locking** with anti-snap, anti-pick and anti-drill cylinders meets insurer requirements for secure locks
-- Some insurers offer **5–15% premium reductions** for properties with certified security doors
+- Some specialist UK home insurers acknowledge LPS 1175 and Secured by Design accreditation in their underwriting. Premium adjustments and reduced theft excesses vary by insurer. Speak to your insurer directly with the certification documentation supplied with the door.
 
 The insurance benefit alone will not pay for the door, but over 25 years the cumulative saving contributes to the overall return on investment. More importantly, a door that resists forced entry prevents the far greater cost — financial and emotional — of a burglary.
 

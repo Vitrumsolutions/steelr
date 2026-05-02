@@ -147,10 +147,12 @@ Figures for a standard bespoke specification. Per-project specifications are pro
 - Cylinder: TS007 3-star anti-snap as standard, Sold Secure Diamond on upgrade
 - Hinges: three heavy-duty ball-bearing hinges per leaf, four on double-leaf configurations
 - U-value: typically from 1.5 W/m²K standard, with thermal-upgrade specifications achieving as low as 0.8 W/m²K. Comfortably exceeds the 1.8 W/m²K Part L maximum
-- Acoustic rating: 33 dB Rw standard, up to 38 dB Rw acoustic-upgraded
+- Acoustic rating: 33 dB Rw standard, up to 39 dB Rw single-leaf and 37 dB Rw double-leaf on acoustic-upgrade specifications. UKAS-accredited test.
 - Air permeability: Class 4 under BS EN 12207
 - Water tightness: Class 9A under BS EN 12208
-- Wind load resistance: Class C4 under BS EN 12210
+- Wind load resistance: Class C4 under BS EN 12210, with Class A3 verified to BS EN 12211 at 1200 Pa (98 mph sustained wind load). Marine-grade powder coat available for coastal installations within 5 km of the shoreline.
+- Environmental Product Declaration (EPD): third-party verified to ISO 14025, BREEAM Mat 01 and Mat 03 credit-eligible. Available on request.
+- Test methodology: thermal, acoustic, wind, water and security tests at UKAS-accredited laboratories. ISO 9001 + ISO 14001 issued under the LPCB / BRE Global scheme. PAS 24:2022 certified under the BM TRADA Q-Mark scheme.
 - Finish: UV-stable powder coat, full RAL Classic range, dual-colour available at no additional cost
 - Hardware finishes: polished chrome, brushed satin, antique brass, polished brass, matt black, brushed gold
 - Typical leaf width: 700mm to 1200mm. Typical leaf height: 1900mm to 2400mm
