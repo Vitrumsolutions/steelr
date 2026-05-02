@@ -23,7 +23,7 @@ SteelR doors are made to order in our UK workshop. Typical manufacturing lead ti
 Yes. SteelR operates nationwide across the UK mainland with no regional surcharge. Our own in-house installation team handles every project, with priority coverage for West London, Buckinghamshire, Berkshire, Surrey, Hertfordshire, Oxfordshire, Hampshire, Kent, Essex and Sussex. Wider coverage includes the Cotswolds, the Cheshire Golden Triangle, Yorkshire, the West Midlands, Manchester and Scotland.
 
 ### What security rating does a SteelR steel front door carry?
-Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed — the European framework for sustained forced-entry resistance, certifying the door against heavy-duty hand tools and battery-operated power tools. RC4 is materially above the PAS 24 hardware-only test mandated for new-build dwellings and is rarely offered as a residential standard in the UK. Note: BS EN 1627 RC and LPS 1175 SR are different test schemes — over 90% of products tested under EN 1627 RC4 fail to even achieve LPS 1175 SR2 because the test methods differ. SteelR carries the EN 1627 RC4 cert.
+SteelR offers a four-tier residential security ladder. Every SteelR door is PAS 24:2022 + BS EN 1627:2011 RC4 single leaf, unglazed + FD30S as the Standard residential specification. LPS 1175 SR3 (Enhanced upgrade, the LPCB police-preferred specification) is available on request. LPS 1175 SR4 (Commercial-grade upgrade, D10 Issue 8, the certification used on data centres and bank vaults) is available on request. LPS 1673 attack-resistance certification (Ultra-high, AR.A300 / AR.B180E / AR.B300E / AR.C120E, used on bank vault outer doors and embassy residences) is available by enquiry. The four tiers are each genuinely available on any bespoke door. The SteelR sales team consults each customer through the four options before specification sign-off.
 
 ### Does SteelR offer fire rated steel doors for flats, HMOs or new builds?
 Yes. Every SteelR door is FD30S rated as standard, providing thirty minutes of fire integrity plus cold smoke seal performance, tested to BS 476-22 or BS EN 1634-1. FD60 is available as an upgrade for protected escape routes, stairwell enclosures and higher-risk buildings under the Building Safety Act 2022. Every door also satisfies Approved Document Q (security) and Approved Document B (fire safety).
@@ -90,9 +90,13 @@ This glossary provides definitions for the standards, certifications and technic
 
 RC4 is Resistance Class 4 under the European standard BS EN 1627:2011. The door must withstand a sustained attack by a trained tester using heavy-duty hand tools and battery-operated power tools, including drills, jigsaws, oscillating saws, larger crowbars and prying equipment. Testing is conducted by a UKAS-accredited laboratory against the complete door assembly including frame, leaf, locking mechanism and hardware. Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed.
 
-### SR3 / SR4 (LPS 1175) — different scheme, often confused
+### LPS 1175 SR3 (SteelR's Enhanced upgrade tier)
 
-SR3 and SR4 are Security Ratings under LPS 1175 Issue 8, the Loss Prevention Certification Board (LPCB) scheme operated by BRE. LPS 1175 is a different test scheme to BS EN 1627 — over 90% of products tested under EN 1627 RC4 fail to even achieve LPS 1175 SR2 because the tool set, attack duration and methodology differ. SteelR carries the BS EN 1627 RC4 cert (single leaf, unglazed); we do not claim an LPS 1175 SR rating.
+SR3 is Security Rating 3 under LPS 1175, the Loss Prevention Certification Board (LPCB) scheme operated by BRE Global. The LPCB scheme is distinct from the European BS EN 1627 framework: different tool sets, different attack duration methodology. LPS 1175 SR3 is the LPCB police-preferred specification, recognised by UK home insurers and specifiers for high-value or threat-assessed residential briefs. SteelR offers SR3 as the Enhanced upgrade tier on any residential front door, sitting above the BS EN 1627 RC4 standard residential specification. Lead time 10-14 weeks for SR3 specifications.
+
+### LPS 1175 SR4 (SteelR's Commercial-grade upgrade tier)
+
+SR4 is Security Rating 4 under LPS 1175 Issue 8 (the D10 designation in the Issue 8 rating matrix). It is the LPCB commercial-grade certification used on data centres, bank vaults, embassy residences, and high-risk commercial premises. SR4 testing adds battery-operated cutting tools, larger crowbars and a longer attack duration to the SR3 methodology. SteelR offers SR4 as the Commercial-grade upgrade tier on any residential front door. Lead time 10-14 weeks for SR4 specifications.
 
 ### PAS 24:2022
 
@@ -112,7 +116,7 @@ FD60 is the 60-minute fire resistance rating. Required in specific applications 
 
 ### LPS 1175 Issue 8
 
-LPS 1175 Issue 8 is the Loss Prevention Certification Board standard for burglar resistance of physical security products. Published and operated by BRE, it specifies testing methodology for security doors, windows, shutters, grilles and gates against a defined tool set and attack duration matrix. LPS 1175 ratings run from Security Rating 1 to Security Rating 8. SteelR does not carry an LPS 1175 SR rating; SteelR is certified under the European framework BS EN 1627:2011 RC4 single leaf, unglazed.
+LPS 1175 Issue 8 is the Loss Prevention Certification Board standard for burglar resistance of physical security products. Published and operated by BRE Global, it specifies testing methodology for security doors, windows, shutters, grilles and gates against a defined tool set and attack duration matrix. LPS 1175 ratings run from Security Rating 1 to Security Rating 8. SteelR offers two LPS 1175 ratings as upgrades on any residential front door: SR3 as the Enhanced tier (police-preferred specification) and SR4 (D10 Issue 8) as the Commercial-grade tier (used on data centres and bank vaults). The standard residential specification is BS EN 1627:2011 RC4 single leaf, unglazed.
 
 ### BS EN 1627:2011
 
@@ -140,7 +144,7 @@ UKAS is the United Kingdom Accreditation Service, the sole national accreditatio
 
 ### LPCB
 
-LPCB is the Loss Prevention Certification Board, operated by BRE (Building Research Establishment). LPCB publishes the LPS 1175 standard used for commercial security product certification. SteelR is certified under BS EN 1627:2011 RC4 (a different European framework), not LPS 1175.
+LPCB is the Loss Prevention Certification Board, operated by BRE Global (Building Research Establishment). LPCB publishes both the LPS 1175 standard (for forced-entry-resistance certification, ratings SR1 to SR8) and the LPS 1673 standard (for attack-resistance certification, classes A through D). SteelR's standard residential specification is BS EN 1627:2011 RC4 (the European framework). LPS 1175 SR3 (Enhanced) and SR4 (Commercial-grade) are available as upgrade tiers, and LPS 1673 attack-resistance is available by enquiry as the Ultra-high tier.
 
 ### LPS 1673 — attack-resistance scheme (available on enquiry)
 
@@ -362,7 +366,7 @@ Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 singl
 
 #### Note on LPS 1175 SR ratings
 
-LPS 1175 (operated by LPCB / BRE) is a different test scheme to BS EN 1627. The two are not equivalent — over 90% of products tested under EN 1627 RC4 fail to even achieve LPS 1175 SR2 because tool sets, attack duration and methodology differ. SteelR is certified under BS EN 1627 RC4; we do not claim an LPS 1175 SR rating.
+LPS 1175 (operated by LPCB / BRE Global) is a parallel scheme to BS EN 1627. The two operate against different threat models, tool sets and attack durations, and certifications under one scheme are not interchangeable with the other. SteelR offers BS EN 1627:2011 RC4 single leaf, unglazed as the Standard residential specification (every door), with LPS 1175 SR3 (Enhanced upgrade) and LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade) available as upgrade tiers, and LPS 1673 attack-resistance available by enquiry as the Ultra-high tier.
 
 ### PAS 24:2022 Certification
 
@@ -543,7 +547,7 @@ Professional installation is carried out by SteelR's own in-house installation t
 Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed — the European framework for sustained forced-entry resistance, certifying the door against heavy-duty hand tools and battery-operated power tools. RC4 is materially above the PAS 24 hardware-only test mandated for new-build dwellings and rarely offered as a residential standard in the UK.
 
 **What is BS EN 1627 RC4 and why would I choose it for my home?**
-RC4 is Resistance Class 4 under BS EN 1627:2011, the European standard for forced-entry resistance. The test subjects the complete door assembly to a sustained attack with heavy-duty hand tools and battery-operated power tools. RC4 is the cert most often specified on properties where insurance, occupancy or risk profile demands meaningful security beyond the PAS 24 minimum. Note: BS EN 1627 RC and LPS 1175 SR are different test schemes — over 90% of products tested under EN 1627 RC4 fail to even achieve LPS 1175 SR2 because the test methods differ. SteelR carries the EN 1627 RC4 cert.
+RC4 is Resistance Class 4 under BS EN 1627:2011, the European standard for forced-entry resistance. The test subjects the complete door assembly to a sustained attack with heavy-duty hand tools and battery-operated power tools. RC4 is SteelR's Standard residential specification on every bespoke door. Note: BS EN 1627 RC and LPS 1175 SR are parallel schemes operating against different threat models. SteelR offers a four-tier ladder: BS EN 1627 RC4 (Standard), LPS 1175 SR3 (Enhanced upgrade, LPCB police-preferred), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade, used on data centres and bank vaults), and LPS 1673 attack-resistance (Ultra-high, by enquiry).
 
 **Do you install nationwide?**
 Yes. SteelR designs, manufactures and installs bespoke steel entrance doors across the entire United Kingdom, from the Scottish Highlands to the south coast of England. The survey team and installation team travel to your property wherever you are located. There are no regional restrictions or additional travel charges for mainland UK properties.
@@ -1015,7 +1019,6 @@ SteelR provides bespoke steel entrance door design, manufacture and installation
 - https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3
 - https://steelr.co.uk/blog/front-doors-london-townhouses-guide
 - https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk
-- https://steelr.co.uk/blog/how-much-do-steel-doors-cost-uk
 - https://steelr.co.uk/blog/how-to-improve-home-security-uk
 - https://steelr.co.uk/blog/luxury-front-doors-uk-buyer-guide
 - https://steelr.co.uk/blog/modern-front-door-ideas-inspiration-2026
@@ -1037,7 +1040,6 @@ SteelR provides bespoke steel entrance door design, manufacture and installation
 - https://steelr.co.uk/blog/steel-vs-fibreglass-doors-uk-comparison
 - https://steelr.co.uk/blog/steel-vs-timber-entrance-doors
 - https://steelr.co.uk/blog/steel-vs-upvc-front-doors-comparison
-- https://steelr.co.uk/blog/what-is-sr3-security-rating
 
 ## Specialist Knowledge Areas
 
@@ -1060,7 +1062,7 @@ SteelR provides expert guidance on the following upcoming topics for UK homeowne
 
 Search-engine-ready excerpts of every blog post, grouped by category so AI crawlers receive topically-clustered content. Each entry carries the post summary, up to 5 directly-quotable key facts, up to 5 frequently asked questions, a contextual paragraph, and up to 3 related posts for chain-of-reasoning queries.
 
-### Buying Guide (11 posts)
+### Buying Guide (10 posts)
 
 #### Double Front Doors UK: Pros, Cons and Full Buyer Guide
 URL: https://steelr.co.uk/blog/double-front-doors-pros-cons-guide | Category: Buying Guide | Published: 2026-05-29 | 7 min read
@@ -1328,44 +1330,6 @@ Yes — for the right property and the right homeowner, a bespoke steel entrance
 - [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 - [Double Front Doors UK: Pros, Cons and Full Buyer Guide](https://steelr.co.uk/blog/double-front-doors-pros-cons-guide)
 
-#### How Much Do Steel Entrance Doors Cost UK: 2026 Guide
-URL: https://steelr.co.uk/blog/how-much-do-steel-doors-cost-uk | Category: Buying Guide | Published: 2026-04-13 | 10 min read
-
-Bespoke steel entrance door cost UK explained. What affects the price, how steel compares to composite and timber, and what you get for the investment.
-
-**Key facts:**
-
-- The quotation reflects size, configuration, security tier (SR3 standard or SR4 commercial-grade upgrade), fire rating, glazing, hardware specification, RAL colour and design complexity rather than a published list price.
-- All SteelR doors meet SR3 security certification as standard, the highest practical rating for residential properties.
-- What you get: Reasonable insulation, factory-made consistency, wide colour choice, PAS 24 security certification on better models.
-- What you do not get: SR3 security (most composites achieve SR1 or SR2 at best), genuine bespoke sizing, long-term durability (GRP skins can fade, crack or delaminate after 10–15 years), or the material quality that justifies a premium property.
-- Lifespan: 10–20 years before replacement is typically needed.
-
-**FAQs:**
-
-Q: What is the cheapest steel entrance door available in the UK?
-A: Imported, non-bespoke steel doors from overseas manufacturers occupy the entry tier of the imported-doorset market. These are typically standard sizes, may not carry UK-relevant security certifications, and often require third-party installation. A bespoke, SR3-certified steel door from a UK manufacturer is a different category of product entirely, individually priced after an on-site survey because each door is made to measure with no two specifications alike. The quotation reflects size, security tier, fire rating, glazing, hardware, RAL colour and design complexity rather than a published list price. For a fuller side-by-side of UK manufacture against imported alternatives, see our [UK steel doors vs imported](/uk-steel-doors-vs-imported) overview.
-
-Q: Why is there such a big price range for steel doors?
-A: The range reflects the enormous variation in specification. A single door leaf with standard hardware costs significantly less than a double door with dual sidelights, premium bronze hardware, fire rating and bespoke decorative panels. The material and labour required for a complex door can be three to four times that of a simpler design.
-
-Q: Do steel doors add value to a property?
-A: Yes. A premium entrance door is consistently identified by estate agents as one of the most impactful improvements for kerb appeal and sale price. In prime property markets, the ROI can exceed the cost of the door. Beyond sale value, steel doors reduce insurance premiums, eliminate maintenance costs and provide security that protects your property and possessions.
-
-Q: Is it worth paying more for SR3 over PAS 24?
-A: SR3 (BS EN 1627) is a significantly more demanding standard than PAS 24. SR3 tests resistance against a skilled attacker with power tools for 20 minutes. PAS 24 tests resistance against an opportunistic attack with basic hand tools for 3 minutes. For high-value properties, the additional cost of SR3 certification is a worthwhile investment in genuine security rather than minimum compliance.
-
-Q: Can I get finance for a steel door?
-A: Many homeowners include entrance doors in broader renovation projects funded through home improvement loans, remortgage or savings. Some door manufacturers and installers offer payment plans. We recommend discussing your project requirements with us first so you have an accurate figure before exploring finance options. For a standalone overview of the cost factors involved, see our [steel front door cost UK](/steel-front-door-cost-uk) hub page.
-
-Bespoke steel entrance doors are individually designed and manufactured. There is no single price because there is no single product. The quotation reflects size, configuration, security tier (SR3 standard or SR4 commercial-grade upgrade), fire rating, glazing, hardware specification, RAL colour and design complexity rather than a published list price. Below we break down what falls into each tier of specification, what drives the number up or down, and how steel compares to the realistic alternatives.
-
-**Related:**
-
-- [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
-- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
-- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
-
 #### Bespoke Steel Entrance Doors UK: The Complete Guide
 URL: https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide | Category: Buying Guide | Published: 2026-04-10 | 8 min read
 
@@ -1481,10 +1445,10 @@ For centuries, the default material for a British front door has been timber. Oa
 
 ### Location Guides (5 posts)
 
-#### Steel Front Doors Kent UK: Local Properties Buyer Guide
+#### Front Doors for Kent Coastal Properties: Salt-Air & Weather Specification
 URL: https://steelr.co.uk/blog/steel-entrance-doors-kent-properties | Category: Location Guides | Published: 2026-06-18 | 8 min read
 
-Local guide to steel front doors for Kent UK properties. Oast houses, coastal homes, Wealden architecture, conservation areas and nationwide installation.
+Bespoke steel front doors for Kent coastal properties. Marine-grade powder-coat finish, BS EN 12211 wind resistance Class A3 to 1200 Pa, oast house and Wealden specifications.
 
 **Key facts:**
 
@@ -1515,12 +1479,12 @@ Kent holds a singular position in English architecture. Known as the Garden of E
 
 - [Best London Areas for Period Property Front Doors UK](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
 - [Front Doors for London Townhouses: UK Style and Spec Guide](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
-- [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
+- [Period Property Front Doors in Buckinghamshire: Conservation & Listed-Building Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
 
-#### Steel Front Doors Buckinghamshire: Local UK Buyer Guide
+#### Period Property Front Doors in Buckinghamshire: Conservation & Listed-Building Guide
 URL: https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes | Category: Location Guides | Published: 2026-06-11 | 8 min read
 
-Local guide to steel front doors in Buckinghamshire UK. Chilterns AONB, conservation areas, popular styles and installation across Beaconsfield and Bucks.
+Period property front doors across Buckinghamshire. Listed-building consent, conservation area planning, Chilterns AONB design constraints and the LPS 1175 SR3 Enhanced upgrade.
 
 **Key facts:**
 
@@ -1552,12 +1516,12 @@ Buckinghamshire occupies a unique position in the English Home Counties. Stretch
 
 - [Best London Areas for Period Property Front Doors UK](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
 - [Front Doors for London Townhouses: UK Style and Spec Guide](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
-- [Steel Front Doors Kent UK: Local Properties Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
+- [Front Doors for Kent Coastal Properties: Salt-Air & Weather Specification](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
-#### Steel Front Doors Surrey UK: Local Properties Guide
+#### Surrey Country Estate Front Doors: Driveway-First Specification Guide
 URL: https://steelr.co.uk/blog/steel-entrance-doors-surrey-properties | Category: Location Guides | Published: 2026-05-27 | 7 min read
 
-Guide to bespoke steel front doors for Surrey UK homes. Local architecture, conservation areas, popular styles and SR3 security for high-value properties.
+Bespoke steel front doors for Surrey country estates. Gated driveways, oversize sidelight configurations, threat-assessed insurer specifications and the LPS 1175 SR3 / SR4 ladder.
 
 **Key facts:**
 
@@ -1588,7 +1552,7 @@ Surrey occupies a unique position in the English residential landscape. It is si
 
 - [Best London Areas for Period Property Front Doors UK](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
 - [Front Doors for London Townhouses: UK Style and Spec Guide](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
-- [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
+- [Period Property Front Doors in Buckinghamshire: Conservation & Listed-Building Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
 
 #### Front Doors for London Townhouses: UK Style and Spec Guide
 URL: https://steelr.co.uk/blog/front-doors-london-townhouses-guide | Category: Location Guides | Published: 2026-05-20 | 7 min read
@@ -1623,8 +1587,8 @@ Every London townhouse entrance carries the accumulated weight of architectural 
 **Related:**
 
 - [Best London Areas for Period Property Front Doors UK](https://steelr.co.uk/blog/best-areas-london-period-property-renovations)
-- [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
-- [Steel Front Doors Kent UK: Local Properties Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
+- [Period Property Front Doors in Buckinghamshire: Conservation & Listed-Building Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
+- [Front Doors for Kent Coastal Properties: Salt-Air & Weather Specification](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
 #### Best London Areas for Period Property Front Doors UK
 URL: https://steelr.co.uk/blog/best-areas-london-period-property-renovations | Category: Location Guides | Published: 2026-03-30 | 9 min read
@@ -1661,10 +1625,10 @@ London is home to some of the finest period architecture in the world. From gran
 **Related:**
 
 - [Front Doors for London Townhouses: UK Style and Spec Guide](https://steelr.co.uk/blog/front-doors-london-townhouses-guide)
-- [Steel Front Doors Buckinghamshire: Local UK Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
-- [Steel Front Doors Kent UK: Local Properties Buyer Guide](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
+- [Period Property Front Doors in Buckinghamshire: Conservation & Listed-Building Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
+- [Front Doors for Kent Coastal Properties: Salt-Air & Weather Specification](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
-### Security (10 posts)
+### Security (9 posts)
 
 #### Secured by Design Homes UK: 2026 Developer and Buyer Guide
 URL: https://steelr.co.uk/blog/secured-by-design-homes-guide-2026 | Category: Security | Published: 2026-07-02 | 9 min read
@@ -1969,44 +1933,6 @@ According to UK police data, approximately 70% of domestic burglaries involve en
 - [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
 - [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 - [HMO Front Door Requirements UK: Landlord and Developer Guide](https://steelr.co.uk/blog/hmo-front-door-requirements-uk-landlord-guide)
-
-#### What Is SR3 Security Rating? UK Front Door 2026 Guide
-URL: https://steelr.co.uk/blog/what-is-sr3-security-rating | Category: Security | Published: 2026-03-25 | 9 min read
-
-SR3 security rating explained for UK homeowners. What the BS EN 1627 standard means, how testing works and why it matters for front door home security.
-
-**Key facts:**
-
-- The European standard BS EN 1627:2011 defines six resistance classes (RC1 to RC6, also referred to as SR1 to SR6) for doors, windows and shutters.
-- Attack duration: 5 minutes with professional-grade tools.
-- See our full breakdown on the SR3 residential steel door page.
-- SR3 testing is conducted by an independent, accredited laboratory.
-- Most residential doors on the UK market achieve PAS 24 certification at best.
-
-**FAQs:**
-
-Q: Is SR3 the same as RC3?
-A: Yes. SR3 and RC3 refer to the same resistance class under BS EN 1627:2011. The SR (Security Rating) naming is used by UK suppliers, while RC (Resistance Class) is the original European convention. Both describe the same test protocol, attack profile and certification. You will see the two terms used interchangeably on product specifications and certificates.
-
-Q: How does SR3 compare to PAS 24?
-A: PAS 24 tests resistance to basic hand tools (screwdrivers, chisels, mallets) for three minutes. SR3 tests resistance to heavy-duty tools including crowbars, drills and angle grinders for five minutes by trained laboratory operatives. SR3 represents a materially higher real-world attack resistance than PAS 24, which is the minimum standard under Approved Document Q for new-build homes. A door can hold both certifications, but SR3 is the more demanding.
-
-Q: Do home insurers require or discount SR3 doors?
-A: Standard home insurance policies do not mandate SR3, but many insurers recognise it as a premium security specification and apply lower premiums or waive policy excesses for forced-entry claims. Specialist high-value home insurers frequently require SR3 or equivalent certification on front doors. Supply your insurer with the certificate reference at renewal to benefit.
-
-Q: Can a composite or uPVC door achieve SR3?
-A: In principle any door material can be tested, but SR3 is rarely achieved outside steel construction. The five-minute power-tool attack involves drilling, prying and cutting loads that composite skins and uPVC frames are not engineered to resist. Most SR3-certified residential doorsets on the UK market are steel, with a minority using heavy timber or reinforced composite construction.
-
-Q: How long does the SR3 certification remain valid?
-A: SR3 certification is tied to the specific door design and specification that was tested. It does not expire for that design, but any material change to the structure, locking or glazing requires re-testing. LPCB and other accrediting bodies issue a certificate against a specific product reference, which the manufacturer includes in every handover pack.
-
-When shopping for a new entrance door, you will encounter various security ratings and certifications. Understanding what they mean, and how they differ, helps you make an informed decision about protecting your home.
-
-**Related:**
-
-- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 
 #### How to Improve Home Security UK: Front Door and More
 URL: https://steelr.co.uk/blog/how-to-improve-home-security-uk | Category: Security | Published: 2026-03-12 | 8 min read
