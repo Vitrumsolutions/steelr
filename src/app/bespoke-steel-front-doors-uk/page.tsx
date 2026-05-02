@@ -315,6 +315,11 @@ export default function BespokeHubPage() {
               description: "What the UK police-preferred specification actually covers, and what it means for insurance.",
             },
             {
+              href: "/sr4-residential-steel-door",
+              label: "LPS 1175 SR4 residential steel doors (Commercial-grade upgrade)",
+              description: "The LPCB Commercial-grade certification used on data centres and bank vaults. SteelR's Commercial-grade upgrade tier above SR3.",
+            },
+            {
               href: "/lps-1673-attack-resistant-steel-door",
               label: "LPS 1673 attack-resistant steel doors",
               description: "The LPCB attack-resistance certification used on bank vaults and data centres, beyond forced-entry resistance. Available on residential specification by enquiry.",

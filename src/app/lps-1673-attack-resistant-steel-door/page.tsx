@@ -316,9 +316,15 @@ export default function Lps1673Page() {
             },
             {
               href: "/sr3-residential-steel-door",
-              label: "BS EN 1627 forced-entry resistance explained",
+              label: "LPS 1175 SR3 (Enhanced upgrade tier)",
               description:
-                "How the European framework tests doorsets against sustained manual attack, and why it sits at the heart of the SteelR residential specification.",
+                "The LPCB police-preferred specification. SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 standard.",
+            },
+            {
+              href: "/sr4-residential-steel-door",
+              label: "LPS 1175 SR4 (Commercial-grade upgrade tier)",
+              description:
+                "The LPCB Commercial-grade certification used on data centres and bank vaults. The tier between SR3 and LPS 1673 in the four-tier residential ladder.",
             },
             {
               href: "/secured-by-design-steel-front-door",

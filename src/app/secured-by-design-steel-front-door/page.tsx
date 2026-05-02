@@ -277,6 +277,11 @@ export default function SbdPage() {
               description: "The UK minimum for new-build security, and why SBD builds on top of it.",
             },
             {
+              href: "/sr4-residential-steel-door",
+              label: "LPS 1175 SR4 (Commercial-grade upgrade)",
+              description: "The LPCB Commercial-grade certification used on data centres and bank vaults. SteelR's tier above SR3, available on residential specification.",
+            },
+            {
               href: "/lps-1673-attack-resistant-steel-door",
               label: "LPS 1673 attack-resistant steel doors",
               description: "The LPCB attack-resistance certification beyond forced-entry resistance. Available on residential specification by enquiry.",

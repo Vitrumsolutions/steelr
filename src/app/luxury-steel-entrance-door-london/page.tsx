@@ -267,8 +267,13 @@ export default function LondonPage() {
             },
             {
               href: "/sr3-residential-steel-door",
-              label: "SR3 residential steel doors",
-              description: "What SR3 certification means, how testing works, and why it is the London baseline.",
+              label: "LPS 1175 SR3 (Enhanced upgrade)",
+              description: "The LPCB police-preferred specification. SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 standard.",
+            },
+            {
+              href: "/sr4-residential-steel-door",
+              label: "LPS 1175 SR4 (Commercial-grade upgrade)",
+              description: "The LPCB Commercial-grade certification used on data centres and bank vaults. Specified for threat-assessed London properties.",
             },
             {
               href: "/lps-1673-attack-resistant-steel-door",

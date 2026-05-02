@@ -237,21 +237,25 @@ export default function Sr3Page() {
             ),
           },
           {
-            pretitle: "Why SR3 as standard matters",
-            title: "Certifications that sit on every door, not just the flagship",
+            pretitle: "Why the four-tier ladder matters",
+            title: "Certifications available on any door, not just the flagship",
             body: (
               <>
                 A recurring pattern in this category is manufacturers
                 advertising high security ratings as available on the
                 flagship design, then shipping lower-spec doors on the
-                rest of the range. Every SteelR door is SR3 rated. The
-                certification is not the flagship, it is the floor.
-                Combined with PAS 24:2022, Secured by Design, FD30S
-                fire and smoke rating, and ISO 9001 UK manufacturing,
-                this is the package applied to every single door, whether
-                the brief is a contemporary single-leaf townhouse entrance
-                in Kensington or a double-door country estate entrance in
-                Oxfordshire.
+                rest of the range. SteelR&apos;s four-tier ladder is
+                available on every bespoke door. The standard residential
+                specification (BS EN 1627 RC4 single leaf, unglazed,
+                with PAS 24:2022, Secured by Design, FD30S fire and
+                smoke rating, and ISO 9001 + ISO 14001 UK manufacturing,
+                Made in Britain certified) sits as the baseline. The
+                Enhanced upgrade (LPS 1175 SR3), the Commercial-grade
+                upgrade (LPS 1175 SR4) and the Ultra-high tier (LPS 1673
+                by enquiry) are each available on any door, whether the
+                brief is a contemporary single-leaf townhouse entrance
+                in Kensington or a double-door country estate entrance
+                in Oxfordshire.
               </>
             ),
             body2: (
@@ -260,8 +264,9 @@ export default function Sr3Page() {
                 <Link href="/collection" className="link-gold-underline" style={{ color: "#1a1a18" }}>
                   collection page
                 </Link>
-                . Every door shown carries the same SR3 baseline, with SR4
-                available on all of them.
+                . Every door shown is available with any tier of the
+                four-tier security ladder, configured to the brief during
+                the design consultation.
               </>
             ),
           },
@@ -283,6 +288,11 @@ export default function Sr3Page() {
               href: "/security-specification",
               label: "Full PAS 24, SR3 and SR4 specification",
               description: "Side-by-side comparison of every standard a SteelR door meets.",
+            },
+            {
+              href: "/sr4-residential-steel-door",
+              label: "LPS 1175 SR4 residential steel doors (Commercial-grade upgrade)",
+              description: "The LPCB Commercial-grade certification used on data centres and bank vaults. SteelR's tier above SR3 in the four-tier residential security ladder.",
             },
             {
               href: "/lps-1673-attack-resistant-steel-door",
