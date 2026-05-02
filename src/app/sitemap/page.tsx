@@ -45,7 +45,8 @@ const mainPages: Array<{ href: string; label: string }> = [
 
 const topicPages: Array<{ href: string; label: string }> = [
   { href: "/bespoke-steel-front-doors-uk", label: "Bespoke Steel Front Doors UK (hub)" },
-  { href: "/sr3-residential-steel-door", label: "SR3 Residential Steel Doors" },
+  { href: "/sr3-residential-steel-door", label: "LPS 1175 SR3 Residential Steel Doors (Enhanced upgrade)" },
+  { href: "/sr4-residential-steel-door", label: "LPS 1175 SR4 Residential Steel Doors (Commercial-grade upgrade)" },
   { href: "/pas-24-steel-entrance-door", label: "PAS 24 Steel Entrance Doors" },
   { href: "/secured-by-design-steel-front-door", label: "Secured by Design Steel Front Doors" },
   { href: "/thermally-broken-steel-front-door", label: "Thermally Broken Steel Front Doors" },

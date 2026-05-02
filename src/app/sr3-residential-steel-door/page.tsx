@@ -4,14 +4,14 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "SR3 Residential Steel Door | BS EN 1627 Class 3 Explained | SteelR",
+    "SR3 Residential Steel Door | LPS 1175 Enhanced Upgrade | SteelR",
   description:
-    "SR3 is the baseline rating on every SteelR residential steel front door. What SR3 means under BS EN 1627 Class 3, the 20-minute attack test, vs PAS 24.",
+    "LPS 1175 SR3 is SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 standard. The LPCB-certified police-preferred specification for high-value and threat-assessed properties.",
   alternates: { canonical: "https://steelr.co.uk/sr3-residential-steel-door" },
   openGraph: {
-    title: "SR3 Residential Steel Door | BS EN 1627 Class 3 | SteelR",
+    title: "SR3 Residential Steel Door | LPS 1175 Enhanced Upgrade | SteelR",
     description:
-      "What SR3 means on a residential steel front door, how BS EN 1627 Class 3 is tested, and how it compares with PAS 24 and the SR4 (LPS 1175) upgrade.",
+      "LPS 1175 SR3 is SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 standard residential specification. LPCB-certified, police-preferred, available on every SteelR door.",
     url: "https://steelr.co.uk/sr3-residential-steel-door",
     type: "website",
   },
@@ -19,29 +19,29 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    question: "What does SR3 mean on a residential steel door?",
+    question: "What does LPS 1175 SR3 mean on a residential steel door?",
     answer:
-      "SR3 is Security Rating 3 under the European standard BS EN 1627:2011, Class 3. It certifies that the door has been independently tested against a sustained forced-entry attack by an experienced intruder using heavy-duty hand and power tools. The test lasts twenty minutes of active attack time, uses crowbars, drills, chisels and heavy-duty cutting tools, and the door must resist entry for the full duration. Every SteelR residential front door is SR3 rated as standard.",
+      "SR3 is Security Rating 3 under the LPCB scheme LPS 1175. It certifies that the door has been independently tested against a sustained forced-entry attack by an experienced intruder using heavy-duty hand and power tools. The LPCB methodology tests the complete door assembly under a defined tool set and attack-duration matrix. SR3 is SteelR's Enhanced upgrade tier, sitting above the BS EN 1627 RC4 standard residential specification. It is available on any SteelR door and is the recommended specification for high-value properties, conservation areas, listed buildings, and properties where an insurer or specifier has requested a police-preferred LPCB scheme certification.",
   },
   {
-    question: "How is SR3 different from PAS 24?",
+    question: "How is SR3 different from PAS 24 and BS EN 1627 RC4?",
     answer:
-      "PAS 24 is the UK minimum security standard required by Approved Document Q for new-build dwellings. It tests resistance to a casual opportunist attack of around one to three minutes using basic hand tools. SR3 is a higher tier. It tests resistance to a sustained twenty-minute attack using heavy-duty and power tools. PAS 24 is designed to stop casual burglars. SR3 is designed to stop experienced ones. SteelR doors meet PAS 24 and SR3 as standard on every residential front door.",
+      "PAS 24 is the UK minimum security standard required by Approved Document Q for new-build dwellings. It tests resistance to a casual opportunist attack of around one to three minutes using basic hand tools. BS EN 1627 RC4 (the European framework, single leaf, unglazed) is SteelR's standard residential specification, testing sustained forced-entry resistance with heavy-duty hand tools and battery-operated power tools. LPS 1175 SR3 is the LPCB-operated UK scheme used for police-preferred specifications, with a different tool-set and attack-duration methodology. SteelR offers all three on every door: PAS 24 as the regulatory baseline, RC4 as the European standard, SR3 as the LPCB-certified Enhanced upgrade.",
   },
   {
     question: "Is SR3 the highest residential security rating available?",
     answer:
-      "SR3 is the upper end of the BS EN 1627 Class scale that applies to standard residential door specifications. The tiers above, SR4 to SR6, were originally written for commercial and government applications. SteelR offers SR4 under LPS 1175 Issue 8 as an upgrade on any residential front door. SR4 extends the attack duration further than SR3 and adds battery-operated cutting tools and larger prying equipment to the tool set. It is commercial-grade, rarely seen on a home front door, and an upgrade rather than the standard.",
+      "SR3 is SteelR's Enhanced upgrade tier. SR4 (LPS 1175 D10 Issue 8) is the Commercial-grade tier above it, used in data centres and bank vaults, available on residential specification by upgrade. LPS 1673 attack-resistance certification (the AR.A300, AR.B180E, AR.B300E and AR.C120E classes used on bank vault outer doors and embassy residences) is the Ultra-high tier, available by enquiry where a documented threat assessment justifies it. SteelR offers a four-tier ladder: PAS 24 plus RC4 standard, SR3 enhanced, SR4 commercial-grade, LPS 1673 ultra-high.",
   },
   {
     question: "Does SR3 affect home insurance premiums?",
     answer:
-      "In most cases yes. Home insurers treat independently certified security standards as material reductions in forced-entry risk. SR3 certification, combined with Secured by Design approval, is usually sufficient evidence for insurers to accept the property as meeting or exceeding their minimum door specification, and in many cases to offer a premium adjustment. Always confirm with your insurer directly, referencing the SR3 and Secured by Design certificates supplied with the door.",
+      "In most cases yes. Home insurers treat independently certified security standards as material reductions in forced-entry risk. LPS 1175 SR3 certification, combined with Secured by Design approval, is usually sufficient evidence for insurers to accept the property as meeting or exceeding their minimum door specification, and in many cases to offer a premium adjustment. High-net-worth specialist insurers in particular recognise the LPCB scheme as a benchmark. Always confirm with your insurer directly, referencing the SR3 certificate and Secured by Design accreditation supplied with the door.",
   },
   {
-    question: "How does SR3 testing actually work?",
+    question: "How does LPS 1175 SR3 testing actually work?",
     answer:
-      "SR3 is tested by an independent UKAS-accredited laboratory against a written methodology defined in BS EN 1627:2011. A trained tester attacks the door and frame assembly for twenty minutes of active attack time, using a tool set specified in the standard. The attacker must fail to create a passage large enough to enter. The test is conducted against the complete door system, frame, leaf, locking mechanism and hardware. Individual component certificates are not sufficient. The whole assembly must pass.",
+      "LPS 1175 testing is conducted by the Loss Prevention Certification Board (LPCB), part of BRE Global, a UKAS-accredited certification body. A trained tester attacks the complete door and frame assembly using the tool set specified for the SR3 class, for the LPS 1175 attack-duration matrix. The attacker must fail to create a passage large enough to enter. The test is conducted against the complete door system: frame, leaf, locking mechanism and hardware. Individual component certificates are not sufficient. The whole assembly must pass. SteelR's SR3 specifications use this LPCB-certified pathway.",
   },
 ];
 
@@ -95,59 +95,68 @@ export default function Sr3Page() {
 
       <InfoPage
         heroTitle="SR3 Residential Steel Doors"
-        h1="SR3 Residential Steel Door — BS EN 1627 Class 3 Explained"
+        h1="LPS 1175 SR3 Residential Steel Door. The Enhanced Upgrade Tier"
         intro={{
-          pretitle: "BS EN 1627 Class 3",
+          pretitle: "LPS 1175 SR3. SteelR's Enhanced upgrade tier",
           title:
-            "What an SR3 rating really means on a front door you actually live behind",
+            "What an LPS 1175 SR3 rating really means on a front door you actually live behind",
           body: (
             <>
-              SR3 is the security rating on the outside of the envelope for
-              a residential front door. It is a certification, not a marketing
-              line. It means the door has been independently tested against a
-              sustained, twenty-minute forced-entry attack by a trained
-              attacker using heavy-duty hand and power tools, and has passed.
-              Every SteelR residential steel front door is SR3 rated as
-              standard. Not as an optional upgrade, not on selected designs.
-              On every door.
+              LPS 1175 SR3 is the second tier in SteelR&apos;s four-tier
+              security ladder. It sits above the BS EN 1627 RC4 standard
+              residential specification, and below the SR4 Commercial-grade
+              upgrade. It means the door has been independently certified
+              by the Loss Prevention Certification Board (LPCB), part of
+              BRE Global, against a sustained forced-entry attack by a
+              trained attacker using heavy-duty hand and power tools.
+              SR3 is available on any SteelR door as the Enhanced upgrade
+              specification. It is the police-preferred LPCB scheme,
+              recognised by UK home insurers, conservation officers, and
+              specifiers for high-value or threat-assessed residential
+              briefs.
             </>
           ),
           body2: (
             <>
-              This page explains what SR3 actually tests, how the process
-              compares with the PAS 24 certification most new-build homes
-              receive, why SR3 is the threshold insurers and Secured by
-              Design recognise as genuinely serious, and where the SR4
-              commercial-grade upgrade sits in relation to it.
+              This page explains what SR3 actually tests, how the LPCB
+              scheme differs from the European BS EN 1627 framework SteelR
+              uses for the standard residential specification, why SR3 is
+              the threshold UK home insurers recognise as genuinely
+              serious, and where the SR4 commercial-grade upgrade and
+              LPS 1673 ultra-high tiers sit in relation to it.
             </>
           ),
         }}
         sections={[
           {
             pretitle: "The test itself",
-            title: "Twenty minutes, heavy tools, trained attacker",
+            title: "LPCB-certified attack methodology with heavy tools and a trained tester",
             body: (
               <>
-                SR3 testing is conducted by an independent UKAS-accredited
-                laboratory against the methodology defined in BS EN
-                1627:2011 Class 3. The door is installed into a test frame
-                that replicates the real fixing conditions it will face in
-                a home. A trained tester then attacks the full assembly
-                with the tool set specified for Class 3, which includes
+                LPS 1175 SR3 testing is conducted by the Loss Prevention
+                Certification Board (LPCB), part of BRE Global, a
+                UKAS-accredited certification body. The door is installed
+                into a test frame that replicates the real fixing
+                conditions it will face in a home. A trained tester then
+                attacks the full assembly with the tool set specified for
+                the SR3 class under LPS 1175. The tool set includes
                 crowbars, heavy pry bars, chisels, drills and heavy-duty
                 cutting tools.
               </>
             ),
             body2: (
               <>
-                Twenty minutes of active attack time is a long time for a
-                door to resist. Real-world burglaries are usually aborted
-                after two to four minutes of noise and visible damage. SR3
-                sits an order of magnitude above the real-world attack
-                duration a residential door needs to survive, which is
-                exactly the point. The test is not a prediction of what
-                will happen, it is a stress test that proves what the door
-                can take if it has to.
+                Real-world burglaries are usually aborted after two to four
+                minutes of noise and visible damage. SR3 certification
+                sits well above the real-world attack duration a
+                residential door needs to survive, which is exactly the
+                point. The test is not a prediction of what will happen,
+                it is a stress test that proves what the door can take if
+                it has to. SteelR offers SR3 as the Enhanced upgrade tier
+                on any door, alongside the BS EN 1627 RC4 standard
+                residential specification, the SR4 Commercial-grade
+                upgrade, and LPS 1673 attack-resistance available by
+                enquiry.
               </>
             ),
           },
