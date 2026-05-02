@@ -3,12 +3,13 @@ import ScrollReveal from "./ScrollReveal";
 
 const credentials = [
   "PAS 24 Certified",
-  "BS EN 1627 RC4",
-  "Single Leaf Unglazed",
+  "BS EN 1627 RC4 Standard",
+  "LPS 1175 SR3 / SR4 Available",
+  "LPS 1673 on Enquiry",
   "Secured by Design",
-  "FD30S Fire Rated",
-  "ISO 9001 Certified",
-  "UK Manufactured",
+  "FD30S / FD60 Fire Rated",
+  "ISO 9001 + ISO 14001",
+  "Made in Britain",
 ];
 
 /**
@@ -85,9 +86,9 @@ export function CertificationCallout() {
                 lineHeight: 1.15,
               }}
             >
-              PAS 24 certified. BS EN 1627:2011 RC4.
+              PAS 24 certified. BS EN 1627:2011 RC4 standard.
               <br />
-              Secured by Design approved.
+              LPS 1175 SR3 and SR4 available. Secured by Design approved.
             </h2>
             <p
               style={{
@@ -98,12 +99,14 @@ export function CertificationCallout() {
                 color: "#6b5a42",
               }}
             >
-              Every Steelr entrance door exceeds the PAS 24 security standard
-              mandated by Approved Document Q for all new-build dwellings. Our
-              doors are independently tested to BS EN 1627:2011 RC4 single leaf,
-              unglazed — the European framework for sustained forced-entry
-              resistance. All doors carry FD30S fire and smoke certification as
-              standard.
+              Every SteelR entrance door exceeds the PAS 24 security standard
+              mandated by Approved Document Q for all new-build dwellings.
+              Standard residential specification is BS EN 1627:2011 RC4 single
+              leaf, unglazed, the European framework for sustained forced-entry
+              resistance. LPS 1175 SR3 and SR4 are available as enhanced and
+              commercial-grade upgrades on request, with LPS 1673 attack-
+              resistance available by enquiry. All doors carry FD30S fire and
+              smoke certification as standard.
             </p>
             <Link
               href="/security-specification"
@@ -123,10 +126,12 @@ export function CertificationCallout() {
         <ScrollReveal direction="right">
           <div className="grid grid-cols-2 gap-4">
             {[
-              { label: "BS EN 1627 RC4", sub: "Single leaf, unglazed" },
+              { label: "BS EN 1627 RC4", sub: "Standard residential spec" },
+              { label: "LPS 1175 SR3 / SR4", sub: "Enhanced & commercial-grade" },
               { label: "PAS 24:2022", sub: "Approved Document Q" },
-              { label: "FD30S", sub: "Fire & Smoke Rated" },
+              { label: "FD30S / FD60", sub: "Fire & Smoke Rated" },
               { label: "Secured by Design", sub: "Police Preferred Spec" },
+              { label: "LPS 1673", sub: "Attack-resistant by enquiry" },
             ].map((cert) => (
               <div
                 key={cert.label}

@@ -73,13 +73,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title:
       location.type === "hub"
-        ? `Steel Doors ${label} | Bespoke Steel Front Doors, SR3 Rated | SteelR`
-        : `Steel Doors ${label}, ${location.region} | Bespoke Steel Front Doors, SR3 Rated | SteelR`,
-    description: `Bespoke steel front doors in ${label}. SR3 rated as standard, PAS 24 certified, Secured by Design, FD30 fire rated. UK manufactured by SteelR.`,
+        ? `Steel Doors ${label} | Bespoke Steel Front Doors | SteelR`
+        : `Steel Doors ${label}, ${location.region} | Bespoke Steel Front Doors | SteelR`,
+    description: `Bespoke steel front doors in ${label}. BS EN 1627 RC4 standard, LPS 1175 SR3 / SR4 available, PAS 24 certified, Secured by Design, FD30S fire rated. UK manufactured by SteelR.`,
     alternates: { canonical: `https://steelr.co.uk/areas/${location.slug}` },
     openGraph: {
       title: `Steel Doors ${label} | SteelR`,
-      description: `Steel doors in ${label}: bespoke front doors with SR3 rating as standard, PAS 24 certified, Secured by Design approved, FD30 fire rated. UK manufactured by SteelR.`,
+      description: `Steel doors in ${label}: bespoke front doors at BS EN 1627 RC4 standard, with LPS 1175 SR3 and SR4 available. PAS 24 certified, Secured by Design approved, FD30S fire rated. UK manufactured by SteelR.`,
       url: `https://steelr.co.uk/areas/${location.slug}`,
       type: "website",
       images: [
@@ -94,7 +94,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: `Steel Doors ${label} | SteelR`,
-      description: `Steel doors in ${label}: bespoke front doors with SR3 rating as standard, PAS 24 certified, Secured by Design approved, FD30 fire rated. UK manufactured by SteelR.`,
+      description: `Steel doors in ${label}: bespoke front doors at BS EN 1627 RC4 standard, with LPS 1175 SR3 and SR4 available. PAS 24 certified, Secured by Design approved, FD30S fire rated. UK manufactured by SteelR.`,
       images: [location.heroImage],
     },
   };
@@ -246,7 +246,7 @@ export default async function AreaPage({ params }: Props) {
             // that the schema validator flagged on 29 Apr 2026.
             "@id": "https://steelr.co.uk/#business",
             name: "SteelR",
-            description: `Bespoke steel front doors for homes in ${label}, ${location.region}. PAS 24 certified, SR3 standard with SR4 (LPS 1175) upgrade, Secured by Design approved, FD30S fire rated. Residential steel front doors, fire rated steel front doors and commercial-grade security.`,
+            description: `Bespoke steel front doors for homes in ${label}, ${location.region}. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available, and LPS 1673 attack-resistance available by enquiry. PAS 24 certified, Secured by Design approved, FD30S fire rated, ISO 9001 manufactured, Made in Britain. Residential steel front doors, fire rated steel front doors and commercial-grade security.`,
             url: `https://steelr.co.uk/areas/${location.slug}`,
             telephone: "0800 861 1450",
             areaServed:

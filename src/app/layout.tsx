@@ -32,9 +32,9 @@ const tenorSans = Tenor_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "SteelR | Bespoke Steel Front Doors UK | BS EN 1627 RC4",
+  title: "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
   description:
-    "Bespoke steel front doors for UK homes. Tested to BS EN 1627:2011 RC4 single leaf unglazed, PAS 24 certified, Secured by Design, FD30 fire rated. Nationwide install by SteelR.",
+    "Bespoke steel front doors for UK homes. BS EN 1627 RC4 standard. LPS 1175 SR3 and SR4 available. PAS 24 certified, Secured by Design, FD30S fire rated, ISO 9001 manufactured. Nationwide install by SteelR.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "48x48" },
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://steelr.co.uk"),
   openGraph: {
-    title: "SteelR | Bespoke Steel Front Doors UK | BS EN 1627 RC4",
-    description: "Bespoke steel front doors for UK homes. Tested to BS EN 1627:2011 RC4 single leaf unglazed, PAS 24 certified, Secured by Design, FD30 fire rated. Nationwide install by SteelR.",
+    title: "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
+    description: "Bespoke steel front doors for UK homes. BS EN 1627 RC4 standard. LPS 1175 SR3 and SR4 available. PAS 24 certified, Secured by Design, FD30S fire rated, ISO 9001 manufactured. Nationwide install by SteelR.",
     url: "https://steelr.co.uk",
     siteName: "SteelR",
     type: "website",
@@ -62,8 +62,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SteelR | Bespoke Steel Front Doors UK | BS EN 1627 RC4",
-    description: "Bespoke steel front doors for UK homes. Tested to BS EN 1627:2011 RC4 single leaf unglazed, PAS 24 certified, Secured by Design, FD30 fire rated. Nationwide install by SteelR.",
+    title: "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
+    description: "Bespoke steel front doors for UK homes. BS EN 1627 RC4 standard. LPS 1175 SR3 and SR4 available. PAS 24 certified, Secured by Design, FD30S fire rated, ISO 9001 manufactured. Nationwide install by SteelR.",
     images: ["/og-image.png"],
   },
   alternates: {
@@ -93,7 +93,7 @@ export default function RootLayout({
               "url": "https://steelr.co.uk",
               "logo": "https://steelr.co.uk/brand/steelr-logo-primary.png",
               "image": "https://steelr.co.uk/images/hero/steelr-black-ornate-medallion-stone.jpg",
-              "description": "Bespoke steel front doors for homes across the United Kingdom. Tested to BS EN 1627:2011 RC4 single leaf, unglazed, PAS 24 certified, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 certified. Approved Document Q compliant for new builds, flats and residential front steel doors.",
+              "description": "Bespoke steel front doors for homes across the United Kingdom. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available, and LPS 1673 attack-resistance available by enquiry. PAS 24 certified, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 and ISO 14001 certified, Made in Britain. Approved Document Q compliant for new builds, flats and residential front steel doors.",
               "areaServed": {
                 "@type": "Country",
                 "name": "United Kingdom"

@@ -526,7 +526,7 @@ function parseDoor(
 
   // Generate SEO description
   const featureList = features.slice(0, 3).join(", ").toLowerCase();
-  const description = `Bespoke ${colour.toLowerCase()} ${style.toLowerCase()} steel entrance door featuring ${featureList}. Tested to BS EN 1627:2011 RC4 single leaf, unglazed, manufactured in the UK to ISO 9001 standards. Fully customisable colour, hardware and glazing options.`;
+  const description = `Bespoke ${colour.toLowerCase()} ${style.toLowerCase()} steel entrance door featuring ${featureList}. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available on request. Manufactured in the UK to ISO 9001 standards. Fully customisable colour, hardware and glazing options.`;
 
   // Attach hand-written rich content if present for this slug
   const pageContent = doorPageContent[slug];

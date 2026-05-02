@@ -138,7 +138,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                   marginBottom: 12,
                 }}
               >
-                Bespoke · UK manufactured · BS EN 1627 RC4
+                Bespoke · UK manufactured · BS EN 1627 RC4 · LPS 1175 SR3 / SR4 available
               </p>
               <h2
                 className="mb-5"
@@ -163,7 +163,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                   color: "#5a5a58",
                 }}
               >
-                Free consultation with our design team. No obligation. Every door is manufactured in the UK to your specification, tested to BS EN 1627:2011 RC4 single leaf, unglazed, and installed by our in-house fitters.
+                Free consultation with our design team. No obligation. Every door is manufactured in the UK to your specification. Standard residential spec is BS EN 1627:2011 RC4 single leaf, unglazed. LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications are available on request, with LPS 1673 attack-resistance by enquiry. Installed by our in-house fitters.
               </p>
 
               {/* Primary CTA: click-to-call */}
@@ -219,7 +219,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                     color: "#8a6f4e",
                   }}
                 >
-                  BS EN 1627 RC4 · PAS 24 · Secured by Design · UK manufactured · 10-year guarantee
+                  BS EN 1627 RC4 standard · LPS 1175 SR3 / SR4 available · PAS 24 · Secured by Design · UK manufactured · 10-year guarantee
                 </span>
               </div>
             </div>
