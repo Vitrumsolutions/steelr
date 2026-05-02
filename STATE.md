@@ -1,43 +1,44 @@
 # SteelR — STATE
 
 ## Where I left off
-Big 29 Apr session. 8 commits, all on `origin/main`. The headline is a supplier-truth correction round across the public surfaces plus a new LPS 1673 topic page targeting the small high-threat residential audience.
+02 May 2026 evening. Three commits shipped + live (`2008fa0` wave 1+2, `8d55748` wave 3, `785ab7a` wave 4 + spec gap). Multi-agent preflight panel ran (research-scout / accessibility-reviewer / seo-schema-validator / deep-reviewer); all critical findings addressed and verified live on production. The headline: 4-tier residential cert ladder (BS EN 1627:2011 RC4 Standard / LPS 1175 SR3 Enhanced / LPS 1175 SR4 Commercial-grade D10 Issue 8 / LPS 1673 Ultra-high) is now consistent end-to-end across chrome, area pages, topic hubs, 35 source blog posts, and llms files.
 
-- **Composite-vs-steel cannibalisation closed.** Blog merged into `/steel-front-door-vs-composite` hub with U-value ranges, sustainability, insurer FAQ; two 308 redirects in `next.config.mjs`, no chains. Blog count 41 → 40 (`470bbdf`).
-- **llms drift reconciled.** 161 leaf areas + 16 hubs = 177 total, 60 doors, 40 published guides. 6 orphan refs to deleted composite blog purged via `backfill-llms-full.mjs`. SHA-marker panel gate passed (`87d91d6`).
-- **Hosting modernised.** A record → `216.198.79.1`, CNAME www → per-project `ae52195cfb899090.vercel-dns-017.com` in Fasthosts. Vercel www-redirect flipped 307 → 308. CLAUDE.md refreshed (`7a035c9`).
-- **Three site-wide overclaim corrections (`5293a62`).** Warranty: "25yr structural / 10yr hardware" → "10yr construction / 5yr finish / 3yr hardware (extended packages on request)". U-value: "0.87 to 1.0 W/m²K standard" → "typically from 1.5 W/m²K standard, thermal-upgrade as low as 0.8". Core: "polyurethane-injected" → "insulated core (mineral wool or polyurethane)". Lookbook fix: 7 `Image` components got `unoptimized` to bypass Vercel optimizer 402 quota.
-- **Brand-surface relabel (`ebdb860`, user's parallel commit).** SR3/SR4/LPS 1175 references replaced with BS EN 1627:2011 RC4 (single leaf, unglazed). SteelR no longer claims LPS 1175 SR ratings on the public surface.
-- **llms-full U-value alignment (`5ec44ad`).** Numeric figures across llms-full.txt brought into line with supplier test standards.
-- **New topic page `/lps-1673-attack-resistant-steel-door` (`e380198`, `1e80ae8`).** LPS 1673 is a separate LPCB attack-resistance scheme (distinct from BS EN 1627). Cross-linked from 4 related topic pages, `/security-specification` gained a 3rd tier card and 6th certification-strip cell, llms.txt + llms-full.txt updated.
-- **Indexing pushes.** 66/180 GSC quota used (35+10+15+6 across the day). IndexNow batches each push, all HTTP 200.
+- **Wave 1+2 (`2008fa0`).** 31 files, 131 insertions, 130 deletions. Schema fixes (layout meta -156 chars, SR4 og:image, security-spec em-dashes), llms.txt + llms-full.txt em-dashes purged + RC4-as-upgrade contradictions fixed + numeric drift 16→17 hubs / 177→178 location pages, 22 source blog posts reframed for 4-tier ladder, CLAUDE.md "45 posts" → "39 posts".
+- **Wave 3 (`8d55748`).** 14 files, 34 insertions, 34 deletions. SR3/RC3 scheme conflation factual fix across 13 blog posts. SR ratings belong to LPS 1175, not BS EN 1627 (which uses RC1-RC6). Headings + body + duration claims rewritten.
+- **Wave 4 + spec gap (`785ab7a`).** 9 files, 35 insertions, 32 deletions. Area page chrome strip (161 pages) updated; SR3 "twenty minutes" reconciled to "five minutes" per LPS 1175 Issue 8 brief; vs-composite SR3-RC3 confusion (twice) cleared; "SR4 (RC4) — Power Tools, 10 Minutes" heading mislabel fixed; insurance "5-15% premium" unsourced claim removed; 3 meta description overruns trimmed (sr3 178→147, lps-1673 176→151, security-spec 213→151). Spec gap: 39 dB acoustic + 1200 Pa wind + EPD reference + UKAS-laboratory framing added to llms.txt + llms-full.txt.
+- **Multi-agent panel verdict.** research-scout (30 queries + 7 intent gaps + competitor SERP), accessibility-reviewer (8 fails + 7 warnings, 1 false alarm verified), seo-schema-validator (PASS, 14 static + 5 runtime FAQPage maps), deep-reviewer (REWRITE → all wave-4 fixes addressed, 2 P0 items queued).
+- **Panel gate hardening confirmed.** `scripts/checks/llms-panel-check.mjs` covers BOTH `public/llms.txt` and `public/llms-full.txt` via `PROTECTED` array. SHA marker rewritten for each commit touching either file.
 
 ## Next action
-- **Cross-link sweep for `/lps-1673-attack-resistant-steel-door`.** 4-5 area pages still need their internal links to the new page checked (Steps 7+8 in the plan doc, lower priority during the build).
-- **Refill empty blog content calendar.** `scripts/blog/content-calendar.json` empty; cron next fires Thu 30 Apr 20:00 UTC with nothing to publish. Stage 3-6 posts targeting audit gaps (SR3-equivalent vs RC4 explainer, LPS 1673 vs RC4 distinction, PAS 24 explainer, cost guide, London townhouses, glass-panel doors).
-- **Off-page domain authority / backlink work.** 27 Apr customer-language audit returned 0/20 SteelR rankings on steel-specific buyer queries. Domain authority is the structural ceiling — highest-leverage open task.
-- **Em-dash backlog.** 1,065 instances across 43 files (`audit-data/em-dash-backlog-2026-04-28.md`). Phased context-aware cleanup — top-3 blog posts first.
+- **P0 SCHEDULED for 03 May 09:00 UK (one-time fireAt).** `steelr-p0-security-spec-beefup-and-visual-qa` autonomous task. Two items: (1) beef up `/security-specification` with side-by-side 4-tier comparison table (currently 6.5 KB stripped vs 12-19 KB on sibling topic pages; deep-reviewer flagged that other pages send readers there but the page does not deliver), (2) mobile + desktop visual QA across 7 key URLs (preview-screenshot timed out on Windows in 02 May session, retry or fallback to manual Chrome DevTools).
+- **P1 quick wins (open).** Nav contrast 4.0:1 → 4.5:1+ (Nav.tsx:117), phone link contrast 3.3:1 → 4.5:1+ (Nav.tsx:140), Hero carousel pause control (WCAG 2.2.2), QuickEnquiry visible labels (288+ pages, conversion + a11y win), em-dash detector added to brand-guard.mjs.
+- **P2 polish.** InfoPage h1 render order (10 topic pages), mobile menu focus trap, `lang="en"` → `lang="en-GB"`, page title length trims (7 pages 62-79 chars), per-page og:image themed for SR4/LPS 1673.
+- **P3 search-intent gaps from research-scout.** New topic pages for `/flat-entrance-door-fd30s-uk` (Building Safety Act intent), `/acoustic-rated-front-door-uk` (39 dB Rw lead, owns the gap vs Metador/HAG), Part L 2026 + BS 8214:2026 glossary, "like-for-like front door replacement conservation area" (Kensington/Chelsea local intent), EPD/embodied carbon page, insurance-discount angle.
+- **Em-dash backlog.** Down from 1,065 (28 Apr) to 1,054 (02 May). Phased context-aware cleanup, top blog posts first.
+- **Refill blog content calendar.** `scripts/blog/content-calendar.json` was empty as of 22 Apr; another session was working on refill. Verify state and refill if still empty.
 
 ## Blockers
 - 0 GMB reviews still the Maps 3-pack blocker — user-managed, do not re-suggest.
 - Bing post-migration indexing lag continues; recovery expected mid-late May 2026.
 - Domain authority is the structural ceiling on Google organic; no on-page fix will close it.
-- 1542c/1542e cert-reference discrepancy on the supplier side unresolved; kept off public pages via "by enquiry" framing.
+- **Supplier disclosure rule:** never name the supplier or specific cert IDs that link back to them (Q-Mark Cert 250, LPCB Cert 1542, etc. — these are searchable in public registries). Generic body refs (UKAS, LPCB, BRE Global, BM TRADA Q-Mark scheme) are safe.
 
 ## Recent wins (last 14 days)
-- 2026-04-29 — Supplier-truth correction round: warranty terms, U-values, core terminology, brand-surface RC4 relabel across the site (`5293a62`, `ebdb860`, `5ec44ad`).
+- 2026-05-02 — Wave 4 + spec gap: chrome strip lag fixed (161 area pages), SR3 5-min vs 20-min reconciled across 5 pages, scheme confusion cleared on /vs-composite, 3 meta length trims, 39 dB acoustic + 1200 Pa wind + EPD + UKAS-lab framing added to llms files (`785ab7a`).
+- 2026-05-02 — Wave 3: SR3/RC3 factual scheme conflation fixed across 13 blog posts (SR is LPS 1175, RC is BS EN 1627; SR3 = 5 min Issue 8, not 20 min) (`8d55748`).
+- 2026-05-02 — Wave 1+2: 4-tier ladder content sweep across 22 source blog posts + topic pages + chrome + llms files. Numeric drift fixed 16→17 hubs / 177→178 location pages. Build PASS, brand-guard PASS, panel-gate PASS (`2008fa0`).
+- 2026-04-29 — Supplier-truth correction round: warranty, U-values, core terminology, brand-surface RC4 relabel (`5293a62`, `ebdb860`, `5ec44ad`).
 - 2026-04-29 — `/lps-1673-attack-resistant-steel-door` topic page live + cross-linked + llms files updated (`e380198`, `1e80ae8`).
 - 2026-04-29 — Composite cannibalisation closed: blog merged into hub, two 308 redirects (`470bbdf`).
-- 2026-04-29 — llms.txt drift fixed (177 total areas, 60 doors, 40 guides; 6 orphan refs purged) via SHA-marker gate (`87d91d6`).
 - 2026-04-28/29 — Hosting infra modernisation: A `216.198.79.1`, CNAME per-project, www-redirect 307 → 308, Workspace alias domain live, ImprovMX retired (`7a035c9`).
-- 2026-04-28 — Hero perf: rotation auto-stops at 60s, blur placeholders, lookbook hero `priority` (`a767d70`).
-- 2026-04-28 — File upload live on both enquiry forms; GA4 phone-click + ContactForm submit attribution closed (`cc627eb`, `cb58d14`).
 
 ## Key files
-- `next.config.mjs` — 308 redirects (composite-blog deletion, www → non-www). Add new redirects here, never chain.
-- `src/app/lps-1673-attack-resistant-steel-door/page.tsx` — new topic page; cross-linked from 4 related pages + `/security-specification`.
-- `src/app/security-specification/page.tsx` — now 3-tier (RC4 standard / RC4 + LPS 1175 by enquiry / LPS 1673 attack-resistance) + 6-cell certification strip.
-- `public/llms.txt` + `public/llms-full.txt` — gated by `/panel-llms` + `/panel-llms-approve`. Run panel first; user must approve in chat before marker is written.
-- `scripts/blog/backfill-llms-full.mjs` — rebuilds Blog Excerpts from `index.ts`. Run after any blog add/delete to keep counters honest.
-- `scripts/blog/content-calendar.json` — currently empty; refill before next cron fire (Thu 30 Apr 20:00 UTC).
-- `audit-data/em-dash-backlog-2026-04-28.md` — 1,065-instance cleanup plan.
+- `next.config.mjs` — 308 redirects (composite-blog deletion, www → non-www, /blog/what-is-sr3 → /sr3-residential-steel-door, /blog/how-much-do-steel-doors-cost-uk → /steel-front-door-cost-uk). Add new redirects here, never chain.
+- `src/app/security-specification/page.tsx` — **next session P0**: needs 4-tier side-by-side comparison table. Currently has Technical Performance section with 39 dB / 1200 Pa / EPD spec cards (commit c5d53d5).
+- `src/app/areas/[slug]/page.tsx` — credentials strip line 105 now reads "BS EN 1627 RC4 Standard, LPS 1175 SR3 / SR4 Available" (was "SR3 Standard & SR4 (LPS 1175) Available"). Affects 161 area pages.
+- `src/app/sr3-residential-steel-door/page.tsx` + `src/app/sr4-residential-steel-door/page.tsx` + `src/app/lps-1673-attack-resistant-steel-door/page.tsx` — all 4-tier ladder consistent + cross-linked + meta ≤160 chars.
+- `public/llms.txt` (29.4 KB) + `public/llms-full.txt` (235.8 KB) — gated by `/panel-llms` + `/panel-llms-approve`. Both files protected by `scripts/checks/llms-panel-check.mjs` `PROTECTED` array. SHA marker `.checks/llms-panel.json` regenerated for any change.
+- `scripts/blog/backfill-llms-full.mjs` — rebuilds Blog Excerpts from `index.ts`. Run after any blog add/edit/delete or any source post change to keep llms-full.txt in sync.
+- `scripts/brand-guard.mjs` — pre-commit hook. Catches banned words + SteelR-attributed prices. **Does NOT catch em-dashes** (deep-reviewer recommended adding this; queued P1).
+- `audit-data/em-dash-backlog-2026-04-28.md` — 1,054-instance cleanup plan (down from 1,065 on 28 Apr).
+- `.claude/scheduled-tasks/steelr-p0-security-spec-beefup-and-visual-qa/SKILL.md` — autonomous task scheduled for 03 May 09:00 UK (one-time fireAt). Auto-disables after run.
