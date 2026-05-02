@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-entrance-doors-buckinghamshire-homes",
-  title: "Steel Front Doors Buckinghamshire: Local UK Buyer Guide",
+  title: "Period Property Front Doors in Buckinghamshire: Conservation & Listed-Building Guide",
   description:
-    "Local guide to steel front doors in Buckinghamshire UK. Chilterns AONB, conservation areas, popular styles and installation across Beaconsfield and Bucks.",
+    "Period property front doors across Buckinghamshire. Listed-building consent, conservation area planning, Chilterns AONB design constraints and the LPS 1175 SR3 Enhanced upgrade.",
   date: "2026-06-11",
   readTime: "8 min read",
   category: "Location Guides",

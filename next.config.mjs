@@ -58,6 +58,19 @@ const nextConfig = {
         destination: "/blog/secured-by-design-homes-guide-2026",
         permanent: true,
       },
+      // Third wave cannibalisation cleanup (02 May 2026). The cannibalisation
+      // auditor flagged two blog/topic-page duplicates created by the recent
+      // BS EN 1627 RC4 + LPS 1673 + warranty/U-value rewrites.
+      {
+        source: "/blog/what-is-sr3-security-rating",
+        destination: "/sr3-residential-steel-door",
+        permanent: true,
+      },
+      {
+        source: "/blog/how-much-do-steel-doors-cost-uk",
+        destination: "/steel-front-door-cost-uk",
+        permanent: true,
+      },
     ];
   },
 };

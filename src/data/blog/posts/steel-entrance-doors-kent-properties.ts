@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-entrance-doors-kent-properties",
-  title: "Steel Front Doors Kent UK: Local Properties Buyer Guide",
+  title: "Front Doors for Kent Coastal Properties: Salt-Air & Weather Specification",
   description:
-    "Local guide to steel front doors for Kent UK properties. Oast houses, coastal homes, Wealden architecture, conservation areas and nationwide installation.",
+    "Bespoke steel front doors for Kent coastal properties. Marine-grade powder-coat finish, BS EN 12211 wind resistance Class A3 to 1200 Pa, oast house and Wealden specifications.",
   date: "2026-06-18",
   readTime: "8 min read",
   category: "Location Guides",

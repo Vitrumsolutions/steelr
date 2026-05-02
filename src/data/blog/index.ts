@@ -6,7 +6,8 @@ export type { BlogPost } from "./types";
 //   frontDoorDesignTrends2026 (thin, redirects to modern-front-door-ideas-inspiration-2026)
 //   steelEntranceDoorsPricingFactors (redirects to how-much-do-steel-doors-cost-uk)
 //   frontDoorIdeasDesignTrends (thin, redirects to modern-front-door-ideas-inspiration-2026)
-import whatIsSr3SecurityRating from "./posts/what-is-sr3-security-rating";
+// Removed 02 May 2026 — whatIsSr3SecurityRating: cannibalised with /sr3-residential-steel-door
+// topic page; 308-redirected in next.config.mjs to consolidate authority.
 import choosingEntranceDoorColour from "./posts/choosing-entrance-door-colour";
 // Removed 22 Apr 2026 — cannibalised with thicker siblings, 308-redirected in next.config.mjs:
 //   securedByDesignDoors → secured-by-design-homes-guide-2026
@@ -24,7 +25,8 @@ import bespokeEntranceDoorsUkGuide from "./posts/bespoke-entrance-doors-uk-guide
 import steelDoorsConservationAreasPlanningGuide from "./posts/steel-doors-conservation-areas-planning-guide";
 
 // New posts (2 written + 23 from staged)
-import howMuchDoSteelDoorsCostUk from "./posts/how-much-do-steel-doors-cost-uk";
+// Removed 02 May 2026 — howMuchDoSteelDoorsCostUk: cannibalised with /steel-front-door-cost-uk
+// topic page; 308-redirected in next.config.mjs to consolidate authority.
 import areSteelDoorsWorthItUk from "./posts/are-steel-doors-worth-it-uk";
 import frontDoorSecurityRatingsComparedSr1ToSr3 from "./posts/front-door-security-ratings-compared-sr1-to-sr3";
 import steelEntranceDoorThermalPerformanceUValues from "./posts/steel-entrance-door-thermal-performance-u-values";
@@ -61,7 +63,6 @@ import hmoFrontDoorRequirementsUkLandlordGuide from "./posts/hmo-front-door-requ
 // in the blog listing and "related posts" sections.
 export const posts: BlogPost[] = [
   luxuryFrontDoorsUkBuyerGuide,
-  whatIsSr3SecurityRating,
   choosingEntranceDoorColour,
   bestFrontDoorsPeriodProperties,
   steelVsTimberEntranceDoors,
@@ -74,7 +75,6 @@ export const posts: BlogPost[] = [
   pas24DoorsExplainedUkHomeowners,
   bespokeEntranceDoorsUkGuide,
   steelDoorsConservationAreasPlanningGuide,
-  howMuchDoSteelDoorsCostUk,
   areSteelDoorsWorthItUk,
   frontDoorSecurityRatingsComparedSr1ToSr3,
   steelEntranceDoorThermalPerformanceUValues,

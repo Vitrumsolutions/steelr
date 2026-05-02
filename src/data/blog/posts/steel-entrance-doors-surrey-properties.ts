@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "steel-entrance-doors-surrey-properties",
-  title: "Steel Front Doors Surrey UK: Local Properties Guide",
+  title: "Surrey Country Estate Front Doors: Driveway-First Specification Guide",
   description:
-    "Guide to bespoke steel front doors for Surrey UK homes. Local architecture, conservation areas, popular styles and SR3 security for high-value properties.",
+    "Bespoke steel front doors for Surrey country estates. Gated driveways, oversize sidelight configurations, threat-assessed insurer specifications and the LPS 1175 SR3 / SR4 ladder.",
   date: "2026-05-27",
   readTime: "7 min read",
   category: "Location Guides",
