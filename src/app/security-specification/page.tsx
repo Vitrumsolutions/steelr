@@ -277,6 +277,45 @@ export default function SecuritySpecificationPage() {
         </div>
       </section>
 
+      {/* Technical Performance — supplier-tested numbers, all UKAS-accredited */}
+      <section className="bg-cream py-16 md:py-24 px-6 md:px-16">
+        <div className="max-w-6xl mx-auto">
+          <ScrollReveal>
+            <p className="mb-3" style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.3em", textTransform: "uppercase", color: "#b8943f" }}>
+              Independently tested performance
+            </p>
+            <h2 className="mb-12" style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(28px, 4vw, 44px)", color: "#1a1a18", lineHeight: 1.15 }}>
+              Beyond the certifications. The performance numbers behind a SteelR door
+            </h2>
+          </ScrollReveal>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { metric: "Thermal performance", value: "From 1.5 W/m²K standard", detail: "BS EN ISO 10077-1, UKAS-accredited test. Thermal-upgrade specifications available achieving as low as 0.8 W/m²K." },
+              { metric: "Acoustic performance", value: "Up to 39 dB Rw single, 37 dB double", detail: "BRE Acoustics test, UKAS-accredited. Critical for London townhouses, urban developments, hotel and apartment projects." },
+              { metric: "Wind resistance", value: "Class A3 to BS EN 12211 at 1200 Pa", detail: "Equivalent to 98 mph sustained wind load. Marine-grade powder-coat finish available for installations within 5 km of the coast." },
+              { metric: "Air permeability", value: "Class 4 (highest residential class)", detail: "BS EN 1026 at 600 Pa (113 km/h equivalent). Ends draught complaints across period properties." },
+              { metric: "Water tightness", value: "150 Pa outward / 100 Pa inward", detail: "BS EN 1027 tested. Built for UK weather with full perimeter compression sealing." },
+              { metric: "Quality management", value: "ISO 9001:2015 + ISO 14001:2015", detail: "Manufactured under both quality and environmental management systems certified by BRE Global. Made in Britain certified member." },
+              { metric: "Door leaf construction", value: "44mm to 70mm thick, 1.5mm to 2mm steel skins", detail: "Mechanically interlocked and bonded. Mineral-wool insulated core for fire integrity. Steel frame profile from 80mm × 40mm with 25mm reinforcement." },
+              { metric: "Doorset sizes", value: "Up to 4.804m wide × 3.792m high", detail: "Including integrated sidepanels, fanlights and overpanels. Single-leaf, double-leaf or panic-exit configurations." },
+              { metric: "Environmental Product Declaration", value: "Third-party verified EPD available on request", detail: "ISO 14025 framework. BREEAM Mat 01 (Life-cycle impacts) and Mat 03 (Responsible sourcing) credit-eligible. Architects and specifiers download on enquiry." },
+            ].map((item) => (
+              <div key={item.metric} className="p-6 rounded-[4px]" style={{ background: "#fff", border: "1px solid rgba(201,169,110,0.15)" }}>
+                <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#b8943f", marginBottom: 8 }}>
+                  {item.metric}
+                </p>
+                <p style={{ fontFamily: displayFont, fontWeight: 300, fontSize: 22, color: "#1a1a18", lineHeight: 1.2, marginBottom: 12 }}>
+                  {item.value}
+                </p>
+                <p style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.6, color: "#6b5a42" }}>
+                  {item.detail}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-site-black py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
