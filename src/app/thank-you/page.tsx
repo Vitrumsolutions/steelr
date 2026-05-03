@@ -49,7 +49,7 @@ const nextSteps = [
 const recommendedReads = [
   {
     href: "/steel-front-door-vs-composite",
-    title: "Steel vs composite doors — the honest comparison",
+    title: "Steel vs composite doors. The honest comparison",
   },
   {
     href: "/steel-front-door-cost-uk",
