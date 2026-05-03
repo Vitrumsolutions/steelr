@@ -244,12 +244,27 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
               <input type="text" name="website" tabIndex={-1} autoComplete="off" style={{ display: "none" }} aria-hidden="true" />
 
               <div>
-                <label htmlFor={`qe-name-${source}`} className="sr-only">Name</label>
+                <label
+                  htmlFor={`qe-name-${source}`}
+                  style={{
+                    display: "block",
+                    fontFamily: "var(--font-body), Montserrat, sans-serif",
+                    fontWeight: 400,
+                    fontSize: 11,
+                    letterSpacing: "0.1em",
+                    textTransform: "uppercase",
+                    color: "#6b5a42",
+                    marginBottom: 6,
+                  }}
+                >
+                  Name <span aria-hidden="true" style={{ color: "#c9a96e" }}>*</span>
+                </label>
                 <input
                   id={`qe-name-${source}`}
                   name="name"
                   type="text"
                   required
+                  aria-required="true"
                   placeholder="Your name"
                   autoComplete="name"
                   style={{
@@ -267,12 +282,27 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
               </div>
 
               <div>
-                <label htmlFor={`qe-phone-${source}`} className="sr-only">Phone</label>
+                <label
+                  htmlFor={`qe-phone-${source}`}
+                  style={{
+                    display: "block",
+                    fontFamily: "var(--font-body), Montserrat, sans-serif",
+                    fontWeight: 400,
+                    fontSize: 11,
+                    letterSpacing: "0.1em",
+                    textTransform: "uppercase",
+                    color: "#6b5a42",
+                    marginBottom: 6,
+                  }}
+                >
+                  Phone <span aria-hidden="true" style={{ color: "#c9a96e" }}>*</span>
+                </label>
                 <input
                   id={`qe-phone-${source}`}
                   name="phone"
                   type="tel"
                   required
+                  aria-required="true"
                   placeholder="Phone number"
                   autoComplete="tel"
                   inputMode="tel"
@@ -291,7 +321,21 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
               </div>
 
               <div>
-                <label htmlFor={`qe-postcode-${source}`} className="sr-only">Postcode</label>
+                <label
+                  htmlFor={`qe-postcode-${source}`}
+                  style={{
+                    display: "block",
+                    fontFamily: "var(--font-body), Montserrat, sans-serif",
+                    fontWeight: 400,
+                    fontSize: 11,
+                    letterSpacing: "0.1em",
+                    textTransform: "uppercase",
+                    color: "#6b5a42",
+                    marginBottom: 6,
+                  }}
+                >
+                  Postcode
+                </label>
                 <input
                   id={`qe-postcode-${source}`}
                   name="postcode"
