@@ -5,7 +5,7 @@ import { Suspense } from "react";
 import ThankYouTracking from "./ThankYouTracking";
 
 export const metadata: Metadata = {
-  title: "Thank You — We'll Be In Touch | SteelR",
+  title: "Thank You. We'll Be In Touch | SteelR",
   description:
     "Your enquiry has been received. Our design team will be in touch within 24 hours to discuss your bespoke SteelR entrance door.",
   alternates: { canonical: "https://steelr.co.uk/thank-you" },
@@ -34,11 +34,11 @@ const nextSteps = [
   },
   {
     title: "We discuss design",
-    desc: "Every SteelR door is bespoke. We'll talk you through the collection, panel designs, glazing options, hardware finishes and RAL colours — no pressure, no upsell.",
+    desc: "Every SteelR door is bespoke. We'll talk you through the collection, panel designs, glazing options, hardware finishes and RAL colours. No pressure, no upsell.",
   },
   {
     title: "We provide a full written quote",
-    desc: "Within a few working days of the conversation. Every line itemised — door, frame, glazing, hardware, installation — so you can compare like-for-like with other suppliers.",
+    desc: "Within a few working days of the conversation. Every line itemised. Door, frame, glazing, hardware, installation. So you can compare like-for-like with other suppliers.",
   },
   {
     title: "You take your time",
