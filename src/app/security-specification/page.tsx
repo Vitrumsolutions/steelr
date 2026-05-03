@@ -222,6 +222,177 @@ export default function SecuritySpecificationPage() {
         </div>
       </section>
 
+      {/* Four-Tier Residential Security Ladder */}
+      <section className="bg-cream ribbon-bg py-16 md:py-24 px-6 md:px-16">
+        <div className="max-w-6xl mx-auto">
+          <ScrollReveal>
+            <p className="mb-3 text-center" style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.3em", textTransform: "uppercase", color: "#b8943f" }}>
+              The Four-Tier Residential Security Ladder
+            </p>
+            <h2 className="mb-6 text-center" style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(28px, 4vw, 44px)", color: "#1a1a18", lineHeight: 1.15 }}>
+              Standard, Enhanced, Commercial-grade, Ultra-high. Side by side.
+            </h2>
+            <div className="max-w-3xl mx-auto mb-12">
+              <p className="text-center" style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
+                BS EN 1627 (RC1 to RC6) and LPS 1175 (SR1 to SR8) are <em style={{ fontStyle: "italic", color: "#1a1a18" }}>parallel</em> certification schemes operating under different methodologies. They are not interchangeable. The LPCB has stated that over 90% of products tested under EN 1627 RC4 fail to achieve LPS 1175 SR2. SteelR ships RC4 as the standard residential specification on every door, with the LPCB-operated SR3, SR4 and LPS 1673 ratings as named upgrade tiers. The four tiers are not substitutes; they are layered options selected to match the brief.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal>
+            <div className="overflow-x-auto rounded-[4px]" style={{ border: "1px solid rgba(201,169,110,0.18)", background: "#fff" }}>
+              <table className="w-full" style={{ minWidth: 880, borderCollapse: "collapse" }}>
+                <thead>
+                  <tr style={{ background: "rgba(201,169,110,0.08)", borderBottom: "1px solid rgba(201,169,110,0.25)" }}>
+                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18", width: 160 }}>
+                      Attribute
+                    </th>
+                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
+                      Tier 1. Standard
+                    </th>
+                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
+                      Tier 2. Enhanced
+                    </th>
+                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
+                      Tier 3. Commercial-grade
+                    </th>
+                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
+                      Tier 4. Ultra-high
+                    </th>
+                  </tr>
+                  <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.18)", background: "rgba(245,240,232,0.4)" }}>
+                    <td style={{ padding: "14px", fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                      Certification
+                    </td>
+                    <td style={{ padding: "14px", fontFamily: displayFont, fontWeight: 400, fontSize: 16, color: "#1a1a18", lineHeight: 1.25 }}>
+                      BS EN 1627:2011 RC4
+                    </td>
+                    <td style={{ padding: "14px", fontFamily: displayFont, fontWeight: 400, fontSize: 16, color: "#1a1a18", lineHeight: 1.25 }}>
+                      LPS 1175 SR3 (Issue 8)
+                    </td>
+                    <td style={{ padding: "14px", fontFamily: displayFont, fontWeight: 400, fontSize: 16, color: "#1a1a18", lineHeight: 1.25 }}>
+                      LPS 1175 SR4, D10 Issue 8
+                    </td>
+                    <td style={{ padding: "14px", fontFamily: displayFont, fontWeight: 400, fontSize: 16, color: "#1a1a18", lineHeight: 1.25 }}>
+                      LPS 1673 attack-resistance
+                    </td>
+                  </tr>
+                </thead>
+                <tbody style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.6, color: "#6b5a42" }}>
+                  <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}>
+                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                      Test scheme
+                    </td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>European framework. Single leaf, unglazed methodology. UKAS-accredited laboratory.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>LPCB scheme operated by BRE Global. Police-preferred specification.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>LPCB Commercial-grade certification under LPS 1175 Issue 8.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Separate LPCB attack-resistance scheme. Asset-directed assault, distinct from forced entry.</td>
+                  </tr>
+                  <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)", background: "rgba(245,240,232,0.4)" }}>
+                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                      Attack duration
+                    </td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Sustained forced-entry test against the complete door assembly.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Five-minute sustained attack under the LPS 1175 Issue 8 duration matrix.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Longer attack window than SR3 under the same Issue 8 framework.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Class-defined: AR.A300, AR.B180E, AR.B300E, AR.C120E. E denotes power-tool inclusion.</td>
+                  </tr>
+                  <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}>
+                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                      Tool catalogue
+                    </td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Heavy-duty hand tools and battery-operated power tools.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Issue 8 power-tool catalogue. Larger crowbar, higher-energy attack.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Issue 8 catalogue plus battery cutting tools and larger prying equipment.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Defined by AR class. The threat model is the protected asset behind the door.</td>
+                  </tr>
+                  <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)", background: "rgba(245,240,232,0.4)" }}>
+                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                      Typical specification context
+                    </td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Every SteelR residential front door. The standard build.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>High-value properties, conservation areas, listed buildings, insurer-specified or LPCB-preferred briefs.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Documented threat assessment, specialist private-bank clients, security-sensitive professions, layered safe-room specs.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Bank vault outer doors, data centre internal cores, embassy residences, residential where a documented threat assessment justifies it.</td>
+                  </tr>
+                  <tr>
+                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                      Lead time impact
+                    </td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Standard SteelR lead time: 8 to 12 weeks from sign-off to fitted installation.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Standard SteelR lead time, 8 to 12 weeks. Confirmed at design sign-off.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Standard plus 2 to 3 weeks. Approximately 10 to 14 weeks total.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>12 to 16 weeks. Pricing individual to the project.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal>
+            <p className="mt-10 max-w-3xl mx-auto text-center" style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
+              Every SteelR door also carries PAS 24:2022 certification, FD30S fire and smoke rating, Secured by Design police accreditation, ISO 9001 and ISO 14001 manufacturing, and Made in Britain certification. The four tiers above sit on top of that baseline; they do not replace it.
+            </p>
+            <p className="mt-4 max-w-3xl mx-auto text-center" style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.8, color: "#999", fontStyle: "italic" }}>
+              Reminder: BS EN 1627 RC ratings and LPS 1175 SR ratings are parallel certification schemes, not interchangeable. A door rated to one is not automatically equivalent to a numerically similar rating in the other.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal>
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+              <Link
+                href="/sr3-residential-steel-door"
+                className="block p-5 rounded-[4px] transition-colors duration-300"
+                style={{ background: "rgba(245,240,232,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.25em", textTransform: "uppercase", color: "#b8943f", marginBottom: 8 }}>
+                  Tier 2 deep-dive
+                </p>
+                <p style={{ fontFamily: displayFont, fontWeight: 400, fontSize: 17, color: "#1a1a18", lineHeight: 1.25 }}>
+                  SR3 Residential Steel Door &rarr;
+                </p>
+              </Link>
+              <Link
+                href="/sr4-residential-steel-door"
+                className="block p-5 rounded-[4px] transition-colors duration-300"
+                style={{ background: "rgba(245,240,232,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.25em", textTransform: "uppercase", color: "#b8943f", marginBottom: 8 }}>
+                  Tier 3 deep-dive
+                </p>
+                <p style={{ fontFamily: displayFont, fontWeight: 400, fontSize: 17, color: "#1a1a18", lineHeight: 1.25 }}>
+                  SR4 Residential Steel Door &rarr;
+                </p>
+              </Link>
+              <Link
+                href="/lps-1673-attack-resistant-steel-door"
+                className="block p-5 rounded-[4px] transition-colors duration-300"
+                style={{ background: "rgba(245,240,232,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.25em", textTransform: "uppercase", color: "#b8943f", marginBottom: 8 }}>
+                  Tier 4 deep-dive
+                </p>
+                <p style={{ fontFamily: displayFont, fontWeight: 400, fontSize: 17, color: "#1a1a18", lineHeight: 1.25 }}>
+                  LPS 1673 Attack-Resistant &rarr;
+                </p>
+              </Link>
+              <Link
+                href="/secured-by-design-steel-front-door"
+                className="block p-5 rounded-[4px] transition-colors duration-300"
+                style={{ background: "rgba(245,240,232,0.7)", border: "1px solid rgba(201,169,110,0.2)" }}
+              >
+                <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.25em", textTransform: "uppercase", color: "#b8943f", marginBottom: 8 }}>
+                  Police accreditation
+                </p>
+                <p style={{ fontFamily: displayFont, fontWeight: 400, fontSize: 17, color: "#1a1a18", lineHeight: 1.25 }}>
+                  Secured by Design &rarr;
+                </p>
+              </Link>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* Certification Strip */}
       <section className="bg-cream ribbon-bg py-12 px-6 md:px-16">
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-6 gap-0">

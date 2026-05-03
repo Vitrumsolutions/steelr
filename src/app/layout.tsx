@@ -34,7 +34,7 @@ const tenorSans = Tenor_Sans({
 export const metadata: Metadata = {
   title: "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
   description:
-    "Bespoke steel front doors for UK homes. BS EN 1627:2011 RC4 standard, LPS 1175 SR3 / SR4 available. PAS 24, Secured by Design, FD30S fire rated. UK install.",
+    "Bespoke steel front doors UK. 4-tier ladder: BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. PAS 24, Secured by Design, FD30S. UK install.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "48x48" },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://steelr.co.uk"),
   openGraph: {
     title: "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
-    description: "Bespoke steel front doors for UK homes. BS EN 1627:2011 RC4 standard, LPS 1175 SR3 / SR4 available. PAS 24, Secured by Design, FD30S fire rated. UK install.",
+    description: "Bespoke steel front doors UK. 4-tier ladder: BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. PAS 24, Secured by Design, FD30S. UK install.",
     url: "https://steelr.co.uk",
     siteName: "SteelR",
     type: "website",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
-    description: "Bespoke steel front doors for UK homes. BS EN 1627:2011 RC4 standard, LPS 1175 SR3 / SR4 available. PAS 24, Secured by Design, FD30S fire rated. UK install.",
+    description: "Bespoke steel front doors UK. 4-tier ladder: BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. PAS 24, Secured by Design, FD30S. UK install.",
     images: ["/og-image.png"],
   },
   alternates: {

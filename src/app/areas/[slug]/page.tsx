@@ -103,6 +103,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const credentials = [
   "PAS 24:2022 Certified",
   "BS EN 1627 RC4 Standard, LPS 1175 SR3 / SR4 Available",
+  "LPS 1673 Attack-Resistance on Enquiry",
   "Secured by Design Approved",
   "FD30S Fire & Smoke Rated",
   "ISO 9001 Certified Manufacturing",

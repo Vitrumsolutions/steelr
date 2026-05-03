@@ -33,7 +33,7 @@ Choose the highest-leverage option based on current state:
 - **A. `/thank-you` leave-a-review CTA** — Vitrums has it, SteelR doesn't. One-click GBP review path for new customers at peak-willingness moment. Not a review-push suggestion — just the on-site plumbing (user still does asking). Small edit, mirrors Vitrums `/thank-you` pattern.
 - **B. GSC Indexing API setup** — Vitrums runs 180/day automated via Windows Task Scheduler (`VitrumsGSCIndexer`). Verify if SteelR has equivalent. If not, ~30 min setup — could be why Google organic sits at 5/26 (indexing lag).
 - **C. CrUX / Lighthouse perf baseline** — site 19 days live, too young for CrUX. Run Lighthouse mobile to get lab baseline. If at Vitrums' pre-fix level (Perf 27, LCP 8s), apply the documented Vitrums playbook (Nav server-component split, defer overlays, lazyOnload GA, hero paint cleanup).
-- **D. Internal linking audit** — Do all 42 blog posts link to product/area pages? Do hub/product pages cross-link to best-fit blogs? Vitrums-style bidirectional linking lifts topical authority.
+- **D. Internal linking audit** — Do all 39 blog posts link to product/area pages? Do hub/product pages cross-link to best-fit blogs? Vitrums-style bidirectional linking lifts topical authority.
 - **E. Schema/llms.txt protection audit** — AI engines are the strongest channel, protect it. Diff SteelR's setup against Vitrums (knowsAbout array, Direct Answers Q&As, sameAs, FAQ coverage).
 
 ### DO NOT RE-SUGGEST (user-managed)
@@ -45,7 +45,7 @@ Choose the highest-leverage option based on current state:
 ### Current SteelR state snapshot
 
 - Live: https://steelr.co.uk since ~3 Apr 2026
-- 40 blog posts live, 161 area pages, 60 doors in /collection (CLAUDE.md and STATE.md previously stated stale counts; reconciled 25 Apr against actual data)
+- 39 blog posts live, 161 area pages, 60 doors in /collection (CLAUDE.md and STATE.md previously stated stale counts; reconciled 03 May against actual `ls src/data/blog/posts | wc -l` data)
 - QuickEnquiry component on all dynamic templates (areas, collection, blog) + 10 InfoPage topic hubs + 5 non-InfoPage hubs — 288+ pages wired with source-tagged lead capture → `/api/contact` → `info@supplywindows.co.uk`
 - `/thank-you` page live with GA4 conversion tracking (GA4 installed 23 Apr — `NEXT_PUBLIC_GA_ID` env var on Vercel, `GoogleAnalytics` component loads lazyOnload)
 - Next cron fire: Thu 23 Apr 20:00 UTC (awaiting Session 1 blog refill)
@@ -93,7 +93,7 @@ Choose the highest-leverage option based on current state:
 - **Navigation:** Collection · Areas · About · Process · Blog · Get Estimate · Contact
 - **Phone:** 0800 861 1450
 - **CTA:** "Request a Consultation"
-- **Total static pages:** ~336 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 60 collection items (54 have rich hand-written page content; the rest use auto-generated descriptions), 40 blog posts, 161 area pages, 16 area hubs, 10 Phase 1D topic pages)
+- **Total static pages:** ~335 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 60 collection items (54 have rich hand-written page content; the rest use auto-generated descriptions), 39 blog posts, 161 area pages, 16 area hubs, 10 Phase 1D topic pages)
 - **Sitemap:** 297 URLs at `/sitemap.xml` (was 286, added 10 Phase 1D topic pages + /sitemap HTML page on 18 Apr 2026)
 - **HTML sitemap:** `/sitemap` (new 18 Apr 2026) — visible page linked from footer, lists every URL on the site
 - **Google Maps embed** on contact page (business name pin, no street address shown)
