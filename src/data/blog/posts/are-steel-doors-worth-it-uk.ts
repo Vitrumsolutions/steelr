@@ -88,7 +88,7 @@ In practical terms, replacing a draughty, poorly sealed old door with a modern t
 
 Home insurers assess risk partly on the physical security of the property. A door with independently certified security credentials can positively affect your premium:
 
-- **SR3 certification** demonstrates the highest level of residential security testing
+- **LPS 1175 SR3 certification** is the LPCB police-preferred residential security tier (with **SR4 Commercial-grade** and **LPS 1673 Ultra-high** available as further upgrades)
 - **Secured by Design approval** is recognised by the Association of British Insurers
 - **Multi-point locking** with anti-snap, anti-pick and anti-drill cylinders meets insurer requirements for secure locks
 - Some specialist UK home insurers acknowledge LPS 1175 and Secured by Design accreditation in their underwriting. Premium adjustments and reduced theft excesses vary by insurer. Speak to your insurer directly with the certification documentation supplied with the door.

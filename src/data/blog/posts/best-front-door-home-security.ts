@@ -113,7 +113,7 @@ The best front door for home security combines:
 - **Secured by Design** accreditation for police-approved security
 - **Professional installation** to maintain the tested specification
 
-At SteelR, every entrance door meets all of these criteria as standard. Whether you are securing a London townhouse or a country home in the [Home Counties](/areas/surrey), we design and manufacture to the highest residential security specification available. For a full technical breakdown of what BS EN 1627 Class 3 actually involves, see our [SR3 residential steel door](/sr3-residential-steel-door) page. Explore our [collection](/collection) to see the range of designs, then [contact us](/contact) to discuss your security requirements.
+At SteelR, every entrance door meets all of these criteria as standard. Whether you are securing a London townhouse or a country home in the [Home Counties](/areas/surrey), we ship BS EN 1627:2011 RC4 single leaf, unglazed as Standard on every door, with LPS 1175 SR3 (LPCB police-preferred Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673 attack-resistance (Ultra-high, by enquiry) available as further tiers. For a full technical breakdown of the SR3 tier, see our [SR3 residential steel door](/sr3-residential-steel-door) page; for the higher tiers, see our [SR4](/sr4-residential-steel-door) and [LPS 1673](/lps-1673-attack-resistant-steel-door) pages. Explore our [collection](/collection) to see the range of designs, then [contact us](/contact) to discuss your security requirements.
 
 ## Frequently Asked Questions
 
@@ -123,7 +123,7 @@ A genuinely secure front door meets three criteria. First, it carries independen
 
 ### Which material makes the most secure front door?
 
-Steel is the consistent leader for SR3 residential certification. Timber doors rarely reach SR3 due to the heavy engineering required, composite doors typically cap at PAS 24, and aluminium residential doors also cap at PAS 24. Solid hardwood doors with steel-reinforced cores and security-rated glazing can reach SR3 but are expensive and niche. For most UK homeowners targeting the highest residential security rating, steel is the default and most cost-effective choice.
+Steel is the consistent leader for SR3 residential certification, and the only material that reaches the SR4 (Commercial-grade) and LPS 1673 (Ultra-high) tiers above it. Timber doors rarely reach SR3 due to the heavy engineering required, composite doors typically cap at PAS 24, and aluminium residential doors also cap at PAS 24. Solid hardwood doors with steel-reinforced cores and security-rated glazing can reach SR3 but are expensive and niche. For UK homeowners targeting any of the LPCB-certified residential tiers (SR3 Enhanced, SR4 Commercial-grade, LPS 1673 Ultra-high), steel is the default and most cost-effective choice.
 
 ### What is a multi-point locking system and why does it matter?
 

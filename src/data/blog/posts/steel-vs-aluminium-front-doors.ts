@@ -94,7 +94,7 @@ For the vast majority of UK properties, including those in [London](/areas/londo
 
 Choose **aluminium** if you want ultra-slim sightlines, maximum glass area, lighter weight for very large openings, or if your property is in a highly exposed coastal location.
 
-Choose **steel** if you want the **highest available security** (SR3), maximum durability, a substantial tactile quality, traditional or period design options, and a door that will hold its shape and performance for decades without compromise.
+Choose **steel** if you want **LPCB-certified residential security** (BS EN 1627 RC4 as Standard, with LPS 1175 SR3 Enhanced, SR4 Commercial-grade and LPS 1673 Ultra-high available as upgrades on every SteelR door), maximum durability, a substantial tactile quality, traditional or period design options, and a door that will hold its shape and performance for decades without compromise.
 
 At SteelR, we manufacture bespoke steel entrance doors to BS EN 1627 RC4 as Standard, with LPS 1175 SR3 Enhanced upgrade and SR4 Commercial-grade upgrade available on every door. Every door Secured by Design accredited, ISO 9001 certified and designed to your exact specification. Explore our [collection](/collection) to see the range of designs available, or learn more [about our approach](/about). [Contact us](/contact) to discuss whether steel is the right choice for your home.
 

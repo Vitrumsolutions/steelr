@@ -64,7 +64,7 @@ South London contains some of the capital's best-kept secrets for period propert
 London's period properties face a unique combination of challenges that steel entrance doors are perfectly positioned to address:
 
 - **Conservation area compliance**: a bespoke steel door can faithfully replicate any period design to satisfy planning requirements
-- **Security**: high-value London properties are attractive targets, and SR3-rated steel doors provide the highest residential protection typically available
+- **Security**: high-value London properties are attractive targets. BS EN 1627:2011 RC4 single leaf, unglazed is included as Standard on every SteelR door, with LPS 1175 SR3 (LPCB police-preferred Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673 attack-resistance (Ultra-high, by enquiry) available where the threat profile justifies it
 - **Thermal performance**: period properties are often draughty, and a thermally broken steel door significantly reduces heat loss through the entrance
 - **Zero maintenance**: unlike timber, steel doors do not warp, rot or require regular repainting, which is particularly valuable in London's variable climate
 - **Design precision**: non-standard openings are common in period properties, and bespoke steel doors are manufactured to exact dimensions

@@ -156,7 +156,7 @@ Most standard home insurance policies require a five-lever mortice deadlock to B
 
 ### Do insurers recognise the SR3 security rating?
 
-Yes. The SR3 rating under LPS 1175 is issued by the Loss Prevention Certification Board, which is widely recognised across the UK insurance industry. SR3 significantly exceeds the security requirements of standard and most high-value home insurance policies. It is the rating specified for properties requiring the highest level of residential door security.
+Yes. The SR3 rating under LPS 1175 is issued by the Loss Prevention Certification Board, which is widely recognised across the UK insurance industry. SR3 significantly exceeds the security requirements of standard and most high-value home insurance policies. It is the LPCB police-preferred tier specified for properties wanting demonstrably elevated residential door security, with SR4 (Commercial-grade) and LPS 1673 (Ultra-high) available as further upgrade tiers where insurers have flagged a higher threat profile.
 
 ### What happens if my door is broken into and it was not security rated?
 

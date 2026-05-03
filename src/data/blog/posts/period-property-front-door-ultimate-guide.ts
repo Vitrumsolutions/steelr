@@ -160,7 +160,7 @@ The result is a door that is visually indistinguishable from its period predeces
 
 ## Maintaining Historical Character with Modern Performance
 
-The tension between heritage conservation and modern building performance is a false dichotomy. It is entirely possible to have a front door that satisfies conservation officers, delivers U-values below 1.0 W/m2K, achieves the highest available security rating, and looks as though it has been part of the property for 150 years.
+The tension between heritage conservation and modern building performance is a false dichotomy. It is entirely possible to have a front door that satisfies conservation officers, delivers U-values below 1.0 W/m2K, ships at BS EN 1627 RC4 Standard with LPS 1175 SR3, SR4 and LPS 1673 available as upgrade tiers, and looks as though it has been part of the property for 150 years.
 
 The key is working with a manufacturer who understands both the architectural heritage and the engineering. Mass-market door companies design for efficiency and standardisation. Bespoke manufacturers design for the specific property, its period, its proportions and its context.
 

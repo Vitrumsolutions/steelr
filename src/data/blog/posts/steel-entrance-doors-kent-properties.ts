@@ -112,7 +112,7 @@ An SR3-rated door with **Secured by Design** accreditation, **anti-snap cylinder
 
 While coastal properties face environmental challenges, they also benefit from relatively lower burglary rates compared to commuter belt areas. The security specification can be balanced with the specific requirements of coastal weathering — ensuring that the door is engineered to perform in an aggressive environment while still meeting an appropriate security standard.
 
-Steel doors with SR3 certification and Secured by Design accreditation provide the highest residential security available, meeting both police recommendations and insurer requirements.
+Steel doors with LPS 1175 SR3 certification (LPCB police-preferred) and Secured by Design accreditation meet both police recommendations and insurer requirements. SR4 (Commercial-grade) and LPS 1673 (Ultra-high) are available as further upgrade tiers on every SteelR door where the threat profile justifies them.
 
 ## Coastal Weathering Considerations
 

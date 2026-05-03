@@ -43,7 +43,7 @@ However, SR2 does not account for heavier tools or a more determined attacker. A
 
 ### LPS 1175 SR3 (Issue 8). Heavy-Duty Tools, Experienced Burglar
 
-**SR3 is the highest security rating commercially available for residential entrance doors in the United Kingdom.** The test assumes an experienced burglar with knowledge of door construction, using professional-grade tools including crowbars up to 750mm, drills, chisels, hacksaws and angle grinders. The attack is sustained for **5 minutes** of active working time.
+**SR3 is the LPCB police-preferred residential security tier under LPS 1175.** It is the highest tier most UK homeowners specify, sitting above PAS 24 and BS EN 1627 RC4 in the SteelR ladder, with SR4 (Commercial-grade) and LPS 1673 (Ultra-high) available as further upgrades for documented elevated threat profiles. The SR3 test assumes an experienced burglar with knowledge of door construction, using professional-grade tools including crowbars up to 750mm, drills, chisels, hacksaws and angle grinders. The attack is sustained for **5 minutes** of active working time.
 
 The 5-minute threshold is significant. Police data indicates that the vast majority of residential burglaries are abandoned within 3 minutes if entry is not achieved. An SR3 door provides a margin of safety well beyond the point at which most burglars will give up and move on.
 
