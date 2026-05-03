@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Steel Door Security Ratings | BS EN 1627 RC4, PAS 24, Secured by Design | SteelR",
   description:
-    "Residential steel front doors tested to BS EN 1627:2011 RC4 single leaf, unglazed — the European framework for sustained forced-entry resistance. PAS 24 certified, Secured by Design approved, Approved Document Q compliant.",
+    "Residential steel front doors tested to BS EN 1627:2011 RC4 single leaf, unglazed. The European framework for sustained forced-entry resistance. PAS 24 certified, Secured by Design approved, Approved Document Q compliant.",
   alternates: { canonical: "https://steelr.co.uk/security" },
   openGraph: {
     title:
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 2400,
         height: 1260,
-        alt: "SteelR — Steel Door Security Ratings | BS EN 1627:2011 RC4, PAS 24, Secured by Design",
+        alt: "SteelR Steel Door Security Ratings. BS EN 1627:2011 RC4, PAS 24, Secured by Design",
       },
     ],
   },

@@ -147,9 +147,12 @@ export default function RootLayout({
       <body
         className={`${cormorant.variable} ${montserrat.variable} ${tenorSans.variable} antialiased`}
       >
+        <a href="#main-content" className="skip-to-main">
+          Skip to main content
+        </a>
         <ScrollProgress />
         <Nav />
-        <main>{children}</main>
+        <main id="main-content" tabIndex={-1}>{children}</main>
         <Footer />
         <Analytics />
         <SpeedInsights />

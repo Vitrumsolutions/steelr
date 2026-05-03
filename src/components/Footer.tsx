@@ -98,7 +98,7 @@ export default function Footer() {
               fontWeight: 200,
               fontSize: 12,
               letterSpacing: "0.1em",
-              color: "rgba(245, 240, 232, 0.4)",
+              color: "rgba(245, 240, 232, 0.78)",
             }}
           >
             0800 861 1450
@@ -111,7 +111,7 @@ export default function Footer() {
               fontWeight: 200,
               fontSize: 11,
               letterSpacing: "0.05em",
-              color: "rgba(245, 240, 232, 0.3)",
+              color: "rgba(245, 240, 232, 0.78)",
             }}
           >
             info@steelr.co.uk
@@ -141,7 +141,7 @@ export default function Footer() {
                 fontWeight: 200,
                 fontSize: 9,
                 letterSpacing: "0.15em",
-                color: "rgba(245, 240, 232, 0.25)",
+                color: "rgba(245, 240, 232, 0.7)",
               }}
             >
               {link.label}
@@ -155,7 +155,7 @@ export default function Footer() {
             fontFamily: "var(--font-body), Montserrat, sans-serif",
             fontWeight: 200,
             fontSize: 10,
-            color: "rgba(245, 240, 232, 0.3)",
+            color: "rgba(245, 240, 232, 0.7)",
           }}
         >
           &copy; 2026 SteelR. All rights reserved.
