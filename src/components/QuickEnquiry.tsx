@@ -380,9 +380,26 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
               </button>
 
               {status === "error" && (
-                <p style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontSize: 12, color: "#b03a2e", marginTop: 4 }} role="alert">
-                  {errorMsg}
-                </p>
+                <div
+                  role="alert"
+                  aria-live="assertive"
+                  style={{
+                    marginTop: 8,
+                    fontFamily: "var(--font-body), Montserrat, sans-serif",
+                    fontSize: 12,
+                    color: "#7a1f1f",
+                    background: "#fef2f2",
+                    border: "2px solid #b91c1c",
+                    borderLeft: "6px solid #b91c1c",
+                    padding: "10px 14px",
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: 8,
+                  }}
+                >
+                  <span aria-hidden="true" style={{ fontWeight: 700, fontSize: 14 }}>!</span>
+                  <span>{errorMsg}</span>
+                </div>
               )}
 
               <p

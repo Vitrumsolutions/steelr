@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, useRef, useEffect, FormEvent } from "react";
 import ScrollReveal from "@/components/ScrollReveal";
 
 /* ── shared styles (matching ContactForm) ── */
@@ -155,10 +155,25 @@ export default function DesignEstimatePage() {
   const [step, setStep] = useState(0);
   const [form, setForm] = useState<FormData>(initial);
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const stepHeadingRef = useRef<HTMLHeadingElement | null>(null);
 
   function set<K extends keyof FormData>(key: K) {
     return (value: string) => setForm((prev) => ({ ...prev, [key]: value }));
   }
+
+  // Move focus to the new step's heading when step changes, so screen-reader
+  // and keyboard users land in the right place after Next/Back. Skip on the
+  // initial render (step 0 mount) so we do not steal focus on page load.
+  const isFirstRender = useRef(true);
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    if (stepHeadingRef.current) {
+      stepHeadingRef.current.focus();
+    }
+  }, [step]);
 
   function next() {
     setStep((s) => Math.min(s + 1, 3));
@@ -204,7 +219,15 @@ export default function DesignEstimatePage() {
   /* ── step indicator ── */
   function StepIndicator() {
     return (
-      <div className="flex items-center justify-center gap-0 mb-12">
+      <div
+        className="flex items-center justify-center gap-0 mb-12"
+        role="progressbar"
+        aria-valuemin={1}
+        aria-valuemax={STEPS.length}
+        aria-valuenow={step + 1}
+        aria-valuetext={`Step ${step + 1} of ${STEPS.length}: ${STEPS[step]}`}
+        aria-label="Design estimate progress"
+      >
         {STEPS.map((label, i) => (
           <div key={label} className="flex items-center">
             {/* dot + label */}
@@ -418,9 +441,21 @@ export default function DesignEstimatePage() {
           <ScrollReveal direction="up">
             <StepIndicator />
 
+            {/* aria-live announcement for SR step changes */}
+            <p className="sr-only" aria-live="polite" aria-atomic="true">
+              {`Step ${step + 1} of ${STEPS.length}: ${STEPS[step]}`}
+            </p>
+
             {/* ──────── STEP 1 — Project Type ──────── */}
             {step === 0 && (
               <div className="flex flex-col gap-6">
+                <h2
+                  ref={stepHeadingRef}
+                  tabIndex={-1}
+                  className="sr-only"
+                >
+                  Step 1 of 4: Project Type
+                </h2>
                 <Select
                   id="propertyType"
                   label="Property Type"
@@ -462,6 +497,13 @@ export default function DesignEstimatePage() {
             {/* ──────── STEP 2 — Door Specification ──────── */}
             {step === 1 && (
               <div className="flex flex-col gap-6">
+                <h2
+                  ref={stepHeadingRef}
+                  tabIndex={-1}
+                  className="sr-only"
+                >
+                  Step 2 of 4: Door Specification
+                </h2>
                 <div className="grid grid-cols-2 gap-4">
                   <Input
                     id="width"
@@ -515,7 +557,14 @@ export default function DesignEstimatePage() {
                   label="Security Rating Required"
                   value={form.security}
                   onChange={set("security")}
-                  options={["PAS 24", "SR3 (Standard)", "SR4 / LPS 1175 (Commercial-Grade Upgrade)", "Not Sure"]}
+                  options={[
+                    "PAS 24 (regulatory minimum)",
+                    "BS EN 1627 RC4 (Standard, included on every door)",
+                    "LPS 1175 SR3 (Enhanced upgrade)",
+                    "LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade)",
+                    "LPS 1673 (Ultra-high, by enquiry)",
+                    "Not Sure",
+                  ]}
                 />
                 <Select
                   id="fireRating"
@@ -531,6 +580,13 @@ export default function DesignEstimatePage() {
             {/* ──────── STEP 3 — Site Details ──────── */}
             {step === 2 && (
               <div className="flex flex-col gap-6">
+                <h2
+                  ref={stepHeadingRef}
+                  tabIndex={-1}
+                  className="sr-only"
+                >
+                  Step 3 of 4: Site Details
+                </h2>
                 <Input
                   id="postcode"
                   label="Property Location / Postcode"
@@ -558,7 +614,14 @@ export default function DesignEstimatePage() {
 
             {/* ──────── STEP 4 — Your Details + Review ──────── */}
             {step === 3 && (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+              <form onSubmit={handleSubmit} className="flex flex-col gap-6" noValidate>
+                <h2
+                  ref={stepHeadingRef}
+                  tabIndex={-1}
+                  className="sr-only"
+                >
+                  Step 4 of 4: Your Details
+                </h2>
                 <Input id="name" label="Full Name" value={form.name} onChange={set("name")} required />
                 <Input id="phone" label="Phone Number" value={form.phone} onChange={set("phone")} type="tel" required />
                 <Input id="email" label="Email Address" value={form.email} onChange={set("email")} type="email" required />
@@ -616,9 +679,29 @@ export default function DesignEstimatePage() {
                 </div>
 
                 {status === "error" && (
-                  <p style={{ fontSize: 13, color: "#c44" }}>
-                    Something went wrong. Please call us on 0800 861 1450.
-                  </p>
+                  <div
+                    role="alert"
+                    aria-live="assertive"
+                    style={{
+                      fontSize: 13,
+                      color: "#7a1f1f",
+                      background: "#fef2f2",
+                      border: "2px solid #b91c1c",
+                      borderLeft: "6px solid #b91c1c",
+                      padding: "12px 16px",
+                      display: "flex",
+                      alignItems: "flex-start",
+                      gap: 10,
+                    }}
+                  >
+                    <span aria-hidden="true" style={{ fontWeight: 700, fontSize: 16 }}>!</span>
+                    <span>
+                      <strong style={{ display: "block", marginBottom: 2 }}>
+                        We could not send your request.
+                      </strong>
+                      Something went wrong. Please call us on 0800 861 1450.
+                    </span>
+                  </div>
                 )}
 
                 <div className="flex justify-between mt-4">

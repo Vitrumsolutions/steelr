@@ -130,9 +130,29 @@ export default function ContactForm() {
       </div>
 
       {status === "error" && (
-        <p style={{ fontSize: 13, color: "#c44" }}>
-          Something went wrong. Please call us on 0800 861 1450.
-        </p>
+        <div
+          role="alert"
+          aria-live="assertive"
+          style={{
+            fontSize: 13,
+            color: "#7a1f1f",
+            background: "#fef2f2",
+            border: "2px solid #b91c1c",
+            borderLeft: "6px solid #b91c1c",
+            padding: "12px 16px",
+            display: "flex",
+            alignItems: "flex-start",
+            gap: 10,
+          }}
+        >
+          <span aria-hidden="true" style={{ fontWeight: 700, fontSize: 16 }}>!</span>
+          <span>
+            <strong style={{ display: "block", marginBottom: 2 }}>
+              We could not send your message.
+            </strong>
+            Something went wrong. Please call us on 0800 861 1450.
+          </span>
+        </div>
       )}
 
       <button
