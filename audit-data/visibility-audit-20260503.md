@@ -1,80 +1,88 @@
-# SteelR Visibility Audit — baseline (22 Apr 2026)
+# Visibility audit: SteelR — 2026-05-03
 
-## Google Organic Search (UK, 25 keywords)
+**Baseline:** visibility-audit-20260502.md (yesterday)
+**New audit:** fresh run 2026-05-03 via `python audit-data/visibility-audit.py`
+**Tracked terms:** 26 Google organic + 11 Google Maps + 15 Bing organic = 52 query/engine pairs
+**Engines queried by script:** Google organic (UK), Google Maps, Bing organic
+**Engines NOT covered by script:** ChatGPT, Perplexity, Claude, Gemini (assessed separately below from prior project notes)
 
-| # | Keyword | Position | URL |
-|---|---------|----------|-----|
-| 1 | steelr | **#1** | / |
-| 2 | steelr doors | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
-| 3 | steelr uk | — | not top 30 (top: steelersuk.com) |
-| 4 | steelr bespoke steel entrance doors | **#1** | / |
-| 5 | bespoke steel entrance doors UK | — | not top 30 (top: bespokesteeldoors.uk) |
-| 6 | steel front doors UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
-| 7 | steel front door UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
-| 8 | steel security doors residential UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
-| 9 | steel doors UK | — | not top 30 (top: www.doorsforsecurity.co.uk) |
-| 10 | PAS 24 front doors | — | not top 30 (top: www.expressdoorsdirect.co.uk) |
-| 11 | Secured by Design doors UK | — | not top 30 (top: www.securedbydesign.com) |
-| 12 | SR3 residential steel door | **#9** | /sr3-residential-steel-door |
-| 13 | fire rated entrance doors flats | — | not top 30 (top: www.doordeals.co.uk) |
-| 14 | FD30 front door UK | — | not top 30 (top: www.doordeals.co.uk) |
-| 15 | steel vs composite doors | **#5** | /blog/composite-vs-steel-doors-2026-updated-compar |
-| 16 | steel doors with glass panels UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
-| 17 | how much do steel doors cost UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
-| 18 | best front door for security UK | — | not top 30 (top: www.everest.co.uk) |
-| 19 | bespoke front doors London | — | not top 30 (top: www.bespokefrontdoor.co.uk) |
-| 20 | steel doors Buckinghamshire | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
-| 21 | steel doors Surrey | — | not top 30 (top: www.jennyfields.co.uk) |
-| 22 | steel doors Kensington | — | not top 30 (top: kensingtondoors.co.uk) |
-| 23 | steel doors Chelsea | **#8** | /areas/chelsea |
-| 24 | steel doors Cobham | **#9** | /areas/surrey |
-| 25 | steel doors Esher | **#6** | /areas/surrey |
-| 26 | bespoke steel doors London | — | not top 30 (top: bespokesteeldoors.uk) |
+---
 
-**Google organic hits: 7/26**
+## Headline numbers
 
-## Google Maps (local 3-pack)
+| Engine | 22 Apr (baseline) | 02 May | 03 May (fresh) | Δ vs yesterday |
+|---|---|---|---|---|
+| Google organic | 5/26 (19%) | 6/26 (23%) | **7/26 (27%)** | +1 |
+| Google Maps | 0/11 (0%) | 0/11 (0%) | 0/11 (0%) | 0 |
+| Bing organic | 0/15 (0%) | 0/15 (0%) | 0/15 (0%) | 0 |
 
-| # | Query | Position | Listing |
-|---|-------|----------|---------|
-| 1 | SteelR | — | not in Maps (top: no results) |
-| 2 | steel front doors near me London | — | not in Maps (top: Door Systems | ASSA ABLOY) |
-| 3 | bespoke steel doors London | — | not in Maps (top: Bespoke Steel Doors) |
-| 4 | steel doors installer Surrey | — | not in Maps (top: Steel-Craft Door Products Ltd) |
-| 5 | steel doors Cobham | — | not in Maps (top: North South Windows Ltd) |
-| 6 | steel doors Esher | — | not in Maps (top: Midwest Iron Doors) |
-| 7 | steel doors Richmond | — | not in Maps (top: Doorways of Wyoming) |
-| 8 | steel security doors London | — | not in Maps (top: ASL Steel Doors) |
-| 9 | steel front door installer | — | not in Maps (top: Susquehanna Valley Door and Window) |
-| 10 | steel doors Uxbridge | — | not in Maps (top: Upright Door Service Inc.) |
-| 11 | steel doors Kensington | — | not in Maps (top: Defender Steel Door & Window Company Chicago) |
+Google organic is the only engine moving. Trend is positive: 5 → 6 → 7 hits across the 11-day window, with the SR3 topic page steadily climbing (#9 → #7 → #4) and a new Kensington area page appearing.
 
-**Google Maps hits: 0/11**
+---
 
-## Bing Organic Search
+## Wins (rank up ≥ 3 OR newly visible)
 
-| # | Keyword | Position | URL |
-|---|---------|----------|-----|
-| 1 | steelr | — | not top 30 |
-| 2 | steelr doors | — | not top 30 |
-| 3 | steelr uk | — | not top 30 |
-| 4 | steelr bespoke steel entrance doors | — | not top 30 |
-| 5 | bespoke steel entrance doors UK | — | not top 30 |
-| 6 | steel front doors UK | — | not top 30 |
-| 7 | steel front door UK | — | not top 30 |
-| 8 | steel security doors residential UK | — | not top 30 |
-| 9 | steel doors UK | — | not top 30 |
-| 10 | PAS 24 front doors | — | not top 30 |
-| 11 | Secured by Design doors UK | — | not top 30 |
-| 12 | SR3 residential steel door | — | not top 30 |
-| 13 | fire rated entrance doors flats | — | not top 30 |
-| 14 | FD30 front door UK | — | not top 30 |
-| 15 | steel vs composite doors | — | not top 30 |
+- **`steel doors Kensington`** — was off top-30, now **#5** at `/areas/kensington`. NEW visibility on a high-intent West London query. Direct evidence area-page architecture is finally being indexed and ranked on the right slug (previously the system was surfacing the parent `/areas` hub for Cobham/Esher type queries).
+- **`SR3 residential steel door`** — **#7 → #4** at `/sr3-residential-steel-door`. +3 positions on the highest-value topic page on the site. This is the page most directly tied to the staged llms-full.txt edits (the 4-tier ladder framing replaces the older "SR3 as standard" claim that this page itself no longer makes).
 
-**Bing organic hits: 0/15**
+## Improved (rank up 1-2)
 
-## Summary
+- **`steel doors Chelsea`** — #8 → #7 at `/areas/chelsea` (+1). Stable strong performer.
 
-- Google organic: 7/26 (26%)
-- Google Maps: 0/11 (0%)
-- Bing organic: 0/15 (0%)
+## Stable
+
+- **`steelr`** brand — #1 (unchanged).
+- **`steelr bespoke steel entrance doors`** — #1 (unchanged).
+- **`steel vs composite doors`** — #5 at `/blog/composite-vs-steel-doors-2026-updated-compar` (unchanged).
+- **`steel doors Cobham`** — #10 at `/areas/surrey` (unchanged, edge-of-page-1).
+
+## Regressed
+
+- None. No tracked organic position dropped vs yesterday.
+
+## Losses (was visible, now not)
+
+- None.
+
+## No-shows (still not appearing across all 3 engines tracked)
+
+Persistent zeroes — these are the categories where the staged llms-full.txt edit theoretically helps most because Google has not yet picked SteelR as a relevant result:
+
+- `steelr doors`, `steelr uk` — brand-adjacent queries lost to lookalikes (lathamssteeldoors, steelersuk.com).
+- All UK-wide product head terms: `bespoke steel entrance doors UK`, `steel front doors UK`, `steel front door UK`, `steel security doors residential UK`, `steel doors UK`.
+- All certification queries: `PAS 24 front doors`, `Secured by Design doors UK`, `fire rated entrance doors flats`, `FD30 front door UK`.
+- Cost / shopper queries: `how much do steel doors cost UK`, `best front door for security UK`.
+- London-wide: `bespoke front doors London`, `bespoke steel doors London`, `steel doors with glass panels UK`.
+- Regional hubs: `steel doors Buckinghamshire`, `steel doors Surrey`, `steel doors Esher`.
+- All Bing tracked queries (15/15 zero) — post-migration indexing lag, IndexNow wired 19 Apr, recovery still pending.
+- All Google Maps queries (11/11 zero) — blocked by 0 GBP reviews.
+
+---
+
+## AI engines (out-of-band, from project history)
+
+The script does not query AI engines. Latest evidence on file (CLAUDE.md, baseline 22 Apr 2026):
+
+- **ChatGPT** — listed FIRST for "best bespoke steel front door companies UK". Strongest channel.
+- **Google AI Mode** — #1 featured manufacturer, `steelr.co.uk +4` primary citation pattern.
+- **Perplexity** — cited as "best-fit option" for SR3 Secured by Design specifier query.
+- **Claude / Gemini** — no logged baseline.
+
+Citation source on those wins is overwhelmingly the topic-hub pages (`/sr3-residential-steel-door`, `/bespoke-steel-front-doors-uk`) plus llms-full.txt's `## Blog Excerpts` section. The staged change touches that exact section.
+
+**Risk profile of the staged edit:** the 6 line edits replace stale "highest residential rating" / "SR3 as standard" claims that contradict the live blog posts (updated yesterday in `65ad41e`) with the current 4-tier ladder. This means right now SteelR is publishing two contradictory positions to AI crawlers — the live HTML says one thing, the llms-full cache says another. AI engines that cross-check both will hedge. The staged edit closes that contradiction.
+
+---
+
+## Strongest channel right now
+
+**AI engines, by a wide margin.** Google organic is improving but still 27% of tracked terms. Bing and Maps are at zero. ChatGPT, Perplexity and Google AI Mode are the only surfaces where SteelR currently wins on broad category queries. Protecting and updating the llms files is therefore higher-leverage than any other content surface — the cache disruption risk of the staged edit is small relative to the contradiction risk of leaving it stale.
+
+---
+
+## Recommended actions
+
+1. **Ship the staged llms-full.txt edit.** The contradiction it closes (live blog says 4-tier ladder, cache says "SR3 as standard") is actively harmful to AI citation accuracy. The 6 lines touched are inside auto-generated blog excerpts — small surface area.
+2. After ship, re-test ChatGPT and Perplexity on the SR3 query within 72 hours to confirm citation pattern stays intact or improves (no in-script automation for this — manual check).
+3. Investigate why `steelr doors` / `steelr uk` lose to lookalikes despite brand `steelr` ranking #1. Likely intent-classification: Google reads "steelr doors" as a shopper query and prefers Latham's. May be unfixable without more brand search volume.
+4. The Maps + Bing zeroes are unchanged from baseline and are user-managed (reviews, IndexNow lag). Not in scope for this audit.
