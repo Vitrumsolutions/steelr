@@ -1,7 +1,7 @@
 # SteelR — STATE
 
 ## Where I left off
-03 May 2026. Long-term authority architecture **committed and started**. The user explicitly approved both (a) the 5 load-bearing patterns as standing rules and (b) the 4-phase roadmap order. Phase 0 (structural fixes closing the 4-tier ladder asymmetry across all 200+ pages) shipped + live verified in commit `20e9ca4`. Next session picks up at Phase 1.
+03 May 2026 evening. **Phases 0 and 1 of the long-term authority roadmap shipped + live verified.** The user pre-approved a multi-commit batch ("continue with 8 commits"). Phase 1 (RC4 topic page completing the 4-tier ladder) shipped in commit `a2fa6f4`. Four bundled a11y commits also shipped (contrast, hero pause, form labels, focus trap + lang). New RC4 page pushed to GSC Indexing API + IndexNow (HTTP 200 both). Next session picks up at Phase 2 (the audience-hub wedge: /for-architects, /for-developers, /insurance-recognised-front-doors-uk, /heritage-conservation-steel-doors-uk).
 
 ## The 5 load-bearing patterns (committed once, never break these)
 
@@ -24,13 +24,21 @@ Close the 4-tier ladder asymmetry across all surfaces. Done in 6 fixes:
 - ✅ Duplicate /lps-1673-attack-resistant-steel-door entry removed from llms.txt
 - ✅ Entity Reference query maps expanded with RC4 + LPS 1673 mappings (both files)
 
-**Phase 1 — CLOSE THE 4-TIER ASYMMETRY (next session, ~2 hours)**
-The genuine wedge is the 4-tier ladder. RC4 is branded as the *Standard* tier on every page but has no dedicated URL while SR3/SR4/LPS 1673 each have one. This is the structural inconsistency that completes the ladder.
-- Build `/bs-en-1627-rc4-residential-steel-door` topic page following Pattern #2 (InfoPage + BreadcrumbList + WebPage about[] + FAQPage + 5 FAQs + back-link to bespoke hub)
-- Sitemap priority 0.85 to match SR3/SR4/LPS 1673
-- Cross-link from sr3, sr4, lps-1673, security-specification, bespoke hub
-- llms.txt + llms-full.txt: add to Topic Pages section in established 148-264 char format
-- After deploy, re-run AI spot-check at 7d to measure RC4 ingestion vs the 03 May baseline
+**Phase 1 — CLOSE THE 4-TIER ASYMMETRY (✅ SHIPPED in commit `a2fa6f4`)**
+The genuine wedge is the 4-tier ladder. RC4 is branded as the *Standard* tier on every page but had no dedicated URL while SR3/SR4/LPS 1673 each had one. The structural inconsistency is now closed.
+- ✅ `/bs-en-1627-rc4-residential-steel-door` topic page built via Pattern #2 (InfoPage + BreadcrumbList + WebPage about[] + FAQPage + 5 FAQs + back-link to bespoke hub) — live HTTP 200
+- ✅ Sitemap priority 0.85 (matches SR3/SR4/LPS 1673)
+- ✅ Cross-links FROM 5 sibling pages (sr3, sr4, lps-1673, sbd, bespoke hub) verified live
+- ✅ llms.txt Topic Pages entry (350 chars, within 148-650 range)
+- ✅ llms-full.txt Topic and Comparison Guides deep-dive entry mirroring SR3 pattern
+- ✅ Pushed to GSC Indexing API + IndexNow (HTTP 200 both)
+- ⏳ Re-run AI spot-check at 10 May (7-day mark) to measure RC4 ingestion uplift vs 03 May baseline
+
+**Phase 1 a11y polish (✅ SHIPPED, 4 bundled commits)**
+- ✅ `85b9cda` — Sub-AA contrast fixed: Nav links 4.0:1→5.4:1, phone link 3.3:1→5.4:1, Hero subhead 3.4:1→5.0:1
+- ✅ `5c43dbf` — Hero carousel pause/play control (WCAG 2.2.2)
+- ✅ `b2699df` — QuickEnquiry visible labels on 288+ pages (WCAG 3.3.2) + aria-required
+- ✅ `b030581` — Mobile menu Tab focus trap (WCAG 2.4.3) + lang="en-GB" (WCAG 3.1.1)
 
 **Phase 2 — BUILD THE AUDIENCE-HUB WEDGE (this month, ~6-10 hours)**
 The wedge identified by research-scout: no UK competitor combines homeowner design + full standards depth + conservation/heritage + HNW security narrative. Build dedicated hubs for the 4 audiences:
@@ -65,9 +73,15 @@ Win commercial-intent queries 12-24 months ahead of competitors:
 - ❌ BS 8214:2026 content — research-scout couldn't verify the standard exists. Current canonical is BS 8214:2008.
 
 ## Next action
-- **Phase 1** in next session: build `/bs-en-1627-rc4-residential-steel-door` topic page following Pattern #2 (InfoPage + BreadcrumbList + WebPage about[] + FAQPage + 5 FAQs + back-link to /bespoke-steel-front-doors-uk hub). Sitemap priority 0.85. Cross-link from sr3, sr4, lps-1673, security-specification, bespoke hub. llms.txt + llms-full.txt Topic Pages section addition (148-264 char range). Panel-gate llms changes. Commit + push + GSC + IndexNow + live verify.
-- **P1 quick wins still open** (do alongside or before Phase 1): Nav contrast 4.0:1 → 4.5:1+, phone link 3.3:1 → 4.5:1+, Hero subhead 3.4:1 over gradient, Hero carousel pause control (WCAG 2.2.2), QuickEnquiry visible labels (288+ pages), em-dash detector in brand-guard.mjs, lang="en" → "en-GB".
-- **GSC + IndexNow recheck**: 10 priority URLs pushed today. Check GSC Page Indexing report in 7-10 days for indexing uplift on /areas/buckinghamshire, /areas/kensington, /areas/esher, the 3 Phase 1D pages, sr3, sr4, lps-1673, security-specification.
+- **Phase 2** in next session: build the audience-hub wedge (4 hubs via Pattern #2 InfoPage template):
+  1. `/for-architects` — NBS clauses, BIM/IFC files, U-value calc data, acoustic Rw + Ctr, wind class BS EN 12210, threshold detail drawings, CE/UKCA DoP downloads, fire test reports BS EN 1634-1
+  2. `/for-developers` — Approved Doc Q pack, BSA golden-thread documentation, NHBC/Premier compatibility, social housing frameworks, gateway 2/3 evidence packs
+  3. `/insurance-recognised-front-doors-uk` — LPCB Red Book entries, insurer-recognised certification ladder, expected premium-impact framing, claims-evidence retention
+  4. `/heritage-conservation-steel-doors-uk` — Article 4, Listed Building Consent, period-accurate panel mouldings, conservation officer support letters, named conservation area case studies
+- **GSC + IndexNow recheck**: 11 priority URLs pushed today (10 from morning + 1 RC4 evening). Check GSC Page Indexing report in 7-10 days for indexing uplift on /areas/buckinghamshire, /areas/kensington, /areas/esher, the 3 Phase 1D pages, sr3, sr4, lps-1673, security-specification, bs-en-1627-rc4.
+- **AI spot-check at 10 May (7-day mark)**: re-run on the 10 queries from 03 May baseline to measure (a) whether 4-tier ladder full uptake closed (RC4 + LPS 1673 were absent on 03 May; should now appear), (b) whether new RC4 topic page is being cited.
+- **P1 still open**: em-dash detector in brand-guard.mjs is **already implemented** (DASH_PATTERNS at line 138). Yesterday's deep-reviewer recommendation was outdated. Mark off the queue.
+- **P2 polish remaining**: InfoPage hero clip verify at 320px with longest H1, page title length trims (7 pages over 60 chars).
 
 ## Blockers
 - 0 GMB reviews still the Maps 3-pack blocker — user-managed, do not re-suggest.
@@ -76,6 +90,7 @@ Win commercial-intent queries 12-24 months ahead of competitors:
 - Supplier disclosure rule: never name the supplier or specific cert IDs that link back to them. Generic body refs (UKAS, LPCB, BRE Global, BM TRADA Q-Mark scheme) are safe.
 
 ## Recent wins (last 14 days)
+- 2026-05-03 evening — Phase 1 + 4 a11y commits: `/bs-en-1627-rc4-residential-steel-door` topic page completing 4-tier ladder (a2fa6f4); Nav + Hero contrast lifted to 5+:1 (85b9cda); Hero carousel pause control WCAG 2.2.2 (5c43dbf); QuickEnquiry visible labels 288+ pages (b2699df); mobile menu focus trap + lang en-GB (b030581). RC4 page pushed to GSC + IndexNow.
 - 2026-05-03 — Phase 0 long-term authority architecture shipped + live: 4-tier ladder now expressed on all 200+ pages (was 13 of 200+); area H1 template fixed across 161 pages; 3 mobile glitches (Hero CTA overlap, QuickEnquiry overflow, CredentialsBanner scroll cue); duplicate llms.txt entry removed; Entity Reference expanded for RC4 + LPS 1673; redirect verified; blog count reconciled (`20e9ca4`, `918b914`, `f314bce`, `2095ea9`, `6ef346a`).
 - 2026-05-03 — Multi-agent panel ran (research-scout external authority + deep-reviewer internal audit + cannibalisation-auditor) and produced single coherent long-term plan committed by user.
 - 2026-05-03 — GSC Indexing API + IndexNow pushed for 10 priority URLs (3 area pages + 3 Phase 1D + 4 cert/spec pages). All HTTP 200.
