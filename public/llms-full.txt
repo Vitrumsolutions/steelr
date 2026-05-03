@@ -1656,7 +1656,7 @@ London is home to some of the finest period architecture in the world. From gran
 - [Period Property Front Doors in Buckinghamshire: Conservation & Listed-Building Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
 - [Front Doors for Kent Coastal Properties: Salt-Air & Weather Specification](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
-### Security (9 posts)
+### Security (10 posts)
 
 #### Secured by Design Homes UK: 2026 Developer and Buyer Guide
 URL: https://steelr.co.uk/blog/secured-by-design-homes-guide-2026 | Category: Security | Published: 2026-07-02 | 9 min read
@@ -1765,6 +1765,44 @@ Q: Should I inform my insurer when I upgrade my front door?
 A: Yes. Any material change to your property's security should be reported to your insurer. A door upgrade is a positive change that may reduce your premium or improve your terms. Failure to notify could theoretically create an issue if you need to make a claim, even though the improvement itself strengthens your position.
 
 Most homeowners understand that locks matter to insurers. Fewer appreciate that the door itself — its material, construction and independently verified security rating — can meaningfully influence insurance terms, premiums and the outcome of a claim. In an era of rising premiums and increasingly sophisticated burglary methods, the home insurance door security ratings recognised by UK insurers deserve closer attention.
+
+**Related:**
+
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+
+#### Steel Front Doors and the Building Safety Act 2022
+URL: https://steelr.co.uk/blog/steel-front-doors-building-safety-act-2022 | Category: Security | Published: 2026-05-03 | 10 min read
+
+What the Building Safety Act 2022 means for steel front door specification on UK higher-risk buildings. Accountable Person duties, golden thread, FD30 vs FD60.
+
+**Key facts:**
+
+- For the underlying door specifications referenced throughout, see the PAS 24 hub page, the SR3 residential standard, the Secured by Design approval page and the fire rated FD30 hub.
+- For doors, this means the original certification documents (PAS 24, SR3, FD30 or FD60, SBD), the installation drawings, the supplier's identity, the date of installation, and any subsequent modifications must form a continuous documentary chain.
+- The Building Safety Act 2022 does not itself specify FD30 or FD60.
+- A higher-risk classification under BSA does not automatically upgrade every door from FD30S to FD60.
+- An FD30S door in a BSA-scope building must be evidentially better-documented than the same FD30S door in a non-scope building.
+
+**FAQs:**
+
+Q: Does the Building Safety Act 2022 apply to my single-family home?
+A: No. The Higher-Risk Buildings regime applies to buildings of at least 18 metres in height or seven storeys with two or more residential dwellings. A single-family home falls outside scope. However, the Fire Safety Act 2021 and the Regulatory Reform (Fire Safety) Order 2005 may still apply if the property is part of a multi-occupied building or used as an HMO.
+
+Q: What if my building is just below the 18 metre threshold?
+A: The Building Safety Act 2022 does not apply, but the building still falls under Approved Document B, the Fire Safety Act 2021 and the 2005 Order. Many freeholders and managing agents of mid-rise buildings (typically four to seven storeys) are choosing to specify and document doors to BSA-equivalent standards as a precaution, anticipating that enforcement and insurance expectations will harden over the coming years.
+
+Q: Who is the Accountable Person on a leasehold flat with a managing agent?
+A: Usually the freeholder is the Accountable Person. Where the freehold has been sold to a residents' company, the company directors carry the duty. The managing agent may carry day-to-day delegated duties (and may be the Building Safety Manager), but legal accountability rests with the named legal person on the building safety case. The exact arrangement is set out in the building's safety case file.
+
+Q: Can I modify the front entrance door to my flat without telling anyone?
+A: In a building within Building Safety Act scope, no. Any modification to a flat entrance door must be approved by the Accountable Person or Building Safety Manager because the door forms part of the building's fire compartmentation strategy. Unauthorised modification is a breach of the lease in most cases and can attract enforcement action under the Fire Safety Act 2021. Even a hardware change such as fitting an additional bolt should be cleared.
+
+Q: How does the golden thread survive a change of management agent?
+A: The safety case file, which contains the golden thread documentation, transfers to the incoming agent as part of the handover. The Building Safety Regulator can audit the handover and request evidence that the documentation is complete and current. SteelR supplies the post-installation handover pack in a format designed to be filed directly into the safety case, so the documentary chain is concentrated rather than scattered across emails and supplier contacts.
+
+The Building Safety Act 2022 changed the legal status of an entrance door on a UK higher-risk residential building. Before the Act, a door was a product. The product was specified, installed, and the building moved on. After the Act, on any in-scope building, the door is also a documentary object: a certified assembly whose specification must be recorded, whose maintenance must be logged, and whose performance must be re-verified periodically by a named Accountable Person who carries personal liability for the safety case.
 
 **Related:**
 

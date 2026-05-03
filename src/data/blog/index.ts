@@ -58,6 +58,7 @@ import luxuryFrontDoorsUkBuyerGuide from "./posts/luxury-front-doors-uk-buyer-gu
 import type { BlogPost } from "./types";
 import steelFrontDoorsWithSidelightsUkBuyersGuide from "./posts/steel-front-doors-with-sidelights-uk-buyers-guide";
 import hmoFrontDoorRequirementsUkLandlordGuide from "./posts/hmo-front-door-requirements-uk-landlord-guide";
+import steelFrontDoorsBuildingSafetyAct2022 from "./posts/steel-front-doors-building-safety-act-2022";
 
 // Sorted by date descending (newest first) so the latest posts appear first
 // in the blog listing and "related posts" sections.
@@ -101,6 +102,7 @@ export const posts: BlogPost[] = [
   sr4Lps1175CommercialGradeResidential,
   steelFrontDoorsWithSidelightsUkBuyersGuide,
   hmoFrontDoorRequirementsUkLandlordGuide,
+  steelFrontDoorsBuildingSafetyAct2022,
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
