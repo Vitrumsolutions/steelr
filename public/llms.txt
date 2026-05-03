@@ -275,6 +275,7 @@ SteelR doors are bespoke and individually priced based on specification. There a
 ## Topic and Comparison Guides
 
 - [Bespoke Steel Front Doors UK (hub)](https://steelr.co.uk/bespoke-steel-front-doors-uk). Central hub explaining what bespoke means on a steel front door, how a SteelR project runs, certifications on every door, nationwide coverage.
+- [BS EN 1627 RC4 Residential Steel Door (Standard tier)](https://steelr.co.uk/bs-en-1627-rc4-residential-steel-door). BS EN 1627:2011 RC4 single leaf, unglazed. The European framework for sustained forced-entry resistance. SteelR's Standard tier on every bespoke door, materially above the PAS 24 hardware-only test mandated for new-build dwellings.
 - [SR3 Residential Steel Doors (Enhanced upgrade)](https://steelr.co.uk/sr3-residential-steel-door). LPS 1175 SR3 explained. The LPCB police-preferred specification. SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 standard residential specification.
 - [SR4 Residential Steel Doors (Commercial-grade upgrade)](https://steelr.co.uk/sr4-residential-steel-door). LPS 1175 SR4 (D10 Issue 8) explained. The LPCB Commercial-grade certification used on data centres and bank vaults. SteelR's Commercial-grade upgrade tier.
 - [PAS 24 Steel Entrance Doors](https://steelr.co.uk/pas-24-steel-entrance-door). Approved Document Q compliance, what PAS 24:2022 tests, why it is the floor not the ceiling.

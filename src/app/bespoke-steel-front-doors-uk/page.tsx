@@ -300,9 +300,14 @@ export default function BespokeHubPage() {
           title: "Supporting pages that go deeper",
           links: [
             {
+              href: "/bs-en-1627-rc4-residential-steel-door",
+              label: "BS EN 1627 RC4 (SteelR Standard tier)",
+              description: "The European framework for sustained forced-entry resistance. SteelR's Standard tier on every bespoke door, the baseline of the four-tier ladder.",
+            },
+            {
               href: "/sr3-residential-steel-door",
-              label: "SR3 residential steel doors",
-              description: "What SR3 means for a home front door, and how BS EN 1627 Class 3 testing works.",
+              label: "SR3 residential steel doors (Enhanced upgrade)",
+              description: "What LPS 1175 SR3 means for a home front door, and how the LPCB police-preferred specification sits above the BS EN 1627 RC4 Standard.",
             },
             {
               href: "/pas-24-steel-entrance-door",

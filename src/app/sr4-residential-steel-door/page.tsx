@@ -296,6 +296,12 @@ export default function Sr4Page() {
           title: "Related reading",
           links: [
             {
+              href: "/bs-en-1627-rc4-residential-steel-door",
+              label: "BS EN 1627 RC4 (SteelR Standard tier)",
+              description:
+                "The European framework for sustained forced-entry resistance. SteelR's Standard tier on every door, the baseline above which SR3, SR4 and LPS 1673 sit as upgrades.",
+            },
+            {
               href: "/sr3-residential-steel-door",
               label: "LPS 1175 SR3. Enhanced upgrade tier",
               description:

@@ -275,6 +275,11 @@ export default function Sr3Page() {
           title: "Related reading",
           links: [
             {
+              href: "/bs-en-1627-rc4-residential-steel-door",
+              label: "BS EN 1627 RC4 (SteelR Standard tier)",
+              description: "The European framework for sustained forced-entry resistance. Standard on every SteelR door, the tier SR3 sits above as the Enhanced upgrade.",
+            },
+            {
               href: "/pas-24-steel-entrance-door",
               label: "PAS 24 steel entrance doors",
               description: "The Approved Document Q threshold, and why it is the floor and not the goal.",

@@ -192,6 +192,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/bs-en-1627-rc4-residential-steel-door`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    },
     ...doorPages,
     {
       url: `${baseUrl}/areas`,

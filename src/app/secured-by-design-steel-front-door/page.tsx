@@ -267,9 +267,14 @@ export default function SbdPage() {
           title: "Related reading",
           links: [
             {
+              href: "/bs-en-1627-rc4-residential-steel-door",
+              label: "BS EN 1627 RC4 (SteelR Standard tier)",
+              description: "The European framework for sustained forced-entry resistance. SteelR's Standard tier on every door, the baseline alongside which SBD is applied.",
+            },
+            {
               href: "/sr3-residential-steel-door",
-              label: "SR3 residential steel doors",
-              description: "BS EN 1627 Class 3, the twenty-minute attack test, and how SR3 works alongside SBD.",
+              label: "SR3 residential steel doors (Enhanced upgrade)",
+              description: "LPS 1175 SR3, the LPCB police-preferred specification, and how it works alongside SBD.",
             },
             {
               href: "/pas-24-steel-entrance-door",
