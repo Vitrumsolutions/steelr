@@ -3,9 +3,9 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "Steel Front Doors for Housing Associations | UK Supplier | SteelR",
+    "Steel Front Doors for Housing Associations | SteelR",
   description:
-    "Bespoke steel front doors for UK housing associations. Building Safety Act 2022 + Approved Doc B/Q compliant. FD30/FD60, PAS 24, BS EN 1627 RC4 + LPS 1175 SR3/SR4 available. Stock replacement, single supplier, in-house install.",
+    "Bespoke steel front doors for UK housing associations. Building Safety Act 2022 compliant. PAS 24, BS EN 1627 RC4, LPS 1175 SR3/SR4, FD30/FD60. Single supplier.",
   alternates: {
     canonical: "https://steelr.co.uk/housing-associations",
   },
