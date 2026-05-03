@@ -244,8 +244,8 @@ export default function Hero() {
         </Link>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 right-8 md:bottom-16 md:right-16 z-20 flex flex-col items-center gap-3">
+      {/* Scroll indicator (hidden on mobile to avoid overlap with CTA block) */}
+      <div className="absolute bottom-8 right-8 md:bottom-16 md:right-16 z-20 hidden md:flex flex-col items-center gap-3">
         <span
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
