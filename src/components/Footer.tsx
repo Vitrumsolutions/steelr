@@ -22,6 +22,7 @@ const topicLinks = [
   { href: "/steel-front-door-vs-composite", label: "vs Composite" },
   { href: "/uk-steel-doors-vs-imported", label: "UK vs Imported" },
   { href: "/steel-front-door-cost-uk", label: "Cost Guide" },
+  { href: "/housing-associations", label: "Housing Associations" },
 ];
 
 export default function Footer() {
