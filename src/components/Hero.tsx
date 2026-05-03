@@ -51,6 +51,7 @@ export default function Hero() {
   const [previous, setPrevious] = useState<number | null>(null);
   const [showLogo, setShowLogo] = useState(false);
   const [rotationActive, setRotationActive] = useState(true);
+  const [userPaused, setUserPaused] = useState(false);
 
   // One-shot stop timer. Flips rotationActive false after ROTATION_STOP_AFTER,
   // which causes the rotation effect below to bail and stop creating new
@@ -64,7 +65,7 @@ export default function Hero() {
   }, []);
 
   useEffect(() => {
-    if (!rotationActive) return;
+    if (!rotationActive || userPaused) return;
 
     const timer = setInterval(() => {
       setPrevious(current);
@@ -80,7 +81,7 @@ export default function Hero() {
       clearInterval(timer);
       clearTimeout(logoTimer);
     };
-  }, [current, rotationActive]);
+  }, [current, rotationActive, userPaused]);
 
   useEffect(() => {
     if (previous === null) return;
@@ -243,6 +244,28 @@ export default function Hero() {
           Request a Free Consultation
         </Link>
       </div>
+
+      {/* Pause / play control for hero carousel - WCAG 2.2.2 */}
+      {rotationActive && (
+        <button
+          type="button"
+          onClick={() => setUserPaused(!userPaused)}
+          aria-label={userPaused ? "Play hero carousel" : "Pause hero carousel"}
+          className="absolute top-24 md:top-28 right-6 md:right-16 z-30 w-10 h-10 flex items-center justify-center rounded-full transition-colors hover:bg-black/50 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-cream"
+          style={{ background: "rgba(10, 10, 9, 0.35)" }}
+        >
+          {userPaused ? (
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(245, 240, 232, 0.95)" strokeWidth="2" aria-hidden="true">
+              <polygon points="6 4 20 12 6 20 6 4" fill="rgba(245, 240, 232, 0.95)" />
+            </svg>
+          ) : (
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(245, 240, 232, 0.95)" strokeWidth="2" aria-hidden="true">
+              <rect x="6" y="4" width="4" height="16" fill="rgba(245, 240, 232, 0.95)" />
+              <rect x="14" y="4" width="4" height="16" fill="rgba(245, 240, 232, 0.95)" />
+            </svg>
+          )}
+        </button>
+      )}
 
       {/* Scroll indicator (hidden on mobile to avoid overlap with CTA block) */}
       <div className="absolute bottom-8 right-8 md:bottom-16 md:right-16 z-20 hidden md:flex flex-col items-center gap-3">
