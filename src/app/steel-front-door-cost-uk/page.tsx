@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "What is the biggest single driver of cost on a steel front door?",
     answer:
-      "Size is usually the largest factor. A single-leaf door is cheaper than a double-door configuration, and a single-leaf door with no sidelights is cheaper than one with paired sidelights and a fanlight. After size, the next largest driver is the security specification. SR3 as standard is included in every SteelR quote. SR4 under LPS 1175 Issue 8, the commercial-grade upgrade, adds cost because the construction, hardware and certification are materially more expensive.",
+      "Size is usually the largest factor. A single-leaf door is cheaper than a double-door configuration, and a single-leaf door with no sidelights is cheaper than one with paired sidelights and a fanlight. After size, the next largest driver is the security tier. The Standard tier (BS EN 1627:2011 RC4 single leaf, unglazed plus PAS 24, SBD, FD30S) is included in every SteelR quote. The LPS 1175 SR3 Enhanced upgrade (LPCB police-preferred), LPS 1175 SR4 D10 Issue 8 Commercial-grade upgrade (used in data centres and bank vaults) and LPS 1673 attack-resistance (Ultra-high, by enquiry) each add cost because the construction, hardware and certification are materially more expensive at each step.",
   },
   {
     question: "Does finish or colour affect the price?",
@@ -134,26 +134,44 @@ export default function CostPage() {
             },
             body: (
               <>
-                Every SteelR door is PAS 24 certified and SR3 rated to
-                BS EN 1627 Class 3 as standard. The SR3 construction,
-                hardware specification and testing certification are
-                included in the base quote. There is no cheaper
-                non-SR3 SteelR door. What adds cost is the SR4 upgrade
-                under LPS 1175 Issue 8, the commercial-grade certification
-                used on data centres and bank vaults. SR4 requires
-                heavier construction, different hardware components and
-                a separate certification process, all of which add cost.
+                Every SteelR door is PAS 24 certified and BS EN 1627:2011
+                RC4 single leaf, unglazed certified as Standard. The RC4
+                construction, hardware specification and testing
+                certification are included in the base quote. What adds
+                cost are the upgrade tiers: LPS 1175 SR3 (LPCB
+                police-preferred, the Enhanced upgrade), LPS 1175 SR4 D10
+                Issue 8 (Commercial-grade, used in data centres and bank
+                vaults) and LPS 1673 attack-resistance (Ultra-high, by
+                enquiry). Each tier requires heavier construction,
+                different hardware components and a separate
+                certification process, all of which add cost.
               </>
             ),
             body2: (
               <>
-                More detail on the two standards sits on the{" "}
+                More detail on the four-tier ladder sits on the{" "}
                 <Link
                   href="/sr3-residential-steel-door"
                   className="link-gold-underline"
                   style={{ color: "#1a1a18" }}
                 >
-                  SR3 residential steel door page
+                  SR3 page
+                </Link>
+                , the{" "}
+                <Link
+                  href="/sr4-residential-steel-door"
+                  className="link-gold-underline"
+                  style={{ color: "#1a1a18" }}
+                >
+                  SR4 page
+                </Link>
+                , the{" "}
+                <Link
+                  href="/lps-1673-attack-resistant-steel-door"
+                  className="link-gold-underline"
+                  style={{ color: "#1a1a18" }}
+                >
+                  LPS 1673 page
                 </Link>{" "}
                 and the{" "}
                 <Link href="/security" className="link-gold-underline" style={{ color: "#1a1a18" }}>

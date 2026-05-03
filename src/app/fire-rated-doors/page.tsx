@@ -8,21 +8,21 @@ import QuickEnquiry from "@/components/QuickEnquiry";
 export const metadata: Metadata = {
   title: "Fire Rated Steel Front Doors for Homes, Flats & New Builds | FD30 & FD60 | SteelR",
   description:
-    "Fire rated steel front doors for your home, flats, new builds, HMOs and housing associations. FD30 and FD60, PAS 24 certified, Approved Document Q and Document B compliant. SR3 as standard with SR4 (LPS 1175) commercial-grade upgrade.",
+    "Fire rated steel front doors for homes, flats, new builds, HMOs and housing associations. FD30 and FD60, PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
   alternates: { canonical: "https://steelr.co.uk/fire-rated-doors" },
   openGraph: {
-    title: "Fire Rated Steel Front Doors | FD30 & FD60 | SR3 & SR4 | SteelR",
+    title: "Fire Rated Steel Front Doors | FD30 & FD60 | RC4 Standard | SteelR",
     description:
-      "Fire rated steel front doors for your home, flats and new builds. FD30 and FD60, PAS 24 certified, SR3 standard with SR4 (LPS 1175) upgrade, Secured by Design.",
+      "Fire rated steel front doors for homes, flats and new builds. FD30/FD60, PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
     url: "https://steelr.co.uk/fire-rated-doors",
     siteName: "SteelR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fire Rated Steel Front Doors | FD30 & FD60 | SR3 & SR4 | SteelR",
+    title: "Fire Rated Steel Front Doors | FD30 & FD60 | RC4 Standard | SteelR",
     description:
-      "Fire rated steel front doors for your home, flats and new builds. FD30 and FD60, PAS 24 certified, SR3 standard with SR4 (LPS 1175) upgrade, Secured by Design.",
+      "Fire rated steel front doors for homes, flats and new builds. FD30/FD60, PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
   },
 };
 
@@ -40,13 +40,13 @@ const faqs = [
   {
     question: "Can a fire rated door also be a security door?",
     answer:
-      "Absolutely. SteelR fire rated steel front doors combine FD30 or FD60 fire certification with SR3 security ratings (BS EN 1627 Class 3) as standard \u2014 and SR4 (LPS 1175 Issue 8) is available as a commercial-grade upgrade. Every door is PAS 24 certified, Secured by Design approved and satisfies Approved Document Q for security alongside Approved Document B for fire safety. Steel is uniquely suited to achieving both \u2014 its inherent material properties provide natural fire resistance while its strength delivers exceptional security. This dual certification is equally suited to residential front steel doors for your home and flat entrance doors in new builds or existing buildings.",
+      "Absolutely. SteelR fire rated steel front doors combine FD30 or FD60 fire certification with PAS 24 and BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard. LPS 1175 SR3 (LPCB police-preferred Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673 attack-resistance (Ultra-high, by enquiry) are available as further security tiers. Every door is Secured by Design approved and satisfies Approved Document Q for security alongside Approved Document B for fire safety. Steel is uniquely suited to achieving both, its inherent material properties provide natural fire resistance while its strength delivers exceptional security. This dual certification is equally suited to residential front steel doors for the home and flat entrance doors in new builds or existing buildings.",
   },
   {
     question:
       "Do you supply fire rated doors for multi-unit developments?",
     answer:
-      "Yes. We work with developers, architects and housing associations across the UK on projects ranging from small conversions to large-scale new builds. Every door is PAS 24 certified and SR3 rated (BS EN 1627 Class 3) as standard \u2014 with SR4 (LPS 1175 Issue 8) available where higher security is specified \u2014 satisfying Approved Document Q alongside fire safety requirements. We provide NBS specification clauses, door schedule pricing, project-level technical support and phased delivery programmes. Every door is manufactured to order, allowing us to accommodate varying aperture sizes, fire ratings, security ratings and finishes across a single development.",
+      "Yes. We work with developers, architects and housing associations across the UK on projects ranging from small conversions to large-scale new builds. Every door is PAS 24 certified and BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, with LPS 1175 SR3 (Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673 (Ultra-high, by enquiry) available where higher security is specified, satisfying Approved Document Q alongside fire safety requirements. We provide NBS specification clauses, door schedule pricing, project-level technical support and phased delivery programmes. Every door is manufactured to order, allowing us to accommodate varying aperture sizes, fire ratings, security ratings and finishes across a single development.",
   },
 ];
 
@@ -561,9 +561,9 @@ export default function FireRatedDoorsPage() {
                     },
                     {
                       feature: "Security",
-                      standard: "SR3 std / SR4 upgrade",
-                      fd30: "SR3 std / SR4 upgrade",
-                      fd60: "SR3 std / SR4 upgrade",
+                      standard: "RC4 std, SR3/SR4 +",
+                      fd30: "RC4 std, SR3/SR4 +",
+                      fd60: "RC4 std, SR3/SR4 +",
                     },
                     {
                       feature: "Glazing",

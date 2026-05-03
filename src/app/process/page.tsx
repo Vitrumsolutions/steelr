@@ -8,7 +8,7 @@ import QuickEnquiry from "@/components/QuickEnquiry";
 export const metadata: Metadata = {
   title: "Our Process | PAS 24 Certified Steel Door Installation | SteelR",
   description:
-    "From enquiry to install of bespoke steel front doors. PAS 24, SR3 standard, SR4 LPS 1175 upgrade, Secured by Design. Nationwide UK, 8 to 12 week lead time.",
+    "From enquiry to install of bespoke steel front doors. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Nationwide UK, 8 to 12 weeks.",
   alternates: {
     canonical: "https://steelr.co.uk/process",
   },

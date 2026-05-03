@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Luxury Steel Entrance Doors London | Bespoke, Installed to Any Borough | SteelR",
   description:
-    "Bespoke luxury steel entrance doors installed across all London boroughs. PAS 24 certified, SR3 standard, SR4 LPS 1175 upgrade, Secured by Design, FD30.",
+    "Bespoke luxury steel entrance doors across all London boroughs. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Secured by Design, FD30.",
   alternates: { canonical: "https://steelr.co.uk/luxury-steel-entrance-door-london" },
   openGraph: {
     title: "Luxury Steel Entrance Doors London | SteelR",
     description:
-      "Bespoke luxury steel entrance doors installed across all London boroughs. PAS 24, SR3, SR4 (LPS 1175) upgrade, Secured by Design, FD30.",
+      "Bespoke luxury steel entrance doors across all London boroughs. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Secured by Design, FD30.",
     url: "https://steelr.co.uk/luxury-steel-entrance-door-london",
     type: "website",
   },
@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "What security standard should a luxury London front door meet?",
     answer:
-      "For a central London townhouse, the baseline should be PAS 24 and SR3. PAS 24 is the regulatory minimum. SR3 under BS EN 1627 Class 3 is the insurer-recognised standard for genuine security, tested against a twenty-minute sustained attack with heavy tools. For higher-value properties or properties flagged by the owner's insurer, SR4 under LPS 1175 Issue 8 is the commercial-grade upgrade. SteelR delivers SR3 as standard on every door and offers SR4 as an upgrade on every door.",
+      "For a central London townhouse, the SteelR Standard tier (PAS 24:2022 plus BS EN 1627:2011 RC4 single leaf, unglazed plus FD30S plus Secured by Design plus ISO 9001 + ISO 14001 plus Made in Britain) is included on every door. PAS 24 is the regulatory minimum; BS EN 1627:2011 RC4 is the European framework for sustained forced-entry resistance and is materially above PAS 24. For higher-value properties or properties flagged by the owner's insurer, the LPS 1175 SR3 Enhanced upgrade (LPCB police-preferred, recognised by UK home insurers) and the LPS 1175 SR4 D10 Issue 8 Commercial-grade upgrade (the certification used in data centres and bank vaults) are available on every door. LPS 1673 attack-resistance is available by enquiry where a documented threat assessment justifies the Ultra-high tier.",
   },
 ];
 
@@ -102,9 +102,11 @@ export default function LondonPage() {
               often in London, the boroughs we work in most frequently,
               and how the survey-to-installation process handles the
               practical constraints of central London access. Every door
-              is PAS 24 certified and SR3 rated as standard, with SR4
-              (LPS 1175) available as a commercial-grade upgrade on every
-              door.
+              is PAS 24 certified and BS EN 1627:2011 RC4 single leaf,
+              unglazed certified as Standard. LPS 1175 SR3 (LPCB
+              police-preferred Enhanced upgrade), LPS 1175 SR4 D10 Issue 8
+              (Commercial-grade upgrade) and LPS 1673 attack-resistance
+              (Ultra-high, by enquiry) are available as further tiers.
             </>
           ),
         }}
@@ -202,14 +204,16 @@ export default function LondonPage() {
             ),
             body2: (
               <>
-                SR3 under BS EN 1627 Class 3 does, and is the standard we
-                install on every London door as a matter of course. For
-                owners whose insurer has flagged a higher risk profile, or
-                who want the certification used for data centre entrances
-                on their home, SR4 under LPS 1175 Issue 8 is the
-                commercial-grade upgrade. It is rarely seen on a
-                residential front door. It is offered on every SteelR
-                door. More detail on the{" "}
+                BS EN 1627:2011 RC4 single leaf, unglazed (the European
+                framework for sustained forced-entry resistance) is
+                included as Standard on every SteelR London door. For
+                owners whose insurer has flagged a higher risk profile,
+                LPS 1175 SR3 (LPCB police-preferred, Enhanced upgrade) and
+                LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade, used
+                in data centres and bank vaults) are available on every
+                door. LPS 1673 attack-resistance (Ultra-high) is offered
+                by enquiry where a documented threat assessment justifies
+                it. More detail on the{" "}
                 <Link href="/security" className="link-gold-underline" style={{ color: "#1a1a18" }}>
                   security page
                 </Link>{" "}

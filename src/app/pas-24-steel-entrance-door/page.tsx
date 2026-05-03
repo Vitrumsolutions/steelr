@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "How does PAS 24 compare to SR3?",
     answer:
-      "PAS 24 is a one-to-three-minute casual attack test using basic hand tools. SR3 under BS EN 1627 Class 3 is a twenty-minute sustained attack test using heavy-duty hand and power tools. They test against fundamentally different threat profiles. PAS 24 is designed to stop the class of attacker who gives up when the door does not open immediately. SR3 is designed to stop the class of attacker who does not give up. SteelR doors meet both, with SR4 available as a further commercial-grade upgrade.",
+      "PAS 24 is a one-to-three-minute casual attack test using basic hand tools. BS EN 1627:2011 RC4 single leaf, unglazed (Class 4 of the European framework) is a sustained forced-entry test using heavy-duty hand and power tools, and is included as Standard on every SteelR door. LPS 1175 SR3 (LPCB police-preferred Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade, used in data centres and bank vaults) and LPS 1673 attack-resistance (Ultra-high, by enquiry) are available as further upgrade tiers. PAS 24 is designed to stop the class of attacker who gives up when the door does not open immediately. The RC4-and-above tiers are designed to stop the class of attacker who does not.",
   },
   {
     question: "Can a door lose PAS 24 certification after installation?",
@@ -97,11 +97,13 @@ export default function Pas24Page() {
           body2: (
             <>
               Every SteelR door is PAS 24 certified as standard. It is
-              also SR3 rated to BS EN 1627 Class 3 as standard, Secured
-              by Design approved as standard, and FD30S fire rated as
-              standard. SR4 under LPS 1175 Issue 8 is available as a
-              commercial-grade upgrade on every door. PAS 24 sits at
-              the bottom of that stack, as the regulatory floor.
+              also BS EN 1627:2011 RC4 single leaf, unglazed certified as
+              Standard, Secured by Design approved as standard, and FD30S
+              fire rated as standard. LPS 1175 SR3 (LPCB police-preferred,
+              Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade
+              upgrade) and LPS 1673 attack-resistance (Ultra-high, by
+              enquiry) are available as further upgrade tiers. PAS 24 sits
+              at the bottom of that stack, as the regulatory floor.
             </>
           ),
         }}
@@ -178,10 +180,13 @@ export default function Pas24Page() {
                 screwdriver and abandons the attempt when the door
                 does not yield quickly. It is not sufficient for a
                 planned attack by an experienced intruder with heavy
-                tools. That tier of threat requires SR3 under BS EN
-                1627 Class 3, which tests against twenty minutes of
-                sustained attack with crowbars, drills and heavy-duty
-                cutting tools.
+                tools. That tier of threat is addressed by BS EN
+                1627:2011 RC4 single leaf, unglazed (the European
+                framework for sustained forced-entry resistance,
+                included as Standard on every SteelR door), with
+                LPS 1175 SR3 (Enhanced), SR4 D10 Issue 8 (Commercial-
+                grade) and LPS 1673 attack-resistance (Ultra-high)
+                available as further upgrade tiers.
               </>
             ),
             body2: (

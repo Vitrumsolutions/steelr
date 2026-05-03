@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Which security ratings do bespoke steel front doors carry?",
     answer:
-      "Every SteelR residential steel front door is PAS 24:2022 certified and SR3 rated to BS EN 1627 Class 3 as standard. SR4 under LPS 1175 Issue 8, a commercial-grade certification used for data centres and high-risk premises, is available as an upgrade. Secured by Design approval is included on every door. FD30S fire and smoke rating is standard, with FD60 available on request.",
+      "Every SteelR residential steel front door is PAS 24:2022 certified and BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard (the European framework for sustained forced-entry resistance). LPS 1175 SR3 (LPCB police-preferred, Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade, used in data centres and bank vaults) and LPS 1673 attack-resistance (Ultra-high, by enquiry) are available as further upgrade tiers on the same door. Secured by Design approval is included on every door. FD30S fire and smoke rating is standard, with FD60 available on request.",
   },
   {
     question: "Do you install bespoke steel front doors across the whole UK?",
@@ -65,7 +65,7 @@ const webPageSchema = JSON.stringify({
   name: "Bespoke Steel Front Doors UK",
   url: "https://steelr.co.uk/bespoke-steel-front-doors-uk",
   description:
-    "Bespoke steel front doors for UK homes. Made to measure in the United Kingdom, designed to exact specification, installed nationwide. PAS 24 certified, SR3 standard, SR4 (LPS 1175) upgrade.",
+    "Bespoke steel front doors for UK homes. Made to measure, designed to spec, installed nationwide. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
   about: [
     { "@type": "Thing", name: "Bespoke steel front doors" },
     { "@type": "Thing", name: "Steel entrance doors" },

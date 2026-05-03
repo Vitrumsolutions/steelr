@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bespoke Steel Door Designs | SR3 Standard, SR4 (LPS 1175) Upgrade | SteelR Collection",
+  title: "Bespoke Steel Door Collection | RC4 Standard, SR3/SR4 Available | SteelR",
   description:
-    "Browse the full SteelR collection of bespoke steel front doors for the home. PAS 24 certified, SR3 rated as standard with SR4 (LPS 1175) commercial-grade upgrade, Secured by Design approved. Contemporary and traditional steel entrance doors. Nationwide installation.",
+    "Browse SteelR bespoke steel front doors. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Secured by Design, FD30S. Nationwide UK install.",
   alternates: {
     canonical: "https://steelr.co.uk/collection",
   },
@@ -22,7 +22,7 @@ const collectionSchema = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "SteelR Bespoke Steel Door Collection",
-  description: "Browse the full collection of PAS 24 certified bespoke steel front doors for the home. SR3 rated as standard (BS EN 1627 Class 3) with SR4 (LPS 1175 Issue 8) commercial-grade upgrade available. Secured by Design approved, FD30S fire rated. Steel doors for new builds, flats and homes across the UK.",
+  description: "Browse the full collection of PAS 24 certified bespoke steel front doors for the home. BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, with LPS 1175 SR3 (Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673 attack-resistance (Ultra-high, by enquiry) available. Secured by Design approved, FD30S fire rated. Steel doors for new builds, flats and homes across the UK.",
   url: "https://steelr.co.uk/collection",
   isPartOf: { "@type": "WebSite", url: "https://steelr.co.uk" },
 });

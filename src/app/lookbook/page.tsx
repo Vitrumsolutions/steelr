@@ -15,12 +15,12 @@ import "./lookbook.css";
 export const metadata: Metadata = {
   title: "The Lookbook | SteelR Bespoke Steel Entrance Doors",
   description:
-    "A curated lookbook of bespoke steel entrance doors by SteelR. Over forty installed works across contemporary, traditional, ornate and panelled specifications. SR3 certified as standard with SR4 (LPS 1175) commercial-grade upgrade, UK manufactured.",
+    "A curated lookbook of SteelR bespoke steel entrance doors. Forty installed works across contemporary, traditional, ornate and panelled. BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
   alternates: { canonical: "https://steelr.co.uk/lookbook" },
   openGraph: {
     title: "The Lookbook | SteelR Bespoke Steel Entrance Doors",
     description:
-      "A curated lookbook of bespoke steel entrance doors. Forty installed works, organised by style and colour. SR3 standard, SR4 (LPS 1175) upgrade, UK manufactured.",
+      "A curated lookbook of bespoke steel entrance doors. Forty installed works, organised by style and colour. BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
     url: "https://steelr.co.uk/lookbook",
     type: "website",
     images: [{ url: "/og-image.png", width: 2400, height: 1260 }],
@@ -42,7 +42,7 @@ const signatureCollection: LookbookDoor[] = [
     title: "Black Ornate with Medallion",
     caption:
       "Hand-detailed central medallion in raised relief, flanked by twin obscure glass sidelights. A formal composition for period townhouses where the entrance carries the weight of the facade.",
-    spec: "SR3 · PAS 24 · Secured by Design · FD30S · Black RAL 9005",
+    spec: "RC4 Standard · PAS 24 · Secured by Design · FD30S · Black RAL 9005",
   },
   {
     src: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
@@ -50,7 +50,7 @@ const signatureCollection: LookbookDoor[] = [
     title: "Olive Traditional, Brass Pendant",
     caption:
       "A traditional panelled face in a hand-mixed olive, finished with solid brass furniture and a period brass pendant above the threshold. A country-house specification that reads confidently rather than loudly.",
-    spec: "SR3 · PAS 24 · Bespoke olive RAL · Solid brass furniture",
+    spec: "RC4 Standard · PAS 24 · Bespoke olive RAL · Solid brass furniture",
   },
   {
     src: "/images/gallery/steelr-walnut-ribbed-columns.jpg",
@@ -58,7 +58,7 @@ const signatureCollection: LookbookDoor[] = [
     title: "Walnut Ribbed, Stone Columns",
     caption:
       "A vertically-ribbed door finished in a warm walnut, set between classical stone columns on a private driveway. The ribbed rhythm draws the eye upward and adds structural rigidity to a slim profile.",
-    spec: "SR3 · Vertical rib profile · Walnut finish · Architect specification",
+    spec: "RC4 Standard · Vertical rib profile · Walnut finish · Architect specification",
   },
   {
     src: "/images/gallery/steelr-black-traditional-doctor-knocker-canopy.jpg",
@@ -66,7 +66,7 @@ const signatureCollection: LookbookDoor[] = [
     title: "Heritage Doctor Knocker",
     caption:
       "A five-panel traditional specification with a forged doctor knocker set above the letterplate. Photographed under its tiled canopy. Designed to sit invisibly within conservation-area streetscapes.",
-    spec: "SR3 · FD30S · Conservation-appropriate · Forged brass doctor knocker",
+    spec: "RC4 Standard · FD30S · Conservation-appropriate · Forged brass doctor knocker",
   },
   {
     src: "/images/gallery/steelr-sage-panelled-arched-wreath.jpg",
@@ -74,15 +74,15 @@ const signatureCollection: LookbookDoor[] = [
     title: "Sage Panelled, Arched",
     caption:
       "A panelled steel specification finished in a soft sage, set into an arched brick surround. The arched head is formed in steel and welded to the frame, not an applied trim.",
-    spec: "SR3 · Bespoke RAL · Arched structural frame · Panelled face",
+    spec: "RC4 Standard · Bespoke RAL · Arched structural frame · Panelled face",
   },
   {
     src: "/images/gallery/steelr-black-panelled-double-fingerprint.jpg",
     alt: "Black panelled double steel door with fingerprint access",
     title: "Panelled Double, ekey Biometric",
     caption:
-      "A panelled double entrance with integrated ekey fingerprint access. Mechanical override retained. SR3 certified as standard; SR4 (LPS 1175) upgrade available for the highest-risk addresses.",
-    spec: "SR3 · SR4 upgrade available · ekey biometric · Mechanical override",
+      "A panelled double entrance with integrated ekey fingerprint access. Mechanical override retained. BS EN 1627 RC4 Standard, with LPS 1175 SR3 (Enhanced), SR4 (Commercial-grade) and LPS 1673 (Ultra-high) upgrades available.",
+    spec: "RC4 Standard · SR3 / SR4 / LPS 1673 available · ekey biometric · Mechanical override",
   },
 ];
 
