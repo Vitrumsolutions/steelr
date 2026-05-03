@@ -219,7 +219,7 @@ export default function Hero() {
             fontWeight: 300,
             fontSize: 13,
             letterSpacing: "0.05em",
-            color: "rgba(245, 240, 232, 0.75)",
+            color: "rgba(245, 240, 232, 0.95)",
             textShadow: "0 1px 6px rgba(0, 0, 0, 0.4)",
           }}
         >

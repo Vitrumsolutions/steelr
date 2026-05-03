@@ -115,7 +115,7 @@ export default function Nav() {
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
                   color: scrolled
-                    ? "rgba(26, 26, 24, 0.6)"
+                    ? "rgba(26, 26, 24, 0.78)"
                     : "rgba(245, 240, 232, 0.95)",
                   textShadow: scrolled
                     ? "none"
@@ -139,7 +139,7 @@ export default function Nav() {
                 fontSize: 12,
                 letterSpacing: "0.1em",
                 color: scrolled
-                  ? "rgba(26, 26, 24, 0.5)"
+                  ? "rgba(26, 26, 24, 0.78)"
                   : "rgba(245, 240, 232, 1)",
                 textShadow: scrolled
                   ? "none"
