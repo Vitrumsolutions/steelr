@@ -4,7 +4,7 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "Steel Front Door vs Composite | Honest UK Comparison | SteelR",
+    "Steel Front Door vs Composite | UK Comparison | SteelR",
   description:
     "Steel front door vs composite: honest side-by-side comparison on security, longevity, thermal, fire rating and cost of ownership. From a UK steel manufacturer.",
   alternates: { canonical: "https://steelr.co.uk/steel-front-door-vs-composite" },

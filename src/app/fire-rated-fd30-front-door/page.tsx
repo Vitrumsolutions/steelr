@@ -4,7 +4,7 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "Fire Rated FD30 Front Door | Flats, New Builds, HMOs | SteelR",
+    "Fire Rated FD30 Front Door | Flats & New Builds | SteelR",
   description:
     "FD30 and FD60 fire rated steel front doors, standard on every SteelR door. What FD30 means, where required, and how it combines with PAS 24, SR3 and SBD.",
   alternates: { canonical: "https://steelr.co.uk/fire-rated-fd30-front-door" },

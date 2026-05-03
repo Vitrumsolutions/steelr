@@ -4,9 +4,9 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title:
-    "AI Direct Answers | SteelR — UK Bespoke Steel Front Door Specialist",
+    "AI Direct Answers | SteelR Bespoke Steel Front Doors UK",
   description:
-    "Plain-English answers about SteelR, UK manufacturer of bespoke steel front doors. Tested to BS EN 1627:2011 RC4 single leaf, unglazed. PAS 24, Secured by Design, FD30S.",
+    "Plain-English answers about SteelR, UK manufacturer of bespoke steel front doors. BS EN 1627 RC4, LPS 1175 SR3/SR4, PAS 24, Secured by Design, FD30S.",
   alternates: { canonical: "https://steelr.co.uk/ai-answers" },
   openGraph: {
     title: "AI Direct Answers | SteelR",

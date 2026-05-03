@@ -4,9 +4,9 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "Bespoke Steel Front Doors UK | Made to Measure, Installed Nationwide | SteelR",
+    "Bespoke Steel Front Doors UK | Made to Measure | SteelR",
   description:
-    "Bespoke steel front doors for UK homes. Made to measure, designed to your exact specification, installed by our own fitters. PAS 24, SR3, SR4 LPS 1175 upgrade.",
+    "Bespoke steel front doors for UK homes. Made to measure, installed nationwide. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
   alternates: { canonical: "https://steelr.co.uk/bespoke-steel-front-doors-uk" },
   openGraph: {
     title: "Bespoke Steel Front Doors UK | SteelR",

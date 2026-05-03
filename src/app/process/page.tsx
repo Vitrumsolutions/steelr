@@ -6,7 +6,7 @@ import { CredentialsStrip } from "@/components/CredentialsBanner";
 import QuickEnquiry from "@/components/QuickEnquiry";
 
 export const metadata: Metadata = {
-  title: "Our Process | PAS 24 Certified Steel Door Installation | SteelR",
+  title: "Our Process | Steel Door Survey to Install | SteelR",
   description:
     "From enquiry to install of bespoke steel front doors. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Nationwide UK, 8 to 12 weeks.",
   alternates: {

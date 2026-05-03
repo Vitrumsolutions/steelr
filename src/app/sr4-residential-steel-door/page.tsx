@@ -4,7 +4,7 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "SR4 Residential Steel Door | LPS 1175 Commercial-Grade | SteelR",
+    "SR4 Residential Steel Door | LPS 1175 Commercial | SteelR",
   description:
     "LPS 1175 SR4 (D10 Issue 8): SteelR's Commercial-grade upgrade tier, the LPCB certification used on data centres and bank vaults. Residential available.",
   alternates: { canonical: "https://steelr.co.uk/sr4-residential-steel-door" },

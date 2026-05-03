@@ -4,7 +4,7 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "Luxury Steel Entrance Doors London | Bespoke, Installed to Any Borough | SteelR",
+    "Luxury Steel Entrance Doors London | All Boroughs | SteelR",
   description:
     "Bespoke luxury steel entrance doors across all London boroughs. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Secured by Design, FD30.",
   alternates: { canonical: "https://steelr.co.uk/luxury-steel-entrance-door-london" },

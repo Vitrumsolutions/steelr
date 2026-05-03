@@ -3,7 +3,7 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "PAS 24 Compliance & BS EN 1627:2011 RC4 Specification | SteelR",
+  title: "PAS 24 & BS EN 1627 RC4 Specification | SteelR",
   description:
     "BS EN 1627:2011 RC4 Standard, PAS 24 certified, FD30S fire rated, Secured by Design. Full 4-tier ladder spec including LPS 1175 SR3 / SR4 and LPS 1673.",
   alternates: { canonical: "https://steelr.co.uk/security-specification" },

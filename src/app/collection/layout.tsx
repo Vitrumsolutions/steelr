@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bespoke Steel Door Collection | RC4 Standard, SR3/SR4 Available | SteelR",
+  title: "Bespoke Steel Door Collection | RC4 + LPS 1175 | SteelR",
   description:
-    "Browse SteelR bespoke steel front doors. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Secured by Design, FD30S. Nationwide UK install.",
+    "Browse SteelR bespoke steel front doors. PAS 24, BS EN 1627 RC4, LPS 1175 SR3/SR4 + LPS 1673 available. Secured by Design. UK install.",
   alternates: {
     canonical: "https://steelr.co.uk/collection",
   },

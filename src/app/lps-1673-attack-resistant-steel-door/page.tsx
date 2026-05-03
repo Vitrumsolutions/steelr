@@ -4,7 +4,7 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "LPS 1673 Attack-Resistant Steel Door | UK Residential | SteelR",
+    "LPS 1673 Attack-Resistant Steel Door | UK | SteelR",
   description:
     "LPS 1673 attack-resistance certification, beyond forced-entry resistance. Used on bank vaults and data centres. Available on UK residential by enquiry.",
   alternates: { canonical: "https://steelr.co.uk/lps-1673-attack-resistant-steel-door" },

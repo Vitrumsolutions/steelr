@@ -6,7 +6,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "About SteelR | BS EN 1627:2011 RC4, Secured by Design",
   description:
-    "SteelR manufactures and installs bespoke steel front doors for UK homes. PAS 24 certified, tested to BS EN 1627:2011 RC4 single leaf, unglazed, Secured by Design, FD30, ISO 9001.",
+    "SteelR manufactures and installs bespoke steel front doors for UK homes. PAS 24, BS EN 1627 RC4, LPS 1175 SR3/SR4, Secured by Design, FD30S, ISO 9001.",
   alternates: {
     canonical: "https://steelr.co.uk/about",
   },

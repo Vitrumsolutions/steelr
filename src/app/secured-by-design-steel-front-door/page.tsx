@@ -4,7 +4,7 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "Secured by Design Steel Front Doors | Police-Preferred Specification | SteelR",
+    "Secured by Design Steel Front Doors | UK Police | SteelR",
   description:
     "Every SteelR steel front door is Secured by Design approved (UK police-preferred). What SBD covers, how approval works, and what it means for insurance.",
   alternates: { canonical: "https://steelr.co.uk/secured-by-design-steel-front-door" },

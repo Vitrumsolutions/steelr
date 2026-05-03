@@ -6,9 +6,9 @@ import { CredentialsStrip } from "@/components/CredentialsBanner";
 import QuickEnquiry from "@/components/QuickEnquiry";
 
 export const metadata: Metadata = {
-  title: "Fire Rated Steel Front Doors for Homes, Flats & New Builds | FD30 & FD60 | SteelR",
+  title: "Fire Rated Steel Front Doors | FD30 & FD60 | SteelR",
   description:
-    "Fire rated steel front doors for homes, flats, new builds, HMOs and housing associations. FD30 and FD60, PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
+    "Fire rated steel front doors for homes, flats, new builds and HMOs. FD30/FD60, PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
   alternates: { canonical: "https://steelr.co.uk/fire-rated-doors" },
   openGraph: {
     title: "Fire Rated Steel Front Doors | FD30 & FD60 | RC4 Standard | SteelR",

@@ -6,9 +6,9 @@ import QuickEnquiry from "@/components/QuickEnquiry";
 
 export const metadata: Metadata = {
   title:
-    "Steel Door Security Ratings | BS EN 1627 RC4, PAS 24, Secured by Design | SteelR",
+    "Steel Door Security Ratings | RC4 + LPS 1175 | SteelR",
   description:
-    "Residential steel front doors tested to BS EN 1627:2011 RC4 single leaf, unglazed. The European framework for sustained forced-entry resistance. PAS 24 certified, Secured by Design approved, Approved Document Q compliant.",
+    "Residential steel front doors tested to BS EN 1627:2011 RC4. PAS 24, LPS 1175 SR3/SR4, LPS 1673 + Secured by Design + Approved Doc Q compliant.",
   alternates: { canonical: "https://steelr.co.uk/security" },
   openGraph: {
     title:

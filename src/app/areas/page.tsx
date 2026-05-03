@@ -11,7 +11,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Areas We Serve | Steel Entrance Doors Nationwide | SteelR",
   description:
-    "SteelR installs bespoke steel entrance doors across the UK. From London to Edinburgh, we provide a complete nationwide service including survey, manufacture and installation.",
+    "SteelR installs bespoke steel entrance doors across the UK. From London to Edinburgh, complete nationwide service including survey, manufacture and install.",
   alternates: { canonical: "https://steelr.co.uk/areas" },
   openGraph: {
     title: "Areas We Serve | Steel Entrance Doors Nationwide | SteelR",

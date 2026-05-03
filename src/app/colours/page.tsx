@@ -7,7 +7,7 @@ import QuickEnquiry from "@/components/QuickEnquiry";
 export const metadata: Metadata = {
   title: "Steel Door Colours & RAL Finishes | Bespoke Options | SteelR",
   description:
-    "Choose from over 200 RAL colours for your bespoke steel entrance door. Dual-colour options, premium hardware finishes in chrome, brass, and matt black. Request a colour consultation.",
+    "Choose from 200+ RAL colours for your bespoke steel entrance door. Dual-colour options. Hardware in chrome, brass, gold or matt black. Free consultation.",
   alternates: {
     canonical: "https://steelr.co.uk/colours",
   },

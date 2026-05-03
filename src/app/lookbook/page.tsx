@@ -15,7 +15,7 @@ import "./lookbook.css";
 export const metadata: Metadata = {
   title: "The Lookbook | SteelR Bespoke Steel Entrance Doors",
   description:
-    "A curated lookbook of SteelR bespoke steel entrance doors. Forty installed works across contemporary, traditional, ornate and panelled. BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
+    "A curated lookbook of SteelR bespoke steel entrance doors. Forty installed works. BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available.",
   alternates: { canonical: "https://steelr.co.uk/lookbook" },
   openGraph: {
     title: "The Lookbook | SteelR Bespoke Steel Entrance Doors",

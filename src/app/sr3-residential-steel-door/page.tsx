@@ -4,7 +4,7 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "SR3 Residential Steel Door | LPS 1175 Enhanced Upgrade | SteelR",
+    "SR3 Residential Steel Door | LPS 1175 Enhanced | SteelR",
   description:
     "LPS 1175 SR3 is SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 Standard. The LPCB police-preferred specification, available on every door.",
   alternates: { canonical: "https://steelr.co.uk/sr3-residential-steel-door" },
