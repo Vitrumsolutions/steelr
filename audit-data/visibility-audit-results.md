@@ -9,13 +9,13 @@
 | 3 | steelr uk | — | not top 30 (top: steelersuk.com) |
 | 4 | steelr bespoke steel entrance doors | **#1** | / |
 | 5 | bespoke steel entrance doors UK | — | not top 30 (top: bespokesteeldoors.uk) |
-| 6 | steel front doors UK | — | not top 30 (top: www.modern-doors.co.uk) |
+| 6 | steel front doors UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
 | 7 | steel front door UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
 | 8 | steel security doors residential UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
-| 9 | steel doors UK | — | not top 30 (top: www.doorsforsecurity.co.uk) |
+| 9 | steel doors UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
 | 10 | PAS 24 front doors | — | not top 30 (top: www.vividdoors.co.uk) |
 | 11 | Secured by Design doors UK | — | not top 30 (top: www.securedbydesign.com) |
-| 12 | SR3 residential steel door | **#4** | /sr3-residential-steel-door |
+| 12 | SR3 residential steel door | **#3** | /sr3-residential-steel-door |
 | 13 | fire rated entrance doors flats | — | not top 30 (top: www.doordeals.co.uk) |
 | 14 | FD30 front door UK | — | not top 30 (top: www.doordeals.co.uk) |
 | 15 | steel vs composite doors | **#5** | /blog/composite-vs-steel-doors-2026-updated-compar |
@@ -23,12 +23,12 @@
 | 17 | how much do steel doors cost UK | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
 | 18 | best front door for security UK | — | not top 30 (top: www.everest.co.uk) |
 | 19 | bespoke front doors London | — | not top 30 (top: www.bespokefrontdoor.co.uk) |
-| 20 | steel doors Buckinghamshire | — | not top 30 (top: www.lathamssteeldoors.co.uk) |
+| 20 | steel doors Buckinghamshire | — | not top 30 (top: homeworkswindows.co.uk) |
 | 21 | steel doors Surrey | — | not top 30 (top: prestigesteeldoors.co.uk) |
 | 22 | steel doors Kensington | **#5** | /areas/kensington |
-| 23 | steel doors Chelsea | **#7** | /areas/chelsea |
+| 23 | steel doors Chelsea | — | not top 30 (top: chelseadoors.co.uk) |
 | 24 | steel doors Cobham | **#10** | /areas/surrey |
-| 25 | steel doors Esher | — | not top 30 (top: www.todd-doors.co.uk) |
+| 25 | steel doors Esher | **#1** | /areas/esher |
 | 26 | bespoke steel doors London | — | not top 30 (top: bespokesteeldoors.uk) |
 
 **Google organic hits: 7/26**
@@ -37,17 +37,17 @@
 
 | # | Query | Position | Listing |
 |---|-------|----------|---------|
-| 1 | SteelR | — | not in Maps (top: Steel & Strand Barbershop) |
-| 2 | steel front doors near me London | — | not in Maps (top: Raleigh door center) |
+| 1 | SteelR | — | not in Maps (top: no results) |
+| 2 | steel front doors near me London | — | not in Maps (top: Luxe Iron Doors) |
 | 3 | bespoke steel doors London | — | not in Maps (top: Bespoke Steel Doors) |
 | 4 | steel doors installer Surrey | — | not in Maps (top: Steel-Craft Door Products Ltd) |
-| 5 | steel doors Cobham | — | not in Maps (top: Black Steel Doors Ltd) |
-| 6 | steel doors Esher | — | not in Maps (top: SWD Bespoke - Surrey) |
-| 7 | steel doors Richmond | — | not in Maps (top: Doorways of Wyoming) |
+| 5 | steel doors Cobham | — | not in Maps (top: North South Windows Ltd) |
+| 6 | steel doors Esher | — | not in Maps (top: Steel Doors Inc) |
+| 7 | steel doors Richmond | — | not in Maps (top: Precision Electric Gate Repair Of Delray Beach) |
 | 8 | steel security doors London | — | not in Maps (top: ASL Steel Doors) |
-| 9 | steel front door installer | — | not in Maps (top: Specialty Door & Hardware) |
-| 10 | steel doors Uxbridge | — | not in Maps (top: Defender Steel Door & Window Company Chicago) |
-| 11 | steel doors Kensington | — | not in Maps (top: Alamance Iron Works) |
+| 9 | steel front door installer | — | not in Maps (top: Steel Doors Inc) |
+| 10 | steel doors Uxbridge | — | not in Maps (top: Twin Tiers Overhead Doors Inc) |
+| 11 | steel doors Kensington | — | not in Maps (top: Bluegrass Commercial Door and More, LLC) |
 
 **Google Maps hits: 0/11**
 
