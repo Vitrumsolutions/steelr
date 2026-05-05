@@ -807,7 +807,7 @@ export default async function AreaPage({ params }: Props) {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <Link
               href="/sr3-residential-steel-door"
-              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] focus-visible:border-[#c9a96e] focus-visible:outline-2 focus-visible:outline-[#c9a96e] focus-visible:outline-offset-2 transition-colors duration-200"
             >
               <p
                 className="mb-2"
@@ -817,7 +817,7 @@ export default async function AreaPage({ params }: Props) {
                   fontSize: 10,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
-                  color: "#c9a96e",
+                  color: "#8a6f4e",
                 }}
               >
                 LPS 1175 SR3
@@ -831,12 +831,12 @@ export default async function AreaPage({ params }: Props) {
                   lineHeight: 1.3,
                 }}
               >
-                Enhanced upgrade <span style={{ color: "#c9a96e" }}>&rarr;</span>
+                Enhanced upgrade <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
               </p>
             </Link>
             <Link
               href="/pas-24-steel-entrance-door"
-              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] focus-visible:border-[#c9a96e] focus-visible:outline-2 focus-visible:outline-[#c9a96e] focus-visible:outline-offset-2 transition-colors duration-200"
             >
               <p
                 className="mb-2"
@@ -846,7 +846,7 @@ export default async function AreaPage({ params }: Props) {
                   fontSize: 10,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
-                  color: "#c9a96e",
+                  color: "#8a6f4e",
                 }}
               >
                 PAS 24:2022
@@ -860,12 +860,12 @@ export default async function AreaPage({ params }: Props) {
                   lineHeight: 1.3,
                 }}
               >
-                Approved Doc Q <span style={{ color: "#c9a96e" }}>&rarr;</span>
+                Approved Doc Q <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
               </p>
             </Link>
             <Link
               href="/secured-by-design-steel-front-door"
-              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] focus-visible:border-[#c9a96e] focus-visible:outline-2 focus-visible:outline-[#c9a96e] focus-visible:outline-offset-2 transition-colors duration-200"
             >
               <p
                 className="mb-2"
@@ -875,7 +875,7 @@ export default async function AreaPage({ params }: Props) {
                   fontSize: 10,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
-                  color: "#c9a96e",
+                  color: "#8a6f4e",
                 }}
               >
                 Secured by Design
@@ -889,12 +889,12 @@ export default async function AreaPage({ params }: Props) {
                   lineHeight: 1.3,
                 }}
               >
-                UK police-preferred <span style={{ color: "#c9a96e" }}>&rarr;</span>
+                UK police-preferred <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
               </p>
             </Link>
             <Link
               href="/fire-rated-fd30-front-door"
-              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] focus-visible:border-[#c9a96e] focus-visible:outline-2 focus-visible:outline-[#c9a96e] focus-visible:outline-offset-2 transition-colors duration-200"
             >
               <p
                 className="mb-2"
@@ -904,7 +904,7 @@ export default async function AreaPage({ params }: Props) {
                   fontSize: 10,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
-                  color: "#c9a96e",
+                  color: "#8a6f4e",
                 }}
               >
                 FD30 / FD60
@@ -918,7 +918,7 @@ export default async function AreaPage({ params }: Props) {
                   lineHeight: 1.3,
                 }}
               >
-                Fire rated <span style={{ color: "#c9a96e" }}>&rarr;</span>
+                Fire rated <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
               </p>
             </Link>
           </div>
@@ -1200,7 +1200,7 @@ export default async function AreaPage({ params }: Props) {
                       lineHeight: 1.3,
                     }}
                   >
-                    {g.title} <span style={{ color: "#c9a96e" }}>&rarr;</span>
+                    {g.title} <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
                   </p>
                 </Link>
               </ScrollReveal>

@@ -203,11 +203,22 @@ export default async function BlogPostPage({ params }: Props) {
             image: `https://steelr.co.uk${post.image}`,
             datePublished: post.date,
             dateModified: post.dateModified ?? post.date,
-            author: {
-              "@type": "Person",
-              name: post.author ?? "SteelR Technical Team",
-              url: "https://steelr.co.uk/about",
-            },
+            // Author tag: when post.author is set (e.g. "Mani Sandhu") use Person
+            // for stronger E-E-A-T on YMYL posts; when omitted, fall back to
+            // Organization since Schema.org Person semantically denotes an
+            // individual human, not a team. Google scrutinises Person.name with
+            // non-individual values under the post-Sept 2023 author guidelines.
+            author: post.author
+              ? {
+                  "@type": "Person",
+                  name: post.author,
+                  url: "https://steelr.co.uk/about",
+                }
+              : {
+                  "@type": "Organization",
+                  name: "SteelR",
+                  url: "https://steelr.co.uk",
+                },
             publisher: {
               "@type": "Organization",
               name: "SteelR",
