@@ -238,7 +238,7 @@ export default function Hero() {
             fontSize: 11,
             letterSpacing: "0.25em",
             textTransform: "uppercase",
-            padding: "16px 40px",
+            padding: "18px 44px",
           }}
         >
           Request a Free Consultation
