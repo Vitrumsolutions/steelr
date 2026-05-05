@@ -6,10 +6,27 @@ Session 2026-05-05 closed with four commits on `main`: `a1c67a2` (Batch 1C doubl
 
 ## Next action
 
+**NEXT SESSION = full-audit architecture build (12-15 hrs, single focused session).**
+
+Pre-flight check before starting (do not consume build budget if any fail):
+- Playwright MCP reachable — test run on one URL
+- Perplexity MCP reachable — one test query (~$0.0003)
+- Chrome MCP connected — one tab open + close
+- Tools flickered today (multiple disconnect/reconnect cycles), so pre-flight is not optional
+
+Then 4 phases × ~3 hrs each, each phase ends with a working component or it doesn't end:
+
+- **Phase A** — `scripts/audit/preflight.mjs` (tool availability + baseline loader + scope definer) + `scripts/audit/capture-ai-citation.mjs` (Perplexity API for 32 queries, 3× per query for non-determinism, captures cited sources). Smoke test on 5-query subset.
+- **Phase B** — `scripts/audit/capture-lighthouse.mjs` (5-run median per page mobile + desktop via Playwright) + `scripts/audit/capture-gsc-pages.mjs` (Performance report via Chrome MCP). Smoke test on home + one topic hub.
+- **Phase C** — Tier 2 meta-audit: `scripts/audit/contradiction-checker.mjs` (catches today's Article-schema-vs-not-exists contradiction class automatically), `scripts/audit/depth-checker.mjs` (audit-the-auditor), `scripts/audit/dedupe-rank-synthesiser.mjs` (single ranked output).
+- **Phase D** — `.claude/commands/full-audit.md` slash command (single-command dispatch of whole pipeline) + `STATE.template.md` "Last full audit:" line update + mirror `audit-data/templates/` and `scripts/audit/` to Vitrums / GlazingQuoter / HXL. End-to-end run on SteelR validates every component.
+
+After this build, `/full-audit` runs the whole structural review as one command, Tier 2 catches my synthesis errors automatically, all 4 projects inherit the same architecture.
+
+**Outside the build session, queued:**
 - Between 2026-05-12 and 2026-05-19, run `node scripts/audit/capture-serp.mjs post-tested-locally-bundle`, diff against `audit-data/serp-captures/20260505-pre-panel-recommendations.json`, and complete the post-state checklist in `audit-data/change-log/20260505-tested-locally-bundle.md`. Decide promote-to-Verified vs revert for the 5 Tested-locally items.
-- Schedule the 5 deferred Reasoned recommendations from the afternoon panel (Mani Sandhu /about visibility, YMYL author bylines on 6 blogs, homepage scale anchor, two cannibalisation merges/retitles).
-- Build remaining capture scripts before next Reasoned bundle: `scripts/audit/capture-lighthouse.mjs`, `capture-ai-citation.mjs`, `capture-gsc-pages.mjs`. Required before `/why-steel-front-doors` hub and Hero "use client" LCP fix can ship through the gate.
-- Carry-forward from 2026-05-03: rename `src/data/blog/posts/front-door-security-ratings-compared-sr1-to-sr3.ts` to drop the `sr1-to-sr3` framing that contradicts the 4-tier ladder; mirror Recommendation Gate templates + `scripts/audit/` to Vitrums / GlazingQuoter / HXL.
+- Schedule the 5 deferred Reasoned recommendations from 2026-05-05 afternoon panel (Mani Sandhu /about visibility, YMYL author bylines on 6 blogs, homepage scale anchor, two cannibalisation merges/retitles).
+- Carry-forward from 2026-05-03: rename `src/data/blog/posts/front-door-security-ratings-compared-sr1-to-sr3.ts` to drop the `sr1-to-sr3` framing.
 
 ## Blockers
 
