@@ -188,7 +188,7 @@ A single-leaf steel entrance door typically weighs between 80 and 150 kilograms 
 
 ### What lead time should I allow for a bespoke steel entrance door?
 
-Allow 8-12 weeks from confirmed order to delivery for a standard bespoke steel doorset. Complex configurations, specialist finishes or dual fire-and-security ratings may extend this to 14-16 weeks. The approval process — from initial consultation to signed-off production drawings — adds a further 2-4 weeks and should be programmed separately.
+Allow 8 to 12 weeks from confirmed order to delivery for a standard bespoke steel doorset. Complex configurations, specialist finishes or dual fire-and-security ratings can extend this; lead time is confirmed at quote stage. The approval process from initial consultation to signed-off production drawings should be programmed separately.
 
 ### Can I specify different colours for the internal and external faces?
 

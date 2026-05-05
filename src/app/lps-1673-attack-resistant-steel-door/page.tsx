@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "How is an LPS 1673 specification priced and what is the lead time?",
     answer:
-      "LPS 1673 is priced individually after the on-site survey and design consultation. The material, hardware, certification cost and assembly complexity are materially higher than a standard SR3 or SR4 specification, so the quotation reflects that. There are no published prices and no fixed tiers, because every LPS 1673 specification is assessed against the property and the threat profile. Lead time is twelve to sixteen weeks from design sign-off, two to four weeks longer than a standard SteelR specification, accounting for the additional certification process and the supply chain coordination required for the certified components.",
+      "LPS 1673 is priced individually after the on-site survey and design consultation. The material, hardware, certification cost and assembly complexity are materially higher than a standard SR3 or SR4 specification, so the quotation reflects that. There are no published prices and no fixed tiers, because every LPS 1673 specification is assessed against the property and the threat profile. Lead time is confirmed at quote stage, accounting for the additional certification process and the supply chain coordination required for the certified components.",
   },
 ];
 
@@ -282,10 +282,8 @@ export default function Lps1673Page() {
             ),
             body2: (
               <>
-                Lead time for an LPS 1673 specification is twelve to
-                sixteen weeks from signed design to fitted
-                installation. This is two to four weeks longer than a
-                standard SteelR specification, reflecting the additional
+                Lead time for an LPS 1673 specification is confirmed
+                at quote stage, accounting for the additional
                 certification process and the supply chain coordination
                 required for the certified components. Pricing is
                 individual to the project and is provided in writing

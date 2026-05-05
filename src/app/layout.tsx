@@ -204,13 +204,13 @@ export default function RootLayout({
                 {
                   "@type": "EducationalOccupationalCredential",
                   "credentialCategory": "certification",
-                  "name": "ISO 9001:2015 Quality Management System",
+                  "name": "ISO 9001 Quality Management System",
                   "recognizedBy": {"@type": "Organization", "name": "UKAS"}
                 },
                 {
                   "@type": "EducationalOccupationalCredential",
                   "credentialCategory": "certification",
-                  "name": "ISO 14001:2015 Environmental Management System",
+                  "name": "ISO 14001 Environmental Management System",
                   "recognizedBy": {"@type": "Organization", "name": "UKAS"}
                 },
                 {
