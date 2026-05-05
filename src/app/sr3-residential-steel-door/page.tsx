@@ -309,6 +309,26 @@ export default function Sr3Page() {
               label: "Bespoke steel front doors UK",
               description: "Hub page covering the full SteelR model, design process and regional coverage.",
             },
+            {
+              href: "/housing-associations",
+              label: "For housing associations",
+              description: "Building Safety Act 2022 + FRA remediation procurement model with stock-replacement scheduling.",
+            },
+            {
+              href: "/developers",
+              label: "For residential developers",
+              description: "Approved Doc Q + NHBC-ready certification packs. Door schedules and phased delivery against build programmes.",
+            },
+            {
+              href: "/architects",
+              label: "For architects + specifiers",
+              description: "NBS-format clauses, BIM data, performance specification narrative. Direct line to the design team across RIBA stages.",
+            },
+            {
+              href: "/property-managers",
+              label: "For managing agents",
+              description: "FRA action close-out, Section 20 consultation support, portfolio-level supplier programme.",
+            },
           ],
         }}
         faqs={faqs}

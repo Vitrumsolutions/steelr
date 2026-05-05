@@ -343,7 +343,27 @@ export default function Lps1673Page() {
               label: "Luxury steel entrance doors London",
               description:
                 "Bespoke residential specification across all London boroughs, with conservation-area and listed-building experience.",
+            },            {
+              href: "/housing-associations",
+              label: "For housing associations",
+              description: "Building Safety Act 2022 + FRA remediation procurement model with stock-replacement scheduling.",
             },
+            {
+              href: "/developers",
+              label: "For residential developers",
+              description: "Approved Doc Q + NHBC-ready certification packs. Door schedules and phased delivery against build programmes.",
+            },
+            {
+              href: "/architects",
+              label: "For architects + specifiers",
+              description: "NBS-format clauses, BIM data, performance specification narrative. Direct line to the design team across RIBA stages.",
+            },
+            {
+              href: "/property-managers",
+              label: "For managing agents",
+              description: "FRA action close-out, Section 20 consultation support, portfolio-level supplier programme.",
+            },
+
           ],
         }}
         faqs={faqs}

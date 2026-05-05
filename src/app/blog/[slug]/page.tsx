@@ -197,18 +197,29 @@ export default async function BlogPostPage({ params }: Props) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
             headline: post.title,
             description: post.description,
             image: `https://steelr.co.uk${post.image}`,
             datePublished: post.date,
-            dateModified: post.date,
-            author: { "@type": "Organization", name: "SteelR", url: "https://steelr.co.uk" },
+            dateModified: post.dateModified ?? post.date,
+            author: {
+              "@type": "Person",
+              name: post.author ?? "SteelR Technical Team",
+              url: "https://steelr.co.uk/about",
+            },
             publisher: {
               "@type": "Organization",
               name: "SteelR",
               url: "https://steelr.co.uk",
-              logo: "https://steelr.co.uk/brand/steelr-logo-primary.png",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://steelr.co.uk/brand/steelr-logo-primary.png",
+              },
+            },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": `https://steelr.co.uk/blog/${post.slug}`,
             },
           }),
         }}

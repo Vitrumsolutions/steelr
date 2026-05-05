@@ -759,6 +759,172 @@ export default async function AreaPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Security specification block — links to 4 core topic hubs.
+          Distributes 161 inbound links to commercial pages (one per area).
+          Added 5 May 2026 per Recommendation 1 of Tested-locally bundle. */}
+      <section className="bg-cream py-12 md:py-16 px-6 md:px-16 border-t border-[rgba(26,26,24,0.08)]">
+        <div className="max-w-[1200px] mx-auto">
+          <ScrollReveal>
+            <p
+              className="mb-3"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 11,
+                letterSpacing: "0.25em",
+                textTransform: "uppercase",
+                color: "#8a8a82",
+              }}
+            >
+              Security Specification for {label} Properties
+            </p>
+            <h2
+              className="mb-6"
+              style={{
+                fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontSize: "clamp(22px, 2.6vw, 32px)",
+                color: "#1a1a18",
+                lineHeight: 1.2,
+              }}
+            >
+              Every {label} door ships at BS EN 1627:2011 RC4 Standard, with LPS 1175 SR3, SR4 and LPS 1673 upgrades available
+            </h2>
+            <p
+              className="mb-8"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 200,
+                fontSize: 14,
+                lineHeight: 1.9,
+                color: "#6b5a42",
+                maxWidth: 820,
+              }}
+            >
+              The four-tier residential security ladder is the same on every SteelR door, including {label} installations. PAS 24:2022 is the regulatory floor under Approved Document Q. BS EN 1627:2011 RC4 single leaf, unglazed is included as Standard. The LPCB police-preferred LPS 1175 SR3 (Enhanced upgrade), Commercial-grade SR4 D10 Issue 8 and Ultra-high LPS 1673 attack-resistance are available on request. FD30S fire and smoke rating to Approved Document B is standard, FD60 available.
+            </p>
+          </ScrollReveal>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <Link
+              href="/sr3-residential-steel-door"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+            >
+              <p
+                className="mb-2"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 10,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "#c9a96e",
+                }}
+              >
+                LPS 1175 SR3
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 400,
+                  fontSize: 16,
+                  color: "#1a1a18",
+                  lineHeight: 1.3,
+                }}
+              >
+                Enhanced upgrade <span style={{ color: "#c9a96e" }}>&rarr;</span>
+              </p>
+            </Link>
+            <Link
+              href="/pas-24-steel-entrance-door"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+            >
+              <p
+                className="mb-2"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 10,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "#c9a96e",
+                }}
+              >
+                PAS 24:2022
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 400,
+                  fontSize: 16,
+                  color: "#1a1a18",
+                  lineHeight: 1.3,
+                }}
+              >
+                Approved Doc Q <span style={{ color: "#c9a96e" }}>&rarr;</span>
+              </p>
+            </Link>
+            <Link
+              href="/secured-by-design-steel-front-door"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+            >
+              <p
+                className="mb-2"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 10,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "#c9a96e",
+                }}
+              >
+                Secured by Design
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 400,
+                  fontSize: 16,
+                  color: "#1a1a18",
+                  lineHeight: 1.3,
+                }}
+              >
+                UK police-preferred <span style={{ color: "#c9a96e" }}>&rarr;</span>
+              </p>
+            </Link>
+            <Link
+              href="/fire-rated-fd30-front-door"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] transition-colors duration-200"
+            >
+              <p
+                className="mb-2"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 10,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "#c9a96e",
+                }}
+              >
+                FD30 / FD60
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 400,
+                  fontSize: 16,
+                  color: "#1a1a18",
+                  lineHeight: 1.3,
+                }}
+              >
+                Fire rated <span style={{ color: "#c9a96e" }}>&rarr;</span>
+              </p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Gallery preview */}
       <section className="bg-cream ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-5xl mx-auto">

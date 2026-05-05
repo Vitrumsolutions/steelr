@@ -246,7 +246,27 @@ export default function ThermallyBrokenPage() {
               href: "/uk-steel-doors-vs-imported",
               label: "UK-made vs imported steel doors",
               description: "Why imported budget steel doors often skip the thermal break, and what it costs you.",
+            },            {
+              href: "/housing-associations",
+              label: "For housing associations",
+              description: "Building Safety Act 2022 + FRA remediation procurement model with stock-replacement scheduling.",
             },
+            {
+              href: "/developers",
+              label: "For residential developers",
+              description: "Approved Doc Q + NHBC-ready certification packs. Door schedules and phased delivery against build programmes.",
+            },
+            {
+              href: "/architects",
+              label: "For architects + specifiers",
+              description: "NBS-format clauses, BIM data, performance specification narrative. Direct line to the design team across RIBA stages.",
+            },
+            {
+              href: "/property-managers",
+              label: "For managing agents",
+              description: "FRA action close-out, Section 20 consultation support, portfolio-level supplier programme.",
+            },
+
           ],
         }}
         faqs={faqs}

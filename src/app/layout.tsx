@@ -134,6 +134,122 @@ export default function RootLayout({
                   {"@type": "OfferCatalog", "name": "Double Steel Entrance Doors"}
                 ]
               },
+              "makesOffer": [
+                {
+                  "@type": "Service",
+                  "name": "Bespoke Steel Entrance Door Manufacture and Installation",
+                  "description": "UK-manufactured bespoke steel front doors made to measure for individual properties. PAS 24:2022 certified, BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, with LPS 1175 SR3 (Enhanced upgrade), SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673 (Ultra-high, by enquiry) available. Secured by Design approved, FD30S fire and smoke rated.",
+                  "provider": {"@id": "https://steelr.co.uk/#business"},
+                  "areaServed": {"@type": "Country", "name": "United Kingdom"},
+                  "serviceType": "Bespoke Steel Front Door Manufacture and Installation"
+                },
+                {
+                  "@type": "Service",
+                  "name": "PAS 24 Certified Steel Front Doors for New Builds",
+                  "description": "PAS 24:2022 certified steel front doors meeting Approved Document Q for new-build dwellings, flats and HMOs. Standard on every SteelR door. Building Control sign-off included.",
+                  "provider": {"@id": "https://steelr.co.uk/#business"},
+                  "areaServed": {"@type": "Country", "name": "United Kingdom"},
+                  "serviceType": "PAS 24 Certified Door Supply"
+                },
+                {
+                  "@type": "Service",
+                  "name": "FD30 and FD60 Fire Rated Steel Front Doors",
+                  "description": "FD30S fire and smoke rated steel front doors standard on every SteelR specification. FD60 available as upgrade for common-area doors and protected escape routes. Tested to BS 476-22 or BS EN 1634-1. Approved Document B compliant.",
+                  "provider": {"@id": "https://steelr.co.uk/#business"},
+                  "areaServed": {"@type": "Country", "name": "United Kingdom"},
+                  "serviceType": "Fire Rated Door Supply and Installation"
+                },
+                {
+                  "@type": "Service",
+                  "name": "Secured by Design Approved Steel Front Doors",
+                  "description": "UK police-preferred Secured by Design specification on every SteelR door. Whole-doorset approval covering frame, leaf, locking and hardware. Recognised by UK home insurers.",
+                  "provider": {"@id": "https://steelr.co.uk/#business"},
+                  "areaServed": {"@type": "Country", "name": "United Kingdom"},
+                  "serviceType": "Secured by Design Approved Door Supply"
+                },
+                {
+                  "@type": "Service",
+                  "name": "LPS 1175 SR3 and SR4 Commercial-Grade Steel Front Doors",
+                  "description": "LPCB police-preferred LPS 1175 SR3 (Enhanced upgrade) and LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade, used in data centres and bank vaults) available on every SteelR residential door.",
+                  "provider": {"@id": "https://steelr.co.uk/#business"},
+                  "areaServed": {"@type": "Country", "name": "United Kingdom"},
+                  "serviceType": "Commercial-Grade Security Door Supply"
+                },
+                {
+                  "@type": "Service",
+                  "name": "Custom RAL Colour and Bespoke Hardware Door Design",
+                  "description": "Any RAL colour with dual-colour inside/out at no additional cost. Hardware in chrome, brass, gold or matt black. Bespoke panel mouldings, knockers, letterplates and house numerals. Visual mock-up before manufacture.",
+                  "provider": {"@id": "https://steelr.co.uk/#business"},
+                  "areaServed": {"@type": "Country", "name": "United Kingdom"},
+                  "serviceType": "Bespoke Door Design"
+                },
+                {
+                  "@type": "Service",
+                  "name": "UK Mainland Door Installation by In-House Team",
+                  "description": "DBS-checked, fully insured installation team employed directly by SteelR. Never subcontracted. Same team manufactures and installs the door, preserving as-tested certification validity. No regional surcharge.",
+                  "provider": {"@id": "https://steelr.co.uk/#business"},
+                  "areaServed": {"@type": "Country", "name": "United Kingdom"},
+                  "serviceType": "Front Door Installation"
+                },
+                {
+                  "@type": "Service",
+                  "name": "Door Aftercare, Warranty and Hardware Servicing",
+                  "description": "Ten-year manufacturer warranty on door construction, five years on decorative finish, three years on hardware. Direct phone and email contact, no ticket systems. Hinge adjustments, lock re-keying, seal replacement and hardware upgrades by the original install team.",
+                  "provider": {"@id": "https://steelr.co.uk/#business"},
+                  "areaServed": {"@type": "Country", "name": "United Kingdom"},
+                  "serviceType": "Door Aftercare and Maintenance"
+                }
+              ],
+              "hasCredential": [
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "certification",
+                  "name": "ISO 9001:2015 Quality Management System",
+                  "recognizedBy": {"@type": "Organization", "name": "UKAS"}
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "certification",
+                  "name": "ISO 14001:2015 Environmental Management System",
+                  "recognizedBy": {"@type": "Organization", "name": "UKAS"}
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "certification",
+                  "name": "PAS 24:2022 Security Performance Standard",
+                  "recognizedBy": {"@type": "Organization", "name": "British Standards Institution"}
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "certification",
+                  "name": "BS EN 1627:2011 Resistance Class 4 (RC4) single leaf, unglazed",
+                  "recognizedBy": {"@type": "Organization", "name": "British Standards Institution"}
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "certification",
+                  "name": "LPS 1175 Issue 8 Security Rating SR3 and SR4",
+                  "recognizedBy": {"@type": "Organization", "name": "Loss Prevention Certification Board (LPCB), BRE Global"}
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "certification",
+                  "name": "Secured by Design Approved",
+                  "recognizedBy": {"@type": "Organization", "name": "Police Crime Prevention Initiatives Limited"}
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "certification",
+                  "name": "FD30S Fire and Smoke Rated to BS 476-22 / BS EN 1634-1",
+                  "recognizedBy": {"@type": "Organization", "name": "BRE Global / Warringtonfire"}
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "certification",
+                  "name": "Made in Britain Marque",
+                  "recognizedBy": {"@type": "Organization", "name": "Made in Britain Campaign"}
+                }
+              ],
               "founder": {
                 "@type": "Person",
                 "name": "Mani Sandhu",

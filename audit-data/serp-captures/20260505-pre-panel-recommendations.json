@@ -1,0 +1,768 @@
+{
+  "label": "pre-panel-recommendations",
+  "capturedAt": "2026-05-05T18:13:53.236Z",
+  "queriesCount": 24,
+  "creditsUsed": 24,
+  "summary": {
+    "ranking": 5,
+    "notRanking": 19,
+    "errors": 0,
+    "aiOverviewMentions": 1
+  },
+  "results": [
+    {
+      "query": "steelr",
+      "capturedAt": "2026-05-05T18:13:19.384Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Steelers Home | Pittsburgh Steelers - Steelers.com",
+          "link": "https://www.steelers.com/"
+        },
+        {
+          "position": 2,
+          "title": "Steelr Font - 1001 Fonts",
+          "link": "https://www.1001fonts.com/steelr-font.html"
+        },
+        {
+          "position": 3,
+          "title": "Steelr - song and lyrics by Esgar - Spotify",
+          "link": "https://open.spotify.com/track/6XcsKjyE03lcKm5yHdbhcp"
+        }
+      ],
+      "aiOverviewPresent": true,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "Who's favored to win Steelers vs. Ravens?",
+        "Who is Snoop Dogg's favorite team?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "steelr bespoke steel entrance doors",
+      "capturedAt": "2026-05-05T18:13:20.662Z",
+      "steelrPosition": 1,
+      "steelrUrl": "https://steelr.co.uk/",
+      "steelrTitle": "SteelR | Bespoke Steel Front Doors UK | SR3 / SR4 Available",
+      "steelrSnippet": "Every SteelR door is fully bespoke. You can choose from any colour in the RAL Classic range — over 200 colours — with the option of dual-colour specification (a ...",
+      "top3Competitors": [
+        {
+          "position": 2,
+          "title": "Custom - Steel Doors - The Home Depot",
+          "link": "https://www.homedepot.com/b/Doors-Windows-Exterior-Doors-Front-Doors-Steel-Doors/Custom/N-5yc1vZc945Z1z1txos"
+        },
+        {
+          "position": 3,
+          "title": "Steel Exterior Doors | Steel Front Doors | Steel Entry Doors - ProVia",
+          "link": "https://www.provia.com/doors/entry-doors/legacy/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "How much does a custom steel door cost?",
+        "How much does a bespoke wooden door cost?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "what is PAS 24 for front doors UK",
+      "capturedAt": "2026-05-05T18:13:21.797Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "What is PAS 24 & Why Does it Matter? - Everest",
+          "link": "https://www.everest.co.uk/security/what-is-pas-24/"
+        },
+        {
+          "position": 2,
+          "title": "A Guide to PAS 24 Doorsets | JELD-WEN",
+          "link": "https://www.jeld-wen.co.uk/advice/buying-guides/pas-24"
+        },
+        {
+          "position": 3,
+          "title": "What is PAS 24 and do I need a Secured by Design–rated door?",
+          "link": "https://homebuilddoors.co.uk/blogs/news/what-is-pas-24-and-do-i-need-a-secured-by-design-rated-door?srsltid=AfmBOoo9eEzMwnibvvChIh4uDmtu5TC0z5Mn7UGJ0JrKKpOAU5TqRjMU"
+        }
+      ],
+      "aiOverviewPresent": true,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "Is RC2 better than PAS24?",
+        "Is PAS24 mandatory?",
+        "What is the difference between pas24 and SBD?",
+        "How do I get a PAS 24 certificate?"
+      ],
+      "totalOrganicResults": 9
+    },
+    {
+      "query": "SR3 vs SR4 explained",
+      "capturedAt": "2026-05-05T18:13:23.775Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "What is better Saints row 3 or 4 : r/SaintsRow - Reddit",
+          "link": "https://www.reddit.com/r/SaintsRow/comments/18nwvud/what_is_better_saints_row_3_or_4/"
+        },
+        {
+          "position": 2,
+          "title": "The Differences Between Saints Row III and IV - IGN",
+          "link": "https://www.ign.com/articles/2013/07/05/the-differences-between-the-third-and-saints-row-iv"
+        },
+        {
+          "position": 3,
+          "title": "Has it been explained why this looks like SR3? - Saints Row IV",
+          "link": "https://gamefaqs.gamespot.com/boards/649270-saints-row-iv/66787153?page=1"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "Is Saints Row 4 the same as 3?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "BS EN 1627 RC4 explained",
+      "capturedAt": "2026-05-05T18:13:24.963Z",
+      "steelrPosition": 6,
+      "steelrUrl": "https://steelr.co.uk/bs-en-1627-rc4-residential-steel-door",
+      "steelrTitle": "BS EN 1627 RC4 Residential Steel Door | SteelR Standard Tier",
+      "steelrSnippet": "RC4 is Resistance Class 4 under the European standard for the burglar resistance of doors and windows, certifying the complete door assembly against a sustained ...",
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Burglary resistance EN 1627-1630 Justice - Heinen Doors",
+          "link": "https://www.heinen-doors.com/en/performances/burglary-resistance/"
+        },
+        {
+          "position": 2,
+          "title": "Security doors in the resistance classes RC2 / RC3 / RC4 / RC5 / RC6",
+          "link": "https://msprotect.com/en/products/doors_rc3_rc4/security-doors_rc3_rc4"
+        },
+        {
+          "position": 3,
+          "title": "EN 1627–1630 vs EN 1143–1: differences, applications & guidance",
+          "link": "https://metalquartz.com/en/standards/en-1627-1630-vs-en-1143-1-what-is-the-difference-between-burglar-resistant-doors-and-safes/"
+        }
+      ],
+      "aiOverviewPresent": true,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "What is the difference between RC3 and RC4 doors?",
+        "What is the difference between RC2 and RC3 doors?",
+        "What is the difference between LPS 1175 and EN 1627?",
+        "What is a RC2 door rating?"
+      ],
+      "totalOrganicResults": 9
+    },
+    {
+      "query": "FD30 fire door requirements",
+      "capturedAt": "2026-05-05T18:13:27.032Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "A Deep Dive into FD30 Fire Door Specifications",
+          "link": "https://www.firesafetyevent.com/news/deep-dive-fd30-fire-door-specifications"
+        },
+        {
+          "position": 2,
+          "title": "FD30 Fire Door Specification Explained - RJ Urmson Group",
+          "link": "https://rjurmson.com/firespecialists/fd30-fire-door-specification-explained/"
+        },
+        {
+          "position": 3,
+          "title": "Fire doors: FD30 or FD60?",
+          "link": "https://www.firedoorscomplete.com/news/fire-doors-fd30-or-fd60"
+        }
+      ],
+      "aiOverviewPresent": true,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "What are the requirements for a FD30 fire door?",
+        "What should never be propped open?",
+        "What is the FD30S requirement?",
+        "Do FD30 doors require intumescent strips?"
+      ],
+      "totalOrganicResults": 8
+    },
+    {
+      "query": "Secured by Design front door UK",
+      "capturedAt": "2026-05-05T18:13:28.035Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Advice when buying new Doors - Secured by Design",
+          "link": "https://www.securedbydesign.com/guidance/crime-prevention-advice/home-security/secure-residential-doors"
+        },
+        {
+          "position": 2,
+          "title": "High security front doors - Secure by Design doors | Urban Front",
+          "link": "https://www.urbanfront.com/front-doors/high-security"
+        },
+        {
+          "position": 3,
+          "title": "Secured by Design Doors & Windows - Everest",
+          "link": "https://www.everest.co.uk/security/secured-by-design/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "What are the most secure front doors in the UK?",
+        "What is secure by design in the UK?",
+        "What is the most secure front door design?",
+        "How much should a new front door cost installed in the UK per?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "best bespoke steel front door UK",
+      "capturedAt": "2026-05-05T18:13:29.867Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Black Steel Doors Company in UK – Modern, luxury bespoke metal ...",
+          "link": "https://blacksteeldoors.co.uk/"
+        },
+        {
+          "position": 2,
+          "title": "Premium Steel Front Doors by Modern Doors",
+          "link": "https://www.modern-doors.co.uk/external-doors/metal-front-doors/premium-steel-front-doors.html?srsltid=AfmBOopdTYRV96xyEJYchZXmeOD13O3QWs5GrFy3t_LOTWT9Dcq4uG7P"
+        },
+        {
+          "position": 3,
+          "title": "Who makes the best steel doors and windows in the UK ... - Reddit",
+          "link": "https://www.reddit.com/r/DIYUK/comments/1i77qtd/who_makes_the_best_steel_doors_and_windows_in_the/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "What is the best front door to buy in the UK?",
+        "How much does a bespoke wooden front door cost?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "luxury steel entrance doors UK",
+      "capturedAt": "2026-05-05T18:13:30.873Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Premium Steel Front Doors by Modern Doors",
+          "link": "https://www.modern-doors.co.uk/external-doors/metal-front-doors/premium-steel-front-doors.html?srsltid=AfmBOoq1oCpVdE5LnwmzzfIEqz9ptKXcmXAoL4Z1s-JblfqGS_yrOQpt"
+        },
+        {
+          "position": 2,
+          "title": "High Security Front Doors",
+          "link": "https://www.lathamssteeldoors.co.uk/security-front-doors/"
+        },
+        {
+          "position": 3,
+          "title": "Black Steel Doors Company in UK – Modern, luxury bespoke metal ...",
+          "link": "https://blacksteeldoors.co.uk/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "bespoke steel front doors London",
+      "capturedAt": "2026-05-05T18:13:31.780Z",
+      "steelrPosition": 6,
+      "steelrUrl": "https://steelr.co.uk/areas/kensington",
+      "steelrTitle": "Steel Doors Kensington, Greater London | Bespoke Steel Front Doors",
+      "steelrSnippet": "Bespoke steel front doors in Kensington. BS EN 1627 RC4 standard, LPS 1175 SR3 / SR4 available, PAS 24 certified, Secured by Design, FD30S fire rated.",
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Home - Bespoke Steel Doors | Modern Doors | Glass Doors ...",
+          "link": "https://bespokesteeldoors.uk/"
+        },
+        {
+          "position": 2,
+          "title": "Bespoke Steel Doors London | Custom Luxury Creations -",
+          "link": "https://steeldoorsolutions.uk/"
+        },
+        {
+          "position": 3,
+          "title": "Bespoke Steel Doors (@bespokesteeldoors) · London - Instagram",
+          "link": "https://www.instagram.com/bespokesteeldoors/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "buy steel front door UK",
+      "capturedAt": "2026-05-05T18:13:33.224Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "High Security Front Doors",
+          "link": "https://www.lathamssteeldoors.co.uk/security-front-doors/"
+        },
+        {
+          "position": 2,
+          "title": "Steel Front Doors | Secure & Stylish Exterior Door Solutions",
+          "link": "https://www.doorsuppliesonline.co.uk/collections/steel-front-doors"
+        },
+        {
+          "position": 3,
+          "title": "Premium Steel Front Doors by Modern Doors",
+          "link": "https://www.modern-doors.co.uk/external-doors/metal-front-doors/premium-steel-front-doors.html?srsltid=AfmBOopFrBF3_r-xz4ST-vbo8F9sJ0aq9T86gww6QbpwnbD-TayvQNAk"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "How much does a steel front door cost?",
+        "What is the best material for a front door in the UK?",
+        "How much is the average front door in the UK?",
+        "Is a steel front door worth it?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "steel doors Buckinghamshire",
+      "capturedAt": "2026-05-05T18:13:34.539Z",
+      "steelrPosition": 4,
+      "steelrUrl": "https://steelr.co.uk/areas/buckinghamshire",
+      "steelrTitle": "Steel Doors Buckinghamshire | Bespoke Steel Front Doors - SteelR",
+      "steelrSnippet": "SteelR steel doors are engineered to complement Buckinghamshire's distinctive mix of period cottages, Arts and Crafts homes, and contemporary new-builds across ...",
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Internal Steel Doors | Glass Doors From Steel Door Company",
+          "link": "https://steeldoorcompany.co.uk/?srsltid=AfmBOoqA1ZlIsWEdb5H6NbxxmOiKvRPBUV6R-Rcki3V5gqSDDjzE0zEY"
+        },
+        {
+          "position": 2,
+          "title": "Prestige Steel Doors Ltd – Call us on 0808 123 0432!",
+          "link": "https://prestigesteeldoors.co.uk/"
+        },
+        {
+          "position": 3,
+          "title": "Budget Steel Door | Latham's Steel Security Doors",
+          "link": "https://www.lathamssteeldoors.co.uk/steel-security-doors/steel-door/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "What is the average price for a steel door?",
+        "What is the best door brand in the UK?",
+        "What is the lifespan of a steel door?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "steel doors Surrey",
+      "capturedAt": "2026-05-05T18:13:37.550Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Steel Doors - Shop Exterior Metal & Steel Entry Doors in Surrey",
+          "link": "https://a1doors.ca/products/exterior-doors/metal-doors/"
+        },
+        {
+          "position": 2,
+          "title": "Commercial Steel Doors, Hollow Metal Doors, Fire-Rated Doors ...",
+          "link": "https://accuratedoors.ca/"
+        },
+        {
+          "position": 3,
+          "title": "Steel Doors - The Home Depot",
+          "link": "https://www.homedepot.com/b/Doors-Windows-Exterior-Doors-Front-Doors-Steel-Doors/N-5yc1vZc945"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "steel doors Kensington",
+      "capturedAt": "2026-05-05T18:13:38.785Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Kensington 36 in. x 80 in. Universal/Reversible Black Wrought Iron ...",
+          "link": "https://www.homedepot.com/p/Grisham-Kensington-36-in-x-80-in-Universal-Reversible-Black-Wrought-Iron-Steel-Security-Storm-Door-47321/321396338"
+        },
+        {
+          "position": 2,
+          "title": "Grisham Kensington 36\"W x 80\"H Black Wrought Iron Security Storm ...",
+          "link": "https://www.menards.com/main/doors-windows-millwork/exterior-doors/security-doors/grisham-kensington-security-storm-door/47321/p-1642874295655462-c-14332.htm?srsltid=AfmBOorW9ejY-2QxGiY9KsYctvNt3qlBR9xZZv9Y30tiqsECnVypf8xE"
+        },
+        {
+          "position": 3,
+          "title": "Kensington | External Doors - SWD Bespoke",
+          "link": "https://www.swdbespoke.com/product/kensington"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "Which is the best steel door brand?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "steel doors Chelsea",
+      "capturedAt": "2026-05-05T18:13:39.828Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Steel Doors Chelsea",
+          "link": "https://chelseadoors.co.uk/"
+        },
+        {
+          "position": 2,
+          "title": "Chelsea Front Doors at Lowes.com",
+          "link": "https://www.lowes.com/pl/exterior-doors/front-doors/chelsea/4294482094-4294766867"
+        },
+        {
+          "position": 3,
+          "title": "Steel Door Innovations (@steeldoorinnovation) - Facebook",
+          "link": "https://www.facebook.com/steeldoorinnovation/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "What is a Chelsea door?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "steel doors Cobham",
+      "capturedAt": "2026-05-05T18:13:41.897Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Steel Doors in Cobham - Unique steel window",
+          "link": "https://uniquesteelwindows.co.uk/steel-doors-in-cobham/"
+        },
+        {
+          "position": 2,
+          "title": "Love these gorgeous steel framed partitions and sliding doors in our ...",
+          "link": "https://www.facebook.com/tracygrahaminteriors/posts/love-these-gorgeous-steel-framed-partitions-and-sliding-doors-in-our-cobham-proj/528286392634572/"
+        },
+        {
+          "position": 3,
+          "title": "Latham's Steel Security Doors",
+          "link": "https://www.lathamssteeldoors.co.uk/steel-security-doors/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "Which is the best steel door brand?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "steel doors Esher",
+      "capturedAt": "2026-05-05T18:13:43.468Z",
+      "steelrPosition": 2,
+      "steelrUrl": "https://steelr.co.uk/areas/esher",
+      "steelrTitle": "Steel Doors Esher, Surrey | Bespoke Steel Front Doors - SteelR",
+      "steelrSnippet": "Bespoke steel front doors in Esher. BS EN 1627 RC4 standard, LPS 1175 SR3 / SR4 available, PAS 24 certified, Secured by Design, FD30S fire rated.",
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Custom Steel Doors & Windows in California | Herrero",
+          "link": "https://herrerodoors.com/"
+        },
+        {
+          "position": 3,
+          "title": "Steel Door Company (@steeldoorcompany) - Instagram",
+          "link": "https://www.instagram.com/steeldoorcompany/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "Which is the best brand of steel doors?",
+        "How much does a custom steel door cost?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "front door supplier housing association UK",
+      "capturedAt": "2026-05-05T18:13:44.489Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Doors For Social Housing & New Build",
+          "link": "https://nwd.co.uk/doors/"
+        },
+        {
+          "position": 2,
+          "title": "Affordable Housing - Unity Doors",
+          "link": "https://unitydoors.com/who-we-work-with-unity-doors/affordable-housing/"
+        },
+        {
+          "position": 3,
+          "title": "Trusted Supplier of Social Housing Doors - Vista Panels",
+          "link": "https://www.vistapanels.co.uk/why-vista-panels-is-the-trusted-supplier-of-social-housing-doors-across-the-uk/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "How much should a new front door cost installed in the UK per?",
+        "Who is the biggest housing association in the UK?",
+        "What is the best front door in the UK?",
+        "What are the building regulations for doors in the UK?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "developer steel front doors UK",
+      "capturedAt": "2026-05-05T18:13:45.630Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Steel Doors & Fire Exit Doors from Latham's Steel Security Doors",
+          "link": "https://www.lathamssteeldoors.co.uk/"
+        },
+        {
+          "position": 2,
+          "title": "Black Steel Doors Company in UK – Modern, luxury bespoke metal ...",
+          "link": "https://blacksteeldoors.co.uk/"
+        },
+        {
+          "position": 3,
+          "title": "Strongdor: Bespoke Steel Doors | High Quality & UK Made",
+          "link": "https://www.strongdor.com/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "steel front doors architects specifiers",
+      "capturedAt": "2026-05-05T18:13:47.122Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Selection & Usage Guide for Standard Steel Doors | SDI",
+          "link": "https://steeldoor.org/sdi-108/"
+        },
+        {
+          "position": 2,
+          "title": "Specifying External Steel Doorsets: A Guide for Architects",
+          "link": "https://ebdsteeldoors.com/news/specifying-external-steel-doorsets-what-architects-and-specifiers-should-know/"
+        },
+        {
+          "position": 3,
+          "title": "Why Architects & Specifiers Choose SDI-Certified Steel Doors ...",
+          "link": "https://www.youtube.com/watch?v=1H41WRm27yY"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "What is SDI A250 8?",
+        "Is a 20 gauge steel door good?",
+        "What is the STC rating of a standard hollow metal door?"
+      ],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "steel front door vs composite",
+      "capturedAt": "2026-05-05T18:13:48.184Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "The Debate Between Steel vs. Fiberglass Exterior Doors",
+          "link": "https://www.hodgescompany.com/blog/the-debate-between-steel-vs-fiberglass-exterior-doors"
+        },
+        {
+          "position": 2,
+          "title": "Steel vs Fiberglass Entry Doors: Which Should You Choose?",
+          "link": "https://energyswingwindows.com/blog/steel-vs-fiberglass-entry-doors"
+        },
+        {
+          "position": 3,
+          "title": "Should I change my fiberglass front door to steel door? - Reddit",
+          "link": "https://www.reddit.com/r/HomeImprovement/comments/aoffw7/should_i_change_my_fiberglass_front_door_to_steel/"
+        }
+      ],
+      "aiOverviewPresent": true,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "What material is best for a front entry door?",
+        "Is a steel front door worth it?"
+      ],
+      "totalOrganicResults": 9
+    },
+    {
+      "query": "steel vs timber front door",
+      "capturedAt": "2026-05-05T18:13:50.880Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Myth Busters of Steel vs. Wood Doors - Simpson Doors",
+          "link": "https://www.simpsondoor.com/blog/post/23/steel-doors-vs-wood-doors"
+        },
+        {
+          "position": 2,
+          "title": "Wood or metal front door? : r/HomeImprovement - Reddit",
+          "link": "https://www.reddit.com/r/HomeImprovement/comments/8p077k/wood_or_metal_front_door/"
+        },
+        {
+          "position": 3,
+          "title": "Wood vs. Fiberglass vs. Steel Doors - The French Steel Company",
+          "link": "https://frenchsteel.com/blog/wood-vs-fiberglass-vs-steel-doors/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [],
+      "totalOrganicResults": 10
+    },
+    {
+      "query": "UK steel doors vs imported",
+      "capturedAt": "2026-05-05T18:13:51.831Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "European Style Doors vs British Style Doors | Doors4UK",
+          "link": "https://www.doors4uk.co.uk/european-style-doors-vs-british-style-doors"
+        },
+        {
+          "position": 2,
+          "title": "Door Guide: Steel v Wood v Aluminium v Fibreglass - Bradbury Group",
+          "link": "https://bradbury-group.com/news/door-guide-steel-v-wood-v-aluminium-v-fibreglass/"
+        },
+        {
+          "position": 3,
+          "title": "Real steel doors vs aluminium \"steel look\" doors - YouTube",
+          "link": "https://www.youtube.com/watch?v=H_zHGiUpoqI"
+        }
+      ],
+      "aiOverviewPresent": true,
+      "aiOverviewMentionsSteelR": true,
+      "peopleAlsoAsk": [
+        "Which is the best brand of steel doors?",
+        "What type of front door is best in the UK?",
+        "What are UK doors made of?"
+      ],
+      "totalOrganicResults": 9
+    },
+    {
+      "query": "most secure front door material",
+      "capturedAt": "2026-05-05T18:13:52.963Z",
+      "steelrPosition": null,
+      "steelrUrl": null,
+      "steelrTitle": null,
+      "steelrSnippet": null,
+      "top3Competitors": [
+        {
+          "position": 1,
+          "title": "Best Material for Front Entry Door: Complete Comparison Guide",
+          "link": "https://www.thompsoncreek.com/blog/best-material-front-entry-door/"
+        },
+        {
+          "position": 2,
+          "title": "Exterior Door Buying Guide - The Home Depot",
+          "link": "https://www.homedepot.com/c/ab/exterior-door-buying-guide/9ba683603be9fa5395fab90f82b562d"
+        },
+        {
+          "position": 3,
+          "title": "Best material for front door : r/HomeImprovement - Reddit",
+          "link": "https://www.reddit.com/r/HomeImprovement/comments/607q73/best_material_for_front_door/"
+        }
+      ],
+      "aiOverviewPresent": false,
+      "aiOverviewMentionsSteelR": false,
+      "peopleAlsoAsk": [
+        "What is the most secure material for a front door?",
+        "What are the hardest doors to break into?"
+      ],
+      "totalOrganicResults": 10
+    }
+  ]
+}
