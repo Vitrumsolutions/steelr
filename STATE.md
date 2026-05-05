@@ -2,33 +2,37 @@
 
 ## Where I left off
 
-Session 2026-05-03 shipped 12 commits to `origin/main` (`950741e` through `2a5f3d8`, plus interleaved cron commit `2cb8cbc`). Site is now consistent on the **4-tier residential security ladder** (BS EN 1627 RC4 Standard / LPS 1175 SR3 Enhanced / LPS 1175 SR4 Commercial-grade / LPS 1673 Ultra-high) across 161 area pages, 39 blog posts, 14 topic hubs, the contact form, and `public/llms-full.txt`. Four new B2B audience hubs went live (`/housing-associations`, `/developers`, `/architects`, `/property-managers`); site total now 292 prerendered static pages. WCAG 2.2 AA bundle landed (skip-to-main link sitewide, footer contrast lifted across 4 alpha values, `/design-estimate` ARIA progressbar + focus management). Today's visibility audit (`audit-data/visibility-audit-20260503.md`): Google organic 7/26 (+2 vs 22 Apr baseline), `/sr3-residential-steel-door` jumped #7 → #4. `llms-full.txt` regenerated through the full `/panel-llms` gate — marker at `.checks/llms-panel.json` written 21:14 by `/panel-llms-approve` after 4-agent SHIP convergence.
+Session 2026-05-05 closed with four commits on `main`: `a1c67a2` (Batch 1C doubled-content fix on 12 area pages), `d36e79c` (Recommendation Gate + capture protocol), `a2dee50` (first Tested-locally bundle of 5 schema/linking changes), `e8dc947` (a11y + schema cleanup from post-deploy verification panel), plus cron `8c759e6` (weekly rank-tracker snapshot 2026-05-04). All shipped, build green, 296+ static pages prerendered. 24-query SERP baseline captured at `audit-data/serp-captures/20260505-pre-panel-recommendations.json` (5 ranking, 19 not in top 30, 1 AI Overview SteelR mention) — paired pre-state for the bundle.
 
 ## Next action
 
-- **GSC URL Inspection priority push** for the 4 new audience hubs: `/housing-associations`, `/developers`, `/architects`, `/property-managers` (~4 of daily ~11 quota — accelerates Google indexing of pages that didn't exist at last sitemap re-read).
-- **Rename** `src/data/blog/posts/front-door-security-ratings-compared-sr1-to-sr3.ts` to drop the `sr1-to-sr3` framing that contradicts the 4-tier ladder. 5-min fix; flagged MEDIUM by `cannibalisation-auditor`. Update slug + redirect + internal links + `index.ts` + `llms-full.txt` Blog Excerpts cluster.
-- **Build `/why-steel-front-doors` consolidation hub** for the comparison cluster (currently 5 separate `/blog/steel-vs-X` URLs splitting equity vs Latham's single hub). Biggest commercial lever from today's panel research; ~1 week of work — schedule as next major sprint.
+- Between 2026-05-12 and 2026-05-19, run `node scripts/audit/capture-serp.mjs post-tested-locally-bundle`, diff against `audit-data/serp-captures/20260505-pre-panel-recommendations.json`, and complete the post-state checklist in `audit-data/change-log/20260505-tested-locally-bundle.md`. Decide promote-to-Verified vs revert for the 5 Tested-locally items.
+- Schedule the 5 deferred Reasoned recommendations from the afternoon panel (Mani Sandhu /about visibility, YMYL author bylines on 6 blogs, homepage scale anchor, two cannibalisation merges/retitles).
+- Build remaining capture scripts before next Reasoned bundle: `scripts/audit/capture-lighthouse.mjs`, `capture-ai-citation.mjs`, `capture-gsc-pages.mjs`. Required before `/why-steel-front-doors` hub and Hero "use client" LCP fix can ship through the gate.
+- Carry-forward from 2026-05-03: rename `src/data/blog/posts/front-door-security-ratings-compared-sr1-to-sr3.ts` to drop the `sr1-to-sr3` framing that contradicts the 4-tier ladder; mirror Recommendation Gate templates + `scripts/audit/` to Vitrums / GlazingQuoter / HXL.
 
 ## Blockers
 
-- **Manufacturer-voice provenance lines** (workshop sq ft, install count, founded year, team size) and **numerical attack-specifics** in `llms-full.txt` Technical Glossary — both panel-flagged as citation-format gaps vs Bradbury / Strongdor. Each requires a fresh `/panel-llms` cycle before commit (gate at `.checks/llms-panel.json`).
-- **Reviews still 0** — #1 Maps 3-pack blocker, user-managed (do not re-suggest).
+- Reviews still 0 — #1 Maps 3-pack blocker, user-managed.
+- Pre-existing subpage `HomeAndConstructionBusiness #business` schema override — flagged by today's seo-schema-validator as long-term cleanup, not introduced by today's commits.
+- 4-tier ladder rewrite ranking volatility only confirmable after the 7-14 day post-state capture.
+- Hero "use client" LCP fix and `/best-secure-front-doors-uk` listicle both blocked on Lighthouse + AI-citation capture scripts (medium-reversibility Reasoned items the gate forbids shipping without before/after).
 
 ## Recent wins (last 14 days)
 
-- 2026-05-03 — 4-tier ladder rolled out site-wide across 16 location data files, 11 blog posts, 9 topic + layout files (commits `950741e`, `65ad41e`, `2c54c8b`).
-- 2026-05-03 — 4 B2B audience hubs live at `/housing-associations`, `/developers`, `/architects`, `/property-managers` (`0accd80`, `2a5f3d8`).
-- 2026-05-03 — WCAG 2.2 AA bundle: skip-to-main, footer contrast, `/design-estimate` ARIA progressbar + focus mgmt, error consistency across 3 forms (`c3b79cd`, `9c76c04`).
-- 2026-05-03 — 26 metadata title/description trims for SERP truncation (`f56e3dc`).
-- 2026-05-03 — `llms-full.txt` Blog Excerpts regenerated to 4-tier framing through full `/panel-llms` gate (`f93ee4d`); 4 agents all returned SHIP.
-- 2026-05-03 — Visibility audit baseline: Google organic 7/26 (+1 vs yesterday), `/sr3-residential-steel-door` #7 → #4 (`d7eadbb`).
+- 2026-05-05 — Recommendation Gate process layer shipped (`d36e79c`): 3 confidence tiers, 4 mandatory questions, per-session caps, loop-prevention rule, templates at `audit-data/templates/`, first capture script `scripts/audit/capture-serp.mjs` working against Serper API. Mirrored to global `~/.claude/CLAUDE.md` and project `CLAUDE.md`.
+- 2026-05-05 — First Tested-locally bundle through the gate (`a2dee50`): 644 new area→topic-hub links via `src/app/areas/[slug]/page.tsx` security spec block (161×4); audience hubs added to `relatedLinks` on 8 topic hubs; 8 hasCredential + 8 makesOffer entries on root schema in `src/app/layout.tsx`; Article→BlogPosting upgrade in `src/app/blog/[slug]/page.tsx` with optional `author?` / `dateModified?` (39 posts now eligible for BlogPosting rich result).
+- 2026-05-05 — Post-deploy verification panel (3 agents) found 4 actionable issues, all fixed in `e8dc947` (conditional Person/Organization author + a11y cleanup).
+- 2026-05-05 — Batch 1C regression patched (`a1c67a2`): doubled 4-tier ladder content on 12 area pages from 2026-05-04 regex sweep.
+- 2026-05-03 — 4-tier ladder rolled out site-wide; 4 B2B audience hubs live (`/housing-associations`, `/developers`, `/architects`, `/property-managers`); WCAG 2.2 AA bundle; visibility audit captured `/sr3-residential-steel-door` #7 → #4.
 
 ## Key files
 
-- `audit-data/visibility-audit-20260503.md` — today's ground-truth audit. Rerun via `python audit-data/visibility-audit.py`.
-- `.checks/llms-panel.json` — current `/panel-llms` SHA marker (gitignored). Any edit to `public/llms.txt` or `public/llms-full.txt` blocks at pre-commit until re-approved.
-- `src/app/housing-associations/page.tsx`, `src/app/developers/page.tsx`, `src/app/architects/page.tsx`, `src/app/property-managers/page.tsx` — the 4 new B2B hubs. `/architects` does not yet cross-link to `/housing-associations` (already at 6/6 related links — editorial choice, not a bug).
-- `scripts/audit-meta-lengths.mjs` — new tooling. Known bug: uses `git ls-files` so untracked new files are skipped (caught housing-assoc meta regression only after staging). Worth switching to filesystem scan; deploy-gate currently catches via build/lint.
-- `scripts/one-shot-4tier-locations.mjs` — new tooling used for Batch 1C location sweep; keep for future ladder-revision passes.
-- `src/data/blog/posts/front-door-security-ratings-compared-sr1-to-sr3.ts` — rename target (see Next action #2).
+- `audit-data/templates/recommendation.md`, `audit-data/templates/synthesis-format.md` — gate templates every recommendation passes through.
+- `audit-data/change-log/20260505-tested-locally-bundle.md` — pre/post evidence record for today's bundle; needs post-state filled in 2026-05-12 to 2026-05-19.
+- `audit-data/serp-captures/20260505-pre-panel-recommendations.json` — paired pre-state for diff (24 queries, gitignored directory).
+- `scripts/audit/capture-serp.mjs` + `scripts/audit/README.md` — first capture script + per-change-type protocol runbook.
+- `src/app/areas/[slug]/page.tsx` — area template carrying the security spec block (161 pages × 4 inbound topic-hub links).
+- `src/app/layout.tsx` — root HomeAndConstructionBusiness schema with hasCredential + makesOffer arrays.
+- `src/app/blog/[slug]/page.tsx` + `src/data/blog/types.ts` — BlogPosting schema with conditional Person/Organization author.
+- `src/data/blog/posts/front-door-security-ratings-compared-sr1-to-sr3.ts` — rename target carried over from 2026-05-03.
