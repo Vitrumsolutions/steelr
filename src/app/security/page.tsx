@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "Does SteelR carry an LPS 1175 SR rating?",
     answer:
-      "No. LPS 1175 (operated by LPCB / BRE) is a different test scheme to BS EN 1627. The two are not equivalent \u2014 over 90% of products tested under EN 1627 RC4 fail to even achieve LPS 1175 SR2 because the tool sets, attack duration and methodology differ. SteelR is certified under the European framework BS EN 1627:2011 RC4 single leaf, unglazed; we do not claim an LPS 1175 SR rating.",
+      "Yes. LPS 1175 (operated by LPCB, the Loss Prevention Certification Board, on behalf of BRE Global) is the UK police-preferred residential security specification, distinct from the European BS EN 1627 framework. SteelR offers two LPS 1175 ratings as upgrade tiers above the BS EN 1627:2011 RC4 Standard residential specification: LPS 1175 SR3 (Issue 8) as the Enhanced upgrade tier, and LPS 1175 SR4 (D10 Issue 8) as the Commercial-grade upgrade tier. LPS 1673 attack-resistance is available as the Ultra-high tier by enquiry. Every SteelR door is BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, with the three LPS upgrade tiers selectable at specification.",
   },
   {
     question: "Is PAS 24 enough for home security?",
@@ -295,9 +295,11 @@ export default function SecurityPage() {
             >
               BS EN 1627:2011 is the European standard for testing the burglar
               resistance of doors, windows and curtain walling. It classifies
-              products from SR1 (minimal resistance) to SR6 (government-level
+              products from RC1 (minimal resistance) to RC6 (government-level
               security) based on the tools used, the duration of attack and the
-              skill level of the simulated intruder.
+              skill level of the simulated intruder. SteelR doors are certified
+              to RC4 single leaf, unglazed as Standard, with LPS 1175 SR3, SR4
+              and LPS 1673 available as upgrade tiers above this baseline.
             </p>
           </ScrollReveal>
 
@@ -447,13 +449,24 @@ export default function SecurityPage() {
                   color: "#6b5a42",
                 }}
               >
-                Note on LPS 1175 SR ratings: LPS 1175 (operated by LPCB / BRE)
-                is a different test scheme to BS EN 1627. The two are not
-                equivalent &mdash; over 90% of products tested under EN 1627
-                RC4 fail to achieve LPS 1175 SR2 because the tool sets, attack
-                duration and methodology differ. SteelR is certified under the
-                European framework BS EN 1627:2011 RC4; we do not claim an
-                LPS 1175 SR rating.
+                Note on LPS 1175 SR ratings. LPS 1175 (operated by LPCB on
+                behalf of BRE Global) is the UK police-preferred residential
+                specification, distinct from the European BS EN 1627 framework.
+                The two schemes use different tool sets, different attack
+                durations and different test methodologies. SteelR offers
+                BS EN 1627:2011 RC4 single leaf, unglazed as the Standard tier
+                on every door, with LPS 1175 SR3 (Enhanced upgrade), LPS 1175
+                SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673
+                (Ultra-high, by enquiry) selectable as upgrade tiers above the
+                Standard. The four-tier ladder is detailed on the{" "}
+                <Link
+                  href="/security-specification"
+                  className="link-gold-underline"
+                  style={{ color: "#1a1a18" }}
+                >
+                  full security specification page
+                </Link>
+                .
               </p>
               <p
                 style={{

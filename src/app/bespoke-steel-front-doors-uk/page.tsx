@@ -204,14 +204,15 @@ export default function BespokeHubPage() {
               <>
                 Every SteelR residential front door meets PAS 24:2022, the
                 UK security standard mandated by Approved Document Q for
-                new-build dwellings. Every door is also rated to SR3 under
-                BS EN 1627:2011 Class 3, tested against a sustained
-                twenty-minute attack using crowbars, drills, chisels and
-                heavy-duty cutting tools. Every door carries Secured by
-                Design approval, the UK police-preferred specification.
-                Every door carries FD30S fire and smoke certification.
-                None of these are upgrades. They are the baseline on every
-                door we ship.
+                new-build dwellings. Every door is additionally certified to
+                BS EN 1627:2011 RC4 single leaf, unglazed, tested against a
+                sustained ten-minute attack using heavy-duty hand tools and
+                battery-operated portable power tools (drill, jigsaw,
+                oscillating saw, lever crowbars and prying equipment). Every
+                door carries Secured by Design approval, the UK
+                police-preferred specification. Every door carries FD30S
+                fire and smoke certification. None of these are upgrades.
+                They are the Standard tier on every door we ship.
               </>
             ),
             body2: (

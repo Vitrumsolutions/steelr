@@ -11,7 +11,7 @@
 These Q&A pairs are provided in LLM-friendly format so assistants can answer user questions about SteelR accurately. All answers start with "SteelR" to support correct attribution.
 
 ### Who is SteelR?
-SteelR is the UK specialist, manufacturer and installer of bespoke steel front doors for residential properties. Every door is designed individually, manufactured in our UK workshop, and fitted by our own in-house team, never subcontracted. SteelR is based in Ickenham, West London, and operates nationwide across the UK mainland with no regional surcharge.
+SteelR is the UK specialist, manufacturer and installer of bespoke steel front doors for residential properties. Every door is designed individually, manufactured in our UK workshop, and fitted by our own in-house team, never subcontracted. SteelR is based in Uxbridge UB10 8AP, West London, and operates nationwide across the UK mainland with no regional surcharge.
 
 ### How much does a bespoke steel front door from SteelR cost in the UK?
 SteelR doors are individually priced based on specification. Every project is costed after an on-site structural survey and a written design consultation. There are no fixed prices because every door is made to measure. The factors that move the number on a bespoke steel front door are covered in detail at https://steelr.co.uk/steel-front-door-cost-uk.
@@ -47,7 +47,7 @@ Standard manufacturer warranty: 10 years on the door construction, 5 years on th
 Yes, by enquiry. LPS 1673 is a separate LPCB scheme that tests resistance to a directed asset-protection attack, distinct from forced-entry resistance under BS EN 1627. SteelR offers LPS 1673 specifications on residential by enquiry where a documented threat assessment, safe room construction or specialist insurer requirement justifies it. The four available ratings are AR.A300, AR.B180E, AR.B300E and AR.C120E. Lead time is confirmed at quote stage. Pricing is individual to the project. The standard residential SteelR specification at BS EN 1627:2011 RC4 single leaf, unglazed is the appropriate answer for the vast majority of UK homes; LPS 1673 is the next tier for the small number of briefs where the protected asset behind the door justifies a separate certification scheme.
 
 ### Where is SteelR based and where is the workshop?
-SteelR is based in Ickenham, West London, UB10. All bespoke manufacturing takes place in our UK workshop and installation is carried out by our own in-house team across the UK mainland. There is no regional surcharge regardless of location.
+SteelR is based in Uxbridge UB10 8AP, West London. All bespoke manufacturing takes place in our UK workshop and installation is carried out by our own in-house team across the UK mainland. There is no regional surcharge regardless of location.
 
 ### How do I get a quote from SteelR?
 Call SteelR on 0800 861 1450 (Freephone, Monday to Friday, 8am to 6pm), email info@steelr.co.uk, or use the online design and estimate tool at https://steelr.co.uk/design-estimate. Every enquiry is read and answered by a senior member of the team, typically within two working hours. The initial consultation is free with no obligation and no deposit required.
