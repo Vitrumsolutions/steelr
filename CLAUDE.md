@@ -786,6 +786,22 @@ Priority order: `@steelrdoors` → `@steelr.doors` → `@steelr.uk` → `@steelr
 
 Before marking any task in this project complete, follow the Completion Standards in the global CLAUDE.md. Show evidence. Do not assume.
 
+## Recommendation Gate (added 2026-05-05)
+
+**Hard rule for all sessions:** every recommendation made in any "what should we do / what's holding us back / audit" output must pass through the gate at `audit-data/templates/recommendation.md` and use the synthesis format at `audit-data/templates/synthesis-format.md`. Recommendations are tagged with one of three confidence tiers:
+
+- **Verified** — captured before/after data exists, the change moved the metric in this codebase before
+- **Tested-locally** — measurable in sandbox before/after this commit (build, lint, brand-guard, audit-meta-lengths, validate-faqs, schema validity)
+- **Reasoned** — based on logic from file:line evidence, no captured before/after possible
+
+Per-session caps: unlimited Verified, 10 Tested-locally, 5 Reasoned. Reasoned recommendations may only ship if reversibility is cheap or medium — never expensive.
+
+**Loop-prevention rule:** do not recommend reversing a previous recommendation without first capturing whether the previous one moved the metric. If the original was tagged Reasoned and 7+ days have passed without visible regression, "we should reverse" requires before/after data via the per-change-type capture protocol.
+
+**Per-change capture protocol:** runbook at `scripts/audit/README.md`. For change types that move a measurable metric, run the matching capture script with a `pre-` label before deploy, then re-run with `post-` label N days after. First built script: `scripts/audit/capture-serp.mjs` (covers metadata + copy + URL + new-page changes). Lighthouse, AI citation, GSC Performance scripts pending.
+
+Why this exists: the recurring failure mode is recommend → ship → discover-it-was-wrong → reverse. Each loop costs time, trust, tokens. The gate slows recommendations down enough to stop that loop. Confidence tiers and capture artefacts replace "trust me" with "here is the evidence."
+
 ## Subagent Routing (project-local)
 
 Three SteelR-specific subagents live at `.claude/agents/`. In addition to the global ten, dispatch these per the rules below.
