@@ -143,7 +143,7 @@ The SR3 certification applies to the doorset as manufactured and installed to th
 
 ### What is Secured by Design and is it the same as SR3?
 
-Secured by Design is the official UK police initiative that accredits security products. It is separate from the BS EN 1627 classification system but complementary to it. A door can carry both an SR3 rating and Secured by Design accreditation, the former certifies physical resistance, the latter confirms police-approved security standards and ongoing manufacturing quality audits. For a deeper technical breakdown of BS EN 1627 Class 3, see our [SR3 residential steel door](/sr3-residential-steel-door) page.`,
+Secured by Design is the official UK police initiative that accredits security products. It is separate from both the BS EN 1627 classification system (RC1 to RC6) and the LPS 1175 scheme (SR1 to SR8) but complementary to both. A door can carry an SR3 rating, an RC4 certification and Secured by Design accreditation simultaneously: the SR and RC ratings certify physical resistance under different methodologies, while Secured by Design confirms police-approved security standards and ongoing manufacturing quality audits. For a deeper technical breakdown of LPS 1175 SR3, see our [SR3 residential steel door](/sr3-residential-steel-door) page.`,
 };
 
 export default post;

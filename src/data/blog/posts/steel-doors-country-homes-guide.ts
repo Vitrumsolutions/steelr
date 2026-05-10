@@ -179,7 +179,7 @@ Yes, and we recommend it. A single manufacturer specifying every entrance across
 
 ### What security rating should a rural country home specify?
 
-**SR3 (BS EN 1627 Class 3) as a minimum.** Rural homes face longer police response times and often hold significant valuables, artwork or collections. SR3 provides resistance against sustained attack with tools readily available from the property's own outbuildings. For estates with higher risk profiles, **SR4 (LPS 1175 Issue 8 Level 4)** upgrade is increasingly specified.
+**LPS 1175 SR3 (Issue 8) as a minimum.** Rural homes face longer police response times and often hold significant valuables, artwork or collections. SR3 (the LPCB police-preferred Enhanced upgrade tier above the BS EN 1627 RC4 Standard) provides resistance against sustained attack with tools readily available from the property's own outbuildings. For estates with higher risk profiles, **SR4 (LPS 1175 Issue 8 Commercial-grade upgrade)** is increasingly specified.
 
 ### How long does delivery and installation take for a country property?
 

@@ -223,8 +223,9 @@ export default function UkVsImportedPage() {
                 Security comes from certification, and certification is
                 conducted by independent laboratories against
                 international standards that do not care where the door
-                was made. PAS 24:2022, BS EN 1627 Class 3, LPS 1175 Issue 8
-                and Secured by Design are the standards that matter.
+                was made. PAS 24:2022, BS EN 1627:2011 RC4 single leaf
+                unglazed, LPS 1175 SR3 and SR4 (Issue 8) and Secured by
+                Design are the standards that matter.
                 Imported doors and UK-made doors can both meet all of
                 them. What certification does not cover is service,
                 aftercare, lead time, and the availability of replacement

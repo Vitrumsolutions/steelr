@@ -276,6 +276,11 @@ export default function Sr3Page() {
           title: "Related reading",
           links: [
             {
+              href: "/sr3-vs-sr4-residential-steel-doors-uk",
+              label: "SR3 vs SR4 residential steel doors compared",
+              description: "Side-by-side comparison of LPS 1175 SR3 and SR4 on a UK residential front door. Tool catalogue, attack duration, when each tier applies, and how the four-tier ladder stacks.",
+            },
+            {
               href: "/bs-en-1627-rc4-residential-steel-door",
               label: "BS EN 1627 RC4 (SteelR Standard tier)",
               description: "The European framework for sustained forced-entry resistance. Standard on every SteelR door, the tier SR3 sits above as the Enhanced upgrade.",

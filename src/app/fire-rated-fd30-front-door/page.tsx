@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "Can one door be fire rated, security rated and thermally engineered all at once?",
     answer:
-      "Yes, and every SteelR door is all three as standard. FD30S fire and smoke rating, PAS 24 security certification and SR3 rating to BS EN 1627 Class 3 are all applied to the same door as standard. Secured by Design approval is also included. Thermal break engineering is built into the base profile. SR4 under LPS 1175 Issue 8 and FD60 are both available as upgrades. The point of a bespoke steel door is that you do not have to choose between fire, security and thermal performance; the door is engineered to deliver all three simultaneously.",
+      "Yes, and every SteelR door is all three as standard. FD30S fire and smoke rating, PAS 24:2022 security certification and BS EN 1627:2011 RC4 single leaf, unglazed (the European framework for sustained forced-entry resistance) are all applied to the same door as Standard. Secured by Design approval is also included. Thermal break engineering is built into the base profile. LPS 1175 SR3 (LPCB Enhanced upgrade), SR4 (Commercial-grade upgrade under LPS 1175 Issue 8) and FD60 are all available as further upgrades. The point of a bespoke steel door is that you do not have to choose between fire, security and thermal performance; the door is engineered to deliver all three simultaneously.",
   },
 ];
 
@@ -185,9 +185,10 @@ export default function Fd30Page() {
                 The practical advantage of a bespoke steel door is that
                 fire, security and thermal performance are engineered
                 into the same assembly rather than chosen between. Every
-                SteelR door is FD30S rated, PAS 24 certified, SR3 rated
-                to BS EN 1627 Class 3 and Secured by Design approved
-                as the standard specification. The thermal break is
+                SteelR door is FD30S rated, PAS 24:2022 certified, BS EN
+                1627:2011 RC4 single leaf, unglazed certified as Standard
+                with LPS 1175 SR3 Enhanced upgrade available, and Secured
+                by Design approved as the standard specification. The thermal break is
                 built into the base profile so U-values meet or exceed
                 Part L.
               </>

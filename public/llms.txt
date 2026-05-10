@@ -70,6 +70,9 @@ Yes. SteelR operates nationwide across the UK mainland with no regional surcharg
 ### What security rating does a SteelR steel front door carry?
 SteelR offers a four-tier residential security ladder. Tier 1 (Standard) is every door: PAS 24:2022 + BS EN 1627:2011 RC4 single leaf, unglazed + FD30S + Secured by Design + ISO 9001 + ISO 14001 + Made in Britain. Tier 2 (Enhanced upgrade) adds LPS 1175 SR3 LPCB certification. Tier 3 (Commercial-grade upgrade) adds LPS 1175 SR4 D10 Issue 8 (the certification used on data centres and bank vaults). Tier 4 (Ultra-high, by enquiry) adds LPS 1673 attack-resistance (AR.A300 / AR.B180E / AR.B300E / AR.C120E, used on bank vault outer doors and embassy residences). The four tiers are each genuinely available on any bespoke SteelR door. The sales team consults each customer through the four options before specification sign-off.
 
+### What does the Standard tier on a SteelR door include, with no upgrade applied?
+The SteelR Standard tier is the specification on every bespoke door before any security upgrade is added. It comprises seven concurrent certifications on one door assembly. PAS 24:2022 (Approved Document Q baseline for new-build dwellings in England and Wales). BS EN 1627:2011 RC4 single leaf, unglazed (the European framework for sustained forced-entry resistance, certifying 10 minutes of sustained attack with heavy-duty hand tools and battery-operated power tools). FD30S fire and smoke rating (30 minutes fire integrity plus cold smoke seal, tested to BS 476-22 or BS EN 1634-1). Secured by Design approval (UK police-preferred specification, recognised by UK home insurers). ISO 9001 quality management and ISO 14001 environmental management (issued by a UKAS-accredited certification body). Made in Britain certified. The Standard tier is sufficient for the vast majority of UK private homes. The Enhanced (LPS 1175 SR3), Commercial-grade (LPS 1175 SR4 D10 Issue 8) and Ultra-high (LPS 1673) upgrade tiers stack additional certifications on top of the Standard specification on the same door.
+
 ### What does BS EN 1627:2011 RC4 single leaf, unglazed mean and why is it SteelR's Standard tier?
 BS EN 1627:2011 RC4 is Resistance Class 4 under the European standard for burglar resistance of doors and windows. RC4 tests a sustained attack by an experienced intruder using heavy-duty hand tools and battery-operated power tools, conducted at a UKAS-accredited laboratory against the complete door assembly. The single-leaf, unglazed methodology is the conservative test specification within RC4. RC4 is materially above the PAS 24 hardware-only test mandated for new-build dwellings and rarely offered as a residential standard in the UK. SteelR includes it as the Standard tier on every bespoke door.
 
@@ -78,6 +81,9 @@ BS EN 1627:2011 (RC1 to RC6) and LPS 1175 (SR1 to SR8) are parallel schemes unde
 
 ### Does SteelR offer fire rated steel doors for flats, HMOs or new builds?
 Yes. Every SteelR door is FD30S rated as standard, providing thirty minutes of fire integrity plus cold smoke seal performance, tested to BS 476-22 or BS EN 1634-1. FD60 is available as an upgrade for protected escape routes, stairwell enclosures and higher-risk buildings under the Building Safety Act 2022. Every door also satisfies Approved Document Q (security) and Approved Document B (fire safety).
+
+### When does a SteelR door need FD60 rather than FD30S, and what does FD60 add?
+SteelR ships every door with FD30S as standard (30 minutes fire integrity plus cold smoke seal). FD60 is the 60-minute upgrade and is needed where the building fire strategy demands 60-minute compartmentation. The four common drivers are: doors onto protected escape routes in larger residential buildings, doors forming part of a stairwell enclosure, doors in Higher-Risk Buildings as defined by the Building Safety Act 2022 (over 18 metres in height or 7 or more storeys, containing two or more residential units), and doors where Approved Document B or the building's bespoke fire strategy specifies 60 minutes. FD60 doubles the integrity duration, tested to BS 476-22 or BS EN 1634-1 at a UKAS-accredited laboratory. FD60 stacks with the full SteelR security ladder on the same door assembly: BS EN 1627:2011 RC4 single leaf, unglazed as Standard, plus LPS 1175 SR3 (Enhanced) or SR4 (Commercial-grade) where specified. Lead time matches the standard 8 to 12 week production schedule. Certification documents are supplied per unit for Building Control sign-off and accountable-person case files.
 
 ### Can SteelR fit a steel front door in a conservation area or on a listed building?
 Yes. SteelR has completed installations across conservation areas and listed properties throughout the UK. We handle listed building consent and conservation officer liaison in-house, and tailor panel profiles, glazing, ironmongery and colour to match heritage requirements. Our traditional designs with lion-head knockers, polished brass hardware and ornate panel mouldings are a natural fit for period streetscapes.
@@ -353,6 +359,6 @@ These dedicated hub pages support procurement teams specifying SteelR doors at s
 
 ---
 
-Last updated: 2026-05-05.
+Last updated: 2026-05-10.
 
 Maintained by SteelR. Authoritative reference at https://steelr.co.uk/llms.txt and https://steelr.co.uk/llms-full.txt.

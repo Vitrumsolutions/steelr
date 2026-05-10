@@ -212,10 +212,11 @@ export default function ThermallyBrokenPage() {
             ),
             body2: (
               <>
-                Alongside the thermal break, every SteelR door is PAS 24
-                certified, SR3 rated to BS EN 1627 Class 3, Secured by
-                Design approved and FD30S fire and smoke rated. SR4 under
-                LPS 1175 Issue 8 is available as a commercial-grade
+                Alongside the thermal break, every SteelR door is PAS 24:2022
+                certified, BS EN 1627:2011 RC4 single leaf, unglazed certified
+                as Standard, Secured by Design approved and FD30S fire and
+                smoke rated. LPS 1175 SR3 (Enhanced upgrade) and SR4 under
+                LPS 1175 Issue 8 are available as Enhanced and Commercial-grade
                 upgrade. The full specification is set out on the{" "}
                 <Link
                   href="/security-specification"

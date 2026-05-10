@@ -133,6 +133,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/sr3-vs-sr4-residential-steel-doors-uk`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/steel-front-door-vs-composite`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
