@@ -60,6 +60,23 @@ const breadcrumbSchema = JSON.stringify({
   ],
 });
 
+const webPageSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "SR4 Residential Steel Door",
+  url: "https://steelr.co.uk/sr4-residential-steel-door",
+  description:
+    "LPS 1175 SR4 (D10 Issue 8) is SteelR's Commercial-grade upgrade tier above SR3 Enhanced and the BS EN 1627 RC4 Standard. The LPCB certification used on data centres, bank vaults and embassy residences, available on residential specification.",
+  about: [
+    { "@type": "Thing", name: "LPS 1175 SR4" },
+    { "@type": "Thing", name: "LPS 1175 D10 Issue 8" },
+    { "@type": "Thing", name: "Commercial-grade security doors" },
+    { "@type": "Thing", name: "Residential steel front doors" },
+    { "@type": "Thing", name: "Loss Prevention Certification Board" },
+  ],
+  isPartOf: { "@type": "WebSite", url: "https://steelr.co.uk" },
+});
+
 const faqSchema = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -74,6 +91,7 @@ export default function Sr4Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: webPageSchema }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqSchema }} />
 
       <InfoPage

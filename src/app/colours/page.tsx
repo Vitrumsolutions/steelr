@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 2400,
         height: 1260,
-        alt: "SteelR — Bespoke Steel Entrance Doors",
+        alt: "SteelR, Bespoke Steel Entrance Doors",
       },
     ],
   },
@@ -166,7 +166,7 @@ export default function ColoursPage() {
 
       {/* sr-only H1 */}
       <h1 className="sr-only">
-        Steel Door Colours and Finishes — Bespoke RAL Colour Options
+        Steel Door Colours and Finishes, Bespoke RAL Colour Options
       </h1>
 
       {/* Intro section */}
@@ -211,7 +211,7 @@ export default function ColoursPage() {
               }}
             >
               Every SteelR door is available in any colour from the full RAL
-              spectrum — over 200 shades to match your property, your taste, and
+              spectrum, over 200 shades to match your property, your taste, and
               your vision. Choose a single colour throughout, or opt for a
               dual-colour finish with a different shade on each side of the door.
               Paired with a choice of premium hardware finishes, every detail is
@@ -304,7 +304,7 @@ export default function ColoursPage() {
               }}
             >
               These are our most requested shades, but you are not limited to
-              this selection. Any RAL colour can be specified — simply provide
+              this selection. Any RAL colour can be specified, simply provide
               the code or bring us a sample, and we will match it precisely.
             </p>
           </ScrollReveal>
@@ -456,8 +456,8 @@ export default function ColoursPage() {
                 color: "#6b5a42",
               }}
             >
-              All hardware — handles, knockers, letterplates, and locking
-              mechanisms — is available in each finish. Your design consultant
+              All hardware, handles, knockers, letterplates, and locking
+              mechanisms, is available in each finish. Your design consultant
               will help you select the combination that best suits your door
               style and property.
             </p>
@@ -532,7 +532,7 @@ export default function ColoursPage() {
       </section>
 
       {/* CTA section */}
-{/* Inline enquiry panel — source=hub-colours */}
+{/* Inline enquiry panel, source=hub-colours */}
       <QuickEnquiry source="hub-colours" contextLabel="Colours & Finishes" />
             <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-12">
         <div className="max-w-4xl mx-auto text-center">

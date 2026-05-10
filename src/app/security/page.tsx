@@ -184,7 +184,7 @@ export default function SecurityPage() {
 
       {/* sr-only H1 */}
       <h1 className="sr-only">
-        Steel Door Security Ratings — BS EN 1627 RC4, PAS 24 &amp; Secured by Design
+        Steel Door Security Ratings, BS EN 1627 RC4, PAS 24 &amp; Secured by Design
       </h1>
 
       {/* Intro */}
@@ -524,7 +524,7 @@ export default function SecurityPage() {
               />
 
               {[
-                "BS EN 1627:2011 RC4 — sustained forced-entry resistance",
+                "BS EN 1627:2011 RC4, sustained forced-entry resistance",
                 "Heavy-duty hand tools + battery-operated power tools",
                 "Drills, jigsaws, oscillating saws, larger crowbars",
                 "Tested as the complete door assembly (single leaf, unglazed)",
@@ -793,7 +793,7 @@ export default function SecurityPage() {
         </div>
       </section>
 
-      {/* Visual section — 3 detail images */}
+      {/* Visual section, 3 detail images */}
       <section className="bg-cream pb-4 px-6 md:px-16">
         <div className="max-w-5xl mx-auto flex flex-wrap md:flex-nowrap gap-3 overflow-hidden">
           <div className="relative flex-1 min-w-[calc(50%-6px)] md:min-w-0 h-[380px]">
@@ -920,7 +920,7 @@ export default function SecurityPage() {
       </section>
 
       
-      {/* Inline enquiry panel — source=hub-security */}
+      {/* Inline enquiry panel, source=hub-security */}
       <QuickEnquiry source="hub-security" contextLabel="Security Doors" />
       {/* CTA */}
       <section className="bg-site-black py-16 md:py-24 px-6 md:px-16 mt-0">

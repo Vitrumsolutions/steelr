@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "LPS 1673 attack-resistance certification, beyond forced-entry resistance. Used on bank vaults and data centres. Available on UK residential by enquiry.",
     url: "https://steelr.co.uk/lps-1673-attack-resistant-steel-door",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 
@@ -60,6 +61,25 @@ const breadcrumbSchema = JSON.stringify({
   ],
 });
 
+const webPageSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "LPS 1673 Attack-Resistant Steel Door",
+  url: "https://steelr.co.uk/lps-1673-attack-resistant-steel-door",
+  description:
+    "LPS 1673 is the LPCB attack-resistance certification used on bank vault outer doors, data centre internal cores and embassy residences. The Ultra-high tier above LPS 1175 SR4, available on UK residential specification by enquiry.",
+  about: [
+    { "@type": "Thing", name: "LPS 1673" },
+    { "@type": "Thing", name: "Attack-resistant doorsets" },
+    { "@type": "Thing", name: "Loss Prevention Certification Board" },
+    { "@type": "Thing", name: "AR.A300" },
+    { "@type": "Thing", name: "AR.B180E" },
+    { "@type": "Thing", name: "AR.B300E" },
+    { "@type": "Thing", name: "AR.C120E" },
+  ],
+  isPartOf: { "@type": "WebSite", url: "https://steelr.co.uk" },
+});
+
 const faqSchema = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -74,6 +94,7 @@ export default function Lps1673Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: webPageSchema }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqSchema }} />
 
       <InfoPage

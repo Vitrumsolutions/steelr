@@ -303,6 +303,26 @@ export default function CostPage() {
               label: "Steel vs composite front doors",
               description: "Upfront cost vs total cost of ownership, honest comparison.",
             },
+            {
+              href: "/architects",
+              label: "For architects and specifiers",
+              description: "How a SteelR door is priced into a Performance Specification, with NBS clauses and certification packs included in the supply.",
+            },
+            {
+              href: "/developers",
+              label: "For residential developers",
+              description: "How door schedule pricing scales across phased programmes, NHBC-ready packs and fixed-rate delivery against the build programme.",
+            },
+            {
+              href: "/housing-associations",
+              label: "For housing associations",
+              description: "Stock-replacement programme pricing, single-supplier coordination and Building Safety Act 2022 evidence packs for managed portfolios.",
+            },
+            {
+              href: "/property-managers",
+              label: "For property managers and managing agents",
+              description: "Section 20 budgeting, FRA remediation pricing and managed-portfolio supply across leasehold blocks.",
+            },
           ],
         }}
         faqs={faqs}

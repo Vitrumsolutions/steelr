@@ -118,7 +118,7 @@ export default function RootLayout({
                 "closes": "18:00"
               },
               "priceRange": "$$$$",
-              "knowsAbout": ["Steel entrance doors", "Steel front doors for your home", "Residential front steel doors", "Bespoke doors", "Security doors", "BS EN 1627", "BS EN 1627:2011", "BS EN 1627 RC4", "BS EN 1627 RC4 single leaf unglazed", "Resistance Class 4 doors", "PAS 24 certified doors", "Secured by Design doors", "FD30 fire rated doors", "FD60 fire rated doors", "Fire rated steel front doors", "Approved Document Q compliance", "Steel doors for new builds", "Steel doors for flats", "Bespoke security doors UK", "European-framework rated security doors"],
+              "knowsAbout": ["Steel entrance doors", "Steel front doors for your home", "Residential front steel doors", "Bespoke doors", "Security doors", "BS EN 1627:2011 RC4 single leaf unglazed", "PAS 24 certified doors", "Secured by Design doors", "FD30 fire rated doors", "FD60 fire rated doors", "Fire rated steel front doors", "Approved Document Q compliance", "Steel doors for new builds", "Steel doors for flats", "Bespoke security doors UK", "LPS 1175 SR3 Enhanced upgrade", "LPS 1175 SR4 Commercial-grade upgrade", "LPS 1673 attack-resistance"],
               "sameAs": [
                 "https://www.instagram.com/steelrdoors",
                 "https://www.pinterest.co.uk/steelrdoors",
@@ -229,7 +229,7 @@ export default function RootLayout({
                   "@type": "EducationalOccupationalCredential",
                   "credentialCategory": "certification",
                   "name": "LPS 1175 Issue 8 Security Rating SR3 and SR4",
-                  "recognizedBy": {"@type": "Organization", "name": "Loss Prevention Certification Board (LPCB), BRE Global"}
+                  "recognizedBy": {"@type": "Organization", "name": "Loss Prevention Certification Board"}
                 },
                 {
                   "@type": "EducationalOccupationalCredential",

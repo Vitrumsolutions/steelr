@@ -265,6 +265,26 @@ export default function UkVsImportedPage() {
               label: "About SteelR",
               description: "Who we are, how we work, and why we manufacture in the UK.",
             },
+            {
+              href: "/architects",
+              label: "For architects and specifiers",
+              description: "Why UK manufacture matters for NBS specification, certification traceability and project-stage support across RIBA stages 2-7.",
+            },
+            {
+              href: "/developers",
+              label: "For residential developers",
+              description: "UK lead times, NHBC sign-off and Approved Document Q evidence chain on UK-made versus imported door supply.",
+            },
+            {
+              href: "/housing-associations",
+              label: "For housing associations",
+              description: "Why UK manufacture is the preferred supply route for Building Safety Act 2022 evidence chains on managed portfolios.",
+            },
+            {
+              href: "/property-managers",
+              label: "For property managers and managing agents",
+              description: "Why traceable UK supply matters for FRA remediation evidence and Section 20 consultation on managed leasehold blocks.",
+            },
           ],
         }}
         faqs={faqs}

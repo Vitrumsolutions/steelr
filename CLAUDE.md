@@ -33,7 +33,7 @@ Choose the highest-leverage option based on current state:
 - **A. `/thank-you` leave-a-review CTA** — Vitrums has it, SteelR doesn't. One-click GBP review path for new customers at peak-willingness moment. Not a review-push suggestion — just the on-site plumbing (user still does asking). Small edit, mirrors Vitrums `/thank-you` pattern.
 - **B. GSC Indexing API setup** — Vitrums runs 180/day automated via Windows Task Scheduler (`VitrumsGSCIndexer`). Verify if SteelR has equivalent. If not, ~30 min setup — could be why Google organic sits at 5/26 (indexing lag).
 - **C. CrUX / Lighthouse perf baseline** — site 19 days live, too young for CrUX. Run Lighthouse mobile to get lab baseline. If at Vitrums' pre-fix level (Perf 27, LCP 8s), apply the documented Vitrums playbook (Nav server-component split, defer overlays, lazyOnload GA, hero paint cleanup).
-- **D. Internal linking audit** — Do all 39 blog posts link to product/area pages? Do hub/product pages cross-link to best-fit blogs? Vitrums-style bidirectional linking lifts topical authority.
+- **D. Internal linking audit** — Do all 40 blog posts link to product/area pages? Do hub/product pages cross-link to best-fit blogs? Vitrums-style bidirectional linking lifts topical authority.
 - **E. Schema/llms.txt protection audit** — AI engines are the strongest channel, protect it. Diff SteelR's setup against Vitrums (knowsAbout array, Direct Answers Q&As, sameAs, FAQ coverage).
 
 ### DO NOT RE-SUGGEST (user-managed)
@@ -45,7 +45,7 @@ Choose the highest-leverage option based on current state:
 ### Current SteelR state snapshot
 
 - Live: https://steelr.co.uk since ~3 Apr 2026
-- 39 blog posts live, 161 area pages, 60 doors in /collection (CLAUDE.md and STATE.md previously stated stale counts; reconciled 03 May against actual `ls src/data/blog/posts | wc -l` data)
+- 40 blog posts live, 161 area pages + 16 area hubs (177 location records), 60 doors in /collection (counts reconciled 09 May 2026 against actual filesystem and live `curl /sitemap.xml | grep -c '<loc>'` = 312)
 - QuickEnquiry component on all dynamic templates (areas, collection, blog) + 10 InfoPage topic hubs + 5 non-InfoPage hubs — 288+ pages wired with source-tagged lead capture → `/api/contact` → `info@supplywindows.co.uk`
 - `/thank-you` page live with GA4 conversion tracking (GA4 installed 23 Apr — `NEXT_PUBLIC_GA_ID` env var on Vercel, `GoogleAnalytics` component loads lazyOnload)
 - Next cron fire: Thu 23 Apr 20:00 UTC (awaiting Session 1 blog refill)
@@ -93,8 +93,8 @@ Choose the highest-leverage option based on current state:
 - **Navigation:** Collection · Areas · About · Process · Blog · Get Estimate · Contact
 - **Phone:** 0800 861 1450
 - **CTA:** "Request a Consultation"
-- **Total static pages:** ~335 (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 60 collection items (54 have rich hand-written page content; the rest use auto-generated descriptions), 39 blog posts, 161 area pages, 16 area hubs, 10 Phase 1D topic pages)
-- **Sitemap:** 297 URLs at `/sitemap.xml` (was 286, added 10 Phase 1D topic pages + /sitemap HTML page on 18 Apr 2026)
+- **Total static pages:** ~317 routes built (home, collection, about, process, contact, blog, privacy, terms, colours, security, security-specification, fire-rated-doors, design-estimate, collection/sidelights, sitemap, 60 collection items (54 have rich hand-written page content; the rest use auto-generated descriptions), 40 blog posts, 161 area pages, 16 area hubs, 10 Phase 1D topic pages, 4 audience hubs)
+- **Sitemap:** 312 URLs at `/sitemap.xml` (verified 09 May 2026 by `curl https://steelr.co.uk/sitemap.xml | grep -c '<loc>'`)
 - **HTML sitemap:** `/sitemap` (new 18 Apr 2026) — visible page linked from footer, lists every URL on the site
 - **Google Maps embed** on contact page (business name pin, no street address shown)
 
@@ -334,8 +334,8 @@ Committing the marker would let old approval carry forward forever after the fil
   - The rebuild logic is auditable in the script and the cron is in a trusted GitHub Actions environment.
   This is the only --no-verify path. Humans cannot bypass the gate per the global safety rules in `~/.claude/CLAUDE.md` (Claude is forbidden from using --no-verify; the user can manually but should not for llms files).
 
-## Blog Posts (39 posts, all published)
-- 39 posts in `src/data/blog/posts/*.ts`, all live, zero staged
+## Blog Posts (40 posts, all published)
+- 40 posts in `src/data/blog/posts/*.ts`, all live, zero staged
 - Blog data: `src/data/blog/` (types.ts + index.ts + posts/)
 - FAQ schema auto-extracted from posts containing `## Frequently Asked Questions`
 - Topics cover: pricing, security ratings, thermal performance, RAL colours, fire regulations, conservation areas, new builds, comparisons (vs composite, vs fibreglass, vs uPVC), hardware, insurance, architect specs, smart locks, local area guides (London, Surrey, Bucks, Kent), period properties, Secured by Design
@@ -354,10 +354,10 @@ Committing the marker would let old approval carry forward forever after the fil
 - **Not indexed:** 6 pages total, 4 benign + 2 real. Benign: 2 Page with redirect, 1 Duplicate without user-selected canonical, 1 Alternative page with proper canonical tag. Real: 2 Crawled - currently not indexed.
 - **Sitemap coverage:** 67 / 298 indexed = 22.5% (healthy for a 2-month-old site). Remaining ~231 mostly in "Discovered - not indexed" queue awaiting crawl.
 - **Sitemap:** resubmitted in GSC UI on 18 Apr 2026 (got 286 discovered, pre-Phase 1D), and again on 19 Apr 2026 (jumped to 297 discovered in real time confirming Phase 1D + /sitemap + new blog posts are now in Google's awareness)
-- **Indexing API:** All 297 URLs submitted, queue empty (parity achieved 18 Apr 2026). Runs daily at 07:30 via Windows Task Scheduler (SteelrGSCIndexer)
+- **Indexing API:** All 312 URLs submitted, queue empty (parity verified 09 May 2026). Runs daily at 07:30 via Windows Task Scheduler (SteelrGSCIndexer)
 - **URL Inspection (UI, 10/day quota):** cumulative 18-20 Apr 2026 = 22 URLs. 20 Apr retry blocked by rolling-24h quota.
 - **Indexing API pushes (20 Apr 2026, via `submit_indexing.py --site=steelr`):** **All 10 FAQ-updated blog posts resubmitted manually on 20 Apr** to trigger fast recrawl of the new FAQPage schema from commit `2a3e1d6`: `/blog/what-is-sr3-security-rating`, `/blog/secured-by-design-doors`, `/blog/steel-vs-composite-doors`, `/blog/steel-entrance-doors-cost-uk`, `/blog/conservation-area-door-requirements-uk`, `/blog/steel-vs-aluminium-front-doors`, `/blog/steel-vs-timber-entrance-doors`, `/blog/how-to-improve-home-security-uk`, `/blog/best-front-door-home-security`, `/blog/steel-entrance-doors-pricing-factors`. Also added the previously-missing SR4 blog URL (`/blog/sr4-lps-1175-commercial-grade-residential`) to tracker — 297 → 298 submitted, now full parity with sitemap.
-- **Indexing API daily autorun:** Windows Task Scheduler `SteelrGSCIndexer` runs at 07:30 UK every day via `submit_indexing.py`. Configured quota 180/day (under Google's 200/day per-project cap). Queue is empty most days (all 298 URLs already submitted) — it becomes active when we re-queue URLs for recrawl or add new content.
+- **Indexing API daily autorun:** Windows Task Scheduler `SteelrGSCIndexer` runs at 07:30 UK every day via `submit_indexing.py`. Configured quota 180/day (under Google's 200/day per-project cap). Queue is empty most days (all 312 URLs already submitted) — it becomes active when we re-queue URLs for recrawl or add new content.
 - **How to push more via Indexing API without hitting URL Inspection's 10-cap:** re-queue URLs in `vitrums/audit-data/gsc-indexing-tracker-steelr.json` (move from `submitted` → `queue`) then run `python vitrums/audit-data/submit_indexing.py N --site=steelr`. Effective for triggering recrawls after content changes.
 - **Secondary queue (if extra capacity):** `/colours`, `/blog` (hub), `/sitemap` (HTML), `/areas/hertfordshire`, `/areas/kent`, `/areas/essex`, `/areas/hampshire`, `/areas/sussex`.
 - **Service account:** gsc-indexer-steelr@steelr-indexing.iam.gserviceaccount.com
@@ -603,7 +603,7 @@ Bing Webmaster Tools property created for steelr.co.uk by importing from Google 
 **Submission scripts (two exist — prefer the Node one):**
 - **`scripts/bing/indexnow-submit.mjs`** (added 19 Apr PM, preferred) — Node-based, mirrors the pattern used on Vitrums. Three modes:
   ```bash
-  node scripts/bing/indexnow-submit.mjs              # full sitemap (currently 298 URLs)
+  node scripts/bing/indexnow-submit.mjs              # full sitemap (currently 312 URLs)
   node scripts/bing/indexnow-submit.mjs --priority   # 21 hub/brand/product URLs
   node scripts/bing/indexnow-submit.mjs url1 url2    # specific URLs
   ```
@@ -673,7 +673,7 @@ Also shipped without code commit:
 - **161 location pages** for local SEO — unique descriptions referencing local architecture and neighbourhoods
 - Hub pages list all child areas in schema.org `areaServed`
 - Area pages cross-link to 3–5 nearby areas + parent hub
-- Sitemap at `/sitemap.xml` with 297 URLs, most recently resubmitted to Google Search Console (18 Apr 2026)
+- Sitemap at `/sitemap.xml` with 312 URLs, most recently resubmitted to Google Search Console (18 Apr 2026)
 - HTML sitemap at `/sitemap` (18 Apr 2026) linked from footer, mirrors the XML feed in human-readable form
 - Product schema on collection door pages (offers block REMOVED — was causing GSC errors)
 - HowTo schema on process page

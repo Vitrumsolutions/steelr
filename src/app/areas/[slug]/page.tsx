@@ -23,11 +23,11 @@ const boilerplateVariants: BoilerplateVariants = {
     (label: string) =>
       `Every SteelR door is manufactured to your exact specification in the UK. We offer a complete service for ${label} customers: from the initial design consultation through to a full structural survey, precision manufacturing and professional installation by our own in-house team. No subcontractors, no standard sizes, no compromise.`,
     (label: string) =>
-      `Each SteelR entrance door is precision-built in our UK workshop to your individual requirements. For ${label} homeowners, we provide an end-to-end service — an in-depth design consultation, a thorough structural survey of your property, bespoke manufacturing and expert fitting carried out exclusively by our own team. Every detail is made to measure; nothing is off the shelf.`,
+      `Each SteelR entrance door is precision-built in our UK workshop to your individual requirements. For ${label} homeowners, we provide an end-to-end service, an in-depth design consultation, a thorough structural survey of your property, bespoke manufacturing and expert fitting carried out exclusively by our own team. Every detail is made to measure; nothing is off the shelf.`,
     (label: string) =>
       `SteelR doors are crafted entirely in the United Kingdom to the precise dimensions and design you specify. Our ${label} clients benefit from a fully managed process: personal design consultation, on-site structural survey, meticulous manufacturing and installation by our dedicated in-house fitters. We never use subcontractors, and we never produce standard-size doors.`,
     (label: string) =>
-      `From raw steel to finished entrance, every SteelR door is produced in our UK manufacturing facility to your exact brief. ${label} customers receive our complete bespoke service — a one-to-one design consultation, a detailed structural assessment of your property, precision fabrication and professional installation by our own specialist team. No two doors are alike.`,
+      `From raw steel to finished entrance, every SteelR door is produced in our UK manufacturing facility to your exact brief. ${label} customers receive our complete bespoke service, a one-to-one design consultation, a detailed structural assessment of your property, precision fabrication and professional installation by our own specialist team. No two doors are alike.`,
   ],
   customisation: [
     (label: string) =>
@@ -35,7 +35,7 @@ const boilerplateVariants: BoilerplateVariants = {
     (label: string) =>
       `Select from the full RAL colour palette, an extensive choice of hardware in chrome, brass, gold or black, and glazing from clear to decorative. From classic period detailing to minimal contemporary lines, every element is tailored to your taste. Whether your ${label} project is a renovation or a new build, the finished door will be one of a kind.`,
     (label: string) =>
-      `Your door can be finished in any RAL colour — including dual-colour inside and out — paired with your preferred hardware, glass and panel style. Traditional, ornate, contemporary or minimalist: the design is entirely yours. For ${label} properties of every era, SteelR delivers a truly bespoke entrance.`,
+      `Your door can be finished in any RAL colour, including dual-colour inside and out, paired with your preferred hardware, glass and panel style. Traditional, ornate, contemporary or minimalist: the design is entirely yours. For ${label} properties of every era, SteelR delivers a truly bespoke entrance.`,
     (label: string) =>
       `With over 200 RAL colours, multiple hardware finishes and a broad range of glazing and panel configurations, every SteelR door is designed around your vision. Whether your ${label} home calls for heritage elegance or sharp modern lines, we ensure the entrance is unmistakably yours.`,
   ],
@@ -112,7 +112,7 @@ const credentials = [
   "Comprehensive Warranty & Aftercare",
 ];
 
-// Per-region "guides for homeowners" — curated blog links that bridge
+// Per-region "guides for homeowners", curated blog links that bridge
 // 161 area pages to the 40-post corpus. Closes the area→blog gap flagged
 // by the 22 Apr audit (previously every area page had zero blog outbound).
 function getAreaGuides(region: string | undefined, locationType: string): Array<{ slug: string; title: string }> {
@@ -160,7 +160,7 @@ export default async function AreaPage({ params }: Props) {
   const label = location.name;
   const areaGuides = getAreaGuides(location.region, location.type);
 
-  /* FAQ data — use location-specific FAQs if provided, otherwise generate defaults */
+  /* FAQ data, use location-specific FAQs if provided, otherwise generate defaults */
   const defaultFaqs = [
     {
       question: `How much do steel entrance doors cost in ${location.name}?`,
@@ -168,7 +168,7 @@ export default async function AreaPage({ params }: Props) {
     },
     {
       question: `Do you install steel doors in ${location.name}?`,
-      answer: `Yes. SteelR provides a full nationwide service, and we regularly install bespoke steel entrance doors in ${location.name} and across ${location.region}. Our service includes an initial design consultation, a full structural survey of your property, precision manufacturing in our UK workshop, and professional installation carried out by our own in-house fitting team — never subcontractors.`,
+      answer: `Yes. SteelR provides a full nationwide service, and we regularly install bespoke steel entrance doors in ${location.name} and across ${location.region}. Our service includes an initial design consultation, a full structural survey of your property, precision manufacturing in our UK workshop, and professional installation carried out by our own in-house fitting team, never subcontractors.`,
     },
     {
       question: `How long does installation take in ${location.name}?`,
@@ -207,7 +207,7 @@ export default async function AreaPage({ params }: Props) {
       label: parentHub.name,
     });
   }
-  breadcrumbs.push({ label }); // current page — no link
+  breadcrumbs.push({ label }); // current page, no link
 
   /* Schema breadcrumb list */
   const schemaBreadcrumbs = breadcrumbs.map((b, i) => ({
@@ -215,7 +215,7 @@ export default async function AreaPage({ params }: Props) {
     position: i + 1,
     name: b.label,
     ...(b.href
-      ? { item: `https://steelr.co.uk${b.href}` }
+      ? { item: b.href === "/" ? "https://steelr.co.uk" : `https://steelr.co.uk${b.href}` }
       : { item: `https://steelr.co.uk/areas/${location.slug}` }),
   }));
 
@@ -759,7 +759,7 @@ export default async function AreaPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Security specification block — links to 4 core topic hubs.
+      {/* Security specification block, links to 4 core topic hubs.
           Distributes 161 inbound links to commercial pages (one per area).
           Added 5 May 2026 per Recommendation 1 of Tested-locally bundle. */}
       <section className="bg-cream py-12 md:py-16 px-6 md:px-16 border-t border-[rgba(26,26,24,0.08)]">
@@ -919,6 +919,153 @@ export default async function AreaPage({ params }: Props) {
                 }}
               >
                 Fire rated <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
+              </p>
+            </Link>
+          </div>
+
+          {/* Audience hubs, B2B routing for architects, developers, housing associations, property managers */}
+          <ScrollReveal>
+            <p
+              className="mt-16 mb-3"
+              style={{
+                fontFamily: "var(--font-body), Montserrat, sans-serif",
+                fontWeight: 400,
+                fontSize: 9,
+                letterSpacing: "0.3em",
+                textTransform: "uppercase",
+                color: "#b8943f",
+              }}
+            >
+              For Specifiers and Programmes
+            </p>
+            <h2
+              className="mb-6"
+              style={{
+                fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                fontWeight: 300,
+                fontSize: "clamp(20px, 2.4vw, 28px)",
+                color: "#1a1a18",
+                lineHeight: 1.2,
+              }}
+            >
+              Specifying SteelR doors in {label} for an architect-led, development, housing or managed-portfolio brief
+            </h2>
+          </ScrollReveal>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <Link
+              href="/architects"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] focus-visible:border-[#c9a96e] focus-visible:outline-2 focus-visible:outline-[#c9a96e] focus-visible:outline-offset-2 transition-colors duration-200"
+            >
+              <p
+                className="mb-2"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 10,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "#8a6f4e",
+                }}
+              >
+                Architects
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 400,
+                  fontSize: 16,
+                  color: "#1a1a18",
+                  lineHeight: 1.3,
+                }}
+              >
+                NBS, BIM, RIBA stages <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
+              </p>
+            </Link>
+            <Link
+              href="/developers"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] focus-visible:border-[#c9a96e] focus-visible:outline-2 focus-visible:outline-[#c9a96e] focus-visible:outline-offset-2 transition-colors duration-200"
+            >
+              <p
+                className="mb-2"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 10,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "#8a6f4e",
+                }}
+              >
+                Developers
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 400,
+                  fontSize: 16,
+                  color: "#1a1a18",
+                  lineHeight: 1.3,
+                }}
+              >
+                NHBC ready, phased <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
+              </p>
+            </Link>
+            <Link
+              href="/housing-associations"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] focus-visible:border-[#c9a96e] focus-visible:outline-2 focus-visible:outline-[#c9a96e] focus-visible:outline-offset-2 transition-colors duration-200"
+            >
+              <p
+                className="mb-2"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 10,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "#8a6f4e",
+                }}
+              >
+                Housing Associations
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 400,
+                  fontSize: 16,
+                  color: "#1a1a18",
+                  lineHeight: 1.3,
+                }}
+              >
+                BSA 2022, FD30 / FD60 <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
+              </p>
+            </Link>
+            <Link
+              href="/property-managers"
+              className="group block p-5 border border-[rgba(26,26,24,0.12)] hover:border-[#c9a96e] focus-visible:border-[#c9a96e] focus-visible:outline-2 focus-visible:outline-[#c9a96e] focus-visible:outline-offset-2 transition-colors duration-200"
+            >
+              <p
+                className="mb-2"
+                style={{
+                  fontFamily: "var(--font-body), Montserrat, sans-serif",
+                  fontWeight: 400,
+                  fontSize: 10,
+                  letterSpacing: "0.2em",
+                  textTransform: "uppercase",
+                  color: "#8a6f4e",
+                }}
+              >
+                Property Managers
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-display), 'Cormorant Garamond', serif",
+                  fontWeight: 400,
+                  fontSize: 16,
+                  color: "#1a1a18",
+                  lineHeight: 1.3,
+                }}
+              >
+                FRA, Section 20 <span aria-hidden="true" style={{ color: "#c9a96e" }}>&rarr;</span>
               </p>
             </Link>
           </div>
@@ -1151,7 +1298,7 @@ export default async function AreaPage({ params }: Props) {
         </section>
       )}
 
-      {/* Guides for {label} homeowners — bridges this area page to topical blog
+      {/* Guides for {label} homeowners, bridges this area page to topical blog
           content. Region-aware picks via getAreaGuides(). Added 22 Apr to close
           the internal-linking gap flagged by audit (161 area pages had zero blog
           outbound links). */}
@@ -1209,7 +1356,7 @@ export default async function AreaPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Inline enquiry panel — auto-tags source=area-<slug> for lead attribution */}
+      {/* Inline enquiry panel, auto-tags source=area-<slug> for lead attribution */}
       <QuickEnquiry source={`area-${location.slug}`} contextLabel={label} />
 
       {/* CTA */}

@@ -46,7 +46,7 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound();
 
   // Prefer same-category posts; fall back to most-recent across categories.
-  // Was alphabetical .slice(0,2) — irrelevant to reader intent and left many
+  // Was alphabetical .slice(0,2), irrelevant to reader intent and left many
   // topically-related posts unlinked across the 40-post corpus.
   const sameCategory = posts
     .filter((p) => p.slug !== post.slug && p.category === post.category)
@@ -451,7 +451,7 @@ export default async function BlogPostPage({ params }: Props) {
         </section>
       )}
 
-      {/* Inline enquiry panel — auto-tags source=blog-<slug> for lead attribution.
+      {/* Inline enquiry panel, auto-tags source=blog-<slug> for lead attribution.
           Appears on every blog post including future ones via the dynamic [slug] template. */}
       <QuickEnquiry source={`blog-${post.slug}`} contextLabel={post.title} />
 

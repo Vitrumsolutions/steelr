@@ -71,10 +71,10 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Two column — text + credentials */}
+      {/* Two column, text + credentials */}
       <section className="bg-cream ribbon-bg pb-24 md:pb-40 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
-          {/* Left — copy */}
+          {/* Left, copy */}
           <ScrollReveal direction="left"><div>
             <p
               className="mb-6"
@@ -88,8 +88,8 @@ export default function AboutPage() {
             >
               SteelR produces bespoke steel front doors for homes across the
               United Kingdom. Every door is tested to BS EN 1627:2011 RC4
-              single leaf, unglazed — the European framework for sustained
-              forced-entry resistance — and manufactured in the UK to ISO 9001
+              single leaf, unglazed, the European framework for sustained
+              forced-entry resistance, and manufactured in the UK to ISO 9001
               certification.
             </p>
             <p
@@ -149,7 +149,7 @@ export default function AboutPage() {
               </Link>
             </div>
           </div></ScrollReveal>
-          {/* Right — credentials */}
+          {/* Right, credentials */}
           <ScrollReveal direction="right"><div className="flex flex-col gap-4 justify-center">
             {credentials.map((cred) => (
               <div key={cred} className="flex items-center gap-3">
@@ -173,7 +173,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Detail images — flex layout */}
+      {/* Detail images, flex layout */}
       <section className="bg-cream pb-4 px-6 md:px-16">
         <div className="max-w-7xl mx-auto flex flex-wrap md:flex-nowrap gap-3 overflow-hidden">
           <div className="relative flex-1 min-w-[calc(50%-6px)] md:min-w-0 h-[320px]">
@@ -268,7 +268,7 @@ export default function AboutPage() {
               {
                 name: "Installation Team",
                 role: "Professional Fitting",
-                bio: "Our in-house installation team — never subcontracted — carries out every fitting to the same exacting standards as the manufacturing process. Fully trained, DBS checked and insured.",
+                bio: "Our in-house installation team, never subcontracted, carries out every fitting to the same exacting standards as the manufacturing process. Fully trained, DBS checked and insured.",
               },
             ].map((member, i) => (
               <ScrollReveal key={member.name} delay={i * 0.12}>

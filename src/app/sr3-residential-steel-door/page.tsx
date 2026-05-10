@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "LPS 1175 SR3 is SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 Standard. The LPCB police-preferred specification, available on every door.",
     url: "https://steelr.co.uk/sr3-residential-steel-door",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 
@@ -65,13 +66,13 @@ const webPageSchema = JSON.stringify({
   name: "SR3 Residential Steel Door",
   url: "https://steelr.co.uk/sr3-residential-steel-door",
   description:
-    "SR3 is the baseline security rating on every SteelR residential steel front door. BS EN 1627 Class 3 explained, comparison with PAS 24, and relationship to the SR4 LPS 1175 upgrade.",
+    "LPS 1175 SR3 is SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 Standard. The LPCB police-preferred specification, comparison with PAS 24, and relationship to the SR4 Commercial-grade upgrade.",
   about: [
-    { "@type": "Thing", name: "SR3 rated doors" },
-    { "@type": "Thing", name: "BS EN 1627 Class 3" },
+    { "@type": "Thing", name: "LPS 1175 SR3" },
+    { "@type": "Thing", name: "LPS 1175 Issue 8" },
+    { "@type": "Thing", name: "BS EN 1627 RC4" },
     { "@type": "Thing", name: "Residential steel front doors" },
     { "@type": "Thing", name: "PAS 24" },
-    { "@type": "Thing", name: "LPS 1175 Issue 8" },
   ],
   isPartOf: { "@type": "WebSite", url: "https://steelr.co.uk" },
 });

@@ -15,6 +15,7 @@ export const metadata: Metadata = {
       "Bespoke steel front doors for UK residential developers and housebuilders. Approved Doc Q compliant, NHBC-ready certification packs, door schedules and phased delivery against your build programme.",
     url: "https://steelr.co.uk/developers",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

@@ -289,6 +289,26 @@ export default function LondonPage() {
               label: "RAL colour options",
               description: "Any RAL, dual-colour optional, heritage palettes for conservation areas.",
             },
+            {
+              href: "/architects",
+              label: "For architects and specifiers",
+              description: "London townhouse work is largely architect-led. NBS clauses, BIM data and Listed Building Consent support for the practices specifying SteelR doors across the boroughs.",
+            },
+            {
+              href: "/developers",
+              label: "For London developers",
+              description: "Approved Document Q compliance and phased delivery for new-build, refurbishment and prime residential schemes across the boroughs.",
+            },
+            {
+              href: "/housing-associations",
+              label: "For housing associations",
+              description: "Building Safety Act 2022 evidence packs and FD30 / FD60 fire-rated programmes for London social-housing portfolios.",
+            },
+            {
+              href: "/property-managers",
+              label: "For property managers and managing agents",
+              description: "FRA remediation and Section 20 consultation support for managed mansion blocks and prime-residential portfolios across central and west London.",
+            },
           ],
         }}
         faqs={faqs}

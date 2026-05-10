@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://steelr.co.uk/contact",
   },
+  openGraph: {
+    title: "Request a Consultation | SteelR",
+    description:
+      "Request a free consultation on your bespoke steel front door. Call 0800 861 1450 or use the online form. Response in two working hours. Nationwide UK install.",
+    url: "https://steelr.co.uk/contact",
+    type: "website",
+    images: ["/og-image.png"],
+  },
 };
 
 const breadcrumbSchema = JSON.stringify({
@@ -227,7 +235,7 @@ export default function ContactPage() {
             </div>
           </div></ScrollReveal>
 
-          {/* Right — form */}
+          {/* Right, form */}
           <ScrollReveal direction="right">
           <div>
             <ContactForm />
@@ -236,7 +244,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* What happens next — three-step block */}
+      {/* What happens next, three-step block */}
       <section style={{ background: "#ede8df" }} className="ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-5xl mx-auto">
           <ScrollReveal>
@@ -329,7 +337,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* FAQ — consultation questions */}
+      {/* FAQ, consultation questions */}
       <section className="bg-cream ribbon-bg py-20 md:py-28 px-6 md:px-16">
         <div className="max-w-3xl mx-auto">
           <ScrollReveal>
@@ -395,7 +403,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Google Maps embed — business name only, no street address shown */}
+      {/* Google Maps embed, business name only, no street address shown */}
       <section style={{ padding: "60px 24px", background: "#1a1a18" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <h2 style={{ fontSize: 22, fontWeight: 200, color: "#f5f0e8", marginBottom: 16, letterSpacing: "0.02em" }}>Find Us</h2>

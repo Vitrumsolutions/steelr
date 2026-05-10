@@ -15,6 +15,7 @@ export const metadata: Metadata = {
       "Bespoke steel front doors for UK housing associations. Building Safety Act 2022 compliant, FD30/FD60, PAS 24, BS EN 1627 RC4. Stock replacement programmes with phased delivery, single supplier, in-house install.",
     url: "https://steelr.co.uk/housing-associations",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Bespoke steel front doors for UK homes. Made to measure in the UK, installed nationwide. PAS 24, SR3, SR4 (LPS 1175), Secured by Design, FD30.",
     url: "https://steelr.co.uk/bespoke-steel-front-doors-uk",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 
@@ -96,7 +97,7 @@ export default function BespokeHubPage() {
 
       <InfoPage
         heroTitle="Bespoke Steel Front Doors, UK"
-        h1="Bespoke Steel Front Doors UK — Made to Measure, Installed Nationwide"
+        h1="Bespoke Steel Front Doors UK, Made to Measure, Installed Nationwide"
         intro={{
           pretitle: "Made in the United Kingdom",
           title:
@@ -359,6 +360,26 @@ export default function BespokeHubPage() {
               href: "/steel-front-door-cost-uk",
               label: "How steel front door pricing works",
               description: "The factors that actually move the number, explained in plain English without guesswork.",
+            },
+            {
+              href: "/architects",
+              label: "For architects and specifiers",
+              description: "NBS clauses, BIM Level 2 data, performance specification narrative and direct line to the SteelR design team across RIBA stages 0-7.",
+            },
+            {
+              href: "/developers",
+              label: "For residential developers",
+              description: "Approved Document Q compliance, NHBC-ready certification packs, door schedules and phased delivery against the build programme.",
+            },
+            {
+              href: "/housing-associations",
+              label: "For housing associations",
+              description: "Building Safety Act 2022 compliant, FD30 / FD60 fire rated, single-supplier programmes for stock-replacement and major works.",
+            },
+            {
+              href: "/property-managers",
+              label: "For property managers and managing agents",
+              description: "FRA remediation, Section 20 consultation support and Building Safety Act 2022 evidence packs across managed portfolios.",
             },
           ],
         }}

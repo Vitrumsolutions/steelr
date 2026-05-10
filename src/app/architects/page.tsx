@@ -15,6 +15,7 @@ export const metadata: Metadata = {
       "Bespoke steel front doors for UK architects and specifiers. NBS-format clauses, BIM data, full certification library and direct line to the SteelR design team across RIBA stages 0-7.",
     url: "https://steelr.co.uk/architects",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 
@@ -149,13 +150,13 @@ export default function ArchitectsPage() {
               </>
             ),
             list: [
-              "NBS Chorus clauses, Standard + 3 upgrade tiers",
+              "NBS Chorus clauses for the Standard tier and 3 upgrade tiers, supplied on request",
               "Performance Specification narrative supplied on request",
-              "BIM Level 2 in Revit, IFC, dwg",
-              "Declarations of Performance per certified standard",
-              "Full PDF certification library",
-              "Test data: U-value, acoustic, water, wind, security",
-              "Manufacturer data sheets in CIBSE / NBS template",
+              "BIM Level 2 data in Revit (.rvt), IFC (.ifc) and dwg, supplied per project at specification stage",
+              "Declarations of Performance per certified standard, supplied on request",
+              "Full PDF certification library available on request",
+              "Test data on request: U-value, acoustic, water, wind, security",
+              "Manufacturer data sheets in CIBSE / NBS template, supplied per project",
             ],
           },
           {

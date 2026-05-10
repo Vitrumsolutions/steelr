@@ -52,11 +52,11 @@ const processSteps = [
 export default function Home() {
   return (
     <>
-      {/* Section 1 — Hero */}
+      {/* Section 1, Hero */}
       <Hero />
       <h1 className="sr-only">Bespoke Steel Entrance Doors | Designed and Installed Nationwide</h1>
 
-      {/* Section 2 — Collection Teaser */}
+      {/* Section 2, Collection Teaser */}
       <section style={{ background: "#f5f0e8" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
@@ -125,10 +125,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section 3 — Credentials Bar */}
+      {/* Section 3, Credentials Bar */}
       <CredentialsStrip />
 
-      {/* Section 3.5 — Testimonials */}
+      {/* Section 3.5, Testimonials */}
       <section style={{ background: "#f5f0e8" }} className="ribbon-bg py-20 md:py-28 px-6 md:px-16">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal>
@@ -222,7 +222,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section 3.6 — Warranty & Guarantee */}
+      {/* Section 3.6, Warranty & Guarantee */}
       <section style={{ background: "#ede8df" }} className="ribbon-bg py-12 md:py-16 px-6 md:px-16">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 text-center md:text-left">
           {[
@@ -273,7 +273,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section 4 — Statement */}
+      {/* Section 4, Statement */}
       <section style={{ background: "linear-gradient(180deg, #f5f0e8 0%, #ede8df 100%)" }} className="ribbon-bg py-24 md:py-40 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
           <ScrollReveal direction="left">
@@ -316,7 +316,7 @@ export default function Home() {
                   color: "#6b5a42",
                 }}
               >
-                Every Steelr door is tested to BS EN 1627:2011 RC4 single leaf, unglazed — the European framework for sustained forced-entry resistance, certifying the door against heavy-duty hand tools and battery-operated power tools. RC4 is materially above the PAS 24 hardware-only test mandated for new-build dwellings and is rarely offered as a residential standard in the UK. We work with homeowners, architects and developers who understand that the entrance to a home should be both beautiful and impenetrable.
+                Every Steelr door is tested to BS EN 1627:2011 RC4 single leaf, unglazed, the European framework for sustained forced-entry resistance, certifying the door against heavy-duty hand tools and battery-operated power tools. RC4 is materially above the PAS 24 hardware-only test mandated for new-build dwellings and is rarely offered as a residential standard in the UK. We work with homeowners, architects and developers who understand that the entrance to a home should be both beautiful and impenetrable.
               </p>
               <p
                 style={{
@@ -368,7 +368,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section 5 — Process */}
+      {/* Section 5, Process */}
       <section style={{ background: "#ede8df" }} className="ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
@@ -433,16 +433,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section 5.5 — Parallax Statement */}
+      {/* Section 5.5, Parallax Statement */}
       <ParallaxSection
         imageSrc="/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg"
         imageAlt="Black ornate steel door with lion knocker and sidelights"
       />
 
-      {/* Section 5.7 — Horizontal Gallery Scroll */}
+      {/* Section 5.7, Horizontal Gallery Scroll */}
       <HorizontalGallery />
 
-      {/* Section 6 — Gallery CTA Banner */}
+      {/* Section 6, Gallery CTA Banner */}
       <section className="bg-site-black py-16 md:py-20 px-6 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
           <ScrollReveal>
@@ -479,10 +479,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section 6.5 — PAS 24 Certification Callout */}
+      {/* Section 6.5, PAS 24 Certification Callout */}
       <CertificationCallout />
 
-      {/* Section 6.6 — FAQ */}
+      {/* Section 6.6, FAQ */}
       <section className="bg-cream ribbon-bg py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-3xl mx-auto">
           <ScrollReveal>
@@ -496,11 +496,11 @@ export default function Home() {
             </h2>
           </ScrollReveal>
           {[
-            { q: "What security rating do your steel front doors have?", a: "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed — the European framework for sustained forced-entry resistance. RC4 certifies the complete door assembly against heavy-duty hand tools and battery-operated power tools, including drills, jigsaws and oscillating saws. This is materially above the PAS 24 hardware-only test mandated by Approved Document Q for new-build dwellings, and is rarely offered as a residential standard in the UK. Every SteelR door is also Secured by Design approved — the UK police-preferred specification for crime prevention." },
-            { q: "Do you install nationwide?", a: "Yes. SteelR designs, manufactures and installs bespoke steel entrance doors across the entire United Kingdom — from the Scottish Highlands to the south coast of England. Our dedicated survey team travels to your property for precise on-site measurements, and our own installation team (never subcontracted) carries out the fitting. There are no regional restrictions or additional travel charges for mainland UK properties." },
-            { q: "How long does the process take?", a: "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes a site survey within 1–2 weeks of enquiry, a design approval stage where you confirm colour, hardware and glazing, followed by 6–8 weeks of manufacturing in our UK facility. Installation itself is usually completed in a single day. More complex specifications or multi-door projects may require additional time, and your specific timeline is confirmed during the order process." },
-            { q: "Can I choose any colour and finish?", a: "Every SteelR door is fully bespoke. You can choose from any colour in the RAL Classic range — over 200 colours — with the option of dual-colour specification (a different colour inside and outside). Hardware is available in chrome, brass, gold, bronze, black and satin nickel finishes. Glazing options include clear, frosted, tinted, decorative, stained glass and obscured panels. Panel styles, decorative elements, knockers, handles and letterboxes are all customisable to your exact requirements." },
-            { q: "Are your doors fire rated?", a: "Yes. All SteelR doors carry FD30S certification (30 minutes fire and smoke resistance) as standard, with FD60 (60-minute) available on request. This satisfies Approved Document B, the Fire Safety Act 2021 and the Building Safety Act 2022. Combined with PAS 24 certification and our BS EN 1627:2011 RC4 burglar-resistance certification, every SteelR door meets both the fire safety and security requirements for new builds, flats, HMOs and housing association properties — whether you need a fire rated steel front door for your home or a commercial specification." },
+            { q: "What security rating do your steel front doors have?", a: "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed, the European framework for sustained forced-entry resistance. RC4 certifies the complete door assembly against heavy-duty hand tools and battery-operated power tools, including drills, jigsaws and oscillating saws. This is materially above the PAS 24 hardware-only test mandated by Approved Document Q for new-build dwellings, and is rarely offered as a residential standard in the UK. Every SteelR door is also Secured by Design approved, the UK police-preferred specification for crime prevention." },
+            { q: "Do you install nationwide?", a: "Yes. SteelR designs, manufactures and installs bespoke steel entrance doors across the entire United Kingdom, from the Scottish Highlands to the south coast of England. Our dedicated survey team travels to your property for precise on-site measurements, and our own installation team (never subcontracted) carries out the fitting. There are no regional restrictions or additional travel charges for mainland UK properties." },
+            { q: "How long does the process take?", a: "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes a site survey within 1 to 2 weeks of enquiry, a design approval stage where you confirm colour, hardware and glazing, followed by 6 to 8 weeks of manufacturing in our UK facility. Installation itself is usually completed in a single day. More complex specifications or multi-door projects may require additional time, and your specific timeline is confirmed during the order process." },
+            { q: "Can I choose any colour and finish?", a: "Every SteelR door is fully bespoke. You can choose from any colour in the RAL Classic range, over 200 colours, with the option of dual-colour specification (a different colour inside and outside). Hardware is available in chrome, brass, gold, bronze, black and satin nickel finishes. Glazing options include clear, frosted, tinted, decorative, stained glass and obscured panels. Panel styles, decorative elements, knockers, handles and letterboxes are all customisable to your exact requirements." },
+            { q: "Are your doors fire rated?", a: "Yes. All SteelR doors carry FD30S certification (30 minutes fire and smoke resistance) as standard, with FD60 (60-minute) available on request. This satisfies Approved Document B, the Fire Safety Act 2021 and the Building Safety Act 2022. Combined with PAS 24 certification and our BS EN 1627:2011 RC4 burglar-resistance certification, every SteelR door meets both the fire safety and security requirements for new builds, flats, HMOs and housing association properties, whether you need a fire rated steel front door for your home or a commercial specification." },
           ].map((faq, i) => (
             <ScrollReveal key={i} delay={i * 0.06}>
               <div className="border-b py-8" style={{ borderColor: "rgba(201,169,110,0.15)" }}>
@@ -531,18 +531,18 @@ export default function Home() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          {"@type": "Question", "name": "What security rating do your steel front doors have?", "acceptedAnswer": {"@type": "Answer", "text": "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed — the European framework for sustained forced-entry resistance. RC4 certifies the complete door assembly against heavy-duty hand tools and battery-operated power tools, including drills, jigsaws and oscillating saws. This is materially above the PAS 24 hardware-only test mandated by Approved Document Q for new-build dwellings, and is rarely offered as a residential standard in the UK. Every SteelR door is also Secured by Design approved — the UK police-preferred specification for crime prevention."}},
-          {"@type": "Question", "name": "Do you install nationwide?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. SteelR designs, manufactures and installs bespoke steel entrance doors across the entire United Kingdom — from the Scottish Highlands to the south coast of England. Our dedicated survey team travels to your property for precise on-site measurements, and our own installation team (never subcontracted) carries out the fitting. There are no regional restrictions or additional travel charges for mainland UK properties."}},
-          {"@type": "Question", "name": "How long does the process take?", "acceptedAnswer": {"@type": "Answer", "text": "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes a site survey within 1–2 weeks of enquiry, a design approval stage where you confirm colour, hardware and glazing, followed by 6–8 weeks of manufacturing in our UK facility. Installation itself is usually completed in a single day. More complex specifications or multi-door projects may require additional time, and your specific timeline is confirmed during the order process."}},
-          {"@type": "Question", "name": "Can I choose any colour and finish?", "acceptedAnswer": {"@type": "Answer", "text": "Every SteelR door is fully bespoke. You can choose from any colour in the RAL Classic range — over 200 colours — with the option of dual-colour specification (a different colour inside and outside). Hardware is available in chrome, brass, gold, bronze, black and satin nickel finishes. Glazing options include clear, frosted, tinted, decorative, stained glass and obscured panels. Panel styles, decorative elements, knockers, handles and letterboxes are all customisable to your exact requirements."}},
-          {"@type": "Question", "name": "Are your doors fire rated?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All SteelR doors carry FD30S certification (30 minutes fire and smoke resistance) as standard, with FD60 (60-minute) available on request. This satisfies Approved Document B, the Fire Safety Act 2021 and the Building Safety Act 2022. Combined with PAS 24 certification and our BS EN 1627:2011 RC4 burglar-resistance certification, every SteelR door meets both the fire safety and security requirements for new builds, flats, HMOs and housing association properties — whether you need a fire rated steel front door for your home or a commercial specification."}}
+          {"@type": "Question", "name": "What security rating do your steel front doors have?", "acceptedAnswer": {"@type": "Answer", "text": "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed, the European framework for sustained forced-entry resistance. RC4 certifies the complete door assembly against heavy-duty hand tools and battery-operated power tools, including drills, jigsaws and oscillating saws. This is materially above the PAS 24 hardware-only test mandated by Approved Document Q for new-build dwellings, and is rarely offered as a residential standard in the UK. Every SteelR door is also Secured by Design approved, the UK police-preferred specification for crime prevention."}},
+          {"@type": "Question", "name": "Do you install nationwide?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. SteelR designs, manufactures and installs bespoke steel entrance doors across the entire United Kingdom, from the Scottish Highlands to the south coast of England. Our dedicated survey team travels to your property for precise on-site measurements, and our own installation team (never subcontracted) carries out the fitting. There are no regional restrictions or additional travel charges for mainland UK properties."}},
+          {"@type": "Question", "name": "How long does the process take?", "acceptedAnswer": {"@type": "Answer", "text": "From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes a site survey within 1 to 2 weeks of enquiry, a design approval stage where you confirm colour, hardware and glazing, followed by 6 to 8 weeks of manufacturing in our UK facility. Installation itself is usually completed in a single day. More complex specifications or multi-door projects may require additional time, and your specific timeline is confirmed during the order process."}},
+          {"@type": "Question", "name": "Can I choose any colour and finish?", "acceptedAnswer": {"@type": "Answer", "text": "Every SteelR door is fully bespoke. You can choose from any colour in the RAL Classic range, over 200 colours, with the option of dual-colour specification (a different colour inside and outside). Hardware is available in chrome, brass, gold, bronze, black and satin nickel finishes. Glazing options include clear, frosted, tinted, decorative, stained glass and obscured panels. Panel styles, decorative elements, knockers, handles and letterboxes are all customisable to your exact requirements."}},
+          {"@type": "Question", "name": "Are your doors fire rated?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All SteelR doors carry FD30S certification (30 minutes fire and smoke resistance) as standard, with FD60 (60-minute) available on request. This satisfies Approved Document B, the Fire Safety Act 2021 and the Building Safety Act 2022. Combined with PAS 24 certification and our BS EN 1627:2011 RC4 burglar-resistance certification, every SteelR door meets both the fire safety and security requirements for new builds, flats, HMOs and housing association properties, whether you need a fire rated steel front door for your home or a commercial specification."}}
         ]
       }) }} />
 
-      {/* Section 7 — Contact */}
+      {/* Section 7, Contact */}
       <section style={{ background: "linear-gradient(180deg, #ede8df 0%, #f5f0e8 100%)" }} className="ribbon-bg py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-          {/* Left — info */}
+          {/* Left, info */}
           <ScrollReveal direction="left">
             <div>
               <p
@@ -599,7 +599,7 @@ export default function Home() {
             </div>
           </ScrollReveal>
 
-          {/* Right — form */}
+          {/* Right, form */}
           <ScrollReveal direction="right">
             <div>
               <ContactForm />

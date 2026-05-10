@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://steelr.co.uk/process",
   },
+  openGraph: {
+    title: "Our Process | Steel Door Survey to Install | SteelR",
+    description:
+      "From enquiry to install of bespoke steel front doors. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Nationwide UK, 8 to 12 weeks.",
+    url: "https://steelr.co.uk/process",
+    type: "website",
+    images: ["/og-image.png"],
+  },
 };
 
 const stages = [
@@ -126,7 +134,7 @@ export default function ProcessPage() {
 
       <h1 className="sr-only">How We Design and Install Your Bespoke Steel Front Door</h1>
 
-      {/* Intro — how we work */}
+      {/* Intro, how we work */}
       <section className="bg-cream ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-3xl mx-auto text-center">
           <ScrollReveal>
@@ -191,7 +199,7 @@ export default function ProcessPage() {
         </div>
       </section>
 
-      {/* Process stages — clean alternating layout */}
+      {/* Process stages, clean alternating layout */}
       {stages.map((stage, i) => {
         const imageRight = i % 2 === 0;
         return (
@@ -305,7 +313,7 @@ export default function ProcessPage() {
         );
       })}
 
-      {/* Aftercare and warranty — new section */}
+      {/* Aftercare and warranty, new section */}
       <section className="bg-cream ribbon-bg py-20 md:py-28 px-6 md:px-16">
         <div className="max-w-5xl mx-auto">
           <ScrollReveal>
@@ -402,7 +410,7 @@ export default function ProcessPage() {
       <CredentialsStrip />
 
       
-      {/* Inline enquiry panel — source=hub-process */}
+      {/* Inline enquiry panel, source=hub-process */}
       <QuickEnquiry source="hub-process" contextLabel="Our Process" />
       {/* CTA */}
       <section className="bg-site-black py-20 md:py-28 px-6 md:px-16">

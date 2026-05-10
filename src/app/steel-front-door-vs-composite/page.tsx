@@ -362,6 +362,26 @@ export default function SteelVsCompositePage() {
               label: "How steel front door pricing works",
               description: "The factors that actually move the number, no guesswork and no hidden extras.",
             },
+            {
+              href: "/architects",
+              label: "For architects and specifiers",
+              description: "Performance specification context for the steel vs composite decision, with NBS clauses and BIM data to support either route.",
+            },
+            {
+              href: "/developers",
+              label: "For residential developers",
+              description: "How the steel vs composite decision plays out across new-build phasing, NHBC sign-off and Approved Document Q compliance.",
+            },
+            {
+              href: "/housing-associations",
+              label: "For housing associations",
+              description: "Steel as the Building Safety Act 2022 specification floor for higher-risk buildings, beyond the composite-door baseline.",
+            },
+            {
+              href: "/property-managers",
+              label: "For property managers and managing agents",
+              description: "Steel doorset specification for FRA remediation and managed-portfolio replacement programmes where composite is below brief.",
+            },
           ],
         }}
         faqs={faqs}

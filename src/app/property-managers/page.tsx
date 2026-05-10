@@ -15,6 +15,7 @@ export const metadata: Metadata = {
       "Bespoke steel front doors for UK managing agents and property managers. FRA remediation, Section 20 consultation, Building Safety Act 2022 evidence pack and single-supplier programme across managed portfolios.",
     url: "https://steelr.co.uk/property-managers",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

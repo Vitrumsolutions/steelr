@@ -128,7 +128,7 @@ export default function Hero() {
         );
       })}
 
-      {/* Logo flash between transitions — visible on all devices */}
+      {/* Logo flash between transitions, visible on all devices */}
       <div
         className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none"
         style={{
@@ -181,7 +181,7 @@ export default function Hero() {
         }}
       />
 
-      {/* Credentials — top left below nav, never overlaps centred logo */}
+      {/* Credentials, top left below nav, never overlaps centred logo */}
       <div className="absolute top-24 md:top-28 landscape-creds left-0 z-30 px-8 md:px-16">
         <p
           style={{
@@ -198,7 +198,7 @@ export default function Hero() {
         </p>
       </div>
 
-      {/* CTA — bottom left */}
+      {/* CTA, bottom left */}
       <div className="absolute bottom-0 left-0 z-30 p-8 md:p-16 max-w-xl">
         <h2
           className="mb-3"
@@ -224,7 +224,7 @@ export default function Hero() {
             textShadow: "0 1px 6px rgba(0, 0, 0, 0.4)",
           }}
         >
-          Tested to BS EN 1627:2011 RC4 single leaf, unglazed. Designed and installed nationwide. 8–12 week lead time.
+          Tested to BS EN 1627:2011 RC4 single leaf, unglazed. Designed and installed nationwide. 8 to 12 week lead time.
         </p>
 
         <Link
