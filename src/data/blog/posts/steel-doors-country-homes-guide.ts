@@ -10,10 +10,10 @@ const post: BlogPost = {
   category: "Guides",
   image: "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
   imageAlt:
-    "Olive traditional steel entrance door with arched stone surround — steel door for a country home",
+    "Olive traditional steel entrance door with arched stone surround, steel door for a country home",
   content: `## Why Country Homes Are Choosing Steel
 
-The British countryside is home to some of the most beautiful residential properties in the world — from Chiltern manor houses and Cotswold farmsteads to Yorkshire stone cottages and Surrey estates. Increasingly, homeowners in these affluent rural and semi-rural areas are turning to bespoke steel entrance doors as the definitive upgrade for their country properties.
+The British countryside is home to some of the most beautiful residential properties in the world, from Chiltern manor houses and Cotswold farmsteads to Yorkshire stone cottages and Surrey estates. Increasingly, homeowners in these affluent rural and semi-rural areas are turning to bespoke steel entrance doors as the definitive upgrade for their country properties.
 
 This guide explains why steel doors are the ideal choice for country homes and covers the key considerations for homeowners in rural locations across the UK.
 
@@ -21,23 +21,23 @@ This guide explains why steel doors are the ideal choice for country homes and c
 
 Security is often the primary driver for country homeowners considering a steel entrance door. Rural properties face distinct security challenges that urban homes do not:
 
-- **Isolation** — detached country homes are often set back from roads and neighbours, giving intruders more time and privacy to attempt entry
-- **Response times** — police response times in rural areas are typically longer than in urban centres
-- **Outbuilding access** — tools stored in garages, barns and sheds can be used to attack entry points
-- **Perception of wealth** — large country properties are often perceived as high-value targets
+- **Isolation**, detached country homes are often set back from roads and neighbours, giving intruders more time and privacy to attempt entry
+- **Response times**, police response times in rural areas are typically longer than in urban centres
+- **Outbuilding access**, tools stored in garages, barns and sheds can be used to attack entry points
+- **Perception of wealth**, large country properties are often perceived as high-value targets
 
-Homeowners in [Beaconsfield](/areas/beaconsfield) and [Gerrards Cross](/areas/gerrards-cross) in the Chilterns know this reality well — these areas combine significant property values with a semi-rural setting. Similarly, properties in [Virginia Water](/areas/virginia-water) and [Cobham](/areas/cobham) in Surrey sit on large plots surrounded by woodland and open land.
+Homeowners in [Beaconsfield](/areas/beaconsfield) and [Gerrards Cross](/areas/gerrards-cross) in the Chilterns know this reality well, these areas combine significant property values with a semi-rural setting. Similarly, properties in [Virginia Water](/areas/virginia-water) and [Cobham](/areas/cobham) in Surrey sit on large plots surrounded by woodland and open land.
 
-An **SR3-rated steel entrance door** addresses these concerns directly. Tested to **BS EN 1627:2011**, an SR3 door withstands sustained attack with crowbars, drills and angle grinders — providing a level of resistance that no timber or composite door can match. For isolated country properties, this standard of protection is not a luxury; it is a sensible precaution.
+An **SR3-rated steel entrance door** addresses these concerns directly. Tested to **BS EN 1627:2011**, an SR3 door withstands sustained attack with crowbars, drills and angle grinders, providing a level of resistance that no timber or composite door can match. For isolated country properties, this standard of protection is not a luxury; it is a sensible precaution.
 
 ## Weather Resistance and Durability
 
 Country homes are typically more exposed to the elements than urban properties. Entrance doors on rural properties face:
 
-- **Driving rain** — particularly on west-facing elevations in areas like [Marlow](/areas/marlow) and [Henley-on-Thames](/areas/henley-on-thames), where proximity to the Thames valley brings higher rainfall
-- **Wind exposure** — hilltop and ridge-line properties in areas such as [Sevenoaks](/areas/sevenoaks) and the North Downs are subject to stronger winds than sheltered urban streets
-- **Temperature extremes** — rural locations experience wider temperature swings between summer and winter than the urban heat island effect provides in cities
-- **UV exposure** — country properties often have south-facing elevations with no neighbouring buildings to provide shade
+- **Driving rain**, particularly on west-facing elevations in areas like [Marlow](/areas/marlow) and [Henley-on-Thames](/areas/henley-on-thames), where proximity to the Thames valley brings higher rainfall
+- **Wind exposure**, hilltop and ridge-line properties in areas such as [Sevenoaks](/areas/sevenoaks) and the North Downs are subject to stronger winds than sheltered urban streets
+- **Temperature extremes**, rural locations experience wider temperature swings between summer and winter than the urban heat island effect provides in cities
+- **UV exposure**, country properties often have south-facing elevations with no neighbouring buildings to provide shade
 
 Timber doors suffer significantly under these conditions. Warping, swelling, cracking and rot are accelerated by exposure, and the maintenance cycle shortens accordingly. A timber front door on an exposed country property may need repainting every two to three years.
 
@@ -47,14 +47,14 @@ Steel entrance doors are engineered to withstand these conditions without compro
 
 The entrance to a country home sets the tone for the entire property. Whether your driveway approach reveals a Georgian rectory, a Victorian farmhouse or a contemporary country estate, the front door is the focal point.
 
-In areas like [Alderley Edge](/areas/alderley-edge) in Cheshire — where substantial country houses sit behind mature hedgerows and gated drives — the entrance door must make a statement commensurate with the property. The same is true in [Winchester](/areas/winchester), where period houses along the Hampshire Downs demand doors that balance heritage sensitivity with understated quality.
+In areas like [Alderley Edge](/areas/alderley-edge) in Cheshire, where substantial country houses sit behind mature hedgerows and gated drives, the entrance door must make a statement commensurate with the property. The same is true in [Winchester](/areas/winchester), where period houses along the Hampshire Downs demand doors that balance heritage sensitivity with understated quality.
 
 Bespoke steel doors offer complete design freedom for country properties:
 
-- **Traditional country house designs** — six-panel Georgian doors, four-panel Victorian doors and solid farmhouse designs, all faithfully reproduced in steel
-- **Arched and oversized doors** — country properties often have non-standard openings, including arched doorways and double-height entrances that off-the-shelf doors cannot accommodate
-- **Heritage colours** — sage greens, olive, cream, walnut and deep reds that complement stone, brick and rendered facades
-- **Period ironmongery** — lion knockers, ring knockers, brass letter plates and traditional lever handles that complete the authentic look
+- **Traditional country house designs**, six-panel Georgian doors, four-panel Victorian doors and solid farmhouse designs, all faithfully reproduced in steel
+- **Arched and oversized doors**, country properties often have non-standard openings, including arched doorways and double-height entrances that off-the-shelf doors cannot accommodate
+- **Heritage colours**, sage greens, olive, cream, walnut and deep reds that complement stone, brick and rendered facades
+- **Period ironmongery**, lion knockers, ring knockers, brass letter plates and traditional lever handles that complete the authentic look
 
 ## Regional Highlights
 
@@ -78,10 +78,10 @@ In [Harrogate](/areas/harrogate), the elegant stone properties of this North Yor
 
 Installing a bespoke steel door on a country property involves some additional practical considerations:
 
-- **Access** — rural properties may have narrow lanes, gravel drives or limited turning space for delivery vehicles
-- **Structural openings** — older country houses often have thick stone or brick walls with deep reveals that require careful measurement and bespoke frame profiles
-- **Listed building consent** — many country properties are Grade I or Grade II listed, requiring Listed Building Consent for a new front door. A bespoke steel door designed to replicate the original design supports a successful application
-- **Outbuildings** — some country homeowners extend their steel door specification to include matching doors for converted barns, orangeries and boot rooms
+- **Access**, rural properties may have narrow lanes, gravel drives or limited turning space for delivery vehicles
+- **Structural openings**, older country houses often have thick stone or brick walls with deep reveals that require careful measurement and bespoke frame profiles
+- **Listed building consent**, many country properties are Grade I or Grade II listed, requiring Listed Building Consent for a new front door. A bespoke steel door designed to replicate the original design supports a successful application
+- **Outbuildings**, some country homeowners extend their steel door specification to include matching doors for converted barns, orangeries and boot rooms
 
 ## Architectural Styles and the Right Door for Each
 
@@ -138,10 +138,10 @@ No formal consent required for a front door change on most country properties. H
 
 Many country properties extend beyond the main house. Typical additional entrance requirements:
 
-- **Boot rooms and secondary entrances** — often the most-used door on a working country property, facing the yard or garden. Requires the same security standard as the front door, but the aesthetic can be simpler.
-- **Garden rooms and orangeries** — glazed steel doors with thermally-broken profiles and laminated glass specified to match the main house hardware.
-- **Converted barns, lodges and staff cottages** — formerly industrial openings that often benefit from wider, taller leaves with period steel detailing.
-- **Entrance gates and gatehouses** — steel driveway gates can be specified alongside the main door using the same paint system so the brand continuity runs from the road to the threshold.
+- **Boot rooms and secondary entrances**, often the most-used door on a working country property, facing the yard or garden. Requires the same security standard as the front door, but the aesthetic can be simpler.
+- **Garden rooms and orangeries**, glazed steel doors with thermally-broken profiles and laminated glass specified to match the main house hardware.
+- **Converted barns, lodges and staff cottages**, formerly industrial openings that often benefit from wider, taller leaves with period steel detailing.
+- **Entrance gates and gatehouses**, steel driveway gates can be specified alongside the main door using the same paint system so the brand continuity runs from the road to the threshold.
 
 A full estate specification is typically commissioned as a single package with matched finishes, hardware and security ratings across every opening. The manufacturing and installation is scheduled in sequence so no part of the property is left unsecured during changeovers.
 
@@ -149,11 +149,11 @@ A full estate specification is typically commissioned as a single package with m
 
 Country homes sit in meaningfully harsher microclimates than urban properties. Points worth specifying on a rural installation:
 
-- **Thermal break quality** — on exposed elevations, a single-point thermal break is inadequate. Specify a dual thermal break with polyurethane insulation infill for U-values below 1.0 W/m²K.
-- **Drainage detail** — the threshold detailing matters on south-west elevations in high-rainfall areas. A weathered threshold with concealed drainage channels prevents standing water at the door foot.
-- **Freeze-point protection** — multi-point locking systems on exposed rural properties benefit from stainless steel internals and PTFE grease rather than standard mineral oil. Prevents lock seizure in sustained sub-zero conditions.
-- **UV-stable finish** — specify the paint system with a UV inhibitor additive. On south-facing elevations in Kent or Sussex, cheaper paint systems chalk visibly within five years. A powder coat with UV stabiliser remains true for 15-plus.
-- **Stainless fixings throughout** — hinges, frame fixings, thresholds, all stainless steel. Galvanised fixings stain visibly over time in rural settings where iron oxide runs down paintwork.
+- **Thermal break quality**, on exposed elevations, a single-point thermal break is inadequate. Specify a dual thermal break with polyurethane insulation infill for U-values below 1.0 W/m²K.
+- **Drainage detail**, the threshold detailing matters on south-west elevations in high-rainfall areas. A weathered threshold with concealed drainage channels prevents standing water at the door foot.
+- **Freeze-point protection**, multi-point locking systems on exposed rural properties benefit from stainless steel internals and PTFE grease rather than standard mineral oil. Prevents lock seizure in sustained sub-zero conditions.
+- **UV-stable finish**, specify the paint system with a UV inhibitor additive. On south-facing elevations in Kent or Sussex, cheaper paint systems chalk visibly within five years. A powder coat with UV stabiliser remains true for 15-plus.
+- **Stainless fixings throughout**, hinges, frame fixings, thresholds, all stainless steel. Galvanised fixings stain visibly over time in rural settings where iron oxide runs down paintwork.
 
 ## Frequently Asked Questions
 
@@ -191,7 +191,7 @@ Virtually none. An occasional wipe-down of the face with mild detergent, annual 
 
 ## The Country Home Investment
 
-A bespoke steel entrance door for a country property is an investment in security, durability and kerb appeal. For homeowners in areas like [Marlow](/areas/marlow), [Henley-on-Thames](/areas/henley-on-thames) or [Alderley Edge](/areas/alderley-edge), it is also a statement of intent — a signal that every detail of the property has been considered and executed to the highest standard.
+A bespoke steel entrance door for a country property is an investment in security, durability and kerb appeal. For homeowners in areas like [Marlow](/areas/marlow), [Henley-on-Thames](/areas/henley-on-thames) or [Alderley Edge](/areas/alderley-edge), it is also a statement of intent, a signal that every detail of the property has been considered and executed to the highest standard.
 
 At SteelR, we design and manufacture bespoke steel entrance doors for country homes across the UK. Every door is SR3 security rated, Secured by Design accredited and manufactured under ISO 9001 certified quality management. For the full bespoke specification picture, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview, then [contact us](/contact) to discuss your country home project.`,
 };

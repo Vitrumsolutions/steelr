@@ -10,30 +10,30 @@ const post: BlogPost = {
   category: "Security",
   image: "/images/gallery/steelr-black-traditional-chrome-interior.jpg",
   imageAlt:
-    "Interior view of a black steel entrance door with chrome hardware — security-rated front door",
+    "Interior view of a black steel entrance door with chrome hardware, security-rated front door",
   content: `## Why Security Ratings Matter More Than Marketing Claims
 
-Every door manufacturer describes their product as "secure." The difference is whether that claim has been independently verified to a recognised European standard. Front door security ratings provide an objective, comparable measure of how well a door resists forced entry — and not all ratings are equal.
+Every door manufacturer describes their product as "secure." The difference is whether that claim has been independently verified to a recognised European standard. Front door security ratings provide an objective, comparable measure of how well a door resists forced entry, and not all ratings are equal.
 
-Understanding the distinction between SR1, SR2 and SR3 is essential for anyone specifying an entrance door for a high-value property. The rating determines what tools an attacker can use, how long the attack is sustained, and how skilled the operative is assumed to be. For homeowners in areas such as [Esher](/areas/esher), [Virginia Water](/areas/virginia-water) and [Gerrards Cross](/areas/gerrards-cross), this is not an academic exercise — it is a practical decision that affects insurance, property value and personal safety.
+Understanding the distinction between SR1, SR2 and SR3 is essential for anyone specifying an entrance door for a high-value property. The rating determines what tools an attacker can use, how long the attack is sustained, and how skilled the operative is assumed to be. For homeowners in areas such as [Esher](/areas/esher), [Virginia Water](/areas/virginia-water) and [Gerrards Cross](/areas/gerrards-cross), this is not an academic exercise, it is a practical decision that affects insurance, property value and personal safety.
 
 ## The Standard: BS EN 1627:2011
 
 All legitimate door security ratings in the UK and Europe are defined by **BS EN 1627:2011**, the European standard for resistance to manual attack. This standard replaced the earlier ENV 1627:1999 and is the benchmark used by testing laboratories, insurers and police forces across Europe.
 
-BS EN 1627 defines six resistance classes, designated RC1 through RC6 (commonly referred to as SR1 through SR6 in the UK market). The standard does not test individual components in isolation. It tests the **complete doorset** — door leaf, frame, locking mechanism, hinges, glazing and fixings — as a single integrated system. A door cannot achieve a rating if any component falls below the required standard.
+BS EN 1627 defines six resistance classes, designated RC1 through RC6 (commonly referred to as SR1 through SR6 in the UK market). The standard does not test individual components in isolation. It tests the **complete doorset**, door leaf, frame, locking mechanism, hinges, glazing and fixings, as a single integrated system. A door cannot achieve a rating if any component falls below the required standard.
 
 The testing is conducted by independent, UKAS-accredited laboratories. The manufacturer submits a production doorset, and the laboratory subjects it to a defined sequence of static, dynamic and manual attacks. The door either passes or fails. There is no partial credit.
 
 ## SR1 Through SR6: A Complete Breakdown
 
-### SR1 (RC1) — Opportunistic Force Only
+### SR1 (RC1): Opportunistic Force Only
 
-SR1 represents the lowest resistance class. The door must withstand bodily force — kicking, shoulder-barging, leaning and pushing. No tools are used in the test. SR1 offers minimal protection against any determined intruder and is generally considered insufficient for standalone residential security.
+SR1 represents the lowest resistance class. The door must withstand bodily force, kicking, shoulder-barging, leaning and pushing. No tools are used in the test. SR1 offers minimal protection against any determined intruder and is generally considered insufficient for standalone residential security.
 
 Most basic uPVC doors and lightweight timber doors fall into this category, though many are never formally tested at all. An untested door has no verified resistance class, which is a worse position than SR1.
 
-### SR2 (RC2) — Simple Tools, Casual Burglar
+### SR2 (RC2): Simple Tools, Casual Burglar
 
 **SR2 is the most common security rating** for premium residential doors in the UK. The test assumes a casual burglar with limited skill, using simple hand tools: screwdrivers, pliers, wedges and small wrenches. The attack is sustained for **3 minutes**.
 
@@ -67,11 +67,11 @@ Hydraulic equipment applies concentrated and distributed loads to the door leaf,
 
 ### Dynamic Load Testing (BS EN 1629)
 
-A weighted pendulum (50kg) strikes the door at specified heights and locations, simulating impacts from a battering ram or repeated kicks. The test measures whether the door remains closed, the frame stays intact and the locking mechanism stays engaged. For SR3, the impact energy is 300 joules — equivalent to a trained adult's full-force kick delivered with a running start.
+A weighted pendulum (50kg) strikes the door at specified heights and locations, simulating impacts from a battering ram or repeated kicks. The test measures whether the door remains closed, the frame stays intact and the locking mechanism stays engaged. For SR3, the impact energy is 300 joules, equivalent to a trained adult's full-force kick delivered with a running start.
 
 ### Manual Attack Testing (BS EN 1630)
 
-This is the critical phase. A skilled operative attempts to breach the door using the tool set defined for the relevant resistance class. The operative is briefed on the door's construction and weak points before the test begins. The clock runs only during active tool engagement — time spent assessing the door or changing tools is not counted.
+This is the critical phase. A skilled operative attempts to breach the door using the tool set defined for the relevant resistance class. The operative is briefed on the door's construction and weak points before the test begins. The clock runs only during active tool engagement, time spent assessing the door or changing tools is not counted.
 
 For SR3, the operative has access to crowbars, flat-blade screwdrivers, drills up to 10mm, chisels, hammers, hacksaws and angle grinders. Success means creating a through-opening large enough to reach the locking mechanism or pass through the doorway. If the door survives the full allocated time without breach, it passes. For a detailed breakdown of what our doors withstand, see our [security specification](/security-specification).
 
@@ -85,11 +85,11 @@ PAS 24 is the minimum legal requirement for new-build residential properties in 
 
 The key differences:
 
-- **Tool set** — SR3 permits heavier, more aggressive tools than PAS 24
-- **Attack duration** — SR3 mandates a longer active attack period
-- **Operative skill** — SR3 testing assumes a more experienced attacker with knowledge of door construction
-- **Complete system** — SR3 tests the entire doorset assembly, not individual components
-- **Independent accreditation** — SR3 testing must be conducted by a UKAS-accredited laboratory
+- **Tool set**, SR3 permits heavier, more aggressive tools than PAS 24
+- **Attack duration**, SR3 mandates a longer active attack period
+- **Operative skill**, SR3 testing assumes a more experienced attacker with knowledge of door construction
+- **Complete system**, SR3 tests the entire doorset assembly, not individual components
+- **Independent accreditation**, SR3 testing must be conducted by a UKAS-accredited laboratory
 
 For homeowners who want security that genuinely exceeds building regulation minimums, SR3 is the appropriate specification. PAS 24 tells you the door is legal. SR3 tells you the door is secure.
 
@@ -99,7 +99,7 @@ Home insurance policies in the UK typically require doors and windows to meet mi
 
 An SR3-rated entrance door may qualify you for reduced premiums or enhanced cover, particularly on high-value properties. Some specialist high-net-worth insurers explicitly ask whether doors carry SR2 or SR3 certification. In areas with above-average burglary rates, a verified security rating can be the difference between obtaining cover and being declined.
 
-It is worth noting that the rating must apply to the **installed doorset**, not just the door leaf or the lock. Insurers are becoming more sophisticated in their understanding of door security, and a mismatched system — an SR3 door in an SR1 frame, for instance — will not satisfy their requirements.
+It is worth noting that the rating must apply to the **installed doorset**, not just the door leaf or the lock. Insurers are becoming more sophisticated in their understanding of door security, and a mismatched system, an SR3 door in an SR1 frame, for instance, will not satisfy their requirements.
 
 Always confirm your insurer's specific requirements before specifying a door. Many SteelR customers find that the premium reduction on high-value property insurance offsets a meaningful portion of the door's cost over its lifetime.
 
@@ -107,7 +107,7 @@ Always confirm your insurer's specific requirements before specifying a door. Ma
 
 Beyond the BS EN 1627 framework, **Secured by Design** (SBD) is the official UK police security initiative. Products carrying the SBD accreditation have been assessed and approved by police Designing Out Crime Officers.
 
-Secured by Design is not a replacement for SR ratings — it is complementary. SBD assessors evaluate the complete doorset and the manufacturing process, ensuring that production quality matches test quality. Ongoing factory audits confirm consistency. Research conducted by the Home Office shows that developments built to Secured by Design standards experience up to 75% less burglary than equivalent developments without the accreditation.
+Secured by Design is not a replacement for SR ratings, it is complementary. SBD assessors evaluate the complete doorset and the manufacturing process, ensuring that production quality matches test quality. Ongoing factory audits confirm consistency. Research conducted by the Home Office shows that developments built to Secured by Design standards experience up to 75% less burglary than equivalent developments without the accreditation.
 
 For a comprehensive overview of how these standards work together, visit our [security overview](/security).
 
@@ -143,7 +143,7 @@ The SR3 certification applies to the doorset as manufactured and installed to th
 
 ### What is Secured by Design and is it the same as SR3?
 
-Secured by Design is the official UK police initiative that accredits security products. It is separate from the BS EN 1627 classification system but complementary to it. A door can carry both an SR3 rating and Secured by Design accreditation — the former certifies physical resistance, the latter confirms police-approved security standards and ongoing manufacturing quality audits. For a deeper technical breakdown of BS EN 1627 Class 3, see our [SR3 residential steel door](/sr3-residential-steel-door) page.`,
+Secured by Design is the official UK police initiative that accredits security products. It is separate from the BS EN 1627 classification system but complementary to it. A door can carry both an SR3 rating and Secured by Design accreditation, the former certifies physical resistance, the latter confirms police-approved security standards and ongoing manufacturing quality audits. For a deeper technical breakdown of BS EN 1627 Class 3, see our [SR3 residential steel door](/sr3-residential-steel-door) page.`,
 };
 
 export default post;

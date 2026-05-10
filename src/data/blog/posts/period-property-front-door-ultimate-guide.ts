@@ -10,10 +10,10 @@ const post: BlogPost = {
   category: "Design",
   image: "/images/gallery/steelr-black-traditional-lion-knocker-sidelights-garden.jpg",
   imageAlt:
-    "Black traditional steel entrance door with lion knocker and sidelights in garden setting — period property front door guide",
+    "Black traditional steel entrance door with lion knocker and sidelights in garden setting, period property front door guide",
   content: `## Getting the Door Right on a Period Property
 
-A period property deserves an entrance that respects its architectural heritage while delivering the performance standards of 2026. The front door is the single most prominent external element — it sets the tone for the entire facade and signals whether the property has been cared for with knowledge or merely updated with convenience.
+A period property deserves an entrance that respects its architectural heritage while delivering the performance standards of 2026. The front door is the single most prominent external element, it sets the tone for the entire facade and signals whether the property has been cared for with knowledge or merely updated with convenience.
 
 Getting it wrong is conspicuous. A modern slab door on a Georgian townhouse. A Victorian terrace fitted with a composite door in a colour that never existed before 1990. An Edwardian villa with hardware that belongs on a new-build estate. These mismatches diminish the character of the property and, in many cases, its market value.
 
@@ -27,7 +27,7 @@ Before selecting a door, you need to understand which architectural period your 
 
 Georgian architecture is defined by **classical symmetry and mathematical proportion**. Facades are orderly, with evenly spaced windows and a central entrance. The front door is a focal point, typically set within an elaborate doorcase featuring pilasters, pediments, fanlights and sometimes columns.
 
-Georgian doors are characterised by six-panel designs arranged in three pairs, with the panels reducing in size from bottom to top. The proportions follow classical rules — the ratio of width to height, and the relative sizes of the panels, were calculated with care. Fanlights above the door are a hallmark of the era, ranging from simple rectangular transoms in early Georgian work to elaborate semi-circular designs with delicate glazing bars in the later period.
+Georgian doors are characterised by six-panel designs arranged in three pairs, with the panels reducing in size from bottom to top. The proportions follow classical rules, the ratio of width to height, and the relative sizes of the panels, were calculated with care. Fanlights above the door are a hallmark of the era, ranging from simple rectangular transoms in early Georgian work to elaborate semi-circular designs with delicate glazing bars in the later period.
 
 ### Regency (1811-1837)
 
@@ -39,21 +39,21 @@ Doorcases may include reeded pilasters, Greek key mouldings and elegant semi-cir
 
 The Victorian era saw enormous diversity in domestic architecture, from early Victorian terraces that continued Georgian conventions to the exuberant decorative excess of the late Victorian period.
 
-**The four-panel door is the defining Victorian type**, though designs vary significantly across the era. Early Victorian doors often feature bold, raised panels with heavy mouldings. Mid-Victorian examples introduced decorative glazing — etched glass, stained glass and coloured panes in the upper panels. Late Victorian doors became increasingly elaborate, with ornate fanlights, tessellated tile paths leading to the entrance, and hardware that reflected the Arts and Crafts influence beginning to take hold.
+**The four-panel door is the defining Victorian type**, though designs vary significantly across the era. Early Victorian doors often feature bold, raised panels with heavy mouldings. Mid-Victorian examples introduced decorative glazing, etched glass, stained glass and coloured panes in the upper panels. Late Victorian doors became increasingly elaborate, with ornate fanlights, tessellated tile paths leading to the entrance, and hardware that reflected the Arts and Crafts influence beginning to take hold.
 
-Victorian doors for properties across [Bath](/areas/bath) and [Oxford](/areas/oxford) frequently incorporate locally distinctive elements — Bath stone surrounds demanding lighter door colours, Oxford's college-town aesthetic favouring darker, more scholarly tones.
+Victorian doors for properties across [Bath](/areas/bath) and [Oxford](/areas/oxford) frequently incorporate locally distinctive elements, Bath stone surrounds demanding lighter door colours, Oxford's college-town aesthetic favouring darker, more scholarly tones.
 
 ### Edwardian (1901-1910)
 
-Edwardian architecture represents a reaction against Victorian heaviness. Properties are lighter, airier and more generous in their proportions. **Edwardian front doors are distinctive for their extensive use of glazing** — often with the upper half of the door almost entirely glazed, divided by slender timber or metal glazing bars into multiple panes.
+Edwardian architecture represents a reaction against Victorian heaviness. Properties are lighter, airier and more generous in their proportions. **Edwardian front doors are distinctive for their extensive use of glazing**, often with the upper half of the door almost entirely glazed, divided by slender timber or metal glazing bars into multiple panes.
 
-The glazing patterns are typically geometric — squares, rectangles, and occasionally Art Nouveau-influenced curved designs. Stained glass remained popular but in lighter, more delicate colour palettes than the deep Victorian tones. Fanlights continued but became simpler, often rectangular rather than arched.
+The glazing patterns are typically geometric, squares, rectangles, and occasionally Art Nouveau-influenced curved designs. Stained glass remained popular but in lighter, more delicate colour palettes than the deep Victorian tones. Fanlights continued but became simpler, often rectangular rather than arched.
 
 Edwardian properties in areas like [Richmond](/areas/richmond) present particular opportunities for sensitive door replacement, where the wide, tree-lined streets and well-maintained facades create a context that rewards attention to period accuracy.
 
 ### Arts and Crafts (1880-1920)
 
-The Arts and Crafts movement valued honest materials, handcraftsmanship and organic forms. **Doors from this tradition emphasise natural texture and honest construction** — visible joinery, iron strap hinges, hammered metal hardware and designs that draw on medieval English and vernacular traditions.
+The Arts and Crafts movement valued honest materials, handcraftsmanship and organic forms. **Doors from this tradition emphasise natural texture and honest construction**, visible joinery, iron strap hinges, hammered metal hardware and designs that draw on medieval English and vernacular traditions.
 
 Common features include ledged and braced designs, small-paned glazing with handmade glass, and wrought-iron furniture including ring handles, bean latches and hand-forged hinges. Colour palettes are earthy: deep greens, rich browns, slate blues and muted reds.
 
@@ -67,7 +67,7 @@ A Georgian six-panel door follows a specific proportional hierarchy. The bottom 
 
 ### Victorian Panel Depth
 
-Victorian panels are typically raised and fielded — they project from the surface of the door with a stepped moulding profile. The depth and profile of this moulding varies by decade and region, but it is always present. Flat panels read as modern and undermine the character of a Victorian entrance.
+Victorian panels are typically raised and fielded, they project from the surface of the door with a stepped moulding profile. The depth and profile of this moulding varies by decade and region, but it is always present. Flat panels read as modern and undermine the character of a Victorian entrance.
 
 ### Edwardian Glazing Ratios
 
@@ -81,7 +81,7 @@ Hardware is the detail that separates a knowledgeable restoration from a superfi
 
 ### Georgian and Regency Hardware
 
-Brass is the predominant material — polished or lacquered, never brushed or satin-finished. Door knockers are typically urn shapes, lion heads or simple ring designs. Knobs are round and substantial. Letter plates are rectangular with clean classical proportions. Escutcheons follow the keyhole shape without embellishment.
+Brass is the predominant material, polished or lacquered, never brushed or satin-finished. Door knockers are typically urn shapes, lion heads or simple ring designs. Knobs are round and substantial. Letter plates are rectangular with clean classical proportions. Escutcheons follow the keyhole shape without embellishment.
 
 ### Victorian Hardware
 
@@ -89,23 +89,23 @@ The Victorian palette is broader. **Cast iron became widely available and afford
 
 ### Edwardian Hardware
 
-Edwardian hardware tends toward refinement. Brass predominates, often in simpler, more geometric forms than Victorian equivalents. Finger plates are narrower. Knockers are lighter. The overall impression is of quality without ostentation. Art Nouveau influenced hardware — organic curves, stylised plant forms — appeared on more progressive properties.
+Edwardian hardware tends toward refinement. Brass predominates, often in simpler, more geometric forms than Victorian equivalents. Finger plates are narrower. Knockers are lighter. The overall impression is of quality without ostentation. Art Nouveau influenced hardware, organic curves, stylised plant forms, appeared on more progressive properties.
 
 ### Arts and Crafts Hardware
 
-Hand-forged iron is the authentic choice. Ring knockers, bean latches, strap hinges and hand-hammered studs define the Arts and Crafts entrance. Hardware should look crafted, not cast — with visible hammer marks and a slightly irregular quality that speaks to individual making.
+Hand-forged iron is the authentic choice. Ring knockers, bean latches, strap hinges and hand-hammered studs define the Arts and Crafts entrance. Hardware should look crafted, not cast, with visible hammer marks and a slightly irregular quality that speaks to individual making.
 
 ## Glazing Patterns by Era
 
 Glazing is one of the most era-specific elements of a period door, and one of the easiest to get wrong.
 
-**Georgian glazing** is geometric and symmetrical — typically rectangular panes arranged in rows, sometimes with a decorative semi-circular or elliptical fanlight above.
+**Georgian glazing** is geometric and symmetrical, typically rectangular panes arranged in rows, sometimes with a decorative semi-circular or elliptical fanlight above.
 
 **Victorian glazing** introduced colour and decorative content. Etched glass with floral motifs, stained glass panels, and acid-etched frosted glass were all common. The upper panels of a Victorian door might feature coloured glass borders around a central clear or etched pane.
 
 **Edwardian glazing** favoured lighter tones and more delicate patterning. Leaded lights with small, regular panes were typical, sometimes incorporating subtle coloured glass accents. The patterns tend toward geometric simplicity rather than Victorian pictorial elaboration.
 
-**Arts and Crafts glazing** used handmade glass with natural imperfections — seedy glass, bullseye panes and quarry glazing in small diamond or rectangular panes held with lead cames.
+**Arts and Crafts glazing** used handmade glass with natural imperfections, seedy glass, bullseye panes and quarry glazing in small diamond or rectangular panes held with lead cames.
 
 ## Colour Palettes by Period
 
@@ -113,11 +113,11 @@ Colour research has advanced significantly, and we now have good evidence of aut
 
 ### Georgian Colours
 
-Dark, rich colours dominate: deep green, dark blue, black, and the famous Georgian "drab" — a warm grey-brown. In the later Georgian period, more vibrant colours appeared, including deep red and Prussian blue. White or cream door surrounds with a dark door are characteristic.
+Dark, rich colours dominate: deep green, dark blue, black, and the famous Georgian "drab", a warm grey-brown. In the later Georgian period, more vibrant colours appeared, including deep red and Prussian blue. White or cream door surrounds with a dark door are characteristic.
 
 ### Victorian Colours
 
-Early Victorian doors continued Georgian dark tones. **The mid-to-late Victorian palette expanded dramatically** — deep reds, bottle greens, chocolate browns, dark blues and, for grander properties, grained finishes imitating expensive timbers. The Victorians were not afraid of colour, but their choices were always rich and saturated rather than pale or pastel.
+Early Victorian doors continued Georgian dark tones. **The mid-to-late Victorian palette expanded dramatically**, deep reds, bottle greens, chocolate browns, dark blues and, for grander properties, grained finishes imitating expensive timbers. The Victorians were not afraid of colour, but their choices were always rich and saturated rather than pale or pastel.
 
 ### Edwardian Colours
 
@@ -150,9 +150,9 @@ The question homeowners most frequently ask is whether a steel door can genuinel
 
 **Raised and fielded panels** are pressed from steel sheet with precise profiles that match specific period moulding conventions. Georgian, Victorian and Edwardian panel depths and profiles can all be accurately reproduced.
 
-**Glazing bars** in steel are slimmer than timber equivalents, allowing more authentic sightlines — particularly for Edwardian designs where the original glazing bars were often remarkably delicate.
+**Glazing bars** in steel are slimmer than timber equivalents, allowing more authentic sightlines, particularly for Edwardian designs where the original glazing bars were often remarkably delicate.
 
-**Fanlights and sidelights** can be manufactured to any proportion, including the complex curved designs of Georgian and Regency entrances. Decorative glazing — leaded lights, coloured glass, etched designs — can be incorporated into the doorset.
+**Fanlights and sidelights** can be manufactured to any proportion, including the complex curved designs of Georgian and Regency entrances. Decorative glazing, leaded lights, coloured glass, etched designs, can be incorporated into the doorset.
 
 **Hardware** is sourced from specialist suppliers who manufacture period-accurate fittings. Lion head knockers, urn knockers, ring pulls, hand-forged latches and period letter plates are all available and fitted to the precise positions that period convention dictates.
 
@@ -164,7 +164,7 @@ The tension between heritage conservation and modern building performance is a f
 
 The key is working with a manufacturer who understands both the architectural heritage and the engineering. Mass-market door companies design for efficiency and standardisation. Bespoke manufacturers design for the specific property, its period, its proportions and its context.
 
-**A period property deserves a front door that was designed for that property alone — not selected from a catalogue of approximations.** This is the fundamental difference between a bespoke steel entrance door and any mass-produced alternative, regardless of material.
+**A period property deserves a front door that was designed for that property alone, not selected from a catalogue of approximations.** This is the fundamental difference between a bespoke steel entrance door and any mass-produced alternative, regardless of material.
 
 ## Frequently Asked Questions
 

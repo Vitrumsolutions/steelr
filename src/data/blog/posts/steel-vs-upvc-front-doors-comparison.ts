@@ -10,14 +10,14 @@ const post: BlogPost = {
   category: "Buying Guide",
   image: "/images/gallery/steelr-navy-contemporary-square-knocker.jpg",
   imageAlt:
-    "Navy contemporary steel entrance door with square knocker — steel vs uPVC front doors comparison",
+    "Navy contemporary steel entrance door with square knocker, steel vs uPVC front doors comparison",
   content: `## Understanding the Gap Between uPVC and Steel
 
 For much of the past three decades, **uPVC** has been the default choice for replacement front doors across the United Kingdom. It is affordable, widely available and reasonably low-maintenance. For millions of standard residential properties, uPVC has served its purpose.
 
-But an increasing number of homeowners — particularly those investing in renovations, period property restorations or new builds at the higher end of the market — are discovering that uPVC has a ceiling. There comes a point where its limitations in security, design and longevity become difficult to overlook. That is the point at which steel enters the conversation.
+But an increasing number of homeowners, particularly those investing in renovations, period property restorations or new builds at the higher end of the market, are discovering that uPVC has a ceiling. There comes a point where its limitations in security, design and longevity become difficult to overlook. That is the point at which steel enters the conversation.
 
-This guide provides an honest comparison of **steel vs uPVC front doors**, covering every factor that matters: security, design, durability, thermal performance, environmental impact and cost. The aim is not to dismiss uPVC entirely — it has its place — but to help you understand exactly what you gain when you upgrade.
+This guide provides an honest comparison of **steel vs uPVC front doors**, covering every factor that matters: security, design, durability, thermal performance, environmental impact and cost. The aim is not to dismiss uPVC entirely, it has its place, but to help you understand exactly what you gain when you upgrade.
 
 ## What Is a uPVC Front Door?
 
@@ -31,15 +31,15 @@ The material gained dominance during the 1990s replacement window and door boom,
 
 This is where the comparison between steel and uPVC is most stark, and it is the single biggest reason homeowners choose to upgrade.
 
-**uPVC doors** rely on **cylinder locks** — typically a Euro profile cylinder within a multipoint locking mechanism. The problem is well-documented: standard Euro cylinders are vulnerable to **lock snapping**, a technique that requires no specialist tools and takes under 30 seconds. While anti-snap cylinders are available, many uPVC doors are still fitted with standard cylinders, and the plastic frame itself offers limited resistance to physical attack.
+**uPVC doors** rely on **cylinder locks**, typically a Euro profile cylinder within a multipoint locking mechanism. The problem is well-documented: standard Euro cylinders are vulnerable to **lock snapping**, a technique that requires no specialist tools and takes under 30 seconds. While anti-snap cylinders are available, many uPVC doors are still fitted with standard cylinders, and the plastic frame itself offers limited resistance to physical attack.
 
-uPVC panels can be kicked through, levered apart or cut with basic tools. The material simply does not have the structural integrity to resist determined forced entry. Most uPVC doors achieve **PAS 24** certification at best — a standard that tests resistance to casual opportunistic attack, not sustained or tooled assault.
+uPVC panels can be kicked through, levered apart or cut with basic tools. The material simply does not have the structural integrity to resist determined forced entry. Most uPVC doors achieve **PAS 24** certification at best, a standard that tests resistance to casual opportunistic attack, not sustained or tooled assault.
 
 **Steel entrance doors** operate in an entirely different security category. A properly engineered steel door achieves an **SR3 security rating** under BS EN 1627:2011, which tests resistance to sustained attack using crowbars, drills, angle grinders and other professional-grade tools. The steel leaf, reinforced frame and multipoint locking system work together as an integrated security barrier.
 
-Steel doors that meet SR3 are eligible for **Secured by Design** accreditation — the official UK police security initiative. This is not a marketing label; it is a recognised standard backed by independent testing and police endorsement.
+Steel doors that meet SR3 are eligible for **Secured by Design** accreditation, the official UK police security initiative. This is not a marketing label; it is a recognised standard backed by independent testing and police endorsement.
 
-For properties in affluent areas such as [Surrey](/areas/surrey), [Kent](/areas/kent) and [Essex](/areas/essex), where burglary targeting of high-value homes is a documented concern, the security gap between uPVC and steel is not a marginal difference — it is a fundamental one.
+For properties in affluent areas such as [Surrey](/areas/surrey), [Kent](/areas/kent) and [Essex](/areas/essex), where burglary targeting of high-value homes is a documented concern, the security gap between uPVC and steel is not a marginal difference, it is a fundamental one.
 
 A steel entrance door is the single most effective physical security upgrade a homeowner can make to their property.
 
@@ -49,11 +49,11 @@ uPVC front doors are manufactured to standard templates. While the range of styl
 
 Design limitations of uPVC include:
 
-- **Restricted colour range** — typically white, black, grey, green and a handful of woodgrain effects
-- **Uniform surface texture** — smooth plastic finish that lacks depth or character
-- **Limited panel configurations** — standard mould shapes with minimal variation
-- **No bespoke sizing** — doors are manufactured to common opening dimensions
-- **Plastic hardware** — handles, letterboxes and knockers are often plastic or lightweight metal
+- **Restricted colour range**, typically white, black, grey, green and a handful of woodgrain effects
+- **Uniform surface texture**, smooth plastic finish that lacks depth or character
+- **Limited panel configurations**, standard mould shapes with minimal variation
+- **No bespoke sizing**, doors are manufactured to common opening dimensions
+- **Plastic hardware**, handles, letterboxes and knockers are often plastic or lightweight metal
 
 **Bespoke steel entrance doors** remove these limitations entirely. Every door is designed and manufactured to the exact dimensions, style and specification of the property. The full **RAL colour range** offers over 200 colours, including dual-colour specification where the exterior and interior are finished in different shades. Panel designs, glazing configurations, decorative mouldings and ironmongery are all specified individually.
 
@@ -65,17 +65,17 @@ The visual difference between a uPVC door and a bespoke steel door is immediatel
 
 **uPVC doors** have a typical lifespan of **15 to 25 years**. Over that period, several issues commonly develop:
 
-- **Discolouration** — white uPVC yellows with UV exposure; coloured uPVC fades
-- **Warping** — temperature fluctuations cause the plastic profiles to expand and contract, leading to misalignment
-- **Seal degradation** — rubber gaskets harden and crack, allowing draughts and water ingress
-- **Lock mechanism failure** — the lightweight frame and panel flex under repeated use, stressing the locking mechanism
-- **Panel cracking** — impact damage or thermal stress can cause the hollow panels to crack, particularly around glazed units
+- **Discolouration**, white uPVC yellows with UV exposure; coloured uPVC fades
+- **Warping**, temperature fluctuations cause the plastic profiles to expand and contract, leading to misalignment
+- **Seal degradation**, rubber gaskets harden and crack, allowing draughts and water ingress
+- **Lock mechanism failure**, the lightweight frame and panel flex under repeated use, stressing the locking mechanism
+- **Panel cracking**, impact damage or thermal stress can cause the hollow panels to crack, particularly around glazed units
 
-Once a uPVC door begins to deteriorate, repair options are limited. The material cannot be refinished or restored — replacement is the only solution.
+Once a uPVC door begins to deteriorate, repair options are limited. The material cannot be refinished or restored, replacement is the only solution.
 
 **Steel entrance doors** are built to last a minimum of **40 to 50 years** with proper maintenance. The steel leaf does not warp, bow, twist or deform. A multi-layer paint system provides lasting corrosion protection, and should the finish ever need refreshing, steel can be professionally recoated without replacement.
 
-Hardware components — locks, hinges, handles — are specified for longevity and can be serviced or replaced individually. The door itself remains structurally sound for the life of the building.
+Hardware components, locks, hinges, handles, are specified for longevity and can be serviced or replaced individually. The door itself remains structurally sound for the life of the building.
 
 A bespoke SteelR door is not a consumable product that requires periodic replacement. It is a permanent architectural element.
 
@@ -95,7 +95,7 @@ The environmental profile of uPVC is a growing concern for homeowners who consid
 
 **uPVC production** involves chlorine chemistry and plasticisers. While modern manufacturing has improved, the material remains difficult to recycle effectively. Most uPVC doors removed during replacement end up in landfill, where the plastic takes centuries to decompose. The industry's recycling rate, while improving, remains well below that of metals.
 
-**Steel is one of the most recycled materials on earth.** Over 85 per cent of structural steel is recycled at end of life, and recycled steel retains its full structural properties without degradation. A steel entrance door can be recycled completely when it eventually reaches the end of its service life — which, given its 40-to-50-year lifespan, is a considerably longer useful life than uPVC before any recycling question arises.
+**Steel is one of the most recycled materials on earth.** Over 85 per cent of structural steel is recycled at end of life, and recycled steel retains its full structural properties without degradation. A steel entrance door can be recycled completely when it eventually reaches the end of its service life, which, given its 40-to-50-year lifespan, is a considerably longer useful life than uPVC before any recycling question arises.
 
 For homeowners and developers with environmental commitments, the lifecycle comparison strongly favours steel.
 
@@ -114,13 +114,13 @@ If the entrance door is simply a functional closure, uPVC does that job at a pri
 
 The case for upgrading from uPVC to steel becomes compelling when any of the following apply:
 
-- **Security is a priority** — you want genuine resistance to forced entry, not just a locked door
-- **The property has architectural character** — a period home, a substantial new build or a renovation that deserves an entrance to match
-- **Long-term value matters** — you want a door that lasts decades, not one that needs replacing in 15 years
-- **Kerb appeal is important** — whether for personal satisfaction or resale value, first impressions count
-- **You are investing in the property** — if the kitchen, bathrooms and landscaping are high-specification, a uPVC front door undermines the overall impression
+- **Security is a priority**, you want genuine resistance to forced entry, not just a locked door
+- **The property has architectural character**, a period home, a substantial new build or a renovation that deserves an entrance to match
+- **Long-term value matters**, you want a door that lasts decades, not one that needs replacing in 15 years
+- **Kerb appeal is important**, whether for personal satisfaction or resale value, first impressions count
+- **You are investing in the property**, if the kitchen, bathrooms and landscaping are high-specification, a uPVC front door undermines the overall impression
 
-For homeowners in these categories, the cost difference between uPVC and steel is not an expense — it is an investment in security, quality and lasting value.
+For homeowners in these categories, the cost difference between uPVC and steel is not an expense, it is an investment in security, quality and lasting value.
 
 ## Cost Comparison and Value Proposition
 
@@ -156,7 +156,7 @@ Modern steel entrance doors are protected by a multi-layer paint system that pre
 
 ### Can a steel door match the low maintenance of uPVC?
 
-Steel doors require minimal maintenance — periodic cleaning and occasional lubrication of hardware. Unlike uPVC, steel does not yellow, warp or develop seal failures, so the maintenance requirement is comparable and the results are far more consistent over time.
+Steel doors require minimal maintenance, periodic cleaning and occasional lubrication of hardware. Unlike uPVC, steel does not yellow, warp or develop seal failures, so the maintenance requirement is comparable and the results are far more consistent over time.
 
 ### Will a steel door improve my property value?
 

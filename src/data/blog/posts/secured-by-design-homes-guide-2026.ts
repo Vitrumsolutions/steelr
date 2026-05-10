@@ -10,12 +10,12 @@ const post: BlogPost = {
   category: "Security",
   image: "/images/gallery/steelr-black-traditional-ring-knocker-open.jpg",
   imageAlt:
-    "Black traditional steel entrance door with ring knocker open — Secured by Design homes guide 2026",
+    "Black traditional steel entrance door with ring knocker open, Secured by Design homes guide 2026",
   content: `## What Is Secured by Design and Why Does It Matter in 2026
 
 Secured by Design (SBD) is the official police security initiative owned by Police Crime Prevention Initiatives Ltd, a police-owned organisation that works across the UK to reduce crime through environmental design, product certification and development planning.
 
-It is not a marketing scheme. It is not a voluntary quality mark. **Secured by Design is the only security accreditation in the UK backed by active police involvement, evidence-based crime data and formal recognition within the planning system.** In 2026, with burglary patterns evolving and building regulations tightening, understanding SBD is more relevant than ever — whether you are a developer delivering new homes or a homeowner upgrading an existing property.
+It is not a marketing scheme. It is not a voluntary quality mark. **Secured by Design is the only security accreditation in the UK backed by active police involvement, evidence-based crime data and formal recognition within the planning system.** In 2026, with burglary patterns evolving and building regulations tightening, understanding SBD is more relevant than ever, whether you are a developer delivering new homes or a homeowner upgrading an existing property.
 
 ## The Updated SBD Standards for 2026
 
@@ -23,7 +23,7 @@ Secured by Design updates its standards periodically to reflect emerging crime p
 
 ### SBD Homes 2026
 
-The flagship standard for residential developments — **SBD Homes 2026** — covers the full scope of physical security measures for new dwellings. It specifies requirements for entrance doors, windows, garage doors, perimeter treatments, lighting, mail delivery, cycle storage, communal access and utility areas.
+The flagship standard for residential developments, **SBD Homes 2026**, covers the full scope of physical security measures for new dwellings. It specifies requirements for entrance doors, windows, garage doors, perimeter treatments, lighting, mail delivery, cycle storage, communal access and utility areas.
 
 For entrance doors specifically, SBD Homes 2026 requires:
 
@@ -33,11 +33,11 @@ For entrance doors specifically, SBD Homes 2026 requires:
 - Door viewers or alternative visitor identification systems
 - Letter plates that resist fishing and lock manipulation attacks
 
-These are minimum requirements. SBD does not prevent specifiers from exceeding them. Doors achieving **SR3 certification** — the highest physical security rating for residential entrance doors — surpass every SBD requirement by a significant margin. For a technical comparison of PAS 24 and SR3, see our [security specification](/security-specification) page.
+These are minimum requirements. SBD does not prevent specifiers from exceeding them. Doors achieving **SR3 certification**, the highest physical security rating for residential entrance doors, surpass every SBD requirement by a significant margin. For a technical comparison of PAS 24 and SR3, see our [security specification](/security-specification) page.
 
 ### SBD Commercial 2026
 
-For mixed-use developments that include commercial units at ground floor with residential above, SBD Commercial 2026 sets additional requirements for the interface between commercial and residential zones — a critical vulnerability in many urban developments.
+For mixed-use developments that include commercial units at ground floor with residential above, SBD Commercial 2026 sets additional requirements for the interface between commercial and residential zones, a critical vulnerability in many urban developments.
 
 ## SBD for New Developments: Planning Benefits
 
@@ -47,7 +47,7 @@ For property developers, Secured by Design is not merely a security standard. It
 
 The Crime and Disorder Act 1998 places a statutory obligation on local authorities to consider the prevention of crime and disorder in all their functions. **Section 17 means that planning authorities must actively consider crime prevention when assessing development applications.** This gives Secured by Design direct relevance in the planning process.
 
-A development designed to SBD standards provides evidence that the applicant has addressed crime prevention at the design stage. Planning officers can — and increasingly do — reference SBD in their assessments, conditions and section 106 agreements.
+A development designed to SBD standards provides evidence that the applicant has addressed crime prevention at the design stage. Planning officers can, and increasingly do, reference SBD in their assessments, conditions and section 106 agreements.
 
 ### Designing Out Crime Officers
 
@@ -68,7 +68,7 @@ The most frequently cited SBD statistic is also the most compelling. **Independe
 
 This is not a marginal improvement. It represents a fundamentally different level of security performance, achieved through the combination of physical product standards, environmental design and coherent site-wide security thinking.
 
-The reduction is not limited to burglary. SBD developments also show significant reductions in vehicle crime, criminal damage and antisocial behaviour. The underlying principle — that thoughtful design makes crime more difficult and less rewarding — applies across crime categories.
+The reduction is not limited to burglary. SBD developments also show significant reductions in vehicle crime, criminal damage and antisocial behaviour. The underlying principle, that thoughtful design makes crime more difficult and less rewarding, applies across crime categories.
 
 ## SBD for Homeowners: Retrofitting
 
@@ -78,15 +78,15 @@ Secured by Design is not exclusively for new developments. Individual homeowners
 
 SBD certification covers a comprehensive range of building products. While entrance doors are the most visible element, the accreditation extends across the full building envelope:
 
-**Doors** — the most impactful upgrade. An SBD-accredited entrance door has been tested and certified as a complete doorset, including the door leaf, frame, locking system, hinges and hardware. SteelR entrance doors achieve SBD accreditation through a combination of SR3-rated steel construction, multi-point locking, anti-snap cylinders and reinforced frame assemblies. Browse [our collection](/collection) for examples.
+**Doors**, the most impactful upgrade. An SBD-accredited entrance door has been tested and certified as a complete doorset, including the door leaf, frame, locking system, hinges and hardware. SteelR entrance doors achieve SBD accreditation through a combination of SR3-rated steel construction, multi-point locking, anti-snap cylinders and reinforced frame assemblies. Browse [our collection](/collection) for examples.
 
-**Windows** — SBD-accredited windows meet PAS 24 for resistance to forced entry and incorporate locking handles, toughened or laminated glass in accessible positions, and restricted opening mechanisms where appropriate.
+**Windows**, SBD-accredited windows meet PAS 24 for resistance to forced entry and incorporate locking handles, toughened or laminated glass in accessible positions, and restricted opening mechanisms where appropriate.
 
-**Locks** — SBD-accredited locks go beyond standard BS 3621 requirements. Cylinders must meet TS007 three-star rating, and lock assemblies are tested as part of the complete doorset rather than in isolation.
+**Locks**, SBD-accredited locks go beyond standard BS 3621 requirements. Cylinders must meet TS007 three-star rating, and lock assemblies are tested as part of the complete doorset rather than in isolation.
 
-**Lighting** — SBD recommends dusk-to-dawn lighting at all entrance points, avoiding movement-activated lights (which can be triggered deliberately to cause nuisance and subsequent deactivation by the homeowner). Consistent, low-level lighting at entrances is more effective as a deterrent.
+**Lighting**, SBD recommends dusk-to-dawn lighting at all entrance points, avoiding movement-activated lights (which can be triggered deliberately to cause nuisance and subsequent deactivation by the homeowner). Consistent, low-level lighting at entrances is more effective as a deterrent.
 
-**Fencing and gates** — perimeter treatments are specified to balance natural surveillance (not creating hiding places) with defensible space (clearly marking the boundary between public and private territory).
+**Fencing and gates**, perimeter treatments are specified to balance natural surveillance (not creating hiding places) with defensible space (clearly marking the boundary between public and private territory).
 
 ### What SBD Certification Means in Practice
 
@@ -96,13 +96,13 @@ When a product carries the SBD accreditation mark, it means:
 - The manufacturer has been **audited** and approved by SBD
 - The product meets or exceeds the **current SBD standard** for its category
 - The product is listed on the **SBD member company database**, which can be verified publicly
-- The certification is subject to **ongoing compliance** — manufacturers must maintain standards to retain accreditation
+- The certification is subject to **ongoing compliance**, manufacturers must maintain standards to retain accreditation
 
 This is a meaningfully different proposition from self-declared security claims or "designed to" PAS 24 assertions that have no independent verification.
 
 ## Police Involvement in the Scheme
 
-One of the most distinctive aspects of Secured by Design is the direct involvement of serving police officers. SBD is not a commercial enterprise — it is owned and operated by a police organisation, and its standards are informed by operational policing intelligence.
+One of the most distinctive aspects of Secured by Design is the direct involvement of serving police officers. SBD is not a commercial enterprise, it is owned and operated by a police organisation, and its standards are informed by operational policing intelligence.
 
 **Designing Out Crime Officers are serving police officers** with specialist training in crime prevention through environmental design (CPTED). Their advice is based on actual crime patterns, not theoretical risk assessments. When a DOCO reviews a development layout and recommends changes to entrance positions, lighting arrangements or access control, those recommendations are informed by direct knowledge of how burglars operate in that specific area.
 
@@ -114,7 +114,7 @@ For developers considering SBD accreditation for new residential projects, the b
 
 ### Marketing Advantage
 
-Properties marketed as Secured by Design carry a recognisable quality mark that resonates with security-conscious buyers. In premium market segments — particularly in urban areas where burglary risk is a genuine concern for purchasers — **SBD accreditation is a differentiator that justifies premium positioning**.
+Properties marketed as Secured by Design carry a recognisable quality mark that resonates with security-conscious buyers. In premium market segments, particularly in urban areas where burglary risk is a genuine concern for purchasers, **SBD accreditation is a differentiator that justifies premium positioning**.
 
 New developments across [London](/areas/london) boroughs, [Manchester](/areas/manchester) and [Birmingham](/areas/birmingham) increasingly use SBD accreditation as a selling point, particularly for apartments and gated communities where communal security is a primary purchaser consideration.
 
@@ -156,17 +156,17 @@ The practical significance is that a single doorset can satisfy Document Q (secu
 
 For developers and architects, specifying Secured by Design products follows a clear process:
 
-1. **Register with SBD** — the Secured by Design website maintains a searchable database of accredited member companies and products
-2. **Consult your local DOCO** — free pre-application advice on achieving SBD for the development as a whole
-3. **Specify by accreditation** — reference SBD accreditation numbers in tender documentation to ensure that only genuinely certified products are quoted
-4. **Verify at installation** — confirm that delivered products match the specified SBD-accredited items and that installation meets the manufacturer's certified methodology
-5. **Apply for certification** — once the development is complete, apply for SBD development certification through the local police force
+1. **Register with SBD**, the Secured by Design website maintains a searchable database of accredited member companies and products
+2. **Consult your local DOCO**, free pre-application advice on achieving SBD for the development as a whole
+3. **Specify by accreditation**, reference SBD accreditation numbers in tender documentation to ensure that only genuinely certified products are quoted
+4. **Verify at installation**, confirm that delivered products match the specified SBD-accredited items and that installation meets the manufacturer's certified methodology
+5. **Apply for certification**, once the development is complete, apply for SBD development certification through the local police force
 
 For entrance door specification specifically, our [security overview](/security) page details the full range of certifications that SteelR doors carry, including SBD, SR3, PAS 24, ISO 9001 and fire ratings where applicable.
 
 ## The Cost of Not Specifying SBD
 
-The financial case for SBD is asymmetric. The incremental cost of specifying SBD-accredited products over minimum-standard alternatives is modest — typically a small percentage of the total build cost for a residential development. The cost of not specifying SBD is potentially far greater:
+The financial case for SBD is asymmetric. The incremental cost of specifying SBD-accredited products over minimum-standard alternatives is modest, typically a small percentage of the total build cost for a residential development. The cost of not specifying SBD is potentially far greater:
 
 - **Higher insurance premiums** for the development and individual units
 - **Increased crime** with associated management costs and reputational damage
@@ -184,7 +184,7 @@ Not universally, but increasingly in practice. Approved Document Q mandates PAS 
 
 ### Can I get Secured by Design accreditation for my existing home?
 
-Individual homes cannot receive full SBD development accreditation (which assesses site layout, lighting and environmental design as well as products). However, you can install SBD-accredited products — doors, windows, locks and lighting — to achieve the product-level security standards that SBD specifies. This provides the same physical security benefits and is recognised by insurers.
+Individual homes cannot receive full SBD development accreditation (which assesses site layout, lighting and environmental design as well as products). However, you can install SBD-accredited products, doors, windows, locks and lighting, to achieve the product-level security standards that SBD specifies. This provides the same physical security benefits and is recognised by insurers.
 
 ### How does Secured by Design differ from PAS 24?
 

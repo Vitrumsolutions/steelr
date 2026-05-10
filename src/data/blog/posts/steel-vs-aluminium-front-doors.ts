@@ -10,7 +10,7 @@ const post: BlogPost = {
   category: "Buying Guide",
   image: "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg",
   imageAlt:
-    "Charcoal contemporary steel double entrance doors with horizontal detailing — steel vs aluminium comparison",
+    "Charcoal contemporary steel double entrance doors with horizontal detailing, steel vs aluminium comparison",
   content: `## Two Premium Materials, One Important Decision
 
 When homeowners move beyond timber and composite and start looking at premium entrance door materials, the choice usually comes down to two options: **steel** and **aluminium**. Both are metals, both are used in high-end residential doors, and both outperform timber and composite in several key areas.
@@ -25,11 +25,11 @@ This is the area where the difference between steel and aluminium is most signif
 
 **Aluminium doors** are typically tested to **PAS 24** or, at best, **SR2 (RC2)**. Aluminium is a softer, less dense metal than steel, which means it deforms more easily under concentrated force. Achieving SR3 with aluminium requires significantly thicker profiles and additional reinforcement, which most residential aluminium door manufacturers do not offer.
 
-For homeowners in high-value properties — whether in [Buckinghamshire](/areas/buckinghamshire) or [Kent](/areas/kent) — the security difference is a primary consideration.
+For homeowners in high-value properties, whether in [Buckinghamshire](/areas/buckinghamshire) or [Kent](/areas/kent), the security difference is a primary consideration.
 
 ## Thermal Performance: Both Perform Well
 
-Modern steel and aluminium doors both use **thermal break technology** to prevent cold bridging through the metal frame. The thermal break — typically a polyamide or polyurethane barrier — separates the inner and outer metal skins and provides insulation.
+Modern steel and aluminium doors both use **thermal break technology** to prevent cold bridging through the metal frame. The thermal break, typically a polyamide or polyurethane barrier, separates the inner and outer metal skins and provides insulation.
 
 **Steel doors** with an insulated core achieve U-values typically from **1.5 W/m2K** for a solid panel door, with thermal-upgrade specifications achieving as low as **0.8 W/m2K**. **Aluminium doors** with a similar thermal break system achieve comparable U-values, typically in the range of **1.0 to 1.4 W/m2K**.
 
@@ -41,7 +41,7 @@ The key differentiator is **long-term consistency**. A steel door's thermal perf
 
 This is aluminium's clearest advantage. Aluminium is approximately **one-third the weight of steel**, which means aluminium doors are lighter to handle, easier to operate and place less stress on hinges and frames.
 
-For very large door configurations — double doors with full-height sidelights, for example — the weight difference can be meaningful. Heavy steel doors require **robust, heavy-duty hinges** and careful engineering to ensure smooth, long-term operation. A reputable manufacturer will spec these correctly, but it is a factor to be aware of.
+For very large door configurations, double doors with full-height sidelights, for example, the weight difference can be meaningful. Heavy steel doors require **robust, heavy-duty hinges** and careful engineering to ensure smooth, long-term operation. A reputable manufacturer will spec these correctly, but it is a factor to be aware of.
 
 That said, the weight of a steel door is also one of its strengths. The solid, substantial feel of a steel entrance door when you open and close it conveys quality and security in a way that a lighter aluminium door cannot replicate. Many homeowners consider this tactile quality an important part of the premium experience.
 
@@ -50,16 +50,16 @@ That said, the weight of a steel door is also one of its strengths. The solid, s
 Both steel and aluminium can be manufactured to bespoke designs, but the range of achievable aesthetics differs slightly.
 
 **Steel doors** excel at:
-- **Traditional and period designs** — Georgian panels, Victorian mouldings and ornate detailing are easier to achieve in steel
-- **Decorative hardware** — lion knockers, ring knockers and traditional ironmongery complement steel's substantial character
-- **Bold, flat panel designs** — steel holds a flat plane exceptionally well, creating crisp, architectural surfaces
-- **Any RAL colour** — over 200 options with dual-colour specification
+- **Traditional and period designs**, Georgian panels, Victorian mouldings and ornate detailing are easier to achieve in steel
+- **Decorative hardware**, lion knockers, ring knockers and traditional ironmongery complement steel's substantial character
+- **Bold, flat panel designs**, steel holds a flat plane exceptionally well, creating crisp, architectural surfaces
+- **Any RAL colour**, over 200 options with dual-colour specification
 
 **Aluminium doors** excel at:
-- **Ultra-slim sightlines** — aluminium's strength-to-weight ratio allows thinner frame profiles, maximising glass area
-- **Contemporary minimalist design** — clean lines and slim profiles suit modern architectural language
-- **Anodised finishes** — aluminium can be anodised to create a distinctive metallic finish that is not available with steel
-- **Very large glazed openings** — the lighter weight makes floor-to-ceiling glazed entrances more practical
+- **Ultra-slim sightlines**, aluminium's strength-to-weight ratio allows thinner frame profiles, maximising glass area
+- **Contemporary minimalist design**, clean lines and slim profiles suit modern architectural language
+- **Anodised finishes**, aluminium can be anodised to create a distinctive metallic finish that is not available with steel
+- **Very large glazed openings**, the lighter weight makes floor-to-ceiling glazed entrances more practical
 
 If your aesthetic leans traditional or you want a door with substantial panel detailing and period hardware, steel is the natural choice. If you want an ultra-contemporary door with maximum glass and minimal frame, aluminium may have the edge.
 
@@ -86,7 +86,7 @@ When comparing like for like on security specification, a steel door offers more
 
 **Aluminium** has a natural advantage in corrosion resistance. Its oxide layer forms spontaneously and protects the surface without additional treatment. This makes aluminium a strong choice for **coastal properties** where salt spray is a constant concern.
 
-**Steel** requires a protective paint system to prevent corrosion. Modern multi-layer coatings are extremely effective — a well-finished steel door will not corrode under normal conditions — but in highly exposed coastal locations, aluminium may have a practical advantage.
+**Steel** requires a protective paint system to prevent corrosion. Modern multi-layer coatings are extremely effective, a well-finished steel door will not corrode under normal conditions, but in highly exposed coastal locations, aluminium may have a practical advantage.
 
 For the vast majority of UK properties, including those in [London](/areas/london), the Home Counties and inland locations, corrosion is not a meaningful concern for either material when properly finished.
 

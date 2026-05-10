@@ -160,6 +160,41 @@ export default function ArchitectsPage() {
             ],
           },
           {
+            pretitle: "Specifier pack on request",
+            title: "What you receive when you make contact, and who to ask",
+            body: (
+              <>
+                Specifier support is run as a project-led service rather
+                than a self-serve download library. A typical first contact
+                from an architect goes to the SteelR design team within one
+                working day and produces a project-tailored specifier pack
+                back to you, typically within five working days. The
+                cadence is confirmed on the first call to match your stage
+                deadlines. Nothing is gated behind a download form.
+              </>
+            ),
+            body2: (
+              <>
+                Direct technical line: Mani Sandhu, Founder and Director,
+                handles specification enquiries personally for architect-led
+                projects. The named project lead carries through from first
+                contact to handover with no rotation. Specifier-pack
+                contents and their timing on a typical project run are set
+                out below. Bespoke deliverables (NBS clauses against your
+                practice template, BIM federation files in the format your
+                model uses, project-specific Declarations of Performance)
+                are produced against the brief, not pulled from a generic
+                archive.
+              </>
+            ),
+            list: [
+              "Day 1. Enquiry acknowledged. Named project lead assigned. Brief and stage deadlines captured",
+              "Day 2 to 3. NBS clauses drafted against your specification template. BIM data scoped to required level",
+              "Day 3 to 5. Project-tailored specifier pack emailed: NBS clauses, BIM Level 2 data, certification PDFs, Declarations of Performance, U-value and acoustic test data",
+              "Day 5 onwards. Sample finishes, hardware samples, on-site survey or design-team call booked on request, no charge at this stage",
+            ],
+          },
+          {
             pretitle: "Performance specification",
             title: "Test data architects can drop straight into the spec",
             body: (

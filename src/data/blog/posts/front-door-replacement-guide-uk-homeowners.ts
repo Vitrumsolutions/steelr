@@ -10,12 +10,12 @@ const post: BlogPost = {
   category: "Guides",
   image: "/images/gallery/steelr-walnut-ribbed-columns.jpg",
   imageAlt:
-    "Walnut-finish steel entrance door with ribbed panels between classical columns — front door replacement",
+    "Walnut-finish steel entrance door with ribbed panels between classical columns, front door replacement",
   content: `## When Should You Replace Your Front Door?
 
 A front door is not a component that fails dramatically and without warning. It degrades gradually, and many homeowners grow accustomed to problems they should not be tolerating. Recognising the signs early means avoiding the security risks, energy losses and aesthetic decline that an ageing door imposes on your property.
 
-The average front door in the UK is replaced every 20 to 30 years, though many are left in place far longer than they should be. The decision to replace is driven by a combination of functional, security and aesthetic factors — and understanding each of these helps you time the investment correctly.
+The average front door in the UK is replaced every 20 to 30 years, though many are left in place far longer than they should be. The decision to replace is driven by a combination of functional, security and aesthetic factors, and understanding each of these helps you time the investment correctly.
 
 ### Visible Signs of Wear
 
@@ -39,19 +39,19 @@ A front door that requires regular maintenance to remain functional has already 
 
 Replacing a front door in England and Wales is subject to **Building Regulations**, specifically Approved Document Q (security) and Approved Document L (thermal performance). Understanding these requirements before you begin ensures your new door is compliant from day one.
 
-### Approved Document Q — Security
+### Approved Document Q: Security
 
-Since 2015, Approved Document Q has required all replacement doors in dwellings to meet **PAS 24** or an equivalent security standard. This applies to the complete doorset — leaf, frame, hardware and locking mechanism tested as an integrated unit. A door that achieves PAS 24 is considered to satisfy the regulatory requirement, though homeowners seeking genuine security should look well beyond this minimum threshold.
+Since 2015, Approved Document Q has required all replacement doors in dwellings to meet **PAS 24** or an equivalent security standard. This applies to the complete doorset, leaf, frame, hardware and locking mechanism tested as an integrated unit. A door that achieves PAS 24 is considered to satisfy the regulatory requirement, though homeowners seeking genuine security should look well beyond this minimum threshold.
 
 Every SteelR entrance door is BS EN 1627:2011 RC4 certified as Standard (with the **LPS 1175 SR3 Enhanced upgrade** available) and carries **Secured by Design** accreditation, exceeding Building Regulations requirements by a significant margin.
 
-### Approved Document L — Thermal Performance
+### Approved Document L: Thermal Performance
 
 Replacement doors must achieve a maximum **U-value of 1.8 W/m2K** for the complete doorset. This thermal performance requirement ensures that new doors contribute to the energy efficiency of the dwelling. Premium steel doors with insulated cores and thermal break frames comfortably exceed this standard.
 
 ### Compliance and Certification
 
-When your door is installed by a **FENSA-registered** or **Certass-registered** installer, the installation is self-certified and automatically notified to your local authority's Building Control department. If your installer is not registered with a competent persons scheme, you will need to apply for Building Control approval separately — which adds cost and time to the project.
+When your door is installed by a **FENSA-registered** or **Certass-registered** installer, the installation is self-certified and automatically notified to your local authority's Building Control department. If your installer is not registered with a competent persons scheme, you will need to apply for Building Control approval separately, which adds cost and time to the project.
 
 Always ensure your installer provides a **FENSA certificate** or equivalent upon completion. This document is required when you sell the property.
 
@@ -61,13 +61,13 @@ In the majority of cases, replacing a front door falls under **permitted develop
 
 ### Conservation Areas
 
-If your property is within a **conservation area**, the local planning authority may have imposed restrictions on changes to the external appearance of buildings. This can include the style, colour and material of your front door. In practice, a sympathetic replacement in a similar style to the existing door is rarely challenged, but a significant change — such as replacing a traditional panelled door with a contemporary design — may require consent.
+If your property is within a **conservation area**, the local planning authority may have imposed restrictions on changes to the external appearance of buildings. This can include the style, colour and material of your front door. In practice, a sympathetic replacement in a similar style to the existing door is rarely challenged, but a significant change, such as replacing a traditional panelled door with a contemporary design, may require consent.
 
 Properties across [Surrey](/areas/surrey), [Buckinghamshire](/areas/buckinghamshire) and many parts of [London](/areas/london) are particularly likely to fall within conservation areas.
 
 ### Listed Buildings
 
-**Grade I, Grade II* and Grade II listed buildings** require listed building consent for any alteration to the external fabric, including door replacement. The approval process involves demonstrating that the replacement is sympathetic to the building's character and significance. This does not preclude modern materials — a bespoke steel door designed to complement the period aesthetic can satisfy heritage requirements — but early engagement with your conservation officer is essential.
+**Grade I, Grade II* and Grade II listed buildings** require listed building consent for any alteration to the external fabric, including door replacement. The approval process involves demonstrating that the replacement is sympathetic to the building's character and significance. This does not preclude modern materials, a bespoke steel door designed to complement the period aesthetic can satisfy heritage requirements, but early engagement with your conservation officer is essential.
 
 ### Article 4 Directions
 
@@ -83,7 +83,7 @@ The most affordable option and the most widely installed across UK housing stock
 
 ### Timber
 
-Solid hardwood doors in oak, iroko or sapele offer warmth and character that suits period properties. However, timber demands **regular maintenance** — sanding, repainting or oiling every two to five years — and is vulnerable to moisture, warping and rot. The security performance of timber is moderate at best, with the wood around lock keeps being the primary failure point.
+Solid hardwood doors in oak, iroko or sapele offer warmth and character that suits period properties. However, timber demands **regular maintenance**, sanding, repainting or oiling every two to five years, and is vulnerable to moisture, warping and rot. The security performance of timber is moderate at best, with the wood around lock keeps being the primary failure point.
 
 ### Composite
 
@@ -99,15 +99,15 @@ Premium aluminium doors offer clean contemporary aesthetics and strong security 
 
 ## The Survey and Measurement Process
 
-Accurate measurement is the foundation of a successful door replacement. This is not a task for approximation — bespoke doors are manufactured to precise dimensions based on a detailed site survey.
+Accurate measurement is the foundation of a successful door replacement. This is not a task for approximation, bespoke doors are manufactured to precise dimensions based on a detailed site survey.
 
 ### What the Survey Involves
 
-A surveyor will visit your property to measure the structural opening, assess the condition of the surrounding brickwork or stonework, check for any level discrepancies in the threshold and identify any constraints such as service runs, drainage or adjacent features. For bespoke steel doors, the survey also captures the architectural context of the entrance — proportions, sightlines and relationship to the facade — to inform the design.
+A surveyor will visit your property to measure the structural opening, assess the condition of the surrounding brickwork or stonework, check for any level discrepancies in the threshold and identify any constraints such as service runs, drainage or adjacent features. For bespoke steel doors, the survey also captures the architectural context of the entrance, proportions, sightlines and relationship to the facade, to inform the design.
 
 ### Why Standard Sizes Rarely Work
 
-UK door openings vary considerably, particularly in older properties. Standard door sizes (typically 2040mm x 820mm for a single leaf) frequently do not match the structural opening, leading to packing, trimming and compromise. **Bespoke manufacturing** eliminates this problem entirely — the door is made to fit the opening, not the other way around.
+UK door openings vary considerably, particularly in older properties. Standard door sizes (typically 2040mm x 820mm for a single leaf) frequently do not match the structural opening, leading to packing, trimming and compromise. **Bespoke manufacturing** eliminates this problem entirely, the door is made to fit the opening, not the other way around.
 
 To begin the process for your property, [request an estimate](/design-estimate) and we will arrange a detailed site survey at a time that suits you.
 
@@ -117,7 +117,7 @@ Understanding the installation process helps set realistic expectations and ensu
 
 ### Removal of the Existing Door
 
-The old door, frame and any associated trim are carefully removed. In older properties, this may reveal issues with the structural opening — deteriorated lintels, damp brickwork or previous modifications — that need to be addressed before the new door can be fitted.
+The old door, frame and any associated trim are carefully removed. In older properties, this may reveal issues with the structural opening, deteriorated lintels, damp brickwork or previous modifications, that need to be addressed before the new door can be fitted.
 
 ### Preparation of the Opening
 
@@ -125,7 +125,7 @@ The structural opening is cleaned, squared and prepared to receive the new frame
 
 ### Frame Installation
 
-The frame is positioned in the opening and fixed into the surrounding masonry using **heavy-gauge mechanical fixings** — typically chemical anchors or through-bolts. The frame is levelled, plumbed and squared with precision, as even minor deviations will affect the operation of the door over time.
+The frame is positioned in the opening and fixed into the surrounding masonry using **heavy-gauge mechanical fixings**, typically chemical anchors or through-bolts. The frame is levelled, plumbed and squared with precision, as even minor deviations will affect the operation of the door over time.
 
 ### Door Hanging and Hardware
 
@@ -133,7 +133,7 @@ The door leaf is hung on its hinges and the locking mechanism, handles and any a
 
 ### Sealing and Finishing
 
-The perimeter gap between frame and masonry is sealed with expanding foam and finished with appropriate trim or mastic. Compression seals are checked for correct engagement around the full perimeter. Any external finishing — such as silicone pointing or render patching — is completed.
+The perimeter gap between frame and masonry is sealed with expanding foam and finished with appropriate trim or mastic. Compression seals are checked for correct engagement around the full perimeter. Any external finishing, such as silicone pointing or render patching, is completed.
 
 Learn more about each stage of the journey from design to installation on [our process](/process) page.
 
@@ -155,7 +155,7 @@ A bespoke steel entrance door involves a longer lead time to accommodate design 
 - **Finishing and quality inspection:** 1-2 weeks
 - **Installation:** 1 day
 
-The installation itself — removing the old door and fitting the new one — is typically completed within a **single day**. Our installation teams work efficiently to minimise disruption, and your property is fully secured before the team leaves site.
+The installation itself, removing the old door and fitting the new one, is typically completed within a **single day**. Our installation teams work efficiently to minimise disruption, and your property is fully secured before the team leaves site.
 
 ## What to Expect on Installation Day
 
@@ -163,7 +163,7 @@ Preparation makes installation day straightforward. Here is what to expect and h
 
 ### Before the Team Arrives
 
-Clear the area immediately inside and outside the front entrance. Move furniture, coat racks, shoe storage and any fragile items away from the doorway. Lay down dust sheets if you prefer — though our teams will protect your flooring as a matter of course.
+Clear the area immediately inside and outside the front entrance. Move furniture, coat racks, shoe storage and any fragile items away from the doorway. Lay down dust sheets if you prefer, though our teams will protect your flooring as a matter of course.
 
 ### During Installation
 
@@ -181,7 +181,7 @@ One of the significant advantages of a steel entrance door is the minimal mainte
 
 ### Routine Care
 
-Clean the door surface periodically with warm soapy water and a soft cloth. Avoid abrasive cleaners or solvents. The powder-coated finish — available in the **full RAL colour range** — is highly durable and resistant to UV fading, but benefits from occasional cleaning to maintain its appearance.
+Clean the door surface periodically with warm soapy water and a soft cloth. Avoid abrasive cleaners or solvents. The powder-coated finish, available in the **full RAL colour range**, is highly durable and resistant to UV fading, but benefits from occasional cleaning to maintain its appearance.
 
 ### Lock and Hardware Maintenance
 
@@ -207,11 +207,11 @@ In most cases, no. Front door replacement falls under permitted development righ
 
 ### What is the best material for a replacement front door?
 
-The best material depends on your priorities. For maximum security, longevity and minimal maintenance, bespoke steel is the leading choice — achieving SR3 certification and Secured by Design accreditation. For period properties where timber character is essential, hardwood remains popular. Composite offers a mid-range balance of performance and cost.
+The best material depends on your priorities. For maximum security, longevity and minimal maintenance, bespoke steel is the leading choice, achieving SR3 certification and Secured by Design accreditation. For period properties where timber character is essential, hardwood remains popular. Composite offers a mid-range balance of performance and cost.
 
 ### How much does it cost to replace a front door in the UK?
 
-Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification — material, security rating, glazing, hardware and finishing. For a full breakdown of what drives the price up or down, see our [steel front door cost UK](/steel-front-door-cost-uk) guide. For accurate pricing tailored to your requirements, [request an estimate](/design-estimate).
+Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification, material, security rating, glazing, hardware and finishing. For a full breakdown of what drives the price up or down, see our [steel front door cost UK](/steel-front-door-cost-uk) guide. For accurate pricing tailored to your requirements, [request an estimate](/design-estimate).
 
 ### What happens to my old front door during replacement?
 

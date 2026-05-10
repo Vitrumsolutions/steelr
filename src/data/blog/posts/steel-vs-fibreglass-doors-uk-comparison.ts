@@ -10,22 +10,22 @@ const post: BlogPost = {
   category: "Buying Guide",
   image: "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
   imageAlt:
-    "Taupe panelled steel entrance door with chrome hardware and dual sidelights — premium steel door alternative to fibreglass",
+    "Taupe panelled steel entrance door with chrome hardware and dual sidelights, premium steel door alternative to fibreglass",
   content: `## Two Materials, Two Very Different Doors
 
 When homeowners begin researching premium entrance doors, steel and fibreglass (GRP) consistently appear as the two main alternatives to timber. Both are marketed as low-maintenance, secure and thermally efficient. Both are presented as modern improvements over traditional wooden doors.
 
-But the similarities are largely superficial. Steel and fibreglass doors are fundamentally different products — in their construction, their performance under test conditions, their design possibilities and their long-term behaviour. This comparison sets out the facts clearly so you can make an informed decision based on what actually matters for your property.
+But the similarities are largely superficial. Steel and fibreglass doors are fundamentally different products, in their construction, their performance under test conditions, their design possibilities and their long-term behaviour. This comparison sets out the facts clearly so you can make an informed decision based on what actually matters for your property.
 
 Fibreglass doors dominate the mid-market in the UK. Steel doors occupy the premium segment. Understanding why requires examining each material on its merits.
 
 ## What Fibreglass (GRP) Doors Actually Are
 
-Fibreglass entrance doors — technically **glass-reinforced plastic (GRP)** doors — consist of a moulded GRP skin bonded to a core of polyurethane foam or, in some cases, a combination of foam and timber sub-frames. The GRP skin is moulded from a master pattern, which is why fibreglass doors can convincingly replicate the grain and panel detail of timber.
+Fibreglass entrance doors, technically **glass-reinforced plastic (GRP)** doors, consist of a moulded GRP skin bonded to a core of polyurethane foam or, in some cases, a combination of foam and timber sub-frames. The GRP skin is moulded from a master pattern, which is why fibreglass doors can convincingly replicate the grain and panel detail of timber.
 
 The manufacturing process is essentially industrial moulding. A factory produces skins from a set number of moulds, fills them with insulating foam, fits a pre-hung frame and pre-machines the lock pockets. This standardised production is what makes fibreglass doors relatively affordable and widely available.
 
-The key point is that fibreglass doors are **mould-constrained**. The styles available are limited to the moulds the manufacturer has invested in. Adding a new design means creating a new mould — an expensive tooling exercise that manufacturers only undertake for styles with proven mass-market demand.
+The key point is that fibreglass doors are **mould-constrained**. The styles available are limited to the moulds the manufacturer has invested in. Adding a new design means creating a new mould, an expensive tooling exercise that manufacturers only undertake for styles with proven mass-market demand.
 
 ## Security: A Measurable Difference
 
@@ -47,7 +47,7 @@ Steel doors provide security performance that is measurably and significantly su
 
 ## Durability and Weathering
 
-The UK climate subjects entrance doors to rain, wind, UV radiation, frost cycles and temperature swings — sometimes within a single week. How a door material responds to these conditions over decades determines its real-world durability.
+The UK climate subjects entrance doors to rain, wind, UV radiation, frost cycles and temperature swings, sometimes within a single week. How a door material responds to these conditions over decades determines its real-world durability.
 
 ### Steel
 
@@ -67,13 +67,13 @@ For homeowners and architects who care about the entrance making a specific desi
 
 ### Steel
 
-Because steel doors are fabricated rather than moulded, the design possibilities are effectively unlimited. You can specify **any RAL colour** from the full range of over 200 options. Dual-colour finishes — a different colour inside and outside — are standard. Panel configurations, glazing positions, decorative ironmongery, handle styles and knocker designs are all specified to the individual order.
+Because steel doors are fabricated rather than moulded, the design possibilities are effectively unlimited. You can specify **any RAL colour** from the full range of over 200 options. Dual-colour finishes, a different colour inside and outside, are standard. Panel configurations, glazing positions, decorative ironmongery, handle styles and knocker designs are all specified to the individual order.
 
 There are no standard sizes. Each door is manufactured to the precise dimensions of your opening, whether that is a standard single leaf, a double door, a door with sidelights or an arched configuration. Explore [the SteelR collection](/collection) to see the breadth of design that bespoke steel manufacturing makes possible.
 
 ### Fibreglass
 
-Fibreglass doors offer a respectable range of styles — typically 20 to 40 panel designs — in a selection of 15 to 30 colours. Some manufacturers offer dual-colour options. However, the designs are fixed by the mould, and the sizes are standardised. If your opening does not match the manufacturer's standard dimensions, adaptation is limited to reducing the frame size with fillers — not ideal for a premium aesthetic.
+Fibreglass doors offer a respectable range of styles (typically 20 to 40 panel designs) in a selection of 15 to 30 colours. Some manufacturers offer dual-colour options. However, the designs are fixed by the mould, and the sizes are standardised. If your opening does not match the manufacturer's standard dimensions, adaptation is limited to reducing the frame size with fillers, which is not ideal for a premium aesthetic.
 
 For properties with non-standard openings, period proportions or specific architectural requirements, **fibreglass cannot match the design freedom of bespoke steel fabrication**.
 
@@ -103,7 +103,7 @@ Steel doors require minimal maintenance. An annual wipe-down with a damp cloth a
 
 ### Fibreglass
 
-Fibreglass doors also require minimal regular maintenance — similar wiping and hardware lubrication. However, the GRP surface may need polishing or recoating after 8 to 12 years to restore its appearance, particularly on south-facing elevations. If the foam core develops issues (bowing, delamination), repair options are limited and replacement is usually the practical solution.
+Fibreglass doors also require minimal regular maintenance, similar wiping and hardware lubrication. However, the GRP surface may need polishing or recoating after 8 to 12 years to restore its appearance, particularly on south-facing elevations. If the foam core develops issues (bowing, delamination), repair options are limited and replacement is usually the practical solution.
 
 ## Cost Comparison
 
@@ -129,7 +129,7 @@ You need a solid, attractive entrance door at a moderate price point. Your prior
 
 ### Choose Steel When:
 
-Security is a primary concern — particularly for high-value properties, rural homes or properties with valuable contents. You want complete design freedom to specify a door that responds to the architecture of your home. Longevity matters — you want to install a door once and not think about replacement for decades. The entrance is a design statement, not just a functional element. You require fire ratings (FD30/FD60) for regulatory compliance. You want a **Secured by Design** accredited product that exceeds the regulatory minimum.
+Security is a primary concern, particularly for high-value properties, rural homes or properties with valuable contents. You want complete design freedom to specify a door that responds to the architecture of your home. Longevity matters, you want to install a door once and not think about replacement for decades. The entrance is a design statement, not just a functional element. You require fire ratings (FD30/FD60) for regulatory compliance. You want a **Secured by Design** accredited product that exceeds the regulatory minimum.
 
 ## The UK Market Context
 
@@ -137,7 +137,7 @@ The UK entrance door market has evolved significantly over the past decade. Fibr
 
 Steel entrance doors remain a specialist product in the UK, though demand is growing as awareness of security ratings, fire regulations and design possibilities increases. The market for bespoke steel doors is driven by affluent homeowners, architects specifying for premium projects and developers building at the upper end of the market.
 
-The trend is clear: as UK homeowners become more informed about security standards, material longevity and genuine design quality, **steel doors are moving from niche to recognised premium** in the residential market. The conversation is shifting from "steel or fibreglass" to "what level of performance and design do I actually need" — and for many homeowners, the answer leads to steel.
+The trend is clear: as UK homeowners become more informed about security standards, material longevity and genuine design quality, **steel doors are moving from niche to recognised premium** in the residential market. The conversation is shifting from "steel or fibreglass" to "what level of performance and design do I actually need", and for many homeowners, the answer leads to steel.
 
 ## Frequently Asked Questions
 
@@ -163,7 +163,7 @@ The answer depends on your priorities. If maximum security, unlimited design cus
 
 ### Can I get a steel door that looks traditional rather than industrial?
 
-Absolutely. Bespoke steel entrance doors are available in any architectural style — from Georgian panelled designs with lion-head knockers and fanlights to contemporary flush-face configurations with minimalist hardware. The full RAL colour range means any colour is available, including heritage shades. Steel doors do not have an inherent aesthetic; they take whatever form the design requires. For a wider side-by-side of steel against the main alternatives, see our [steel front door vs composite](/steel-front-door-vs-composite) hub page.`,
+Absolutely. Bespoke steel entrance doors are available in any architectural style, from Georgian panelled designs with lion-head knockers and fanlights to contemporary flush-face configurations with minimalist hardware. The full RAL colour range means any colour is available, including heritage shades. Steel doors do not have an inherent aesthetic; they take whatever form the design requires. For a wider side-by-side of steel against the main alternatives, see our [steel front door vs composite](/steel-front-door-vs-composite) hub page.`,
 };
 
 export default post;

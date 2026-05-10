@@ -10,10 +10,10 @@ const post: BlogPost = {
   category: "Location Guides",
   image: "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
   imageAlt:
-    "Black ornate steel entrance door with lion knocker and gable — front doors for London townhouses",
+    "Black ornate steel entrance door with lion knocker and gable, front doors for London townhouses",
   content: `## London's Front Doors Tell a Story
 
-Every London townhouse entrance carries the accumulated weight of architectural history, neighbourhood character and the practical demands of modern urban life. The front door of a Belgravia stucco terrace serves a fundamentally different purpose — aesthetically, culturally and functionally — from the entrance to a Hampstead Arts and Crafts villa or a Shoreditch warehouse conversion. Yet all share the same requirement: a door that honours the architecture while performing to contemporary standards of security, thermal efficiency and durability.
+Every London townhouse entrance carries the accumulated weight of architectural history, neighbourhood character and the practical demands of modern urban life. The front door of a Belgravia stucco terrace serves a fundamentally different purpose, aesthetically, culturally and functionally, from the entrance to a Hampstead Arts and Crafts villa or a Shoreditch warehouse conversion. Yet all share the same requirement: a door that honours the architecture while performing to contemporary standards of security, thermal efficiency and durability.
 
 This guide explores **front doors for London townhouses** across the capital's principal architectural styles, with practical guidance on conservation area compliance, security specification, colour selection and the logistical realities of installation in one of the world's most densely built cities.
 
@@ -21,19 +21,19 @@ This guide explores **front doors for London townhouses** across the capital's p
 
 ### Georgian Townhouses
 
-The Georgian townhouse — built broadly between 1714 and 1830 — established the template for London's residential streetscape. These properties are concentrated in [Mayfair](/areas/mayfair), Bloomsbury, Marylebone, Greenwich and Islington, though examples appear throughout the capital.
+The Georgian townhouse, built broadly between 1714 and 1830, established the template for London's residential streetscape. These properties are concentrated in [Mayfair](/areas/mayfair), Bloomsbury, Marylebone, Greenwich and Islington, though examples appear throughout the capital.
 
-The Georgian front door follows strict proportional rules. A six-panel arrangement is the most common, with the panels diminishing in size from bottom to top in a ratio that reflects classical architectural principles. The door is set within an architrave surround, often with a fanlight above — semi-circular or rectangular — that floods the hallway with natural light.
+The Georgian front door follows strict proportional rules. A six-panel arrangement is the most common, with the panels diminishing in size from bottom to top in a ratio that reflects classical architectural principles. The door is set within an architrave surround, often with a fanlight above, semi-circular or rectangular, that floods the hallway with natural light.
 
 **Polished brass hardware is the historically authentic choice for Georgian entrances.** A centrally placed knocker (lion head, urn or ring), a brass letter plate positioned centrally between the middle rails, and individual brass numerals complete the traditional composition. The colours of the Georgian period were limited by the paints available: black, dark green, dark blue and occasionally deep red.
 
-Modern reproductions in steel allow architects and homeowners to recreate the Georgian aesthetic with none of the performance compromises of a period timber door — no warping, no draughts, no vulnerability to forced entry.
+Modern reproductions in steel allow architects and homeowners to recreate the Georgian aesthetic with none of the performance compromises of a period timber door, no warping, no draughts, no vulnerability to forced entry.
 
 ### Victorian Townhouses
 
 The Victorian era (1837-1901) produced the largest volume of London's residential stock. Victorian townhouses dominate [Kensington](/areas/kensington), [Chelsea](/areas/chelsea), Fulham, Clapham, Hackney and vast swathes of outer London.
 
-Victorian front doors are more decorative than their Georgian predecessors. Four-panel doors are common, often with the upper panels glazed — either clear, etched, or in the stained glass that became fashionable from the 1860s onwards. The door surround is typically more elaborate, with columns, pilasters or decorative mouldings. Fanlights are frequently arched rather than rectangular.
+Victorian front doors are more decorative than their Georgian predecessors. Four-panel doors are common, often with the upper panels glazed, either clear, etched, or in the stained glass that became fashionable from the 1860s onwards. The door surround is typically more elaborate, with columns, pilasters or decorative mouldings. Fanlights are frequently arched rather than rectangular.
 
 Hardware became more varied during the Victorian period. **Ornate knockers, decorative finger plates, and elaborate escutcheons** reflect the era's enthusiasm for surface decoration. Finishes expanded to include not only brass but also black iron, bronze and, by the late Victorian period, early forms of chrome.
 
@@ -43,7 +43,7 @@ Victorian doors suit a wider range of colours than Georgian examples. Heritage p
 
 Edwardian properties (1901-1914) are concentrated in suburbs that were developing rapidly in the early twentieth century: Chiswick, Ealing, Muswell Hill, Dulwich and parts of South West London. The Edwardian style is characterised by wider proportions, lighter interiors and a less formal approach to decoration.
 
-Edwardian front doors typically feature a large upper glazed panel — often with Art Nouveau or geometric leaded light designs — above two solid lower panels. The emphasis on natural light distinguishes them from the heavier Victorian approach. Porches are common, either open or enclosed, providing weather protection and a transitional space between street and home.
+Edwardian front doors typically feature a large upper glazed panel, often with Art Nouveau or geometric leaded light designs, above two solid lower panels. The emphasis on natural light distinguishes them from the heavier Victorian approach. Porches are common, either open or enclosed, providing weather protection and a transitional space between street and home.
 
 Hardware is simpler than Victorian examples but retains a crafted quality. Satin brass, early chrome and copper finishes were all in use. Letter plates, pull handles and bell pushes tend towards clean, functional forms rather than elaborate decoration.
 
@@ -55,17 +55,17 @@ London contains over 1,000 designated conservation areas, and a significant prop
 
 In a conservation area, permitted development rights are restricted. Replacing a front door is generally classified as an alteration to the external appearance of a dwelling, which may or may not require planning permission depending on the local authority's Article 4 Directions.
 
-Many London boroughs — including Kensington and Chelsea, Westminster, Camden and Islington — have Article 4 Directions that specifically remove permitted development rights for changes to front elevations, including door replacement. In these areas, **planning permission is required to change your front door**, even if the replacement is identical in design.
+Many London boroughs, including Kensington and Chelsea, Westminster, Camden and Islington, have Article 4 Directions that specifically remove permitted development rights for changes to front elevations, including door replacement. In these areas, **planning permission is required to change your front door**, even if the replacement is identical in design.
 
 ### Navigating the Approval Process
 
 The key to a successful application is demonstrating that the replacement door is sympathetic to the character of the conservation area. In practice, this means:
 
-- **Matching the architectural period** — a Georgian-style door for a Georgian property, a Victorian design for a Victorian terrace
-- **Appropriate materials** — planning officers generally accept high-quality reproductions in modern materials provided the external appearance is authentic. Steel doors that faithfully replicate period panel arrangements and moulding profiles are routinely approved
-- **Correct proportions** — the door must fit the existing opening without modification to the surround, fanlight or any decorative elements of the elevation
-- **Appropriate colour** — some conservation areas have colour restrictions. Check the conservation area appraisal document for guidance
-- **Hardware consistency** — period-appropriate hardware in suitable finishes strengthens the application
+- **Matching the architectural period**, a Georgian-style door for a Georgian property, a Victorian design for a Victorian terrace
+- **Appropriate materials**, planning officers generally accept high-quality reproductions in modern materials provided the external appearance is authentic. Steel doors that faithfully replicate period panel arrangements and moulding profiles are routinely approved
+- **Correct proportions**, the door must fit the existing opening without modification to the surround, fanlight or any decorative elements of the elevation
+- **Appropriate colour**, some conservation areas have colour restrictions. Check the conservation area appraisal document for guidance
+- **Hardware consistency**, period-appropriate hardware in suitable finishes strengthens the application
 
 Pre-application advice from the local planning authority is available for a modest fee and provides early clarity on any likely objections. For complex cases, a heritage statement prepared by a conservation specialist can support the application. SteelR routinely supports homeowners through London borough conservation processes by supplying scaled elevation drawings, RAL colour samples and material specifications appropriate to each application.
 
@@ -75,7 +75,7 @@ London's property security landscape is distinct from the rest of the UK. Higher
 
 ### The London Burglary Profile
 
-Metropolitan Police statistics consistently show that London boroughs experience higher rates of residential burglary than the national average. Prime central London boroughs — Westminster, Kensington and Chelsea, Camden — see particular concentrations, with properties targeted for high-value contents including art, jewellery and luxury goods.
+Metropolitan Police statistics consistently show that London boroughs experience higher rates of residential burglary than the national average. Prime central London boroughs, Westminster, Kensington and Chelsea, Camden, see particular concentrations, with properties targeted for high-value contents including art, jewellery and luxury goods.
 
 The method of entry matters for specification purposes. Forced entry through the front door remains the most common approach, but London properties also face risks from lock snapping, cylinder manipulation and, in some cases, key theft. **An SR3-rated steel doorset addresses all of these attack vectors** through its tested resistance to physical force, tool-based attack and lock manipulation. Every SteelR door ships with BS EN 1627 RC4 as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier and LPS 1175 SR4 (D10 Issue 8) as the Commercial-grade upgrade tier for the highest-risk addresses.
 
@@ -84,10 +84,10 @@ The method of entry matters for specification purposes. Forced entry through the
 For London townhouses in prime postcodes, the recommended security specification is:
 
 - **LPS 1175 SR3** as the Enhanced upgrade tier (the LPCB police-preferred residential rating), resisting sustained professional attack
-- **Secured by Design accreditation** — police-approved security performance, recognised by insurers
-- **Anti-snap, anti-pick, anti-bump cylinder** — to TS 007 three-star or equivalent
-- **Multi-point locking** — minimum five-point engagement for SR3
-- **Hinge-side security bolts** — preventing door removal even if hinges are defeated
+- **Secured by Design accreditation**, police-approved security performance, recognised by insurers
+- **Anti-snap, anti-pick, anti-bump cylinder**, to TS 007 three-star or equivalent
+- **Multi-point locking**, minimum five-point engagement for SR3
+- **Hinge-side security bolts**, preventing door removal even if hinges are defeated
 
 This specification satisfies the requirements of high-value home insurers and provides genuine, tested protection. Review our [security overview](/security) for the full range of certifications our doors carry.
 
@@ -101,7 +101,7 @@ Colour trends vary markedly across London, reflecting both architectural context
 
 ### West London
 
-[Kensington](/areas/kensington), [Chelsea](/areas/chelsea), Notting Hill and Holland Park display greater colour confidence. Rich blues, sage greens, burgundy and even carefully considered bold colours appear on doors throughout these neighbourhoods. Hardware is more varied — satin brass, polished chrome and matt black all feature, often chosen to complement the specific door colour rather than defaulting to a single finish.
+[Kensington](/areas/kensington), [Chelsea](/areas/chelsea), Notting Hill and Holland Park display greater colour confidence. Rich blues, sage greens, burgundy and even carefully considered bold colours appear on doors throughout these neighbourhoods. Hardware is more varied, satin brass, polished chrome and matt black all feature, often chosen to complement the specific door colour rather than defaulting to a single finish.
 
 ### South West London
 
@@ -109,7 +109,7 @@ Wimbledon, Barnes, Putney and Richmond tend towards understated elegance. Dark g
 
 ### North London
 
-Hampstead, Highgate and Muswell Hill embrace heritage colours — deep reds, forest green, dark blue — that complement the Arts and Crafts and Victorian architecture prevalent in these areas. Bronze and antique brass hardware feels particularly appropriate.
+Hampstead, Highgate and Muswell Hill embrace heritage colours, deep reds, forest green, dark blue, that complement the Arts and Crafts and Victorian architecture prevalent in these areas. Bronze and antique brass hardware feels particularly appropriate.
 
 Browse [our collection](/collection) to see how different colour and hardware combinations work across a range of architectural styles.
 
@@ -123,18 +123,18 @@ Many London townhouses have restricted access: narrow streets, no front garden, 
 
 Installation planning must consider:
 
-- **Delivery vehicle access** — width restrictions, parking permits, loading bay availability and time-of-day restrictions in central London
-- **Lifting and positioning** — mechanical lifting may be required for upper-floor installations or properties with steps and narrow approaches
-- **Temporary works** — protecting adjacent properties, managing pedestrian access during installation, and providing temporary weather protection if the old door is removed before the new one is fitted
+- **Delivery vehicle access**, width restrictions, parking permits, loading bay availability and time-of-day restrictions in central London
+- **Lifting and positioning**, mechanical lifting may be required for upper-floor installations or properties with steps and narrow approaches
+- **Temporary works**, protecting adjacent properties, managing pedestrian access during installation, and providing temporary weather protection if the old door is removed before the new one is fitted
 
 ### Permits and Notifications
 
 Central London installations frequently require:
 
-- **Parking suspension** — to secure space for the delivery vehicle. Apply through the local borough at least two weeks in advance
-- **Scaffold or hoarding licence** — if temporary protection of the pavement is required
-- **Building control notification** — if the installation involves structural alterations to the opening
-- **Party wall notification** — if the doorset is adjacent to or within a party wall (uncommon for front doors but relevant for some configurations)
+- **Parking suspension**, to secure space for the delivery vehicle. Apply through the local borough at least two weeks in advance
+- **Scaffold or hoarding licence**, if temporary protection of the pavement is required
+- **Building control notification**, if the installation involves structural alterations to the opening
+- **Party wall notification**, if the doorset is adjacent to or within a party wall (uncommon for front doors but relevant for some configurations)
 
 ### Working with Listed Buildings
 
@@ -144,14 +144,14 @@ Steel doors that faithfully replicate the original design, proportions and detai
 
 ## Working with Freeholders and Management Companies
 
-Many London townhouses have been converted into flats. Where this is the case, the front door — whether to the building as a whole or to individual flats — may fall under the control of the freeholder, a management company, or a residents' management company.
+Many London townhouses have been converted into flats. Where this is the case, the front door, whether to the building as a whole or to individual flats, may fall under the control of the freeholder, a management company, or a residents' management company.
 
 Before specifying a door replacement:
 
-- **Check the lease** — the lease will specify whether the front door is the responsibility of the leaseholder or the freeholder, and whether alterations require consent
-- **Obtain written consent** — even if the lease permits alterations, obtaining formal written consent from the freeholder or management company avoids future disputes
-- **Coordinate with other leaseholders** — in buildings with shared entrance doors, all leaseholders may need to agree on the specification and share the cost
-- **Consider communal fire requirements** — flat entrance doors and communal entrance doors in converted buildings are subject to fire safety requirements that may mandate specific ratings
+- **Check the lease**, the lease will specify whether the front door is the responsibility of the leaseholder or the freeholder, and whether alterations require consent
+- **Obtain written consent**, even if the lease permits alterations, obtaining formal written consent from the freeholder or management company avoids future disputes
+- **Coordinate with other leaseholders**, in buildings with shared entrance doors, all leaseholders may need to agree on the specification and share the cost
+- **Consider communal fire requirements**, flat entrance doors and communal entrance doors in converted buildings are subject to fire safety requirements that may mandate specific ratings
 
 **The freeholder's consent is a legal prerequisite, not a courtesy.** Proceeding without it can result in enforcement action, remediation at the leaseholder's cost, and difficulties when selling the property.
 

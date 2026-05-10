@@ -8,7 +8,7 @@ export const cheshireLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Cheshire is England's golden triangle of wealth, where Premier League footballers, business owners, and old-money families occupy some of the most impressive residential properties outside London. From the manicured lanes of Alderley Edge to the cobbled streets of Knutsford, the county demands an entrance door that signals quality before a visitor even knocks. SteelR bespoke steel doors are engineered for exactly this market — commanding, secure, and finished to a standard that matches the ambition of Cheshire's finest homes.",
+      "Cheshire is England's golden triangle of wealth, where Premier League footballers, business owners, and old-money families occupy some of the most impressive residential properties outside London. From the manicured lanes of Alderley Edge to the cobbled streets of Knutsford, the county demands an entrance door that signals quality before a visitor even knocks. SteelR bespoke steel doors are engineered for exactly this market, commanding, secure, and finished to a standard that matches the ambition of Cheshire's finest homes.",
     heroImage: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",

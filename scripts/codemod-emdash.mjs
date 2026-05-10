@@ -2,25 +2,36 @@
 /**
  * Em-dash and en-dash codemod — safe transformations only.
  *
- * Scope: high-traffic UI files only (this session). Blog corpus, location data,
- * and llms files are deferred — those are higher-risk and need separate review.
+ * Pass 1 (high-traffic UI files) shipped 2026-05-09 in commit 2979e07.
+ * Pass 2 (this file): locations data + blog corpus.
  *
  * Transformations applied:
- *   ` — `  →  `, `         (em-dash with surrounding spaces, used as separator)
- *   ` – `  →  `, `         (en-dash with surrounding spaces, used as separator)
- *   `(\d)–(\d)`  →  `$1 to $2`   (en-dash digit range, e.g. "8–12" → "8 to 12")
+ *   `^### (.+) — (.+)$`  →  `^### $1: $2`   (H3-heading separator → colon)
+ *   `^### (.+) – (.+)$`  →  `^### $1: $2`   (en-dash variant)
+ *   ` — `                →  `, `             (em-dash with spaces, used as separator)
+ *   ` – `                →  `, `             (en-dash with spaces, used as separator)
+ *   `(\d)–(\d)`          →  `$1 to $2`       (en-dash digit range, e.g. "8–12")
  *
- * Note: standalone em-dashes inside cells/tick markers (e.g. `: "—"` for an
- *   absent indicator) are NOT touched — they need semantic replacement
- *   (tick / cross icon), not character substitution.
+ * Standalone em-dashes (e.g. tick markers `: "—"`, separator chars in
+ * comments like `─────`) are NOT touched — they need semantic replacement.
+ *
+ * Pre-rewrite required: 6 risky lines manually fixed before running:
+ *   - modern-front-door-ideas-inspiration-2026.ts:82 (triple-dash colour pairs)
+ *   - are-steel-doors-worth-it-uk.ts:172 (triple-clause appositive)
+ *   - steel-doors-conservation-areas-planning-guide.ts:79 (definitional dash)
+ *   - steel-doors-conservation-areas-planning-guide.ts:188 (conjunctive H3)
+ *   - steel-entrance-doors-buckinghamshire-homes.ts:28 (village-list parenthetical)
+ *   - steel-vs-fibreglass-doors-uk-comparison.ts:76 (triple-clause)
  *
  * Usage: node scripts/codemod-emdash.mjs
  */
 
-import { readFileSync, writeFileSync } from "node:fs";
-import { resolve } from "node:path";
+import { readdirSync, readFileSync, writeFileSync, statSync } from "node:fs";
+import { resolve, join } from "node:path";
 
-const FILES = [
+// Pass 1 (already shipped) + Pass 2 (this run) globs
+const FILE_GLOBS = [
+  // Pass 1: high-traffic UI files (already cleaned, run again to confirm idempotence)
   "src/app/page.tsx",
   "src/app/about/page.tsx",
   "src/app/process/page.tsx",
@@ -42,10 +53,38 @@ const FILES = [
   "src/components/Hero.tsx",
 ];
 
+// Pass 2 directories (recursive .ts only)
+const DIR_GLOBS = [
+  "src/data/locations",
+  "src/data/blog/posts",
+];
+
+function collectFiles() {
+  const files = [...FILE_GLOBS];
+  for (const dir of DIR_GLOBS) {
+    const fullDir = resolve(dir);
+    try {
+      const entries = readdirSync(fullDir);
+      for (const entry of entries) {
+        const path = join(fullDir, entry);
+        if (statSync(path).isFile() && entry.endsWith(".ts")) {
+          files.push(join(dir, entry).replace(/\\/g, "/"));
+        }
+      }
+    } catch {
+      // skip if dir missing
+    }
+  }
+  return files;
+}
+
 let totalReplaced = 0;
 let filesChanged = 0;
+const files = collectFiles();
 
-for (const rel of FILES) {
+console.log(`Scanning ${files.length} files...\n`);
+
+for (const rel of files) {
   const path = resolve(rel);
   let original;
   try {
@@ -56,6 +95,16 @@ for (const rel of FILES) {
 
   let updated = original;
   let fileReplacements = 0;
+
+  // Pattern A: H3 separator (em-dash) → colon — must run BEFORE the general pattern
+  const aBefore = (updated.match(/^### .+? — .+$/gm) || []).length;
+  updated = updated.replace(/^(### .+?) — (.+)$/gm, "$1: $2");
+  fileReplacements += aBefore;
+
+  // Pattern B: H3 separator (en-dash) → colon
+  const bBefore = (updated.match(/^### .+? – .+$/gm) || []).length;
+  updated = updated.replace(/^(### .+?) – (.+)$/gm, "$1: $2");
+  fileReplacements += bBefore;
 
   // Pattern 1: ` — ` (em-dash separator) → `, `
   const p1Before = (updated.match(/ — /g) || []).length;
@@ -76,9 +125,11 @@ for (const rel of FILES) {
     writeFileSync(path, updated, "utf8");
     filesChanged += 1;
     totalReplaced += fileReplacements;
-    console.log(`  ${rel}: ${fileReplacements} replacement(s) (em ${p1Before}, en ${p2Before}, range ${p3Before})`);
+    if (fileReplacements > 0) {
+      console.log(`  ${rel}: ${fileReplacements} (h3 ${aBefore + bBefore}, em ${p1Before}, en ${p2Before}, range ${p3Before})`);
+    }
   }
 }
 
 console.log(`\nDone. ${filesChanged} files changed, ${totalReplaced} replacements total.`);
-console.log(`Standalone em-dashes (e.g. tick markers) NOT touched — these need semantic replacement, not character substitution.`);
+console.log(`Standalone em-dashes (e.g. tick markers, comment separators) NOT touched.`);

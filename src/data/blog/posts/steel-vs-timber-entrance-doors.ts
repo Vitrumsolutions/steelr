@@ -10,7 +10,7 @@ const post: BlogPost = {
   category: "Buying Guide",
   image: "/images/gallery/steelr-olive-traditional-brass-pendant.jpg",
   imageAlt:
-    "Olive traditional steel entrance door with brass pendant light — steel alternative to timber front door",
+    "Olive traditional steel entrance door with brass pendant light, steel alternative to timber front door",
   content: `## The Timber Door Tradition
 
 For centuries, the default material for a British front door has been **timber**. Oak, mahogany, pine and more recently engineered hardwoods have graced the entrances of homes from country cottages to London townhouses. Timber has warmth, character and a deep-rooted association with quality craftsmanship.
@@ -23,7 +23,7 @@ This guide provides a complete, honest comparison of **steel vs timber doors** t
 
 This is the area where the gap between steel and timber is widest.
 
-**Timber doors**, even high-quality hardwood doors, offer limited resistance to forced entry. A standard timber door can typically be breached in under 30 seconds by an intruder using basic tools such as a crowbar or a heavy kick. The wood around the lock and hinges is the weakest point — it splits and gives way under concentrated force.
+**Timber doors**, even high-quality hardwood doors, offer limited resistance to forced entry. A standard timber door can typically be breached in under 30 seconds by an intruder using basic tools such as a crowbar or a heavy kick. The wood around the lock and hinges is the weakest point, it splits and gives way under concentrated force.
 
 **Steel entrance doors** certified to **BS EN 1627:2011 RC4** as Standard, with the **LPS 1175 SR3 Enhanced upgrade** available, withstand sustained attack using professional-grade tools including crowbars, drills and angle grinders. The steel construction, reinforced frame, multi-point locking system and security-rated hardware work together as a tested system. No timber door, regardless of species or construction method, can achieve LPS 1175 SR3.
 
@@ -33,10 +33,10 @@ For homeowners who take home security seriously, this is often the deciding fact
 
 **Timber** is a natural material, and natural materials degrade over time when exposed to the elements:
 
-- **Warping and twisting** — timber absorbs and releases moisture with seasonal changes, causing the door to swell in winter and shrink in summer. This leads to sticking, binding and gaps that compromise both security and insulation.
-- **Rot** — the base of a timber door and areas around glazing are particularly vulnerable to wet rot, especially on exposed elevations
-- **Cracking and splitting** — UV exposure and repeated wet-dry cycles cause timber to crack and split over time, requiring filler and repair
-- **Typical lifespan** — a well-maintained hardwood door may last 20 to 30 years, though many softwood doors deteriorate significantly within 10 to 15 years
+- **Warping and twisting**, timber absorbs and releases moisture with seasonal changes, causing the door to swell in winter and shrink in summer. This leads to sticking, binding and gaps that compromise both security and insulation.
+- **Rot**, the base of a timber door and areas around glazing are particularly vulnerable to wet rot, especially on exposed elevations
+- **Cracking and splitting**, UV exposure and repeated wet-dry cycles cause timber to crack and split over time, requiring filler and repair
+- **Typical lifespan**, a well-maintained hardwood door may last 20 to 30 years, though many softwood doors deteriorate significantly within 10 to 15 years
 
 **Steel** does not warp, swell, shrink, crack, split or rot. A steel entrance door finished with a professional multi-layer paint system maintains its structural integrity and appearance for decades. The material is dimensionally stable regardless of temperature, humidity or UV exposure.
 
@@ -67,26 +67,26 @@ Modern building standards demand good thermal performance from entrance doors. H
 
 ## Design and Aesthetics
 
-One of timber's undeniable strengths is its natural beauty — the grain, the warmth, the tactile quality. But does choosing steel mean sacrificing aesthetics?
+One of timber's undeniable strengths is its natural beauty, the grain, the warmth, the tactile quality. But does choosing steel mean sacrificing aesthetics?
 
 **Timber doors** offer a wide range of designs, from traditional panelled doors to contemporary flush designs. The natural grain adds character, and timber can be stained or painted to achieve a variety of looks. However, timber doors from most suppliers come in standard sizes, and fully bespoke timber doors from specialist joiners are expensive and still carry the maintenance burden.
 
 **Steel doors** offer **complete design freedom**. Because every steel door is manufactured to order, you can specify:
 
 - **Any RAL colour** from a palette of over 200 options
-- **Dual-colour finishes** — a different colour inside and outside
-- **Any panel configuration** — from Georgian six-panel to sleek contemporary designs
-- **Custom dimensions** — no standard sizes, so the door fits your opening perfectly
-- **Decorative glazing** — leaded lights, stained glass, frosted panels, Crittall-style patterns
-- **Period-appropriate hardware** — lion knockers, ring knockers, brass letter plates, or contemporary pull bars and lever handles
+- **Dual-colour finishes**, a different colour inside and outside
+- **Any panel configuration**, from Georgian six-panel to sleek contemporary designs
+- **Custom dimensions**, no standard sizes, so the door fits your opening perfectly
+- **Decorative glazing**, leaded lights, stained glass, frosted panels, Crittall-style patterns
+- **Period-appropriate hardware**, lion knockers, ring knockers, brass letter plates, or contemporary pull bars and lever handles
 
-A bespoke steel door can faithfully replicate the look of a traditional timber door — including the panel proportions, moulding profiles and hardware placement — while delivering performance that timber cannot match. Equally, it can achieve bold contemporary designs that push beyond what timber can structurally achieve.
+A bespoke steel door can faithfully replicate the look of a traditional timber door, including the panel proportions, moulding profiles and hardware placement, while delivering performance that timber cannot match. Equally, it can achieve bold contemporary designs that push beyond what timber can structurally achieve.
 
 ## Weight and Operation
 
 **Timber doors** are relatively lightweight and easy to operate, though this can change as they swell and bind seasonally.
 
-**Steel doors** are heavier than timber equivalents. However, professional installation ensures that the door is hung on appropriate heavy-duty hinges and operates smoothly. The additional weight is actually a benefit — it contributes to the solid, reassuring feel of the door and discourages forced entry.
+**Steel doors** are heavier than timber equivalents. However, professional installation ensures that the door is hung on appropriate heavy-duty hinges and operates smoothly. The additional weight is actually a benefit, it contributes to the solid, reassuring feel of the door and discourages forced entry.
 
 ## Environmental Considerations
 
@@ -102,7 +102,7 @@ A bespoke steel door can faithfully replicate the look of a traditional timber d
 - Bespoke joinery-made hardwood doors: £2,000 to £5,000+
 - Add maintenance costs of £150 to £300 every 3 to 5 years
 
-**Steel entrance doors** start from a higher initial price point, reflecting the SR3 security rating, bespoke manufacture and professional installation. However, when you factor in the zero maintenance cost and significantly longer lifespan, the total cost of ownership over 30 years is often comparable — while the security, performance and convenience are in a different league.
+**Steel entrance doors** start from a higher initial price point, reflecting the SR3 security rating, bespoke manufacture and professional installation. However, when you factor in the zero maintenance cost and significantly longer lifespan, the total cost of ownership over 30 years is often comparable, while the security, performance and convenience are in a different league.
 
 ## Which Should You Choose?
 
@@ -110,7 +110,7 @@ Choose **timber** if you prioritise the natural grain and tactile quality of rea
 
 Choose **steel** if you want **LPCB-certified residential security** (BS EN 1627 RC4 as Standard, with LPS 1175 SR3 Enhanced, SR4 Commercial-grade and LPS 1673 Ultra-high available as upgrades), zero maintenance, complete design freedom, superior long-term durability and a door that will perform consistently for decades.
 
-At SteelR, we manufacture bespoke steel entrance doors that deliver on every measure — SR3 security, Secured by Design accreditation, ISO 9001 certified quality and complete design freedom. Whether you want a door that replicates the warmth of traditional timber or a bold contemporary statement, we design and build it to your exact specification, with installations across [London](/areas/london), [Surrey](/areas/surrey) and the wider [Home Counties](/areas/buckinghamshire). For a fuller side-by-side of how steel compares against the main alternatives, see our [steel front door vs composite](/steel-front-door-vs-composite) hub. Contact us to start the conversation.
+At SteelR, we manufacture bespoke steel entrance doors that deliver on every measure, SR3 security, Secured by Design accreditation, ISO 9001 certified quality and complete design freedom. Whether you want a door that replicates the warmth of traditional timber or a bold contemporary statement, we design and build it to your exact specification, with installations across [London](/areas/london), [Surrey](/areas/surrey) and the wider [Home Counties](/areas/buckinghamshire). For a fuller side-by-side of how steel compares against the main alternatives, see our [steel front door vs composite](/steel-front-door-vs-composite) hub. Contact us to start the conversation.
 
 ## Frequently Asked Questions
 

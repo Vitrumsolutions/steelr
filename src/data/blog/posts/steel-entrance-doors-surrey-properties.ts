@@ -10,10 +10,10 @@ const post: BlogPost = {
   category: "Location Guides",
   image: "/images/gallery/steelr-cream-traditional-lion-knocker-topiary.jpg",
   imageAlt:
-    "Cream traditional steel entrance door with lion knocker and topiary — steel entrance doors for Surrey properties",
+    "Cream traditional steel entrance door with lion knocker and topiary, steel entrance doors for Surrey properties",
   content: `## Why Surrey Properties Deserve a Considered Entrance
 
-Surrey occupies a unique position in the English residential landscape. It is simultaneously one of the most affluent counties in the United Kingdom, one of the most architecturally diverse and one of the most demanding when it comes to property standards. From the Victorian villas of Guildford to the modernist new builds of [Weybridge](/areas/weybridge), the county's housing stock spans centuries and styles — but the expectation of quality is consistent throughout.
+Surrey occupies a unique position in the English residential landscape. It is simultaneously one of the most affluent counties in the United Kingdom, one of the most architecturally diverse and one of the most demanding when it comes to property standards. From the Victorian villas of Guildford to the modernist new builds of [Weybridge](/areas/weybridge), the county's housing stock spans centuries and styles, but the expectation of quality is consistent throughout.
 
 The entrance door is the element that bridges architecture and first impression. In a county where properties routinely command seven-figure valuations, the front door must do more than function. It must communicate the quality, character and security of the home behind it. This guide explores why **steel entrance doors** have become the material of choice for discerning Surrey homeowners.
 
@@ -23,15 +23,15 @@ Understanding Surrey's architecture is essential to specifying the right entranc
 
 ### The Stockbroker Belt
 
-The arc of premium residential towns stretching from [Esher](/areas/esher) through [Cobham](/areas/cobham) to [Weybridge](/areas/weybridge) — historically known as the **stockbroker belt** — is defined by substantial detached homes set in generous grounds. The architecture ranges from Edwardian Arts and Crafts houses to 1930s mock Tudor, mid-century modernism and contemporary new builds.
+The arc of premium residential towns stretching from [Esher](/areas/esher) through [Cobham](/areas/cobham) to [Weybridge](/areas/weybridge), historically known as the **stockbroker belt**, is defined by substantial detached homes set in generous grounds. The architecture ranges from Edwardian Arts and Crafts houses to 1930s mock Tudor, mid-century modernism and contemporary new builds.
 
 These properties share common characteristics: wide frontages, mature landscaping and driveways that frame the approach to the entrance. The front door is visible from the street, often from a considerable distance, which makes its visual impact particularly important.
 
-Steel entrance doors in traditional designs — six-panel configurations with **period ironmongery**, lion knockers and deep mouldings — complement the Edwardian and inter-war properties that define much of the stockbroker belt. For the area's contemporary homes, flush panel designs with concealed hinges and minimal hardware create the architectural precision these properties demand.
+Steel entrance doors in traditional designs, six-panel configurations with **period ironmongery**, lion knockers and deep mouldings, complement the Edwardian and inter-war properties that define much of the stockbroker belt. For the area's contemporary homes, flush panel designs with concealed hinges and minimal hardware create the architectural precision these properties demand.
 
 ### Period Villages
 
-Surrey's village centres — Shere, Abinger Hammer, Chiddingfold, Bletchingley — contain some of the finest vernacular architecture in the south-east. Timber-framed cottages, Georgian townhouses and Victorian terraces create streetscapes of genuine historic character.
+Surrey's village centres, Shere, Abinger Hammer, Chiddingfold, Bletchingley, contain some of the finest vernacular architecture in the south-east. Timber-framed cottages, Georgian townhouses and Victorian terraces create streetscapes of genuine historic character.
 
 In these settings, the entrance door must respect the architectural context. **Bespoke steel doors** designed with traditional proportions, panelled configurations and heritage colour palettes integrate with period architecture while delivering modern security and thermal performance. The ability to specify any **RAL colour** means the door can be precisely matched to the property's existing colour scheme or to conservation area requirements.
 
@@ -39,22 +39,22 @@ In these settings, the entrance door must respect the architectural context. **B
 
 The premium new build market in Surrey has expanded significantly, with developments in towns such as [Esher](/areas/esher), [Weybridge](/areas/weybridge) and Oxshott offering contemporary architecture at the highest specification. These properties typically feature clean lines, large glazed openings and a material palette of render, stone and metal.
 
-For modern Surrey homes, steel entrance doors in contemporary configurations — horizontal ribbing, full-height glazed sidelights, architectural bar handles and anthracite or graphite finishes — provide the visual weight and precision that the architecture requires. The door becomes an architectural feature in its own right, not merely a functional element.
+For modern Surrey homes, steel entrance doors in contemporary configurations, horizontal ribbing, full-height glazed sidelights, architectural bar handles and anthracite or graphite finishes, provide the visual weight and precision that the architecture requires. The door becomes an architectural feature in its own right, not merely a functional element.
 
 ## Conservation Areas in Surrey
 
 Surrey has a significant number of **conservation areas** where external alterations, including door replacement, may require planning permission or must conform to specific material and design guidelines. Key conservation areas that our clients frequently navigate include:
 
-- **Esher** — the town centre and surrounding residential areas
-- **Cobham** — Church Street and the historic village core
-- **Weybridge** — Queens Road and the Oatlands area
-- **Guildford** — the historic High Street and surrounding quarters
-- **Farnham** — one of Surrey's largest conservation areas, covering much of the town centre
-- **Dorking** — the town centre and West Street area
-- **Haslemere** — the High Street and surrounding residential streets
-- **Reigate** — the Old Town and Priory Park area
+- **Esher**, the town centre and surrounding residential areas
+- **Cobham**, Church Street and the historic village core
+- **Weybridge**, Queens Road and the Oatlands area
+- **Guildford**, the historic High Street and surrounding quarters
+- **Farnham**, one of Surrey's largest conservation areas, covering much of the town centre
+- **Dorking**, the town centre and West Street area
+- **Haslemere**, the High Street and surrounding residential streets
+- **Reigate**, the Old Town and Priory Park area
 
-In conservation areas, the **material and design of replacement doors** are subject to scrutiny. The advantage of a bespoke SteelR specification is that each door is designed specifically for the property and can be manufactured to meet conservation officer requirements — whether that means replicating an original panel configuration, matching a specific paint colour or incorporating glazing patterns consistent with the property's period.
+In conservation areas, the **material and design of replacement doors** are subject to scrutiny. The advantage of a bespoke SteelR specification is that each door is designed specifically for the property and can be manufactured to meet conservation officer requirements, whether that means replicating an original panel configuration, matching a specific paint colour or incorporating glazing patterns consistent with the property's period.
 
 SteelR works with homeowners throughout [our process](/process) to ensure that conservation area requirements are addressed at the design stage, not discovered at installation.
 
@@ -66,7 +66,7 @@ Based on SteelR's experience manufacturing and installing steel entrance doors f
 
 ### Traditional Six-Panel with Period Hardware
 
-The most requested configuration for Surrey's period properties. A **six-panel steel door** with raised and fielded mouldings, a lion or ring knocker in brass or chrome, a matching letterbox and a traditional lever handle. Colours tend towards heritage tones — deep navy, forest green, claret and classic black.
+The most requested configuration for Surrey's period properties. A **six-panel steel door** with raised and fielded mouldings, a lion or ring knocker in brass or chrome, a matching letterbox and a traditional lever handle. Colours tend towards heritage tones, deep navy, forest green, claret and classic black.
 
 ### Contemporary Flush Panel
 
@@ -74,7 +74,7 @@ Increasingly popular in Weybridge, Esher and Oxshott, the flush panel door offer
 
 ### Glazed Designs with Sidelights
 
-For properties with wide entrance openings — common in detached Surrey homes — a steel door with one or two **sidelights** creates a generous, light-filled entrance. Glazing options range from clear to sandblasted, decorative leaded patterns and contemporary etched designs. Sidelights are particularly effective on north-facing entrances where natural light into the hallway is limited.
+For properties with wide entrance openings, common in detached Surrey homes, a steel door with one or two **sidelights** creates a generous, light-filled entrance. Glazing options range from clear to sandblasted, decorative leaded patterns and contemporary etched designs. Sidelights are particularly effective on north-facing entrances where natural light into the hallway is limited.
 
 ### Double Doors
 
@@ -100,7 +100,7 @@ Installing a bespoke steel entrance door in Surrey involves practical considerat
 
 **Alarm and smart home integration.** Many Surrey homes have integrated security systems. Our installation process includes coordination with existing alarm systems and, where required, integration with smart lock technology and home automation platforms.
 
-**Building regulations.** For properties where the door replacement is part of a larger renovation — an extension, loft conversion or full refurbishment — the entrance door specification must comply with Approved Document L (thermal performance) and Approved Document Q (security). Our doors meet both as standard.
+**Building regulations.** For properties where the door replacement is part of a larger renovation, an extension, loft conversion or full refurbishment, the entrance door specification must comply with Approved Document L (thermal performance) and Approved Document Q (security). Our doors meet both as standard.
 
 ## Why Surrey Homeowners Choose Bespoke
 
@@ -128,7 +128,7 @@ From initial design consultation to completed installation, the typical lead tim
 
 ### Can you match a steel door to an existing colour scheme?
 
-Yes. Every door is finished in any colour from the full RAL range — over 200 options. We also offer dual-colour specification, where the exterior and interior are finished in different colours. This is particularly useful for period properties where the exterior colour must match the streetscape while the interior complements the hallway decor.
+Yes. Every door is finished in any colour from the full RAL range, over 200 options. We also offer dual-colour specification, where the exterior and interior are finished in different colours. This is particularly useful for period properties where the exterior colour must match the streetscape while the interior complements the hallway decor.
 
 ### Are steel doors suitable for period properties in Surrey villages?
 

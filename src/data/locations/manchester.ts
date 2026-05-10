@@ -8,7 +8,7 @@ export const manchesterLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Greater Manchester is a region of striking contrasts, from the converted Victorian warehouses of the city centre to the leafy suburban avenues of its southern boroughs. Areas like Didsbury, Worsley, and Bramhall attract professionals and families who want generous period properties with excellent transport links into the city. SteelR bespoke entrance doors serve homeowners across the conurbation who want their front door to reflect the quality of their home — robust enough for northern weather, refined enough for the most discerning street.",
+      "Greater Manchester is a region of striking contrasts, from the converted Victorian warehouses of the city centre to the leafy suburban avenues of its southern boroughs. Areas like Didsbury, Worsley, and Bramhall attract professionals and families who want generous period properties with excellent transport links into the city. SteelR bespoke entrance doors serve homeowners across the conurbation who want their front door to reflect the quality of their home, robust enough for northern weather, refined enough for the most discerning street.",
     heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg",

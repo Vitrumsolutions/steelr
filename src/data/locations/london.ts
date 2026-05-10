@@ -9,7 +9,7 @@ export const londonLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "SteelR serves the whole of London with bespoke steel entrance doors engineered for the capital's most distinguished properties. From the stucco-fronted terraces of Kensington to the Georgian squares of Islington, from riverside apartments in Greenwich to Arts and Crafts villas in Hampstead, our doors are designed to complement every architectural era found across the city. London homeowners demand the highest standards of security, thermal performance, and craftsmanship — and our Secured by Design accredited steel doors deliver on every count. Each commission begins with a site survey by our design team, ensuring proportions, glazing, ironmongery, and finish are perfectly matched to the facade. Whether you are restoring a Grade II listed townhouse or completing a contemporary new-build, SteelR brings over two decades of specialist manufacturing expertise to your front door. Request a consultation and discover why architects and developers across London trust SteelR.",
+      "SteelR serves the whole of London with bespoke steel entrance doors engineered for the capital's most distinguished properties. From the stucco-fronted terraces of Kensington to the Georgian squares of Islington, from riverside apartments in Greenwich to Arts and Crafts villas in Hampstead, our doors are designed to complement every architectural era found across the city. London homeowners demand the highest standards of security, thermal performance, and craftsmanship, and our Secured by Design accredited steel doors deliver on every count. Each commission begins with a site survey by our design team, ensuring proportions, glazing, ironmongery, and finish are perfectly matched to the facade. Whether you are restoring a Grade II listed townhouse or completing a contemporary new-build, SteelR brings over two decades of specialist manufacturing expertise to your front door. Request a consultation and discover why architects and developers across London trust SteelR.",
     heroImage: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
@@ -151,7 +151,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Chiswick's leafy streets blend handsome Edwardian houses with Georgian gems along Chiswick Mall and the Thames towpath. The Bedford Park estate — often called London's first garden suburb — showcases Arts and Crafts architecture where craftsmanship is paramount. SteelR bespoke steel doors suit Chiswick's mix of period charm and family-friendly practicality, providing robust daily-use durability alongside refined aesthetics. From traditional six-panel designs on Devonshire Road to sleek contemporary entries on new-build developments near Chiswick High Road, our doors are engineered for Chiswick living.",
+      "Chiswick's leafy streets blend handsome Edwardian houses with Georgian gems along Chiswick Mall and the Thames towpath. The Bedford Park estate, often called London's first garden suburb, showcases Arts and Crafts architecture where craftsmanship is paramount. SteelR bespoke steel doors suit Chiswick's mix of period charm and family-friendly practicality, providing robust daily-use durability alongside refined aesthetics. From traditional six-panel designs on Devonshire Road to sleek contemporary entries on new-build developments near Chiswick High Road, our doors are engineered for Chiswick living.",
     localFeatures: [
       "Bedford Park Arts and Crafts houses with decorative porches",
       "Georgian properties along Chiswick Mall facing the Thames",
@@ -199,7 +199,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Hammersmith sits at the crossroads of west London, combining a vibrant riverside with handsome Victorian and Edwardian residential streets. Brackenbury Village, with its pastel-coloured terraces, and the grander houses along Rivercourt Road offer a range of architectural styles. SteelR steel entrance doors provide Hammersmith homeowners with an upgrade that marries period authenticity with modern performance — superior insulation against urban noise, multi-point locking for enhanced security, and a maintenance-free finish that outlasts timber in London's weather. Every door is made to measure at our UK factory.",
+      "Hammersmith sits at the crossroads of west London, combining a vibrant riverside with handsome Victorian and Edwardian residential streets. Brackenbury Village, with its pastel-coloured terraces, and the grander houses along Rivercourt Road offer a range of architectural styles. SteelR steel entrance doors provide Hammersmith homeowners with an upgrade that marries period authenticity with modern performance, superior insulation against urban noise, multi-point locking for enhanced security, and a maintenance-free finish that outlasts timber in London's weather. Every door is made to measure at our UK factory.",
     localFeatures: [
       "Brackenbury Village pastel-painted Victorian cottages",
       "Riverside properties along the Upper and Lower Mall",
@@ -319,7 +319,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Putney is a popular residential area on the south bank of the Thames, known for its Victorian terraces, Edwardian family homes, and proximity to Putney Heath and Wimbledon Common. The streets around West Putney, Roehampton, and Lower Richmond Road feature well-maintained period properties where kerb appeal matters. SteelR bespoke steel entrance doors help Putney homeowners make a statement — whether choosing a classic black panelled door with brass furniture or a bold contemporary design in anthracite grey. Our doors are Secured by Design accredited, offering peace of mind alongside elegant design.",
+      "Putney is a popular residential area on the south bank of the Thames, known for its Victorian terraces, Edwardian family homes, and proximity to Putney Heath and Wimbledon Common. The streets around West Putney, Roehampton, and Lower Richmond Road feature well-maintained period properties where kerb appeal matters. SteelR bespoke steel entrance doors help Putney homeowners make a statement, whether choosing a classic black panelled door with brass furniture or a bold contemporary design in anthracite grey. Our doors are Secured by Design accredited, offering peace of mind alongside elegant design.",
     localFeatures: [
       "Victorian terraces near Putney High Street and the river",
       "Edwardian double-fronted houses in West Putney",
@@ -343,7 +343,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Wimbledon Village and its surrounding residential streets are home to some of south-west London's finest properties, from imposing Victorian mansions on Wimbledon Hill to substantial Edwardian houses around the Common. The area's reputation for excellence — cemented by the Championships — extends to its residents' exacting standards for their homes. SteelR bespoke steel entrance doors meet that standard with precision engineering, hand-finished ironmongery, and a lifetime guarantee. Our doors complement Wimbledon's leafy, village-like character while providing the security and insulation that modern living demands.",
+      "Wimbledon Village and its surrounding residential streets are home to some of south-west London's finest properties, from imposing Victorian mansions on Wimbledon Hill to substantial Edwardian houses around the Common. The area's reputation for excellence, cemented by the Championships, extends to its residents' exacting standards for their homes. SteelR bespoke steel entrance doors meet that standard with precision engineering, hand-finished ironmongery, and a lifetime guarantee. Our doors complement Wimbledon's leafy, village-like character while providing the security and insulation that modern living demands.",
     localFeatures: [
       "Large Victorian and Edwardian houses on Wimbledon Hill",
       "Detached properties bordering Wimbledon Common",
@@ -515,7 +515,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Dulwich Village is one of south London's hidden gems, an oasis of Georgian and Victorian architecture managed by the Dulwich Estate. The estate's design guidelines ensure a cohesive, high-quality streetscape — and SteelR bespoke steel doors are fully compliant with these aesthetic requirements. Properties along Dulwich Village, Court Lane, and College Road feature elegant entrance porticos where our traditionally panelled doors with period ironmongery feel entirely at home. Our doors deliver modern thermal and acoustic insulation behind a timeless exterior, ideal for this conservation-rich neighbourhood.",
+      "Dulwich Village is one of south London's hidden gems, an oasis of Georgian and Victorian architecture managed by the Dulwich Estate. The estate's design guidelines ensure a cohesive, high-quality streetscape, and SteelR bespoke steel doors are fully compliant with these aesthetic requirements. Properties along Dulwich Village, Court Lane, and College Road feature elegant entrance porticos where our traditionally panelled doors with period ironmongery feel entirely at home. Our doors deliver modern thermal and acoustic insulation behind a timeless exterior, ideal for this conservation-rich neighbourhood.",
     localFeatures: [
       "Georgian and Regency villas governed by the Dulwich Estate",
       "Victorian semi-detached houses on tree-lined avenues",
@@ -544,7 +544,7 @@ export const londonLocations: Location[] = [
       "Georgian terraces and crescents facing Blackheath common",
       "Victorian villas on the Cator Estate with wide entrance halls",
       "Edwardian houses near Blackheath village and the station",
-      "Span houses — mid-century modern homes by Eric Lyons",
+      "Span houses, mid-century modern homes by Eric Lyons",
     ],
     heroImage: "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
     galleryImages: [
@@ -563,7 +563,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Clapham has undergone a remarkable transformation, with its Victorian terraces now among the most sought-after properties south of the river. The streets surrounding Clapham Common — from Narbonne Avenue to Abbeville Road — feature classic London stock-brick houses with bay windows, tessellated paths, and period entrance doors. SteelR bespoke steel doors help Clapham homeowners stand out on the terrace, offering a premium alternative to mass-produced composite doors. Our designs range from faithful Victorian reproductions with stained glass panels to minimalist contemporary styles for loft conversions and side-return extensions.",
+      "Clapham has undergone a remarkable transformation, with its Victorian terraces now among the most sought-after properties south of the river. The streets surrounding Clapham Common, from Narbonne Avenue to Abbeville Road, feature classic London stock-brick houses with bay windows, tessellated paths, and period entrance doors. SteelR bespoke steel doors help Clapham homeowners stand out on the terrace, offering a premium alternative to mass-produced composite doors. Our designs range from faithful Victorian reproductions with stained glass panels to minimalist contemporary styles for loft conversions and side-return extensions.",
     localFeatures: [
       "Victorian terraced houses around Clapham Common's north side",
       "Edwardian family homes in the Abbeville Village conservation area",
@@ -587,7 +587,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Wandsworth offers exceptional value for families seeking spacious Victorian and Edwardian houses in south-west London. The Tonsleys, Heathfield, and Southfields areas feature generous bay-fronted properties with deep entrance recesses perfect for showcasing a premium steel door. SteelR doors add tangible value to Wandsworth homes, with estate agents frequently noting how a quality entrance door improves saleability. Our range includes everything from classic six-panel designs in heritage black to contemporary flush doors in anthracite grey — all engineered from galvanised steel for a lifetime of reliable performance.",
+      "Wandsworth offers exceptional value for families seeking spacious Victorian and Edwardian houses in south-west London. The Tonsleys, Heathfield, and Southfields areas feature generous bay-fronted properties with deep entrance recesses perfect for showcasing a premium steel door. SteelR doors add tangible value to Wandsworth homes, with estate agents frequently noting how a quality entrance door improves saleability. Our range includes everything from classic six-panel designs in heritage black to contemporary flush doors in anthracite grey, all engineered from galvanised steel for a lifetime of reliable performance.",
     localFeatures: [
       "Victorian terraces in the Tonsleys and Old York Road area",
       "Edwardian family houses around Wandsworth Common",
@@ -733,7 +733,7 @@ export const londonLocations: Location[] = [
     parentSlug: "london",
     tier: 3,
     description:
-      "Canary Wharf and the wider Docklands represent London's most ambitious contemporary development, where glass towers and modern townhouses line the former docks. The area's architecture is unashamedly modern, and SteelR's contemporary door range is the perfect complement — clean lines, flush panels, concealed hinges, and minimalist hardware in brushed stainless steel or matt black. Our doors also serve the growing number of converted warehouses and Georgian terraces in neighbouring Limehouse and the Isle of Dogs, where a blend of old and new creates exciting design opportunities.",
+      "Canary Wharf and the wider Docklands represent London's most ambitious contemporary development, where glass towers and modern townhouses line the former docks. The area's architecture is unashamedly modern, and SteelR's contemporary door range is the perfect complement, clean lines, flush panels, concealed hinges, and minimalist hardware in brushed stainless steel or matt black. Our doors also serve the growing number of converted warehouses and Georgian terraces in neighbouring Limehouse and the Isle of Dogs, where a blend of old and new creates exciting design opportunities.",
     localFeatures: [
       "Contemporary luxury apartments and penthouses in tower developments",
       "New-build townhouses along the dock edges",

@@ -10,12 +10,12 @@ const post: BlogPost = {
   category: "Technical",
   image: "/images/gallery/steelr-black-traditional-glazed-double.jpg",
   imageAlt:
-    "Black traditional steel entrance door with glazed panels — fire rated steel door suitable for residential and commercial applications",
+    "Black traditional steel entrance door with glazed panels, fire rated steel door suitable for residential and commercial applications",
   content: `## Why Fire Rated Front Doors Matter
 
-Fire safety in residential buildings is not optional. In the UK, fire rated front doors are a legal requirement in many property types, and the regulatory landscape has tightened significantly since the Grenfell Tower tragedy in 2017. Whether you are a property developer, architect or homeowner converting a property into flats, understanding **fire door regulations** is essential to compliance, insurance validity and — most importantly — occupant safety.
+Fire safety in residential buildings is not optional. In the UK, fire rated front doors are a legal requirement in many property types, and the regulatory landscape has tightened significantly since the Grenfell Tower tragedy in 2017. Whether you are a property developer, architect or homeowner converting a property into flats, understanding **fire door regulations** is essential to compliance, insurance validity and, most importantly, occupant safety.
 
-A fire rated door is engineered to resist the passage of fire and smoke for a certified period, giving occupants time to evacuate and fire services time to respond. The rating is not simply a label; it reflects rigorous testing under BS 476-22 or BS EN 1634-1 standards, where the complete door assembly — frame, leaf, glazing, seals and hardware — must perform as a system.
+A fire rated door is engineered to resist the passage of fire and smoke for a certified period, giving occupants time to evacuate and fire services time to respond. The rating is not simply a label; it reflects rigorous testing under BS 476-22 or BS EN 1634-1 standards, where the complete door assembly, frame, leaf, glazing, seals and hardware, must perform as a system.
 
 Fire rated front doors are one of the most critical passive fire safety measures in any building. They compartmentalise fire, prevent smoke spread and protect escape routes.
 
@@ -23,13 +23,13 @@ Fire rated front doors are one of the most critical passive fire safety measures
 
 The two most common fire ratings for residential doors in the UK are **FD30** and **FD60**. The number refers to the minimum time in minutes that the door assembly will maintain its integrity during a standard fire test.
 
-### FD30 — 30 Minutes Fire Resistance
+### FD30: 30 Minutes Fire Resistance
 
 FD30 doors provide thirty minutes of fire resistance. This is the standard requirement for flat entrance doors, doors opening onto communal corridors and doors between a dwelling and an integral garage. Most residential applications fall within the FD30 category.
 
-An FD30 door must be tested as a complete assembly. The door leaf alone is not sufficient — the frame, intumescent seals, hinges, lock and any glazing must all be included in the tested configuration. This is why purchasing a certified door set from a single manufacturer is far more reliable than assembling components from different suppliers.
+An FD30 door must be tested as a complete assembly. The door leaf alone is not sufficient, the frame, intumescent seals, hinges, lock and any glazing must all be included in the tested configuration. This is why purchasing a certified door set from a single manufacturer is far more reliable than assembling components from different suppliers.
 
-### FD60 — 60 Minutes Fire Resistance
+### FD60: 60 Minutes Fire Resistance
 
 FD60 doors provide sixty minutes of fire resistance and are required in higher-risk applications. These include doors in buildings over 30 metres in height (approximately 10 storeys), doors protecting firefighting shafts and lobbies, and certain commercial or mixed-use premises.
 
@@ -43,7 +43,7 @@ ADB sets out the requirements for fire doors in specific locations within a buil
 
 ### Flat Entrance Doors
 
-Every flat entrance door that opens onto a common area — a corridor, lobby or stairwell — must be a minimum **FD30S** rated door. The "S" suffix denotes that the door must also resist the passage of cold smoke, achieved through intumescent and smoke seals.
+Every flat entrance door that opens onto a common area, a corridor, lobby or stairwell, must be a minimum **FD30S** rated door. The "S" suffix denotes that the door must also resist the passage of cold smoke, achieved through intumescent and smoke seals.
 
 ### Doors to Protected Stairways
 
@@ -65,7 +65,7 @@ Key provisions relevant to fire rated doors include the creation of the Building
 
 The Act places a statutory duty on the "Accountable Person" (typically the building owner or management company) to assess and manage fire safety risks throughout the building's lifecycle. This includes ensuring that fire doors remain compliant, are properly maintained and are replaced when they no longer meet their rated performance.
 
-For developers and architects, the Act means that fire door specification is no longer a matter for the lowest bidder. There is a clear chain of responsibility, and the documentation trail — from specification through procurement to installation — must demonstrate compliance. Our [security specification](/security-specification) pages detail how SteelR doors meet and exceed these standards.
+For developers and architects, the Act means that fire door specification is no longer a matter for the lowest bidder. There is a clear chain of responsibility, and the documentation trail, from specification through procurement to installation, must demonstrate compliance. Our [security specification](/security-specification) pages detail how SteelR doors meet and exceed these standards.
 
 ## When Are Fire Rated Doors Legally Required?
 
@@ -85,7 +85,7 @@ All new residential developments must comply with the current edition of Approve
 
 ### Building Conversions
 
-Converting a building from one use to another — such as offices to residential — triggers a requirement to meet current Building Regulations. This often means installing fire rated doors throughout, even where the original building had no such provision. Understanding the requirements early in the project avoids delays during building control sign-off.
+Converting a building from one use to another, such as offices to residential, triggers a requirement to meet current Building Regulations. This often means installing fire rated doors throughout, even where the original building had no such provision. Understanding the requirements early in the project avoids delays during building control sign-off.
 
 ### Leaseholder Obligations
 
@@ -109,7 +109,7 @@ For FD30S and FD60S certification, a combination of intumescent strips and cold 
 
 ### Fire Rated Glazing
 
-Where glazing is specified in a fire rated door, it must be fire rated to match or exceed the door's rating. **Fire rated glass** — such as Pyroguard or Pilkington Pyrodur — is specially manufactured to maintain integrity and, in some cases, provide insulation during a fire. The glazing must be held in fire rated beading and sealed with intumescent glazing tape.
+Where glazing is specified in a fire rated door, it must be fire rated to match or exceed the door's rating. **Fire rated glass**, such as Pyroguard or Pilkington Pyrodur, is specially manufactured to maintain integrity and, in some cases, provide insulation during a fire. The glazing must be held in fire rated beading and sealed with intumescent glazing tape.
 
 Standard toughened or laminated glass is not fire rated and cannot be used in a fire door assembly, regardless of thickness. This is a common specification error that invalidates the entire door's fire rating.
 
@@ -125,7 +125,7 @@ The responsibility for fire door compliance sits firmly with the party specifyin
 
 For property developers, specifying [fire rated doors](/fire-rated-doors) from a manufacturer with **ISO 9001 certified** quality management and third-party fire test certification reduces risk substantially. SteelR's UK manufacturing facility operates under ISO 9001 with full traceability for every fire-rated doorset. A compliant door set arrives on site as a tested assembly, eliminating the need for on-site fabrication of fire-rated components.
 
-Architects and specifiers should request copies of the fire test report (not just a certificate) to verify that the door configuration being specified — including glazing type, glazing area, hardware positions and seal locations — matches the tested configuration. Any deviation from the tested specification invalidates the fire rating.
+Architects and specifiers should request copies of the fire test report (not just a certificate) to verify that the door configuration being specified, including glazing type, glazing area, hardware positions and seal locations, matches the tested configuration. Any deviation from the tested specification invalidates the fire rating.
 
 Learn more about [our process](/process) for manufacturing fire rated steel entrance doors to certified standards.
 
@@ -141,7 +141,7 @@ Several recurring errors compromise fire door performance in practice:
 
 **Removed self-closing devices** are frequently found on flat entrance doors where occupants find them inconvenient. A fire door without a functioning self-closer is not a fire door. Hold-open devices linked to the fire alarm system are the compliant alternative.
 
-**Unauthorised modifications** — drilling holes for cables, fitting non-fire-rated letterboxes or adding surface-mounted hardware not included in the test evidence — all compromise the rating.
+**Unauthorised modifications**, drilling holes for cables, fitting non-fire-rated letterboxes or adding surface-mounted hardware not included in the test evidence, all compromise the rating.
 
 ## Frequently Asked Questions
 

@@ -59,7 +59,7 @@ In our experience, homeowners who specify SR4 fall into four broad categories.
 
 If your property does not fit any of those categories, the LPS 1175 SR3 Enhanced upgrade tier is genuinely sufficient. Every SteelR door is BS EN 1627 RC4 certified as Standard, with SR3 available as the Enhanced upgrade tier where the threat profile or insurer requirement justifies it. SR3 is a serious certification in its own right.
 
-## SR3 vs SR4 — The Actual Difference
+## SR3 vs SR4, The Actual Difference
 
 At the risk of oversimplifying, the difference between SR3 and SR4 comes down to three variables.
 

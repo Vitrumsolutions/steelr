@@ -10,12 +10,12 @@ const post: BlogPost = {
   category: "Security",
   image: "/images/gallery/steelr-black-panelled-sidelights-palms.jpg",
   imageAlt:
-    "Black steel entrance door with panelled design and sidelights flanked by palms — high-security burglar-proof front door",
+    "Black steel entrance door with panelled design and sidelights flanked by palms, high-security burglar-proof front door",
   content: `## The Reality of UK Burglary in 2026
 
 The Office for National Statistics recorded approximately **280,000 domestic burglaries** in England and Wales in the year ending March 2025. While the overall trend has declined from its peak in the early 2000s, the nature of break-ins has shifted. Opportunistic forced entry through the front door remains the single most common method, accounting for around 70% of all domestic burglaries according to police crime data.
 
-For homeowners in affluent areas — particularly across [London](/areas/london), [Surrey](/areas/surrey) and [Hertfordshire](/areas/hertfordshire) — the risk profile is heightened. Properties displaying visible signs of wealth become targets, and professional burglary gangs increasingly operate in these regions using sophisticated reconnaissance techniques.
+For homeowners in affluent areas, particularly across [London](/areas/london), [Surrey](/areas/surrey) and [Hertfordshire](/areas/hertfordshire), the risk profile is heightened. Properties displaying visible signs of wealth become targets, and professional burglary gangs increasingly operate in these regions using sophisticated reconnaissance techniques.
 
 The front door is the most frequently targeted entry point in UK domestic burglaries, making it the single most important security investment a homeowner can make.
 
@@ -27,7 +27,7 @@ Understanding how forced entry works is essential to preventing it. The methods 
 
 ### Cylinder Snapping
 
-This is the most prevalent method of front door attack in the UK. Standard euro profile cylinders — the type fitted to the vast majority of composite and uPVC doors — can be snapped in under 10 seconds using nothing more than a pair of pliers or a mole wrench. Once the cylinder is broken, the locking mechanism can be manipulated from outside and the door opened without visible damage to the frame.
+This is the most prevalent method of front door attack in the UK. Standard euro profile cylinders, the type fitted to the vast majority of composite and uPVC doors, can be snapped in under 10 seconds using nothing more than a pair of pliers or a mole wrench. Once the cylinder is broken, the locking mechanism can be manipulated from outside and the door opened without visible damage to the frame.
 
 ### Lock Bumping and Picking
 
@@ -49,18 +49,18 @@ A truly burglar-proof front door is not defined by a single feature but by the i
 
 The door leaf itself must resist cutting, drilling and sustained impact. The hierarchy of residential door materials, ranked by security performance, is clear:
 
-- **uPVC** — weakest. Plastic frame flexes and splits under force
-- **Softwood timber** — splits around lock keeps and hinges
-- **Hardwood timber** — better, but still vulnerable to concentrated force
-- **Composite** — reinforced core with GRP skin offers good resistance
-- **Aluminium** — strong, but softer metal limits top-end performance
-- **Steel** — strongest residential door material available
+- **uPVC**, weakest. Plastic frame flexes and splits under force
+- **Softwood timber**, splits around lock keeps and hinges
+- **Hardwood timber**, better, but still vulnerable to concentrated force
+- **Composite**, reinforced core with GRP skin offers good resistance
+- **Aluminium**, strong, but softer metal limits top-end performance
+- **Steel**, strongest residential door material available
 
 Steel is the only residential door material capable of achieving **LPS 1175 SR3 certification** (the LPCB police-preferred rating). The Issue 8 test requires the door to withstand sustained attack using professional-grade tools (crowbars, drills and angle grinders) for a minimum of five minutes. Every SteelR door is BS EN 1627 RC4 certified as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier on every door. For a comprehensive breakdown, see our [security overview](/security).
 
 ### Multi-Point Locking Systems
 
-A single deadbolt offers a single point of failure. **Multi-point locking** engages the door at multiple positions along the frame — typically five, seven or more locking points distributed across the full height. This distributes force across the entire frame perimeter, making concentrated attack far more difficult.
+A single deadbolt offers a single point of failure. **Multi-point locking** engages the door at multiple positions along the frame, typically five, seven or more locking points distributed across the full height. This distributes force across the entire frame perimeter, making concentrated attack far more difficult.
 
 The best systems combine hook bolts, deadbolts and roller cams to create a locking profile that resists both lateral force and vertical lever attacks.
 
@@ -70,7 +70,7 @@ The locking cylinder must be rated to resist all common attack methods. Look for
 
 ### Reinforced Frames and Fixings
 
-A strong door in a weak frame offers no security. The frame must be anchored into the structural opening with **heavy-gauge fixings** — not the plastic plugs and short screws commonly used in mass-market installations. Steel frames welded to the door assembly create a monolithic unit that cannot be separated under attack.
+A strong door in a weak frame offers no security. The frame must be anchored into the structural opening with **heavy-gauge fixings**, not the plastic plugs and short screws commonly used in mass-market installations. Steel frames welded to the door assembly create a monolithic unit that cannot be separated under attack.
 
 ### Anti-Lift Hinges
 
@@ -78,17 +78,17 @@ Standard hinges can be attacked by lifting the door off its pins from the hinge 
 
 ### Glazing Specification
 
-If glazed panels are present, the glass must be **laminated security glass** — not standard toughened glass, which shatters into granules and creates an immediate opening. Laminated glass holds together when struck, requiring sustained and noisy attack to penetrate. For the highest security, look for glazing tested to EN 356 class P6B or above.
+If glazed panels are present, the glass must be **laminated security glass**, not standard toughened glass, which shatters into granules and creates an immediate opening. Laminated glass holds together when struck, requiring sustained and noisy attack to penetrate. For the highest security, look for glazing tested to EN 356 class P6B or above.
 
 ## Security Ratings: The Complete Hierarchy
 
 The European standard **BS EN 1627:2011** provides the definitive framework for door security classification. Understanding this hierarchy is essential when evaluating any door marketed as burglar-proof.
 
-### PAS 24 — The Regulatory Minimum
+### PAS 24: The Regulatory Minimum
 
-PAS 24 is required by Approved Document Q of the Building Regulations for new dwellings. It tests resistance to basic tools — screwdrivers, pliers, small wedges — for approximately three minutes. PAS 24 represents the minimum legal requirement, not a meaningful security benchmark. Most composite and aluminium doors achieve this level.
+PAS 24 is required by Approved Document Q of the Building Regulations for new dwellings. It tests resistance to basic tools, screwdrivers, pliers, small wedges, for approximately three minutes. PAS 24 represents the minimum legal requirement, not a meaningful security benchmark. Most composite and aluminium doors achieve this level.
 
-### SR2 (RC2) — Enhanced Security
+### SR2 (RC2): Enhanced Security
 
 SR2 tests resistance to simple hand tools for three minutes under the European standard. It is a step above PAS 24 but still represents a relatively modest attack scenario. Premium aluminium doors and some reinforced composite doors achieve SR2.
 
@@ -100,7 +100,7 @@ LPS 1175 SR3 is the highest residential security rating routinely specified outs
 
 Full technical details of SR3 testing protocols and what they mean in practice are available on our [security specification](/security-specification) page.
 
-### SR4 and SR5 — Commercial and Government
+### SR4 and SR5: Commercial and Government
 
 SR4 and SR5 involve power tools and extended attack durations of 10 and 15 minutes respectively. These ratings apply to government buildings, embassies and high-security commercial premises. They are not standard residential specifications, though bespoke solutions can be engineered on request.
 
@@ -136,13 +136,13 @@ Standard letterplates positioned near the lock allow tool insertion for fishing 
 
 ### Single-Point Locks
 
-Older properties frequently have doors secured with a single night latch or mortice deadlock. These offer a single point of resistance that concentrates all force in one location — the area most likely to fail under attack.
+Older properties frequently have doors secured with a single night latch or mortice deadlock. These offer a single point of resistance that concentrates all force in one location, the area most likely to fail under attack.
 
 ## Insurance Implications
 
 Home insurance is increasingly linked to door security. Many insurers now specify minimum security standards for external doors, and failing to meet these can result in voided claims or increased premiums.
 
-**British Standard locks** (BS 3621) have been the traditional insurance requirement, but the industry is moving towards specifying PAS 24 or SR-rated doors as a complete system rather than focusing on the lock alone. Properties in higher-risk areas — including parts of [London](/areas/london), [Surrey](/areas/surrey) and [Hertfordshire](/areas/hertfordshire) — may face specific insurer requirements for enhanced security.
+**British Standard locks** (BS 3621) have been the traditional insurance requirement, but the industry is moving towards specifying PAS 24 or SR-rated doors as a complete system rather than focusing on the lock alone. Properties in higher-risk areas, including parts of [London](/areas/london), [Surrey](/areas/surrey) and [Hertfordshire](/areas/hertfordshire), may face specific insurer requirements for enhanced security.
 
 Installing an SR3-rated, Secured by Design accredited door provides the strongest possible position when making an insurance claim following an attempted break-in. It demonstrates that the homeowner took all reasonable steps to secure the property.
 
@@ -161,7 +161,7 @@ For high-value properties, crime prevention officers increasingly recommend SR3-
 
 ## Why Steel Doors Lead the Field
 
-When every component is considered as a system — material strength, frame integrity, locking specification, hinge security and glazing performance — steel is the only material that delivers uncompromised performance across all criteria.
+When every component is considered as a system, material strength, frame integrity, locking specification, hinge security and glazing performance, steel is the only material that delivers uncompromised performance across all criteria.
 
 SteelR doors are manufactured under **ISO 9001** quality management, BS EN 1627:2011 RC4 certified as Standard with LPS 1175 SR3 Enhanced upgrade available, and carry Secured by Design accreditation. Every door is built to order with the [full RAL colour range](/collection) available, ensuring that uncompromising security does not require compromise on design.
 
@@ -171,7 +171,7 @@ A bespoke steel entrance door is the most effective single upgrade for residenti
 
 ### What is the most burglar-proof front door material?
 
-Steel is the most secure residential front door material available. It is the only residential material capable of achieving LPS 1175 SR3 certification (the LPCB police-preferred rating), which tests resistance to sustained attack with professional tools including crowbars, drills and angle grinders. No other residential door material — including composite, aluminium or timber — can match this level of performance.
+Steel is the most secure residential front door material available. It is the only residential material capable of achieving LPS 1175 SR3 certification (the LPCB police-preferred rating), which tests resistance to sustained attack with professional tools including crowbars, drills and angle grinders. No other residential door material, including composite, aluminium or timber, can match this level of performance.
 
 ### Are composite doors burglar-proof?
 
@@ -187,7 +187,7 @@ Many home insurers offer reduced premiums for properties with enhanced security 
 
 ### How much does a burglar-proof steel front door cost?
 
-Bespoke steel entrance doors with SR3 certification typically represent a significant investment compared to mass-market alternatives. However, the cost should be weighed against the security performance, longevity and the potential impact on insurance premiums and property value. Every door is built to individual specification — [request an estimate](/design-estimate) for accurate pricing based on your requirements.
+Bespoke steel entrance doors with SR3 certification typically represent a significant investment compared to mass-market alternatives. However, the cost should be weighed against the security performance, longevity and the potential impact on insurance premiums and property value. Every door is built to individual specification, [request an estimate](/design-estimate) for accurate pricing based on your requirements.
 
 ### Do I need planning permission to install a burglar-proof door?
 

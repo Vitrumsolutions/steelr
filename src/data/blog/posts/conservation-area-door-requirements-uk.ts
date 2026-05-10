@@ -10,12 +10,12 @@ const post: BlogPost = {
   category: "Guides",
   image: "/images/gallery/steelr-black-traditional-stained-glass.jpg",
   imageAlt:
-    "Black traditional steel entrance door with stained glass panels — conservation area compliant door design",
+    "Black traditional steel entrance door with stained glass panels, conservation area compliant door design",
   content: `## What Is a Conservation Area?
 
 A **conservation area** is an area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance. Local planning authorities in England and Wales have designated over **10,000 conservation areas** across the country, covering everything from medieval town centres to Victorian suburbs and garden villages.
 
-If your property is located within a conservation area, certain changes to the external appearance of your home — including replacing the front door — may require **planning permission**. Understanding these requirements before you begin is essential to avoid costly mistakes and potential enforcement action.
+If your property is located within a conservation area, certain changes to the external appearance of your home, including replacing the front door, may require **planning permission**. Understanding these requirements before you begin is essential to avoid costly mistakes and potential enforcement action.
 
 ## Do You Need Planning Permission to Replace a Front Door in a Conservation Area?
 
@@ -23,7 +23,7 @@ The answer depends on several factors, and the rules differ slightly between Eng
 
 **Permitted development** normally allows homeowners to make minor alterations to their property without planning permission, provided the changes do not materially affect the external appearance of the building. Replacing a front door with one of a similar style, material appearance and colour may fall within permitted development rights.
 
-However, **Article 4 directions** can remove permitted development rights in conservation areas. Many local authorities have applied Article 4 directions specifically to control changes to front elevations — including doors, windows, paint colours and boundary treatments. Where an Article 4 direction applies, you will need **planning permission** even for a like-for-like replacement.
+However, **Article 4 directions** can remove permitted development rights in conservation areas. Many local authorities have applied Article 4 directions specifically to control changes to front elevations, including doors, windows, paint colours and boundary treatments. Where an Article 4 direction applies, you will need **planning permission** even for a like-for-like replacement.
 
 ### How to Check
 
@@ -39,10 +39,10 @@ When assessing a planning application for a new front door in a conservation are
 
 The door design should be appropriate to the architectural period of the property. A Georgian townhouse in [Kensington](/areas/kensington) or [Chelsea](/areas/chelsea) requires a different approach to a Victorian villa in [Dulwich](/areas/dulwich) or an Edwardian semi in [Cambridge](/areas/cambridge).
 
-- **Panel configuration** — the number and arrangement of panels should reflect the original design or an appropriate period alternative
-- **Moulding profiles** — the depth and style of panel mouldings should be consistent with the architectural period
-- **Glazing patterns** — any glazed panels should use appropriate glazing bar patterns and glass types
-- **Proportions** — the overall height-to-width ratio and the position of the door within the opening must respect the original design intent
+- **Panel configuration**, the number and arrangement of panels should reflect the original design or an appropriate period alternative
+- **Moulding profiles**, the depth and style of panel mouldings should be consistent with the architectural period
+- **Glazing patterns**, any glazed panels should use appropriate glazing bar patterns and glass types
+- **Proportions**, the overall height-to-width ratio and the position of the door within the opening must respect the original design intent
 
 ### Materials and Finish
 
@@ -64,10 +64,10 @@ With access to the full **RAL Classic range** of over 200 colours, a bespoke ste
 
 Period-appropriate ironmongery is important for a successful application:
 
-- **Knockers** — traditional lion head or ring knockers in brass, bronze or black finishes
-- **Letter plates** — horizontal designs in a matching finish
-- **Handles** — lever handles or knob handles appropriate to the period
-- **Numerals** — individual numerals rather than modern number plaques
+- **Knockers**, traditional lion head or ring knockers in brass, bronze or black finishes
+- **Letter plates**, horizontal designs in a matching finish
+- **Handles**, lever handles or knob handles appropriate to the period
+- **Numerals**, individual numerals rather than modern number plaques
 
 ## Conservation Areas Across the UK
 
@@ -81,21 +81,21 @@ Conservation areas exist in virtually every town and city in the United Kingdom.
 
 Cities with rich architectural heritage have particularly extensive conservation area coverage:
 
-- [Bath](/areas/bath) — the entire city centre is a UNESCO World Heritage Site, with stringent controls on external alterations to its famous Georgian terraces
-- [Oxford](/areas/oxford) — the historic core and surrounding residential areas are heavily designated, with particular sensitivity to changes on principal elevations
-- [York](/areas/york) — the medieval and Georgian city centre has some of the most detailed conservation area guidance in the country
-- [Edinburgh](/areas/edinburgh) — the New Town and Old Town World Heritage Site imposes rigorous standards on all external alterations
-- [Cambridge](/areas/cambridge) — the historic centre and surrounding residential streets are subject to careful conservation control
-- [Cheltenham](/areas/cheltenham) — the Regency architecture of this Cotswold spa town is protected by extensive conservation area coverage
-- [Chichester](/areas/chichester) — the Georgian and medieval city centre requires sympathetic treatment of all external elements
+- [Bath](/areas/bath), the entire city centre is a UNESCO World Heritage Site, with stringent controls on external alterations to its famous Georgian terraces
+- [Oxford](/areas/oxford), the historic core and surrounding residential areas are heavily designated, with particular sensitivity to changes on principal elevations
+- [York](/areas/york), the medieval and Georgian city centre has some of the most detailed conservation area guidance in the country
+- [Edinburgh](/areas/edinburgh), the New Town and Old Town World Heritage Site imposes rigorous standards on all external alterations
+- [Cambridge](/areas/cambridge), the historic centre and surrounding residential streets are subject to careful conservation control
+- [Cheltenham](/areas/cheltenham), the Regency architecture of this Cotswold spa town is protected by extensive conservation area coverage
+- [Chichester](/areas/chichester), the Georgian and medieval city centre requires sympathetic treatment of all external elements
 
 ### Market Towns
 
 Attractive market towns across the Home Counties and beyond have significant conservation area coverage:
 
-- [St Albans](/areas/st-albans) — the medieval and Georgian town centre and surrounding Victorian suburbs
-- [Winchester](/areas/winchester) — Hampshire's historic county town with extensive conservation area designations
-- [Tunbridge Wells](/areas/tunbridge-wells) — the Pantiles and surrounding Georgian and Victorian residential areas
+- [St Albans](/areas/st-albans), the medieval and Georgian town centre and surrounding Victorian suburbs
+- [Winchester](/areas/winchester), Hampshire's historic county town with extensive conservation area designations
+- [Tunbridge Wells](/areas/tunbridge-wells), the Pantiles and surrounding Georgian and Victorian residential areas
 
 ## Tips for a Successful Conservation Area Door Application
 
@@ -123,9 +123,9 @@ If neighbouring properties have successfully replaced their doors with modern ma
 
 ## How SteelR Supports Conservation Area Projects
 
-At SteelR, we have extensive experience designing and manufacturing bespoke steel entrance doors for properties in conservation areas across the UK — from the Georgian terraces of [Bath](/areas/bath) to the Victorian streets of [Kensington](/areas/kensington). Our design team works closely with homeowners and, where required, with conservation officers to ensure every door meets the specific requirements of the local planning authority.
+At SteelR, we have extensive experience designing and manufacturing bespoke steel entrance doors for properties in conservation areas across the UK, from the Georgian terraces of [Bath](/areas/bath) to the Victorian streets of [Kensington](/areas/kensington). Our design team works closely with homeowners and, where required, with conservation officers to ensure every door meets the specific requirements of the local planning authority.
 
-Every SteelR door is manufactured to order, which means we can replicate any period design — panel layouts, moulding profiles, glazing patterns and proportions — with complete accuracy. Combined with SR3 security, Secured by Design accreditation and ISO 9001 certified quality management, a SteelR door delivers heritage aesthetics with modern performance that a traditional timber door simply cannot match. [Contact us](/contact) to discuss your conservation area project.
+Every SteelR door is manufactured to order, which means we can replicate any period design, panel layouts, moulding profiles, glazing patterns and proportions, with complete accuracy. Combined with SR3 security, Secured by Design accreditation and ISO 9001 certified quality management, a SteelR door delivers heritage aesthetics with modern performance that a traditional timber door simply cannot match. [Contact us](/contact) to discuss your conservation area project.
 
 ## Frequently Asked Questions
 

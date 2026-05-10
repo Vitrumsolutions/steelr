@@ -10,10 +10,10 @@ const post: BlogPost = {
   category: "Guides",
   image: "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg",
   imageAlt:
-    "Navy panelled steel entrance door with lanterns and fanlight — spring home improvement front door upgrade",
+    "Navy panelled steel entrance door with lanterns and fanlight, spring home improvement front door upgrade",
   content: `## Why Spring Is the Right Time to Upgrade Your Front Door
 
-Every spring, homeowners across the UK turn their attention to the house. The longer days reveal what winter has hidden — peeling paint, tired facades, draughty thresholds and front doors that no longer represent the quality of the home behind them.
+Every spring, homeowners across the UK turn their attention to the house. The longer days reveal what winter has hidden, peeling paint, tired facades, draughty thresholds and front doors that no longer represent the quality of the home behind them.
 
 Most people start with the garden, the driveway or the windows. The front door is often left until last, treated as a functional item rather than a design and security priority. This is a mistake, and not a small one.
 
@@ -27,7 +27,7 @@ Here is why spring is the optimal moment to act, and what the process looks like
 
 Door replacement requires your property to be open to the elements during installation. In spring, temperatures are mild, rainfall is typically manageable, and the risk of extreme weather disrupting the installation is low. Summer bookings fill quickly, and by autumn the weather window is closing. Winter installation is possible but less comfortable for everyone involved.
 
-A spring enquiry also positions you well in the manufacturing queue. Bespoke entrance doors are not off-the-shelf products — they are designed, engineered and manufactured individually. Starting the conversation in spring means your door can be installed before the summer, when you are most likely to be using your garden, entertaining guests and enjoying your home.
+A spring enquiry also positions you well in the manufacturing queue. Bespoke entrance doors are not off-the-shelf products, they are designed, engineered and manufactured individually. Starting the conversation in spring means your door can be installed before the summer, when you are most likely to be using your garden, entertaining guests and enjoying your home.
 
 ### The Property Market Season
 
@@ -39,7 +39,7 @@ Even if you are not selling, spring viewings from neighbours and passers-by mean
 
 Bespoke steel entrance doors involve a multi-stage process: design consultation, technical survey, manufacture, finishing and installation. The typical timeline from initial enquiry to completed installation is 8 to 14 weeks, depending on the complexity of the design and any structural considerations.
 
-Starting in spring means installation in late spring or early summer — the most practical and pleasant time of year for the work. Leaving the enquiry until summer often means an autumn installation, and waiting until autumn risks pushing into winter.
+Starting in spring means installation in late spring or early summer, the most practical and pleasant time of year for the work. Leaving the enquiry until summer often means an autumn installation, and waiting until autumn risks pushing into winter.
 
 ## The ROI of a Front Door Upgrade
 
@@ -49,7 +49,7 @@ Home improvement ROI is notoriously difficult to measure precisely, but the data
 
 Research from estate agents and property portals consistently shows that a high-quality front door adds between 4% and 10% to a property's perceived value. On a property valued at £750,000, that represents £30,000 to £75,000 in perceived value from a single upgrade.
 
-The key word is "perceived" — the front door does not change the square footage or the number of bedrooms. It changes how the property is experienced. **First impressions are formed in the first seven seconds of approaching a property, and the front door dominates that impression.** A bespoke steel entrance door signals quality, permanence and attention to detail in a way that no other external feature can.
+The key word is "perceived", the front door does not change the square footage or the number of bedrooms. It changes how the property is experienced. **First impressions are formed in the first seven seconds of approaching a property, and the front door dominates that impression.** A bespoke steel entrance door signals quality, permanence and attention to detail in a way that no other external feature can.
 
 ### The Kerb Appeal Premium
 
@@ -65,11 +65,11 @@ Spring is when many homeowners review their security arrangements. Longer evenin
 
 ### What to Assess
 
-**The door itself** — does it meet current security standards? Doors manufactured before 2015 may pre-date PAS 24:2016 requirements. Older composite and timber doors may have degraded locking mechanisms, worn weatherseals and frames that have moved over time, creating vulnerable gaps.
+**The door itself**, does it meet current security standards? Doors manufactured before 2015 may pre-date PAS 24:2016 requirements. Older composite and timber doors may have degraded locking mechanisms, worn weatherseals and frames that have moved over time, creating vulnerable gaps.
 
-**The locking system** — multi-point locking is now the minimum expectation for any entrance door. Single-point deadlocks offer significantly less resistance to forced entry. Check whether your existing lock cylinders are anti-snap, anti-bump and anti-pick rated.
+**The locking system**, multi-point locking is now the minimum expectation for any entrance door. Single-point deadlocks offer significantly less resistance to forced entry. Check whether your existing lock cylinders are anti-snap, anti-bump and anti-pick rated.
 
-**The frame** — the most secure door is only as strong as its frame. Timber frames rot, composite frames can warp, and poorly fitted frames create leverage points that a burglar can exploit. Steel frames, integrated as part of a complete doorset, eliminate these vulnerabilities.
+**The frame**, the most secure door is only as strong as its frame. Timber frames rot, composite frames can warp, and poorly fitted frames create leverage points that a burglar can exploit. Steel frames, integrated as part of a complete doorset, eliminate these vulnerabilities.
 
 **The certification.** Does your current door carry any independently verified security certification? PAS 24 is the regulatory minimum for new builds. The SteelR ladder runs four tiers: **BS EN 1627:2011 RC4 as Standard** (every door), **LPS 1175 SR3** as the Enhanced upgrade, **LPS 1175 SR4 (D10 Issue 8)** as the Commercial-grade upgrade, and **LPS 1673** attack-resistance available by enquiry. Every door in [the SteelR collection](/collection) is RC4 certified as the baseline.
 
@@ -77,13 +77,13 @@ For a complete overview of security ratings and what they mean in practice, see 
 
 ### Secured by Design
 
-If security is a priority — and for any property of significant value, it should be — look for **Secured by Design** accreditation. This is the official UK police security initiative, awarded only to products that meet independently verified security standards and are assessed within the context of the complete doorset, not just the door leaf in isolation.
+If security is a priority, and for any property of significant value, it should be, look for **Secured by Design** accreditation. This is the official UK police security initiative, awarded only to products that meet independently verified security standards and are assessed within the context of the complete doorset, not just the door leaf in isolation.
 
 A Secured by Design entrance door is a meaningful deterrent. Research shows that developments built to Secured by Design standards experience up to 75% less burglary than equivalent developments without the accreditation.
 
 ## Energy Efficiency: Practical Improvements
 
-A front door upgrade is one of the simplest ways to improve a property's thermal envelope. Older doors — particularly timber doors with single glazing and worn weatherseals — can be responsible for significant heat loss.
+A front door upgrade is one of the simplest ways to improve a property's thermal envelope. Older doors, particularly timber doors with single glazing and worn weatherseals, can be responsible for significant heat loss.
 
 ### The Numbers
 
@@ -115,7 +115,7 @@ This survey is essential. Bespoke doors are manufactured to the exact dimensions
 
 With survey data in hand, the design is finalised. You approve the panel configuration, colour (from the **full RAL range**), glazing specification, hardware selection and any special requirements. The door enters manufacture at SteelR's UK facility under **ISO 9001** certified quality management.
 
-Manufacturing time for a bespoke steel entrance door is typically 6 to 10 weeks, depending on complexity. During this period, any preparatory work at the property — structural adjustments, lintel modifications, decorative surround work — can be completed.
+Manufacturing time for a bespoke steel entrance door is typically 6 to 10 weeks, depending on complexity. During this period, any preparatory work at the property, structural adjustments, lintel modifications, decorative surround work, can be completed.
 
 ### Step 4: Professional Installation
 
@@ -135,7 +135,7 @@ Here is a realistic timeline for a spring 2026 enquiry:
 - **Week 5-14:** Manufacture (6-10 weeks depending on specification)
 - **Week 14-15:** Delivery and installation
 
-**A spring enquiry in April or May typically results in a completed installation by July or August** — in time to enjoy your new entrance through the summer and have it in place before the property market's autumn viewing season.
+**A spring enquiry in April or May typically results in a completed installation by July or August**, in time to enjoy your new entrance through the summer and have it in place before the property market's autumn viewing season.
 
 ## Common Questions Homeowners Ask in Spring
 
@@ -161,7 +161,7 @@ In most cases, yes. Front door replacement falls within permitted development ri
 
 ### How long does a front door installation take?
 
-A standard single door installation is typically completed within one day. More complex configurations — doors with sidelights, fanlights, structural modifications or non-standard openings — may require two days. The installation team will confirm the expected duration during the scheduling process.
+A standard single door installation is typically completed within one day. More complex configurations, doors with sidelights, fanlights, structural modifications or non-standard openings, may require two days. The installation team will confirm the expected duration during the scheduling process.
 
 ### Will my home be secure during the installation?
 

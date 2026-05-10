@@ -10,12 +10,12 @@ const post: BlogPost = {
   category: "Technical",
   image: "/images/gallery/steelr-grey-contemporary-horizontal-slots.jpg",
   imageAlt:
-    "Grey contemporary steel entrance door with horizontal slot detailing — thermally efficient design",
+    "Grey contemporary steel entrance door with horizontal slot detailing, thermally efficient design",
   content: `## The Thermal Performance Question
 
-Steel is an excellent conductor of heat. That single fact has historically been the primary objection raised against steel entrance doors by architects, specifiers and homeowners alike. If steel conducts heat so efficiently, surely a steel door must be a thermal liability — cold to the touch in winter, a source of heat loss, a condensation risk.
+Steel is an excellent conductor of heat. That single fact has historically been the primary objection raised against steel entrance doors by architects, specifiers and homeowners alike. If steel conducts heat so efficiently, surely a steel door must be a thermal liability, cold to the touch in winter, a source of heat loss, a condensation risk.
 
-The reality is considerably more nuanced. Modern bespoke steel entrance doors employ sophisticated engineering to deliver thermal performance that meets and exceeds current Building Regulations. Understanding how this is achieved — and what the numbers actually mean — is essential for anyone specifying a premium entrance door.
+The reality is considerably more nuanced. Modern bespoke steel entrance doors employ sophisticated engineering to deliver thermal performance that meets and exceeds current Building Regulations. Understanding how this is achieved, and what the numbers actually mean, is essential for anyone specifying a premium entrance door.
 
 ## What U-Values Mean in Practice
 
@@ -33,7 +33,7 @@ For context, a single-glazed window has a U-value of approximately 5.0 W/m2K. A 
 
 For replacement doors in existing dwellings, Part L specifies a maximum U-value of **1.8 W/m2K**. For new-build properties, the whole-dwelling energy calculation typically drives the requirement lower, and most SAP assessors work to a target of **1.4 W/m2K** or better for external doors.
 
-It is worth noting that Part L applies to the **complete doorset** — door leaf, frame, glazing and threshold combined. A door leaf with an excellent U-value can be undermined by a thermally bridging frame or an uninsulated threshold. The tested U-value must reflect the installed assembly. The SteelR [process](/process) ensures that every component is specified to work as a thermal system, not a collection of individual parts.
+It is worth noting that Part L applies to the **complete doorset**, door leaf, frame, glazing and threshold combined. A door leaf with an excellent U-value can be undermined by a thermally bridging frame or an uninsulated threshold. The tested U-value must reflect the installed assembly. The SteelR [process](/process) ensures that every component is specified to work as a thermal system, not a collection of individual parts.
 
 Scotland, Wales and Northern Ireland have their own equivalent regulations, but the principles and target values are broadly similar. The direction of travel across all UK jurisdictions is towards lower U-values and higher thermal performance.
 
@@ -53,31 +53,31 @@ The choice between insulation materials is a function of the door's overall spec
 
 **Thermal breaks** are the critical innovation that transformed steel door performance. Without them, the steel frame acts as a direct thermal bridge, conducting heat from the warm interior face to the cold exterior face and bypassing the insulated core entirely.
 
-A thermal break is a section of low-conductivity material — typically **polyamide (nylon 6.6)** — inserted into the frame profile to physically separate the interior and exterior steel sections. The polyamide has a thermal conductivity of approximately 0.25 W/mK, compared to steel's 50 W/mK. That 200-fold reduction in conductivity eliminates the thermal bridge.
+A thermal break is a section of low-conductivity material, typically **polyamide (nylon 6.6)**, inserted into the frame profile to physically separate the interior and exterior steel sections. The polyamide has a thermal conductivity of approximately 0.25 W/mK, compared to steel's 50 W/mK. That 200-fold reduction in conductivity eliminates the thermal bridge.
 
-Modern thermally broken steel frames achieve frame U-values below 2.0 W/m2K — a dramatic improvement over non-thermally-broken frames, which can exceed 5.0 W/m2K. The thermal break also prevents the interior frame surface from reaching dew point, which is the primary mechanism for condensation prevention.
+Modern thermally broken steel frames achieve frame U-values below 2.0 W/m2K, a dramatic improvement over non-thermally-broken frames, which can exceed 5.0 W/m2K. The thermal break also prevents the interior frame surface from reaching dew point, which is the primary mechanism for condensation prevention.
 
 ### Perimeter Sealing and Draught Exclusion
 
 The third thermal element is the **sealing system** around the door perimeter. Even a perfectly insulated door leaf in a thermally broken frame will perform poorly if air can infiltrate around the edges.
 
-Premium steel entrance doors use **double or triple compression seals** around the full perimeter — top, sides and threshold. These seals compress when the door closes, creating an airtight barrier against draughts and driven rain. The seals are typically EPDM rubber, which maintains its elasticity and compression recovery over decades of use.
+Premium steel entrance doors use **double or triple compression seals** around the full perimeter, top, sides and threshold. These seals compress when the door closes, creating an airtight barrier against draughts and driven rain. The seals are typically EPDM rubber, which maintains its elasticity and compression recovery over decades of use.
 
-The threshold is often the weakest point thermally. A poorly designed threshold creates a cold bridge at floor level and allows draughts to enter beneath the door. Insulated thresholds with integrated draught seals and a thermal break between the internal and external sections are essential for achieving low overall U-values. Homeowners across [Manchester](/areas/manchester), [Yorkshire](/areas/yorkshire) and [Cheshire](/areas/cheshire) — regions with sustained cold winters — find that threshold performance is particularly noticeable in daily comfort.
+The threshold is often the weakest point thermally. A poorly designed threshold creates a cold bridge at floor level and allows draughts to enter beneath the door. Insulated thresholds with integrated draught seals and a thermal break between the internal and external sections are essential for achieving low overall U-values. Homeowners across [Manchester](/areas/manchester), [Yorkshire](/areas/yorkshire) and [Cheshire](/areas/cheshire), regions with sustained cold winters, find that threshold performance is particularly noticeable in daily comfort.
 
 ## How Steel Compares to Other Door Materials
 
 Thermal performance varies significantly between door materials. The following comparison uses typical U-values for complete doorsets (not just the door leaf):
 
-### Timber Doors: 1.4–2.0 W/m2K
+### Timber Doors: 1.4 to 2.0 W/m2K
 
 Solid hardwood doors benefit from timber's naturally low thermal conductivity (approximately 0.14 W/mK for oak). A 44mm solid oak door achieves a leaf U-value of around 2.5 W/m2K without additional insulation. Thicker doors and those with insulated cores perform better. However, timber frames are prone to swelling and shrinking with humidity changes, which degrades seal performance over time and increases air infiltration.
 
-### Composite Doors: 1.0–1.6 W/m2K
+### Composite Doors: 1.0 to 1.6 W/m2K
 
-Composite doors with insulating foam cores and GRP skins offer good thermal performance out of the box. The best composite doors achieve U-values around 1.0 W/m2K. Their weakness is structural — the foam core provides insulation but limited strength, which is why composite doors cannot achieve the higher security ratings. The trade-off between thermal and security performance is inherent to the material.
+Composite doors with insulating foam cores and GRP skins offer good thermal performance out of the box. The best composite doors achieve U-values around 1.0 W/m2K. Their weakness is structural, the foam core provides insulation but limited strength, which is why composite doors cannot achieve the higher security ratings. The trade-off between thermal and security performance is inherent to the material.
 
-### Aluminium Doors: 1.2–2.2 W/m2K
+### Aluminium Doors: 1.2 to 2.2 W/m2K
 
 Aluminium, like steel, is a high-conductivity metal that requires thermal breaks. Thermally broken aluminium doors achieve respectable U-values, typically between 1.2 and 1.8 W/m2K. Aluminium's lower density means thinner frame sections, which can limit the depth of thermal break and insulation achievable. Premium aluminium systems perform well but sit below the best steel and composite doors on pure thermal metrics.
 
@@ -101,9 +101,9 @@ The only areas where condensation may occur are at glazed panels (if the glass U
 
 While U-values measure steady-state heat loss, the **overall energy impact** of an entrance door depends on several additional factors:
 
-- **Air permeability** — how much air leaks through and around the closed door, measured in m3/h/m2 at 50 Pa. A well-sealed steel door achieves air permeability below 1.0 m3/h/m2, significantly better than the Part L requirement
-- **Solar gain** — glazed panels can contribute useful solar heat gain in south-facing orientations, partially offsetting conductive losses
-- **Thermal mass** — steel's thermal mass means the door absorbs and releases heat gradually, moderating temperature fluctuations at the entrance
+- **Air permeability**, how much air leaks through and around the closed door, measured in m3/h/m2 at 50 Pa. A well-sealed steel door achieves air permeability below 1.0 m3/h/m2, significantly better than the Part L requirement
+- **Solar gain**, glazed panels can contribute useful solar heat gain in south-facing orientations, partially offsetting conductive losses
+- **Thermal mass**, steel's thermal mass means the door absorbs and releases heat gradually, moderating temperature fluctuations at the entrance
 
 For SAP calculations on new builds, the entrance door U-value is entered into the energy model alongside all other building elements. A door achieving 1.0 W/m2K versus the Part L maximum of 1.8 W/m2K contributes measurably to the overall dwelling emission rate and can provide headroom for less efficient elements elsewhere in the design.
 
@@ -113,12 +113,12 @@ Architects and specifiers working with SteelR appreciate that a high-performance
 
 When specifying a steel entrance door for thermal performance, the following points should be confirmed with the manufacturer:
 
-- **Tested U-value for the complete doorset**, not just the door leaf — request the BS EN ISO 10077-1 calculation or BS EN 12412-2 hot box test certificate
-- **Thermal break material and depth** — polyamide breaks of 24mm or greater deliver the best frame performance
-- **Core material and thickness** — mineral wool or polyurethane foam at 44mm minimum, 60mm preferred
-- **Seal system** — double compression seals minimum, triple preferred
-- **Threshold specification** — insulated with integrated thermal break
-- **Glazing U-value** — matched to the overall doorset target, with warm-edge spacers
+- **Tested U-value for the complete doorset**, not just the door leaf, request the BS EN ISO 10077-1 calculation or BS EN 12412-2 hot box test certificate
+- **Thermal break material and depth**, polyamide breaks of 24mm or greater deliver the best frame performance
+- **Core material and thickness**, mineral wool or polyurethane foam at 44mm minimum, 60mm preferred
+- **Seal system**, double compression seals minimum, triple preferred
+- **Threshold specification**, insulated with integrated thermal break
+- **Glazing U-value**, matched to the overall doorset target, with warm-edge spacers
 
 A steel entrance door that meets SR3 security, achieves a U-value comfortably below the 1.8 W/m2K Part L maximum (with thermal-upgrade options as low as 0.8 W/m2K), carries Secured by Design accreditation and is manufactured under ISO 9001 quality management represents the most complete specification available for a UK residential entrance door. It addresses security, thermal performance, quality assurance and police-approved standards in a single product.
 
