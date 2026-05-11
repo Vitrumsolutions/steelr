@@ -287,6 +287,15 @@ export default function Fd30Page() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You are a flat owner whose freeholder requires FD30S certification on the entrance door",
+            "You are a landlord or property manager closing FRA actions on flat entrance doors",
+            "You are a developer specifying FD30S as standard on flats, HMOs and new-build dwellings",
+            "You are a Higher-Risk Building duty-holder needing FD60 evidence under the Building Safety Act 2022",
+            "You need fire rating plus PAS 24, BS EN 1627 RC4 and SBD on one door rather than choosing between",
+          ],
+        }}
         ctaHeading="Fire, security, thermal. One door."
         enquirySource="hub-fd30"
         enquiryContextLabel="FD30 Fire Rated Front Doors"

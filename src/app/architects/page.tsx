@@ -349,6 +349,15 @@ export default function ArchitectsPage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You are drafting NBS sections at RIBA stages 2 to 5 and need a UK manufacturer who issues NBS-format clauses, U-value calculations and certification references",
+            "Your client expects a single supplier accountable for design, manufacture and installation rather than a fragmented merchant chain",
+            "Your project requires Performance Specification language tied to PAS 24, BS EN 1627 RC4 or LPS 1175 SR3 with an audit trail in the handover pack",
+            "You want a survey, manufacture and install team employed by the manufacturer rather than subcontractors with no factory accountability",
+            "You value a UK lead time of eight to twelve weeks against the four to six months that imported systems typically carry",
+          ],
+        }}
         ctaHeading="Talk to our design team about your specification"
         enquirySource="hub-architects"
         enquiryContextLabel="Architects and Specifiers"

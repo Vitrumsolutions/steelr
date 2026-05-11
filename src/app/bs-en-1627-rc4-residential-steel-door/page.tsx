@@ -351,6 +351,15 @@ export default function Rc4Page() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "Your specifier or insurer wants a European-standard reference (BS EN 1627 RC4) on the spec rather than the LPS 1175 ladder",
+            "Your project is a high-value residential refurbishment where the door is the next major upgrade after kitchen and bathrooms",
+            "You want a certified Standard tier without the additional cost or lead time of an LPS 1175 SR3 or SR4 upgrade",
+            "Your architect needs a UK manufacturer who issues RC4 single-leaf, unglazed certification as standard, not as a paid extra",
+            "You want the certificate referenced in the handover pack and a UK warranty enforced against a UK manufacturer",
+          ],
+        }}
         ctaHeading="Specify the Standard tier"
         enquirySource="hub-rc4"
         enquiryContextLabel="BS EN 1627 RC4 Residential Steel Doors"

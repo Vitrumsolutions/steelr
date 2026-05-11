@@ -327,6 +327,15 @@ export default function CostPage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You are researching pricing before booking a survey, and want an honest factor-by-factor breakdown",
+            "Your project budget can support a bespoke installed steel door specification — high four to low six figure range depending on specification",
+            "You are planning a 10 to 15 year+ horizon where lifetime cost matters more than upfront price",
+            "You are a specifier needing pricing visibility for a developer brief or insurance valuation",
+            "Your budget sits at the mid-market composite price point, in which case a premium composite is the more honest fit for your project",
+          ],
+        }}
         ctaHeading="Book a survey for a written quotation"
         enquirySource="hub-cost-uk"
         enquiryContextLabel="Steel Front Doors Cost UK"

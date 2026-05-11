@@ -372,6 +372,15 @@ export default function Sr4Page() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "Your property profile is genuinely high-risk — public-facing principal, ultra-high-value contents, or documented attempted intrusion history",
+            "Your insurer has set LPS 1175 SR4 (or equivalent BS EN 1627 RC4) as a binding requirement, not a suggestion",
+            "Your security consultant has specified commercial-grade certification on the residential entrance for parity with the perimeter",
+            "Your project allows the additional lead time and budget that SR4 fabrication and ironmongery carry over SR3",
+            "You want a UK manufacturer certifying at SR4 as an upgrade tier rather than a one-off prototype",
+          ],
+        }}
         ctaHeading="Specify a Commercial-grade SR4 residential door"
         enquirySource="hub-sr4"
         enquiryContextLabel="LPS 1175 SR4 Commercial-Grade Steel Doors"

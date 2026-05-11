@@ -317,6 +317,15 @@ export default function HousingAssociationsPage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "Your stock falls under the Building Safety Act 2022 and your evidence chain needs FD30S certification traceable to a UK manufacturer",
+            "Your Regulator of Social Housing audit requires Approved Document B and Approved Document Q evidence in the document pack",
+            "Your repairs programme benefits from a single accountable supplier across survey, manufacture and install rather than fragmented contracts",
+            "Your tenant-facing programme needs a doorset with Secured by Design approval and a proven UK aftercare model",
+            "Your portfolio scale supports a UK-manufactured doorset programme with consistent specification across blocks and predictable lead time",
+          ],
+        }}
         ctaHeading="Talk to our project team about your programme"
         enquirySource="hub-housing-associations"
         enquiryContextLabel="Housing Associations"

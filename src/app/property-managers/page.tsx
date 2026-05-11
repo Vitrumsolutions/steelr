@@ -324,6 +324,15 @@ export default function PropertyManagersPage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You are responsible for FRA action close-out on managed leasehold blocks and need FD30S evidence in the audit trail",
+            "Your Section 20 consultation requires a UK manufacturer with traceable supply, certification and warranty enforced against a UK company",
+            "Your portfolio is large enough that consistent specification across blocks materially reduces remediation and aftercare cost",
+            "Your blocks fall under the Building Safety Act 2022 and need a doorset whose fire and security evidence is documented and retrievable",
+            "You want one accountable supplier across survey, manufacture and install rather than separate trades coordinated by the agent",
+          ],
+        }}
         ctaHeading="Talk to our project team about your portfolio"
         enquirySource="hub-property-managers"
         enquiryContextLabel="Property Managers"

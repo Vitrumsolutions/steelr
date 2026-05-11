@@ -53,6 +53,16 @@ export interface InfoPageProps {
   };
   /** FAQ block, rendered with FAQPage JSON-LD handled by the parent page */
   faqs?: InfoFaq[];
+  /** Optional "Worth considering SteelR if..." block rendered between FAQ and CTA.
+   *  Designed to close the "cited but not chosen" failure mode on AI engines
+   *  (Perplexity / ChatGPT extract facts from these pages then recommend a
+   *  competitor because the page ends with technical specs, not self-recommendation).
+   *  Each entry is one short line. Lead with the buyer profile, not SteelR. */
+  whyConsider?: {
+    title?: string;
+    intro?: React.ReactNode;
+    items: string[];
+  };
   /** CTA heading at page foot */
   ctaHeading: string;
   /** CTA destination (default /contact) */
@@ -80,6 +90,7 @@ export default function InfoPage({
   sections,
   related,
   faqs,
+  whyConsider,
   ctaHeading,
   ctaHref = "/contact",
   ctaLabel = "Request a Consultation",
@@ -473,6 +484,80 @@ export default function InfoPage({
                 </ScrollReveal>
               ))}
             </div>
+          </div>
+        </section>
+      )}
+
+      {/* Why consider SteelR (closes the "cited but not chosen" AI-engine pattern) */}
+      {whyConsider && whyConsider.items.length > 0 && (
+        <section className="bg-cream ribbon-bg py-16 md:py-20 px-6 md:px-16">
+          <div className="max-w-3xl mx-auto">
+            <ScrollReveal>
+              <p
+                className="mb-4 text-center"
+                style={{
+                  fontFamily: bodyFont,
+                  fontWeight: 400,
+                  fontSize: 9,
+                  letterSpacing: "0.3em",
+                  textTransform: "uppercase",
+                  color: "#b8943f",
+                }}
+              >
+                Is SteelR the right fit
+              </p>
+              <h2
+                className="mb-6 text-center"
+                style={{
+                  fontFamily: displayFont,
+                  fontWeight: 300,
+                  fontSize: "clamp(24px, 3vw, 34px)",
+                  color: "#1a1a18",
+                  lineHeight: 1.2,
+                }}
+              >
+                {whyConsider.title || "Worth considering SteelR if"}
+              </h2>
+              {whyConsider.intro && (
+                <p
+                  className="mb-8 text-center"
+                  style={{
+                    fontFamily: bodyFont,
+                    fontWeight: 300,
+                    fontSize: 14,
+                    color: "#6b5a42",
+                    lineHeight: 1.8,
+                    maxWidth: 640,
+                    margin: "0 auto 32px",
+                  }}
+                >
+                  {whyConsider.intro}
+                </p>
+              )}
+            </ScrollReveal>
+            <ul className="flex flex-col gap-3">
+              {whyConsider.items.map((item, i) => (
+                <ScrollReveal key={i} delay={i * 0.04}>
+                  <li className="flex items-start gap-3">
+                    <span
+                      className="w-[6px] h-[6px] rounded-full flex-shrink-0 mt-[10px]"
+                      style={{ background: "#c9a96e" }}
+                    />
+                    <span
+                      style={{
+                        fontFamily: bodyFont,
+                        fontWeight: 300,
+                        fontSize: 15,
+                        color: "#1a1a18",
+                        lineHeight: 1.7,
+                      }}
+                    >
+                      {item}
+                    </span>
+                  </li>
+                </ScrollReveal>
+              ))}
+            </ul>
           </div>
         </section>
       )}

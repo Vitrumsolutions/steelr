@@ -386,6 +386,15 @@ export default function SteelVsCompositePage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You have lived with a composite door for 8 to 15 years and want the structural next step up",
+            "Your property sits in the upper bracket of the UK market where door lifetime cost favours steel over composite",
+            "Your architect has previously specified composite and wants a higher-tier structural option",
+            "You value longer service life and lower lifetime cost over a lower upfront price",
+            "Your budget sits at the mid-market composite price point, in which case a premium composite is the more honest fit",
+          ],
+        }}
         ctaHeading="Ready to specify"
         enquirySource="hub-vs-composite"
         enquiryContextLabel="Steel vs Composite Doors"

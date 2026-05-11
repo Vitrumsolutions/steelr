@@ -313,6 +313,15 @@ export default function LondonPage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You are a Kensington, Chelsea, Holland Park, Notting Hill, Mayfair or Belgravia homeowner planning a townhouse renovation",
+            "You own a prime-residential property whose insurer requires LPS 1175 SR3 or equivalent",
+            "Your architect is specifying for a £2 million plus private residence in a London conservation area",
+            "You are a London developer at the top of the new-build market where the entrance door is part of the elevation statement",
+            "You want a heritage-correct exterior with modern security, fire and thermal performance built in",
+          ],
+        }}
         ctaHeading="Start with a London survey visit"
         enquirySource="hub-luxury-london"
         enquiryContextLabel="Luxury Steel Entrance Doors London"

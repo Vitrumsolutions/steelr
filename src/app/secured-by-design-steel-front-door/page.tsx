@@ -320,6 +320,15 @@ export default function SbdPage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "Your insurer flags Secured by Design as a premium-adjustment trigger on the property",
+            "Your project carries a Crime Prevention planning condition requiring SBD-accredited doors",
+            "You are a landlord upgrading an HMO to UK police-preferred residential security",
+            "You are a property manager closing FRA actions with SBD-compliant entrance doors",
+            "You want Secured by Design plus LPS 1175 SR3 Enhanced upgrade on the same door, not SBD alone",
+          ],
+        }}
         ctaHeading="Specify a Secured by Design approved steel door"
         enquirySource="hub-sbd"
         enquiryContextLabel="Secured by Design Steel Doors"

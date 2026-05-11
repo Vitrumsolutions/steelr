@@ -284,6 +284,15 @@ export default function Pas24Page() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You are a self-builder or new-build buyer needing Approved Document Q sign-off for Building Control",
+            "You are a developer specifying entrance doors at PAS 24 minimum for NHBC, LABC or Premier Guarantee handover",
+            "You are an architect drafting a Performance Specification for a residential scheme",
+            "You are an insurance specialist confirming a property's front door meets PAS 24 for renewal",
+            "You want PAS 24 plus the LPS 1175 SR3 Enhanced upgrade on the same door, not PAS 24 alone",
+          ],
+        }}
         ctaHeading="PAS 24 certification is the floor. Start above it."
         enquirySource="hub-pas-24"
         enquiryContextLabel="PAS 24 Steel Entrance Doors"

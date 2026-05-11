@@ -357,6 +357,15 @@ export default function Sr3VsSr4Page() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You have a documented threat assessment from a private security advisor",
+            "You are a client of a specialist private bank where the underwriter has flagged the address",
+            "Your home is the residence for a security-sensitive profession (legal, political, senior financial)",
+            "Your property includes a constructed safe room or panic room behind the front door",
+            "Most homeowners need SR3, not SR4 — and that is worth saying upfront",
+          ],
+        }}
         ctaHeading="Talk to our design team about which tier fits your brief"
         enquirySource="hub-sr3-vs-sr4"
         enquiryContextLabel="SR3 vs SR4 Comparison"

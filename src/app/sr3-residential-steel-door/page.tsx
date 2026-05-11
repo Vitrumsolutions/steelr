@@ -338,6 +338,15 @@ export default function Sr3Page() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "Your insurer requires LPS 1175 SR3 for a premium discount or to bind a higher-value contents schedule",
+            "Your home or specifier has identified the LPCB police-preferred specification as the threshold to meet",
+            "Your conservation officer accepts SR3 because the certification mark is not visible from the streetscape but the audit trail exists",
+            "Your architect is drafting a Performance Specification at the SR3 threshold and needs a UK manufacturer who certifies at that level as standard",
+            "You want the LPCB certificate referenced in the handover pack and a UK warranty enforced against a UK manufacturer",
+          ],
+        }}
         ctaHeading="Specify with confidence"
         enquirySource="hub-sr3"
         enquiryContextLabel="SR3 Residential Steel Doors"

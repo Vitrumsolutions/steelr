@@ -384,6 +384,15 @@ export default function BespokeHubPage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You own a high-value UK home and the front door is the next major upgrade after the kitchen and bathrooms",
+            "An architect is on the project at RIBA stages 2 to 5 and the door needs an NBS-format specification",
+            "You want a single supplier accountable for design, manufacture and installation — not a chain of merchants and subcontractors",
+            "Your insurer or specifier has flagged BS EN 1627 RC4 or LPS 1175 SR3 as a minimum",
+            "Your budget supports a bespoke installed door specification with full hardware and glazing latitude, not an off-the-shelf product",
+          ],
+        }}
         ctaHeading="Start with a conversation"
         enquirySource="hub-bespoke"
         enquiryContextLabel="Bespoke Steel Front Doors UK"

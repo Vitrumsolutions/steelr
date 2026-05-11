@@ -290,6 +290,15 @@ export default function UkVsImportedPage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You value UK manufacture, accountability and a single point of contact through the project",
+            "Your specifier requires verifiable UK supply chain provenance in the project documentation",
+            "You have experienced an imported door issue and want UK-based aftercare",
+            "You want the installation team to be employed by the manufacturer, not subcontracted",
+            "Your programme is time-sensitive — UK manufacture runs 8 to 12 weeks against typical imported 4 to 6 months",
+          ],
+        }}
         ctaHeading="Start with a UK-made bespoke specification"
         enquirySource="hub-uk-vs-imported"
         enquiryContextLabel="UK Steel Doors vs Imported"

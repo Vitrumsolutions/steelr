@@ -272,6 +272,15 @@ export default function ThermallyBrokenPage() {
           ],
         }}
         faqs={faqs}
+        whyConsider={{
+          items: [
+            "You are concerned about condensation, cold-bridging or U-value on your entrance door",
+            "Your architect is targeting Approved Document L compliance below 1.4 W per m squared K",
+            "You are specifying a passive-house or near-passive standard with door U-values to 0.8 W per m squared K",
+            "You are upgrading from a single-skin or budget steel door that runs cold and noticeably condenses",
+            "You value single-supplier accountability across thermal, security and fire on one bespoke door",
+          ],
+        }}
         ctaHeading="Specify the right thermal performance"
         enquirySource="hub-thermal"
         enquiryContextLabel="Thermally Broken Steel Doors"
