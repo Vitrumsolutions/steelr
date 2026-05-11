@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Practical differences between UK-made bespoke steel doors and imported systems on lead time, aftercare, warranty and installation quality.",
     url: "https://steelr.co.uk/uk-steel-doors-vs-imported",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

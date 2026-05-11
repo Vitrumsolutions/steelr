@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Bespoke luxury steel entrance doors across all London boroughs. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Secured by Design, FD30.",
     url: "https://steelr.co.uk/luxury-steel-entrance-door-london",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "What Secured by Design covers, how the UK police-preferred specification is approved, and what it means for insurance and new-build requirements.",
     url: "https://steelr.co.uk/secured-by-design-steel-front-door",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

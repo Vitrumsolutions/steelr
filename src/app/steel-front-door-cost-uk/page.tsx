@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "The factors that actually move the number on a bespoke steel front door. Honest, plain English, no guesswork.",
     url: "https://steelr.co.uk/steel-front-door-cost-uk",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

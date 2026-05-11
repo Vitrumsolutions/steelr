@@ -51,6 +51,11 @@ const FILE_GLOBS = [
   "src/app/blog/[slug]/page.tsx",
   "src/components/InfoPage.tsx",
   "src/components/Hero.tsx",
+  // Pass 3 additions (perfection audit 2026-05-11):
+  "src/data/doors.ts",
+  "src/app/collection/page.tsx",
+  "src/app/collection/[slug]/page.tsx",
+  "src/app/collection/sidelights/page.tsx",
 ];
 
 // Pass 2 directories (recursive .ts only)

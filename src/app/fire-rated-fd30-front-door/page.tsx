@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "What FD30 means, where it is legally required, and how fire rating combines with PAS 24, SR3 and Secured by Design on one SteelR door.",
     url: "https://steelr.co.uk/fire-rated-fd30-front-door",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

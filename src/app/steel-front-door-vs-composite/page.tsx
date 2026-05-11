@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Honest side-by-side comparison of steel and composite front doors on security, longevity, thermal performance, fire rating and cost of ownership.",
     url: "https://steelr.co.uk/steel-front-door-vs-composite",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

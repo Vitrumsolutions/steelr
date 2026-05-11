@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "What a thermal break is, why budget steel doors perform badly on U-value and condensation, and how a correctly engineered thermal break solves it.",
     url: "https://steelr.co.uk/thermally-broken-steel-front-door",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

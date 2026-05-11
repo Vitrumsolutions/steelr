@@ -161,7 +161,7 @@ export default function SidelightsPage() {
           <h1 className="sr-only">Bespoke Steel Entrance Doors with Sidelights</h1>
           <ScrollReveal>
             <p style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontWeight: 300, fontSize: 15, lineHeight: 1.8, color: "#6b5a42", maxWidth: 640, marginBottom: 32 }}>
-              Sidelights frame your entrance door with glazed or panelled side panels, adding width, light and architectural presence. Choose from single or dual sidelight configurations, with frosted, clear or decorative glass options. Every sidelight is manufactured to the same SR3 security standard as the door itself — with SR4 (LPS 1175) available as a commercial-grade upgrade — and fully customisable to your specification.
+              Sidelights frame your entrance door with glazed or panelled side panels, adding width, light and architectural presence. Choose from single or dual sidelight configurations, with frosted, clear or decorative glass options. Every sidelight is manufactured to the same SR3 security standard as the door itself, with SR4 (LPS 1175) available as a commercial-grade upgrade, and fully customisable to your specification.
             </p>
           </ScrollReveal>
         </div>
@@ -438,7 +438,7 @@ export default function SidelightsPage() {
                   transition={{ duration: 0.35, ease: "easeOut" }}
                   className="absolute inset-0"
                 >
-                  {/* Plain <img> not next/image — matches the fix in the
+                  {/* Plain <img> not next/image, matches the fix in the
                       main collection lightbox. Next.js Image lazy-load
                       doesn't fire reliably on a 0x0-collapsed element in a
                       just-mounted fixed-position container. */}

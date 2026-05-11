@@ -266,17 +266,7 @@ a:active {
   transform: scale(0.98);
 }
 
-/* Reduced motion — respect user preference */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
+/* (Reduced-motion block consolidated above at globals.css:136-145 — canonical M5 fix from deep-audit 2026-05-09. Duplicate removed 2026-05-11 per perfection-audit P11.) */
 
 /* Scrollbar styling */
 ::-webkit-scrollbar {

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "What PAS 24:2022 tests, how Approved Document Q applies to new-build doors, and why PAS 24 is the floor rather than the ceiling on SteelR specifications.",
     url: "https://steelr.co.uk/pas-24-steel-entrance-door",
     type: "website",
+    images: ["/og-image.png"],
   },
 };
 

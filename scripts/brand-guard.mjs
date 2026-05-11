@@ -56,6 +56,7 @@ import { resolve } from "node:path";
 const PROTECTED_GLOBS = [
   "src/data/blog/posts/",
   "src/data/locations/",
+  "src/data/doors.ts", // 60 collection product titles + descriptions feed /collection grid + /collection/[slug] pages
   "src/app/areas/",
   "src/app/", // for any new top-level topic page that might inadvertently quote prices
   "public/llms.txt",

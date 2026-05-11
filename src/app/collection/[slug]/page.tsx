@@ -46,7 +46,7 @@ export default async function DoorPage({ params }: Props) {
 
   const related = getRelatedDoors(door);
 
-  // Per-style "further reading" — picks 3 blog posts relevant to the door's style +
+  // Per-style "further reading", picks 3 blog posts relevant to the door's style +
   // universal links (colour guide, security). Closes the collection→blog bridge
   // the 22 Apr audit flagged (54 door pages previously had zero blog outbound).
   const styleBlogMap: Record<string, Array<{ slug: string; title: string }>> = {
@@ -227,10 +227,10 @@ export default async function DoorPage({ params }: Props) {
         </div>
       </nav>
 
-      {/* Main content — image + details */}
+      {/* Main content, image + details */}
       <section className="bg-cream ribbon-bg py-16 md:py-24 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-          {/* Left — image (click-to-zoom; aspect-ratio override on tall portraits) */}
+          {/* Left, image (click-to-zoom; aspect-ratio override on tall portraits) */}
           <ScrollReveal direction="left">
             <HeroImageWithZoom
               src={door.src}
@@ -241,7 +241,7 @@ export default async function DoorPage({ params }: Props) {
             />
           </ScrollReveal>
 
-          {/* Right — details */}
+          {/* Right, details */}
           <ScrollReveal direction="right">
             <div className="flex flex-col justify-center">
               <h1
@@ -271,7 +271,7 @@ export default async function DoorPage({ params }: Props) {
                 {door.description}
               </p>
 
-              {/* Rich page content (when present) — adds substantial unique content for SEO indexing */}
+              {/* Rich page content (when present), adds substantial unique content for SEO indexing */}
               {door.pageContent && (
                 <>
                   <div
@@ -386,7 +386,7 @@ export default async function DoorPage({ params }: Props) {
                     { label: "Security", value: "SR3 std / SR4 upgrade" },
                     { label: "Material", value: "Fire Rated Steel" },
                     { label: "Certification", value: "ISO 9001" },
-                    { label: "Lead Time", value: "8–12 Weeks" },
+                    { label: "Lead Time", value: "8 to 12 Weeks" },
                   ].map((spec) => (
                     <div key={spec.label}>
                       <p
@@ -582,7 +582,7 @@ export default async function DoorPage({ params }: Props) {
         </section>
       )}
 
-      {/* Further reading — bridges this product page to topical blog content.
+      {/* Further reading, bridges this product page to topical blog content.
           Added 22 Apr to close the internal-linking gap flagged by audit (54 door
           pages previously had zero blog outbound links). */}
       <section className="bg-cream py-16 md:py-20 px-6 md:px-16 border-t border-[rgba(26,26,24,0.08)]">
@@ -638,7 +638,7 @@ export default async function DoorPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Inline enquiry panel — auto-tags source=collection-<slug> for lead attribution */}
+      {/* Inline enquiry panel, auto-tags source=collection-<slug> for lead attribution */}
       <QuickEnquiry source={`collection-${door.slug}`} contextLabel={door.title} />
 
       {/* CTA */}

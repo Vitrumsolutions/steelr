@@ -243,28 +243,29 @@ export default function SecuritySpecificationPage() {
           <ScrollReveal>
             <div className="overflow-x-auto rounded-[4px]" style={{ border: "1px solid rgba(201,169,110,0.18)", background: "#fff" }}>
               <table className="w-full" style={{ minWidth: 880, borderCollapse: "collapse" }}>
+                <caption className="sr-only">Four-tier residential security ladder comparison: BS EN 1627 RC4 Standard, LPS 1175 SR3 Enhanced upgrade, LPS 1175 SR4 Commercial-grade upgrade, and LPS 1673 Ultra-high attack-resistance certification.</caption>
                 <thead>
                   <tr style={{ background: "rgba(201,169,110,0.08)", borderBottom: "1px solid rgba(201,169,110,0.25)" }}>
-                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18", width: 160 }}>
+                    <th scope="col" style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18", width: 160 }}>
                       Attribute
                     </th>
-                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
+                    <th scope="col" style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
                       Tier 1. Standard
                     </th>
-                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
+                    <th scope="col" style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
                       Tier 2. Enhanced
                     </th>
-                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
+                    <th scope="col" style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
                       Tier 3. Commercial-grade
                     </th>
-                    <th style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
+                    <th scope="col" style={{ padding: "16px 14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 500, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#1a1a18" }}>
                       Tier 4. Ultra-high
                     </th>
                   </tr>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.18)", background: "rgba(245,240,232,0.4)" }}>
-                    <td style={{ padding: "14px", fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
                       Certification
-                    </td>
+                    </th>
                     <td style={{ padding: "14px", fontFamily: displayFont, fontWeight: 400, fontSize: 16, color: "#1a1a18", lineHeight: 1.25 }}>
                       BS EN 1627:2011 RC4
                     </td>
@@ -281,45 +282,45 @@ export default function SecuritySpecificationPage() {
                 </thead>
                 <tbody style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.6, color: "#6b5a42" }}>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}>
-                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
                       Test scheme
-                    </td>
+                    </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>European framework. Single leaf, unglazed methodology. UKAS-accredited laboratory.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>LPCB scheme operated by BRE Global. Police-preferred specification.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>LPCB Commercial-grade certification under LPS 1175 Issue 8.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Separate LPCB attack-resistance scheme. Asset-directed assault, distinct from forced entry.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)", background: "rgba(245,240,232,0.4)" }}>
-                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
                       Attack duration
-                    </td>
+                    </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Sustained forced-entry test against the complete door assembly.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Five-minute sustained attack under the LPS 1175 Issue 8 duration matrix.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Longer attack window than SR3 under the same Issue 8 framework.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Class-defined: AR.A300, AR.B180E, AR.B300E, AR.C120E. E denotes power-tool inclusion.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}>
-                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
                       Tool catalogue
-                    </td>
+                    </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Heavy-duty hand tools and battery-operated power tools.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Issue 8 power-tool catalogue. Larger crowbar, higher-energy attack.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Issue 8 catalogue plus battery cutting tools and larger prying equipment.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Defined by AR class. The threat model is the protected asset behind the door.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)", background: "rgba(245,240,232,0.4)" }}>
-                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
                       Typical specification context
-                    </td>
+                    </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Every SteelR residential front door. The standard build.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>High-value properties, conservation areas, listed buildings, insurer-specified or LPCB-preferred briefs.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Documented threat assessment, specialist private-bank clients, security-sensitive professions, layered safe-room specs.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Bank vault outer doors, data centre internal cores, embassy residences, residential where a documented threat assessment justifies it.</td>
                   </tr>
                   <tr>
-                    <td style={{ padding: "14px", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
                       Lead time impact
-                    </td>
+                    </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Standard SteelR lead time: 8 to 12 weeks from sign-off to fitted installation.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Standard SteelR lead time, 8 to 12 weeks. Confirmed at design sign-off.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Standard plus 2 to 3 weeks. Approximately 10 to 14 weeks total.</td>
