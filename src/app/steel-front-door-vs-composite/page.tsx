@@ -111,6 +111,153 @@ export default function SteelVsCompositePage() {
         }}
         sections={[
           {
+            pretitle: "At a glance",
+            title: "Spec-by-spec comparison",
+            body: (
+              <>
+                The numbers below are typical UK market figures for a premium
+                composite door alongside the SteelR specification, drawn from
+                manufacturer-published U-values, certification test reports
+                and standard product warranties. SteelR figures are
+                verifiable against our published technical sheet and the
+                UKAS-accredited test reports in the certificate pack.
+                <div
+                  className="mt-8 overflow-x-auto"
+                  style={{
+                    border: "1px solid rgba(201,169,110,0.2)",
+                    borderRadius: 4,
+                  }}
+                >
+                  <table
+                    style={{
+                      width: "100%",
+                      borderCollapse: "collapse",
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontSize: 13,
+                      color: "#1a1a18",
+                    }}
+                  >
+                    <caption className="sr-only">
+                      Spec-by-spec comparison of a premium composite front
+                      door and a SteelR bespoke steel front door
+                    </caption>
+                    <thead>
+                      <tr style={{ background: "#1a1a18", color: "#f5f0e8" }}>
+                        <th
+                          scope="col"
+                          style={{
+                            textAlign: "left",
+                            padding: "12px 16px",
+                            fontWeight: 400,
+                            fontSize: 10,
+                            letterSpacing: "0.18em",
+                            textTransform: "uppercase",
+                          }}
+                        >
+                          Specification
+                        </th>
+                        <th
+                          scope="col"
+                          style={{
+                            textAlign: "left",
+                            padding: "12px 16px",
+                            fontWeight: 400,
+                            fontSize: 10,
+                            letterSpacing: "0.18em",
+                            textTransform: "uppercase",
+                          }}
+                        >
+                          Premium composite door
+                        </th>
+                        <th
+                          scope="col"
+                          style={{
+                            textAlign: "left",
+                            padding: "12px 16px",
+                            fontWeight: 400,
+                            fontSize: 10,
+                            letterSpacing: "0.18em",
+                            textTransform: "uppercase",
+                            color: "#c9a96e",
+                          }}
+                        >
+                          SteelR bespoke steel
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody style={{ fontWeight: 300, lineHeight: 1.6 }}>
+                      {[
+                        ["Security baseline", "PAS 24:2022", "PAS 24:2022 + BS EN 1627:2011 RC4 single leaf, unglazed"],
+                        ["Security upgrade", "SR3 on a handful of premium models", "LPS 1175 SR3 (Enhanced) standard upgrade; SR4 (Commercial-grade) on request"],
+                        ["U-value (standard)", "1.0 to 1.4 W/m²K (premium); 1.6 to 1.8 W/m²K (budget)", "From 1.5 W/m²K, with thermal-upgrade specifications to 0.8 W/m²K"],
+                        ["Building Regs Part L max", "1.8 W/m²K", "1.8 W/m²K (comfortably met as standard)"],
+                        ["Acoustic attenuation", "Typically 29 to 32 dB Rw", "33 dB Rw standard; up to 39 dB Rw on acoustic upgrade"],
+                        ["Door leaf thickness", "44 to 48 mm typical", "70 mm"],
+                        ["Steel skin / frame gauge", "n/a (GRP skin over insulated core)", "1.5 mm outer steel skin; 2 mm reinforced box-section frame"],
+                        ["Service life", "10 to 15 years typical", "25 to 30 years with routine maintenance"],
+                        ["Manufacturer warranty", "10 years typical (whole door)", "10 years door construction; 5 years finish; 3 years hardware"],
+                        ["Fire rating (standard)", "Not fire rated on most product; FD30 on premium variants", "FD30S standard; FD60 available as upgrade"],
+                        ["End-of-life recyclability", "Mostly landfill (multi-material bond limits recycling)", "Fully recyclable steel core; UK steel ≥85% recycled stream"],
+                      ].map(([spec, comp, steel], rowIdx) => (
+                        <tr
+                          key={String(spec)}
+                          style={{
+                            background:
+                              rowIdx % 2 === 0
+                                ? "rgba(201,169,110,0.04)"
+                                : "transparent",
+                            borderTop: "1px solid rgba(201,169,110,0.12)",
+                          }}
+                        >
+                          <th
+                            scope="row"
+                            style={{
+                              textAlign: "left",
+                              padding: "12px 16px",
+                              fontWeight: 400,
+                              verticalAlign: "top",
+                              whiteSpace: "normal",
+                            }}
+                          >
+                            {spec}
+                          </th>
+                          <td
+                            style={{
+                              padding: "12px 16px",
+                              verticalAlign: "top",
+                              color: "#6b5a42",
+                            }}
+                          >
+                            {comp}
+                          </td>
+                          <td
+                            style={{
+                              padding: "12px 16px",
+                              verticalAlign: "top",
+                            }}
+                          >
+                            {steel}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            ),
+            body2: (
+              <>
+                Composite figures are representative of premium UK brands at
+                the SR3 or PAS 24 tier and may vary by model. SteelR figures
+                are common to every door specified and uplift on
+                acoustic-upgrade, thermal-upgrade and SR4 routes are
+                available on request. The certification, test and warranty
+                evidence chain is supplied in the project pack on every
+                completed door.
+              </>
+            ),
+          },
+          {
             pretitle: "Security",
             title: "A full certification tier apart",
             image: {
