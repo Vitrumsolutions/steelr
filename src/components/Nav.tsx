@@ -226,31 +226,41 @@ export default function Nav() {
         </div>
       </nav>
 
-      {/* Mobile overlay */}
+      {/* Mobile overlay
+       *
+       * Layout history:
+       *  - Original: `justify-center` with paddingTop:96 to clear the fixed nav.
+       *    Worked while menu had 8 items.
+       *  - 2026-05-10: added 9th "Specifiers" item in commit 2979e07. On
+       *    iPhone SE class viewports (375x667) the 9 items + gaps + tel CTA
+       *    total ~574px content but only ~507px is available after the
+       *    top/bottom padding. With `justify-center`, centring overflowed
+       *    content upward — first item (Collection) was clipped behind the
+       *    fixed nav band.
+       *  - 2026-05-11 fix: `justify-start sm:justify-center` so small
+       *    viewports start the menu at the top (just below the nav), tablets
+       *    keep the centred look. `overflow-y-auto` allows scroll if content
+       *    still overflows. Tightened gap and tel-CTA margin on small to
+       *    reclaim ~56px while keeping desktop tablet aesthetic.
+       */}
       <div
         id="mobile-menu-overlay"
         role="dialog"
         aria-modal="true"
         aria-label="Mobile menu"
         aria-hidden={!menuOpen}
-        className="fixed inset-0 z-40 flex flex-col items-center justify-center transition-opacity duration-500 lg:hidden"
+        className="fixed inset-0 z-40 flex flex-col items-center justify-start sm:justify-center overflow-y-auto transition-opacity duration-500 lg:hidden"
         onClick={() => setMenuOpen(false)}
         style={{
           background: "#0a0a09",
           opacity: menuOpen ? 1 : 0,
           pointerEvents: menuOpen ? "auto" : "none",
-          // Top padding clears the fixed nav band (logo + hamburger live in
-          // the top ~80px of the viewport). Without this, justify-center can
-          // place the first menu item (Collection) at y ~ 45-65px, visually
-          // and tap-target overlapping the nav. Bottom padding mirrors so
-          // centering still feels balanced. Increased to 64px to give the
-          // tel CTA breathing room from the viewport bottom edge.
           paddingTop: "96px",
           paddingBottom: "64px",
         }}
       >
         <div
-          className="flex flex-col items-center gap-6 sm:gap-8"
+          className="flex flex-col items-center gap-4 sm:gap-8"
           onClick={(e) => e.stopPropagation()}
         >
           {navLinks.map((link, i) => (
@@ -280,7 +290,7 @@ export default function Nav() {
             href="tel:08008611450"
             aria-label="Call SteelR on 0800 861 1450"
             tabIndex={menuOpen ? 0 : -1}
-            className="mt-12"
+            className="mt-6 sm:mt-12"
             style={{
               fontFamily: "var(--font-body), Montserrat, sans-serif",
               fontWeight: 300,
