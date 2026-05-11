@@ -328,9 +328,24 @@ export function writeBlogExcerptsSection(llmsFullPath, newSection) {
   }
   let body = readFileSync(llmsFullPath, "utf8");
   const sectionIdx = body.lastIndexOf("\n## Blog Excerpts");
+  // PRESERVE the trailing maintainer footer (sits AFTER the Blog Excerpts section).
+  // Without this preserve+restore, every backfill run strips the footer because
+  // body.slice(0, sectionIdx) cuts everything from "## Blog Excerpts" to EOF.
+  // Footer pattern: "\n---\n" + "Last updated: YYYY-MM-DD." + "Maintained by SteelR. ..."
+  // Regression caught by /panel-llms 2026-05-10 + 2026-05-11; fixed 2026-05-11.
+  let trailingFooter = "";
+  const footerMatch = body.match(
+    /\n---\n+Last updated:[^\n]*\n+Maintained by SteelR\.[^\n]*\.?\n*$/
+  );
+  if (footerMatch) {
+    trailingFooter = footerMatch[0];
+  }
   if (sectionIdx >= 0) {
     body = body.slice(0, sectionIdx);
   }
   body = body.trimEnd() + "\n\n" + newSection;
+  if (trailingFooter) {
+    body = body.trimEnd() + trailingFooter;
+  }
   writeFileSync(llmsFullPath, body);
 }

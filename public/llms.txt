@@ -359,6 +359,6 @@ These dedicated hub pages support procurement teams specifying SteelR doors at s
 
 ---
 
-Last updated: 2026-05-10.
+Last updated: 2026-05-11.
 
 Maintained by SteelR. Authoritative reference at https://steelr.co.uk/llms.txt and https://steelr.co.uk/llms-full.txt.

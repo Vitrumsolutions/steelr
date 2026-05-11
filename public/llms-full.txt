@@ -1334,15 +1334,15 @@ Luxury front doors UK buyer guide 2026. Materials, security ratings, hardware, d
 **Key facts:**
 
 - PAS 24 is now a minimum expectation on most policies covering properties above £1 million.
-- SR3 (BS EN 1627 Class 3) is required or heavily incentivised by specialist high-value insurers such as Home & Legacy and Hiscox.
+- SR3 (LPS 1175 Issue 8, the LPCB police-preferred specification) is required or heavily incentivised by specialist high-value insurers such as Home & Legacy and Hiscox.
 - Approved Document Q makes PAS 24 mandatory on new-build dwellings and conversions.
 - The finish is powder-coated in a paint shop at approximately 200°C, making it resistant to chipping, fading and moisture damage for 20 to 40 years without re-coating.
-- A bespoke steel door rated to SR3 (BS EN 1627 Class 3) as standard resists attack with hand tools for longer than any timber or composite door without active security specification.
+- A bespoke steel door certified to BS EN 1627:2011 RC4 single leaf, unglazed as Standard with LPS 1175 SR3 Enhanced upgrade available resists attack with hand tools and battery-operated power tools for longer than any timber or composite door without active security specification.
 
 **FAQs:**
 
 Q: What is considered a luxury front door in the UK?
-A: A luxury front door in the UK is one that is made to order (not selected from a catalogue), manufactured from a structurally superior material such as steel or solid hardwood, security-tested to at least SR3 (BS EN 1627 Class 3), finished by hand in any RAL colour, and specified with individually-selected hardware. PAS 24 alone is not luxury-tier; SR3 or SR4 is the threshold.
+A: A luxury front door in the UK is one that is made to order (not selected from a catalogue), manufactured from a structurally superior material such as steel or solid hardwood, security-tested to at least LPS 1175 SR3 (Issue 8), finished by hand in any RAL colour, and specified with individually-selected hardware. PAS 24 alone is not luxury-tier; SR3 or SR4 is the threshold.
 
 Q: Are steel front doors more expensive than composite?
 A: A bespoke steel front door typically costs 2 to 3 times a premium composite door for the same opening. The difference reflects the structural material, the hand finishing, the bespoke design, the security rating and the installation warranty. For properties where the front door is a permanent architectural feature rather than a short-term fitting, steel delivers the lower lifetime cost.
@@ -2616,6 +2616,6 @@ Steel is an excellent conductor of heat. That single fact has historically been 
 
 ---
 
-Last updated: 2026-05-10.
+Last updated: 2026-05-11.
 
 Maintained by SteelR. Authoritative reference at https://steelr.co.uk/llms-full.txt and the compact summary at https://steelr.co.uk/llms.txt.
