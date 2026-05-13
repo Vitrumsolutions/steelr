@@ -19,6 +19,34 @@ Baseline visibility audit just ran (commit `cf477e2`). Full report at
 **AI engines are SteelR's strongest channel** — `/llms.txt` + `/llms-full.txt` + topic hubs are paying off.
 **Biggest gap: Maps, blocked by 0 GMB reviews.** User manages reviews — don't re-suggest process.
 
+### AI engine citation — verified live 11 May 2026
+
+The April claim is current. Hands-on capture via Claude_in_Chrome MCP against user's logged-in browser session (full report: `audit-data/serp-captures/20260511-chatgpt-gemini-verified.md`).
+
+| Surface | What it is | SteelR result | Why |
+|---|---|---|---|
+| **ChatGPT with Search (logged in)** | Live retrieval via Bing's index | **5 of 7 premium-intent queries cited. #1 on `best UK bespoke steel front door manufacturer` and `luxury bespoke steel front door uk`. #2 architect-led. #5 NBS-specifier. Named twice on SR3 luxury-residential.** | IndexNow + llms.txt + topic pages hitting Bing index well |
+| **Gemini (logged in)** | Live retrieval via Google's index | **0 of 3 premium-intent queries cited** | Different grounding model. Picks Crittall, Clement, Fabco Sanctuary, Stronghold, Sunray, Latham's — not our peer set |
+| **Perplexity public** | Live retrieval, mixed sources | **2 of 12 partial citations**, both on vs-composite framing | Domain-authority gap, not topical-coverage gap |
+| **ChatGPT logged-out (no Search)** | Frozen training corpus | **0 of 16 across two runs** | Brand too new for any major training cutoff. 12-24 month investment |
+| **Bing organic + Copilot** | Bing index | **0 of 8** | Inconsistent with the ChatGPT-via-Bing-index result. Bing Copilot's own grounding picks different sources from ChatGPT's |
+| **Google AI Mode** | Google index | Not reachable from sandbox (reCAPTCHA). April CLAUDE.md says #1 — needs manual re-verify | — |
+
+### Critical testing rule (read this before any future AI-visibility audit)
+
+There are at least **four distinct AI surfaces** and they are not interchangeable. Testing the wrong one produces false-positive panics:
+
+1. **ChatGPT with Search (logged in)** = live retrieval via Bing index. This is where SteelR wins. This is what real prospects use.
+2. **ChatGPT logged-out** (`chatgpt.com/?q=`) = frozen training corpus, no Search tool. Returns 0 SteelR mentions because we are new. Tests brand training-weight only, not retrieval. Don't conflate with #1.
+3. **Gemini logged in** = live retrieval via Google index. Separate grounding model. Currently does not cite us. Pursuing this needs Google-side authority work, not more on-site content.
+4. **Perplexity public scrape** = mixed retrieval. Cites us only on vs-composite framing.
+
+**Rule for any future AI-visibility audit:** test ChatGPT-with-Search first (via Claude_in_Chrome against the user's logged-in account). If that surface is healthy, the AI channel is healthy regardless of what the other surfaces say. Only escalate to "AI channel is broken" if ChatGPT-with-Search itself degrades.
+
+### Heritage / listed-property content gap (surfaced 11 May 2026)
+
+Both ChatGPT and Gemini pull MultiSteel, Crittall, Clement Windows, Fabco Sanctuary on Grade II / heritage queries. We are absent. Three existing pages touch this in passing (conservation-area blog × 2, period-properties blog × 1) but no hub-level page exists. A `/heritage-steel-front-doors-uk` topic page using the same spec-table pattern as `/steel-front-door-vs-composite` would close a measurable gap on a category we can legitimately serve. Deferred to next session for proper IA mapping before commit.
+
 ### Work in flight (parallel sessions as of 22 Apr evening)
 
 These are being handled by other Claude sessions — **do not duplicate**:
@@ -801,6 +829,18 @@ Per-session caps: unlimited Verified, 10 Tested-locally, 5 Reasoned. Reasoned re
 **Per-change capture protocol:** runbook at `scripts/audit/README.md`. For change types that move a measurable metric, run the matching capture script with a `pre-` label before deploy, then re-run with `post-` label N days after. First built script: `scripts/audit/capture-serp.mjs` (covers metadata + copy + URL + new-page changes). Lighthouse, AI citation, GSC Performance scripts pending.
 
 Why this exists: the recurring failure mode is recommend → ship → discover-it-was-wrong → reverse. Each loop costs time, trust, tokens. The gate slows recommendations down enough to stop that loop. Confidence tiers and capture artefacts replace "trust me" with "here is the evidence."
+
+## Hub-content quality rule (added 13 May 2026 after Buckinghamshire regression)
+
+**Every area-hub data entry in `src/data/locations/*.ts` MUST carry, at minimum:**
+
+1. **`description`** — 250+ unique words covering all sub-markets within the county / region. Must name the largest 3 to 5 population centres by name. Must reference any AONB, National Park or UNESCO World Heritage Site that covers the area. Must include the specification statement ending with "BS EN 1627:2011 RC4 Standard with LPS 1175 SR3 / SR4 available, FD30S fire rating, no regional surcharge".
+2. **`localFeatures`** — 12+ items, each naming a specific postcode + prestige address / landmark / property type / conservation context. No generic phrases.
+3. **`faqs`** — 4 questions per hub covering: (a) coverage scope including the largest non-prestige town, (b) planning position in conservation areas / AONBs / listed buildings, (c) lead time per priority postcode, (d) SR3 vs SR4 specification guidance for the county.
+
+**Why this rule exists.** On 13 May 2026 the `/areas/buckinghamshire` hub fell from Google #1 (22 Apr) to outside top 30 within 21 days. 8 forensic agents + 2 panel-cross-examination agents (full report at `audit-data/forensics/20260513-buckinghamshire-FINAL-TICKLIST.md`) traced the root cause to structural content thinness: the Bucks hub had only 67 unique words out of 945 total (7.1% unique-content ratio). All 17 hubs were sitting at the same 7-8% ratio. None of them held Google #1 because of unique content; they held position only because the SERP was underserved. As soon as competitors (Doors of Steel, Samson, LUX) moved up with richer county-level pages, Bucks had no defensive moat and Bing actively de-indexed it as a near-duplicate of leaf area pages. The Bucks hub `description` was byte-identical to its 22 April state. **No site-side change caused the fall. The mess was that we shipped 17 hubs at 7% unique-content density and never measured it.**
+
+**Enforcement.** The `area-slug-validator` subagent will refuse to commit any hub entry that fails the rule. The `cannibalisation-auditor` subagent will flag any hub whose `description` shingle-overlaps with a child leaf-area page above 40%. The post-Phase-2 baseline (13 May 2026) for all 17 hubs is 25-30% unique content.
 
 ## Subagent Routing (project-local)
 
