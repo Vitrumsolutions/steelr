@@ -8,7 +8,47 @@ export const manchesterLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Greater Manchester is a region of striking contrasts, from the converted Victorian warehouses of the city centre to the leafy suburban avenues of its southern boroughs. Areas like Didsbury, Worsley, and Bramhall attract professionals and families who want generous period properties with excellent transport links into the city. SteelR bespoke entrance doors serve homeowners across the conurbation who want their front door to reflect the quality of their home, robust enough for northern weather, refined enough for the most discerning street.",
+      "Greater Manchester combines a major UK city economy with one of the highest concentrations of prestige residential property in the North of England. The Trafford prestige belt centred on Hale (WA15), Bowdon (WA14), Hale Barns (WA15) and Altrincham (WA14 to WA15) sits adjacent to the Cheshire Golden Triangle and serves a substantial concentration of Manchester finance, legal and corporate principals. South Manchester carries Didsbury (M20), Chorlton (M21) and the Victoria Park (M14) conservation area as the Edwardian villa belt, while Worsley (M28) provides the Salford / Trafford-edge prestige market. The northern suburbs combine Whitefield (M45), Prestwich (M25) and the Heaton Park belt. Stockport (SK1 to SK8) brings Heaton Mersey (SK4), Heaton Moor (SK4) and Bramhall (SK7) into the prestige bracket as the south-east commuter market. Manchester city centre (M1 to M4) carries converted Victorian warehouse apartments, Northern Quarter conservation streets, and new-build executive apartment stock along Deansgate and the Spinningfields business district. The West Pennine Moors edge brings Bolton (BL1 to BL7) and Bury (BL8 to BL9) period stock. SteelR bespoke steel front doors are specified across all three markets: large-format gated-estate configurations for Hale, Bowdon and Hale Barns mansion stock, heritage-profiled designs for the Victoria Park and Didsbury Edwardian villa belt, pivot-format contemporary doors for Manchester city centre new-build executive apartments, and northern-weather-rated specifications across the West Pennine Moors edge. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Greater Manchester postcodes.",
+    localFeatures: [
+      "Hale WA15, Bowdon WA14 and Hale Barns WA15, the Trafford prestige belt with substantial gated-estate mansion stock",
+      "Altrincham WA14 to WA15, the market town anchor for the Trafford prestige belt",
+      "Didsbury M20 and Chorlton M21, south Manchester Edwardian villa belt",
+      "Victoria Park M14, conservation area with substantial Edwardian and Victorian villa stock",
+      "Worsley M28, Salford prestige belt with the Bridgewater Canal heritage context",
+      "Bramhall SK7, south-east Stockport prestige residential market",
+      "Heaton Mersey SK4 and Heaton Moor SK4, Stockport Edwardian villa belt",
+      "Whitefield M45 and Prestwich M25, north Manchester suburb prestige market",
+      "Manchester city centre M1 to M4, converted Victorian warehouse apartments plus Deansgate / Spinningfields new-build executive stock",
+      "Bolton BL1 to BL7 and Bury BL8 to BL9, West Pennine Moors-edge period residential market",
+      "Substantial gated-estate mansions across WA14, WA15 and SK7 requiring large-format steel entrance configurations",
+      "Northern-weather-rated specifications including marine-grade powder coating for West Pennine Moors and Saddleworth Moor exposed locations",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover the full Greater Manchester conurbation including Stockport, Bolton and Bury?",
+        answer:
+          "Yes. We treat Greater Manchester as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Hale WA15, Bowdon WA14, Altrincham WA14, Didsbury M20, Worsley M28, Bramhall SK7, Manchester city centre M1, Bolton BL1, Bury BL8, or any other Greater Manchester postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in a Manchester conservation area or on a listed building?",
+        answer:
+          "Manchester operates several substantial conservation areas including Victoria Park M14, parts of Didsbury M20, the Castlefield basin, the Northern Quarter and the cathedral quarter. Stockport, Trafford and Salford district councils administer their own conservation regimes. Within a conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for WA15, M20 or SK7 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Greater Manchester postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Manchester property need SR3 or SR4, and which insurers in the conurbation recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in WA15 Hale, WA14 Bowdon, WA15 Hale Barns and SK7 Bramhall where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is occasionally specified on the highest-value Trafford-belt gated estates. Most Greater Manchester specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-traditional-double-columns.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-contemporary-ribbed-open.jpeg",

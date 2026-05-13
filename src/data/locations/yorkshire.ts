@@ -8,12 +8,46 @@ export const yorkshireLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Yorkshire's housing stock is as varied as its landscape, from millstone grit terraces in the Pennine valleys to elegant Georgian crescents in spa towns and robust stone farmhouses on the Dales. Homeowners across the county share a pride in their properties that demands quality at every threshold. SteelR bespoke steel entrance doors are engineered to withstand Yorkshire's climate while delivering the refined appearance that complements the region's rich architectural heritage.",
+      "Yorkshire is England's largest historic county and covers three distinct sub-regions: the West Riding around Leeds, Sheffield and the Pennine industrial valleys; the North Riding incorporating York, Harrogate and the Yorkshire Dales National Park; and the East Riding running to the Yorkshire coast. The prestige residential market centres on Harrogate (HG1 to HG3) as the Victorian spa town with its Stray, the Duchy Estate and Pannal conservation areas. York (YO1 to YO31) carries Grade I listed minster conservation, the city-walls Roman context, plus the substantial Edwardian villa stock around Bishopthorpe, Heworth and Fulford. Ilkley (LS29), Wetherby (LS22) and the North Yorkshire Dales villages provide rural prestige. Leeds (LS6 to LS17) brings the Roundhay (LS17) and Headingley (LS6) Victorian-Edwardian villa belts plus the executive new-build Alwoodley (LS17) and Adel (LS16) market. Sheffield (S10 to S11) provides the Ranmoor and Fulwood prestige market plus Whirlow (S11) within Peak District National Park boundary. The Yorkshire Dales National Park covers much of the rural west of the county with strict conservation oversight, while the North York Moors National Park extends across the north-east. Coastal Yorkshire combines Scarborough (YO11 to YO12), Whitby (YO21) and Bridlington (YO15 to YO16). SteelR bespoke steel front doors are specified across all three markets: heritage-profiled designs in matched Yorkshire-stone RAL finishes for Harrogate Stray and York minster-quarter conservation streets, traditional six-panel layouts for the Yorkshire Dales National Park village context, Arts and Crafts adaptations for the Roundhay and Headingley Victorian villas, and pivot-format contemporary doors for the Leeds and Sheffield new-build executive estates. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Yorkshire postcodes.",
     localFeatures: [
-      "Millstone grit and Yorkshire stone period properties",
-      "Georgian and Regency townhouses in spa and market towns",
-      "Converted barns and farmhouses across the Dales and Moors",
-      "Executive new-build developments in commuter corridors",
+      "Harrogate HG1 to HG3, Victorian spa town with the Stray, Duchy Estate and Pannal conservation areas",
+      "York YO1 to YO31, Grade I listed minster city with Roman walls conservation context",
+      "Ilkley LS29 and Wetherby LS22, North Yorkshire prestige market towns",
+      "Leeds LS6 to LS17 with Roundhay LS17 and Headingley LS6 Victorian-Edwardian villa belts",
+      "Alwoodley LS17 and Adel LS16, executive new-build belt within Leeds prestige residential market",
+      "Sheffield S10 to S11 with Ranmoor and Fulwood as the Sheffield prestige market",
+      "Whirlow S11, Sheffield property within the Peak District National Park boundary",
+      "Yorkshire Dales National Park covering much of the rural west of the county with strict conservation oversight",
+      "North York Moors National Park covering the north-east of Yorkshire",
+      "Coastal Yorkshire: Scarborough YO11 to YO12, Whitby YO21, Bridlington YO15 to YO16",
+      "Substantial Edwardian and Victorian villas across HG1 Harrogate Stray and LS17 Roundhay requiring heritage-profiled steel entrance configurations with matched Yorkshire-stone RAL finishes",
+      "Pennine-edge stone farmhouses and converted barns across Yorkshire Dales and North York Moors postcodes",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover the full Yorkshire region including the Dales, the East Riding coast and Sheffield?",
+        answer:
+          "Yes. We treat the historic Yorkshire region (West, North and East Ridings, plus the city of York and the Sheffield district) as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Harrogate HG1, York YO1, Leeds LS17, Sheffield S10, Ilkley LS29, Wetherby LS22, Whirlow S11, Scarborough YO11, Whitby YO21, or any other Yorkshire postcode. Coastal properties at Whitby, Scarborough and Bridlington receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Yorkshire Dales National Park, North York Moors National Park or a Yorkshire conservation area?",
+        answer:
+          "The Yorkshire Dales National Park and North York Moors National Park operate strict conservation regimes administered by the respective National Park Authorities. York city centre within the walls operates a comparable regime including listed building consent within the minster quarter. Harrogate Stray, Duchy Estate and the Sheffield Ranmoor conservation areas operate strict planning controls. Within a National Park, conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour matched to local Yorkshire stonework, and no visible certification marks. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for HG1, YO1 or LS17 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Yorkshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Yorkshire property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in HG1 Harrogate, LS17 Roundhay, S10 Sheffield Ranmoor, and the high-value North Yorkshire Dales estates where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios or rural addresses with documented attempted-intrusion history. Most Yorkshire specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
     ],
     heroImage: "/images/gallery/steelr-black-traditional-wide-frosted.jpg",
     galleryImages: [

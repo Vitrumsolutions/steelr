@@ -8,7 +8,47 @@ export const surreyLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Surrey is synonymous with affluent living, from the private estates of Virginia Water to the riverside elegance of Weybridge and the leafy lanes of Cobham. The county's housing stock spans Tudor manor houses, Victorian villas, Edwardian gems, and cutting-edge contemporary architecture. SteelR bespoke steel entrance doors are engineered to meet Surrey's exacting standards, delivering handcrafted quality and multi-point security across the county's most prestigious addresses while complementing every architectural period and style.",
+      "Surrey carries one of the densest concentrations of high-value residential property in the UK outside central London. The Wentworth Estate around Virginia Water (GU25), the gated private roads of St George's Hill in Weybridge (KT13), the Cobham private-school belt (KT11) and the riverside frontages along Walton-on-Thames (KT12) consistently transact at the two-to-eight million pound bracket. The Surrey Hills Area of Outstanding Natural Beauty brings strict conservation oversight from Surrey County Council and the Surrey Hills AONB partnership, covering much of the south of the county including Dorking, Box Hill, and the villages around Shere and Gomshall. Towards the south-west, Guildford (GU1 to GU5) provides a Georgian county town context plus Charterhouse and Royal Grammar School catchment areas, while Farnham, Haslemere and Hindhead extend the prestige market into the Surrey-Hampshire border. Esher (KT10), Oxshott (KT22), and Claygate (KT10) form the inner Cobham commuter belt. SteelR bespoke steel front doors are specified across all four markets: large-format contemporary configurations with sidelights and fanlights for Wentworth and St George's Hill gated frontages, heritage-profiled designs for Dorking and Guildford conservation streets, Arts and Crafts adaptations for the Cobham and Esher Edwardian villas, and pivot-format minimalist doors for new-build executive estates in Reigate and Tadworth. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Surrey postcodes.",
+    localFeatures: [
+      "Wentworth Estate Virginia Water GU25, the Surrey golf-and-mansion super-prime corridor",
+      "St George's Hill Weybridge KT13, gated private estate with concierge security",
+      "Cobham KT11 and Oxshott KT22, the Surrey private-school commuter belt",
+      "Esher KT10 and Claygate KT10, inner KT-belt with substantial Edwardian villa stock",
+      "Guildford GU1 to GU5, Georgian county town plus Charterhouse and Royal Grammar catchment",
+      "Farnham GU9, Haslemere GU27 and Hindhead GU26, Surrey-Hampshire border prestige market",
+      "Surrey Hills AONB conservation oversight covering Dorking, Box Hill, Shere, Gomshall and the southern villages",
+      "Reigate RH2 and Banstead SM7, executive new-build estates plus inter-war detached stock",
+      "Walton-on-Thames KT12, riverside frontages along the Thames with conservation considerations",
+      "Substantial Tudor revival and Arts and Crafts villas in Cobham, Oxshott and Esher requiring large-format steel entrance configurations",
+      "Architect-designed contemporary replacements across Wentworth, St George's Hill and the private-road estates of Oxshott",
+      "Gated estates and private-drive properties calling for grand front-door specifications with sidelights and fanlights",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover Guildford and Farnham as well as the Wentworth and Cobham prestige belt?",
+        answer:
+          "Yes. We treat the whole of Surrey as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Guildford GU1 to GU5, Farnham GU9, Haslemere GU27, Hindhead GU26, Dorking RH4, Reigate RH2, or any of the prestige KT and GU postcodes. Typical lead time from first survey to installed door is eight to twelve weeks regardless of which Surrey postcode the property sits in.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Surrey Hills AONB or a Surrey conservation area?",
+        answer:
+          "The Surrey Hills AONB covers a substantial part of the south of the county, with conservation oversight from the Surrey Hills partnership on top of local planning consent from Surrey County Council and the district councils (Mole Valley, Guildford, Waverley, Tandridge). Within a conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks on the streetscape. We advise on the application in-house and have completed projects across Dorking, Guildford, Farnham and the AONB villages.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for KT13, KT11 or GU25 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Surrey postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Surrey property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties at Wentworth, St George's Hill, Oxshott and Cobham where contents values exceed insurer thresholds for standard residential cover. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios, public-facing principals or exposed rural addresses with documented attempted-intrusion history. Most Surrey specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-double-gable.jpg",
@@ -18,7 +58,7 @@ export const surreyLocations: Location[] = [
       "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
       "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
     ],
-    nearbyAreaSlugs: ["buckinghamshire", "hertfordshire"],
+    nearbyAreaSlugs: ["buckinghamshire", "hertfordshire", "berkshire", "hampshire"],
   },
   {
     slug: "virginia-water",

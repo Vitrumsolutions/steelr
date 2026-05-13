@@ -8,12 +8,46 @@ export const birminghamLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Birmingham's architectural landscape ranges from grand Victorian terraces in Jewellery Quarter to sleek new-build apartments along the canal network. As England's second city, its property market demands entrance doors that match the ambition of its homeowners. SteelR steel doors complement everything from converted industrial warehouses in Digbeth to prestigious detached homes in Four Oaks, bringing a refined security solution to the heart of the West Midlands.",
+      "Birmingham and the West Midlands combine the second-largest city economy in England with one of the highest concentrations of prestige residential property in the Midlands. The Edgbaston (B15 to B16) and Harborne (B17) prestige belt around the University of Birmingham and Edgbaston Cricket Ground carries substantial Victorian villa stock plus the Calthorpe Estate private-road property bracket. Moseley (B13) and Kings Heath (B14) extend the Victorian-Edwardian villa belt south. Sutton Coldfield (B72 to B76) with the prestige Four Oaks (B74) estate provides the north Birmingham mansion market, sitting adjacent to Sutton Park as one of the largest urban parks in Europe. Solihull (B90 to B94) and the adjacent Knowle (B93), Dorridge (B93) and Hampton-in-Arden (B92) belt forms the M42-corridor commuter prestige market within Solihull Metropolitan Borough. The Jewellery Quarter (B18) brings Grade I and II listed Georgian manufactory conservation context, with significant residential conversion of historic premises. Bournville (B30) carries the Cadbury planned-village conservation area governed by the Bournville Village Trust. Birmingham city centre (B1 to B5) provides converted warehouse, canal-side new-build and Mailbox apartment stock. SteelR bespoke steel front doors are specified across all four markets: large-format Calthorpe Estate and Four Oaks gated configurations, heritage-profiled designs for Jewellery Quarter conservation and Bournville Trust-controlled streets, Arts and Crafts adaptations for the Moseley and Edgbaston Victorian villa belt, and pivot-format contemporary doors for city-centre and Solihull new-build executive estates. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to West Midlands postcodes.",
     localFeatures: [
-      "Victorian and Edwardian terraces across inner suburbs",
-      "Converted canal-side warehouse apartments",
-      "New-build executive homes in outer boroughs",
-      "Listed properties in conservation areas such as Bournville",
+      "Edgbaston B15 to B16 with the Calthorpe Estate private-road property bracket",
+      "Harborne B17, prestige residential market with Birmingham University context",
+      "Sutton Coldfield B72 to B76 with Four Oaks B74 mansion belt adjacent to Sutton Park",
+      "Solihull B90 to B94 with Knowle B93, Dorridge B93 and Hampton-in-Arden B92, M42-corridor prestige commuter belt",
+      "Jewellery Quarter B18, Grade I and II listed Georgian manufactory conservation area",
+      "Bournville B30, Cadbury planned-village conservation area governed by Bournville Village Trust",
+      "Moseley B13 and Kings Heath B14, Victorian-Edwardian villa belt south of the city centre",
+      "Birmingham city centre B1 to B5, Mailbox and converted warehouse apartment stock plus new-build canal-side residences",
+      "Digbeth B5 to B9, creative quarter with industrial warehouse conversion stock",
+      "West Bromwich, Walsall and Wolverhampton, the wider Black Country residential market within service range",
+      "Substantial Edwardian and Arts and Crafts villas across B15, B17 and B13 requiring large-format heritage-profiled steel entrance configurations",
+      "Architect-designed contemporary replacements across Solihull, Knowle and Dorridge M42-corridor private-road estates",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover the full West Midlands including Solihull, Sutton Coldfield and the Black Country?",
+        answer:
+          "Yes. We treat Birmingham and the West Midlands as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Edgbaston B15, Harborne B17, Sutton Coldfield B74, Solihull B91, Knowle B93, Dorridge B93, Bournville B30, Jewellery Quarter B18, Moseley B13, Wolverhampton, Walsall, West Bromwich, or any other West Midlands postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in a Birmingham conservation area or on a listed Calthorpe or Bournville Trust property?",
+        answer:
+          "Birmingham operates several substantial conservation areas including the Jewellery Quarter (Grade I and II listed Georgian manufactory stock), Bournville (Cadbury planned village governed by Bournville Village Trust), and parts of Edgbaston and Moseley. The Calthorpe Estate operates private-road covenants on top of local planning consent. Within a conservation area, on a listed building, or under Bournville Trust governance, change to the front elevation typically requires planning permission, listed building consent, or Trust approval. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for B15, B74 or B93 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for West Midlands postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Birmingham property need SR3 or SR4, and which insurers in the West Midlands recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in B15 Edgbaston (Calthorpe Estate), B74 Four Oaks Sutton Coldfield, and the Solihull B93 Knowle/Dorridge prestige belt where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is occasionally specified on the highest-value Calthorpe Estate properties. Most West Midlands specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
     ],
     heroImage: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
     galleryImages: [

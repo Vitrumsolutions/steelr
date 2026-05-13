@@ -8,7 +8,47 @@ export const oxfordshireLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Oxfordshire blends ancient university architecture with rolling Cotswold countryside, creating a landscape where honey-stone manor houses sit alongside elegant Georgian townhouses. From the dreaming spires of Oxford to the market towns of the western hills, homeowners here value craftsmanship that honours centuries of architectural heritage. A SteelR bespoke entrance door provides the perfect marriage of enduring design and modern security for properties across this distinguished county.",
+      "Oxfordshire combines the ancient university city of Oxford with the Cotswolds AONB to the west and the Chilterns AONB to the south, producing one of the most architecturally distinguished counties in England. Oxford (OX1 to OX4) brings Grade I and II listed college architecture, the conservation-area North Oxford Victorian villas around the Banbury Road, and the Headington and Summertown prestige residential market. The Cotswolds AONB covers much of west Oxfordshire including the honey-stone towns of Burford (OX18), Chipping Norton (OX7), Woodstock (OX20) and Charlbury (OX7), all governed by strict conservation oversight from West Oxfordshire District Council and the Cotswolds Conservation Board. The Chilterns AONB extends into the south of the county around Henley-on-Thames (RG9), Goring (RG8) and Stoke Row (RG9), with the Henley regatta corridor and the Thames frontage at Wargrave and Shiplake forming the southern prestige market. Bicester (OX25 to OX27) provides the M40-corridor commuter market with substantial new-build executive estates, while Banbury (OX16 to OX17) in the north combines Georgian market-town stock with the M40 northbound commuter belt. SteelR bespoke steel front doors are specified across all four markets: heritage-profiled designs in Cotswold-honey RAL finishes for Burford and Chipping Norton conservation streets, traditional six-panel configurations for North Oxford and Summertown Victorian villa frontages, large-format Thames-frontage specifications for the Henley-on-Thames regatta corridor, and pivot-format contemporary doors for Bicester new-build executive properties. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Oxfordshire postcodes.",
+    localFeatures: [
+      "Oxford OX1 to OX4 including the Grade I listed college quarter and Radcliffe Camera conservation context",
+      "North Oxford OX2, Victorian villa belt along Banbury Road, Woodstock Road and the Norham Manor estate",
+      "Headington OX3 and Summertown OX2, prestige Oxford residential satellites",
+      "Cotswolds AONB conservation oversight covering Burford OX18, Chipping Norton OX7, Woodstock OX20 and Charlbury OX7",
+      "Henley-on-Thames RG9, Thames-frontage regatta-corridor prestige market",
+      "Goring RG8 and Stoke Row RG9, Chilterns AONB villages in the south of the county",
+      "Bicester OX25 to OX27, M40-corridor new-build executive estate market",
+      "Banbury OX16 to OX17, Georgian market town with M40 northbound commuter context",
+      "Wallingford OX10 and Didcot OX11, Thames Valley market towns within commuter reach of Oxford and Reading",
+      "Witney OX28, the West Oxfordshire market town with substantial Cotswolds-honey-stone period stock",
+      "Chilterns AONB conservation oversight extending into south Oxfordshire around Henley and Goring",
+      "Substantial Cotswold-stone manor houses and rectories across OX7, OX18 and OX20 requiring heritage-profiled steel entrance configurations in matched RAL colours",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover Henley-on-Thames and the Cotswold villages as well as Oxford and Bicester?",
+        answer:
+          "Yes. We treat the whole of Oxfordshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Oxford OX1, Bicester OX25, Henley-on-Thames RG9, Burford OX18, Chipping Norton OX7, Banbury OX16, Witney OX28, or any other Oxfordshire postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Cotswolds AONB, Chilterns AONB or an Oxfordshire conservation area?",
+        answer:
+          "The Cotswolds AONB covers much of west Oxfordshire and the Chilterns AONB covers the south, with conservation oversight from the respective Conservation Boards on top of local planning consent from West Oxfordshire, Cherwell, South Oxfordshire and Vale of White Horse district councils. Within an AONB, conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour matched to local Cotswold-honey stonework, and no visible certification marks on the streetscape. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for OX1, OX18 or RG9 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Oxfordshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Oxfordshire property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in OX2 North Oxford, RG9 Henley-on-Thames and the high-value Cotswolds AONB villages where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios or exposed rural addresses with documented attempted-intrusion history. Most Oxfordshire specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",

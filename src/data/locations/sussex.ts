@@ -8,7 +8,47 @@ export const sussexLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Sussex stretches from the dramatic chalk cliffs of the south coast to the ancient woodlands of the High Weald, encompassing some of England's finest residential architecture. Whether a flint-faced farmhouse on the Downs or a Regency villa on the seafront, Sussex properties deserve entrance doors that match their setting. SteelR crafts bespoke steel doors for discerning homeowners across both East and West Sussex, combining heritage-sensitive design with uncompromising structural performance.",
+      "Sussex covers two ceremonial counties (East Sussex and West Sussex) and runs from the South Downs National Park through the High Weald AONB to the south coast. Brighton and Hove (BN1 to BN3) is the principal urban centre with Regency seafront stock around Brunswick Square, Hove Lawns and the Kemp Town squares. Chichester (PO19) in West Sussex carries Grade I listed cathedral conservation plus the substantial Georgian townhouse stock along West Street, North Street and East Street. Arundel (BN18) brings castle-town heritage. The South Downs National Park covers a large swathe of central Sussex including Lewes (BN7) and the villages of Ditchling, Plumpton and Falmer. The High Weald AONB covers much of the north, including Battle (TN33), Crowborough (TN6), Wadhurst (TN5) and the prestige Crawley Down (RH10) belt. Coastal Sussex extends from Worthing (BN11 to BN14) through Littlehampton (BN17), Bognor Regis (PO21) and East Wittering, to the East Sussex coast at Eastbourne (BN20 to BN23) and Hastings (TN34 to TN37). The Mid Sussex commuter belt around Horsham (RH12 to RH13), Haywards Heath (RH16) and Cuckfield (RH17) provides M23 corridor commuter access. SteelR bespoke steel front doors are specified across all four markets: large-format Regency-frontage configurations with marine-grade powder coating for Brighton seafront properties, heritage-profiled designs for Chichester cathedral-quarter and Arundel conservation streets, traditional six-panel layouts for the South Downs and High Weald village context, and contemporary pivot configurations for Horsham and Haywards Heath M23-corridor new builds. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Sussex postcodes.",
+    localFeatures: [
+      "Brighton and Hove BN1 to BN3, Regency seafront and Kemp Town squares prestige market",
+      "Chichester PO19, Grade I listed cathedral city with Georgian conservation townhouse stock",
+      "Arundel BN18, castle-town heritage with strict conservation oversight",
+      "South Downs National Park covering Lewes BN7 and the villages of Ditchling, Plumpton and Falmer",
+      "High Weald AONB covering Battle TN33, Crowborough TN6 and Wadhurst TN5",
+      "Horsham RH12 to RH13, Haywards Heath RH16 and Cuckfield RH17, Mid Sussex M23-corridor commuter belt",
+      "Crawley Down RH10, gated estate market within High Weald AONB boundary",
+      "Worthing BN11 to BN14 and Littlehampton BN17, West Sussex coastal property requiring marine-grade specification",
+      "Eastbourne BN20 to BN23 and Hastings TN34 to TN37, East Sussex coastal residential market",
+      "Wadhurst TN5 and Battle TN33, High Weald AONB market towns with substantial period stock",
+      "Substantial Regency seafront frontages across Brighton, Hove and Eastbourne requiring marine-grade powder coating",
+      "Architect-designed contemporary replacements across Haywards Heath, Cuckfield and the M23-corridor private-road estates",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover East and West Sussex equally, including the coastal towns?",
+        answer:
+          "Yes. We treat Sussex (both East and West) as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Brighton BN1, Chichester PO19, Arundel BN18, Lewes BN7, Horsham RH12, Haywards Heath RH16, Worthing BN11, Eastbourne BN20, Hastings TN34, or any other Sussex postcode. Coastal properties receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the South Downs National Park, High Weald AONB or a Sussex conservation area?",
+        answer:
+          "The South Downs National Park covers a substantial swathe of central Sussex with conservation oversight from the South Downs National Park Authority. The High Weald AONB covers much of the north of the county with conservation oversight from the High Weald partnership. Within a National Park, conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent. Brighton Kemp Town and Hove squares operate strict conservation regimes. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for BN1, PO19 or RH16 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Sussex postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Sussex property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in Brighton BN1 seafront, Hove BN3, Chichester PO19 and the Mid Sussex prestige belt where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios or public-facing principals. Most Sussex specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-traditional-double-columns.jpg",

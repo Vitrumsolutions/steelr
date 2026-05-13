@@ -8,7 +8,47 @@ export const kentLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Known as the Garden of England, Kent is home to some of the most distinguished residential architecture in the South East. From medieval timber-framed manors to grand Georgian estates and contemporary new builds, Kent properties demand entrance doors that honour their heritage while delivering modern security and thermal performance. SteelR has become the preferred choice for Kent homeowners seeking bespoke steel doors that complement the county's rich architectural tapestry.",
+      "Kent runs from the London commuter belt at Sevenoaks and Tonbridge through the Weald towards the South Coast at Folkestone and Dover. The North Kent prestige belt centred on Sevenoaks (TN13 to TN15), Westerham (TN16) and Cobham (DA12) sits within commuter reach of central London and consistently transacts above two million pounds on the substantial detached stock. The Tunbridge Wells (TN1 to TN4) Royal Borough combines Regency Pantiles heritage with Victorian villa stock around Mount Ephraim and Calverley Park. The Garden of England designation reflects the Wealden agricultural landscape covering much of the centre of the county, including the Kent Downs AONB and the High Weald AONB which together cover roughly a third of Kent's area. East Kent brings Canterbury (CT1 to CT2) with its Grade I listed cathedral and conservation oversight, Ashford (TN23 to TN25) as an HS1 high-speed-rail commuter market, and the Maidstone (ME14 to ME17) county town. Coastal Kent combines Whitstable (CT5), Broadstairs (CT10) and Margate (CT9) as the contemporary creative-class market with Folkestone (CT19 to CT20) and Dover (CT16 to CT17) on the south coast. SteelR bespoke steel front doors are specified across all four markets: heritage-profiled designs with traditional six-panel layouts for Sevenoaks and Canterbury conservation streets, large-format contemporary configurations for Tunbridge Wells Mount Ephraim mansions, Arts and Crafts adaptations for the inter-war and Edwardian Calverley Park villas, and marine-grade powder-coat specifications for coastal Whitstable and Folkestone properties. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Kent postcodes.",
+    localFeatures: [
+      "Sevenoaks TN13 to TN15, the North Kent prestige commuter belt with substantial detached stock",
+      "Tunbridge Wells TN1 to TN4, Regency Pantiles heritage plus Victorian Calverley Park villas",
+      "Westerham TN16 and Cobham DA12, North Downs commuter mansion belt",
+      "Canterbury CT1 to CT2, Grade I listed cathedral city with full conservation-area oversight",
+      "Ashford TN23 to TN25, HS1 high-speed-rail commuter market within 38 minutes of St Pancras",
+      "Maidstone ME14 to ME17, the Kent county town with Georgian and Victorian residential stock",
+      "Kent Downs AONB covering the North Kent escarpment with conservation oversight",
+      "High Weald AONB covering the centre of the county including Cranbrook, Goudhurst and Tenterden",
+      "Whitstable CT5, Broadstairs CT10 and Margate CT9, the Thanet coastal creative-class market with marine-grade salt-air requirements",
+      "Folkestone CT19 to CT20 and Dover CT16 to CT17, south coast prestige market with marine-grade specification",
+      "Substantial Wealden farmhouses and oast-house conversions across TN postcodes requiring heritage-profiled steel entrance configurations",
+      "Architect-designed contemporary replacements across the Sevenoaks and Tunbridge Wells private-road estates",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover Canterbury and the coastal Thanet towns as well as Sevenoaks and Tunbridge Wells?",
+        answer:
+          "Yes. We treat the whole of Kent as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Canterbury CT1 to CT2, Ashford TN23, Maidstone ME14, Whitstable CT5, Broadstairs CT10, Margate CT9, Folkestone CT19, Dover CT16, or any other Kent postcode. For coastal properties we recommend marine-grade powder coating as standard to prevent salt-air corrosion. Typical lead time from first survey to installed door is eight to twelve weeks regardless of which Kent postcode the property sits in.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Kent Downs AONB, High Weald AONB or a Kent conservation area?",
+        answer:
+          "The Kent Downs AONB and High Weald AONB together cover roughly a third of Kent's area, with conservation oversight from the respective AONB partnerships on top of local planning consent from Kent County Council and the district authorities. Within a conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent. Canterbury within the city walls is a particularly strict conservation regime. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks on the streetscape. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for TN1, CT1 or ME14 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Kent postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Kent property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in TN13 Sevenoaks, TN16 Westerham and TN4 Tunbridge Wells Mount Ephraim where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios, public-facing principals or exposed rural addresses with documented attempted-intrusion history. Most Kent specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-double-gable.jpg",

@@ -8,7 +8,47 @@ export const hampshireLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Hampshire blends historic market towns with prestigious country estates, creating an ideal setting for bespoke steel entrance doors. From the chalk streams of the Itchen Valley to the Georgian elegance of its county town, Hampshire properties demand entrance solutions that honour centuries of architectural heritage while meeting modern security and thermal standards. SteelR serves homeowners across the county who appreciate craftsmanship that complements their surroundings.",
+      "Hampshire combines the historic Saxon capital at Winchester (SO22 to SO23) with the South Downs National Park, the New Forest National Park, and one of the longest coastlines of any English county. Winchester city centre carries Grade I listed cathedral conservation context plus the substantial Victorian and Edwardian villa stock along Worthy Road, St Cross Road and the prestige Sleepers Hill belt. The Itchen Valley chalk-stream villages of Itchen Abbas, Avington and Easton provide rural prestige. The New Forest National Park covers the south-west of the county including Lymington (SO41), Beaulieu (SO42), Lyndhurst (SO43) and Brockenhurst (SO42), all with strict conservation oversight from the New Forest National Park Authority. The South Downs National Park extends across the centre and east of the county including Petersfield (GU31) and Alresford (SO24). The north Hampshire commuter belt centred on Fleet (GU51), Hartley Wintney (RG27) and Hook (RG27) serves the M3 corridor, while Alton (GU34) and Farnham-border GU postcodes complete the prestige belt. The coastal market combines Lymington marina-frontage property with Southsea (PO5) Regency seafront stock. Portsmouth (PO1 to PO5) and Southampton (SO14 to SO19) provide the two city contexts. SteelR bespoke steel front doors are specified across all four markets: heritage-profiled designs for Winchester cathedral-quarter and Petersfield conservation streets, large-format Itchen Valley estate configurations, marine-grade powder-coat specifications for Lymington and Southsea coastal frontages, and traditional six-panel layouts for the New Forest village conservation context. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Hampshire postcodes.",
+    localFeatures: [
+      "Winchester SO22 to SO23, the historic Saxon capital with Grade I listed cathedral conservation oversight",
+      "Itchen Valley chalk-stream villages including Itchen Abbas, Avington and Easton, rural prestige market",
+      "New Forest National Park including Lymington SO41, Beaulieu SO42, Lyndhurst SO43 and Brockenhurst SO42",
+      "South Downs National Park covering Petersfield GU31 and Alresford SO24",
+      "Fleet GU51, Hartley Wintney RG27 and Hook RG27, the M3-corridor north Hampshire commuter market",
+      "Alton GU34, market town within the South Downs National Park boundary",
+      "Lymington SO41, marina-frontage property requiring marine-grade powder coating",
+      "Southsea PO5, Regency seafront stock with conservation considerations and salt-air requirements",
+      "Portsmouth PO1 to PO5 and Southampton SO14 to SO19, the two principal Hampshire city markets",
+      "Substantial Edwardian and Victorian villas across SO22 Winchester requiring large-format heritage-profiled steel entrance configurations",
+      "New Forest National Park conservation oversight requiring traditional six-panel and arched-fanlight designs",
+      "Architect-designed contemporary replacements across Fleet GU51 and the M3-corridor private-road estates",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover the New Forest and South Downs villages as well as Winchester and Fleet?",
+        answer:
+          "Yes. We treat the whole of Hampshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Winchester SO22, Fleet GU51, Lymington SO41, Brockenhurst SO42, Petersfield GU31, Alton GU34, Portsmouth PO1, Southampton SO14, or any other Hampshire postcode. Coastal properties at Lymington and Southsea receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the New Forest National Park, South Downs National Park or a Hampshire conservation area?",
+        answer:
+          "Both National Parks operate strict conservation regimes administered by the New Forest National Park Authority and the South Downs National Park Authority respectively, on top of local planning consent from Hampshire County Council and the district authorities. Winchester city centre operates a strict conservation regime including listed building consent within the cathedral quarter. Within a National Park, conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for SO22, SO41 or GU51 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Hampshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Hampshire property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in SO22 Winchester, SO41 Lymington and the Itchen Valley chalk-stream estates where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios or public-facing principals. Most Hampshire specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-double-gable.jpg",

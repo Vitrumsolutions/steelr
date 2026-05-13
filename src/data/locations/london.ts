@@ -9,7 +9,47 @@ export const londonLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "SteelR serves the whole of London with bespoke steel entrance doors engineered for the capital's most distinguished properties. From the stucco-fronted terraces of Kensington to the Georgian squares of Islington, from riverside apartments in Greenwich to Arts and Crafts villas in Hampstead, our doors are designed to complement every architectural era found across the city. London homeowners demand the highest standards of security, thermal performance, and craftsmanship, and our Secured by Design accredited steel doors deliver on every count. Each commission begins with a site survey by our design team, ensuring proportions, glazing, ironmongery, and finish are perfectly matched to the facade. Whether you are restoring a Grade II listed townhouse or completing a contemporary new-build, SteelR brings over two decades of specialist manufacturing expertise to your front door. Request a consultation and discover why architects and developers across London trust SteelR.",
+      "London is SteelR's primary service market and accounts for the highest concentration of premium-tier installations on the company portfolio. The super-prime W1 belt covering Mayfair, Belgravia, Knightsbridge and St John's Wood (NW8) carries the highest residential property values in the UK, with the surrounding RBKC postcodes (SW1, SW3, SW5, SW7, SW10, W8, W11, W14) consistently in the top 1 per cent of the national market. The Royal Borough of Kensington and Chelsea operates one of the strictest conservation regimes in the country, with the Holland Park, Notting Hill, South Kensington and Chelsea conservation areas tightly governed and many properties Grade II listed. Westminster City Council oversees a comparable regime across Mayfair, Marylebone and Belgravia. North London brings Hampstead (NW3) and Highgate (N6) Arts and Crafts villas, Primrose Hill (NW1) and Islington (N1) Georgian terraces, and St John's Wood (NW8) and Maida Vale (W9) Edwardian mansion blocks. West London extends prestige through Chiswick (W4), Barnes (SW13) and the Richmond / Twickenham (TW9 to TW11) river belt. South-west London brings Wimbledon Village (SW19), Putney (SW15), and Wandsworth Common (SW18) into the prestige residential bracket. East London adds Canary Wharf, Wapping (E1W) and the Spitalfields conservation streets (E1). SteelR bespoke steel front doors are specified across all four London quadrants: large-format stucco-frontage configurations for SW7 / SW3 / W11 Holland Park properties, traditional six-panel layouts for N1 Islington and NW3 Hampstead conservation streets, Arts and Crafts adaptations for the Highgate and St John's Wood villa stock, and pivot-format contemporary doors for Canary Wharf and Greenwich Peninsula new-build apartments. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with all-London coverage and no boundary surcharge.",
+    localFeatures: [
+      "Royal Borough of Kensington and Chelsea (SW1, SW3, SW5, SW7, SW10, W8, W11, W14): super-prime residential market with the strictest conservation regime in the UK",
+      "Westminster City Council prestige market: Mayfair W1, Marylebone W1, Belgravia SW1, St John's Wood NW8",
+      "Holland Park W11 and Notting Hill W11, stucco-fronted Italianate terraces with conservation-area planning",
+      "Chelsea SW3 and South Kensington SW7, Grade II listed townhouse density",
+      "Hampstead NW3 and Highgate N6, Arts and Crafts villa belt with Hampstead Heath conservation context",
+      "Primrose Hill NW1 and Regent's Park NW1, Regency terrace conservation area",
+      "Islington N1 and Canonbury N1, Georgian terrace conservation belt",
+      "Richmond TW9 to TW11 and Barnes SW13, west-London river prestige market",
+      "Wimbledon Village SW19, Putney SW15 and Wandsworth Common SW18, south-west London prestige residential bracket",
+      "Chiswick W4, Edwardian villa and Bedford Park Arts and Crafts conservation area",
+      "Canary Wharf, Wapping E1W and Limehouse, east-London riverside conversion and new-build market",
+      "Spitalfields E1 and Shoreditch EC2, Georgian terrace conservation belt in the City fringe",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover all London boroughs or just the prestige West and Central postcodes?",
+        answer:
+          "All of London. SteelR services the full Greater London area with no boundary surcharge from our UK facility. Survey, manufacture and install run uniformly across the Royal Borough of Kensington and Chelsea (SW1, SW3, SW7, W8, W11), Westminster (Mayfair, Belgravia, Marylebone, St John's Wood), Camden (Hampstead, Primrose Hill, Highgate), Islington (N1, N5), Wandsworth (SW15, SW18, SW19), Richmond upon Thames (TW9 to TW11), Hammersmith and Fulham, Tower Hamlets (E1W, E14 Canary Wharf), Greenwich, Southwark, Lambeth, and every outer-London borough. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in a London conservation area or on a listed building?",
+        answer:
+          "London operates the densest concentration of conservation areas and listed buildings in the UK. The Royal Borough of Kensington and Chelsea, Westminster City Council, Camden and Islington all administer strict conservation regimes covering most of their prestige residential stock. On a Grade I or Grade II listed building, change to the front door requires listed building consent. Within a conservation area, change to the front elevation typically requires planning permission. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks on the streetscape. We advise on the application in-house and have completed projects across the Notting Hill, Holland Park, Belgravia, Hampstead, Highgate and Islington conservation areas.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for SW1, W11, NW3 or N1 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no boundary surcharge across any London borough and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my London property need SR3 or SR4, and which insurers in the capital recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in the W1, SW1, SW3, SW7, W8, W11 super-prime belt, plus the prestige tier in NW3 Hampstead, N6 Highgate, NW8 St John's Wood and the SW19 Wimbledon Village belt, where contents values regularly exceed insurer thresholds for standard residential cover. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically specified on principal residences of public-facing principals, ultra-high-net-worth diplomatic properties, or addresses with documented attempted-intrusion history. Most London specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",

@@ -8,7 +8,47 @@ export const scotlandLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Scotland's built heritage spans baronial castles, Georgian New Towns, and striking contemporary architecture, all set against landscapes of extraordinary drama. From the sandstone terraces of Edinburgh to the granite grandeur of Aberdeen, Scottish homeowners expect entrance doors that endure harsh winters and coastal weather without sacrificing elegance. SteelR serves Scotland with bespoke steel doors engineered for the climate and designed to honour the nation's proud architectural traditions.",
+      "Scotland combines four distinct residential markets within a single country and operates a separate planning and building-control regime from England. Edinburgh (EH1 to EH17) is a UNESCO World Heritage Site (the Old Town and New Town together), governed by City of Edinburgh Council with substantial Grade A and Grade B listed property across the New Town (EH2, EH3) Georgian terraces, Stockbridge (EH3) and the prestige residential belts of Morningside (EH10), Murrayfield (EH12) and Cramond (EH4). Glasgow (G1 to G77) carries the Glasgow West End (G12) prestige market with Charles Rennie Mackintosh and Greek Thomson architectural context, plus the south-side prestige residential belt around Pollokshields (G41). St Andrews (KY16) brings Royal and Ancient Golf Club prestige and substantial period stock. Aberdeen (AB10 to AB25) is the granite city with substantial Victorian and Edwardian residential stock around Rubislaw, Queens Cross and Bieldside. The Highlands and Islands market extends from Inverness (IV1 to IV3) through the Highland Council area to the West Coast properties of Skye, Mull and the Argyll coast. Scotland's listed building system uses Categories A, B and C (not Grade I and II as in England), administered by Historic Environment Scotland and the local councils. The Cairngorms National Park covers a substantial part of the central Highlands. SteelR bespoke steel front doors are specified across all four markets: heritage-profiled designs in matched-sandstone or matched-granite RAL finishes for Edinburgh New Town and Aberdeen Rubislaw conservation streets, large-format configurations for the Glasgow West End townhouses and Murrayfield mansions, marine-grade powder-coat specifications for the West Coast and Argyll seafront properties, and thermal-upgrade configurations for the Highland and Cairngorms-edge addresses with extreme winter exposure. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Scottish mainland postcodes.",
+    localFeatures: [
+      "Edinburgh EH1 to EH17, UNESCO World Heritage Site with Old Town and New Town Grade A and B listed property",
+      "Edinburgh New Town (EH2, EH3) Georgian terraces around Charlotte Square, Drummond Place and Heriot Row",
+      "Morningside EH10, Murrayfield EH12 and Cramond EH4, prestige Edinburgh residential belts",
+      "Glasgow West End G12, Charles Rennie Mackintosh and Greek Thomson architectural context",
+      "Pollokshields G41, south-side Glasgow prestige Victorian and Edwardian villa market",
+      "St Andrews KY16, Royal and Ancient Golf Club prestige plus university-town period stock",
+      "Aberdeen AB10 to AB25 granite city with Rubislaw, Queens Cross and Bieldside prestige residential belts",
+      "Inverness IV1 to IV3, Highland capital and gateway to the Cairngorms",
+      "Cairngorms National Park covering substantial Highland property requiring extreme winter-exposure specification",
+      "West Coast and Argyll coastal property: Oban, Tobermory and the Skye properties requiring marine-grade powder coating",
+      "Scotland operates Category A, B and C listed building grading administered by Historic Environment Scotland (not English Grade I and II)",
+      "Substantial sandstone and granite period properties across Edinburgh, Glasgow and Aberdeen requiring heritage-profiled steel entrance configurations in matched RAL finishes",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover Glasgow, Aberdeen and the Highlands as well as Edinburgh?",
+        answer:
+          "Yes. We treat the whole of mainland Scotland as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Edinburgh EH1, Glasgow G1, St Andrews KY16, Aberdeen AB10, Inverness IV1, or any other Scottish mainland postcode. Highland and West Coast properties may add a short additional surveyor travel day. Coastal properties receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Edinburgh UNESCO World Heritage Site or a Scottish Category A listed building?",
+        answer:
+          "Edinburgh Old Town and New Town form a UNESCO World Heritage Site administered by City of Edinburgh Council with input from Historic Environment Scotland. Scotland uses a Category A, B and C listed-building grading system distinct from England's Grade I and II. Most central Edinburgh property is Category A or B listed and changing the front door requires listed building consent. The Cairngorms National Park operates a separate conservation regime. Within a World Heritage Site, National Park, conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent from Historic Environment Scotland or the relevant local council. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour matched to local sandstone or granite, and no visible certification marks. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for EH1, G12 or AB10 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Scottish mainland postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Scottish property need SR3 or SR4, and which insurers in Scotland recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in Edinburgh EH2 New Town, EH10 Morningside, Glasgow G12 West End, and Aberdeen AB10 Rubislaw where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios, Highland estate property or addresses with documented attempted-intrusion history. Most Scottish specifications sit at RC4 Standard or RC4 plus SR3, with thermal-upgrade configurations for Highland and Cairngorms-edge addresses.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-traditional-wide-frosted.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",

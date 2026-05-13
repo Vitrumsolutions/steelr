@@ -8,7 +8,47 @@ export const berkshireLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Berkshire is home to the Royal Borough of Windsor, the racecourse at Ascot, and some of England's most prestigious private estates. From the Virginia Water millionaires' row to the Georgian elegance of Henley-on-Thames, the county's residential landscape is defined by ambition and refinement. SteelR serves Berkshire homeowners who expect nothing less than the finest entrance door available, engineered from galvanised steel to withstand decades of use while projecting an unmistakable sense of quality and permanence.",
+      "Berkshire combines Royal-county prestige with one of the highest residential property-value densities in the UK. The Royal Borough of Windsor and Maidenhead (SL4 to SL6) carries Windsor Castle, the Long Walk, and substantial Victorian and Edwardian villa stock along the Thames frontage. Ascot (SL5) is dominated by the Royal Ascot racecourse and the surrounding Sunningdale gated estate market, while Sunninghill (SL5) and Cranbourne (SL4) provide a complementary detached private-road belt. Wokingham (RG40 to RG41) and the M4 corridor towns of Bracknell (RG12) and Crowthorne (RG45) form a substantial commuter market, while Reading (RG1 to RG6) provides the county-town context with Caversham (RG4) as the prestige residential satellite. The west of the county brings Newbury (RG14) within the Berkshire Downs AONB, Hungerford (RG17) and Pangbourne (RG8). The North Wessex Downs AONB extends across much of west Berkshire and the Berkshire-Hampshire border, bringing conservation oversight from West Berkshire Council and the AONB partnership. SteelR bespoke steel front doors are specified across all four markets: large-format configurations with sidelights and fanlights for Ascot and Windsor private-road frontages, heritage-profiled traditional designs for Windsor town-centre conservation streets, Arts and Crafts adaptations for the Pangbourne and Wargrave Edwardian Thames-side villas, and contemporary pivot configurations for Reading and Wokingham new-build executive estates. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Berkshire postcodes.",
+    localFeatures: [
+      "Royal Borough of Windsor and Maidenhead SL4 to SL6, Royal-county prestige with Windsor Castle and the Long Walk",
+      "Ascot SL5, Sunninghill and Cranbourne, the Royal Ascot racecourse private-road estate market",
+      "Sunningdale SL5, gated estate belt with concierge security on private-road frontages",
+      "Wokingham RG40 to RG41, M4-corridor commuter prestige market",
+      "Bracknell RG12 and Crowthorne RG45, executive new-build and inter-war detached stock",
+      "Reading RG1 to RG6 with Caversham RG4 as the prestige residential satellite",
+      "Newbury RG14, market town within the North Wessex Downs AONB",
+      "Hungerford RG17 and Pangbourne RG8, Thames-side and Berkshire Downs market towns",
+      "Wargrave RG10 and Twyford RG10, Thames-corridor Edwardian villa stock with conservation considerations",
+      "North Wessex Downs AONB conservation oversight covering much of west Berkshire",
+      "Substantial Edwardian Thames-frontage villas across Windsor SL4 and Maidenhead SL6 requiring large-format steel entrance configurations",
+      "Architect-designed contemporary replacements across Ascot, Sunningdale and the Wentworth-adjacent estates",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover Newbury and the west Berkshire AONB villages as well as Windsor and Ascot?",
+        answer:
+          "Yes. We treat the whole of Berkshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Windsor SL4, Maidenhead SL6, Ascot SL5, Wokingham RG40, Reading RG1, Newbury RG14, Hungerford RG17, Pangbourne RG8, or any other Berkshire postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of which Berkshire postcode the property sits in.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Royal Borough or a Berkshire conservation area?",
+        answer:
+          "Windsor town centre, Eton and the riverside frontages are subject to conservation-area planning controls administered by the Royal Borough of Windsor and Maidenhead. The North Wessex Downs AONB covers much of west Berkshire with conservation oversight from the AONB partnership. Within a conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks on the streetscape. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for SL5, SL4 or RG1 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Berkshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Berkshire property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in SL5 Ascot, SL4 Windsor and the Sunningdale gated belt where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on public-facing principals, country house portfolios or exposed rural addresses. Most Berkshire specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-traditional-wide-frosted.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-traditional-double-columns.jpg",

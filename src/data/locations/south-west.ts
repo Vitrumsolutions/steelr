@@ -8,12 +8,46 @@ export const southWestLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "The South West of England encompasses some of the country's most desirable residential addresses, from the honey-coloured Georgian terraces of Bath to the vibrant harbourside living of Bristol and the Regency elegance of Cheltenham. Properties across the region are built from a rich palette of local stone, and homeowners here value craftsmanship and authenticity. SteelR bespoke steel entrance doors bring a marriage of engineered precision and architectural beauty to the South West's finest homes.",
+      "South West England covers Bristol, Bath, the Cotswolds, Wiltshire, Somerset, Dorset, Devon and Cornwall, combining UNESCO World Heritage Sites with national-park coastline and some of the most architecturally distinguished towns in the UK. Bath (BA1 to BA2) is a UNESCO World Heritage Site with Grade I listed Georgian terrace stock around Royal Crescent, The Circus, Lansdown Crescent and Camden Crescent, all governed by extremely strict conservation oversight from Bath and North East Somerset Council and Historic England. The Cotswolds AONB covers a substantial area across the north of the region including the honey-stone towns of Tetbury (GL8), Chipping Campden (GL55), Stow-on-the-Wold (GL54), Cirencester (GL7), and the prestige villages of the GL postcode belt. Bristol (BS1 to BS9) brings Clifton (BS8) Georgian and Victorian villa stock plus the harbourside (BS1) new-build apartment market. Cheltenham (GL50 to GL53) is the Regency spa town with Promenade conservation context. Salisbury (SP1) carries Grade I listed cathedral. The Devon and Cornwall coast brings Salcombe (TQ8), Padstow (PL28), Fowey (PL23) and Rock (PL27) as the marine prestige market with substantial second-home and coastal-frontage residential property. Devon also brings Exeter (EX1 to EX4) and Tavistock (PL19) within the Dartmoor National Park boundary. SteelR bespoke steel front doors are specified across all four markets: heritage-profiled designs in matched Bath-stone or Cotswold-honey RAL finishes for the Grade I listed Georgian conservation streets, large-format configurations for Clifton and Cheltenham Promenade frontages, marine-grade powder-coat specifications for Salcombe and Padstow coastal properties, and traditional six-panel layouts for the Wiltshire and Somerset rural market towns. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to South West postcodes.",
     localFeatures: [
-      "Bath stone and Cotswold limestone period properties",
-      "Georgian and Regency terraces in spa and market towns",
-      "Converted farmhouses and barns across the Cotswolds",
-      "Harbourside apartments and Victorian villas in Bristol",
+      "Bath BA1 to BA2, UNESCO World Heritage Site with Grade I listed Georgian terrace conservation oversight",
+      "Royal Crescent, The Circus, Lansdown Crescent and Camden Crescent, the highest-tier Bath conservation streets",
+      "Cotswolds AONB covering Tetbury GL8, Chipping Campden GL55, Stow-on-the-Wold GL54, Cirencester GL7 and the GL village belt",
+      "Clifton BS8, Bristol's Georgian and Victorian villa prestige residential market",
+      "Bristol BS1 to BS9 including the harbourside new-build apartment market",
+      "Cheltenham GL50 to GL53, Regency spa town with Promenade conservation context",
+      "Salisbury SP1, Grade I listed cathedral city with Cathedral Close conservation",
+      "Salcombe TQ8, Padstow PL28, Fowey PL23 and Rock PL27, Devon and Cornwall coastal prestige market requiring marine-grade specification",
+      "Exeter EX1 to EX4, Devon county town with substantial Edwardian and Victorian residential stock",
+      "Dartmoor National Park boundary properties at Tavistock PL19 and Chagford TQ13",
+      "Wiltshire and Somerset rural market towns: Marlborough SN8, Frome BA11, Bruton BA10",
+      "Substantial Bath-stone and Cotswold-honey period properties requiring heritage-profiled steel entrance configurations in matched RAL colours",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover Devon and Cornwall as well as the Bath, Bristol and Cotswolds prestige belt?",
+        answer:
+          "Yes. We treat the whole of South West England as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Bath BA1, Bristol BS1, Clifton BS8, Cheltenham GL50, Cirencester GL7, Tetbury GL8, Salisbury SP1, Exeter EX1, Salcombe TQ8, Padstow PL28, Fowey PL23, Rock PL27, or any other South West postcode. Coastal properties receive marine-grade powder coating as standard. Devon and Cornwall journeys do add a short additional surveyor travel day; typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Bath UNESCO World Heritage Site, Cotswolds AONB or a South West conservation area?",
+        answer:
+          "Bath is a UNESCO World Heritage Site administered by Bath and North East Somerset Council with input from Historic England. Most central Bath property is Grade I or Grade II listed and changing the front door requires listed building consent. The Cotswolds AONB operates strict conservation oversight from the Conservation Board. Cheltenham Promenade, Salisbury Cathedral Close and the Clifton Bristol conservation areas operate strict planning controls. Within a World Heritage Site, AONB, conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour matched to local Bath stone or Cotswold honey-stone, and no visible certification marks. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for BA1, GL50 or TQ8 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for South West postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my South West property need SR3 or SR4, and which insurers in the region recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in central Bath BA1, Clifton BS8, Cheltenham GL50 Promenade, the Cotswolds AONB villages, and the Salcombe / Padstow / Rock coastal prestige market where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios or rural addresses with documented attempted-intrusion history. Most South West specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
     ],
     heroImage: "/images/gallery/steelr-black-panelled-sidelights-palms.jpg",
     galleryImages: [

@@ -8,7 +8,47 @@ export const cheshireLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Cheshire is England's golden triangle of wealth, where Premier League footballers, business owners, and old-money families occupy some of the most impressive residential properties outside London. From the manicured lanes of Alderley Edge to the cobbled streets of Knutsford, the county demands an entrance door that signals quality before a visitor even knocks. SteelR bespoke steel doors are engineered for exactly this market, commanding, secure, and finished to a standard that matches the ambition of Cheshire's finest homes.",
+      "Cheshire carries the Golden Triangle, the cluster of villages between Alderley Edge (SK9), Wilmslow (SK9), Prestbury (SK10) and Knutsford (WA16) that holds one of the highest concentrations of high-value residential property outside London. Premier League footballers, FTSE-listed business owners and senior Manchester finance principals occupy gated estate property along Macclesfield Road, Mottram Road, Adlington Road and the private drives off Trafford Street. Substantial detached homes regularly transact between three and ten million pounds with full ANPR / CCTV concierge installations as standard. Chester (CH1 to CH4) provides the historic Roman city context with Grade I listed cathedral, the conservation-area Rows along Eastgate Street and Bridge Street, and substantial Edwardian residential stock in Curzon Park and Boughton. Tarporley (CW6), Tattenhall (CH3) and the Cheshire Plain villages bring the rural country-house market. Nantwich (CW5) carries Tudor timber-framed conservation stock. Macclesfield (SK10 to SK11) sits adjacent to the Peak District National Park boundary, while Bowdon and Hale (WA14 to WA15) form a second prestige belt within Trafford. SteelR bespoke steel front doors are specified across all three markets: large-format gated-estate configurations with full ANPR / CCTV-integration provision for Alderley Edge and Prestbury frontages, heritage-profiled designs for Chester cathedral-quarter and Tarporley conservation streets, and traditional six-panel layouts for the Tudor timber-framed Nantwich and Tattenhall stock. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Cheshire postcodes.",
+    localFeatures: [
+      "Alderley Edge SK9, the Cheshire Golden Triangle prestige market with Premier League footballer concentration",
+      "Wilmslow SK9 and Prestbury SK10, gated estate belt with concierge security and ANPR provision",
+      "Knutsford WA16, Tudor and Georgian market town with substantial detached prestige stock",
+      "Bowdon and Hale WA14 to WA15, the Trafford prestige belt adjacent to the Greater Manchester boundary",
+      "Chester CH1 to CH4, Roman city with Grade I listed cathedral and the Rows conservation streets",
+      "Curzon Park CH4 and Boughton CH3, Chester prestige residential market",
+      "Tarporley CW6, Cheshire Plain market village with substantial period stock",
+      "Tattenhall CH3, rural country-house market within Chester West and Chester Council area",
+      "Nantwich CW5, Tudor timber-framed conservation town with full conservation oversight",
+      "Macclesfield SK10 to SK11, market town adjacent to the Peak District National Park boundary",
+      "Substantial gated-estate mansions across SK9, SK10 and WA16 requiring large-format steel entrance configurations with concierge-security and ANPR integration",
+      "Grade I listed cathedral conservation context across Chester city centre with strict planning oversight",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover the full Cheshire Golden Triangle plus Chester and the Cheshire Plain villages?",
+        answer:
+          "Yes. We treat the whole of Cheshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Alderley Edge SK9, Wilmslow SK9, Prestbury SK10, Knutsford WA16, Bowdon WA14, Hale WA15, Chester CH1, Nantwich CW5, Tarporley CW6, Macclesfield SK10, or any other Cheshire postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in a Cheshire conservation area or the Peak District boundary?",
+        answer:
+          "Chester city centre operates one of the strictest conservation regimes in the North West, including listed building consent within the cathedral quarter and the Rows conservation area. Nantwich Tudor town centre operates a comparable regime. Macclesfield east-side properties adjacent to the Peak District National Park may fall under Peak District planning oversight. Within a conservation area, National Park or on a listed building, change to the front elevation typically requires planning permission or listed building consent from the relevant district council. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for SK9, WA16 or CH4 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Cheshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Cheshire property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in SK9 Alderley Edge, SK9 Wilmslow, SK10 Prestbury and WA16 Knutsford where contents values regularly exceed insurer thresholds for standard residential cover. SR4 (Commercial-grade, ten-minute power-tool resistance) is occasionally specified on the highest-value gated estates and on properties of public-facing principals with documented attempted-intrusion history. Most Cheshire specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-lion-knocker-sidelights.jpg",

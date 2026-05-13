@@ -8,7 +8,47 @@ export const essexLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Essex spans from the commuter belt fringes of London to the rural heartland of the Stour Valley, encompassing some of the most aspirational residential areas in the South East. The county's property market ranges from sleek contemporary homes in Brentwood and Chigwell to medieval wool towns like Saffron Walden and Colchester. SteelR serves Essex homeowners who understand that a bespoke steel entrance door is the single most transformative upgrade to a property's first impression and lasting value.",
+      "Essex covers three distinct residential markets within a single county. The Epping Forest fringe centred on Chigwell (IG7), Loughton (IG10), Theydon Bois (CM16) and Buckhurst Hill (IG9) is one of the highest-value commuter belts in the UK, with substantial contemporary mansion stock on private roads regularly transacting above three million pounds. Brentwood (CM13 to CM15) provides the M25 corridor prestige market with Hutton, Shenfield and Brentwood town-centre Edwardian villa stock. Towards the east, the Dengie Peninsula and Crouch estuary villages including Burnham-on-Crouch (CM0) and Maldon (CM9) carry coastal-marina prestige property. Towards the north, Saffron Walden (CB11), Great Dunmow (CM6) and the Constable Country villages around Dedham (CO7) form the rural agricultural Essex market with medieval timber-framed conservation stock. Colchester (CO1 to CO7), Britain's oldest recorded town, brings Georgian residential stock plus the Mersea Island (CO5) coastal market. The Stour Valley and Dedham Vale AONB cover the north-east of the county with conservation oversight from Babergh and Tendring district councils. SteelR bespoke steel front doors are specified across all three markets: large-format gated-entry configurations with sidelights and fanlights for Chigwell, Loughton and Buckhurst Hill private-road frontages, heritage-profiled traditional designs for Saffron Walden and Dedham conservation streets, and marine-grade powder-coat specifications for the Burnham-on-Crouch and Mersea Island coastal properties. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Essex postcodes.",
+    localFeatures: [
+      "Chigwell IG7, Loughton IG10 and Buckhurst Hill IG9, the Epping Forest fringe prestige commuter belt",
+      "Theydon Bois CM16, gated-estate commuter belt within Epping Forest district",
+      "Brentwood CM13 to CM15 with Hutton and Shenfield, M25-corridor mansion stock",
+      "Saffron Walden CB11, the medieval wool-trade conservation town in the north of the county",
+      "Great Dunmow CM6 and the Stansted Mountfitchet area, rural agricultural Essex with conservation context",
+      "Dedham CO7 and the Constable Country villages within the Dedham Vale AONB",
+      "Colchester CO1 to CO7, Britain's oldest recorded town with Georgian residential stock",
+      "Burnham-on-Crouch CM0 and Maldon CM9, Crouch and Blackwater estuary marina-frontage market",
+      "Mersea Island CO5, coastal residential market requiring marine-grade specification",
+      "Stour Valley and Dedham Vale AONB conservation oversight in the north-east",
+      "Substantial Epping Forest contemporary replacement mansions across IG7 and IG10 requiring large-format gated-entry configurations",
+      "Medieval timber-framed and Tudor revival properties across CB11 Saffron Walden and CO7 Dedham requiring heritage-profiled steel entrance specifications",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover Saffron Walden and the Colchester rural belt as well as Brentwood and Chigwell?",
+        answer:
+          "Yes. We treat the whole of Essex as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Chigwell IG7, Loughton IG10, Brentwood CM13, Saffron Walden CB11, Great Dunmow CM6, Colchester CO1, Burnham-on-Crouch CM0, or any other Essex postcode. Coastal properties at Mersea Island, Burnham and Maldon receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Dedham Vale AONB or an Essex conservation area?",
+        answer:
+          "The Dedham Vale AONB covers the Constable Country villages in the north-east of the county. Saffron Walden, the Brentwood town centre and Colchester within the Roman walls operate strict conservation regimes. Within a conservation area or on a listed building, change to the front elevation typically requires planning permission or listed building consent from the relevant district council (Uttlesford, Brentwood, Colchester or Tendring). A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks. We advise on the application in-house.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for IG10, CM13 or CO7 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Essex postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Essex property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in IG7 Chigwell, IG10 Loughton, IG9 Buckhurst Hill and CM13 Brentwood Hutton where contents values exceed insurer thresholds. SR4 (Commercial-grade) is typically only specified on country house portfolios or public-facing principals. Most Essex specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-panelled-sidelights-palms.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-contemporary-panelled-sidelights.jpg",

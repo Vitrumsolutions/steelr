@@ -8,7 +8,47 @@ export const hertfordshireLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Hertfordshire stretches from the commuter belt north of London into the Chiltern Hills and open farmland beyond. The county's market towns and villages are consistently ranked among the most desirable places to live in England, with St Albans, Harpenden, and Berkhamsted commanding premium property prices. SteelR bespoke steel entrance doors are engineered for Hertfordshire's varied housing stock, from medieval timber-framed buildings in historic town centres to contemporary architect-designed homes on the county's most prestigious residential roads.",
+      "Hertfordshire combines London commuter prestige with genuine Hertfordshire-county character. The prestige belt of St Albans (AL1 to AL4), Harpenden (AL5) and Berkhamsted (HP4) sits within the top 5 per cent of UK residential markets, with substantial Edwardian villas on Townsend Drive, Marshalswick and the Battlers Green area regularly transacting above two million pounds. Radlett (WD7), Bushey Heath (WD23) and Elstree (WD6) form a second prestige tier serving the M25 corridor commuter market. The east of the county brings the Hertford (SG13) and Bishop's Stortford (CM23) Georgian market towns, plus the Welwyn Garden City (AL8) and Letchworth (SG6) garden-city planned-architecture stock, while the north combines Royston (SG8) with Hitchin (SG4) and Baldock (SG7) within commuting reach of Cambridge. The Chiltern Hills AONB extends into the west of the county around Berkhamsted, Tring (HP23) and the villages of Aldbury and Wigginton, bringing strict conservation oversight from Dacorum Borough Council and the Chilterns Conservation Board. SteelR bespoke steel front doors are specified across all four markets: heritage-profiled designs for St Albans cathedral-quarter conservation streets, large-format configurations for Radlett and Bushey Heath M25-corridor mansions, Arts and Crafts adaptations for Welwyn Garden City and Letchworth, and traditional six-panel layouts for the Chiltern AONB villages. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating, and thermally broken construction. Survey, manufacture and install from our UK facility with no regional surcharge to Hertfordshire postcodes.",
+    localFeatures: [
+      "St Albans AL1 to AL4, Roman heritage cathedral city with substantial Edwardian and Victorian residential stock",
+      "Harpenden AL5, the consistently highest-value SG5-corridor prestige market within easy commute of London",
+      "Berkhamsted HP4, Chilterns-edge market town with Berkhamsted School catchment and substantial detached stock",
+      "Radlett WD7, Bushey Heath WD23 and Elstree WD6, M25-corridor prestige mansion belt",
+      "Hertford SG13 and Bishop's Stortford CM23, Georgian market towns in the east of the county",
+      "Welwyn Garden City AL8 and Letchworth SG6, garden-city planned-architecture conservation areas",
+      "Chiltern Hills AONB conservation oversight extending across Berkhamsted, Tring HP23, Aldbury and Wigginton",
+      "Hitchin SG4 and Baldock SG7, market towns within commuting reach of Cambridge",
+      "Royston SG8, the Hertfordshire-Cambridgeshire border prestige market",
+      "Tring HP23, the Chilterns-edge village conservation context including the National Trust Ashridge Estate boundary",
+      "Substantial inter-war and Edwardian villas across the AL postcodes calling for traditional six-panel and arched-fanlight configurations",
+      "Architect-designed contemporary replacements on Townsend Drive, Marshalswick and the M25-corridor private roads",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover Bishop's Stortford and Welwyn Garden City as well as the St Albans and Radlett prestige belt?",
+        answer:
+          "Yes. We treat the whole of Hertfordshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to St Albans AL1 to AL4, Harpenden AL5, Berkhamsted HP4, Radlett WD7, Bishop's Stortford CM23, Welwyn Garden City AL8, Letchworth SG6, Hertford SG13, or any other Hertfordshire postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of which Hertfordshire postcode the property sits in.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Chilterns AONB or a Hertfordshire conservation area?",
+        answer:
+          "The Chilterns AONB extends into the west of Hertfordshire around Berkhamsted, Tring and the villages of Aldbury and Wigginton. Within the AONB or on a listed building, change to the front elevation typically requires planning permission or listed building consent from Dacorum Borough Council or the relevant district authority. A SteelR steel door can secure approval where the design respects original proportions with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks on the streetscape. We advise on the application in-house and have completed projects across the St Albans cathedral quarter, Berkhamsted High Street, and the AONB villages.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for AL5, HP4 or WD7 postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Hertfordshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+      },
+      {
+        question:
+          "Does my Hertfordshire property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in AL5 Harpenden, WD7 Radlett, WD23 Bushey Heath and HP4 Berkhamsted where contents values exceed insurer thresholds for standard residential cover. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios, public-facing principals or exposed rural addresses with documented attempted-intrusion history. Most Hertfordshire specifications sit at RC4 Standard or RC4 plus SR3.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-double-gable.jpg",
@@ -18,7 +58,7 @@ export const hertfordshireLocations: Location[] = [
       "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg",
       "/images/gallery/steelr-espresso-contemporary-gold-inlay.jpg",
     ],
-    nearbyAreaSlugs: ["buckinghamshire", "surrey"],
+    nearbyAreaSlugs: ["buckinghamshire", "surrey", "essex", "berkshire"],
   },
   {
     slug: "st-albans",
