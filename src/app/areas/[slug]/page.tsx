@@ -400,8 +400,8 @@ export default async function AreaPage({ params }: Props) {
 
       <h1 className="sr-only">
         {location.type === "hub"
-          ? `Steel Doors ${label}: Bespoke Steel Front Doors, BS EN 1627 RC4 Standard with LPS 1175 SR3 / SR4 Available`
-          : `Steel Doors ${label}, ${location.region}: Bespoke Steel Front Doors, BS EN 1627 RC4 Standard with LPS 1175 SR3 / SR4 Available`}
+          ? `Bespoke Steel Entrance Doors Across ${label}`
+          : `Bespoke Steel Entrance Doors in ${label}, ${location.region}`}
       </h1>
 
       {/* Main content */}

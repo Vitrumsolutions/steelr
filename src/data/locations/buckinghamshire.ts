@@ -8,7 +8,47 @@ export const buckinghamshireLocations: Location[] = [
     type: "hub",
     tier: 1,
     description:
-      "Buckinghamshire combines rolling Chiltern landscapes with some of England's most desirable addresses. From the Georgian high streets of Old Amersham to the grand estates surrounding Beaconsfield, the county demands entrance doors that honour centuries of architectural heritage while meeting the expectations of discerning homeowners. SteelR steel doors are engineered to complement Buckinghamshire's distinctive mix of period cottages, Arts and Crafts homes, and contemporary new-builds across the county.",
+      "Buckinghamshire spans three distinct property markets within a single county. The South Bucks belt around Beaconsfield (HP9), Gerrards Cross (SL9) and Chalfont St Peter (SL9) is consistently among the highest-value commuter residential markets in the UK, with substantial Edwardian villas, Arts and Crafts homes and architect-designed contemporary replacements regularly transacting above two million pounds. The Chilterns Area of Outstanding Natural Beauty, covering much of the south and west of the county, brings strict conservation oversight from the Chilterns Conservation Board and local planning authorities at Buckinghamshire Council and South Bucks. Towards the north, Aylesbury Vale combines Georgian market-town stock around Aylesbury, Buckingham and Winslow with the Aylesbury Garden Town expansion programme, while Milton Keynes, formally a unitary authority distinct from Buckinghamshire Council but commercially served as part of the county, provides one of the UK's largest concentrations of new-build executive housing. SteelR bespoke steel front doors are specified across all three markets: heritage-profiled designs with traditional six-panel layouts for HP7 Old Amersham and HP9 conservation streets, large-format contemporary configurations with sidelights and fanlights for SL9 Gerrards Cross frontages, and flush minimalist pivot doors for MK postcode contemporary developments. Every door carries BS EN 1627:2011 RC4 single leaf, unglazed certification as Standard, with LPS 1175 SR3 (LPCB Enhanced upgrade) and SR4 (Commercial-grade upgrade) available, FD30S fire rating across the range, and a thermally broken construction satisfying Approved Document Part L without compromising period character. Survey, manufacture and install are run from our UK facility with nationwide mainland coverage and no regional surcharge to Bucks postcodes.",
+    localFeatures: [
+      "South Bucks prestige belt: Beaconsfield HP9, Gerrards Cross SL9 and Chalfont St Peter SL9, consistently among the UK's highest-value commuter residential markets",
+      "Chilterns AONB conservation oversight covering much of the south and west of the county, with strict planning controls from Buckinghamshire Council and South Bucks",
+      "Aylesbury, the historic county town in HP19 to HP22, including Aylesbury Garden Town expansion and the Vale of Aylesbury Edwardian and Georgian market stock",
+      "Milton Keynes, MK postcodes 1 through 19, the largest concentration of new-build executive housing in the region, served alongside the rest of Bucks with no regional surcharge",
+      "Old Amersham HP7. Grade I listed parish church, half-timbered High Street, full conservation-area planning regime",
+      "Marlow SL7. Thames-side regency and Edwardian stock with River Thames conservation considerations",
+      "High Wycombe HP11 to HP15. Victorian terraces around the town plus substantial detached homes in HP15 Holmer Green and Hazlemere",
+      "Buckingham MK18. Georgian market town with limited steel-door precedent, conservation-considered applications welcome",
+      "Winslow MK18, Princes Risborough HP27, Wendover HP22. Secondary market towns within the Vale",
+      "Substantial Edwardian villas on Burkes Road, Ledborough Lane, Packhorse Road and Bull Lane requiring large-format steel entrance configurations",
+      "Architect-designed contemporary replacements across HP9, SL9 and the gated estates near Beaconsfield High School and Gerrards Cross Common",
+      "MK new-build executive estates including Caldecotte, Walton, Tattenhoe, Shenley Brook End, Furzton and the Western Expansion Area",
+    ],
+    faqs: [
+      {
+        question:
+          "Do you cover Aylesbury and Milton Keynes alongside the South Bucks postcodes?",
+        answer:
+          "Yes. Although Milton Keynes is administratively a unitary authority distinct from Buckinghamshire Council, we treat the whole Buckinghamshire commercial area as one service region. Survey, manufacture and install are run from our UK facility with no regional surcharge to Aylesbury (HP18 to HP22), Buckingham (MK18), the Aylesbury Garden Town expansion area, or any of the MK postcodes 1 through 19. Lead time from first survey to installed door is typically eight to twelve weeks regardless of which Bucks postcode the property sits in.",
+      },
+      {
+        question:
+          "What is the planning position on installing a SteelR door in the Chilterns AONB or a Bucks conservation area?",
+        answer:
+          "The Chilterns AONB covers much of the south and west of Buckinghamshire, with conservation oversight from the Chilterns Conservation Board on top of local planning consent from Buckinghamshire Council. Any change to an external door on a listed building requires listed building consent. Within a conservation area, change to the front elevation often requires planning permission even without listed status. A SteelR steel door can secure approval where the design respects original proportions, with traditional six-panel layouts, period-correct ironmongery, heritage RAL colour and no visible certification marks on the streetscape. We advise on the application in-house and have completed projects across HP7 Old Amersham, HP9 Beaconsfield Old Town, HP27 Princes Risborough and the conservation streets of Marlow SL7.",
+      },
+      {
+        question:
+          "What is the typical lead time to installed door for HP9, SL9 or MK postcodes?",
+        answer:
+          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Bucks postcodes and the install team are SteelR employees, DBS-checked and directly employed, not subcontracted local fitters.",
+      },
+      {
+        question:
+          "Does my Buckinghamshire property need SR3 or SR4, and which insurers in the county recognise it?",
+        answer:
+          "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in HP9 Beaconsfield, SL9 Gerrards Cross and Marlow SL7 where contents values exceed insurer thresholds for standard residential cover. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios, public-facing principals or exposed rural addresses with documented attempted-intrusion history. Most Bucks specifications sit at RC4 Standard or RC4 plus SR3. We do not push specifications above genuine need.",
+      },
+    ],
     heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
@@ -18,7 +58,7 @@ export const buckinghamshireLocations: Location[] = [
       "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
       "/images/gallery/steelr-sage-traditional-arched-brick.jpg",
     ],
-    nearbyAreaSlugs: ["surrey", "hertfordshire"],
+    nearbyAreaSlugs: ["surrey", "hertfordshire", "berkshire", "oxfordshire"],
   },
   {
     slug: "beaconsfield",
