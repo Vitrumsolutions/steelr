@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect, FormEvent } from "react";
+import { useRouter } from "next/navigation";
 import ScrollReveal from "@/components/ScrollReveal";
 
 /* ── shared styles (matching ContactForm) ── */
@@ -152,6 +153,7 @@ function Input({
 
 /* ── page component ── */
 export default function DesignEstimatePage() {
+  const router = useRouter();
   const [step, setStep] = useState(0);
   const [form, setForm] = useState<FormData>(initial);
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
@@ -206,8 +208,15 @@ export default function DesignEstimatePage() {
         body: JSON.stringify(submitData),
       });
       if (res.ok) {
-        setStatus("success");
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        // Redirect to /thank-you so ThankYouTracking.tsx fires the GA4
+        // generate_lead conversion event. The previous inline success
+        // state never navigated, so a completed 4-step estimate sent the
+        // email but registered zero conversion in GA4. This mirrors the
+        // pattern already used by ContactForm and QuickEnquiry.
+        // Fixed 14 May 2026 per the GA4 conversion-tracking audit.
+        router.push(
+          "/thank-you?source=design-estimate&context=4-step-estimate-form"
+        );
       } else {
         setStatus("error");
       }

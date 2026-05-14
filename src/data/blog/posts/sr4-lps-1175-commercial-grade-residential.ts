@@ -17,7 +17,7 @@ SR4 is a certification rarely seen on a UK home front door. It is the standard u
 
 This guide explains what SR4 actually means, how it differs from SR3, how the testing works, which owners realistically benefit from specifying it, and why the commercial-to-residential crossover matters.
 
-If you have not yet read it, our [complete SR3 guide for homeowners](/blog/what-is-sr3-security-rating) covers the baseline standard that every SteelR door meets before the SR4 upgrade is considered.
+If you have not yet read it, our [complete SR3 guide for homeowners](/sr3-residential-steel-door) covers the baseline standard that every SteelR door meets before the SR4 upgrade is considered.
 
 ## What SR4 Actually Is
 

@@ -233,23 +233,34 @@ export default async function AreaPage({ params }: Props) {
         }}
       />
 
-      {/* Schema: LocalBusiness */}
+      {/* Schema: Service.
+          Modelled as a Service (not a second HomeAndConstructionBusiness)
+          because the area page describes the business serving a location,
+          it is not a separate business entity. The previous pattern reused
+          the canonical "#business" @id from layout.tsx with a conflicting
+          url/description, which created an unpredictable graph-merge.
+          A Service node with a `provider` reference to the canonical
+          #business resolves cleanly: the full address/geo/openingHours
+          live on the parent entity, and Service carries no required-field
+          burden of its own. Changed 14 May 2026 per the schema audit. */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "HomeAndConstructionBusiness",
-            // @id reference to the canonical business in layout.tsx so
-            // Google merges these per-area schema blocks with the parent
-            // entity (which has the full address, geo, openingHours, etc.).
-            // Avoids the LocalBusiness "missing required fields" warning
-            // that the schema validator flagged on 29 Apr 2026.
-            "@id": "https://steelr.co.uk/#business",
-            name: "SteelR",
+            "@type": "Service",
+            "@id": `https://steelr.co.uk/areas/${location.slug}#service`,
+            name: `Bespoke Steel Front Doors in ${label}`,
+            serviceType:
+              "Bespoke steel front door manufacture and installation",
             description: `Bespoke steel front doors for homes in ${label}, ${location.region}. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available, and LPS 1673 attack-resistance available by enquiry. PAS 24 certified, Secured by Design approved, FD30S fire rated, ISO 9001 manufactured, Made in Britain. Residential steel front doors, fire rated steel front doors and commercial-grade security.`,
             url: `https://steelr.co.uk/areas/${location.slug}`,
-            telephone: "0800 861 1450",
+            provider: {
+              "@type": "HomeAndConstructionBusiness",
+              "@id": "https://steelr.co.uk/#business",
+              name: "SteelR",
+              telephone: "0800 861 1450",
+            },
             areaServed:
               location.type === "hub"
                 ? childLocations.map((c) => ({
@@ -257,13 +268,7 @@ export default async function AreaPage({ params }: Props) {
                     name: c.name,
                   }))
                 : { "@type": "Place", name: `${label}, ${location.region}` },
-            priceRange: "$$$$",
             image: `https://steelr.co.uk${location.heroImage}`,
-            sameAs: [
-              "https://www.instagram.com/steelrdoors",
-              "https://www.pinterest.co.uk/steelrdoors",
-              "https://www.linkedin.com/company/steelr"
-            ],
           }),
         }}
       />
