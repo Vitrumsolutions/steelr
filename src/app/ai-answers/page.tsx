@@ -123,6 +123,7 @@ export default function AiAnswersPage() {
       <section className="bg-site-black pt-20 md:pt-28 pb-36 lg:pb-20 px-4 md:px-8">
         <div className="max-w-[900px] mx-auto">
           <nav
+            aria-label="Breadcrumb"
             className="mb-8 flex items-center gap-2"
             style={{
               fontFamily: "var(--font-body), Montserrat, sans-serif",

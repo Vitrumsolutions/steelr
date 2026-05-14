@@ -315,6 +315,7 @@ export default async function BlogPostPage({ params }: Props) {
 
       {/* Breadcrumb + meta */}
       <nav
+        aria-label="Breadcrumb"
         className="bg-cream px-6 md:px-16 py-3"
         style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}
       >
@@ -341,6 +342,7 @@ export default async function BlogPostPage({ params }: Props) {
               </span>
             ))}
             <span
+              aria-current="page"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
                 fontWeight: 300,

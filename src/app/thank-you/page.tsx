@@ -91,6 +91,7 @@ export default function ThankYouPage() {
         <div className="max-w-[800px] mx-auto">
           {/* Breadcrumb */}
           <nav
+            aria-label="Breadcrumb"
             className="mb-10"
             style={{
               fontFamily: "var(--font-body), Montserrat, sans-serif",

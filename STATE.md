@@ -1,136 +1,85 @@
 # SteelR — STATE
 
-**Last updated:** 2026-05-13 (evening session, post-forensic recovery)
+**Last updated:** 2026-05-14 (full-website health audit + fix batch shipped)
 **Priority:** P0
 
 ## Where I left off
 
-Long session. Two phases of disciplined forensic work plus shipped recovery:
+### 14 May — Full-website health audit + Batch B fixes shipped
 
-### Phase A — Forensic diagnosis of the `/areas/buckinghamshire` ranking regression
+**Audit (read-only, diagnostic):** 8 parallel forensic agents covered performance/CWV, broken-link integrity, blog content, area pages, llms.txt integrity, schema/technical SEO, WCAG 2.2 accessibility, visual/UX/conversion-flow. Plus hands-on GA4 analytics + Instagram-linkage checks via the user's browser, consolidated by a deep-reviewer synthesis panel. 9 reports committed at `d2084f7`. Full prioritised report: `audit-data/forensics/20260514-FULL-AUDIT-SYNTHESIS.md`.
 
-`/areas/buckinghamshire` fell from Google #1 (22 Apr) to outside top 30 (5 May). 21-day regression. The single biggest individual position loss on the site.
+**Headline verdict:** site is structurally healthy. 313/313 sitemap URLs return 200, zero orphans, valid JSON-LD sitewide, clean canonicals, zero house-style violations across 40 blog posts, the 13-14 May Buckinghamshire hub recovery shipped correctly. No agent found a blocker.
 
-Process executed:
-1. **8 forensic agents dispatched in parallel** investigating every possible cause: git history, live page state, content uniqueness, schema validity, internal link graph, GSC indexing status, SERP-side competitor analysis, cross-area regression sweep.
-2. **2 panel-cross-examination agents** (deep-reviewer panel chair + code-reviewer) reconciled the 5 contradictions across the 8 reports, produced consensus root cause + ranked fix list + tick-list specification.
-3. **Final tick-list deliverable** saved at `audit-data/forensics/20260513-buckinghamshire-FINAL-TICKLIST.md`.
+**Biggest lever found:** a measurement gap, not a defect. GA4 had no Key Event configured and was not linked to Search Console.
 
-**Consensus root cause:** competitive SERP displacement on a structurally thin hub. The Bucks hub was always 7.1% unique content (67 words out of 945 total). All 17 area hubs share the same template-debt thinness. Bucks held #1 only because the SERP was underserved. Once competitors with richer county-level pages (Doors of Steel 22 towns, Samson 2,500–3,000 words) moved up, the hub had no defensive moat. Bing actively de-indexed it as a near-duplicate of leaf area pages.
+**Shipped tonight — commit `7f43c64` (verified live):**
+1. **GA4 `generate_lead` fix** — `src/app/design-estimate/page.tsx`. The 4-step estimate form showed an inline success state and never navigated to `/thank-you`, so `ThankYouTracking.tsx` never fired `generate_lead`. A completed estimate sent the Resend email fine but registered zero conversion in GA4. Now `router.push("/thank-you?source=design-estimate&context=4-step-estimate-form")` on success, mirroring ContactForm + QuickEnquiry. Known follow-up: the now-unreachable `if (status === "success")` render block (~line 375) can be removed in a later cleanup pass.
+2. **Schema @id collision fix** — `src/app/areas/[slug]/page.tsx`. The area-page template emitted a second `HomeAndConstructionBusiness` node reusing the canonical `#business` @id with a conflicting url/description (unpredictable graph-merge across ~178 pages). Rewritten as a `Service` node with `@id /areas/{slug}#service` and a `provider` reference to the canonical `#business`. seo-schema-validator PASS, verified live on `/areas/buckinghamshire`.
+3. **Stale blog link fix** — `src/data/blog/posts/sr4-lps-1175-commercial-grade-residential.ts`. Body link `/blog/what-is-sr3-security-rating` (removed slug, was 308-redirecting) repointed to `/sr3-residential-steel-door`. Verified: 0 refs left in `src/`, live page shows only the new link.
 
-**The "mess up" was structural, not a bad commit.** Bucks hub description is byte-identical to 22 April state. No site-side change caused the fall.
+Verification chain: brand-guard PASS, build 318/318, seo-schema-validator PASS, deploy-gate GO, live curl confirmed all items.
 
-### Phase B — Recovery shipped tonight (commits `b38a698` + `976de1a`)
+**GA4 dashboard tasks — user-completed during the session:**
+- Search Console link: DONE (steelr.co.uk Domain → SteelR Website stream, linked 14 May). Organic-query data will start populating in ~48h.
+- Key Events: `phone_click` ready to star (it has fired). `generate_lead` cannot be starred in GA4 until it fires once — now that the estimate-form fix is live, the next real estimate submission will make it appear and it can be marked a Key Event.
 
-#### Commit `b38a698` — Phase 1 (H1 revert) + Phase 2 (Bucks data enrichment)
+### Earlier (13-14 May) — Buckinghamshire ranking-regression forensic recovery
 
-**Phase 1 — sr-only H1 revert (affects all 161 area pages):**
-- From: `Steel Doors {label}: Bespoke Steel Front Doors, BS EN 1627 RC4 Standard with LPS 1175 SR3 / SR4 Available` (16 words, two acronyms, topic vector diluted)
-- To: `Bespoke Steel Entrance Doors Across {label}` (28 Apr / 22 Apr pre-regression form)
-- 4-line edit in `src/app/areas/[slug]/page.tsx`
-
-**Phase 2 — Bucks data enrichment:**
-- description: 67 unique words → 280 words covering all three Bucks property markets (South Bucks prestige, Chilterns AONB, Aylesbury Vale + Milton Keynes)
-- localFeatures: 0 → 12 items including Aylesbury and Milton Keynes (the two biggest Bucks population centres, previously omitted)
-- faqs: 0 → 4 questions (coverage, AONB planning, lead time, SR3 vs SR4)
-- nearbyAreaSlugs: 2 → 4 (added berkshire, oxfordshire)
-
-#### Commit `976de1a` — Phase 2 replicated across the remaining 14 hubs
-
-Same structural fix applied to every other hub identified in the forensic panel consensus as carrying the same template debt:
-
-- **Home Counties:** Surrey, Hertfordshire, Kent, Essex, Berkshire, Oxfordshire, Hampshire, Sussex
-- **London** (all-quadrant prestige coverage including super-prime W1 belt, RBKC postcodes, all conservation areas)
-- **North/Midlands:** Cheshire, Manchester, Birmingham
-- **North East:** Yorkshire
-- **South West:** South West England (Bath UNESCO, Bristol, Cotswolds, Devon, Cornwall)
-- **Scotland** (Category A/B listed system, UNESCO Edinburgh, Cairngorms NP)
-
-Per-hub enrichment delivered: expanded description (250+ words), localFeatures array (12 items), faqs array (4 questions per hub). 64 net-new FAQ entries across the hub tier.
-
-#### Downstream propagation complete
-
-- ✅ Brand-guard PASS, 0 em-dashes introduced (1 caught and fixed mid-process in south-west.ts)
-- ✅ Build PASS (313+ static routes prerender)
-- ✅ Commits `b38a698` + `976de1a` pushed to main, Vercel auto-deploying
-- ✅ IndexNow submission on all 16 non-Bucks hub URLs (Bucks pushed in earlier commit)
-- ✅ Google Indexing API: 16 of 16 hubs requeued and pushed via `submit_indexing.py 16 --site=steelr`
-- ✅ Sitemap auto-regenerates from locations array (no manual edit needed)
-- ✅ llms-panel gate does not fire on locations-data edits (per code-reviewer panel)
-
-### Two earlier commits today still in flight from this morning
-
-- **`c94e1c0`** (this morning) — `whyConsider` closing-block prop added to 18 InfoPage hub pages (the Phase 1D + ladder + audience hubs). Fixes "cited but not chosen" AI failure mode.
-- **`8ff80a0`** (this morning) — Spec-by-spec comparison table on `/steel-front-door-vs-composite`. Same Bucks-style verbatim ratio improvement on a different surface.
-
-Four shipped commits today, all Reasoned tier, all cheap reversibility. Combined measurement window: 14-30 days.
+`/areas/buckinghamshire` fell from Google #1 (22 Apr) to outside top 30 (5 May). 8 forensic agents + 2 panel-cross-examination agents diagnosed the root cause: structural content thinness across all 17 area hubs (7% unique content), not a commit regression. Shipped: Phase 1 H1 revert across 161 area pages (`b38a698`), Phase 2 data enrichment across all 17 hubs taking unique-content ratio ~7% to ~25-30% (`b38a698` + `976de1a`), prevention rule in CLAUDE.md + `audit-data/hub-uniqueness-scoreboard.md` (`57147a7`). IndexNow + Google Indexing API propagation complete. Full record: `audit-data/forensics/20260513-buckinghamshire-FINAL-TICKLIST.md`.
 
 ## Next action
 
-**Highest priority — Phase 3 prevention measures.** Per the forensic tick list (`audit-data/forensics/20260513-buckinghamshire-FINAL-TICKLIST.md`), the structural cause (every hub shipped at 7% unique content) should not recur. Build the guardrails:
+**In progress this session: Batch C — accessibility contrast fixes.** 5 cheap-to-reverse colour-token changes from `audit-data/forensics/20260514-accessibility.md`:
+- R1: stop using gold `#c9a96e` as text/link colour (fails 2.05:1 on cream) — keep gold for non-text accents only
+- R2: darken breadcrumb link `#b8943f` to ~`#7a6033` (>=4.5:1)
+- R3: darken `/security-specification` row-header `#999` to `#595959`
+- R4: replace `#8a6f4e` body/helper text under ~18px with `#6b5a42` (already used elsewhere at 6.5:1)
+- R5: add `aria-label="Breadcrumb"` to breadcrumb `<nav>` + `aria-current="page"` to final crumb
+Needs surgical care: `#c9a96e` and `#8a6f4e` are used for accents/borders/backgrounds too — only the text/link uses change. Verify by recomputing contrast post-change.
 
-1. **Update `area-slug-validator` subagent** to refuse to commit any hub data entry with fewer than 200 unique words in `description` or fewer than 8 `localFeatures` items.
-2. **Update `cannibalisation-auditor` subagent** with a hub-vs-leaf duplicate check: flag if a hub's description shingle-overlaps with any of its child area pages above 40%.
-3. **Add a hub-content rule to CLAUDE.md** under the SEO Playbook section: hubs must carry county-level signals (largest 3-5 towns by population, geographic context, AONB / National Park context) that leaf pages do not duplicate.
-4. **Create `audit-data/hub-uniqueness-scoreboard.md`** to track unique-content ratio per hub on every edit. Initial baseline: all 17 hubs now at ~25-30% unique post-recovery.
+**Then, remaining P1 from the synthesis (priority order):**
 
-**Measurement window:**
-- **2026-05-27 to 2026-06-03 (14-day post-state checkpoint):** re-test all 17 hub keywords on Google + Bing + Claude_in_Chrome (ChatGPT-with-Search + Gemini)
-- **2026-06-10 (28-day post-state checkpoint):** if Bucks has not moved into Google top-30, escalate to Phase 3 from the tick-list (revert audience-hub link cards from area template)
+1. **P1-7 — Area-page hero banner.** ~178 area pages (the largest page class, a major organic entry point) open flat with no visual H1 or hero, unlike every other page type. Visual-UX audit flagged it as highest commercial leverage. Medium effort.
+2. **P1-8 — Enrich the 24 thin London-borough leaf pages** (mean ~95 words; Kensington 84 words). Same structural-thinness profile that took Buckinghamshire off top-30. Prioritise Kensington, Chelsea, Fulham, Hammersmith.
+3. **Batch E — Instagram activation.** @steelrdoors exists and bio links to steelr.co.uk, but dormant (6 followers, 13 posts, no profile photo). The `social/` folder (built 21 Apr) has 20 ready Reels + 40 Pinterest pins + brand kit that never went live. Posting work, not building.
+4. **Gated — 4 llms.txt findings** requiring the `/panel-llms` + `/panel-llms-approve` flow: stale "178 Pages Total" count, `/sr3-vs-sr4` topic page missing from both files, 3 blogs missing from one URL block, and the biggest — llms-full still treats the 16 enriched hubs as URL stubs (none of the new county depth is visible to AI crawlers).
 
-**Conditional Phase 3** if 21-day measurement shows no Bucks recovery: revert the 4 audience-hub link cards from `src/app/areas/[slug]/page.tsx`.
-
-**Outside the regression-recovery track (queued from earlier sessions):**
-
-A. Manual GBP dashboard update — reconcile service descriptions to RC4 + four-tier ladder framing. User-managed.
-
-B. Build `/heritage-steel-front-doors-uk` topic page (separate Reasoned-tier ship surfaced by the 11-12 May audit). Same pattern as `/steel-front-door-vs-composite` (#2 and #4 on Google today). Should compound the Gemini Victorian-house signal documented in `audit-data/serp-captures/20260513-homeowner-search-verified.md`.
-
-C. MEDIUM-severity items from 2026-05-05 cross-surface audit (SR4 lead-time conflict, 8 pages missing og:image, 644 missing area→audience-hub edges).
-
-D. Cannibalisation retitles from b0a78b1 panel.
-
-E. Documentation tidy-ups (177 vs 178 page counts, hub count consistency, sitemap counts post-Phase-2 deploy).
+**Deferred — NOT to ship without a separate careful session:**
+- **P1-1 — defer GA4 script to `lazyOnload`.** The `GoogleAnalytics.tsx` docblock documents that `next/script` was already tried and broke GA entirely (gtag undefined, no page_view fired). Switching loading strategy risks losing all measurement. Needs a session with a way to verify gtag still fires before/after.
 
 ## Blockers
 
-- Reviews still 0 — #1 Maps 3-pack blocker, user-managed. Same root cause as "steelr reviews" entity-confusion failure across Google, ChatGPT, Perplexity.
-- Serper.dev credits exhausted — visibility-audit script returns silent zeros on fresh API calls. Top up + patch silent-fail bug before next audit.
-- ChatGPT Free tier throttles after ~2-7 queries per session. Plus tier upgrade not yet decided.
-- Google AI Mode (`udm=50`) reCAPTCHA-blocked from sandbox. Only reachable via user's browser.
-- Pre-existing subpage `HomeAndConstructionBusiness #business` schema override — long-term cleanup, not introduced today.
-- AI citation impact of today's three shipped commits is unverifiable until 14-30 day measurement window.
+- Reviews still 0 — #1 Maps 3-pack blocker, user-managed.
+- `generate_lead` end-to-end confirmation needs one real estimate-form submission (sends a live email) — user's call to test, or wait for an organic submission now the fix is live.
+- Serper.dev credits exhausted — visibility-audit script returns silent zeros on fresh API calls. Top up + patch the silent-fail bug before next rank audit.
+- ChatGPT Free tier throttles after ~2-7 queries per session. Google AI Mode reCAPTCHA-blocked from sandbox — both only testable via the user's browser.
+- GA4 admin SPA is unreliable under browser automation (renderer freezes mid-modal) — dashboard config tasks need the user at the keyboard.
+- Mobile LCP 3.4-6.1s sitewide vs 2.5s threshold — perf agent's fixes (split `1356-*` chunk, lazy-load collection gallery) are P1 but separate from the deferred GA4-defer item.
 
-## Recent wins (last 24 hours)
+## Recent wins (last 48 hours)
 
-- **2026-05-13 evening — Forensic recovery of `/areas/buckinghamshire` shipped (`b38a698` + `976de1a`).** 8 parallel forensic agents + 2 panel-cross-examination agents identified the root cause as structural content thinness across all 17 hubs (not a commit regression). Phase 1 H1 revert deployed across 161 area pages. Phase 2 data enrichment deployed across all 17 hubs taking unique-content ratio from ~7% to ~25-30%. IndexNow + Google Indexing API propagation complete.
-- **2026-05-13 evening — Tick-list deliverable at `audit-data/forensics/20260513-buckinghamshire-FINAL-TICKLIST.md`.** Defines verification commands, measurement windows, revert paths per phase. Reasoned-tier with cheap reversibility on every phase.
-- **2026-05-13 morning — Three-engine homeowner-search audit ratified.** ChatGPT-with-Search cites SteelR on every category-commercial homeowner query. Gemini cites SteelR specifically on Victorian-house framing (the heritage signal). Google ranks SteelR #2 AND #4 on `steel vs composite front door uk` (the page where the spec table shipped today).
-- **2026-05-13 morning — `whyConsider` closing block deployed to 18 InfoPage hub pages (`c94e1c0`).** Closes "cited but not chosen" AI failure mode.
-- **2026-05-13 morning — Spec-by-spec table deployed to `/steel-front-door-vs-composite` (`8ff80a0`).** Surfaces quotable numeric artefacts for AI grounding.
-- **2026-05-11 — Hands-on ChatGPT-with-Search + Gemini verified baseline.** Documented in `audit-data/serp-captures/20260511-chatgpt-gemini-verified.md` and CLAUDE.md.
+- **2026-05-14 — Full-website health audit (8 agents + synthesis panel) + Batch B fixes shipped (`7f43c64`).** GA4 conversion tracking fixed on the estimate form, schema @id collision resolved across 178 area pages, last stale internal link cleaned. All verified live. Search Console linked by user.
+- **2026-05-14 — 9 audit reports committed (`d2084f7`)** as permanent evidence: perf, link-integrity, blog, area-pages, llms-integrity, schema, accessibility, visual-UX + synthesis.
+- **2026-05-13/14 — Buckinghamshire forensic recovery shipped (`b38a698`, `976de1a`, `57147a7`).** 8-agent forensic swarm + 2-panel cross-examination. All 17 area hubs enriched from ~7% to ~25-30% unique content. Prevention rule + scoreboard added.
+- **2026-05-13 — Closing-block `whyConsider` prop on 18 InfoPage hubs (`c94e1c0`) + spec-by-spec table on `/steel-front-door-vs-composite` (`8ff80a0`).**
+- **2026-05-11 — Hands-on ChatGPT-with-Search + Gemini verified baseline.** `audit-data/serp-captures/20260511-chatgpt-gemini-verified.md`.
 
 ## Key files
 
-- `audit-data/forensics/20260513-buckinghamshire-FINAL-TICKLIST.md` — the canonical recovery deliverable
-- `audit-data/forensics/20260513-buckinghamshire-panel-consensus.md` — deep-reviewer panel chair output
-- `audit-data/forensics/20260513-buckinghamshire-code-review.md` — code-reviewer panel output
-- `audit-data/forensics/20260513-buckinghamshire-*.md` (8 files) — individual forensic agent reports
-- `src/app/areas/[slug]/page.tsx` — area-page template, H1 reverted in `b38a698`
-- `src/data/locations/*.ts` (17 hub data files) — all enriched with localFeatures + faqs + expanded description
-- `audit-data/serp-captures/20260513-full-visibility-synthesis.md` — three-engine homeowner audit synthesis
-- `audit-data/serp-captures/20260513-homeowner-search-verified.md` — verbatim ChatGPT + Gemini captures
-- `audit-data/cannibalisation-20260513.md` — cannibalisation agent finding 6 cases including heritage gap
-- `audit-data/visibility-audit-20260513.md` — Serper-blocked but recovered 22 Apr to 10 May trend
+- `audit-data/forensics/20260514-FULL-AUDIT-SYNTHESIS.md` — the canonical prioritised action list (P0/P1/P2 + deferred + one-week plan)
+- `audit-data/forensics/20260514-*.md` (8 agent reports) — perf, link-integrity, blog, area-pages, llms-integrity, schema, accessibility, visual-ux
+- `audit-data/forensics/20260513-buckinghamshire-FINAL-TICKLIST.md` — Bucks recovery record
+- `audit-data/hub-uniqueness-scoreboard.md` — per-hub unique-content tracker, prevention artefact
+- `src/app/design-estimate/page.tsx` — estimate form, now redirects to /thank-you on success (commit 7f43c64)
+- `src/app/areas/[slug]/page.tsx` — area template; Service-node schema (7f43c64), reverted H1 (b38a698)
+- `src/components/GoogleAnalytics.tsx` — GA4 component. Docblock documents the next/script failure — read before touching GA loading.
+- `src/data/locations/*.ts` — 17 hub data files, all enriched with localFeatures + faqs + 250-word descriptions
+- `audit-data/templates/recommendation.md` — gate templates every recommendation passes through
 
-## Hub-uniqueness scoreboard (post-Phase-2 baseline)
+## GA4 reference (corrected 14 May)
 
-All 17 area hubs now carry:
-- 250+ word `description` (was ~50-70 unique words)
-- 12-item `localFeatures` array (was 0-4 items)
-- 4-question `faqs` array (was 0 questions, now uses default-faqs fallback)
-- Postcode coverage including largest population centre per county
-- AONB / National Park / conservation-context references
-- Standardised SR3 vs SR4 specification guidance per FAQ
-
-Predicted unique-content ratio: 25-30% per hub (was 7.1%). Validation pending build verification + live curl word-count on a 5-day post-deploy sample.
+- SteelR property: account `info@supplywindows.co.uk` (116922431) → **Steelr** property **534288863**. NOT the Vitrums property — they are separate, easy to mistake in the account switcher.
+- GA4 measurement ID: `G-VSZ1XXGY2Z` (env var `NEXT_PUBLIC_GA_ID` on Vercel).
+- 28-day traffic (16 Apr-13 May): 196 sessions, 123 active users over 30 days, **growing +95% (30-day)**. 40.8% engagement, 1m02s avg. Mostly UK. Channels: Direct 64%, Organic Search 22%, Unassigned 9%, Referral 2.5%, Organic Social 2%.
+- Events firing: page_view, session_start, first_visit, user_engagement, scroll, phone_click, form_start. NOT yet: `generate_lead` (no completed form submission in the 28-day window; estimate-form path was also broken until 7f43c64), `form_submit` (QuickEnquiry focused but not completed in window).

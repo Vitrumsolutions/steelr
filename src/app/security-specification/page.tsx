@@ -194,13 +194,13 @@ export default function SecuritySpecificationPage() {
                     border: s.highlight ? "1px solid rgba(201,169,110,0.3)" : "1px solid rgba(201,169,110,0.08)",
                   }}
                 >
-                  <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.3em", textTransform: "uppercase", color: s.highlight ? "#c9a96e" : "#999", marginBottom: 12 }}>
+                  <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.3em", textTransform: "uppercase", color: s.highlight ? "#c9a96e" : "#595959", marginBottom: 12 }}>
                     {s.tier}
                   </p>
-                  <p style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(36px, 4vw, 48px)", color: s.highlight ? "#1a1a18" : "#999", lineHeight: 1, marginBottom: 4 }}>
+                  <p style={{ fontFamily: displayFont, fontWeight: 300, fontSize: "clamp(36px, 4vw, 48px)", color: s.highlight ? "#1a1a18" : "#595959", lineHeight: 1, marginBottom: 4 }}>
                     {s.standard}
                   </p>
-                  <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 10, letterSpacing: "0.15em", textTransform: "uppercase", color: s.highlight ? "#c9a96e" : "#999", marginBottom: 20 }}>
+                  <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 10, letterSpacing: "0.15em", textTransform: "uppercase", color: s.highlight ? "#c9a96e" : "#595959", marginBottom: 20 }}>
                     {s.name}
                   </p>
                   <div className="w-8 mb-5" style={{ height: 1, background: s.highlight ? "rgba(201,169,110,0.5)" : "rgba(201,169,110,0.15)" }} />
@@ -210,7 +210,7 @@ export default function SecuritySpecificationPage() {
                         <span className="mt-[5px] flex-shrink-0" style={{ fontSize: 10, color: s.highlight ? "#c9a96e" : "#bbb" }}>
                           {s.highlight ? "✦" : "—"}
                         </span>
-                        <span style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.5, color: s.highlight ? "#6b5a42" : "#999" }}>
+                        <span style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.5, color: s.highlight ? "#6b5a42" : "#595959" }}>
                           {feat}
                         </span>
                       </li>
@@ -263,7 +263,7 @@ export default function SecuritySpecificationPage() {
                     </th>
                   </tr>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.18)", background: "rgba(245,240,232,0.4)" }}>
-                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#595959" }}>
                       Certification
                     </th>
                     <td style={{ padding: "14px", fontFamily: displayFont, fontWeight: 400, fontSize: 16, color: "#1a1a18", lineHeight: 1.25 }}>
@@ -282,7 +282,7 @@ export default function SecuritySpecificationPage() {
                 </thead>
                 <tbody style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.6, color: "#6b5a42" }}>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}>
-                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#595959" }}>
                       Test scheme
                     </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>European framework. Single leaf, unglazed methodology. UKAS-accredited laboratory.</td>
@@ -291,7 +291,7 @@ export default function SecuritySpecificationPage() {
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Separate LPCB attack-resistance scheme. Asset-directed assault, distinct from forced entry.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)", background: "rgba(245,240,232,0.4)" }}>
-                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#595959" }}>
                       Attack duration
                     </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Sustained forced-entry test against the complete door assembly.</td>
@@ -300,7 +300,7 @@ export default function SecuritySpecificationPage() {
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Class-defined: AR.A300, AR.B180E, AR.B300E, AR.C120E. E denotes power-tool inclusion.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}>
-                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#595959" }}>
                       Tool catalogue
                     </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Heavy-duty hand tools and battery-operated power tools.</td>
@@ -309,7 +309,7 @@ export default function SecuritySpecificationPage() {
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Defined by AR class. The threat model is the protected asset behind the door.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid rgba(201,169,110,0.1)", background: "rgba(245,240,232,0.4)" }}>
-                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#595959" }}>
                       Typical specification context
                     </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Every SteelR residential front door. The standard build.</td>
@@ -318,7 +318,7 @@ export default function SecuritySpecificationPage() {
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Bank vault outer doors, data centre internal cores, embassy residences, residential where a documented threat assessment justifies it.</td>
                   </tr>
                   <tr>
-                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#999" }}>
+                    <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#595959" }}>
                       Lead time impact
                     </th>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Standard SteelR lead time: 8 to 12 weeks from sign-off to fitted installation.</td>
@@ -335,7 +335,7 @@ export default function SecuritySpecificationPage() {
             <p className="mt-10 max-w-3xl mx-auto text-center" style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
               Every SteelR door also carries PAS 24:2022 certification, FD30S fire and smoke rating, Secured by Design police accreditation, ISO 9001 and ISO 14001 manufacturing, and Made in Britain certification. The four tiers above sit on top of that baseline; they do not replace it.
             </p>
-            <p className="mt-4 max-w-3xl mx-auto text-center" style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.8, color: "#999", fontStyle: "italic" }}>
+            <p className="mt-4 max-w-3xl mx-auto text-center" style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.8, color: "#595959", fontStyle: "italic" }}>
               Reminder: BS EN 1627 RC ratings and LPS 1175 SR ratings are parallel certification schemes, not interchangeable. A door rated to one is not automatically equivalent to a numerically similar rating in the other.
             </p>
           </ScrollReveal>
@@ -402,7 +402,7 @@ export default function SecuritySpecificationPage() {
             <ScrollReveal key={cert.label} delay={i * 0.08}>
               <div className="text-center p-6" style={{ borderRight: i < certifications.length - 1 ? "1px solid rgba(201,169,110,0.12)" : "none" }}>
                 <p style={{ fontFamily: displayFont, fontWeight: 300, fontSize: 18, color: "#c9a96e", marginBottom: 4 }}>{cert.label}</p>
-                <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#999" }}>{cert.desc}</p>
+                <p style={{ fontFamily: bodyFont, fontWeight: 400, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "#595959" }}>{cert.desc}</p>
               </div>
             </ScrollReveal>
           ))}

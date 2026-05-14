@@ -351,6 +351,7 @@ export default async function AreaPage({ params }: Props) {
 
       {/* Breadcrumb */}
       <nav
+        aria-label="Breadcrumb"
         className="bg-cream px-6 md:px-16 py-3"
         style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}
       >
@@ -385,6 +386,7 @@ export default async function AreaPage({ params }: Props) {
                   </>
                 ) : (
                   <span
+                    aria-current="page"
                     style={{
                       fontFamily:
                         "var(--font-body), Montserrat, sans-serif",
