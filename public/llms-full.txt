@@ -834,10 +834,18 @@ URL: https://steelr.co.uk/lps-1673-attack-resistant-steel-door
 
 LPS 1673 is a separate LPCB attack-resistance certification, distinct from forced-entry resistance under BS EN 1627 (which gives the SteelR residential standard at RC4 single leaf, unglazed). LPS 1673 tests doorsets against a sustained, deliberate, directed attack on the asset behind the door, with a broader power-tool catalogue and a different methodology. The four certified ratings are AR.A300, AR.B180E, AR.B300E and AR.C120E. The standard is normally specified on bank vault outer doors, data centre internal cores, telecoms infrastructure, embassy and consul residences, and high-value asset storage. The legitimate residential audience is small but real: properties with documented threat assessments, homes with safe rooms, residences flagged by specialist insurers, family offices storing sensitive records, and ultra-high-net-worth properties with assessed risk profiles. SteelR offers LPS 1673 on residential specification by enquiry. Lead time confirmed at quote stage. Pricing individual to the project.
 
-### Steel Front Door vs Composite. Comparison
+### Steel Front Door vs Composite. Multi-Material Comparison
 URL: https://steelr.co.uk/steel-front-door-vs-composite
 
-Honest side-by-side comparison. Security: most composite doors are PAS 24 certified; SteelR doors are PAS 24 plus BS EN 1627 RC4 plus SBD, a full certification tier above the composite baseline. Longevity: composite doors typically carry ten-year warranties with real-world service life of fifteen years; SteelR doors are engineered for decades of service backed by a ten-year manufacturer warranty on the construction. Thermal: composite doors publish U-values of 1.2-1.4 W/m²K; thermally broken SteelR doors typically from 1.5 W/m²K standard with thermal-upgrade specifications as low as 0.8 W/m²K. Fire: FD30S standard on SteelR; rare on composite. Aesthetics: composite doors use moulded panels from fixed tooling; SteelR panels are fabricated individually to period-specific proportions. Cost: composite has lower upfront cost; steel has lower total cost of ownership over the longer service life.
+Quick answer: steel front doors achieve LPS 1175 SR3 Enhanced certification, are engineered for a 25 to 30 year service life backed by a ten-year manufacturer warranty on construction (5 years on the decorative finish, 3 years on hardware), and use thermally broken construction with U-values from 1.5 W/m²K standard and thermal-upgrade specifications as low as 0.8 W/m²K. Composite doors typically meet PAS 24 (two certification tiers below SR3), carry ten-year warranties with real-world service life around fifteen years, and publish U-values of 1.2 to 1.4 W/m²K. Steel costs more upfront. Composite costs more over a 25-year horizon when like-for-like replacement is factored in.
+
+The page opens with a four-material comparison table covering Steel, Composite, uPVC and Timber across price tier (premium bespoke, mid-market, budget to mid-market, mid-market to premium joinery), service life (25 to 30, 10 to 15, 10 to 15, 15 to 25 with maintenance), security baseline (PAS 24 with BS EN 1627 RC4 standard and LPS 1175 SR3 / SR4 available; PAS 24 typical; PAS 24 typical with hollow-section caveat; none as standard), insulation (thermally broken construction; 1.2 to 1.4 W/m²K; 1.4 to 1.8 W/m²K; 2.0 to 3.0 W/m²K), fire rating (FD30S standard FD60 available; rarely FD30; not typically fire rated; FD30 by specialist joinery) and maintenance (none beyond hinge adjustment; skin can crack or fade; surface discolours; sand, prime, repaint every 3 to 5 years).
+
+The page then drills into the steel-versus-composite trade-off on security, longevity, thermal performance, fire rating, aesthetic flexibility and total cost of ownership in spec depth. SteelR doors are PAS 24 plus BS EN 1627 RC4 plus SBD, a full certification tier above the composite baseline. Composite doors use moulded panels from fixed tooling; SteelR panels are fabricated individually to period-specific proportions.
+
+FAQs answer the natural search-query patterns. Are steel doors more secure than composite doors: yes, two certification tiers above PAS 24. Do steel doors last longer than composite doors: steel 25 to 30 years, composite 10 to 15 year warranty. Are composite doors more thermally efficient than steel: comparable when steel is thermally broken. Can composite doors match a period property as well as steel: less faithfully because composite panel geometry is mould-constrained. Is steel or composite better value over 10 years: composite wins on upfront cost, steel wins on total cost of ownership across the 25-year horizon. Do home insurers differentiate between composite and steel doors: increasingly yes, SR3 certification moves the underwriting conversation at higher property values.
+
+The four-material table on this page is the head-term reference. Deep-dive comparisons for each specific material live in dedicated guides: steel vs fibreglass at https://steelr.co.uk/blog/steel-vs-fibreglass-doors-uk-comparison, steel vs aluminium at https://steelr.co.uk/blog/steel-vs-aluminium-front-doors, steel vs timber at https://steelr.co.uk/blog/steel-vs-timber-entrance-doors, and steel vs uPVC at https://steelr.co.uk/blog/steel-vs-upvc-front-doors-comparison.
 
 ### UK-Made Steel Doors vs Imported Systems
 URL: https://steelr.co.uk/uk-steel-doors-vs-imported
@@ -856,7 +864,7 @@ SteelR does not publish fixed prices because every project is individually quote
 
 ---
 
-## Full Area Page Listing. 161 Areas Served, 17 Regional Hubs, 178 Pages Total
+## Full Area Page Listing. 161 Areas Served, 16 Regional Hubs, 177 Pages Total
 
 SteelR provides bespoke steel entrance door design, manufacture and installation across all of the following areas. Each area has a dedicated page at steelr.co.uk/areas/[area-name].
 

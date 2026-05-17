@@ -290,6 +290,8 @@ SteelR doors are bespoke and individually priced based on specification. There a
 - [Blog](https://steelr.co.uk/blog)
 - [Contact](https://steelr.co.uk/contact)
 - [Design and Estimate](https://steelr.co.uk/design-estimate)
+- [Direct AI Answers (AEO reference)](https://steelr.co.uk/ai-answers)
+- [Lookbook](https://steelr.co.uk/lookbook)
 - [Full HTML Sitemap](https://steelr.co.uk/sitemap)
 
 ## Audience Hubs (B2B Procurement)
@@ -307,6 +309,7 @@ These dedicated hub pages support procurement teams specifying SteelR doors at s
 - [BS EN 1627 RC4 Residential Steel Door (Standard tier)](https://steelr.co.uk/bs-en-1627-rc4-residential-steel-door). BS EN 1627:2011 RC4 single leaf, unglazed. The European framework for sustained forced-entry resistance. SteelR's Standard tier on every bespoke door, materially above the PAS 24 hardware-only test mandated for new-build dwellings.
 - [SR3 Residential Steel Doors (Enhanced upgrade)](https://steelr.co.uk/sr3-residential-steel-door). LPS 1175 SR3 explained. The LPCB police-preferred specification. SteelR's Enhanced upgrade tier above the BS EN 1627 RC4 standard residential specification.
 - [SR4 Residential Steel Doors (Commercial-grade upgrade)](https://steelr.co.uk/sr4-residential-steel-door). LPS 1175 SR4 (D10 Issue 8) explained. The LPCB Commercial-grade certification used on data centres and bank vaults. SteelR's Commercial-grade upgrade tier.
+- [SR3 vs SR4 Residential Steel Doors UK](https://steelr.co.uk/sr3-vs-sr4-residential-steel-doors-uk). Side-by-side comparison of LPS 1175 SR3 (Enhanced upgrade) and SR4 (Commercial-grade upgrade) on a residential bespoke steel front door. When SR3 is the right specification and when an upgrade to SR4 is justified.
 - [PAS 24 Steel Entrance Doors](https://steelr.co.uk/pas-24-steel-entrance-door). Approved Document Q compliance, what PAS 24:2022 tests, why it is the floor not the ceiling.
 - [Secured by Design Steel Front Doors](https://steelr.co.uk/secured-by-design-steel-front-door). UK police-preferred specification explained, scope of SBD approval, insurance recognition.
 - [Thermally Broken Steel Front Doors](https://steelr.co.uk/thermally-broken-steel-front-door). What a thermal break is, why budget steel doors condense, U-values achievable on correctly engineered doors.
