@@ -1,85 +1,81 @@
 # SteelR — STATE
 
-**Last updated:** 2026-05-14 (full-website health audit + fix batch shipped)
+**Last updated:** 2026-05-17 (commit `7980a16`)
 **Priority:** P0
+
+---
 
 ## Where I left off
 
-### 14 May — Full-website health audit + Batch B fixes shipped
+**Single fix shipped live: 2026-05-17 commit `7980a16` "Fix broken Hillingdon gallery image path"**
 
-**Audit (read-only, diagnostic):** 8 parallel forensic agents covered performance/CWV, broken-link integrity, blog content, area pages, llms.txt integrity, schema/technical SEO, WCAG 2.2 accessibility, visual/UX/conversion-flow. Plus hands-on GA4 analytics + Instagram-linkage checks via the user's browser, consolidated by a deep-reviewer synthesis panel. 9 reports committed at `d2084f7`. Full prioritised report: `audit-data/forensics/20260514-FULL-AUDIT-SYNTHESIS.md`.
+- Caught by Ahrefs Site Audit Wave 1 crawl (kicked off this session): `src/data/locations/london.ts:909` had incorrect gallery-image path `/images/gallery/steelr-black-contemporary-sidelight.jpg`. File actually lives at `/images/hero/steelr-black-contemporary-sidelight.jpg`.
+- Fix: corrected path, commit pushed, Vercel deployment `dpl_Exgmhvp11JKcWoQSK7ZoaHhKDpqn` READY in production.
+- Live verification: curl on `/areas/hillingdon` confirms srcset now references `/_next/image?url=%2Fimages%2Fhero%2Fsteelr-black-contemporary-sidelight.jpg&...` correctly. 2 errors from Ahrefs report (flagged "Image broken" + "Page has broken image") both resolved by this single edit.
 
-**Headline verdict:** site is structurally healthy. 313/313 sitemap URLs return 200, zero orphans, valid JSON-LD sitewide, clean canonicals, zero house-style violations across 40 blog posts, the 13-14 May Buckinghamshire hub recovery shipped correctly. No agent found a blocker.
+**Off-site infrastructure work (no code):**
+- Ahrefs Webmaster Tools account created under `info@supplywindows.co.uk`. `steelr.co.uk` imported via GSC OAuth. All 3 audit toggles ON. First Ahrefs crawl data will populate 24–48 hours from session start (by 2026-05-19 morning).
+- Baseline Ahrefs state at session end (pre-re-crawl): Health 100, 2 errors (now fixed above), 384 warnings, 689 notices, 316 internal pages crawled.
 
-**Biggest lever found:** a measurement gap, not a defect. GA4 had no Key Event configured and was not linked to Search Console.
+**AI citation baseline captured:**
+- Perplexity on `steel vs composite front door uk`: SteelR **not cited page 1**. Sources: jkdoors, edgebp, moneysavingexpert, doorsforsecurity.
+- ChatGPT-with-Search (3 queries today): on `bespoke steel front door uk` and `luxury bespoke steel front door uk`, SteelR cited multiple times but downgraded vs 11/13 May (competitors Ryterna, PIVOT moved up). On `steel front door for grade ii listed property`: **not cited** (Modern Doors, Latham's, Crittall cited).
+- Google Web (depersonalised): AI Overview cites Latham's + generic guides, not SteelR. SteelR blog URL ranks page 1, but topic hub `/steel-front-door-vs-composite` does not. Brand `steelr` search shows Pittsburgh Steelers KP first, SteelR organic #1.
+- Full baseline capture: `audit-data/serp-captures/20260517-panel-llms-ai.md`.
 
-**Shipped tonight — commit `7f43c64` (verified live):**
-1. **GA4 `generate_lead` fix** — `src/app/design-estimate/page.tsx`. The 4-step estimate form showed an inline success state and never navigated to `/thank-you`, so `ThankYouTracking.tsx` never fired `generate_lead`. A completed estimate sent the Resend email fine but registered zero conversion in GA4. Now `router.push("/thank-you?source=design-estimate&context=4-step-estimate-form")` on success, mirroring ContactForm + QuickEnquiry. Known follow-up: the now-unreachable `if (status === "success")` render block (~line 375) can be removed in a later cleanup pass.
-2. **Schema @id collision fix** — `src/app/areas/[slug]/page.tsx`. The area-page template emitted a second `HomeAndConstructionBusiness` node reusing the canonical `#business` @id with a conflicting url/description (unpredictable graph-merge across ~178 pages). Rewritten as a `Service` node with `@id /areas/{slug}#service` and a `provider` reference to the canonical `#business`. seo-schema-validator PASS, verified live on `/areas/buckinghamshire`.
-3. **Stale blog link fix** — `src/data/blog/posts/sr4-lps-1175-commercial-grade-residential.ts`. Body link `/blog/what-is-sr3-security-rating` (removed slug, was 308-redirecting) repointed to `/sr3-residential-steel-door`. Verified: 0 refs left in `src/`, live page shows only the new link.
+**Parked work on disk (not committed):**
+- `src/app/heritage-steel-front-doors-uk/page.tsx` — page draft, sections 2–3 written, pivoted away mid-session ("none of it makes sense")
+- `docs/superpowers/specs/2026-05-16-heritage-hub-design.md`
+- `docs/superpowers/plans/2026-05-16-heritage-hub-implementation.md`
+- `audit-data/serp-captures/20260516-heritage-baseline.md`
 
-Verification chain: brand-guard PASS, build 318/318, seo-schema-validator PASS, deploy-gate GO, live curl confirmed all items.
+User pivoted when heritage work wasn't anchored to a diagnostic finding. Files sit on disk for future revisit.
 
-**GA4 dashboard tasks — user-completed during the session:**
-- Search Console link: DONE (steelr.co.uk Domain → SteelR Website stream, linked 14 May). Organic-query data will start populating in ~48h.
-- Key Events: `phone_click` ready to star (it has fired). `generate_lead` cannot be starred in GA4 until it fires once — now that the estimate-form fix is live, the next real estimate submission will make it appear and it can be marked a Key Event.
-
-### Earlier (13-14 May) — Buckinghamshire ranking-regression forensic recovery
-
-`/areas/buckinghamshire` fell from Google #1 (22 Apr) to outside top 30 (5 May). 8 forensic agents + 2 panel-cross-examination agents diagnosed the root cause: structural content thinness across all 17 area hubs (7% unique content), not a commit regression. Shipped: Phase 1 H1 revert across 161 area pages (`b38a698`), Phase 2 data enrichment across all 17 hubs taking unique-content ratio ~7% to ~25-30% (`b38a698` + `976de1a`), prevention rule in CLAUDE.md + `audit-data/hub-uniqueness-scoreboard.md` (`57147a7`). IndexNow + Google Indexing API propagation complete. Full record: `audit-data/forensics/20260513-buckinghamshire-FINAL-TICKLIST.md`.
+---
 
 ## Next action
 
-**In progress this session: Batch C — accessibility contrast fixes.** 5 cheap-to-reverse colour-token changes from `audit-data/forensics/20260514-accessibility.md`:
-- R1: stop using gold `#c9a96e` as text/link colour (fails 2.05:1 on cream) — keep gold for non-text accents only
-- R2: darken breadcrumb link `#b8943f` to ~`#7a6033` (>=4.5:1)
-- R3: darken `/security-specification` row-header `#999` to `#595959`
-- R4: replace `#8a6f4e` body/helper text under ~18px with `#6b5a42` (already used elsewhere at 6.5:1)
-- R5: add `aria-label="Breadcrumb"` to breadcrumb `<nav>` + `aria-current="page"` to final crumb
-Needs surgical care: `#c9a96e` and `#8a6f4e` are used for accents/borders/backgrounds too — only the text/link uses change. Verify by recomputing contrast post-change.
+**P0 — Confirm `generate_lead` GA4 event fires (user-side, 90 seconds).** Fill `/design-estimate` form, submit, verify `generate_lead` event appears in GA4 Real-Time. Mark as Key Event. Unblocks all downstream conversion measurement.
 
-**Then, remaining P1 from the synthesis (priority order):**
+**P1 — Re-measure AI citation on 2026-05-30 (13 days post-fix).** Re-pull `steel vs composite front door uk` on Perplexity, ChatGPT-with-Search, Gemini. Compare to today's baseline at `audit-data/serp-captures/20260517-panel-llms-ai.md`. Early signal (4-day pickup on Perplexity): SteelR already cited 4 times on `composite vs steel doors uk` + cited as source on Google AI Mode. Full 14-day window measurement still needed.
 
-1. **P1-7 — Area-page hero banner.** ~178 area pages (the largest page class, a major organic entry point) open flat with no visual H1 or hero, unlike every other page type. Visual-UX audit flagged it as highest commercial leverage. Medium effort.
-2. **P1-8 — Enrich the 24 thin London-borough leaf pages** (mean ~95 words; Kensington 84 words). Same structural-thinness profile that took Buckinghamshire off top-30. Prioritise Kensington, Chelsea, Fulham, Hammersmith.
-3. **Batch E — Instagram activation.** @steelrdoors exists and bio links to steelr.co.uk, but dormant (6 followers, 13 posts, no profile photo). The `social/` folder (built 21 Apr) has 20 ready Reels + 40 Pinterest pins + brand kit that never went live. Posting work, not building.
-4. **Gated — 4 llms.txt findings** requiring the `/panel-llms` + `/panel-llms-approve` flow: stale "178 Pages Total" count, `/sr3-vs-sr4` topic page missing from both files, 3 blogs missing from one URL block, and the biggest — llms-full still treats the 16 enriched hubs as URL stubs (none of the new county depth is visible to AI crawlers).
+**P1 — Pull first Ahrefs Webmaster Tools data on 2026-05-19.** Check: backlink count, referring domains, organic keywords per Ahrefs vs GSC delta, auto-detected competitors, site audit findings post-re-crawl.
 
-**Deferred — NOT to ship without a separate careful session:**
-- **P1-1 — defer GA4 script to `lazyOnload`.** The `GoogleAnalytics.tsx` docblock documents that `next/script` was already tried and broke GA entirely (gtag undefined, no page_view fired). Switching loading strategy risks losing all measurement. Needs a session with a way to verify gtag still fires before/after.
+**P2 — User-supplied items when convenient:**
+- Supply Windows Companies House registration number (for schema `sameAs`)
+- Trustpilot business profile (for embed widget)
+
+**P2 — Top up Serper.dev credits ($50 / 50k queries).** `audit-data/visibility-audit.py` returns 403 silently. 4 consecutive failed run windows since 2026-05-04.
+
+---
 
 ## Blockers
 
-- Reviews still 0 — #1 Maps 3-pack blocker, user-managed.
-- `generate_lead` end-to-end confirmation needs one real estimate-form submission (sends a live email) — user's call to test, or wait for an organic submission now the fix is live.
-- Serper.dev credits exhausted — visibility-audit script returns silent zeros on fresh API calls. Top up + patch the silent-fail bug before next rank audit.
-- ChatGPT Free tier throttles after ~2-7 queries per session. Google AI Mode reCAPTCHA-blocked from sandbox — both only testable via the user's browser.
-- GA4 admin SPA is unreliable under browser automation (renderer freezes mid-modal) — dashboard config tasks need the user at the keyboard.
-- Mobile LCP 3.4-6.1s sitewide vs 2.5s threshold — perf agent's fixes (split `1356-*` chunk, lazy-load collection gallery) are P1 but separate from the deferred GA4-defer item.
+- **Serper credits depleted** since 2026-05-04. `visibility-audit.py` fails silently. Top-up at https://serper.dev/billing.
+- **`generate_lead` Key Event = 0** in GA4. Estimate-form fix shipped 2026-05-14 but no real submission has triggered yet. Blocks conversion measurement.
+- **ChatGPT Free-tier throttles** after 2–7 queries per session. Batch captures needed.
+- **Google AI Mode reCAPTCHA-blocked from sandbox.** Only testable via user's logged-in browser.
+- **0 Google reviews.** Maps 3-pack blocker. User-managed.
 
-## Recent wins (last 48 hours)
+---
 
-- **2026-05-14 — Full-website health audit (8 agents + synthesis panel) + Batch B fixes shipped (`7f43c64`).** GA4 conversion tracking fixed on the estimate form, schema @id collision resolved across 178 area pages, last stale internal link cleaned. All verified live. Search Console linked by user.
-- **2026-05-14 — 9 audit reports committed (`d2084f7`)** as permanent evidence: perf, link-integrity, blog, area-pages, llms-integrity, schema, accessibility, visual-UX + synthesis.
-- **2026-05-13/14 — Buckinghamshire forensic recovery shipped (`b38a698`, `976de1a`, `57147a7`).** 8-agent forensic swarm + 2-panel cross-examination. All 17 area hubs enriched from ~7% to ~25-30% unique content. Prevention rule + scoreboard added.
-- **2026-05-13 — Closing-block `whyConsider` prop on 18 InfoPage hubs (`c94e1c0`) + spec-by-spec table on `/steel-front-door-vs-composite` (`8ff80a0`).**
-- **2026-05-11 — Hands-on ChatGPT-with-Search + Gemini verified baseline.** `audit-data/serp-captures/20260511-chatgpt-gemini-verified.md`.
+## Recent wins (last 14 days)
+
+- **2026-05-17 — Ahrefs Webmaster Tools set up + steelr.co.uk verified.** Account under `info@supplywindows.co.uk`, GSC import auth'd, all crawl toggles ON. First crawl data in 24–48h.
+- **2026-05-17 — AI citation baseline captured.** Perplexity, ChatGPT-with-Search, Google Web, Google AI Mode, Microsoft Copilot, Grok, Gemini sampled. Baseline stored at `audit-data/serp-captures/20260517-panel-llms-ai.md`. 30 May re-measurement will compare against this snapshot.
+- **2026-05-17 — Hillingdon gallery image path fixed (commit `7980a16`).** Ahrefs Site Audit flagged broken image; path corrected from `/images/gallery/` to `/images/hero/`. 2 errors resolved. Live on production.
+- **2026-05-16 evening — Bing + AI engine audit shipped.** Full capture at `audit-data/serp-captures/20260517-bing-and-ai-engine-coverage.md`. Bing sitemap healthy, 84/249 root indexed, 17 keywords surfacing including `steel front doors residential uk` #4. AI surfaces: ChatGPT-with-Search 3/3 cited, Google AI Mode 2/3, Perplexity 2/7 (4-day pickup of llms-full restructure). Copilot 0/3 cited; Grok 0/1.
+- **Last 7 days — 6 workspace memory feedback files logged.** Process improvements from corrections: fresh-checks-first, cant-trust-subagent, spec-comparisons-tier-honest, stay-anchored-to-diagnostic, no-owner-profile-on-steelr, form-fill-via-form-input.
+
+---
 
 ## Key files
 
-- `audit-data/forensics/20260514-FULL-AUDIT-SYNTHESIS.md` — the canonical prioritised action list (P0/P1/P2 + deferred + one-week plan)
-- `audit-data/forensics/20260514-*.md` (8 agent reports) — perf, link-integrity, blog, area-pages, llms-integrity, schema, accessibility, visual-ux
-- `audit-data/forensics/20260513-buckinghamshire-FINAL-TICKLIST.md` — Bucks recovery record
-- `audit-data/hub-uniqueness-scoreboard.md` — per-hub unique-content tracker, prevention artefact
-- `src/app/design-estimate/page.tsx` — estimate form, now redirects to /thank-you on success (commit 7f43c64)
-- `src/app/areas/[slug]/page.tsx` — area template; Service-node schema (7f43c64), reverted H1 (b38a698)
-- `src/components/GoogleAnalytics.tsx` — GA4 component. Docblock documents the next/script failure — read before touching GA loading.
-- `src/data/locations/*.ts` — 17 hub data files, all enriched with localFeatures + faqs + 250-word descriptions
-- `audit-data/templates/recommendation.md` — gate templates every recommendation passes through
-
-## GA4 reference (corrected 14 May)
-
-- SteelR property: account `info@supplywindows.co.uk` (116922431) → **Steelr** property **534288863**. NOT the Vitrums property — they are separate, easy to mistake in the account switcher.
-- GA4 measurement ID: `G-VSZ1XXGY2Z` (env var `NEXT_PUBLIC_GA_ID` on Vercel).
-- 28-day traffic (16 Apr-13 May): 196 sessions, 123 active users over 30 days, **growing +95% (30-day)**. 40.8% engagement, 1m02s avg. Mostly UK. Channels: Direct 64%, Organic Search 22%, Unassigned 9%, Referral 2.5%, Organic Social 2%.
-- Events firing: page_view, session_start, first_visit, user_engagement, scroll, phone_click, form_start. NOT yet: `generate_lead` (no completed form submission in the 28-day window; estimate-form path was also broken until 7f43c64), `form_submit` (QuickEnquiry focused but not completed in window).
+- `audit-data/serp-captures/20260517-panel-llms-ai.md` — AI citation baseline (Perplexity, ChatGPT today) for 2026-05-30 re-measurement
+- `audit-data/serp-captures/20260517-bing-and-ai-engine-coverage.md` — Bing + AI engine audit
+- `src/data/locations/london.ts:909` — Hillingdon galleryImages path, fixed to `/images/hero/steelr-black-contemporary-sidelight.jpg`
+- `src/app/layout.tsx` — Organization schema (brand-entity, alternateName array, memberOf, legalName, parentOrganization)
+- `public/llms.txt` + `public/llms-full.txt` — AI-grounding sources (last updated commit `b581333`, 2026-05-16)
+- `audit-data/gsc-indexing-tracker-steelr.json` — Indexing API submission tracker (297 URLs)
+- `.vercel/project.json` — Vercel project metadata + environment var list
+- `~/.claude/projects/C--Users-SOT-Documents-Projects/memory/MEMORY.md` — workspace memory index (6 new feedback entries from this session)
