@@ -139,6 +139,18 @@ export default function RootLayout({
                 "https://www.linkedin.com/company/steelr",
                 "https://www.google.com/maps/place/SteelR+Bespoke+Steel+Entrance+Doors"
               ],
+              "memberOf": [
+                {
+                  "@type": "Organization",
+                  "name": "Made in Britain Campaign",
+                  "url": "https://www.madeinbritain.org"
+                },
+                {
+                  "@type": "Organization",
+                  "name": "Secured by Design",
+                  "url": "https://www.securedbydesign.com"
+                }
+              ],
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
                 "name": "Bespoke Steel Entrance Doors",
