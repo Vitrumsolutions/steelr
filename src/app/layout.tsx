@@ -87,7 +87,21 @@ export default function RootLayout({
               "@type": "HomeAndConstructionBusiness",
               "@id": "https://steelr.co.uk/#business",
               "name": "SteelR",
-              "alternateName": "SteelR Bespoke Entrance Doors",
+              "alternateName": [
+                "SteelR",
+                "Steelr",
+                "Steelr UK",
+                "SteelR UK",
+                "SteelR Doors",
+                "SteelR Bespoke Entrance Doors",
+                "SteelR Bespoke Steel Entrance Doors"
+              ],
+              "legalName": "Supply Windows",
+              "parentOrganization": {
+                "@type": "Organization",
+                "name": "Supply Windows",
+                "url": "https://supplywindows.co.uk"
+              },
               "telephone": "0800 861 1450",
               "email": "info@steelr.co.uk",
               "url": "https://steelr.co.uk",
