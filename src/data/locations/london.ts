@@ -906,7 +906,7 @@ export const londonLocations: Location[] = [
     galleryImages: [
       "/images/gallery/steelr-black-panelled-grille-sidelights.jpg",
       "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",
-      "/images/gallery/steelr-black-contemporary-sidelight.jpg",
+      "/images/hero/steelr-black-contemporary-sidelight.jpg",
       "/images/gallery/steelr-olive-panelled-ring-knocker-sidelight.jpg",
     ],
     nearbyAreaSlugs: ["ickenham", "ruislip", "ealing", "pinner", "northwood"],
