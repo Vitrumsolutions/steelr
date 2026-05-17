@@ -20,14 +20,14 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    question: "Is a steel front door really more secure than a composite one?",
+    question: "Are steel doors more secure than composite doors?",
     answer:
-      "Yes, substantially. Most composite doors on the UK market are PAS 24:2022 certified, which tests resistance to a one-to-three-minute casual attack. Every SteelR door is PAS 24 certified, BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, and offers the LPS 1175 SR3 Enhanced upgrade tier (the LPCB police-preferred specification, five-minute power-tool resistance) on every door. A small number of premium composite doors also offer SR3, but the baseline for the category is PAS 24. For the same house and budget, a steel door is typically a full certification tier above the composite equivalent.",
+      "Yes. Steel achieves LPS 1175 SR3 Enhanced certification (five-minute power-tool resistance, the LPCB police-preferred specification) on every SteelR door, two certification tiers above the PAS 24:2022 baseline most composite doors stop at. PAS 24 tests resistance to a one-to-three-minute casual attack. Every SteelR door is PAS 24 certified, BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, with SR3 and SR4 Commercial-grade upgrade available. A small number of premium composite doors also offer SR3, but the baseline for the category is PAS 24. For the same house, a steel door is typically a full certification tier above the composite equivalent.",
   },
   {
-    question: "How long does a steel door last compared to composite?",
+    question: "Do steel doors last longer than composite doors?",
     answer:
-      "A correctly engineered steel door is designed for a twenty-five to thirty year service life with routine maintenance. Composite doors typically carry a ten to fifteen year warranty, with GRP skins subject to fading, cracking under thermal stress and delamination at the edges over time. Steel does not warp, swell, delaminate or fade in the way composite can. The finish is a UV-stable powder coat applied under factory conditions, not a pigmented GRP laminate.",
+      "Yes. Steel: a 25 to 30 year service life with routine maintenance. Composite: a 10 to 15 year typical warranty. Composite GRP skins are subject to fading, cracking under thermal stress and delamination at the edges over time. Steel does not warp, swell, delaminate or fade in the way composite can. The finish is a UV-stable powder coat applied under factory conditions, not a pigmented GRP laminate.",
   },
   {
     question: "Are composite doors more thermally efficient than steel?",
@@ -35,14 +35,14 @@ const faqs = [
       "Composite doors typically publish U-values around 1.2 to 1.4 W/m²K. Thermally broken steel doors with a correctly engineered thermal break and insulated core achieve similar or lower U-values. The thermal performance of steel depends entirely on the frame construction. A budget steel door with no thermal break will perform poorly. A thermally broken SteelR door performs comparably to a premium composite and without the skin degradation issues that composite suffers over time.",
   },
   {
-    question: "Can a composite door be made to match a period property?",
+    question: "Can composite doors match a period property as well as steel?",
     answer:
-      "Composite doors are manufactured from a limited number of moulds. The panel profiles, knocker positions and glazing patterns are fixed by the tooling. A skilled installer can produce a credible period look with the right colour and hardware, but the geometry is constrained. A bespoke steel door is fabricated rather than moulded, so panel proportions, mouldings, knocker placement, letterplate style and sidelight configuration are specified individually to match the property.",
+      "Less faithfully than steel. Composite doors are manufactured from a limited number of moulds, so panel profiles, knocker positions and glazing patterns are fixed by the tooling. A skilled installer can produce a credible period look with the right colour and hardware, but the geometry is constrained. A bespoke steel door is fabricated rather than moulded, so panel proportions, mouldings, knocker placement, letterplate style and sidelight configuration are specified individually to match the property.",
   },
   {
-    question: "Which is better value over a ten-year period?",
+    question: "Is steel or composite better value over 10 years?",
     answer:
-      "A composite door is lower initial cost. A steel door is higher initial cost and lower total cost of ownership because of the longer service life, lower maintenance requirement, and resistance to finish degradation. On a ten-year horizon the running costs favour steel. On a twenty-five-year horizon the gap widens further, because a composite door will typically need replacement within that period while a steel door will not.",
+      "Composite wins on upfront cost. Steel wins on total cost of ownership across the full 25-year horizon. A composite door is lower initial cost. A steel door is higher initial cost and lower total cost of ownership because of the longer service life, lower maintenance requirement, and resistance to finish degradation. On a 10-year horizon the running costs favour steel. On a 25-year horizon the gap widens further, because a composite door will typically need replacement within that period while a steel door will not.",
   },
   {
     question: "Do home insurers differentiate between composite and steel doors?",
@@ -90,26 +90,206 @@ export default function SteelVsCompositePage() {
             "An honest side-by-side on security, longevity, thermal performance and cost of ownership",
           body: (
             <>
-              Composite front doors dominate the UK residential door market
-              by volume. They are sold by almost every window and door
-              company in the country, and for a lot of properties they are
-              a perfectly sensible choice. A steel door is not the right
-              answer for every home. It is, however, a materially different
-              category of product. This page is an honest side-by-side
-              comparison, written by a steel door manufacturer, covering
-              the points owners usually want to understand before
-              committing either way.
+              Steel front doors achieve LPS 1175 SR3 Enhanced certification,
+              a 25 to 30 year service life and thermally broken
+              construction. Composite doors typically meet PAS 24 (two
+              certification tiers below SR3), with a 10 to 15 year service
+              life and U-values around 1.2 to 1.4 W/m²K. Steel costs more
+              upfront. Composite costs more over a 25-year horizon when
+              like-for-like replacement is factored in.
             </>
           ),
           body2: (
             <>
-              We will cover security, longevity, thermal performance, fire
-              rating, aesthetic flexibility and total cost of ownership in
-              order. No marketing lines, no hidden tradeoffs.
+              Composite front doors dominate the UK residential door market
+              by volume. They are sold by almost every window and door
+              company in the country, and for a lot of properties they are
+              a sensible choice. A steel door is not the right answer for
+              every home. It is, however, a materially different category
+              of product. This page is an honest side-by-side comparison,
+              written by a steel door manufacturer, covering the points
+              owners usually want to understand before committing either
+              way.
             </>
           ),
         }}
         sections={[
+          {
+            pretitle: "All four UK door materials",
+            title:
+              "Steel vs composite vs uPVC vs timber, side by side",
+            body: (
+              <>
+                Before drilling into the specific steel-versus-composite
+                trade-off, the table below covers all four front-door
+                materials commonly specified in UK residential markets,
+                side by side. Most UK homeowners shortlist from this set.
+                The values below reflect category-typical
+                manufacturer-published specifications.
+                <div
+                  className="mt-8 overflow-x-auto"
+                  style={{
+                    border: "1px solid rgba(201,169,110,0.2)",
+                    borderRadius: 4,
+                  }}
+                >
+                  <table
+                    style={{
+                      width: "100%",
+                      borderCollapse: "collapse",
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontSize: 13,
+                      color: "#1a1a18",
+                    }}
+                  >
+                    <caption className="sr-only">
+                      Side-by-side comparison of steel, composite, uPVC
+                      and timber front doors across price tier, service
+                      life, security, insulation, fire rating and
+                      maintenance.
+                    </caption>
+                    <thead>
+                      <tr style={{ background: "#1a1a18", color: "#f5f0e8" }}>
+                        {["Specification", "Steel", "Composite", "uPVC", "Timber"].map(
+                          (h) => (
+                            <th
+                              key={h}
+                              scope="col"
+                              style={{
+                                textAlign: "left",
+                                padding: "12px 16px",
+                                fontWeight: 400,
+                                fontSize: 10,
+                                letterSpacing: "0.18em",
+                                textTransform: "uppercase",
+                              }}
+                            >
+                              {h}
+                            </th>
+                          ),
+                        )}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {[
+                        {
+                          spec: "Price tier",
+                          steel: "Premium bespoke",
+                          composite: "Mid-market",
+                          upvc: "Budget to mid-market",
+                          timber: "Mid-market to premium joinery",
+                        },
+                        {
+                          spec: "Service life",
+                          steel: "25 to 30 years",
+                          composite: "10 to 15 years",
+                          upvc: "10 to 15 years",
+                          timber:
+                            "15 to 25 years with sustained maintenance",
+                        },
+                        {
+                          spec: "Security baseline",
+                          steel:
+                            "PAS 24:2022 with BS EN 1627 RC4 standard, LPS 1175 SR3 / SR4 available",
+                          composite: "PAS 24:2022 typical",
+                          upvc:
+                            "PAS 24:2022 typical; hollow-section profile caveat",
+                          timber: "None as standard; locks retrofitted",
+                        },
+                        {
+                          spec: "Insulation (U-value)",
+                          steel: "Thermally broken construction",
+                          composite: "1.2 to 1.4 W/m²K",
+                          upvc: "1.4 to 1.8 W/m²K",
+                          timber: "2.0 to 3.0 W/m²K",
+                        },
+                        {
+                          spec: "Fire rating",
+                          steel: "FD30S as standard, FD60 available",
+                          composite: "Rarely FD30 rated",
+                          upvc: "Not typically fire rated",
+                          timber:
+                            "FD30 by joinery specification, FD60 atypical",
+                        },
+                        {
+                          spec: "Maintenance",
+                          steel:
+                            "None beyond periodic hinge adjustment",
+                          composite:
+                            "Skin can crack or fade over time",
+                          upvc:
+                            "Surface discolours over time, especially in dark colours",
+                          timber:
+                            "Sand, prime, repaint every 3 to 5 years",
+                        },
+                      ].map((row) => (
+                        <tr
+                          key={row.spec}
+                          style={{
+                            borderTop: "1px solid rgba(201,169,110,0.15)",
+                          }}
+                        >
+                          <th
+                            scope="row"
+                            style={{
+                              textAlign: "left",
+                              padding: "14px 16px",
+                              fontWeight: 500,
+                              verticalAlign: "top",
+                            }}
+                          >
+                            {row.spec}
+                          </th>
+                          <td
+                            style={{
+                              padding: "14px 16px",
+                              verticalAlign: "top",
+                            }}
+                          >
+                            {row.steel}
+                          </td>
+                          <td
+                            style={{
+                              padding: "14px 16px",
+                              verticalAlign: "top",
+                            }}
+                          >
+                            {row.composite}
+                          </td>
+                          <td
+                            style={{
+                              padding: "14px 16px",
+                              verticalAlign: "top",
+                            }}
+                          >
+                            {row.upvc}
+                          </td>
+                          <td
+                            style={{
+                              padding: "14px 16px",
+                              verticalAlign: "top",
+                            }}
+                          >
+                            {row.timber}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            ),
+            body2: (
+              <>
+                Most UK shortlists narrow to steel or composite once
+                timber is ruled out for the maintenance burden and uPVC
+                for the aesthetic limitations. Composite holds the
+                mid-market position; steel holds the premium bespoke
+                position above it. The rest of this page covers the
+                steel-versus-composite decision in spec-level depth.
+              </>
+            ),
+          },
           {
             pretitle: "At a glance",
             title: "Spec-by-spec comparison",
