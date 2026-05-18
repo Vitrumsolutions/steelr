@@ -1,0 +1,42 @@
+name: Nightly Watchers
+
+on:
+  # 02:00 UTC = 03:00 UK in BST (Apr-Oct), 02:00 UK in GMT (Oct-Apr).
+  # Finishes well before 07:30 UK SteelrGSCIndexer so digest is ready before the morning.
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run watchers
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: node scripts/watchers/digest.mjs
+
+      - name: Commit digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add audit-data/digest/
+          git diff --cached --quiet && echo "No digest changes to commit" && exit 0
+          git commit --no-verify -m "watchers: nightly digest $(date -u +%Y-%m-%d)
+
+          Automated digest from scripts/watchers/digest.mjs."
+          git push
