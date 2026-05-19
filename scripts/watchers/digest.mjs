@@ -5,6 +5,8 @@ import { runContentDrift } from "./content-drift.mjs";
 import { runSitemapDrift } from "./sitemap-drift.mjs";
 import { runIntegrityCheck } from "./integrity-check.mjs";
 import { runFormCanary } from "./form-canary.mjs";
+import { runPsiLighthouse } from "./psi-lighthouse.mjs";
+import { runGscSearchAnalytics } from "./gsc-search-analytics.mjs";
 import { sendAlertEmail } from "./alert.mjs";
 import { todayIsoDate } from "./utils.mjs";
 
@@ -90,14 +92,24 @@ async function main() {
   const prior = await readPriorState();
 
   const skipCanary = process.env.WATCHERS_SKIP_CANARY === "1";
+  const skipPsi = process.env.WATCHERS_SKIP_PSI === "1";
 
   const tasks = [
     runContentDrift(prior.content || {}),
     runSitemapDrift(prior.sitemap ? { sitemap: prior.sitemap } : {}),
     runIntegrityCheck(prior.integrity || {}),
+    runGscSearchAnalytics(prior.gsc || {}),
   ];
   if (!skipCanary) tasks.push(runFormCanary());
+  if (!skipPsi) tasks.push(runPsiLighthouse(prior.psi || {}));
   const results = await Promise.all(tasks);
+
+  // Index by watcher name so state assignment is order-independent.
+  const byWatcher = {};
+  for (const r of results) {
+    const watcherName = r.findings[0]?.watcher;
+    if (watcherName) byWatcher[watcherName] = r;
+  }
 
   const findings = results.flatMap((r) => r.findings);
   if (skipCanary) {
@@ -108,11 +120,21 @@ async function main() {
       message: "WATCHERS_SKIP_CANARY=1 — canary not run",
     });
   }
+  if (skipPsi) {
+    findings.push({
+      severity: "info",
+      watcher: "psi-lighthouse",
+      path: "(skipped)",
+      message: "WATCHERS_SKIP_PSI=1 — PSI not run",
+    });
+  }
   const newState = {
     lastRun: new Date().toISOString(),
-    content: results[0].state,
-    sitemap: results[1].state.sitemap,
-    integrity: results[2].state,
+    content: byWatcher["content-drift"]?.state || prior.content || {},
+    sitemap: byWatcher["sitemap-drift"]?.state?.sitemap || prior.sitemap,
+    integrity: byWatcher["integrity-check"]?.state || prior.integrity || {},
+    psi: byWatcher["psi-lighthouse"]?.state || prior.psi || {},
+    gsc: byWatcher["gsc-search-analytics"]?.state || prior.gsc || {},
   };
 
   await writeState(newState);

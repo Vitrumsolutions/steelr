@@ -12,6 +12,8 @@ Mirrors Vitrums' watcher layer with SteelR-specific watched URLs, integrity targ
 | `sitemap-drift.mjs` | Sitemap URL count delta vs prior run; alerts on ≥5% drop. Designed to catch a Bucks-style hub deindexation early. |
 | `integrity-check.mjs` | `robots.txt`, `llms.txt`, `llms-full.txt`, `sitemap.xml` are live, contain expected markers, and have not shrunk ≥10% |
 | `form-canary.mjs` | POSTs a test entry through `/api/contact` AND `/api/estimate` with `[CANARY]` marker; alerts on non-2xx or `success:false` |
+| `psi-lighthouse.mjs` | Google PageSpeed Insights v5 on 10 URLs × mobile+desktop. Alerts when Lighthouse Performance / Accessibility / Best-Practices / SEO drops ≥10 points vs prior run. 429 quota errors downgrade to info. |
+| `gsc-search-analytics.mjs` | Pulls last 7-day vs prior 7-day clicks/position/impressions per page from Google Search Console (`sc-domain:steelr.co.uk`). Alerts on top-20 page ≥30% click drop or ≥5 position drop. Uses GSC service account; mints OAuth via JWT (no `googleapis` npm dep). |
 
 `digest.mjs` orchestrates the watchers in parallel, writes the markdown digest, persists state to `audit-data/digest/_state.json`, and triggers `alert.mjs` if any alerts fired.
 
@@ -32,24 +34,32 @@ Edit `config.mjs` to:
 
 ```bash
 # Full run, including both form canaries (POSTs to /api/contact and /api/estimate,
-# which trigger real Resend emails tagged [CANARY]).
+# which trigger real Resend emails tagged [CANARY]) and PSI Lighthouse (~10 min).
 node scripts/watchers/digest.mjs
 
-# Smoke test that runs everything except the canaries — no emails sent.
+# Smoke test that runs everything except the canaries. No emails sent.
 WATCHERS_SKIP_CANARY=1 node scripts/watchers/digest.mjs
+
+# Fast iteration: skip PSI Lighthouse.
+WATCHERS_SKIP_CANARY=1 WATCHERS_SKIP_PSI=1 node scripts/watchers/digest.mjs
+
+# Local GSC test: feed the service account JSON inline (file lives in vitrums/).
+GSC_SERVICE_ACCOUNT_JSON="$(cat ../vitrums/audit-data/gsc-service-account-steelr.json)" \
+  WATCHERS_SKIP_CANARY=1 WATCHERS_SKIP_PSI=1 \
+  node scripts/watchers/digest.mjs
 ```
 
 The first run captures a baseline (no alerts fire on first-time content). From day 2 onward, drift triggers alerts. State persists in `audit-data/digest/_state.json`.
 
-## Required secret
+## Required secrets
 
 Add to GitHub Actions secrets (Settings → Secrets and variables → Actions → New repository secret):
 
-| Secret | Used for | Source |
-|---|---|---|
-| `RESEND_API_KEY` | Sending alert emails | Same key already on Vercel for the contact-form path. Copy from Vercel → SteelR project → Settings → Environment Variables. |
-
-Without `RESEND_API_KEY`, the watchers still run and write the digest. Alerts are logged to the workflow output but no email is sent.
+| Secret | Used for | Source | Status if absent |
+|---|---|---|---|
+| `RESEND_API_KEY` | Sending alert emails | Same key already on Vercel for the contact-form path. Copy from Vercel → SteelR project → Settings → Environment Variables. | Watchers run, alerts logged to Actions output, no email sent. |
+| `GSC_SERVICE_ACCOUNT_JSON` | Google Search Console daily pull | Paste full JSON contents of `vitrums/audit-data/gsc-service-account-steelr.json` (gitignored, cross-project location per CLAUDE.md). One-line minified JSON in the secret value. | GSC watcher skips with an info-severity finding. |
+| `PAGESPEED_API_KEY` (optional) | Raises PSI rate limit | Generate one at console.cloud.google.com under a project with the PageSpeed Insights API enabled. | PSI runs anonymously; may hit shared 429 quota daily. |
 
 ## What is not verified yet (limitations)
 

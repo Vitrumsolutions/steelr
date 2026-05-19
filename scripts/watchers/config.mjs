@@ -99,6 +99,36 @@ export const THRESHOLDS = {
   contentDriftWarnHashes: true,
 };
 
+// PSI Lighthouse — 10 URLs × mobile+desktop = 20 PSI calls per night.
+// Selection prioritises: homepage, top topic hubs (AI-citation surface),
+// conversion path, area hubs (Bucks-regression detector), top blog.
+export const PSI_PAGES = [
+  { path: "/" },
+  { path: "/collection" },
+  { path: "/bespoke-steel-front-doors-uk" },
+  { path: "/steel-front-door-vs-composite" },
+  { path: "/sr3-residential-steel-door" },
+  { path: "/design-estimate" },
+  { path: "/contact" },
+  { path: "/areas/london" },
+  { path: "/areas/buckinghamshire" },
+  { path: "/blog/sr4-lps-1175-commercial-grade-residential" },
+];
+
+export const PSI_THRESHOLDS = {
+  // Alert if any Lighthouse category drops by this many points vs prior run.
+  categoryDropPoints: 10,
+};
+
+// GSC Search Analytics — week-over-week diff on page-level clicks/position.
+// SteelR's GSC property is sc-domain (DNS-verified per CLAUDE.md).
+export const GSC_CONFIG = {
+  siteUrl: "sc-domain:steelr.co.uk",
+  clickDropAlertPct: 30,
+  positionDropAlert: 5,
+  minPriorClicksForAlert: 5,
+};
+
 export const ALERT_EMAIL = {
   to: "info@supplywindows.co.uk",
   from: "noreply@steelr.co.uk",
