@@ -68,9 +68,9 @@ export default function PrivacyPage() {
 
           <h2 style={headingStyle}>Who we are</h2>
           <p style={sectionStyle}>
-            SteelR is a trading name of Supply Windows. We manufacture and install
-            bespoke steel entrance doors across the United Kingdom. Our website
-            address is https://steelr.co.uk.
+            SteelR manufactures and installs bespoke steel entrance doors
+            across the United Kingdom. Our website address is
+            https://steelr.co.uk.
           </p>
 
           <h2 style={headingStyle}>What data we collect</h2>

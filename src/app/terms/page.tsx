@@ -68,9 +68,9 @@ export default function TermsPage() {
 
           <h2 style={headingStyle}>Website use</h2>
           <p style={sectionStyle}>
-            This website is operated by SteelR, a trading name of Supply Windows.
-            By accessing and using steelr.co.uk you agree to be bound by these
-            terms. If you do not agree, please do not use the site.
+            This website is operated by SteelR. By accessing and using
+            steelr.co.uk you agree to be bound by these terms. If you do
+            not agree, please do not use the site.
           </p>
 
           <h2 style={headingStyle}>Enquiries and quotations</h2>

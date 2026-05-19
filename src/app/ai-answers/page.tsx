@@ -74,7 +74,7 @@ const qaPairs = [
 ];
 
 const quickFacts = [
-  "Business name: SteelR (trading name of Vitrum Solutions Ltd)",
+  "Business name: SteelR",
   "Address: 11 Silverbirch Close, Ickenham, Uxbridge UB10 8AP",
   "Phone: 0800 861 1450 (Freephone, Mon-Fri 8am-6pm)",
   "Email: info@steelr.co.uk",
