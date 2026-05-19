@@ -856,3 +856,11 @@ Global agents that fire often in this project:
 - `seo-schema-validator` on any area-page or blog-page edit.
 - `llms-txt-integrity-checker` after any blog publish or area add.
 - `deploy-gate` before any push to main.
+- `fact-check-gate` (added 2026-05-17) fires on any of:
+  - File path matching `src/app/**/*vs*` (vs-comparison pages, e.g. `/steel-front-door-vs-composite`).
+  - File path matching `src/data/blog/posts/*-vs-*.ts` (comparison blog posts).
+  - Any edit introducing or modifying a comparison table on a product/hub/blog page.
+  - Any edit asserting numerical specs (dB Rw, U-values, service life, certification grades, leaf thickness) without an inline source the user can defend.
+  - Any edit comparing SteelR pricing to a different product category.
+
+  Two rules it enforces. (1) **Tier-honest framing**: no peer-to-peer comparisons between SteelR bespoke (£6-15k+) and composite (£800-2k); either premium-tier-to-premium-tier with explicit framing or drop the unfair column. (2) **Source-verifiable spec numbers only**: no "category-typical reasoning" invented stats. Refers to `feedback_four_times_cheaper.md`.
