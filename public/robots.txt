@@ -3,7 +3,9 @@ Allow: /
 
 Sitemap: https://steelr.co.uk/sitemap.xml
 
-# AI/LLM context files
+# AI/LLM context files (commented because robots.txt validators flag
+# non-standard directives; AI crawlers fetch /llms.txt and /llms-full.txt
+# natively via the llmstxt.org convention regardless of robots.txt).
 # See https://llmstxt.org
-llms.txt: https://steelr.co.uk/llms.txt
-llms-full.txt: https://steelr.co.uk/llms-full.txt
+# llms.txt: https://steelr.co.uk/llms.txt
+# llms-full.txt: https://steelr.co.uk/llms-full.txt
