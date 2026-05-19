@@ -127,6 +127,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/luxury-steel-front-doors-uk`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/sr3-residential-steel-door`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
