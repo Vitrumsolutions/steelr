@@ -2,9 +2,9 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "luxury-front-doors-uk-buyer-guide",
-  title: "Luxury Front Doors UK: The 2026 Buyer Guide",
+  title: "Luxury Front Doors UK: Steel vs Hardwood vs Composite",
   description:
-    "Luxury front doors UK buyer guide 2026. Materials, security ratings, hardware, design styles, investment range and what separates premium from standard.",
+    "Choosing a luxury front door in the UK? Steel, solid hardwood and composite compared on security, lifespan, conservation suitability and finish.",
   date: "2026-04-22",
   readTime: "11 min read",
   category: "Buying Guide",
