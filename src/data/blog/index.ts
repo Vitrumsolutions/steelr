@@ -12,12 +12,15 @@ import choosingEntranceDoorColour from "./posts/choosing-entrance-door-colour";
 // Removed 22 Apr 2026 — cannibalised with thicker siblings, 308-redirected in next.config.mjs:
 //   securedByDesignDoors → secured-by-design-homes-guide-2026
 //   steelEntranceDoorsArchitectsSpecifiers → specifying-steel-doors-architects-guide-2026
-import bestFrontDoorsPeriodProperties from "./posts/best-front-doors-period-properties";
+// Removed 19 May 2026 — cannibalised with /heritage-steel-front-doors-uk topic hub:
+//   bestFrontDoorsPeriodProperties → /heritage-steel-front-doors-uk (308)
+//   periodPropertyFrontDoorUltimateGuide → /heritage-steel-front-doors-uk (308)
+// Removed 19 May 2026 — cannibalised with thicker companion blog:
+//   conservationAreaDoorRequirementsUk → /blog/steel-doors-conservation-areas-planning-guide (308)
 import steelVsTimberEntranceDoors from "./posts/steel-vs-timber-entrance-doors";
 import howToImproveHomeSecurityUk from "./posts/how-to-improve-home-security-uk";
 import bestAreasLondonPeriodPropertyRenovations from "./posts/best-areas-london-period-property-renovations";
 import steelDoorsCountryHomesGuide from "./posts/steel-doors-country-homes-guide";
-import conservationAreaDoorRequirementsUk from "./posts/conservation-area-door-requirements-uk";
 import steelVsAluminiumFrontDoors from "./posts/steel-vs-aluminium-front-doors";
 import bestFrontDoorHomeSecurity from "./posts/best-front-door-home-security";
 import pas24DoorsExplainedUkHomeowners from "./posts/pas-24-doors-explained-uk-homeowners";
@@ -49,7 +52,6 @@ import modernFrontDoorIdeasInspiration2026 from "./posts/modern-front-door-ideas
 import steelEntranceDoorsKentProperties from "./posts/steel-entrance-doors-kent-properties";
 // Removed 28 Apr 2026 — compositeVsSteelDoors2026UpdatedComparison merged
 // into /steel-front-door-vs-composite topic hub, 308-redirected in next.config.mjs.
-import periodPropertyFrontDoorUltimateGuide from "./posts/period-property-front-door-ultimate-guide";
 import springHomeImprovementFrontDoorUpgrade from "./posts/spring-home-improvement-front-door-upgrade";
 import securedByDesignHomesGuide2026 from "./posts/secured-by-design-homes-guide-2026";
 import sr4Lps1175CommercialGradeResidential from "./posts/sr4-lps-1175-commercial-grade-residential";
@@ -65,12 +67,10 @@ import steelFrontDoorsBuildingSafetyAct2022 from "./posts/steel-front-doors-buil
 export const posts: BlogPost[] = [
   luxuryFrontDoorsUkBuyerGuide,
   choosingEntranceDoorColour,
-  bestFrontDoorsPeriodProperties,
   steelVsTimberEntranceDoors,
   howToImproveHomeSecurityUk,
   bestAreasLondonPeriodPropertyRenovations,
   steelDoorsCountryHomesGuide,
-  conservationAreaDoorRequirementsUk,
   steelVsAluminiumFrontDoors,
   bestFrontDoorHomeSecurity,
   pas24DoorsExplainedUkHomeowners,
@@ -96,7 +96,6 @@ export const posts: BlogPost[] = [
   steelEntranceDoorsBuckinghamshireHomes,
   modernFrontDoorIdeasInspiration2026,
   steelEntranceDoorsKentProperties,
-  periodPropertyFrontDoorUltimateGuide,
   springHomeImprovementFrontDoorUpgrade,
   securedByDesignHomesGuide2026,
   sr4Lps1175CommercialGradeResidential,

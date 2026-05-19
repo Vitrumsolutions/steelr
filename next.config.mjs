@@ -71,6 +71,26 @@ const nextConfig = {
         destination: "/steel-front-door-cost-uk",
         permanent: true,
       },
+      // Fourth wave cannibalisation cleanup (19 May 2026). Heritage hub ships,
+      // collapsing two period-property blogs that were strict subsets of the
+      // new /heritage-steel-front-doors-uk topic page. Third redirect
+      // collapses a 4-min stub onto its 9-min legally-rigorous companion blog,
+      // not the hub (different primary intent — conservation-area planning).
+      {
+        source: "/blog/best-front-doors-period-properties",
+        destination: "/heritage-steel-front-doors-uk",
+        permanent: true,
+      },
+      {
+        source: "/blog/period-property-front-door-ultimate-guide",
+        destination: "/heritage-steel-front-doors-uk",
+        permanent: true,
+      },
+      {
+        source: "/blog/conservation-area-door-requirements-uk",
+        destination: "/blog/steel-doors-conservation-areas-planning-guide",
+        permanent: true,
+      },
     ];
   },
 };
