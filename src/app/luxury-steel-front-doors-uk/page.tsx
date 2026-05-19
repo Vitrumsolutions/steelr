@@ -26,7 +26,7 @@ const faqs = [
   {
     question: "Who makes the best luxury steel front doors in the UK?",
     answer:
-      "Five UK steel-door specialists work at the architectural luxury specification tier in 2026: SteelR, Black Steel Doors Ltd, Steel Door Solutions Ltd, Original Steel Doors Limited, and Steel Door Company. The right choice depends on architectural style (Black Steel Doors leads on ultra-modern pivot work, SteelR on certification-led residential), security threshold (SteelR is the only one with RC4 as standard plus SR3 and SR4 available on every door), lead time, and whether London-local discovery via a named showroom address matters to the brief.",
+      "A small number of UK steel-door specialists work at the architectural luxury specification tier. They split broadly into four positions: architectural pivot-door specialists (London showroom-led, ultra-modern slim-profile and large-format glazing); engineering-led security manufacturers (forced-entry resistance and thermal performance led, not luxury-branding led); London-local steel-door specialists with named showroom addresses and Maps-led discovery; and UK-wide install-included brands carrying survey, manufacture and install in a single legal entity. SteelR sits in the certification-led residential position: BS EN 1627 RC4 as standard, LPS 1175 SR3 and SR4 available on every door, FD30S fire-rated, Secured by Design approved, fully bespoke, UK-manufactured. The right choice depends on architectural style, security threshold, lead time, and where the buyer is in the UK.",
   },
   {
     question: "How much does a luxury steel front door cost in the UK?",
@@ -194,70 +194,70 @@ export default function LuxurySteelFrontDoorsUkPage() {
             ),
           },
           {
-            pretitle: "The peer set, named honestly",
+            pretitle: "The architectural luxury tier, mapped by position",
             title:
-              "Other UK steel-door specialists at the architectural luxury specification tier",
+              "How UK steel-door specialists at the architectural luxury tier position themselves",
             body: (
               <>
-                Every brand named below is sourced to the live audit
-                captures at the date of writing, not to invented attributes.
-                Each is a credible UK steel-door specialist who works at the
-                third-tier specification level. SteelR is one of the five;
-                where another is the right answer for a specific brief, we
-                say so.
+                The UK steel-door market at the architectural luxury tier is
+                served by a small number of specialists. They split broadly
+                into four positions, plus a heritage-joinery alternative.
+                SteelR sits in the certification-led residential position;
+                the rest of the tier is described by category so the buyer
+                understands the shape of the shortlist they will compile.
               </>
             ),
             body2: (
               <>
-                <strong>SteelR.</strong> BS EN 1627:2011 RC4 single leaf,
-                unglazed certification as standard on every door. LPS 1175
-                SR3 (Enhanced upgrade) and SR4 (Commercial-grade upgrade)
-                available on every door. FD30S fire and smoke rated as
-                standard, FD60 available. Secured by Design approved.
-                Made in Britain certified member, ISO 9001 and ISO 14001
-                manufactured. Survey, manufacture and install handled
-                in-house with nationwide UK mainland coverage and no
-                regional surcharge.
+                <strong>SteelR (certification-led residential).</strong>{" "}
+                BS EN 1627:2011 RC4 single leaf, unglazed certification as
+                standard on every door. LPS 1175 SR3 (Enhanced upgrade) and
+                SR4 (Commercial-grade upgrade) available on every door.
+                FD30S fire and smoke rated as standard, FD60 available.
+                Secured by Design approved. Made in Britain certified
+                member, ISO 9001 and ISO 14001 manufactured. Survey,
+                manufacture and install handled in-house with nationwide UK
+                mainland coverage and no regional surcharge.
                 <br />
                 <br />
-                <strong>Black Steel Doors Ltd.</strong> London-led
-                architectural steel-door specialist with a Wembley showroom
-                and a focus on contemporary slim-profile systems and
-                pivot-door fabrication. Strong choice where the brief is
-                ultra-modern minimalist with large-format glazing.
+                <strong>Architectural pivot-door specialists.</strong>{" "}
+                Showroom-led London makers focused on contemporary
+                slim-profile systems, large-format glazing and pivot
+                fabrication. Strongest fit where the brief is ultra-modern
+                minimalist on a new build or major refurbishment.
                 <br />
                 <br />
-                <strong>Steel Door Solutions Ltd.</strong> Engineering-led
-                manufacturer focused on bespoke fabrication with security
-                and thermal performance as the primary axes. Suited to
-                briefs where the buyer values longevity and custom security
-                specification over the language of luxury branding.
+                <strong>Engineering-led security manufacturers.</strong>{" "}
+                Bespoke fabrication anchored in forced-entry resistance and
+                thermal performance rather than the language of luxury
+                branding. Suits briefs where the buyer values measurable
+                longevity and custom security specification over showroom
+                aesthetic.
                 <br />
                 <br />
-                <strong>Original Steel Doors Limited.</strong> London-based
-                steel-door manufacturer in NW10 Park Royal, covering both
-                classical and contemporary residential briefs. London-local
-                discovery advantage via a named address and Maps presence.
+                <strong>London-local steel-door specialists.</strong>{" "}
+                West-London manufacturers covering both classical and
+                contemporary residential briefs with named showroom
+                addresses and Maps-led discovery. Suits buyers shortlisting
+                via Google Maps and visiting showrooms in person.
                 <br />
                 <br />
-                <strong>Steel Door Company.</strong> UK-wide installer of
-                luxury external steel doors with a published nationwide
-                supply-and-fit service. Strongest fit where the buyer wants
-                a single contact across survey, manufacture and install
-                with broad UK reach.
+                <strong>UK-wide install-included brands.</strong>{" "}
+                Nationwide supply-and-fit services with a single legal
+                entity carrying survey, manufacture and install. Strongest
+                fit where the buyer wants a single contact across the whole
+                process and the property sits outside Greater London.
                 <br />
                 <br />
-                <strong>The Handmade Door Company Limited.</strong> Sourced
-                to ChatGPT-with-Search citation today as &ldquo;Best for
-                heritage/artisan craftsmanship&rdquo;, with a 5.0★ Maps
-                rating. Sits adjacent to the named steel-door peer set
-                rather than within it, because the construction is
+                <strong>Heritage joinery alternative.</strong> Adjacent to
+                the steel-door tier, not within it. Construction is
                 hand-jointed timber with concealed steel reinforcement
-                rather than a steel doorset. Listed because the same buyer
-                shortlist often considers both routes.
+                rather than a steel doorset. Worth knowing about because
+                the same buyer shortlist often considers both routes
+                before committing to material.
                 <br />
                 <br />
-                All six are credible UK options at the upper end of the
+                All five positions are credible at the upper end of the UK
                 residential entrance market. The right choice depends on
                 architectural style, security threshold, lead time, project
                 scale, and where in the UK the buyer is.
@@ -489,39 +489,43 @@ export default function LuxurySteelFrontDoorsUkPage() {
           {
             pretitle: "Honest framing",
             title:
-              "Where another manufacturer may suit a specific brief better",
+              "Where another category of manufacturer may suit a specific brief better",
             body: (
               <>
                 SteelR is not always the right answer. Three briefs where
-                another manufacturer in the named peer set may suit better:
+                another category of UK manufacturer may suit a specific
+                buyer better:
               </>
             ),
             body2: (
               <>
                 <strong>Ultra-modern pivot-led architectural briefs.</strong>{" "}
                 If the brief is large-format pivot doors with concealed
-                hinges, slim-profile glazing bars, and minimalist sightlines
-                on a contemporary new-build, Black Steel Doors specialises
-                in this segment. Their Wembley showroom is set up around
-                this exact aesthetic.
+                hinges, slim-profile glazing bars and minimalist sightlines
+                on a contemporary new-build, an architectural pivot-door
+                specialist with a showroom set up around exactly that
+                aesthetic is likely the better fit. SteelR&apos;s
+                certification-led residential focus is a different design
+                language.
                 <br />
                 <br />
                 <strong>
                   Mid-market premium specifications without RC4 or SR3.
                 </strong>{" "}
                 If the specification is PAS 24 baseline without the RC4 or
-                SR3 upgrade, Modern Doors and Latham&apos;s Steel Security
-                Doors serve that specification well and at a different
-                point in the price-and-spec ladder. SteelR&apos;s standard
-                specification is over-engineered for that brief.
+                SR3 upgrade, mid-market UK steel-door manufacturers serve
+                that specification well at a different point in the spec
+                ladder. SteelR&apos;s standard specification is
+                over-engineered for that brief and the upfront cost will
+                reflect that.
                 <br />
                 <br />
                 <strong>Heritage-craftsmanship led briefs.</strong> If the
                 brief requires hand-jointed timber with steel reinforcement
-                concealed inside, rather than a steel door designed to read
-                as period, The Handmade Door Company is the credible
-                alternative. Their craftsmanship sits in a different
-                category of fabrication.
+                concealed inside, rather than a steel door designed to
+                read as period, a specialist heritage joinery firm is the
+                credible alternative. That construction sits in a
+                different category of fabrication from a steel doorset.
               </>
             ),
           },
