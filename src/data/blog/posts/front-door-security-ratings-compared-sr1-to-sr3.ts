@@ -51,7 +51,7 @@ LPS 1175 SR3 certification requires steel construction. No timber, composite or 
 
 ### LPS 1175 SR4 (D10 Issue 8). Commercial-Grade Power Tools
 
-SR4 (Security Rating 4 under LPS 1175 Issue 8) introduces a broader power-tool catalogue including reciprocating saws, impact drills and bolt cutters. Attack duration extends beyond SR3 against a defined commercial-grade objective. This is the certification used for data centres, bank vaults and high-risk commercial premises. SteelR offers SR4 as the Commercial-grade upgrade tier on every residential door, available where the threat profile or insurer requirement justifies it. (Note: SR ratings belong to LPS 1175; BS EN 1627 uses RC1 to RC6 in a parallel scheme. The two are not equivalent.)
+SR4 (Security Rating 4 under LPS 1175 Issue 8) introduces a broader power-tool catalogue including reciprocating saws, impact drills and bolt cutters. Attack duration extends beyond SR3 against a defined commercial-grade objective. This is the certification used for data centres, bank vaults and high-risk commercial premises. SteelR offers SR4 as the Commercial-grade upgrade tier on every residential door, available where the threat profile or insurer requirement justifies it. (Note: SR ratings belong to LPS 1175; BS EN 1627 uses RC1 to RC6 in a parallel scheme. The two are not equivalent.) For guidance on which tier suits a specific brief, see the [SR3 vs SR4 decision aid](/sr3-vs-sr4-residential-steel-doors-uk).
 
 ### LPS 1175 SR5 to SR8. Government and Critical Infrastructure
 

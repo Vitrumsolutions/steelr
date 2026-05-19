@@ -117,7 +117,7 @@ A quality fibreglass entrance door from a reputable UK manufacturer typically co
 
 Bespoke steel entrance doors are a premium product. SteelR's pricing starts higher than fibreglass, reflecting the **SR3 security rating, ISO 9001 certified UK manufacturing, bespoke design process** and professional structural installation. For homeowners in [London](/areas/london), [Surrey](/areas/surrey) and [Hampshire](/areas/hampshire) who view the entrance door as a long-term investment in security and design, the price reflects the specification.
 
-When comparing cost, the lifecycle perspective is important. A steel door lasting 40 to 50 years may cost less per year of service than a fibreglass door replaced every 20 years. The security and design advantages accrue throughout the life of the product.
+When comparing cost, the lifecycle perspective is important. A steel door lasting 40 to 50 years may cost less per year of service than a fibreglass door replaced every 20 years. The security and design advantages accrue throughout the life of the product. For a full breakdown of what moves the number on a SteelR specification, see our [steel front door cost guide](/steel-front-door-cost-uk).
 
 ## When Each Material Makes Sense
 

@@ -201,6 +201,8 @@ At the luxury tier, specifying one well returns value every day for 25 years. Sp
 
 The difference is rarely the budget. It is the specification. Take the survey, write the spec, commission the right material, choose the hardware individually and insist on an in-house install team. Everything else is detail.
 
+For the steel-manufacturer shortlist at this tier, see [luxury steel front doors UK](/luxury-steel-front-doors-uk). London-specific borough coverage and conservation context lives on [luxury steel entrance doors London](/luxury-steel-entrance-door-london).
+
 ---
 
 SteelR manufactures bespoke steel entrance doors at the UK luxury tier. PAS 24 certified, BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, with LPS 1175 SR3 (LPCB police-preferred Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673 attack-resistance (Ultra-high, by enquiry) available on every door. Secured by Design approved, FD30S fire rated, UK manufactured, installed nationwide. Consultations are no-obligation. Visit [steelr.co.uk/design-estimate](/design-estimate) to book a site survey.

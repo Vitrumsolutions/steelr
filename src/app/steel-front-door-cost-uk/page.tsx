@@ -305,6 +305,11 @@ export default function CostPage() {
               description: "Upfront cost vs total cost of ownership, honest comparison.",
             },
             {
+              href: "/uk-steel-doors-vs-imported",
+              label: "UK-manufactured vs imported steel doors",
+              description: "Where the price difference comes from once shipping, certification and warranty support are added back in.",
+            },
+            {
               href: "/architects",
               label: "For architects and specifiers",
               description: "How a SteelR door is priced into a Performance Specification, with NBS clauses and certification packs included in the supply.",

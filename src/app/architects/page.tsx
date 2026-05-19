@@ -317,6 +317,12 @@ export default function ArchitectsPage() {
                 "PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 and LPS 1673 set out side by side with the certification thresholds architects need for the spec.",
             },
             {
+              href: "/bs-en-1627-rc4-residential-steel-door",
+              label: "BS EN 1627 RC4 residential steel door",
+              description:
+                "The European forced-entry-resistance framework that sits as the SteelR Standard tier. The default specification reference for Performance Specifications above PAS 24.",
+            },
+            {
               href: "/sr3-residential-steel-door",
               label: "LPS 1175 SR3 Enhanced upgrade",
               description:
@@ -327,6 +333,12 @@ export default function ArchitectsPage() {
               label: "LPS 1175 SR4 Commercial-grade upgrade",
               description:
                 "The certification used for data centres, embassies and bank vaults. Available on residential specification for high-net-worth or threat-assessed projects.",
+            },
+            {
+              href: "/sr3-vs-sr4-residential-steel-doors-uk",
+              label: "SR3 vs SR4: which tier to specify",
+              description:
+                "The decision aid for architects choosing between the Enhanced and Commercial-grade upgrade tiers on a specific brief, with threat-assessment guidance.",
             },
             {
               href: "/thermally-broken-steel-front-door",

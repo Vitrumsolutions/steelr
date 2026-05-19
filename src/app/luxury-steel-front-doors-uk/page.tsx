@@ -594,6 +594,12 @@ export default function LuxurySteelFrontDoorsUkPage() {
           title: "Related reading",
           links: [
             {
+              href: "/bespoke-steel-front-doors-uk",
+              label: "Bespoke steel front doors UK",
+              description:
+                "The full SteelR specification model: how a luxury door is designed, manufactured and installed end to end.",
+            },
+            {
               href: "/sr3-residential-steel-door",
               label: "SR3 residential steel doors",
               description:

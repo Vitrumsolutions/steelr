@@ -61,6 +61,8 @@ If your property does not fit any of those categories, the LPS 1175 SR3 Enhanced
 
 ## SR3 vs SR4, The Actual Difference
 
+For the side-by-side specification page, see [SR4 residential steel door](/sr4-residential-steel-door) for the spec sheet and the [SR3 vs SR4 decision aid](/sr3-vs-sr4-residential-steel-doors-uk) for the tier-choice walk-through.
+
 At the risk of oversimplifying, the difference between SR3 and SR4 comes down to three variables.
 
 **Attack duration.** LPS 1175 SR3 (Issue 8) tests resistance to a five-minute sustained attack against a defined objective using the Issue 8 power-tool catalogue. LPS 1175 SR4 (D10 Issue 8) extends this duration, with the specific time varying depending on the tool category the attacker is using. (Note: LPS 1175 and BS EN 1627 are parallel schemes operating different test methodologies; SteelR Standard is BS EN 1627:2011 RC4, with LPS 1175 SR3 Enhanced and SR4 Commercial-grade upgrades available.)

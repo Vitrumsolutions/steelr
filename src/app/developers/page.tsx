@@ -304,6 +304,18 @@ export default function DevelopersPage() {
                 "LPCB police-preferred specification for higher-risk plots within a development. Available on every SteelR door above the BS EN 1627 RC4 Standard.",
             },
             {
+              href: "/bs-en-1627-rc4-residential-steel-door",
+              label: "BS EN 1627 RC4 residential steel door",
+              description:
+                "The European Standard tier on every SteelR door. The procurement reference architects increasingly write into Performance Specifications above PAS 24.",
+            },
+            {
+              href: "/thermally-broken-steel-front-door",
+              label: "Thermally broken steel front door",
+              description:
+                "Part L 2025 thermal performance: how the SteelR thermal break achieves the U-values needed on new-build entrance doors without cold-bridging.",
+            },
+            {
               href: "/housing-associations",
               label: "Steel front doors for housing associations",
               description:
