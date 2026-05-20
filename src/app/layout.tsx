@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Montserrat, Tenor_Sans } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import TelClickTracker from "@/components/TelClickTracker";
+import DeferredAnalytics from "@/components/DeferredAnalytics";
 import { getAggregateRatingSchema } from "@/data/reviews";
 
 const cormorant = Cormorant_Garamond({
@@ -291,8 +290,7 @@ export default function RootLayout({
         <Nav />
         <main id="main-content" tabIndex={-1}>{children}</main>
         <Footer />
-        <Analytics />
-        <SpeedInsights />
+        <DeferredAnalytics />
         <GoogleAnalytics />
         <TelClickTracker />
       </body>
