@@ -268,6 +268,90 @@ a:active {
 
 /* (Reduced-motion block consolidated above at globals.css:136-145 — canonical M5 fix from deep-audit 2026-05-09. Duplicate removed 2026-05-11 per perfection-audit P11.) */
 
+/* Nav theming
+ *
+ * The nav bar's appearance flips between two states:
+ *   - default (no body data-attr) — transparent bar, light text, used over the
+ *     hero on the homepage.
+ *   - scrolled (body[data-scrolled]) — cream blurred bar, dark text, used on
+ *     every non-homepage and on the homepage once the hero scrolls out of view.
+ *
+ * Owning the toggle in CSS rather than React state lets the entire nav render
+ * as Server Component HTML. The only JS needed is the tiny NavScrollState
+ * component that watches the hero and writes the data-attr.
+ */
+.nav-bar {
+  background: transparent;
+  backdrop-filter: none;
+  border-bottom: 1px solid transparent;
+  transition: background 300ms ease-in-out, backdrop-filter 300ms ease-in-out,
+    border-color 300ms ease-in-out;
+}
+body[data-scrolled] .nav-bar {
+  background: rgba(245, 240, 232, 0.97);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(201, 169, 110, 0.15);
+}
+
+.nav-bar-wordmark {
+  color: #f5f0e8;
+  transition: color 300ms ease;
+}
+body[data-scrolled] .nav-bar-wordmark {
+  color: #1a1a18;
+}
+
+.nav-bar-tagline {
+  color: rgba(201, 169, 110, 0.7);
+  transition: color 300ms ease;
+}
+body[data-scrolled] .nav-bar-tagline {
+  color: #8a6f4e;
+}
+
+.nav-bar-link {
+  color: rgba(245, 240, 232, 0.95);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  transition: color 300ms ease, text-shadow 300ms ease;
+}
+body[data-scrolled] .nav-bar-link {
+  color: rgba(26, 26, 24, 0.78);
+  text-shadow: none;
+}
+.nav-bar-link:hover {
+  color: #c9a96e;
+}
+
+.nav-bar-phone {
+  color: rgba(245, 240, 232, 1);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  transition: color 300ms ease, text-shadow 300ms ease;
+}
+body[data-scrolled] .nav-bar-phone {
+  color: rgba(26, 26, 24, 0.78);
+  text-shadow: none;
+}
+
+.nav-bar-hamburger-bar {
+  background: #f5f0e8;
+  transition: background 300ms ease;
+}
+body[data-scrolled] .nav-bar-hamburger-bar {
+  background: #1a1a18;
+}
+
+/* When the mobile menu is open the nav bar must let taps fall through to the
+ * full-screen overlay underneath (otherwise the bar's vertical band
+ * intercepts taps on the first menu items). The hamburger itself opts back
+ * in so the user can still close the menu.
+ */
+body[data-menu-open] .nav-bar {
+  pointer-events: none;
+}
+body[data-menu-open] .nav-bar-hamburger {
+  pointer-events: auto;
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;

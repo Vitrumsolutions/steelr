@@ -281,6 +281,7 @@ export default function RootLayout({
         />
       </head>
       <body
+        data-scrolled
         className={`${cormorant.variable} ${montserrat.variable} ${tenorSans.variable} antialiased`}
       >
         <a href="#main-content" className="skip-to-main">
