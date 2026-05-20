@@ -3,7 +3,7 @@ import Link from "next/link";
 import Hero from "@/components/Hero";
 import ContactForm from "@/components/ContactForm";
 import ScrollReveal from "@/components/ScrollReveal";
-import HorizontalGallery from "@/components/HorizontalGallery";
+import HorizontalGallery from "@/components/HorizontalGalleryLazy";
 import ParallaxSection from "@/components/ParallaxSection";
 import { CredentialsStrip, CertificationCallout } from "@/components/CredentialsBanner";
 
