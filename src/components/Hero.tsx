@@ -46,12 +46,27 @@ const LOGO_FADE_IN_START = 8000;
 // would otherwise keep firing as long as the page stays open.
 const ROTATION_STOP_AFTER = 60000;
 
+// Delay before the Ken Burns zoom + carousel rotation kicks in. The first
+// paint shows a static hero image, then animations engage. This frees the
+// browser to prioritise LCP image decode without compositor work running on
+// the same element. 150ms is below the threshold of perception for a slow
+// 12-second zoom and well under the typical FCP window.
+const ANIMATION_START_DELAY = 150;
+
 export default function Hero() {
   const [current, setCurrent] = useState(0);
   const [previous, setPrevious] = useState<number | null>(null);
   const [showLogo, setShowLogo] = useState(false);
   const [rotationActive, setRotationActive] = useState(true);
   const [userPaused, setUserPaused] = useState(false);
+  // Animations (Ken Burns zoom + carousel rotation timer + logo fade) only
+  // engage after first paint. See ANIMATION_START_DELAY rationale above.
+  const [animationsActive, setAnimationsActive] = useState(false);
+
+  useEffect(() => {
+    const t = setTimeout(() => setAnimationsActive(true), ANIMATION_START_DELAY);
+    return () => clearTimeout(t);
+  }, []);
 
   // One-shot stop timer. Flips rotationActive false after ROTATION_STOP_AFTER,
   // which causes the rotation effect below to bail and stop creating new
@@ -65,7 +80,7 @@ export default function Hero() {
   }, []);
 
   useEffect(() => {
-    if (!rotationActive || userPaused) return;
+    if (!animationsActive || !rotationActive || userPaused) return;
 
     const timer = setInterval(() => {
       setPrevious(current);
@@ -81,7 +96,7 @@ export default function Hero() {
       clearInterval(timer);
       clearTimeout(logoTimer);
     };
-  }, [current, rotationActive, userPaused]);
+  }, [current, rotationActive, userPaused, animationsActive]);
 
   useEffect(() => {
     if (previous === null) return;
@@ -115,9 +130,10 @@ export default function Hero() {
               style={{
                 objectPosition: img.objectPos,
                 transformOrigin: img.zoomOrigin,
-                animation: isVisible
-                  ? "kenburns 12s ease-out forwards"
-                  : "none",
+                animation:
+                  isVisible && animationsActive
+                    ? "kenburns 12s ease-out forwards"
+                    : "none",
                 transform: isVisible ? undefined : "scale(1)",
               }}
               priority={i === 0}

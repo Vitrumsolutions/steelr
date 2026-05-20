@@ -1,5 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Prefer AVIF over WebP for image responses. AVIF averages 30-50% smaller
+  // than WebP at the same visual quality. Supported by Chrome 85+, Safari 16+,
+  // Firefox 93+. Browsers without AVIF support fall back to WebP automatically.
+  // The hero LCP image (~537 KB at the time of the perf-recovery work)
+  // measurably benefits from this for mobile LCP.
+  images: {
+    formats: ["image/avif", "image/webp"],
+  },
   async redirects() {
     return [
       // Canonical: www -> non-www as 308 Permanent (better link equity than Vercel's default 307)
