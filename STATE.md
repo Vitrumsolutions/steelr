@@ -9,20 +9,34 @@
 
 Mobile-perf recovery session executed against `docs/superpowers/specs/2026-05-19-mobile-perf-recovery.md`. Phase 1-3 of the playbook landed and live-measured with meaningful improvement on every metric. A Phase 5 corrective attempt (Fix A + B) was applied and reverted within the session after measurement showed regression on a wrong-target fix. Follow-up spec committed at `docs/superpowers/specs/2026-05-20-mobile-perf-followup.md` with corrected diagnosis (LCP candidate is text, not image).
 
-### Live mobile Lighthouse, median of 3 runs against the post-Phase-3 deploy
+### Live mobile Lighthouse, two measurement passes against the live deploy
 
-| Metric | Pre-fix (19 May) | Post Phase 1-3 (20 May, median) | Delta |
+**First pass (3 runs, immediately after Phase 1-3 deploy)** — `.checks/lighthouse-mobile-live-postfix*.json`:
+
+| Metric | Pre-fix (19 May) | Phase 1-3 median (3 runs) | Delta |
 |---|---|---|---|
-| Performance | 44 | **53** (range 49-72) | **+9** |
-| FCP | 4.19s | **2.15s** | **-2.04s** |
-| LCP | 5.65s | **4.49s** | **-1.16s** |
-| TBT | 1,286ms | **732ms** | **-554ms** |
+| Performance | 44 | 53 (range 49-72) | +9 |
+| FCP | 4.19s | 2.15s | -2.04s |
+| LCP | 5.65s | 4.49s | -1.16s |
+| TBT | 1,286ms | 732ms | -554ms |
+| CLS | 0 | 0 | 0 |
+
+**Second pass (5 runs, end-of-session deep-checks close-out)** — `.checks/lighthouse-mobile-final-r1.json` through `-r5.json`:
+
+| Metric | Pre-fix (19 May) | Phase 1-3 median (5 runs, close-out) | Delta |
+|---|---|---|---|
+| Performance | 44 | **59** (range 43-79) | **+15** |
+| FCP | 4.19s | **2.09s** | **-2.10s** |
+| LCP | 5.65s | **5.24s** | -0.41s |
+| TBT | 1,286ms | **494ms** | **-792ms** |
 | CLS | 0 | 0 | 0 |
 | Accessibility | 100 | 100 | 0 |
 | Best Practices | 100 | 100 | 0 |
 | SEO | 92 | 100 | +8 |
 
-Pre-fix baseline JSON: `.checks/lighthouse-mobile-home.json`. Post-fix median across 3 runs: `.checks/lighthouse-mobile-live-postfix.json`, `-r2.json`, `-r3.json`. Phase 1+2 intermediate (local): `.checks/lighthouse-mobile-home-phase2.json`.
+Two passes corroborate the direction. Lab Lighthouse against Vercel has wide single-run variance (Perf range 43-79 with no code change between runs); median across 5 is the more reliable signal. TBT improvement is the strongest signal — -554ms (3-run) and -792ms (5-run) both well outside variance band. LCP variance (3.29s to 6.04s individual values) overlaps significantly with the pre-fix baseline; median improvement is real but smaller than originally thought.
+
+Pre-fix baseline JSON: `.checks/lighthouse-mobile-home.json`. Phase 1+2 intermediate (local): `.checks/lighthouse-mobile-home-phase2.json`.
 
 The acceptance criteria in the original spec (Perf ≥80, LCP ≤2.5s, TBT ≤200ms, FCP ≤1.8s) were NOT hit. The targets were aspirational. The spec's "Vitrums precedent recovered to Perf ~80" claim is unsubstantiated — Vitrums' last documented mobile Lighthouse is Perf 55 (vitrums/CLAUDE.md:50). SteelR has now overtaken Vitrums' best documented mobile score on every metric.
 
@@ -97,6 +111,7 @@ Procedure: `/clear`, open fresh session, say *"Read docs/superpowers/specs/2026-
 - **ChatGPT Free-tier throttles** after 2-7 queries per session.
 - **Google AI Mode reCAPTCHA-blocked from sandbox.**
 - **0 Google reviews.** Maps 3-pack blocker. User-managed.
+- **/collection page A11y at 91 (not 100).** Discovered during close-out deep-checks (`.checks/lighthouse-mobile-collection.json`). Three pre-existing failures unrelated to this session's Nav split: color-contrast on `main#main-content > div.sticky > div.flex > button.relative` (filter/sort buttons) and on `div.max-w-7xl > div.flex > div.flex > a` (pagination links); heading-order on `footer.bg-site-black > div.max-w-6xl > div.flex > h3` (footer h3 skipping levels); target-size on the same pagination links. None of these selectors are touched by this session's commits. Tracked as a separate backlog item for a future a11y session, NOT a regression.
 
 ---
 
@@ -133,6 +148,8 @@ Procedure: `/clear`, open fresh session, say *"Read docs/superpowers/specs/2026-
 - `.checks/lighthouse-mobile-live-postfix-r3.json` — run 3
 - `.checks/lighthouse-mobile-live-phase5-r1.json` through `-r8.json` — 8-run measurement of the reverted Fix A+B attempt (preserved for the followup session to diagnose whether the regression was Fix B or variance)
 - `.checks/lighthouse-mobile-home-phase2.json` — Phase 1+2 intermediate local Lighthouse
+- `.checks/lighthouse-mobile-final-r1.json` through `-r5.json` — close-out 5-run live Lighthouse on `/` (median Perf 59, TBT 494ms)
+- `.checks/lighthouse-mobile-collection.json` — close-out single run on `/collection` (surfaced 3 pre-existing A11y failures)
 - `src/components/NavScrollState.tsx` — client IntersectionObserver toggling body[data-scrolled]
 - `src/components/NavMobileMenu.tsx` — client hamburger + overlay + focus trap
 - `src/components/HorizontalGalleryLazy.tsx` — next/dynamic ssr:false wrapper
