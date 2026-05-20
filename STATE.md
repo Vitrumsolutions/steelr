@@ -7,7 +7,15 @@
 
 ## Where I left off
 
-Mobile-perf recovery session executed against `docs/superpowers/specs/2026-05-19-mobile-perf-recovery.md`. Phase 1-3 of the playbook landed and live-measured with meaningful improvement on every metric. A Phase 5 corrective attempt (Fix A + B) was applied and reverted within the session after measurement showed regression on a wrong-target fix. Follow-up spec committed at `docs/superpowers/specs/2026-05-20-mobile-perf-followup.md` with corrected diagnosis (LCP candidate is text, not image).
+Mobile-perf recovery session executed against `docs/superpowers/specs/2026-05-19-mobile-perf-recovery.md` AND the same-day followup spec `docs/superpowers/specs/2026-05-20-mobile-perf-followup.md`.
+
+**Live result after the full session (Phase 1-3 + followup Phase 3 cache headers):** Perf 59 median 5-run (range 43-79), FCP 2.09s, LCP 5.24s, TBT 494ms, CLS 0. Versus pre-fix baseline of 44/4.19/5.65/1286: +15 Perf, −2.10s FCP, −0.41s LCP, **−792ms TBT** (TBT is the strongest signal). The aspirational ≥80 Perf / ≤2.5s LCP / ≤200ms TBT targets were NOT hit; they were not grounded in the Vitrums precedent the spec cited (Vitrums' last documented mobile Perf is 55).
+
+**Two reverts this session.** Both caught by measurement before they could ship without proof:
+- Commit `86d3f2a` (fetchPriority on hero image) — reverted by `16f5f51` after agent investigation revealed the LCP candidate is text not image; image-priority fix was the wrong lever.
+- Commit `2959aca` (defer Vercel analytics via next/dynamic) — reverted by `8e68ccd` after 5-run live Lighthouse showed TBT regressed by 846ms median. The dynamic-import shifts the analytics work into the TBT window after hydration rather than avoiding it; the 26 KB unused-JS reduction it achieved did not translate to a TBT win.
+
+**One followup-spec phase shipped clean:** commit `a6d0748` adds Cache-Control: max-age=31536000, immutable for /images/, /brand/, and 1-week for favicons. Zero lab Lighthouse impact (headers don't affect first-load) but improves CrUX repeat-visit metrics, which is what Google actually ranks on.
 
 ### Live mobile Lighthouse, two measurement passes against the live deploy
 
@@ -40,14 +48,19 @@ Pre-fix baseline JSON: `.checks/lighthouse-mobile-home.json`. Phase 1+2 intermed
 
 The acceptance criteria in the original spec (Perf ≥80, LCP ≤2.5s, TBT ≤200ms, FCP ≤1.8s) were NOT hit. The targets were aspirational. The spec's "Vitrums precedent recovered to Perf ~80" claim is unsubstantiated — Vitrums' last documented mobile Lighthouse is Perf 55 (vitrums/CLAUDE.md:50). SteelR has now overtaken Vitrums' best documented mobile score on every metric.
 
-### Today's shipped commits (5 effective, latest first)
+### Today's shipped commits (latest first)
 
+- `8e68ccd` Revert "perf(layout): defer @vercel/analytics + @vercel/speed-insights via next/dynamic" *(reverted because TBT regressed 846ms median)*
+- `a6d0748` perf(headers): long-cache /images/, /brand/, favicons (Vitrums pattern) *(live, CrUX-positive)*
+- `2959aca` perf(layout): defer @vercel/analytics + @vercel/speed-insights via next/dynamic *(REVERTED)*
+- `4b2189d` docs(state): close-out deep checks (5-run median + /collection backlog)
+- `16ed595` docs(state): update STATE.md with mobile-perf session handoff
 - `c63655c` docs(perf): follow-up spec for the residual mobile-perf gap
 - `16f5f51` Revert "perf(hero): fetchPriority=high on first image + drop mobile animations"
 - `86d3f2a` perf(hero): fetchPriority=high on first image + drop mobile animations *(REVERTED — wrong target)*
-- `9afb65c` perf(hero): defer Ken Burns until after first paint + AVIF format
-- `b1d71e5` perf(nav): split Nav into Server Component + thin client children
-- `cab209c` perf: defer framer-motion off homepage initial JS chunk
+- `9afb65c` perf(hero): defer Ken Burns until after first paint + AVIF format *(live)*
+- `b1d71e5` perf(nav): split Nav into Server Component + thin client children *(live)*
+- `cab209c` perf: defer framer-motion off homepage initial JS chunk *(live)*
 
 ### What landed and is live (Phases 1-3)
 
@@ -71,13 +84,9 @@ Post-revert finding: Next.js 14.2's Image component auto-emits `fetchPriority="h
 
 ## Next action
 
-**P0 — Pick up follow-up perf spec.** `docs/superpowers/specs/2026-05-20-mobile-perf-followup.md` is ready for a fresh session. Three evidence-cited fixes:
+**P0 — Mobile-perf work is paused, not resolved.** Phase 1 (font preload) skipped because next/font already preloads. Phase 2 (defer Vercel analytics) attempted and reverted — dynamic-import shifted analytics work INTO the TBT window instead of avoiding it. Phase 3 (cache headers) shipped clean. The followup spec's hypothesis on what would close the remaining gap is now partially invalidated by measurement. Next perf session needs a fresh diagnosis pass, NOT a pick-up of the same spec. Likely candidates worth investigating: (a) what actually does the 800ms of TBT work, since Vercel analytics is not it; (b) is the LCP-is-text finding still accurate after the Phase 2 revert, or did the LCP candidate change.
 
-1. Preload Cormorant Garamond display font (LCP -300 to -800ms — directly attacks the elementRenderDelay of 1,545ms median on the hero H2).
-2. Defer `@vercel/analytics` + `@vercel/speed-insights` via next/dynamic (TBT -100 to -200ms; 93 KB unused-JS savings).
-3. Add `Cache-Control: max-age=31536000, immutable` for /images/ in next.config.mjs (Vitrums pattern; helps repeat-visit CrUX which is what Google ranks on).
-
-Procedure: `/clear`, open fresh session, say *"Read docs/superpowers/specs/2026-05-20-mobile-perf-followup.md. Then start phase 1. Stop for my sign-off at each phase boundary."*
+**P0 — Confirm `generate_lead` GA4 event fires (user-side, 90 seconds).** Fill `/design-estimate` form, submit, verify event in GA4 Real-Time. Mark as Key Event. Unblocks downstream conversion measurement. (Carry-over from yesterday.)
 
 **P0 — Confirm `generate_lead` GA4 event fires (user-side, 90 seconds).** Fill `/design-estimate` form, submit, verify event in GA4 Real-Time. Mark as Key Event. Unblocks downstream conversion measurement. (Carry-over from yesterday.)
 
@@ -123,8 +132,9 @@ Procedure: `/clear`, open fresh session, say *"Read docs/superpowers/specs/2026-
 - **Nav now ships as Server Component HTML on every page.** body[data-scrolled] CSS-driven theme flip. Mobile menu owns its own client state.
 - **Hero animations defer to first paint + 150ms.** Crossfade and Ken Burns preserved exactly, just don't start on the LCP path.
 - **AVIF added** to `next.config.mjs` images.formats. Confirmed live serving AVIF for hero variants.
-- **Wrong-target fix caught by measurement and reverted within session.** Phase 5 (`86d3f2a`) was reverted by `16f5f51` after 8-run live Lighthouse showed regression. Prevented shipping a regression to production.
-- **Follow-up spec written** with corrected LCP-is-text diagnosis and three concrete evidence-cited fixes for the next session.
+- **Long-cache headers for /images/, /brand/, favicons** (commit `a6d0748`). Vitrums pattern. Helps CrUX repeat-visit metrics, no lab downside.
+- **Two wrong-target fixes caught by measurement and reverted within session.** Phase 5 fetchPriority (`86d3f2a`) reverted because LCP is text not image. Followup Phase 2 Vercel-analytics defer (`2959aca`) reverted because TBT regressed 846ms median. Both regressions prevented from shipping by lab Lighthouse + revert discipline.
+- **Follow-up spec written, partially executed, partially invalidated.** Phase 1 skipped (premise wrong). Phase 2 reverted. Phase 3 shipped. The spec's hypothesis on the remaining bottleneck needs revision before another perf session.
 - **Process correction logged** at `feedback_check-recheck-report.md` (repeat_count 3 → 4). Hardening rule: when measurement misses a target, agents-first, recommendation-second.
 
 ---
@@ -142,7 +152,8 @@ Procedure: `/clear`, open fresh session, say *"Read docs/superpowers/specs/2026-
 
 ### New today
 
-- `docs/superpowers/specs/2026-05-20-mobile-perf-followup.md` — follow-up spec for residual mobile-perf gap
+- `docs/superpowers/specs/2026-05-20-mobile-perf-followup.md` — follow-up spec (Phase 1 skipped, Phase 2 reverted, Phase 3 shipped — spec partially invalidated)
+- `.checks/lighthouse-mobile-followup-r1.json` through `-r5.json` — 5-run live Lighthouse on the reverted Phase 2 + Phase 3 combination. Median Perf 54, TBT 1340ms — the data that triggered the Phase 2 revert.
 - `.checks/lighthouse-mobile-live-postfix.json` — post-Phase-1-3 live Lighthouse run 1
 - `.checks/lighthouse-mobile-live-postfix-r2.json` — run 2
 - `.checks/lighthouse-mobile-live-postfix-r3.json` — run 3
