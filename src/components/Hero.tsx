@@ -137,6 +137,7 @@ export default function Hero() {
                 transform: isVisible ? undefined : "scale(1)",
               }}
               priority={i === 0}
+              fetchPriority={i === 0 ? "high" : "auto"}
               loading={i === 0 ? "eager" : "lazy"}
               sizes="100vw"
             />
