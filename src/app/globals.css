@@ -144,26 +144,6 @@ textarea:focus:not(:focus-visible) {
   }
 }
 
-/* Mobile main-thread budget. On viewports below the lg breakpoint we drop
- * three continuous CSS animations to free the main thread for LCP painting:
- *   - Hero Ken Burns image zoom (per-image)
- *   - Hero scroll-line indicator (infinite vertical pulse)
- *   - Skeleton shimmer (infinite gradient pulse)
- * The carousel still rotates (JS-driven), crossfades still play, and the
- * hero image still shows. The static-zoom-free read is brand-acceptable on
- * mobile and Vitrums applies the same rule on its hero. Desktop is
- * unchanged. Mirrors the perf-recovery spec's "premium feel preserved" rule.
- */
-@media (max-width: 1023px) {
-  #hero img {
-    animation: none !important;
-  }
-  #hero [style*="scrollLine"],
-  .skeleton-shimmer {
-    animation: none !important;
-  }
-}
-
 /* Gold ribbon background effect — subtle diagonal bands */
 .ribbon-bg {
   position: relative;
