@@ -101,6 +101,35 @@ const nextConfig = {
       },
     ];
   },
+  async headers() {
+    // Long-cache static binary assets so repeat visitors skip the re-download
+    // and Vercel image-optimisation endpoint round-trip. Files in
+    // /public/images/ are content-addressed by filename — when image content
+    // changes the filename changes, so 1-year immutable is safe. Favicons
+    // cached 1 week (occasionally rotated). Mirrors the vitrums pattern.
+    //
+    // Repeat-visit benefit is the larger win here: CrUX field metrics (which
+    // Google actually ranks on) improve materially when image bytes are cached
+    // across navigation.
+    return [
+      {
+        source: "/images/:path*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
+        source: "/brand/:path*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
+        source: "/favicon-:size.png",
+        headers: [{ key: "Cache-Control", value: "public, max-age=604800" }],
+      },
+      {
+        source: "/apple-touch-icon.png",
+        headers: [{ key: "Cache-Control", value: "public, max-age=604800" }],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
