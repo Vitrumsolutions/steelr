@@ -1,11 +1,15 @@
 # SteelR — STATE
 
-**Last updated:** 2026-05-20 (commits `cab209c` → `c63655c`)
+**Last updated:** 2026-05-21 (commits `28a292e` → `b0d0838`)
 **Priority:** P0
 
 ---
 
 ## Where I left off
+
+**Spec B (conservation-area FAQ migration) shipped 21 May 2026** — commits `28a292e` / `c01baeb` / `b0d0838`, pushed to main and verified live. Closes the 19 May panel-llms HIGH finding. See "Recent wins (21 May)" below.
+
+### Prior session — mobile-perf
 
 Mobile-perf recovery session executed against `docs/superpowers/specs/2026-05-19-mobile-perf-recovery.md` AND the same-day followup spec `docs/superpowers/specs/2026-05-20-mobile-perf-followup.md`.
 
@@ -92,7 +96,7 @@ Post-revert finding: Next.js 14.2's Image component auto-emits `fetchPriority="h
 
 **P1 — Re-measure live mobile Lighthouse after the homepage edge cache flushes.** As of session close Vercel edge was holding a 17-min-old cached HTML of `/` despite multiple deploys. The fresh post-revert HTML and CSS were live on `/contact` and other routes. Edge cache for `/` may need overnight to flush.
 
-**P1 — Pick up Spec B (conservation FAQ migration), then Spec C (llms restructure).** Both still pre-loaded from yesterday. Spec B is cheap (~1 hr), closes a panel-llms HIGH finding.
+**P1 — Pick up Spec C (llms topic-restructure).** Spec B (conservation FAQ migration) shipped 21 May 2026 — see Recent wins. Spec C still pre-loaded at `docs/superpowers/specs/2026-05-19-llms-topic-restructure.md`; 2-3 hrs, 4 panel-gated commits, touches the highest-risk surface (llms-full.txt topic-hub entries).
 
 **P1 — Re-measure AI citation on 2026-06-02.** Re-pull the 12 default panel-llms queries. Carry-over from yesterday.
 
@@ -123,6 +127,13 @@ Post-revert finding: Next.js 14.2's Image component auto-emits `fetchPriority="h
 - **/collection page A11y at 91 (not 100).** Discovered during close-out deep-checks (`.checks/lighthouse-mobile-collection.json`). Three pre-existing failures unrelated to this session's Nav split: color-contrast on `main#main-content > div.sticky > div.flex > button.relative` (filter/sort buttons) and on `div.max-w-7xl > div.flex > div.flex > a` (pagination links); heading-order on `footer.bg-site-black > div.max-w-6xl > div.flex > h3` (footer h3 skipping levels); target-size on the same pagination links. None of these selectors are touched by this session's commits. Tracked as a separate backlog item for a future a11y session, NOT a regression.
 
 ---
+
+## Recent wins (this session, 21 May 2026)
+
+- **Spec B shipped — conservation-area FAQ migration.** 3 commits pushed to main (`28a292e` migrate, `c01baeb` reorder, `b0d0838` llms backfill). The `/blog/steel-doors-conservation-areas-planning-guide` FAQ section went 6 to 8 questions: 4 source FAQs merged with existing near-duplicates, 2 net-new appended (Article 4 enforcement, heritage thermal/security performance). Restores the citation-grade content the 19 May panel-llms HIGH finding flagged as lost when `conservation-area-door-requirements-uk` was 308-redirected.
+- **FAQ reorder so all 4 panel hooks land in the llms-full.txt excerpt.** The Blog Excerpts extractor caps at 5 FAQs; reordered so the first 5 carry permitted-development, enforcement, pre-application timing and RAL-palette-by-period.
+- **Caught and fixed a heritage-hub contradiction.** Q3's original "Listed Building Consent also required" implied both consent routes apply; reworded to align with the heritage hub's "LBC alone is sufficient" position.
+- **Full verification.** fact-check-gate, copy-editor, seo-schema-validator, build, lint, validate-faqs, brand-guard all PASS. `/panel-llms` 4-agent gate APPROVE (marker `.checks/llms-panel.json`). Verified live: llms-full.txt excerpt shows the 5 intended FAQs in order; blog page renders all 8 with FAQPage JSON-LD (each question present twice — rendered HTML + schema).
 
 ## Recent wins (this session, 20 May 2026)
 
@@ -209,6 +220,10 @@ Same procedure for Spec B (conservation FAQ migration) or Spec C (llms restructu
 ---
 
 ## Memory feedback files added this session
+
+- `feedback_check-recheck-report.md` repeat_count 4 → 5 (21 May). Pattern: an approval-gate / sign-off report must close with a verification ledger — every check, every agent, every verdict — so the user can approve from the report alone, never needing to ask "is everything checked?"
+
+## Memory feedback files added 20 May
 
 - `feedback_check-recheck-report.md` repeat_count 3 → 4. Pattern: after a measurement misses a target, the first response must be agent dispatch on the measurement data + precedent comparison, NOT a tagged recommendation. The repeat IS the lesson.
 
