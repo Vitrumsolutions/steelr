@@ -1,11 +1,13 @@
 # SteelR — STATE
 
-**Last updated:** 2026-05-21 (commits `28a292e` → `b0d0838`)
+**Last updated:** 2026-05-21 (commits `28a292e` → `e5c50de`)
 **Priority:** P0
 
 ---
 
 ## Where I left off
+
+**Spec C (llms-full.txt topic-restructure) shipped 21 May 2026** — 5 commits (`0ead4cf` security ladder, `a632247` regulatory, `7ccbaff` spec word-count fix, `2c2a192` category+comparison, `e5c50de` category language), pushed to main and verified live. 64 Q&A pairs added across all 16 topic-hub entries in `public/llms-full.txt` (15 existing + 1 net-new `/sr3-vs-sr4` entry), each a verbatim lift from the parent page's FAQPage JSON-LD. All 4 commits panel-llms-gated and user-signed-off at each boundary. See "Recent wins (21 May — Spec C)" below.
 
 **Spec B (conservation-area FAQ migration) shipped 21 May 2026** — commits `28a292e` / `c01baeb` / `b0d0838`, pushed to main and verified live. Closes the 19 May panel-llms HIGH finding. See "Recent wins (21 May)" below.
 
@@ -96,9 +98,7 @@ Post-revert finding: Next.js 14.2's Image component auto-emits `fetchPriority="h
 
 **P1 — Re-measure live mobile Lighthouse after the homepage edge cache flushes.** As of session close Vercel edge was holding a 17-min-old cached HTML of `/` despite multiple deploys. The fresh post-revert HTML and CSS were live on `/contact` and other routes. Edge cache for `/` may need overnight to flush.
 
-**P1 — Pick up Spec C (llms topic-restructure).** Spec B (conservation FAQ migration) shipped 21 May 2026 — see Recent wins. Spec C still pre-loaded at `docs/superpowers/specs/2026-05-19-llms-topic-restructure.md`; 2-3 hrs, 4 panel-gated commits, touches the highest-risk surface (llms-full.txt topic-hub entries).
-
-**P1 — Re-measure AI citation on 2026-06-02.** Re-pull the 12 default panel-llms queries. Carry-over from yesterday.
+**P1 — Re-measure AI citation on 2026-06-02 (14 days post Spec C deploy).** Re-pull the 12 default panel-llms queries against the pre-fix baseline at `audit-data/serp-captures/20260511-chatgpt-gemini-verified.md`. **Watch-item:** the Commit 3 panel research-scout flagged that bare Q&A wrappers can underperform — check `/steel-front-door-vs-composite` citation density specifically; it is SteelR's strongest AI surface (Perplexity 4x inline) and if it has regressed, commit `2c2a192` is the first revert candidate. Each of the 4 Spec C commits reverts independently. Also re-test `/sr3-vs-sr4-residential-steel-doors-uk` and the cost/imported pages — none had a per-page citation baseline before this deploy.
 
 **P1 — Pull Ahrefs Webmaster Tools data on 2026-05-21.** First post-re-crawl data should be visible.
 
@@ -127,6 +127,14 @@ Post-revert finding: Next.js 14.2's Image component auto-emits `fetchPriority="h
 - **/collection page A11y at 91 (not 100).** Discovered during close-out deep-checks (`.checks/lighthouse-mobile-collection.json`). Three pre-existing failures unrelated to this session's Nav split: color-contrast on `main#main-content > div.sticky > div.flex > button.relative` (filter/sort buttons) and on `div.max-w-7xl > div.flex > div.flex > a` (pagination links); heading-order on `footer.bg-site-black > div.max-w-6xl > div.flex > h3` (footer h3 skipping levels); target-size on the same pagination links. None of these selectors are touched by this session's commits. Tracked as a separate backlog item for a future a11y session, NOT a regression.
 
 ---
+
+## Recent wins (this session, 21 May 2026 — Spec C)
+
+- **Spec C shipped — llms-full.txt topic-restructure, all 16 entries.** 64 Q&A pairs added across every topic-hub entry in `public/llms-full.txt`, in 4 panel-gated commits grouped by theme: security ladder (`0ead4cf`, 16 Q&A, incl. a net-new `/sr3-vs-sr4` entry), regulatory (`a632247`, 20 Q&A), category+comparison (`2c2a192`, 16 Q&A), category language (`e5c50de`, 12 Q&A). Heritage Q&A deferral from 19 May now closed. Every Q&A is a verbatim lift from the parent page's FAQPage JSON-LD — verified 64/64 by per-commit deterministic scripts.
+- **Spec word-count misattribution corrected** (`7ccbaff`). The spec's "80-180 words, Princeton GEO optimal" criterion was a misattribution surfaced by the Commit 2 panel research-scout — the Princeton paper tested content modifications, not answer length; ChatGPT-with-Search's verified pattern is 40-60 word answer capsules. Spec + plan annotated.
+- **Every commit purely additive** — no existing prose mutated (verified per commit: 0 deletions). 4 panel-llms gates run, all APPROVE; fact-check-gate PASS on all 64 answers (heritage legal claims verbatim-verified); brand-guard PASS; build exit 0 each commit.
+- **Verified live:** `curl https://steelr.co.uk/llms-full.txt` shows 64 `**Q:` blocks; spot-checked one entry per commit group renders correctly. IndexNow submitted (200 OK).
+- **Process correction logged** — `feedback_cant_trust_subagent.md` repeat_count 1 → 2. A subagent verdict (APPROVE / aligned / [REASONED]) is opinion, not confirmation; load-bearing claims must be backed by deterministic tool output shown to the user. Mistake Capture triggered when the user pushed back on panel-agent "alignment" being presented as confirmation.
 
 ## Recent wins (this session, 21 May 2026)
 
@@ -191,15 +199,17 @@ Post-revert finding: Next.js 14.2's Image component auto-emits `fetchPriority="h
 ### Carried forward from yesterday
 
 - `docs/superpowers/specs/2026-05-19-mobile-perf-recovery.md` — Spec A (now executed; line 146 "Vitrums precedent ~80" claim is unsubstantiated, see followup spec)
-- `docs/superpowers/specs/2026-05-19-conservation-faq-migration.md` — Spec B (still pending)
-- `docs/superpowers/specs/2026-05-19-llms-topic-restructure.md` — Spec C (still pending)
+- `docs/superpowers/specs/2026-05-19-conservation-faq-migration.md` — Spec B (shipped 21 May, commits `28a292e`/`c01baeb`/`b0d0838`)
+- `docs/superpowers/specs/2026-05-19-llms-topic-restructure.md` — Spec C (shipped 21 May, commits `0ead4cf`/`a632247`/`7ccbaff`/`2c2a192`/`e5c50de`)
 - `.checks/lighthouse-mobile-home.json` — pre-fix mobile Lighthouse baseline (locked at commit `82e5d2d`)
 - `audit-data/serp-captures/20260519-peer-vs-peer-audit.md` — peer-vs-peer baseline
 - `audit-data/ahrefs-baseline-2026-05-19.md` — Ahrefs Webmaster Tools data
 
 ### Infrastructure (unchanged today)
 
-- `public/llms.txt` + `public/llms-full.txt` — AI-grounding sources (last updated `1f75f9a`)
+- `public/llms-full.txt` — AI-grounding source, all 16 topic-hub entries now carry Q&A blocks (last updated `e5c50de`, Spec C)
+- `public/llms.txt` — short AI-grounding summary, unchanged by Spec C (last updated `1f75f9a`)
+- `docs/superpowers/specs/2026-05-19-llms-topic-restructure.md` — Spec C, executed and complete; Acceptance criteria carries the 21 May word-count correction
 - `public/robots.txt` — RFC 9309 valid as of `82e5d2d`
 - `audit-data/gsc-indexing-tracker-steelr.json` — Indexing API submission tracker
 - `.vercel/project.json` — Vercel project metadata
