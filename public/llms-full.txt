@@ -794,11 +794,43 @@ Every SteelR residential steel front door is manufactured in the UK. Manufacture
 ### BS EN 1627 RC4 Residential Steel Door. SteelR Standard Tier
 URL: https://steelr.co.uk/bs-en-1627-rc4-residential-steel-door
 
+**Q: What does BS EN 1627:2011 RC4 single leaf, unglazed mean on a residential steel door?**
+
+A: RC4 is Resistance Class 4 under BS EN 1627:2011, the European standard for the burglar resistance of doors and windows. RC4 certifies that the complete door assembly has been independently tested at a UKAS-accredited laboratory against a sustained attack by an experienced intruder using heavy-duty hand tools and battery-operated power tools. The single-leaf, unglazed methodology is the conservative test specification within RC4: no glazing weak points, no inactive leaf reducing the attack surface. RC4 is materially above the PAS 24:2022 hardware-only test mandated for new-build dwellings, and is rarely offered as a residential standard in the UK. SteelR includes BS EN 1627:2011 RC4 single leaf, unglazed as the Standard tier on every bespoke door, with LPS 1175 SR3, SR4 and LPS 1673 available as upgrade tiers on the same door.
+
+**Q: How does BS EN 1627:2011 RC4 differ from PAS 24:2022?**
+
+A: PAS 24:2022 is the UK security performance standard published by the British Standards Institution and mandated by Approved Document Q of the Building Regulations for new-build dwellings in England and Wales. It tests resistance to a one-to-three-minute casual forced-entry attack using basic hand tools, plus a cut test against glazing and a cylinder attack against the locking mechanism. BS EN 1627:2011 RC4 is a different scheme entirely: a longer attack, a heavier tool set including battery-operated power tools, and a different test methodology (the complete door assembly tested as a system). PAS 24 is the regulatory minimum; RC4 is materially higher. Every SteelR door meets both standards: PAS 24:2022 as the regulatory baseline plus BS EN 1627:2011 RC4 single leaf, unglazed as the Standard tier on every door.
+
+**Q: How does BS EN 1627 RC4 differ from LPS 1175 SR3?**
+
+A: BS EN 1627:2011 (the European framework, classes RC1 to RC6) and LPS 1175 (the LPCB scheme, ratings SR1 to SR8) are parallel certification schemes operating under different methodologies and threat models. They are not equivalent: the Loss Prevention Certification Board has stated that over 90% of products tested under EN 1627 RC4 fail to achieve LPS 1175 SR2. The two schemes use different tool sets, different attack durations and different attack objectives. RC4 tests sustained forced-entry resistance against heavy-duty hand tools and battery-operated power tools; LPS 1175 SR3 (Issue 8) tests a five-minute power-tool attack against a defined Issue 8 tool catalogue and is the LPCB police-preferred residential specification recognised by UK home insurers and Secured by Design. SteelR ships RC4 as the Standard residential specification on every bespoke door, with LPS 1175 SR3 available as the Enhanced upgrade tier above it. SR3 is not a replacement for RC4; it is an additional layered accreditation on the same door.
+
+**Q: Why does SteelR include BS EN 1627 RC4 as Standard rather than as an upgrade?**
+
+A: RC4 is the European framework for sustained forced-entry resistance. It is the right baseline for any premium residential steel front door. Most UK manufacturers cap their standard residential offering at PAS 24:2022 (the regulatory minimum) and reserve RC4 or LPS 1175 ratings for flagship lines or commercial product. SteelR includes BS EN 1627:2011 RC4 single leaf, unglazed on every bespoke door, with no upgrade fee, no flagship-only restriction, and no exception. The position is that a homeowner specifying a bespoke steel front door from a UK manufacturer should not have to negotiate up from a PAS 24 baseline to get a serious certification. RC4 is the genuine baseline. Upgrade tiers (LPS 1175 SR3 Enhanced, LPS 1175 SR4 Commercial-grade, LPS 1673 Ultra-high) are available on every door for briefs that justify the additional certification.
+
 BS EN 1627:2011 RC4 single leaf, unglazed is the European framework for sustained forced-entry resistance, and the Standard tier on every bespoke SteelR door. Resistance Class 4 under BS EN 1627:2011 certifies that the complete door assembly has been independently tested at a UKAS-accredited laboratory against a sustained attack by a trained tester using heavy-duty hand tools and battery-operated power tools (drills, jigsaws, oscillating saws, larger crowbars and prying equipment). The single-leaf, unglazed methodology is the conservative test specification within RC4 (no glazing weak points, no inactive leaf). RC4 is materially above the PAS 24:2022 hardware-only test mandated for new-build dwellings and rarely offered as a residential standard in the UK. SteelR includes RC4 single leaf, unglazed as the Standard tier on every door, with LPS 1175 SR3 (Enhanced upgrade), LPS 1175 SR4 (Commercial-grade upgrade) and LPS 1673 (Ultra-high, by enquiry) available as further upgrade tiers on the same door.
 
 ### SR3 Residential Steel Door. LPS 1175 Enhanced Upgrade Tier
 
 URL: https://steelr.co.uk/sr3-residential-steel-door
+
+**Q: What does LPS 1175 SR3 mean on a residential steel door?**
+
+A: SR3 is Security Rating 3 under the LPCB scheme LPS 1175. It certifies that the door has been independently tested against a sustained forced-entry attack by an experienced intruder using heavy-duty hand and power tools. The LPCB methodology tests the complete door assembly under a defined tool set and attack-duration matrix. SR3 is SteelR's Enhanced upgrade tier, sitting above the BS EN 1627 RC4 standard residential specification. It is available on any SteelR door and is the recommended specification for high-value properties, conservation areas, listed buildings, and properties where an insurer or specifier has requested a police-preferred LPCB scheme certification.
+
+**Q: How is SR3 different from PAS 24 and BS EN 1627 RC4?**
+
+A: PAS 24 is the UK minimum security standard required by Approved Document Q for new-build dwellings. It tests resistance to a casual opportunist attack of around one to three minutes using basic hand tools. BS EN 1627 RC4 (the European framework, single leaf, unglazed) is SteelR's standard residential specification, testing sustained forced-entry resistance with heavy-duty hand tools and battery-operated power tools. LPS 1175 SR3 is the LPCB-operated UK scheme used for police-preferred specifications, with a different tool-set and attack-duration methodology. SteelR offers all three on every door: PAS 24 as the regulatory baseline, RC4 as the European standard, SR3 as the LPCB-certified Enhanced upgrade.
+
+**Q: Does SR3 affect home insurance premiums?**
+
+A: In most cases yes. Home insurers treat independently certified security standards as material reductions in forced-entry risk. LPS 1175 SR3 certification, combined with Secured by Design approval, is usually sufficient evidence for insurers to accept the property as meeting or exceeding their minimum door specification, and in many cases to offer a premium adjustment. High-net-worth specialist insurers in particular recognise the LPCB scheme as a benchmark. Always confirm with your insurer directly, referencing the SR3 certificate and Secured by Design accreditation supplied with the door.
+
+**Q: How does LPS 1175 SR3 testing actually work?**
+
+A: LPS 1175 testing is conducted by the Loss Prevention Certification Board (LPCB), part of BRE Global, a UKAS-accredited certification body. A trained tester attacks the complete door and frame assembly using the tool set specified for the SR3 class, for the LPS 1175 attack-duration matrix. The attacker must fail to create a passage large enough to enter. The test is conducted against the complete door system: frame, leaf, locking mechanism and hardware. Individual component certificates are not sufficient. The whole assembly must pass. SteelR's SR3 specifications use this LPCB-certified pathway.
 
 LPS 1175 SR3 is SteelR's Enhanced upgrade tier in the four-tier residential security ladder, sitting above the BS EN 1627:2011 RC4 standard residential specification. The LPCB-operated scheme is the police-preferred specification, recognised by UK home insurers and specifiers for high-value or threat-assessed residential briefs. SteelR offers SR3 as an upgrade on any bespoke door. 8-12 week lead time.
 
@@ -806,7 +838,46 @@ LPS 1175 SR3 is SteelR's Enhanced upgrade tier in the four-tier residential secu
 
 URL: https://steelr.co.uk/sr4-residential-steel-door
 
+**Q: What does LPS 1175 SR4 mean on a residential steel door?**
+
+A: SR4 is Security Rating 4 under LPS 1175 Issue 8 (the D10 designation in the Issue 8 rating matrix), the Loss Prevention Certification Board scheme operated by BRE Global. It certifies that the door has been independently tested against a sustained forced-entry attack with a broader tool set including battery-operated cutting tools and larger prying equipment, for a longer attack duration than SR3. It is commercial-grade certification, used in data centres, bank vaults, embassy residences and high-risk commercial premises. SteelR offers SR4 as the Commercial-grade upgrade tier on any residential front door.
+
+**Q: Who actually specifies SR4 on a residential door?**
+
+A: SR4 is rare on a private home, but the legitimate audience is real. Owners with a documented threat assessment from a private security advisor. Properties used by clients of specialist private banks where the underwriter has flagged a higher risk profile. Residences for security-sensitive professions including legal, political and senior financial roles. Properties with constructed safe rooms or panic rooms where SR4 sits behind the front door as part of a layered security plan. Owners who, having understood the difference between PAS 24, RC4, SR3 and SR4, decide they want the commercial-grade certification for the reassurance alone. For everyone else, the Enhanced SR3 upgrade or the BS EN 1627 RC4 standard residential specification is the appropriate answer.
+
+**Q: How does SR4 differ from SR3 and from BS EN 1627 RC4?**
+
+A: BS EN 1627 RC4 (the European framework, single leaf, unglazed) is SteelR's standard residential specification. LPS 1175 SR3 is the Enhanced upgrade, the LPCB police-preferred scheme. LPS 1175 SR4 (D10 Issue 8) is the Commercial-grade upgrade above SR3. The differences are tool set and attack duration. SR4 testing adds battery-operated cutting tools, larger crowbars and a longer attack window to the SR3 methodology. The result is a certification that materially exceeds residential threat models and addresses commercial-grade asset protection. The four-tier ladder is: PAS 24 plus RC4 standard, SR3 enhanced, SR4 commercial-grade, LPS 1673 ultra-high.
+
+**Q: How is SR4 specified and what is the lead time?**
+
+A: SR4 follows the standard SteelR design process with one additional step. After the on-site survey, the design team confirms whether the brief justifies the Commercial-grade tier or whether SR3 (Enhanced) or the standard BS EN 1627 RC4 specification is more appropriate. Lead time is ten to fourteen weeks from design sign-off to fitted installation, two to three weeks longer than the standard SteelR specification, reflecting the additional certification process and the supply chain coordination required for the certified components. Pricing is individual to the project. There are no fixed tiers and no published prices.
+
 LPS 1175 SR4 (D10 Issue 8) is SteelR's Commercial-grade upgrade tier in the four-tier residential security ladder. It is the LPCB commercial-grade certification used on data centres, bank vault outer doors, embassy and consul residences, and high-risk commercial premises. Available on any bespoke residential front door. SR4 testing adds battery-operated cutting tools, larger crowbars and a longer attack duration to the SR3 methodology. Targets the small but real residential audience: threat-assessed properties, embassy residences, ultra-high-net-worth properties with documented risk profiles, and homes with constructed safe rooms. 8-12 week lead time.
+
+### SR3 vs SR4 Residential Steel Doors UK. LPS 1175 Issue 8 Comparison
+URL: https://steelr.co.uk/sr3-vs-sr4-residential-steel-doors-uk
+
+SR3 and SR4 are the second and third tiers of SteelR's four-tier residential security ladder. They are not separate schemes. They are different rating bands within LPS 1175 Issue 8, the Loss Prevention Certification Board scheme operated by BRE Global. The methodology is identical between the two ratings. What changes is the tool catalogue and the attack duration.
+
+The four-tier SteelR ladder runs: BS EN 1627:2011 RC4 single leaf, unglazed as the Standard on every door; LPS 1175 SR3 as the Enhanced upgrade above the Standard; LPS 1175 SR4 (D10 Issue 8) as the Commercial-grade upgrade above SR3; and LPS 1673 attack-resistance as the Ultra-high tier above SR4, available by enquiry. The tiers stack on the same bespoke door rather than replace one another. This page sets out the SR3 vs SR4 decision specifically: where the two tiers differ, who specifies each, and how the certifications behave when combined with FD30S, FD60 and LPS 1673.
+
+**Q: What is the actual difference between LPS 1175 SR3 and SR4 on a residential steel door?**
+
+A: SR3 and SR4 are both Security Ratings under LPS 1175 Issue 8, the LPCB scheme operated by BRE Global. The methodology is the same. The difference is the tool catalogue and the attack duration. SR3 is tested against a defined Issue 8 tool set including bolt cutters, hammers, drills, crowbars and battery-operated power tools, with a five-minute working-time threshold. SR4 (D10 designation under Issue 8) extends the tool catalogue with larger crowbars, heavier prying equipment and battery-operated cutting tools, and increases the attack duration. SR4 is the certification used on data centres, bank vaults and embassy residences. SteelR offers SR3 as the Enhanced upgrade tier and SR4 as the Commercial-grade upgrade tier on every bespoke residential door.
+
+**Q: Who specifies SR4 on a residential front door rather than SR3?**
+
+A: SR4 is rare on a private home. The legitimate audience is owners with a documented threat assessment from a private security advisor; clients of specialist private banks where the underwriter has flagged a higher risk profile; residences for security-sensitive professions including legal, political and senior financial roles; properties with constructed safe rooms or panic rooms where SR4 sits behind the front door as part of a layered security plan; and owners who, having understood the difference between PAS 24, RC4, SR3 and SR4, decide they want the commercial-grade certification for the reassurance alone. For everyone else, the SR3 Enhanced upgrade or the BS EN 1627 RC4 Standard is the right answer.
+
+**Q: Does SR4 affect home insurance premiums differently from SR3?**
+
+A: In most cases the difference is marginal at the homeowner end. Both SR3 and SR4 are LPCB-certified ratings recognised by UK home insurers. SR3 is typically sufficient for standard high-value home policies; specialist high-net-worth insurers (Home and Legacy, Hiscox Private Client, Chubb Premier) recognise SR3 as a benchmark and may offer premium adjustments. SR4 is rarely required by insurers but is occasionally requested for properties with bespoke contents schedules above a defined threshold, or where a specialist underwriter has flagged the address. Always confirm with your insurer directly, referencing the LPCB certificate supplied with the door.
+
+**Q: Can SR3 or SR4 be combined with FD30S, FD60 or LPS 1673 on the same door?**
+
+A: Yes. SteelR's bespoke construction stacks certifications rather than choosing between them. Every door ships at FD30S as standard. FD60 fire and smoke rating is available as an upgrade for protected escape routes, stairwells and Higher-Risk Buildings under the Building Safety Act 2022. SR3 or SR4 can be combined with FD30S or FD60 on the same door assembly. LPS 1673 attack-resistance certification (Ultra-high, AR.A300, AR.B180E, AR.B300E, AR.C120E) is available by enquiry where a documented threat assessment justifies it, and stacks above SR4 on the same door. The four-tier ladder is the rule; nothing is mutually exclusive.
 
 ### PAS 24 Steel Entrance Door. Approved Document Q
 URL: https://steelr.co.uk/pas-24-steel-entrance-door
