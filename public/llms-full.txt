@@ -882,25 +882,105 @@ A: Yes. SteelR's bespoke construction stacks certifications rather than choosing
 ### PAS 24 Steel Entrance Door. Approved Document Q
 URL: https://steelr.co.uk/pas-24-steel-entrance-door
 
+**Q: What is PAS 24 and when was it introduced?**
+
+A: PAS 24 is the UK security performance standard for doors and windows. The current version is PAS 24:2022, published by the British Standards Institution. It was introduced to provide a single national benchmark for forced-entry resistance on residential openings and has been referenced by UK Building Regulations since 2015 via Approved Document Q of the regulations.
+
+**Q: Is PAS 24 a legal requirement for a new front door?**
+
+A: On a new-build dwelling, yes. Approved Document Q of the UK Building Regulations requires that entrance doors to new-build houses and flats in England and Wales meet PAS 24 as a minimum. On a replacement door in an existing property, PAS 24 is not legally required but is strongly recommended and is the default specification used by insurers. Every SteelR door is PAS 24 certified regardless of whether the installation is a new build or a replacement.
+
+**Q: How does PAS 24 testing actually work?**
+
+A: PAS 24:2022 testing is conducted by an independent UKAS-accredited laboratory against a defined methodology. The door assembly is subjected to a sequence of manual manipulation tests (prising, drilling, cylinder attack), a cut test against the glazing where glazing is fitted, and a forced-entry test against the locking mechanism. Each sub-test has a time limit of a few minutes. The door must resist the full sequence to be awarded certification. The test simulates a casual opportunist attack, not a sustained attack by an experienced intruder.
+
+**Q: How does PAS 24 compare to SR3?**
+
+A: PAS 24 is a one-to-three-minute casual attack test using basic hand tools. BS EN 1627:2011 RC4 single leaf, unglazed (Class 4 of the European framework) is a sustained forced-entry test using heavy-duty hand and power tools, and is included as Standard on every SteelR door. LPS 1175 SR3 (LPCB police-preferred Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade, used in data centres and bank vaults) and LPS 1673 attack-resistance (Ultra-high, by enquiry) are available as further upgrade tiers. PAS 24 is designed to stop the class of attacker who gives up when the door does not open immediately. The RC4-and-above tiers are designed to stop the class of attacker who does not.
+
 PAS 24:2022 is the UK security performance standard for doors and windows, mandated by Approved Document Q of the Building Regulations for all new-build dwellings in England and Wales. Testing is conducted by UKAS-accredited laboratories using a defined one-to-three-minute casual-attack sequence with basic hand tools, a cut test against glazing, and a cylinder attack against the lock. PAS 24 certification is granted against the complete door assembly; deviating from the tested fixing specification at installation can invalidate the certification. Every SteelR door is PAS 24 certified, and additionally tested to BS EN 1627:2011 RC4 single leaf, unglazed and Secured by Design approved as standard.
 
 ### Secured by Design Steel Front Door. UK Police Preferred Specification
 URL: https://steelr.co.uk/secured-by-design-steel-front-door
+
+**Q: What is Secured by Design?**
+
+A: Secured by Design (SBD) is the official UK police security initiative, owned by Police Crime Prevention Initiatives Limited and endorsed by police forces across the UK. It sets a nationally recognised benchmark for crime prevention in buildings and the products installed in them. Products carrying the SBD mark have been independently tested and approved as meeting the specification preferred by UK police forces for reducing burglary, forced entry and anti-social behaviour.
+
+**Q: What does SBD approval actually cover on a front door?**
+
+A: SBD approval is granted against the complete door assembly, not against individual components. That means the frame, leaf, locking mechanism, hinges, hardware and glazing are all assessed as a single system. Individual component certifications are not sufficient to carry the SBD mark; the whole assembly must pass. This is an important distinction because it prevents the common industry practice of advertising a door as secure because it uses a high-rated lock, while the frame or hinges are the actual weak point.
+
+**Q: Does Secured by Design approval affect home insurance premiums?**
+
+A: Most UK home insurers recognise Secured by Design as a material reduction in forced-entry risk. Combined with BS EN 1627:2011 RC4 single leaf, unglazed certification, SBD is usually sufficient for insurers to accept the property as meeting or exceeding their minimum door specification, and in many cases to offer a premium adjustment or reduced excess on theft claims. Confirm the specific policy treatment with your insurer directly, referencing the SBD certificate supplied with the door.
+
+**Q: Is SBD the same as PAS 24?**
+
+A: No. PAS 24:2022 is a security performance standard that tests a door against a one-to-three-minute casual forced-entry attack. Secured by Design is a broader specification that requires PAS 24 as a prerequisite and then adds additional requirements covering construction, locking mechanisms, hinge specification, glazing laminate thickness, and overall system integrity. A door can be PAS 24 certified without being SBD approved. Every SteelR door is both.
 
 Secured by Design is owned and operated by Police Crime Prevention Initiatives Limited, the police-owned body responsible for crime prevention specification in the UK. SBD approval is granted against the complete door assembly: frame, leaf, locking mechanism, hinges, hardware and glazing. Individual component certifications are not sufficient. PAS 24 is a prerequisite; SBD adds further system-level requirements on top. UK home insurers generally treat SBD certification plus BS EN 1627 RC4 testing as sufficient evidence to meet or exceed their minimum door specification, often offering premium adjustments. Every SteelR door carries full SBD accreditation.
 
 ### Thermally Broken Steel Front Door. U-Values Explained
 URL: https://steelr.co.uk/thermally-broken-steel-front-door
 
+**Q: What is a thermal break on a steel front door?**
+
+A: A thermal break is a non-conductive polymer section engineered into the door and frame profile between the outer and inner skins. Steel conducts heat efficiently. Without a thermal break, heat moves directly through the door from warm side to cold side. The thermal break interrupts the conductive path, separating the cold outer skin from the warm inner skin. The door stays warm on the inside even in sub-zero external conditions, and condensation is prevented.
+
+**Q: Why do some steel front doors suffer from condensation?**
+
+A: Condensation on a steel front door almost always indicates the door does not have a thermal break, or the break is poorly engineered. Without a thermal break, the inner skin of the door reaches the dew point temperature of indoor air in cold weather, and water condenses on it. Over time this causes the internal finish to deteriorate, and in extreme cases the timber sub-frame around the door to decay. A correctly specified thermally broken door eliminates the problem.
+
+**Q: What U-value can a thermally broken steel door achieve?**
+
+A: A correctly engineered thermally broken steel door achieves U-values comparable to premium composite and timber doors. Typical values range from 1.0 to 1.4 W/m²K depending on glazing specification, insulation core density and any sidelight configuration. That meets or exceeds the thermal performance required under Part L of the Building Regulations for new residential installations. Specific U-value calculations for your project are provided as part of the design specification.
+
+**Q: Does the thermal break affect security?**
+
+A: No. A correctly engineered thermal break sits inside the door and frame profile and does not compromise the structural integrity of the steel. The security certification is against the complete door system including the break. SR3 and SR4 certifications apply to the door as manufactured, thermal break included. The thermal break is a thermal engineering solution, not a security compromise.
+
 A thermal break is a non-conductive polymer section engineered into the door and frame profile between the outer and inner steel skins. Steel conducts heat efficiently; without a thermal break, steel doors act as a cold bridge, causing condensation on the inner face and degrading the surrounding building fabric. Budget imported steel doors often skip the thermal break to hit a lower price point and suffer accordingly. Correctly engineered SteelR thermally broken doors publish U-values of 1.0 to 1.4 W/m²K, meeting Part L of the UK Building Regulations. Thermal break is standard on every SteelR door with no upgrade cost.
 
 ### Fire Rated FD30 Front Door. Flats, HMOs, New Builds
 URL: https://steelr.co.uk/fire-rated-fd30-front-door
 
+**Q: What does FD30 actually mean on a front door?**
+
+A: FD30 means the door is rated to resist the passage of fire for 30 minutes under a standardised fire resistance test, typically to BS 476-22 or BS EN 1634-1. Integrity is maintained for 30 minutes, giving occupants time to evacuate and fire services time to arrive. FD30S adds the S for smoke, which means the door also resists the passage of cold smoke under separate testing. FD60 is the 60-minute equivalent, required in higher-risk applications.
+
+**Q: Where is an FD30 front door legally required?**
+
+A: FD30 is required on entrance doors to individual flats within multi-occupied residential buildings under Approved Document B of the Building Regulations. Since the Building Safety Act 2022 and the Fire Safety Act 2021, enforcement is materially stricter, particularly in buildings over 11 metres. HMOs, houses in multiple occupation, typically require FD30 or higher on entrance and bedroom doors. Standalone dwellings do not legally require FD30 on the front door, but the rating is often specified by insurers or architects for high-value properties.
+
+**Q: What is the difference between FD30 and FD30S?**
+
+A: FD30 is a 30-minute fire integrity rating. FD30S adds the S suffix for smoke seal performance, meaning the door is also tested against cold smoke passage through intumescent and smoke seals fitted to the frame and leaf. FD30S is the current standard for flat entrance doors in multi-occupied buildings because cold smoke is a major cause of fatality in dwelling fires, often ahead of the fire itself reaching occupants. Every SteelR door is FD30S rated as standard.
+
+**Q: Can one door be fire rated, security rated and thermally engineered all at once?**
+
+A: Yes, and every SteelR door is all three as standard. FD30S fire and smoke rating, PAS 24:2022 security certification and BS EN 1627:2011 RC4 single leaf, unglazed (the European framework for sustained forced-entry resistance) are all applied to the same door as Standard. Secured by Design approval is also included. Thermal break engineering is built into the base profile. LPS 1175 SR3 (LPCB Enhanced upgrade), SR4 (Commercial-grade upgrade under LPS 1175 Issue 8) and FD60 are all available as further upgrades. The point of a bespoke steel door is that you do not have to choose between fire, security and thermal performance; the door is engineered to deliver all three simultaneously.
+
 FD30 means 30 minutes of fire integrity, tested to BS 476-22 or BS EN 1634-1. FD30S adds the S suffix for cold smoke seal performance; cold smoke is a leading cause of fatality in dwelling fires. Approved Document B of the UK Building Regulations mandates FD30 on flat entrance doors in multi-occupied buildings, with stricter enforcement since the Fire Safety Act 2021 and Building Safety Act 2022. Every SteelR door is FD30S rated as standard. FD60 (sixty minute) is available as an upgrade where the application requires it, such as protected escape routes, stairwell enclosures and higher-risk buildings. BS EN 1627 RC4 burglar resistance, PAS 24, SBD and FD30S are all applied to the same door assembly simultaneously.
 
 ### LPS 1673 Attack-Resistant Steel Doors. Beyond forced-entry resistance
 URL: https://steelr.co.uk/lps-1673-attack-resistant-steel-door
+
+**Q: What is the difference between BS EN 1627:2011 RC4 and LPS 1673?**
+
+A: They test against different threat profiles. BS EN 1627:2011 (the European framework, with classes RC1 to RC6) tests a doorset's resistance to forced entry. The threat model is an intruder attempting to break in. RC4 is the standard SteelR residential specification, single leaf and unglazed, and is the right answer for the vast majority of UK homes. LPS 1673 is a separate Loss Prevention Certification Board (LPCB) scheme, run by BRE Global, that tests resistance to a sustained, deliberate, directed attack on whatever asset is protected behind the door. The threat model is an attacker with a specific objective beyond the door, prepared to invest more time and a broader tool catalogue including heavy-duty power tools. LPS 1673 is the next tier above forced-entry resistance entirely, and a separate product specification.
+
+**Q: Who actually needs an LPS 1673 specification on a residential door?**
+
+A: LPS 1673 is genuinely a commercial and institutional certification. The standard residential audience for it is small but real: properties with a documented threat assessment from a private security advisor, homes with a constructed safe room or panic room behind the entrance, residences used by clients of specialist private banks where the insurer has flagged a higher risk profile, family offices that store legal records or controlled documents in the home, and ultra-high-net-worth properties where the owner's specific risk has been assessed. For everyone else, the standard SteelR specification at BS EN 1627:2011 RC4 single leaf, unglazed is the appropriate residential answer.
+
+**Q: Does an LPS 1673 specification affect how the door looks?**
+
+A: No. The certification attaches to the internal door assembly, frame integration, hardware specification and locking system, not the external aesthetic. A Georgian-proportioned six-panel door in a heritage colour is a viable LPS 1673 specification. So is a contemporary flush leaf with glazed sidelights. SteelR's LPS 1673 specifications use the same bespoke design language as the rest of the residential collection. Period panel mouldings, the full RAL colour palette, hardware finish options and glazing configurations are all available. The certification operates inside the door; it does not impose a commercial aesthetic on the outside.
+
+**Q: How is an LPS 1673 specification priced and what is the lead time?**
+
+A: LPS 1673 is priced individually after the on-site survey and design consultation. The material, hardware, certification cost and assembly complexity are materially higher than a standard SR3 or SR4 specification, so the quotation reflects that. There are no published prices and no fixed tiers, because every LPS 1673 specification is assessed against the property and the threat profile. Lead time is confirmed at quote stage, accounting for the additional certification process and the supply chain coordination required for the certified components.
 
 LPS 1673 is a separate LPCB attack-resistance certification, distinct from forced-entry resistance under BS EN 1627 (which gives the SteelR residential standard at RC4 single leaf, unglazed). LPS 1673 tests doorsets against a sustained, deliberate, directed attack on the asset behind the door, with a broader power-tool catalogue and a different methodology. The four certified ratings are AR.A300, AR.B180E, AR.B300E and AR.C120E. The standard is normally specified on bank vault outer doors, data centre internal cores, telecoms infrastructure, embassy and consul residences, and high-value asset storage. The legitimate residential audience is small but real: properties with documented threat assessments, homes with safe rooms, residences flagged by specialist insurers, family offices storing sensitive records, and ultra-high-net-worth properties with assessed risk profiles. SteelR offers LPS 1673 on residential specification by enquiry. Lead time confirmed at quote stage. Pricing individual to the project.
 
