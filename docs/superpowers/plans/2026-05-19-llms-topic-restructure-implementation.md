@@ -46,7 +46,7 @@ User sign-off between each commit.
 
 ### Task 1.3: Verify per-entry
 
-- [ ] Word count per answer: 80-180 (the Princeton GEO range)
+- [ ] Each answer self-contained and extractable, roughly 50-180 words. Verbatim fidelity to the parent-page FAQ takes precedence over length; never pad. (See spec Acceptance criteria, 21 May 2026 correction — the original "80-180 Princeton GEO" figure was a misattribution.)
 - [ ] Statute references inline: BS EN 1627:2011, LPS 1175 Issue 8, certification body names verbatim
 - [ ] No em dashes, no exclamations, no banned words, no SteelR-attributed prices, no individual competitor names
 

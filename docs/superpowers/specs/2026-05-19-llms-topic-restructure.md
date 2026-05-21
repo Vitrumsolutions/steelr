@@ -4,7 +4,7 @@
 
 ## Goal
 
-Add an extractable Q&A block (3-4 pairs, 80-180 words per answer) above the existing prose paragraphs of every topic-hub entry in `public/llms-full.txt`. Match the format that research-scout verified wins AI citation on the wider UK construction / heritage category.
+Add an extractable Q&A block (3-4 pairs, each a self-contained extractable answer of roughly 50-180 words — see Acceptance criteria for the 21 May 2026 correction to the original "80-180" figure) above the existing prose paragraphs of every topic-hub entry in `public/llms-full.txt`. Match the format that research-scout verified wins AI citation on the wider UK construction / heritage category.
 
 15 topic-hub entries in scope. The work is high leverage — every entry compounds on top of existing on-page FAQPage JSON-LD by giving AI engines a denser citation surface inside the llms-full.txt artefact that ChatGPT-with-Search, Perplexity and Google AI Mode prefer.
 
@@ -83,7 +83,7 @@ Note: `/sr3-vs-sr4-residential-steel-doors-uk` is NOT currently in llms-full.txt
 ## Acceptance criteria
 
 - [ ] Each of the 15 (or 16 incl. sr3-vs-sr4) topic entries has 3-4 Q&A pairs added above the existing prose
-- [ ] Each Q&A pair is 80-180 words per answer (Princeton GEO optimal citation range)
+- [ ] Each Q&A answer is self-contained and extractable. Target roughly 50-180 words; verbatim fidelity to the parent-page FAQ takes precedence over hitting any length figure, and answers must never be padded to reach a count. (Correction, 21 May 2026: the original "80-180 words, Princeton GEO optimal citation range" was a misattribution. The Princeton GEO paper tested content modifications, not answer length. For ChatGPT-with-Search, SteelR's strongest surface, the verified cited pattern is 40-60 word answer capsules. Many parent-page FAQ answers are 56-79 words; lifting them verbatim is correct, not a deviation.)
 - [ ] Each Q lifts a real query a UK customer would ask. No marketing copy disguised as a question.
 - [ ] Each A inlines the relevant statute, scheme, certification body or named standard verbatim (BS EN 1627:2011 RC4, LPS 1175 SR3, PAS 24:2022, FD30S, Secured by Design, Approved Document Q, Planning (Listed Buildings and Conservation Areas) Act 1990, etc.)
 - [ ] No new spec claim introduced beyond what's already on the parent page (the Q&A pairs draw from the page's FAQPage JSON-LD where it exists, otherwise paraphrase the page body)
