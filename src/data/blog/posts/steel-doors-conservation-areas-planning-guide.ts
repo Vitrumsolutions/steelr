@@ -206,29 +206,29 @@ Through [our process](/process), every door is designed around the specific requ
 
 It depends on whether an Article 4 Direction applies to your property. Most conservation areas do not require planning permission for a like-for-like front door replacement, but Article 4 Directions remove permitted development rights for the front elevation in specific areas. Check your local planning authority's online planning map or speak to the conservation officer before ordering. A pre-application enquiry usually gives a definitive answer within two to six weeks.
 
-### Can I use a steel door in a conservation area?
+### What happens if I replace a door without approval in a conservation area?
 
-Yes, provided the door reproduces the proportions, panel layout, glazing pattern and colour of the historic original. Conservation officers assess visual appearance against the character of the area, not the material itself. A well-detailed steel door finished in a correct heritage colour is frequently approved where a poorly proportioned modern timber door would be refused. Bespoke manufacture is essential, because standard off-the-shelf doors rarely match period proportions. Detailed elevation drawings and a material sample submitted with the application help demonstrate compliance.
+Where Article 4 applies and consent has not been obtained, the local authority can issue an enforcement notice requiring removal or restoration of the historic door. Enforcement can also be triggered by a neighbour complaint. The safest approach is always to confirm whether approval is required before ordering. If you are uncertain, pay for pre-application advice rather than risk enforcement.
 
 ### How long does conservation area approval take?
 
 Pre-application advice typically returns within two to six weeks, depending on the authority, and significantly reduces the risk of refusal. A formal householder planning application takes eight weeks as standard and can be longer in high-demand authorities. Where the design is clearly appropriate, some authorities process applications faster. If the property is also listed, the route that applies is Listed Building Consent rather than conservation-area planning permission, on an identical eight-week determination period.
 
-### Can I have a contemporary-style door in a conservation area?
+### Can I use a steel door in a conservation area?
 
-It depends on the building and the area. A contemporary door on a modern infill building within a conservation area may be acceptable, even encouraged, if it represents honest, high-quality design. On a period building, a contemporary design will almost certainly be refused as it would harm the character of the original facade.
+Yes, provided the door reproduces the proportions, panel layout, glazing pattern and colour of the historic original. Conservation officers assess visual appearance against the character of the area, not the material itself. A well-detailed steel door finished in a correct heritage colour is frequently approved where a poorly proportioned modern timber door would be refused. Bespoke manufacture is essential, because standard off-the-shelf doors rarely match period proportions. Detailed elevation drawings and a material sample submitted with the application help demonstrate compliance.
 
 ### What colour should I specify for a conservation area door?
 
 Match either the existing door or the documented period palette for your property's style. Georgian doors are commonly Georgian green, black, dark blue or oxblood. Victorian doors were painted in stronger colours including deep greens, reds and browns. Edwardian taste was lighter, with ivory, sage and muted greens. RAL references should appear on the application to give the conservation officer a clear reference; the [RAL colour system](/colours) allows specification to any required shade. Avoid very modern colours such as pure white, bright primaries or metallic finishes unless the property already has them.
 
+### Can I have a contemporary-style door in a conservation area?
+
+It depends on the building and the area. A contemporary door on a modern infill building within a conservation area may be acceptable, even encouraged, if it represents honest, high-quality design. On a period building, a contemporary design will almost certainly be refused as it would harm the character of the original facade.
+
 ### Does Secured by Design certification help with conservation area approval?
 
 Secured by Design certification is not a planning consideration per se, but conservation officers recognise the value of security performance. Demonstrating that the door achieves **SR3 security and Secured by Design** accreditation, without compromising heritage appearance, strengthens the case that the replacement represents an improvement over the existing door in all respects. For the wider bespoke specification picture, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.
-
-### What happens if I replace a door without approval in a conservation area?
-
-Where Article 4 applies and consent has not been obtained, the local authority can issue an enforcement notice requiring removal or restoration of the historic door. Enforcement can also be triggered by a neighbour complaint. The safest approach is always to confirm whether approval is required before ordering. If you are uncertain, pay for pre-application advice rather than risk enforcement.
 
 ### Does a heritage-style steel door meet modern thermal and security standards?
 
