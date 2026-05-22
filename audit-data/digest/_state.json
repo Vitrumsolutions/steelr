@@ -1,38 +1,38 @@
 {
-  "lastRun": "2026-05-21T06:06:20.813Z",
+  "lastRun": "2026-05-22T06:01:36.816Z",
   "content": {
-    "/": "7afc80aacbe2ba05",
-    "/collection": "03a58aa376d9e550",
-    "/about": "ecdd0c0d6f9221f4",
-    "/process": "fd4eb6facd58f62c",
-    "/contact": "3df9896f51cbf76d",
-    "/design-estimate": "540114eea3074bf2",
-    "/colours": "32d01a2953ed7929",
-    "/security": "d6838931e3fe3734",
-    "/security-specification": "99777b5d38c9f989",
-    "/fire-rated-doors": "596b3405fae319fc",
-    "/thank-you": "24254b1a180e6e19",
-    "/bespoke-steel-front-doors-uk": "6f33150cd5f5631c",
-    "/sr3-residential-steel-door": "5fa805ad0612ca7d",
-    "/pas-24-steel-entrance-door": "22312ded837226d1",
-    "/secured-by-design-steel-front-door": "168d42f6f9ef87ec",
-    "/thermally-broken-steel-front-door": "7fa42588334b4b93",
-    "/fire-rated-fd30-front-door": "c04b28d494280396",
-    "/steel-front-door-vs-composite": "72d856ce81dc384f",
-    "/uk-steel-doors-vs-imported": "78a3c96ab08a3b19",
-    "/luxury-steel-entrance-door-london": "f49812ba559af86c",
-    "/steel-front-door-cost-uk": "5fc81b4aa31c1063",
-    "/areas/london": "e3e29e416063fab8",
-    "/areas/buckinghamshire": "750e055ee6652277",
-    "/areas/surrey": "08c0ec7eace4dfb7",
-    "/areas/hertfordshire": "8bfbfc5ad661319a",
-    "/areas/kent": "f3d5e3af8badd0ab",
-    "/areas/kensington": "22057faa5c88433f",
-    "/areas/cobham": "4d9a9e6efd3ef752",
-    "/areas/beaconsfield": "77bc990e9801154f",
-    "/blog/sr4-lps-1175-commercial-grade-residential": "4ef2dd41c504f601",
-    "/blog/secured-by-design-homes-guide-2026": "50c7840fe72699b9",
-    "/blog/bespoke-entrance-doors-uk-guide": "5915a7b2cd8cc3a3"
+    "/": "35f6ece9bf7d9652",
+    "/collection": "fd07d5982ba69172",
+    "/about": "74d65c0c84ba42f7",
+    "/process": "29fd7e15a83b90a7",
+    "/contact": "eec2596cd17e21cf",
+    "/design-estimate": "4a138242f7a6f7ee",
+    "/colours": "2ecb9d2092ca4fe5",
+    "/security": "c831ecbdb63676b8",
+    "/security-specification": "178b8bc8447baea9",
+    "/fire-rated-doors": "8bfc12c7732fd6b2",
+    "/thank-you": "1796aebaa90980dc",
+    "/bespoke-steel-front-doors-uk": "14fd55f818157bd8",
+    "/sr3-residential-steel-door": "20a5755ccca86060",
+    "/pas-24-steel-entrance-door": "20714b35542ad642",
+    "/secured-by-design-steel-front-door": "f58b62213a61c734",
+    "/thermally-broken-steel-front-door": "f3f44caecf866ab0",
+    "/fire-rated-fd30-front-door": "a6e3dbdfc0028ed5",
+    "/steel-front-door-vs-composite": "c59893575a75afce",
+    "/uk-steel-doors-vs-imported": "a7aa6cf8fe77e635",
+    "/luxury-steel-entrance-door-london": "c2a8b3fc12c281b6",
+    "/steel-front-door-cost-uk": "5d0801854b448217",
+    "/areas/london": "f30f7276716b496b",
+    "/areas/buckinghamshire": "437e9189d39f64ea",
+    "/areas/surrey": "81a3d406de46f4a4",
+    "/areas/hertfordshire": "eb132ef0861232cf",
+    "/areas/kent": "fc003f4f686a3622",
+    "/areas/kensington": "e3840c21cc2dd5bf",
+    "/areas/cobham": "e3acdcf9adcb4572",
+    "/areas/beaconsfield": "e2db566d16f497b8",
+    "/blog/sr4-lps-1175-commercial-grade-residential": "d62c4f4f58a21102",
+    "/blog/secured-by-design-homes-guide-2026": "54339c95712ee571",
+    "/blog/bespoke-entrance-doors-uk-guide": "d602d595d9b30365"
   },
   "sitemap": {
     "urlCount": 312,
@@ -371,63 +371,51 @@
   },
   "psi": {
     "/|mobile": {
-      "performance": 79,
+      "performance": 75,
       "accessibility": 100,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 4055.714171070017,
+        "lcp": 5476.098206983401,
         "cls": 0,
-        "tbt": 193.5,
-        "fcp": 2656.0167665958556
+        "tbt": 41,
+        "fcp": 1689.0256192130612
       }
     },
     "/|desktop": {
-      "performance": 97,
+      "performance": 100,
       "accessibility": 100,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 1119.2093141172131,
+        "lcp": 534.0393029954354,
         "cls": 0,
-        "tbt": 39.999999999999886,
-        "fcp": 767.5113905382392
+        "tbt": 32.5,
+        "fcp": 310.0157211981741
       }
     },
     "/collection|mobile": {
-      "performance": 94,
+      "performance": 66,
       "accessibility": 91,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 3040.0825640834255,
+        "lcp": 6227.164016904573,
         "cls": 0,
-        "tbt": 51,
-        "fcp": 948.0183475740947
+        "tbt": 250,
+        "fcp": 2623.0166093067924
       }
     },
     "/collection|desktop": {
-      "performance": 96,
+      "performance": 95,
       "accessibility": 95,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 1338.4263825663209,
+        "lcp": 1458.4198557407135,
         "cls": 0,
-        "tbt": 2,
-        "fcp": 772.0144280081396
-      }
-    },
-    "/bespoke-steel-front-doors-uk|mobile": {
-      "performance": 83,
-      "accessibility": 90,
-      "best-practices": 100,
-      "seo": 100,
-      "_metrics": {
-        "lcp": 4065.7199447952535,
-        "cls": 0,
-        "tbt": 40,
-        "fcp": 2527.022021216213
+        "tbt": 91.00000000000011,
+        "fcp": 305.01198942134204
       }
     },
     "/bespoke-steel-front-doors-uk|desktop": {
@@ -436,70 +424,70 @@
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 467.0235890978813,
+        "lcp": 782.0171633591104,
         "cls": 0,
-        "tbt": 82.99999999999989,
-        "fcp": 296.01179454894066
+        "tbt": 29.000000000000227,
+        "fcp": 319.01716335911055
       }
     },
     "/steel-front-door-vs-composite|mobile": {
-      "performance": 91,
+      "performance": 86,
       "accessibility": 90,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 3319.045412748023,
+        "lcp": 4115.710130135149,
         "cls": 0,
-        "tbt": 113,
-        "fcp": 1011.0454127480225
+        "tbt": 49,
+        "fcp": 949.0119508267917
       }
     },
     "/steel-front-door-vs-composite|desktop": {
-      "performance": 97,
+      "performance": 100,
       "accessibility": 90,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 1100.7198179356988,
+        "lcp": 744.0173553918899,
         "cls": 0,
-        "tbt": 61,
-        "fcp": 792.0224134615278
+        "tbt": 39,
+        "fcp": 290.01735539188974
       }
     },
     "/sr3-residential-steel-door|mobile": {
-      "performance": 82,
+      "performance": 77,
       "accessibility": 90,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 4146.708980014365,
+        "lcp": 4513.644051841788,
         "cls": 0,
-        "tbt": 52,
-        "fcp": 2569.011056437217
+        "tbt": 131,
+        "fcp": 2581.020578834541
       }
     },
     "/sr3-residential-steel-door|desktop": {
-      "performance": 99,
+      "performance": 100,
       "accessibility": 90,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 791.0146603893968,
+        "lcp": 476.03720766545285,
         "cls": 0,
-        "tbt": 85,
-        "fcp": 300.0146603893969
+        "tbt": 78,
+        "fcp": 313.0186038327264
       }
     },
     "/design-estimate|mobile": {
-      "performance": 87,
+      "performance": 88,
       "accessibility": 100,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 3331.0249444723713,
+        "lcp": 3923.395838429166,
         "cls": 0,
-        "tbt": 136,
-        "fcp": 2465.0249444723718
+        "tbt": 46,
+        "fcp": 904.5972256194443
       }
     },
     "/design-estimate|desktop": {
@@ -508,22 +496,22 @@
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 454.1785436569493,
+        "lcp": 651.6981793103685,
         "cls": 0,
-        "tbt": 53.462069192966,
-        "fcp": 244.5892718284746
+        "tbt": 24,
+        "fcp": 244.59757241382462
       }
     },
     "/contact|mobile": {
-      "performance": 87,
+      "performance": 86,
       "accessibility": 96,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 4099.770870296705,
+        "lcp": 3501.062122230975,
         "cls": 0,
-        "tbt": 32,
-        "fcp": 947.0734658226147
+        "tbt": 136.99999999999977,
+        "fcp": 2627.062122230975
       }
     },
     "/contact|desktop": {
@@ -532,92 +520,92 @@
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 484.1166239760859,
+        "lcp": 757.1236048835074,
         "cls": 0,
-        "tbt": 94.99999999999977,
-        "fcp": 292.05183287826037
+        "tbt": 11,
+        "fcp": 276.12360488350737
       }
     },
     "/areas/london|mobile": {
-      "performance": 79,
+      "performance": 97,
       "accessibility": 97,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 5251.153574125448,
+        "lcp": 2551.0280060052196,
         "cls": 0,
-        "tbt": 128.9999999999999,
-        "fcp": 1012.0186150455089
+        "tbt": 16,
+        "fcp": 947.0074682680585
       }
     },
     "/areas/london|desktop": {
-      "performance": 96,
+      "performance": 99,
       "accessibility": 97,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 1379.0040463019468,
+        "lcp": 601.0363323216868,
         "cls": 0,
-        "tbt": 63,
-        "fcp": 322
+        "tbt": 64,
+        "fcp": 331.01117917590364
       }
     },
     "/areas/buckinghamshire|mobile": {
-      "performance": 96,
+      "performance": 72,
       "accessibility": 97,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 2401.0530043654685,
+        "lcp": 5251.082223779648,
         "cls": 0,
-        "tbt": 140.00000000000023,
-        "fcp": 1025.0151441044195
+        "tbt": 174,
+        "fcp": 2630.0099665187454
       }
     },
     "/areas/buckinghamshire|desktop": {
-      "performance": 96,
+      "performance": 100,
       "accessibility": 97,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 1355.551599383065,
+        "lcp": 530.019450470041,
         "cls": 0,
-        "tbt": 17,
-        "fcp": 740.009173223656
+        "tbt": 19.000000000000057,
+        "fcp": 301.0077801880164
       }
     },
     "/blog/sr4-lps-1175-commercial-grade-residential|mobile": {
-      "performance": 97,
+      "performance": 86,
       "accessibility": 97,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 2251.048577588538,
+        "lcp": 4160.71667398406,
         "cls": 0,
-        "tbt": 150,
-        "fcp": 982.0149469503194
+        "tbt": 64,
+        "fcp": 958.0179744685896
       }
     },
     "/blog/sr4-lps-1175-commercial-grade-residential|desktop": {
-      "performance": 97,
+      "performance": 100,
       "accessibility": 97,
       "best-practices": 100,
       "seo": 100,
       "_metrics": {
-        "lcp": 1139.714495605282,
+        "lcp": 504.0209793453982,
         "cls": 0,
-        "tbt": 100.00000000000011,
-        "fcp": 293.023060840629
+        "tbt": 34.5,
+        "fcp": 296.0093241535103
       }
     }
   },
   "gsc": {
-    "lastPull": "2026-05-21T05:59:23.872Z",
+    "lastPull": "2026-05-22T05:55:28.723Z",
     "window": {
-      "startDate": "2026-05-12",
-      "endDate": "2026-05-18"
+      "startDate": "2026-05-13",
+      "endDate": "2026-05-19"
     },
     "clicksTotal": 4,
-    "pagesCount": 135
+    "pagesCount": 132
   }
 }
