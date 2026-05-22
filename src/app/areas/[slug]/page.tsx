@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       location.type === "hub"
         ? `Steel Doors ${label} | Bespoke Steel Front Doors | SteelR`
         : `Steel Doors ${label}, ${location.region} | Bespoke Steel Front Doors | SteelR`,
-    description: `Bespoke steel front doors in ${label}. BS EN 1627 RC4 standard, LPS 1175 SR3 / SR4 available, PAS 24 certified, Secured by Design, FD30S fire rated. UK manufactured by SteelR.`,
+    description: `Bespoke steel front doors in ${label}. BS EN 1627 RC4, LPS 1175 SR3 and SR4 available, PAS 24, Secured by Design, FD30S fire rated. UK manufactured.`,
     alternates: { canonical: `https://steelr.co.uk/areas/${location.slug}` },
     openGraph: {
       title: `Steel Doors ${label} | SteelR`,
@@ -116,7 +116,7 @@ const credentials = [
 // 161 area pages to the 40-post corpus. Closes the area→blog gap flagged
 // by the 22 Apr audit (previously every area page had zero blog outbound).
 function getAreaGuides(region: string | undefined, locationType: string): Array<{ slug: string; title: string }> {
-  const common = { slug: "period-property-front-door-ultimate-guide", title: "Period Property Front Doors: Ultimate Guide" };
+  const common = { slug: "steel-doors-conservation-areas-planning-guide", title: "Steel Doors in Conservation Areas: Planning Guide" };
   const security = { slug: "front-door-security-ratings-compared-sr1-to-sr3", title: "Front Door Security Ratings: SR1 to SR3" };
   const colour = { slug: "ral-colours-front-doors-complete-guide", title: "The Complete Guide to RAL Colours" };
   const londonTownhouses = { slug: "front-doors-london-townhouses-guide", title: "Front Doors for London Townhouses" };

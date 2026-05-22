@@ -56,8 +56,8 @@ export default async function DoorPage({ params }: Props) {
       { slug: "front-door-security-ratings-compared-sr1-to-sr3", title: "Security Ratings Compared: SR1 to SR3" },
     ],
     Traditional: [
-      { slug: "period-property-front-door-ultimate-guide", title: "Period Property Front Doors: Ultimate Guide" },
-      { slug: "best-front-doors-period-properties", title: "Best Front Doors for Period Properties" },
+      { slug: "steel-doors-conservation-areas-planning-guide", title: "Steel Doors in Conservation Areas: Planning Guide" },
+      { slug: "steel-doors-country-homes-guide", title: "Steel Doors for Country Homes" },
       { slug: "ral-colours-front-doors-complete-guide", title: "The Complete Guide to RAL Colours" },
     ],
     "Double Doors": [

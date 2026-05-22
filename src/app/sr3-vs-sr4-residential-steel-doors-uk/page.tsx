@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "SR3 vs SR4 Residential Steel Doors UK | Side by Side | SteelR",
   description:
-    "LPS 1175 SR3 vs SR4 explained for UK homes. Tool catalogue, attack duration, when each tier is right, and how SteelR ships SR3 as Enhanced upgrade above the BS EN 1627 RC4 Standard.",
+    "LPS 1175 SR3 vs SR4 explained for UK homes. Tool catalogue, attack duration, when each tier is right, and the four-tier SteelR security ladder.",
   alternates: { canonical: "https://steelr.co.uk/sr3-vs-sr4-residential-steel-doors-uk" },
   openGraph: {
     title: "SR3 vs SR4 Residential Steel Doors UK | SteelR",

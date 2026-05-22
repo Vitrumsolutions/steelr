@@ -20,6 +20,19 @@ const galleryImages = doors.map((d) => ({
 
 const filters = ["All", "Contemporary", "Traditional", "Double Doors"];
 
+// BreadcrumbList for the /collection index. Lives here rather than in
+// collection/layout.tsx so child routes (/collection/[slug],
+// /collection/sidelights) are not given a second, shorter BreadcrumbList on
+// top of the complete one each injects itself.
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://steelr.co.uk" },
+    { "@type": "ListItem", position: 2, name: "Collection", item: "https://steelr.co.uk/collection" },
+  ],
+});
+
 const cardVariants = {
   hidden: { opacity: 0, scale: 0.95, y: 20 },
   visible: (i: number) => ({
@@ -85,6 +98,8 @@ export default function CollectionPage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
+
       {/* Page banner */}
       <section
         className="relative flex items-center justify-center overflow-hidden"
@@ -128,7 +143,7 @@ export default function CollectionPage() {
                 fontSize: 9,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
-                color: activeFilter === f ? "#c9a96e" : "rgba(26, 26, 24, 0.4)",
+                color: activeFilter === f ? "#1a1a18" : "#6b5a42",
                 background: "none",
                 cursor: "pointer",
                 border: "none",
@@ -277,8 +292,9 @@ export default function CollectionPage() {
                         fontSize: 10,
                         letterSpacing: "0.2em",
                         textTransform: "uppercase",
-                        color: "#c9a96e",
-                        paddingBottom: 8,
+                        color: "#1a1a18",
+                        display: "inline-block",
+                        padding: "10px 4px",
                       }}
                     >
                       View Details &rarr;
@@ -291,8 +307,9 @@ export default function CollectionPage() {
                         fontSize: 10,
                         letterSpacing: "0.2em",
                         textTransform: "uppercase",
-                        color: "rgba(26, 26, 24, 0.4)",
-                        paddingBottom: 8,
+                        color: "#6b5a42",
+                        display: "inline-block",
+                        padding: "10px 4px",
                       }}
                     >
                       Enquire

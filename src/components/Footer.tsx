@@ -51,7 +51,7 @@ export default function Footer() {
                 fontSize: 9,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
-                color: "rgba(245, 240, 232, 0.5)",
+                color: "rgba(245, 240, 232, 0.7)",
               }}
             >
               {link.label}
@@ -61,7 +61,7 @@ export default function Footer() {
 
         {/* Topics column */}
         <div className="flex flex-col items-center mt-10">
-          <h3
+          <h2
             style={{
               fontFamily: "var(--font-body), Montserrat, sans-serif",
               fontWeight: 400,
@@ -73,7 +73,7 @@ export default function Footer() {
             }}
           >
             Topics
-          </h3>
+          </h2>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 max-w-3xl">
             {topicLinks.map((link) => (
               <Link
@@ -86,7 +86,7 @@ export default function Footer() {
                   fontSize: 9,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
-                  color: "rgba(245, 240, 232, 0.5)",
+                  color: "rgba(245, 240, 232, 0.7)",
                 }}
               >
                 {link.label}

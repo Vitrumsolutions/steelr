@@ -9,15 +9,11 @@ export const metadata: Metadata = {
   },
 };
 
-const breadcrumbSchema = JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://steelr.co.uk" },
-    { "@type": "ListItem", position: 2, name: "Collection", item: "https://steelr.co.uk/collection" },
-  ],
-});
-
+// BreadcrumbList is intentionally NOT emitted here. This layout wraps
+// /collection, /collection/sidelights and /collection/[slug]; emitting a
+// BreadcrumbList at the layout level produced a second, shorter BreadcrumbList
+// on the child routes (each of which injects its own complete one). The
+// /collection index page now carries its own BreadcrumbList in page.tsx.
 const collectionSchema = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -34,7 +30,6 @@ export default function CollectionLayout({
 }) {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: collectionSchema }} />
       {children}
     </>
