@@ -2065,6 +2065,44 @@ The Office for National Statistics recorded approximately 280,000 domestic burgl
 - [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 - [HMO Front Door Requirements UK: Landlord and Developer Guide](https://steelr.co.uk/blog/hmo-front-door-requirements-uk-landlord-guide)
 
+#### Why a Data-Centre Door Standard Is Now Fitted to UK Homes
+URL: https://steelr.co.uk/blog/sr4-lps-1175-commercial-grade-residential | Category: Security | Published: 2026-05-22 | 9 min read
+
+A commercial door-security standard built for data centres and vaults is now reaching UK homes. What changed, what it means, and which households it serves.
+
+**Key facts:**
+
+- For the full specification of the certification itself, the SR4 residential steel door page is the reference.
+- Opportunist break-ins, the kind PAS 24 was written to stop, declined as PAS 24 became a universal requirement on new-build dwellings under Approved Document Q.
+- The PAS 24 and SR3 specification tree was designed for the earlier pattern.
+- The commercial certification in question is SR4, Security Rating 4 under LPS 1175 Issue 8.
+- LPS 1175 is the physical-security scheme operated by the Loss Prevention Certification Board, part of BRE (Building Research Establishment).
+
+**FAQs:**
+
+Q: Why would a residential manufacturer offer a commercial door standard at all?
+A: Because the top of the residential threat pyramid changed. As PAS 24 closed off opportunist break-ins, the remaining serious risk to high-value homes became the planned, equipped attack, which is the threat commercial standards were always written for. SteelR chose to make the SR4 upgrade available on every residential door rather than restricting it to one premium line, so a rural estate, a flagged city townhouse and an architect-specified secure new build all have access to the same option.
+
+Q: Does fitting a commercial-grade door make a home look commercial?
+A: No. The SR4 certification attaches to the internal door assembly, frame integration, hardware and locking system, none of which is externally visible. A Georgian six-panel door in a heritage colour with brass hardware is a viable SR4 specification, and so is a contemporary flush leaf in matt anthracite. The full RAL palette, hardware finishes, glazing and sidelight configurations are all available on a door carrying the upgrade.
+
+Q: Does the SR4 upgrade change the lead time?
+A: The standard SteelR lead time runs eight to twelve weeks from first enquiry. A door specified with the SR4 upgrade adds roughly two to three weeks, reflecting the additional certification process and the supply-chain coordination for the certified components. The design team confirms the appropriate tier at the survey stage.
+
+Q: Can a fire-rated door also carry the SR4 upgrade?
+A: Yes. FD30S fire and smoke rating is standard on every SteelR door and applies equally to a door specified with the SR4 upgrade. FD60 is available as a further upgrade where sixty-minute fire integrity is required. The fire rating, the forced-entry certification and the SR4 upgrade all apply to the same door assembly at once.
+
+Q: Is a commercial-grade door overkill for a typical UK home?
+A: For most homes, yes, and that is worth saying plainly. The LPS 1175 SR3 Enhanced upgrade already provides security that significantly exceeds the threat profile most residential properties face. The SR4 upgrade becomes relevant for the specific households set out above: high-value properties, isolated locations, insurer-flagged risk profiles, and owners who want the commercial specification for its own sake.
+
+Behind every data centre, bank vault and pharmaceutical store sits a door specification most homeowners never encounter. It is built to delay a determined, well-equipped attacker working to a specific objective, for far longer than any opportunist break-in lasts. For decades that level of door belonged exclusively to commercial and critical-infrastructure buildings.
+
+**Related:**
+
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
+
 #### Home Insurance and Front Door Security Ratings UK Guide
 URL: https://steelr.co.uk/blog/home-insurance-door-security-ratings-uk | Category: Security | Published: 2026-05-13 | 7 min read
 
@@ -2172,44 +2210,6 @@ Q: Do I need to replace all the doors in one go?
 A: Not necessarily. A staged replacement programme is acceptable provided the fire risk assessment identifies the priority doors and a documented plan addresses the others within a reasonable timeframe. SteelR can supply doors in scheduled batches matching a multi-phase refurbishment programme, with each batch carrying its own certification documents tied to the relevant flat addresses.
 
 Houses in Multiple Occupation are a regulatory category that sits closer to commercial premises than to standard residential buildings. The reason is straightforward. An HMO houses unrelated occupants who do not control each other's behaviour, the fire load is higher than a single-family home, escape routes are shared, and the consequence of a fire is graver. The doors that separate occupants from the communal escape route are part of the fire strategy, not an aesthetic choice.
-
-**Related:**
-
-- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
-- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
-- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
-
-#### SR4 LPS 1175 Front Door UK: Commercial-Grade Security
-URL: https://steelr.co.uk/blog/sr4-lps-1175-commercial-grade-residential | Category: Security | Published: 2026-04-19 | 9 min read
-
-SR4 LPS 1175 explained for UK homes. Commercial-grade front door security used on data centres and vaults, how it beats SR3, and when to upgrade.
-
-**Key facts:**
-
-- SR4 is a certification rarely seen on a UK home front door.
-- And yet, as of 2026, a small number of UK manufacturers including SteelR offer SR4 as a homeowner-available upgrade on every residential front door.
-- This guide explains what SR4 actually means, how it differs from SR3, how the testing works, which owners realistically benefit from specifying it, and why the commercial-to-residential crossover matters.
-- If you have not yet read it, our complete SR3 guide for homeowners covers the baseline standard that every SteelR door meets before the SR4 upgrade is considered.
-- SR4 is Security Rating 4 under LPS 1175 Issue 8, the physical security certification standard published and operated by the Loss Prevention Certification Board, part of BRE (Building Research Establishment).
-
-**FAQs:**
-
-Q: Does SR4 void the SR3 or PAS 24 certification?
-A: No. A door specified with the SR4 upgrade is still PAS 24 certified, SR3 rated under BS EN 1627, Secured by Design approved and FD30S fire rated. SR4 is an additional certification layered on top of the baseline specification, not a replacement for it. You receive certificates for every standard the door meets.
-
-Q: Do UK insurers recognise SR4 under LPS 1175?
-A: Yes, increasingly. Specialist high-value home insurers explicitly reference LPS 1175 ratings in their policy language. Mainstream insurers will usually accept SR4 as evidence of security performance equivalent to or exceeding their minimum door specification. Always confirm with your specific insurer at policy renewal, referencing the LPS 1175 certificate supplied with the door.
-
-Q: What is the lead time for an SR4-upgraded door?
-A: Standard lead time for any SteelR door is eight to twelve weeks from first enquiry to installation. The SR4 upgrade does not change the lead time. Manufacture takes six to eight weeks regardless of specification tier.
-
-Q: Can a fire-rated door also be SR4?
-A: Yes. FD30S fire and smoke rating is standard on every SteelR door and applies to SR4-upgraded doors equally. FD60 is available as a further upgrade if the application requires sixty-minute fire integrity. All three certifications can apply to the same door assembly simultaneously.
-
-Q: Is SR4 overkill for a typical UK home?
-A: For most UK homes, yes. The LPS 1175 SR3 Enhanced upgrade tier provides a level of security that significantly exceeds the threat profile most residential properties face. SR4 becomes relevant specifically for the four categories listed earlier in this article: high-value properties, isolated locations, insurance-flagged risk profiles and owners who want the commercial specification for its own sake. If you are not in any of those categories, the BS EN 1627 RC4 Standard tier with SR3 Enhanced upgrade is a sensible, considered choice.
-
-SR4 is a certification rarely seen on a UK home front door. It is the standard used on data centre access doors, bank vault portals, pharmaceutical storage, critical infrastructure and high-risk commercial premises. It is not a standard written for residential use. And yet, as of 2026, a small number of UK manufacturers including SteelR offer SR4 as a homeowner-available upgrade on every residential front door.
 
 **Related:**
 

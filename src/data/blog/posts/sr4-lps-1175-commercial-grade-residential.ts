@@ -2,78 +2,46 @@ import type { BlogPost } from "../types";
 
 const post: BlogPost = {
   slug: "sr4-lps-1175-commercial-grade-residential",
-  title: "SR4 LPS 1175 Front Door UK: Commercial-Grade Security",
+  title: "Why a Data-Centre Door Standard Is Now Fitted to UK Homes",
   description:
-    "SR4 LPS 1175 explained for UK homes. Commercial-grade front door security used on data centres and vaults, how it beats SR3, and when to upgrade.",
-  date: "2026-04-19",
+    "A commercial door-security standard built for data centres and vaults is now reaching UK homes. What changed, what it means, and which households it serves.",
+  date: "2026-05-22",
   readTime: "9 min read",
   category: "Security",
   image: "/images/detail/steelr-grey-panelled-chrome-multilock.jpg",
   imageAlt:
-    "Multi-point chrome locking mechanism on an SR4-upgradable SteelR steel front door",
-  content: `## A Commercial Standard on a Residential Door
+    "Multi-point chrome locking mechanism on a SteelR steel front door specified with the commercial-grade SR4 upgrade",
+  content: `## A Standard Written for Data Centres, Not Homes
 
-SR4 is a certification rarely seen on a UK home front door. It is the standard used on data centre access doors, bank vault portals, pharmaceutical storage, critical infrastructure and high-risk commercial premises. It is not a standard written for residential use. And yet, as of 2026, a small number of UK manufacturers including SteelR offer SR4 as a homeowner-available upgrade on every residential front door.
+Behind every data centre, bank vault and pharmaceutical store sits a door specification most homeowners never encounter. It is built to delay a determined, well-equipped attacker working to a specific objective, for far longer than any opportunist break-in lasts. For decades that level of door belonged exclusively to commercial and critical-infrastructure buildings.
 
-This guide explains what SR4 actually means, how it differs from SR3, how the testing works, which owners realistically benefit from specifying it, and why the commercial-to-residential crossover matters.
+That is changing. As of 2026, a small group of UK manufacturers, SteelR among them, offer that same commercial-grade certification as an upgrade on an ordinary residential front door. A standard written for server halls is now being fitted to family homes.
 
-If you have not yet read it, our [complete SR3 guide for homeowners](/sr3-residential-steel-door) covers the baseline standard that every SteelR door meets before the SR4 upgrade is considered.
+This article is about why that crossover happened, what it changes on the actual door, and which households it genuinely serves. For the full specification of the certification itself, the [SR4 residential steel door page](/sr4-residential-steel-door) is the reference. This is the story behind it.
 
-## What SR4 Actually Is
+## Why the Residential Threat Profile Changed
 
-SR4 is Security Rating 4 under **LPS 1175 Issue 8**, the physical security certification standard published and operated by the **Loss Prevention Certification Board**, part of BRE (Building Research Establishment).
+A door standard does not move from commercial into residential use without a reason. The reason is that the residential threat profile has shifted.
 
-LPS 1175 is different from the BS EN 1627 standard that SR3 falls under. The two standards cover similar ground but use different testing methodologies, different tool categories and different certification bodies. Both are recognised as credible certifications for security products in the UK, but they come from different traditions:
+Over the past decade two things happened at once. Opportunist break-ins, the kind PAS 24 was written to stop, declined as PAS 24 became a universal requirement on new-build dwellings under Approved Document Q. At the same time, planned attacks on high-value properties became more common: attackers arriving with power tools, prepared to spend real time on the door, working to a defined objective inside the house.
 
-- **BS EN 1627** is a European standard, commonly used across residential, commercial and light-industrial applications. SR3 under this scheme is the highest rating typically applied to residential front doors.
-- **LPS 1175** is a UK-origin standard, heavily used in commercial and critical-infrastructure contexts. It runs from Security Rating 1 up to Security Rating 8, with SR4 sitting at the transition between high-end residential and entry-level commercial.
+The PAS 24 and SR3 specification tree was designed for the earlier pattern. It still covers the broad base of the residential threat pyramid well. What it does not fully cover is the narrow top of that pyramid: the planned, equipped, patient attack on a property the attacker has chosen deliberately. The commercial standard does cover exactly that, because that is the threat commercial security managers have always designed against.
 
-For homeowners the practical takeaway is simple. SR3 is a strong residential security specification. SR4 under LPS 1175 is a step above it, written to test against the kind of determined, well-equipped attack profile that commercial premises insurers expect their buildings to resist.
+That is the crossover in one sentence. A standard built for a commercial threat model became practically useful on the small slice of residential properties that now face a comparable threat.
 
-## Where SR4 is Normally Used
+## Where the Standard Comes From
 
-To understand SR4 you have to understand the context it was designed for. The typical SR4-certified door is fitted to:
+The commercial certification in question is SR4, Security Rating 4 under LPS 1175 Issue 8. LPS 1175 is the physical-security scheme operated by the Loss Prevention Certification Board, part of BRE (Building Research Establishment). It runs from Security Rating 1 up to Security Rating 8, and SR4 sits at the point where high-end residential meets entry-level commercial.
 
-- **Data centre access doors** protecting server halls containing billions of pounds of customer data
-- **Bank vaults and cash-handling facilities** where the contents are directly valuable
-- **Pharmaceutical and chemical storage** where theft risk is combined with regulatory compliance
-- **Critical infrastructure access** for utilities, telecoms and transport hubs
-- **High-risk commercial premises** flagged by insurers for exceptional protection
-- **Embassy, consulate and diplomatic access doors** in some jurisdictions
+It is worth being precise about how the certifications stack, because the names invite confusion. Every SteelR door is certified to BS EN 1627:2011 RC4 as Standard. LPS 1175 SR3 is the Enhanced upgrade above it. LPS 1175 SR4 (the D10 designation in the Issue 8 matrix) is the Commercial-grade upgrade above SR3. LPS 1673 attack-resistance is the Ultra-high tier above that. The [SR3 vs SR4 comparison](/sr3-vs-sr4-residential-steel-doors-uk) walks through the tier choice in detail, and the [SR3 guide for homeowners](/sr3-residential-steel-door) covers the Enhanced tier in full. What matters here is simply that SR4 is the rung where the commercial world begins.
 
-These are environments where a failed forced-entry attempt has consequences measured in millions of pounds, regulatory liability or national-security implications. The specification is designed around attackers with professional tool sets, specific objectives and the patience to spend significant time defeating the access control.
+The buildings SR4 was written for are unambiguous. Data centre access doors protecting server halls. Bank vaults and cash-handling rooms. Pharmaceutical and chemical stores. Utility, telecoms and transport infrastructure. Embassy and consular residences. High-value document and art storage. In each case a failed door carries consequences measured in millions of pounds, regulatory liability, or worse. None of that is a normal family home, which is precisely why the crossover is worth examining rather than assuming.
 
-This is not normally the threat profile facing a UK family home. Which is why the question becomes interesting: why would a homeowner ever specify it?
+## What the Crossover Looks Like on a Real Door
 
-## When a Homeowner Should Consider SR4
+A commercial standard is only meaningful on a home if it changes the physical door. It does. The step from the SR3 Enhanced upgrade to the SR4 Commercial-grade upgrade is genuine engineering, not a marketing label.
 
-In our experience, homeowners who specify SR4 fall into four broad categories.
-
-**1. High-value properties where a determined attack is plausible.** Properties valued in the high seven figures upward, properties containing valuable art or jewellery, properties known locally to be the residence of individuals with public profiles. These homes face a different threat profile from a typical semi-detached, and the insurer's expectations often reflect that.
-
-**2. Rural or isolated properties.** A country estate twenty minutes from the nearest police response is a different security proposition from a terraced house in central London. Attack duration matters more when help is further away. SR4 extends the resistance window.
-
-**3. Insurance-driven specifications.** Several specialist UK home insurers now explicitly recognise LPS 1175-certified entrance doors as a material reduction in forced-entry risk. On high-value policies this can translate to premium adjustments or the removal of restrictive clauses.
-
-**4. Owners who simply want the best available.** Some homeowners, having understood the difference between PAS 24, SR3 and SR4, decide they want the commercial-grade certification on their home for the reassurance alone. This is a legitimate choice. A home is a long-term asset and the incremental cost of the SR4 upgrade over a twenty-five year service life is modest.
-
-If your property does not fit any of those categories, the LPS 1175 SR3 Enhanced upgrade tier is genuinely sufficient. Every SteelR door is BS EN 1627 RC4 certified as Standard, with SR3 available as the Enhanced upgrade tier where the threat profile or insurer requirement justifies it. SR3 is a serious certification in its own right.
-
-## SR3 vs SR4, The Actual Difference
-
-For the side-by-side specification page, see [SR4 residential steel door](/sr4-residential-steel-door) for the spec sheet and the [SR3 vs SR4 decision aid](/sr3-vs-sr4-residential-steel-doors-uk) for the tier-choice walk-through.
-
-At the risk of oversimplifying, the difference between SR3 and SR4 comes down to three variables.
-
-**Attack duration.** LPS 1175 SR3 (Issue 8) tests resistance to a five-minute sustained attack against a defined objective using the Issue 8 power-tool catalogue. LPS 1175 SR4 (D10 Issue 8) extends this duration, with the specific time varying depending on the tool category the attacker is using. (Note: LPS 1175 and BS EN 1627 are parallel schemes operating different test methodologies; SteelR Standard is BS EN 1627:2011 RC4, with LPS 1175 SR3 Enhanced and SR4 Commercial-grade upgrades available.)
-
-**Tool set.** Both standards specify the tools the tester is allowed to use. SR3 includes crowbars, pry bars, chisels, drills and heavy-duty cutting tools. SR4 extends the tool set to include **battery-operated cutting tools**, **larger prying equipment** and **higher-power rotary tools**. The battery-operated cutting tool inclusion is particularly important because it reflects how commercial-grade attackers have evolved over the last decade.
-
-**Attacker profile.** SR3 simulates an experienced burglar. SR4 simulates an organised attacker working to a specific objective with a professional tool kit. This is not a subtle distinction in the testing methodology.
-
-The practical engineering consequences are visible in the door itself:
-
-| Specification | SR3 (SteelR standard) | SR4 (SteelR upgrade) |
+| Specification | SR3 (Enhanced upgrade) | SR4 (Commercial-grade upgrade) |
 |---|---|---|
 | Door leaf thickness | 70mm | 90mm |
 | Outer steel skin | 1.5mm gauge | 2mm gauge |
@@ -82,65 +50,57 @@ The practical engineering consequences are visible in the door itself:
 | Door leaf weight | 95 to 120 kg | 130 to 160 kg |
 | Cylinder | TS007 3-star anti-snap | Sold Secure Diamond |
 
-The upgrade is genuine material engineering. It is not a marketing distinction.
+The test methodology behind those numbers steps up in parallel. SR3 testing under LPS 1175 Issue 8 puts the complete door assembly against a five-minute sustained attack using the Issue 8 tool catalogue. SR4 extends both the tool set and the attack duration: battery-operated cutting tools, larger prying equipment and higher-power rotary tools, against a longer working-time threshold. The battery-operated cutting tool inclusion matters, because it reflects how well-equipped attackers have actually evolved. (LPS 1175 and BS EN 1627 are parallel schemes that run different test methodologies; SteelR's Standard tier is BS EN 1627:2011 RC4, with the LPS 1175 SR3 and SR4 certifications available as upgrades above it.)
 
-## How SR4 Testing Actually Works
+Three features of the test are worth understanding. The test is against the complete assembly, so frame, leaf, lock, hinges and any glazing pass or fail as one system; an SR4 door is never an SR4 lock on a lower-rated frame. The test is against a defined tool category, which stops the industry practice of claiming a high rating against a favourable tool selection. And the test is against an attack objective, typically creating an aperture large enough for a person to pass through, not simply the time taken to defeat the lock. When a SteelR door carries the SR4 upgrade, the certificate is supplied in the handover pack and is valid against the door as installed, not only as it left the factory.
 
-SR4 certification is awarded after independent testing conducted at a UKAS-accredited laboratory against the LPS 1175 Issue 8 methodology. The testing has three critical features worth understanding.
+## Which Households the Crossover Actually Serves
 
-**First, the test is against the complete door assembly.** Frame, leaf, locking mechanism, hinges, hardware and any glazing are all assessed as a single system. An SR4 door is not an SR4 lock bolted to a lower-rated frame. The whole thing passes or the whole thing fails.
+The honest answer to "should this be on my home" is, for most homes, no. The crossover serves a small set of UK households, and SteelR is direct about that rather than pretending otherwise.
 
-**Second, the test is against a defined tool category.** LPS 1175 groups attack tools into categories by cutting capacity, length and power. SR4 specifies which tool categories the door must resist for how long. This prevents the common industry practice of claiming high ratings against a favourable tool selection.
+**High-value properties where a determined attack is plausible.** Properties in the high seven figures and above, properties holding significant art or jewellery, properties known locally as the residence of a public-facing individual. These homes face a different threat profile from a typical semi-detached, and a specialist insurer's expectations often reflect that.
 
-**Third, the test is against attack objectives, not just entry.** The tester must achieve a defined outcome, typically "creating an aperture of sufficient size to allow passage of a person or object". Delaying entry for the full test duration means the door has passed. This is a meaningful distinction from tests that simply measure "time to compromise the lock".
+**Rural and isolated properties.** A country estate twenty minutes from the nearest police response is a different security proposition from a terraced street in a town centre. Attack duration matters more when help is further away, and the SR4 upgrade extends the resistance window.
 
-When a SteelR door is specified with the SR4 upgrade, the certification applies against the door as manufactured and installed to specification. The certificate is supplied in the handover pack and is valid against the door in situ, not just the door as it left the factory. This matters for insurance and for any future compliance verification.
+**Insurance-driven specifications.** Several specialist UK home insurers now explicitly recognise LPS 1175-certified entrance doors as a material reduction in forced-entry risk. On high-value policies that can translate into premium adjustments or the removal of restrictive clauses.
 
-## The Commercial-to-Residential Crossover
+**Owners who want the highest available specification.** Some homeowners, having understood the difference between PAS 24, RC4, SR3 and SR4, decide they want the commercial-grade certification on their home for the reassurance alone. A home is a long-term asset, and the incremental cost of the upgrade across a twenty-five year service life is modest.
 
-The interesting question for the UK market is why any residential manufacturer would offer SR4 at all, given that the standard was written for commercial use.
-
-Our answer at SteelR is straightforward. Over the past decade we have seen a steady shift in residential burglary patterns. Opportunist attempts have declined as PAS 24 has become universal on new builds. Planned attacks on high-value properties, involving power tools, sustained force and specific objectives, have increased. The PAS 24 / SR3 specification tree, designed in an earlier era, no longer fully covers the top of the residential threat pyramid.
-
-SR4 does cover it. The tooling, the duration and the attacker profile are all written around exactly the threat model that high-value UK residential properties now face. What was written for commercial use has become practically useful on a small but meaningful slice of residential applications.
-
-We chose to make SR4 available on every residential front door rather than restricting it to a premium product line. A homeowner in a rural Cheshire estate, a central London townhouse on an insurer's elevated-risk list, or an architect specifying a Secured by Design Gold new build on a site with specific security concerns, should all have access to the same upgrade option. The cost differential over the service life of the door is modest. The specification differential over a standard composite or timber door is substantial.
+For every household outside those categories, the LPS 1175 SR3 Enhanced upgrade above the BS EN 1627 RC4 Standard is a serious, considered specification that comfortably exceeds the threat profile a typical home faces. The crossover does not make SR4 the right answer for most homes. It makes SR4 available for the homes where the elevated threat profile is real.
 
 ## Frequently Asked Questions
 
-### Does SR4 void the SR3 or PAS 24 certification?
+### Why would a residential manufacturer offer a commercial door standard at all?
 
-No. A door specified with the SR4 upgrade is still PAS 24 certified, SR3 rated under BS EN 1627, Secured by Design approved and FD30S fire rated. SR4 is an additional certification layered on top of the baseline specification, not a replacement for it. You receive certificates for every standard the door meets.
+Because the top of the residential threat pyramid changed. As PAS 24 closed off opportunist break-ins, the remaining serious risk to high-value homes became the planned, equipped attack, which is the threat commercial standards were always written for. SteelR chose to make the SR4 upgrade available on every residential door rather than restricting it to one premium line, so a rural estate, a flagged city townhouse and an architect-specified secure new build all have access to the same option.
 
-### Do UK insurers recognise SR4 under LPS 1175?
+### Does fitting a commercial-grade door make a home look commercial?
 
-Yes, increasingly. Specialist high-value home insurers explicitly reference LPS 1175 ratings in their policy language. Mainstream insurers will usually accept SR4 as evidence of security performance equivalent to or exceeding their minimum door specification. Always confirm with your specific insurer at policy renewal, referencing the LPS 1175 certificate supplied with the door.
+No. The SR4 certification attaches to the internal door assembly, frame integration, hardware and locking system, none of which is externally visible. A Georgian six-panel door in a heritage colour with brass hardware is a viable SR4 specification, and so is a contemporary flush leaf in matt anthracite. The full RAL palette, hardware finishes, glazing and sidelight configurations are all available on a door carrying the upgrade.
 
-### What is the lead time for an SR4-upgraded door?
+### Does the SR4 upgrade change the lead time?
 
-Standard lead time for any SteelR door is eight to twelve weeks from first enquiry to installation. The SR4 upgrade does not change the lead time. Manufacture takes six to eight weeks regardless of specification tier.
+The standard SteelR lead time runs eight to twelve weeks from first enquiry. A door specified with the SR4 upgrade adds roughly two to three weeks, reflecting the additional certification process and the supply-chain coordination for the certified components. The design team confirms the appropriate tier at the survey stage.
 
-### Can a fire-rated door also be SR4?
+### Can a fire-rated door also carry the SR4 upgrade?
 
-Yes. FD30S fire and smoke rating is standard on every SteelR door and applies to SR4-upgraded doors equally. FD60 is available as a further upgrade if the application requires sixty-minute fire integrity. All three certifications can apply to the same door assembly simultaneously.
+Yes. FD30S fire and smoke rating is standard on every SteelR door and applies equally to a door specified with the SR4 upgrade. FD60 is available as a further upgrade where sixty-minute fire integrity is required. The fire rating, the forced-entry certification and the SR4 upgrade all apply to the same door assembly at once.
 
-### Is SR4 overkill for a typical UK home?
+### Is a commercial-grade door overkill for a typical UK home?
 
-For most UK homes, yes. The LPS 1175 SR3 Enhanced upgrade tier provides a level of security that significantly exceeds the threat profile most residential properties face. SR4 becomes relevant specifically for the four categories listed earlier in this article: high-value properties, isolated locations, insurance-flagged risk profiles and owners who want the commercial specification for its own sake. If you are not in any of those categories, the BS EN 1627 RC4 Standard tier with SR3 Enhanced upgrade is a sensible, considered choice.
+For most homes, yes, and that is worth saying plainly. The LPS 1175 SR3 Enhanced upgrade already provides security that significantly exceeds the threat profile most residential properties face. The SR4 upgrade becomes relevant for the specific households set out above: high-value properties, isolated locations, insurer-flagged risk profiles, and owners who want the commercial specification for its own sake.
 
-### How is SR4 documented after installation?
+### How is the SR4 certification documented after installation?
 
-The LPS 1175 certificate is supplied in the handover pack along with your PAS 24 and SBD certificates. The certification is registered against your address and kept on file in our UK facility. If future owners or insurers need to verify the specification, we can supply replacement certificates on request.
+The LPS 1175 certificate is supplied in the handover pack alongside the PAS 24 and Secured by Design certificates. The certification is recorded against the property address and kept on file at the SteelR UK facility, so future owners or insurers can verify the specification and request replacement certificates if needed.
 
 ## The Bottom Line
 
-SR4 under LPS 1175 is a genuine commercial-grade security certification. It was designed for data centres and bank vaults. SteelR is among a small group of UK manufacturers making it available as an upgrade on residential front doors, reflecting a shift in the threat profile facing high-value UK homes.
+SR4 under LPS 1175 is a genuine commercial-grade certification, written for data centres, bank vaults and critical infrastructure. Its arrival as a residential upgrade is not a marketing exercise. It is a response to a measurable shift in how high-value UK homes are actually attacked.
 
-For most homeowners, the LPS 1175 SR3 Enhanced upgrade above the BS EN 1627 RC4 Standard is the right specification. For homeowners in specific situations where the elevated threat profile justifies it, SR4 brings the same door engineering used on commercial premises, with the certification to prove it.
+For most homeowners, the LPS 1175 SR3 Enhanced upgrade above the BS EN 1627 RC4 Standard remains the right specification. For the small set of households where the elevated threat profile is real, the crossover means the same door engineering used on commercial premises is now available, with the certification to prove it.
 
-Whichever specification suits your property, the starting point is a [free on-site survey](/contact) with one of our UK surveyors. The survey establishes the aperture, the structural context and the threat profile, and from that we can advise on whether SR3 or SR4 is the right call for the project.
-
-See representative [contemporary steel doors](/collection/black-contemporary-dual-sidelights) and [traditional designs](/collection/black-traditional-lion-knocker-open) in our portfolio. The [full topic hub](/bespoke-steel-front-doors-uk) covers the complete SteelR service. The [security specification page](/security-specification) sets out PAS 24, SR3 and SR4 side by side for specifiers and compliance officers.`,
+Whichever tier suits the property, the starting point is a [free on-site survey](/contact) with a SteelR surveyor. The survey establishes the aperture, the structural context and the threat profile, and from there the design team advises on the right specification. The [SR4 residential steel door page](/sr4-residential-steel-door) holds the full specification, the [security specification page](/security-specification) sets the four tiers side by side, and the [bespoke steel front doors hub](/bespoke-steel-front-doors-uk) covers the complete SteelR service. Representative work includes our [contemporary steel doors](/collection/black-contemporary-dual-sidelights) and [traditional designs](/collection/black-traditional-lion-knocker-open).`,
 };
 
 export default post;
