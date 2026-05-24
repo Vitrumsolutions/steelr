@@ -19,8 +19,8 @@ export const buckinghamshireLocations: Location[] = [
       "High Wycombe HP11 to HP15. Victorian terraces around the town plus substantial detached homes in HP15 Holmer Green and Hazlemere",
       "Buckingham MK18. Georgian market town with limited steel-door precedent, conservation-considered applications welcome",
       "Winslow MK18, Princes Risborough HP27, Wendover HP22. Secondary market towns within the Vale",
-      "Substantial Edwardian villas on Burkes Road, Ledborough Lane, Packhorse Road and Bull Lane requiring large-format steel entrance configurations",
-      "Architect-designed contemporary replacements across HP9, SL9 and the gated estates near Beaconsfield High School and Gerrards Cross Common",
+      "Aylesbury Garden Town expansion and the Vale Edwardian and Georgian market stock around Aylesbury, Buckingham and Winslow",
+      "Chilterns AONB conservation-area planning regime across HP5, HP6, HP7, HP9 and SL9 postcodes, with separate Buckinghamshire Council oversight in Aylesbury Vale and unitary-authority planning across MK1 to MK19",
       "MK new-build executive estates including Caldecotte, Walton, Tattenhoe, Shenley Brook End, Furzton and the Western Expansion Area",
     ],
     faqs: [
