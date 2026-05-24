@@ -26,10 +26,12 @@
  *   audit-data/serp-captures/<YYYYMMDD>-<label>.json
  *
  * Requires:
- *   SERPER_API_KEY env var (or hardcoded fallback from CLAUDE.md if not set)
+ *   FIRECRAWL_API_KEY env var
  *
- * Cost:
- *   1 Serper credit per query. Free tier = 2,500 credits.
+ * Backend: Firecrawl /v1/search (POST https://api.firecrawl.dev/v1/search)
+ * Previous backend was Serper (google.serper.dev/search) — exhausted free-tier
+ * lifetime credits. Firecrawl returns the same per-query data (url, title,
+ * description) with UK geo support. Output JSON shape is unchanged.
  */
 
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
@@ -95,64 +97,74 @@ if (existsSync(queriesFile)) {
   queries = DEFAULT_QUERIES;
 }
 
-console.log(`SERP capture run: ${label}`);
+console.log(`SERP capture run: ${label} (backend: Firecrawl)`);
 console.log(`Queries: ${queries.length}`);
 console.log(`Source: ${existsSync(queriesFile) ? queriesFile : "default DEFAULT_QUERIES"}`);
 
-// Serper API key. Prefer env var; fallback to the documented key in user CLAUDE.md.
-// See ~/.claude/CLAUDE.md "Key Credentials" section.
-const apiKey =
-  process.env.SERPER_API_KEY ||
-  "b28fc7dffddcd83ed0ceb9d5fcd83e90cd7a1ec6";
+// Firecrawl API key — required, no fallback (previous Serper key exhausted free credits).
+const apiKey = process.env.FIRECRAWL_API_KEY;
 
 if (!apiKey) {
-  console.error("SERPER_API_KEY not set and no fallback present.");
-  process.exit(2);
+  console.error("Error: FIRECRAWL_API_KEY env var is not set.");
+  console.error("Set it before running: export FIRECRAWL_API_KEY=fc-...");
+  process.exit(1);
 }
 
 const TARGET_DOMAIN = "steelr.co.uk";
 
 async function captureQuery(query) {
-  const res = await fetch("https://google.serper.dev/search", {
+  // Firecrawl /v1/search — returns top-N web results with UK geo.
+  const res = await fetch("https://api.firecrawl.dev/v1/search", {
     method: "POST",
     headers: {
-      "X-API-KEY": apiKey,
+      "Authorization": `Bearer ${apiKey}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      q: query,
-      gl: "uk",
-      hl: "en",
-      num: 30,
+      query,
+      limit: 10,
+      location: "United Kingdom",
     }),
   });
   if (!res.ok) {
     return { query, error: `HTTP ${res.status}: ${await res.text()}` };
   }
-  const data = await res.json();
+  const payload = await res.json();
 
-  // Extract SteelR position + snippet
-  const organic = data.organic || [];
-  const ourResult = organic.find((r) => r.link && r.link.includes(TARGET_DOMAIN));
-  const aiOverview = data.answerBox || data.knowledgeGraph || null;
-  const peopleAlsoAsk = (data.peopleAlsoAsk || []).slice(0, 4);
+  if (!payload.success) {
+    return { query, error: `Firecrawl error: ${JSON.stringify(payload)}` };
+  }
+
+  // Firecrawl returns data as a flat array of { url, title, description }.
+  // Position is 1-based array index — no position field in the response.
+  const organic = payload.data || [];
+
+  // Find first SteelR result
+  const ourIndex = organic.findIndex((r) => r.url && r.url.includes(TARGET_DOMAIN));
+  const ourResult = ourIndex !== -1 ? organic[ourIndex] : null;
+
+  // Top 3 non-SteelR results (competitors) from head of results
+  const top3Competitors = organic
+    .filter((r) => r.url && !r.url.includes(TARGET_DOMAIN))
+    .slice(0, 3)
+    .map((r, i) => {
+      const absPos = organic.findIndex((x) => x.url === r.url) + 1;
+      return { position: absPos, title: r.title, link: r.url };
+    });
 
   return {
     query,
     capturedAt: new Date().toISOString(),
-    steelrPosition: ourResult ? organic.indexOf(ourResult) + 1 : null,
-    steelrUrl: ourResult?.link || null,
+    steelrPosition: ourResult ? ourIndex + 1 : null,
+    steelrUrl: ourResult?.url || null,
     steelrTitle: ourResult?.title || null,
-    steelrSnippet: ourResult?.snippet || null,
-    top3Competitors: organic
-      .slice(0, 3)
-      .filter((r) => r.link && !r.link.includes(TARGET_DOMAIN))
-      .map((r) => ({ position: organic.indexOf(r) + 1, title: r.title, link: r.link })),
-    aiOverviewPresent: !!aiOverview,
-    aiOverviewMentionsSteelR: aiOverview
-      ? JSON.stringify(aiOverview).toLowerCase().includes("steelr")
-      : false,
-    peopleAlsoAsk: peopleAlsoAsk.map((p) => p.question),
+    steelrSnippet: ourResult?.description || null,
+    top3Competitors,
+    // Firecrawl /v1/search does not expose AI overviews or People Also Ask.
+    // Keep fields present but null so existing diff tooling doesn't break.
+    aiOverviewPresent: null,
+    aiOverviewMentionsSteelR: false,
+    peopleAlsoAsk: [],
     totalOrganicResults: organic.length,
   };
 }
@@ -177,8 +189,8 @@ for (const query of queries) {
     results.push({ query, error: err.message });
     console.log(`ERROR (${err.message})`);
   }
-  // Rate-limit: 1 query per ~200ms = under Serper's 5/sec free-tier limit
-  await new Promise((r) => setTimeout(r, 250));
+  // Rate-limit: 1 query per ~500ms to stay under Firecrawl's request rate.
+  await new Promise((r) => setTimeout(r, 500));
 }
 
 const date = new Date().toISOString().slice(0, 10).replace(/-/g, "");
@@ -207,7 +219,7 @@ writeFileSync(
   )
 );
 
-console.log(`\nDone. ${creditsUsed} credits used. Output: ${outputPath}`);
+console.log(`\nDone. ${creditsUsed} queries run. Output: ${outputPath}`);
 console.log(`\nSummary:`);
 console.log(`  Ranking in top 30:           ${results.filter((r) => r.steelrPosition).length}/${queries.length}`);
 console.log(`  Not in top 30:               ${results.filter((r) => r.steelrPosition === null && !r.error).length}/${queries.length}`);
