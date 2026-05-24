@@ -76,6 +76,56 @@ export default function CostPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqSchema }} />
 
+      <section aria-labelledby="cost-quick-answer" className="mb-12 rounded-2xl border border-gold/30 bg-cream/40 p-8" style={{ maxWidth: "48rem", margin: "2.5rem auto", padding: "2rem" }}>
+        <h2 id="cost-quick-answer" className="text-sm uppercase tracking-[0.2em] mb-4" style={{ color: "#8a6f4e" }}>How much does a bespoke steel front door cost in the UK?</h2>
+        <p className="text-lg leading-relaxed" style={{ color: "#1a1a18" }}>
+          A bespoke steel front door from a UK manufacturer typically sits in the high four to low six figure range, depending on size, security rating, fire rating, hardware specification, glazing complexity, installation access, and lead-time priority. The factors below explain what drives the figure on any given project. SteelR quotes are written for one specific aperture, one specific brief, and one specific delivery window. No fixed numbers are published because no fixed numbers would be honest for a made-to-measure product.
+        </p>
+      </section>
+
+      <section aria-labelledby="cost-tier-table" style={{ maxWidth: "48rem", margin: "0 auto 2.5rem", padding: "0 2rem" }}>
+        <h2 id="cost-tier-table" className="text-2xl font-light text-dark mb-6">Where SteelR sits in the UK steel-door price band</h2>
+        <p className="mb-4 text-dark/80">Symbol guide: £ = entry-level personnel door; ££ = stock contemporary steel doorset; £££ = made-to-measure premium with PAS 24; ££££ = bespoke residential with LPS 1175 SR3 and full hardware/glazing brief; £££££ = bespoke residential with SR4 commercial-grade or LPS 1673 ultra-high upgrade.</p>
+        <div className="overflow-x-auto">
+          <table className="w-full text-left text-sm" style={{ borderCollapse: "collapse" }}>
+            <thead>
+              <tr style={{ borderBottom: "2px solid #c9a96e" }}>
+                <th className="py-3 pr-4 font-medium" style={{ color: "#1a1a18" }}>Tier</th>
+                <th className="py-3 pr-4 font-medium" style={{ color: "#1a1a18" }}>Typical category</th>
+                <th className="py-3 pr-4 font-medium" style={{ color: "#1a1a18" }}>Price band</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style={{ borderBottom: "1px solid #c9a96e33" }}>
+                <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>1</td>
+                <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>Budget stock steel personnel door (factory next-day delivery)</td>
+                <td className="py-3 pr-4 font-medium" style={{ color: "#8a6f4e" }}>£</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #c9a96e33" }}>
+                <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>2</td>
+                <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>Stock contemporary steel doorset (UK or imported, fixed sizes)</td>
+                <td className="py-3 pr-4 font-medium" style={{ color: "#8a6f4e" }}>££</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #c9a96e33" }}>
+                <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>3</td>
+                <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>Made-to-measure premium with PAS 24 certification</td>
+                <td className="py-3 pr-4 font-medium" style={{ color: "#8a6f4e" }}>£££</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #c9a96e33" }}>
+                <td className="py-3 pr-4 font-medium" style={{ color: "#1a1a18" }}>4 — SteelR Standard</td>
+                <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>Bespoke residential, BS EN 1627 RC4 + LPS 1175 SR3, full hardware and glazing brief</td>
+                <td className="py-3 pr-4 font-medium" style={{ color: "#8a6f4e" }}>££££</td>
+              </tr>
+              <tr>
+                <td className="py-3 pr-4 font-medium" style={{ color: "#1a1a18" }}>5 — SteelR Upgrade</td>
+                <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>Bespoke residential, LPS 1175 SR4 commercial-grade or LPS 1673 ultra-high attack resistance</td>
+                <td className="py-3 pr-4 font-medium" style={{ color: "#8a6f4e" }}>£££££</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       <InfoPage
         heroTitle="How Steel Front Door Pricing Works"
         h1="How Steel Front Door Pricing Works in the UK"
