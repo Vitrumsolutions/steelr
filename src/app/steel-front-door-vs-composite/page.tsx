@@ -80,6 +80,27 @@ export default function SteelVsCompositePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqSchema }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "@id": "https://steelr.co.uk/steel-front-door-vs-composite#webpage",
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": ["#quick-answer", "section[aria-labelledby='quick-answer'] p"]
+            }
+          })
+        }}
+      />
+
+      <section aria-labelledby="quick-answer" className="mb-12 rounded-2xl border border-gold/30 bg-cream/40 p-8" style={{ maxWidth: "48rem", margin: "2.5rem auto", padding: "2rem" }}>
+        <h2 id="quick-answer" className="text-sm uppercase tracking-[0.2em] mb-4" style={{ color: "#8a6f4e" }}>Quick Answer</h2>
+        <p className="text-lg leading-relaxed" style={{ color: "#1a1a18" }}>
+          Steel front doors achieve LPS 1175 SR3 Enhanced certification, a 25 to 30 year service life and thermally broken construction with U-values from 0.8 W/m&#178;K. Composite doors typically meet PAS 24 (two certification tiers below SR3), with a 10 to 15 year service life and U-values around 1.2 to 1.4 W/m&#178;K. Steel costs more upfront. Composite costs more over a 25-year horizon when like-for-like replacement is factored in.
+        </p>
+      </section>
 
       <InfoPage
         heroTitle="Steel vs Composite Front Doors"
@@ -89,17 +110,6 @@ export default function SteelVsCompositePage() {
           title:
             "An honest side-by-side on security, longevity, thermal performance and cost of ownership",
           body: (
-            <>
-              Steel front doors achieve LPS 1175 SR3 Enhanced certification,
-              a 25 to 30 year service life and thermally broken
-              construction. Composite doors typically meet PAS 24 (two
-              certification tiers below SR3), with a 10 to 15 year service
-              life and U-values around 1.2 to 1.4 W/m²K. Steel costs more
-              upfront. Composite costs more over a 25-year horizon when
-              like-for-like replacement is factored in.
-            </>
-          ),
-          body2: (
             <>
               Composite front doors dominate the UK residential door market
               by volume. They are sold by almost every window and door
