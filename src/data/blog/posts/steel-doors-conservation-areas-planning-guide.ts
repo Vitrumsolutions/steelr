@@ -200,7 +200,7 @@ The fundamental advantage of specifying a bespoke SteelR entrance door for a con
 
 Through [our process](/process), every door is designed around the specific requirements of the property and the planning context, ensuring that the final product satisfies conservation officers, meets Building Regulations and delivers the security, thermal performance and longevity that a quality property deserves.
 
-The full SteelR specification reference for heritage and listed-building applications — Grade I / Grade II* / Grade II coverage, BS EN ISO 15614 welding qualification context, and the LBC + Article 4 decision tree — is on our [heritage steel front doors hub](/heritage-steel-front-doors-uk).
+The full SteelR specification reference for heritage and listed-building applications is on our [heritage steel front doors hub](/heritage-steel-front-doors-uk). It covers Grade I, Grade II* and Grade II, BS EN ISO 15614 welding qualification context, and the LBC plus Article 4 decision tree.
 
 ## Frequently Asked Questions
 
