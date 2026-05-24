@@ -155,6 +155,8 @@ Country homes sit in meaningfully harsher microclimates than urban properties. P
 - **UV-stable finish**, specify the paint system with a UV inhibitor additive. On south-facing elevations in Kent or Sussex, cheaper paint systems chalk visibly within five years. A powder coat with UV stabiliser remains true for 15-plus.
 - **Stainless fixings throughout**, hinges, frame fixings, thresholds, all stainless steel. Galvanised fixings stain visibly over time in rural settings where iron oxide runs down paintwork.
 
+Country-house and rural-listed-building applications often involve both LBC and Article 4. The decision tree, statutory timing and visual-match guidance are on our [heritage steel front doors hub](/heritage-steel-front-doors-uk).
+
 ## Frequently Asked Questions
 
 ### Are steel front doors suitable for listed country homes?

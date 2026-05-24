@@ -14,6 +14,7 @@ const footerLinks = [
 const topicLinks = [
   { href: "/bespoke-steel-front-doors-uk", label: "Bespoke Doors" },
   { href: "/luxury-steel-entrance-door-london", label: "London Luxury" },
+  { href: "/heritage-steel-front-doors-uk", label: "Heritage & Listed Buildings" },
   { href: "/sr3-residential-steel-door", label: "SR3 Residential" },
   { href: "/sr4-residential-steel-door", label: "SR4 Commercial" },
   { href: "/lps-1673-attack-resistant-steel-door", label: "LPS 1673 Attack-Resistant" },
