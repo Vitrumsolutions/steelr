@@ -102,6 +102,24 @@ export default function SteelVsCompositePage() {
         </p>
       </section>
 
+      <section aria-labelledby="top-questions" style={{ maxWidth: "48rem", margin: "0 auto 2.5rem", padding: "0 2rem" }}>
+        <h2 id="top-questions" className="text-2xl font-light text-dark mb-6">The three questions buyers ask first</h2>
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-lg font-medium text-dark mb-2">Are steel doors more secure than composite doors?</h3>
+            <p className="text-dark/80">Yes. Steel achieves LPS 1175 SR3 Enhanced certification (five-minute power-tool resistance, the LPCB police-preferred specification) on every SteelR door, two certification tiers above the PAS 24:2022 baseline most composite doors stop at. PAS 24 tests resistance to a one-to-three-minute casual attack. Every SteelR door is PAS 24 certified, BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, with SR3 and SR4 Commercial-grade upgrade available. A small number of premium composite doors also offer SR3, but the baseline for the category is PAS 24. For the same house, a steel door is typically a full certification tier above the composite equivalent.</p>
+          </div>
+          <div>
+            <h3 className="text-lg font-medium text-dark mb-2">Do steel doors last longer than composite doors?</h3>
+            <p className="text-dark/80">Yes. Steel: a 25 to 30 year service life with routine maintenance. Composite: a 10 to 15 year typical warranty. Composite GRP skins are subject to fading, cracking under thermal stress and delamination at the edges over time. Steel does not warp, swell, delaminate or fade in the way composite can. The finish is a UV-stable powder coat applied under factory conditions, not a pigmented GRP laminate.</p>
+          </div>
+          <div>
+            <h3 className="text-lg font-medium text-dark mb-2">Is steel or composite better value over 10 years?</h3>
+            <p className="text-dark/80">Composite wins on upfront cost. Steel wins on total cost of ownership across the full 25-year horizon. A composite door is lower initial cost. A steel door is higher initial cost and lower total cost of ownership because of the longer service life, lower maintenance requirement, and resistance to finish degradation. On a 10-year horizon the running costs favour steel. On a 25-year horizon the gap widens further, because a composite door will typically need replacement within that period while a steel door will not.</p>
+          </div>
+        </div>
+      </section>
+
       <InfoPage
         heroTitle="Steel vs Composite Front Doors"
         h1="Steel Front Door vs Composite — Honest UK Comparison"
