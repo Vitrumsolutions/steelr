@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 
 interface NavLink {
@@ -26,11 +27,19 @@ interface NavMobileMenuProps {
 // the hamburger interactive (so the user can still close the menu).
 export default function NavMobileMenu({ navLinks }: NavMobileMenuProps) {
   const [menuOpen, setMenuOpen] = useState(false);
+  // Portal target. createPortal needs document.body which is only available
+  // after client-side hydration. SSR renders the hamburger but not the
+  // overlay; the overlay portal-mounts in the first client effect.
+  const [mounted, setMounted] = useState(false);
 
   // Refs for focus management when the mobile menu opens/closes.
   const hamburgerRef = useRef<HTMLButtonElement>(null);
   const firstMenuLinkRef = useRef<HTMLAnchorElement>(null);
   const prevMenuOpenRef = useRef(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (menuOpen) {
@@ -94,6 +103,103 @@ export default function NavMobileMenu({ navLinks }: NavMobileMenuProps) {
     return () => window.removeEventListener("keydown", onKey);
   }, [menuOpen]);
 
+  // Overlay JSX, extracted so it can be portaled to document.body. Portaling
+  // is necessary because <Nav> is a position:fixed element that, on Chromium
+  // and iOS Safari, establishes a containing block for the overlay despite
+  // the overlay also being position:fixed. Without portaling, the overlay
+  // renders constrained to the nav's bounds on inner pages (~160px tall)
+  // instead of full viewport. Portaling to body removes the nav from the
+  // ancestor chain so the overlay's `inset: 0` pins to the actual viewport.
+  //
+  // Layout history (overlay JSX itself):
+  //  - Original: `justify-center` with paddingTop:96 to clear the fixed nav.
+  //    Worked while menu had 8 items.
+  //  - 2026-05-10: added 9th "Specifiers" item in commit 2979e07. On
+  //    iPhone SE class viewports (375x667) the 9 items + gaps + tel CTA
+  //    total ~574px content but only ~507px is available after the
+  //    top/bottom padding. With `justify-center`, centring overflowed
+  //    content upward — first item (Collection) was clipped behind the
+  //    fixed nav band.
+  //  - 2026-05-11 fix: `justify-start sm:justify-center` so small
+  //    viewports start the menu at the top (just below the nav), tablets
+  //    keep the centred look. `overflow-y-auto` allows scroll if content
+  //    still overflows. Tightened gap and tel-CTA margin on small to
+  //    reclaim ~56px while keeping desktop tablet aesthetic.
+  //  - 2026-05-25: portaled to document.body to escape the nav containing
+  //    block. Same commit removed the gold focus-visible outline on Links
+  //    (visual artefact on programmatic focus when menu opens).
+  const overlay = (
+    <div
+      id="mobile-menu-overlay"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Mobile menu"
+      aria-hidden={!menuOpen}
+      className="fixed inset-0 z-40 flex flex-col items-center justify-start sm:justify-center overflow-y-auto transition-opacity duration-500 lg:hidden"
+      onClick={() => setMenuOpen(false)}
+      style={{
+        background: "#0a0a09",
+        opacity: menuOpen ? 1 : 0,
+        pointerEvents: menuOpen ? "auto" : "none",
+        paddingTop: "96px",
+        paddingBottom: "64px",
+        // iOS Safari fix. Without these, the outer div's onClick (close-on-
+        // backdrop-tap) causes iOS to treat the whole overlay as needing a
+        // hover-then-click sequence. The first tap on any descendant Link
+        // gets consumed by iOS hover-state simulation; the second tap fires
+        // the click. cursor:pointer tells iOS the element is click-targetable
+        // (skips hover delay). touch-action:manipulation skips the 300ms
+        // double-tap-zoom detection window.
+        cursor: "pointer",
+        touchAction: "manipulation",
+      }}
+    >
+      <div
+        className="flex flex-col items-center gap-4 sm:gap-8"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {navLinks.map((link, i) => (
+          <Link
+            key={link.href}
+            ref={i === 0 ? firstMenuLinkRef : undefined}
+            href={link.href}
+            onClick={() => setMenuOpen(false)}
+            tabIndex={menuOpen ? 0 : -1}
+            className="transition-opacity duration-300 focus-visible:outline-none"
+            style={{
+              fontFamily:
+                "var(--font-display), 'Cormorant Garamond', serif",
+              fontWeight: 300,
+              fontSize: 26,
+              color: "#f5f0e8",
+              letterSpacing: "0.05em",
+              opacity: menuOpen ? 1 : 0,
+              transform: menuOpen ? "translateY(0)" : "translateY(20px)",
+              transitionDelay: menuOpen ? `${i * 80}ms` : "0ms",
+            }}
+          >
+            {link.label}
+          </Link>
+        ))}
+        <a
+          href="tel:08008611450"
+          aria-label="Call SteelR on 0800 861 1450"
+          tabIndex={menuOpen ? 0 : -1}
+          className="mt-6 sm:mt-12 focus-visible:outline-none"
+          style={{
+            fontFamily: "var(--font-body), Montserrat, sans-serif",
+            fontWeight: 300,
+            fontSize: 16,
+            letterSpacing: "0.15em",
+            color: "#c9a96e",
+          }}
+        >
+          0800 861 1450
+        </a>
+      </div>
+    </div>
+  );
+
   return (
     <>
       <button
@@ -134,92 +240,7 @@ export default function NavMobileMenu({ navLinks }: NavMobileMenuProps) {
         />
       </button>
 
-      {/* Mobile overlay
-       *
-       * Layout history:
-       *  - Original: `justify-center` with paddingTop:96 to clear the fixed nav.
-       *    Worked while menu had 8 items.
-       *  - 2026-05-10: added 9th "Specifiers" item in commit 2979e07. On
-       *    iPhone SE class viewports (375x667) the 9 items + gaps + tel CTA
-       *    total ~574px content but only ~507px is available after the
-       *    top/bottom padding. With `justify-center`, centring overflowed
-       *    content upward — first item (Collection) was clipped behind the
-       *    fixed nav band.
-       *  - 2026-05-11 fix: `justify-start sm:justify-center` so small
-       *    viewports start the menu at the top (just below the nav), tablets
-       *    keep the centred look. `overflow-y-auto` allows scroll if content
-       *    still overflows. Tightened gap and tel-CTA margin on small to
-       *    reclaim ~56px while keeping desktop tablet aesthetic.
-       */}
-      <div
-        id="mobile-menu-overlay"
-        role="dialog"
-        aria-modal="true"
-        aria-label="Mobile menu"
-        aria-hidden={!menuOpen}
-        className="fixed inset-0 z-40 flex flex-col items-center justify-start sm:justify-center overflow-y-auto transition-opacity duration-500 lg:hidden"
-        onClick={() => setMenuOpen(false)}
-        style={{
-          background: "#0a0a09",
-          opacity: menuOpen ? 1 : 0,
-          pointerEvents: menuOpen ? "auto" : "none",
-          paddingTop: "96px",
-          paddingBottom: "64px",
-          // iOS Safari fix. Without these, the outer div's onClick (close-on-
-          // backdrop-tap) causes iOS to treat the whole overlay as needing a
-          // hover-then-click sequence. The first tap on any descendant Link
-          // gets consumed by iOS hover-state simulation; the second tap fires
-          // the click. cursor:pointer tells iOS the element is click-targetable
-          // (skips hover delay). touch-action:manipulation skips the 300ms
-          // double-tap-zoom detection window.
-          cursor: "pointer",
-          touchAction: "manipulation",
-        }}
-      >
-        <div
-          className="flex flex-col items-center gap-4 sm:gap-8"
-          onClick={(e) => e.stopPropagation()}
-        >
-          {navLinks.map((link, i) => (
-            <Link
-              key={link.href}
-              ref={i === 0 ? firstMenuLinkRef : undefined}
-              href={link.href}
-              onClick={() => setMenuOpen(false)}
-              tabIndex={menuOpen ? 0 : -1}
-              className="transition-opacity duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9a96e]"
-              style={{
-                fontFamily:
-                  "var(--font-display), 'Cormorant Garamond', serif",
-                fontWeight: 300,
-                fontSize: 26,
-                color: "#f5f0e8",
-                letterSpacing: "0.05em",
-                opacity: menuOpen ? 1 : 0,
-                transform: menuOpen ? "translateY(0)" : "translateY(20px)",
-                transitionDelay: menuOpen ? `${i * 80}ms` : "0ms",
-              }}
-            >
-              {link.label}
-            </Link>
-          ))}
-          <a
-            href="tel:08008611450"
-            aria-label="Call SteelR on 0800 861 1450"
-            tabIndex={menuOpen ? 0 : -1}
-            className="mt-6 sm:mt-12 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9a96e]"
-            style={{
-              fontFamily: "var(--font-body), Montserrat, sans-serif",
-              fontWeight: 300,
-              fontSize: 16,
-              letterSpacing: "0.15em",
-              color: "#c9a96e",
-            }}
-          >
-            0800 861 1450
-          </a>
-        </div>
-      </div>
+      {mounted && createPortal(overlay, document.body)}
     </>
   );
 }
