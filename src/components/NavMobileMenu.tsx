@@ -165,6 +165,15 @@ export default function NavMobileMenu({ navLinks }: NavMobileMenuProps) {
           pointerEvents: menuOpen ? "auto" : "none",
           paddingTop: "96px",
           paddingBottom: "64px",
+          // iOS Safari fix. Without these, the outer div's onClick (close-on-
+          // backdrop-tap) causes iOS to treat the whole overlay as needing a
+          // hover-then-click sequence. The first tap on any descendant Link
+          // gets consumed by iOS hover-state simulation; the second tap fires
+          // the click. cursor:pointer tells iOS the element is click-targetable
+          // (skips hover delay). touch-action:manipulation skips the 300ms
+          // double-tap-zoom detection window.
+          cursor: "pointer",
+          touchAction: "manipulation",
         }}
       >
         <div
