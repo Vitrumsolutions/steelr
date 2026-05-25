@@ -1,72 +1,67 @@
 # SteelR — STATE
 
-**Last updated:** 2026-05-25 (evening — burger UX fix shipped + Week 1.5 bundle held for 2026-05-31)
+**Last updated:** 2026-05-25 (end of day — full Week 1.5 bundle shipped, 4 commits live)
 **Priority:** P0
-**HEAD:** `14dd99a` (`fix(nav): portal mobile menu overlay to document.body; drop gold focus outline`)
+**HEAD:** `512e6fc` (`feat(hub): /insurance-approved-steel-front-doors-uk + OG hygiene on 3 layouts`)
 
 ---
 
 ## Where I left off
 
-**Two iOS Safari mobile-menu bugs fixed and deployed.** Reported by Mani on real iPhone testing.
+**Full day's work shipped. 4 commits live on production.** End-of-day signal received from Mani at ~22:00 UK.
 
-1. **Hover-tap delay on Links** (commit `a999b4d`, deployed 21:04 UK). Tapping a Link inside the open burger required two taps. Root cause: outer overlay `<div>` had `onClick` to close on backdrop tap, which on iOS Safari caused descendants to require a hover-state-confirm tap before click. Fix: `cursor:pointer` + `touch-action:manipulation` on overlay div. CSS only. iPhone-verified working.
+| Commit | Topic | Live at |
+|---|---|---|
+| `a999b4d` | iOS Safari hover-tap delay fix (burger Links accept single tap) | 21:04 UK |
+| `14dd99a` | Portal mobile menu overlay to body + remove gold focus outline (fixes 160px clip on inner pages + cheap-looking border) | 21:23 UK |
+| `4971b5e` | STATE.md mid-session refresh | 21:30 UK |
+| `512e6fc` | HNW insurance-approved hub page + OG hygiene on 3 layouts (collection, sidelights, design-estimate) | ~22:00 UK |
 
-2. **Dialog clipped to 160px on inner pages** (commit `14dd99a`, deployed 21:23 UK). Tap burger on /collection after navigating from homepage, only the first link showed plus a small dark band. Root cause: overlay rendered inside `<nav>` (position:fixed, 84.8px). Chromium attributes the containing block to the nearest position:fixed ancestor, so the overlay's `inset:0` collapsed to nav bounds rather than viewport. Fix: portal the overlay JSX to `document.body` via `createPortal`. Same commit removed the gold `focus-visible:outline-[#c9a96e]` ring on each Link (Mani: "looks cheap"). iPhone-verified working.
+iPhone-verified by Mani: both burger fixes working. HNW page verified live via Bash curl + iPhone UA + Vercel MCP `get_deployment` READY.
 
-**Week 1 visibility recovery plan still in place.** Yesterday's 7 commits (Task 1-6) live. Task 7 measurement gate scheduled 2026-05-31.
-
-**Investigation diversion this session.** Mani flagged a parallel-session "website + speed" worry. Cross-referenced with the 20 May perf-commit cluster (Nav split, AVIF hero, framer-motion defer, cache headers): each clean, reviewed, no ranking-mechanism risk, not the cause of any visibility decline. The "decline" narrative itself partially rests on the 24 May firecrawl Round 5 where 4/5 location queries were geo-broken (US results). The dramatic-decline framing should be retired.
+**No held uncommitted work.** The 2026-05-31 measurement-gate hold was lifted mid-session — Mani directed ship-now after the HNW page rewrite (which addressed all 4 fact-check questions answered "no" + the CPA insurance-backed guarantee added as the real-world replacement spine).
 
 ---
 
-## Next action
+## Next action (resume tomorrow)
 
-1. **2026-05-31 ship bundle** — push the held changes after Task 7 capture lands. Three items:
-   - 3 layout.tsx OG hygiene fixes: `/collection`, `/collection/sidelights`, `/design-estimate` (each missing `openGraph` + `twitter` blocks; inner pages currently inherit homepage OG)
-   - HNW insurance page at `/insurance-approved-steel-front-doors-uk` (515 lines, full InfoPage + Speakable + audience schema, sitemap entry queued)
-   - Sitemap.ts entry for HNW page
-2. **Task 7 (2026-05-31)** — `node scripts/audit/capture-serp.mjs post-week1`, compute deltas vs pre-week1, write delta.md, attribute movements. Measurement gates Week 2 scope.
-3. **4 fact-check answers pending from Mani** before HNW page ships:
-   - ISO 14001 — does SteelR hold it? (CLAUDE.md only documents ISO 9001)
-   - Made in Britain Marque membership — actual scheme membership?
-   - Single PDF certification pack — exists today as a deliverable? Load-bearing across the whole HNW page
-   - On-site installation certificate — issued by install team on completion?
-4. **Cost-page diagnostic** — explicitly downgraded by Mani this session. NOT a priority. The page has a structural brand-policy blocker (no displayed prices) and the named open gaps (HNW vs Henleys, heritage vs Multisteel) are bigger leverage. Re-prioritise only if Task 7 shows broad authority movement.
+1. **Test the burger on real iPhone** if not already done after the bundle commit deploy. Both fixes are live (`a999b4d`, `14dd99a`); Mani confirmed working earlier in the session but only on the pre-bundle deploys. The 512e6fc bundle did not touch NavMobileMenu, so behaviour should be identical, but a quick smoke-test before any further work is sensible.
+2. **HNW page Indexing API submit** to accelerate Google crawl (it's in sitemap.xml but a direct submit gets it queued faster). Script at `vitrums/audit-data/submit_indexing.py --site=steelr` with the URL queued in `gsc-indexing-tracker-steelr.json`. ~5 min.
+3. **Task 7 SERP capture** scheduled 2026-05-31 — `node scripts/audit/capture-serp.mjs post-week1`. Compute deltas vs pre-week1 across the 20-query measurement set; write delta.md; attribute movements. Six days from now.
+4. **HNW + heritage rank tracking add-ons** — add `steel front door for high net worth home uk` and `steel front door for grade ii listed home uk` to the Task 7 query set so HNW + heritage pages get a baseline-and-track pair from launch.
 
 ---
 
 ## Blockers
 
-- 4 HNW fact-check questions await Mani's answer (see Next action #3)
-- Task 7 measurement window does not open until 2026-05-31
+None.
 
 ---
 
-## Recent wins (25 May 2026 — burger UX + HNW page draft)
+## Recent wins (25 May 2026 — full session)
 
-- **iOS Safari hover-tap fix** — commit `a999b4d` (`fix(nav): iOS Safari hover-tap delay on mobile menu links`). 2 CSS properties on overlay. Verified live via curl + iPhone UA: inline style includes `cursor:pointer;touch-action:manipulation`. iPhone-confirmed by Mani.
-- **Portal refactor + gold outline removed** — commit `14dd99a` (`fix(nav): portal mobile menu overlay to document.body; drop gold focus outline`). Overlay portal-mounts to body after hydration. `firstMenuLinkRef.current?.focus()` still works (refs cross portals). Dialog now 812×375 on /collection (was 160×375). Verified live: dialog parent is `<body>`, dialog height matches viewport. iPhone-confirmed by Mani.
-- **HNW insurance-approved page drafted** — `src/app/insurance-approved-steel-front-doors-uk/page.tsx` (515 lines, ~2,400 reader-facing words). Targets the open SERP slot `steel front door for high net worth home uk` (Henleys #1 with B2B safe-room angle). Net-new intent: insurer-specification compliance for the front entrance door. 3 JSON-LD blocks (Breadcrumb, WebPage with Speakable + audience, FAQPage). Quick Answer section + 5 sections + cert-pack bullet list + 5 FAQs + 6 whyConsider items. Build + brand-guard PASS. Held uncommitted pending Mani's 4 fact-check answers.
-- **3 adversarial reviews on HNW page** — fact-check-gate flagged 4 unsourced claims for Mani confirmation (ISO 14001, Made in Britain Marque, cert pack PDF, install certificate). copy-editor flagged 4 line-level fixes (cheap → straightforward; en-dash; weak modal; AI hedge). deep-reviewer PASS with caveats: recommended structural reorder of "What this page is not" to position 2, soften the underwriter-pattern claim, separate sum-insured bands from threat-profile triggers, add "At claim time" section.
-- **Diagnostic cross-reference with parallel session findings.** SteelR-specific: 3 of 43 pages affected by OG-inheritance bug (/collection, /collection/sidelights, /design-estimate). 33 pages already have own openGraph blocks. Dynamic routes (`/blog/[slug]`, `/areas/[slug]`, `/collection/[slug]`) all clean via generateMetadata. Refuted: "no schema markup" (homepage has FAQPage + HomeAndConstructionBusiness live). Refuted: "duplicate nav is a bug" (standard `lg:hidden` Tailwind pattern). Refuted: "decline caused by 20 May perf cluster" (perf commits clean, reviewed, SSR-equivalent).
-- **Memory drift logged.** `feedback_commit-and-push.md` repeat_count 0 → 1 (today: "applied" language misled user into testing production where uncommitted code still ran). `feedback_how_is_relevant.md` repeat_count 0 → 1 (proposed 2-3hr cost-page forensic citing STATE.md "Immediate" label instead of cross-referencing against the data findings I had surfaced in the same response).
+- **iOS Safari hover-tap fix** — commit `a999b4d`. 2 CSS properties on overlay (cursor:pointer + touch-action:manipulation). User-reported, iPhone-verified working.
+- **Portal refactor + gold outline removed** — commit `14dd99a`. Overlay portal-mounts to body, escaping the nav containing block. Dialog now 812×375 on /collection (was 160×375). Gold focus ring removed.
+- **HNW insurance-approved page (v2)** — commit `512e6fc`. 592 lines, ~2,700 reader-facing words. Targets the open SERP slot `steel front door for high net worth home uk`. **v1 draft scrapped** after Mani's "no to all 4" answers on the fact-check questions. **v2 spine** is the chain of independent records the underwriter verifies (LPCB Red Book, SBD member directory, BSI register, FCA register for CPA Consumer Guard Ltd) plus CPA insurance-backed guarantee for supplier-stability cover. CPA facts verified live against thecpa.co.uk via firecrawl scrape. 8-section structure: Quick Answer → certifications → "what this page is not" (moved to position 2 per deep-reviewer) → four-tier ladder with separated sum-insured/threat-profile triggers → independent verification → CPA IBG (FCA-regulated) → at claim time → broker conversation.
+- **OG hygiene on 3 layouts** — same commit. `/collection`, `/collection/sidelights`, `/design-estimate` each get `openGraph` + `twitter` blocks mirroring existing title/description/canonical. Closes the inner-page OG inheritance bug surfaced by Mani's parallel-session audit.
+- **Diagnostic cross-reference with parallel-session findings.** Refuted three claims (no schema, duplicate nav bug, perf-cluster cause of decline). Confirmed two (OG inheritance on 3 pages, real burger bug). Quantified the visibility-decline impact of the 20 May perf cluster as ~zero.
+- **Memory drift logged this session** — 3 repeats, 1 new memory:
+  - `feedback_commit-and-push.md` repeat 0 → 2 (mid-session: "applied" misled user; later cross-session: parallel session ran `git reset --hard` on shared main while I held pushable work)
+  - `feedback_how_is_relevant.md` repeat 0 → 1 (proposed 2-3hr cost-page forensic citing STATE.md "Immediate" label instead of the diagnostic findings)
+  - `feedback_supply_windows_dormant.md` repeat 0 → 1 (Mani reinforced: never use "Supply Windows" anywhere; main company is Vitrum Solutions)
+  - `feedback_invented-cert-pack.md` NEW (drafted HNW v1 asserting ISO 14001, Made in Britain Marque, PDF cert pack, install certificate — all four false. Extends four_times_cheaper rule to deliverables and scheme memberships.)
 
 ---
 
 ## Key files
 
-### This session's artifacts (committed and live)
-- `src/components/NavMobileMenu.tsx` — portal refactor + outline-none. Hamburger stays in `<nav>`; overlay portal-mounts to `document.body`. Commits `a999b4d` + `14dd99a`.
+### Live (all 4 of today's commits pushed to origin/main)
+- `src/components/NavMobileMenu.tsx` — portal refactor + outline-none + iOS tap fix
+- `src/app/insurance-approved-steel-front-doors-uk/page.tsx` — HNW hub, v2 (CPA IBG spine, 8 sections, Speakable schema)
+- `src/app/collection/layout.tsx`, `/collection/sidelights/layout.tsx`, `/design-estimate/layout.tsx` — openGraph + twitter blocks added
+- `src/app/sitemap.ts` — HNW entry at priority 0.9
 
-### This session's artifacts (uncommitted, held for 2026-05-31)
-- `src/app/insurance-approved-steel-front-doors-uk/page.tsx` — HNW insurance page (515 lines, draft 1, awaits Mani's 4 fact-check answers)
-- `src/app/collection/layout.tsx` — added openGraph + twitter blocks
-- `src/app/collection/sidelights/layout.tsx` — added openGraph + twitter blocks
-- `src/app/design-estimate/layout.tsx` — added openGraph + twitter blocks
-- `src/app/sitemap.ts` — added HNW page entry at priority 0.9 next to luxury sibling
-
-### Operational notes
-- **Mobile UX fixes are isolated** from the 2026-05-31 measurement ship gate. They were UX hotfixes (no ranking implication) so were correctly decoupled. The 2026-05-31 hold applies only to ranking-sensitive content edits.
-- **Vercel deploy verified** via `mcp__2420f6ab-...__get_deployment` + Bash curl with iPhone UA. Avoid Playwright snapshots alone — the completion-gate hook does not currently recognise MCP tool outputs as verification; use Bash/WebFetch for proof claims.
-- **Held bundle ships 2026-05-31** in one commit alongside the Task 7 capture commit. Sequence: Task 7 capture script → delta.md → bundle commit (OG + HNW) → push.
+### Operational
+- **Vercel deploy verification protocol:** Vercel MCP `get_deployment` for READY state + Bash curl with iPhone UA for live HTML inspection. Playwright accessibility snapshots alone do not satisfy the completion-gate hook (use Bash/WebFetch for proof claims).
+- **CPA facts source-of-truth:** thecpa.co.uk verified via firecrawl 2026-05-25. FCA-regulated as appointed representative of CPA Consumer Guard Ltd. IBG covers manufacturer's written guarantee up to 10 years. Deposit protection capped at 25% / £7,500 — page deliberately does NOT surface the cap per Mani's direction.
+- **Vitrum Solutions Ltd** is the trading entity for both SteelR and Vitrums. Never use "Supply Windows" anywhere. Reinforced rule in `feedback_supply_windows_dormant.md` repeat:1.
