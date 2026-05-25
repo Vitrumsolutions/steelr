@@ -7,6 +7,21 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://steelr.co.uk/collection",
   },
+  openGraph: {
+    title: "Bespoke Steel Door Collection | RC4 + LPS 1175 | SteelR",
+    description:
+      "Browse SteelR bespoke steel front doors. PAS 24, BS EN 1627 RC4, LPS 1175 SR3/SR4 + LPS 1673 available. Secured by Design. UK install.",
+    url: "https://steelr.co.uk/collection",
+    type: "website",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bespoke Steel Door Collection | RC4 + LPS 1175 | SteelR",
+    description:
+      "Browse SteelR bespoke steel front doors. PAS 24, BS EN 1627 RC4, LPS 1175 SR3/SR4 + LPS 1673 available. Secured by Design. UK install.",
+    images: ["/og-image.png"],
+  },
 };
 
 // BreadcrumbList is intentionally NOT emitted here. This layout wraps

@@ -7,6 +7,21 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://steelr.co.uk/collection/sidelights",
   },
+  openGraph: {
+    title: "Steel Doors with Sidelights | Bespoke | SteelR",
+    description:
+      "SteelR bespoke steel front doors with sidelights. Single, double, glazed and panelled configurations. PAS 24, BS EN 1627 RC4, LPS 1175 SR3/SR4 available.",
+    url: "https://steelr.co.uk/collection/sidelights",
+    type: "website",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Steel Doors with Sidelights | Bespoke | SteelR",
+    description:
+      "SteelR bespoke steel front doors with sidelights. Single, double, glazed and panelled configurations. PAS 24, BS EN 1627 RC4, LPS 1175 SR3/SR4 available.",
+    images: ["/og-image.png"],
+  },
 };
 
 const breadcrumbSchema = JSON.stringify({

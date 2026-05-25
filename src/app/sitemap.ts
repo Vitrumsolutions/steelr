@@ -133,6 +133,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/insurance-approved-steel-front-doors-uk`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/heritage-steel-front-doors-uk`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,

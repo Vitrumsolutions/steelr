@@ -7,6 +7,21 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://steelr.co.uk/design-estimate",
   },
+  openGraph: {
+    title: "Design & Estimate | Get a Quote for Your Steel Door | SteelR",
+    description:
+      "Use our online design tool to specify your bespoke steel entrance door and receive a tailored estimate. Free, no obligation.",
+    url: "https://steelr.co.uk/design-estimate",
+    type: "website",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Design & Estimate | Get a Quote for Your Steel Door | SteelR",
+    description:
+      "Use our online design tool to specify your bespoke steel entrance door and receive a tailored estimate. Free, no obligation.",
+    images: ["/og-image.png"],
+  },
 };
 
 const breadcrumbSchema = JSON.stringify({
