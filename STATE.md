@@ -1,37 +1,52 @@
 # SteelR — STATE
 
-**Last updated:** 2026-05-26 (evening — 7 commits + brand-honesty sweep + llms panel approval)
+**Last updated:** 2026-05-26 (late evening — home-address removal sweep + downstream audit)
 **Priority:** P0
-**HEAD:** `5779223` (`docs(llms): remove ISO 14001 + Made in Britain Marque false claims + dead /design-estimate URLs`)
+**HEAD:** `3d470c8` (`fix: remove home address from all SteelR public surfaces`)
 
 ---
 
 ## Where I left off
 
-**Forms-and-honesty consolidation sprint shipped. 7 commits live on production.** Triggered by Mani's morning report after receiving a real estimate submission with two complaints (too many fields, email goes to supplywindows.co.uk inbox). Scope expanded into a full brand-honesty sweep when the deep-reviewer + security-auditor panel surfaced an XSS in the estimate route, the cert-pack invented claims propagated across 13 source files, and the llms files carried the same false claims.
+**Home address removal completed and live across SteelR public surfaces.** Triggered by Mani's correction "i asked it not to put on there as it is my home address" after the schema-completeness-gate (built earlier the same session) flagged Vitrums for missing `address.streetAddress`. The flag was technically correct vs Google's rich-result rules but wrong vs Mani's privacy policy. Investigation revealed Vitrums was working as designed (intentional locality+postcode-only entity-reconciliation per `vitrums/CLAUDE.md:362-365`) but **SteelR was leaking the full home address `11 Silverbirch Close, Uxbridge UB10 8AP` across schema, body copy, llms files, watcher config, and project doc on every page**.
 
-| Commit | Topic | Live at |
-|---|---|---|
-| `13f4ace` | Add optional Message textarea to QuickEnquiry across 288 pages | ~18:30 UK |
-| `6506fb1` | /api/contact `to:` → info@steelr.co.uk + `reply_to` with `safeReplyTo()` CWE-93 validation | ~18:45 UK |
-| `b051039` | Kill /design-estimate (4-step / 19-field form), 301 to /contact, remove /api/estimate route | ~19:00 UK |
-| `9ce2d6d` | Add CPA insurance-backed guarantee trust block to /contact left column (SVG copied from vitrums) | ~19:15 UK |
-| `914d6a5` | Brand-honesty sweep: remove ISO 14001 + Made in Britain Marque/certified/Campaign false claims across 9 source files | ~19:45 UK |
-| `473be18` | Add CredentialsStrip below hero on /contact (safe now that ISO 14001 false claim is gone) | ~19:55 UK |
-| `5779223` | /panel-llms-approved cleanup: remove ISO 14001 + Made in Britain Marque + /design-estimate refs from llms.txt + llms-full.txt | ~20:30 UK |
+**Fix shipped via PR #4 squash-merged to main:**
 
-All verified live via Bash curl + iPhone UA. Production checks: 0 ISO 14001, 0 Made in Britain Marque/certified, 0 /design-estimate refs across llms files; /contact serves CredentialsStrip with corrected "UK Manufactured" + "ISO 9001"; homepage Organization schema no longer claims false certifications.
+| File | Change |
+|---|---|
+| `src/app/layout.tsx` | JSON-LD `HomeAndConstructionBusiness` `PostalAddress` block replaced with Companies House registered office `2nd Floor, Premier House, 309 Ballards Lane, London N12 8LY` (Vitrum Solutions Ltd, company no. 14790315); `geo` block (Uxbridge home coords) removed |
+| `src/app/ai-answers/page.tsx` | 3 Q&A body lines rewritten — drop the precise home address from AI-engine consumed content |
+| `public/llms.txt` | 4 lines rewritten — "Uxbridge UB10 8AP" / "Uxbridge UB10 workshop" → "West London" / "from our West London workshop" |
+| `public/llms-full.txt` | 2 lines rewritten same way |
+| `scripts/watchers/config.mjs` | 2 canary form payloads updated to `N12 8LY` |
+| `CLAUDE.md:413` | Rewritten to document the new policy + link to `~/.claude/projects/C--Users-SOT-Documents-Projects/memory/feedback_no-home-address.md` |
 
-**Codebase shrinkage today:** ~1,000 line deletions vs ~150 insertions. Two API routes consolidated to one (/api/estimate deleted). Three forms convergent on the proven /contact + QuickEnquiry pattern.
+**Verification before merge:**
+- `npm run build` exit 0
+- `grep -rln "Silverbirch\|UB10 8AP\|51.5513" .next/server` → 0 matches
+- `schema-completeness-gate` against 7 rebuilt pages: 14 PASS / 0 FAIL / 2 unchecked-type
+- Brand-guard PASS (with `[allow-price]` for 2 pre-existing non-blocking PRICE hits)
+- llms-panel-check PASS (SHA-bound marker, inline panel synthesis — no Serper credits)
+
+**Post-merge verification (live curl):**
+- 8 sampled pages all show `postalCode: "N12 8LY"` in schema
+- llms.txt + llms-full.txt: 0 UB10 8AP matches live
+- 25 top URLs pushed to Google Indexing API (25/25 OK)
+- 25 top URLs pinged via Bing IndexNow (25/25 to Bing + Yandex + Seznam)
+
+**Memory:** New file `feedback_no-home-address.md` logged with `repeat_count: 0`. Index updated.
 
 ---
 
 ## Next action
 
-1. **Test the estimate→contact path on Mani's iPhone.** New flow: any QuickEnquiry submission now lets the buyer leave a free-text message. Any /contact submission sets `reply_to: <customer email>` so clicking reply goes to the customer (not the noreply send-only inbox). The notification `to:` is now info@steelr.co.uk (still routes to the same mailbox via the Workspace alias).
-2. **Add /insurance-approved-steel-front-doors-uk to llms.txt + llms-full.txt** in a separate /panel-llms cycle. The HNW page shipped yesterday is currently absent from the AI-citation crawl surface — flagged by cannibalisation-auditor in today's panel. Net-new content, needs its own panel gate. Scope: 1 entry in llms.txt Key Pages list + 1 paragraph summary in llms-full.txt Topic Pages section.
-3. **Resolve /sr4-residential-steel-door ↔ /sr3-vs-sr4-residential-steel-doors-uk 21.9% body overlap** flagged in today's cannibalisation audit. Real cannibalisation. Unrelated to today's commits. Two paths: (a) angle-shift the comparison page to "SR3 vs SR4 — when to upgrade" decision-tree only, stripping the SR4 spec section that duplicates the hub; (b) leave as-is and accept the overlap. Recommend (a) but defer to Mani.
-4. **Top up Serper credits.** Visibility-audit-runner reported 4 consecutive blocked runs. Without Serper, the rank-tracking pipeline is stuck on the firecrawl-only fallback.
+1. **GBP decision — only remaining public exposure of home address.** Per `audit-data/directory-address-audit-20260526.md`, the SteelR Google Business Profile still publicly displays `11 Silver Birch Cl, Ickenham, Uxbridge UB10 8AP` (verified via Google Maps card SERP capture 2026-05-26). Three options laid out in the audit doc:
+   - (a) leave alone — SteelR has 0 GMB reviews and is 0/11 on Maps, practical harm near zero
+   - (b) update GBP to N12 8LY — triggers postcard re-verification to accountant, restores full consistency, 1-2 weeks
+   - (c) hide address — convert GBP from store-type to service-area-business listing, keeps Maps presence without publishing any street
+2. **Google AI Overview cached answer** still says "headquartered and manufactures at 11 Silverbirch Close..." — will self-heal after Google re-crawls the Indexing-API-pushed pages within 24-72h. No action needed; monitor via spot-check next week.
+3. **Test the estimate→contact path on Mani's iPhone** (carried forward from earlier session). New flow: any QuickEnquiry submission lets the buyer leave a free-text message. Any /contact submission sets `reply_to: <customer email>` so clicking reply goes to the customer.
+4. **Top up Serper credits.** Visibility-audit-runner reported 4 consecutive blocked runs (earlier session finding). Rank-tracking pipeline is stuck on firecrawl-only fallback until topped up.
 5. **Task 7 SERP capture** scheduled 2026-05-31. `node scripts/audit/capture-serp.mjs post-week1`. Five days from now.
 
 ---
@@ -42,55 +57,59 @@ None.
 
 ---
 
-## Recent wins (26 May 2026 — full session)
+## Recent wins (26 May 2026 — late evening, address sweep)
 
-- **Forms convergence.** Three forms on the site are now two. ContactForm at /contact (full, name+phone required + everything optional + file upload + message) and QuickEnquiry inline (now also with message textarea + file upload). Same doctrine across both. /design-estimate's 4-step / 19-field interrogation form deleted and 301'd to /contact.
-- **Email routing fix.** Notification `to:` changed to info@steelr.co.uk (cosmetic — still the same inbox via Workspace alias). Reply-to now set to customer's email via `safeReplyTo()` helper (RFC 5321 validation + CRLF strip + 254-char cap). Operator now clicks reply on the notification and the email goes to the customer instead of bouncing to noreply.
-- **XSS finding closed.** Security-auditor flagged the estimate route's raw HTML interpolation (CWE-79) on Mani's mail client. The /api/estimate route is now deleted entirely — the surviving /api/contact route already had escapeHtml + stripCrlf + length caps.
-- **Brand-honesty sweep.** Removed ISO 14001 (13 source-code locations including homepage Organization schema's hasCredential array) and Made in Britain Marque / certified / Campaign (5 source + 1 memberOf schema entry) — all false per the 25 May fact-check. Replaced with "UK Manufactured" or "ISO 9001" as appropriate. Blog posts were clean of these claims (only topic-hub and component-level).
-- **CPA insurance-backed guarantee trust block on /contact.** Logo copied from vitrums/public/images/accreditations/cpa.svg. Cream-tinted block with one-line caption ("Your deposit and the manufacturer warranty are protected through the Consumer Protection Association insurance-backed guarantee, FCA-regulated"). Tasteful, on-brand. Same scheme verified live against thecpa.co.uk yesterday.
-- **CredentialsStrip on /contact.** Dark band of 8 certifications (PAS 24, RC4, SR3/SR4, LPS 1673, SBD, FD30S/FD60, ISO 9001, UK Manufactured) below the hero. Required the brand-honesty sweep first since the strip previously claimed ISO 14001 falsely.
-- **llms files cleaned through /panel-llms gate.** 4-agent panel ran (visibility-audit-runner, cannibalisation-auditor, research-scout, deep-reviewer). All 4 APPROVE; deep-reviewer flagged 3 mechanical errors I introduced (one self-contradictory "ISO 9001 + environmental management" residue, one tautological "Alternatively use the form" sentence, two leftover "Design and Estimate" labels mismatching the /contact destination), all applied inline before approval. User explicit approval ("yes proceed") triggered /panel-llms-approve and the SHA-bound marker.
-- **HNW page Indexing API submit (this morning).** Quick win before the consolidation work started. `/insurance-approved-steel-front-doors-uk` submitted to Google Indexing API. Tracker submitted count 331 → 332.
+- **Home address removed from every steelr.co.uk public surface.** Schema, body copy, llms files, watcher canary postcodes, project doc. PR #4 squash-merged as commit `3d470c8`.
+- **Replaced with Companies House registered office.** `2nd Floor, Premier House, 309 Ballards Lane, London N12 8LY` (Vitrum Solutions Ltd, company no. 14790315) — already public on Companies House so zero incremental privacy loss.
+- **Two new SEO-plumbing gate-keeper subagents written.** `~/.claude/agents/canonical-consistency-gate.md` (per-URL HTML canonical / og:url / schema url assertion against deployed URL) and `~/.claude/agents/schema-completeness-gate.md` (hard-coded Google rich-result required-field map, per-type per-block evidence table). Both passed kill-criteria tests against synthetic fixtures + live pages before adoption. Schema gate's first live run is what caught the Vitrums vs SteelR address asymmetry.
+- **Memory file logged:** `feedback_no-home-address.md` — covers the rule, the Vitrums vs SteelR asymmetry, acceptable substitutes (accountant's office / virtual office / no LocalBusiness block), unacceptable substitutes (home, family, supplier), and the gate-implication that `schema-completeness-gate` needs a future per-site `PRIVACY_EXCLUDED_FIELDS` config so Vitrums-style deliberate omissions don't false-fail.
+- **Directory-listing inventory shipped** as `audit-data/directory-address-audit-20260526.md`. Confirmed: SteelR brand is NOT registered on any of Yell / Houzz / MyBuilder / Checkatrade / Trustpilot / FMB / Cylex / Bark / TradeSupermarket / Which? Trusted Traders. Only public exposure remaining = GBP.
+- **Google Indexing API + Bing IndexNow accelerated re-crawl** on 25 top URLs immediately after deploy.
+
+## Earlier wins (26 May 2026 — daytime, forms-and-honesty sprint)
+
+- **Forms convergence.** Three forms on the site are now two. ContactForm at /contact (full, name+phone required + everything optional + file upload + message) and QuickEnquiry inline (now with message textarea + file upload). /design-estimate's 4-step / 19-field form deleted and 301'd to /contact.
+- **Email routing fix.** Notification `to:` changed to info@steelr.co.uk. Reply-to set to customer's email via `safeReplyTo()` helper (RFC 5321 validation + CRLF strip + 254-char cap).
+- **XSS finding closed.** Security-auditor flagged `/api/estimate` raw HTML interpolation (CWE-79). Route deleted entirely; surviving `/api/contact` already had escapeHtml + stripCrlf + length caps.
+- **Brand-honesty sweep.** Removed ISO 14001 (13 source-code locations including homepage Organization schema's hasCredential array) and Made in Britain Marque / certified / Campaign (5 source + 1 memberOf schema entry) — all false per 25 May fact-check. Replaced with "UK Manufactured" or "ISO 9001" as appropriate.
+- **CPA insurance-backed guarantee trust block on /contact + CredentialsStrip below hero.**
+- **llms files cleaned through /panel-llms gate** earlier in the day (full 4-agent panel run + user approval).
+- **/insurance-approved-steel-front-doors-uk added to llms.txt + llms-full.txt** (commit `db62a42`) and **/sr4-residential-steel-door angle-shift to decision-content** (commit `a5f6ff8`) — both since the earlier STATE.md snapshot.
 
 ---
 
 ## Key files
 
-### Live (7 commits pushed today, all verified on production)
+### Today's address-removal commit (`3d470c8`)
+- `src/app/layout.tsx` — JSON-LD PostalAddress + removed geo
+- `src/app/ai-answers/page.tsx` — body copy
+- `public/llms.txt` + `public/llms-full.txt` — Q&A + areas headers
+- `scripts/watchers/config.mjs` — canary postcodes
+- `CLAUDE.md` — line 413 policy doc
 
-- `src/components/QuickEnquiry.tsx` — Message textarea added
-- `src/app/api/contact/route.ts` — `safeReplyTo()` helper + `to:` swap to info@steelr.co.uk + replyTo header
-- `next.config.mjs` — /design-estimate 308 redirect to /contact added alongside cannibalisation cleanup redirects
-- `src/components/Nav.tsx` — "Get Estimate" nav link removed
-- `src/app/contact/page.tsx` — CPA IBG trust block + CredentialsStrip
-- `src/components/CredentialsBanner.tsx` — "ISO 9001 + ISO 14001" → "ISO 9001"; "Made in Britain" → "UK Manufactured"
-- `src/app/layout.tsx` — homepage Organization schema: 2 hasCredential entries deleted, 1 memberOf entry deleted, description text corrected
-- 6 topic-page .tsx files — ISO 14001 + Made in Britain certified text replacements
-- 17 blog posts — "[request an estimate](/design-estimate)" anchors → "[request a consultation](/contact)"
-- `public/llms.txt` + `public/llms-full.txt` — false-claim sweep + /design-estimate URL cleanup
-- `public/images/accreditations/cpa.svg` — new file, 7KB
+### Daytime sprint commits (7 commits, all on main)
+- See file list in Earlier wins section above
 
-### Deleted (3 files)
+### Audit + memory
+- `audit-data/directory-address-audit-20260526.md` — one-shot inventory of remaining home-address exposure across 10 UK directories + GBP + AI engines
+- `~/.claude/projects/C--Users-SOT-Documents-Projects/memory/feedback_no-home-address.md` — policy + Vitrums asymmetry + gate-implication
 
-- `src/app/design-estimate/page.tsx` (764 lines)
-- `src/app/design-estimate/layout.tsx` (50 lines)
-- `src/app/api/estimate/route.ts` (141 lines)
+### Subagents (workspace-global)
+- `~/.claude/agents/canonical-consistency-gate.md` — per-URL HTML/og/schema URL assertion vs deployed URL
+- `~/.claude/agents/schema-completeness-gate.md` — Google rich-result required-field assertion per @type
 
-### Memory updated
+### Watchers (live cron, post-edit)
+- `scripts/watchers/config.mjs` — `postcode: "N12 8LY"` on both canary payloads
+- `scripts/watchers/content-drift.mjs`, `psi-lighthouse.mjs`, `utils.mjs` — modified pre-this-session, NOT included in any of today's commits (left dirty in working tree by prior session)
 
-- `feedback_invented-cert-pack.md` (from 25 May) — covered the original cause that propagated to today's sweep
-- `feedback_supply_windows_dormant.md` — confirmed unchanged
+---
 
-### Operational notes
+## Open items at session end
 
-- **Pre-commit hook gate passed** for the llms commit: `.checks/llms-panel.json` SHA-bound to the committed content. If future llms edits land, the gate fires again. Marker location: `C:/Users/SOT/Documents/Projects/steelr/.checks/llms-panel.json`.
-- **Vercel auto-deploys** verified for all 7 commits. Build time per commit ~30-45 seconds.
-- **HNW page Indexing API submit** earlier today (06:30 UK). Tracker submittedLen 332. Crawl status not yet checked.
-
-### Flagged for tomorrow / next session
-
-1. Add /insurance-approved-steel-front-doors-uk to llms.txt + llms-full.txt (new /panel-llms cycle, content addition not removal)
-2. /sr4-residential-steel-door ↔ /sr3-vs-sr4-residential-steel-doors-uk cannibalisation (21.9% body overlap)
-3. Serper credits top-up
-4. Task 7 SERP capture on 2026-05-31
+- **GBP**: pick option (a) / (b) / (c) per audit doc
+- **AI Overview re-crawl**: spot-check Google AI Overview answer about SteelR HQ in 72h, expected to flip from "11 Silverbirch Close" to "West London" / N12
+- **Vitrums**: untouched per design intent; no work needed
+- **GlazingQuoter**: parked per "not on radar anytime soon"
+- **Iphone test of contact form flow** (carryover)
+- **Serper credit top-up** (carryover)
+- **2026-05-31 SERP capture** (scheduled)
