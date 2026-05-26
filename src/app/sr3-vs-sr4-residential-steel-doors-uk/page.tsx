@@ -29,7 +29,7 @@ const faqs = [
     question:
       "Where does SR3 sit in the SteelR four-tier residential security ladder?",
     answer:
-      "SteelR ships every bespoke door at the Standard tier: PAS 24:2022 plus BS EN 1627:2011 RC4 single leaf, unglazed (the European framework for sustained forced-entry resistance) plus FD30S fire and smoke rating plus Secured by Design plus ISO 9001 and ISO 14001 plus Made in Britain. LPS 1175 SR3 (Issue 8) is the Enhanced upgrade tier above the Standard. SR4 (LPS 1175 D10 Issue 8) is the Commercial-grade upgrade tier above SR3. LPS 1673 attack-resistance is the Ultra-high tier, available by enquiry. The four tiers stack on the same door rather than replace one another.",
+      "SteelR ships every bespoke door at the Standard tier: PAS 24:2022 plus BS EN 1627:2011 RC4 single leaf, unglazed (the European framework for sustained forced-entry resistance) plus FD30S fire and smoke rating plus Secured by Design plus ISO 9001 plus UK Manufactured. LPS 1175 SR3 (Issue 8) is the Enhanced upgrade tier above the Standard. SR4 (LPS 1175 D10 Issue 8) is the Commercial-grade upgrade tier above SR3. LPS 1673 attack-resistance is the Ultra-high tier, available by enquiry. The four tiers stack on the same door rather than replace one another.",
   },
   {
     question: "Who specifies SR4 on a residential front door rather than SR3?",
@@ -184,7 +184,7 @@ export default function Sr3VsSr4Page() {
               "Attack duration. SR3 working-time threshold is 5 minutes under Issue 8. SR4 increases the attack window beyond SR3 within the same Issue 8 framework",
               "Typical specification context. SR3: high-value properties, conservation areas, listed buildings, insurer-specified or LPCB-preferred briefs. SR4: documented threat assessment, specialist private-bank clients, security-sensitive professions, layered safe-room specs",
               "SteelR lead time. SR3: standard 8 to 12 weeks from sign-off. SR4: standard plus approximately 2 to 3 weeks for the additional Commercial-grade certification process and supply chain coordination",
-              "Standards stacking. Both SR3 and SR4 stack with FD30S (or FD60 upgrade), Secured by Design, PAS 24, ISO 9001 and ISO 14001 on the same door assembly",
+              "Standards stacking. Both SR3 and SR4 stack with FD30S (or FD60 upgrade), Secured by Design, PAS 24, ISO 9001 on the same door assembly",
             ],
           },
           {

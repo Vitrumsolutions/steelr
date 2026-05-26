@@ -101,7 +101,7 @@ export default function RootLayout({
               "url": "https://steelr.co.uk",
               "logo": "https://steelr.co.uk/brand/steelr-logo-primary.png",
               "image": "https://steelr.co.uk/images/hero/steelr-black-ornate-medallion-stone.jpg",
-              "description": "Bespoke steel front doors for homes across the United Kingdom. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available, and LPS 1673 attack-resistance available by enquiry. PAS 24 certified, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 and ISO 14001 certified, Made in Britain. Approved Document Q compliant for new builds, flats and residential front steel doors.",
+              "description": "Bespoke steel front doors for homes across the United Kingdom. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available, and LPS 1673 attack-resistance available by enquiry. PAS 24 certified, Secured by Design approved, FD30S fire and smoke rated, ISO 9001 certified, UK manufactured. Approved Document Q compliant for new builds, flats and residential front steel doors.",
               "areaServed": {
                 "@type": "Country",
                 "name": "United Kingdom"
@@ -134,11 +134,6 @@ export default function RootLayout({
                 "https://www.google.com/maps/place/SteelR+Bespoke+Steel+Entrance+Doors"
               ],
               "memberOf": [
-                {
-                  "@type": "Organization",
-                  "name": "Made in Britain Campaign",
-                  "url": "https://www.madeinbritain.org"
-                },
                 {
                   "@type": "Organization",
                   "name": "Secured by Design",
@@ -230,12 +225,6 @@ export default function RootLayout({
                 {
                   "@type": "EducationalOccupationalCredential",
                   "credentialCategory": "certification",
-                  "name": "ISO 14001 Environmental Management System",
-                  "recognizedBy": {"@type": "Organization", "name": "UKAS"}
-                },
-                {
-                  "@type": "EducationalOccupationalCredential",
-                  "credentialCategory": "certification",
                   "name": "PAS 24:2022 Security Performance Standard",
                   "recognizedBy": {"@type": "Organization", "name": "British Standards Institution"}
                 },
@@ -262,12 +251,6 @@ export default function RootLayout({
                   "credentialCategory": "certification",
                   "name": "FD30S Fire and Smoke Rated to BS 476-22 / BS EN 1634-1",
                   "recognizedBy": {"@type": "Organization", "name": "BRE Global / Warringtonfire"}
-                },
-                {
-                  "@type": "EducationalOccupationalCredential",
-                  "credentialCategory": "certification",
-                  "name": "Made in Britain Marque",
-                  "recognizedBy": {"@type": "Organization", "name": "Made in Britain Campaign"}
                 }
               ],
               "founder": {

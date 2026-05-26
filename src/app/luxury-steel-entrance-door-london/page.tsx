@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "What security standard should a luxury London front door meet?",
     answer:
-      "For a central London townhouse, the SteelR Standard tier (PAS 24:2022 plus BS EN 1627:2011 RC4 single leaf, unglazed plus FD30S plus Secured by Design plus ISO 9001 + ISO 14001 plus Made in Britain) is included on every door. PAS 24 is the regulatory minimum; BS EN 1627:2011 RC4 is the European framework for sustained forced-entry resistance and is materially above PAS 24. For higher-value properties or properties flagged by the owner's insurer, the LPS 1175 SR3 Enhanced upgrade (LPCB police-preferred, recognised by UK home insurers) and the LPS 1175 SR4 D10 Issue 8 Commercial-grade upgrade (the certification used in data centres and bank vaults) are available on every door. LPS 1673 attack-resistance is available by enquiry where a documented threat assessment justifies the Ultra-high tier.",
+      "For a central London townhouse, the SteelR Standard tier (PAS 24:2022 plus BS EN 1627:2011 RC4 single leaf, unglazed plus FD30S plus Secured by Design plus ISO 9001 plus UK Manufactured) is included on every door. PAS 24 is the regulatory minimum; BS EN 1627:2011 RC4 is the European framework for sustained forced-entry resistance and is materially above PAS 24. For higher-value properties or properties flagged by the owner's insurer, the LPS 1175 SR3 Enhanced upgrade (LPCB police-preferred, recognised by UK home insurers) and the LPS 1175 SR4 D10 Issue 8 Commercial-grade upgrade (the certification used in data centres and bank vaults) are available on every door. LPS 1673 attack-resistance is available by enquiry where a documented threat assessment justifies the Ultra-high tier.",
   },
 ];
 

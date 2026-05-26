@@ -214,8 +214,8 @@ export default function LuxurySteelFrontDoorsUkPage() {
                 standard on every door. LPS 1175 SR3 (Enhanced upgrade) and
                 SR4 (Commercial-grade upgrade) available on every door.
                 FD30S fire and smoke rated as standard, FD60 available.
-                Secured by Design approved. Made in Britain certified
-                member, ISO 9001 and ISO 14001 manufactured. Survey,
+                Secured by Design approved. UK Manufactured
+                member, ISO 9001 manufactured. Survey,
                 manufacture and install handled in-house with nationwide UK
                 mainland coverage and no regional surcharge.
                 <br />

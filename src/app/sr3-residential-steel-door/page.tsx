@@ -249,8 +249,8 @@ export default function Sr3Page() {
                 available on every bespoke door. The standard residential
                 specification (BS EN 1627 RC4 single leaf, unglazed,
                 with PAS 24:2022, Secured by Design, FD30S fire and
-                smoke rating, and ISO 9001 + ISO 14001 UK manufacturing,
-                Made in Britain certified) sits as the baseline. The
+                smoke rating, and ISO 9001 UK manufacturing,
+                UK Manufactured) sits as the baseline. The
                 Enhanced upgrade (LPS 1175 SR3), the Commercial-grade
                 upgrade (LPS 1175 SR4) and the Ultra-high tier (LPS 1673
                 by enquiry) are each available on any door, whether the

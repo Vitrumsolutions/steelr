@@ -253,7 +253,7 @@ export default async function AreaPage({ params }: Props) {
             name: `Bespoke Steel Front Doors in ${label}`,
             serviceType:
               "Bespoke steel front door manufacture and installation",
-            description: `Bespoke steel front doors for homes in ${label}, ${location.region}. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available, and LPS 1673 attack-resistance available by enquiry. PAS 24 certified, Secured by Design approved, FD30S fire rated, ISO 9001 manufactured, Made in Britain. Residential steel front doors, fire rated steel front doors and commercial-grade security.`,
+            description: `Bespoke steel front doors for homes in ${label}, ${location.region}. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available, and LPS 1673 attack-resistance available by enquiry. PAS 24 certified, Secured by Design approved, FD30S fire rated, ISO 9001 manufactured, UK Manufactured. Residential steel front doors, fire rated steel front doors and commercial-grade security.`,
             url: `https://steelr.co.uk/areas/${location.slug}`,
             provider: {
               "@type": "HomeAndConstructionBusiness",

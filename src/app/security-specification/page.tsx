@@ -333,7 +333,7 @@ export default function SecuritySpecificationPage() {
 
           <ScrollReveal>
             <p className="mt-10 max-w-3xl mx-auto text-center" style={{ fontFamily: bodyFont, fontWeight: 200, fontSize: 13, lineHeight: 1.9, color: "#6b5a42" }}>
-              Every SteelR door also carries PAS 24:2022 certification, FD30S fire and smoke rating, Secured by Design police accreditation, ISO 9001 and ISO 14001 manufacturing, and Made in Britain certification. The four tiers above sit on top of that baseline; they do not replace it.
+              Every SteelR door also carries PAS 24:2022 certification, FD30S fire and smoke rating, Secured by Design police accreditation, ISO 9001 manufacturing, and UK manufacturing. The four tiers above sit on top of that baseline; they do not replace it.
             </p>
             <p className="mt-4 max-w-3xl mx-auto text-center" style={{ fontFamily: bodyFont, fontWeight: 300, fontSize: 12, lineHeight: 1.8, color: "#595959", fontStyle: "italic" }}>
               Reminder: BS EN 1627 RC ratings and LPS 1175 SR ratings are parallel certification schemes, not interchangeable. A door rated to one is not automatically equivalent to a numerically similar rating in the other.
@@ -468,7 +468,7 @@ export default function SecuritySpecificationPage() {
               { metric: "Wind resistance", value: "Class A3 to BS EN 12211 at 1200 Pa", detail: "Equivalent to 98 mph sustained wind load. Marine-grade powder-coat finish available for installations within 5 km of the coast." },
               { metric: "Air permeability", value: "Class 4 (highest residential class)", detail: "BS EN 1026 at 600 Pa (113 km/h equivalent). Ends draught complaints across period properties." },
               { metric: "Water tightness", value: "150 Pa outward / 100 Pa inward", detail: "BS EN 1027 tested. Built for UK weather with full perimeter compression sealing." },
-              { metric: "Quality management", value: "ISO 9001 + ISO 14001", detail: "Manufactured under both quality and environmental management systems certified by a UKAS-accredited certification body. Made in Britain certified member." },
+              { metric: "Quality management", value: "ISO 9001", detail: "Manufactured under both quality and environmental management systems certified by a UKAS-accredited certification body. UK Manufactured." },
               { metric: "Door leaf construction", value: "44mm to 70mm thick, 1.5mm to 2mm steel skins", detail: "Mechanically interlocked and bonded. Mineral-wool insulated core for fire integrity. Steel frame profile from 80mm × 40mm with 25mm reinforcement." },
               { metric: "Doorset sizes", value: "Up to 4.804m wide × 3.792m high", detail: "Including integrated sidepanels, fanlights and overpanels. Single-leaf, double-leaf or panic-exit configurations." },
               { metric: "Environmental Product Declaration", value: "Third-party verified EPD available on request", detail: "ISO 14025 framework. BREEAM Mat 01 (Life-cycle impacts) and Mat 03 (Responsible sourcing) credit-eligible. Architects and specifiers download on enquiry." },

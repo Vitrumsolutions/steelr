@@ -8,8 +8,8 @@ const credentials = [
   "LPS 1673 on Enquiry",
   "Secured by Design",
   "FD30S / FD60 Fire Rated",
-  "ISO 9001 + ISO 14001",
-  "Made in Britain",
+  "ISO 9001",
+  "UK Manufactured",
 ];
 
 /**

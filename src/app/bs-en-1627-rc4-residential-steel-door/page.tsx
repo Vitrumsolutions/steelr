@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "What documentation does SteelR provide for the BS EN 1627 RC4 certification?",
     answer:
-      "Every SteelR door is supplied with the BS EN 1627:2011 RC4 single leaf, unglazed test certification documentation as part of the handover pack. The pack also includes the PAS 24:2022 certificate, Secured by Design accreditation, FD30S fire and smoke certification, and ISO 9001 + ISO 14001 manufacturing certifications. Where the door has been specified with an upgrade tier (LPS 1175 SR3, SR4, or LPS 1673), those certifications are included alongside the RC4 baseline. All test reports reference the UKAS-accredited laboratory that conducted the test and are valid for insurer submission, planning authority verification and Building Safety Act compliance documentation.",
+      "Every SteelR door is supplied with the BS EN 1627:2011 RC4 single leaf, unglazed test certification documentation as part of the handover pack. The pack also includes the PAS 24:2022 certificate, Secured by Design accreditation, FD30S fire and smoke certification, and ISO 9001 manufacturing certifications. Where the door has been specified with an upgrade tier (LPS 1175 SR3, SR4, or LPS 1673), those certifications are included alongside the RC4 baseline. All test reports reference the UKAS-accredited laboratory that conducted the test and are valid for insurer submission, planning authority verification and Building Safety Act compliance documentation.",
   },
 ];
 
@@ -281,8 +281,8 @@ export default function Rc4Page() {
                 The standard residential specification on every SteelR
                 door is BS EN 1627:2011 RC4 single leaf, unglazed plus
                 PAS 24:2022 plus Secured by Design plus FD30S fire and
-                smoke rating plus ISO 9001 + ISO 14001 UK manufacturing
-                plus Made in Britain certified. Upgrade tiers (LPS 1175
+                smoke rating plus ISO 9001 UK manufacturing
+                plus UK Manufactured. Upgrade tiers (LPS 1175
                 SR3 Enhanced, LPS 1175 SR4 Commercial-grade, LPS 1673
                 Ultra-high) are available on every door for briefs that
                 justify the additional certification. The collection is
