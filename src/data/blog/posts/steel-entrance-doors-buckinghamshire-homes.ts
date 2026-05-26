@@ -124,7 +124,7 @@ Your door is manufactured under **ISO 9001** quality management. The steel leaf,
 
 Our installation teams operate across Buckinghamshire and the surrounding Home Counties. Installation is typically completed within a single day, with your property fully secured before the team leaves site. All installations are certified and compliant with Building Regulations.
 
-To discuss a project at your Buckinghamshire property, [request an estimate](/design-estimate) and we will arrange a consultation at your convenience.
+To discuss a project at your Buckinghamshire property, [request a consultation](/contact) and we will arrange a consultation at your convenience.
 
 ## Areas We Serve in Buckinghamshire
 

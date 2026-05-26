@@ -144,7 +144,7 @@ SteelR provides a complete design, manufacture and installation service across t
 
 We also serve Canterbury, Maidstone, Ashford, Rochester, Chatham, Whitstable, Faversham, Cranbrook, Tenterden, Deal, Folkestone and all surrounding areas.
 
-Every project follows [our process](/process), from initial consultation through site survey, design, manufacture and installation. To begin a conversation about your Kent property, [request an estimate](/design-estimate).
+Every project follows [our process](/process), from initial consultation through site survey, design, manufacture and installation. To begin a conversation about your Kent property, [request a consultation](/contact).
 
 ## Frequently Asked Questions
 

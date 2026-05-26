@@ -115,7 +115,7 @@ The most successful door specifications emerge when the architect engages with t
 
 For architects specifying steel entrance doors, the key parameters to establish early include the structural opening size (steel doors are heavy and may require reinforced surrounds), threshold detailing (particularly for level-access compliance under Part M), hardware positions relative to the facade composition, and glazing configurations that complement the fenestration strategy.
 
-[Request an estimate](/design-estimate) to begin a conversation about specification for your development.
+[Request a consultation](/contact) to begin a conversation about specification for your development.
 
 ## Warranty and Aftercare
 

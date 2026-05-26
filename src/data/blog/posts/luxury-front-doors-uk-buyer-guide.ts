@@ -205,7 +205,7 @@ For the steel-manufacturer shortlist at this tier, see [luxury steel front doors
 
 ---
 
-SteelR manufactures bespoke steel entrance doors at the UK luxury tier. PAS 24 certified, BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, with LPS 1175 SR3 (LPCB police-preferred Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673 attack-resistance (Ultra-high, by enquiry) available on every door. Secured by Design approved, FD30S fire rated, UK manufactured, installed nationwide. Consultations are no-obligation. Visit [steelr.co.uk/design-estimate](/design-estimate) to book a site survey.
+SteelR manufactures bespoke steel entrance doors at the UK luxury tier. PAS 24 certified, BS EN 1627:2011 RC4 single leaf, unglazed certified as Standard, with LPS 1175 SR3 (LPCB police-preferred Enhanced upgrade), LPS 1175 SR4 D10 Issue 8 (Commercial-grade upgrade) and LPS 1673 attack-resistance (Ultra-high, by enquiry) available on every door. Secured by Design approved, FD30S fire rated, UK manufactured, installed nationwide. Consultations are no-obligation. Visit [steelr.co.uk/contact](/contact) to book a site survey.
 `,
 };
 

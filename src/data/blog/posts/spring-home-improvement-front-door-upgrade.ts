@@ -103,7 +103,7 @@ The journey from deciding to upgrade to enjoying a new entrance door follows a c
 
 The process begins with a conversation about your property, your priorities and your aesthetic preferences. This can happen by phone, email or through the SteelR online form. You will discuss the style of property, any specific design references, security requirements, colour preferences and budget expectations.
 
-[Request an estimate](/design-estimate) to start this conversation. There is no obligation, and the initial design discussion is an opportunity to understand what is possible.
+[Request a consultation](/contact) to start this conversation. There is no obligation, and the initial design discussion is an opportunity to understand what is possible.
 
 ### Step 2: Technical Survey
 

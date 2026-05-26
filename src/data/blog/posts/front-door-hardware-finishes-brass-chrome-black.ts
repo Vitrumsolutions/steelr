@@ -116,7 +116,7 @@ The choice between period and contemporary hardware styles is not simply aesthet
 
 Traditional hardware includes lion head knockers, urn knockers, ring pulls, decorative escutcheons and profiled letter plates. These components carry strong historical associations and are most convincing when specified with attention to period accuracy. A Georgian-style door with Victorian hardware, for example, creates a subtle but noticeable dissonance.
 
-Period hardware is typically available in brass, bronze and black iron finishes. The craftsmanship of the casting and finishing is immediately apparent, weight, sharpness of detail and surface quality all vary enormously between manufacturers. [Request an estimate](/design-estimate) to discuss hardware options with the SteelR design team.
+Period hardware is typically available in brass, bronze and black iron finishes. The craftsmanship of the casting and finishing is immediately apparent, weight, sharpness of detail and surface quality all vary enormously between manufacturers. [Request a consultation](/contact) to discuss hardware options with the SteelR design team.
 
 ### Contemporary Hardware
 

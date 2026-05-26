@@ -490,7 +490,7 @@ export default function Lookbook() {
         </ScrollReveal>
         <ScrollReveal direction="up" delay={0.4}>
           <div className="lb-closing__actions">
-            <TrackedLink href="/design-estimate" event="lookbook_cta_consultation" className="lb-cta lb-cta--primary">
+            <TrackedLink href="/contact" event="lookbook_cta_consultation" className="lb-cta lb-cta--primary">
               Book a consultation
             </TrackedLink>
             <TrackedLink href="tel:08008611450" event="lookbook_cta_phone" external className="lb-cta lb-cta--ghost">

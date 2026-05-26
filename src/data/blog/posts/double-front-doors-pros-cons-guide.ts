@@ -123,7 +123,7 @@ Both leaves can incorporate glazing, from small vision panels to full-height gla
 
 For properties with arched openings, common in Victorian and Edwardian architecture, double doors can be manufactured with shaped top rails that follow the arch profile. This eliminates the need for filler panels or fanlights above the door and creates a clean, integrated appearance.
 
-Browse [our collection](/collection) to see examples of both single and double door configurations, or [request an estimate](/design-estimate) to discuss the right approach for your property.
+Browse [our collection](/collection) to see examples of both single and double door configurations, or [request a consultation](/contact) to discuss the right approach for your property.
 
 ## Access Width: A Practical Advantage
 

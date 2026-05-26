@@ -109,7 +109,7 @@ A surveyor will visit your property to measure the structural opening, assess th
 
 UK door openings vary considerably, particularly in older properties. Standard door sizes (typically 2040mm x 820mm for a single leaf) frequently do not match the structural opening, leading to packing, trimming and compromise. **Bespoke manufacturing** eliminates this problem entirely, the door is made to fit the opening, not the other way around.
 
-To begin the process for your property, [request an estimate](/design-estimate) and we will arrange a detailed site survey at a time that suits you.
+To begin the process for your property, [request a consultation](/contact) and we will arrange a detailed site survey at a time that suits you.
 
 ## What Installation Involves
 
@@ -211,7 +211,7 @@ The best material depends on your priorities. For maximum security, longevity an
 
 ### How much does it cost to replace a front door in the UK?
 
-Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification, material, security rating, glazing, hardware and finishing. For a full breakdown of what drives the price up or down, see our [steel front door cost UK](/steel-front-door-cost-uk) guide. For accurate pricing tailored to your requirements, [request an estimate](/design-estimate).
+Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification, material, security rating, glazing, hardware and finishing. For a full breakdown of what drives the price up or down, see our [steel front door cost UK](/steel-front-door-cost-uk) guide. For accurate pricing tailored to your requirements, [request a consultation](/contact).
 
 ### What happens to my old front door during replacement?
 

@@ -99,6 +99,16 @@ const nextConfig = {
         destination: "/blog/steel-doors-conservation-areas-planning-guide",
         permanent: true,
       },
+      // 26 May 2026 — kill /design-estimate (4-step 19-field form that asked
+      // the buyer to specify door width, security class and fire rating
+      // before the survey). 301 to /contact, the canonical lead form on the
+      // site. ContactForm covers the same intent without the friction. See
+      // the 26 May session for the deep-reviewer / security-auditor sign-off.
+      {
+        source: "/design-estimate",
+        destination: "/contact",
+        permanent: true,
+      },
     ];
   },
   async headers() {

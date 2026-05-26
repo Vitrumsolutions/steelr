@@ -132,7 +132,7 @@ No screen can accurately reproduce a RAL colour. The colour you see on a monitor
 
 RAL produce a standard fan deck (the RAL K7 or K5) that shows every Classic colour on a coated card. Your door manufacturer should be able to supply sprayed sample panels on the actual substrate, steel coated with the powder coat finish, so you can assess the colour, texture and sheen level in situ, against your facade, in natural light.
 
-To discuss colour options or [request an estimate](/design-estimate) with your preferred RAL specification, contact our design team.
+To discuss colour options or [request a consultation](/contact) with your preferred RAL specification, contact our design team.
 
 ## Trending Colours for 2026
 

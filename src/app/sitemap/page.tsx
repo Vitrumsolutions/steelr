@@ -34,7 +34,6 @@ const mainPages: Array<{ href: string; label: string }> = [
   { href: "/security-specification", label: "PAS 24 and SR3 / SR4 Specification" },
   { href: "/fire-rated-doors", label: "Fire Rated Steel Front Doors" },
   { href: "/colours", label: "RAL Colours" },
-  { href: "/design-estimate", label: "Design and Estimate" },
   { href: "/blog", label: "Blog" },
   { href: "/areas", label: "Areas We Serve" },
   { href: "/ai-answers", label: "AI Direct Answers" },

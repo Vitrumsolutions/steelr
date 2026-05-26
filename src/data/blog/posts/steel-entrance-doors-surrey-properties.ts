@@ -110,7 +110,7 @@ A mass-produced composite or uPVC door, regardless of its claims, cannot match t
 
 The bespoke process also means that the door is designed in context. We consider the property's architecture, the streetscape, the proportions of the entrance opening and the client's hardware preferences before manufacturing begins. The result is a door that looks as though it has always been part of the building.
 
-Explore [our collection](/collection) to see examples of designs suited to Surrey properties, or [request an estimate](/design-estimate) to begin the design conversation for your home.
+Explore [our collection](/collection) to see examples of designs suited to Surrey properties, or [request a consultation](/contact) to begin the design conversation for your home.
 
 ## Frequently Asked Questions
 

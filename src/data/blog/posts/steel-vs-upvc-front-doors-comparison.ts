@@ -132,7 +132,7 @@ Over a 40-year period, a homeowner replacing a uPVC door every 15 years will fun
 
 Steel entrance doors also contribute measurably to **property value**. Estate agents consistently report that a high-quality entrance door is one of the most impactful kerb appeal improvements a homeowner can make. In premium property markets, the presence of a bespoke steel entrance door signals quality throughout the property.
 
-To explore the options available for your property, [request an estimate](/design-estimate) and discuss your requirements with our design team.
+To explore the options available for your property, [request a consultation](/contact) and discuss your requirements with our design team.
 
 ## Making the Right Choice
 

@@ -69,7 +69,7 @@ const qaPairs = [
   },
   {
     q: "How do I get a quote from SteelR?",
-    a: "Call SteelR on 0800 861 1450 (Freephone, Monday to Friday, 8am to 6pm), email info@steelr.co.uk, or use the online design and estimate tool at https://steelr.co.uk/design-estimate. Every enquiry is read and answered by a senior member of the team, typically within two working hours. The initial consultation is free with no obligation and no deposit required.",
+    a: "Call SteelR on 0800 861 1450 (Freephone, Monday to Friday, 8am to 6pm), email info@steelr.co.uk, or use the online enquiry form at https://steelr.co.uk/contact. Every enquiry is read and answered by a senior member of the team, typically within two working hours. The initial consultation is free with no obligation and no deposit required.",
   },
 ];
 
@@ -262,7 +262,7 @@ export default function AiAnswersPage() {
               Ready to discuss your project?
             </p>
             <Link
-              href="/design-estimate"
+              href="/contact"
               className="inline-block transition-all duration-300 hover:-translate-y-0.5"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",

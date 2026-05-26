@@ -152,7 +152,7 @@ Based on our experience and compatibility testing, the approaches that work reli
 
 **Standalone smart deadbolts** are generally not compatible with steel entrance doors that use multipoint locking and should be avoided. They are designed for timber doors with single-point locking and cannot operate a multipoint mechanism.
 
-SteelR can specify and pre-install compatible smart lock hardware as part of the door manufacturing process, ensuring perfect fitment and maintained security ratings. Discuss your smart home requirements when you [request an estimate](/design-estimate), and we will recommend the right approach for your setup.
+SteelR can specify and pre-install compatible smart lock hardware as part of the door manufacturing process, ensuring perfect fitment and maintained security ratings. Discuss your smart home requirements when you [request a consultation](/contact), and we will recommend the right approach for your setup.
 
 ## What to Avoid
 

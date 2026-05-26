@@ -103,7 +103,7 @@ The twelve trends outlined above are not mutually exclusive. The most compelling
 
 The starting point is always the architecture of the property. A design that works brilliantly on a contemporary new build in [Manchester](/areas/manchester) may be entirely wrong for a Georgian townhouse in [London](/areas/london). The role of the designer is to read the building and specify accordingly.
 
-To explore how these ideas might work for your property, [request an estimate](/design-estimate) and the SteelR design team will develop a concept tailored to your architecture and preferences. Every door in [our collection](/collection) is built to order under **ISO 9001** quality management, BS EN 1627 RC4 certified as Standard with **LPS 1175 SR3 Enhanced upgrade** available, and the full RAL colour range included.
+To explore how these ideas might work for your property, [request a consultation](/contact) and the SteelR design team will develop a concept tailored to your architecture and preferences. Every door in [our collection](/collection) is built to order under **ISO 9001** quality management, BS EN 1627 RC4 certified as Standard with **LPS 1175 SR3 Enhanced upgrade** available, and the full RAL colour range included.
 
 ## Frequently Asked Questions
 
@@ -129,7 +129,7 @@ Arched top profiles, statement colours and oversized hardware can be applied to 
 
 ### How much do modern steel entrance doors cost?
 
-Bespoke steel entrance doors are priced according to specification, dimensions, design complexity, glazing, hardware and finishing. As individually manufactured architectural elements, they represent a different category of investment to mass-market alternatives. [Request an estimate](/design-estimate) for pricing based on your specific requirements and design preferences. For the wider context of how design choices fit into a full bespoke specification, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
+Bespoke steel entrance doors are priced according to specification, dimensions, design complexity, glazing, hardware and finishing. As individually manufactured architectural elements, they represent a different category of investment to mass-market alternatives. [Request a consultation](/contact) for pricing based on your specific requirements and design preferences. For the wider context of how design choices fit into a full bespoke specification, see our [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview.`,
 };
 
 export default post;

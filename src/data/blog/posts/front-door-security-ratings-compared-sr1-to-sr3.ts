@@ -117,7 +117,7 @@ For high-value residential properties, SR3 represents the optimal balance betwee
 
 SR3 is achievable only with steel construction, multi-point locking, security-rated glazing, heavy-duty hinges and professional installation. Every SteelR entrance door is BS EN 1627 RC4 certified as Standard, with LPS 1175 SR3 available as the Enhanced upgrade tier. Manufactured under **ISO 9001** quality management and available in the **full RAL colour range** to complement any architectural style.
 
-Whether you are securing a Georgian townhouse in Esher, a contemporary new build in Virginia Water, or a country estate in Gerrards Cross, the security specification remains the same. To discuss your requirements or [request an estimate](/design-estimate), contact our team.
+Whether you are securing a Georgian townhouse in Esher, a contemporary new build in Virginia Water, or a country estate in Gerrards Cross, the security specification remains the same. To discuss your requirements or [request a consultation](/contact), contact our team.
 
 ## Frequently Asked Questions
 

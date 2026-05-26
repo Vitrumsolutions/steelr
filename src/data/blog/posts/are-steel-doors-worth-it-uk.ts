@@ -186,7 +186,7 @@ For everyone else, homeowners who value security, durability, zero maintenance a
 
 ## Making the Decision
 
-If you are considering a steel entrance door, the best next step is a conversation. SteelR offers **free consultations** with no obligation, we will discuss your property, your requirements and your budget honestly. Use our [design and estimate tool](/design-estimate) to start the process, browse our [collection](/collection) for design inspiration, or call us directly on 0800 861 1450.
+If you are considering a steel entrance door, the best next step is a conversation. SteelR offers **free consultations** with no obligation, we will discuss your property, your requirements and your budget honestly. Use our [contact our team](/contact) to start the process, browse our [collection](/collection) for design inspiration, or call us directly on 0800 861 1450.
 
 ## Frequently Asked Questions
 

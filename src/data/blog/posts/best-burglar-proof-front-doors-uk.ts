@@ -187,7 +187,7 @@ Many home insurers offer reduced premiums for properties with enhanced security 
 
 ### How much does a burglar-proof steel front door cost?
 
-Bespoke steel entrance doors with SR3 certification typically represent a significant investment compared to mass-market alternatives. However, the cost should be weighed against the security performance, longevity and the potential impact on insurance premiums and property value. Every door is built to individual specification, [request an estimate](/design-estimate) for accurate pricing based on your requirements.
+Bespoke steel entrance doors with SR3 certification typically represent a significant investment compared to mass-market alternatives. However, the cost should be weighed against the security performance, longevity and the potential impact on insurance premiums and property value. Every door is built to individual specification, [request a consultation](/contact) for accurate pricing based on your requirements.
 
 ### Do I need planning permission to install a burglar-proof door?
 

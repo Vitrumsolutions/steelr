@@ -118,7 +118,7 @@ The door is manufactured in our **ISO 9001** certified facility. Every doorset i
 
 Installation is carried out by SteelR's own fitting team, not subcontracted. A bespoke door demands precision installation to perform correctly, both in terms of security and weatherproofing. The installation typically takes a single day, and the old door is removed and disposed of as part of the service.
 
-To begin the process, you can [request an estimate](/design-estimate) at any stage, even if your plans are still forming.
+To begin the process, you can [request a consultation](/contact) at any stage, even if your plans are still forming.
 
 ## Investment vs Cost: Reframing the Conversation
 
@@ -160,7 +160,7 @@ Realistic lead times for a bespoke steel entrance door:
 
 The total timeline from first contact to installed door is typically **12 to 20 weeks**. If you are working to a fixed completion date, for a renovation, a property sale or a seasonal deadline, plan accordingly and begin the process early.
 
-Browse [our collection](/collection) for design inspiration, [request an estimate](/design-estimate) to begin a conversation about your project, or read our broader [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview for the full specification picture.
+Browse [our collection](/collection) for design inspiration, [request a consultation](/contact) to begin a conversation about your project, or read our broader [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview for the full specification picture.
 
 ## Frequently Asked Questions
 
