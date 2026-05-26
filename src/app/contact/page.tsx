@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import ScrollReveal from "@/components/ScrollReveal";
+import { CredentialsStrip } from "@/components/CredentialsBanner";
 
 export const metadata: Metadata = {
   title: "Request a Consultation | SteelR",
@@ -93,6 +94,12 @@ export default function ContactPage() {
           Get in Touch
         </p>
       </section>
+
+      {/* Credentials strip. Dark band of standards SteelR carries: PAS 24,
+       * RC4 Standard, LPS 1175 SR3/SR4 available, LPS 1673 on enquiry,
+       * Secured by Design, FD30S/FD60 fire rated, ISO 9001, UK Manufactured.
+       * Visual reassurance immediately under the hero before the form ask. */}
+      <CredentialsStrip />
 
       <section className="ribbon-bg bg-cream py-20 md:py-32 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
