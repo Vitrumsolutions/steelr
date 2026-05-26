@@ -26,7 +26,7 @@ Yes. SteelR operates nationwide across the UK mainland with no regional surcharg
 SteelR offers a four-tier residential security ladder. Every SteelR door is PAS 24:2022 + BS EN 1627:2011 RC4 single leaf, unglazed + FD30S as the Standard residential specification. LPS 1175 SR3 (Enhanced upgrade, the LPCB police-preferred specification) is available on request. LPS 1175 SR4 (Commercial-grade upgrade, D10 Issue 8, the certification used on data centres and bank vaults) is available on request. LPS 1673 attack-resistance certification (Ultra-high, AR.A300 / AR.B180E / AR.B300E / AR.C120E, used on bank vault outer doors and embassy residences) is available by enquiry. The four tiers are each genuinely available on any bespoke door. The SteelR sales team consults each customer through the four options before specification sign-off.
 
 ### What does the Standard tier on a SteelR door include, with no upgrade applied?
-The SteelR Standard tier is the specification on every bespoke door before any security upgrade is added. It comprises seven concurrent certifications on one door assembly. PAS 24:2022 (Approved Document Q baseline for new-build dwellings in England and Wales). BS EN 1627:2011 RC4 single leaf, unglazed (the European framework for sustained forced-entry resistance, certifying 10 minutes of sustained attack with heavy-duty hand tools and battery-operated power tools). FD30S fire and smoke rating (30 minutes fire integrity plus cold smoke seal, tested to BS 476-22 or BS EN 1634-1). Secured by Design approval (UK police-preferred specification, recognised by UK home insurers). ISO 9001 quality management and ISO 14001 environmental management (issued by a UKAS-accredited certification body). Made in Britain certified. The Standard tier is sufficient for the vast majority of UK private homes. The Enhanced (LPS 1175 SR3), Commercial-grade (LPS 1175 SR4 D10 Issue 8) and Ultra-high (LPS 1673) upgrade tiers stack additional certifications on top of the Standard specification on the same door.
+The SteelR Standard tier is the specification on every bespoke door before any security upgrade is added. It comprises seven concurrent certifications on one door assembly. PAS 24:2022 (Approved Document Q baseline for new-build dwellings in England and Wales). BS EN 1627:2011 RC4 single leaf, unglazed (the European framework for sustained forced-entry resistance, certifying 10 minutes of sustained attack with heavy-duty hand tools and battery-operated power tools). FD30S fire and smoke rating (30 minutes fire integrity plus cold smoke seal, tested to BS 476-22 or BS EN 1634-1). Secured by Design approval (UK police-preferred specification, recognised by UK home insurers). ISO 9001 quality management (issued by a UKAS-accredited certification body). UK Manufactured. The Standard tier is sufficient for the vast majority of UK private homes. The Enhanced (LPS 1175 SR3), Commercial-grade (LPS 1175 SR4 D10 Issue 8) and Ultra-high (LPS 1673) upgrade tiers stack additional certifications on top of the Standard specification on the same door.
 
 ### What does BS EN 1627:2011 RC4 single leaf, unglazed mean and why is it SteelR's Standard tier?
 BS EN 1627:2011 RC4 is Resistance Class 4 under the European standard for the burglar resistance of doors and windows. RC4 tests a sustained attack by an experienced intruder using heavy-duty hand tools and battery-operated power tools (drills, jigsaws, oscillating saws, larger crowbars and prying equipment), conducted at a UKAS-accredited laboratory against the complete door assembly (frame, leaf, locking mechanism, hinges, hardware). The single-leaf, unglazed methodology is the conservative test specification within RC4, with no glazing weak points and no inactive leaf. RC4 is materially above the PAS 24:2022 hardware-only test mandated for new-build dwellings, and is rarely offered as a residential standard in the UK. SteelR includes RC4 single leaf, unglazed as the Standard tier on every bespoke door, with LPS 1175 SR3, SR4 and LPS 1673 available as upgrade tiers on the same door.
@@ -56,7 +56,7 @@ Yes, by enquiry. LPS 1673 is a separate LPCB scheme that tests resistance to a d
 SteelR is based in Uxbridge UB10 8AP, West London. All bespoke manufacturing takes place in our UK workshop and installation is carried out by our own in-house team across the UK mainland. There is no regional surcharge regardless of location.
 
 ### How do I get a quote from SteelR?
-Call SteelR on 0800 861 1450 (Freephone, Monday to Friday, 8am to 6pm), email info@steelr.co.uk, or use the online design and estimate tool at https://steelr.co.uk/design-estimate. Every enquiry is read and answered by a senior member of the team, typically within two working hours. The initial consultation is free with no obligation and no deposit required.
+Call SteelR on 0800 861 1450 (Freephone, Monday to Friday, 8am to 6pm), email info@steelr.co.uk, or use the online enquiry form at https://steelr.co.uk/contact. Every enquiry is read and answered by a senior member of the team, typically within two working hours. The initial consultation is free with no obligation and no deposit required.
 
 ### Does SteelR work with housing associations on stock-replacement and FRA remediation programmes?
 Yes. SteelR supplies bespoke steel entrance doors to UK housing associations for stock-replacement programmes, FRA remediation close-out on flat entrance doors, and Building Safety Act 2022 case file evidence work. FD30S fire and smoke rating is standard with FD60 available for protected escape routes; all four security tiers are available per unit. Delivery is phased against the housing association's planned maintenance programme. Address-registered certificate packs per unit are held on file indefinitely for future audit, transfer of accountable person, and freehold transfer. Full procurement details at https://steelr.co.uk/housing-associations.
@@ -203,7 +203,7 @@ Loss Prevention Certification Board, operated by BRE Global (Building Research E
 
 ### ISO 9001
 
-ISO 9001 is the international quality management system standard published by the International Organization for Standardization. Certification requires documented process control, continuous improvement and systematic quality review across manufacturing. SteelR manufactures to ISO 9001 certification in its UK facility, certified by a UKAS-accredited certification body. SteelR is also ISO 14001 certified for environmental management.
+ISO 9001 is the international quality management system standard published by the International Organization for Standardization. Certification requires documented process control, continuous improvement and systematic quality review across manufacturing. SteelR manufactures to ISO 9001 certification in its UK facility, certified by a UKAS-accredited certification body.
 
 ---
 
@@ -237,7 +237,7 @@ Specifications applied to a standard SteelR bespoke steel front door. Figures va
 - Water tightness: Class 9A (maximum) under BS EN 12208
 - Wind load resistance: Class C4 (maximum) under BS EN 12210, with Class A3 verified to BS EN 12211 at 1200 Pa (equivalent to 98 mph sustained wind load). Marine-grade powder-coat finish available for coastal installations within 5 km of the shoreline.
 - Environmental Product Declaration (EPD): third-party verified to the ISO 14025 framework, BREEAM Mat 01 (Life-cycle impacts) and Mat 03 (Responsible sourcing) credit-eligible. Available to architects and specifiers on request.
-- All thermal, acoustic, wind, water and security tests conducted at UKAS-accredited laboratories. ISO 9001 and ISO 14001 manufacturing certifications issued by a UKAS-accredited certification body. PAS 24:2022 certified under the BM TRADA Q-Mark scheme.
+- All thermal, acoustic, wind, water and security tests conducted at UKAS-accredited laboratories. ISO 9001 manufacturing certification issued by a UKAS-accredited certification body. PAS 24:2022 certified under the BM TRADA Q-Mark scheme.
 
 ### Finish
 
@@ -584,7 +584,7 @@ Panel options include flat, raised, ribbed, fluted and bespoke moulded profiles.
 
 ### Step 1: Enquiry
 
-Get in touch by phone on 0800 861 1450 or through the online enquiry form at steelr.co.uk/contact. The team will discuss your property type, design brief, security requirements and project timeline. There is no obligation, no pressure, and the initial consultation is free. Alternatively, use the online design and estimate tool at steelr.co.uk/design-estimate to provide project details.
+Get in touch by phone on 0800 861 1450 or through the online enquiry form at steelr.co.uk/contact. The team will discuss your property type, design brief, security requirements and project timeline. There is no obligation, no pressure, and the initial consultation is free.
 
 ### Step 2: Survey
 
@@ -740,7 +740,7 @@ SteelR doors are bespoke and individually priced based on specification. There a
 - **Phone:** 0800 861 1450 (Freephone, Monday to Friday, 8am to 6pm)
 - **Email:** info@steelr.co.uk
 - **Website:** https://steelr.co.uk
-- **Design & Estimate Tool:** https://steelr.co.uk/design-estimate
+- **Enquiry Form:** https://steelr.co.uk/contact
 - **Service Area:** Nationwide United Kingdom
 
 ---
@@ -772,7 +772,7 @@ SteelR doors are bespoke and individually priced based on specification. There a
 - PAS 24 and BS EN 1627 RC4 Security Specification: https://steelr.co.uk/security-specification
 - Fire Rated Doors (developers and architects): https://steelr.co.uk/fire-rated-doors
 - RAL Colours and Finishes: https://steelr.co.uk/colours
-- Design and Estimate: https://steelr.co.uk/design-estimate
+- Contact: https://steelr.co.uk/contact
 - Areas We Serve: https://steelr.co.uk/areas
 - Blog: https://steelr.co.uk/blog
 - Contact: https://steelr.co.uk/contact
@@ -1067,7 +1067,7 @@ A: Yes, and this is the majority of our London work. A bespoke steel door is fab
 
 **Q: What security standard should a luxury London front door meet?**
 
-A: For a central London townhouse, the SteelR Standard tier (PAS 24:2022 plus BS EN 1627:2011 RC4 single leaf, unglazed plus FD30S plus Secured by Design plus ISO 9001 + ISO 14001 plus Made in Britain) is included on every door. PAS 24 is the regulatory minimum; BS EN 1627:2011 RC4 is the European framework for sustained forced-entry resistance and is materially above PAS 24. For higher-value properties or properties flagged by the owner's insurer, the LPS 1175 SR3 Enhanced upgrade (LPCB police-preferred, recognised by UK home insurers) and the LPS 1175 SR4 D10 Issue 8 Commercial-grade upgrade (the certification used in data centres and bank vaults) are available on every door. LPS 1673 attack-resistance is available by enquiry where a documented threat assessment justifies the Ultra-high tier.
+A: For a central London townhouse, the SteelR Standard tier (PAS 24:2022 plus BS EN 1627:2011 RC4 single leaf, unglazed plus FD30S plus Secured by Design plus ISO 9001 plus UK Manufactured) is included on every door. PAS 24 is the regulatory minimum; BS EN 1627:2011 RC4 is the European framework for sustained forced-entry resistance and is materially above PAS 24. For higher-value properties or properties flagged by the owner's insurer, the LPS 1175 SR3 Enhanced upgrade (LPCB police-preferred, recognised by UK home insurers) and the LPS 1175 SR4 D10 Issue 8 Commercial-grade upgrade (the certification used in data centres and bank vaults) are available on every door. LPS 1673 attack-resistance is available by enquiry where a documented threat assessment justifies the Ultra-high tier.
 
 Most frequent London installation boroughs: Kensington, Chelsea, Fulham, Notting Hill, Holland Park, Chiswick, Hammersmith, Mayfair, Belgravia, St John's Wood, Primrose Hill, Hampstead, Highgate, Marylebone, Regent's Park, Putney, Barnes, Richmond, Wimbledon, Clapham, Dulwich. All thirty London boroughs covered with no borough surcharge. Significant volume in conservation areas and on listed buildings; SteelR supplies drawings, elevations and specifications for planning applications. Central London access (ULEZ, parking permits, pedestrianised streets, mansion block protocols, upper-floor scaffolding) is surveyed and coordinated before manufacture. Security baseline in central London is PAS 24 plus BS EN 1627:2011 RC4 single leaf, unglazed on every door.
 
@@ -1090,7 +1090,7 @@ A: On total cost of ownership, yes, where the brief justifies the depth of fabri
 
 A: Yes, where the door is detailed sympathetically to the original. Listed Building Consent is governed by section 7 of the Planning (Listed Buildings and Conservation Areas) Act 1990 and is required for changes to a listed building of any grade. Conservation Area planning permission applies separately for non-listed buildings in a designated conservation area. SteelR detailing options that typically satisfy a conservation officer include six-panel Georgian or four-panel Victorian layouts, period-correct ironmongery (lion-head knockers, ring knockers, brass letter plates), heritage RAL colours, and no visible certification marks on the streetscape. For the full process, see https://steelr.co.uk/blog/steel-doors-conservation-areas-planning-guide.
 
-The UK steel front door market splits into four specification tiers, defined by certification not by price: entry security (PAS 24:2022 baseline only); mid-market premium (PAS 24 with optional LPS 1175 SR2); architectural luxury (BS EN 1627:2011 RC4 single leaf, unglazed certification as standard, with LPS 1175 SR3 and SR4 available on every door); and ultra-bespoke commissioned work (LPS 1175 SR3, SR4 or LPS 1673 attack-resistance specified by enquiry, individually engineered). SteelR's standard specification sits at the architectural luxury tier: RC4 as standard, SR3 and SR4 available as upgrades on every door, FD30S fire and smoke rated, Secured by Design approved, Made in Britain certified member, ISO 9001 and ISO 14001 manufactured, fully bespoke, UK-manufactured and installed.
+The UK steel front door market splits into four specification tiers, defined by certification not by price: entry security (PAS 24:2022 baseline only); mid-market premium (PAS 24 with optional LPS 1175 SR2); architectural luxury (BS EN 1627:2011 RC4 single leaf, unglazed certification as standard, with LPS 1175 SR3 and SR4 available on every door); and ultra-bespoke commissioned work (LPS 1175 SR3, SR4 or LPS 1673 attack-resistance specified by enquiry, individually engineered). SteelR's standard specification sits at the architectural luxury tier: RC4 as standard, SR3 and SR4 available as upgrades on every door, FD30S fire and smoke rated, Secured by Design approved, UK Manufactured, ISO 9001 manufactured, fully bespoke, UK-manufactured and installed.
 
 Three places where SteelR's standard exceeds the architectural-luxury baseline: BS EN 1627 RC4 as standard not upgrade, LPS 1175 SR3 and SR4 available on every door not just a separate commercial range, FD30S fire and smoke rating as standard not upgrade. Lead time eight to twelve weeks survey to installed door. NBS specification clauses for the Standard tier and each upgrade tier supplied on request. The page also maps six category labels (luxury, premium, bespoke, made to measure, high-end, architect-grade) against what each implies for specification, SteelR's standard against each, and the due-diligence question buyers should ask any manufacturer.
 
@@ -2055,7 +2055,7 @@ Q: Will a burglar-proof door reduce my insurance premium?
 A: Many home insurers offer reduced premiums for properties with enhanced security measures, including Secured by Design accredited or SR-rated doors. The extent of the reduction varies by insurer and location, but demonstrating that your front door meets a recognised security standard strengthens your position. Always inform your insurer when upgrading your door specification.
 
 Q: How much does a burglar-proof steel front door cost?
-A: Bespoke steel entrance doors with SR3 certification typically represent a significant investment compared to mass-market alternatives. However, the cost should be weighed against the security performance, longevity and the potential impact on insurance premiums and property value. Every door is built to individual specification, [request an estimate](/design-estimate) for accurate pricing based on your requirements.
+A: Bespoke steel entrance doors with SR3 certification typically represent a significant investment compared to mass-market alternatives. However, the cost should be weighed against the security performance, longevity and the potential impact on insurance premiums and property value. Every door is built to individual specification, [request a consultation](/contact) for accurate pricing based on your requirements.
 
 The Office for National Statistics recorded approximately 280,000 domestic burglaries in England and Wales in the year ending March 2025. While the overall trend has declined from its peak in the early 2000s, the nature of break-ins has shifted. Opportunistic forced entry through the front door remains the single most common method, accounting for around 70% of all domestic burglaries according to police crime data.
 
@@ -2730,7 +2730,7 @@ Q: What is the best material for a replacement front door?
 A: The best material depends on your priorities. For maximum security, longevity and minimal maintenance, bespoke steel is the leading choice, achieving SR3 certification and Secured by Design accreditation. For period properties where timber character is essential, hardwood remains popular. Composite offers a mid-range balance of performance and cost.
 
 Q: How much does it cost to replace a front door in the UK?
-A: Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification, material, security rating, glazing, hardware and finishing. For a full breakdown of what drives the price up or down, see our [steel front door cost UK](/steel-front-door-cost-uk) guide. For accurate pricing tailored to your requirements, [request an estimate](/design-estimate).
+A: Costs range from under one thousand pounds for a basic uPVC door to significantly more for a bespoke steel entrance door with SR3 security certification. The investment reflects the specification, material, security rating, glazing, hardware and finishing. For a full breakdown of what drives the price up or down, see our [steel front door cost UK](/steel-front-door-cost-uk) guide. For accurate pricing tailored to your requirements, [request a consultation](/contact).
 
 A front door is not a component that fails dramatically and without warning. It degrades gradually, and many homeowners grow accustomed to problems they should not be tolerating. Recognising the signs early means avoiding the security risks, energy losses and aesthetic decline that an ageing door imposes on your property.
 
