@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import ScrollReveal from "@/components/ScrollReveal";
@@ -175,6 +176,42 @@ export default function ContactPage() {
             >
               info@steelr.co.uk
             </a>
+
+            {/* CPA insurance-backed guarantee trust block.
+              * FCA-regulated scheme covering customer deposit and the
+              * manufacturer's written guarantee period. See yesterday's
+              * commit f17d2aa for the underlying HNW-page positioning;
+              * this is the equivalent reassurance surfaced on /contact. */}
+            <div
+              className="mt-12 flex items-start gap-5"
+              style={{
+                padding: "16px 18px",
+                background: "rgba(201,169,110,0.06)",
+                border: "1px solid rgba(201,169,110,0.18)",
+              }}
+            >
+              <Image
+                src="/images/accreditations/cpa.svg"
+                alt="Consumer Protection Association"
+                width={110}
+                height={30}
+                style={{ flexShrink: 0, marginTop: 2 }}
+              />
+              <p
+                style={{
+                  fontFamily: bodyFont,
+                  fontWeight: 300,
+                  fontSize: 12,
+                  lineHeight: 1.7,
+                  color: "#6b5a42",
+                  margin: 0,
+                }}
+              >
+                Your deposit and the manufacturer warranty are protected
+                through the Consumer Protection Association
+                insurance-backed guarantee, FCA-regulated.
+              </p>
+            </div>
 
             <div className="mt-16">
               <p
