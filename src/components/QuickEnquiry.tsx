@@ -89,7 +89,13 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
     fd.append("email", "");
     fd.append("propertyType", "Not specified");
     fd.append("doorStyle", "To be discussed");
-    fd.append("message", contextLabel ? `Enquiry from page about ${contextLabel}` : "");
+    // Message field. Use the user's typed message if provided; otherwise fall
+    // back to the auto-generated page-context line so the lead email still
+    // carries source context for triage. Mirrors ContactForm's optional
+    // Message field but with a context fallback when empty.
+    const userMessage = (form.elements.namedItem("message") as HTMLTextAreaElement | null)?.value.trim() || "";
+    const autoContext = contextLabel ? `Enquiry from page about ${contextLabel}` : "";
+    fd.append("message", userMessage || autoContext);
     fd.append("source", source);
     fd.append("website", (form.elements.namedItem("website") as HTMLInputElement).value);
     for (const f of files) fd.append("files", f, f.name);
@@ -352,6 +358,45 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                     padding: "14px 16px",
                     width: "100%",
                     borderRadius: 0,
+                  }}
+                />
+              </div>
+
+              <div>
+                <label
+                  htmlFor={`qe-message-${source}`}
+                  style={{
+                    display: "block",
+                    fontFamily: "var(--font-body), Montserrat, sans-serif",
+                    fontWeight: 400,
+                    fontSize: 11,
+                    letterSpacing: "0.1em",
+                    textTransform: "uppercase",
+                    color: "#6b5a42",
+                    marginBottom: 6,
+                  }}
+                >
+                  Message{" "}
+                  <span style={{ textTransform: "none", letterSpacing: "normal", color: "#8a6f4e" }}>
+                    (optional)
+                  </span>
+                </label>
+                <textarea
+                  id={`qe-message-${source}`}
+                  name="message"
+                  rows={3}
+                  placeholder="Tell us about your project, door style, dimensions, deadline, anything useful"
+                  style={{
+                    fontFamily: "var(--font-body), Montserrat, sans-serif",
+                    fontWeight: 300,
+                    fontSize: 14,
+                    color: "#1a1a18",
+                    background: "transparent",
+                    border: "1px solid rgba(26,26,24,0.15)",
+                    padding: "14px 16px",
+                    width: "100%",
+                    borderRadius: 0,
+                    resize: "vertical",
                   }}
                 />
               </div>
