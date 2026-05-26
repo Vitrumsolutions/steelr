@@ -4,14 +4,14 @@ import InfoPage from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title:
-    "SR4 Residential Steel Door | LPS 1175 Commercial | SteelR",
+    "SR4 Residential Steel Doors UK | When to Upgrade | SteelR",
   description:
-    "LPS 1175 SR4 (D10 Issue 8): SteelR's Commercial-grade upgrade tier, the LPCB certification used on data centres and bank vaults. Residential available.",
+    "When LPS 1175 SR4 is the right Commercial-grade upgrade tier for a UK residential front door. Three buyer motivations: documented Commercial-grade certification on the door, an insurer or broker requesting LPCB-certified specification, or significant possessions behind the entrance.",
   alternates: { canonical: "https://steelr.co.uk/sr4-residential-steel-door" },
   openGraph: {
-    title: "SR4 Residential Steel Door | Commercial-Grade Upgrade | SteelR",
+    title: "SR4 Residential Steel Doors UK: The Three Triggers That Justify the Upgrade | SteelR",
     description:
-      "LPS 1175 SR4 (D10 Issue 8): SteelR's Commercial-grade upgrade tier, the LPCB certification used on data centres and bank vaults. Residential available.",
+      "When LPS 1175 SR4 is the right Commercial-grade upgrade tier for a UK residential front door. Three buyer motivations: documented Commercial-grade certification on the door, an insurer or broker requesting LPCB-certified specification, or significant possessions behind the entrance.",
     url: "https://steelr.co.uk/sr4-residential-steel-door",
     type: "website",
     images: ["/og-image.png"],
@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "Who actually specifies SR4 on a residential door?",
     answer:
-      "SR4 is rare on a private home, but the legitimate audience is real. Owners with a documented threat assessment from a private security advisor. Properties used by clients of specialist private banks where the underwriter has flagged a higher risk profile. Residences for security-sensitive professions including legal, political and senior financial roles. Properties with constructed safe rooms or panic rooms where SR4 sits behind the front door as part of a layered security plan. Owners who, having understood the difference between PAS 24, RC4, SR3 and SR4, decide they want the commercial-grade certification for the reassurance alone. For everyone else, the Enhanced SR3 upgrade or the BS EN 1627 RC4 standard residential specification is the appropriate answer.",
+      "SR4 is the right tier for three motivation-led buyer situations and one smaller threat-led subset. The three normal triggers: (1) the owner wants documented Commercial-grade certification on the front door, with the LPCB SR4 mark sitting permanently on the deed, insurance documents and Building Control handover pack as a step beyond the standard residential specification; (2) the insurer, broker or loss-adjuster has asked for an LPCB-certified Commercial-grade specification, naming SR4 or commercial-grade certification on the policy schedule; (3) the address holds significant possessions or records the owner values, art, watch collections, family records, archives, irreplaceable objects, where the entrance door is part of an asset-protection narrative. None of these triggers depends on property value or sum insured. The smaller subset: properties with a documented threat assessment from a private security advisor, or constructed safe-room context where SR4 forms the front-door layer of a multi-layer plan. For owners outside both groups, the SR3 Enhanced upgrade or the BS EN 1627 RC4 Standard specification is the right tier.",
   },
   {
     question: "How does SR4 differ from SR3 and from BS EN 1627 RC4?",
@@ -63,16 +63,18 @@ const breadcrumbSchema = JSON.stringify({
 const webPageSchema = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "SR4 Residential Steel Door",
+  name: "SR4 Residential Steel Doors UK. When to Specify the Commercial-grade Upgrade",
   url: "https://steelr.co.uk/sr4-residential-steel-door",
   description:
-    "LPS 1175 SR4 (D10 Issue 8) is SteelR's Commercial-grade upgrade tier above SR3 Enhanced and the BS EN 1627 RC4 Standard. The LPCB certification used on data centres, bank vaults and embassy residences, available on residential specification.",
+    "When LPS 1175 SR4 is the right Commercial-grade upgrade tier for a UK residential front door. Three motivation-led buyer triggers: documented Commercial-grade certification on the door, an insurer or broker request for LPCB-certified specification, or significant possessions behind the entrance. SteelR's third tier in the four-tier residential security ladder above BS EN 1627 RC4 Standard and LPS 1175 SR3 Enhanced.",
   about: [
     { "@type": "Thing", name: "LPS 1175 SR4" },
     { "@type": "Thing", name: "LPS 1175 D10 Issue 8" },
     { "@type": "Thing", name: "Commercial-grade security doors" },
     { "@type": "Thing", name: "Residential steel front doors" },
     { "@type": "Thing", name: "Loss Prevention Certification Board" },
+    { "@type": "Thing", name: "Secured by Design" },
+    { "@type": "Thing", name: "BS EN 1627 RC4" },
   ],
   isPartOf: { "@type": "WebSite", url: "https://steelr.co.uk" },
 });
@@ -95,159 +97,245 @@ export default function Sr4Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqSchema }} />
 
       <InfoPage
-        heroTitle="SR4 Residential Steel Doors"
-        h1="LPS 1175 SR4 Residential Steel Door. The Commercial-Grade Upgrade Tier"
+        heroTitle="SR4 Residential Steel Doors UK"
+        h1="LPS 1175 SR4 Residential Steel Doors UK: The Three Triggers That Justify the Upgrade"
         intro={{
-          pretitle: "LPS 1175 SR4 (D10 Issue 8). SteelR&apos;s Commercial-grade upgrade tier",
+          pretitle: "LPS 1175 SR4. The Commercial-grade upgrade tier",
           title:
-            "The certification used on data centres and bank vaults. Available on residential specification by upgrade",
+            "When LPS 1175 SR4 is the right specification for a UK residential front door",
           body: (
             <>
-              LPS 1175 SR4 is the third tier in SteelR&apos;s four-tier
-              security ladder. It sits above the SR3 Enhanced upgrade
-              and below LPS 1673 attack-resistance. SR4 is the
-              commercial-grade certification (D10 in the LPS 1175 Issue 8
-              rating matrix) used on data centre internal cores, bank
-              vault outer doors, embassy and consul residences, and
-              high-risk commercial premises. Available on any SteelR
-              residential front door by upgrade. It is rarely seen on a
-              private home, and it is offered for the small set of
-              briefs where a documented threat profile, specialist
-              insurer requirement, or owner preference for
-              commercial-grade certification on the home justifies it.
+              LPS 1175 SR4 (D10 Issue 8) is the Commercial-grade
+              certification used on data centres, bank vault outer
+              doors and embassy residences, available on any SteelR
+              residential bespoke front door as an upgrade above the
+              SR3 Enhanced tier. The upgrade is the right call when
+              one or more of three motivation-led triggers applies: the
+              owner wants documented Commercial-grade certification on
+              the door, an insurer or broker has asked for
+              LPCB-certified Commercial-grade specification, or there
+              are significant possessions or records behind the
+              entrance the owner wants to protect at the residential
+              mark that matches the Commercial-grade tier.
             </>
           ),
           body2: (
             <>
-              This page explains what SR4 actually tests, how it differs
-              from the SR3 Enhanced upgrade and the BS EN 1627 RC4
-              standard residential specification, who specifies SR4 on
-              residential briefs in the UK, and how it integrates with
-              the bespoke SteelR design language without compromising
-              the external aesthetic.
+              None of these triggers depends on property value or
+              postcode. The same certified door is available on any
+              UK home where the owner chooses the tier, from a
+              modestly-valued terrace to a high-value detached. For
+              owners who do not recognise themselves in any of the
+              three triggers, the SR3 Enhanced upgrade or the BS EN
+              1627 RC4 Standard residential specification is the
+              appropriate answer. The sections below set out each
+              trigger in detail, identify the broader buyer profile
+              that arrives at SR4, and explain how the certification
+              integrates with the bespoke SteelR design language
+              without changing the external aesthetic of the door.
             </>
           ),
         }}
         sections={[
           {
-            pretitle: "The test itself",
-            title: "Longer attack duration, broader tool set, LPCB-certified",
+            pretitle: "Trigger 1",
+            title: "You want documented Commercial-grade certification on the door",
             body: (
               <>
-                LPS 1175 SR4 (D10 Issue 8) testing is conducted by the
-                Loss Prevention Certification Board (LPCB), part of BRE
-                Global, a UKAS-accredited certification body. The
-                methodology builds on the SR3 test by adding
-                battery-operated cutting tools, larger crowbars, more
-                aggressive prying equipment, and extending the attack
-                duration. The complete door assembly is tested, including
-                the frame, leaf, multi-point locking system, hinges and
-                hardware. The whole assembly must resist the certified
-                tool-and-time matrix to pass.
+                The first trigger is what the owner wants on paper. SR4
+                is the LPCB Commercial-grade certification, the
+                independent mark used on data centres, bank vault outer
+                doors and embassy residences. On a residential door it
+                is a documented step beyond the standard residential
+                specification. The certificate sits permanently on the
+                deed, the insurance documents and the Building Control
+                handover pack, and stays with the property if it
+                changes hands. For owners who want the strongest
+                independently certified residential mark currently
+                available on a UK front door, the motivation is the
+                certification itself, not any specific property
+                profile.
               </>
             ),
             body2: (
               <>
-                The threat model SR4 is designed to stop is not the
-                opportunist burglar (which PAS 24 already addresses) and
-                not the experienced burglar with hand tools (which RC4
-                and SR3 already address). SR4 addresses the determined
-                attacker with a specific objective beyond the door,
-                prepared to invest more time and a broader tool catalogue
-                including power tools. This is the threat profile a
-                commercial security manager designs for at a data centre
-                or vault entrance. SR4 brings that level of certification
-                to a residential front door.
+                This trigger applies to any home where the owner has
+                considered the difference between PAS 24, BS EN 1627
+                RC4, LPS 1175 SR3 and LPS 1175 SR4 and decided that
+                Commercial-grade is the right tier for their door. The
+                upgrade carries no property-value gate. The same
+                certified door is available on a £400,000 home and a
+                £4 million home. The decision is the owner&apos;s, made
+                at the design consultation, and SteelR&apos;s position
+                is that the four tiers should be presented neutrally so
+                the owner can choose the one that fits the brief rather
+                than the one a price filter assigned to them.
               </>
             ),
           },
           {
-            pretitle: "How SR4 compares",
-            title: "The four-tier residential security ladder",
+            pretitle: "Trigger 2",
+            title:
+              "Your insurer or broker has asked for LPCB-certified Commercial-grade specification",
+            body: (
+              <>
+                The second trigger is direct. A UK home insurer, broker
+                or loss-adjuster has named SR4 or Commercial-grade
+                certification on the policy schedule or in a survey
+                report. The request can appear on a range of policy
+                types and is not restricted to any specific sum-insured
+                band. Where it appears, the door specification is part
+                of the cover condition rather than an optional upgrade,
+                and the SR4 certificate is the document the broker is
+                looking for.
+              </>
+            ),
+            body2: (
+              <>
+                Verifying the request takes one step. The underwriter
+                or broker will name an LPCB certification reference;
+                SteelR supplies the SR4 certificate held on the LPCB
+                Red Book at redbooklive.com (searchable by manufacturer
+                and product class), the Secured by Design
+                member-directory entry at securedbydesign.com, and the
+                ISO 9001 UK manufacturing entry on the BSI public
+                register at bsigroup.com. The broker can independently
+                verify all three records before cover is bound. The{" "}
+                <Link
+                  href="/insurance-approved-steel-front-doors-uk"
+                  className="link-gold-underline"
+                  style={{ color: "#1a1a18" }}
+                >
+                  insurance-approved steel front doors reference
+                </Link>{" "}
+                sets out the underwriting context in full for higher
+                value private-client policies.
+              </>
+            ),
+          },
+          {
+            pretitle: "Trigger 3",
+            title:
+              "You are protecting significant possessions or records behind the door",
+            body: (
+              <>
+                The third trigger is what is behind the door. A watch
+                collection. A family art piece. Jewellery. Wine.
+                Documents that cannot be replaced. A musical instrument
+                or piece of equipment that took decades to acquire. A
+                child&apos;s belongings, or possessions held in trust
+                for the next generation. None of these depends on
+                property value. The motivation is to protect what is
+                actually in the home, at the residential mark that
+                matches the Commercial-grade tier the insurance industry
+                recognises.
+              </>
+            ),
+            body2: (
+              <>
+                This trigger applies whether the items are insured at a
+                modest level or at a private-client level. It applies
+                whether the home is a flat, a terrace, a semi or a
+                detached property. The decision turns on what the owner
+                is protecting and the certification they want on the
+                door that stands in front of it, not on the
+                buildings-cover figure or the postcode. SR4 is the
+                LPCB-certified residential mark at the Commercial-grade
+                tier, available on any bespoke SteelR door regardless
+                of property profile.
+              </>
+            ),
+          },
+          {
+            pretitle: "The buyer profile",
+            title: "Who actually specifies SR4 on a residential brief",
             image: {
               src: "/images/detail/steelr-grey-panelled-chrome-multilock.jpg",
               alt: "Multi-point chrome locking mechanism on an SR4 rated steel front door",
             },
             body: (
               <>
-                SteelR&apos;s residential security ladder runs across four
-                certified tiers, each genuinely available on any
-                bespoke door. The ladder allows the design consultation
-                to match the cert to the brief, rather than offering a
-                single inflexible specification.
+                Combining the three triggers above, the SR4 residential
+                buyer is consistently in one or more of the categories
+                below. None is required. The conversation during the
+                SteelR design consultation confirms which triggers
+                apply and whether SR4 is the right tier for the brief.
+                Property value is not a category on this list because
+                it is not a trigger on this page.
               </>
             ),
+            list: [
+              "Owners who want the LPCB Commercial-grade certificate on the deed, the insurance documents and the Building Control handover pack for the long term, independent of property value",
+              "Owners whose insurer, broker or loss-adjuster has named SR4 or Commercial-grade certification on the schedule, on any policy from standard residential to private-client",
+              "Owners protecting significant possessions or records behind the door, including art, watch collections, family records, archives, irreplaceable objects, regardless of buildings-cover value",
+              "Owners who have compared PAS 24, BS EN 1627 RC4, SR3 and SR4 and decided that Commercial-grade is the right tier for the reassurance alone, with no external requirement",
+              "Owners replacing a front door as part of a wider refurbishment programme who want the certified specification to sit alongside the rest of the build documentation",
+              "Owners of family-office, family-trust or trustee-held residences where the door specification forms part of the documented duty-of-care narrative",
+            ],
             body2: (
               <>
-                For most homes, the standard residential specification
-                meets the threat profile. For high-value properties,
-                conservation areas, or insurer-mandated specifications,
-                the Enhanced SR3 upgrade is appropriate. For threat-
-                assessed properties, the Commercial-grade SR4 upgrade
-                is appropriate. For documented ultra-high security
-                briefs, LPS 1673 attack-resistance is available by
-                enquiry. The full specification ladder sits on the{" "}
+                A smaller subset of SR4 specifications is driven by a
+                documented threat assessment from a private security
+                advisor, or by a layered safe-room context where SR4
+                forms the front-door layer of a multi-layer security
+                plan. Those are legitimate residential SR4 briefs, but
+                they are not the headline audience. For a documented
+                threat-assessed brief, the right tier the conversation
+                should start at is{" "}
                 <Link
-                  href="/security-specification"
+                  href="/lps-1673-attack-resistant-steel-door"
                   className="link-gold-underline"
                   style={{ color: "#1a1a18" }}
                 >
-                  security specification page
+                  LPS 1673 attack-resistance
                 </Link>
-                .
+                , not SR4. SR4 is the residential Commercial-grade
+                tier; LPS 1673 is the Ultra-high tier above it.
               </>
             ),
-            list: [
-              "Standard: PAS 24:2022 + BS EN 1627 RC4 single leaf unglazed (every SteelR door)",
-              "Enhanced: PAS 24 + RC4 + LPS 1175 SR3 (LPCB police-preferred scheme)",
-              "Commercial-grade: PAS 24 + RC4 + LPS 1175 SR4 D10 Issue 8 (data centres, bank vaults)",
-              "Ultra-high: PAS 24 + RC4 + LPS 1673 attack-resistance (AR.A300 / B180E / B300E / C120E)",
-            ],
           },
           {
-            pretitle: "The buyer profile",
-            title: "Who actually specifies SR4 on a residential brief",
+            pretitle: "Against SR3",
+            title: "Choosing between SR3 and SR4",
             body: (
               <>
-                SR4 is genuinely a commercial certification. Its standard
-                applications are bank vault doors, data centre internal
-                cores, telecoms exchange and substation buildings,
-                embassy and consul residences (where the building is
-                part of asset protection), and high-value art or
-                document storage. None of this is normal residential.
+                SR4 is the Commercial-grade tier above SR3 in the LPS
+                1175 Issue 8 framework. Both ratings stack on the BS EN
+                1627:2011 RC4 Standard specification on the same
+                bespoke door. The side-by-side specification, tool
+                catalogue, attack-duration matrix and decision content
+                for the SR3 versus SR4 choice sits on the dedicated
+                comparison page at{" "}
+                <Link
+                  href="/sr3-vs-sr4-residential-steel-doors-uk"
+                  className="link-gold-underline"
+                  style={{ color: "#1a1a18" }}
+                >
+                  SR3 vs SR4 residential steel doors UK
+                </Link>
+                . That page is the right starting point for buyers
+                weighing the choice; this page is the right starting
+                point for buyers who already know SR4 is in scope and
+                need to understand the residential triggers and
+                process.
               </>
             ),
-            body2: (
-              <>
-                The legitimate residential audience for SR4 is small but
-                real. SteelR specifies SR4 doorsets for the following
-                categories of brief.
-              </>
-            ),
-            list: [
-              "Properties with a documented threat assessment prepared by a private security advisor",
-              "Residences used by clients of specialist private banks or risk-focused insurers, where the underwriter has flagged a higher risk profile",
-              "Properties used as principal accommodation by clients in security-sensitive professions, including legal, political and senior financial roles",
-              "Homes with a constructed safe room or panic room behind the entrance, where SR4 forms part of a layered security plan",
-              "Family offices or private residences storing legal records, art or controlled documents",
-              "Owners who, having understood the difference between PAS 24, RC4, SR3 and SR4, decide they want commercial-grade certification on their home for the reassurance alone",
-            ],
           },
           {
             pretitle: "Bespoke aesthetic, commercial-grade certification",
             title: "Period proportions, conservation finishes, LPCB-certified internal assembly",
             body: (
               <>
-                A frequent concern about commercial-grade certification on
-                a residential door is whether the door ends up looking
-                commercial-grade. The answer is no. The certification
-                attaches to the internal door assembly, frame
-                integration, hardware specification and locking system.
-                None of this is externally visible. A Georgian six-panel
-                door in heritage racing green with solid brass hardware
-                and a stained-glass fanlight is a viable SR4
-                specification. So is a contemporary flush leaf in matt
-                anthracite with paired glazed sidelights.
+                A frequent concern about Commercial-grade certification
+                on a residential door is whether the door ends up
+                looking commercial-grade. The answer is no. The
+                certification attaches to the internal door assembly,
+                frame integration, hardware specification and locking
+                system. None of this is externally visible. A Georgian
+                six-panel door in heritage racing green with solid
+                brass hardware and a stained-glass fanlight is a viable
+                SR4 specification. So is a contemporary flush leaf in
+                matt anthracite with paired glazed sidelights.
               </>
             ),
             body2: (
@@ -281,23 +369,24 @@ export default function Sr4Page() {
                 survey, the design team confirms whether the brief
                 justifies the Commercial-grade tier or whether SR3
                 (Enhanced) or the standard BS EN 1627 RC4 specification
-                is the appropriate level. Where the property already has
-                a documented threat assessment from a private security
-                advisor, SteelR works directly with that advisor to
-                align the specification with the wider security plan.
+                is the appropriate level. Where the property already
+                has a documented threat assessment from a private
+                security advisor, SteelR works directly with that
+                advisor to align the specification with the wider
+                security plan.
               </>
             ),
             body2: (
               <>
-                Lead time is ten to fourteen weeks from signed design to
-                fitted installation, two to three weeks longer than the
-                standard SteelR specification, reflecting the additional
-                certification process and the supply-chain coordination
-                required for the certified components. Pricing is
-                individual to the project and is provided in writing
-                within five working days of the survey. There are no
-                fixed tiers and no published prices. The full process
-                for non-SR4 specifications is described on the{" "}
+                Lead time is ten to fourteen weeks from signed design
+                to fitted installation, two to three weeks longer than
+                the standard SteelR specification, reflecting the
+                additional certification process and the supply-chain
+                coordination required for the certified components.
+                Pricing is individual to the project and is provided in
+                writing within five working days of the survey. There
+                are no fixed tiers and no published prices. The full
+                process for non-SR4 specifications is described on the{" "}
                 <Link
                   href="/process"
                   className="link-gold-underline"
@@ -374,11 +463,12 @@ export default function Sr4Page() {
         faqs={faqs}
         whyConsider={{
           items: [
-            "Your property profile is genuinely high-risk — public-facing principal, ultra-high-value contents, or documented attempted intrusion history",
-            "Your insurer has set LPS 1175 SR4 (or equivalent BS EN 1627 RC4) as a binding requirement, not a suggestion",
-            "Your security consultant has specified commercial-grade certification on the residential entrance for parity with the perimeter",
-            "Your project allows the additional lead time and budget that SR4 fabrication and ironmongery carry over SR3",
-            "You want a UK manufacturer certifying at SR4 as an upgrade tier rather than a one-off prototype",
+            "You want the LPCB Commercial-grade certification mark on your deed, insurance documents and Building Control handover pack permanently, regardless of property value",
+            "Your insurer or broker has named SR4 or Commercial-grade certification on the policy schedule",
+            "You are protecting significant possessions or records behind the door (art, watches, family archives, irreplaceable objects) and you want the residential certification tier to match what is behind it",
+            "You have compared PAS 24, BS EN 1627 RC4, SR3 and SR4 and decided that Commercial-grade is the right tier for your home",
+            "Your project allows the additional two to three weeks lead time that SR4 certification and supply-chain coordination require over the standard SteelR specification",
+            "You want a UK manufacturer certifying at SR4 as a genuinely available upgrade tier on every bespoke door, not a one-off prototype or commercial-line spin-off",
           ],
         }}
         ctaHeading="Specify a Commercial-grade SR4 residential door"
