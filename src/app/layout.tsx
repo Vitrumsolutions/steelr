@@ -108,16 +108,11 @@ export default function RootLayout({
               },
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "11 Silverbirch Close",
-                "addressLocality": "Uxbridge",
-                "addressRegion": "West London",
-                "postalCode": "UB10 8AP",
+                "streetAddress": "2nd Floor, Premier House, 309 Ballards Lane",
+                "addressLocality": "London",
+                "addressRegion": "Greater London",
+                "postalCode": "N12 8LY",
                 "addressCountry": "GB"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.5513,
-                "longitude": -0.7732
               },
               "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",

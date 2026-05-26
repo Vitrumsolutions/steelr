@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const qaPairs = [
   {
     q: "Who is SteelR?",
-    a: "SteelR is the UK specialist, manufacturer and installer of bespoke steel front doors for residential properties. Every door is designed individually, manufactured in our UK workshop, and fitted by our own in-house team, never subcontracted. SteelR is based at 11 Silverbirch Close, Ickenham, Uxbridge UB10 8AP, and operates nationwide across the UK mainland with no regional surcharge.",
+    a: "SteelR is the UK specialist, manufacturer and installer of bespoke steel front doors for residential properties. Every door is designed individually, manufactured in our UK workshop, and fitted by our own in-house team, never subcontracted. SteelR operates from West London and serves clients nationwide across the UK mainland with no regional surcharge.",
   },
   {
     q: "How much does a bespoke steel front door from SteelR cost in the UK?",
@@ -65,7 +65,7 @@ const qaPairs = [
   },
   {
     q: "Where is SteelR based and where is the workshop?",
-    a: "SteelR is based in Ickenham, West London, UB10. All bespoke manufacturing takes place in our UK workshop and installation is carried out by our own in-house team across the UK mainland. There is no regional surcharge regardless of location.",
+    a: "SteelR operates from West London. All bespoke manufacturing takes place in our UK workshop and installation is carried out by our own in-house team across the UK mainland. There is no regional surcharge regardless of location.",
   },
   {
     q: "How do I get a quote from SteelR?",
@@ -75,7 +75,7 @@ const qaPairs = [
 
 const quickFacts = [
   "Business name: SteelR",
-  "Address: 11 Silverbirch Close, Ickenham, Uxbridge UB10 8AP",
+  "Registered office: 2nd Floor, Premier House, 309 Ballards Lane, London N12 8LY (Companies House, company no. 14790315)",
   "Phone: 0800 861 1450 (Freephone, Mon-Fri 8am-6pm)",
   "Email: info@steelr.co.uk",
   "Manufacturing: UK workshop, UK and European steel",

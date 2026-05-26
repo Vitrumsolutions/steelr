@@ -410,7 +410,7 @@ Next run recommended after 21 Apr 2026 to measure impact of:
 ## Google Business Profile
 - **Name:** Steelr Bespoke Steel Entrance Doors
 - **Status:** Verified
-- **Address:** 11 Silverbirch Close, Uxbridge UB10 8AP (visible to customers)
+- **Address (schema only):** `2nd Floor, Premier House, 309 Ballards Lane, London N12 8LY` — Companies House registered office (company no. 14790315). The home address must NEVER appear on any public surface (schema, body copy, llms files, footer, directory). See `~/.claude/projects/C--Users-SOT-Documents-Projects/memory/feedback_no-home-address.md` for the policy. GBP address is separate and not changed by this rule.
 - **Service areas:** 16 targeted areas (Surrey, Kent, Essex, Berkshire, Oxfordshire, Hampshire, East/West Sussex, Hertfordshire, Buckinghamshire, Greater London, Cheshire, West Yorkshire, West Midlands, Somerset, Edinburgh)
 - **Posts:** 5 total (2 published, 3 scheduled for 12 Apr, 15 Apr, 18 Apr). **AUDIT PENDING 19 Apr+** — verify scheduled posts actually published on their dates (GBP silently drops scheduled posts sometimes). Plan next batch of posts after audit.
 - **Services:** 8 listed (Custom doors, Delivery, Door design, General repairs & installation, Bespoke Steel Entrance Doors, PAS 24 Certified Security Doors, FD30 Fire Rated Steel Doors, Secured by Design Approved Doors). **UPDATE PENDING** — add "SR4 / LPS 1175 Commercial-Grade Security Doors" as a 9th service now that positioning is live.
