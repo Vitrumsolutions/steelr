@@ -25,6 +25,26 @@ function stripCrlf(s: string): string {
   return s.replace(/[\r\n]/g, " ");
 }
 
+/**
+ * Validate + sanitise a user-supplied email before using it in a `reply_to`
+ * header. Returns the cleaned address if it passes RFC 5321-ish validation,
+ * or `undefined` if it should be silently dropped (so the notification still
+ * sends without a reply_to header).
+ *
+ * The Resend SDK passes `replyTo` straight through to its REST API as a JSON
+ * field without sanitising. CR/LF in the value would land in the wire-level
+ * header. CWE-93. This helper is the only line of defence.
+ *
+ * RFC 5321 caps mailbox at 254 chars; the regex rejects whitespace, control
+ * chars, and the obvious header-injection characters in the local-part.
+ */
+const EMAIL_RE = /^[^\s<>"';,\\]{1,64}@[A-Za-z0-9.-]{1,185}\.[A-Za-z]{2,}$/;
+function safeReplyTo(raw: unknown): string | undefined {
+  const s = stripCrlf(String(raw ?? "").trim()).slice(0, 254);
+  if (!s || !EMAIL_RE.test(s)) return undefined;
+  return s;
+}
+
 function escapeHtml(s: unknown): string {
   return String(s ?? "")
     .replace(/&/g, "&amp;")
@@ -149,9 +169,18 @@ export async function POST(req: Request) {
           </tr>`
         : "";
 
+    // reply_to lets the operator click reply on the notification and have it
+    // address the customer directly, instead of bouncing back to the noreply
+    // send-only Resend identity. Validated + CRLF-stripped via safeReplyTo;
+    // silently dropped if the form's email field is missing or malformed.
+    // The notification still sends so the lead is never lost; operator still
+    // has the phone number.
+    const replyTo = safeReplyTo(email);
+
     const emailPayload: Parameters<typeof resend.emails.send>[0] = {
       from: "SteelR Enquiries <noreply@steelr.co.uk>",
-      to: "info@supplywindows.co.uk",
+      to: "info@steelr.co.uk",
+      ...(replyTo ? { replyTo } : {}),
       subject,
       html: `
         <h2>New Enquiry from steelr.co.uk</h2>
