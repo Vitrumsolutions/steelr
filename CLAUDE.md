@@ -1,5 +1,13 @@
 # steelr — Project Guide
 
+## Session note — 2026-06-02 (SEO/blog restart + site-wide lead-time fix)
+
+- **Blog cron was green-but-DEAD 30 days** — the GitHub Action ran on schedule and reported "success" but published nothing because the content-calendar/staged queue was empty ("No posts due"). Last real publish before today was 3 May. **Restarted** with 3 new, gap-targeted staged posts (commit `d83aeb0`): `do-steel-front-doors-reduce-noise-uk` (pub 4 Jun), `steel-look-aluminium-vs-real-steel-doors` (7 Jun), `glazed-front-door-security-glass-uk` (9 Jun). Cron resumes Sun/Tue/Thu.
+- **Lead time standardised to ~8 weeks SITE-WIDE** (commit `55b3fba`, 47 files: location FAQs + area descriptions, area-page template, collection door spec row, homepage FAQ + its FAQPage schema, /process, /contact, /terms, Hero, topic pages, blog posts). SR4 upgrade aligned to ~10 wks. **Per owner: the lead time is 8 weeks.** Imported-competitor "12-20 weeks" foil + planning-consent timings deliberately left unchanged.
+- **GSC verified live: 287 indexed** (the "67 indexed" figure in the Google Search Console section below is STALE — superseded). **Bing: steelr.co.uk now ranks #4** for "bespoke steel front doors UK manufacturer" (was 0). AI engines: SteelR #1 on bespoke/luxury/SR3/Kensington; absent on FD30 + thermally-broken (authority gap, pages already exist + are in llms).
+- **OPEN follow-ups (not done, by design):** (1) `public/llms.txt` + `public/llms-full.txt` still say "8 to 12 weeks" lead time → change to ~8 wks requires the `/panel-llms` gate + owner approval. (2) GBP service descriptions say "eight to twelve week lead time" → manual owner update to 8 wks.
+- All deploys verified READY. Full session detail in `STATE.md`.
+
 ## Session Handoff — 22 Apr 2026 evening
 
 Baseline visibility audit just ran (commit `cf477e2`). Full report at
