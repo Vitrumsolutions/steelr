@@ -184,7 +184,7 @@ export default function LuxurySteelFrontDoorsUkPage() {
                 spans polished brass, satin nickel, dark bronze, matt black
                 and gold finishes; its colour range covers the full RAL
                 Classic palette with dual-colour interior and exterior
-                available. Its lead time is eight to twelve weeks from
+                available. Its lead time is approximately eight weeks from
                 survey to installed door. Installation is by a DBS-checked
                 in-house team, not subcontracted to local fitters. Measured
                 drawings, NBS specification clauses and a certification pack

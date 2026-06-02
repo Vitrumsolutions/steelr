@@ -28,7 +28,7 @@ export const buckinghamshireLocations: Location[] = [
         question:
           "Do you cover Aylesbury and Milton Keynes alongside the South Bucks postcodes?",
         answer:
-          "Yes. Although Milton Keynes is administratively a unitary authority distinct from Buckinghamshire Council, we treat the whole Buckinghamshire commercial area as one service region. Survey, manufacture and install are run from our UK facility with no regional surcharge to Aylesbury (HP18 to HP22), Buckingham (MK18), the Aylesbury Garden Town expansion area, or any of the MK postcodes 1 through 19. Lead time from first survey to installed door is typically eight to twelve weeks regardless of which Bucks postcode the property sits in.",
+          "Yes. Although Milton Keynes is administratively a unitary authority distinct from Buckinghamshire Council, we treat the whole Buckinghamshire commercial area as one service region. Survey, manufacture and install are run from our UK facility with no regional surcharge to Aylesbury (HP18 to HP22), Buckingham (MK18), the Aylesbury Garden Town expansion area, or any of the MK postcodes 1 through 19. Lead time from first survey to installed door is typically approximately eight weeks regardless of which Bucks postcode the property sits in.",
       },
       {
         question:

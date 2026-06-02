@@ -28,7 +28,7 @@ export const berkshireLocations: Location[] = [
         question:
           "Do you cover Newbury and the west Berkshire AONB villages as well as Windsor and Ascot?",
         answer:
-          "Yes. We treat the whole of Berkshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Windsor SL4, Maidenhead SL6, Ascot SL5, Wokingham RG40, Reading RG1, Newbury RG14, Hungerford RG17, Pangbourne RG8, or any other Berkshire postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of which Berkshire postcode the property sits in.",
+          "Yes. We treat the whole of Berkshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Windsor SL4, Maidenhead SL6, Ascot SL5, Wokingham RG40, Reading RG1, Newbury RG14, Hungerford RG17, Pangbourne RG8, or any other Berkshire postcode. Typical lead time from first survey to installed door is approximately eight weeks regardless of which Berkshire postcode the property sits in.",
       },
       {
         question:

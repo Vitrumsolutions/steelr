@@ -323,7 +323,7 @@ export default function CostPage() {
             title: "Lead time",
             body: (
               <>
-                Standard lead time is eight to twelve weeks from first
+                Standard lead time is approximately eight weeks from first
                 enquiry to finished door in place. That is included in
                 the base price. Genuinely urgent projects, requiring
                 priority slot in manufacture or accelerated certification

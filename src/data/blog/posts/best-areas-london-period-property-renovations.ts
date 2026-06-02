@@ -139,7 +139,7 @@ Bespoke steel front doors for London period properties are a specifier-tier inve
 - Leaded, stained, toughened or double-glazed sidelights and fanlights to match the original composition.
 - Full UK installation by our own team, including frame alignment, multi-point locking gear and handover documentation.
 
-Lead times typically run eight to twelve weeks from design sign-off to installation, longer for listed buildings where consent is required first. Projects that include sidelights, fanlights or double-leaf doors sit at the upper end of the investment range.
+Lead times typically run approximately eight weeks from design sign-off to installation, longer for listed buildings where consent is required first. Projects that include sidelights, fanlights or double-leaf doors sit at the upper end of the investment range.
 
 ## Start Your Renovation
 
@@ -159,7 +159,7 @@ Yes, provided the visible specification faithfully replicates the original or th
 
 ### What is the typical lead time for a bespoke steel door in London?
 
-Eight to twelve weeks from design sign-off to installation is typical. Add four to twelve weeks upfront for listed building consent or planning approval where required. Survey, design review, colour sign-off and manufacture each take time. We always schedule installation once the door has passed final quality inspection and the fixing plan has been approved with the client.
+Approximately eight weeks from design sign-off to installation is typical. Add four to twelve weeks upfront for listed building consent or planning approval where required. Survey, design review, colour sign-off and manufacture each take time. We always schedule installation once the door has passed final quality inspection and the fixing plan has been approved with the client.
 
 ### Which London borough is strictest on front door specifications?
 

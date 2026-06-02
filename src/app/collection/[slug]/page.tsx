@@ -387,7 +387,7 @@ export default async function DoorPage({ params }: Props) {
                     { label: "Security", value: "SR3 std / SR4 upgrade" },
                     { label: "Material", value: "Fire Rated Steel" },
                     { label: "Certification", value: "ISO 9001" },
-                    { label: "Lead Time", value: "8 to 12 Weeks" },
+                    { label: "Lead Time", value: "Around 8 Weeks" },
                   ].map((spec) => (
                     <div key={spec.label}>
                       <p

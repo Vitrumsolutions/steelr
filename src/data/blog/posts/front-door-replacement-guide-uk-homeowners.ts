@@ -147,7 +147,7 @@ Off-the-shelf composite or uPVC doors can typically be supplied and installed wi
 
 ### Bespoke Steel Doors
 
-A bespoke steel entrance door involves a longer lead time to accommodate design development, manufacture and finishing. The typical timeline from initial consultation to installation is **eight to twelve weeks**, broken down as follows:
+A bespoke steel entrance door involves a longer lead time to accommodate design development, manufacture and finishing. The typical timeline from initial consultation to installation is **approximately eight weeks**, broken down as follows:
 
 - **Consultation and design:** 1-2 weeks
 - **Site survey and final specification:** 1 week
@@ -199,7 +199,7 @@ Yes. Replacement front doors in England and Wales must comply with Approved Docu
 
 ### How long does a front door replacement take from start to finish?
 
-For a bespoke steel entrance door, the typical timeline from initial consultation to completed installation is eight to twelve weeks. This includes design development, site survey, manufacture and finishing. The physical installation is usually completed within a single day.
+For a bespoke steel entrance door, the typical timeline from initial consultation to completed installation is approximately eight weeks. This includes design development, site survey, manufacture and finishing. The physical installation is usually completed within a single day.
 
 ### Will I need planning permission to replace my front door?
 

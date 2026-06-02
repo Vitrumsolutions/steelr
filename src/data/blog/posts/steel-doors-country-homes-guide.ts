@@ -185,7 +185,7 @@ Yes, and we recommend it. A single manufacturer specifying every entrance across
 
 ### How long does delivery and installation take for a country property?
 
-Typically 10 to 14 weeks from design sign-off to fitted. Slightly longer than urban installations due to bespoke frame profiles for thicker walls, potential access planning for remote locations and, on listed properties, the Listed Building Consent window. The installation itself is one to two days for a single leaf, two to four for double-leaf or sidelight configurations.
+Typically around 8 weeks from design sign-off to fitted, occasionally longer for remote locations or listed properties. Slightly longer than urban installations due to bespoke frame profiles for thicker walls, potential access planning for remote locations and, on listed properties, the Listed Building Consent window. The installation itself is one to two days for a single leaf, two to four for double-leaf or sidelight configurations.
 
 ### Do steel doors need maintenance on country properties?
 

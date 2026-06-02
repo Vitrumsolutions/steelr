@@ -80,7 +80,7 @@ No. The SR4 certification attaches to the internal door assembly, frame integrat
 
 ### Does the SR4 upgrade change the lead time?
 
-The standard SteelR lead time runs eight to twelve weeks from first enquiry. A door specified with the SR4 upgrade adds roughly two to three weeks, reflecting the additional certification process and the supply-chain coordination for the certified components. The design team confirms the appropriate tier at the survey stage.
+The standard SteelR lead time runs approximately eight weeks from first enquiry. A door specified with the SR4 upgrade adds roughly two to three weeks, reflecting the additional certification process and the supply-chain coordination for the certified components. The design team confirms the appropriate tier at the survey stage.
 
 ### Can a fire-rated door also carry the SR4 upgrade?
 

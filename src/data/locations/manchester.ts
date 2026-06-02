@@ -28,7 +28,7 @@ export const manchesterLocations: Location[] = [
         question:
           "Do you cover the full Greater Manchester conurbation including Stockport, Bolton and Bury?",
         answer:
-          "Yes. We treat Greater Manchester as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Hale WA15, Bowdon WA14, Altrincham WA14, Didsbury M20, Worsley M28, Bramhall SK7, Manchester city centre M1, Bolton BL1, Bury BL8, or any other Greater Manchester postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat Greater Manchester as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Hale WA15, Bowdon WA14, Altrincham WA14, Didsbury M20, Worsley M28, Bramhall SK7, Manchester city centre M1, Bolton BL1, Bury BL8, or any other Greater Manchester postcode. Typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

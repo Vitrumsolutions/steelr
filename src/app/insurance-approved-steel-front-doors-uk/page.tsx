@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "What is the typical lead time when an insurer-stipulated installation is in scope?",
     answer:
-      "Standard lead time is eight to twelve weeks from initial brief through survey, design, manufacture and installation. Where a binding underwriting referral is the driver and a cover note is contingent on the door being in place by a specific date, accelerated programmes can sometimes be accommodated. The accelerated path requires the specification to be set during the design consultation rather than at the survey, and is subject to operational capacity in the factory at the time of booking. Discuss the underwriting timeline with the design team at first contact so the programme can be planned against the cover-note deadline.",
+      "Standard lead time is around eight weeks from initial brief through survey, design, manufacture and installation. Where a binding underwriting referral is the driver and a cover note is contingent on the door being in place by a specific date, accelerated programmes can sometimes be accommodated. The accelerated path requires the specification to be set during the design consultation rather than at the survey, and is subject to operational capacity in the factory at the time of booking. Discuss the underwriting timeline with the design team at first contact so the programme can be planned against the cover-note deadline.",
   },
 ];
 

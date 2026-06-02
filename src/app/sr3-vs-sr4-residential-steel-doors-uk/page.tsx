@@ -50,7 +50,7 @@ const faqs = [
   {
     question: "How is the SR3 vs SR4 lead time decided, and how does it compare?",
     answer:
-      "SR3 follows the standard SteelR design process at the standard 8 to 12 week lead time. SR4 adds approximately two to three weeks to the standard, reflecting the additional certification process and supply chain coordination for the Commercial-grade certified components. After the on-site survey, the SteelR design team confirms whether the brief justifies the SR4 Commercial-grade tier, the SR3 Enhanced upgrade, or whether the BS EN 1627 RC4 Standard residential specification is more appropriate. There is no obligation to commit to a tier before the survey conversation.",
+      "SR3 follows the standard SteelR design process at the standard eight-week lead time. SR4 adds approximately two to three weeks to the standard, reflecting the additional certification process and supply chain coordination for the Commercial-grade certified components. After the on-site survey, the SteelR design team confirms whether the brief justifies the SR4 Commercial-grade tier, the SR3 Enhanced upgrade, or whether the BS EN 1627 RC4 Standard residential specification is more appropriate. There is no obligation to commit to a tier before the survey conversation.",
   },
   {
     question:
@@ -183,7 +183,7 @@ export default function Sr3VsSr4Page() {
               "Tool catalogue. SR3 covers bolt cutters, hammers, drills, crowbars and battery-operated power tools under Issue 8. SR4 (D10 Issue 8) extends with larger crowbars, heavier prying equipment and battery-operated cutting tools",
               "Attack duration. SR3 working-time threshold is 5 minutes under Issue 8. SR4 increases the attack window beyond SR3 within the same Issue 8 framework",
               "Typical specification context. SR3: high-value properties, conservation areas, listed buildings, insurer-specified or LPCB-preferred briefs. SR4: documented threat assessment, specialist private-bank clients, security-sensitive professions, layered safe-room specs",
-              "SteelR lead time. SR3: standard 8 to 12 weeks from sign-off. SR4: standard plus approximately 2 to 3 weeks for the additional Commercial-grade certification process and supply chain coordination",
+              "SteelR lead time. SR3: standard approximately 8 weeks from sign-off. SR4: standard plus approximately 2 to 3 weeks for the additional Commercial-grade certification process and supply chain coordination",
               "Standards stacking. Both SR3 and SR4 stack with FD30S (or FD60 upgrade), Secured by Design, PAS 24, ISO 9001 on the same door assembly",
             ],
           },

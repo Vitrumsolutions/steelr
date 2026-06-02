@@ -50,7 +50,7 @@ const contactFaqs = [
   {
     question: "How long does the full process take?",
     answer:
-      "Typically eight to twelve weeks from first enquiry to finished door in place. The structural survey is booked within one to two weeks of the enquiry. Design approval usually takes one week of dialogue. Manufacture in our UK facility runs six to eight weeks. Installation is completed in a single day for a single-leaf door, or two days for double doors or sidelight configurations. Full timeline is confirmed during the design stage.",
+      "Typically around eight weeks from first enquiry to finished door in place. The structural survey is booked within one to two weeks of the enquiry. Design approval usually takes one week of dialogue. Manufacture in our UK facility runs around six weeks. Installation is completed in a single day for a single-leaf door, or two days for double doors or sidelight configurations. Full timeline is confirmed during the design stage.",
   },
   {
     question: "Can I discuss the project without committing to anything?",

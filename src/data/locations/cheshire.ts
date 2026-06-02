@@ -28,7 +28,7 @@ export const cheshireLocations: Location[] = [
         question:
           "Do you cover the full Cheshire Golden Triangle plus Chester and the Cheshire Plain villages?",
         answer:
-          "Yes. We treat the whole of Cheshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Alderley Edge SK9, Wilmslow SK9, Prestbury SK10, Knutsford WA16, Bowdon WA14, Hale WA15, Chester CH1, Nantwich CW5, Tarporley CW6, Macclesfield SK10, or any other Cheshire postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat the whole of Cheshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Alderley Edge SK9, Wilmslow SK9, Prestbury SK10, Knutsford WA16, Bowdon WA14, Hale WA15, Chester CH1, Nantwich CW5, Tarporley CW6, Macclesfield SK10, or any other Cheshire postcode. Typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

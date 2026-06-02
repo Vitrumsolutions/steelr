@@ -37,7 +37,7 @@ const qaPairs = [
   },
   {
     q: "How long does a SteelR installation take from order to delivery?",
-    a: "SteelR doors are made to order in our UK workshop. Typical manufacturing lead time from design sign-off to delivery is eight to twelve weeks, depending on specification and production schedule. On-site installation completes in a single working day for most single-leaf configurations and two days for double-leaf or sidelight systems.",
+    a: "SteelR doors are made to order in our UK workshop. Typical manufacturing lead time from design sign-off to delivery is approximately eight weeks, depending on specification and production schedule. On-site installation completes in a single working day for most single-leaf configurations and two days for double-leaf or sidelight systems.",
   },
   {
     q: "Does SteelR install outside London and the South East?",

@@ -141,7 +141,7 @@ Bespoke steel entrance doors are significant architectural elements that warrant
 5. **Approval drawings**, dimensioned production drawings for formal sign-off before manufacture begins
 6. **Factory visit**, for bespoke or high-value projects, a factory visit during production provides confidence in quality and allows minor adjustments before completion
 
-Allow adequate programme time for this process. A typical bespoke steel entrance door requires 8-12 weeks from order to delivery, plus the approval period. Compressing the programme invariably compromises the outcome.
+Allow adequate programme time for this process. A typical bespoke steel entrance door requires approximately 8 weeks from order to delivery, plus the approval period. Compressing the programme invariably compromises the outcome.
 
 ## Working with Manufacturers
 
@@ -188,7 +188,7 @@ A single-leaf steel entrance door typically weighs between 80 and 150 kilograms 
 
 ### What lead time should I allow for a bespoke steel entrance door?
 
-Allow 8 to 12 weeks from confirmed order to delivery for a standard bespoke steel doorset. Complex configurations, specialist finishes or dual fire-and-security ratings can extend this; lead time is confirmed at quote stage. The approval process from initial consultation to signed-off production drawings should be programmed separately.
+Allow approximately 8 weeks from confirmed order to delivery for a standard bespoke steel doorset. Complex configurations, specialist finishes or dual fire-and-security ratings can extend this; lead time is confirmed at quote stage. The approval process from initial consultation to signed-off production drawings should be programmed separately.
 
 ### Can I specify different colours for the internal and external faces?
 

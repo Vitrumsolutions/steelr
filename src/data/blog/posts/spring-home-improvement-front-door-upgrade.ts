@@ -37,7 +37,7 @@ Even if you are not selling, spring viewings from neighbours and passers-by mean
 
 ### Lead Times and Planning
 
-Bespoke steel entrance doors involve a multi-stage process: design consultation, technical survey, manufacture, finishing and installation. The typical timeline from initial enquiry to completed installation is 8 to 14 weeks, depending on the complexity of the design and any structural considerations.
+Bespoke steel entrance doors involve a multi-stage process: design consultation, technical survey, manufacture, finishing and installation. The typical timeline from initial enquiry to completed installation is approximately 8 weeks, depending on the complexity of the design and any structural considerations.
 
 Starting in spring means installation in late spring or early summer, the most practical and pleasant time of year for the work. Leaving the enquiry until summer often means an autumn installation, and waiting until autumn risks pushing into winter.
 
@@ -115,7 +115,7 @@ This survey is essential. Bespoke doors are manufactured to the exact dimensions
 
 With survey data in hand, the design is finalised. You approve the panel configuration, colour (from the **full RAL range**), glazing specification, hardware selection and any special requirements. The door enters manufacture at SteelR's UK facility under **ISO 9001** certified quality management.
 
-Manufacturing time for a bespoke steel entrance door is typically 6 to 10 weeks, depending on complexity. During this period, any preparatory work at the property, structural adjustments, lintel modifications, decorative surround work, can be completed.
+Manufacturing time for a bespoke steel entrance door is typically around 6 weeks, depending on complexity. During this period, any preparatory work at the property, structural adjustments, lintel modifications, decorative surround work, can be completed.
 
 ### Step 4: Professional Installation
 
@@ -129,11 +129,11 @@ For more detail on each stage, see [our process](/process).
 
 Here is a realistic timeline for a spring 2026 enquiry:
 
-- **Week 1-2:** Initial enquiry, design discussion, indicative pricing
-- **Week 3-4:** Technical survey at the property
-- **Week 4-5:** Design finalisation and order confirmation
-- **Week 5-14:** Manufacture (6-10 weeks depending on specification)
-- **Week 14-15:** Delivery and installation
+- **Week 1:** Initial enquiry, design discussion, indicative pricing
+- **Week 2:** Technical survey at the property
+- **Week 2:** Design finalisation and order confirmation
+- **Week 3-8:** Manufacture and finishing (around 6 weeks depending on specification)
+- **Week 8:** Delivery and installation
 
 **A spring enquiry in April or May typically results in a completed installation by July or August**, in time to enjoy your new entrance through the summer and have it in place before the property market's autumn viewing season.
 

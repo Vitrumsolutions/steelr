@@ -166,7 +166,7 @@ We recommend the LPS 1175 SR3 Enhanced upgrade tier (above the BS EN 1627 RC4 St
 
 ### How long does it take to get a steel door installed in Kent?
 
-From initial consultation to completed installation, the typical timeline is eight to twelve weeks. This includes site survey, design development, bespoke manufacture and finishing. The installation itself is completed within a single day, with your property fully secured before the team leaves site.
+From initial consultation to completed installation, the typical timeline is approximately eight weeks. This includes site survey, design development, bespoke manufacture and finishing. The installation itself is completed within a single day, with your property fully secured before the team leaves site.
 
 ### Can steel doors replicate the look of traditional oak doors?
 

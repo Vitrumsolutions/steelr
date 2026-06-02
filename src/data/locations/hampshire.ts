@@ -28,7 +28,7 @@ export const hampshireLocations: Location[] = [
         question:
           "Do you cover the New Forest and South Downs villages as well as Winchester and Fleet?",
         answer:
-          "Yes. We treat the whole of Hampshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Winchester SO22, Fleet GU51, Lymington SO41, Brockenhurst SO42, Petersfield GU31, Alton GU34, Portsmouth PO1, Southampton SO14, or any other Hampshire postcode. Coastal properties at Lymington and Southsea receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat the whole of Hampshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Winchester SO22, Fleet GU51, Lymington SO41, Brockenhurst SO42, Petersfield GU31, Alton GU34, Portsmouth PO1, Southampton SO14, or any other Hampshire postcode. Coastal properties at Lymington and Southsea receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

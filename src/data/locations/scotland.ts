@@ -28,7 +28,7 @@ export const scotlandLocations: Location[] = [
         question:
           "Do you cover Glasgow, Aberdeen and the Highlands as well as Edinburgh?",
         answer:
-          "Yes. We treat the whole of mainland Scotland as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Edinburgh EH1, Glasgow G1, St Andrews KY16, Aberdeen AB10, Inverness IV1, or any other Scottish mainland postcode. Highland and West Coast properties may add a short additional surveyor travel day. Coastal properties receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat the whole of mainland Scotland as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Edinburgh EH1, Glasgow G1, St Andrews KY16, Aberdeen AB10, Inverness IV1, or any other Scottish mainland postcode. Highland and West Coast properties may add a short additional surveyor travel day. Coastal properties receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

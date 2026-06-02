@@ -67,7 +67,7 @@ Browse [our collection](/collection) to see the range of styles and configuratio
 
 ### Lead Times and Programme Alignment
 
-Bespoke steel doors have longer lead times than off-the-shelf composite alternatives, typically 8 to 12 weeks from order to delivery. For developers, this means the door specification needs to be confirmed during the early construction phases, not left as a late-stage decision. The benefit is that each door arrives as a complete, tested assembly ready for installation, reducing on-site labour and the risk of incorrect component assembly.
+Bespoke steel doors have longer lead times than off-the-shelf composite alternatives, typically around 8 weeks from order to delivery. For developers, this means the door specification needs to be confirmed during the early construction phases, not left as a late-stage decision. The benefit is that each door arrives as a complete, tested assembly ready for installation, reducing on-site labour and the risk of incorrect component assembly.
 
 ### Buyer Personalisation
 
@@ -151,7 +151,7 @@ The current requirement under Approved Document L is a maximum U-value of 1.8 W/
 
 ### How far in advance should developers order bespoke entrance doors?
 
-Bespoke steel entrance doors typically have lead times of 8 to 12 weeks from confirmed order to delivery. Developers should confirm door specifications during the early construction phases, ideally at first fix stage, to ensure doors arrive in time for second fix installation without causing programme delays.
+Bespoke steel entrance doors typically have lead times of around 8 weeks from confirmed order to delivery. Developers should confirm door specifications during the early construction phases, ideally at first fix stage, to ensure doors arrive in time for second fix installation without causing programme delays.
 
 ### Is Secured by Design accreditation worth pursuing for new developments?
 

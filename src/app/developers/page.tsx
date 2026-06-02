@@ -35,7 +35,7 @@ const faqs = [
   {
     question: "What lead time should I plan into the build programme?",
     answer:
-      "Standard lead time is eight to twelve weeks from agreed door schedule to finished door in place. Phased delivery against your build programme is the default model: doors are scheduled to arrive at the plot when first-fix is complete and the aperture is ready for installation. For multi-phase developments spanning multiple plot releases, the project lead and install team carry through every phase, so Phase 4 references the Phase 1 specification without drift. Accelerated programmes are possible on selected specifications via prior arrangement at the design stage.",
+      "Standard lead time is approximately eight weeks from agreed door schedule to finished door in place. Phased delivery against your build programme is the default model: doors are scheduled to arrive at the plot when first-fix is complete and the aperture is ready for installation. For multi-phase developments spanning multiple plot releases, the project lead and install team carry through every phase, so Phase 4 references the Phase 1 specification without drift. Accelerated programmes are possible on selected specifications via prior arrangement at the design stage.",
   },
   {
     question:
@@ -208,7 +208,7 @@ export default function DevelopersPage() {
             ),
             body2: (
               <>
-                Standard lead time is eight to twelve weeks from agreed
+                Standard lead time is approximately eight weeks from agreed
                 door schedule to finished door in place per plot.
                 Accelerated programmes are possible on selected
                 specifications via prior arrangement at the design
@@ -334,7 +334,7 @@ export default function DevelopersPage() {
           items: [
             "You are building plots in the £1m to £20m+ bracket where the front door materially affects sale price and viewing conversion",
             "Your warranty provider (NHBC, Premier Guarantee, LABC) requires PAS 24 evidence and Approved Document Q compliance in the handover pack",
-            "Your programme needs a UK lead time of eight to twelve weeks with predictable install dates, not foreign manufacture with customs risk",
+            "Your programme needs a UK lead time of around eight weeks with predictable install dates, not foreign manufacture with customs risk",
             "You want one supplier accountable across plots — same survey, same fabrication, same install team — rather than three subcontractors per door",
             "Your sales team need a specification line that estate agents and surveyors recognise as a value driver, not a generic composite",
           ],

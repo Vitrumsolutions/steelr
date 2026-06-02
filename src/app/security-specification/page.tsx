@@ -321,9 +321,9 @@ export default function SecuritySpecificationPage() {
                     <th scope="row" style={{ padding: "14px", textAlign: "left", fontWeight: 400, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", color: "#595959" }}>
                       Lead time impact
                     </th>
-                    <td style={{ padding: "14px", verticalAlign: "top" }}>Standard SteelR lead time: 8 to 12 weeks from sign-off to fitted installation.</td>
-                    <td style={{ padding: "14px", verticalAlign: "top" }}>Standard SteelR lead time, 8 to 12 weeks. Confirmed at design sign-off.</td>
-                    <td style={{ padding: "14px", verticalAlign: "top" }}>Standard plus 2 to 3 weeks. Approximately 10 to 14 weeks total.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Standard SteelR lead time: approximately 8 weeks from sign-off to fitted installation.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Standard SteelR lead time, approximately 8 weeks. Confirmed at design sign-off.</td>
+                    <td style={{ padding: "14px", verticalAlign: "top" }}>Standard plus approximately 2 weeks. Approximately 10 weeks total.</td>
                     <td style={{ padding: "14px", verticalAlign: "top" }}>Lead time confirmed at quote stage. Pricing individual to the project.</td>
                   </tr>
                 </tbody>

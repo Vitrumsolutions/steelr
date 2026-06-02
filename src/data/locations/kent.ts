@@ -28,7 +28,7 @@ export const kentLocations: Location[] = [
         question:
           "Do you cover Canterbury and the coastal Thanet towns as well as Sevenoaks and Tunbridge Wells?",
         answer:
-          "Yes. We treat the whole of Kent as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Canterbury CT1 to CT2, Ashford TN23, Maidstone ME14, Whitstable CT5, Broadstairs CT10, Margate CT9, Folkestone CT19, Dover CT16, or any other Kent postcode. For coastal properties we recommend marine-grade powder coating as standard to prevent salt-air corrosion. Typical lead time from first survey to installed door is eight to twelve weeks regardless of which Kent postcode the property sits in.",
+          "Yes. We treat the whole of Kent as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Canterbury CT1 to CT2, Ashford TN23, Maidstone ME14, Whitstable CT5, Broadstairs CT10, Margate CT9, Folkestone CT19, Dover CT16, or any other Kent postcode. For coastal properties we recommend marine-grade powder coating as standard to prevent salt-air corrosion. Typical lead time from first survey to installed door is approximately eight weeks regardless of which Kent postcode the property sits in.",
       },
       {
         question:

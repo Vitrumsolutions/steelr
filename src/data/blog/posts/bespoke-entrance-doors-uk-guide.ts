@@ -112,7 +112,7 @@ Once the design is approved, a detailed site survey establishes the precise dime
 
 ### Stage 4: Manufacture
 
-The door is manufactured in our **ISO 9001** certified facility. Every doorset is fabricated, welded, finished and assembled by hand. Typical lead times for a bespoke steel entrance door range from **8 to 14 weeks** depending on complexity. This is not a delay, it is the time required to build something properly.
+The door is manufactured in our **ISO 9001** certified facility. Every doorset is fabricated, welded, finished and assembled by hand. Typical lead time for a bespoke steel entrance door is **approximately 8 weeks** depending on complexity. This is not a delay, it is the time required to build something properly.
 
 ### Stage 5: Installation
 
@@ -155,10 +155,10 @@ Realistic lead times for a bespoke steel entrance door:
 
 - **Initial consultation to design approval:** 2 to 4 weeks, depending on revision cycles
 - **Site survey:** typically 1 week after design sign-off
-- **Manufacture:** 8 to 14 weeks depending on complexity
+- **Manufacture:** approximately 6 weeks depending on complexity
 - **Installation:** 1 day on site
 
-The total timeline from first contact to installed door is typically **12 to 20 weeks**. If you are working to a fixed completion date, for a renovation, a property sale or a seasonal deadline, plan accordingly and begin the process early.
+The total timeline from design sign-off to installed door is typically **approximately 8 weeks**. If you are working to a fixed completion date, for a renovation, a property sale or a seasonal deadline, plan accordingly and begin the process early.
 
 Browse [our collection](/collection) for design inspiration, [request a consultation](/contact) to begin a conversation about your project, or read our broader [bespoke steel front doors UK](/bespoke-steel-front-doors-uk) overview for the full specification picture.
 

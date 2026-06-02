@@ -28,7 +28,7 @@ export const oxfordshireLocations: Location[] = [
         question:
           "Do you cover Henley-on-Thames and the Cotswold villages as well as Oxford and Bicester?",
         answer:
-          "Yes. We treat the whole of Oxfordshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Oxford OX1, Bicester OX25, Henley-on-Thames RG9, Burford OX18, Chipping Norton OX7, Banbury OX16, Witney OX28, or any other Oxfordshire postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat the whole of Oxfordshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Oxford OX1, Bicester OX25, Henley-on-Thames RG9, Burford OX18, Chipping Norton OX7, Banbury OX16, Witney OX28, or any other Oxfordshire postcode. Typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

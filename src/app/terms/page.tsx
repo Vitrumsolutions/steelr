@@ -93,7 +93,7 @@ export default function TermsPage() {
 
           <h2 style={headingStyle}>Lead times</h2>
           <p style={sectionStyle}>
-            Typical lead time from enquiry to installation is 8 to 12 weeks.
+            Typical lead time from enquiry to installation is approximately 8 weeks.
             This is an estimate and may vary depending on specification complexity,
             survey scheduling and manufacturing demand. Your specific timeline will
             be confirmed during the order process.

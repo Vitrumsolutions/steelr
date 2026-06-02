@@ -28,7 +28,7 @@ export const southWestLocations: Location[] = [
         question:
           "Do you cover Devon and Cornwall as well as the Bath, Bristol and Cotswolds prestige belt?",
         answer:
-          "Yes. We treat the whole of South West England as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Bath BA1, Bristol BS1, Clifton BS8, Cheltenham GL50, Cirencester GL7, Tetbury GL8, Salisbury SP1, Exeter EX1, Salcombe TQ8, Padstow PL28, Fowey PL23, Rock PL27, or any other South West postcode. Coastal properties receive marine-grade powder coating as standard. Devon and Cornwall journeys do add a short additional surveyor travel day; typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat the whole of South West England as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Bath BA1, Bristol BS1, Clifton BS8, Cheltenham GL50, Cirencester GL7, Tetbury GL8, Salisbury SP1, Exeter EX1, Salcombe TQ8, Padstow PL28, Fowey PL23, Rock PL27, or any other South West postcode. Coastal properties receive marine-grade powder coating as standard. Devon and Cornwall journeys do add a short additional surveyor travel day; typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

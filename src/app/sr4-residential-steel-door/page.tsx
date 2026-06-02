@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "How is SR4 specified and what is the lead time?",
     answer:
-      "SR4 follows the standard SteelR design process with one additional step. After the on-site survey, the design team confirms whether the brief justifies the Commercial-grade tier or whether SR3 (Enhanced) or the standard BS EN 1627 RC4 specification is more appropriate. Lead time is ten to fourteen weeks from design sign-off to fitted installation, two to three weeks longer than the standard SteelR specification, reflecting the additional certification process and the supply chain coordination required for the certified components. Pricing is individual to the project. There are no fixed tiers and no published prices.",
+      "SR4 follows the standard SteelR design process with one additional step. After the on-site survey, the design team confirms whether the brief justifies the Commercial-grade tier or whether SR3 (Enhanced) or the standard BS EN 1627 RC4 specification is more appropriate. Lead time is approximately ten weeks from design sign-off to fitted installation, around two weeks longer than the standard SteelR specification, reflecting the additional certification process and the supply chain coordination required for the certified components. Pricing is individual to the project. There are no fixed tiers and no published prices.",
   },
 ];
 
@@ -378,7 +378,7 @@ export default function Sr4Page() {
             ),
             body2: (
               <>
-                Lead time is ten to fourteen weeks from signed design
+                Lead time is approximately ten weeks from signed design
                 to fitted installation, two to three weeks longer than
                 the standard SteelR specification, reflecting the
                 additional certification process and the supply-chain

@@ -8,14 +8,14 @@ import QuickEnquiry from "@/components/QuickEnquiry";
 export const metadata: Metadata = {
   title: "Our Process | Steel Door Survey to Install | SteelR",
   description:
-    "From enquiry to install of bespoke steel front doors. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Nationwide UK, 8 to 12 weeks.",
+    "From enquiry to install of bespoke steel front doors. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Nationwide UK, around 8 weeks.",
   alternates: {
     canonical: "https://steelr.co.uk/process",
   },
   openGraph: {
     title: "Our Process | Steel Door Survey to Install | SteelR",
     description:
-      "From enquiry to install of bespoke steel front doors. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Nationwide UK, 8 to 12 weeks.",
+      "From enquiry to install of bespoke steel front doors. PAS 24, BS EN 1627 RC4 Standard, LPS 1175 SR3/SR4 + LPS 1673 available. Nationwide UK, around 8 weeks.",
     url: "https://steelr.co.uk/process",
     type: "website",
     images: ["/og-image.png"],
@@ -50,8 +50,8 @@ const stages = [
   {
     num: "04",
     title: "Manufacture and Installation",
-    text: "Manufacture takes six to eight weeks in our UK facility. Every door is quality-checked before it leaves the factory. Installation is carried out by our own in-house team.",
-    detail: "During manufacture, the steel frame is fabricated, the door leaf is built, fire and security certifications are verified, and the finish coat is applied under controlled conditions. Installation is carried out by DBS-checked, fully insured fitters employed directly by SteelR. Never subcontracted. A single-leaf door is usually fitted inside one working day; double doors or sidelight configurations take two. You are handed a ten-year manufacturer warranty, full care instructions, and direct contact details for aftercare. Typical total time from first enquiry to finished door in place is eight to twelve weeks.",
+    text: "Manufacture takes around six weeks in our UK facility. Every door is quality-checked before it leaves the factory. Installation is carried out by our own in-house team.",
+    detail: "During manufacture, the steel frame is fabricated, the door leaf is built, fire and security certifications are verified, and the finish coat is applied under controlled conditions. Installation is carried out by DBS-checked, fully insured fitters employed directly by SteelR. Never subcontracted. A single-leaf door is usually fitted inside one working day; double doors or sidelight configurations take two. You are handed a ten-year manufacturer warranty, full care instructions, and direct contact details for aftercare. Typical total time from first enquiry to finished door in place is approximately eight weeks.",
     image: "/images/gallery/steelr-navy-panelled-chrome-palms.jpg",
     alt: "Professional steel door installation",
   },
@@ -71,7 +71,7 @@ const howToSchema = JSON.stringify({
   "@type": "HowTo",
   name: "How to Get a Bespoke Steel Entrance Door Designed and Installed",
   description:
-    "Our four-stage process from initial enquiry to professional installation of your bespoke steel entrance door, with an eight to twelve week total lead time.",
+    "Our four-stage process from initial enquiry to professional installation of your bespoke steel entrance door, with an eight-week total lead time.",
   totalTime: "P12W",
   step: [
     {
@@ -96,7 +96,7 @@ const howToSchema = JSON.stringify({
       "@type": "HowToStep",
       position: 4,
       name: "Manufacture and Installation",
-      text: "Six to eight weeks of UK manufacture with full QC. Installation by our own in-house DBS-checked team, never subcontracted. Ten-year manufacturer warranty. Total lead time eight to twelve weeks from first enquiry.",
+      text: "Around six weeks of UK manufacture with full QC. Installation by our own in-house DBS-checked team, never subcontracted. Ten-year manufacturer warranty. Total lead time approximately eight weeks from first enquiry.",
     },
   ],
 });

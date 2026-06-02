@@ -28,7 +28,7 @@ export const sussexLocations: Location[] = [
         question:
           "Do you cover East and West Sussex equally, including the coastal towns?",
         answer:
-          "Yes. We treat Sussex (both East and West) as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Brighton BN1, Chichester PO19, Arundel BN18, Lewes BN7, Horsham RH12, Haywards Heath RH16, Worthing BN11, Eastbourne BN20, Hastings TN34, or any other Sussex postcode. Coastal properties receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat Sussex (both East and West) as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Brighton BN1, Chichester PO19, Arundel BN18, Lewes BN7, Horsham RH12, Haywards Heath RH16, Worthing BN11, Eastbourne BN20, Hastings TN34, or any other Sussex postcode. Coastal properties receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

@@ -145,7 +145,7 @@ Any supplier quoting a fixed price without seeing the property is not specifying
 
 ## Common Mistakes UK Homeowners Make
 
-**Buying on lead time.** A luxury front door typically takes **8 to 14 weeks** from specification to fitted. Anyone offering same-week delivery is selling a standard product.
+**Buying on lead time.** A luxury front door typically takes **approximately 8 weeks** from specification to fitted. Anyone offering same-week delivery is selling a standard product.
 
 **Prioritising price over spec.** The gap between a premium composite and a bespoke steel door on a period property is visible to every guest who walks through it for the next 30 years. Most of that gap is not profit. It is the survey, the manufacture, the finish and the install.
 
@@ -187,7 +187,7 @@ Yes. Bespoke steel and solid hardwood doors can both be manufactured in period-a
 
 ### How long does a bespoke luxury front door take to manufacture?
 
-Eight to fourteen weeks from agreed specification to fitted installation. The timeline typically breaks down as: two to three weeks for design sign-off, four to six weeks in the workshop, one to two weeks for finishing and quality control, and one to three days for installation. Any supplier quoting under six weeks is not specifying a genuinely bespoke product.
+Approximately eight weeks from agreed specification to fitted installation. The timeline typically breaks down as design sign-off, workshop manufacture, finishing and quality control, then one to three days for installation. Any supplier quoting under six weeks is not specifying a genuinely bespoke product.
 
 ### Do luxury front doors add value to a property?
 

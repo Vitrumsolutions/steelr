@@ -148,7 +148,7 @@ Chilterns properties built in the flint and brick vernacular suit heritage panel
 
 ### How long does installation take for a Buckinghamshire property?
 
-The physical installation is typically completed within a single day. The full process from initial consultation to installation takes approximately eight to twelve weeks for a bespoke steel door, accounting for design development, site survey, manufacture and finishing.
+The physical installation is typically completed within a single day. The full process from initial consultation to installation takes approximately eight weeks for a bespoke steel door, accounting for design development, site survey, manufacture and finishing.
 
 ### Are steel doors suitable for older Buckinghamshire properties?
 

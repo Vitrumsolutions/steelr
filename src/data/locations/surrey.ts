@@ -28,7 +28,7 @@ export const surreyLocations: Location[] = [
         question:
           "Do you cover Guildford and Farnham as well as the Wentworth and Cobham prestige belt?",
         answer:
-          "Yes. We treat the whole of Surrey as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Guildford GU1 to GU5, Farnham GU9, Haslemere GU27, Hindhead GU26, Dorking RH4, Reigate RH2, or any of the prestige KT and GU postcodes. Typical lead time from first survey to installed door is eight to twelve weeks regardless of which Surrey postcode the property sits in.",
+          "Yes. We treat the whole of Surrey as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Guildford GU1 to GU5, Farnham GU9, Haslemere GU27, Hindhead GU26, Dorking RH4, Reigate RH2, or any of the prestige KT and GU postcodes. Typical lead time from first survey to installed door is approximately eight weeks regardless of which Surrey postcode the property sits in.",
       },
       {
         question:

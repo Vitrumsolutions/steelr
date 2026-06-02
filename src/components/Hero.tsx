@@ -240,7 +240,7 @@ export default function Hero() {
             textShadow: "0 1px 6px rgba(0, 0, 0, 0.4)",
           }}
         >
-          Tested to BS EN 1627:2011 RC4 single leaf, unglazed. Designed and installed nationwide. 8 to 12 week lead time.
+          Tested to BS EN 1627:2011 RC4 single leaf, unglazed. Designed and installed nationwide. 8-week lead time.
         </p>
 
         <Link

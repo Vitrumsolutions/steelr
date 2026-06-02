@@ -28,7 +28,7 @@ export const yorkshireLocations: Location[] = [
         question:
           "Do you cover the full Yorkshire region including the Dales, the East Riding coast and Sheffield?",
         answer:
-          "Yes. We treat the historic Yorkshire region (West, North and East Ridings, plus the city of York and the Sheffield district) as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Harrogate HG1, York YO1, Leeds LS17, Sheffield S10, Ilkley LS29, Wetherby LS22, Whirlow S11, Scarborough YO11, Whitby YO21, or any other Yorkshire postcode. Coastal properties at Whitby, Scarborough and Bridlington receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat the historic Yorkshire region (West, North and East Ridings, plus the city of York and the Sheffield district) as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Harrogate HG1, York YO1, Leeds LS17, Sheffield S10, Ilkley LS29, Wetherby LS22, Whirlow S11, Scarborough YO11, Whitby YO21, or any other Yorkshire postcode. Coastal properties at Whitby, Scarborough and Bridlington receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

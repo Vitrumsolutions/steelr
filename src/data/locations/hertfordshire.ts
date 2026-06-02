@@ -28,7 +28,7 @@ export const hertfordshireLocations: Location[] = [
         question:
           "Do you cover Bishop's Stortford and Welwyn Garden City as well as the St Albans and Radlett prestige belt?",
         answer:
-          "Yes. We treat the whole of Hertfordshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to St Albans AL1 to AL4, Harpenden AL5, Berkhamsted HP4, Radlett WD7, Bishop's Stortford CM23, Welwyn Garden City AL8, Letchworth SG6, Hertford SG13, or any other Hertfordshire postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of which Hertfordshire postcode the property sits in.",
+          "Yes. We treat the whole of Hertfordshire as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to St Albans AL1 to AL4, Harpenden AL5, Berkhamsted HP4, Radlett WD7, Bishop's Stortford CM23, Welwyn Garden City AL8, Letchworth SG6, Hertford SG13, or any other Hertfordshire postcode. Typical lead time from first survey to installed door is approximately eight weeks regardless of which Hertfordshire postcode the property sits in.",
       },
       {
         question:

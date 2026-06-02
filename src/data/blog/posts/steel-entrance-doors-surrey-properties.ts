@@ -124,7 +124,7 @@ We recommend the LPS 1175 SR3 Enhanced upgrade (above the BS EN 1627 RC4 Standar
 
 ### How long does it take to have a bespoke steel door manufactured and installed?
 
-From initial design consultation to completed installation, the typical lead time is 8 to 12 weeks. This includes the design phase, manufacturing, finishing and professional installation. The process is detailed on [our process](/process) page.
+From initial design consultation to completed installation, the typical lead time is approximately 8 weeks. This includes the design phase, manufacturing, finishing and professional installation. The process is detailed on [our process](/process) page.
 
 ### Can you match a steel door to an existing colour scheme?
 

@@ -172,7 +172,7 @@ export default async function AreaPage({ params }: Props) {
     },
     {
       question: `How long does installation take in ${location.name}?`,
-      answer: `From your initial consultation to completion, the typical lead time is 8 to 12 weeks. This allows for the design process, structural survey, bespoke manufacturing and quality checks. The on-site installation itself is usually completed in a single day, minimising disruption to your ${location.name} home.`,
+      answer: `From your initial consultation to completion, the typical lead time is approximately 8 weeks. This allows for the design process, structural survey, bespoke manufacturing and quality checks. The on-site installation itself is usually completed in a single day, minimising disruption to your ${location.name} home.`,
     },
     {
       question: `Are your steel doors suitable for conservation areas in ${location.name}?`,

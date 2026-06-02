@@ -85,7 +85,7 @@ SteelR designs each sidelight configuration from the property survey rather than
 
 ### Lead Time
 
-A door with sidelights uses the same eight to twelve week lead time as a single-leaf door. The additional manufacturing time for the sidelight panels is folded into the standard production schedule. Site installation takes two days for a sidelighted assembly, compared to one day for a single leaf, because of the additional alignment and sealing work at the leaf-sidelight joint.
+A door with sidelights uses the same eight-week lead time as a single-leaf door. The additional manufacturing time for the sidelight panels is folded into the standard production schedule. Site installation takes two days for a sidelighted assembly, compared to one day for a single leaf, because of the additional alignment and sealing work at the leaf-sidelight joint.
 
 ### Cost Factors
 
@@ -117,13 +117,13 @@ Single sidelight assemblies work from roughly 1,400 mm wide overall aperture upw
 
 ### Is the lead time longer for a door with sidelights?
 
-No. Standard eight to twelve weeks from enquiry to installation applies regardless of whether the door has sidelights. Site installation takes one extra day compared to a single-leaf door, but factory manufacture runs to the same production schedule.
+No. Approximately eight weeks from enquiry to installation applies regardless of whether the door has sidelights. Site installation takes one extra day compared to a single-leaf door, but factory manufacture runs to the same production schedule.
 
 ## The Bottom Line
 
 A steel front door with sidelights is the right choice when the entrance is part of an architectural composition rather than a single piece of joinery. The configuration brings daylight into the hallway, scales the entrance to the building, and on period properties keeps the streetscape coherent. The security and fire ratings apply to the complete assembly, not the leaf in isolation, which is the single most important difference between a properly specified UK manufactured door and a budget import with sidelights bolted on.
 
-The starting point on any project is the [free on-site survey](/contact). The surveyor confirms the aperture, identifies any structural constraints, and from that the design consultation produces a 1:20 elevation drawing showing the proposed door with sidelights in context. Once signed off, manufacture and installation run to the standard eight to twelve week lead time, with sidelighted assemblies installed across two days.
+The starting point on any project is the [free on-site survey](/contact). The surveyor confirms the aperture, identifies any structural constraints, and from that the design consultation produces a 1:20 elevation drawing showing the proposed door with sidelights in context. Once signed off, manufacture and installation run to the standard eight-week lead time, with sidelighted assemblies installed across two days.
 
 Browse the [collection of doors with sidelights](/collection/sidelights) for representative configurations, or read the [luxury front doors buyer's guide](/blog/luxury-front-doors-uk-buyer-guide) for context on how sidelights fit into the broader specification of a high-end UK entrance.`,
 };

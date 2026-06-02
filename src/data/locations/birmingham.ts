@@ -28,7 +28,7 @@ export const birminghamLocations: Location[] = [
         question:
           "Do you cover the full West Midlands including Solihull, Sutton Coldfield and the Black Country?",
         answer:
-          "Yes. We treat Birmingham and the West Midlands as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Edgbaston B15, Harborne B17, Sutton Coldfield B74, Solihull B91, Knowle B93, Dorridge B93, Bournville B30, Jewellery Quarter B18, Moseley B13, Wolverhampton, Walsall, West Bromwich, or any other West Midlands postcode. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat Birmingham and the West Midlands as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Edgbaston B15, Harborne B17, Sutton Coldfield B74, Solihull B91, Knowle B93, Dorridge B93, Bournville B30, Jewellery Quarter B18, Moseley B13, Wolverhampton, Walsall, West Bromwich, or any other West Midlands postcode. Typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

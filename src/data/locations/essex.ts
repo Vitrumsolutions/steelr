@@ -28,7 +28,7 @@ export const essexLocations: Location[] = [
         question:
           "Do you cover Saffron Walden and the Colchester rural belt as well as Brentwood and Chigwell?",
         answer:
-          "Yes. We treat the whole of Essex as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Chigwell IG7, Loughton IG10, Brentwood CM13, Saffron Walden CB11, Great Dunmow CM6, Colchester CO1, Burnham-on-Crouch CM0, or any other Essex postcode. Coastal properties at Mersea Island, Burnham and Maldon receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is eight to twelve weeks regardless of postcode.",
+          "Yes. We treat the whole of Essex as a single service region from our UK facility. Survey, manufacture and install run with no regional surcharge to Chigwell IG7, Loughton IG10, Brentwood CM13, Saffron Walden CB11, Great Dunmow CM6, Colchester CO1, Burnham-on-Crouch CM0, or any other Essex postcode. Coastal properties at Mersea Island, Burnham and Maldon receive marine-grade powder coating as standard. Typical lead time from first survey to installed door is approximately eight weeks regardless of postcode.",
       },
       {
         question:

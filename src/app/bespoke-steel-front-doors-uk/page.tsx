@@ -27,12 +27,12 @@ const faqs = [
   {
     question: "Are SteelR doors made in the United Kingdom?",
     answer:
-      "Yes. Every SteelR door is manufactured in our UK facility from UK-sourced or European steel. Manufacture typically takes six to eight weeks. Installation is carried out by SteelR employees directly, never subcontracted. We do not import finished doors or frames.",
+      "Yes. Every SteelR door is manufactured in our UK facility from UK-sourced or European steel. Manufacture typically takes around six weeks. Installation is carried out by SteelR employees directly, never subcontracted. We do not import finished doors or frames.",
   },
   {
     question: "How long is the lead time on a bespoke steel front door?",
     answer:
-      "Typically eight to twelve weeks from first enquiry to finished door in place. That breaks down as a site survey within one to two weeks, a design stage of about one week, six to eight weeks of manufacture and quality control, and installation itself in one day for a single door or two days for double doors and sidelight configurations.",
+      "Typically around eight weeks from first enquiry to finished door in place. That breaks down as a site survey within one to two weeks, a design stage of about one week, around six weeks of manufacture and quality control, and installation itself in one day for a single door or two days for double doors and sidelight configurations.",
   },
   {
     question: "Which security ratings do bespoke steel front doors carry?",
@@ -164,7 +164,7 @@ export default function BespokeHubPage() {
           },
           {
             pretitle: "How a project runs",
-            title: "Four stages, one point of contact, eight to twelve weeks",
+            title: "Four stages, one point of contact, around eight weeks",
             body: (
               <>
                 Every SteelR project runs through the same four stages,
