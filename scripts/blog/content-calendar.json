@@ -556,5 +556,59 @@
       "birmingham"
     ],
     "published": true
+  },
+  {
+    "keyword": "do steel front doors reduce noise",
+    "slug": "do-steel-front-doors-reduce-noise-uk",
+    "titleHint": "Do Steel Front Doors Reduce Noise? Acoustic Performance Explained",
+    "category": "Technical",
+    "scheduledDate": "2026-06-04",
+    "targetPages": [
+      "/thermally-broken-steel-front-door",
+      "/collection",
+      "/security-specification"
+    ],
+    "targetAreas": [
+      "london",
+      "kensington",
+      "chelsea"
+    ],
+    "published": false
+  },
+  {
+    "keyword": "steel look aluminium vs real steel doors",
+    "slug": "steel-look-aluminium-vs-real-steel-doors",
+    "titleHint": "Steel-Look Aluminium vs Real Steel Front Doors: How to Tell the Difference",
+    "category": "Buying Guide",
+    "scheduledDate": "2026-06-07",
+    "targetPages": [
+      "/uk-steel-doors-vs-imported",
+      "/security-specification",
+      "/collection"
+    ],
+    "targetAreas": [
+      "london",
+      "surrey",
+      "buckinghamshire"
+    ],
+    "published": false
+  },
+  {
+    "keyword": "can a glazed front door be secure",
+    "slug": "glazed-front-door-security-glass-uk",
+    "titleHint": "Can a Glazed Front Door Still Be Secure? Security Glass Explained",
+    "category": "Security",
+    "scheduledDate": "2026-06-09",
+    "targetPages": [
+      "/security-specification",
+      "/collection/sidelights",
+      "/sr3-residential-steel-door"
+    ],
+    "targetAreas": [
+      "london",
+      "kensington",
+      "surrey"
+    ],
+    "published": false
   }
 ]
