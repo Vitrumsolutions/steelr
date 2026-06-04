@@ -1590,7 +1590,7 @@ Q: What U-value do new build entrance doors need to achieve?
 A: The current requirement under Approved Document L is a maximum U-value of 1.8 W/m²K for entrance doors. However, with the Future Homes Standard tightening energy requirements, specifying doors with U-values well below this threshold (premium steel doors typically achieve from 1.5 W/m²K, with thermal-upgrade options as low as 0.8 W/m²K) provides future-proofing and improves the dwelling's SAP calculation.
 
 Q: How far in advance should developers order bespoke entrance doors?
-A: Bespoke steel entrance doors typically have lead times of 8 to 12 weeks from confirmed order to delivery. Developers should confirm door specifications during the early construction phases, ideally at first fix stage, to ensure doors arrive in time for second fix installation without causing programme delays.
+A: Bespoke steel entrance doors typically have lead times of around 8 weeks from confirmed order to delivery. Developers should confirm door specifications during the early construction phases, ideally at first fix stage, to ensure doors arrive in time for second fix installation without causing programme delays.
 
 For property developers, the front door is where compliance, security, kerb appeal and long-term build quality converge. It is one of the most visible elements of any new build and, simultaneously, one of the most heavily regulated. Getting the specification wrong can mean failed building control inspections, delays to completion and remedial works that erode margins.
 
@@ -1723,7 +1723,7 @@ Complete guide to bespoke steel entrance doors in the UK. Made-to-order customis
 
 - The UK door industry works to a set of common sizes, with the most prevalent being 2085mm x 920mm for a single leaf.
 - The door is manufactured in our ISO 9001 certified facility.
-- Typical lead times for a bespoke steel entrance door range from 8 to 14 weeks depending on complexity.
+- Typical lead time for a bespoke steel entrance door is approximately 8 weeks depending on complexity.
 
 **FAQs:**
 
@@ -1855,7 +1855,7 @@ Q: What security rating should I choose for a Kent property?
 A: We recommend the LPS 1175 SR3 Enhanced upgrade tier (above the BS EN 1627 RC4 Standard that ships on every door) for Kent properties, particularly those in the affluent commuter belt or in rural locations with limited natural surveillance. SR3 provides five minutes of resistance against professional tools and is the LPCB police-preferred residential rating. This level of protection is manufactured under **ISO 9001** quality management and carries Secured by Design accreditation.
 
 Q: How long does it take to get a steel door installed in Kent?
-A: From initial consultation to completed installation, the typical timeline is eight to twelve weeks. This includes site survey, design development, bespoke manufacture and finishing. The installation itself is completed within a single day, with your property fully secured before the team leaves site.
+A: From initial consultation to completed installation, the typical timeline is approximately eight weeks. This includes site survey, design development, bespoke manufacture and finishing. The installation itself is completed within a single day, with your property fully secured before the team leaves site.
 
 Kent holds a singular position in English architecture. Known as the Garden of England, the county's building traditions reflect centuries of agricultural prosperity, strategic military importance and proximity to continental Europe. From the medieval timber frames of the Weald to the Regency crescents of Tunbridge Wells and the weatherboarded coastal towns of the Kentish shore, the county presents one of the most diverse architectural landscapes in the country.
 
@@ -1886,7 +1886,7 @@ Q: What door styles suit Chilterns properties?
 A: Chilterns properties built in the flint and brick vernacular suit heritage panelled doors in muted, earthy colours, deep greens, warm greys and soft blues. Ornate Victorian styles can feel incongruous against the modest proportions of Chilterns cottages. The key is simplicity and material quality rather than decorative complexity.
 
 Q: How long does installation take for a Buckinghamshire property?
-A: The physical installation is typically completed within a single day. The full process from initial consultation to installation takes approximately eight to twelve weeks for a bespoke steel door, accounting for design development, site survey, manufacture and finishing.
+A: The physical installation is typically completed within a single day. The full process from initial consultation to installation takes approximately eight weeks for a bespoke steel door, accounting for design development, site survey, manufacture and finishing.
 
 Q: Are steel doors suitable for older Buckinghamshire properties?
 A: Steel doors are highly suitable for period properties. The door can be designed to match any architectural style, Georgian panelled, Victorian arched, Arts and Crafts, and finished in heritage-appropriate colours from the full RAL range. The steel construction is invisible once installed; what your neighbours see is a beautifully proportioned door that complements the building.
@@ -1922,7 +1922,7 @@ Q: What security rating should I look for in a Surrey property?
 A: We recommend the LPS 1175 SR3 Enhanced upgrade (above the BS EN 1627 RC4 Standard tier that ships on every door) for affluent Surrey areas. Given the targeted nature of burglary in those areas, SR3 with Secured by Design accreditation provides both serious physical resistance and a visible deterrent effect.
 
 Q: How long does it take to have a bespoke steel door manufactured and installed?
-A: From initial design consultation to completed installation, the typical lead time is 8 to 12 weeks. This includes the design phase, manufacturing, finishing and professional installation. The process is detailed on [our process](/process) page.
+A: From initial design consultation to completed installation, the typical lead time is approximately 8 weeks. This includes the design phase, manufacturing, finishing and professional installation. The process is detailed on [our process](/process) page.
 
 Q: Can you match a steel door to an existing colour scheme?
 A: Yes. Every door is finished in any colour from the full RAL range, over 200 options. We also offer dual-colour specification, where the exterior and interior are finished in different colours. This is particularly useful for period properties where the exterior colour must match the streetscape while the interior complements the hallway decor.
@@ -1996,7 +1996,7 @@ Q: Can a steel front door pass a London conservation officer's review?
 A: Yes, provided the visible specification faithfully replicates the original or the historically appropriate design. A bespoke steel door can match timber profiles closely, including fielded panels, beaded mouldings, fanlight glazing bars and period-correct ironmongery. Submit elevation drawings, a coated sample and photographs of the proposed specification against the existing door as part of the consent application. Conservation officers respond best to a considered, well-documented submission.
 
 Q: What is the typical lead time for a bespoke steel door in London?
-A: Eight to twelve weeks from design sign-off to installation is typical. Add four to twelve weeks upfront for listed building consent or planning approval where required. Survey, design review, colour sign-off and manufacture each take time. We always schedule installation once the door has passed final quality inspection and the fixing plan has been approved with the client.
+A: Approximately eight weeks from design sign-off to installation is typical. Add four to twelve weeks upfront for listed building consent or planning approval where required. Survey, design review, colour sign-off and manufacture each take time. We always schedule installation once the door has passed final quality inspection and the fixing plan has been approved with the client.
 
 Q: Which London borough is strictest on front door specifications?
 A: Westminster, Kensington and Chelsea, and Camden all operate among the strictest conservation regimes in the UK. Belgravia, Mayfair and central Marylebone (Westminster); Kensington and Chelsea (the Royal Borough); and Hampstead and Highgate (Camden) all have conservation areas where front door specifications are closely reviewed. The Ladbroke Estate in Notting Hill and the Dulwich Estate in South London have additional private approval regimes on top of the local authority.
@@ -2112,7 +2112,7 @@ Q: Does fitting a commercial-grade door make a home look commercial?
 A: No. The SR4 certification attaches to the internal door assembly, frame integration, hardware and locking system, none of which is externally visible. A Georgian six-panel door in a heritage colour with brass hardware is a viable SR4 specification, and so is a contemporary flush leaf in matt anthracite. The full RAL palette, hardware finishes, glazing and sidelight configurations are all available on a door carrying the upgrade.
 
 Q: Does the SR4 upgrade change the lead time?
-A: The standard SteelR lead time runs eight to twelve weeks from first enquiry. A door specified with the SR4 upgrade adds roughly two to three weeks, reflecting the additional certification process and the supply-chain coordination for the certified components. The design team confirms the appropriate tier at the survey stage.
+A: The standard SteelR lead time runs approximately eight weeks from first enquiry. A door specified with the SR4 upgrade adds roughly two to three weeks, reflecting the additional certification process and the supply-chain coordination for the certified components. The design team confirms the appropriate tier at the survey stage.
 
 Q: Can a fire-rated door also carry the SR4 upgrade?
 A: Yes. FD30S fire and smoke rating is standard on every SteelR door and applies equally to a door specified with the SR4 upgrade. FD60 is available as a further upgrade where sixty-minute fire integrity is required. The fire rating, the forced-entry certification and the SR4 upgrade all apply to the same door assembly at once.
@@ -2533,7 +2533,42 @@ The colour of your entrance door is one of the most impactful design decisions y
 - [Modern Front Door Ideas UK: 12 Designs Leading 2026](https://steelr.co.uk/blog/modern-front-door-ideas-inspiration-2026)
 - [RAL Colours for Front Doors: The Complete UK Guide](https://steelr.co.uk/blog/ral-colours-front-doors-complete-guide)
 
-### Technical (4 posts)
+### Technical (5 posts)
+
+#### Do Steel Front Doors Reduce Noise? Acoustic Performance Explained
+URL: https://steelr.co.uk/blog/do-steel-front-doors-reduce-noise-uk | Category: Technical | Published: 2026-06-04 | 8 min read
+
+Do steel front doors reduce noise? How mass, insulated dual-skin construction, compression seals and acoustic glazing cut traffic and street noise in UK homes.
+
+**Key facts:**
+
+- A 1mm continuous gap around a door can undo most of the leaf's acoustic benefit.
+- A bespoke steel entrance door is substantially heavier than a composite or uPVC equivalent, typically 60 to 100kg for a single leaf.
+
+**FAQs:**
+
+Q: Do steel front doors reduce noise better than composite doors?
+A: Generally yes, because the two properties that block sound, mass and firm sealing, are higher on a bespoke steel door. A steel door's heavier dual-skin construction resists low-frequency traffic noise better than a lighter composite, and its multi-point locking holds the compression seals tight for the life of the door rather than relaxing over time. The biggest variable in either case is the glazing and the quality of the seal at the threshold.
+
+Q: What actually makes a front door soundproof?
+A: No door is fully soundproof, but the quietest doors combine four things: high mass in the leaf, a damped insulated core, continuous compression seals around the full perimeter, and an engineered threshold that closes the gap underneath. Glazing must be acoustic laminated rather than standard double glazing. Installation matters as much as the door itself, because sound leaks through any gap left between the frame and the wall.
+
+Q: Does the glass in a front door let noise through?
+A: Yes, glazing is usually the acoustic weak point. Standard double glazing performs poorly against traffic noise because both panes resonate similarly. Acoustic laminated glass with a damping interlayer, and asymmetric panes of differing thickness, perform far better. On a bespoke door you specify this at the design stage, and you can also choose how much glazed area to include.
+
+Q: Will a steel door stay quiet over time?
+A: Yes. Steel does not swell, shrink or warp with humidity, so the compression seals stay correctly compressed all year and for the life of the door. Timber doors, by contrast, open and close seasonal gaps as they move, which is why their acoustic and draught performance drifts. The powder-coat finish and seals are designed to last, so the door performs the same in its tenth year as its first.
+
+Q: Is a steel front door worth it for a house on a busy road?
+A: For a property directly exposed to traffic, railway or aircraft noise, a correctly specified steel doorset is one of the most effective single upgrades for the entrance, because it improves security, thermal comfort and acoustic comfort at the same time. The key is to specify it for noise from the outset: solid or acoustically glazed, fully sealed, engineered threshold, professionally installed. Speak to us about the noise conditions at your property and we will specify accordingly.
+
+For homes on busy roads, near railway lines, or under a flight path, the front door is frequently the weakest acoustic link in the whole facade. A solid masonry wall blocks a great deal of sound. A thin, hollow or poorly sealed door does not. Many homeowners spend on acoustic glazing for their windows and then leave a door that lets street noise pour straight into the hallway.
+
+**Related:**
+
+- [Fire Rated Front Doors UK: FD30 and FD60 Complete Guide](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
+- [Smart Locks for Steel Front Doors UK: 2026 Buyer Guide](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
+- [Specifying Steel Front Doors UK: 2026 Architect Guide](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
 
 #### Smart Locks for Steel Front Doors UK: 2026 Buyer Guide
 URL: https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide | Category: Technical | Published: 2026-06-02 | 7 min read
@@ -2569,9 +2604,9 @@ The appeal of smart locks is straightforward: keyless entry, remote access contr
 
 **Related:**
 
+- [Do Steel Front Doors Reduce Noise? Acoustic Performance Explained](https://steelr.co.uk/blog/do-steel-front-doors-reduce-noise-uk)
 - [Fire Rated Front Doors UK: FD30 and FD60 Complete Guide](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
 - [Specifying Steel Front Doors UK: 2026 Architect Guide](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
-- [Steel Front Door U-Values UK: Thermal Performance Guide](https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values)
 
 #### Specifying Steel Front Doors UK: 2026 Architect Guide
 URL: https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026 | Category: Technical | Published: 2026-05-15 | 8 min read
@@ -2601,15 +2636,15 @@ Q: How heavy is a typical bespoke steel entrance door?
 A: A single-leaf steel entrance door typically weighs between 80 and 150 kilograms depending on size, glazing and security rating. A double-leaf doorset with sidelights can exceed 300 kilograms. The structural opening, lintel and fixings must be designed to accommodate this weight.
 
 Q: What lead time should I allow for a bespoke steel entrance door?
-A: Allow 8 to 12 weeks from confirmed order to delivery for a standard bespoke steel doorset. Complex configurations, specialist finishes or dual fire-and-security ratings can extend this; lead time is confirmed at quote stage. The approval process from initial consultation to signed-off production drawings should be programmed separately.
+A: Allow approximately 8 weeks from confirmed order to delivery for a standard bespoke steel doorset. Complex configurations, specialist finishes or dual fire-and-security ratings can extend this; lead time is confirmed at quote stage. The approval process from initial consultation to signed-off production drawings should be programmed separately.
 
 Specifying an entrance door appears straightforward until you consider the number of performance requirements converging on a single building element. Security, thermal efficiency, fire resistance, acoustic performance, durability, aesthetics and accessibility must all be addressed within a specification that is buildable, verifiable and compliant. For steel entrance doors, the specification process carries additional considerations around weight, structural interface and finish durability that differ materially from timber or composite alternatives.
 
 **Related:**
 
+- [Do Steel Front Doors Reduce Noise? Acoustic Performance Explained](https://steelr.co.uk/blog/do-steel-front-doors-reduce-noise-uk)
 - [Fire Rated Front Doors UK: FD30 and FD60 Complete Guide](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
 - [Smart Locks for Steel Front Doors UK: 2026 Buyer Guide](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
-- [Steel Front Door U-Values UK: Thermal Performance Guide](https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values)
 
 #### Fire Rated Front Doors UK: FD30 and FD60 Complete Guide
 URL: https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide | Category: Technical | Published: 2026-04-29 | 8 min read
@@ -2645,9 +2680,9 @@ Fire safety in residential buildings is not optional. In the UK, fire rated fron
 
 **Related:**
 
+- [Do Steel Front Doors Reduce Noise? Acoustic Performance Explained](https://steelr.co.uk/blog/do-steel-front-doors-reduce-noise-uk)
 - [Smart Locks for Steel Front Doors UK: 2026 Buyer Guide](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
 - [Specifying Steel Front Doors UK: 2026 Architect Guide](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
-- [Steel Front Door U-Values UK: Thermal Performance Guide](https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values)
 
 #### Steel Front Door U-Values UK: Thermal Performance Guide
 URL: https://steelr.co.uk/blog/steel-entrance-door-thermal-performance-u-values | Category: Technical | Published: 2026-04-22 | 8 min read
@@ -2683,9 +2718,9 @@ Steel is an excellent conductor of heat. That single fact has historically been 
 
 **Related:**
 
+- [Do Steel Front Doors Reduce Noise? Acoustic Performance Explained](https://steelr.co.uk/blog/do-steel-front-doors-reduce-noise-uk)
 - [Fire Rated Front Doors UK: FD30 and FD60 Complete Guide](https://steelr.co.uk/blog/fire-rated-front-doors-uk-regulations-guide)
 - [Smart Locks for Steel Front Doors UK: 2026 Buyer Guide](https://steelr.co.uk/blog/smart-locks-steel-entrance-doors-guide)
-- [Specifying Steel Front Doors UK: 2026 Architect Guide](https://steelr.co.uk/blog/specifying-steel-doors-architects-guide-2026)
 
 ### Guides (4 posts)
 
@@ -2696,7 +2731,7 @@ Why spring is the ideal time to upgrade your UK front door. ROI, kerb appeal, SR
 
 **Key facts:**
 
-- The typical timeline from initial enquiry to completed installation is 8 to 14 weeks, depending on the complexity of the design and any structural considerations.
+- The typical timeline from initial enquiry to completed installation is approximately 8 weeks, depending on the complexity of the design and any structural considerations.
 - Doors manufactured before 2015 may pre-date PAS 24:2016 requirements.
 - PAS 24 is the regulatory minimum for new builds.
 - The SteelR ladder runs four tiers: BS EN 1627:2011 RC4 as Standard (every door), LPS 1175 SR3 as the Enhanced upgrade, LPS 1175 SR4 (D10 Issue 8) as the Commercial-grade upgrade, and LPS 1673 attack-resistance available by enquiry.
@@ -2746,7 +2781,7 @@ Q: Do I need Building Regulations approval for a replacement front door?
 A: Yes. Replacement front doors in England and Wales must comply with Approved Document Q (security) and Approved Document L (thermal performance). If your installer is registered with FENSA or Certass, the installation is self-certified. Otherwise, you will need to arrange a Building Control inspection separately.
 
 Q: How long does a front door replacement take from start to finish?
-A: For a bespoke steel entrance door, the typical timeline from initial consultation to completed installation is eight to twelve weeks. This includes design development, site survey, manufacture and finishing. The physical installation is usually completed within a single day.
+A: For a bespoke steel entrance door, the typical timeline from initial consultation to completed installation is approximately eight weeks. This includes design development, site survey, manufacture and finishing. The physical installation is usually completed within a single day.
 
 Q: Will I need planning permission to replace my front door?
 A: In most cases, no. Front door replacement falls under permitted development rights. However, properties in conservation areas, listed buildings or those subject to Article 4 directions may require consent. Check with your local planning authority before proceeding, especially for properties in [London](/areas/london) or [Buckinghamshire](/areas/buckinghamshire).
@@ -2774,6 +2809,7 @@ Steel front doors for conservation areas in the UK. Planning permission rules, d
 
 - Combined with accurate panel profiles and period-appropriate hardware, the result is a door that satisfies conservation requirements while delivering SR3 security, thermal efficiency and zero-maintenance durability.
 - Each is manufactured to BS EN 1627 RC4 Standard (with LPS 1175 SR3 Enhanced upgrade available), meets Secured by Design standards and is built to ISO 9001 quality management processes.
+- It covers Grade I, Grade II* and Grade II, BS EN ISO 15614 welding qualification context, and the LBC plus Article 4 decision tree.
 
 **FAQs:**
 
