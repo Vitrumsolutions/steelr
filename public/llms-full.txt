@@ -1446,7 +1446,45 @@ SteelR provides expert guidance on the following upcoming topics for UK homeowne
 
 Search-engine-ready excerpts of every blog post, grouped by category so AI crawlers receive topically-clustered content. Each entry carries the post summary, up to 5 directly-quotable key facts, up to 5 frequently asked questions, a contextual paragraph, and up to 3 related posts for chain-of-reasoning queries.
 
-### Buying Guide (10 posts)
+### Buying Guide (11 posts)
+
+#### Steel-Look Aluminium vs Real Steel Front Doors: How to Tell the Difference
+URL: https://steelr.co.uk/blog/steel-look-aluminium-vs-real-steel-doors | Category: Buying Guide | Published: 2026-06-07 | 8 min read
+
+Many UK heritage steel-look doors are actually aluminium. How to tell steel-look aluminium from real steel front doors, and which suits security, strength and design.
+
+**Key facts:**
+
+- Residential aluminium doors, including steel-look systems, typically certify to PAS 24 or, at best, SR2 (RC2) under the LPS 1175 scheme.
+- Every SteelR door is certified to BS EN 1627:2011 RC4 single leaf, unglazed as Standard, with LPS 1175 SR3 available as the Enhanced upgrade and SR4 as the Commercial-grade upgrade.
+- SR3 testing subjects the complete doorset to a sustained attack with professional power tools.
+- If a door is sold as "secure steel-look" but only carries PAS 24, that tells you it is aluminium.
+- PAS 24 or SR1 or SR2 almost always means aluminium.
+
+**FAQs:**
+
+Q: Are heritage steel-look doors actually made of steel?
+A: Usually not. Most products sold as "steel-look", "heritage steel" or "industrial style" in the UK residential market are aluminium systems shaped to imitate the slim framing of original steel windows and doors. They are legitimate products, but they are aluminium, not structural steel, and they do not reach steel's security ratings. Always ask the supplier to confirm the material and the certification in writing.
+
+Q: Is steel-look aluminium as secure as real steel?
+A: No. Residential aluminium doors, including steel-look systems, typically certify to PAS 24 or SR2 at most, because aluminium is softer and deforms more easily under attack. Real steel doorsets reach BS EN 1627 RC4 and LPS 1175 SR3 or SR4, which require sustained resistance to professional power tools. If security is the priority for a front entrance, real steel is materially stronger.
+
+Q: How can I tell if a door is steel or aluminium?
+A: Ask directly, then check three things: the security certification (PAS 24 or SR1 or SR2 indicates aluminium; RC4 or SR3 indicates steel), the weight (steel single leaves are typically 60 to 100kg, around three times an aluminium equivalent), and how it is marketed (glass-led and slim usually means aluminium; security-led usually means steel). A clear supplier will confirm the material without hesitation.
+
+Q: Can a real steel door still look slim and contemporary?
+A: Yes. Bespoke steel doors can be made in slim, contemporary and heritage styles, including flush panels, fine glazing bars and minimalist hardware. The visual language of steel-look aluminium can be matched in real steel while keeping genuine security and strength. The difference is in what the door is made of and what it is certified to, not only in how it looks.
+
+Q: Why does the difference matter if they look the same?
+A: Because a front door's main job is security, and the two materials perform very differently under attack. Two doors can look almost identical and yet one resists a five-minute power-tool attack while the other meets a three-minute hand-tool standard. Paying a premium price for a "steel-look" door while receiving aluminium security is the outcome this guide exists to prevent.
+
+If you have searched for a steel front door in the UK, you have almost certainly been shown products described as "steel-look", "heritage steel" or "industrial style" that are not made of steel at all. They are aluminium, engineered with slim sightlines and glazing bars to imitate the look of old steel windows and the slim black framing of period industrial glazing.
+
+**Related:**
+
+- [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
 #### Double Front Doors UK: Pros, Cons and Full Buyer Guide
 URL: https://steelr.co.uk/blog/double-front-doors-pros-cons-guide | Category: Buying Guide | Published: 2026-05-29 | 7 min read
