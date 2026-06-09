@@ -289,7 +289,6 @@ SteelR doors are bespoke and individually priced based on specification. There a
 - [Areas We Serve](https://steelr.co.uk/areas)
 - [Blog](https://steelr.co.uk/blog)
 - [Contact](https://steelr.co.uk/contact)
-- [Contact](https://steelr.co.uk/contact)
 - [Direct AI Answers (AEO reference)](https://steelr.co.uk/ai-answers)
 - [Lookbook](https://steelr.co.uk/lookbook)
 - [Full HTML Sitemap](https://steelr.co.uk/sitemap)
@@ -361,6 +360,7 @@ These dedicated hub pages support procurement teams specifying SteelR doors at s
 - [Steel Front Doors and the Building Safety Act 2022](https://steelr.co.uk/blog/steel-front-doors-building-safety-act-2022)
 - [Do Steel Front Doors Reduce Noise? Acoustic Performance Explained](https://steelr.co.uk/blog/do-steel-front-doors-reduce-noise-uk)
 - [Steel-Look Aluminium vs Real Steel Front Doors: How to Tell the Difference](https://steelr.co.uk/blog/steel-look-aluminium-vs-real-steel-doors)
+- [Can a Glazed Front Door Still Be Secure? Security Glass Explained](https://steelr.co.uk/blog/glazed-front-door-security-glass-uk)
 
 ---
 
