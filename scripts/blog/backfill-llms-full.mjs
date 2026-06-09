@@ -12,6 +12,8 @@ import {
   readAllPostMetas,
   buildCategoryClusteredSection,
   writeBlogExcerptsSection,
+  buildBlogPageUrlsSection,
+  writeBlogPageUrlsSection,
 } from "./llms-excerpt.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -35,6 +37,8 @@ if (dryRun) {
 
 writeBlogExcerptsSection(LLMS_FULL, section);
 console.log(`Rebuilt Blog Excerpts section.`);
+writeBlogPageUrlsSection(LLMS_FULL, buildBlogPageUrlsSection(metas));
+console.log(`Rebuilt Blog Page URLs section.`);
 console.log(`Posts: ${metas.length}`);
 console.log(`Categories: ${new Set(metas.map((m) => m.category)).size}`);
 console.log(`Section size: ${section.length} bytes`);

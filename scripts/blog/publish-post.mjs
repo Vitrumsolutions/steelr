@@ -12,6 +12,8 @@ import {
   readAllPostMetas,
   buildCategoryClusteredSection,
   writeBlogExcerptsSection,
+  buildBlogPageUrlsSection,
+  writeBlogPageUrlsSection,
 } from "./llms-excerpt.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -117,6 +119,25 @@ async function main() {
       writeFileSync(LLMS_PATH, llms);
       console.log("  Updated: llms.txt");
     }
+    // De-dup the Key Pages list: drop any "- [...]" link line identical to the
+    // one immediately above it. Line-based and CRLF-safe. Guards against accidental
+    // duplicate links (e.g. the duplicate [Contact] entry observed 2026-06-09).
+    {
+      const llms2 = readFileSync(LLMS_PATH, "utf8");
+      const eol = llms2.includes("\r\n") ? "\r\n" : "\n";
+      const lines = llms2.split(/\r?\n/);
+      const out = [];
+      for (const line of lines) {
+        const prev = out[out.length - 1];
+        if (line === prev && /^- \[.*\]\(.*\)$/.test(line)) continue;
+        out.push(line);
+      }
+      const deduped = out.join(eol);
+      if (deduped !== llms2) {
+        writeFileSync(LLMS_PATH, deduped);
+        console.log("  De-duplicated: llms.txt Key Pages");
+      }
+    }
   }
 
   // 6. Rebuild the Blog Excerpts section in llms-full.txt so the new post
@@ -129,8 +150,12 @@ async function main() {
       const section = buildCategoryClusteredSection(metas);
       writeBlogExcerptsSection(LLMS_FULL_PATH, section);
       console.log("  Rebuilt: llms-full.txt (Blog Excerpts)");
+      // Also rebuild the flat Blog Page URLs index so it never drifts out of
+      // sync with the post set again (it previously had no maintainer).
+      writeBlogPageUrlsSection(LLMS_FULL_PATH, buildBlogPageUrlsSection(metas));
+      console.log("  Rebuilt: llms-full.txt (Blog Page URLs)");
     } catch (err) {
-      console.warn(`  WARNING: could not rebuild Blog Excerpts: ${err.message}`);
+      console.warn(`  WARNING: could not rebuild llms-full sections: ${err.message}`);
     }
   }
 

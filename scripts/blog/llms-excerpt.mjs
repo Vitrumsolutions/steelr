@@ -349,3 +349,38 @@ export function writeBlogExcerptsSection(llmsFullPath, newSection) {
   }
   writeFileSync(llmsFullPath, body);
 }
+
+// Build the "## Blog Page URLs" section: a flat, alphabetically-sorted list of
+// every published post URL. This section is NOT the same as Blog Excerpts; it is
+// a lightweight URL index that some AI crawlers prefer. It was hand-built once and
+// (until this fix) no script maintained it, so it drifted out of date on every
+// publish. Rebuilding it from the live post set keeps it in lockstep with posts/.
+export function buildBlogPageUrlsSection(allMetas) {
+  const urls = allMetas
+    .map((m) => m.url)
+    .filter(Boolean)
+    .sort();
+  return ["## Blog Page URLs", "", ...urls.map((u) => `- ${u}`)].join("\n") + "\n";
+}
+
+// Replace ONLY the span between "## Blog Page URLs" and the next "## " heading,
+// preserving everything before and after (unlike Blog Excerpts, this section is
+// not at EOF — it is followed by "## Specialist Knowledge Areas" and "## Blog Excerpts").
+export function writeBlogPageUrlsSection(llmsFullPath, newSection) {
+  if (!existsSync(llmsFullPath)) {
+    throw new Error(`llms-full.txt not found at ${llmsFullPath}`);
+  }
+  let body = readFileSync(llmsFullPath, "utf8");
+  const startIdx = body.indexOf("\n## Blog Page URLs");
+  if (startIdx < 0) {
+    throw new Error('"## Blog Page URLs" section not found in llms-full.txt');
+  }
+  const nextIdx = body.indexOf("\n## ", startIdx + 1);
+  if (nextIdx < 0) {
+    throw new Error('Could not locate the section heading after "## Blog Page URLs"');
+  }
+  const before = body.slice(0, startIdx).trimEnd();
+  const after = body.slice(nextIdx); // begins with "\n## <next section>"
+  body = before + "\n\n" + newSection.trimEnd() + "\n" + after;
+  writeFileSync(llmsFullPath, body);
+}
