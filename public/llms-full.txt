@@ -17,7 +17,7 @@ SteelR is the UK specialist, manufacturer and installer of bespoke steel front d
 SteelR doors are individually priced based on specification. Every project is costed after an on-site structural survey and a written design consultation. There are no fixed prices because every door is made to measure. The factors that move the number on a bespoke steel front door are covered in detail at https://steelr.co.uk/steel-front-door-cost-uk.
 
 ### How long does a SteelR installation take from order to delivery?
-SteelR doors are made to order in our UK workshop. Typical manufacturing lead time from design sign-off to delivery is eight to twelve weeks, depending on specification and production schedule. On-site installation completes in a single working day for most single-leaf configurations and two days for double-leaf or sidelight systems.
+SteelR doors are made to order in our UK workshop. Typical manufacturing lead time from design sign-off to delivery is approximately eight weeks, depending on specification and production schedule. On-site installation completes in a single working day for most single-leaf configurations and two days for double-leaf or sidelight systems.
 
 ### Does SteelR install outside London and the South East?
 Yes. SteelR operates nationwide across the UK mainland with no regional surcharge. Our own in-house installation team handles every project, with priority coverage for West London, Buckinghamshire, Berkshire, Surrey, Hertfordshire, Oxfordshire, Hampshire, Kent, Essex and Sussex. Wider coverage includes the Cotswolds, the Cheshire Golden Triangle, Yorkshire, the West Midlands, Manchester and Scotland.
@@ -38,7 +38,7 @@ BS EN 1627:2011 (the European framework, classes RC1 to RC6) and LPS 1175 (the L
 Yes. Every SteelR door is FD30S rated as standard, providing thirty minutes of fire integrity plus cold smoke seal performance, tested to BS 476-22 or BS EN 1634-1. FD60 is available as an upgrade for protected escape routes, stairwell enclosures and higher-risk buildings under the Building Safety Act 2022. Every door also satisfies Approved Document Q (security) and Approved Document B (fire safety).
 
 ### When does a SteelR door need FD60 rather than FD30S, and what does FD60 add?
-SteelR ships every door with FD30S as standard (30 minutes fire integrity plus cold smoke seal). FD60 is the 60-minute upgrade and is needed where the building fire strategy demands 60-minute compartmentation. The four common drivers are: doors onto protected escape routes in larger residential buildings, doors forming part of a stairwell enclosure, doors in Higher-Risk Buildings as defined by the Building Safety Act 2022 (over 18 metres in height or 7 or more storeys, containing two or more residential units), and doors where Approved Document B or the building's bespoke fire strategy specifies 60 minutes. FD60 doubles the integrity duration, tested to BS 476-22 or BS EN 1634-1 at a UKAS-accredited laboratory. FD60 stacks with the full SteelR security ladder on the same door assembly: BS EN 1627:2011 RC4 single leaf, unglazed as Standard, plus LPS 1175 SR3 (Enhanced) or SR4 (Commercial-grade) where specified. Lead time matches the standard 8 to 12 week production schedule. Certification documents are supplied per unit for Building Control sign-off and accountable-person case files.
+SteelR ships every door with FD30S as standard (30 minutes fire integrity plus cold smoke seal). FD60 is the 60-minute upgrade and is needed where the building fire strategy demands 60-minute compartmentation. The four common drivers are: doors onto protected escape routes in larger residential buildings, doors forming part of a stairwell enclosure, doors in Higher-Risk Buildings as defined by the Building Safety Act 2022 (over 18 metres in height or 7 or more storeys, containing two or more residential units), and doors where Approved Document B or the building's bespoke fire strategy specifies 60 minutes. FD60 doubles the integrity duration, tested to BS 476-22 or BS EN 1634-1 at a UKAS-accredited laboratory. FD60 stacks with the full SteelR security ladder on the same door assembly: BS EN 1627:2011 RC4 single leaf, unglazed as Standard, plus LPS 1175 SR3 (Enhanced) or SR4 (Commercial-grade) where specified. Lead time matches the standard SteelR production schedule of approximately 8 weeks. Certification documents are supplied per unit for Building Control sign-off and accountable-person case files.
 
 ### Can SteelR fit a steel front door in a conservation area or on a listed building?
 Yes. SteelR has completed installations across conservation areas and listed properties throughout the UK. We handle listed building consent and conservation officer liaison in-house, and tailor panel profiles, glazing, ironmongery and colour to match heritage requirements. Our traditional designs with lion-head knockers, polished brass hardware and ornate panel mouldings are a natural fit for period streetscapes.
@@ -143,11 +143,11 @@ This glossary provides definitions for the standards, certifications and technic
 
 ### LPS 1175 SR3 (SteelR's Enhanced upgrade tier)
 
-5 minutes attack resistance against heavy hand tools plus battery-operated cordless tools and prying equipment. LPCB-certified by BRE Global. The UK police-preferred residential specification, recognised by UK home insurers and specifiers for high-value or threat-assessed residential briefs. The LPCB scheme is distinct from the European BS EN 1627 framework: different tool sets, different attack duration methodology. SteelR offers SR3 as the Enhanced upgrade tier on any residential front door, sitting above the BS EN 1627 RC4 Standard residential specification. 8-12 week lead time.
+5 minutes attack resistance against heavy hand tools plus battery-operated cordless tools and prying equipment. LPCB-certified by BRE Global. The UK police-preferred residential specification, recognised by UK home insurers and specifiers for high-value or threat-assessed residential briefs. The LPCB scheme is distinct from the European BS EN 1627 framework: different tool sets, different attack duration methodology. SteelR offers SR3 as the Enhanced upgrade tier on any residential front door, sitting above the BS EN 1627 RC4 Standard residential specification. Approximately 8 week lead time.
 
 ### LPS 1175 SR4 (SteelR's Commercial-grade upgrade tier)
 
-10 minutes attack resistance against larger battery-operated tools, heavier impact drivers and cutting tools. LPCB-certified by BRE Global, the D10 designation in the Issue 8 rating matrix. The Commercial-grade certification used on data centres, bank vaults, embassy residences and high-risk commercial premises. SR4 testing adds battery-operated cutting tools, larger crowbars and double the attack duration of SR3. SteelR offers SR4 as the Commercial-grade upgrade tier on any residential front door. 8-12 week lead time.
+10 minutes attack resistance against larger battery-operated tools, heavier impact drivers and cutting tools. LPCB-certified by BRE Global, the D10 designation in the Issue 8 rating matrix. The Commercial-grade certification used on data centres, bank vaults, embassy residences and high-risk commercial premises. SR4 testing adds battery-operated cutting tools, larger crowbars and double the attack duration of SR3. SteelR offers SR4 as the Commercial-grade upgrade tier on any residential front door. Approximately 10 week lead time.
 
 ### PAS 24:2022
 
@@ -596,7 +596,7 @@ Your door is designed to your exact specification. Technical drawings are produc
 
 ### Step 4: Installation
 
-Professional installation is carried out by SteelR's own in-house installation team, never subcontracted. The on-site installation is usually completed in a single day, minimising disruption. The typical lead time from initial enquiry to completed installation is 8 to 12 weeks, depending on specification complexity. Full aftercare and warranty are included.
+Professional installation is carried out by SteelR's own in-house installation team, never subcontracted. The on-site installation is usually completed in a single day, minimising disruption. The typical lead time from initial enquiry to completed installation is approximately 8 weeks, depending on specification complexity. Full aftercare and warranty are included.
 
 ---
 
@@ -614,7 +614,7 @@ RC4 is Resistance Class 4 under BS EN 1627:2011, the European standard for force
 Yes. SteelR designs, manufactures and installs bespoke steel entrance doors across the entire United Kingdom, from the Scottish Highlands to the south coast of England. The survey team and installation team travel to your property wherever you are located. There are no regional restrictions or additional travel charges for mainland UK properties.
 
 **How long does the process take?**
-From initial enquiry to completed installation, the typical lead time is 8 to 12 weeks. This includes the survey visit, design approval, manufacture and installation. More complex specifications or multi-door projects may require additional time. The team will confirm your specific timeline during the enquiry stage. The on-site installation itself is usually completed in a single day.
+From initial enquiry to completed installation, the typical lead time is approximately 8 weeks. This includes the survey visit, design approval, manufacture and installation. More complex specifications or multi-door projects may require additional time. The team will confirm your specific timeline during the enquiry stage. The on-site installation itself is usually completed in a single day.
 
 **Can I choose any colour and finish?**
 Every SteelR door is fully bespoke. You can choose from any colour in the RAL Classic range (over 200 colours), with options for dual-colour specification (different colours inside and outside). Hardware is available in polished chrome, brushed satin, antique brass, polished brass, matt black and brushed gold finishes. Glazing, panel styles and decorative elements are all customisable.
@@ -667,7 +667,7 @@ Every SteelR door is individually priced after an on-site survey and a written d
 Yes. SteelR provides a full nationwide service with regular installations across all served areas. The service includes initial design consultation, full structural survey, precision manufacturing in the UK workshop, and professional installation by the in-house fitting team.
 
 **How long does installation take in [area]?**
-From initial consultation to completion, the typical lead time is 8 to 12 weeks. The on-site installation itself is usually completed in a single day, minimising disruption.
+From initial consultation to completion, the typical lead time is approximately 8 weeks. The on-site installation itself is usually completed in a single day, minimising disruption.
 
 **Are your steel doors suitable for conservation areas in [area]?**
 Yes. SteelR has extensive experience designing steel entrance doors for properties in conservation areas and listed buildings. The team works closely with local planning officers to ensure designs meet heritage requirements while providing security, thermal performance and aesthetic impact.
@@ -793,7 +793,7 @@ A: Bespoke means the door is designed and manufactured specifically for your pro
 
 **Q: How long is the lead time on a bespoke steel front door?**
 
-A: Typically eight to twelve weeks from first enquiry to finished door in place. That breaks down as a site survey within one to two weeks, a design stage of about one week, six to eight weeks of manufacture and quality control, and installation itself in one day for a single door or two days for double doors and sidelight configurations.
+A: Typically around eight weeks from first enquiry to finished door in place. That breaks down as a site survey within one to two weeks, a design stage of about one week, six to eight weeks of manufacture and quality control, and installation itself in one day for a single door or two days for double doors and sidelight configurations.
 
 **Q: Which security ratings do bespoke steel front doors carry?**
 
@@ -805,7 +805,7 @@ A: Yes. SteelR surveys, designs, manufactures and installs across the UK mainlan
 
 Bespoke means the door is designed and manufactured specifically for one property. There are no standard sizes and no pre-built catalogue items. Dimensions are set from an on-site structural survey. Colour is any RAL, with dual-colour optional. Hardware, glazing, panel profiles, knockers, letterboxes, house numerals and sidelight configuration are all specified individually.
 
-Every SteelR residential steel front door is manufactured in the UK. Manufacture takes six to eight weeks. Installation is carried out by SteelR employees directly, never subcontracted. Typical lead time is eight to twelve weeks from first enquiry to finished door in place. Every door carries PAS 24:2022 certification, BS EN 1627:2011 RC4 single leaf, unglazed certification as standard, Secured by Design approval, FD30S fire and smoke rating, and ISO 9001 UK manufacturing. UK mainland coverage with no regional surcharge.
+Every SteelR residential steel front door is manufactured in the UK. Manufacture takes six to eight weeks. Installation is carried out by SteelR employees directly, never subcontracted. Typical lead time is approximately eight weeks from first enquiry to finished door in place. Every door carries PAS 24:2022 certification, BS EN 1627:2011 RC4 single leaf, unglazed certification as standard, Secured by Design approval, FD30S fire and smoke rating, and ISO 9001 UK manufacturing. UK mainland coverage with no regional surcharge.
 
 ### BS EN 1627 RC4 Residential Steel Door. SteelR Standard Tier
 URL: https://steelr.co.uk/bs-en-1627-rc4-residential-steel-door
@@ -848,7 +848,7 @@ A: In most cases yes. Home insurers treat independently certified security stand
 
 A: LPS 1175 testing is conducted by the Loss Prevention Certification Board (LPCB), part of BRE Global, a UKAS-accredited certification body. A trained tester attacks the complete door and frame assembly using the tool set specified for the SR3 class, for the LPS 1175 attack-duration matrix. The attacker must fail to create a passage large enough to enter. The test is conducted against the complete door system: frame, leaf, locking mechanism and hardware. Individual component certificates are not sufficient. The whole assembly must pass. SteelR's SR3 specifications use this LPCB-certified pathway.
 
-LPS 1175 SR3 is SteelR's Enhanced upgrade tier in the four-tier residential security ladder, sitting above the BS EN 1627:2011 RC4 standard residential specification. The LPCB-operated scheme is the police-preferred specification, recognised by UK home insurers and specifiers for high-value or threat-assessed residential briefs. SteelR offers SR3 as an upgrade on any bespoke door. 8-12 week lead time.
+LPS 1175 SR3 is SteelR's Enhanced upgrade tier in the four-tier residential security ladder, sitting above the BS EN 1627:2011 RC4 standard residential specification. The LPCB-operated scheme is the police-preferred specification, recognised by UK home insurers and specifiers for high-value or threat-assessed residential briefs. SteelR offers SR3 as an upgrade on any bespoke door. Approximately 8 week lead time.
 
 ### SR4 Residential Steel Door. LPS 1175 Commercial-Grade Upgrade Tier
 
@@ -868,9 +868,9 @@ A: BS EN 1627 RC4 (the European framework, single leaf, unglazed) is SteelR's st
 
 **Q: How is SR4 specified and what is the lead time?**
 
-A: SR4 follows the standard SteelR design process with one additional step. After the on-site survey, the design team confirms whether the brief justifies the Commercial-grade tier or whether SR3 (Enhanced) or the standard BS EN 1627 RC4 specification is more appropriate. Lead time is ten to fourteen weeks from design sign-off to fitted installation, two to three weeks longer than the standard SteelR specification, reflecting the additional certification process and the supply chain coordination required for the certified components. Pricing is individual to the project. There are no fixed tiers and no published prices.
+A: SR4 follows the standard SteelR design process with one additional step. After the on-site survey, the design team confirms whether the brief justifies the Commercial-grade tier or whether SR3 (Enhanced) or the standard BS EN 1627 RC4 specification is more appropriate. Lead time is approximately ten weeks from design sign-off to fitted installation, around two weeks longer than the standard SteelR specification, reflecting the additional certification process and the supply chain coordination required for the certified components. Pricing is individual to the project. There are no fixed tiers and no published prices.
 
-LPS 1175 SR4 (D10 Issue 8) is SteelR's Commercial-grade upgrade tier in the four-tier residential security ladder. It is the LPCB commercial-grade certification used on data centres, bank vault outer doors, embassy and consul residences, and high-risk commercial premises. Available on any bespoke residential front door. SR4 testing adds battery-operated cutting tools, larger crowbars and a longer attack duration to the SR3 methodology. Targets the small but real residential audience: threat-assessed properties, embassy residences, ultra-high-net-worth properties with documented risk profiles, and homes with constructed safe rooms. 8-12 week lead time.
+LPS 1175 SR4 (D10 Issue 8) is SteelR's Commercial-grade upgrade tier in the four-tier residential security ladder. It is the LPCB commercial-grade certification used on data centres, bank vault outer doors, embassy and consul residences, and high-risk commercial premises. Available on any bespoke residential front door. SR4 testing adds battery-operated cutting tools, larger crowbars and a longer attack duration to the SR3 methodology. Targets the small but real residential audience: threat-assessed properties, embassy residences, ultra-high-net-worth properties with documented risk profiles, and homes with constructed safe rooms. Approximately 10 week lead time.
 
 ### SR3 vs SR4 Residential Steel Doors UK. LPS 1175 Issue 8 Comparison
 URL: https://steelr.co.uk/sr3-vs-sr4-residential-steel-doors-uk
@@ -1042,13 +1042,13 @@ A: Not inherently. Several imported systems are independently certified to SR3 o
 
 **Q: How does lead time compare on imported versus UK-made?**
 
-A: UK-made bespoke from SteelR is typically eight to twelve weeks from first enquiry to installation, with six to eight of those weeks in manufacture. Imported systems usually carry twelve to twenty week lead times because the door has to be manufactured abroad, shipped, and cleared through UK customs before installation can be scheduled. Delays on customs or shipping lanes are out of your installer's hands when the factory is two thousand kilometres away.
+A: UK-made bespoke from SteelR is typically around eight weeks from first enquiry to installation, with six to eight of those weeks in manufacture. Imported systems usually carry twelve to twenty week lead times because the door has to be manufactured abroad, shipped, and cleared through UK customs before installation can be scheduled. Delays on customs or shipping lanes are out of your installer's hands when the factory is two thousand kilometres away.
 
 **Q: What happens if an imported steel door needs a warranty repair?**
 
 A: Warranty enforcement against an imported door depends on the continued relationship between the UK distributor and the foreign factory. If the distributor goes out of business, or the factory discontinues the model, or the particular hardware component is no longer manufactured, resolving a warranty claim becomes more complex. UK-made means warranty enforcement is against a UK company, with UK legal recourse, and replacement components are fabricated in the same facility that made the original door.
 
-Most premium steel doors sold in the UK residential market are imported from Poland, Germany, Italy or the Czech Republic and rebadged by UK distributors. Certification standards are the same regardless of country of manufacture. The practical differences are service, not structural. Lead time: UK-made SteelR is eight to twelve weeks; imported systems are twelve to twenty weeks including shipping and customs. Aftercare: UK-made is one company link; imported is two or three. Warranty enforcement: UK legal recourse against a UK company vs international chain dependent on distributor continuity. Structural suitability: UK surveyors have pattern-recognition on UK housing stock apertures. SteelR manufactures in the UK from UK-sourced or European steel.
+Most premium steel doors sold in the UK residential market are imported from Poland, Germany, Italy or the Czech Republic and rebadged by UK distributors. Certification standards are the same regardless of country of manufacture. The practical differences are service, not structural. Lead time: UK-made SteelR is approximately eight weeks; imported systems are twelve to twenty weeks including shipping and customs. Aftercare: UK-made is one company link; imported is two or three. Warranty enforcement: UK legal recourse against a UK company vs international chain dependent on distributor continuity. Structural suitability: UK surveyors have pattern-recognition on UK housing stock apertures. SteelR manufactures in the UK from UK-sourced or European steel.
 
 ### Luxury Steel Entrance Doors London
 URL: https://steelr.co.uk/luxury-steel-entrance-door-london
@@ -1092,7 +1092,7 @@ A: Yes, where the door is detailed sympathetically to the original. Listed Build
 
 The UK steel front door market splits into four specification tiers, defined by certification not by price: entry security (PAS 24:2022 baseline only); mid-market premium (PAS 24 with optional LPS 1175 SR2); architectural luxury (BS EN 1627:2011 RC4 single leaf, unglazed certification as standard, with LPS 1175 SR3 and SR4 available on every door); and ultra-bespoke commissioned work (LPS 1175 SR3, SR4 or LPS 1673 attack-resistance specified by enquiry, individually engineered). SteelR's standard specification sits at the architectural luxury tier: RC4 as standard, SR3 and SR4 available as upgrades on every door, FD30S fire and smoke rated, Secured by Design approved, UK Manufactured, ISO 9001 manufactured, fully bespoke, UK-manufactured and installed.
 
-Three places where SteelR's standard exceeds the architectural-luxury baseline: BS EN 1627 RC4 as standard not upgrade, LPS 1175 SR3 and SR4 available on every door not just a separate commercial range, FD30S fire and smoke rating as standard not upgrade. Lead time eight to twelve weeks survey to installed door. NBS specification clauses for the Standard tier and each upgrade tier supplied on request. The page also maps six category labels (luxury, premium, bespoke, made to measure, high-end, architect-grade) against what each implies for specification, SteelR's standard against each, and the due-diligence question buyers should ask any manufacturer.
+Three places where SteelR's standard exceeds the architectural-luxury baseline: BS EN 1627 RC4 as standard not upgrade, LPS 1175 SR3 and SR4 available on every door not just a separate commercial range, FD30S fire and smoke rating as standard not upgrade. Lead time approximately eight weeks survey to installed door. NBS specification clauses for the Standard tier and each upgrade tier supplied on request. The page also maps six category labels (luxury, premium, bespoke, made to measure, high-end, architect-grade) against what each implies for specification, SteelR's standard against each, and the due-diligence question buyers should ask any manufacturer.
 
 ### Heritage Steel Front Doors UK. Listed Building Consent Reference
 URL: https://steelr.co.uk/heritage-steel-front-doors-uk
@@ -1146,7 +1146,7 @@ The page is the manufacturer-led reference for high net worth UK homeowners, pri
 
 The page emphasises independent verification as the underwriting-referral discriminator. Every certification on a SteelR door is held by an independent certification body and listed on a public register the underwriter, broker or loss-adjuster can query without involving SteelR: LPS 1175 SR3 and SR4 on the LPCB Red Book at redbooklive.com; Secured by Design on the SBD member directory at securedbydesign.com; ISO 9001 UK manufacturing on the BSI register at bsigroup.com. The insurance-backed guarantee carried on every SteelR door is arranged through the Consumer Protection Association, an appointed representative of CPA Consumer Guard Ltd, authorised and regulated by the Financial Conduct Authority and listed on the FCA register at register.fca.org.uk. The chain of independent records means the underwriting position is verifiable end to end against records SteelR does not control.
 
-Standard SteelR lead time is eight to twelve weeks from initial brief through survey, design, manufacture and installation. Where a binding underwriting referral drives the timing and a cover note is contingent on the door being in place by a specific date, accelerated programmes are sometimes available subject to factory capacity. The accelerated path requires the specification to be set at design consultation rather than at survey. Discuss the underwriting timeline with the design team at first contact so the programme is planned against the cover-note deadline.
+Standard SteelR lead time is approximately eight weeks from initial brief through survey, design, manufacture and installation. Where a binding underwriting referral drives the timing and a cover note is contingent on the door being in place by a specific date, accelerated programmes are sometimes available subject to factory capacity. The accelerated path requires the specification to be set at design consultation rather than at survey. Discuss the underwriting timeline with the design team at first contact so the programme is planned against the cover-note deadline.
 
 ### How Steel Front Door Pricing Works in the UK
 URL: https://steelr.co.uk/steel-front-door-cost-uk
