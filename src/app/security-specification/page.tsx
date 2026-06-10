@@ -505,7 +505,7 @@ export default function SecuritySpecificationPage() {
                 className="btn-cta inline-block transition-colors duration-300 hover:bg-cream"
                 style={{ background: "#c9a96e", color: "#1a1a18", fontFamily: bodyFont, fontWeight: 400, fontSize: 10, letterSpacing: "0.25em", textTransform: "uppercase", padding: "16px 40px" }}
               >
-                Request a Free Consultation
+                Request a Consultation
               </Link>
               <Link
                 href="/security"

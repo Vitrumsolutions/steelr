@@ -45,7 +45,7 @@ const qaPairs = [
   },
   {
     q: "What security rating does a SteelR steel front door carry?",
-    a: "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed — the European framework for sustained forced-entry resistance. RC4 means the door withstands a sustained attack using heavy-duty hand tools and battery-operated power tools. This is materially above the PAS 24 hardware-only test that is mandated for new-build dwellings and rarely offered as standard on residential doors. PAS 24 (mandated by Approved Document Q), Secured by Design accreditation and FD30S fire/smoke rating are also included as standard. Note: BS EN 1627 RC and LPS 1175 SR are different test schemes — over 90% of products tested under EN 1627 RC4 fail to even achieve LPS 1175 SR2 because the test methods differ. We carry the EN 1627 RC4 cert.",
+    a: "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed, the European framework for sustained forced-entry resistance. RC4 means the door withstands a sustained attack using heavy-duty hand tools and battery-operated power tools. This is materially above the PAS 24 hardware-only test that is mandated for new-build dwellings and rarely offered as standard on residential doors. PAS 24 (mandated by Approved Document Q), Secured by Design accreditation and FD30S fire/smoke rating are also included as standard. Note: BS EN 1627 RC and LPS 1175 SR are different test schemes. Over 90% of products tested under EN 1627 RC4 fail to even achieve LPS 1175 SR2 because the test methods differ. We carry the EN 1627 RC4 cert.",
   },
   {
     q: "Does SteelR offer fire rated steel doors for flats, HMOs or new builds?",

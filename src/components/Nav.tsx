@@ -31,7 +31,11 @@ export default function Nav() {
       <NavScrollState />
       <nav className="nav-bar fixed top-0 left-0 right-0 z-50">
         <div className="flex items-center justify-between px-6 md:px-12 py-5">
-          <Link href="/" aria-label="SteelR home">
+          <Link
+            href="/"
+            aria-label="SteelR home"
+            className="focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9a96e] rounded-[2px]"
+          >
             {/* Inline logo, hand-rolled so the theme can be driven by CSS
              * data-attr selectors on <body> rather than a React prop. Matches
              * the Logo component's `variant="inline" size="nav"` configuration

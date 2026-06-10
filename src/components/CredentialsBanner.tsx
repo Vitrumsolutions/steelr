@@ -18,8 +18,8 @@ const credentials = [
  */
 export function CredentialsStrip() {
   return (
-    <section className="bg-site-black py-7 px-6 md:px-16 overflow-x-auto" aria-label="Certifications">
-      <div className="flex items-center justify-start md:justify-center gap-4 md:gap-8 min-w-max mx-auto">
+    <section className="bg-site-black py-7 px-6 md:px-16" aria-label="Certifications">
+      <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 md:gap-x-8 mx-auto">
         {credentials.map((cred, i) => (
           <span key={cred} className="flex items-center gap-4 md:gap-8">
             <span

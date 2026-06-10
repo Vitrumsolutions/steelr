@@ -175,7 +175,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
               {/* Primary CTA: click-to-call */}
               <a
                 href="tel:08008611450"
-                className="inline-flex items-center gap-4 px-6 py-4 mb-6 transition-all hover:-translate-y-0.5 w-full sm:w-auto"
+                className="inline-flex items-center gap-4 px-6 py-4 mb-6 transition-all hover:-translate-y-0.5 w-full sm:w-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1a1a18]"
                 style={{
                   background: "#c9a96e" /* --gold */,
                   color: "#1a1a18",
@@ -406,7 +406,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
               <button
                 type="submit"
                 disabled={status === "sending"}
-                className="transition-colors hover:bg-cream disabled:opacity-60"
+                className="transition-colors hover:bg-cream disabled:opacity-60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c9a96e]"
                 style={{
                   fontFamily: "var(--font-body), Montserrat, sans-serif",
                   fontWeight: 500,
@@ -421,7 +421,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                   marginTop: 4,
                 }}
               >
-                {status === "sending" ? "Sending…" : "Request a free consultation"}
+                {status === "sending" ? "Sending…" : "Request a Consultation"}
               </button>
 
               {status === "error" && (

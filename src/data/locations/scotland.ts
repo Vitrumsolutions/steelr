@@ -40,7 +40,7 @@ export const scotlandLocations: Location[] = [
         question:
           "What is the typical lead time to installed door for EH1, G12 or AB10 postcodes?",
         answer:
-          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Scottish mainland postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+          "Around eight weeks from first enquiry to finished installed door. Around six of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Scottish mainland postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
       },
       {
         question:
@@ -49,7 +49,7 @@ export const scotlandLocations: Location[] = [
           "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in Edinburgh EH2 New Town, EH10 Morningside, Glasgow G12 West End, and Aberdeen AB10 Rubislaw where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios, Highland estate property or addresses with documented attempted-intrusion history. Most Scottish specifications sit at RC4 Standard or RC4 plus SR3, with thermal-upgrade configurations for Highland and Cairngorms-edge addresses.",
       },
     ],
-    heroImage: "/images/gallery/steelr-black-traditional-wide-frosted.jpg",
+    heroImage: "/images/gallery/steelr-grey-panelled-stone-surround.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-lion-knocker-gable.jpg",
       "/images/gallery/steelr-navy-panelled-lanterns-fanlight.jpg",

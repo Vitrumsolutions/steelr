@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "Do flat entrance doors need to be fire rated?",
     answer:
-      "Yes. Under Approved Document B of the Building Regulations, entrance doors to individual flats in blocks must achieve a minimum FD30 fire rating \u2014 providing 30 minutes of fire resistance. This applies to both new builds and replacement doors in existing buildings. Since the Building Safety Act 2022, enforcement of these requirements has become significantly stricter, particularly in buildings over 11 metres in height.",
+      "Yes. Under Approved Document B of the Building Regulations, entrance doors to individual flats in blocks must achieve a minimum FD30 fire rating, providing 30 minutes of fire resistance. This applies to both new builds and replacement doors in existing buildings. Since the Building Safety Act 2022, enforcement of these requirements has become significantly stricter, particularly in buildings over 11 metres in height.",
   },
   {
     question: "What is the difference between FD30 and FD60?",
@@ -165,7 +165,7 @@ export default function FireRatedDoorsPage() {
 
       {/* sr-only H1 */}
       <h1 className="sr-only">
-        Fire Rated Steel Entrance Doors &mdash; FD30 &amp; FD60 Certified
+        Fire Rated Steel Entrance Doors: FD30 &amp; FD60 Certified
       </h1>
 
       {/* Intro */}
@@ -210,7 +210,7 @@ export default function FireRatedDoorsPage() {
             >
               SteelR manufactures bespoke fire rated steel entrance doors
               certified to FD30 and FD60 standards. Steel is inherently fire
-              resistant &mdash; it does not burn, warp or delaminate under
+              resistant. It does not burn, warp or delaminate under
               extreme heat, making it the superior material choice for fire
               door construction.
             </p>

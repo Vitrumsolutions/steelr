@@ -41,7 +41,7 @@ export const londonLocations: Location[] = [
         question:
           "What is the typical lead time to installed door for SW1, W11, NW3 or N1 postcodes?",
         answer:
-          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no boundary surcharge across any London borough and the install team are SteelR employees, DBS-checked and directly employed.",
+          "Around eight weeks from first enquiry to finished installed door. Around six of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no boundary surcharge across any London borough and the install team are SteelR employees, DBS-checked and directly employed.",
       },
       {
         question:

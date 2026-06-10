@@ -257,7 +257,7 @@ export default function Hero() {
             padding: "18px 44px",
           }}
         >
-          Request a Free Consultation
+          Request a Consultation
         </Link>
       </div>
 

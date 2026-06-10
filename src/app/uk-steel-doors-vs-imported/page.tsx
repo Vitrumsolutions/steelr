@@ -112,7 +112,7 @@ export default function UkVsImportedPage() {
             body: (
               <>
                 A UK-made SteelR door runs approximately eight weeks from first
-                enquiry to finished door in place. Six to eight of those
+                enquiry to finished door in place. Around six of those
                 weeks are manufacture in our UK facility, one to two weeks
                 are the survey process, and installation itself is a single
                 day for a single-leaf door.
@@ -296,7 +296,7 @@ export default function UkVsImportedPage() {
             "Your specifier requires verifiable UK supply chain provenance in the project documentation",
             "You have experienced an imported door issue and want UK-based aftercare",
             "You want the installation team to be employed by the manufacturer, not subcontracted",
-            "Your programme is time-sensitive — UK manufacture runs around 8 weeks against typical imported 4 to 6 months",
+            "Your programme is time-sensitive: UK manufacture runs around 8 weeks against typical imported 4 to 6 months",
           ],
         }}
         ctaHeading="Start with a UK-made bespoke specification"

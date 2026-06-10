@@ -40,7 +40,7 @@ export const hertfordshireLocations: Location[] = [
         question:
           "What is the typical lead time to installed door for AL5, HP4 or WD7 postcodes?",
         answer:
-          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Hertfordshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+          "Around eight weeks from first enquiry to finished installed door. Around six of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Hertfordshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
       },
       {
         question:
@@ -49,7 +49,7 @@ export const hertfordshireLocations: Location[] = [
           "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in AL5 Harpenden, WD7 Radlett, WD23 Bushey Heath and HP4 Berkhamsted where contents values exceed insurer thresholds for standard residential cover. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios, public-facing principals or exposed rural addresses with documented attempted-intrusion history. Most Hertfordshire specifications sit at RC4 Standard or RC4 plus SR3.",
       },
     ],
-    heroImage: "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
+    heroImage: "/images/gallery/steelr-black-panelled-grille-sidelights.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-double-gable.jpg",
       "/images/gallery/steelr-taupe-panelled-chrome-dual-sidelights.jpg",

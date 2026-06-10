@@ -186,7 +186,7 @@ export default function BlogPage() {
                 padding: "16px 40px",
               }}
             >
-              Request a Free Consultation
+              Request a Consultation
             </Link>
           </ScrollReveal>
         </div>

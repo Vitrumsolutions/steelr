@@ -368,8 +368,8 @@ export default function ColoursPage() {
                 color: "rgba(245,240,232,0.7)",
               }}
             >
-              This is one of the most popular upgrades chosen by our clients —
-              it allows the door to work with both your exterior architecture and
+              This is one of the most popular upgrades chosen by our clients.
+              It allows the door to work with both your exterior architecture and
               interior design scheme, without compromise.
             </p>
           </ScrollReveal>

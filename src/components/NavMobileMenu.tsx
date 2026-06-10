@@ -165,7 +165,7 @@ export default function NavMobileMenu({ navLinks }: NavMobileMenuProps) {
             href={link.href}
             onClick={() => setMenuOpen(false)}
             tabIndex={menuOpen ? 0 : -1}
-            className="transition-opacity duration-300 focus-visible:outline-none"
+            className="transition-opacity duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9a96e] rounded-[2px]"
             style={{
               fontFamily:
                 "var(--font-display), 'Cormorant Garamond', serif",
@@ -185,7 +185,7 @@ export default function NavMobileMenu({ navLinks }: NavMobileMenuProps) {
           href="tel:08008611450"
           aria-label="Call SteelR on 0800 861 1450"
           tabIndex={menuOpen ? 0 : -1}
-          className="mt-6 sm:mt-12 focus-visible:outline-none"
+          className="mt-6 sm:mt-12 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9a96e] rounded-[2px]"
           style={{
             fontFamily: "var(--font-body), Montserrat, sans-serif",
             fontWeight: 300,

@@ -92,7 +92,7 @@ export default function AreasPage() {
       </section>
 
       <h1 className="sr-only">
-        Steel Entrance Doors &mdash; Areas We Serve Across the UK
+        Steel Entrance Doors: Areas We Serve Across the UK
       </h1>
 
       {/* Intro */}
@@ -431,7 +431,7 @@ export default function AreasPage() {
                 padding: "16px 40px",
               }}
             >
-              Request a Free Consultation
+              Request a Consultation
             </Link>
           </ScrollReveal>
         </div>

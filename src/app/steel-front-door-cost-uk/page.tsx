@@ -112,12 +112,12 @@ export default function CostPage() {
                 <td className="py-3 pr-4 font-medium" style={{ color: "#8a6f4e" }}>£££</td>
               </tr>
               <tr style={{ borderBottom: "1px solid #c9a96e33" }}>
-                <td className="py-3 pr-4 font-medium" style={{ color: "#1a1a18" }}>4 — SteelR Standard</td>
+                <td className="py-3 pr-4 font-medium" style={{ color: "#1a1a18" }}>4 (SteelR Standard)</td>
                 <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>Bespoke residential, BS EN 1627 RC4 + LPS 1175 SR3, full hardware and glazing brief</td>
                 <td className="py-3 pr-4 font-medium" style={{ color: "#8a6f4e" }}>££££</td>
               </tr>
               <tr>
-                <td className="py-3 pr-4 font-medium" style={{ color: "#1a1a18" }}>5 — SteelR Upgrade</td>
+                <td className="py-3 pr-4 font-medium" style={{ color: "#1a1a18" }}>5 (SteelR Upgrade)</td>
                 <td className="py-3 pr-4" style={{ color: "#1a1a18" }}>Bespoke residential, LPS 1175 SR4 commercial-grade or LPS 1673 ultra-high attack resistance</td>
                 <td className="py-3 pr-4 font-medium" style={{ color: "#8a6f4e" }}>£££££</td>
               </tr>
@@ -385,7 +385,7 @@ export default function CostPage() {
         whyConsider={{
           items: [
             "You are researching pricing before booking a survey, and want an honest factor-by-factor breakdown",
-            "Your project budget can support a bespoke installed steel door specification — high four to low six figure range depending on specification",
+            "Your project budget can support a bespoke installed steel door specification, in the high four to low six figure range depending on specification",
             "You are planning a 10 to 15 year+ horizon where lifetime cost matters more than upfront price",
             "You are a specifier needing pricing visibility for a developer brief or insurance valuation",
             "Your budget sits at the mid-market composite price point, in which case a premium composite is the more honest fit for your project",

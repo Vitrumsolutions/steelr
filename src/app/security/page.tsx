@@ -40,7 +40,7 @@ const faqs = [
   {
     question: "What security rating do your residential steel front doors have?",
     answer:
-      "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed \u2014 the European framework for sustained forced-entry resistance, certifying the complete door assembly against heavy-duty hand tools and battery-operated power tools. RC4 is materially above the PAS 24 hardware-only test mandated for new-build dwellings and is rarely offered as a residential standard in the UK.",
+      "Every SteelR residential steel front door is tested to BS EN 1627:2011 RC4 single leaf, unglazed, the European framework for sustained forced-entry resistance, certifying the complete door assembly against heavy-duty hand tools and battery-operated power tools. RC4 is materially above the PAS 24 hardware-only test mandated for new-build dwellings and is rarely offered as a residential standard in the UK.",
   },
   {
     question: "Does SteelR carry an LPS 1175 SR rating?",
@@ -50,7 +50,7 @@ const faqs = [
   {
     question: "Is PAS 24 enough for home security?",
     answer:
-      "PAS 24:2022 is the minimum security standard required by UK Building Regulations (Approved Document Q) for new-build residential doors. While it provides a baseline level of protection against opportunistic attack, it is significantly less rigorous than BS EN 1627 RC4. PAS 24 testing simulates a casual attack lasting around 1\u20133 minutes; BS EN 1627 RC4 tests a sustained, multi-stage attack with heavy-duty hand tools and battery-operated power tools. For homeowners seeking genuine peace of mind, BS EN 1627 RC4 (every SteelR door's certification) offers substantially greater protection.",
+      "PAS 24:2022 is the minimum security standard required by UK Building Regulations (Approved Document Q) for new-build residential doors. While it provides a baseline level of protection against opportunistic attack, it is significantly less rigorous than BS EN 1627 RC4. PAS 24 testing simulates a casual attack lasting around 1 to 3 minutes; BS EN 1627 RC4 tests a sustained, multi-stage attack with heavy-duty hand tools and battery-operated power tools. For homeowners seeking genuine peace of mind, BS EN 1627 RC4 (every SteelR door's certification) offers substantially greater protection.",
   },
   {
     question: "What does Secured by Design mean?",
@@ -81,20 +81,20 @@ const srRatings = [
   },
   {
     level: "RC3",
-    label: "Experienced Burglar \u2014 Heavy Hand Tools",
+    label: "Experienced Burglar: Heavy Hand Tools",
     description:
       "Resistance Class 3 under BS EN 1627:2011. Withstands a sustained attack using crowbars, drills, chisels and heavy-duty cutting tools.",
     highlight: false,
   },
   {
     level: "RC4",
-    label: "Battery Power Tools \u2014 SteelR Cert",
+    label: "Battery Power Tools: SteelR Cert",
     description:
       "Resistance Class 4 under BS EN 1627:2011. Adds battery-operated cutting and drilling tools and larger prying equipment to the test set. Every SteelR residential steel front door is tested to RC4 single leaf, unglazed. The European cert most often compared with LPS 1175 SR4, although the schemes test differently.",
     highlight: true,
   },
   {
-    level: "RC5\u2013RC6",
+    level: "RC5 to RC6",
     label: "Government & Critical Infrastructure",
     description:
       "Ratings reserved for embassies, military installations, data centres and critical infrastructure. These require specialist construction beyond the scope of residential entrance doors.",
@@ -229,8 +229,8 @@ export default function SecurityPage() {
               Every SteelR door is independently tested and certified to the
               highest security standards achievable for a residential entrance.
               Our residential steel front doors are tested to BS EN 1627:2011
-              RC4 single leaf, unglazed &mdash; the European framework for
-              sustained forced-entry resistance &mdash; alongside Secured by
+              RC4 single leaf, unglazed, the European framework for
+              sustained forced-entry resistance, alongside Secured by
               Design police approval and ISO 9001 manufacturing certification. For homeowners across{" "}
               <Link
                 href="/areas/london"
@@ -419,7 +419,7 @@ export default function SecurityPage() {
                 PAS 24:2022 is the minimum security standard required under UK
                 Building Regulations (Approved Document Q) for new residential
                 doors. It tests resistance to a casual opportunistic attack
-                lasting around 1&ndash;3 minutes using basic hand tools.
+                lasting around 1 to 3 minutes using basic hand tools.
               </p>
               <p
                 className="mb-6"
@@ -433,9 +433,9 @@ export default function SecurityPage() {
               >
                 BS EN 1627:2011 RC4, by contrast, certifies the complete door
                 assembly against a sustained, multi-stage attack using
-                heavy-duty hand tools and battery-operated power tools
-                &mdash; drills, jigsaws, oscillating saws, larger crowbars and
-                prying equipment. The difference is not incremental &mdash; it
+                heavy-duty hand tools and battery-operated power tools,
+                including drills, jigsaws, oscillating saws, larger crowbars and
+                prying equipment. The difference is not incremental. It
                 is a fundamentally higher tier of protection. Every SteelR door
                 is tested to RC4 single leaf, unglazed.
               </p>
@@ -495,7 +495,7 @@ export default function SecurityPage() {
           <ScrollReveal direction="right">
             <div className="flex flex-col gap-4 justify-center">
               {[
-                "1\u20133 min casual attack resistance",
+                "1 to 3 min casual attack resistance",
                 "Basic hand tools only",
                 "Minimum Building Regulations requirement",
               ].map((item) => (
@@ -624,8 +624,8 @@ export default function SecurityPage() {
                 }}
               >
                 SteelR doors hold full Secured by Design accreditation. This
-                approval covers the complete door system &mdash; frame, leaf,
-                locking mechanism and hardware &mdash; not just individual
+                approval covers the complete door system, including the frame, leaf,
+                locking mechanism and hardware, not just individual
                 components.
               </p>
             </div>
@@ -704,7 +704,7 @@ export default function SecurityPage() {
               >
                 SteelR doors are constructed from heavy-gauge galvanised steel
                 with fire-resistant insulating cores, capable of achieving fire
-                ratings up to FD60 &mdash; maintaining structural integrity and
+                ratings up to FD60, maintaining structural integrity and
                 preventing the passage of fire and smoke for up to 60 minutes.
               </p>
               <p
@@ -776,8 +776,8 @@ export default function SecurityPage() {
                 }}
               >
                 SteelR doors are manufactured in ISO 9001 certified facilities,
-                ensuring that every door &mdash; from raw steel through to
-                finished product &mdash; meets the same exacting standard. This
+                ensuring that every door, from raw steel through to
+                finished product, meets the same exacting standard. This
                 certification provides assurance that quality is built into the{" "}
                 <Link
                   href="/process"

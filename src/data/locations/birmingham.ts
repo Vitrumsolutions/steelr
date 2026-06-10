@@ -40,7 +40,7 @@ export const birminghamLocations: Location[] = [
         question:
           "What is the typical lead time to installed door for B15, B74 or B93 postcodes?",
         answer:
-          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for West Midlands postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+          "Around eight weeks from first enquiry to finished installed door. Around six of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for West Midlands postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
       },
       {
         question:
@@ -49,7 +49,7 @@ export const birminghamLocations: Location[] = [
           "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in B15 Edgbaston (Calthorpe Estate), B74 Four Oaks Sutton Coldfield, and the Solihull B93 Knowle/Dorridge prestige belt where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is occasionally specified on the highest-value Calthorpe Estate properties. Most West Midlands specifications sit at RC4 Standard or RC4 plus SR3.",
       },
     ],
-    heroImage: "/images/gallery/steelr-black-traditional-columns-mansion.jpg",
+    heroImage: "/images/gallery/steelr-black-ornate-checkerboard-canopy.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-ornate-double-gable.jpg",
       "/images/gallery/steelr-charcoal-contemporary-horizontal-double.jpg",

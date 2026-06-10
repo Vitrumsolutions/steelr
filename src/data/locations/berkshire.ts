@@ -40,7 +40,7 @@ export const berkshireLocations: Location[] = [
         question:
           "What is the typical lead time to installed door for SL5, SL4 or RG1 postcodes?",
         answer:
-          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Berkshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+          "Around eight weeks from first enquiry to finished installed door. Around six of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Berkshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
       },
       {
         question:

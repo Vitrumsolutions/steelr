@@ -488,7 +488,7 @@ export default async function BlogPostPage({ params }: Props) {
                 padding: "16px 40px",
               }}
             >
-              Request a Free Consultation
+              Request a Consultation
             </Link>
           </ScrollReveal>
         </div>

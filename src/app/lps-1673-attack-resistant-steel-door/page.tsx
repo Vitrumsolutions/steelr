@@ -388,7 +388,7 @@ export default function Lps1673Page() {
         faqs={faqs}
         whyConsider={{
           items: [
-            "Your risk profile sits outside conventional residential — UHNW principal, public figure, diplomatic residence, or critical-infrastructure adjacency",
+            "Your risk profile sits outside conventional residential: UHNW principal, public figure, diplomatic residence, or critical-infrastructure adjacency",
             "Your security advisor has identified ballistic, blast or sustained-attack resistance as a binding threshold, not forced-entry alone",
             "Your project carries the budget for LPS 1673 fabrication, specialist glazing and the certification audit trail",
             "Your specifier needs a UK manufacturer who certifies at this tier and can provide the LPCB certificate and test report in the project pack",

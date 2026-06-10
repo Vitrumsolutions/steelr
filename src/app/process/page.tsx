@@ -192,7 +192,7 @@ export default function ProcessPage() {
                 color: "#6b5a42",
               }}
             >
-              Eight to twelve weeks from first enquiry to finished door in place.
+              Around eight weeks from first enquiry to finished door in place.
               Nationwide UK coverage. No regional surcharges.
             </p>
           </ScrollReveal>

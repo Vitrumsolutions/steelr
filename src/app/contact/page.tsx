@@ -55,7 +55,7 @@ const contactFaqs = [
   {
     question: "Can I discuss the project without committing to anything?",
     answer:
-      "Yes. The discovery call and survey are both free and without obligation. We would rather tell you if your project is not a good fit for SteelR than quote for a job that does not suit our service. If your timeline is urgent, we will be upfront about whether the eight-to-twelve-week manufacture window can be compressed. If your budget is below the point where a bespoke steel door makes sense, we will tell you that too, and point you towards other options.",
+      "Yes. The discovery call and survey are both free and without obligation. We would rather tell you if your project is not a good fit for SteelR than quote for a job that does not suit our service. If your timeline is urgent, we will be upfront about whether the eight-week timeline can be compressed. If your budget is below the point where a bespoke steel door makes sense, we will tell you that too, and point you towards other options.",
   },
 ];
 

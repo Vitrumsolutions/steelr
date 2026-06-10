@@ -1411,7 +1411,7 @@ export default async function AreaPage({ params }: Props) {
                   padding: "16px 40px",
                 }}
               >
-                Request a Free Consultation
+                Request a Consultation
               </Link>
               <a
                 href="tel:08008611450"

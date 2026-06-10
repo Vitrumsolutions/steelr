@@ -128,7 +128,7 @@ export default function CollectionPage() {
 
       {/* Filter bar */}
       <div
-        className="sticky top-[73px] z-30 bg-cream border-b px-6 md:px-16 py-4"
+        className="sticky top-[85px] lg:top-[79px] z-30 bg-cream border-b px-6 md:px-16 py-4"
         style={{ borderColor: "rgba(201, 169, 110, 0.15)" }}
       >
         <div className="flex items-center gap-6 md:gap-10 max-w-7xl mx-auto">
@@ -136,7 +136,7 @@ export default function CollectionPage() {
             <button
               key={f}
               onClick={() => setActiveFilter(f)}
-              className="relative transition-all duration-300 pb-1"
+              className="relative transition-all duration-300 pb-1 focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9a96e] rounded-[2px]"
               style={{
                 fontFamily: "var(--font-body), Montserrat, sans-serif",
                 fontWeight: 200,

@@ -40,7 +40,7 @@ export const buckinghamshireLocations: Location[] = [
         question:
           "What is the typical lead time to installed door for HP9, SL9 or MK postcodes?",
         answer:
-          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Bucks postcodes and the install team are SteelR employees, DBS-checked and directly employed, not subcontracted local fitters.",
+          "Around eight weeks from first enquiry to finished installed door. Around six of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Bucks postcodes and the install team are SteelR employees, DBS-checked and directly employed, not subcontracted local fitters.",
       },
       {
         question:

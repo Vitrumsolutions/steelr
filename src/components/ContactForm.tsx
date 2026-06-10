@@ -100,7 +100,7 @@ export default function ContactForm() {
       <div className="flex flex-col gap-2">
         <label htmlFor="propertyType" style={labelStyle}>Property Type <span style={{ textTransform: "none", letterSpacing: "normal", color: "#8a6f4e" }}>(optional)</span></label>
         <select id="propertyType" name="propertyType" style={inputStyle}>
-          <option value="">Skip — I&apos;ll explain when you call</option>
+          <option value="">Skip, I&apos;ll explain when you call</option>
           <option value="New Build">New Build</option>
           <option value="Period Property">Period Property</option>
           <option value="Contemporary Renovation">Contemporary Renovation</option>
@@ -111,7 +111,7 @@ export default function ContactForm() {
       <div className="flex flex-col gap-2">
         <label htmlFor="doorStyle" style={labelStyle}>Door Style Interest <span style={{ textTransform: "none", letterSpacing: "normal", color: "#8a6f4e" }}>(optional)</span></label>
         <select id="doorStyle" name="doorStyle" style={inputStyle}>
-          <option value="">Skip — I&apos;ll explain when you call</option>
+          <option value="">Skip, I&apos;ll explain when you call</option>
           <option value="Contemporary">Contemporary</option>
           <option value="Traditional">Traditional</option>
           <option value="Double Doors">Double Doors</option>
@@ -121,7 +121,7 @@ export default function ContactForm() {
 
       <div className="flex flex-col gap-2">
         <label htmlFor="message" style={labelStyle}>Message <span style={{ textTransform: "none", letterSpacing: "normal", color: "#8a6f4e" }}>(optional)</span></label>
-        <textarea id="message" name="message" rows={4} placeholder="Tell us about your project — door style, dimensions, deadline, anything useful" style={inputStyle} />
+        <textarea id="message" name="message" rows={4} placeholder="Tell us about your project: door style, dimensions, deadline, anything useful" style={inputStyle} />
       </div>
 
       <div className="flex flex-col gap-2">
@@ -158,7 +158,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="btn-cta transition-colors duration-300 hover:bg-cream mt-2"
+        className="btn-cta transition-colors duration-300 hover:bg-cream mt-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1a1a18]"
         style={{
           background: "#c9a96e",
           color: "#1a1a18",

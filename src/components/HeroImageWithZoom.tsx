@@ -23,6 +23,7 @@
  */
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 
 interface Props {
   src: string;
@@ -107,7 +108,13 @@ export default function HeroImageWithZoom({
         {heroBox}
       </button>
 
-      {isOpen && (
+      {/* Portaled to document.body. The door detail page wraps this component
+          in a ScrollReveal whose transform establishes a containing block for
+          position:fixed, which would otherwise trap the modal inside the image
+          column on desktop. Portaling removes that ancestor from the chain so
+          inset-0 pins to the real viewport. isOpen only flips true on a client
+          click, so document.body is always present here. */}
+      {isOpen && createPortal(
         <div
           role="dialog"
           aria-modal="true"
@@ -147,7 +154,8 @@ export default function HeroImageWithZoom({
           >
             <span aria-hidden="true">×</span>
           </button>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );

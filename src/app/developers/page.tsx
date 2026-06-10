@@ -213,8 +213,8 @@ export default function DevelopersPage() {
                 Accelerated programmes are possible on selected
                 specifications via prior arrangement at the design
                 stage. We do not pretend a four-week lead time on a
-                bespoke product; we do commit to the eight-to-twelve
-                week programme in writing and hit it.
+                bespoke product; we do commit to the eight-week
+                programme in writing and hit it.
               </>
             ),
           },
@@ -335,7 +335,7 @@ export default function DevelopersPage() {
             "You are building plots in the £1m to £20m+ bracket where the front door materially affects sale price and viewing conversion",
             "Your warranty provider (NHBC, Premier Guarantee, LABC) requires PAS 24 evidence and Approved Document Q compliance in the handover pack",
             "Your programme needs a UK lead time of around eight weeks with predictable install dates, not foreign manufacture with customs risk",
-            "You want one supplier accountable across plots — same survey, same fabrication, same install team — rather than three subcontractors per door",
+            "You want one supplier accountable across plots, with the same survey, fabrication and install team, rather than three subcontractors per door",
             "Your sales team need a specification line that estate agents and surveyors recognise as a value driver, not a generic composite",
           ],
         }}

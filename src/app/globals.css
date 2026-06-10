@@ -231,6 +231,14 @@ textarea:focus:not(:focus-visible) {
 .link-gold-underline:hover {
   background-size: 100% 1px;
 }
+/* Keyboard focus indicator for gold-underline links (nav, breadcrumbs, in-copy
+ * links). Mouse focus does not trigger :focus-visible, so this shows only for
+ * keyboard users — replacing the browser default ring with the brand gold. */
+.link-gold-underline:focus-visible {
+  outline: 2px solid #c9a96e;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
 
 /* CTA button hover lift + gold shadow */
 .btn-cta {
@@ -260,9 +268,10 @@ textarea:focus:not(:focus-visible) {
   cursor: zoom-in;
 }
 
-/* Active state feedback */
-button:active,
-a:active {
+/* Active state feedback — buttons only. Plain links (nav, logo, cards,
+ * breadcrumbs) no longer shrink on click; CTA links keep their own press
+ * feedback via the .btn-cta:active rule above. */
+button:active {
   transform: scale(0.98);
 }
 

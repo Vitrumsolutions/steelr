@@ -524,9 +524,15 @@ function parseDoor(
     title = `${titleColour} ${titleStyle} Steel Door with ${keyFeature}`;
   }
 
-  // Generate SEO description
-  const featureList = features.slice(0, 3).join(", ").toLowerCase();
-  const description = `Bespoke ${colour.toLowerCase()} ${style.toLowerCase()} steel entrance door featuring ${featureList}. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available on request. Manufactured in the UK to ISO 9001 standards. Fully customisable colour, hardware and glazing options.`;
+  // Generate SEO description. For double-door styles the noun is plural and
+  // the style word is "double", so we drop any "double doors" feature to avoid
+  // it reading "double doors steel entrance door featuring ... double doors".
+  const isDouble = style.toLowerCase().includes("double");
+  const styleWord = isDouble ? "double" : style.toLowerCase();
+  const doorNoun = isDouble ? "steel entrance doors" : "steel entrance door";
+  const descFeatures = features.filter((f) => !f.toLowerCase().includes("double door"));
+  const featureList = (descFeatures.length ? descFeatures : features).slice(0, 3).join(", ").toLowerCase();
+  const description = `Bespoke ${colour.toLowerCase()} ${styleWord} ${doorNoun} featuring ${featureList}. Standard residential specification at BS EN 1627:2011 RC4 single leaf, unglazed, with LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications available on request. Manufactured in the UK to ISO 9001 standards. Fully customisable colour, hardware and glazing options.`;
 
   // Attach hand-written rich content if present for this slug
   const pageContent = doorPageContent[slug];

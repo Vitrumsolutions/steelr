@@ -171,7 +171,7 @@ export default function ParallaxSection({
             lineHeight: 1.8,
           }}
         >
-          Every handle, every hinge, every detail — precision engineered
+          Every handle, every hinge, every detail. Precision engineered
           and hand-finished to your specification
         </p>
       </div>

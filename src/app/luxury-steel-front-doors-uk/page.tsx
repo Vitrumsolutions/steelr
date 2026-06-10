@@ -43,7 +43,7 @@ const faqs = [
     question:
       "What is the lead time for a bespoke luxury steel front door in the UK?",
     answer:
-      "Eight to twelve weeks from first survey to installed door is the SteelR standard. Six to eight of those weeks are in-house manufacturing. One to two weeks are the survey and design specification stage. Installation is one day for a single-leaf door and two days for a double-leaf or sidelight configuration. Where Listed Building Consent or Conservation Area planning permission is required, allow an additional four to eight weeks for the statutory application window before manufacturing starts.",
+      "Around eight weeks from first survey to installed door is the SteelR standard. Around six of those weeks are in-house manufacturing. One to two weeks are the survey and design specification stage. Installation is one day for a single-leaf door and two days for a double-leaf or sidelight configuration. Where Listed Building Consent or Conservation Area planning permission is required, allow an additional four to eight weeks for the statutory application window before manufacturing starts.",
   },
   {
     question:
@@ -535,7 +535,7 @@ export default function LuxurySteelFrontDoorsUkPage() {
               "Specifying a luxury steel front door, step by step",
             body: (
               <>
-                The eight-to-twelve-week timeline from first enquiry to
+                The eight-week timeline from first enquiry to
                 installed door is structured around six stages. Every stage
                 is handled in-house by SteelR; no part is subcontracted.
               </>

@@ -40,7 +40,7 @@ export const oxfordshireLocations: Location[] = [
         question:
           "What is the typical lead time to installed door for OX1, OX18 or RG9 postcodes?",
         answer:
-          "Eight to twelve weeks from first enquiry to finished installed door. Six to eight of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Oxfordshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
+          "Around eight weeks from first enquiry to finished installed door. Around six of those weeks are manufacturing in our UK facility. One to two weeks are the survey and design process. Installation itself is typically a single day for a single-leaf door and two days for a double-door or sidelight configuration. There is no regional surcharge for Oxfordshire postcodes and the install team are SteelR employees, DBS-checked and directly employed.",
       },
       {
         question:
@@ -49,7 +49,7 @@ export const oxfordshireLocations: Location[] = [
           "BS EN 1627 RC4 single leaf, unglazed is the SteelR Standard tier on every door and is recognised by mainstream UK home insurers as a meaningful upgrade over PAS 24 alone. LPS 1175 SR3 (the LPCB Enhanced upgrade, five-minute power-tool resistance) is widely specified on properties in OX2 North Oxford, RG9 Henley-on-Thames and the high-value Cotswolds AONB villages where contents values exceed insurer thresholds. SR4 (Commercial-grade, ten-minute power-tool resistance) is typically only specified on country house portfolios or exposed rural addresses with documented attempted-intrusion history. Most Oxfordshire specifications sit at RC4 Standard or RC4 plus SR3.",
       },
     ],
-    heroImage: "/images/gallery/steelr-black-ornate-double-gable.jpg",
+    heroImage: "/images/gallery/steelr-olive-traditional-arched-surround.jpg",
     galleryImages: [
       "/images/gallery/steelr-black-traditional-lion-knocker-fanlight.jpg",
       "/images/gallery/steelr-champagne-arched-geometric-double.jpg",
