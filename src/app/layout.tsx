@@ -126,7 +126,7 @@ export default function RootLayout({
                 "https://www.instagram.com/steelrdoors",
                 "https://www.pinterest.co.uk/steelrdoors",
                 "https://www.linkedin.com/company/steelr",
-                "https://www.google.com/maps/place/SteelR+Bespoke+Steel+Entrance+Doors"
+                "https://maps.google.com/?cid=11037666943331735601"
               ],
               "memberOf": [
                 {
