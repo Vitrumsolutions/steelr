@@ -45,9 +45,9 @@ The April claim is current. Hands-on capture via Claude_in_Chrome MCP against us
 There are at least **four distinct AI surfaces** and they are not interchangeable. Testing the wrong one produces false-positive panics:
 
 1. **ChatGPT with Search (logged in)** = live retrieval via Bing index. This is where SteelR wins. This is what real prospects use.
-2. **ChatGPT logged-out** (`chatgpt.com/?q=`) = frozen training corpus, no Search tool. Returns 0 SteelR mentions because we are new. Tests brand training-weight only, not retrieval. Don't conflate with #1.
+2. **ChatGPT logged-out** (`chatgpt.com/?q=`) — **UPDATED 3 Jul 2026: now search-grounded** (citations carry `utm_source=chatgpt.com`; SteelR cited 4/5 in the 3 Jul no-login run — see `audit-data/serp-captures/20260703-ai-no-login.md`). The April behaviour ("frozen training corpus, 0 SteelR mentions") no longer applies. Valid retrieval surface for quick no-login checks, but #1 remains the primary health check.
 3. **Gemini logged in** = live retrieval via Google index. Separate grounding model. Currently does not cite us. Pursuing this needs Google-side authority work, not more on-site content.
-4. **Perplexity public scrape** = mixed retrieval. Cites us only on vs-composite framing.
+4. **Perplexity public scrape** = mixed retrieval. **UPDATED 3 Jul 2026: 3/3 cited, named FIRST on `best steel front doors uk`** (was absent 9 Jun). No longer the weakest surface.
 
 **Rule for any future AI-visibility audit:** test ChatGPT-with-Search first (via Claude_in_Chrome against the user's logged-in account). If that surface is healthy, the AI channel is healthy regardless of what the other surfaces say. Only escalate to "AI channel is broken" if ChatGPT-with-Search itself degrades.
 
@@ -385,10 +385,11 @@ Committing the marker would let old approval carry forward forever after the fil
 
 ## Google Search Console
 - **Property:** sc-domain:steelr.co.uk (owner: info@supplywindows.co.uk)
-- **Total known URLs in sitemap:** 298 (as of 20 Apr 2026 — includes 10 topic pages + HTML sitemap)
-- **Indexed pages:** 67 (Page Indexing report as of 17/04 — jumped from 54 between 13 Apr and 17 Apr, +13 pages in 4 days, confirming sitemap resubmit + URL Inspection pushes from 18-19 Apr are working their way through Google's processing)
-- **Not indexed:** 6 pages total, 4 benign + 2 real. Benign: 2 Page with redirect, 1 Duplicate without user-selected canonical, 1 Alternative page with proper canonical tag. Real: 2 Crawled - currently not indexed.
-- **Sitemap coverage:** 67 / 298 indexed = 22.5% (healthy for a 2-month-old site). Remaining ~231 mostly in "Discovered - not indexed" queue awaiting crawl.
+- **CURRENT STATE (25 Jun 2026, verified live in GSC UI — supersedes all stale figures below):** **271 indexed**, 25 not indexed (12 "Page with redirect" benign + 13 "Crawled – currently not indexed"). The 13 not-indexed are low-value (6 leaf area pages, 3 collection door variants, 3 blogs, + `/fire-rated-doors` whose indexed sibling `/fire-rated-fd30-front-door` covers the intent). **Root-cause fix applied:** GSC sitemap had not been re-read since 22 Apr 2026 (306 discovered), so 9 newer URLs — incl. audience hubs `/developers` `/architects` `/housing-associations` `/property-managers` + `/sr3-vs-sr4-residential-steel-doors-uk` — were "unknown to Google". Resubmitted `sitemap.xml` 25 Jun → discovered jumped **306 → 315** in real time. Those pages are now discovered; indexing expected to follow over days. See `memory/project_sitemap-reread-discovery.md`. **Follow-up:** manually Request-Indexing the 5 in URL Inspection once daily quota refreshes; recheck status ~1 week.
+- **Total known URLs in sitemap:** 315 (live, 25 Jun 2026). _[STALE: 298 as of 20 Apr 2026]_
+- **Indexed pages:** _[STALE — see CURRENT STATE above. Was: 67 as of 17/04]_
+- **Not indexed:** _[STALE — see CURRENT STATE above. Was: 6 pages]_
+- **Sitemap coverage:** ~271 / 315 indexed (25 Jun 2026). _[STALE: 67/298 = 22.5% as of Apr]_
 - **Sitemap:** resubmitted in GSC UI on 18 Apr 2026 (got 286 discovered, pre-Phase 1D), and again on 19 Apr 2026 (jumped to 297 discovered in real time confirming Phase 1D + /sitemap + new blog posts are now in Google's awareness)
 - **Indexing API:** 308 URLs submitted (5 net-new pages from late-Apr/May not auto-enrolled — see Pending Next Steps for the 5 unknowns push). Runs daily at 07:30 via Windows Task Scheduler (SteelrGSCIndexer). **Tracker drift identified 11 May 2026:** `gsc-indexing-tracker-steelr.json` says `totalPages: 259`, actual sitemap is 313. Reconcile after pushing the 5 unknowns.
 - **URL Inspection (UI, 10/day quota):** cumulative 18-20 Apr 2026 = 22 URLs. 20 Apr retry blocked by rolling-24h quota.

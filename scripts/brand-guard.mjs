@@ -55,6 +55,7 @@ import { resolve } from "node:path";
 
 const PROTECTED_GLOBS = [
   "src/data/blog/posts/",
+  "src/data/blog/staged/", // staged posts publish via cron --no-verify, so they must be scanned BEFORE they queue
   "src/data/locations/",
   "src/data/doors.ts", // 60 collection product titles + descriptions feed /collection grid + /collection/[slug] pages
   "src/app/areas/",

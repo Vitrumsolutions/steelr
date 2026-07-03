@@ -610,5 +610,59 @@
       "surrey"
     ],
     "published": true
+  },
+  {
+    "keyword": "steel security doors for home uk",
+    "slug": "steel-security-doors-for-homes-uk",
+    "titleHint": "Steel Security Doors for Homes UK: Certified Doorsets vs Commodity Doors",
+    "category": "Security",
+    "scheduledDate": "2026-07-05",
+    "targetPages": [
+      "/security",
+      "/pas-24-steel-entrance-door",
+      "/secured-by-design-steel-front-door"
+    ],
+    "targetAreas": [
+      "london",
+      "surrey",
+      "kent"
+    ],
+    "published": false
+  },
+  {
+    "keyword": "steel front door listed building uk",
+    "slug": "steel-front-doors-listed-buildings-uk",
+    "titleHint": "Steel Front Doors for Listed Buildings: A UK Consent Guide",
+    "category": "Buying Guide",
+    "scheduledDate": "2026-07-07",
+    "targetPages": [
+      "/luxury-steel-entrance-door-london",
+      "/colours",
+      "/heritage-steel-front-doors-uk"
+    ],
+    "targetAreas": [
+      "london",
+      "kensington",
+      "buckinghamshire"
+    ],
+    "published": false
+  },
+  {
+    "keyword": "steel front door installation uk",
+    "slug": "steel-front-door-installation-what-to-expect",
+    "titleHint": "Steel Front Door Installation: What to Expect on Fitting Day",
+    "category": "Guides",
+    "scheduledDate": "2026-07-09",
+    "targetPages": [
+      "/process",
+      "/collection",
+      "/contact"
+    ],
+    "targetAreas": [
+      "london",
+      "manchester",
+      "birmingham"
+    ],
+    "published": false
   }
 ]
