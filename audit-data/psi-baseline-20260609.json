@@ -1,0 +1,27 @@
+{
+ "home": {
+  "url": "https://steelr.co.uk/",
+  "lab_perf": null,
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "collection": {
+  "url": "https://steelr.co.uk/collection",
+  "lab_perf": null,
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "bucks": {
+  "url": "https://steelr.co.uk/areas/buckinghamshire",
+  "lab_perf": null,
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "blog-sr4": {
+  "url": "https://steelr.co.uk/blog/sr4-lps-1175-commercial-grade-residential",
+  "lab_perf": null,
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "bespoke": {
+  "url": "https://steelr.co.uk/bespoke-steel-front-doors-uk",
+  "lab_perf": null,
+  "error": "HTTP Error 429: Too Many Requests"
+ }
+}

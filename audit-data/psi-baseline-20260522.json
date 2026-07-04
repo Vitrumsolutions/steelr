@@ -1,0 +1,42 @@
+{
+ "home": {
+  "url": "https://steelr.co.uk/",
+  "runs": [],
+  "median": null,
+  "errors": 5,
+  "crux_page": null,
+  "crux_origin": null
+ },
+ "collection": {
+  "url": "https://steelr.co.uk/collection",
+  "runs": [],
+  "median": null,
+  "errors": 5,
+  "crux_page": null,
+  "crux_origin": null
+ },
+ "bucks": {
+  "url": "https://steelr.co.uk/areas/buckinghamshire",
+  "runs": [],
+  "median": null,
+  "errors": 5,
+  "crux_page": null,
+  "crux_origin": null
+ },
+ "blog-sr4": {
+  "url": "https://steelr.co.uk/blog/sr4-lps-1175-commercial-grade-residential",
+  "runs": [],
+  "median": null,
+  "errors": 5,
+  "crux_page": null,
+  "crux_origin": null
+ },
+ "bespoke": {
+  "url": "https://steelr.co.uk/bespoke-steel-front-doors-uk",
+  "runs": [],
+  "median": null,
+  "errors": 5,
+  "crux_page": null,
+  "crux_origin": null
+ }
+}

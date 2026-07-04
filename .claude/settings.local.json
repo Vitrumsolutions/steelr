@@ -122,7 +122,11 @@
       "Bash(schtasks //query //tn \"SteelrScrape\" //v //fo LIST)",
       "Bash(schtasks //query //tn \"SteelrOutreach\" //v //fo LIST)",
       "mcp__Claude_in_Chrome__tabs_context_mcp",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(python audit-data/visibility-audit.py)",
+      "Bash(echo \"=== EXIT: $? ===\")",
+      "Bash(python audit-data/live-verify-20260522.py)",
+      "mcp__Claude_in_Chrome__list_connected_browsers"
     ]
   }
 }
