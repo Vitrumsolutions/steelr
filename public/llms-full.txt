@@ -1426,6 +1426,7 @@ SteelR provides bespoke steel entrance door design, manufacture and installation
 - https://steelr.co.uk/blog/steel-front-doors-building-safety-act-2022
 - https://steelr.co.uk/blog/steel-front-doors-with-sidelights-uk-buyers-guide
 - https://steelr.co.uk/blog/steel-look-aluminium-vs-real-steel-doors
+- https://steelr.co.uk/blog/steel-security-doors-for-homes-uk
 - https://steelr.co.uk/blog/steel-vs-aluminium-front-doors
 - https://steelr.co.uk/blog/steel-vs-fibreglass-doors-uk-comparison
 - https://steelr.co.uk/blog/steel-vs-timber-entrance-doors
@@ -2056,7 +2057,45 @@ London is home to some of the finest period architecture in the world. From gran
 - [Period Property Front Doors in Buckinghamshire: Conservation & Listed-Building Guide](https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes)
 - [Front Doors for Kent Coastal Properties: Salt-Air & Weather Specification](https://steelr.co.uk/blog/steel-entrance-doors-kent-properties)
 
-### Security (11 posts)
+### Security (12 posts)
+
+#### Steel Security Doors for Homes UK: Certified Doorsets vs Commodity Doors
+URL: https://steelr.co.uk/blog/steel-security-doors-for-homes-uk | Category: Security | Published: 2026-07-05 | 8 min read
+
+Steel security doors for homes in the UK range from off-the-shelf commodity doors to certified bespoke doorsets. What the ratings mean, what to ask, and how to tell the difference.
+
+**Key facts:**
+
+- The certifications to look for are specific: PAS 24:2022 is the baseline UK standard for enhanced-security doorsets and the requirement behind Approved Document Q for new dwellings.
+- Our PAS 24 steel entrance door page explains what the test involves.
+- BS EN 1627:2011 resistance classes grade a doorset against increasingly capable attackers.
+- Every SteelR door is certified to BS EN 1627:2011 RC4 as Standard, a class associated with experienced attackers using tools such as drills and crowbars.
+- LPS 1175 is the LPCB standard used for higher-threat applications.
+
+**FAQs:**
+
+Q: Are steel security doors suitable for a normal house?
+A: Yes. A certified residential steel doorset is designed for homes, made to measure, finished in any RAL colour with period or contemporary panelling, and does not look industrial. The doors developed for warehouses and plant rooms are a different product, and the distinction is worth checking before ordering: a residential doorset is certified as a complete assembly and designed around the appearance, insulation and comfort of a home entrance.
+
+Q: What security rating should a residential steel door have?
+A: PAS 24:2022 is the UK baseline for enhanced-security doorsets and the standard behind Approved Document Q. Beyond that, BS EN 1627 resistance classes and LPS 1175 ratings grade doors against progressively more capable attack. Every SteelR door carries BS EN 1627:2011 RC4 as Standard, with LPS 1175 SR3 available as the Enhanced upgrade and SR4 as the Commercial-grade upgrade for the highest-risk applications.
+
+Q: Is a steel security door better than a composite door?
+A: They serve different requirements. A composite door meets the general market; a certified steel doorset is engineered for verified security performance, with ratings such as RC4 and LPS 1175 that composite doors are not typically tested to. Our [steel front door vs composite comparison](/steel-front-door-vs-composite) sets the two side by side honestly, including where a composite door is the sensible choice.
+
+Q: Do steel security doors come with glazing?
+A: Yes, provided the glazing is part of the certified design. Laminated security glass held in internal beads can be built into the leaf, sidelights and fanlights while the doorset keeps its rating. The key question for any supplier is whether the certification applies to the glazed configuration you are ordering, not only to the solid version.
+
+Q: How long does a bespoke steel security door take?
+A: SteelR doors are made to measure with a lead time of around 8 weeks from signed-off design to installation, with the SR4 commercial-grade upgrade at around 10 weeks. Installation is carried out by our own team, typically in a single day for a standard door and two days for double doors or configurations with sidelights.
+
+Search for a steel security door in the UK and you will find two very different products wearing the same label. The first is the commodity steel door: an off-the-shelf galvanised leaf with a multi-point lock, sold in standard sizes, usually developed for warehouses, plant rooms and fire exits, and increasingly marketed to homeowners. The second is the certified residential steel doorset: a made-to-measure entrance door engineered, tested and certified as a complete assembly for the front of a home.
+
+**Related:**
+
+- [Best Burglar-Proof Front Doors UK: Security Buyer Guide](https://steelr.co.uk/blog/best-burglar-proof-front-doors-uk)
+- [Best Front Door for Home Security: UK Buyer 2026 Guide](https://steelr.co.uk/blog/best-front-door-home-security)
+- [Front Door Security Ratings UK: SR1, SR2, SR3 Explained](https://steelr.co.uk/blog/front-door-security-ratings-compared-sr1-to-sr3)
 
 #### Secured by Design Homes UK: 2026 Developer and Buyer Guide
 URL: https://steelr.co.uk/blog/secured-by-design-homes-guide-2026 | Category: Security | Published: 2026-07-02 | 9 min read
