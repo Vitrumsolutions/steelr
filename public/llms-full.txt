@@ -1424,6 +1424,7 @@ SteelR provides bespoke steel entrance door design, manufacture and installation
 - https://steelr.co.uk/blog/steel-entrance-doors-kent-properties
 - https://steelr.co.uk/blog/steel-entrance-doors-surrey-properties
 - https://steelr.co.uk/blog/steel-front-doors-building-safety-act-2022
+- https://steelr.co.uk/blog/steel-front-doors-listed-buildings-uk
 - https://steelr.co.uk/blog/steel-front-doors-with-sidelights-uk-buyers-guide
 - https://steelr.co.uk/blog/steel-look-aluminium-vs-real-steel-doors
 - https://steelr.co.uk/blog/steel-security-doors-for-homes-uk
@@ -1453,7 +1454,42 @@ SteelR provides expert guidance on the following upcoming topics for UK homeowne
 
 Search-engine-ready excerpts of every blog post, grouped by category so AI crawlers receive topically-clustered content. Each entry carries the post summary, up to 5 directly-quotable key facts, up to 5 frequently asked questions, a contextual paragraph, and up to 3 related posts for chain-of-reasoning queries.
 
-### Buying Guide (11 posts)
+### Buying Guide (12 posts)
+
+#### Steel Front Doors for Listed Buildings: A UK Consent Guide
+URL: https://steelr.co.uk/blog/steel-front-doors-listed-buildings-uk | Category: Buying Guide | Published: 2026-07-07 | 9 min read
+
+Can a listed building have a steel front door? How listed building consent works, when a steel door is approvable, and how bespoke design wins over conservation officers.
+
+**Key facts:**
+
+- The owner has a doorset certified to BS EN 1627:2011 RC4 as Standard, with LPS 1175 SR3 and SR4 upgrades available, PAS 24:2022 compliance and FD30S fire rating.
+- Once consent is granted, manufacture proceeds on the standard lead time of around 8 weeks, and installation is carried out by our own team, normally within a single day, with the existing opening and surround preserved.
+
+**FAQs:**
+
+Q: Can I put a steel front door on a listed building?
+A: Sometimes, with listed building consent. The material is not automatically ruled out; what matters is whether the proposed door preserves the character the listing protects. A bespoke steel door drawn to match the period design, colour and furniture of the building stands a realistic chance, particularly where a documented security need supports the application. Unauthorised replacement is a criminal offence, so consent must come first.
+
+Q: Do I need listed building consent to replace a front door like for like?
+A: Usually yes. Even a like-for-like replacement of a front door on a listed building will normally need consent, because the door forms part of the protected character and a replacement is an alteration. The application is straightforward when the new door faithfully reproduces the old, but it should still be made. Your local planning authority's conservation officer can confirm the position for your building.
+
+Q: What is the difference between a listed building and a conservation area?
+A: A listing protects a specific building and its character, inside and out, through listed building consent. A conservation area protects the character of an area, typically affecting external changes visible from the street, sometimes tightened by an Article 4 direction. A home can be covered by both at once, and each carries its own consent requirements. Our [conservation areas planning guide](/blog/steel-doors-conservation-areas-planning-guide) covers the area-level rules in detail.
+
+Q: How long does listed building consent take for a new front door?
+A: Straightforward applications are typically decided in around eight weeks from validation, with pre-application advice adding time up front but reducing the risk of refusal. Combined with a made-to-measure manufacturing lead time of around 8 weeks, a realistic overall timeline from enquiry to installed door on a listed property is four to six months.
+
+Q: Will a steel door look out of place on a period property?
+A: Not when it is designed for the building. Panel proportions, mouldings, glazing patterns, heritage colours and traditional brass or aged furniture are all specified to order, so the finished door reads as a period entrance. The difference is underneath: a certified doorset with BS EN 1627:2011 RC4 as Standard and LPS 1175 SR3 or SR4 available, rather than the original softwood leaf.
+
+Owners of listed buildings tend to arrive at steel doors from one of two directions. Either the existing front door has reached the end of its life and the replacement needs to satisfy both the planning system and modern expectations of security, or a break-in, an insurance review or a security assessment has made the current door untenable. Both routes end at the same question: can a listed building have a steel front door at all.
+
+**Related:**
+
+- [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
 #### Steel-Look Aluminium vs Real Steel Front Doors: How to Tell the Difference
 URL: https://steelr.co.uk/blog/steel-look-aluminium-vs-real-steel-doors | Category: Buying Guide | Published: 2026-06-07 | 8 min read
