@@ -66,6 +66,7 @@ import steelLookAluminiumVsRealSteelDoors from "./posts/steel-look-aluminium-vs-
 import glazedFrontDoorSecurityGlassUk from "./posts/glazed-front-door-security-glass-uk";
 import steelSecurityDoorsForHomesUk from "./posts/steel-security-doors-for-homes-uk";
 import steelFrontDoorsListedBuildingsUk from "./posts/steel-front-doors-listed-buildings-uk";
+import steelFrontDoorInstallationWhatToExpect from "./posts/steel-front-door-installation-what-to-expect";
 
 // Sorted by date descending (newest first) so the latest posts appear first
 // in the blog listing and "related posts" sections.
@@ -112,6 +113,7 @@ export const posts: BlogPost[] = [
   glazedFrontDoorSecurityGlassUk,
   steelSecurityDoorsForHomesUk,
   steelFrontDoorsListedBuildingsUk,
+  steelFrontDoorInstallationWhatToExpect,
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
