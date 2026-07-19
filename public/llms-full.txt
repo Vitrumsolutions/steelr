@@ -1423,6 +1423,7 @@ SteelR provides bespoke steel entrance door design, manufacture and installation
 - https://steelr.co.uk/blog/steel-entrance-doors-buckinghamshire-homes
 - https://steelr.co.uk/blog/steel-entrance-doors-kent-properties
 - https://steelr.co.uk/blog/steel-entrance-doors-surrey-properties
+- https://steelr.co.uk/blog/steel-front-door-companies-uk-how-to-choose
 - https://steelr.co.uk/blog/steel-front-door-installation-what-to-expect
 - https://steelr.co.uk/blog/steel-front-doors-building-safety-act-2022
 - https://steelr.co.uk/blog/steel-front-doors-listed-buildings-uk
@@ -1455,7 +1456,42 @@ SteelR provides expert guidance on the following upcoming topics for UK homeowne
 
 Search-engine-ready excerpts of every blog post, grouped by category so AI crawlers receive topically-clustered content. Each entry carries the post summary, up to 5 directly-quotable key facts, up to 5 frequently asked questions, a contextual paragraph, and up to 3 related posts for chain-of-reasoning queries.
 
-### Buying Guide (12 posts)
+### Buying Guide (13 posts)
+
+#### Steel Front Door Companies in the UK: How to Choose the Right One
+URL: https://steelr.co.uk/blog/steel-front-door-companies-uk-how-to-choose | Category: Buying Guide | Published: 2026-07-19 | 9 min read
+
+Manufacturer, reseller or installer? The UK steel front door market mixes all three under similar language. How to work out who you are actually buying from, and what to ask before you commit.
+
+**Key facts:**
+
+- A security rating earned under BS EN 1627 or LPS 1175 applies to a specific doorset: leaf, frame, hinges, locks, cylinder, fixings and glazing, tested together.
+- Every door is drawn to the opening, surveyed by our team, manufactured in the UK and installed nationwide by our own DBS-checked fitters, on a lead time of around 8 weeks from signed-off design, or around 10 weeks for the SR4 upgrade.
+
+**FAQs:**
+
+Q: How do I know if a steel front door company actually manufactures the doors?
+A: Ask directly who manufactures the doorset and where, and ask whose name appears on the test certificates. A manufacturer answers both without hesitation and can usually explain the engineering behind a non-standard request on the call. A reseller will typically tell you honestly that the doors are bought in, which is useful information rather than a warning sign. The answer you should be cautious of is an evasive one.
+
+Q: Is it worse to buy a steel front door from a reseller?
+A: Not inherently. Many resellers install to a high standard and offer genuine local service. The considerations are that questions about certification have to travel back through the supply chain, non-standard requirements may not be possible, and long-term aftercare depends on the relationship between the reseller and the original factory remaining intact. If those points are addressed clearly, buying through a reseller can be a sound decision.
+
+Q: What certifications should a UK steel front door company hold?
+A: For a residential entrance door, PAS 24:2022 is the baseline standard behind Approved Document Q for new dwellings. Beyond that, BS EN 1627:2011 resistance classes and LPS 1175 ratings grade the doorset against progressively more capable attack, and Secured by Design is the UK police-preferred specification. The important detail is that certification applies to the complete doorset in a tested configuration, so ask whether it covers the glazing and hardware you have specified.
+
+Q: Does it matter whether a steel front door is made in the UK?
+A: It affects three practical things rather than quality in the abstract: how quickly a specification change can be made, how tightly the survey and manufacture are joined up, and how straightforward aftercare is over a twenty-five to forty year lifespan. Well-made imported systems exist and perform well. The question worth asking is who holds the drawings for your door and who you call in year five.
+
+Q: How long should a bespoke steel front door take?
+A: Around 8 weeks from signed-off design to installation is a realistic lead time for a made-to-measure certified steel doorset, with the SR4 Commercial-grade upgrade taking around 10 weeks. Substantially shorter quoted times usually indicate a stock or standard-size product.
+
+Search for steel front door companies in the UK and the results look interchangeable. Similar photography, similar language about security and craftsmanship, similar promises of a bespoke service. What the listings rarely make clear is the thing that matters most: whether the company making the claim also makes the door.
+
+**Related:**
+
+- [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
 #### Steel Front Doors for Listed Buildings: A UK Consent Guide
 URL: https://steelr.co.uk/blog/steel-front-doors-listed-buildings-uk | Category: Buying Guide | Published: 2026-07-07 | 9 min read
