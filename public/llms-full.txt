@@ -1425,6 +1425,7 @@ SteelR provides bespoke steel entrance door design, manufacture and installation
 - https://steelr.co.uk/blog/steel-entrance-doors-surrey-properties
 - https://steelr.co.uk/blog/steel-front-door-companies-uk-how-to-choose
 - https://steelr.co.uk/blog/steel-front-door-installation-what-to-expect
+- https://steelr.co.uk/blog/steel-front-door-reviews-how-to-verify
 - https://steelr.co.uk/blog/steel-front-doors-building-safety-act-2022
 - https://steelr.co.uk/blog/steel-front-doors-listed-buildings-uk
 - https://steelr.co.uk/blog/steel-front-doors-with-sidelights-uk-buyers-guide
@@ -1456,7 +1457,45 @@ SteelR provides expert guidance on the following upcoming topics for UK homeowne
 
 Search-engine-ready excerpts of every blog post, grouped by category so AI crawlers receive topically-clustered content. Each entry carries the post summary, up to 5 directly-quotable key facts, up to 5 frequently asked questions, a contextual paragraph, and up to 3 related posts for chain-of-reasoning queries.
 
-### Buying Guide (13 posts)
+### Buying Guide (14 posts)
+
+#### Steel Front Door Reviews: What They Tell You and What They Miss
+URL: https://steelr.co.uk/blog/steel-front-door-reviews-how-to-verify | Category: Buying Guide | Published: 2026-07-21 | 8 min read
+
+Reviews are good evidence of service and poor evidence of security. How to verify a steel front door supplier's claims properly, including which certificates to ask for and how to read them.
+
+**Key facts:**
+
+- The main ones for UK residential entrance doors are: PAS 24:2022, the UK baseline for enhanced-security doorsets and the standard behind Approved Document Q for new dwellings.
+- Our PAS 24 explainer covers what the test involves.
+- BS EN 1627:2011, which grades doorsets in resistance classes against increasingly capable attackers using increasingly serious tools.
+- LPS 1175, the LPCB standard used where the threat assessment is higher, expressed in security ratings such as SR3 and SR4.
+- Our comparison of security ratings from SR1 to SR3 sets out how the tiers relate.
+
+**FAQs:**
+
+Q: Are online reviews reliable for choosing a steel front door?
+A: They are reliable for service, communication, installation conduct and how a company behaves when something goes wrong, which are all worth knowing. They are not reliable evidence of security performance, because the customer writing the review has no way to verify a security rating. Use reviews to assess the company and certificates to assess the door.
+
+Q: What certificates should I ask a steel front door supplier for?
+A: Ask for the security certification and check the standard and class, whose name it is issued to, and which configuration it covers. For UK residential entrance doors the relevant standards are PAS 24:2022, BS EN 1627:2011 resistance classes, LPS 1175 security ratings, and Secured by Design approval. Also ask for the fire rating as it applies to the doorset as supplied and installed, rather than to the door leaf alone.
+
+Q: Does a security rating apply to a door with glazing and sidelights?
+A: Only if the certification covers that configuration. Certification under these standards applies to a specific tested assembly, so a rating earned on a solid single leaf does not automatically extend to the same design with sidelights, a fanlight or glazed panels. This is the single most useful question to ask, and a supplier with genuine certification will answer it precisely. Our [security glass guide](/blog/glazed-front-door-security-glass-uk) covers how glazing is designed into a certified doorset.
+
+Q: Why do so few steel front door companies have many reviews?
+A: Bespoke entrance doors are a low-frequency, high-value purchase, so volumes are far lower than for uPVC or composite doors sold at scale. Review count is therefore a poor proxy for quality in this market, and the depth of individual reviews tells you more than the total.
+
+Q: What should a steel front door quotation include?
+A: It should state the security rating and the standard it was tested to, the fire rating, the exact configuration including any glazing and sidelights, the finish inside and out, the hardware specification, who carries out installation, the lead time from signed-off design, and the warranty term and what it covers. A quotation that omits the configuration and the standards is not a specification you can hold anyone to.
+
+Reviews are the first thing most buyers reach for, and they are genuinely useful. They tell you whether a company turns up when it says it will, communicates clearly, tidies up, and behaves reasonably when something goes wrong. For a purchase involving a survey, a manufacturing lead time and an installation day, that is worth knowing.
+
+**Related:**
+
+- [Are Steel Entrance Doors Worth It? Honest UK Assessment](https://steelr.co.uk/blog/are-steel-doors-worth-it-uk)
+- [Bespoke Steel Entrance Doors UK: The Complete Guide](https://steelr.co.uk/blog/bespoke-entrance-doors-uk-guide)
+- [Best Front Doors for New Builds UK: Developer Guide](https://steelr.co.uk/blog/best-front-doors-new-builds-uk)
 
 #### Steel Front Door Companies in the UK: How to Choose the Right One
 URL: https://steelr.co.uk/blog/steel-front-door-companies-uk-how-to-choose | Category: Buying Guide | Published: 2026-07-19 | 9 min read
