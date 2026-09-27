@@ -64,7 +64,7 @@ The honest answer to "should this be on my home" is, for most homes, no. The cro
 
 **Insurance-driven specifications.** Several specialist UK home insurers now explicitly recognise LPS 1175-certified entrance doors as a material reduction in forced-entry risk. On high-value policies that can translate into premium adjustments or the removal of restrictive clauses.
 
-**Owners who want the highest available specification.** Some homeowners, having understood the difference between PAS 24, RC4, SR3 and SR4, decide they want the commercial-grade certification on their home for the reassurance alone. A home is a long-term asset, and the incremental cost of the upgrade across a twenty-five year service life is modest.
+**Owners who want the highest available specification.** Some homeowners, having understood the difference between PAS 24, RC4, SR3 and SR4, decide they want the commercial-grade certification on their home for the reassurance alone. A home is a long-term asset, and the incremental cost of the upgrade across a service life of 30 years or more is modest.
 
 For every household outside those categories, the LPS 1175 SR3 Enhanced upgrade above the BS EN 1627 RC4 Standard is a serious, considered specification that comfortably exceeds the threat profile a typical home faces. The crossover does not make SR4 the right answer for most homes. It makes SR4 available for the homes where the elevated threat profile is real.
 

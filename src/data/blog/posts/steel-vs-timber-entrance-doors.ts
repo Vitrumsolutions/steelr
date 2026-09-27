@@ -92,7 +92,7 @@ A bespoke steel door can faithfully replicate the look of a traditional timber d
 
 **Timber** is a renewable resource, and responsibly sourced timber from FSC or PEFC certified forests has genuine environmental credentials. However, the frequent repainting cycle involves solvents and paints, and premature replacement due to rot or deterioration adds to the lifetime environmental cost.
 
-**Steel** is one of the most recycled materials on earth. At the end of its long service life, a steel door is fully recyclable. The longer lifespan and absence of regular painting also reduce the lifetime environmental impact. A steel door that lasts 40 years has a smaller footprint than two or three timber doors over the same period.
+**Steel** is one of the most recycled materials on earth. At the end of its long service life, a steel door is fully recyclable. The longer lifespan and absence of regular painting also reduce the lifetime environmental impact. A steel door that lasts 30 years or more has a smaller footprint than the repaint cycles and replacement timber doors needed over the same period.
 
 ## Cost Comparison
 
@@ -120,7 +120,7 @@ Timber offers natural grain and visible warmth that is hard to replicate. Howeve
 
 ### How much maintenance does a timber front door need?
 
-Real timber doors typically need re-oiling or repainting every 3 to 5 years in UK weather, depending on the finish and level of exposure. Draught seals and weatherstripping need periodic replacement. Warping, splitting and swelling can occur with seasonal humidity and need correction. Total cost of maintenance over 20 years often approaches or exceeds the original door price. Steel doors with powder coat are effectively maintenance-free for their 25 to 40 year lifespan.
+Real timber doors typically need re-oiling or repainting every 3 to 5 years in UK weather, depending on the finish and level of exposure. Draught seals and weatherstripping need periodic replacement. Warping, splitting and swelling can occur with seasonal humidity and need correction. Total cost of maintenance over 20 years often approaches or exceeds the original door price. Steel doors with powder coat are effectively maintenance-free for a lifespan of 30 years or more.
 
 ### Is a solid timber door as secure as a steel door?
 
@@ -136,7 +136,7 @@ For listed buildings, conservation officers may require like-for-like timber res
 
 ### Do timber doors last longer than steel in the long run?
 
-Well-maintained hardwood doors can last 50+ years, but require continuous upkeep. Steel doors last 25 to 40+ years with no upkeep. The honest comparison is: timber with commitment to maintenance vs. steel without. In practice, steel outlasts most real-world maintained timber because most homeowners do not sustain a 5-year repaint cycle over 30 years, and small maintenance failures compound into bigger problems over time.`,
+Well-maintained hardwood doors can last 50+ years, but require continuous upkeep. Steel doors last 30 years or more with no upkeep. The honest comparison is: timber with commitment to maintenance vs. steel without. In practice, steel outlasts most real-world maintained timber because most homeowners do not sustain a 5-year repaint cycle over 30 years, and small maintenance failures compound into bigger problems over time.`,
 };
 
 export default post;

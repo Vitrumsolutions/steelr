@@ -312,7 +312,7 @@ export default function HeritageSteelFrontDoorsUkPage() {
                         },
                         {
                           spec: "Service life",
-                          steel: "25 to 30 years",
+                          steel: "30+ years",
                           timber:
                             "15 to 25 years with sustained maintenance",
                         },
@@ -695,7 +695,7 @@ export default function HeritageSteelFrontDoorsUkPage() {
           items: [
             "If your property is Grade II listed or sits in a designated conservation area, and you have time for the Listed Building Consent route.",
             "If your conservation officer has indicated openness to a material upgrade with sympathetic design.",
-            "If you want heritage proportions and a 25-year service life without the three-to-five year maintenance cycle of a timber entrance door.",
+            "If you want heritage proportions and a service life of 30 years or more without the three-to-five year maintenance cycle of a timber entrance door.",
           ],
         }}
         ctaHeading="Specify a heritage door"

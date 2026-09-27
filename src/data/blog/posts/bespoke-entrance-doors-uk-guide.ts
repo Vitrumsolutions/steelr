@@ -139,9 +139,9 @@ The price of a bespoke entrance door reflects:
 
 A well-specified bespoke steel door has a functional lifespan measured in decades, not years. Unlike timber doors that require regular repainting and maintenance, or composite doors that can fade and warp over time, a powder-coated steel door retains its appearance and performance with minimal ongoing attention.
 
-When assessed over a 25-year period, a reasonable expectation for a quality steel entrance door, the annual cost of ownership compares favourably with cheaper alternatives that may need replacing once or twice within the same timeframe.
+When assessed over a 30-year period, a reasonable expectation for a quality steel entrance door, the annual cost of ownership compares favourably with cheaper alternatives that may need replacing once or twice within the same timeframe.
 
-A bespoke steel entrance door typically outlasts two or three composite replacements, making the long-term cost of ownership comparable or lower.
+A bespoke steel entrance door typically outlasts one or two composite replacements, making the long-term cost of ownership comparable or lower.
 
 ### Property Value
 

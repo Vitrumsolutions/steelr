@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "Do steel doors last longer than composite doors?",
     answer:
-      "Yes. Steel: a 25 to 30 year service life with routine maintenance. Composite: a 10 to 15 year typical warranty. Composite GRP skins are subject to fading, cracking under thermal stress and delamination at the edges over time. Steel does not warp, swell, delaminate or fade in the way composite can. The finish is a UV-stable powder coat applied under factory conditions, not a pigmented GRP laminate.",
+      "Yes. Steel: a service life of 30 years or more with routine maintenance. Composite: a 10 to 15 year typical warranty. Composite GRP skins are subject to fading, cracking under thermal stress and delamination at the edges over time. Steel does not warp, swell, delaminate or fade in the way composite can. The finish is a UV-stable powder coat applied under factory conditions, not a pigmented GRP laminate.",
   },
   {
     question: "Are composite doors more thermally efficient than steel?",
@@ -98,7 +98,7 @@ export default function SteelVsCompositePage() {
       <section aria-labelledby="quick-answer" className="mb-12 rounded-2xl border border-gold/30 bg-cream/40 p-8" style={{ maxWidth: "48rem", margin: "2.5rem auto", padding: "2rem" }}>
         <h2 id="quick-answer" className="text-sm uppercase tracking-[0.2em] mb-4" style={{ color: "#8a6f4e" }}>Quick Answer</h2>
         <p className="text-lg leading-relaxed" style={{ color: "#1a1a18" }}>
-          Steel front doors achieve LPS 1175 SR3 Enhanced certification, a 25 to 30 year service life and thermally broken construction with U-values from 0.8 W/m&#178;K. Composite doors typically meet PAS 24 (two certification tiers below SR3), with a 10 to 15 year service life and U-values around 1.2 to 1.4 W/m&#178;K. Steel costs more upfront. Composite costs more over a 25-year horizon when like-for-like replacement is factored in.
+          Steel front doors achieve LPS 1175 SR3 Enhanced certification, a service life of 30 years or more and thermally broken construction with U-values from 0.8 W/m&#178;K. Composite doors typically meet PAS 24 (two certification tiers below SR3), with a 10 to 15 year service life and U-values around 1.2 to 1.4 W/m&#178;K. Steel costs more upfront. Composite costs more over a 25-year horizon when like-for-like replacement is factored in.
         </p>
       </section>
 
@@ -111,7 +111,7 @@ export default function SteelVsCompositePage() {
           </div>
           <div>
             <h3 className="text-lg font-medium text-dark mb-2">Do steel doors last longer than composite doors?</h3>
-            <p className="text-dark/80">Yes. Steel: a 25 to 30 year service life with routine maintenance. Composite: a 10 to 15 year typical warranty. Composite GRP skins are subject to fading, cracking under thermal stress and delamination at the edges over time. Steel does not warp, swell, delaminate or fade in the way composite can. The finish is a UV-stable powder coat applied under factory conditions, not a pigmented GRP laminate.</p>
+            <p className="text-dark/80">Yes. Steel: a service life of 30 years or more with routine maintenance. Composite: a 10 to 15 year typical warranty. Composite GRP skins are subject to fading, cracking under thermal stress and delamination at the edges over time. Steel does not warp, swell, delaminate or fade in the way composite can. The finish is a UV-stable powder coat applied under factory conditions, not a pigmented GRP laminate.</p>
           </div>
           <div>
             <h3 className="text-lg font-medium text-dark mb-2">Is steel or composite better value over 10 years?</h3>
@@ -209,7 +209,7 @@ export default function SteelVsCompositePage() {
                         },
                         {
                           spec: "Service life",
-                          steel: "25 to 30 years",
+                          steel: "30+ years",
                           composite: "10 to 15 years",
                           upvc: "10 to 15 years",
                           timber:
@@ -402,7 +402,7 @@ export default function SteelVsCompositePage() {
                         ["Acoustic attenuation", "Typically 29 to 32 dB Rw", "33 dB Rw standard; up to 39 dB Rw on acoustic upgrade"],
                         ["Door leaf thickness", "44 to 48 mm typical", "70 mm"],
                         ["Steel skin / frame gauge", "n/a (GRP skin over insulated core)", "1.5 mm outer steel skin; 2 mm reinforced box-section frame"],
-                        ["Service life", "10 to 15 years typical", "25 to 30 years with routine maintenance"],
+                        ["Service life", "10 to 15 years typical", "30+ years with routine maintenance"],
                         ["Manufacturer warranty", "10 years typical (whole door)", "10 years door construction; 5 years finish; 3 years hardware"],
                         ["Fire rating (standard)", "Not fire rated on most product; FD30 on premium variants", "FD30S standard; FD60 available as upgrade"],
                         ["End-of-life recyclability", "Mostly landfill (multi-material bond limits recycling)", "Fully recyclable steel core; UK steel ≥85% recycled stream"],
@@ -526,7 +526,7 @@ export default function SteelVsCompositePage() {
                 Steel does not warp, swell, delaminate or crack. The finish
                 is a UV-stable powder coat applied under factory
                 conditions, baked onto the metal substrate. Service life
-                is twenty-five to thirty years with routine maintenance. A
+                is 30 years or more with routine maintenance. A
                 correctly specified steel door installed in 2026 should
                 still be in service and in condition in 2056. The
                 difference matters most on the second cycle. A composite

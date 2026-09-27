@@ -94,7 +94,7 @@ No. A higher class means the doorset resisted a more capable attack in test, whi
 
 ### Do I need a steel front door, or would a composite door do?
 
-For many homes a well-made composite door is a sensible choice, and it is worth saying so. Steel earns its place where certification is required or requested, where the opening is non-standard, where fire performance is a legal requirement, or where a twenty-five to forty year lifespan and dimensional stability matter. Our [steel front door versus composite comparison](/steel-front-door-vs-composite) sets the two side by side without pretending they compete on every point.
+For many homes a well-made composite door is a sensible choice, and it is worth saying so. Steel earns its place where certification is required or requested, where the opening is non-standard, where fire performance is a legal requirement, or where a lifespan of 30 years or more and dimensional stability matter. Our [steel front door versus composite comparison](/steel-front-door-vs-composite) sets the two side by side without pretending they compete on every point.
 
 ### Can a steel front door be fitted to a listed building?
 

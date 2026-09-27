@@ -139,7 +139,7 @@ The safe path is to choose the RAL first, then approve a coated steel sample, th
 
 ## Finish Durability and Maintenance
 
-A steel door with a baked polyester powder coat typically carries a ten-year aesthetic warranty against fade and a longer structural warranty. The real-world finish durability varies by colour and sheen.
+On a SteelR door, the baked polyester powder coat carries a 5-year decorative finish warranty, alongside 10 years on the door construction and 3 years on hardware components. The real-world finish durability varies by colour and sheen.
 
 - **Darker colours**: absorb more heat and can show slight surface chalking earlier than paler colours over ten-plus years in direct south-facing sunlight. Not a failure, just a consideration on exposed elevations.
 - **Matt finishes**: hide surface scratches and fingerprints better than gloss. Gloss shows the finish most crisply on collection day but needs more frequent light cleaning.
@@ -189,7 +189,7 @@ Yes. Dual-colour specification is one of the advantages of a bespoke steel door.
 
 ### Will a dark-coloured steel door fade in direct sunlight?
 
-A quality polyester powder coat is UV-stable and warranted for aesthetic performance for ten years or more. Very dark colours on south-facing elevations may show subtle surface chalking after a decade, which is normal and not a failure. This is rarely visible without close inspection. Light cleaning twice a year extends the finish significantly.
+A quality polyester powder coat is UV-stable, and on a SteelR door the decorative finish carries a 5-year warranty. Very dark colours on south-facing elevations may show subtle surface chalking after a decade, which is normal and not a failure. This is rarely visible without close inspection. Light cleaning twice a year extends the finish significantly.
 
 ### How do I match a specific paint-brand colour to a RAL code?
 

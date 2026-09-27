@@ -171,7 +171,7 @@ For most luxury UK residential projects built or renovated since 2010, bespoke s
 
 ### How long does a luxury front door last?
 
-A bespoke steel front door with a powder-coat finish typically lasts 25 to 40 years with no maintenance beyond hardware cleaning. A well-specified solid hardwood door lasts 40 to 60 years with repainting every 3 to 5 years. A premium composite door typically lasts 15 to 20 years before the face begins to degrade.
+A bespoke steel front door with a powder-coat finish typically lasts 30 years or more with no maintenance beyond hardware cleaning. A well-specified solid hardwood door lasts 40 to 60 years with repainting every 3 to 5 years. A premium composite door typically lasts 15 to 20 years before the face begins to degrade.
 
 ### Do I need planning permission for a luxury front door?
 

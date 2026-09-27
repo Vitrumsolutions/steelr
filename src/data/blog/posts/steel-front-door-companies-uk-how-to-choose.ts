@@ -50,7 +50,7 @@ For a standard composite or uPVC door, buying through a reseller is routine and 
 
 **Steel is unforgiving of poor measurement.** A made-to-measure steel doorset is fabricated to the opening. There is no trimming on site. The survey has to be right, which means the surveying and the manufacturing need to be joined up.
 
-**The product is long-lived.** A steel entrance door is a twenty-five to forty year purchase. Aftercare over that horizon depends on the company still existing, still holding the drawings for your door, and still being able to supply a matching part.
+**The product is long-lived.** A steel entrance door is bought to last 30 years or more. Aftercare over that horizon depends on the company still existing, still holding the drawings for your door, and still being able to supply a matching part.
 
 Our guide to [UK-made steel doors versus imported systems](/uk-steel-doors-vs-imported) covers the supply chain question in more detail, including where imported systems perform well.
 
@@ -101,7 +101,7 @@ For a residential entrance door, PAS 24:2022 is the baseline standard behind App
 
 ### Does it matter whether a steel front door is made in the UK?
 
-It affects three practical things rather than quality in the abstract: how quickly a specification change can be made, how tightly the survey and manufacture are joined up, and how straightforward aftercare is over a twenty-five to forty year lifespan. Well-made imported systems exist and perform well. The question worth asking is who holds the drawings for your door and who you call in year five.
+It affects three practical things rather than quality in the abstract: how quickly a specification change can be made, how tightly the survey and manufacture are joined up, and how straightforward aftercare is over a lifespan of 30 years or more. Well-made imported systems exist and perform well. The question worth asking is who holds the drawings for your door and who you call in year five.
 
 ### How long should a bespoke steel front door take?
 

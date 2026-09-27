@@ -53,7 +53,7 @@ The UK climate subjects entrance doors to rain, wind, UV radiation, frost cycles
 
 **Steel entrance doors** are manufactured from galvanised steel, pre-treated and finished with multi-layer paint systems designed for exterior exposure. The steel itself does not warp, shrink, swell or crack with temperature changes. It is dimensionally stable across all conditions, meaning the door maintains its fit within the frame year after year.
 
-The finish is the element that requires consideration. Modern powder-coat and wet-spray finishes on steel doors are highly UV-resistant and durable, but they can be scratched or chipped by impact. A quality manufacturer will provide touch-up paint for minor damage. With basic care, a steel door will maintain its appearance and performance for **40 to 50 years or more**.
+The finish is the element that requires consideration. Modern powder-coat and wet-spray finishes on steel doors are highly UV-resistant and durable, but they can be scratched or chipped by impact. A quality manufacturer will provide touch-up paint for minor damage. With basic care, a steel door will maintain its appearance and performance for **30 years or more**.
 
 ### Fibreglass
 
@@ -117,7 +117,7 @@ A quality fibreglass entrance door from a reputable UK manufacturer typically co
 
 Bespoke steel entrance doors are a premium product. SteelR's pricing starts higher than fibreglass, reflecting the **SR3 security rating, ISO 9001 certified UK manufacturing, bespoke design process** and professional structural installation. For homeowners in [London](/areas/london), [Surrey](/areas/surrey) and [Hampshire](/areas/hampshire) who view the entrance door as a long-term investment in security and design, the price reflects the specification.
 
-When comparing cost, the lifecycle perspective is important. A steel door lasting 40 to 50 years may cost less per year of service than a fibreglass door replaced every 20 years. The security and design advantages accrue throughout the life of the product. For a full breakdown of what moves the number on a SteelR specification, see our [steel front door cost guide](/steel-front-door-cost-uk).
+When comparing cost, the lifecycle perspective is important. A steel door lasting 30 years or more may cost less per year of service than a fibreglass door replaced every 20 years. The security and design advantages accrue throughout the life of the product. For a full breakdown of what moves the number on a SteelR specification, see our [steel front door cost guide](/steel-front-door-cost-uk).
 
 ## When Each Material Makes Sense
 
@@ -155,11 +155,11 @@ No. GRP and foam core construction cannot achieve LPS 1175 SR3 testing. The mate
 
 ### How long do fibreglass doors actually last?
 
-Quality fibreglass doors from reputable manufacturers typically last 15 to 25 years before the GRP skin shows significant UV degradation or the foam core develops issues. Cheaper fibreglass doors may show signs of fading, chalking or bowing within 10 years. By comparison, a well-maintained steel door has a working life of 40 to 50 years or more.
+Quality fibreglass doors from reputable manufacturers typically last 15 to 25 years before the GRP skin shows significant UV degradation or the foam core develops issues. Cheaper fibreglass doors may show signs of fading, chalking or bowing within 10 years. By comparison, a well-maintained steel door has a working life of 30 years or more.
 
 ### Is it worth paying more for a steel door over fibreglass?
 
-The answer depends on your priorities. If maximum security, unlimited design customisation, fire rating capability and a 40-year-plus lifespan matter to you, steel represents better long-term value despite the higher upfront cost. If you need a solid, attractive door at a moderate price and are content with standard designs and PAS 24 security, fibreglass is a practical choice. The two products serve different segments of the market.
+The answer depends on your priorities. If maximum security, unlimited design customisation, fire rating capability and a lifespan of 30 years or more matter to you, steel represents better long-term value despite the higher upfront cost. If you need a solid, attractive door at a moderate price and are content with standard designs and PAS 24 security, fibreglass is a practical choice. The two products serve different segments of the market.
 
 ### Can I get a steel door that looks traditional rather than industrial?
 

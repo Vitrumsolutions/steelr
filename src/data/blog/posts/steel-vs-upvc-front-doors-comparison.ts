@@ -73,7 +73,7 @@ The visual difference between a uPVC door and a bespoke steel door is immediatel
 
 Once a uPVC door begins to deteriorate, repair options are limited. The material cannot be refinished or restored, replacement is the only solution.
 
-**Steel entrance doors** are built to last a minimum of **40 to 50 years** with proper maintenance. The steel leaf does not warp, bow, twist or deform. A multi-layer paint system provides lasting corrosion protection, and should the finish ever need refreshing, steel can be professionally recoated without replacement.
+**Steel entrance doors** are built to last **30 years or more** with proper maintenance. The steel leaf does not warp, bow, twist or deform. A multi-layer paint system provides lasting corrosion protection, and should the finish ever need refreshing, steel can be professionally recoated without replacement.
 
 Hardware components, locks, hinges, handles, are specified for longevity and can be serviced or replaced individually. The door itself remains structurally sound for the life of the building.
 
@@ -95,7 +95,7 @@ The environmental profile of uPVC is a growing concern for homeowners who consid
 
 **uPVC production** involves chlorine chemistry and plasticisers. While modern manufacturing has improved, the material remains difficult to recycle effectively. Most uPVC doors removed during replacement end up in landfill, where the plastic takes centuries to decompose. The industry's recycling rate, while improving, remains well below that of metals.
 
-**Steel is one of the most recycled materials on earth.** Over 85 per cent of structural steel is recycled at end of life, and recycled steel retains its full structural properties without degradation. A steel entrance door can be recycled completely when it eventually reaches the end of its service life, which, given its 40-to-50-year lifespan, is a considerably longer useful life than uPVC before any recycling question arises.
+**Steel is one of the most recycled materials on earth.** Over 85 per cent of structural steel is recycled at end of life, and recycled steel retains its full structural properties without degradation. A steel entrance door can be recycled completely when it eventually reaches the end of its service life, which, given a lifespan of 30 years or more, is a considerably longer useful life than uPVC before any recycling question arises.
 
 For homeowners and developers with environmental commitments, the lifecycle comparison strongly favours steel.
 
@@ -128,7 +128,7 @@ A uPVC front door installed sits in the entry-level tier of the market, priced f
 
 On a simple cost comparison, uPVC is cheaper at the point of purchase. But cost and value are different calculations.
 
-Over a 40-year period, a homeowner replacing a uPVC door every 15 years will fund two replacements plus the original purchase, with ongoing draught and security issues between replacements. A single bespoke steel door, properly maintained, serves the full 40 years with consistent security, thermal performance and visual impact throughout.
+Over a 30-year period, a homeowner replacing a uPVC door every 15 years will fund one replacement plus the original purchase, with ongoing draught and security issues as each door ages. A single bespoke steel door, properly maintained, serves the full 30 years with consistent security, thermal performance and visual impact throughout.
 
 Steel entrance doors also contribute measurably to **property value**. Estate agents consistently report that a high-quality entrance door is one of the most impactful kerb appeal improvements a homeowner can make. In premium property markets, the presence of a bespoke steel entrance door signals quality throughout the property.
 
@@ -144,7 +144,7 @@ Every door in [the SteelR collection](/collection) is manufactured to **SR3 secu
 
 ### Is a steel front door worth the extra cost over uPVC?
 
-For homeowners who value security, durability and design, steel represents significantly better long-term value. The higher upfront cost is offset by a lifespan two to three times longer than uPVC, consistent thermal performance and the four-tier security ladder (BS EN 1627 RC4 Standard, with LPS 1175 SR3 Enhanced upgrade and SR4 Commercial-grade upgrade available).
+For homeowners who value security, durability and design, steel represents significantly better long-term value. The higher upfront cost is offset by a lifespan of 30 years or more against 15 to 25 years for uPVC, consistent thermal performance and the four-tier security ladder (BS EN 1627 RC4 Standard, with LPS 1175 SR3 Enhanced upgrade and SR4 Commercial-grade upgrade available).
 
 ### How much more secure is a steel door than uPVC?
 
@@ -164,7 +164,7 @@ A bespoke steel entrance door is one of the most effective kerb appeal improveme
 
 ### How long does a steel entrance door last compared to uPVC?
 
-A uPVC front door typically lasts 15 to 25 years before needing replacement. A bespoke steel entrance door is built to last 40 to 50 years with proper maintenance, making it a permanent architectural addition rather than a consumable product. For a fuller side-by-side material comparison, see our [steel front door vs composite](/steel-front-door-vs-composite) hub page.`,
+A uPVC front door typically lasts 15 to 25 years before needing replacement. A bespoke steel entrance door is built to last 30 years or more with proper maintenance, making it a permanent architectural addition rather than a consumable product. For a fuller side-by-side material comparison, see our [steel front door vs composite](/steel-front-door-vs-composite) hub page.`,
 };
 
 export default post;

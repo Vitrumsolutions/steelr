@@ -15,9 +15,9 @@ const post: BlogPost = {
 
 Yes, for the right property and the right homeowner, a bespoke steel entrance door is one of the best investments you can make in your home. But "worth it" means different things to different people, so this article breaks the question down honestly. We will cover what steel does better than the alternatives, address the common concerns, and be straightforward about where steel might not be the right choice.
 
-## Durability: The 25+ Year Argument
+## Durability: The 30+ Year Argument
 
-The single most compelling case for steel is longevity. A properly manufactured and powder-coated steel entrance door will last **25 to 40+ years** without structural degradation. The steel itself does not rot, warp, swell, shrink or delaminate. The powder-coat finish is baked onto the surface at approximately 200°C, creating a molecular bond that resists chipping, flaking, peeling and UV degradation far beyond any paint system applied to timber or GRP.
+The single most compelling case for steel is longevity. A properly manufactured and powder-coated steel entrance door will last **30 years or more** without structural degradation. The steel itself does not rot, warp, swell, shrink or delaminate. The powder-coat finish is baked onto the surface at approximately 200°C, creating a molecular bond that resists chipping, flaking, peeling and UV degradation far beyond any paint system applied to timber or GRP.
 
 ### How This Compares
 
@@ -25,7 +25,7 @@ The single most compelling case for steel is longevity. A properly manufactured 
 - **Timber doors** (hardwood): 15 to 30 years with diligent maintenance. Without regular repainting or re-oiling (every 3 to 5 years), timber begins to deteriorate within 5 to 7 years. Moisture ingress causes swelling, warping, joint failure and eventually rot
 - **uPVC doors**: 15 to 25 years. uPVC becomes brittle with age and UV exposure, yellows over time, and cannot be effectively repaired once the material degrades
 
-A steel door installed today will still be functioning correctly when a composite door installed at the same time has been replaced twice. That is not marketing, it is materials science.
+A steel door installed today will still be functioning correctly when a composite door installed at the same time has reached the end of its service life. That is not marketing, it is materials science.
 
 ## Security: SR3 Rating vs Everything Else
 
@@ -55,7 +55,7 @@ This is the benefit that surprises most homeowners. A steel entrance door with a
 
 Timber doors require repainting every 3 to 5 years. Each repaint involves sanding, priming, undercoating and applying two top coats. If the paint system has failed and moisture has penetrated, the remedial work is significantly more involved. Over 25 years, you are looking at 5 to 8 complete repaint cycles.
 
-A steel door's powder-coat finish is warranted for the life of the product. It does not peel, flake, chalk, fade or blister. The colour you choose on day one, from over 200 [RAL colour options](/colours), is the colour you will have in 25 years.
+On a SteelR door, the powder-coat finish carries a 5-year decorative finish warranty. It does not peel, flake, chalk, fade or blister. The colour you choose on day one, from over 200 [RAL colour options](/colours), is the colour you will have in 25 years.
 
 ### No Warping
 
@@ -192,7 +192,7 @@ If you are considering a steel entrance door, the best next step is a conversati
 
 ### How long do steel entrance doors actually last?
 
-A properly manufactured and installed steel entrance door will last 25 to 40+ years with no structural maintenance. The powder-coat finish is warranted for the life of the product. The steel structure itself is essentially permanent, it does not rot, warp, swell or delaminate. The limiting factor is typically fashion rather than function; many homeowners replace doors for aesthetic reasons long before the door itself has deteriorated.
+A properly manufactured and installed steel entrance door will last 30 years or more with no structural maintenance. SteelR's warranty covers the door construction for 10 years, the decorative finish for 5 years and hardware components for 3 years. The steel structure itself is essentially permanent, it does not rot, warp, swell or delaminate. The limiting factor is typically fashion rather than function; many homeowners replace doors for aesthetic reasons long before the door itself has deteriorated.
 
 ### Are steel doors more secure than composite doors?
 
