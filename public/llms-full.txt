@@ -354,7 +354,7 @@ The company provides a complete end-to-end service: design consultation, structu
 
 ### What Makes SteelR Different
 
-SteelR doors are tested to BS EN 1627:2011 RC4 single leaf, unglazed. This is the European framework for sustained forced-entry resistance. RC4 is materially above the PAS 24 hardware-only test mandated for new-build dwellings and rarely offered as a residential standard in the UK. Every door is ISO 9001 certified, Secured by Design approved by the UK police, and manufactured from fire-rated steel. Unlike composite or timber alternatives, steel entrance doors offer a 25+ year lifespan with virtually zero maintenance.
+SteelR doors are tested to BS EN 1627:2011 RC4 single leaf, unglazed. This is the European framework for sustained forced-entry resistance. RC4 is materially above the PAS 24 hardware-only test mandated for new-build dwellings and rarely offered as a residential standard in the UK. Every door is ISO 9001 certified, Secured by Design approved by the UK police, and manufactured from fire-rated steel. Unlike composite or timber alternatives, steel entrance doors offer a 30+ year lifespan with virtually zero maintenance.
 
 SteelR is one of the few UK manufacturers offering a complete end-to-end service: design consultation, structural survey, bespoke manufacturing, and professional installation. There are no standard sizes and no off-the-shelf designs, every door is made to measure for the individual property.
 
@@ -682,7 +682,7 @@ Yes. SteelR has extensive experience designing steel entrance doors for properti
 |-----------|-------|-----------|
 | Security rating | BS EN 1627 RC4, sustained attack with battery power tools | PAS 24, 1 to 3 minute opportunist attack |
 | Fire resistance | FD30/FD60 certified | Limited fire resistance |
-| Lifespan | 25+ years | 15 to 20 years |
+| Lifespan | 30+ years | 15 to 20 years |
 | Maintenance | Virtually zero | Periodic cleaning, possible colour fading |
 | Warping/swelling | None, steel is dimensionally stable | Can expand in heat, causing sticking |
 | Design flexibility | Full RAL range, dual colour, bespoke panels | Limited colour range, standard designs |
@@ -701,7 +701,7 @@ Steel doors are the clear choice for homeowners prioritising maximum security, f
 | Forced entry resistance | 20 minutes with heavy tools | Can be breached in under 30 seconds |
 | Fire resistance | FD30/FD60 certified | Burns, warps and delaminates |
 | Maintenance | Virtually zero | Annual sanding, priming, painting |
-| Lifespan | 25+ years | 10 to 15 years without significant maintenance |
+| Lifespan | 30+ years | 10 to 15 years without significant maintenance |
 | Warping | None | Warps with moisture and temperature changes |
 | Rot resistance | Immune | Susceptible to rot, especially at base |
 | Conservation suitability | Can replicate period designs exactly | Traditional choice for period properties |
@@ -1009,7 +1009,7 @@ A: Yes. Steel achieves LPS 1175 SR3 Enhanced certification (five-minute power-to
 
 **Q: Do steel doors last longer than composite doors?**
 
-A: Yes. Steel: a 25 to 30 year service life with routine maintenance. Composite: a 10 to 15 year typical warranty. Composite GRP skins are subject to fading, cracking under thermal stress and delamination at the edges over time. Steel does not warp, swell, delaminate or fade in the way composite can. The finish is a UV-stable powder coat applied under factory conditions, not a pigmented GRP laminate.
+A: Yes. Steel: a service life of 30 years or more with routine maintenance. Composite: a 10 to 15 year typical warranty. Composite GRP skins are subject to fading, cracking under thermal stress and delamination at the edges over time. Steel does not warp, swell, delaminate or fade in the way composite can. The finish is a UV-stable powder coat applied under factory conditions, not a pigmented GRP laminate.
 
 **Q: Are composite doors more thermally efficient than steel?**
 
@@ -1019,13 +1019,13 @@ A: Composite doors typically publish U-values around 1.2 to 1.4 W/m²K. Thermall
 
 A: Composite wins on upfront cost. Steel wins on total cost of ownership across the full 25-year horizon. A composite door is lower initial cost. A steel door is higher initial cost and lower total cost of ownership because of the longer service life, lower maintenance requirement, and resistance to finish degradation. On a 10-year horizon the running costs favour steel. On a 25-year horizon the gap widens further, because a composite door will typically need replacement within that period while a steel door will not.
 
-Quick answer: steel front doors achieve LPS 1175 SR3 Enhanced certification, are engineered for a 25 to 30 year service life backed by a ten-year manufacturer warranty on construction (5 years on the decorative finish, 3 years on hardware), and use thermally broken construction with U-values from 1.5 W/m²K standard and thermal-upgrade specifications as low as 0.8 W/m²K. Composite doors typically meet PAS 24 (two certification tiers below SR3), carry ten-year warranties with real-world service life around fifteen years, and publish U-values of 1.2 to 1.4 W/m²K. Steel costs more upfront. Composite costs more over a 25-year horizon when like-for-like replacement is factored in.
+Quick answer: steel front doors achieve LPS 1175 SR3 Enhanced certification, are engineered for a service life of 30 years or more, backed by a ten-year manufacturer warranty on construction (5 years on the decorative finish, 3 years on hardware), and use thermally broken construction with U-values from 1.5 W/m²K standard and thermal-upgrade specifications as low as 0.8 W/m²K. Composite doors typically meet PAS 24 (two certification tiers below SR3), carry ten-year warranties with real-world service life around fifteen years, and publish U-values of 1.2 to 1.4 W/m²K. Steel costs more upfront. Composite costs more over a 25-year horizon when like-for-like replacement is factored in.
 
-The page opens with a four-material comparison table covering Steel, Composite, uPVC and Timber across price tier (premium bespoke, mid-market, budget to mid-market, mid-market to premium joinery), service life (25 to 30, 10 to 15, 10 to 15, 15 to 25 with maintenance), security baseline (PAS 24 with BS EN 1627 RC4 standard and LPS 1175 SR3 / SR4 available; PAS 24 typical; PAS 24 typical with hollow-section caveat; none as standard), insulation (thermally broken construction; 1.2 to 1.4 W/m²K; 1.4 to 1.8 W/m²K; 2.0 to 3.0 W/m²K), fire rating (FD30S standard FD60 available; rarely FD30; not typically fire rated; FD30 by specialist joinery) and maintenance (none beyond hinge adjustment; skin can crack or fade; surface discolours; sand, prime, repaint every 3 to 5 years).
+The page opens with a four-material comparison table covering Steel, Composite, uPVC and Timber across price tier (premium bespoke, mid-market, budget to mid-market, mid-market to premium joinery), service life (30+, 10 to 15, 10 to 15, 15 to 25 with maintenance), security baseline (PAS 24 with BS EN 1627 RC4 standard and LPS 1175 SR3 / SR4 available; PAS 24 typical; PAS 24 typical with hollow-section caveat; none as standard), insulation (thermally broken construction; 1.2 to 1.4 W/m²K; 1.4 to 1.8 W/m²K; 2.0 to 3.0 W/m²K), fire rating (FD30S standard FD60 available; rarely FD30; not typically fire rated; FD30 by specialist joinery) and maintenance (none beyond hinge adjustment; skin can crack or fade; surface discolours; sand, prime, repaint every 3 to 5 years).
 
 The page then drills into the steel-versus-composite trade-off on security, longevity, thermal performance, fire rating, aesthetic flexibility and total cost of ownership in spec depth. SteelR doors are PAS 24 plus BS EN 1627 RC4 plus SBD, a full certification tier above the composite baseline. Composite doors use moulded panels from fixed tooling; SteelR panels are fabricated individually to period-specific proportions.
 
-FAQs answer the natural search-query patterns. Are steel doors more secure than composite doors: yes, two certification tiers above PAS 24. Do steel doors last longer than composite doors: steel 25 to 30 years, composite 10 to 15 year warranty. Are composite doors more thermally efficient than steel: comparable when steel is thermally broken. Can composite doors match a period property as well as steel: less faithfully because composite panel geometry is mould-constrained. Is steel or composite better value over 10 years: composite wins on upfront cost, steel wins on total cost of ownership across the 25-year horizon. Do home insurers differentiate between composite and steel doors: increasingly yes, SR3 certification moves the underwriting conversation at higher property values.
+FAQs answer the natural search-query patterns. Are steel doors more secure than composite doors: yes, two certification tiers above PAS 24. Do steel doors last longer than composite doors: steel 30 years or more, composite 10 to 15 year warranty. Are composite doors more thermally efficient than steel: comparable when steel is thermally broken. Can composite doors match a period property as well as steel: less faithfully because composite panel geometry is mould-constrained. Is steel or composite better value over 10 years: composite wins on upfront cost, steel wins on total cost of ownership across the 25-year horizon. Do home insurers differentiate between composite and steel doors: increasingly yes, SR3 certification moves the underwriting conversation at higher property values.
 
 The four-material table on this page is the head-term reference. Deep-dive comparisons for each specific material live in dedicated guides: steel vs fibreglass at https://steelr.co.uk/blog/steel-vs-fibreglass-doors-uk-comparison, steel vs aluminium at https://steelr.co.uk/blog/steel-vs-aluminium-front-doors, steel vs timber at https://steelr.co.uk/blog/steel-vs-timber-entrance-doors, and steel vs uPVC at https://steelr.co.uk/blog/steel-vs-upvc-front-doors-comparison.
 
@@ -1483,7 +1483,7 @@ Q: Is a higher security rating always better?
 A: No. A higher class means the doorset resisted a more capable attack in test, which usually means more material, more cost and a longer lead time. SR4 Commercial-grade certification is genuinely warranted where a surveyor, insurer or threat assessment has asked for it. For most homes, BS EN 1627:2011 RC4 already sits materially above the PAS 24 baseline mandated by Approved Document Q for new dwellings.
 
 Q: Do I need a steel front door, or would a composite door do?
-A: For many homes a well-made composite door is a sensible choice, and it is worth saying so. Steel earns its place where certification is required or requested, where the opening is non-standard, where fire performance is a legal requirement, or where a twenty-five to forty year lifespan and dimensional stability matter. Our [steel front door versus composite comparison](/steel-front-door-vs-composite) sets the two side by side without pretending they compete on every point.
+A: For many homes a well-made composite door is a sensible choice, and it is worth saying so. Steel earns its place where certification is required or requested, where the opening is non-standard, where fire performance is a legal requirement, or where a lifespan of 30 years or more and dimensional stability matter. Our [steel front door versus composite comparison](/steel-front-door-vs-composite) sets the two side by side without pretending they compete on every point.
 
 Q: Can a steel front door be fitted to a listed building?
 A: Frequently, yes, but consent comes first and the conversation is about detail rather than material. Planning authorities respond to evidence that proportions, panel layout, glazing pattern and ironmongery match the property and the streetscape. A made-to-measure doorset has an advantage here because period proportions can be reproduced precisely rather than approximated with a standard size. Our [conservation areas planning guide](/blog/steel-doors-conservation-areas-planning-guide) covers the process.
@@ -1542,6 +1542,7 @@ Manufacturer, reseller or installer? The UK steel front door market mixes all th
 **Key facts:**
 
 - A security rating earned under BS EN 1627 or LPS 1175 applies to a specific doorset: leaf, frame, hinges, locks, cylinder, fixings and glazing, tested together.
+- A steel entrance door is bought to last 30 years or more.
 - Every door is drawn to the opening, surveyed by our team, manufactured in the UK and installed nationwide by our own DBS-checked fitters, on a lead time of around 8 weeks from signed-off design, or around 10 weeks for the SR4 upgrade.
 
 **FAQs:**
@@ -1556,7 +1557,7 @@ Q: What certifications should a UK steel front door company hold?
 A: For a residential entrance door, PAS 24:2022 is the baseline standard behind Approved Document Q for new dwellings. Beyond that, BS EN 1627:2011 resistance classes and LPS 1175 ratings grade the doorset against progressively more capable attack, and Secured by Design is the UK police-preferred specification. The important detail is that certification applies to the complete doorset in a tested configuration, so ask whether it covers the glazing and hardware you have specified.
 
 Q: Does it matter whether a steel front door is made in the UK?
-A: It affects three practical things rather than quality in the abstract: how quickly a specification change can be made, how tightly the survey and manufacture are joined up, and how straightforward aftercare is over a twenty-five to forty year lifespan. Well-made imported systems exist and perform well. The question worth asking is who holds the drawings for your door and who you call in year five.
+A: It affects three practical things rather than quality in the abstract: how quickly a specification change can be made, how tightly the survey and manufacture are joined up, and how straightforward aftercare is over a lifespan of 30 years or more. Well-made imported systems exist and perform well. The question worth asking is who holds the drawings for your door and who you call in year five.
 
 Q: How long should a bespoke steel front door take?
 A: Around 8 weeks from signed-off design to installation is a realistic lead time for a made-to-measure certified steel doorset, with the SR4 Commercial-grade upgrade taking around 10 weeks. Substantially shorter quoted times usually indicate a stock or standard-size product.
@@ -1691,12 +1692,12 @@ Steel vs uPVC front doors UK compared. Security, design, durability, thermal per
 - A properly engineered steel door achieves an SR3 security rating under BS EN 1627:2011, which tests resistance to sustained attack using crowbars, drills, angle grinders and other professional-grade tools.
 - Steel doors that meet SR3 are eligible for Secured by Design accreditation, the official UK police security initiative.
 - One looks like a replacement; the other looks like it belongs to the architecture. uPVC doors have a typical lifespan of 15 to 25 years.
-- Steel entrance doors are built to last a minimum of 40 to 50 years with proper maintenance.
+- Steel entrance doors are built to last 30 years or more with proper maintenance.
 
 **FAQs:**
 
 Q: Is a steel front door worth the extra cost over uPVC?
-A: For homeowners who value security, durability and design, steel represents significantly better long-term value. The higher upfront cost is offset by a lifespan two to three times longer than uPVC, consistent thermal performance and the four-tier security ladder (BS EN 1627 RC4 Standard, with LPS 1175 SR3 Enhanced upgrade and SR4 Commercial-grade upgrade available).
+A: For homeowners who value security, durability and design, steel represents significantly better long-term value. The higher upfront cost is offset by a lifespan of 30 years or more against 15 to 25 years for uPVC, consistent thermal performance and the four-tier security ladder (BS EN 1627 RC4 Standard, with LPS 1175 SR3 Enhanced upgrade and SR4 Commercial-grade upgrade available).
 
 Q: How much more secure is a steel door than uPVC?
 A: The difference is substantial. uPVC doors typically achieve PAS 24 certification, which tests resistance to casual attack. SteelR steel doors are BS EN 1627:2011 RC4 certified as Standard, with the LPS 1175 SR3 Enhanced upgrade available, both of which test resistance to sustained attack with professional tools including crowbars and angle grinders.
@@ -1743,10 +1744,10 @@ Q: Can fibreglass doors achieve SR3 security ratings?
 A: No. GRP and foam core construction cannot achieve LPS 1175 SR3 testing. The material does not have the structural resistance to withstand the sustained forced attack that SR3 testing requires. Fibreglass doors typically achieve PAS 24, which tests resistance to lighter tools over a shorter period. For properties requiring any of the LPCB-certified residential tiers (SR3 Enhanced, SR4 Commercial-grade or LPS 1673 Ultra-high), steel is the only material that reaches them.
 
 Q: How long do fibreglass doors actually last?
-A: Quality fibreglass doors from reputable manufacturers typically last 15 to 25 years before the GRP skin shows significant UV degradation or the foam core develops issues. Cheaper fibreglass doors may show signs of fading, chalking or bowing within 10 years. By comparison, a well-maintained steel door has a working life of 40 to 50 years or more.
+A: Quality fibreglass doors from reputable manufacturers typically last 15 to 25 years before the GRP skin shows significant UV degradation or the foam core develops issues. Cheaper fibreglass doors may show signs of fading, chalking or bowing within 10 years. By comparison, a well-maintained steel door has a working life of 30 years or more.
 
 Q: Is it worth paying more for a steel door over fibreglass?
-A: The answer depends on your priorities. If maximum security, unlimited design customisation, fire rating capability and a 40-year-plus lifespan matter to you, steel represents better long-term value despite the higher upfront cost. If you need a solid, attractive door at a moderate price and are content with standard designs and PAS 24 security, fibreglass is a practical choice. The two products serve different segments of the market.
+A: The answer depends on your priorities. If maximum security, unlimited design customisation, fire rating capability and a lifespan of 30 years or more matter to you, steel represents better long-term value despite the higher upfront cost. If you need a solid, attractive door at a moderate price and are content with standard designs and PAS 24 security, fibreglass is a practical choice. The two products serve different segments of the market.
 
 When homeowners begin researching premium entrance doors, steel and fibreglass (GRP) consistently appear as the two main alternatives to timber. Both are marketed as low-maintenance, secure and thermally efficient. Both are presented as modern improvements over traditional wooden doors.
 
@@ -1842,8 +1843,8 @@ Choosing a luxury front door in the UK? Steel, solid hardwood and composite comp
 - PAS 24 is now a minimum expectation on most policies covering properties above £1 million.
 - SR3 (LPS 1175 Issue 8, the LPCB police-preferred specification) is required or heavily incentivised by specialist high-value insurers such as Home & Legacy and Hiscox.
 - Approved Document Q makes PAS 24 mandatory on new-build dwellings and conversions.
-- The finish is powder-coated in a paint shop at approximately 200°C, making it resistant to chipping, fading and moisture damage for 20 to 40 years without re-coating.
 - A bespoke steel door certified to BS EN 1627:2011 RC4 single leaf, unglazed as Standard with LPS 1175 SR3 Enhanced upgrade available resists attack with hand tools and battery-operated power tools for longer than any timber or composite door without active security specification.
+- SR4 (LPS 1175 Issue 8) Commercial-grade upgrade is available from select UK manufacturers for the highest-risk addresses.
 
 **FAQs:**
 
@@ -1857,7 +1858,7 @@ Q: What is the best material for a luxury front door in the UK?
 A: For most luxury UK residential projects built or renovated since 2010, bespoke steel is the best combination of security, permanence, design flexibility and maintenance cost. Solid hardwood remains the preferred choice for listed buildings and conservation-area properties where planning restricts non-original materials. Composite is a valid choice only at the true top of the composite market and only for contemporary new-builds.
 
 Q: How long does a luxury front door last?
-A: A bespoke steel front door with a powder-coat finish typically lasts 25 to 40 years with no maintenance beyond hardware cleaning. A well-specified solid hardwood door lasts 40 to 60 years with repainting every 3 to 5 years. A premium composite door typically lasts 15 to 20 years before the face begins to degrade.
+A: A bespoke steel front door with a powder-coat finish typically lasts 30 years or more with no maintenance beyond hardware cleaning. A well-specified solid hardwood door lasts 40 to 60 years with repainting every 3 to 5 years. A premium composite door typically lasts 15 to 20 years before the face begins to degrade.
 
 Q: Do I need planning permission for a luxury front door?
 A: In most UK properties, no. Replacement of a front door on its like-for-like opening is permitted development and does not require planning permission. The exceptions are: listed buildings (where any exterior change needs listed building consent), conservation areas (where local authority consent is often required), and properties with Article 4 directions in force. A credible supplier will confirm planning requirements during the initial survey.
@@ -1877,16 +1878,16 @@ Are steel entrance doors worth it for UK homes? Honest assessment of durability,
 
 **Key facts:**
 
+- A properly manufactured and powder-coated steel entrance door will last 30 years or more without structural degradation.
 - Composite doors (GRP over foam core): Typical lifespan 10 to 20 years.
 - The foam core can absorb moisture if the skin is compromised, leading to structural weakness and poor insulation Timber doors (hardwood): 15 to 30 years with diligent maintenance.
 - Without regular repainting or re-oiling (every 3 to 5 years), timber begins to deteriorate within 5 to 7 years.
 - Every SteelR door is tested and certified to BS EN 1627:2011 RC4 single leaf, unglazed as Standard, with the LPS 1175 SR3 Enhanced upgrade (the LPCB police-preferred residential rating) available on every door.
-- The foam core provides no structural barrier Timber doors: Even premium hardwood doors rarely exceed SR1.
 
 **FAQs:**
 
 Q: How long do steel entrance doors actually last?
-A: A properly manufactured and installed steel entrance door will last 25 to 40+ years with no structural maintenance. The powder-coat finish is warranted for the life of the product. The steel structure itself is essentially permanent, it does not rot, warp, swell or delaminate. The limiting factor is typically fashion rather than function; many homeowners replace doors for aesthetic reasons long before the door itself has deteriorated.
+A: A properly manufactured and installed steel entrance door will last 30 years or more with no structural maintenance. SteelR's warranty covers the door construction for 10 years, the decorative finish for 5 years and hardware components for 3 years. The steel structure itself is essentially permanent, it does not rot, warp, swell or delaminate. The limiting factor is typically fashion rather than function; many homeowners replace doors for aesthetic reasons long before the door itself has deteriorated.
 
 Q: Are steel doors more secure than composite doors?
 A: Significantly. Our steel doors are BS EN 1627:2011 RC4 certified as Standard (the European framework for sustained forced-entry resistance, certified against heavy-duty hand tools and battery-operated power tools), with the LPS 1175 SR3 Enhanced upgrade available. Most composite doors achieve PAS 24 (3-minute resistance to basic hand tools) or SR1 at best. The steel frame, welded locking points and laminated security glazing create a doorset that resists forced entry at a fundamentally different level to composite, timber or uPVC alternatives.
@@ -1992,7 +1993,7 @@ Steel vs timber front doors UK compared. Security, durability, maintenance, ther
 - Steel entrance doors certified to BS EN 1627:2011 RC4 as Standard, with the LPS 1175 SR3 Enhanced upgrade available, withstand sustained attack using professional-grade tools including crowbars, drills and angle grinders.
 - No timber door, regardless of species or construction method, can achieve LPS 1175 SR3.
 - The lifespan of a quality steel door comfortably exceeds 30 years with minimal intervention.
-- A steel door that lasts 40 years has a smaller footprint than two or three timber doors over the same period.
+- A steel door that lasts 30 years or more has a smaller footprint than the repaint cycles and replacement timber doors needed over the same period.
 - However, when you factor in the zero maintenance cost and significantly longer lifespan, the total cost of ownership over 30 years is often comparable, while the security, performance and convenience are in a different league.
 
 **FAQs:**
@@ -2001,7 +2002,7 @@ Q: Do timber doors look better than steel doors?
 A: Timber offers natural grain and visible warmth that is hard to replicate. However, a well-specified steel door matches timber convincingly at normal viewing distance, especially when finished in heritage RAL colours with the correct panel proportions. Many SteelR installations on period properties look like painted timber to passersby. If you want the character of unpainted hardwood grain on display, timber remains the only option; for any painted finish, steel delivers the same aesthetic without maintenance.
 
 Q: How much maintenance does a timber front door need?
-A: Real timber doors typically need re-oiling or repainting every 3 to 5 years in UK weather, depending on the finish and level of exposure. Draught seals and weatherstripping need periodic replacement. Warping, splitting and swelling can occur with seasonal humidity and need correction. Total cost of maintenance over 20 years often approaches or exceeds the original door price. Steel doors with powder coat are effectively maintenance-free for their 25 to 40 year lifespan.
+A: Real timber doors typically need re-oiling or repainting every 3 to 5 years in UK weather, depending on the finish and level of exposure. Draught seals and weatherstripping need periodic replacement. Warping, splitting and swelling can occur with seasonal humidity and need correction. Total cost of maintenance over 20 years often approaches or exceeds the original door price. Steel doors with powder coat are effectively maintenance-free for a lifespan of 30 years or more.
 
 Q: Is a solid timber door as secure as a steel door?
 A: Solid timber doors can be secure when specified carefully, but rarely reach LPS 1175 SR3. Most premium timber doors stop at PAS 24 certification. To reach SR3 in timber requires heavy engineered cores, steel-reinforced stiles and upgraded locking, which makes the door very expensive and diminishes the natural wood aesthetic. Steel achieves LPS 1175 SR3 more consistently and at a more predictable price point.
@@ -2670,6 +2671,7 @@ URL: https://steelr.co.uk/blog/modern-front-door-ideas-inspiration-2026 | Catego
 
 **Key facts:**
 
+- A flush steel door stays flat throughout a service life of 30 years or more.
 - Oversized pull bars, 600mm, 900mm or even full-height, in brushed stainless steel, blackened bronze or satin brass have become defining design elements in their own right.
 - A 300mm handle on a 2.4-metre door reads as undersized and timid.
 - A 900mm pull bar in a contrasting finish creates visual weight and intention.
@@ -2775,6 +2777,10 @@ Colour is often the first thing a visitor notices about an entrance door. Before
 URL: https://steelr.co.uk/blog/choosing-entrance-door-colour | Category: Design | Published: 2026-03-20 | 8 min read
 
 Front door colour ideas for UK homes. RAL colour guidance, classic black, bold statement shades and dual-colour options for bespoke steel entrance doors.
+
+**Key facts:**
+
+- On a SteelR door, the baked polyester powder coat carries a 5-year decorative finish warranty, alongside 10 years on the door construction and 3 years on hardware components.
 
 **FAQs:**
 
