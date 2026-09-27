@@ -75,7 +75,7 @@ Once a uPVC door begins to deteriorate, repair options are limited. The material
 
 **Steel entrance doors** are built to last **30 years or more** with proper maintenance. The steel leaf does not warp, bow, twist or deform. A multi-layer paint system provides lasting corrosion protection, and should the finish ever need refreshing, steel can be professionally recoated without replacement.
 
-Hardware components, locks, hinges, handles, are specified for longevity and can be serviced or replaced individually. The door itself remains structurally sound for the life of the building.
+Hardware components, locks, hinges, handles, are specified for longevity and can be serviced or replaced individually. The door itself is built for a service life of 30 years or more.
 
 A bespoke SteelR door is not a consumable product that requires periodic replacement. It is a permanent architectural element.
 

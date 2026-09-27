@@ -55,7 +55,7 @@ This is the benefit that surprises most homeowners. A steel entrance door with a
 
 Timber doors require repainting every 3 to 5 years. Each repaint involves sanding, priming, undercoating and applying two top coats. If the paint system has failed and moisture has penetrated, the remedial work is significantly more involved. Over 25 years, you are looking at 5 to 8 complete repaint cycles.
 
-On a SteelR door, the powder-coat finish carries a 5-year decorative finish warranty. It does not peel, flake, chalk, fade or blister. The colour you choose on day one, from over 200 [RAL colour options](/colours), is the colour you will have in 25 years.
+On a SteelR door, the powder-coat finish carries a 5-year decorative finish warranty. Baked-on powder coat resists peeling, flaking and blistering, and holds its colour far longer than a painted finish, although darker colours in full sun can show slight surface chalking over the years. Choose from over 200 [RAL colour options](/colours).
 
 ### No Warping
 

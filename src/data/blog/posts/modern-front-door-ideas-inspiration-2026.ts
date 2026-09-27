@@ -43,7 +43,7 @@ Concealed hinges also deliver a practical advantage: with no exposed hinge pins,
 
 The flush-face door takes minimalism to its logical conclusion. **No raised panels, no applied mouldings, no decorative elements**, just a single flat plane of steel finished to perfection. The beauty of a flush door lies entirely in the precision of its manufacture and the quality of its finish. There is nowhere to hide imperfections.
 
-This design demands the dimensional stability that only steel and aluminium can provide. A flush timber door will telegraph warping and movement within months. A flush steel door remains perfectly flat for the life of the building. The finish, whether matte, satin or textured powder coat, becomes the design itself.
+This design demands the dimensional stability that only steel and aluminium can provide. A flush timber door will telegraph warping and movement within months. A flush steel door stays flat throughout a service life of 30 years or more. The finish, whether matte, satin or textured powder coat, becomes the design itself.
 
 ## 5. Statement Colours
 

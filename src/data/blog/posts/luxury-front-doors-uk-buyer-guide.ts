@@ -39,7 +39,7 @@ The net result: the luxury UK front door market has doubled in the last five yea
 
 ### 1. Bespoke Steel
 
-The dominant choice at the top of the UK market. A properly manufactured [bespoke steel front door](/bespoke-steel-front-doors-uk) uses a welded steel frame, a [thermally-broken steel leaf](/thermally-broken-steel-front-door) and an insulated core. The face can be panelled, ribbed, flat or ornate. The finish is powder-coated in a paint shop at approximately 200°C, making it resistant to chipping, fading and moisture damage for 20 to 40 years without re-coating.
+The dominant choice at the top of the UK market. A properly manufactured [bespoke steel front door](/bespoke-steel-front-doors-uk) uses a welded steel frame, a [thermally-broken steel leaf](/thermally-broken-steel-front-door) and an insulated core. The face can be panelled, ribbed, flat or ornate. The finish is powder-coated in a paint shop at approximately 200°C, making it highly resistant to chipping, fading and moisture damage without re-coating; on a SteelR door the decorative finish carries a 5-year warranty.
 
 Steel's defining advantage is structural permanence. A bespoke steel door certified to **BS EN 1627:2011 RC4 single leaf, unglazed as Standard with LPS 1175 SR3 Enhanced upgrade available** resists attack with hand tools and battery-operated power tools for longer than any timber or composite door without active security specification. SR4 (LPS 1175 Issue 8) Commercial-grade upgrade is available from select UK manufacturers for the highest-risk addresses.
 
