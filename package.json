@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/blog/validate-faqs.mjs && node scripts/checks/llms-integrity.mjs",
+    "prebuild": "node scripts/blog/validate-faqs.mjs && node scripts/checks/llms-integrity.mjs && node scripts/seo/page-mtimes.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

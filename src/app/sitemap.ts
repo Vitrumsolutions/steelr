@@ -2,13 +2,37 @@ import type { MetadataRoute } from "next";
 import { doors } from "@/data/doors";
 import { posts } from "@/data/blog";
 import { locations } from "@/data/locations";
+import pageMtimes from "@/data/page-mtimes.json";
+
+/**
+ * lastmod = the date a page's content last really changed: the newest git
+ * commit date among the files that render it (src/data/page-mtimes.json,
+ * written by scripts/seo/page-mtimes.mjs in prebuild). Until 2026-09-27 every
+ * static, collection and area URL used new Date(), so each deploy claimed 275
+ * of 321 pages had changed that day. A URL with no known date is published
+ * without a lastmod rather than with a false one. Blog posts keep their
+ * hand-set dates (date, or dateModified for a material update), the same
+ * dates their BlogPosting schema carries.
+ */
+const MT = pageMtimes as { files: Record<string, string>; areaFile: Record<string, string> };
+
+function newest(dates: (string | undefined)[]): Date | undefined {
+  let best: number | undefined;
+  for (const iso of dates) {
+    const t = iso ? Date.parse(iso) : NaN;
+    if (!Number.isNaN(t) && (best === undefined || t > best)) best = t;
+  }
+  return best === undefined ? undefined : new Date(best);
+}
+
+const fileDates = (...files: (string | undefined)[]) => files.map((f) => (f ? MT.files[f] : undefined));
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://steelr.co.uk";
 
   const doorPages: MetadataRoute.Sitemap = doors.map((door) => ({
     url: `${baseUrl}/collection/${door.slug}`,
-    lastModified: new Date(),
+    lastModified: newest(fileDates("src/app/collection/[slug]/page.tsx", "src/data/doors.ts")),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
@@ -17,248 +41,221 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .sort((a, b) => a.tier - b.tier)
     .map((loc) => ({
       url: `${baseUrl}/areas/${loc.slug}`,
-      lastModified: new Date(),
+      lastModified: newest(fileDates("src/app/areas/[slug]/page.tsx", MT.areaFile[loc.slug])),
       changeFrequency: "monthly" as const,
       priority: loc.type === "hub" ? 0.8 : 0.6,
     }));
 
-  return [
+  // Static routes take the date of their own page file; the blog index also
+  // changes whenever a post is published (it lists titles, not post bodies).
+  const staticDate = (url: string) => {
+    const path = url.slice(baseUrl.length);
+    const own = MT.files[path === "" ? "src/app/page.tsx" : `src/app${path}/page.tsx`];
+    if (path === "/blog") return newest([own, ...posts.map((p) => p.date)]);
+    return newest([own]);
+  };
+
+  const entries: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
       url: `${baseUrl}/collection`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/lookbook`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/process`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.7,
     },
     {
       url: `${baseUrl}/contact`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/privacy`,
-      lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: `${baseUrl}/terms`,
-      lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: `${baseUrl}/security-specification`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/fire-rated-doors`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/colours`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/security`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/collection/sidelights`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/sitemap`,
-      lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.3,
     },
     {
       url: `${baseUrl}/ai-answers`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     // Phase 1D: SEO content pages
     {
       url: `${baseUrl}/bespoke-steel-front-doors-uk`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.9,
     },
     {
       url: `${baseUrl}/luxury-steel-front-doors-uk`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.9,
     },
     {
       url: `${baseUrl}/insurance-approved-steel-front-doors-uk`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.9,
     },
     {
       url: `${baseUrl}/heritage-steel-front-doors-uk`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.9,
     },
     {
       url: `${baseUrl}/sr3-residential-steel-door`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/sr3-vs-sr4-residential-steel-doors-uk`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.85,
     },
     {
       url: `${baseUrl}/steel-front-door-vs-composite`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/uk-steel-doors-vs-imported`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/luxury-steel-entrance-door-london`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/thermally-broken-steel-front-door`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/secured-by-design-steel-front-door`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/steel-front-door-cost-uk`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/pas-24-steel-entrance-door`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/fire-rated-fd30-front-door`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/lps-1673-attack-resistant-steel-door`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/sr4-residential-steel-door`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/bs-en-1627-rc4-residential-steel-door`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.85,
     },
     {
       url: `${baseUrl}/housing-associations`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/developers`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/architects`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     {
       url: `${baseUrl}/property-managers`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     ...doorPages,
     {
       url: `${baseUrl}/areas`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     },
     ...locationPages,
     {
       url: `${baseUrl}/blog`,
-      lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.8,
     },
     ...posts.map((post) => ({
       url: `${baseUrl}/blog/${post.slug}`,
-      lastModified: new Date(post.date),
+      lastModified: newest([post.date, post.dateModified]),
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),
   ];
+
+  return entries.map((entry) => ("lastModified" in entry ? entry : { ...entry, lastModified: staticDate(entry.url) }));
 }
