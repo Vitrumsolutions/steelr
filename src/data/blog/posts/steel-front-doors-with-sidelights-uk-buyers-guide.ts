@@ -55,7 +55,7 @@ A subtle solar tint applied to the glazing reduces glare and gives the sidelight
 
 ### Decorative and Stained Glass
 
-Leaded glass, decorative bevels, stained glass and period-appropriate patterns are available for sidelights. This is most relevant for conservation areas, listed buildings and Victorian or Edwardian frontages where the [conservation area door requirements](/blog/conservation-area-door-requirements-uk) demand period-correct detailing. SteelR commissions decorative glass through specialist UK glaziers as part of the assembly.
+Leaded glass, decorative bevels, stained glass and period-appropriate patterns are available for sidelights. This is most relevant for conservation areas, listed buildings and Victorian or Edwardian frontages where the [conservation area door requirements](/blog/steel-doors-conservation-areas-planning-guide) demand period-correct detailing. SteelR commissions decorative glass through specialist UK glaziers as part of the assembly.
 
 ### Fire-Rated Glass
 
@@ -75,7 +75,7 @@ SR4 (LPS 1175) is available as a commercial-grade upgrade on every SteelR door i
 
 The proportions of the sidelight are the single biggest variable that distinguishes a period-appropriate installation from a contemporary one.
 
-On a Victorian or Edwardian frontage, the sidelight is typically narrower (around 250 to 350 mm), runs the full height of the door leaf, and is often divided into two or three panes by horizontal glazing bars. Hardware is brass or polished chrome, the door panels are moulded, and the glazing is decorative or leaded. The [period property front door guide](/blog/period-property-front-door-ultimate-guide) covers the full detailing.
+On a Victorian or Edwardian frontage, the sidelight is typically narrower (around 250 to 350 mm), runs the full height of the door leaf, and is often divided into two or three panes by horizontal glazing bars. Hardware is brass or polished chrome, the door panels are moulded, and the glazing is decorative or leaded. Our [heritage steel front doors](/heritage-steel-front-doors-uk) page covers the full detailing.
 
 On a contemporary new-build or a refurbished property in a modernist style, the sidelight is broader (often 400 to 600 mm), is undivided (a single full-height pane), and may extend to floor level for a dramatic effect. Hardware is satin stainless or matt black, the door is panelled or ribbed without moulding, and the glazing is clear or lightly frosted.
 

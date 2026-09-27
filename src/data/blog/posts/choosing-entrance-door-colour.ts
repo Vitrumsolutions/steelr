@@ -32,7 +32,7 @@ Sage and muted green tones have surged in popularity, especially for period prop
 A modern alternative to black, anthracite grey is popular for contemporary properties. It has a softer appearance than pure black and works well with aluminium window frames and minimalist architecture.
 
 ### Heritage Colours
-For [listed buildings and period properties](/blog/best-front-doors-period-properties), heritage colours like cream (RAL 9001), olive (RAL 6003) and deep red (RAL 3011) can complement historical architectural details while meeting [conservation area requirements](/blog/conservation-area-door-requirements-uk).
+For [listed buildings and period properties](/blog/best-front-doors-period-properties), heritage colours like cream (RAL 9001), olive (RAL 6003) and deep red (RAL 3011) can complement historical architectural details while meeting [conservation area requirements](/blog/steel-doors-conservation-areas-planning-guide).
 
 ## How to Decide
 

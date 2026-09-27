@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Insurance-Approved Steel Front Doors UK | HNW Spec | SteelR",
   description:
-    "When a UK home insurer specifies a minimum-security standard at the front door, what they typically mean and how SteelR's four-tier ladder maps to it. For high net worth homeowners, brokers and underwriting referrals.",
+    "When a UK home insurer specifies a minimum-security standard at the front door, what they typically mean and how SteelR's four-tier ladder maps to it.",
   alternates: {
     canonical: "https://steelr.co.uk/insurance-approved-steel-front-doors-uk",
   },

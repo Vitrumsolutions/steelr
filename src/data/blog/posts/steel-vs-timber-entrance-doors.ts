@@ -136,7 +136,7 @@ For listed buildings, conservation officers may require like-for-like timber res
 
 ### Do timber doors last longer than steel in the long run?
 
-Well-maintained hardwood doors can last 50+ years, but require continuous upkeep. Steel doors last 30 years or more with no upkeep. The honest comparison is: timber with commitment to maintenance vs. steel without. In practice, steel outlasts most real-world maintained timber because most homeowners do not sustain a 5-year repaint cycle over 30 years, and small maintenance failures compound into bigger problems over time.`,
+Well-maintained hardwood doors can last 50+ years, but require continuous upkeep. Steel doors last 30 years or more with minimal upkeep. The honest comparison is: timber with commitment to maintenance vs. steel with minimal upkeep. In practice, steel outlasts most real-world maintained timber because most homeowners do not sustain a 5-year repaint cycle over 30 years, and small maintenance failures compound into bigger problems over time.`,
 };
 
 export default post;

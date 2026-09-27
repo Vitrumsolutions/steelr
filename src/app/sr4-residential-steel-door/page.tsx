@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "SR4 Residential Steel Doors UK | When to Upgrade | SteelR",
   description:
-    "When LPS 1175 SR4 is the right Commercial-grade upgrade tier for a UK residential front door. Three buyer motivations: documented Commercial-grade certification on the door, an insurer or broker requesting LPCB-certified specification, or significant possessions behind the entrance.",
+    "When LPS 1175 SR4 is the right Commercial-grade upgrade tier for a UK residential front door, and the three reasons buyers choose it.",
   alternates: { canonical: "https://steelr.co.uk/sr4-residential-steel-door" },
   openGraph: {
     title: "SR4 Residential Steel Doors UK: The Three Triggers That Justify the Upgrade | SteelR",
     description:
-      "When LPS 1175 SR4 is the right Commercial-grade upgrade tier for a UK residential front door. Three buyer motivations: documented Commercial-grade certification on the door, an insurer or broker requesting LPCB-certified specification, or significant possessions behind the entrance.",
+      "When LPS 1175 SR4 is the right Commercial-grade upgrade tier for a UK residential front door, and the three reasons buyers choose it.",
     url: "https://steelr.co.uk/sr4-residential-steel-door",
     type: "website",
     images: ["/og-image.png"],
