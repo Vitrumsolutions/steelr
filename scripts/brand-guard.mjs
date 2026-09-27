@@ -47,7 +47,7 @@
  * Run as a git pre-commit hook via scripts/install-git-hooks.sh.
  */
 
-import { execSync } from "node:child_process";
+import { execSync, execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
@@ -334,7 +334,12 @@ if (allViolations.length === 0) {
 let allowPriceOverride = false;
 if (stagedOnly) {
   try {
-    const msgFile = resolve(root, ".git/COMMIT_EDITMSG");
+    // `git rev-parse --git-path` finds the message file in a linked worktree
+    // too, where .git is a pointer file rather than a directory (2026-09-27).
+    const msgFile = resolve(
+      root,
+      execFileSync("git", ["rev-parse", "--git-path", "COMMIT_EDITMSG"], { cwd: root, encoding: "utf8" }).trim(),
+    );
     const msg = readFileSync(msgFile, "utf8");
     if (/\[allow-price\]/i.test(msg)) {
       allowPriceOverride = true;
