@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import QuickEnquiry from "@/components/QuickEnquiry";
 import { gerdaDesigns, type GerdaSeries } from "@/data/gerda-designs";
-import { GERDA_URL, gerdaColours, gerdaExtraColours, gerdaOptions, gerdaRanges, gerdaSeries, getGerdaRange } from "@/data/gerda";
+import { GERDA_URL, gerdaColours, gerdaEnquiry, gerdaExtraColours, gerdaOptions, gerdaRanges, gerdaSeries, getGerdaRange } from "@/data/gerda";
 import {
   Banner,
   Body,
@@ -335,7 +335,14 @@ export default async function GerdaRangePage({ params }: Props) {
       </section>
 
       <div id="gerda-enquiry" style={{ scrollMarginTop: 90 }}>
-        <QuickEnquiry source={`gerda-${r.slug}`} contextLabel={r.fullName} heading={`Enquire about ${r.fullName}`} />
+        <QuickEnquiry
+          source={`gerda-${r.slug}`}
+          contextLabel={r.fullName}
+          heading={`Enquire about ${r.fullName}`}
+          eyebrow={gerdaEnquiry.eyebrow}
+          pitch={gerdaEnquiry.pitch}
+          trustLine={null}
+        />
       </div>
     </>
   );

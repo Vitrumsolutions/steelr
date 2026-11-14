@@ -397,7 +397,7 @@ export const gerdaRanges: GerdaRange[] = [
     eyebrow: "Gerda residential doors",
     h1: "Gerda Thermo Prime 75 Entrance Doors",
     metaTitle: "Gerda Thermo Prime 75 Doors | U-value 0.79 | SteelR",
-    metaDescription: `Gerda Thermo Prime 75 doors supplied and installed by SteelR. 75 mm leaf, U-value 0.79 W/m²K, RC2 rating, up to 2400 mm in selected colours, ${N_PRIME} designs.`,
+    metaDescription: `Gerda Thermo Prime 75 doors supplied and installed by SteelR. 75 mm leaf with thermal break, U-value 0.79 W/m²K, RC2 rating, ${N_PRIME} designs in four series.`,
     cardSummary: "U-values of 0.79 W/m²K solid and 0.9 W/m²K glazed, a choice of mortise or automatic locking, and heights up to 2400 mm in selected colours and designs.",
     cardFacts: [
       { label: "U-value, solid door", value: "0.79 W/m²K" },
@@ -528,7 +528,7 @@ export const gerdaHub = {
   eyebrow: "Gerda residential doors",
   h1: "Gerda Doors, Supplied and Installed by SteelR",
   intro: [
-    `SteelR supplies and installs the Gerda residential door collection: three ranges, ${N_ALL} designs, thirteen standard colours and woodgrains, and security rated to RC2 or RC3 under EN 1627.`,
+    `SteelR supplies and installs the Gerda residential door collection: three ranges, ${N_ALL} different designs (many are offered in more than one range), thirteen standard colours and woodgrains, and security rated to RC2 or RC3 under EN 1627.`,
     "Gerda has been operating since 1987, and these ranges are built at its plant in Starachowice, Poland. A Gerda door is selected from a catalogue. You pick a range for its thermal performance and locking, a design, a colour and the hardware. The door is then made to your opening in 10 mm steps, within a set range of widths and heights.",
     "This page sets out the three ranges side by side, with every design shown on the range pages.",
   ],
@@ -575,6 +575,16 @@ export const gerdaHub = {
   optionsIntro: "These options are common to all three ranges. Handle sets differ by range and are listed on each range page.",
 };
 
+/**
+ * Wording for the enquiry panel on Gerda pages. The panel's default text lists
+ * SteelR bespoke certifications, so every Gerda page must pass these instead
+ * and hide the trust row.
+ */
+export const gerdaEnquiry = {
+  eyebrow: "Gerda residential doors · Supplied and installed by SteelR",
+  pitch: "Tell us which range and design you have in mind and we will call you back to talk through sizes, colours and options. There is no obligation. Supply and installation are by SteelR.",
+};
+
 export const gerdaHubFaqs: GerdaFaq[] = [
   {
     question: "Are Gerda doors steel doors?",
@@ -582,7 +592,7 @@ export const gerdaHubFaqs: GerdaFaq[] = [
   },
   {
     question: "What Gerda doors does SteelR supply?",
-    answer: `SteelR supplies and installs three Gerda residential door ranges: Optima 60, Thermo Premium 75 and Thermo Prime 75. Between them there are ${N_ALL} designs across the Tempo, Quadro, Air Glass, Elite 3D and Classic series.`,
+    answer: `SteelR supplies and installs three Gerda residential door ranges: Optima 60, Thermo Premium 75 and Thermo Prime 75. Between them there are ${N_ALL} different designs across the Tempo, Quadro, Air Glass, Elite 3D and Classic series. Many designs are offered in more than one range: Optima 60 has ${N_OPTIMA}, Thermo Premium 75 has ${N_PREMIUM} and Thermo Prime 75 has ${N_PRIME}.`,
   },
   {
     question: "Which Gerda range has the best thermal performance?",

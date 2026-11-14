@@ -7,6 +7,7 @@ import {
   GERDA_URL,
   gerdaColours,
   gerdaComparison,
+  gerdaEnquiry,
   gerdaExtraColours,
   gerdaHub,
   gerdaHubFaqs,
@@ -320,7 +321,14 @@ export default function GerdaDoorsPage() {
       </section>
 
       <div id="gerda-enquiry" style={{ scrollMarginTop: 90 }}>
-        <QuickEnquiry source="gerda-doors" contextLabel="the Gerda collection" heading="Enquire about a Gerda door" />
+        <QuickEnquiry
+          source="gerda-doors"
+          contextLabel="the Gerda collection"
+          heading="Enquire about a Gerda door"
+          eyebrow={gerdaEnquiry.eyebrow}
+          pitch={gerdaEnquiry.pitch}
+          trustLine={null}
+        />
       </div>
     </>
   );

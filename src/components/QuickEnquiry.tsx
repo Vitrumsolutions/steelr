@@ -34,9 +34,27 @@ interface Props {
   contextLabel?: string;
   /** Optional panel title override. Default: "Enquire about a bespoke SteelR door" */
   heading?: string;
+  /**
+   * The three props below exist for pages that sell something other than a
+   * SteelR bespoke door (the Gerda collection). The defaults name bespoke
+   * certifications (RC4, LPS 1175, PAS 24, Secured by Design, UK manufactured),
+   * which must not appear beside a product they do not apply to.
+   */
+  /** Small line above the heading. Default: the bespoke credentials line. */
+  eyebrow?: string;
+  /** Paragraph under the heading. Default: the bespoke consultation pitch. */
+  pitch?: string;
+  /** Line under the phone button. Pass null to hide it. Default: the bespoke trust row. */
+  trustLine?: string | null;
 }
 
-export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
+const DEFAULT_EYEBROW = "Bespoke · UK manufactured · BS EN 1627 RC4 · LPS 1175 SR3 / SR4 available";
+const DEFAULT_PITCH =
+  "Free consultation with our design team. No obligation. Every door is manufactured in the UK to your specification. Standard residential spec is BS EN 1627:2011 RC4 single leaf, unglazed. LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications are available on request, with LPS 1673 attack-resistance by enquiry. Installed by our in-house fitters.";
+const DEFAULT_TRUST_LINE =
+  "BS EN 1627 RC4 standard · LPS 1175 SR3 / SR4 available · PAS 24 · Secured by Design · UK manufactured · 10-year guarantee";
+
+export default function QuickEnquiry({ source, contextLabel, heading, eyebrow = DEFAULT_EYEBROW, pitch = DEFAULT_PITCH, trustLine = DEFAULT_TRUST_LINE }: Props) {
   const router = useRouter();
   const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
@@ -144,7 +162,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                   marginBottom: 12,
                 }}
               >
-                Bespoke · UK manufactured · BS EN 1627 RC4 · LPS 1175 SR3 / SR4 available
+                {eyebrow}
               </p>
               <h2
                 className="mb-5"
@@ -169,7 +187,7 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
                   color: "#5a5a58",
                 }}
               >
-                Free consultation with our design team. No obligation. Every door is manufactured in the UK to your specification. Standard residential spec is BS EN 1627:2011 RC4 single leaf, unglazed. LPS 1175 SR3 and SR4 enhanced and commercial-grade certifications are available on request, with LPS 1673 attack-resistance by enquiry. Installed by our in-house fitters.
+                {pitch}
               </p>
 
               {/* Primary CTA: click-to-call */}
@@ -214,20 +232,22 @@ export default function QuickEnquiry({ source, contextLabel, heading }: Props) {
               </a>
 
               {/* Trust row */}
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 16, alignItems: "center" }}>
-                <span
-                  style={{
-                    fontFamily: "var(--font-body), Montserrat, sans-serif",
-                    fontWeight: 400,
-                    fontSize: 10,
-                    letterSpacing: "0.25em",
-                    textTransform: "uppercase",
-                    color: "#8a6f4e",
-                  }}
-                >
-                  BS EN 1627 RC4 standard · LPS 1175 SR3 / SR4 available · PAS 24 · Secured by Design · UK manufactured · 10-year guarantee
-                </span>
-              </div>
+              {trustLine && (
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 16, alignItems: "center" }}>
+                  <span
+                    style={{
+                      fontFamily: "var(--font-body), Montserrat, sans-serif",
+                      fontWeight: 400,
+                      fontSize: 10,
+                      letterSpacing: "0.25em",
+                      textTransform: "uppercase",
+                      color: "#8a6f4e",
+                    }}
+                  >
+                    {trustLine}
+                  </span>
+                </div>
+              )}
             </div>
 
             {/* RIGHT: compact 3-field form */}
