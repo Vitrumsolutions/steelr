@@ -144,6 +144,17 @@ textarea:focus:not(:focus-visible) {
   }
 }
 
+/* iPhone Safari zooms the whole page in when a form field with text smaller
+   than 16px is tapped, and does not zoom back out. The enquiry forms set 14px
+   inline, so on phones every field is lifted to 16px. Desktop is unchanged. */
+@media (max-width: 767px) {
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}
+
 /* Gold ribbon background effect — subtle diagonal bands */
 .ribbon-bg {
   position: relative;

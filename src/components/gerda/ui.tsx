@@ -115,14 +115,14 @@ export function Banner({ eyebrow, title }: { eyebrow: string; title: string }) {
 
 export function Breadcrumbs({ trail }: { trail: Array<{ href?: string; label: string }> }) {
   return (
-    <nav aria-label="Breadcrumb" className="bg-cream px-6 md:px-16 py-3" style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}>
+    <nav aria-label="Breadcrumb" className="bg-cream px-6 md:px-16 py-1.5" style={{ borderBottom: "1px solid rgba(201,169,110,0.1)" }}>
       <ol role="list" className="max-w-7xl mx-auto flex flex-wrap items-center gap-2" style={{ listStyle: "none", margin: "0 auto", padding: 0 }}>
         {trail.map((crumb, i) => (
           <li key={crumb.label} className="flex items-center gap-2">
             {crumb.href ? (
               <Link
                 href={crumb.href}
-                className="link-gold-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1a1a18]"
+                className="link-gold-underline inline-block py-1.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1a1a18]"
                 style={{ fontFamily: BODY_FONT, fontWeight: 400, fontSize: 12, color: "#7a5f2a", letterSpacing: "0.04em" }}
               >
                 {crumb.label}
@@ -164,14 +164,18 @@ export function SpecTable({
   caption,
   head,
   rows,
+  minWidth = 0,
 }: {
   caption: string;
   head: string[];
   rows: string[][];
+  /** Width below which the table scrolls sideways inside its box. Leave at 0
+   * for tables that should simply fit (three short columns fit a 320px phone). */
+  minWidth?: number;
 }) {
   return (
     <div className="overflow-x-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1a1a18]" tabIndex={0} role="region" aria-label={caption}>
-      <table className="w-full" style={{ borderCollapse: "collapse", minWidth: 520, fontFamily: BODY_FONT }}>
+      <table className="w-full" style={{ borderCollapse: "collapse", minWidth, fontFamily: BODY_FONT }}>
         <caption className="sr-only">{caption}</caption>
         <thead>
           <tr>
@@ -188,7 +192,8 @@ export function SpecTable({
                   textTransform: "uppercase",
                   color: i === 0 ? BROWN : INK,
                   borderBottom: `1px solid ${INK}`,
-                  whiteSpace: "nowrap",
+                  verticalAlign: "bottom",
+                  lineHeight: 1.4,
                 }}
               >
                 {h}

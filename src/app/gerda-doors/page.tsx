@@ -147,11 +147,14 @@ export default function GerdaDoorsPage() {
           <Eyebrow>Three ranges</Eyebrow>
           <Display className="mb-4">Choose by thermal performance and locking</Display>
           <Body className="mb-12 max-w-3xl">{gerdaHub.rangesIntro}</Body>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Three across only from the lg breakpoint. On a tablet held upright
+              three columns left about 200px each, so there the cards stack and
+              lay the photo beside the text instead. */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {gerdaRanges.map((r) => (
-              <article key={r.slug} className="flex flex-col rounded-[4px] overflow-hidden" style={{ background: "#f5f0e8", border: `1px solid ${HAIRLINE}` }}>
-                <Link href={`/gerda-doors/${r.slug}`} className="group block img-zoom relative overflow-hidden" style={{ aspectRatio: "4 / 5" }} tabIndex={-1} aria-hidden="true">
-                  <Image src={r.hero.src} alt={r.hero.alt} fill unoptimized className="object-cover" style={{ objectPosition: r.hero.position ?? "center" }} sizes="(max-width: 768px) 100vw, 33vw" />
+              <article key={r.slug} className="flex flex-col sm:flex-row lg:flex-col rounded-[4px] overflow-hidden" style={{ background: "#f5f0e8", border: `1px solid ${HAIRLINE}` }}>
+                <Link href={`/gerda-doors/${r.slug}`} className="group block img-zoom relative overflow-hidden shrink-0 sm:w-2/5 lg:w-full" style={{ aspectRatio: "4 / 5" }} tabIndex={-1} aria-hidden="true">
+                  <Image src={r.hero.src} alt={r.hero.alt} fill unoptimized className="object-cover" style={{ objectPosition: r.hero.position ?? "center" }} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 40vw, 33vw" />
                 </Link>
                 <div className="flex flex-col flex-1 p-7">
                   <div className="flex items-baseline gap-3 mb-3">
@@ -190,7 +193,32 @@ export default function GerdaDoorsPage() {
           <Eyebrow>Side by side</Eyebrow>
           <Display className="mb-4">Gerda range specification compared</Display>
           <Body className="mb-10 max-w-3xl">{gerdaComparison.intro}</Body>
-          <SpecTable caption="Gerda Optima 60, Thermo Premium 75 and Thermo Prime 75 specification compared" head={gerdaComparison.head} rows={gerdaComparison.rows} />
+          {/* A four column table cannot be read on a phone without swiping, so
+              below md the same figures are shown one range at a time. */}
+          <div className="hidden md:block">
+            <SpecTable caption="Gerda Optima 60, Thermo Premium 75 and Thermo Prime 75 specification compared" head={gerdaComparison.head} rows={gerdaComparison.rows} />
+          </div>
+          <div className="md:hidden space-y-10">
+            {gerdaComparison.head.slice(1).map((rangeName, col) => (
+              <div key={rangeName}>
+                <Display as="h3" size="sm" className="mb-3">
+                  {rangeName}
+                </Display>
+                <dl style={{ margin: 0 }}>
+                  {gerdaComparison.rows.map((row) => (
+                    <div key={row[0]} className="grid grid-cols-5 gap-3" style={{ borderTop: `1px solid ${HAIRLINE}`, padding: "10px 0" }}>
+                      <dt className="col-span-2" style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontWeight: 400, fontSize: 13, color: BROWN, lineHeight: 1.5 }}>
+                        {row[0]}
+                      </dt>
+                      <dd className="col-span-3" style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontWeight: 500, fontSize: 14, color: INK, margin: 0, lineHeight: 1.5 }}>
+                        {row[col + 1]}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            ))}
+          </div>
           <p className="mt-5" style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontWeight: 400, fontSize: 12, lineHeight: 1.7, color: BROWN }}>
             {gerdaComparison.footnote}
           </p>
@@ -223,7 +251,7 @@ export default function GerdaDoorsPage() {
                 <div className="mt-3">
                   <Link
                     href={c.href}
-                    className="link-gold-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9a96e]"
+                    className="link-gold-underline inline-block py-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9a96e]"
                     style={{ fontFamily: "var(--font-body), Montserrat, sans-serif", fontWeight: 400, fontSize: 13, color: "#c9a96e", letterSpacing: "0.04em" }}
                   >
                     {c.linkLabel} <span aria-hidden="true">&rarr;</span>
@@ -286,8 +314,8 @@ export default function GerdaDoorsPage() {
             <Body className="mb-8">{gerdaHub.coloursIntro}</Body>
             <SpecTable
               caption="Gerda standard door colours with maximum door height"
-              head={["Colour", "Ref", "Max height, Optima 60 and Thermo Premium 75", "Max height, Thermo Prime 75"]}
-              rows={gerdaColours.map((c) => [c.name, c.code, c.maxHeight, c.maxHeightPrime])}
+              head={["Colour and ref", "Max height: Optima 60, Thermo Premium 75", "Max height: Thermo Prime 75"]}
+              rows={gerdaColours.map((c) => [`${c.name} (${c.code})`, c.maxHeight, c.maxHeightPrime])}
             />
             <Body className="mt-6">
               Also available: {gerdaExtraColours.join(", ")}, and the RAL colour range. {gerdaHub.twoColour}

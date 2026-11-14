@@ -13,6 +13,11 @@ const navLinks = [
   { href: "/contact", label: "Contact" },
 ] as const;
 
+// The phone and tablet menu has room for one more entry than the desktop bar,
+// so the Gerda collection is listed there. It is left off the desktop bar
+// because a ninth item does not fit between 1024 and about 1230px.
+const mobileLinks = [navLinks[0], { href: "/gerda-doors", label: "Gerda Collection" }, ...navLinks.slice(1)] as const;
+
 // Server Component. Renders the static nav markup directly to HTML so no
 // nav-bar JavaScript is shipped in the initial page bundle on first paint.
 // Two thin client children handle the only genuinely interactive bits:
@@ -65,7 +70,7 @@ export default function Nav() {
                 <span className="nav-bar-wordmark">r</span>
               </span>
               <span
-                className="hidden sm:block"
+                className="hidden sm:block lg:hidden xl:block"
                 style={{
                   width: 1,
                   height: 19,
@@ -73,7 +78,7 @@ export default function Nav() {
                 }}
               />
               <span
-                className="nav-bar-tagline hidden sm:block"
+                className="nav-bar-tagline hidden sm:block lg:hidden xl:block"
                 style={{
                   fontFamily: "var(--font-body), Montserrat, sans-serif",
                   fontWeight: 300,
@@ -89,7 +94,9 @@ export default function Nav() {
           </Link>
 
           {/* Desktop nav links */}
-          <div className="hidden lg:flex items-center gap-10">
+          {/* gap-6 below xl: at 1024px (a tablet held sideways) eight links at
+              gap-10 ran 67px past the edge and cut off "Contact" and the phone. */}
+          <div className="hidden lg:flex items-center gap-6 xl:gap-10">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -124,7 +131,7 @@ export default function Nav() {
               0800 861 1450
             </a>
 
-            <NavMobileMenu navLinks={navLinks} />
+            <NavMobileMenu navLinks={mobileLinks} />
           </div>
         </div>
       </nav>
