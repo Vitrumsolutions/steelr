@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-11-14T12:20:36.910Z",
+  "branch": "feat/gerda-collection",
+  "files": [
+    "public/llms-full.txt",
+    "public/llms.txt"
+  ],
+  "shas": {
+    "public/llms-full.txt": "6e33d647c1c871e9e0b92ed6d90d8b377a7fb3faee9993fbe4b45d15678e4d42",
+    "public/llms.txt": "ee07cf85cf40134884fb2f972c55911ea447098d4e4ace72c7f3726f29e79c92"
+  },
+  "verdict_excerpt": "/panel-llms run 14 Nov 2026 on the Gerda collection change. Owner approval given in chat: \"Yes, deploy both\".\nDeep review: APPROVE WITH CHANGES. All Gerda figures match src/data/gerda.ts. Six must-fixes applied before approval: disclaimer widened to warranty, lead time, FD60 and ISO 9001; \"every door\" narrowed to \"every bespoke door\" in Who is SteelR, the fire answer, thermal break, made to measure and the Entity Reference close. Section moved below Technical Specifications in llms.txt. The revised wording was not re-reviewed by the deep reviewer.\nLive AI test (Google AI Mode 16 of 16, DuckDuckGo Assist, Brave partial): none of the narrowed sentences is quoted today, so citation risk is low. Two misquote risks in the draft were reworded. Visibility baseline: SteelR cited in 4 of 8 ChatGPT answers, flat against July; absent for Gerda queries. Cannibalisation: Gerda pages overlap existing pages by 1.4% at most; Thermo Premium and Thermo Prime overlap 45.8%.\nNot tested: Serper (no credits), Perplexity API (401), logged-out ChatGPT, Gemini, Copilot. Left with owner: about 25 unscoped \"every door\" lines, imported-door wording on site pages, the \"SR3 and RC3 are identical\" blog line."
+}
