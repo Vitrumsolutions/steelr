@@ -21,7 +21,7 @@ Understanding the distinction between SR1, SR2 and SR3 is essential for anyone s
 
 All legitimate door security ratings in the UK and Europe are defined by **BS EN 1627:2011**, the European standard for resistance to manual attack. This standard replaced the earlier ENV 1627:1999 and is the benchmark used by testing laboratories, insurers and police forces across Europe.
 
-BS EN 1627 defines six resistance classes, designated RC1 through RC6 (commonly referred to as SR1 through SR6 in the UK market). The standard does not test individual components in isolation. It tests the **complete doorset**, door leaf, frame, locking mechanism, hinges, glazing and fixings, as a single integrated system. A door cannot achieve a rating if any component falls below the required standard.
+BS EN 1627 defines six resistance classes, designated RC1 through RC6. SR ratings belong to the separate LPS 1175 scheme. The standard does not test individual components in isolation. It tests the **complete doorset**, door leaf, frame, locking mechanism, hinges, glazing and fixings, as a single integrated system. A door cannot achieve a rating if any component falls below the required standard.
 
 The testing is conducted by independent, UKAS-accredited laboratories. The manufacturer submits a production doorset, and the laboratory subjects it to a defined sequence of static, dynamic and manual attacks. The door either passes or fails. There is no partial credit.
 
@@ -123,7 +123,7 @@ Whether you are securing a Georgian townhouse in Esher, a contemporary new build
 
 ### What is the difference between SR and RC security ratings?
 
-SR (Security Rating) and RC (Resistance Class) refer to the same classification system under BS EN 1627:2011. SR is the terminology commonly used in the UK market, while RC is the European designation. SR3 and RC3 are identical in their testing requirements and pass criteria.
+They belong to two separate schemes. SR (Security Rating) is the grading used under LPS 1175, the Loss Prevention Standard that the LPCB certifies doors against. RC (Resistance Class) is the grading used under BS EN 1627, the European standard. Each scheme has its own test procedure, so an SR number and an RC number are not interchangeable. A door certified to RC3 is not an SR3 door unless it has also been tested and certified to LPS 1175.
 
 ### Is PAS 24 good enough for home security?
 

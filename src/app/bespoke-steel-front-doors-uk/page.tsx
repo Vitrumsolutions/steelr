@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "Are SteelR doors made in the United Kingdom?",
     answer:
-      "Yes. Every SteelR door is manufactured in our UK facility from UK-sourced or European steel. Manufacture typically takes around six weeks. Installation is carried out by SteelR employees directly, never subcontracted. We do not import finished doors or frames.",
+      "SteelR bespoke doors are. Every SteelR bespoke door is manufactured in our UK facility from UK-sourced or European steel, and manufacture typically takes around six weeks. Bespoke doors are installed by SteelR employees directly, never subcontracted. SteelR also supplies the Gerda collection, a separate range of catalogue doors made by Gerda in Poland.",
   },
   {
     question: "How long is the lead time on a bespoke steel front door?",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "UK-Made Bespoke Steel Doors vs Imported Systems | SteelR",
   description:
-    "Most premium steel front doors sold in the UK are imported. SteelR is UK manufactured. Practical differences in lead time, aftercare, warranty and install.",
+    "Most premium steel front doors sold in the UK are imported. SteelR bespoke doors are UK made. Differences in lead time, aftercare, warranty and install.",
   alternates: { canonical: "https://steelr.co.uk/uk-steel-doors-vs-imported" },
   openGraph: {
     title: "UK-Made Steel Doors vs Imported Systems | SteelR",
@@ -22,7 +22,7 @@ const faqs = [
   {
     question: "Which countries do imported steel doors usually come from?",
     answer:
-      "The premium imported steel door brands sold into the UK residential market are typically manufactured in Poland, Germany, Italy or the Czech Republic. Budget imports more often come from China. The imported brands are rebadged and resold by UK distributors who handle the sale and installation but not the manufacture.",
+      "The premium imported steel door brands sold into the UK residential market are typically manufactured in Poland, Germany, Italy or the Czech Republic. Budget imports more often come from China. Most of the imported brands are rebadged and resold by UK distributors who handle the sale and installation but not the manufacture.",
   },
   {
     question: "Is an imported steel door less secure than a UK-made one?",
@@ -82,7 +82,7 @@ export default function UkVsImportedPage() {
         intro={{
           pretitle: "The honest comparison",
           title:
-            "Most premium steel front doors sold in the UK are imported. SteelR is not. Here is what that actually changes",
+            "Most premium steel front doors sold in the UK are imported. SteelR bespoke doors are made in the UK. This is what that changes",
           body: (
             <>
               The UK premium steel door market is dominated by imported
@@ -235,7 +235,7 @@ export default function UkVsImportedPage() {
             ),
             body2: (
               <>
-                The security specification for every SteelR door is set
+                The security specification for every SteelR bespoke door is set
                 out on the{" "}
                 <Link
                   href="/security-specification"
