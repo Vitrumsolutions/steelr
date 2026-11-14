@@ -1054,7 +1054,7 @@ URL: https://steelr.co.uk/uk-steel-doors-vs-imported
 
 **Q: Which countries do imported steel doors usually come from?**
 
-A: The premium imported steel door brands sold into the UK residential market are typically manufactured in Poland, Germany, Italy or the Czech Republic. Budget imports more often come from China. The imported brands are rebadged and resold by UK distributors who handle the sale and installation but not the manufacture.
+A: The premium imported steel door brands sold into the UK residential market are typically manufactured in Poland, Germany, Italy or the Czech Republic. Budget imports more often come from China. Most of the imported brands are rebadged and resold by UK distributors who handle the sale and installation but not the manufacture.
 
 **Q: Is an imported steel door less secure than a UK-made one?**
 
@@ -2540,14 +2540,14 @@ Front door security ratings explained. SR1 to SR3 compared, LPS 1175 vs BS EN 16
 
 - Understanding the distinction between SR1, SR2 and SR3 is essential for anyone specifying an entrance door for a high-value property.
 - All legitimate door security ratings in the UK and Europe are defined by BS EN 1627:2011, the European standard for resistance to manual attack.
-- BS EN 1627 defines six resistance classes, designated RC1 through RC6 (commonly referred to as SR1 through SR6 in the UK market).
+- BS EN 1627 defines six resistance classes, designated RC1 through RC6.
+- SR ratings belong to the separate LPS 1175 scheme.
 - SR1 represents the lowest resistance class.
-- SR1 offers minimal protection against any determined intruder and is generally considered insufficient for standalone residential security.
 
 **FAQs:**
 
 Q: What is the difference between SR and RC security ratings?
-A: SR (Security Rating) and RC (Resistance Class) refer to the same classification system under BS EN 1627:2011. SR is the terminology commonly used in the UK market, while RC is the European designation. SR3 and RC3 are identical in their testing requirements and pass criteria.
+A: They belong to two separate schemes. SR (Security Rating) is the grading used under LPS 1175, the Loss Prevention Standard that the LPCB certifies doors against. RC (Resistance Class) is the grading used under BS EN 1627, the European standard. Each scheme has its own test procedure, so an SR number and an RC number are not interchangeable. A door certified to RC3 is not an SR3 door unless it has also been tested and certified to LPS 1175.
 
 Q: Is PAS 24 good enough for home security?
 A: PAS 24 meets UK Building Regulations and provides a meaningful level of security above untested doors. However, it is broadly comparable to SR2 and does not test resistance to heavy-duty tools such as crowbars, drills and angle grinders. For high-value properties or areas with elevated burglary risk, SR3 provides a substantially higher level of protection.
