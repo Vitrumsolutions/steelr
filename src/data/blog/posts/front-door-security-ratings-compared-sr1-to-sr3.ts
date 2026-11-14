@@ -122,7 +122,7 @@ PAS 24 meets UK Building Regulations and provides a meaningful level of security
 
 ### Can a timber or composite door achieve SR3?
 
-SteelR builds its SR3 doors in steel. LPS 1175 SR3 means five minutes of resistance to tool category C, which includes a 700mm crowbar, an axe, cold chisels and a scissor jack. Specialist timber security doorsets are also listed at SR3 on RedBook Live, so the material alone is not the test. Whatever a door is made of, ask the supplier for its LPCB certificate.
+A timber doorset can. RedBook Live, the LPCB's public register, lists timber security doorsets at LPS 1175 SR3, so the material alone is not the test. SR3 means five minutes of resistance to tool category C, which includes a 700mm crowbar, an axe, cold chisels and a scissor jack. SteelR builds its SR3 doors in steel. Whatever a door is made of, composite included, ask the supplier for its LPCB certificate number and check it on RedBook Live.
 
 ### Do security ratings affect my home insurance premium?
 
