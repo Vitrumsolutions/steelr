@@ -7,7 +7,9 @@
 ---
 
 ## ⛔ Tried & rejected — DO NOT re-attempt (standing; loads first)
-- ❌ **Competitor brand names in URLs, H1s, or public copy** — category references only ("UK-made vs imported", never "SteelR vs Gerda"). Brand policy + `feedback_no_competitor_names`.
+- ❌ **Competitor brand names in URLs, H1s, or public copy** — category references only ("UK-made vs imported", never "SteelR vs <brand>"). Brand policy + `feedback_no_competitor_names`. **Exception (owner instruction 2026-11-14): Gerda is now a SUPPLIED brand with its own collection at `/gerda-doors`, so it is named there. It is still never used as a comparison foil against SteelR bespoke.**
+- ❌ **SteelR bespoke claims on Gerda doors** — RC4, LPS 1175, PAS 24, Secured by Design, FD30S, "UK made" and the 8 week lead time describe SteelR bespoke doors only. Gerda doors are RC2/RC3 catalogue doors made in Starachowice, Poland. PAS 24, SBD, fire rating, UK warranty and UK lead time could not be confirmed on any manufacturer source (2026-11-14) and stay off the site until the supplier provides a document. Sourcing notes: header of `src/data/gerda.ts`.
+- ❌ **Publishing the Gerda brochure PDFs** — the Drive copies are Vitrum-branded and print the home address on every page.
 - ❌ **Product schema with an `offers` block, or any displayed price** — breaks the bespoke model and triggers GSC "Missing field price" errors. `$$$$` priceRange is the only acceptable indicator.
 - ❌ **Home address on any public surface** (schema, body, llms, footer, directory) — privacy rule (`feedback_no-home-address`). The GBP address is separate and unaffected.
 - ❌ **Re-opening the lead time** — it is **8 weeks** site-wide per owner (SR4 ~10 wks). Do not revert to 8-12 / 12-20, and do not touch the deliberate "12-20 weeks" competitor-foil references.
@@ -18,7 +20,11 @@
 
 ## Where I left off
 
-**Full visibility re-check + blog cron recovery + brand-guard staged protection (2026-07-03, commit `6fb33ed`).**
+**Gerda collection added (2026-11-14, branch `feat/gerda-collection`).** New hub `/gerda-doors` plus `/gerda-doors/optima-60`, `/gerda-doors/thermo-premium-75`, `/gerda-doors/thermo-prime-75`. 104 door designs with thumbnails, specs, colours, options and FAQs, all copied from the three range brochures in Drive (`Brochures & Paperwork / Vitrum Brochures / Gerda`) and cross-checked against Gerda's own catalogue and declarations of performance. Data: `src/data/gerda.ts`, `src/data/gerda-designs.ts`. Images: `public/images/gerda/` (pre-sized WebP, served unoptimized so they do not use the Vercel image quota). Schema: CollectionPage + ItemList + FAQPage on the hub; Product (brand Gerda, no offers) + FAQPage on each range. Wired into `sitemap.ts`, the footer, `/sitemap`, the `/collection` intro and the IndexNow priority list. Deliberately NOT added to the site-wide Organization schema in `layout.tsx`, which describes bespoke doors only. Not in the top nav: a ninth item overflows the bar between 1024 and about 1230 px.
+
+**Open with owner:** (1) llms.txt / llms-full.txt changes are drafted in `docs/gerda-llms-proposal.md` and NOT applied; they need the `/panel-llms` gate plus approval, and the existing "every door is UK made / made to measure / RC4" lines need scoping to bespoke. (2) Gerda lead time, UK warranty, PAS 24 / SBD status: ask the supplier. (3) Brochure vs manufacturer figure differences are listed in the header of `src/data/gerda.ts`.
+
+**Previous: full visibility re-check + blog cron recovery + brand-guard staged protection (2026-07-03, commit `6fb33ed`).**
 
 **Visibility audit (3 Jul 2026):** Ran fresh captures across all AI surfaces, no login vs logged-in ChatGPT, GSC index state. **AI engines mixed signals:** Perplexity public flipped 0/1 → **3/3 cited** (SteelR named FIRST on "best steel front doors uk", new win). ChatGPT logged-out now search-grounded: 4/5 queries (up from 0 on training-data snapshot). ChatGPT logged-in: 4/8 = 50% (DOWN from 69% on 9 Jun — lost 2 queries: "steel security doors for home uk", "most secure steel front door"; held #1 on bespoke/companies/residential-london). Bing Copilot 0/2 (not in Maps index yet). Google AIO did not trigger. **GSC index regression:** 271 → 122 indexed since mid-June (prune: mostly leaf area pages, 7 blogs, collection doors, Cheshire hub). BUT clicks UP (55 in 28d vs 52 prior 90d); avg position improved 34.6 → 31.8. **Interpretation:** Google crawled heavily; 163 pages now "Crawled - currently not indexed" (low-value URLs, leaf-area strategy owner-deferred, no action). Full audit reports at `audit-data/serp-captures/20260703-*.md`.
 

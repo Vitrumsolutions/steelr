@@ -55,7 +55,7 @@ for (const f of locationFiles) {
 const { lastCommitDate } = makeGitDateReader(ROOT);
 const committed = readJson(OUT, {}).files ?? {};
 const files = {};
-for (const f of [...pages, "src/data/doors.ts", ...locationFiles].sort()) {
+for (const f of [...pages, "src/data/doors.ts", "src/data/gerda.ts", "src/data/gerda-designs.ts", ...locationFiles].sort()) {
   const d = lastCommitDate(f) ?? committed[f] ?? null;
   if (d) files[f] = d;
 }

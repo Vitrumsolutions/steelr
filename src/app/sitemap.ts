@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { doors } from "@/data/doors";
 import { posts } from "@/data/blog";
 import { locations } from "@/data/locations";
+import { gerdaRanges } from "@/data/gerda";
 import pageMtimes from "@/data/page-mtimes.json";
 
 /**
@@ -35,6 +36,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: newest(fileDates("src/app/collection/[slug]/page.tsx", "src/data/doors.ts")),
     changeFrequency: "monthly" as const,
     priority: 0.7,
+  }));
+
+  // Gerda collection: the hub takes its own page date via staticDate below;
+  // the three range pages share one template and one data file.
+  const gerdaRangePages: MetadataRoute.Sitemap = gerdaRanges.map((r) => ({
+    url: `${baseUrl}/gerda-doors/${r.slug}`,
+    lastModified: newest(fileDates("src/app/gerda-doors/[range]/page.tsx", "src/data/gerda.ts", "src/data/gerda-designs.ts")),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
   }));
 
   const locationPages: MetadataRoute.Sitemap = [...locations]
@@ -238,6 +248,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     ...doorPages,
+    {
+      url: `${baseUrl}/gerda-doors`,
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    ...gerdaRangePages,
     {
       url: `${baseUrl}/areas`,
       changeFrequency: "monthly" as const,

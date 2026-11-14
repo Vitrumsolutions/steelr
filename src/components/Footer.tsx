@@ -3,6 +3,7 @@ import Logo from "./Logo";
 
 const footerLinks = [
   { href: "/collection", label: "Collection" },
+  { href: "/gerda-doors", label: "Gerda Collection" },
   { href: "/lookbook", label: "Lookbook" },
   { href: "/areas", label: "Areas" },
   { href: "/about", label: "About" },
