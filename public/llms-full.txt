@@ -2539,21 +2539,21 @@ Front door security ratings explained. SR1 to SR3 compared, LPS 1175 vs BS EN 16
 **Key facts:**
 
 - Understanding the distinction between SR1, SR2 and SR3 is essential for anyone specifying an entrance door for a high-value property.
-- All legitimate door security ratings in the UK and Europe are defined by BS EN 1627:2011, the European standard for resistance to manual attack.
+- SR ratings come from LPS 1175, the Loss Prevention Standard published by BRE Global.
+- RC classes come from BS EN 1627, the European burglar resistance standard.
 - BS EN 1627 defines six resistance classes, designated RC1 through RC6.
-- SR ratings belong to the separate LPS 1175 scheme.
-- SR1 represents the lowest resistance class.
+- LPS 1175 runs from SR1 to SR8.
 
 **FAQs:**
 
 Q: What is the difference between SR and RC security ratings?
-A: They belong to two separate schemes. SR (Security Rating) is the grading used under LPS 1175, the Loss Prevention Standard that the LPCB certifies doors against. RC (Resistance Class) is the grading used under BS EN 1627, the European standard. Each scheme has its own test procedure, so an SR number and an RC number are not interchangeable. A door certified to RC3 is not an SR3 door unless it has also been tested and certified to LPS 1175.
+A: They belong to two separate schemes. SR (Security Rating) is the grading used under LPS 1175, the Loss Prevention Standard that the LPCB certifies doors against. RC (Resistance Class) is the grading used under BS EN 1627, the European standard. Each scheme has its own test procedure, so an SR number and an RC number are not interchangeable. A door certified to RC3 is not an SR3 door unless it has also been tested and certified to LPS 1175 at that rating.
 
 Q: Is PAS 24 good enough for home security?
-A: PAS 24 meets UK Building Regulations and provides a meaningful level of security above untested doors. However, it is broadly comparable to SR2 and does not test resistance to heavy-duty tools such as crowbars, drills and angle grinders. For high-value properties or areas with elevated burglary risk, SR3 provides a substantially higher level of protection.
+A: PAS 24 meets UK Building Regulations and provides a meaningful level of security above untested doors. However, BRE describes it as suited to a burglar working by stealth, who avoids making noise. For high-value properties or areas with elevated burglary risk, SR3 provides a substantially higher level of protection.
 
 Q: Can a timber or composite door achieve SR3?
-A: No. As of 2026, no timber or composite doorset has achieved SR3 certification under BS EN 1627. The material density and structural integrity required to resist the SR3 tool set and attack duration necessitates steel construction. Premium timber and composite doors can achieve SR2 or PAS 24, but SR3 remains exclusive to steel.
+A: A timber doorset can. RedBook Live, the LPCB's public register, lists timber security doorsets at LPS 1175 SR3, so the material alone is not the test. SR3 means five minutes of resistance to tool category C, which includes a 700mm crowbar, an axe, cold chisels and a scissor jack. SteelR builds its SR3 doors in steel. Whatever a door is made of, composite included, ask the supplier for its LPCB certificate number and check it on RedBook Live.
 
 Q: Do security ratings affect my home insurance premium?
 A: Many UK insurers recognise SR-rated doors, particularly at the SR3 level, and may offer reduced premiums or enhanced cover terms for high-value properties. The specific benefit varies between insurers, so it is advisable to check with your provider before making a specification decision.
@@ -2561,7 +2561,7 @@ A: Many UK insurers recognise SR-rated doors, particularly at the SR3 level, and
 Q: How long does an SR3-rated door maintain its certification?
 A: The SR3 certification applies to the doorset as manufactured and installed to the tested specification. Provided the door is maintained according to the manufacturer's guidelines and no modifications are made to the locking system, frame or glazing, the security rating remains valid for the lifetime of the installation. Manufacturing consistency is assured through ISO 9001 quality management systems.
 
-Every door manufacturer describes their product as "secure." The difference is whether that claim has been independently verified to a recognised European standard. Front door security ratings provide an objective, comparable measure of how well a door resists forced entry, and not all ratings are equal.
+Every door manufacturer describes their product as "secure." The difference is whether that claim has been independently verified to a recognised standard. Front door security ratings provide an objective, comparable measure of how well a door resists forced entry, and not all ratings are equal.
 
 **Related:**
 
